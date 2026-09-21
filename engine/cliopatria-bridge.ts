@@ -1,5 +1,5 @@
 import type {WorldState,HistoricalSyncState} from './types';
-import {queryCliopatriaYear} from './cliopatria';
+import {queryCliopatriaYear} from '../lib/cliopatria';
 
 const normalize=(v:unknown)=>String(v??'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const first=(p:Record<string,unknown>,keys:string[])=>{for(const k of keys){if(p[k]!==undefined&&p[k]!==null&&String(p[k]).trim())return String(p[k]);}return '';};
