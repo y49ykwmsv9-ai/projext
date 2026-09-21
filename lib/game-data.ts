@@ -1,7 +1,7 @@
 export type NationState = {
  id:string; name:string; population:number; gdp:number; industry:number; stability:number;
  military:number; relations:number; government:'democracy'|'monarchy'|'republic'|'dictatorship'|'communist'|'colonial'|'theocracy'|'occupied';
- capital:string; urbanization:number; literacy:number; resourcePotential:number; manpowerRate:number; ideology:string; resources:Record<string,number>; politicalGoals:string[]; resources:Record<string,number>; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
+ capital:string; urbanization:number; literacy:number; resourcePotential:number; manpowerRate:number; ideology:string; resources:Record<string,number>; politicalGoals:string[]; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
 };
 
 type Profile=Partial<Omit<NationState,'resources'|'resourcePotential'>> & {resources?:number;resourcePotential?:number;resourcesMap?:Record<string,number>};
