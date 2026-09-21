@@ -1,7 +1,7 @@
 import {WorldState,Nation,MapEntity,EconomicState,MilitaryState,DiplomaticState} from './types';
 
 export function createWorldState(date='1936-01-01',seed=19360101):WorldState{
- return {date,tick:0,playerNation:undefined,nations:{},mapEntities:{},units:{},treaties:{},events:[],news:[],political:{identities:{},borderHistory:[],mapRevision:0},seed,economy:{},military:{},diplomacy:{},scenario:{presetId:'sandbox',presetDate:date,branchId:'branch-'+seed+'-'+date.replace(/-/g,''),divergence:0,historyLog:[],historicalTrackers:{},lastAdvanceDays:0,catalysts:{active:[],recent:[]}}};
+ return {date,tick:0,playerNation:undefined,nations:{},mapEntities:{},units:{},treaties:{},events:[],news:[],political:{identities:{},borderHistory:[],mapRevision:0},seed,economy:{},military:{},diplomacy:{},scenario:{presetId:'sandbox',presetDate:date,branchId:'branch-'+seed+'-'+date.replace(/-/g,''),divergence:0,historyLog:[],historicalTrackers:{},lastAdvanceDays:0,catalysts:{active:[],recent:[]}},historicalSync:{year:Number(date.slice(0,4)),source:'Cliopatria v0.2.0',activePolityCount:0,matchedNationCount:0,unmatchedPolityCount:0,activePolityIds:[],nationPresence:{},updatedAt:date}};
 }
 
 export function ensureNationSystems(state:WorldState,nation:Nation):void{
