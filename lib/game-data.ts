@@ -90,7 +90,7 @@ export function makeNation(id:string,name:string):NationState{
   capital:a.capital??(name.split(/[, ]+/)[0]||name),
   urbanization:a.urbanization??bounded(7+h%65,5,78),
   literacy:a.literacy??bounded(18+h%76,8,98),
-  resources:a.resources??bounded(25+h%71,15,96),
+  resourcePotential:typeof a.resources==='number'?a.resources:50,
   manpowerRate:a.manpowerRate??bounded(.16+(h%13)/100,.15,.29),
   ideology:a.ideology??(a.government==='communist'?'State socialism':a.government==='dictatorship'?'Authoritarian nationalism':a.government==='monarchy'?'Constitutional/royal': 'Liberal republicanism'),
   politicalGoals:a.politicalGoals??['Preserve sovereignty','Develop national economy','Strengthen institutions'],
