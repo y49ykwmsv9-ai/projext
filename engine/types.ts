@@ -27,7 +27,7 @@ export interface CausalCatalyst{ id:string;kind:'command'|'war'|'diplomacy'|'eco
 export interface ScenarioState{presetId:string;presetDate:DateKey;branchId:string;parentBranchId?:string;divergence:number;historyLog:string[];historicalTrackers:Record<string,number>;lastAdvanceDays?:number;catalysts?:{active:CausalCatalyst[];recent:CausalCatalyst[]};} 
 export interface WorldState{
  date:DateKey; tick:number; playerNation?:EntityId; nations:Record<EntityId,Nation>; mapEntities:Record<EntityId,MapEntity>; units:Record<EntityId,ArmyUnit>; treaties:Record<EntityId,Treaty>; events:EventState[]; news:NewsItem[]; political:PoliticalVisualState; seed:number;
- economy:Record<EntityId,EconomicState>; military:Record<EntityId,MilitaryState>; diplomacy:Record<EntityId,DiplomaticState>; scenario:ScenarioState;
+ economy:Record<EntityId,EconomicState>; military:Record<EntityId,MilitaryState>; diplomacy:Record<EntityId,DiplomaticState>; scenario:ScenarioState; historicalSync?:HistoricalSyncState;
 }
 export interface HistoricalSyncState {
  year:number;
