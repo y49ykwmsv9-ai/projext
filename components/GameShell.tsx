@@ -106,20 +106,19 @@ export default function GameShell(){
   setWorldState(next);
   advancingRef.current=false;
  }
-function skipToMajor(){
- setPaused(true);
- let found=false;
- setWorldState(s=>{
-  let next=structuredClone(s);
-  for(let i=0;i<104&&!found;i++){
-   const before=next.news.map(n=>n.id);
-   next=advanceWorld(next,7);
-   const fresh=next.news.filter(n=>!before.includes(n.id));
-   if(fresh.some(n=>n.importance>=6))found=true;
-  }
-  return next;
- });
+async function skipToMajor(){
+ if(advancingRef.current)return;
+ advancingRef.current=true;setPaused(true);
+ let next=structuredClone(worldState),found=false;
+ for(let i=0;i<104&&!found;i++){
+  const before=next.news.map(n=>n.id);
+  next=await advanceWorldWithData(next,7);
+  const fresh=next.news.filter(n=>!before.includes(n.id));
+  if(fresh.some(n=>n.importance>=6))found=true;
+ }
+ setWorldState(next);
  setLog(x=>[found?'Jumped to the next major development.':'No major development found in the next 2 years.',...x].slice(0,12));
+ advancingRef.current=false;
 }
 function advanceBy(days:number){if(!Number.isFinite(days)||days<=0)return;setPaused(true);advanceAndInspect(days);setLog(x=>['Advanced '+Math.round(days)+' days.',...x].slice(0,12));}
  function selectCountry(id:string,name:string){
