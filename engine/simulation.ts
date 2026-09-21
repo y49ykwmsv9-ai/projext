@@ -3,14 +3,21 @@ import {ensureNationSystems} from './state';
 import {runWorldSystems,generateDynamicEvents,processCommandCatalysts} from './systems';
 
 export function syncPoliticalMap(state:WorldState):void{
+ const propagate=(parentId:string,owner:string,controller:string)=>{
+  const parent=state.mapEntities[parentId];if(!parent)return;
+  for(const childId of parent.children){
+   const child=state.mapEntities[childId];if(!child)continue;
+   if(child.owner===parentId||child.owner===parent.owner)child.owner=owner;
+   if(child.controller===parentId||child.controller===parent.controller)child.controller=controller;
+   propagate(child.id,child.owner,child.controller);
+  }
+ };
  for(const nation of Object.values(state.nations)){
   const old=state.political.identities[nation.id];
   if(!old)state.political.identities[nation.id]={entityId:nation.id,name:nation.name,flagKey:'generated-'+nation.id,colorKey:'nation-'+nation.id,capital:nation.capital,government:nation.government};
   else {old.name=nation.name;old.capital=nation.capital;old.government=nation.government;}
   const root=state.mapEntities[nation.id];
-  if(root){
-   for(const childId of root.children){const child=state.mapEntities[childId];if(!child)continue;if(child.owner===nation.id||child.owner===root.owner){child.owner=nation.id;}if(child.controller===nation.id||child.controller===root.controller){child.controller=nation.id;}}
-  }
+  if(root)propagate(root.id,root.owner,root.controller);
   ensureNationSystems(state,nation);
  }
  state.political.mapRevision+=1;
@@ -54,6 +61,15 @@ export function applyEventEffects(state:WorldState,eventId:string,option=0):{ok:
   if(e.kind==='rename'&&e.target&&state.nations[e.target]&&e.name)state.nations[e.target].name=e.name;
   if(e.kind==='flag'&&e.target&&state.political.identities[e.target]&&e.name)state.political.identities[e.target].flagKey=e.name;
   if(e.kind==='color'&&e.target&&state.political.identities[e.target]&&e.name)state.political.identities[e.target].colorKey=e.name;
+  if(e.kind==='historicalPressure'&&e.target){
+   const recordId=String(e.data?.recordId??event.historicalRecordId??event.id);
+   state.scenario.historicalTrackers[recordId]=(state.scenario.historicalTrackers[recordId]??0)+(e.value??0);
+   const target=state.nations[e.target];
+   if(target){
+    target.legitimacy=Math.max(0,Math.min(100,target.legitimacy+(option===0?.25:-.25)));
+    target.stability=Math.max(0,Math.min(100,target.stability+(option===0?.1:-.2)));
+   }
+  }
  }
  event.resolved=true; pushNewsForResolution(state,event,option); syncPoliticalMap(state); return {ok:true,message:event.title+' resolved.'};
 }
