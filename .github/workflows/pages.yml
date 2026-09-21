@@ -28,6 +28,11 @@ jobs:
         with:
           node-version: 22
           package-manager-cache: false
+      - name: Cache Cliopatria source archive
+        uses: actions/cache@v4
+        with:
+          path: .cache/cliopatria
+          key: worldforge-cliopatria-v0.2.0
       - name: Install dependencies
         run: npm install
       - name: Build static game
