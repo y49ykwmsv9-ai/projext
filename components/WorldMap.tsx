@@ -34,6 +34,8 @@ type Props={
 export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures,historicalFeatures,selectedNationId,selectedRegion,onCountrySelect,onRegionSelect,onZoomChange}:Props){
  const el=useRef<HTMLDivElement|null>(null);
  const mapRef=useRef<maplibregl.Map|null>(null);
+ const countrySelectRef=useRef(onCountrySelect); const regionSelectRef=useRef(onRegionSelect); const zoomChangeRef=useRef(onZoomChange);
+ countrySelectRef.current=onCountrySelect; regionSelectRef.current=onRegionSelect; zoomChangeRef.current=onZoomChange;
  const colorMap=useMemo(()=>{
   const out:Record<string,string>={};
   for(const f of countryFeatures){
@@ -49,7 +51,7 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
 
  useEffect(()=>{
   if(!el.current||mapRef.current)return;
-  const map=new maplibregl.Map({container:el.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:true,dragRotate:false,pitchWithRotate:false,attributionControl:true});
+  const map=new maplibregl.Map({container:el.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:true,dragRotate:false,pitchWithRotate:false,attributionControl:undefined});
   mapRef.current=map;
   map.addControl(new maplibregl.NavigationControl({showCompass:false}), 'bottom-right');
   map.on('load',()=>{
@@ -62,14 +64,14 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
    map.addSource('wf-cities',{type:'geojson',data:{type:'FeatureCollection',features:cityFeatures}});
    map.addLayer({id:'wf-city-points',type:'circle',source:'wf-cities',minzoom:5,paint:{'circle-radius':['interpolate',['linear'],['zoom'],5,2,10,3.2,16,5.5,21,7],'circle-color':'#f0d486','circle-stroke-color':'#111820','circle-stroke-width':1,'circle-opacity':.9}});
    map.addLayer({id:'wf-city-labels',type:'symbol',source:'wf-cities',minzoom:6,layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],6,9,12,12,18,15,22,18],'text-offset':[0,1.05],'text-anchor':'top'},paint:{'text-color':'#f3e9c5','text-halo-color':'#101820','text-halo-width':1.3}});
-   map.on('click','wf-countries',(e:any)=>{const f=e.features?.[0];if(!f)return;onCountrySelect(String(f.properties?.__wf_id??f.id),String(f.properties?.name??'Unknown'));});
-   map.on('click','wf-admin1',(e:any)=>{const f=e.features?.[0];const p=f?.properties??{};const rid='admin1-'+String(p.adm1_code??p.code??f?.id??'').replace(/[^a-zA-Z0-9_-]/g,'-');if(rid)onRegionSelect(rid);});
+   map.on('click','wf-countries',(e:any)=>{const f=e.features?.[0];if(!f)return;countrySelectRef.current(String(f.properties?.__wf_id??f.id),String(f.properties?.name??'Unknown'));});
+   map.on('click','wf-admin1',(e:any)=>{const f=e.features?.[0];const p=f?.properties??{};const rid='admin1-'+String(p.adm1_code??p.code??f?.id??'').replace(/[^a-zA-Z0-9_-]/g,'-');if(rid)regionSelectRef.current(rid);});
    map.on('mouseenter','wf-countries',()=>{map.getCanvas().style.cursor='pointer'});
    map.on('mouseleave','wf-countries',()=>{map.getCanvas().style.cursor=''});
    map.on('mouseenter','wf-admin1',()=>{map.getCanvas().style.cursor='crosshair'});
    map.on('mouseleave','wf-admin1',()=>{map.getCanvas().style.cursor=''});
   });
-  const report=()=>onZoomChange?.(map.getZoom());
+  const report=()=>zoomChangeRef.current?.(map.getZoom());
   map.on('zoomend',report);
   return()=>{map.remove();mapRef.current=null};
  },[]);
