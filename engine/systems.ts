@@ -75,7 +75,7 @@ export function runMilitary(state:WorldState,days:number):void{
    if(u.target&&state.nations[u.target]&&u.order==='move'){
     const target=state.nations[u.target];
     if(n.wars.includes(target.id)){u.territory=target.id;u.status='engaged';u.order='attack';}
-    else if(n.relations[target.id]??0>20){u.territory=target.id;u.status='moving';}
+    else if((n.relations[target.id]??0)>20){u.territory=target.id;u.status='moving';}
    }
    u.strength=Math.max(0,u.strength-(u.status==='undersupplied'?u.strength*.00008:0)*days);
   }
