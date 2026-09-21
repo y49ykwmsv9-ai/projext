@@ -6,9 +6,12 @@ function dateAdd(date:string,days:number){const d=new Date(date+'T00:00:00Z');d.
 function hash(s:string){let h=2166136261;for(const ch of s){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0;}
 function rng(state:WorldState,key:string){const x=hash(state.seed+'|'+state.tick+'|'+state.date+'|'+key);return x/4294967296;}
 function pushNews(state:WorldState,item:Omit<NewsItem,'id'>){
+ const mentioned=new Set(item.mentionedNations??[]);
+ const corpus=(item.title+' '+item.summary).toLowerCase();
+ for(const n of Object.values(state.nations))if(corpus.includes(n.name.toLowerCase()))mentioned.add(n.id);
  const id='news-'+hash(item.date+'|'+item.title+'|'+item.summary+'|'+item.source);
  if(state.news.some(n=>n.id===id))return;
- state.news.unshift({...item,id});
+ state.news.unshift({...item,id,mentionedNations:Array.from(mentioned)});
  state.news=state.news.slice(0,80);
 }
 function pushEvent(state:WorldState,event:EventState){
@@ -61,29 +64,36 @@ export function runDiplomacy(state:WorldState):void{for(const n of Object.values
 
 
 type CatalystKind='command'|'war'|'diplomacy'|'economy'|'military'|'social'|'territory';
-interface Catalyst{ id:string; kind:CatalystKind; source:string; strength:number; expires:number; tags:string[]; }
-const catalysts=new Map<string,Catalyst[]>();
-function emitCatalyst(state:WorldState,kind:CatalystKind,source:string,strength:number,tags:string[]=[]){const key=state.scenario.branchId;const list=catalysts.get(key)??[];list.push({id:state.tick+'-'+source,kind,source,strength,expires:state.tick+Math.max(2,Math.ceil(120/Math.max(1,strength))),tags});catalysts.set(key,list.slice(-120));}
-function activeCatalysts(state:WorldState){return (catalysts.get(state.scenario.branchId)??[]).filter(x=>x.expires>=state.tick);}
-function branchEntropy(state:WorldState){return Math.min(1,state.scenario.divergence/100 + activeCatalysts(state).reduce((s,c)=>s+c.strength,0)/1000);}
+function emitCatalyst(state:WorldState,kind:CatalystKind,source:string,strength:number,tags:string[]=[],sourceNation?:string,targetNation?:string){
+ const scenario=state.scenario.catalysts??{active:[],recent:[]};
+ const parent=scenario.active.length?scenario.active[scenario.active.length-1]:undefined;
+ const c={id:state.tick+'-'+hash(source+'|'+state.date+'|'+sourceNation+'|'+targetNation),kind,source,sourceNation,targetNation,strength,expires:state.tick+Math.max(2,Math.ceil(120/Math.max(1,strength))),tags,createdDate:state.date,causalDepth:(parent?.causalDepth??0)+1,parentCatalystId:parent?.id};
+ scenario.active=[...scenario.active,c].slice(-120);scenario.recent=[...scenario.recent,c].slice(-240);state.scenario.catalysts=scenario;
+}
+function activeCatalysts(state:WorldState){const cs=state.scenario.catalysts?.active??[];return cs.filter(x=>x.expires>=state.tick);}
+function branchEntropy(state:WorldState){return Math.min(1,state.scenario.divergence/100+activeCatalysts(state).reduce((s,c)=>s+c.strength,0)/1000);}
 function catalystEventPass(state:WorldState,days:number){
  const p=state.playerNation?state.nations[state.playerNation]:undefined;if(!p)return;
- const cs=activeCatalysts(state), pressure=cs.reduce((s,c)=>s+c.strength,0), count=Math.min(8,Math.floor(pressure/18));
+ const cs=activeCatalysts(state);if(!cs.length)return;
+ const pressure=cs.reduce((s,c)=>s+c.strength,0),count=Math.min(8,Math.floor(pressure/18));
  for(let i=0;i<count;i++){
-  const c=cs[(state.tick+i)%cs.length]; if(!c)continue;
-  const roll=rng(state,'catalyst-graph-'+c.id+'-'+i); if(roll>.18+branchEntropy(state)*.55+Math.min(.2,days/365))continue;
-  const target=Object.values(state.nations).filter(n=>n.id!==p.id)[(i+state.tick)%Math.max(1,Object.keys(state.nations).length-1)];if(!target)continue;
+  const c=cs[(state.tick+i)%cs.length];if(!c)continue;
+  const roll=rng(state,'catalyst-graph-'+c.id+'-'+i);if(roll>.18+branchEntropy(state)*.55+Math.min(.2,days/365))continue;
+  const candidates=Object.values(state.nations).filter(n=>n.id!==p.id);
+  const target=c.targetNation?state.nations[c.targetNation]:candidates[(i+state.tick)%Math.max(1,candidates.length)];if(!target)continue;
   const family=c.tags[i%Math.max(1,c.tags.length)]??c.kind;
   const title=family==='war'?'Regional military reaction':family==='diplomacy'?'Diplomatic realignment':family==='economy'?'Economic spillover':family==='social'?'Domestic political reaction':family==='territory'?'Territorial dispute':'Strategic policy reaction';
-  pushNews(state,{date:state.date,title,summary:target.name+' and other actors are reacting to a developing situation created by recent events. The exact outcome remains open to subsequent decisions.',category:family==='war'?'military':family==='economy'?'economic':family==='diplomacy'?'diplomatic':family==='social'?'social':'political',importance:4+Math.min(3,c.strength),relatedNation:target.id,source:'ai'});
+  const category:any=family==='war'?'military':family==='economy'?'economic':family==='diplomacy'?'diplomatic':family==='social'?'social':'political';
+  pushNews(state,{date:state.date,title,summary:target.name+' and other actors are reacting to a developing situation created by recent events. The exact outcome remains open to subsequent decisions.',category,importance:4+Math.min(3,c.strength),relatedNation:target.id,mentionedNations:Array.from(new Set([target.id,c.sourceNation].filter(Boolean) as string[])),source:'ai'});
   if(roll<.34){target.stability=clamp(target.stability-(1+c.strength*.03));target.relations[p.id]=clamp((target.relations[p.id]??0)-(c.kind==='war'?3:1),-100,100);}
  }
+ state.scenario.catalysts!.active=cs.slice(-120);
 }
 
 function catalystChance(state:WorldState,base:number,days:number){const player=state.playerNation?state.nations[state.playerNation]:undefined;const instability=player?(100-player.stability)/100:0;const war=player?player.wars.length/3:0;const divergence=state.scenario.divergence/100;return Math.min(.95,base*(1+Math.log2(Math.max(1,days))/2+instability*.8+war*.5+divergence*.35));}
 
 export function processCommandCatalysts(state:WorldState,command:string,player:string):void{
- emitCatalyst(state,command.startsWith('war ')?'war':command.startsWith('ally ')||command.startsWith('relations ')||command.startsWith('sanction')||command.startsWith('trade')?'diplomacy':command.startsWith('tax ')||command.startsWith('build ')?'economy':command.startsWith('mobilize')||command.startsWith('recruit')||command.startsWith('deploy')||command.startsWith('move ')?'military':'command',command,command.startsWith('war ')?8:4,['war','diplomacy','economy','military','social','territory']);
+ emitCatalyst(state,command.startsWith('war ')?'war':command.startsWith('ally ')||command.startsWith('relations ')||command.startsWith('sanction')||command.startsWith('trade')?'diplomacy':command.startsWith('tax ')||command.startsWith('build ')?'economy':command.startsWith('mobilize')||command.startsWith('recruit')||command.startsWith('deploy')||command.startsWith('move ')?'military':'command',command,command.startsWith('war ')?8:4,['war','diplomacy','economy','military','social','territory'],player,Object.keys(state.nations).find(id=>command.toLowerCase().includes(state.nations[id].name.toLowerCase())));
  const n=state.nations[player];if(!n)return;const q=command.toLowerCase();
  const add=(id:string,title:string,description:string,category:any,importance:number,options:string[],effects:any[])=>pushEvent(state,{id,date:state.date,title,description,category,importance,severity:Math.max(1,Math.ceil(importance/2)),source:'ai',options,resolved:false,effects,expires:dateAdd(state.date,45)});
  if(q.startsWith('war ')){const target=q.slice(4);add('catalyst-war-'+state.tick,'Foreign intelligence alert','The declaration has immediately altered threat calculations. Neighboring governments are reassessing readiness, alliances and trade.', 'military',7,['Issue mobilization','Seek diplomatic containment'],[{kind:'mobilization',target:n.id,value:8,data:{option:0}},{kind:'relation',target:Object.keys(state.nations).find(id=>id!==n.id),value:-6,data:{option:0}}]);}
