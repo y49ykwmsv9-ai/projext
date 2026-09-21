@@ -1,3 +1,5 @@
+import {getWorldProfile} from './world-database';
+
 export type NationState = {
  id:string; name:string; population:number; gdp:number; industry:number; stability:number;
  military:number; relations:number; government:'democracy'|'monarchy'|'republic'|'dictatorship'|'communist'|'colonial'|'theocracy'|'occupied';
@@ -77,7 +79,7 @@ function inferredGovernment(name:string):NationState['government']{
  return 'republic';
 }
 export function makeNation(id:string,name:string):NationState{
- const a={...(anchors[id]??{}),...(strategicCatalog[id]??{})},h=hash(id);
+ const db=getWorldProfile(id,name), a={...(anchors[id]??{}),...(db?{name:db.name,capital:db.capital,government:db.government,majorCities:db.cities,strategicRegions:[db.region+' Core',db.region+' Frontier'],historicalNotes:(db.notes??('Bundled world database profile for '+db.name+'.'))}:{}),...(strategicCatalog[id]??{})},h=hash(id);
  const resourcePotential=typeof a.resources==='number'?a.resources:50;
  const population=a.population??bounded(.35+(h%180)/2.2,.4,90);
  const gdp=a.gdp??bounded(.5+(h%500)/12,.5,50);
@@ -95,8 +97,8 @@ export function makeNation(id:string,name:string):NationState{
   ideology:a.ideology??(a.government==='communist'?'State socialism':a.government==='dictatorship'?'Authoritarian nationalism':a.government==='monarchy'?'Constitutional/royal': 'Liberal republicanism'),
   politicalGoals:a.politicalGoals??['Preserve sovereignty','Develop national economy','Strengthen institutions'],
   resources:a.resourcesMap??{coal:Math.round((a.resources??50)*.8),iron:Math.round((a.resources??50)*.55),oil:Math.round((a.resources??50)*.35),food:Math.round((a.resources??50)*1.1)},
-  strategicRegions:a.strategicRegions??[name+' Core Territory'],
-  majorCities:a.majorCities??[a.capital??(name.split(/[, ]+/)[0]||name)],
+  strategicRegions:a.strategicRegions??(db?[db.region+' Core',db.region+' Frontier']:[name+' Core Territory']),
+  majorCities:a.majorCities??db?.cities??[a.capital??(name.split(/[, ]+/)[0]||name)],
   historicalNotes:a.historicalNotes??('Baseline strategic profile for '+name+'.')
  };
 }
