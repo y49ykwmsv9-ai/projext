@@ -11,9 +11,18 @@ function articleFor(state:WorldState,item:Omit<NewsItem,'id'>):NewsItem['article
  const actors=(item.mentionedNations??[]).map(id=>state.nations[id]?.name).filter(Boolean) as string[];
  const actorText=actors.length?actors.join(', '):'the governments and institutions involved';
  const lead=sentence(item.summary);
- const context=sentence(`The development is being assessed in the context of the wider ${item.category} situation. Current conditions, previous decisions and the actions of other actors may alter how the situation develops from here`);
- const implications=sentence(`For ${actorText}, the immediate significance is therefore practical rather than merely symbolic. Officials will have to weigh available resources, domestic pressures, foreign reactions and the possibility of further developments before deciding what comes next`);
- return {headline:item.title,dateline:item.date+' · WORLD DESK',lead,paragraphs:[lead,context,implications]};
+ const categoryContext:Record<string,string>={
+  military:'Military staffs are assessing the development against readiness, logistics, manpower and the disposition of forces already committed to the theatre. Changes in control, supply or war support can alter the practical balance even when the front itself appears quiet.',
+  diplomatic:'Diplomatic officials are weighing the development against existing relations, alliances, sanctions and competing foreign commitments. The immediate announcement may be only the first step in a longer negotiation, while other governments retain room to respond.',
+  economic:'Economic ministries are assessing the consequences for production, treasury balances, trade and domestic stability. The effect depends on implementation, available resources and the reactions of firms, households and foreign markets.',
+  political:'Political authorities are assessing the development against legitimacy, public stability, institutional pressures and competing policy objectives. The decision may therefore create secondary pressures beyond its immediate administrative effect.',
+  social:'Domestic institutions are assessing the development through its effects on population, public confidence, employment and social stability. Local conditions and implementation capacity will shape how widely the consequences are felt.',
+  historical:'The development is being interpreted alongside the historical conditions represented in the simulation. Those records provide context and pressure, but they do not determine the outcome of this branch.'
+ };
+ const context=sentence(categoryContext[item.category]??'Officials are assessing the development in the wider international and domestic context. Existing commitments, resources and previous decisions may influence the next stage');
+ const consequence=sentence('For '+actorText+', the immediate question is what changes in practice. The actors involved will have to balance available resources, domestic pressures and the reactions of other governments while deciding whether to reinforce, revise or abandon the course now underway');
+ const uncertainty=sentence('No single outcome is fixed by this report. Further orders, military developments, diplomatic responses, economic conditions and unexpected events can redirect the situation before the next major decision point');
+ return {headline:item.title,dateline:item.date+' · WORLD DESK',lead,paragraphs:[lead,context,consequence,uncertainty]};
 }
 function pushNews(state:WorldState,item:Omit<NewsItem,'id'>){
  const mentioned=new Set(item.mentionedNations??[]);
