@@ -34,3 +34,5 @@
 
 .news-filters{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0 12px}.news-filters button{font-size:9px;padding:6px 8px}.news-filters button:hover{color:var(--accent)}
 .timeline-legend{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 12px;color:var(--muted);font-size:9px}.timeline-legend span:first-child{color:var(--accent)}
+
+.diplomacy-chat{margin-top:12px;border:1px solid var(--line);background:#0a1319;padding:9px}.diplomacy-chat label{display:grid;gap:5px;color:var(--muted);font-size:9px}.diplomacy-chat select,.chat-compose input{background:#101a21;color:var(--text);border:1px solid var(--line);padding:8px}.chat-log{display:grid;gap:5px;max-height:180px;overflow:auto;margin:9px 0}.chat-line{display:grid;gap:2px;padding:7px;background:#0e181f;font-size:10px}.chat-line b{color:var(--accent);font-size:9px}.chat-line span{color:#c0cbd0;line-height:1.4}.chat-compose{display:flex;gap:5px}.chat-compose input{min-width:0;flex:1}.advisor-box{border:1px solid var(--line);background:#0b151b;padding:10px;margin:10px 0}.advisor-box p{color:#bdc7cc;font-size:11px;line-height:1.5}
