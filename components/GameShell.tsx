@@ -35,7 +35,7 @@ export default function GameShell(){
  const [command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
  const [saves,setSaves]=useState<{name:string;date:string;state:WorldState}[]>([]);
  const [presetName,setPresetName]=useState(''),[presetDate,setPresetDate]=useState(START_DATE),[presetNation,setPresetNation]=useState('840');
- const [showMenu,setShowMenu]=useState(false),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0});
+ const [showMenu,setShowMenu]=useState(false),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[mapMode,setMapMode]=useState<'political'|'economy'|'military'|'resources'>('political');
  const svgRef=useRef<SVGSVGElement|null>(null);
  const drag=useRef<{id:number;x:number;y:number;px:number;py:number}|null>(null);
  const pinch=useRef<{distance:number;zoom:number}|null>(null);
@@ -60,9 +60,10 @@ export default function GameShell(){
  const builtInPresets:Preset[]=[{id:'builtin-1936',name:'The World · 1936',description:'Baseline pre-war campaign',date:'1936-01-01',playerNation:'840',state:seedWorld('1936-01-01','840')},{id:'builtin-1939',name:'The World · 1939',description:'Late pre-war campaign',date:'1939-09-01',playerNation:'826',state:seedWorld('1939-09-01','826')},{id:'builtin-1941',name:'The World · 1941',description:'Global-war campaign',date:'1941-06-22',playerNation:'643',state:seedWorld('1941-06-22','643')},{id:'builtin-czech',name:'Czechoslovakia · 1941',description:'Alternate-history Central European campaign',date:'1941-11-13',playerNation:'203',state:seedWorld('1941-11-13','203')}];
  function startPreset(p:Preset){enter(structuredClone(p.state))}
  function onWheel(e:React.WheelEvent){e.preventDefault();const next=Math.max(.7,Math.min(5,zoom*(e.deltaY<0?1.12:.89)));setZoom(next)}
- function onPointerDown(e:React.PointerEvent<SVGSVGElement>){e.currentTarget.setPointerCapture(e.pointerId);drag.current={id:e.pointerId,x:e.clientX,y:e.clientY,px:pan.x,py:pan.y}}
- function onPointerMove(e:React.PointerEvent<SVGSVGElement>){if(!drag.current||drag.current.id!==e.pointerId)return;setPan({x:drag.current.px+e.clientX-drag.current.x,y:drag.current.py+e.clientY-drag.current.y})}
- function onPointerUp(){drag.current=null}
+ const pointers=useRef<Map<number,{x:number;y:number}>>(new Map());
+ function onPointerDown(e:React.PointerEvent<SVGSVGElement>){e.currentTarget.setPointerCapture(e.pointerId);pointers.current.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.current.size===1)drag.current={id:e.pointerId,x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};if(pointers.current.size===2){const p=[...pointers.current.values()];pinch.current={distance:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y),zoom}}
+ function onPointerMove(e:React.PointerEvent<SVGSVGElement>){pointers.current.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.current.size===2&&pinch.current){const p=[...pointers.current.values()];const d=Math.max(1,Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y));setZoom(Math.max(.7,Math.min(5,pinch.current.zoom*d/pinch.current.distance)));return}if(!drag.current||drag.current.id!==e.pointerId)return;setPan({x:drag.current.px+e.clientX-drag.current.x,y:drag.current.py+e.clientY-drag.current.y})}
+ function onPointerUp(e?:React.PointerEvent<SVGSVGElement>){if(e)pointers.current.delete(e.pointerId);if(pointers.current.size<2)pinch.current=null;if(pointers.current.size===0)drag.current=null}
  function distance(a:PointerEvent,b:PointerEvent){return Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY)}
  function detail(){
   if(!nation)return <div className='empty-panel'>Select a country directly on the map.</div>;
@@ -88,7 +89,7 @@ export default function GameShell(){
    </g>
   </svg>
   <header className='floating top-controls'><button onClick={()=>setShowMenu(!showMenu)}>☰</button><div><div className='eyebrow'>WORLDFORGE · {tab.toUpperCase()}</div><strong>{worldState.date}</strong></div><div className='time-controls'><button onClick={()=>setPaused(!paused)}>{paused?'▶':'Ⅱ'}</button><select value={speed} onChange={e=>setSpeed(+e.target.value)}>{speeds.map(x=><option key={x} value={x}>{x}×</option>)}</select><button onClick={save}>Save</button></div></header>
-  <div className='floating map-hint'>Pinch or scroll to zoom · drag to pan · tap a country to select</div>
+  <div className='floating map-hint'>Pinch / scroll to zoom · drag to pan · tap a country or region</div><div className='floating map-modes'>{(['political','economy','military','resources'] as const).map(m=><button className={mapMode===m?'active':''} onClick={()=>setMapMode(m)} key={m}>{m}</button>)}</div>
   <nav className='floating tab-dock'>{tabs.map(t=><button className={tab===t?'active':''} onClick={()=>setTab(t)} key={t}>{t}</button>)}</nav>
   {showMenu&&<div className='floating menu-pop'><button onClick={()=>setScreen('launcher')}>Campaign / Presets</button><button onClick={save}>Save Campaign</button><button onClick={()=>setShowMenu(false)}>Close</button></div>}
   {selected&&<aside className='floating info-panel'><div className='panel-title'><div><div className='eyebrow'>PLAYER POLITY</div><h2>{nation?.name}</h2></div><button onClick={()=>setSelected(null)}>×</button></div>{detail()}</aside>}
