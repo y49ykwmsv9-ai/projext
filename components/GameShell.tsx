@@ -33,19 +33,22 @@ export default function GameShell(){
  const [paused,setPaused]=useState(true),[speed,setSpeed]=useState(1),[tab,setTab]=useState('Overview');
  const [view,setView]=useState<'world'|'country'>('world'),[countryView,setCountryView]=useState('840'),[command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
  const [saveReady,setSaveReady]=useState(false);
+ useEffect(()=>{try{const raw=localStorage.getItem('worldforge-save');if(raw){const parsed=JSON.parse(raw) as WorldState;setWorldState(parsed);setSaveReady(true);setLog(x=>['Local game restored automatically.',...x]);}}catch{}},[]);
+ useEffect(()=>{try{localStorage.setItem('worldforge-autosave',JSON.stringify(worldState));}catch{}},[worldState]);
  const W=1100,H=560;
  const countryFeatures=countryView==='840'?counties:[];
- const projection=useMemo(()=>view==='country'?geoAlbersUsa1().fitSize([W,H],{type:'FeatureCollection',features:countryFeatures} as any):geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:countries} as any),[view,countryView]);
+ const projection=useMemo(()=>view==='country'?geoAlbersUsa().fitSize([W,H],{type:'FeatureCollection',features:countryFeatures} as any):geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:countries} as any),[view,countryView]);
  const path=useMemo(()=>geoPath(projection),[projection]);
  useEffect(()=>{if(paused)return;const id=setInterval(()=>setWorldState(s=>advanceWorld(s,speed)),650);return()=>clearInterval(id)},[paused,speed]);
 
  function selectCountry(id:string,name:string){
   const live=worldState.nations[id]??(()=>{const x=makeNation(id,name);return {id:x.id,name:x.name,population:x.population,gdp:x.gdp,industry:x.industry,stability:x.stability,military:x.military,relations:x.relations}})();
-  setSelected(live);setSelectedCounty(null);setCountryView(id);setView('country');
+  const nationState: NationState={id:live.id,name:live.name,population:live.population,gdp:live.gdp,industry:'industrialCapacity' in live?live.industrialCapacity:live.industry,stability:live.stability,military:'militaryFactories' in live?live.militaryFactories:live.military,relations:Object.values(live.relations??{}).reduce((a:number,v)=>a+v,0)};
+  setSelected(nationState);setSelectedCounty(null);setCountryView(id);setView('country');
   setWorldState(s=>({...s,playerNation:id}));
  }
  function runCommand(e:React.FormEvent){e.preventDefault();if(!command.trim())return;const s=structuredClone(worldState);const player=worldState.playerNation??selected?.id??'840';const r=issueCommand(s,command,player);setWorldState(s);setLog(x=>[r.message,...x].slice(0,10));setCommand('');}
- function save(){localStorage.setItem('worldforge-save',JSON.stringify(worldState));setSaveReady(true);setLog(x=>['Game saved locally.',...x])}
+ function save(){localStorage.setItem('worldforge-save',JSON.stringify(worldState));localStorage.setItem('worldforge-save-version','1.0');setSaveReady(true);setLog(x=>['Game saved to this device.',...x])}
  function load(){const raw=localStorage.getItem('worldforge-save');if(!raw)return;try{setWorldState(JSON.parse(raw));setSaveReady(true);setLog(x=>['Save loaded.',...x])}catch{setLog(x=>['Save file could not be loaded.',...x])}}
  const nation=worldState.playerNation?worldState.nations[worldState.playerNation]:undefined;
  const activeEvents=worldState.events.filter(e=>!e.resolved);
