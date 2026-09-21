@@ -1,5 +1,6 @@
 import {WorldState,NewsItem,EventState} from './types';
 import {ensureNationSystems} from './state';
+import {historicalRecords} from '../lib/historical-records';
 
 function clamp(v:number,min=0,max=100){return Math.max(min,Math.min(max,v));}
 function dateAdd(date:string,days:number){const d=new Date(date+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+days);return d.toISOString().slice(0,10);}
@@ -22,6 +23,34 @@ function pushEvent(state:WorldState,event:EventState){
  pushNews(state,{date:event.date,title:event.title,summary:event.description,category:event.category??'political',importance,relatedNation:affected[0],mentionedNations:affected,relatedEvent:event.id,source:event.source??'system'});
 }
 
+function runHistoricalRecordPass(state:WorldState,days:number):void{
+ const year=Number(state.date.slice(0,4));
+ const previousYear=year-Math.max(1,Math.ceil(days/365));
+ const activeRecords=historicalRecords.filter(r=>r.kind==='event'&&r.start!==undefined&&r.start>previousYear&&r.start<=year);
+ for(const record of activeRecords){
+  const key='record-'+record.id+'-'+record.start;
+  if(state.scenario.historyLog.includes(key))continue;
+  const related=(record.relatedPolities??[]).filter(id=>!!state.nations[id]);
+  const player=state.playerNation?state.nations[state.playerNation]:undefined;
+  const locallyRelevant=related.length>0||record.region.toLowerCase().includes((player?.name??'').toLowerCase());
+  const importance=Math.max(3,Math.min(10,record.significance??5));
+  pushNews(state,{
+   date:state.date,
+   title:'Historical context · '+record.name,
+   summary:record.description+' Worldforge treats this record as historical context and a catalyst for simulation conditions, not as a command to reproduce the historical outcome.',
+   category:'historical',
+   importance,
+   relatedNation:related[0],
+   mentionedNations:related,
+   source:'historical'
+  });
+  if(locallyRelevant||importance>=9){
+   const eventId='historical-record-event-'+record.id+'-'+record.start;
+   pushEvent(state,{id:eventId,date:state.date,title:record.name,description:record.description+' Historical context may influence actors, institutions and strategic expectations, while the actual outcome remains emergent.',severity:Math.max(2,Math.ceil(importance/3)),importance:Math.min(8,importance),category:'historical',source:'historical',options:['Study the historical context','Respond to current conditions'],resolved:false,effects:related.map(target=>({kind:'historicalPressure',target,value:Math.max(1,importance-4),data:{recordId:record.id}}))});
+  }
+  state.scenario.historyLog.push(key);
+ }
+}
 function runHistoricalLogic(state:WorldState):void{
  const y=Number(state.date.slice(0,4)),s=state.scenario,has=(id:string)=>s.historyLog.includes(id);
  const trigger=(id:string,condition:boolean,title:string,description:string,options:string[],effects:any[])=>{
@@ -174,6 +203,6 @@ export function generateDynamicEvents(state:WorldState,days=1):void{
 }
 
 export function runWorldSystems(state:WorldState,days:number):void{
- runDemographics(state,days);runEconomy(state,days);runMilitary(state,days);runWars(state,days);runDiplomacy(state);aiDiplomacy(state);runHistoricalLogic(state);
+ runDemographics(state,days);runEconomy(state,days);runMilitary(state,days);runWars(state,days);runDiplomacy(state);aiDiplomacy(state);runHistoricalRecordPass(state,days);runHistoricalLogic(state);
  state.scenario.lastAdvanceDays=days;
 }
