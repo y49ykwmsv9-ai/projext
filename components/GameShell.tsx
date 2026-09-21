@@ -10,7 +10,7 @@ import {registerAdmin1Features} from '../lib/region-data';
 import {historicalPolities,searchHistoricalPolities} from '../lib/historical-polities';
 import {queryCliopatriaYear} from '../lib/cliopatria';
 import {historicalRecords,searchHistoricalRecords} from '../lib/historical-records';
-import {createWorldState,advanceWorld,issueCommand,issueCommandWithCatalyst,ensureNationSystems,syncPoliticalMap,applyEventEffects,interpretPlayerInstruction,hierarchyPath} from '../engine';
+import {createWorldState,advanceWorld,advanceWorldWithData,issueCommand,issueCommandWithCatalyst,ensureNationSystems,syncPoliticalMap,applyEventEffects,interpretPlayerInstruction,hierarchyPath} from '../engine';
 import type {WorldState} from '../engine';
 
 const countries:any[]=(((feature(world as any,(world as any).objects.countries) as any).features??[]) as any[]);
@@ -94,15 +94,15 @@ export default function GameShell(){
  }
  setLog(x=>[(ok?'✓ ':'✕ ')+message,...x].slice(0,12));setWorldState(s);setShowMenu(true)
 }
- function advanceAndInspect(days:number){
- if(!Number.isFinite(days)||days<=0)return;
- setWorldState(s=>{
-  const next=advanceWorld(s,Math.min(3650,Math.max(1,Math.round(days))));
-  const fresh=next.news.filter(n=>!s.news.some(old=>old.id===n.id));
+ async function advanceAndInspect(days:number){
+  if(!Number.isFinite(days)||days<=0)return;
+  const safeDays=Math.min(3650,Math.max(1,Math.round(days)));
+  const before=worldState;
+  const next=await advanceWorldWithData(before,safeDays);
+  const fresh=next.news.filter(n=>!before.news.some(old=>old.id===n.id));
   if(fresh.some(n=>n.importance>=7))setPaused(true);
-  return next;
- });
-}
+  setWorldState(next);
+ }
 function skipToMajor(){
  setPaused(true);
  let found=false;
