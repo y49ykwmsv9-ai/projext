@@ -8,6 +8,7 @@ export function advanceWorld(state:WorldState,days=1):WorldState{
  d.setUTCDate(d.getUTCDate()+days);
  next.date=d.toISOString().slice(0,10);
  runWorldSystems(next,days);
+ generateDynamicEvents(next);
  return next;
 }
 
