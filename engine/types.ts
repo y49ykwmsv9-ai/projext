@@ -57,7 +57,7 @@ export interface MilitaryState{readiness:number; mobilization:number; supply:num
 export interface DiplomaticState{relations:Record<EntityId,number>; treaties:EntityId[]; tradeAccess:EntityId[]; sanctions:EntityId[];}
 export type EventEffect={kind:string;target?:EntityId;value?:number;name?:string;data?:Record<string,string|number|boolean>};
 
-export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;}}
+export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;}
 export interface WorldState{
  date:DateKey;
  tick:number;
