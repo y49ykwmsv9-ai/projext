@@ -6,7 +6,7 @@ import world from 'world-atlas/countries-110m.json';
 import usCounties from 'us-atlas/counties-10m.json';
 import {makeNation,NationState,START_DATE} from '../lib/game-data';
 import {createWorldState,advanceWorld,issueCommand,ensureNationSystems,syncPoliticalMap,applyEventEffects} from '../engine';
-import type {MapEntity,WorldState} from '../engine';
+import type {WorldState} from '../engine';
 
 const countries:any[]=feature(world as any,(world as any).objects.countries).features;
 const counties:any[]=feature(usCounties as any,(usCounties as any).objects.counties).features;
@@ -18,7 +18,7 @@ function seedWorld():WorldState{
  for(const f of countries){
   const id=String(f.id??'0'); const n=makeNation(id,f.properties?.name??'Unknown');
   state.nations[id]={id:n.id,name:n.name,government:'republic',population:n.population,gdp:n.gdp,treasury:n.gdp*.15,debt:0,stability:n.stability,legitimacy:65,industrialCapacity:n.industry,civilianFactories:20,militaryFactories:10,dockyards:5,manpower:n.population*.22,research:1,technology:[],laws:[],relations:{} ,alliances:[],wars:[]};
-  state.mapEntities[id]={id,name:n.name,category:'country',controller:id,owner:id,areaKm2:1,population:n.population*1e6,mapSource:'world-atlas',centroid:[0,0],geometryKey:id,children:[],adjacency:[],ratios:{childrenPerParent:0,populationShare:1,areaShare:1,urbanization:.5,density:0}};
+  state.mapEntities[id]={id,name:n.name,category:'country',controller:id,owner:id,areaKm2:1,population:n.population*1e6,mapSource:'world-atlas',centroid:[0,0],geometryKey:id,children:[],adjacency:[],development:50,infrastructure:50,ratios:{childrenPerParent:0,populationShare:1,areaShare:1,urbanization:.5,density:0}};
   ensureNationSystems(state,state.nations[id]);
  }
  syncPoliticalMap(state);
@@ -51,7 +51,7 @@ export default function GameShell(){
   <nav className='tabs'>{tabs.map(t=><button className={tab===t?'active':''} onClick={()=>setTab(t)} key={t}>{t}</button>)}</nav>
   <section className='workspace'>
    <div className='map-panel'>
-    <div className='map-toolbar'><b>{view==='country'?makeNation(countryView,'').name.toUpperCase()+' · COUNTY MAP':'WORLD · COUNTRY MAP'}</b><span>{view==='country'?countryFeatures.length+' county-equivalent features loaded':countries.length+' countries loaded'} · TICK {worldState.tick.toLocaleString()}</span><button onClick={()=>setView('world')}>World</button></div>
+    <div className='map-toolbar'><b>{view==='country'?(worldState.nations[countryView]?.name??makeNation(countryView,'').name).toUpperCase()+' · COUNTY MAP':'WORLD · COUNTRY MAP'}</b><span>{view==='country'?countryFeatures.length+' county-equivalent features loaded':countries.length+' countries loaded'} · TICK {worldState.tick.toLocaleString()}</span><button onClick={()=>setView('world')}>World</button></div>
     <svg viewBox={'0 0 '+W+' '+H} className='worldmap'>
      <rect width={W} height={H} className='ocean'/>
      {view==='world'?countries.map((f,i)=>{const id=String(f.id??i),n=makeNation(id,f.properties?.name??'Unknown');return <path key={id} d={path(f)||''} style={{fill:identityColor(worldState.political.identities[id]?.colorKey??id)}} className={'country '+(selected?.id===id?'selected':'')} onClick={()=>selectCountry(id,n.name)}><title>{n.name}</title></path>}):
