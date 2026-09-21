@@ -53,7 +53,9 @@ export interface Treaty{
 export interface EconomicState{taxRate:number; inflation:number; tradeBalance:number; consumerDemand:number; construction:number;}
 export interface MilitaryState{readiness:number; mobilization:number; supply:number; warSupport:number; casualties:number;}
 export interface DiplomaticState{relations:Record<EntityId,number>; treaties:EntityId[]; tradeAccess:EntityId[]; sanctions:EntityId[];}
-export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;}
+export type EventEffect={kind:string;target?:EntityId;value?:number;name?:string;data?:Record<string,string|number|boolean>};
+
+export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;}}
 export interface WorldState{
  date:DateKey;
  tick:number;
@@ -65,3 +67,10 @@ export interface WorldState{
  events:string[];
  seed:number;
 }
+
+
+export interface EventTrigger{dateFrom?:DateKey;dateTo?:DateKey;requiredNation?:EntityId;minStability?:number;maxStability?:number;requiresWar?:boolean;requiresControlOf?:EntityId;}
+
+export interface PoliticalIdentity{entityId:EntityId;name:string;flagKey:string;colorKey:string;capital?:EntityId;}
+
+export interface BorderChange{entityId:EntityId;owner:EntityId;controller:EntityId;from?:EntityId;reason:string;date:DateKey;}
