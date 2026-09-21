@@ -5,15 +5,17 @@ function clamp(v:number,min=0,max=100){return Math.max(min,Math.min(max,v));}
 
 export function runDemographics(state:WorldState,days:number):void{
  for(const e of Object.values(state.mapEntities)){
-  const density=e.areaKm2>0?e.population/e.areaKm2:0;
-  const growth=(e.category==='city'?0.00003:0.000018)*days;
+  const growth=(e.category==='city'?.00003:.000018)*days;
   e.population=Math.max(0,e.population*(1+growth));
-  e.ratios.density=density;
+  e.ratios.density=e.areaKm2>0?e.population/e.areaKm2:0;
   e.ratios.populationShare=e.parentId&&state.mapEntities[e.parentId]?.population?e.population/state.mapEntities[e.parentId].population:1;
  }
  for(const n of Object.values(state.nations)){
-  n.population=Object.values(state.mapEntities).filter(e=>e.owner===n.id).reduce((s,e)=>s+e.population,0)||n.population;
-  n.manpower=Math.max(0,n.population*.22);
+  const countryEntity=state.mapEntities[n.id];
+  if(countryEntity){n.population=Math.max(.01,countryEntity.population/1e6);}
+  const manpowerRatio=n.population>0?Math.min(.35,Math.max(.05,n.manpower/n.population)):0;
+  n.manpower=Math.max(0,n.manpower*(1+days*.00008));
+  if(!Number.isFinite(manpowerRatio))n.manpower=n.population*.22;
  }
 }
 
