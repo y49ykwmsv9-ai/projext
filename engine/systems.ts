@@ -50,7 +50,37 @@ export function runWars(state:WorldState,days:number):void{
  for(const n of Object.values(state.nations))for(const enemyId of n.wars){if(n.id>enemyId)continue;const enemy=state.nations[enemyId];if(!enemy)continue;const a=state.military[n.id],b=state.military[enemy.id],ap=a.readiness*a.supply*(1+a.mobilization/100),bp=b.readiness*b.supply*(1+b.mobilization/100),ac=Math.max(0,Math.round((bp/(ap+bp+1))*.02*n.population*days)),bc=Math.max(0,Math.round((ap/(ap+bp+1))*.02*enemy.population*days));a.casualties+=ac;b.casualties+=bc;n.manpower=Math.max(0,n.manpower-ac/1e6);enemy.manpower=Math.max(0,enemy.manpower-bc/1e6);a.warSupport=clamp(a.warSupport+(ap>bp?1:-1)*days*.1);b.warSupport=clamp(b.warSupport+(bp>ap?1:-1)*days*.1);}
 }
 export function runMilitary(state:WorldState,days:number):void{
- for(const n of Object.values(state.nations)){ensureNationSystems(state,n);const m=state.military[n.id],units=Object.values(state.units).filter(u=>u.nation===n.id),avgOrg=units.length?units.reduce((s,u)=>s+u.organization,0)/units.length:100;m.supply=clamp(m.supply+(1-m.supply)*.02*days-(units.length*.0001)*days,0,1);m.readiness=clamp(m.readiness+(avgOrg-m.readiness)*.01*days+m.mobilization*.02*days);n.manpower=Math.max(0,n.manpower-units.reduce((s,u)=>s+u.strength*.000001,0)*days);}
+ for(const n of Object.values(state.nations)){
+  ensureNationSystems(state,n);
+  const m=state.military[n.id];
+  const units=Object.values(state.units).filter(u=>u.nation===n.id);
+  const avgOrg=units.length?units.reduce((s,u)=>s+u.organization,0)/units.length:100;
+  const ownedRegions=Object.values(state.mapEntities).filter(e=>e.owner===n.id);
+  const infra=ownedRegions.length?ownedRegions.reduce((s,e)=>s+e.infrastructure,0)/ownedRegions.length:40;
+  m.logistics=clamp(m.logistics+(infra-m.logistics)*.015*days-(units.length*.015)*days,0,100);
+  m.fuel=clamp(m.fuel-(units.filter(u=>u.order==='attack'||u.order==='move').length*.15*days)+m.logistics*.01*days,0,100);
+  m.equipmentStock=clamp(m.equipmentStock+(n.militaryFactories*.12*days)-units.reduce((s,u)=>s+u.strength*.000002,0)*days,0,100);
+  m.commandCapacity=clamp(100-units.length*.8+(n.research*.4),20,100);
+  const baseSupply=clamp((m.logistics/100)*(0.55+infra/200)*(m.fuel/100+.5),0,1);
+  m.supply=clamp(m.supply+(baseSupply-m.supply)*.035*days-(units.length*.00005)*days,0,1);
+  m.readiness=clamp(m.readiness+(avgOrg-m.readiness)*.01*days+m.mobilization*.015*days-(100-m.logistics)*.004*days,0,100);
+  for(const u of units){
+   u.supplyNeed??=Math.max(1,u.strength*.00002);
+   u.supplyReceived=Math.max(0,u.supplyNeed*m.supply);
+   const supplied=u.supplyReceived>=u.supplyNeed*.75;
+   u.status=supplied?(u.order==='attack'?'engaged':u.order==='move'?'moving':'supplied'):'undersupplied';
+   u.organization=clamp(u.organization+(supplied?1.2:-2.5)*days,0,100);
+   u.equipment=clamp(u.equipment+(m.equipmentStock>55?0.15:-0.4)*days,0,100);
+   u.morale=clamp((u.morale??60)+(supplied?.15:-.35)*days,0,100);
+   if(u.target&&state.nations[u.target]&&u.order==='move'){
+    const target=state.nations[u.target];
+    if(n.wars.includes(target.id)){u.territory=target.id;u.status='engaged';u.order='attack';}
+    else if(n.relations[target.id]??0>20){u.territory=target.id;u.status='moving';}
+   }
+   u.strength=Math.max(0,u.strength-(u.status==='undersupplied'?u.strength*.00008:0)*days);
+  }
+  n.manpower=Math.max(0,n.manpower-units.reduce((s,u)=>s+u.strength*.000001,0)*days);
+ }
 }
 function aiDiplomacy(state:WorldState):void{
  for(const n of Object.values(state.nations)){if(!n.relations)continue;const candidates=Object.values(state.nations).filter(x=>x.id!==n.id);if(!candidates.length)continue;
