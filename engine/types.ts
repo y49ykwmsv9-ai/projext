@@ -13,7 +13,7 @@ export interface MapEntity{
 export interface RegionRatios{childrenPerParent:number;populationShare:number;areaShare:number;urbanization:number;density:number;}
 export interface Nation{
  id:EntityId; name:string; government:GovernmentType; capital?:EntityId; population:number; gdp:number; treasury:number; debt:number; stability:number; legitimacy:number;
- industrialCapacity:number; civilianFactories:number; militaryFactories:number; dockyards:number; manpower:number; research:number; technology:string[]; laws:string[]; relations:Record<EntityId,number>; alliances:EntityId[]; wars:EntityId[];
+ industrialCapacity:number; civilianFactories:number; militaryFactories:number; dockyards:number; manpower:number; research:number; technology:string[]; laws:string[]; relations:Record<EntityId,number>; alliances:EntityId[]; wars:EntityId[]; ideology?:string; politicalGoals?:string[]; resources?:Record<string,number>; strategicRegions?:string[]; majorCities?:string[]; historicalNotes?:string;
 }
 export interface ArmyUnit{id:EntityId;nation:EntityId;name:string;kind:string;strength:number;organization:number;equipment:number;experience:number;manpower:number;territory?:EntityId;target?:EntityId;}
 export interface Treaty{id:EntityId;type:string;members:EntityId[];terms:string[];start:DateKey;end?:DateKey;}
