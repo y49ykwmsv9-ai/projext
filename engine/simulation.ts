@@ -26,6 +26,10 @@ export function applyEventEffects(state:WorldState,eventId:string,option=0):{ok:
   if(e.kind==='treasury'&&e.target&&state.nations[e.target])state.nations[e.target].treasury+=e.value??0;
   if(e.kind==='gdp'&&e.target&&state.nations[e.target])state.nations[e.target].gdp=Math.max(0,state.nations[e.target].gdp+(e.value??0));
   if(e.kind==='transfer'&&e.target&&state.mapEntities[e.target]&&e.name){state.mapEntities[e.target].owner=e.name;state.mapEntities[e.target].controller=e.name;}
+  if(e.kind==='mobilization'&&e.target&&state.military[e.target])state.military[e.target].mobilization=Math.max(0,Math.min(100,state.military[e.target].mobilization+(e.value??0)));
+  if(e.kind==='industry'&&e.target&&state.nations[e.target])state.nations[e.target].industrialCapacity=Math.max(0,state.nations[e.target].industrialCapacity+(e.value??0));
+  if(e.kind==='manpower'&&e.target&&state.nations[e.target])state.nations[e.target].manpower=Math.max(0,state.nations[e.target].manpower+(e.value??0));
+  if(e.kind==='rename'&&e.target&&state.nations[e.target]&&e.name)state.nations[e.target].name=e.name;
  }
  event.resolved=true; return {ok:true,message:event.title+' resolved.'};
 }
