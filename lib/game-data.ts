@@ -55,6 +55,16 @@ const anchors:Record<string,Profile>={
  '860':{name:'Uzbekistan',population:6.3,gdp:1.7,industry:18,military:19,stability:48,government:'communist',capital:'Tashkent',urbanization:20,literacy:75,resources:76,manpowerRate:.25},
  '862':{name:'Venezuela',population:3.8,gdp:4.0,industry:18,military:24,stability:56,government:'republic',capital:'Caracas',urbanization:27,literacy:55,resources:95,manpowerRate:.22},
 };
+const strategicCatalog:Record<string,Partial<NationState>>={
+ '203':{ideology:'Democratic Czechoslovak constitutionalism',politicalGoals:['Defend the Sudeten frontier','Maintain industrial superiority','Preserve the Little Entente'],strategicRegions:['Bohemia','Moravia','Slovakia','Carpathian Ruthenia'],majorCities:['Prague','Brno','Plzen','Bratislava','Kosice'],historicalNotes:'Industrial Central European state with a dense rail network and fortified frontiers.'},
+ '276':{ideology:'National Socialist dictatorship',politicalGoals:['Rearmament','Revision of Versailles settlement','Continental strategic expansion'],strategicRegions:['Prussia','Silesia','Saxony','Bavaria','Rhineland'],majorCities:['Berlin','Hamburg','Munich','Cologne','Frankfurt'],historicalNotes:'Major industrial and military power with strong continental infrastructure.'},
+ '826':{ideology:'Parliamentary constitutional monarchy',politicalGoals:['Protect maritime trade','Maintain imperial communications','Balance continental threats'],strategicRegions:['England','Scotland','Wales','Northern Ireland'],majorCities:['London','Liverpool','Manchester','Glasgow','Birmingham'],historicalNotes:'Global maritime power with extensive overseas economic connections.'},
+ '840':{ideology:'Federal liberal democracy',politicalGoals:['Protect hemispheric security','Expand industrial capacity','Maintain Atlantic trade'],strategicRegions:['New England','Mid-Atlantic','Great Lakes','South','Great Plains','Mountain West','Pacific Coast'],majorCities:['Washington','New York','Chicago','Los Angeles','Detroit'],historicalNotes:'Large industrial and agricultural economy with high mobilization potential.'},
+ '643':{ideology:'Marxist-Leninist one-party state',politicalGoals:['Industrialize','Secure western approaches','Expand strategic depth'],strategicRegions:['European Russia','Ukraine','Belarus','Caucasus','Central Asia','Siberia'],majorCities:['Moscow','Leningrad','Kyiv','Kharkiv','Tbilisi'],historicalNotes:'Vast continental state with exceptional manpower and natural-resource depth.'},
+ '392':{ideology:'Imperial Japanese militarism',politicalGoals:['Secure resource access','Modernize armed forces','Expand regional influence'],strategicRegions:['Honshu','Hokkaido','Kyushu','Shikoku','Korea','Taiwan'],majorCities:['Tokyo','Osaka','Kyoto','Yokohama','Seoul'],historicalNotes:'Highly industrialized island empire with a powerful navy and constrained domestic resources.'},
+ '156':{ideology:'Nationalist republicanism',politicalGoals:['Unify the country','Defend against foreign pressure','Modernize industry'],strategicRegions:['North China','Lower Yangtze','South China','Manchuria','Sichuan'],majorCities:['Nanjing','Shanghai','Beijing','Guangzhou','Chongqing'],historicalNotes:'Very large population spread across diverse regional economies and political centers.'},
+ '250':{ideology:'Parliamentary republicanism',politicalGoals:['Defend the metropole','Maintain overseas influence','Modernize armed forces'],strategicRegions:['Ile-de-France','Normandy','Brittany','Occitania','Algeria'],majorCities:['Paris','Marseille','Lyon','Lille','Bordeaux'],historicalNotes:'Major European industrial power with extensive overseas possessions.'}
+};
 function hash(id:string){let h=2166136261;for(const c of id)h=Math.imul(h^c.charCodeAt(0),16777619);return h>>>0}
 function bounded(v:number,min:number,max:number){return Math.max(min,Math.min(max,v))}
 function inferredGovernment(name:string):NationState['government']{
@@ -67,7 +77,7 @@ function inferredGovernment(name:string):NationState['government']{
  return 'republic';
 }
 export function makeNation(id:string,name:string):NationState{
- const a=anchors[id]??{},h=hash(id);
+ const a={...(anchors[id]??{}),...(strategicCatalog[id]??{})},h=hash(id);
  const population=a.population??bounded(.35+(h%180)/2.2,.4,90);
  const gdp=a.gdp??bounded(.5+(h%500)/12,.5,50);
  const industry=a.industry??bounded(10+h%67,10,82);
