@@ -15,10 +15,10 @@ export interface Nation{
  id:EntityId; name:string; government:GovernmentType; capital?:EntityId; population:number; gdp:number; treasury:number; debt:number; stability:number; legitimacy:number;
  industrialCapacity:number; civilianFactories:number; militaryFactories:number; dockyards:number; manpower:number; research:number; technology:string[]; laws:string[]; relations:Record<EntityId,number>; alliances:EntityId[]; wars:EntityId[]; ideology?:string; politicalGoals?:string[]; resources?:Record<string,number>; strategicRegions?:string[]; majorCities?:string[]; historicalNotes?:string;
 }
-export interface ArmyUnit{id:EntityId;nation:EntityId;name:string;kind:string;strength:number;organization:number;equipment:number;experience:number;manpower:number;territory?:EntityId;target?:EntityId;}
+export interface ArmyUnit{id:EntityId;nation:EntityId;name:string;kind:string;strength:number;organization:number;equipment:number;experience:number;manpower:number;territory?:EntityId;target?:EntityId;order?:'hold'|'move'|'attack'|'defend'|'support';status?:'ready'|'moving'|'engaged'|'supplied'|'undersupplied';supplyNeed?:number;supplyReceived?:number;morale?:number;}
 export interface Treaty{id:EntityId;type:string;members:EntityId[];terms:string[];start:DateKey;end?:DateKey;}
 export interface EconomicState{taxRate:number;inflation:number;tradeBalance:number;consumerDemand:number;construction:number;}
-export interface MilitaryState{readiness:number;mobilization:number;supply:number;warSupport:number;casualties:number;}
+export interface MilitaryState{readiness:number;mobilization:number;supply:number;warSupport:number;casualties:number;logistics:number;fuel:number;equipmentStock:number;commandCapacity:number;}
 export interface DiplomaticState{relations:Record<EntityId,number>;treaties:EntityId[];tradeAccess:EntityId[];sanctions:EntityId[];}
 export type EventEffect={kind:string;target?:EntityId;value?:number;name?:string;data?:Record<string,string|number|boolean>};
 export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;category?:'political'|'diplomatic'|'economic'|'military'|'social'|'historical';importance?:number;source?:'player'|'ai'|'system'|'historical';expires?:DateKey;}
