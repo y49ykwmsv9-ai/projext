@@ -39,11 +39,11 @@ export function makeStrategicRegions(countryId:string,countryName:string,populat
  * Geometry is fetched only by the build step and shipped locally; gameplay never calls an external map API.
  */
 export function registerAdmin1Features(state:WorldState,features:Admin1Feature[],cities:CityFeature[]=[]):number{
- const grouped:Record<string,Admin1Feature[]|undefined>={};
+ const grouped:Record<string,Admin1Feature[]>={};
  let created=0;
  for(const f of features){
   const countryId=countryForFeature(state,f); if(!countryId||!f.geometry)continue;
-  (grouped[countryId]??=[]).push(f);
+  (grouped[countryId]??=([] as Admin1Feature[])).push(f);
  }
  for(const [countryId,items] of Object.entries(grouped)){
   const country=state.mapEntities[countryId], nation=state.nations[countryId]; if(!country||!nation)continue;
