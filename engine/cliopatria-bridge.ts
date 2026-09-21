@@ -1,5 +1,7 @@
 import type {WorldState,HistoricalSyncState} from './types';
 import {queryCliopatriaYear} from '../lib/cliopatria';
+import {geoContains} from 'd3-geo';
+import {recordsNear} from '../lib/historical-records';
 
 const normalize=(v:unknown)=>String(v??'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const first=(p:Record<string,unknown>,keys:string[])=>{for(const k of keys){if(p[k]!==undefined&&p[k]!==null&&String(p[k]).trim())return String(p[k]);}return '';};
@@ -19,6 +21,39 @@ function matchNation(state:WorldState,feature:any):string|undefined{
   if(hay&&aliases.includes(hay))return n.id;
  }
  return undefined;
+}
+
+
+function featureName(feature:any):string{const p=feature.properties??{};return first(p,['Name','name','Polity','polity','Entity','entity'])||String(feature.id??'Historical polity');}
+function historicalPointScore(features:any[],lon:number,lat:number){
+ const matches=features.filter(f=>!!f.geometry&&geoContains(f as never,[lon,lat]));
+ return {matches,score:Math.min(100,matches.length*18)};
+}
+function applySpatialHistoricalContext(state:WorldState,features:any[]):void{
+ const contextByNation:Record<string,number>={};
+ for(const entity of Object.values(state.mapEntities)){
+  if(!entity.centroid)continue;
+  const {matches,score}=historicalPointScore(features,entity.centroid[0],entity.centroid[1]);
+  if(!matches.length)continue;
+  entity.historicalPolityIds=matches.map(f=>featureIdentity(f).id).filter(Boolean).slice(0,12);
+  entity.historicalInfluence=score;
+  const names=matches.map(featureName).slice(0,4);
+  const nearby=recordsNear(entity.centroid[1],entity.centroid[0],250).slice(0,4).map(r=>r.name);
+  entity.historicalContext=[...names,...nearby];
+  if(entity.category==='country'){
+   contextByNation[entity.id]=(contextByNation[entity.id]??0)+score;
+  } else if(entity.parentId){
+   const parent=state.mapEntities[entity.parentId];
+   if(parent?.category==='country')contextByNation[parent.id]=(contextByNation[parent.id]??0)+score*.25;
+  }
+ }
+ for(const [nationId,score] of Object.entries(contextByNation)){
+  const nation=state.nations[nationId];if(!nation)continue;
+  nation.historicalPresence=Math.min(100,score);
+  const ids=state.mapEntities[nationId]?.historicalPolityIds??[];
+  nation.historicalPolityIds=ids;
+  state.scenario.historicalTrackers['spatial:'+nationId]=Math.round(score);
+ }
 }
 
 /**
