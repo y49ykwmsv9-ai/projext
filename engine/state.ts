@@ -6,7 +6,8 @@ export function createWorldState(date='1936-01-01',seed=19360101):WorldState{
 
 export function ensureNationSystems(state:WorldState,nation:Nation):void{
  if(!state.economy[nation.id]) state.economy[nation.id]={taxRate:.2,inflation:2,tradeBalance:0,consumerDemand:.6,construction:0};
- if(!state.military[nation.id]) state.military[nation.id]={readiness:50,mobilization:0,supply:1,warSupport:50,casualties:0};
+ if(!state.military[nation.id]) state.military[nation.id]={readiness:50,mobilization:0,supply:1,warSupport:50,casualties:0,logistics:50,fuel:100,equipmentStock:100,commandCapacity:100};
+ else {const m=state.military[nation.id] as any;m.logistics??=50;m.fuel??=100;m.equipmentStock??=100;m.commandCapacity??=100;}
  if(!state.diplomacy[nation.id]) state.diplomacy[nation.id]={relations:{...nation.relations},treaties:[],tradeAccess:[],sanctions:[]};
 }
 export function addMapEntity(state:WorldState,entity:MapEntity):void{
