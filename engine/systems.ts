@@ -121,7 +121,8 @@ export function generateDynamicEvents(state:WorldState,days=1):void{
  const target=Math.min(24,Math.max(2,Math.round(2+Math.sqrt(Math.max(1,days))*1.8+(p?.wars.length??0)*2+(p&&p.stability<40?2:0))));
  const nations=Object.values(state.nations).filter(n=>n.id!==state.playerNation);
  for(let i=0;i<target;i++){const n=nations[(state.tick*13+i*17)%Math.max(1,nations.length)];if(!n)break;if(rng(state,'ambient-'+i)>catalystChance(state,.22,days))continue;const kind=i%4;const title=kind===0?'Government reshuffle':kind===1?'Market and trade movement':kind===2?'Military readiness report':'Diplomatic maneuver';const category:any=kind===0?'political':kind===1?'economic':kind===2?'military':'diplomatic';pushNews(state,{date:state.date,title,summary:n.name+' has generated a new development that may affect the wider balance.',category,importance:2+(i%4),relatedNation:n.id,source:'ai'});}
- generateStatusNews(state,days);\n catalystEventPass(state,days);
+ generateStatusNews(state,days);
+ catalystEventPass(state,days);
 }
 
 export function runWorldSystems(state:WorldState,days:number):void{
