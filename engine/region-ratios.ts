@@ -23,7 +23,7 @@ export function expectedChildCategory(category:RegionCategory):RegionCategory|un
 }
 
 export function hierarchyPath(entities:Record<string,MapEntity>,id:string):MapEntity[]{
- const path:MapEntity[]=[]; let cur=entities[id];
+ const path:MapEntity[]=[]; let cur:MapEntity|undefined=entities[id];
  while(cur){path.unshift(cur);cur=cur.parentId?entities[cur.parentId]:undefined;}
  return path;
 }
