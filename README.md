@@ -28,7 +28,9 @@ Country → Region → County → City
 
 The engine does not assume a fixed number of children. Child counts, population shares, area shares, density and urbanization are calculated from the loaded map hierarchy.
 
-The repository contains the data-pipeline specification for transforming public-domain geographic sources into bundled application assets. Runtime gameplay is intended to require no external GeoJSON download.
+Builds now bundle Natural Earth Admin-1 provinces/states and populated-place city data into `public/data/`. The browser reads only these local static assets; there is no runtime request to an external GeoJSON service. Countries without a first-order polygon receive a local fallback region so every mapped country remains interactable.
+
+The separate `lib/historical-polities.ts` registry stores historical and unrecognized polities independently of simulation participation, so encyclopedia coverage can grow without inflating the active world-state. The registry is intentionally separate from playable nations and can represent extinct states, empires, breakaway governments, colonial administrations, and other historically attested polities.
 
 ## Development
 
