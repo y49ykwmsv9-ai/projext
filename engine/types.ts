@@ -71,6 +71,8 @@ export interface WorldState{
 
 export interface EventTrigger{dateFrom?:DateKey;dateTo?:DateKey;requiredNation?:EntityId;minStability?:number;maxStability?:number;requiresWar?:boolean;requiresControlOf?:EntityId;}
 
-export interface PoliticalIdentity{entityId:EntityId;name:string;flagKey:string;colorKey:string;capital?:EntityId;}
+export interface PoliticalIdentity{entityId:EntityId;name:string;flagKey:string;colorKey:string;capital?:EntityId;government?:GovernmentType;}
+
+export interface PoliticalVisualState{identities:Record<EntityId,PoliticalIdentity>;borderHistory:BorderChange[];mapRevision:number;}
 
 export interface BorderChange{entityId:EntityId;owner:EntityId;controller:EntityId;from?:EntityId;reason:string;date:DateKey;}
