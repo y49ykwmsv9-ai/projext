@@ -42,8 +42,20 @@ export default function GameShell(){
  useEffect(()=>{if(paused)return;const id=setInterval(()=>setWorldState(s=>advanceWorld(s,speed)),650);return()=>clearInterval(id)},[paused,speed]);
 
  function selectCountry(id:string,name:string){
-  const live=worldState.nations[id]??(()=>{const x=makeNation(id,name);return {id:x.id,name:x.name,population:x.population,gdp:x.gdp,industry:x.industry,stability:x.stability,military:x.military,relations:x.relations}})();
-  const nationState: NationState={id:live.id,name:live.name,population:live.population,gdp:live.gdp,industry:'industrialCapacity' in live?live.industrialCapacity:live.industry,stability:live.stability,military:'militaryFactories' in live?live.militaryFactories:live.military,relations:Object.values(live.relations??{}).reduce((a:number,v)=>a+v,0)};
+  const live=worldState.nations[id];
+  const source=live??makeNation(id,name);
+  const nationState: NationState={
+   id:source.id,
+   name:source.name,
+   population:source.population,
+   gdp:source.gdp,
+   industry:'industrialCapacity' in source?source.industrialCapacity:source.industry,
+   stability:source.stability,
+   military:'militaryFactories' in source?source.militaryFactories:source.military,
+   relations:'relations' in source
+    ? Object.values(source.relations??{}).reduce((a:number,v:number)=>a+v,0)
+    : source.relations
+  };
   setSelected(nationState);setSelectedCounty(null);setCountryView(id);setView('country');
   setWorldState(s=>({...s,playerNation:id}));
  }
