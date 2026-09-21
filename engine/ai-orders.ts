@@ -1,7 +1,7 @@
 import {WorldState} from './types';
 import {ensureNationSystems} from './state';
 
-export type AIOrderResult={ok:boolean;message:string;actions:string[];confidence:number};
+export type AIOrderResult={ok:boolean;message:string;actions:string[];confidence:number;intent?:{objective:string;targets:string[];domains:string[];constraints:string[];interpretation:string}};
 
 function norm(s:string){return s.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[’']/g,"'");}
 function clamp(v:number,min=0,max=100){return Math.max(min,Math.min(max,v));}
@@ -28,11 +28,24 @@ export function interpretPlayerInstruction(state:WorldState,raw:string,player:st
  const n=state.nations[player]; if(!n)return{ok:false,message:'Select a nation first.',actions:[],confidence:0};
  ensureNationSystems(state,n);
  const text=raw.trim(),q=norm(text),actions:string[]=[],mentioned:string[]=[];
+ const domains:string[]=[]; const constraints:string[]=[];
+ const addDomain=(d:string)=>{if(!domains.includes(d))domains.push(d)};
+ if(/\b(diplom|ally|alliance|relations|trade|sanction|embargo|treaty|peace|war|invade|foreign)\b/.test(q))addDomain('diplomacy');
+ if(/\b(factory|factories|industry|industrial|infrastructure|rail|road|port|tax|treasury|budget|econom|subsid|nationaliz)\b/.test(q))addDomain('economy');
+ if(/\b(army|troops|military|mobiliz|recruit|fortif|defen[cs]|navy|fleet|deploy|station|attack)\b/.test(q))addDomain('military');
+ if(/\b(research|technology|develop|invent|science)\b/.test(q))addDomain('technology');
+ if(/\b(food|farm|agric|population|housing|health|education|unrest|workers|social)\b/.test(q))addDomain('society');
+ if(/\b(avoid|without|do not|don't|never|not)\b/.test(q))constraints.push('Avoid or limit the stated action where possible.');
+ if(/\b(quietly|secret|covert|discreet)\b/.test(q))constraints.push('Prefer discreet implementation.');
+ if(/\b(gradual|slowly|phased|carefully)\b/.test(q))constraints.push('Prefer gradual implementation.');
+ if(/\b(immediately|urgent|rapidly|quickly)\b/.test(q))constraints.push('Prioritize immediate implementation.');
  const ns=mentionTargets(state,text,player); ns.forEach(x=>mentioned.push(x.id));
  let confidence=0;
  const change=(label:string,fn:()=>void,c=.65)=>{fn();actions.push(label);confidence=Math.max(confidence,c);};
  const is=(...words:string[])=>words.some(w=>q.includes(w));
+ const isAny=(textValue:string,words:string[])=>words.some(w=>textValue.includes(w));
  const target=ns[0];
+ const objective=isAny(q,['prepare','strengthen','improve','expand','secure','protect','stabilize','stabilise'])?'Strengthen the areas named in the directive':target?'Change the relationship or posture involving '+target.name:'Translate the directive into concrete state changes';
 
  if(is('mobiliz','call up','general mobilization'))change('mobilization increased',()=>state.military[n.id].mobilization=clamp(state.military[n.id].mobilization+15));
  if(is('demobiliz','stand down'))change('mobilization reduced',()=>state.military[n.id].mobilization=clamp(state.military[n.id].mobilization-15));
@@ -53,7 +66,12 @@ export function interpretPlayerInstruction(state:WorldState,raw:string,player:st
  if(is('subsidize','subsidies'))change('domestic subsidies funded',()=>{n.treasury-=Math.min(n.treasury,3);n.stability=clamp(n.stability+1);});
  if(is('nationalize','nationalise'))change('state ownership expanded',()=>{n.laws.push('State ownership expansion');n.stability=clamp(n.stability-1);n.industrialCapacity+=1;});
  if(is('food','agriculture','farms','grain','meat','protein'))change('food-security policy activated',()=>{n.laws.push('Food security program');n.stability=clamp(n.stability+1);n.treasury-=Math.min(n.treasury,2);});
- if(is('intelligence','counterintelligence','counter-intelligence','spies'))change('intelligence effort increased',()=>{n.laws.push('Expanded intelligence program');n.research+=.5;});
+ if(is('intelligence','counterintelligence','counter-intelligence','spies')){addDomain('intelligence');change('intelligence effort increased',()=>{n.laws.push('Expanded intelligence program');n.research+=.5;});}
+ if(is('aid','assistance','relief')&&target)change('assistance package directed toward '+target.name,()=>{n.treasury-=Math.min(n.treasury,3);changeRelation(state,n.id,target.id,4);target.stability=clamp(target.stability+1);},.78);
+ if(is('ceasefire','truce','de-escalate','deescalate')){addDomain('diplomacy');if(target)change('de-escalation channel opened with '+target.name,()=>changeRelation(state,n.id,target.id,6),.82);}
+ if(is('annex','annexation','occupy','occupation','claim territory')){addDomain('territory');if(target)change('territorial objective declared against '+target.name,()=>{state.scenario.historyLog.push('territorial-objective:'+n.id+':'+target.id);n.wars.includes(target.id)||n.wars.push(target.id);if(!target.wars.includes(n.id))target.wars.push(n.id);},.92);}
+ if(is('cut spending','austerity','reduce spending'))change('public spending restrained',()=>{n.treasury+=Math.max(1,n.gdp*.001);n.stability=clamp(n.stability-1);},.7);
+ if(is('increase spending','public works','stimulus'))change('public spending expanded',()=>{n.treasury-=Math.min(n.treasury,4);n.gdp+=.25;n.stability=clamp(n.stability+1);},.7);
  if(is('propaganda','public campaign','public information'))change('public information campaign launched',()=>{n.stability=clamp(n.stability+1);n.legitimacy=clamp(n.legitimacy+1);});
  if(is('reform','constitutional','democrat','liberalize','liberalise'))change('political reform initiated',()=>{n.laws.push('Political reform initiative');n.legitimacy=clamp(n.legitimacy+1);});
  if(is('fortify','fortification','bunker','defenses','defence'))change('defensive construction prioritized',()=>{Object.values(state.mapEntities).filter(x=>x.owner===n.id).slice(0,8).forEach(x=>x.infrastructure=clamp(x.infrastructure+3));state.military[n.id].readiness=clamp(state.military[n.id].readiness+3);});
@@ -66,5 +84,5 @@ export function interpretPlayerInstruction(state:WorldState,raw:string,player:st
  const uniqueMentioned=Array.from(new Set([...mentioned,player]));
  const summary=actions.length===1?('The government has acted on your instruction: '+actions[0]+'.'):('Your instruction has been translated into '+actions.length+' interacting policy effects: '+actions.join('; ')+'.');
  addNews(state,'Government directive enacted',summary,'political',Math.min(8,3+Math.ceil(confidence*4)),uniqueMentioned);
- return{ok:true,message:'AI translated your instruction into '+actions.length+' game-state effect(s).',actions,confidence};
+ return{ok:true,message:'AI translated your instruction into '+actions.length+' game-state effect(s).',actions,confidence,intent:{objective,targets:ns.map(x=>x.id),domains,constraints,interpretation:actions.join('; ')||'Strategic directive recorded'}};
 }
