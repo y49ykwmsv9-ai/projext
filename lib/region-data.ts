@@ -9,7 +9,7 @@ export type CityFeature={type:'Feature';properties:Record<string,any>;geometry:{
 
 const terrainByType:Terrain[]=['plains','forest','hills','mountains','desert','coast'];
 const aliases:Record<string,string>={
- 'united states of america':'United States','russian federation':'Soviet Union','czechia':'Czechoslovakia',
+ 'united states of america':'United States','russian federation':'Soviet Union','russia':'Soviet Union','czechia':'Czechoslovakia','czech republic':'Czechoslovakia',
  'iran':'Iran','republic of korea':'South Korea','democratic peoples republic of korea':'North Korea',
  'united kingdom':'United Kingdom','bolivia':'Bolivia','venezuela':'Venezuela'
 };
