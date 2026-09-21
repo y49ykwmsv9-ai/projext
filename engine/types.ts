@@ -8,12 +8,12 @@ export type Terrain='plains'|'forest'|'hills'|'mountains'|'desert'|'tundra'|'jun
 
 export interface MapEntity{
  id:EntityId; name:string; category:RegionCategory; parentId?:EntityId; countryId?:EntityId; controller:EntityId; owner:EntityId;
- areaKm2:number; population:number; mapSource:string; sourceCode?:string; centroid:[number,number]; geometryKey:string; children:EntityId[]; adjacency:EntityId[]; ratios:RegionRatios; development:number; infrastructure:number;
+ areaKm2:number; population:number; mapSource:string; sourceCode?:string; centroid:[number,number]; geometryKey:string; children:EntityId[]; adjacency:EntityId[]; ratios:RegionRatios; development:number; infrastructure:number; historicalPolityIds?:string[]; historicalInfluence?:number; historicalContext?:string[];
 }
 export interface RegionRatios{childrenPerParent:number;populationShare:number;areaShare:number;urbanization:number;density:number;}
 export interface Nation{
  id:EntityId; name:string; government:GovernmentType; capital?:EntityId; population:number; gdp:number; treasury:number; debt:number; stability:number; legitimacy:number;
- industrialCapacity:number; civilianFactories:number; militaryFactories:number; dockyards:number; manpower:number; research:number; technology:string[]; laws:string[]; relations:Record<EntityId,number>; alliances:EntityId[]; wars:EntityId[]; ideology?:string; politicalGoals?:string[]; resources?:Record<string,number>; strategicRegions?:string[]; majorCities?:string[]; historicalNotes?:string;
+ industrialCapacity:number; civilianFactories:number; militaryFactories:number; dockyards:number; manpower:number; research:number; technology:string[]; laws:string[]; relations:Record<EntityId,number>; alliances:EntityId[]; wars:EntityId[]; ideology?:string; politicalGoals?:string[]; resources?:Record<string,number>; strategicRegions?:string[]; majorCities?:string[]; historicalNotes?:string; historicalPresence?:number; historicalPolityIds?:string[];
 }
 export interface ArmyUnit{id:EntityId;nation:EntityId;name:string;kind:string;strength:number;organization:number;equipment:number;experience:number;manpower:number;territory?:EntityId;target?:EntityId;order?:'hold'|'move'|'attack'|'defend'|'support';status?:'ready'|'moving'|'engaged'|'supplied'|'undersupplied';supplyNeed?:number;supplyReceived?:number;morale?:number;}
 export interface Treaty{id:EntityId;type:string;members:EntityId[];terms:string[];start:DateKey;end?:DateKey;}
