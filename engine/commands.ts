@@ -23,7 +23,7 @@ export function issueCommand(state:WorldState,raw:string,player:string):CommandR
  const n=state.nations[player]; if(!n)return {ok:false,message:'Select a nation first.'};
  ensureNationSystems(state,n);
 
- if(op==='help')return{ok:true,message:'Commands: build industry, build infrastructure, build dockyard, mobilize, demobilize, recruit 5000, deploy <country>, move <country>, research <topic>, tax 25, relations <country>, ally <country>, trade <country>, sanction <country>, lift sanction <country>, war <country>, peace <country>.'};
+ if(op==='help')return{ok:true,message:'Commands: build industry, build infrastructure, build dockyard, mobilize, demobilize, recruit 5000, deploy <country>, move <country>, attack <country>, defend, support <country>, hold, research <topic>, tax 25, relations <country>, ally <country>, trade <country>, sanction <country>, lift sanction <country>, war <country>, peace <country>.'};
 
  if(op==='build'){
   const what=parts[0]?.toLowerCase();
@@ -102,15 +102,15 @@ export function issueCommand(state:WorldState,raw:string,player:string):CommandR
  }
  if(op==='recruit'){
   const strength=Math.max(1000,Number(parts[0])||5000); const id=n.id+'-army-'+Date.now();
-  state.units[id]={id,nation:n.id,name:'Expeditionary Formation',kind:'infantry',strength,organization:55,equipment:70,experience:0,manpower:strength,territory:n.id};
+  state.units[id]={id,nation:n.id,name:'Expeditionary Formation',kind:'infantry',strength,organization:55,equipment:70,experience:0,manpower:strength,territory:n.id,order:'hold',status:'ready',supplyNeed:strength*.00002,supplyReceived:strength*.00002,morale:60};
   n.manpower=Math.max(0,n.manpower-strength/1e6); return{ok:true,message:'New army formation raised: '+Math.round(strength).toLocaleString()+' personnel.'};
  }
- if((op==='deploy'||op==='move')&&parts.length){
+ if((op==='deploy'||op==='move'||op==='attack'||op==='support')&&parts.length){
   const target=findNation(state,parts.join(' '));if(!target)return{ok:false,message:'Deployment target not found.'};
-  const units=Object.values(state.units).filter(u=>u.nation===n.id);
-  if(!units.length)return{ok:false,message:'No formations available to move.'};
-  units.forEach(u=>u.territory=target.id);
-  return{ok:true,message:units.length+' formation(s) moved to '+target.name+'.'};
+  const units=Object.values(state.units).filter(u=>u.nation===n.id);if(!units.length)return{ok:false,message:'No formations available to move.'};
+  const order=op==='attack'?'attack':op==='support'?'support':'move';units.forEach(u=>{u.target=target.id;u.order=order;u.status='moving';});
+  return{ok:true,message:units.length+' formation(s) ordered to '+order+' '+target.name+'.'};
  }
+ if(op==='defend'||op==='hold'){const units=Object.values(state.units).filter(u=>u.nation===n.id);if(!units.length)return{ok:false,message:'No formations available.'};units.forEach(u=>{u.order=op==='defend'?'defend':'hold';u.target=undefined;u.status='ready';});return{ok:true,message:units.length+' formation(s) ordered to '+op+'.'};}
  return{ok:false,message:'Unknown command. Type “help” for the available command list.'};
 }
