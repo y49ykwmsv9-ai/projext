@@ -1,4 +1,4 @@
-import type {WorldState,HistoricalSyncState} from '../engine/types';
+import type {WorldState,HistoricalSyncState} from './types';
 import {queryCliopatriaYear} from './cliopatria';
 
 const normalize=(v:unknown)=>String(v??'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
@@ -53,7 +53,7 @@ export function transmitHistoricalPressure(state:WorldState):void{
   const nation=state.nations[nationId]; if(!nation)continue;
   const continuity=Math.min(1,count/12);
   nation.legitimacy=Math.max(0,Math.min(100,nation.legitimacy+continuity*.01));
-  const tracker=state.scenario.historicalTrackers['cliopatria:'+nationId]??0;
+  const tracker=Number(state.scenario.historicalTrackers['cliopatria:'+nationId]??0);
   if(tracker>0) state.scenario.historicalTrackers['pressure:'+nationId]=Math.min(100,tracker*.25);
  }
 }
