@@ -25,6 +25,7 @@ type Props={
  historicalFeatures:any[];
  selectedNationId:string|null;
  selectedRegion:string|null;
+ zoom:number;
  onCountrySelect:(id:string,name:string)=>void;
  onRegionSelect:(id:string)=>void;
  onZoomChange?:(zoom:number)=>void;
@@ -33,7 +34,6 @@ type Props={
 export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures,historicalFeatures,selectedNationId,selectedRegion,onCountrySelect,onRegionSelect,onZoomChange}:Props){
  const el=useRef<HTMLDivElement|null>(null);
  const mapRef=useRef<maplibregl.Map|null>(null);
- const initialized=useRef(false);
  const colorMap=useMemo(()=>{
   const out:Record<string,string>={};
   for(const f of countryFeatures){
@@ -72,7 +72,7 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   const report=()=>onZoomChange?.(map.getZoom());
   map.on('zoomend',report);
   return()=>{map.remove();mapRef.current=null};
- },[admin1Features,cityFeatures,onCountrySelect,onRegionSelect,onZoomChange]);
+ },[]);
 
  useEffect(()=>{
   const map=mapRef.current;if(!map||!map.isStyleLoaded())return;
@@ -83,6 +83,9 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-color',selectedNationId?['case',['==',['get','__wf_id'],selectedNationId],'#fff0b9','#101820']:'#101820');
   if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');
  },[worldState,mapMode,colorMap,selectedNationId,selectedRegion]);
+
+ useEffect(()=>{const map=mapRef.current;if(!map)return;const src=map.getSource('wf-admin1') as maplibregl.GeoJSONSource|undefined;if(src)src.setData({type:'FeatureCollection',features:admin1Features} as any);const cities=map.getSource('wf-cities') as maplibregl.GeoJSONSource|undefined;if(cities)cities.setData({type:'FeatureCollection',features:cityFeatures} as any)},[admin1Features,cityFeatures]);
+ useEffect(()=>{const map=mapRef.current;if(!map)return;const z=Math.max(0,Math.min(22,zoom));if(Math.abs(map.getZoom()-z)>.08)map.zoomTo(z,{duration:180})},[zoom]);
 
  useEffect(()=>{
   const map=mapRef.current;if(!map)return;
