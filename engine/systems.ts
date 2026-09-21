@@ -6,13 +6,23 @@ function clamp(v:number,min=0,max=100){return Math.max(min,Math.min(max,v));}
 function dateAdd(date:string,days:number){const d=new Date(date+'T00:00:00Z');d.setUTCDate(d.getUTCDate()+days);return d.toISOString().slice(0,10);}
 function hash(s:string){let h=2166136261;for(const ch of s){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0;}
 function rng(state:WorldState,key:string){const x=hash(state.seed+'|'+state.tick+'|'+state.date+'|'+key);return x/4294967296;}
+function sentence(text:string){const s=text.trim().replace(/\\s+/g,' ');if(!s)return '';return /[.!?]$/.test(s)?s:s+'.';}
+function articleFor(state:WorldState,item:Omit<NewsItem,'id'>):NewsItem['article']{
+ const actors=(item.mentionedNations??[]).map(id=>state.nations[id]?.name).filter(Boolean) as string[];
+ const actorText=actors.length?actors.join(', '):'the governments and institutions involved';
+ const lead=sentence(item.summary);
+ const context=sentence(`The development is being assessed in the context of the wider ${item.category} situation. Current conditions, previous decisions and the actions of other actors may alter how the situation develops from here`);
+ const implications=sentence(`For ${actorText}, the immediate significance is therefore practical rather than merely symbolic. Officials will have to weigh available resources, domestic pressures, foreign reactions and the possibility of further developments before deciding what comes next`);
+ return {headline:item.title,dateline:item.date+' · WORLD DESK',lead,paragraphs:[lead,context,implications]};
+}
 function pushNews(state:WorldState,item:Omit<NewsItem,'id'>){
  const mentioned=new Set(item.mentionedNations??[]);
  const corpus=(item.title+' '+item.summary).toLowerCase();
  for(const n of Object.values(state.nations))if(corpus.includes(n.name.toLowerCase()))mentioned.add(n.id);
  const id='news-'+hash(item.date+'|'+item.title+'|'+item.summary+'|'+item.source);
  if(state.news.some(n=>n.id===id))return;
- state.news.unshift({...item,id,mentionedNations:Array.from(mentioned)});
+ const article=item.article??articleFor(state,{...item,mentionedNations:Array.from(mentioned)});
+ state.news.unshift({...item,id,mentionedNations:Array.from(mentioned),article});
  state.news=state.news.slice(0,80);
 }
 function pushEvent(state:WorldState,event:EventState){
