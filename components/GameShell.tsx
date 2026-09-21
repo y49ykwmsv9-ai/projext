@@ -29,15 +29,15 @@ export default function GameShell(){
  const [selected,setSelected]=useState<NationState|null>(null);
  const [selectedCounty,setSelectedCounty]=useState<string|null>(null);
  const [paused,setPaused]=useState(true),[speed,setSpeed]=useState(1),[tab,setTab]=useState('Overview');
- const [view,setView]=useState<'world'|'usa'>('world'),[command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
+ const [view,setView]=useState<'world'|'country'>('world'),[countryView,setCountryView]=useState('840'),[command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
  const [saveReady,setSaveReady]=useState(false);
  const W=1100,H=560;
- const projection=useMemo(()=>view==='usa'?geoAlbersUsa().fitSize([W,H],{type:'FeatureCollection',features:counties} as any):geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:countries} as any),[view]);
+ const countryFeatures=countryView==='840'?counties:[]; const projection=useMemo(()=>view==='country'?geoAlbersUsa().fitSize([W,H],{type:'FeatureCollection',features:countryFeatures} as any):geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:countries} as any),[view,countryView]);
  const path=useMemo(()=>geoPath(projection),[projection]);
 
  useEffect(()=>{if(paused)return;const id=setInterval(()=>setWorldState(s=>advanceWorld(s,speed)),650);return()=>clearInterval(id)},[paused,speed]);
 
- function selectCountry(id:string,name:string){setSelected(makeNation(id,name));setSelectedCounty(null);if(id==='840')setView('usa');}
+ function selectCountry(id:string,name:string){setSelected(makeNation(id,name));setSelectedCounty(null);setCountryView(id);setView('country');}
  function runCommand(e:React.FormEvent){e.preventDefault();if(!command.trim())return;const s=structuredClone(worldState);const player=selected?.id??'840';const r=issueCommand(s,command,player);setWorldState(s);setLog(x=>[r.message,...x].slice(0,8));setCommand('');}
  function save(){localStorage.setItem('worldforge-save',JSON.stringify(worldState));setSaveReady(true);setLog(x=>['Game saved locally.',...x])}
  function load(){const raw=localStorage.getItem('worldforge-save');if(!raw)return;try{setWorldState(JSON.parse(raw));setSaveReady(true);setLog(x=>['Save loaded.',...x])}catch{setLog(x=>['Save file could not be loaded.',...x])}}
@@ -47,13 +47,13 @@ export default function GameShell(){
   <nav className='tabs'>{tabs.map(t=><button className={tab===t?'active':''} onClick={()=>setTab(t)} key={t}>{t}</button>)}</nav>
   <section className='workspace'>
    <div className='map-panel'>
-    <div className='map-toolbar'><b>{view==='usa'?'UNITED STATES · COUNTY MAP':'WORLD · COUNTRY MAP'}</b><span>{view==='usa'?counties.length+' counties loaded':countries.length+' countries loaded'} · TICK {worldState.tick.toLocaleString()}</span><button onClick={()=>setView('world')}>World</button></div>
+    <div className='map-toolbar'><b>{view==='country'?makeNation(countryView,'').name.toUpperCase()+' · COUNTY MAP':'WORLD · COUNTRY MAP'}</b><span>{view==='country'?countryFeatures.length+' county-equivalent features loaded':countries.length+' countries loaded'} · TICK {worldState.tick.toLocaleString()}</span><button onClick={()=>setView('world')}>World</button></div>
     <svg viewBox={'0 0 '+W+' '+H} className='worldmap'>
      <rect width={W} height={H} className='ocean'/>
      {view==='world'?countries.map((f,i)=>{const id=String(f.id??i),n=makeNation(id,f.properties?.name??'Unknown');return <path key={id} d={path(f)||''} className={'country '+(selected?.id===id?'selected':'')} onClick={()=>selectCountry(id,n.name)}><title>{n.name}</title></path>}):
       counties.map((f,i)=>{const id=String(f.id??i),name=f.properties?.name??('County '+id);return <path key={id} d={path(f)||''} className={'county '+(selectedCounty===id?'selected':'')} onClick={()=>setSelectedCounty(id)}><title>{name}</title></path>})}
     </svg>
-    <div className='map-legend'>{view==='usa'?'Every county is a separate selectable map entity. Select World to return to country scale.':'Select a country. Selecting the United States opens its county-level map.'}</div>
+    <div className='map-legend'>{view==='usa'?'Every county-equivalent subdivision is a separate selectable map entity. Select World to return to country scale.':'Select a country. Selecting the United States opens its county-level map.'}</div>
    </div>
    <aside className='side'>
     <div className='panel-head'><div><div className='eyebrow'>{selectedCounty?'COUNTY':'POLITY / TERRITORY'}</div><h2>{selectedCounty?('County '+selectedCounty):(selected?.name??tab)}</h2></div></div>
