@@ -16,6 +16,10 @@ function countryGeoJson(){
  return {type:'FeatureCollection',features:countryFeatures.map((f,i)=>({...f,id:idFor(f,i),properties:{...(f.properties??{}),__wf_id:idFor(f,i)}}))} as any;
 }
 const countries=countryGeoJson();
+const countryColorExpression=(colors:Record<string,string>)=>{
+ const pairs:string[]=[]; for(const [id,color] of Object.entries(colors)){pairs.push(id,color)}
+ return ['match',['get','__wf_id'],...pairs,'#52636d'] as any;
+};
 
 type Props={
  worldState:WorldState;
@@ -51,11 +55,11 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
 
  useEffect(()=>{
   if(!el.current||mapRef.current)return;
-  const map=new maplibregl.Map({container:el.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:true,dragRotate:false,pitchWithRotate:false,attributionControl:undefined});
+  const map=new maplibregl.Map({container:el.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:false,dragRotate:false,pitchWithRotate:false,attributionControl:undefined});
   mapRef.current=map;
   map.addControl(new maplibregl.NavigationControl({showCompass:false}), 'bottom-right');
   map.on('load',()=>{
-   map.addSource('wf-countries',{type:'geojson',data:countries});
+   map.addSource('wf-countries',{type:'geojson',data:countries,promoteId:'__wf_id'});
    map.addLayer({id:'wf-country-fill',type:'fill',source:'wf-countries',paint:{'fill-color':'#52636d','fill-opacity':['interpolate',['linear'],['zoom'],0,.78,4,.62,7,.28,12,.10,18,.03]}});
    map.addLayer({id:'wf-country-line',type:'line',source:'wf-countries',paint:{'line-color':'#101820','line-width':['interpolate',['linear'],['zoom'],0,.45,4,.8,8,1.15,14,1.8,20,2.2],'line-opacity':.9}});
    map.addSource('wf-admin1',{type:'geojson',data:{type:'FeatureCollection',features:admin1Features}});
@@ -83,8 +87,7 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   const map=mapRef.current;if(!map||!map.isStyleLoaded())return;
   const src=map.getSource('wf-countries') as maplibregl.GeoJSONSource|undefined;
   if(src)src.setData(countries as any);
-  for(const [id,color] of Object.entries(colorMap))map.setFeatureState({source:'wf-countries',id},{color});
-  if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-color',['coalesce',['feature-state','color'],colorMap[selectedNationId??'']??'#52636d']);
+  if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-color',countryColorExpression(colorMap));
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-color',selectedNationId?['case',['==',['get','__wf_id'],selectedNationId],'#fff0b9','#101820']:'#101820');
   if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');if(map.getLayer('wf-history-fill'))map.setPaintProperty('wf-history-fill','fill-opacity',mapMode==='history'?.32:0);if(map.getLayer('wf-history-line'))map.setPaintProperty('wf-history-line','line-opacity',mapMode==='history'?.75:0);
  },[worldState,mapMode,colorMap,selectedNationId,selectedRegion]);
