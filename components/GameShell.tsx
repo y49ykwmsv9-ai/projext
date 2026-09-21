@@ -33,7 +33,7 @@ export default function GameShell(){
  const [paused,setPaused]=useState(true),[speed,setSpeed]=useState(1),[tab,setTab]=useState('Overview');
  const [view,setView]=useState<'world'|'country'>('world'),[countryView,setCountryView]=useState('840'),[command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
  const [saveReady,setSaveReady]=useState(false);
- useEffect(()=>{try{const raw=localStorage.getItem('worldforge-save');if(raw){const parsed=JSON.parse(raw) as WorldState;setWorldState(parsed);setSaveReady(true);setLog(x=>['Local game restored automatically.',...x]);}}catch{}},[]);
+ useEffect(()=>{try{const raw=localStorage.getItem('worldforge-save')??localStorage.getItem('worldforge-autosave');if(raw){const parsed=JSON.parse(raw) as WorldState;setWorldState(parsed);setSaveReady(true);setLog(x=>['Local game restored automatically.',...x]);}}catch{}},[]);
  useEffect(()=>{try{localStorage.setItem('worldforge-autosave',JSON.stringify(worldState));}catch{}},[worldState]);
  const W=1100,H=560;
  const countryFeatures=countryView==='840'?counties:[];
