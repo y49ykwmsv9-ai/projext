@@ -82,7 +82,7 @@ async function loadShard(shardId: number) {
     `shard-${shardId.toString().padStart(2, "0")}.topo.json.gz`,
   ).then((topology) => {
     const object = topology.objects.polities as never;
-    const collection = topoFeature(topology as never, object) as GeoJSON.FeatureCollection;
+    const collection = topoFeature(topology as never, object) as unknown as GeoJSON.FeatureCollection;
     return collection.features as CliopatriaFeature[];
   });
 
