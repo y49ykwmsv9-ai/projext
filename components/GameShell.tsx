@@ -45,6 +45,7 @@ function safeNationName(state:WorldState,id:string){return state.nations[id]?.na
 
 export default function GameShell(){
  const [screen,setScreen]=useState<'launcher'|'game'>('launcher');
+ const advancingRef=useRef(false);
  const [worldState,setWorldState]=useState<WorldState>(()=>seedWorld());
  const [selected,setSelected]=useState<NationState|null>(null),[selectedNationId,setSelectedNationId]=useState<string|null>(null),[selectedRegion,setSelectedRegion]=useState<string|null>(null);
  const [paused,setPaused]=useState(true),[speed,setSpeed]=useState(1),[tab,setTab]=useState('Overview');
@@ -95,13 +96,15 @@ export default function GameShell(){
  setLog(x=>[(ok?'✓ ':'✕ ')+message,...x].slice(0,12));setWorldState(s);setShowMenu(true)
 }
  async function advanceAndInspect(days:number){
-  if(!Number.isFinite(days)||days<=0)return;
+  if(!Number.isFinite(days)||days<=0||advancingRef.current)return;
+  advancingRef.current=true;
   const safeDays=Math.min(3650,Math.max(1,Math.round(days)));
   const before=worldState;
   const next=await advanceWorldWithData(before,safeDays);
   const fresh=next.news.filter(n=>!before.news.some(old=>old.id===n.id));
   if(fresh.some(n=>n.importance>=7))setPaused(true);
   setWorldState(next);
+  advancingRef.current=false;
  }
 function skipToMajor(){
  setPaused(true);
