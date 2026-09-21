@@ -1,7 +1,7 @@
 import {WorldState,Nation,MapEntity,EconomicState,MilitaryState,DiplomaticState} from './types';
 
 export function createWorldState(date='1936-01-01',seed=19360101):WorldState{
- return {date,tick:0,playerNation:undefined,nations:{},mapEntities:{},units:{},treaties:{},events:[],political:{identities:{},borderHistory:[],mapRevision:0},seed,economy:{},military:{},diplomacy:{}};
+ return {date,tick:0,playerNation:undefined,nations:{},mapEntities:{},units:{},treaties:{},events:[],political:{identities:{},borderHistory:[],mapRevision:0},seed,economy:{},military:{},diplomacy:{},scenario:{presetId:'sandbox',presetDate:date,divergence:0,historyLog:[],historicalTrackers:{}}};
 }
 
 export function ensureNationSystems(state:WorldState,nation:Nation):void{
