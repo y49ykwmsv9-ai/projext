@@ -47,3 +47,7 @@ The GitHub Actions workflow builds the Next.js application on pushes and pull re
 - components/ — interactive game interface
 - app/ — Next.js application shell
 - docs/ — architecture and data-pipeline documentation
+
+
+## CI verification
+Production validation runs TypeScript checking before `next build` in GitHub Actions.
