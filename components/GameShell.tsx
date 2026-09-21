@@ -19,7 +19,7 @@ function seedWorld(date=START_DATE,playerNation?:string):WorldState{
  for(const f of countries){
   const id=String(f.id??'0'), n=makeNation(id,f.properties?.name??'Unknown');
   state.nations[id]={id:n.id,name:n.name,government:n.government,population:n.population,gdp:n.gdp,treasury:n.gdp*.15,debt:0,stability:n.stability,legitimacy:65,industrialCapacity:n.industry,civilianFactories:Math.max(5,Math.round(n.industry*.45)),militaryFactories:Math.max(2,Math.round(n.industry*.14)),dockyards:Math.max(1,Math.round(n.industry*.05)),manpower:n.population*n.manpowerRate,research:1,technology:['Agriculture','Basic Industry'],laws:[],relations:{},alliances:[],wars:[],ideology:n.ideology,politicalGoals:n.politicalGoals,resources:n.resources,strategicRegions:n.strategicRegions,majorCities:n.majorCities,historicalNotes:n.historicalNotes};
-  const baseCentroid=(path.centroid(f) as [number,number]);
+  const baseCentroid:[number,number]=[0,0];
   state.mapEntities[id]={id,name:n.name,category:'country',controller:id,owner:id,areaKm2:1,population:n.population*1e6,mapSource:'bundled-world-atlas',centroid:baseCentroid,geometryKey:id,children:[],adjacency:[],development:n.industry,infrastructure:50,ratios:{childrenPerParent:0,populationShare:1,areaShare:1,urbanization:n.urbanization/100,density:n.population}};
   ensureNationSystems(state,state.nations[id]);
  }
