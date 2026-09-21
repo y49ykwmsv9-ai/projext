@@ -1,7 +1,7 @@
 'use client';
 
 import {useEffect,useMemo,useRef,useState} from 'react';
-import {geoNaturalEarth1,geoPath,geoCentroid,geoArea} from 'd3-geo';
+import {geoNaturalEarth1,geoPath} from 'd3-geo';
 import {feature} from 'topojson-client';
 import world from 'world-atlas/countries-110m.json';
 import {makeNation,NationState,START_DATE} from '../lib/game-data';
@@ -21,7 +21,7 @@ function seedWorld(date=START_DATE,playerNation?:string):WorldState{
  for(const f of countries){
   const id=mapFeatureId(f,countries.indexOf(f)), mapName=f.properties?.name??'Unknown', db=getWorldProfile(id,mapName), n=makeNation(id,db?.name??mapName);
   state.nations[id]={id:n.id,name:n.name,government:n.government,population:n.population,gdp:n.gdp,treasury:n.gdp*.15,debt:0,stability:n.stability,legitimacy:65,industrialCapacity:n.industry,civilianFactories:Math.max(5,Math.round(n.industry*.45)),militaryFactories:Math.max(2,Math.round(n.industry*.14)),dockyards:Math.max(1,Math.round(n.industry*.05)),manpower:n.population*n.manpowerRate,research:1,technology:['Agriculture','Basic Industry'],laws:[],relations:{},alliances:[],wars:[],ideology:n.ideology,politicalGoals:n.politicalGoals,resources:n.resources,strategicRegions:n.strategicRegions,majorCities:n.majorCities,historicalNotes:n.historicalNotes};
-  const baseCentroid=geoCentroid(f) as [number,number]; const areaKm2=Math.max(1,geoArea(f)*6371*6371);
+  const baseCentroid:[number,number]=[0,0]; const areaKm2=1;
   state.mapEntities[id]={id,name:n.name,category:'country',controller:id,owner:id,areaKm2,population:n.population*1e6,mapSource:'bundled-world-atlas',centroid:baseCentroid,geometryKey:id,children:[],adjacency:[],development:n.industry,infrastructure:50,ratios:{childrenPerParent:0,populationShare:1,areaShare:1,urbanization:n.urbanization/100,density:n.population}};
   addStrategicRegions(state,id,n.name,n.population,n.industry,n.resourcePotential,n.majorCities);
   ensureNationSystems(state,state.nations[id]);
