@@ -15,6 +15,7 @@ export function syncPoliticalMap(state:WorldState):void{
 export function advanceWorld(state:WorldState,days=1):WorldState{
  const next:WorldState=structuredClone(state);
  next.tick+=1;
+ next.scenario.divergence=Math.max(0,Math.min(100,next.scenario.divergence));
  const d=new Date(next.date+'T00:00:00Z');
  d.setUTCDate(d.getUTCDate()+days);
  next.date=d.toISOString().slice(0,10);
