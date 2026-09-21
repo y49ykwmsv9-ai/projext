@@ -2,6 +2,7 @@ import type {WorldState,HistoricalSyncState} from './types';
 import {queryCliopatriaYear} from '../lib/cliopatria';
 import {geoContains} from 'd3-geo';
 import {recordsNear} from '../lib/historical-records';
+import {historicalPolities} from '../lib/historical-polities';
 
 const normalize=(v:unknown)=>String(v??'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const first=(p:Record<string,unknown>,keys:string[])=>{for(const k of keys){if(p[k]!==undefined&&p[k]!==null&&String(p[k]).trim())return String(p[k]);}return '';};
@@ -14,6 +15,11 @@ function featureIdentity(feature:any){
 function matchNation(state:WorldState,feature:any):string|undefined{
  const x=featureIdentity(feature), xn=normalize(x.name);
  if(xn){for(const n of Object.values(state.nations))if(normalize(n.name)===xn)return n.id;}
+ const registryMatch=historicalPolities.find(p=>normalize(p.name)===xn||(p.aliases??[]).some(a=>normalize(a)===xn));
+ if(registryMatch){
+  const candidates=Object.values(state.nations).filter(n=>normalize(n.name)===normalize(registryMatch.name)||(registryMatch.aliases??[]).some(a=>normalize(a)===normalize(n.name)));
+  if(candidates.length===1)return candidates[0].id;
+ }
  const p=feature.properties??{};
  for(const n of Object.values(state.nations)){
   const aliases=[n.name,...(n.politicalGoals??[])].map(normalize);
