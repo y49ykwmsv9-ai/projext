@@ -5,7 +5,7 @@ function clamp(v:number,min=0,max=100){return Math.max(min,Math.min(max,v));}
 
 export function runDemographics(state:WorldState,days:number):void{
  for(const e of Object.values(state.mapEntities)){
-  const growth=(e.category==='city'?.00003:.000018)*days;
+  const growth=(e.category==='city' ? 0.00003 : 0.000018)*days;
   e.population=Math.max(0,e.population*(1+growth));
   e.ratios.density=e.areaKm2>0?e.population/e.areaKm2:0;
   e.ratios.populationShare=e.parentId&&state.mapEntities[e.parentId]?.population?e.population/state.mapEntities[e.parentId].population:1;
