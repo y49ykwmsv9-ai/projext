@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/prepare-world-data.mjs && next build",
+    "build": "node scripts/prepare-world-data.mjs && node scripts/prepare-cliopatria.mjs && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm run build",
-    "data:prepare": "node scripts/prepare-world-data.mjs"
+    "data:prepare": "node scripts/prepare-world-data.mjs",
+    "data:prepare:cliopatria": "node scripts/prepare-cliopatria.mjs"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",
@@ -16,6 +17,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
     "world-atlas": "^2.0.0",
     "us-atlas": "^3.0.1"
   },
