@@ -55,10 +55,6 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
 
  useEffect(()=>{
   if(!el.current||mapRef.current)return;
-  if(!maplibregl.supported()){
-   el.current.dataset.mapFallback='unsupported-webgl';
-   return;
-  }
   let map:maplibregl.Map;
   try{ map=new maplibregl.Map({container:el.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:false,dragRotate:false,pitchWithRotate:false,attributionControl:undefined}); }catch{
    if(el.current)el.current.dataset.mapFallback='map-init-failed';
