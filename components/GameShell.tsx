@@ -1,6 +1,6 @@
 'use client';
 import {useEffect,useMemo,useState} from 'react';
-import {geoNaturalEarth1,geoPath,geoAlbersUsa1} from 'd3-geo';
+import {geoNaturalEarth1,geoPath,geoAlbersUsa} from 'd3-geo';
 import {feature} from 'topojson-client';
 import world from 'world-atlas/countries-110m.json';
 import usCounties from 'us-atlas/counties-10m.json';
