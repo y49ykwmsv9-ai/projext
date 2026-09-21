@@ -22,7 +22,9 @@ export interface MapEntity{
  geometryKey:string;
  children:EntityId[];
  adjacency:EntityId[];
- ratios:EntityRatios;
+ ratios:RegionRatios;
+ development:number;
+ infrastructure:number;
 }
 
 export interface RegionRatios{
@@ -64,7 +66,8 @@ export interface WorldState{
  mapEntities:Record<EntityId,MapEntity>;
  units:Record<EntityId,ArmyUnit>;
  treaties:Record<EntityId,Treaty>;
- events:string[];
+ events:EventState[];
+ political:PoliticalVisualState;
  seed:number;
 }
 
