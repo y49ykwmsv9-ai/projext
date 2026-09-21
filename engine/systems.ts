@@ -99,7 +99,12 @@ export function runWars(state:WorldState,days:number):void{
      const chance=Math.min(.65,.08+Math.abs(margin)/500+days/3650);
      if(rng(state,'territory-'+attacker.id+'-'+defender.id)<chance){
       const oldOwner=candidate.owner;
-      candidate.owner=attacker.id;candidate.controller=attacker.id;
+      const transfer=(entityId:string)=>{
+       const entity=state.mapEntities[entityId];if(!entity)return;
+       entity.owner=attacker.id;entity.controller=attacker.id;
+       for(const childId of entity.children)transfer(childId);
+      };
+      transfer(candidate.id);
       state.political.borderHistory.push({entityId:candidate.id,owner:attacker.id,controller:attacker.id,from:oldOwner,reason:'Wartime regional capture',date:state.date});
       state.political.mapRevision+=1;
       pushNews(state,{date:state.date,title:'Front line shift · '+candidate.name,summary:attacker.name+' has established control over '+candidate.name+' after sustained battlefield pressure. The territorial situation remains contested.',category:'military',importance:6,relatedNation:attacker.id,mentionedNations:[attacker.id,defender.id],source:'ai'});
