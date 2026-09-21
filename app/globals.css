@@ -31,3 +31,6 @@
 .timeline-item b{font-size:11px}.timeline-item p{margin:4px 0;color:#b8c4ca;font-size:10px;line-height:1.45}.timeline-item small{font-size:8px;color:var(--muted)}
 .timeline-item.player-action{border-left-color:#7fa7b5;background:#0d171d}
 .map-modes{display:flex;gap:4px;align-items:center;flex-wrap:wrap}.map-modes button.active{border-color:var(--accent);color:var(--accent)}
+
+.news-filters{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0 12px}.news-filters button{font-size:9px;padding:6px 8px}.news-filters button:hover{color:var(--accent)}
+.timeline-legend{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 12px;color:var(--muted);font-size:9px}.timeline-legend span:first-child{color:var(--accent)}
