@@ -3,6 +3,22 @@ import {ensureNationSystems} from './state';
 
 function clamp(v:number,min=0,max=100){return Math.max(min,Math.min(max,v));}
 
+/** Historical logic is pressure, not destiny. A preset supplies conditions and likely pressures; it never overwrites a divergent world. */
+function runHistoricalLogic(state:WorldState):void{
+ const y=Number(state.date.slice(0,4)); const s=state.scenario;
+ const has=(id:string)=>s.historyLog.includes(id);
+ const trigger=(id:string,condition:boolean,title:string,description:string,options:string[],effects:any[])=>{if(!condition||has(id))return;state.events.push({id,date:state.date,title,description,severity:3,options,resolved:false,effects});s.historyLog.push(id);};
+ if(s.presetDate==='1936-01-01'){
+  trigger('hist-1936-rearmament',y>=1936&&y<=1939&&!!state.nations['276'],'European rearmament pressure', 'The international balance is under pressure from rearmament, alliances and economic competition. The historical pattern may emerge, but current decisions can redirect it.', ['Maintain restraint','Accelerate preparations'],[{kind:'mobilization',target:'276',value:8,data:{option:1}},{kind:'industry',target:'276',value:1,data:{option:1}}]);
+  trigger('hist-1938-crisis',y>=1938&&y<=1939&&!!state.nations['276']&&!!state.nations['203'],'Central European Crisis','A major Central European confrontation is becoming plausible. Its outcome depends on diplomacy, military readiness and choices already made.', ['Seek settlement','Escalate deterrence'],[{kind:'relation',target:'276',value:10,data:{option:0}},{kind:'mobilization',target:'203',value:8,data:{option:1}}]);
+  trigger('hist-1939-war-window',y>=1939&&y<=1941&&!!state.nations['276'],'General European War Window','A general European war is historically plausible in this period, but it is not scripted. Existing alliances, borders, deterrence and player decisions determine whether it materializes.', ['Pursue diplomacy','Prepare for war'],[{kind:'relation',target:'276',value:6,data:{option:0}},{kind:'mobilization',target:'276',value:5,data:{option:1}}]);
+ }
+ if(s.presetDate==='1939-09-01'||s.presetDate==='1941-06-22'||s.presetDate==='1941-11-13'){
+  trigger('hist-war-trajectory',y>=1939&&y<=1945,'World War trajectory','The preset begins during an existing historical crisis. The simulation will preserve the starting conditions, but subsequent wars, occupations and alliances remain emergent.', ['Exploit the opening','Seek a different settlement'],[{kind:'warSupport',target:state.playerNation,value:4,data:{option:0}},{kind:'relation',target:'276',value:8,data:{option:1}}]);
+ }
+}
+
+
 export function runDemographics(state:WorldState,days:number):void{
  for(const e of Object.values(state.mapEntities)){
   const growth=(e.category==='city' ? 0.00003 : 0.000018)*days;
@@ -77,7 +93,7 @@ export function runDiplomacy(state:WorldState):void{
 }
 
 export function runWorldSystems(state:WorldState,days:number):void{
- runDemographics(state,days); runEconomy(state,days); runMilitary(state,days); runWars(state,days); runDiplomacy(state); aiDiplomacy(state);
+ runDemographics(state,days); runEconomy(state,days); runMilitary(state,days); runWars(state,days); runDiplomacy(state); aiDiplomacy(state); runHistoricalLogic(state);
 }
 
 export function generateDynamicEvents(state:WorldState):void{
