@@ -1,102 +1,99 @@
 'use client';
-import {useEffect,useMemo,useState} from 'react';
-import {geoNaturalEarth1,geoPath,geoAlbersUsa} from 'd3-geo';
+
+import {useEffect,useMemo,useRef,useState} from 'react';
+import {geoNaturalEarth1,geoPath} from 'd3-geo';
 import {feature} from 'topojson-client';
 import world from 'world-atlas/countries-110m.json';
-import usCounties from 'us-atlas/counties-10m.json';
 import {makeNation,NationState,START_DATE} from '../lib/game-data';
 import {createWorldState,advanceWorld,issueCommand,ensureNationSystems,syncPoliticalMap,applyEventEffects} from '../engine';
 import type {WorldState} from '../engine';
 
 const countries:any[]=(((feature(world as any,(world as any).objects.countries) as any).features??[]) as any[]);
-const counties:any[]=(((feature(usCounties as any,(usCounties as any).objects.counties) as any).features??[]) as any[]);
-const tabs=['Overview','Politics','Economy','Diplomacy','Military','Intelligence','Production','Technology','Population','Territory'];
 const speeds=[1,2,5,10,20];
+const tabs=['Overview','Politics','Economy','Diplomacy','Military','Intelligence','Production','Technology','Population','Territory'];
+type Preset={id:string;name:string;description:string;date:string;playerNation:string;state:WorldState};
 
-function seedWorld():WorldState{
- const state=createWorldState(START_DATE);
+function seedWorld(date=START_DATE,playerNation?:string):WorldState{
+ const state=createWorldState(date);
  for(const f of countries){
-  const id=String(f.id??'0'); const n=makeNation(id,f.properties?.name??'Unknown');
-  state.nations[id]={id:n.id,name:n.name,government:'republic',population:n.population,gdp:n.gdp,treasury:n.gdp*.15,debt:0,stability:n.stability,legitimacy:65,industrialCapacity:n.industry,civilianFactories:20,militaryFactories:10,dockyards:5,manpower:n.population*.22,research:1,technology:[],laws:[],relations:{},alliances:[],wars:[]};
-  state.mapEntities[id]={id,name:n.name,category:'country',controller:id,owner:id,areaKm2:1,population:n.population*1e6,mapSource:'world-atlas',centroid:[0,0],geometryKey:id,children:[],adjacency:[],development:n.industry,infrastructure:50,ratios:{childrenPerParent:0,populationShare:1,areaShare:1,urbanization:.5,density:0}};
+  const id=String(f.id??'0'), n=makeNation(id,f.properties?.name??'Unknown');
+  state.nations[id]={id:n.id,name:n.name,government:n.government,population:n.population,gdp:n.gdp,treasury:n.gdp*.15,debt:0,stability:n.stability,legitimacy:65,industrialCapacity:n.industry,civilianFactories:Math.max(5,Math.round(n.industry*.45)),militaryFactories:Math.max(2,Math.round(n.industry*.14)),dockyards:Math.max(1,Math.round(n.industry*.05)),manpower:n.population*n.manpowerRate,research:1,technology:['Agriculture','Basic Industry'],laws:[],relations:{},alliances:[],wars:[]};
+  state.mapEntities[id]={id,name:n.name,category:'country',controller:id,owner:id,areaKm2:1,population:n.population*1e6,mapSource:'bundled-world-atlas',centroid:[0,0],geometryKey:id,children:[],adjacency:[],development:n.industry,infrastructure:50,ratios:{childrenPerParent:0,populationShare:1,areaShare:1,urbanization:n.urbanization/100,density:n.population}};
   ensureNationSystems(state,state.nations[id]);
  }
- syncPoliticalMap(state); return state;
+ syncPoliticalMap(state); state.playerNation=playerNation??'840'; return state;
 }
-function identityColor(key:string){let h=0;for(const ch of key)h=(h*31+ch.charCodeAt(0))>>>0;return 'hsl('+h%360+' 38% 42%)'}
 function pct(v:number){return Math.round(v*100)+'%'}
+function identityColor(key:string){let h=0;for(const ch of key)h=(h*31+ch.charCodeAt(0))>>>0;return 'hsl('+h%360+' 38% 42%)'}
+function formatBig(v:number){return v>=100?v.toFixed(0):v.toFixed(1)}
 
 export default function GameShell(){
+ const [screen,setScreen]=useState<'launcher'|'game'>('launcher');
  const [worldState,setWorldState]=useState<WorldState>(()=>seedWorld());
  const [selected,setSelected]=useState<NationState|null>(null);
- const [selectedCounty,setSelectedCounty]=useState<string|null>(null);
  const [paused,setPaused]=useState(true),[speed,setSpeed]=useState(1),[tab,setTab]=useState('Overview');
- const [view,setView]=useState<'world'|'country'>('world'),[countryView,setCountryView]=useState('840'),[command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
- const [saveReady,setSaveReady]=useState(false);
- useEffect(()=>{try{const raw=localStorage.getItem('worldforge-save')??localStorage.getItem('worldforge-autosave');if(raw){const parsed=JSON.parse(raw) as WorldState;setWorldState(parsed);setSaveReady(true);setLog(x=>['Local game restored automatically.',...x]);}}catch{}},[]);
- useEffect(()=>{try{localStorage.setItem('worldforge-autosave',JSON.stringify(worldState));}catch{}},[worldState]);
- const W=1100,H=560;
- const countryFeatures=countryView==='840'?counties:[];
- const projection=useMemo(()=>view==='country'?geoAlbersUsa().fitSize([W,H],{type:'FeatureCollection',features:countryFeatures} as any):geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:countries} as any),[view,countryView]);
+ const [command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]);
+ const [saves,setSaves]=useState<{name:string;date:string;state:WorldState}[]>([]);
+ const [presetName,setPresetName]=useState(''),[presetDate,setPresetDate]=useState(START_DATE),[presetNation,setPresetNation]=useState('840');
+ const [showMenu,setShowMenu]=useState(false),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0});
+ const svgRef=useRef<SVGSVGElement|null>(null);
+ const drag=useRef<{id:number;x:number;y:number;px:number;py:number}|null>(null);
+ const pinch=useRef<{distance:number;zoom:number}|null>(null);
+ const W=1200,H=650;
+ const projection=useMemo(()=>geoNaturalEarth1().fitSize([W,H],{type:'FeatureCollection',features:countries} as any),[]);
  const path=useMemo(()=>geoPath(projection),[projection]);
- useEffect(()=>{if(paused)return;const id=setInterval(()=>setWorldState(s=>advanceWorld(s,speed)),650);return()=>clearInterval(id)},[paused,speed]);
-
- function selectCountry(id:string,name:string){
-  const live=worldState.nations[id];
-  const nationState: NationState = live
-   ? {
-      id:live.id,
-      name:live.name,
-      population:live.population,
-      gdp:live.gdp,
-      industry:live.industrialCapacity,
-      stability:live.stability,
-      military:live.militaryFactories,
-      relations:Object.values(live.relations).reduce((a:number,v:number)=>a+v,0)
-     }
-   : makeNation(id,name);
-  setSelected(nationState);setSelectedCounty(null);setCountryView(id);setView('country');
-  setWorldState(s=>({...s,playerNation:id}));
- }
- function runCommand(e:React.FormEvent){e.preventDefault();if(!command.trim())return;const s=structuredClone(worldState);const player=worldState.playerNation??selected?.id??'840';const r=issueCommand(s,command,player);setWorldState(s);setLog(x=>[r.message,...x].slice(0,10));setCommand('');}
- function save(){localStorage.setItem('worldforge-save',JSON.stringify(worldState));localStorage.setItem('worldforge-save-version','1.0');setSaveReady(true);setLog(x=>['Game saved to this device.',...x])}
- function load(){const raw=localStorage.getItem('worldforge-save');if(!raw)return;try{setWorldState(JSON.parse(raw));setSaveReady(true);setLog(x=>['Save loaded.',...x])}catch{setLog(x=>['Save file could not be loaded.',...x])}}
  const nation=worldState.playerNation?worldState.nations[worldState.playerNation]:undefined;
  const activeEvents=worldState.events.filter(e=>!e.resolved);
- const relRows=nation?Object.entries(nation.relations).map(([id,v])=>({name:worldState.nations[id]?.name??id,value:v})).sort((a,b)=>b.value-a.value).slice(0,8):[];
 
- function panel(){
-  if(!nation)return <div className='feature-list'>{['Select any country on the world map to play as it.','Pause, resume and accelerate the simulation.','Manage taxation, industry, infrastructure and research.','Raise armies, mobilize, form alliances and declare wars.','Resolve dynamic events with branching effects.','Save and load a complete deterministic world state.','Country borders are bundled into the application; no runtime map download is required.'].map(x=><div key={x}>◆ {x}</div>)}</div>;
-  if(tab==='Economy'||tab==='Production')return <div className='detail-grid'><Metric title='GDP' value={nation.gdp.toFixed(1)+' B'}/><Metric title='Treasury' value={nation.treasury.toFixed(1)+' B'}/><Metric title='Tax rate' value={pct(worldState.economy[nation.id].taxRate)}/><Metric title='Inflation' value={worldState.economy[nation.id].inflation.toFixed(1)+'%'}/><Metric title='Industry' value={nation.industrialCapacity.toFixed(0)}/><Metric title='Construction' value={worldState.economy[nation.id].construction.toFixed(0)}/><div className='wide action-grid'><button onClick={()=>quick('build industry')}>Build Industry</button><button onClick={()=>quick('build infrastructure')}>Build Infrastructure</button><button onClick={()=>quick('tax 15')}>Tax 15%</button><button onClick={()=>quick('tax 30')}>Tax 30%</button></div></div>;
-  if(tab==='Diplomacy')return <><div className='detail-title'>Foreign Relations</div>{relRows.length?relRows.map(r=><div className='relation' key={r.name}><span>{r.name}</span><b>{r.value}</b></div>):<div className='muted'>No diplomatic actions recorded yet.</div>}<div className='section'><div className='section-title'>QUICK DIPLOMACY</div><div className='action-grid'><button onClick={()=>quick('relations France')}>Improve France</button><button onClick={()=>quick('relations Germany')}>Improve Germany</button><button onClick={()=>quick('ally France')}>Alliance: France</button><button onClick={()=>quick('peace Germany')}>Peace: Germany</button></div></div></>;
-  if(tab==='Military')return <><div className='detail-grid'><Metric title='Readiness' value={worldState.military[nation.id].readiness.toFixed(0)}/><Metric title='Mobilization' value={worldState.military[nation.id].mobilization.toFixed(0)}/><Metric title='Supply' value={pct(worldState.military[nation.id].supply)}/><Metric title='War support' value={worldState.military[nation.id].warSupport.toFixed(0)}/><Metric title='Manpower' value={nation.manpower.toFixed(2)+' M'}/><Metric title='Active formations' value={String(Object.values(worldState.units).filter(u=>u.nation===nation.id).length)}/></div><div className='action-grid'><button onClick={()=>quick('mobilize')}>Mobilize</button><button onClick={()=>quick('demobilize')}>Demobilize</button><button onClick={()=>quick('recruit 5000')}>Raise 5,000</button><button onClick={()=>quick('war Germany')}>Declare War: Germany</button></div></>;
-  if(tab==='Technology')return <><div className='detail-title'>Research Portfolio</div><div className='tech-list'>{(nation.technology.length?nation.technology:['Industrial Methods','Logistics','Communications','Combined Arms']).map((t,i)=><div key={t} className='tech'><span>{t}</span><b>{i<nation.research?'ACTIVE':'PLANNED'}</b></div>)}</div><button className='wide-button' onClick={()=>quick('research '+(nation.technology.length+1))}>Fund Research</button></>;
-  if(tab==='Politics')return <div className='detail-grid'><Metric title='Government' value={nation.government}/><Metric title='Stability' value={nation.stability.toFixed(0)}/><Metric title='Legitimacy' value={nation.legitimacy.toFixed(0)}/><Metric title='Laws' value={String(nation.laws.length)}/><div className='wide muted'>Domestic policy affects growth, revenue, unrest and military readiness over time.</div></div>;
-  if(tab==='Population')return <div className='detail-grid'><Metric title='Population' value={nation.population.toFixed(1)+' M'}/><Metric title='Manpower pool' value={nation.manpower.toFixed(2)+' M'}/><Metric title='Urbanization' value='50%'/><Metric title='Growth' value='Dynamic'/></div>;
-  if(tab==='Territory')return <div className='muted'>Worldforge keeps legal ownership separate from military control. Select a country to open its available administrative map view. The bundled U.S. county atlas provides individually clickable county-equivalents.</div>;
-  if(tab==='Intelligence')return <div className='detail-grid'><Metric title='Counterintelligence' value='50'/><Metric title='Reconnaissance' value='50'/><Metric title='Network coverage' value='25%'/><Metric title='Deception' value='20'/><div className='wide muted'>Intelligence systems are represented as persistent state and will expand with future operational orders.</div></div>;
-  return <><div className='detail-title'>Strategic Situation</div><div className='muted'>You control <b>{nation.name}</b>. The simulation advances daily and recalculates demographics, economy, military readiness and diplomacy. Use the console or quick actions to change the world.</div><div className='section'><div className='section-title'>CURRENT WARS</div><div>{nation.wars.length?nation.wars.map(id=><div className='relation' key={id}><span>{worldState.nations[id]?.name??id}</span><b>WAR</b></div>):<span className='muted'>No active wars.</span>}</div></div></>;
+ useEffect(()=>{try{const raw=localStorage.getItem('worldforge-saves');if(raw)setSaves(JSON.parse(raw));}catch{}},[]);
+ useEffect(()=>{if(screen!=='game'||paused)return;const id=setInterval(()=>setWorldState(s=>advanceWorld(s,speed)),650);return()=>clearInterval(id)},[screen,paused,speed]);
+ useEffect(()=>{if(screen==='game'){try{localStorage.setItem('worldforge-autosave',JSON.stringify(worldState));}catch{}}},[worldState,screen]);
+
+ function enter(state:WorldState){setWorldState(state);const p=state.playerNation??'840';setSelected(makeNation(p,state.nations[p]?.name??'United States'));setScreen('game');setTab('Overview');setPaused(true);setPan({x:0,y:0});setZoom(1)}
+ function newGame(){enter(seedWorld(presetDate,presetNation));setLog(['New simulation initialized.'])}
+ function resume(){try{const raw=localStorage.getItem('worldforge-save');if(raw){enter(JSON.parse(raw));setLog(['Saved campaign resumed.']);return}}catch{} setLog(['No manual save found.']);}
+ function quick(c:string){const s=structuredClone(worldState);const r=issueCommand(s,c,worldState.playerNation??'');setWorldState(s);setLog(x=>[r.message,...x].slice(0,12))}
+ function selectCountry(id:string,name:string){const live=worldState.nations[id];const n=live?makeNation(id,live.name):makeNation(id,name);setWorldState(s=>({...s,playerNation:id}));setSelected(n);setTab('Overview');setShowMenu(true)}
+ function save(){try{localStorage.setItem('worldforge-save',JSON.stringify(worldState));localStorage.setItem('worldforge-save-version','2.0');setLog(x=>['Campaign saved on this device.',...x])}catch{setLog(x=>['Save failed.',...x])}}
+ function createPreset(){const p:Preset={id:crypto.randomUUID(),name:presetName.trim()||'Custom Scenario',description:'Player-created Worldforge preset',date:presetDate,playerNation:presetNation,state:seedWorld(presetDate,presetNation)};try{const raw=localStorage.getItem('worldforge-presets');const list:Preset[]=raw?JSON.parse(raw):[];list.unshift(p);localStorage.setItem('worldforge-presets',JSON.stringify(list));setLog(['Preset created: '+p.name]);setPresetName('')}catch{}}
+ function loadPresets():Preset[]{try{return JSON.parse(localStorage.getItem('worldforge-presets')||'[]')}catch{return[]}}
+ function startPreset(p:Preset){enter(structuredClone(p.state))}
+ function onWheel(e:React.WheelEvent){e.preventDefault();const next=Math.max(.7,Math.min(5,zoom*(e.deltaY<0?1.12:.89)));setZoom(next)}
+ function onPointerDown(e:React.PointerEvent<SVGSVGElement>){e.currentTarget.setPointerCapture(e.pointerId);drag.current={id:e.pointerId,x:e.clientX,y:e.clientY,px:pan.x,py:pan.y}}
+ function onPointerMove(e:React.PointerEvent<SVGSVGElement>){if(!drag.current||drag.current.id!==e.pointerId)return;setPan({x:drag.current.px+e.clientX-drag.current.x,y:drag.current.py+e.clientY-drag.current.y})}
+ function onPointerUp(){drag.current=null}
+ function distance(a:PointerEvent,b:PointerEvent){return Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY)}
+ function detail(){
+  if(!nation)return <div className='empty-panel'>Select a country directly on the map.</div>;
+  if(tab==='Diplomacy')return <><h3>Foreign Relations</h3>{Object.entries(nation.relations).slice(0,8).map(([id,v])=><div className='row' key={id}><span>{worldState.nations[id]?.name??id}</span><b>{v}</b></div>)}<div className='actions'><button onClick={()=>quick('relations France')}>Improve France</button><button onClick={()=>quick('relations Germany')}>Improve Germany</button><button onClick={()=>quick('ally France')}>Alliance France</button></div></>;
+  if(tab==='Economy'||tab==='Production')return <><h3>Economic Command</h3><div className='mini-grid'><Metric title='GDP' value={formatBig(nation.gdp)+' B'}/><Metric title='Treasury' value={formatBig(nation.treasury)+' B'}/><Metric title='Industry' value={String(nation.industrialCapacity)}/><Metric title='Tax' value={pct(worldState.economy[nation.id]?.taxRate??.2)}/></div><div className='actions'><button onClick={()=>quick('build industry')}>Build Industry</button><button onClick={()=>quick('build infrastructure')}>Infrastructure</button><button onClick={()=>quick('tax 15')}>Tax 15%</button><button onClick={()=>quick('tax 30')}>Tax 30%</button></div></>;
+  if(tab==='Military')return <><h3>Armed Forces</h3><div className='mini-grid'><Metric title='Manpower' value={formatBig(nation.manpower)+' M'}/><Metric title='Readiness' value={String(Math.round(worldState.military[nation.id]?.readiness??50))}/><Metric title='Supply' value={pct(worldState.military[nation.id]?.supply??1)}/><Metric title='War Support' value={String(Math.round(worldState.military[nation.id]?.warSupport??50))}/></div><div className='actions'><button onClick={()=>quick('mobilize')}>Mobilize</button><button onClick={()=>quick('recruit 5000')}>Recruit</button><button onClick={()=>quick('demobilize')}>Demobilize</button><button onClick={()=>quick('war Germany')}>War: Germany</button></div></>;
+  if(tab==='Politics')return <><h3>Political State</h3><div className='mini-grid'><Metric title='Government' value={nation.government}/><Metric title='Stability' value={String(Math.round(nation.stability))}/><Metric title='Legitimacy' value={String(Math.round(nation.legitimacy))}/><Metric title='Laws' value={String(nation.laws.length)}/></div></>;
+  if(tab==='Population')return <><h3>Population</h3><div className='mini-grid'><Metric title='Population' value={formatBig(nation.population)+' M'}/><Metric title='Manpower rate' value={pct(nation.manpowerRate)}/><Metric title='Urbanization' value={String(Math.round((worldState.mapEntities[nation.id]?.ratios.urbanization??.3)*100))+'%'}/><Metric title='Literacy' value={String(Math.round(makeNation(nation.id,nation.name).literacy))+'%'}/></div></>;
+  if(tab==='Technology')return <><h3>Research Portfolio</h3>{(nation.technology.length?nation.technology:['Agriculture','Basic Industry','Logistics','Communications']).map(t=><div className='row' key={t}><span>{t}</span><b>ACTIVE</b></div>)}<button className='full-button' onClick={()=>quick('research '+(nation.technology.length+1))}>Fund Research</button></>;
+  if(tab==='Intelligence')return <><h3>Intelligence</h3><div className='mini-grid'><Metric title='Recon' value='50'/><Metric title='Counterintel' value='50'/><Metric title='Network' value='25%'/><Metric title='Deception' value='20'/></div></>;
+  return <><h3>{nation.name}</h3><p className='muted'>The map is the primary interface. Tap another country to change the player polity, then use the floating command panel for government, economy, diplomacy and military actions.</p><div className='mini-grid'><Metric title='Population' value={formatBig(nation.population)+' M'}/><Metric title='GDP' value={formatBig(nation.gdp)+' B'}/><Metric title='Industry' value={String(nation.industrialCapacity)}/><Metric title='Stability' value={String(Math.round(nation.stability))}/></div></>;
  }
- function quick(c:string){const s=structuredClone(worldState);const r=issueCommand(s,c,worldState.playerNation??'');setWorldState(s);setLog(x=>[r.message,...x].slice(0,10));}
- return <main className='shell'>
-  <header className='topbar'><div><div className='eyebrow'>GRAND STRATEGY WORLD SIMULATOR · 1.0</div><h1>WORLDFORGE</h1></div><div className='clock'><b>{worldState.date}</b><button onClick={()=>setPaused(!paused)}>{paused?'▶':'Ⅱ'}</button><select value={speed} onChange={e=>setSpeed(+e.target.value)}>{speeds.map(x=><option key={x} value={x}>{x}×</option>)}</select><button onClick={save}>Save</button><button onClick={load}>Load</button></div></header>
-  <nav className='tabs'>{tabs.map(t=><button className={tab===t?'active':''} onClick={()=>setTab(t)} key={t}>{t}</button>)}</nav>
-  <section className='workspace'>
-   <div className='map-panel'><div className='map-toolbar'><b>{view==='country'?(nation?.name??'COUNTRY').toUpperCase()+' · ADMINISTRATIVE VIEW':'WORLD · POLITICAL MAP'}</b><span>{view==='country'?countryFeatures.length+' bundled county features':countries.length+' sovereign map features'} · TICK {worldState.tick.toLocaleString()}</span><button onClick={()=>setView('world')}>World</button></div>
-    <svg viewBox={'0 0 '+W+' '+H} className='worldmap'><rect width={W} height={H} className='ocean'/>
-     {view==='world'?countries.map((f,i)=>{const id=String(f.id??i),n=makeNation(id,f.properties?.name??'Unknown');return <path key={id} d={path(f)||''} style={{fill:identityColor(worldState.political.identities[id]?.colorKey??id)}} className={'country '+(worldState.playerNation===id?'selected':'')} onClick={()=>selectCountry(id,n.name)}><title>{n.name}</title></path>}):
-     counties.map((f,i)=>{const id=String(f.id??i),name=f.properties?.name??('County '+id);return <path key={id} d={path(f)||''} className={'county '+(selectedCounty===id?'selected':'')} onClick={()=>setSelectedCounty(id)}><title>{name}</title></path>})}</svg>
-    <div className='map-legend'>{view==='country'?(selectedCounty?'Selected administrative unit: '+selectedCounty:'Click an individual county-equivalent to inspect it.'):'Click any country to select it and enter its government view.'}</div>
-   </div>
-   <aside className='side'><div className='panel-head'><div><div className='eyebrow'>{selectedCounty?'ADMINISTRATIVE UNIT':nation?'PLAYER POLITY':'WORLDFORGE'}</div><h2>{selectedCounty?('County '+selectedCounty):(nation?.name??tab)}</h2></div></div>
-    {nation&&!selectedCounty&&<div className='stats'>{[['Population',nation.population.toFixed(1)+'M'],['GDP',nation.gdp.toFixed(1)+'B'],['Industry',nation.industrialCapacity.toFixed(0)],['Military',nation.manpower.toFixed(2)+'M'],['Stability',nation.stability.toFixed(0)],['Relations',String(Object.values(nation.relations).length)]].map(([a,b])=><div className='stat' key={a}><span>{a}</span><strong>{b}</strong></div>)}</div>}
-    {!selectedCounty&&panel()}
-    {selectedCounty&&<div className='detail-grid'><Metric title='Unit' value={selectedCounty}/><Metric title='Map layer' value='County-equivalent'/><Metric title='Status' value='Selectable'/><div className='wide muted'>This administrative feature is independently clickable and can be used as a territory selection target.</div></div>}
-    {activeEvents.length>0&&<div className='section'><div className='section-title'>ACTIVE EVENTS</div>{activeEvents.slice(0,3).map(e=><div className='event-card' key={e.id}><strong>{e.title}</strong><p>{e.description}</p><div className='event-options'>{e.options.map((o,i)=><button key={o} onClick={()=>{const s=structuredClone(worldState);const r=applyEventEffects(s,e.id,i);setWorldState(s);setLog(l=>[r.message,...l].slice(0,10));}}>{o}</button>)}</div></div>)}</div>}
-    <div className='section'><div className='section-title'>COMMAND CONSOLE</div><form onSubmit={runCommand} className='command'><input value={command} onChange={e=>setCommand(e.target.value)} placeholder='build industry · mobilize · recruit 5000 · war Germany'/><button>Issue</button></form><div className='log'>{log.map((x,i)=><div key={i}>{x}</div>)}</div></div>
-    <div className='muted'>{saveReady?'Local save available.':'Simulation state active in memory.'}</div>
-   </aside>
-  </section><footer>WORLDFORGE · 1.0 · {tab.toUpperCase()} · {paused?'PAUSED':'RUNNING'}</footer>
+ if(screen==='launcher'){
+  const presets=loadPresets();
+  return <main className='launcher'><div className='launcher-card'><div className='eyebrow'>GRAND STRATEGY WORLD SIMULATOR</div><h1>WORLDFORGE</h1><p className='muted'>Choose a campaign before entering the simulation. Saved campaigns and custom presets stay on this device.</p><div className='launch-grid'><section><h2>Resume</h2><button className='hero-button' onClick={resume}>Resume Saved Campaign</button><div className='save-list'>{saves.length?saves.map((s,i)=><button key={i} onClick={()=>enter(s.state)}><b>{s.name}</b><span>{s.date}</span></button>):<div className='muted'>No manual saves yet.</div>}</div></section><section><h2>New Preset</h2><label>Scenario name<input value={presetName} onChange={e=>setPresetName(e.target.value)} placeholder='My World'/></label><label>Start date<input type='date' value={presetDate} onChange={e=>setPresetDate(e.target.value)}/></label><label>Player nation<select value={presetNation} onChange={e=>setPresetNation(e.target.value)}>{countries.map(f=>{const id=String(f.id);return <option key={id} value={id}>{makeNation(id,f.properties?.name??'Unknown').name}</option>})}</select></label><div className='actions'><button className='hero-button' onClick={newGame}>Start New Simulation</button><button onClick={createPreset}>Save Preset</button></div></section></div>{presets.length>0&&<section className='preset-section'><h2>Saved Presets</h2><div className='save-list'>{presets.map(p=><button key={p.id} onClick={()=>startPreset(p)}><b>{p.name}</b><span>{p.date} · {p.state.nations[p.playerNation]?.name??p.playerNation}</span></button>)}</div></section>}<div className='muted'>Built-in world geography is bundled with the game; country profiles are initialized for every mapped country feature.</div></div></main>;
+ }
+ return <main className='game-shell'>
+  <svg ref={svgRef} viewBox={'0 0 '+W+' '+H} className='map-stage' onWheel={onWheel} onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}>
+   <rect width={W} height={H} className='ocean'/>
+   <g transform={'translate('+pan.x+' '+pan.y+') translate('+W/2+' '+H/2+') scale('+zoom+') translate('+(-W/2)+' '+(-H/2)+')'}>
+    {countries.map((f,i)=>{const id=String(f.id??i),n=makeNation(id,f.properties?.name??'Unknown');return <path key={id} d={path(f)||''} style={{fill:identityColor(worldState.political.identities[id]?.colorKey??id)}} className={'country '+(worldState.playerNation===id?'selected':'')} onClick={(e)=>{e.stopPropagation();selectCountry(id,n.name)}}><title>{n.name}</title></path>})}
+   </g>
+  </svg>
+  <header className='floating top-controls'><button onClick={()=>setShowMenu(!showMenu)}>☰</button><div><div className='eyebrow'>WORLDFORGE · {tab.toUpperCase()}</div><strong>{worldState.date}</strong></div><div className='time-controls'><button onClick={()=>setPaused(!paused)}>{paused?'▶':'Ⅱ'}</button><select value={speed} onChange={e=>setSpeed(+e.target.value)}>{speeds.map(x=><option key={x} value={x}>{x}×</option>)}</select><button onClick={save}>Save</button></div></header>
+  <div className='floating map-hint'>Pinch or scroll to zoom · drag to pan · tap a country to select</div>
+  <nav className='floating tab-dock'>{tabs.map(t=><button className={tab===t?'active':''} onClick={()=>setTab(t)} key={t}>{t}</button>)}</nav>
+  {showMenu&&<div className='floating menu-pop'><button onClick={()=>setScreen('launcher')}>Campaign / Presets</button><button onClick={save}>Save Campaign</button><button onClick={()=>setShowMenu(false)}>Close</button></div>}
+  {selected&&<aside className='floating info-panel'><div className='panel-title'><div><div className='eyebrow'>PLAYER POLITY</div><h2>{nation?.name}</h2></div><button onClick={()=>setSelected(null)}>×</button></div>{detail()}</aside>}
+  {activeEvents.length>0&&<div className='floating event-stack'>{activeEvents.slice(0,2).map(e=><div className='event-card' key={e.id}><b>{e.title}</b><p>{e.description}</p><div className='actions'>{e.options.map((o,i)=><button key={o} onClick={()=>{const s=structuredClone(worldState);const r=applyEventEffects(s,e.id,i);setWorldState(s);setLog(l=>[r.message,...l].slice(0,12))}}>{o}</button>)}</div></div>)}</div>}
+  <form className='floating command-bar' onSubmit={e=>{e.preventDefault();if(command.trim())quick(command);setCommand('')}}><input value={command} onChange={e=>setCommand(e.target.value)} placeholder='Issue command…'/><button>Issue</button></form>
+  <div className='floating zoom-dock'><button onClick={()=>setZoom(z=>Math.min(5,z*1.2))}>+</button><span>{Math.round(zoom*100)}%</span><button onClick={()=>setZoom(z=>Math.max(.7,z/1.2))}>−</button><button onClick={()=>{setZoom(1);setPan({x:0,y:0})}}>Reset</button></div>
+  {log.length>0&&<div className='floating log-dock'>{log.slice(0,4).map((x,i)=><div key={i}>{x}</div>)}</div>}
  </main>
 }
-function Metric({title,value}:{title:string;value:string}){return <div className='stat'><span>{title}</span><strong>{value}</strong></div>}
+function Metric({title,value}:{title:string;value:string}){return <div className='metric'><span>{title}</span><b>{value}</b></div>}
