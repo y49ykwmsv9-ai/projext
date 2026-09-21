@@ -25,6 +25,13 @@ function seedWorld(date=START_DATE,playerNation?:string):WorldState{
   addStrategicRegions(state,id,n.name,n.population,n.industry,n.resourcePotential,n.majorCities);
   ensureNationSystems(state,state.nations[id]);
  }
+ // Give every mapped nation a complete bilateral diplomacy matrix instead of leaving most panels empty.
+ const ids=Object.keys(state.nations);
+ for(const id of ids){
+  const n=state.nations[id];
+  for(const other of ids){if(other===id)continue; const a=Number(id)||0,b=Number(other)||0; n.relations[other]=Math.max(-100,Math.min(100,((a*31+b*17)%81)-40));}
+  state.diplomacy[id].relations={...n.relations};
+ }
  syncPoliticalMap(state); state.playerNation=playerNation??'840'; return state;
 }
 function pct(v:number){return Math.round(v*100)+'%'}
