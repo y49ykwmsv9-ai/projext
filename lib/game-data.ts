@@ -97,7 +97,7 @@ export function makeNation(id:string,name:string):NationState{
   manpowerRate:a.manpowerRate??bounded(.16+(h%13)/100,.15,.29),
   ideology:a.ideology??(a.government==='communist'?'State socialism':a.government==='dictatorship'?'Authoritarian nationalism':a.government==='monarchy'?'Constitutional/royal': 'Liberal republicanism'),
   politicalGoals:a.politicalGoals??['Preserve sovereignty','Develop national economy','Strengthen institutions'],
-  resources:a.resourcesMap??{coal:Math.round((a.resources??50)*.8),iron:Math.round((a.resources??50)*.55),oil:Math.round((a.resources??50)*.35),food:Math.round((a.resources??50)*1.1)},
+  resources:a.resourcesMap??{coal:Math.round(resourcePotential*.8),iron:Math.round(resourcePotential*.55),oil:Math.round(resourcePotential*.35),food:Math.round(resourcePotential*1.1)},
   strategicRegions:a.strategicRegions??(db?[db.region+' Core',db.region+' Frontier']:[name+' Core Territory']),
   majorCities:a.majorCities??db?.cities??[a.capital??(name.split(/[, ]+/)[0]||name)],
   historicalNotes:a.historicalNotes??('Baseline strategic profile for '+name+'.')
