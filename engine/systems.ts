@@ -42,6 +42,20 @@ export function runMilitary(state:WorldState,days:number):void{
 }
 function casualtyDrain(units:{strength:number}[]){return units.reduce((s,u)=>s+u.strength*.000001,0);}
 
+function aiDiplomacy(state:WorldState):void{
+ for(const n of Object.values(state.nations)){
+  if(!n.relations||!n.politicalGoals)continue;
+  const candidates=Object.values(state.nations).filter(x=>x.id!==n.id);
+  const target=candidates[(state.tick+Number(n.id.replace(/\D/g,'')))%Math.max(1,candidates.length)];
+  if(!target)continue;
+  const current=n.relations[target.id]??0;
+  const strategicGap=target.industrialCapacity>n.industrialCapacity?1:-1;
+  const drift=(n.wars.includes(target.id)?-2:strategicGap)+(n.alliances.includes(target.id)?1:0);
+  n.relations[target.id]=clamp(current+drift,-100,100);
+  if(current>45&&!n.alliances.includes(target.id)&&n.stability>60&&target.stability>55&&((state.tick+Number(n.id))%17===0)){n.alliances.push(target.id);if(!target.alliances.includes(n.id))target.alliances.push(n.id);}
+ }
+}
+
 export function runDiplomacy(state:WorldState):void{
  for(const n of Object.values(state.nations)){
   ensureNationSystems(state,n);
@@ -51,7 +65,7 @@ export function runDiplomacy(state:WorldState):void{
 }
 
 export function runWorldSystems(state:WorldState,days:number):void{
- runDemographics(state,days); runEconomy(state,days); runMilitary(state,days); runDiplomacy(state);
+ runDemographics(state,days); runEconomy(state,days); runMilitary(state,days); runDiplomacy(state); aiDiplomacy(state);
 }
 
 export function generateDynamicEvents(state:WorldState):void{
