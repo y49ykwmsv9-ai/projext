@@ -8,7 +8,7 @@ import {makeNation,NationState,START_DATE} from '../lib/game-data';
 import {getWorldProfile} from '../lib/world-database';
 import {registerAdmin1Features} from '../lib/region-data';
 import {historicalPolities,searchHistoricalPolities} from '../lib/historical-polities';
-import {createWorldState,advanceWorld,issueCommand,issueCommandWithCatalyst,ensureNationSystems,syncPoliticalMap,applyEventEffects} from '../engine';
+import {createWorldState,advanceWorld,issueCommand,issueCommandWithCatalyst,ensureNationSystems,syncPoliticalMap,applyEventEffects,interpretPlayerInstruction} from '../engine';
 import type {WorldState} from '../engine';
 
 const countries:any[]=(((feature(world as any,(world as any).objects.countries) as any).features??[]) as any[]);
@@ -39,6 +39,7 @@ function seedWorld(date=START_DATE,playerNation?:string):WorldState{
 function pct(v:number){return Math.round(v*100)+'%'}
 function identityColor(key:string){let h=0;for(const ch of key)h=(h*31+ch.charCodeAt(0))>>>0;return 'hsl('+h%360+' 38% 42%)'}
 function formatBig(v:number){return v>=100?v.toFixed(0):v.toFixed(1)}
+function safeNationName(state:WorldState,id:string){return state.nations[id]?.name??getWorldProfile(id,id)?.name??id}
 
 export default function GameShell(){
  const [screen,setScreen]=useState<'launcher'|'game'>('launcher');
@@ -48,7 +49,7 @@ export default function GameShell(){
  const [command,setCommand]=useState(''),[log,setLog]=useState<string[]>([]),[historyQuery,setHistoryQuery]=useState(''),[customDays,setCustomDays]=useState(30);
  const [saves,setSaves]=useState<{name:string;date:string;state:WorldState}[]>([]);
  const [presetName,setPresetName]=useState(''),[presetDate,setPresetDate]=useState(START_DATE),[presetNation,setPresetNation]=useState('840');
- const [showMenu,setShowMenu]=useState(false),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[mapMode,setMapMode]=useState<'political'|'economy'|'military'|'resources'>('political');
+ const [showMenu,setShowMenu]=useState(false),[changeNationOpen,setChangeNationOpen]=useState(false),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[mapMode,setMapMode]=useState<'political'|'economy'|'military'|'resources'>('political');
  const [admin1Features,setAdmin1Features]=useState<any[]>([]),[cityFeatures,setCityFeatures]=useState<any[]>([]),[geoStatus,setGeoStatus]=useState<'loading'|'ready'|'error'>('loading');
  const svgRef=useRef<SVGSVGElement|null>(null);
  const drag=useRef<{id:number;x:number;y:number;px:number;py:number}|null>(null);
@@ -67,17 +68,35 @@ export default function GameShell(){
  useEffect(()=>{if(screen!=='game'||paused)return;const id=setInterval(()=>setWorldState(s=>advanceWorld(s,speed)),650);return()=>clearInterval(id)},[screen,paused,speed]);
  useEffect(()=>{if(screen==='game'){try{localStorage.setItem('worldforge-autosave',JSON.stringify(worldState));}catch{}}},[worldState,screen]);
 
- function enter(state:WorldState){const migrated=structuredClone(state);if(!Array.isArray(migrated.news))migrated.news=[];if(!migrated.scenario.branchId)migrated.scenario.branchId='legacy-'+migrated.seed+'-'+migrated.tick;if(migrated.scenario.lastAdvanceDays===undefined)migrated.scenario.lastAdvanceDays=0;setWorldState(migrated);const p=migrated.playerNation??'840';setSelected(makeNation(p,state.nations[p]?.name??'United States'));setScreen('game');setTab('Overview');setPaused(true);setPan({x:0,y:0});setZoom(1)}
+ function enter(state:WorldState){const migrated=structuredClone(state);if(!Array.isArray(migrated.news))migrated.news=[];if(!migrated.scenario.branchId)migrated.scenario.branchId='legacy-'+migrated.seed+'-'+migrated.tick;if(migrated.scenario.lastAdvanceDays===undefined)migrated.scenario.lastAdvanceDays=0;if(!migrated.scenario.catalysts)migrated.scenario.catalysts={active:[],recent:[]};setWorldState(migrated);const p=migrated.playerNation??'840';setSelected(makeNation(p,state.nations[p]?.name??'United States'));setScreen('game');setTab('Overview');setPaused(true);setPan({x:0,y:0});setZoom(1)}
  function newGame(){enter(seedWorld(presetDate,presetNation));setLog(['New simulation initialized.'])}
  function resume(){try{const raw=localStorage.getItem('worldforge-save');if(raw){enter(JSON.parse(raw));setLog(['Saved campaign resumed.']);return}}catch{} setLog(['No manual save found.']);}
- function quick(c:string){const s=structuredClone(worldState);const player=s.playerNation??'';const r=issueCommand(s,c,player);if(r.ok){s.scenario.divergence=Math.min(100,s.scenario.divergence+(c.startsWith('war ')||c.startsWith('ally ')?6:2));s.scenario.historyLog.push('command:'+s.tick+':'+c);issueCommandWithCatalyst(s,c,player);setLog(x=>[(r.ok?'✓ ':'✕ ')+r.message,...x].slice(0,12));}else setLog(x=>['✕ '+r.message,...x].slice(0,12));setWorldState(s);setShowMenu(true)}
+ function quick(c:string){
+ const s=structuredClone(worldState),player=s.playerNation??'';
+ const parsed=issueCommand(s,c,player);
+ let message=parsed.message,ok=parsed.ok;
+ if(!ok){
+  const ai=interpretPlayerInstruction(s,c,player);
+  ok=ai.ok;message=ai.message;
+  if(ok)s.scenario.historyLog.push('ai-order:'+s.tick+':'+c);
+ }
+ if(ok){
+  s.scenario.divergence=Math.min(100,s.scenario.divergence+(c.toLowerCase().startsWith('war ')||c.toLowerCase().includes('invade')||c.toLowerCase().startsWith('ally ')?6:2));
+  s.scenario.historyLog.push('command:'+s.tick+':'+c);
+  issueCommandWithCatalyst(s,c,player);
+ }
+ setLog(x=>[(ok?'✓ ':'✕ ')+message,...x].slice(0,12));setWorldState(s);setShowMenu(true)
+}
  function advanceBy(days:number){if(!Number.isFinite(days)||days<=0)return;setPaused(true);setWorldState(s=>advanceWorld(s,Math.min(3650,Math.max(1,Math.round(days)))));setLog(x=>['Advanced '+Math.round(days)+' days.',...x].slice(0,12));}
- function selectCountry(id:string,name:string){const live=worldState.nations[id];const profile=getWorldProfile(id,name);const n=live?makeNation(id,profile?.name??live.name):makeNation(id,profile?.name??name);setWorldState(s=>({...s,playerNation:id}));setSelected(n);setSelectedRegion(null);setTab('Overview');setShowMenu(true)}
+ function selectCountry(id:string,name:string){
+ const live=worldState.nations[id],profile=getWorldProfile(id,name),n=live?makeNation(id,profile?.name??live.name):makeNation(id,profile?.name??name);
+ setSelected(n);setSelectedRegion(null);setTab('Overview');setShowMenu(true);
+}
  function save(){try{localStorage.setItem('worldforge-save',JSON.stringify(worldState));localStorage.setItem('worldforge-save-version','2.0');const entry={name:(worldState.nations[worldState.playerNation??'840']?.name??'Campaign')+' Campaign',date:worldState.date,state:worldState};const next=[entry,...saves.filter(s=>!(s.date===entry.date&&s.name===entry.name))].slice(0,8);localStorage.setItem('worldforge-saves',JSON.stringify(next));setSaves(next);setLog(x=>['Campaign saved on this device.',...x])}catch{setLog(x=>['Save failed.',...x])}}
  function createPreset(){const p:Preset={id:crypto.randomUUID(),name:presetName.trim()||'Custom Scenario',description:'Player-created Worldforge preset',date:presetDate,playerNation:presetNation,state:seedWorld(presetDate,presetNation)};try{const raw=localStorage.getItem('worldforge-presets');const list:Preset[]=raw?JSON.parse(raw):[];list.unshift(p);localStorage.setItem('worldforge-presets',JSON.stringify(list));setLog(['Preset created: '+p.name]);setPresetName('')}catch{}}
  function loadPresets():Preset[]{try{return JSON.parse(localStorage.getItem('worldforge-presets')||'[]')}catch{return[]}}
  const builtInPresets:Preset[]=[{id:'builtin-1936',name:'The World · 1936',description:'Baseline pre-war campaign',date:'1936-01-01',playerNation:'840',state:seedWorld('1936-01-01','840')},{id:'builtin-1939',name:'The World · 1939',description:'Late pre-war campaign',date:'1939-09-01',playerNation:'826',state:seedWorld('1939-09-01','826')},{id:'builtin-1941',name:'The World · 1941',description:'Global-war campaign',date:'1941-06-22',playerNation:'643',state:seedWorld('1941-06-22','643')},{id:'builtin-czech',name:'Czechoslovakia · 1941',description:'Alternate-history Central European campaign',date:'1941-11-13',playerNation:'203',state:seedWorld('1941-11-13','203')}];
- function startPreset(p:Preset){const s=structuredClone(p.state);s.scenario.presetId=p.id;s.scenario.presetDate=p.date;s.scenario.divergence=0;s.scenario.historyLog=[];s.scenario.historicalTrackers={};enter(s)}
+ function startPreset(p:Preset){const s=structuredClone(p.state);s.scenario.presetId=p.id;s.scenario.presetDate=p.date;s.scenario.branchId='branch-'+s.seed+'-'+p.id;s.scenario.divergence=0;s.scenario.historyLog=[];s.scenario.historicalTrackers={};s.scenario.catalysts={active:[],recent:[]};enter(s)}
  function onWheel(e:React.WheelEvent){e.preventDefault();const rect=e.currentTarget.getBoundingClientRect();const mx=(e.clientX-rect.left)/rect.width*W,my=(e.clientY-rect.top)/rect.height*H;const factor=e.deltaY<0?1.12:.89;const next=Math.max(.7,Math.min(5,zoom*factor));setPan(p=>({x:mx-(mx-p.x)*next/zoom,y:my-(my-p.y)*next/zoom}));setZoom(next)}
  const pointers=useRef<Map<number,{x:number;y:number}>>(new Map());
  const moved=useRef(false);
@@ -104,6 +123,7 @@ export default function GameShell(){
   const presets=loadPresets();
   return <main className='launcher'><div className='launcher-card'><div className='eyebrow'>GRAND STRATEGY WORLD SIMULATOR</div><h1>WORLDFORGE</h1><p className='muted'>Choose a campaign before entering the simulation. Saved campaigns and custom presets stay on this device.</p><div className='preset-section'><h2>Built-in Presets</h2><div className='save-list'>{builtInPresets.map(p=><button key={p.id} onClick={()=>startPreset(p)}><b>{p.name}</b><span>{p.date} · {p.description}</span></button>)}</div></div><div className='launch-grid'><section><h2>Resume</h2><button className='hero-button' onClick={resume}>Resume Saved Campaign</button><div className='save-list'>{saves.length?saves.map((s,i)=><button key={i} onClick={()=>enter(s.state)}><b>{s.name}</b><span>{s.date}</span></button>):<div className='muted'>No manual saves yet.</div>}</div></section><section><h2>New Preset</h2><label>Scenario name<input value={presetName} onChange={e=>setPresetName(e.target.value)} placeholder='My World'/></label><label>Start date<input type='date' value={presetDate} onChange={e=>setPresetDate(e.target.value)}/></label><label>Player nation<select value={presetNation} onChange={e=>setPresetNation(e.target.value)}>{countries.map(f=>{const id=mapFeatureId(f,countries.indexOf(f));return <option key={id} value={id}>{makeNation(id,f.properties?.name??'Unknown').name}</option>})}</select></label><div className='actions'><button className='hero-button' onClick={newGame}>Start New Simulation</button><button onClick={createPreset}>Save Preset</button></div></section></div>{presets.length>0&&<section className='preset-section'><h2>Saved Presets</h2><div className='save-list'>{presets.map(p=><button key={p.id} onClick={()=>startPreset(p)}><b>{p.name}</b><span>{p.date} · {p.state.nations[p.playerNation]?.name??p.playerNation}</span></button>)}</div></section>}<div className='muted'>Country geography is bundled with the game. Detailed Admin-1 provinces and city data are packaged into the static build; gameplay uses only local assets.</div></div></main>;
  }
+ const liveReports=worldState.news.slice(0,3);
  return <main className='game-shell'>
   <svg ref={svgRef} viewBox={'0 0 '+W+' '+H} className='map-stage' onWheel={onWheel} onPointerDown={onPointerDown} onPointerMove={onPointerMove} onPointerUp={onPointerUp} onPointerCancel={onPointerUp}>
    <rect width={W} height={H} className='ocean'/>
@@ -116,8 +136,17 @@ export default function GameShell(){
   <header className='floating top-controls'><button onClick={()=>setShowMenu(!showMenu)}>☰</button><div><div className='eyebrow'>WORLDFORGE · {tab.toUpperCase()}</div><strong>{worldState.date}</strong><span className='scenario-status'>Divergence {Math.round(worldState.scenario.divergence)}%</span></div><div className='time-controls'><button onClick={()=>setPaused(!paused)}>{paused?'▶':'Ⅱ'}</button><button onClick={()=>advanceBy(7)}>+1W</button><button onClick={()=>advanceBy(30)}>+1M</button><button onClick={()=>advanceBy(365)}>+1Y</button><input aria-label='Custom days' type='number' min='1' max='3650' value={customDays} onChange={e=>setCustomDays(+e.target.value||1)} /><button onClick={()=>advanceBy(customDays)}>+Days</button><select value={speed} onChange={e=>setSpeed(+e.target.value)}>{speeds.map(x=><option key={x} value={x}>{x}× auto</option>)}</select><button onClick={save}>Save</button></div></header>
   <div className='floating map-hint'>Pinch / scroll to zoom · drag to pan · tap a country · zoom in for provinces · {geoStatus==='ready'?'Admin-1 geography ready':'Loading regional geography…'} · {worldState.news.length} reports</div><div className='floating map-modes'><span>MAP</span>{(['political','economy','military','resources'] as const).map(m=><button className={mapMode===m?'active':''} onClick={()=>setMapMode(m)} key={m}>{m}</button>)}</div>
   <nav className='floating tab-dock'>{tabs.map(t=><button className={tab===t?'active':''} onClick={()=>{setTab(t);if(!selected){const id=worldState.playerNation??'840',p=worldState.nations[id];if(p)setSelected(makeNation(id,p.name));}setShowMenu(true)}} key={t}>{t}</button>)}</nav>
-  {showMenu&&<div className='floating menu-pop'><button onClick={()=>setScreen('launcher')}>Campaign / Presets</button><button onClick={()=>{setTab('Overview');setShowMenu(true)}}>Open Overview</button><button onClick={()=>{setZoom(1);setPan({x:0,y:0})}}>Center Map</button><button onClick={save}>Save Campaign</button><button onClick={()=>setShowMenu(false)}>Close</button></div>}
+  {showMenu&&<div className='floating menu-pop'>
+ <button onClick={()=>setScreen('launcher')}>Campaign / Presets</button>
+ <button onClick={()=>{setChangeNationOpen(true);setShowMenu(true)}}>Change Player Nation</button>
+ <button onClick={()=>{setTab('Overview');setShowMenu(true)}}>Open Overview</button>
+ <button onClick={()=>{setZoom(1);setPan({x:0,y:0})}}>Center Map</button>
+ <button onClick={save}>Save Campaign</button>
+ <button onClick={()=>setShowMenu(false)}>Close</button>
+ {changeNationOpen&&<div className='nation-switcher'><h3>Assume a Different Nation</h3><p className='muted'>Changing this role is deliberate and only happens from this menu. Map clicks no longer transfer player control.</p><select value={worldState.playerNation??''} onChange={e=>{const id=e.target.value;setWorldState(s=>({...s,playerNation:id}));setSelected(makeNation(id,safeNationName(worldState,id)));setSelectedRegion(null);setTab('Overview')}}>{Object.values(worldState.nations).sort((a,b)=>a.name.localeCompare(b.name)).map(n=><option key={n.id} value={n.id}>{n.name}</option>)}</select><button onClick={()=>setChangeNationOpen(false)}>Assume Role</button></div>}
+ </div>}
   {selected&&<aside className='floating info-panel'><div className='panel-title'><div><div className='eyebrow'>PLAYER POLITY</div><h2>{nation?.name}</h2></div><button onClick={()=>setSelected(null)}>×</button></div>{detail()}</aside>}
+  {liveReports.length>0&&<section className='floating live-report-stack' aria-live='polite'><div className='eyebrow'>LIVE REPORTS</div>{liveReports.map(report=><article className='live-report' key={report.id}><div className='live-report-head'><b>{report.title}</b><small>{report.date} · {report.category.toUpperCase()}</small></div><p>{report.summary}</p><div className='report-tags'>{(report.mentionedNations?.length?report.mentionedNations:[report.relatedNation].filter(Boolean) as string[]).map(id=><span className='nation-tag' key={id}>@{worldState.nations[id]?.name??id}</span>)}</div></article>)}</section>}
   {activeEvents.length>0&&<div className='floating event-stack'>{activeEvents.slice(0,2).map(e=><div className='event-card' key={e.id}><b>{e.title}</b><p>{e.description}</p><div className='actions'>{e.options.map((o,i)=><button key={o} onClick={()=>{const s=structuredClone(worldState);const r=applyEventEffects(s,e.id,i);if(r.ok){s.scenario.divergence=Math.min(100,s.scenario.divergence+1);s.scenario.historyLog.push('event:'+e.id+':'+i);}setWorldState(s);setLog(l=>[r.message,...l].slice(0,12))}}>{o}</button>)}</div></div>)}</div>}
   <form className='floating command-bar' onSubmit={e=>{e.preventDefault();if(command.trim())quick(command);setCommand('')}}><input value={command} onChange={e=>setCommand(e.target.value)} placeholder='Issue command…'/><button>Issue</button></form>
   <div className='floating zoom-dock'><button onClick={()=>setZoom(z=>Math.min(5,z*1.2))}>+</button><span>{Math.round(zoom*100)}%</span><button onClick={()=>setZoom(z=>Math.max(.7,z/1.2))}>−</button><button onClick={()=>{setZoom(1);setPan({x:0,y:0})}}>Reset</button></div>
