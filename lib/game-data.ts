@@ -2,8 +2,8 @@ import {getWorldProfile} from './world-database';
 
 export type NationState = {
  id:string; name:string; population:number; gdp:number; industry:number; stability:number;
- military:number; relations:number; government:'democracy'|'monarchy'|'republic'|'dictatorship'|'communist'|'colonial'|'theocracy'|'occupied';
- capital:string; urbanization:number; literacy:number; resourcePotential:number; manpowerRate:number; ideology:string; resources:Record<string,number>; politicalGoals:string[]; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
+ military:number; relations:Record<string,number>; government:'democracy'|'monarchy'|'republic'|'dictatorship'|'communist'|'colonial'|'theocracy'|'occupied';
+ capital:string; urbanization:number; literacy:number; resourcePotential:number; manpowerRate:number; ideology:string; treasury:number; industrialCapacity:number; manpower:number; legitimacy:number; laws:string[]; technology:string[]; alliances:string[]; wars:string[]; resources:Record<string,number>; politicalGoals:string[]; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
 };
 
 type Profile=Partial<Omit<NationState,'resources'|'resourcePotential'>> & {resources?:number;resourcePotential?:number;resourcesMap?:Record<string,number>};
@@ -88,8 +88,9 @@ export function makeNation(id:string,name:string):NationState{
   id,name:a.name??name,population,gdp,industry,
   stability:a.stability??bounded(40+h%48,30,90),
   military:a.military??bounded(10+h%70,8,82),
-  relations:a.relations??((h%41)-20),government:a.government??inferredGovernment(name),
+  relations:a.relations&&typeof a.relations==='object'?a.relations:{},government:a.government??inferredGovernment(name),
   capital:a.capital??(name.split(/[, ]+/)[0]||name),
+  treasury:a.gdp!==undefined?a.gdp*.15:gdp*.15,industrialCapacity:industry,manpower:population*(a.manpowerRate??.22),legitimacy:65,laws:[],technology:['Agriculture','Basic Industry'],alliances:[],wars:[],
   urbanization:a.urbanization??bounded(7+h%65,5,78),
   literacy:a.literacy??bounded(18+h%76,8,98),
   resourcePotential:typeof a.resources==='number'?a.resources:50,
