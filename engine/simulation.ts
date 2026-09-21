@@ -1,6 +1,7 @@
 import {WorldState} from './types';
 import {ensureNationSystems} from './state';
 import {runWorldSystems,generateDynamicEvents,processCommandCatalysts} from './systems';
+import {receiveCliopatriaSnapshot,transmitHistoricalPressure} from './cliopatria-bridge';
 
 export function syncPoliticalMap(state:WorldState):void{
  const propagate=(parentId:string,owner:string,controller:string)=>{
@@ -75,3 +76,13 @@ export function applyEventEffects(state:WorldState,eventId:string,option=0):{ok:
 }
 
 function pushNewsForResolution(state:WorldState,event:any,option:number){state.news.unshift({id:'news-resolution-'+event.id+'-'+option,date:state.date,title:'Decision recorded: '+event.title,summary:'The player resolved '+event.title+' using option '+(option+1)+'. The consequences will feed back into future simulation logic.',category:event.category??'political',importance:Math.min(8,(event.importance??event.severity??2)+1),relatedEvent:event.id,source:'player'});state.news=state.news.slice(0,80);}
+
+/** Async simulation entry point that synchronizes the historical spatial dataset before each tick. */
+export async function advanceWorldWithData(state:WorldState,days=1):Promise<WorldState>{
+ const prepared=structuredClone(state);
+ const targetDate=new Date(prepared.date+'T00:00:00Z');
+ targetDate.setUTCDate(targetDate.getUTCDate()+Math.min(3650,Math.max(1,Math.round(days))));
+ const targetYear=Number(targetDate.toISOString().slice(0,4));
+ try{await receiveCliopatriaSnapshot(prepared,targetYear);transmitHistoricalPressure(prepared);}catch(error){console.warn('Cliopatria synchronization unavailable; continuing with local world data.',error);}
+ return advanceWorld(prepared,days);
+}
