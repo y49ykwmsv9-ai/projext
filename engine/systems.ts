@@ -53,3 +53,16 @@ export function runDiplomacy(state:WorldState):void{
 export function runWorldSystems(state:WorldState,days:number):void{
  runDemographics(state,days); runEconomy(state,days); runMilitary(state,days); runDiplomacy(state);
 }
+
+export function generateDynamicEvents(state:WorldState):void{
+ const existing=new Set(state.events.map(e=>e.id));
+ for(const nation of Object.values(state.nations)){
+  const military=state.military[nation.id];
+  if(nation.stability<35&&!existing.has('unrest-'+nation.id+'-'+state.date)){
+   state.events.push({id:'unrest-'+nation.id+'-'+state.date,date:state.date,title:'Domestic Unrest',description:nation.name+' faces escalating internal unrest.',severity:3,options:['Concessions','Emergency mobilization'],resolved:false,effects:[{kind:'stability',target:nation.id,value:4,data:{option:0}},{kind:'stability',target:nation.id,value:-3,data:{option:1}},{kind:'mobilization',target:nation.id,value:10,data:{option:1}}]});
+  }
+  if(military&&military.mobilization>80&&nation.stability>55&&!existing.has('industrial-'+nation.id+'-'+state.date)){
+   state.events.push({id:'industrial-'+nation.id+'-'+state.date,date:state.date,title:'War Production Drive',description:nation.name+' can redirect resources toward wartime industry.',severity:2,options:['Expand industry','Preserve civilian economy'],resolved:false,effects:[{kind:'industry',target:nation.id,value:2,data:{option:0}},{kind:'gdp',target:nation.id,value:-1,data:{option:0}},{kind:'stability',target:nation.id,value:1,data:{option:1}}]});
+  }
+ }
+}
