@@ -37,7 +37,7 @@ export function runMilitary(state:WorldState,days:number):void{
   const avgOrg=units.length?units.reduce((s,u)=>s+u.organization,0)/units.length:100;
   m.supply=clamp(m.supply+(1-m.supply)*.02*days-(units.length*.0001)*days,0,1);
   m.readiness=clamp(m.readiness+(avgOrg-m.readiness)*.01*days+m.mobilization*.02*days);
-  n.manpower=Math.max(0,n.manpower-m.casualtyDrain(units)*days);
+  n.manpower=Math.max(0,n.manpower-casualtyDrain(units)*days);
  }
 }
 function casualtyDrain(units:{strength:number}[]){return units.reduce((s,u)=>s+u.strength*.000001,0);}
