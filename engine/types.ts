@@ -22,9 +22,10 @@ export interface MilitaryState{readiness:number;mobilization:number;supply:numbe
 export interface DiplomaticState{relations:Record<EntityId,number>;treaties:EntityId[];tradeAccess:EntityId[];sanctions:EntityId[];}
 export type EventEffect={kind:string;target?:EntityId;value?:number;name?:string;data?:Record<string,string|number|boolean>};
 export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;}
+export interface ScenarioState{presetId:string;presetDate:DateKey;divergence:number;historyLog:string[];historicalTrackers:Record<string,number>;} 
 export interface WorldState{
  date:DateKey; tick:number; playerNation?:EntityId; nations:Record<EntityId,Nation>; mapEntities:Record<EntityId,MapEntity>; units:Record<EntityId,ArmyUnit>; treaties:Record<EntityId,Treaty>; events:EventState[]; political:PoliticalVisualState; seed:number;
- economy:Record<EntityId,EconomicState>; military:Record<EntityId,MilitaryState>; diplomacy:Record<EntityId,DiplomaticState>;
+ economy:Record<EntityId,EconomicState>; military:Record<EntityId,MilitaryState>; diplomacy:Record<EntityId,DiplomaticState>; scenario:ScenarioState;
 }
 export interface EventTrigger{dateFrom?:DateKey;dateTo?:DateKey;requiredNation?:EntityId;minStability?:number;maxStability?:number;requiresWar?:boolean;requiresControlOf?:EntityId;}
 export interface PoliticalIdentity{entityId:EntityId;name:string;flagKey:string;colorKey:string;capital?:EntityId;government?:GovernmentType;}
