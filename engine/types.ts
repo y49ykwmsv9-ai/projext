@@ -29,6 +29,16 @@ export interface WorldState{
  date:DateKey; tick:number; playerNation?:EntityId; nations:Record<EntityId,Nation>; mapEntities:Record<EntityId,MapEntity>; units:Record<EntityId,ArmyUnit>; treaties:Record<EntityId,Treaty>; events:EventState[]; news:NewsItem[]; political:PoliticalVisualState; seed:number;
  economy:Record<EntityId,EconomicState>; military:Record<EntityId,MilitaryState>; diplomacy:Record<EntityId,DiplomaticState>; scenario:ScenarioState;
 }
+export interface HistoricalSyncState {
+ year:number;
+ source:string;
+ activePolityCount:number;
+ matchedNationCount:number;
+ unmatchedPolityCount:number;
+ activePolityIds:string[];
+ nationPresence:Record<EntityId,number>;
+ updatedAt:DateKey;
+}
 export interface EventTrigger{dateFrom?:DateKey;dateTo?:DateKey;requiredNation?:EntityId;minStability?:number;maxStability?:number;requiresWar?:boolean;requiresControlOf?:EntityId;}
 export interface PoliticalIdentity{entityId:EntityId;name:string;flagKey:string;colorKey:string;capital?:EntityId;government?:GovernmentType;}
 export interface PoliticalVisualState{identities:Record<EntityId,PoliticalIdentity>;borderHistory:BorderChange[];mapRevision:number;}
