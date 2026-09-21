@@ -24,9 +24,10 @@ function pushEvent(state:WorldState,event:EventState){
 }
 
 function runHistoricalRecordPass(state:WorldState,days:number):void{
- const year=Number(state.date.slice(0,4));
- const previousYear=year-Math.max(1,Math.ceil(days/365));
- const activeRecords=historicalRecords.filter(r=>r.kind==='event'&&r.start!==undefined&&r.start>previousYear&&r.start<=year);
+ const currentYear=Number(state.date.slice(0,4));
+ const previousDate=dateAdd(state.date,-Math.max(1,days));
+ const previousYear=Number(previousDate.slice(0,4));
+ const activeRecords=historicalRecords.filter(r=>r.kind==='event'&&r.start!==undefined&&r.start>previousYear&&r.start<=currentYear);
  for(const record of activeRecords){
   const key='record-'+record.id+'-'+record.start;
   if(state.scenario.historyLog.includes(key))continue;
@@ -76,7 +77,37 @@ export function runEconomy(state:WorldState,days:number):void{
  for(const n of Object.values(state.nations)){ensureNationSystems(state,n);const e=state.economy[n.id],instability=(100-n.stability)/100,industrial=Object.values(state.mapEntities).filter(x=>x.owner===n.id).reduce((s,x)=>s+x.development*x.infrastructure/100,0);n.industrialCapacity=Math.max(0,n.industrialCapacity+industrial*.00001*days-instability*.002*days);n.gdp=Math.max(0,n.gdp*(1+(n.stability/1000)*days/30)+n.industrialCapacity*.0002*days);e.inflation=clamp(e.inflation+(e.taxRate-.2)*.03*days+n.gdp*.000001*days,0,100);n.treasury+=n.gdp*e.taxRate*.00005*days-n.debt*.00001*days;}
 }
 export function runWars(state:WorldState,days:number):void{
- for(const n of Object.values(state.nations))for(const enemyId of n.wars){if(n.id>enemyId)continue;const enemy=state.nations[enemyId];if(!enemy)continue;const a=state.military[n.id],b=state.military[enemy.id],ap=a.readiness*a.supply*(1+a.mobilization/100),bp=b.readiness*b.supply*(1+b.mobilization/100),ac=Math.max(0,Math.round((bp/(ap+bp+1))*.02*n.population*days)),bc=Math.max(0,Math.round((ap/(ap+bp+1))*.02*enemy.population*days));a.casualties+=ac;b.casualties+=bc;n.manpower=Math.max(0,n.manpower-ac/1e6);enemy.manpower=Math.max(0,enemy.manpower-bc/1e6);a.warSupport=clamp(a.warSupport+(ap>bp?1:-1)*days*.1);b.warSupport=clamp(b.warSupport+(bp>ap?1:-1)*days*.1);}
+ for(const n of Object.values(state.nations))for(const enemyId of n.wars){
+  if(n.id>enemyId)continue;
+  const enemy=state.nations[enemyId];if(!enemy)continue;
+  const a=state.military[n.id],b=state.military[enemy.id];
+  const ap=a.readiness*a.supply*(1+a.mobilization/100),bp=b.readiness*b.supply*(1+b.mobilization/100);
+  const ac=Math.max(0,Math.round((bp/(ap+bp+1))*.02*n.population*days)),bc=Math.max(0,Math.round((ap/(ap+bp+1))*.02*enemy.population*days));
+  a.casualties+=ac;b.casualties+=bc;n.manpower=Math.max(0,n.manpower-ac/1e6);enemy.manpower=Math.max(0,enemy.manpower-bc/1e6);
+  a.warSupport=clamp(a.warSupport+(ap>bp?1:-1)*days*.1);b.warSupport=clamp(b.warSupport+(bp>ap?1:-1)*days*.1);
+
+  // Wars now have a geographic consequence. Sustained local superiority can move a real
+  // Admin-1 region between controllers instead of leaving the war as two numbers fighting.
+  if(days>=7 || state.tick%4===0){
+   const margin=ap-bp;
+   if(Math.abs(margin)>25){
+    const attacker=margin>0?n:enemy;
+    const defender=margin>0?enemy:n;
+    const defenderRegions=Object.values(state.mapEntities).filter(e=>e.category==='region'&&e.parentId===defender.id&&e.owner===defender.id);
+    if(defenderRegions.length){
+     const candidate=defenderRegions[Math.abs(hash(state.seed+'|capture|'+state.tick+'|'+attacker.id+'|'+defender.id))%defenderRegions.length];
+     const chance=Math.min(.65,.08+Math.abs(margin)/500+days/3650);
+     if(rng(state,'territory-'+attacker.id+'-'+defender.id)<chance){
+      const oldOwner=candidate.owner;
+      candidate.owner=attacker.id;candidate.controller=attacker.id;
+      state.political.borderHistory.push({entityId:candidate.id,owner:attacker.id,controller:attacker.id,from:oldOwner,reason:'Wartime regional capture',date:state.date});
+      state.political.mapRevision+=1;
+      pushNews(state,{date:state.date,title:'Front line shift · '+candidate.name,summary:attacker.name+' has established control over '+candidate.name+' after sustained battlefield pressure. The territorial situation remains contested.',category:'military',importance:6,relatedNation:attacker.id,mentionedNations:[attacker.id,defender.id],source:'ai'});
+     }
+    }
+   }
+  }
+ }
 }
 export function runMilitary(state:WorldState,days:number):void{
  for(const n of Object.values(state.nations)){
