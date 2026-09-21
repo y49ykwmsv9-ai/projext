@@ -15,7 +15,7 @@ function featureIdentity(feature:any){
 function matchNation(state:WorldState,feature:any):string|undefined{
  const x=featureIdentity(feature), xn=normalize(x.name);
  if(xn){for(const n of Object.values(state.nations))if(normalize(n.name)===xn)return n.id;}
- const registryMatch=historicalPolities.find(p=>normalize(p.name)===xn||(p.aliases??[]).some(a=>normalize(a)===xn));
+ const registryMatch=Object.values(historicalPolities).find(p=>normalize(p.name)===xn||(p.aliases??[]).some(a=>normalize(a)===xn));
  if(registryMatch){
   const candidates=Object.values(state.nations).filter(n=>normalize(n.name)===normalize(registryMatch.name)||(registryMatch.aliases??[]).some(a=>normalize(a)===normalize(n.name)));
   if(candidates.length===1)return candidates[0].id;
