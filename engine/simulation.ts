@@ -7,6 +7,10 @@ export function syncPoliticalMap(state:WorldState):void{
   const old=state.political.identities[nation.id];
   if(!old)state.political.identities[nation.id]={entityId:nation.id,name:nation.name,flagKey:'generated-'+nation.id,colorKey:'nation-'+nation.id,capital:nation.capital,government:nation.government};
   else {old.name=nation.name;old.capital=nation.capital;old.government=nation.government;}
+  const root=state.mapEntities[nation.id];
+  if(root){
+   for(const childId of root.children){const child=state.mapEntities[childId];if(!child)continue;if(child.owner===nation.id||child.owner===root.owner){child.owner=nation.id;}if(child.controller===nation.id||child.controller===root.controller){child.controller=nation.id;}}
+  }
   ensureNationSystems(state,nation);
  }
  state.political.mapRevision+=1;
