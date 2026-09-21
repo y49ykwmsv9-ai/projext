@@ -6,3 +6,5 @@ export * from './commands';
 export * from './region-ratios';
 
 export * from './ai-orders';
+
+export * from './cliopatria-bridge';
