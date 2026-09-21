@@ -63,6 +63,9 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
    map.addLayer({id:'wf-admin1-line',type:'line',source:'wf-admin1',minzoom:2.2,paint:{'line-color':'#d6c7a0','line-width':['interpolate',['linear'],['zoom'],2,.45,6,.8,10,1.2,16,1.8,21,2.4],'line-opacity':['interpolate',['linear'],['zoom'],2,.45,7,.72,14,.9,21,1]}});
    map.addSource('wf-cities',{type:'geojson',data:{type:'FeatureCollection',features:cityFeatures}});
    map.addLayer({id:'wf-city-points',type:'circle',source:'wf-cities',minzoom:5,paint:{'circle-radius':['interpolate',['linear'],['zoom'],5,2,10,3.2,16,5.5,21,7],'circle-color':'#f0d486','circle-stroke-color':'#111820','circle-stroke-width':1,'circle-opacity':.9}});
+   map.addSource('wf-history',{type:'geojson',data:{type:'FeatureCollection',features:historicalFeatures}});
+   map.addLayer({id:'wf-history-fill',type:'fill',source:'wf-history',minzoom:0,paint:{'fill-color':'#9f7ac2','fill-opacity':mapMode==='history'?.32:0}});
+   map.addLayer({id:'wf-history-line',type:'line',source:'wf-history',minzoom:0,paint:{'line-color':'#d9c5ec','line-width':1,'line-opacity':mapMode==='history'?.75:0}});
    map.addLayer({id:'wf-city-labels',type:'symbol',source:'wf-cities',minzoom:6,layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],6,9,12,12,18,15,22,18],'text-offset':[0,1.05],'text-anchor':'top'},paint:{'text-color':'#f3e9c5','text-halo-color':'#101820','text-halo-width':1.3}});
    map.on('click','wf-countries',(e:any)=>{const f=e.features?.[0];if(!f)return;countrySelectRef.current(String(f.properties?.__wf_id??f.id),String(f.properties?.name??'Unknown'));});
    map.on('click','wf-admin1',(e:any)=>{const f=e.features?.[0];const p=f?.properties??{};const rid='admin1-'+String(p.adm1_code??p.code??f?.id??'').replace(/[^a-zA-Z0-9_-]/g,'-');if(rid)regionSelectRef.current(rid);});
@@ -83,10 +86,10 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   for(const [id,color] of Object.entries(colorMap))map.setFeatureState({source:'wf-countries',id},{color});
   if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-color',['coalesce',['feature-state','color'],colorMap[selectedNationId??'']??'#52636d']);
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-color',selectedNationId?['case',['==',['get','__wf_id'],selectedNationId],'#fff0b9','#101820']:'#101820');
-  if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');
+  if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');if(map.getLayer('wf-history-fill'))map.setPaintProperty('wf-history-fill','fill-opacity',mapMode==='history'?.32:0);if(map.getLayer('wf-history-line'))map.setPaintProperty('wf-history-line','line-opacity',mapMode==='history'?.75:0);
  },[worldState,mapMode,colorMap,selectedNationId,selectedRegion]);
 
- useEffect(()=>{const map=mapRef.current;if(!map)return;const src=map.getSource('wf-admin1') as maplibregl.GeoJSONSource|undefined;if(src)src.setData({type:'FeatureCollection',features:admin1Features} as any);const cities=map.getSource('wf-cities') as maplibregl.GeoJSONSource|undefined;if(cities)cities.setData({type:'FeatureCollection',features:cityFeatures} as any)},[admin1Features,cityFeatures]);
+ useEffect(()=>{const map=mapRef.current;if(!map)return;const src=map.getSource('wf-admin1') as maplibregl.GeoJSONSource|undefined;if(src)src.setData({type:'FeatureCollection',features:admin1Features} as any);const cities=map.getSource('wf-cities') as maplibregl.GeoJSONSource|undefined;if(cities)cities.setData({type:'FeatureCollection',features:cityFeatures} as any);const hist=map.getSource('wf-history') as maplibregl.GeoJSONSource|undefined;if(hist)hist.setData({type:'FeatureCollection',features:historicalFeatures} as any)},[admin1Features,cityFeatures,historicalFeatures]);
  useEffect(()=>{const map=mapRef.current;if(!map)return;const z=Math.max(0,Math.min(22,zoom));if(Math.abs(map.getZoom()-z)>.08)map.zoomTo(z,{duration:180})},[zoom]);
 
  useEffect(()=>{
