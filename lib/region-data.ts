@@ -16,7 +16,7 @@ const aliases:Record<string,string>={
 const norm=(s:string)=>s.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
 
 function countryForFeature(state:WorldState,f:Admin1Feature):string|undefined{
- const p=f.properties??{}, admin=norm(String(p.admin??p.sov_a3??'')), iso=String(p.iso_a2??'').toUpperCase();
+ const p=f.properties??{}, admin=norm(String(p.admin??p.ADM0NAME??p.sov_a3??p.SOV0NAME??'')), iso=String(p.iso_a2??p.ISO_A2??'').toUpperCase();
  const nations=Object.values(state.nations);
  const exact=nations.find(n=>norm(n.name)===admin||norm(aliases[admin]??'')===norm(n.name));
  if(exact)return exact.id;
@@ -51,12 +51,12 @@ export function registerAdmin1Features(state:WorldState,features:Admin1Feature[]
   const cityRows=cities.filter(c=>{const p=c.properties??{};return countryForFeature(state,{type:'Feature',properties:p,geometry:c.geometry} as any)===countryId});
   for(let i=0;i<items.length;i++){
    const f=items[i],p=f.properties??{},area=areas[i],share=area/totalArea;
-   const name=String(p.name??p.name_en??p.adm1_code??('Province '+(i+1)));
+   const name=String(p.name??p.name_en??p.NAME??p.NAME_EN??p.adm1_code??('Province '+(i+1)));
    const id='admin1-'+String(p.adm1_code??countryId+'-'+i).replace(/[^a-zA-Z0-9_-]/g,'-');
    const centroid=geoCentroid(f as any) as [number,number];
    const terrain=terrainByType[(Math.abs(Math.round(centroid[0]*3+centroid[1]))+i)%terrainByType.length];
-   const localCities=cityRows.filter(c=>{try{return geoContains(f as any,c.geometry.coordinates as [number,number])}catch{return false}}).sort((a,b)=>Number(b.properties?.pop_max??0)-Number(a.properties?.pop_max??0)).slice(0,12);
-   const cityPop=localCities.reduce((s,c)=>s+Math.max(0,Number(c.properties?.pop_max??0)),0);
+   const localCities=cityRows.filter(c=>{try{return geoContains(f as any,c.geometry.coordinates as [number,number])}catch{return false}}).sort((a,b)=>Number(b.properties?.pop_max??b.properties?.POP_MAX??0)-Number(a.properties?.pop_max??a.properties?.POP_MAX??0)).slice(0,12);
+   const cityPop=localCities.reduce((s,c)=>s+Math.max(0,Number(c.properties?.pop_max??c.properties?.POP_MAX??0)),0);
    const population=Math.max(1000,nation.population*1e6*share);
    const dev=Math.max(5,Math.min(100,nation.industrialCapacity*(.55+share*2)));
    const entity:MapEntity={id,name,category:'region',parentId:countryId,countryId,controller:country.controller,owner:country.owner,areaKm2:area,population, mapSource:'bundled-natural-earth-admin1',sourceCode:String(p.adm1_code??id),centroid,geometryKey:id,children:[],adjacency:[],development:dev,infrastructure:Math.max(10,Math.min(100,35+dev*.45)),ratios:{childrenPerParent:0,populationShare:share,areaShare:share,urbanization:Math.min(.95,Math.max(.05,cityPop/Math.max(1,population))),density:population/area}};
@@ -66,8 +66,8 @@ export function registerAdmin1Features(state:WorldState,features:Admin1Feature[]
    for(const city of localCities){
     const cp=city.properties??{}, coords=city.geometry.coordinates as [number,number], cid=id+'-city-'+String(cp.ne_id??cp.name??localCities.indexOf(city)).replace(/[^a-zA-Z0-9_-]/g,'-');
     if(state.mapEntities[cid])continue;
-    const cityPopValue=Math.max(500,Number(cp.pop_max??cp.pop_min??10000));
-    state.mapEntities[cid]={id:cid,name:String(cp.name??'City'),category:'city',parentId:id,countryId,controller:country.controller,owner:country.owner,areaKm2:Math.max(.1,cityPopValue/100000),population:cityPopValue,mapSource:'bundled-natural-earth-populated-places',sourceCode:String(cp.ne_id??cid),centroid:coords,geometryKey:cid,children:[],adjacency:[],development:Math.min(100,dev+15),infrastructure:Math.min(100,entity.infrastructure+15),ratios:{childrenPerParent:0,populationShare:cityPopValue/population,areaShare:0,urbanization:1,density:cityPopValue/Math.max(.1,cityPopValue/100000)}};
+    const cityPopValue=Math.max(500,Number(cp.pop_max??cp.POP_MAX??cp.pop_min??cp.POP_MIN??10000));
+    state.mapEntities[cid]={id:cid,name:String(cp.name??cp.NAME??cp.NAME_EN??'City'),category:'city',parentId:id,countryId,controller:country.controller,owner:country.owner,areaKm2:Math.max(.1,cityPopValue/100000),population:cityPopValue,mapSource:'bundled-natural-earth-populated-places',sourceCode:String(cp.ne_id??cid),centroid:coords,geometryKey:cid,children:[],adjacency:[],development:Math.min(100,dev+15),infrastructure:Math.min(100,entity.infrastructure+15),ratios:{childrenPerParent:0,populationShare:cityPopValue/population,areaShare:0,urbanization:1,density:cityPopValue/Math.max(.1,cityPopValue/100000)}};
     entity.children.push(cid);
    }
   }
