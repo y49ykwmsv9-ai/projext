@@ -89,7 +89,7 @@ export default function GameShell(){
   if(ok){s.scenario.historyLog.push('ai-order:'+s.tick+':'+c);setLastInterpretation(ai.intent?{...ai.intent,confidence:ai.confidence}:null);}
  }
  if(ok){
-  if(lastInterpretation) setLog(x=>['Interpretation: '+lastInterpretation.interpretation,...x].slice(0,12));
+  const interpreted=lastInterpretation;
   s.scenario.divergence=Math.min(100,s.scenario.divergence+(c.toLowerCase().startsWith('war ')||c.toLowerCase().includes('invade')||c.toLowerCase().startsWith('ally ')?6:2));
   s.scenario.historyLog.push('command:'+s.tick+':'+c);
   issueCommandWithCatalyst(s,c,player);
@@ -104,6 +104,7 @@ export default function GameShell(){
   const next=await advanceWorldWithData(before,safeDays);
   const fresh=next.news.filter(n=>!before.news.some(old=>old.id===n.id));
   if(fresh.some(n=>n.importance>=7))setPaused(true);
+  if(fresh.length){const report=fresh.slice(0,3).map(n=>n.title+' · '+n.summary).join(' | ');setLog(x=>[report,...x].slice(0,12));}
   setWorldState(next);
   advancingRef.current=false;
  }
