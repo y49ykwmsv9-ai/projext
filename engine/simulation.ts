@@ -1,5 +1,5 @@
 import {WorldState} from './types';
-import {runWorldSystems} from './systems';
+import {runWorldSystems,generateDynamicEvents} from './systems';
 
 export function advanceWorld(state:WorldState,days=1):WorldState{
  const next:WorldState=structuredClone(state);
