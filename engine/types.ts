@@ -21,10 +21,10 @@ export interface EconomicState{taxRate:number;inflation:number;tradeBalance:numb
 export interface MilitaryState{readiness:number;mobilization:number;supply:number;warSupport:number;casualties:number;}
 export interface DiplomaticState{relations:Record<EntityId,number>;treaties:EntityId[];tradeAccess:EntityId[];sanctions:EntityId[];}
 export type EventEffect={kind:string;target?:EntityId;value?:number;name?:string;data?:Record<string,string|number|boolean>};
-export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;}
-export interface ScenarioState{presetId:string;presetDate:DateKey;divergence:number;historyLog:string[];historicalTrackers:Record<string,number>;} 
+export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;effects?:EventEffect[];historicalOnly?:boolean;trigger?:EventTrigger;category?:'political'|'diplomatic'|'economic'|'military'|'social'|'historical';importance?:number;source?:'player'|'ai'|'system'|'historical';expires?:DateKey;}
+export interface NewsItem{id:EntityId;date:DateKey;title:string;summary:string;category:'political'|'diplomatic'|'economic'|'military'|'social'|'historical';importance:number;relatedNation?:EntityId;relatedEvent?:EntityId;read?:boolean;source:'player'|'ai'|'system'|'historical';}\nexport interface ScenarioState{presetId:string;presetDate:DateKey;branchId:string;parentBranchId?:string;divergence:number;historyLog:string[];historicalTrackers:Record<string,number>;lastAdvanceDays?:number;} 
 export interface WorldState{
- date:DateKey; tick:number; playerNation?:EntityId; nations:Record<EntityId,Nation>; mapEntities:Record<EntityId,MapEntity>; units:Record<EntityId,ArmyUnit>; treaties:Record<EntityId,Treaty>; events:EventState[]; political:PoliticalVisualState; seed:number;
+ date:DateKey; tick:number; playerNation?:EntityId; nations:Record<EntityId,Nation>; mapEntities:Record<EntityId,MapEntity>; units:Record<EntityId,ArmyUnit>; treaties:Record<EntityId,Treaty>; events:EventState[]; news:NewsItem[]; political:PoliticalVisualState; seed:number;
  economy:Record<EntityId,EconomicState>; military:Record<EntityId,MilitaryState>; diplomacy:Record<EntityId,DiplomaticState>; scenario:ScenarioState;
 }
 export interface EventTrigger{dateFrom?:DateKey;dateTo?:DateKey;requiredNation?:EntityId;minStability?:number;maxStability?:number;requiresWar?:boolean;requiresControlOf?:EntityId;}
