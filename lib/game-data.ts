@@ -1,10 +1,10 @@
 export type NationState = {
  id:string; name:string; population:number; gdp:number; industry:number; stability:number;
  military:number; relations:number; government:'democracy'|'monarchy'|'republic'|'dictatorship'|'communist'|'colonial'|'theocracy'|'occupied';
- capital:string; urbanization:number; literacy:number; resources:number; manpowerRate:number; ideology:string; politicalGoals:string[]; resources:Record<string,number>; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
+ capital:string; urbanization:number; literacy:number; resourcePotential:number; manpowerRate:number; ideology:string; resources:Record<string,number>; politicalGoals:string[]; resources:Record<string,number>; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
 };
 
-type Profile=Partial<Omit<NationState,'resources'>> & {resources?:number;resourcesMap?:Record<string,number>};
+type Profile=Partial<Omit<NationState,'resources'|'resourcePotential'>> & {resources?:number;resourcePotential?:number;resourcesMap?:Record<string,number>};
 const anchors:Record<string,Profile>={
  '004':{name:'Afghanistan',population:12.8,gdp:1.9,industry:14,military:22,stability:48,government:'monarchy',capital:'Kabul',urbanization:6,literacy:8,resources:62,manpowerRate:.25},
  '008':{name:'Albania',population:1.0,gdp:.9,industry:12,military:18,stability:55,government:'monarchy',capital:'Tirana',urbanization:12,literacy:22,resources:48,manpowerRate:.24},
