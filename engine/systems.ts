@@ -16,8 +16,10 @@ function pushNews(state:WorldState,item:Omit<NewsItem,'id'>){
 }
 function pushEvent(state:WorldState,event:EventState){
  if(state.events.some(e=>e.id===event.id))return;
- state.events.push(event);
- pushNews(state,{date:event.date,title:event.title,summary:event.description,category:event.category??'political',importance:event.importance??event.severity,relatedNation:event.effects?.find(e=>e.target)?.target,relatedEvent:event.id,source:event.source??'system'});
+ const affected=Array.from(new Set((event.effects??[]).map(e=>e.target).filter(Boolean) as string[]));
+ const importance=Math.max(1,Math.min(8,event.importance??event.severity??2));
+ state.events.push({...event,importance});
+ pushNews(state,{date:event.date,title:event.title,summary:event.description,category:event.category??'political',importance,relatedNation:affected[0],mentionedNations:affected,relatedEvent:event.id,source:event.source??'system'});
 }
 
 function runHistoricalLogic(state:WorldState):void{
@@ -104,6 +106,21 @@ export function processCommandCatalysts(state:WorldState,command:string,player:s
  if(rng(state,'command-news-'+command)<catalystChance(state,.45,Math.max(1,state.scenario.lastAdvanceDays??1)))pushNews(state,{date:state.date,title:'Command impact report',summary:'Your latest order is now influencing the political, economic, diplomatic or military environment.',category:q.includes('war')||q.includes('mobil')?'military':'political',importance:3,relatedNation:n.id,source:'player'});
 }
 
+function eventPressure(state:WorldState,event:EventState):number{
+ const targets=(event.effects??[]).map(e=>e.target).filter(Boolean) as string[];
+ let pressure=event.severity*1.5;
+ for(const id of targets){const n=state.nations[id];if(!n)continue;pressure+=(100-n.stability)/25;if(n.wars.length)pressure+=2;}
+ return pressure;
+}
+function generateMajorEventAlert(state:WorldState):void{
+ const unresolved=state.events.filter(e=>!e.resolved&&!e.expires||!e.resolved&&(!e.expires||e.expires>=state.date));
+ const major=unresolved.filter(e=>(e.importance??e.severity)>=6).sort((a,b)=>eventPressure(state,b)-eventPressure(state,a))[0];
+ if(!major)return;
+ const id='alert-'+major.id+'-'+state.tick;
+ if(state.news.some(n=>n.id===id))return;
+ const mentioned=Array.from(new Set((major.effects??[]).map(e=>e.target).filter(Boolean) as string[]));
+ pushNews(state,{date:state.date,title:'MAJOR EVENT DETECTED · '+major.title,summary:'A high-impact situation is developing. Its consequences depend on the decisions taken now and the surrounding political, economic and military conditions.',category:major.category??'political',importance:8,relatedEvent:major.id,relatedNation:mentioned[0],mentionedNations:mentioned,source:'system'});
+}
 function generateStatusNews(state:WorldState,days:number):void{
  const p=state.playerNation?state.nations[state.playerNation]:undefined;if(!p)return;
  if(p.stability<35)pushNews(state,{date:state.date,title:'Domestic stability under strain',summary:p.name+' is experiencing elevated internal political and social pressure.',category:'social',importance:6,relatedNation:p.id,source:'system'});
@@ -122,6 +139,7 @@ export function generateDynamicEvents(state:WorldState,days=1):void{
  const nations=Object.values(state.nations).filter(n=>n.id!==state.playerNation);
  for(let i=0;i<target;i++){const n=nations[(state.tick*13+i*17)%Math.max(1,nations.length)];if(!n)break;if(rng(state,'ambient-'+i)>catalystChance(state,.22,days))continue;const kind=i%4;const title=kind===0?'Government reshuffle':kind===1?'Market and trade movement':kind===2?'Military readiness report':'Diplomatic maneuver';const category:any=kind===0?'political':kind===1?'economic':kind===2?'military':'diplomatic';pushNews(state,{date:state.date,title,summary:n.name+' has generated a new development that may affect the wider balance.',category,importance:2+(i%4),relatedNation:n.id,source:'ai'});}
  generateStatusNews(state,days);
+ generateMajorEventAlert(state);
  catalystEventPass(state,days);
 }
 
