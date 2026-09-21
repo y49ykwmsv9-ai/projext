@@ -4,7 +4,7 @@ export type NationState = {
  capital:string; urbanization:number; literacy:number; resources:number; manpowerRate:number; ideology:string; politicalGoals:string[]; resources:Record<string,number>; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
 };
 
-type Profile=Partial<NationState> & {resourcesMap?:Record<string,number>};
+type Profile=Partial<Omit<NationState,'resources'>> & {resources?:number;resourcesMap?:Record<string,number>};
 const anchors:Record<string,Profile>={
  '004':{name:'Afghanistan',population:12.8,gdp:1.9,industry:14,military:22,stability:48,government:'monarchy',capital:'Kabul',urbanization:6,literacy:8,resources:62,manpowerRate:.25},
  '008':{name:'Albania',population:1.0,gdp:.9,industry:12,military:18,stability:55,government:'monarchy',capital:'Tirana',urbanization:12,literacy:22,resources:48,manpowerRate:.24},
@@ -78,6 +78,7 @@ function inferredGovernment(name:string):NationState['government']{
 }
 export function makeNation(id:string,name:string):NationState{
  const a={...(anchors[id]??{}),...(strategicCatalog[id]??{})},h=hash(id);
+ const resourcePotential=typeof a.resources==='number'?a.resources:50;
  const population=a.population??bounded(.35+(h%180)/2.2,.4,90);
  const gdp=a.gdp??bounded(.5+(h%500)/12,.5,50);
  const industry=a.industry??bounded(10+h%67,10,82);
