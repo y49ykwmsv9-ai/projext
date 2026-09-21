@@ -50,6 +50,10 @@ export interface Treaty{
  id:EntityId; type:string; members:EntityId[]; terms:string[]; start:DateKey; end?:DateKey;
 }
 
+export interface EconomicState{taxRate:number; inflation:number; tradeBalance:number; consumerDemand:number; construction:number;}
+export interface MilitaryState{readiness:number; mobilization:number; supply:number; warSupport:number; casualties:number;}
+export interface DiplomaticState{relations:Record<EntityId,number>; treaties:EntityId[]; tradeAccess:EntityId[]; sanctions:EntityId[];}
+export interface EventState{id:EntityId;date:DateKey;title:string;description:string;severity:number;options:string[];resolved:boolean;}
 export interface WorldState{
  date:DateKey;
  tick:number;
