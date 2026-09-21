@@ -4,7 +4,7 @@ export type NationState = {
  capital:string; urbanization:number; literacy:number; resources:number; manpowerRate:number; ideology:string; politicalGoals:string[]; resources:Record<string,number>; strategicRegions:string[]; majorCities:string[]; historicalNotes:string;
 };
 
-type Profile=Partial<NationState>;
+type Profile=Partial<NationState> & {resourcesMap?:Record<string,number>};
 const anchors:Record<string,Profile>={
  '004':{name:'Afghanistan',population:12.8,gdp:1.9,industry:14,military:22,stability:48,government:'monarchy',capital:'Kabul',urbanization:6,literacy:8,resources:62,manpowerRate:.25},
  '008':{name:'Albania',population:1.0,gdp:.9,industry:12,military:18,stability:55,government:'monarchy',capital:'Tirana',urbanization:12,literacy:22,resources:48,manpowerRate:.24},
