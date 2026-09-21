@@ -8,8 +8,8 @@ import {makeNation,NationState,START_DATE} from '../lib/game-data';
 import {createWorldState,advanceWorld,issueCommand,ensureNationSystems,syncPoliticalMap,applyEventEffects} from '../engine';
 import type {WorldState} from '../engine';
 
-const countries:any[]=feature(world as any,(world as any).objects.countries).features;
-const counties:any[]=feature(usCounties as any,(usCounties as any).objects.counties).features;
+const countries:any[]=((feature(world as any,(world as any).objects.countries) as any).features??[]) as any[];
+const counties:any[]=((feature(usCounties as any,(usCounties as any).objects.counties) as any).features??[]) as any[];
 const tabs=['Overview','Politics','Economy','Diplomacy','Military','Intelligence','Production','Technology','Population','Territory'];
 const speeds=[1,2,5,10,20];
 
