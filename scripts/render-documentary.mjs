@@ -95,7 +95,7 @@ for (const c of manifest.chapters) {
     const mp4 = path.join(sceneDir,`${i+1}.mp4`);
     const script = [narrationParts[i], sceneContext(c,title,visual,tags)].filter(Boolean).join('\\n\\n');
     fs.writeFileSync(txt,script);
-    run('piper',['--model','en_US-lessac-medium','--input_file',txt,'--output_file',wav]);
+    run('python3',['-m','piper','--data-dir','voices','-m','en_US-lessac-medium','--input-file',txt,'-f',wav]);
 
     const motion = [
       `zoompan=z='min(zoom+0.00055,1.08)':x='iw/2-(iw/zoom/2)+32*sin(on/55)':y='ih/2-(ih/zoom/2)+18*cos(on/63)':d=1:s=1280x720:fps=24`,
