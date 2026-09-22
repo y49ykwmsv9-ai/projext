@@ -65,21 +65,15 @@ def main() -> int:
             errors.append("Catalog imported count does not match manifest")
 
         lookup = catalog.get("lookup", {})
-        files = {p.stem for p in (LIB / "polities").glob("*.json")}
-        expected_ids = {f"cliopatria-{re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-') or 'unknown'}"
-                        for name in set(
-                            manifest["coverage"].get("missing", [])
-                            + [name for name in json.loads(MANIFEST.read_text(encoding="utf-8")).get("invalid_rows", []) if False]
-                        )}
-        # Verify every imported Cliopatria name resolves to a catalog entry.
-        imported_names = []
+        # Verify every imported Cliopatria resource resolves to a file.
+        imported_ids = []
         for pid, relpath in lookup.items():
             if pid.startswith("cliopatria-"):
-                imported_names.append(pid)
+                imported_ids.append(pid)
                 if not (ROOT / "data" / "history-library" / relpath).exists():
                     errors.append(f"Catalog entry has no resource file: {pid}")
 
-        if len(imported_names) < counts["imported_polities"]:
+        if len(imported_ids) < counts["imported_polities"]:
             errors.append("Catalog does not expose every imported Cliopatria resource")
 
     if errors:
