@@ -1,0 +1,25 @@
+name: AnimateMyMap Connector
+
+on:
+  push:
+    paths:
+      - "tools/animatemymap-connector/**"
+  pull_request:
+    paths:
+      - "tools/animatemymap-connector/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/animatemymap-connector
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: tools/animatemymap-connector/package-lock.json
+      - run: npm install
+      - run: npm run build
