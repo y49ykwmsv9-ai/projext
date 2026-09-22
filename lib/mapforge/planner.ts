@@ -1,4 +1,4 @@
-import type { MapForgeClip, MapForgeProject } from "./types";
+import type { CameraMode, MapForgeClip, MapForgeProject } from "./types";
 
 const places:Record<string,[number,number]> = {
   "gibraltar":[-5.35,36.14],"tangier":[-5.81,35.78],"cordoba":[-4.78,37.89],
@@ -7,7 +7,7 @@ const places:Record<string,[number,number]> = {
   "lisbon":[-9.14,38.72],"barcelona":[2.17,41.39],"valencia":[-0.38,39.47],
   "rome":[12.50,41.90],"constantinople":[28.98,41.01],"jerusalem":[35.23,31.78]
 };
-const reconquista = [
+const reconquista: Array<[number,string,string,[number,number],number,CameraMode]> = [
   [711,"Iberia before the conquest","Toledo",[-4.0,39.9],5.2,"top-down"],
   [711,"The invasion begins","Gibraltar",[-5.3,36.2],7.0,"fly-to"],
   [714,"Rapid Umayyad expansion","Córdoba",[-4.8,37.9],5.6,"sweep"],
@@ -38,7 +38,7 @@ export function planFromPrompt(prompt:string):MapForgeProject {
   const p=prompt.toLowerCase();
   if(p.includes("reconquista")) {
     const clips:MapForgeClip[]=reconquista.map(([year,title,place,center,zoom,camera],i)=>({
-      id:"reconquista-"+year+"-"+i,title,year,duration:6,camera,center,zoom,pitch:camera==="fly-to"?18:0,
+      id:"reconquista-"+year+"-"+i,title,year,duration:6,camera,center:[...center] as [number,number],zoom,pitch:camera==="fly-to"?18:0,
       layers:[{id:"territory-"+i,kind:"polity",label:"Historical territorial control",fromYear:year,toYear:year},
         {id:"event-"+i,kind:"marker",label:title,point:center,color:"#d6b36a"},
         {id:"year-"+i,kind:"label",label:String(year),point:center,color:"#f2e7c7"}],
@@ -53,8 +53,8 @@ export function planFromPrompt(prompt:string):MapForgeProject {
   const ys=years(prompt);
   const center=findPlace(prompt);
   const chosen=ys.length?ys:[new Date().getFullYear()];
-  const clips=chosen.slice(0,24).sort((a,b)=>a-b).map((year,i)=>({
-    id:"generated-"+year+"-"+i,title:"Historical scene — "+year,year,duration:6,camera:i%3===0?"top-down":i%3===1?"fly-to":"sweep",
+  const clips:MapForgeClip[]=chosen.slice(0,24).sort((a,b)=>a-b).map((year,i)=>({
+    id:"generated-"+year+"-"+i,title:"Historical scene — "+year,year,duration:6,camera:(i%3===0?"top-down":i%3===1?"fly-to":"sweep") as CameraMode,
     center,zoom:5.2,pitch:12,layers:[
       {id:"history-"+i,kind:"polity",label:"Historical polities",fromYear:year,toYear:year},
       {id:"focus-"+i,kind:"marker",label:prompt.trim().slice(0,80),point:center,color:"#d6b36a"}
