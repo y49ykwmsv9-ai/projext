@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "scripts/prepare-cliopatria.mjs"
+      - "scripts/resolve-cliopatria-sample.mjs"
       - "scripts/render-cliopatria-sample.mjs"
       - "projects/documentary/map-style.json"
       - ".github/workflows/documentary-sample.yml"
@@ -23,7 +23,7 @@ jobs:
           mkdir -p voices
           python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
       - name: Fetch and resolve Cliopatria
-        run: node scripts/prepare-cliopatria.mjs
+        run: node scripts/resolve-cliopatria-sample.mjs
       - name: Render 711 sample
         run: node scripts/render-cliopatria-sample.mjs
       - name: Upload sample
