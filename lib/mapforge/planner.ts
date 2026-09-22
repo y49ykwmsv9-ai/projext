@@ -37,6 +37,7 @@ function years(text:string) {
 export function planFromPrompt(prompt:string):MapForgeProject {
   const p=prompt.toLowerCase();
   if(p.includes("reconquista")) {
+    const reconquistaRegion:[number,number,number,number]=[-10,33,6,45];
     const clips:MapForgeClip[]=reconquista.map(([year,title,place,center,zoom,camera],i)=>({
       id:"reconquista-"+year+"-"+i,title,year,duration:6,camera,center:[...center] as [number,number],zoom,pitch:camera==="fly-to"?18:0,
       layers:[{id:"territory-"+i,kind:"polity",label:"Historical territorial control",fromYear:year,toYear:year},
