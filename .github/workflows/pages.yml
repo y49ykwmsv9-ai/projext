@@ -74,3 +74,5 @@ jobs:
       - name: Deploy Ironfront
         id: deployment
         uses: actions/deploy-pages@v4
+
+# Ironfront release pipeline: source-only Pages deployment.
