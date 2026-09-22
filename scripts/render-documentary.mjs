@@ -24,10 +24,11 @@ const splitNarration = (text, n) => {
 const sceneContext = (c, title, visual) =>
   `This scene focuses on ${title}. ${visual}. The visual reconstruction is illustrative rather than eyewitness footage and uses historically grounded geography, labels, political colors, campaign routes and period context.`;
 
+const canonicalMapUrl = 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg';
 const mapSources = [
-  ['711', mapStyle.sources.campaign711.url, mapStyle.sources.campaign711.credit],
-  ['early', mapStyle.sources.early711.url, mapStyle.sources.early711.credit],
-  ['later', mapStyle.sources.later.url, mapStyle.sources.later.credit]
+  ['711', canonicalMapUrl, 'Macucal / Wikimedia Commons'],
+  ['early', canonicalMapUrl, 'Macucal / Wikimedia Commons'],
+  ['later', canonicalMapUrl, 'Macucal / Wikimedia Commons']
 ];
 for (const [key, url] of mapSources) {
   const ext = url.endsWith('.svg') ? 'svg' : 'png';
