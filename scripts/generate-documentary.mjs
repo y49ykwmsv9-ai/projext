@@ -1,9 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { loadReconquistaAtlas } from './cliopatria-plus.mjs';
 
 // Reconquista production build v4: fix runner root initialization.
 const root = process.cwd();
 const config = JSON.parse(fs.readFileSync(path.join(root, 'projects', 'documentary', 'documentary.json'), 'utf8'));
+const atlas = loadReconquistaAtlas();
 const csvPath = path.join(root, 'data', 'historical-polities-expansion-v2.csv');
 
 function parseCsv(text) {
@@ -137,6 +139,12 @@ const manifest = {
     researchPolicy: 'Research was cross-checked against Encyclopaedia Britannica, scholarly bibliographies, and Wikimedia Commons licensing metadata.',
     visualPolicy: 'Use free/licensed historical maps plus original graphics. Do not reproduce another documentary channel branding.',
     audioPolicy: 'Use free local text-to-speech on the build runner so no paid narration service is required.'
+  },
+  historicalAtlas: {
+    datasetId: atlas.datasetId,
+    schemaVersion: atlas.schemaVersion,
+    source: 'projects/documentary/data/cliopatria-plus/reconquista-atlas.json',
+    counts: Object.fromEntries(['polities','places','events','routes','people'].map(k => [k, atlas[k]?.length ?? 0]))
   },
   assets: {
     primaryMap: 'https://commons.wikimedia.org/wiki/File:Reconquista_(914-1492).svg',
