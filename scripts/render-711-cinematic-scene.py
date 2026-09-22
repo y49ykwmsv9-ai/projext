@@ -8,7 +8,7 @@ OUT="/tmp/reconquista711"
 os.makedirs(OUT,exist_ok=True)
 
 MAP_URL=os.environ.get("MAP_URL","https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg")
-AUDIO_URL=os.environ["AUDIO_URL"]
+
 PORTRAIT_TARIQ="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tariq_ibn_Ziyad.jpg"
 PORTRAIT_RODERIC="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rod%C3%A9ric.jpg"
 
@@ -18,11 +18,14 @@ def fetch(url,path):
         f.write(r.read())
 
 fetch(MAP_URL, f"{OUT}/map.svg")
-fetch(AUDIO_URL, f"{OUT}/narration.mp3")
+
 if MAP_URL.lower().split("?")[0].endswith(".svg"):
     subprocess.run(["rsvg-convert","-w",str(W),"-h",str(H),f"{OUT}/map.svg","-o",f"{OUT}/map.png"],check=True)
 else:
     Image.open(f"{OUT}/map.svg").convert("RGB").save(f"{OUT}/map.png")
+
+NARRATION="""In 711, Tariq ibn Ziyad crossed the Strait of Gibraltar and landed in southern Iberia. Roderic marched south with the Visigothic army. At Guadalete, the armies met, and Roderic was defeated. The road to Córdoba and Toledo now lay open, and the conquest of Visigothic Iberia had begun."""
+subprocess.run(["edge-tts","--voice","en-US-ChristopherNeural","--rate=-4%","--pitch=-4Hz","--volume","+0%","--text",NARRATION,"--write-media",f"{OUT}/narration.mp3"],check=True)
 
 for name,url in [("tariq.jpg",PORTRAIT_TARIQ),("roderic.jpg",PORTRAIT_RODERIC)]:
     try: fetch(url,f"{OUT}/{name}")
