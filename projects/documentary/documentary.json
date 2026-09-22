@@ -1,0 +1,23 @@
+{
+  "id": "chronicle-ww2-1936-1945",
+  "title": "The World at War: 1936–1945",
+  "language": "en",
+  "targetDurationMinutes": 60,
+  "chapters": [
+    {"id":"c01","year":1936,"title":"A Continent Under Pressure","minutes":5,"focus":["Rhineland","Rome-Berlin Axis","rearmament"]},
+    {"id":"c02","year":1938,"title":"The Crisis of Central Europe","minutes":6,"focus":["Anschluss","Munich","Czechoslovakia","Kristallnacht"]},
+    {"id":"c03","year":1939,"title":"The War Begins","minutes":6,"focus":["Molotov-Ribbentrop Pact","Poland","Britain","France"]},
+    {"id":"c04","year":1940,"title":"The Fall of the West","minutes":7,"focus":["Denmark","Norway","Low Countries","France","Battle of Britain"]},
+    {"id":"c05","year":1941,"title":"A Wider War","minutes":7,"focus":["Balkans","Barbarossa","Moscow","Pearl Harbor"]},
+    {"id":"c06","year":1942,"title":"The Limits of Expansion","minutes":7,"focus":["Stalingrad","North Africa","Midway","Holocaust"]},
+    {"id":"c07","year":1943,"title":"The Tide Turns","minutes":6,"focus":["Stalingrad aftermath","Kursk","Sicily","Italy"]},
+    {"id":"c08","year":1944,"title":"The Great Counteroffensive","minutes":6,"focus":["Normandy","Bagration","Paris","Warsaw","Romania"]},
+    {"id":"c09","year":1945,"title":"The Collapse of Nazi Germany","minutes":6,"focus":["Vistula-Oder","Rhine","Berlin","Surrender"]},
+    {"id":"c10","year":1945,"title":"A War Becomes a World Order","minutes":4,"focus":["Hiroshima","Nagasaki","Soviet war with Japan","Japanese surrender","aftermath"]}
+  ],
+  "sources": [
+    {"name":"United States Holocaust Memorial Museum","url":"https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"},
+    {"name":"United States Holocaust Memorial Museum","url":"https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe"},
+    {"name":"United States Holocaust Memorial Museum","url":"https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-depth"}
+  ]
+}
