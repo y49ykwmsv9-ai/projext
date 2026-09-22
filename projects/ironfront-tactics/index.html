@@ -88,7 +88,6 @@ document.getElementById("pauseBtn").addEventListener("click",()=>{paused=!paused
 document.getElementById("speedBtn").addEventListener("click",()=>{speed=speed===1?2:speed===2?4:1;document.getElementById("speedBtn").textContent=speed+"×"});
 document.getElementById("scenarioBtn").addEventListener("click",()=>scenarioModal.classList.add("show"));
 document.getElementById("closeScenario").addEventListener("click",()=>scenarioModal.classList.remove("show"));
-document.getElementById("saveBtn").addEventListener("click",()=>{renderSaves();saveModal.classList.add("show")});
 document.getElementById("closeSave").addEventListener("click",()=>saveModal.classList.remove("show"));
 document.querySelectorAll("[data-challenge]").forEach(b=>b.addEventListener("click",()=>challenge(b.dataset.challenge)));
 document.getElementById("makeBtn").addEventListener("click",makeCustom);
@@ -122,8 +121,7 @@ function frame(now){const elapsed=Math.min(.1,(now-last)/1000);last=now;if(!paus
 function saveData(){return {version:1,createdAt:new Date().toISOString(),terrain,weather,simTime,nextId,units,forts,sieges}}
 function getSaves(){try{return JSON.parse(localStorage.getItem(savesKey)||"[]")}catch{return[]}}
 function renderSaves(){const arr=getSaves();saveList.innerHTML="";if(!arr.length){saveList.innerHTML='<div class="muted">No local saves yet.</div>';return}arr.forEach((s,i)=>{const row=document.createElement("div");row.className="save";const label=document.createElement("span");label.textContent=s.name+" · "+new Date(s.data.createdAt).toLocaleString();const load=makeButton("Load",()=>{loadState(s.data);saveModal.classList.remove("show")});const del=makeButton("Delete",()=>{arr.splice(i,1);localStorage.setItem(savesKey,JSON.stringify(arr));renderSaves()});row.append(label,load,del);saveList.appendChild(row)})}
-document.getElementById("saveBtn").addEventListener("dblclick",()=>saveCurrent());
-function saveCurrent(){const arr=getSaves();arr.unshift({name:"Battle "+new Date().toLocaleString(),data:saveData()});localStorage.setItem(savesKey,JSON.stringify(arr.slice(0,30)));renderSaves()}
+function saveCurrent(){const arr=getSaves();arr.unshift({name:"Battle "+new Date().toLocaleString(),data:saveData()});localStorage.setItem(savesKey,JSON.stringify(arr.slice(0,30)));renderSaves();saveModal.classList.add("show")}
 document.getElementById("saveBtn").addEventListener("click",saveCurrent);
 function loadState(d){terrain=d.terrain||"Plains";weather=d.weather||"Clear";simTime=Number(d.simTime)||0;nextId=Number(d.nextId)||1;units=Array.isArray(d.units)?d.units:[];forts=Array.isArray(d.forts)?d.forts:[];sieges=Array.isArray(d.sieges)?d.sieges:[];terrainEl.value=terrain;weatherEl.value=weather;updateInfo()}
 function exportSave(){const blob=new Blob([JSON.stringify(saveData(),null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="ironfront-battle.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
