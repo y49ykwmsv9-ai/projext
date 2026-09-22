@@ -143,4 +143,71 @@ run('ffprobe',['-v','error','-show_entries','format=duration,size','-of','defaul
 
 const plan={title:manifest.title,targetDurationMinutes:60,output:final,resolution:'1280x720',sceneCount:sceneFiles.length,sceneDurationSeconds:60,narration:'Edge-TTS en-US-ChristopherNeural',visuals:'6 individually rendered animated scenes per chapter; map/battle/siege/city/court/trade/frontier treatments',map:'Macucal, Wikimedia Commons, CC BY-SA 3.0 / GFDL'};
 fs.writeFileSync(path.join(build,'render-plan.json'),JSON.stringify(plan,null,2));
+console.log('Finished scene-based documentary: '+final);const sourceCredit = 'Map: Macucal, Wikimedia Commons, CC BY-SA 3.0 / GFDL';
+const chapterFiles = [];
+const sceneFiles = [];
+
+const escapeFilter = s => s.replaceAll('\\','\\\\').replaceAll(':','\\:').replaceAll("'","\\'");
+
+for (const c of manifest.chapters) {
+  const scenes = c.scenes || [];
+  const sec = Math.floor((c.minutes * 60) / Math.max(1, scenes.length));
+  for (let i=0; i<scenes.length; i++) {
+    const [year, title, visual, tags] = scenes[i];
+    const sceneDir = path.join(chaptersDir,c.id);
+    fs.mkdirSync(sceneDir,{recursive:true});
+    const txt = path.join(sceneDir,`${i+1}.txt`);
+    const wav = path.join(sceneDir,`${i+1}.wav`);
+    const mp4 = path.join(sceneDir,`${i+1}.mp4`);
+    const script = `${c.narration}\\n\\nScene focus: ${title}. ${visual}.\\n`;
+    fs.writeFileSync(txt,script);
+    run('espeak-ng',['-v','en-us','-s','88','-p','38','-a','150','-f',txt,'-w',wav]);
+
+    const sceneSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720">
+      <rect width="1280" height="720" fill="#111318"/>
+      <rect x="0" y="0" width="1280" height="720" fill="#20242c"/>
+      <path d="M80 560 C300 350 480 610 720 330 S1040 260 1200 120" fill="none" stroke="#b69b62" stroke-width="4" opacity=".65"/>
+      <circle cx="240" cy="450" r="30" fill="#b69b62"/><circle cx="520" cy="500" r="24" fill="#d8d2c4"/><circle cx="850" cy="300" r="28" fill="#b69b62"/>
+      <text x="70" y="90" fill="#b69b62" font-family="DejaVu Sans" font-size="24">CHRONICLE AI • ${escapeFilter(c.year)}</text>
+      <text x="70" y="165" fill="#f4f1e8" font-family="DejaVu Sans" font-size="52" font-weight="700">${escapeFilter(title)}</text>
+      <text x="70" y="235" fill="#c9c5bb" font-family="DejaVu Sans" font-size="22">${escapeFilter(visual)}</text>
+      <text x="70" y="650" fill="#c9c5bb" font-family="DejaVu Sans" font-size="18">${escapeFilter(tags)}</text>
+      <text x="70" y="685" fill="#8e8b84" font-family="DejaVu Sans" font-size="16">${escapeFilter(sourceCredit)}</text>
+    </svg>`;
+    const svgPath=path.join(sceneDir,`${i+1}.svg`);
+    const pngPath=path.join(sceneDir,`${i+1}.png`);
+    fs.writeFileSync(svgPath,sceneSvg);
+    run('rsvg-convert',['-w','1280','-h','720','-o',pngPath,svgPath]);
+
+    const motion = i % 3 === 0
+      ? 'zoompan=z=1+0.06*on/864:d=1:s=1280x720:fps=24'
+      : i % 3 === 1
+      ? 'zoompan=z=1.06-0.06*on/864:d=1:s=1280x720:fps=24'
+      : 'zoompan=z=1.02+0.02*sin(on/120):d=1:s=1280x720:fps=24';
+    const filter = [
+      motion,
+      `drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='${escapeFilter(year+'  •  '+title)}':fontcolor=white:fontsize=30:box=1:boxcolor=black@0.58:boxborderw=14:x=42:y=40`,
+      `drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='SCENE ${i+1}  •  ${escapeFilter(tags)}':fontcolor=white@0.82:fontsize=16:box=1:boxcolor=black@0.42:boxborderw=9:x=42:y=665`
+    ].join(',');
+    run('ffmpeg',['-y','-loop','1','-i',pngPath,'-i',wav,'-t',String(sec),'-r','24','-vf',filter,'-af','apad','-c:v','libx264','-preset','veryfast','-tune','stillimage','-b:v','800k','-maxrate','950k','-bufsize','1600k','-pix_fmt','yuv420p','-c:a','aac','-b:a','80k','-movflags','+faststart',mp4]);
+    sceneFiles.push(mp4);
+  }
+}
+
+const concatFile = path.join(build,'concat-scenes.txt');
+fs.writeFileSync(concatFile,sceneFiles.map(f => `file '${f.replaceAll("'","'\\''")}'`).join('\n')+'\n');
+const final = path.join(build,'reconquista-documentary-60min.mp4');
+run('ffmpeg',['-y','-f','concat','-safe','0','-i',concatFile,'-c','copy','-movflags','+faststart',final]);
+run('ffprobe',['-v','error','-show_entries','format=duration,size','-of','default=noprint_wrappers=1',final]);
+const plan = {
+  title: manifest.title,
+  targetDurationMinutes: manifest.targetDurationMinutes,
+  output: final,
+  resolution: '1280x720',
+  narration: 'temporary local voice track; scene-level pacing',
+  sceneCount: sceneFiles.length,
+  map: sourceCredit,
+  chapters: manifest.chapters.map(c=>({id:c.id,year:c.year,title:c.title,targetSeconds:c.minutes*60,sceneCount:(c.scenes||[]).length}))
+};
+fs.writeFileSync(path.join(build,'render-plan.json'),JSON.stringify(plan,null,2));
 console.log('Finished scene-based documentary: '+final);
