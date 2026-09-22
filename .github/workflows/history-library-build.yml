@@ -7,16 +7,24 @@ on:
       - "data/history-library/**"
       - "data/historical-polities-*.csv"
       - "scripts/build-history-library.py"
+      - "scripts/validate-history-library.py"
+      - ".github/workflows/history-library-build.yml"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download Cliopatria
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download pinned Cliopatria source file
         run: |
           mkdir -p .history-upstream
           curl -L --fail --retry 3             https://github.com/Seshat-Global-History-Databank/cliopatria/raw/main/cliopatria.geojson.zip             -o .history-upstream/cliopatria.geojson.zip
@@ -26,18 +34,9 @@ jobs:
         run: |
           python scripts/build-history-library.py             --cliopatria .history-upstream/cliopatria.geojson
 
-      - name: Validate generated library
+      - name: Enforce Cliopatria completeness target
         run: |
-          test -s data/history-library/catalog.json
-          test -d data/history-library/polities
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path("data/history-library/catalog.json")
-          c = json.loads(p.read_text())
-          assert c.get("polity_count", 0) > 0
-          print("Historical library resources:", c["polity_count"])
-          PY
+          python scripts/validate-history-library.py --require-cliopatria
 
       - name: Upload library artifact
         uses: actions/upload-artifact@v4
