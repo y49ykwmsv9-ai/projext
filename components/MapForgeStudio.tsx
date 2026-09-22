@@ -13,7 +13,7 @@ setWorkerUrl(`${BASE_PATH}/maplibre/maplibre-gl-worker.mjs`);
 
 const STYLES={openfree:"https://tiles.openfreemap.org/styles/fiord",historical:"https://unpkg.com/@openhistoricalmap/map-styles@latest/dist/historical/historical.json"} as const;
 
-"use client";
+
 import {useEffect,useRef,useState} from "react";
 import * as maplibregl from "maplibre-gl";
 import {setWorkerUrl,type Map as MLMap} from "maplibre-gl";
