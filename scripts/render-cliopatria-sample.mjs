@@ -3,12 +3,12 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 
 const root=process.cwd();
-const data=JSON.parse(fs.readFileSync(path.join(root,"projects/documentary/data/sample-711-cliopatria.json"),"utf8"));
+const data=JSON.parse(fs.readFileSync(path.join(root,"projects/documentary/data/sample-750-cliopatria.json"),"utf8"));
 const outDir=path.join(root,"projects/documentary/build/sample");
 fs.mkdirSync(outDir,{recursive:true});
 const run=(cmd,args)=>execFileSync(cmd,args,{stdio:"inherit"});
 
-if(data.year!==750)throw new Error(`Expected Cliopatria sample year 756, got ${data.year}`);
+if(data.year!==750)throw new Error(`Expected Cliopatria sample year 750, got ${data.year}`);
 if(data.references.some(r=>!r.resolved))throw new Error("Sample contains unresolved Cliopatria references: "+data.references.filter(r=>!r.resolved).map(r=>r.key).join(", "));
 
 const W=1280,H=720,mapX=55,mapY=108,mapW=1170,mapH=565;
@@ -62,7 +62,7 @@ run("ffmpeg",["-y","-loop","1","-i",pngPath,"-i",wavPath,"-t","20","-filter_comp
 run("ffprobe",["-v","error","-show_entries","format=duration,size","-of","default=noprint_wrappers=1",mp4Path]);
 
 fs.writeFileSync(path.join(outDir,"sample-provenance.json"),JSON.stringify({
-  scene:{year:756,title:"Iberia at the Umayyad Frontier",sceneNumber:1},
+  scene:{year:750,title:"Iberia at the Umayyad Frontier",sceneNumber:1},
   cliopatria:{version:data.version,year:data.year,matchedPolities:data.references.map(r=>({key:r.key,name:r.record?.Name,polityId:r.record?.SeshatID??null}))},
   geometrySource:"Cliopatria",
   routeAndEvents:"explicit documentary reconstruction, not database geometry",
