@@ -65,7 +65,7 @@ export function planFromPrompt(prompt:string):MapForgeProject {
     clips[2].layers.push({id:"expansion-route",kind:"route",label:"Umayyad expansion",coordinates:[places.gibraltar,places.toledo],color:"#c98f5b",width:3});
     clips[10].layers.push({id:"battle-route",kind:"route",label:"Christian campaign",coordinates:[places.toledo,places["las navas de tolosa"]],color:"#9fb8c3",width:4});
     clips[14].layers.push({id:"final-route",kind:"route",label:"Final campaign",coordinates:[places.toledo,places.granada],color:"#d6b36a",width:4});
-    const voice:MapForgeVoice={provider:"browser",voice:"",language:"en-US",pace:0.96,tone:"documentary";
+    const voice:MapForgeVoice={provider:"neural",voice:"af_heart",language:"en-US",pace:0.96,tone:"documentary",model:"Kokoro-82M"};
     return {title:"The Reconquista, 711–1492",prompt,mapSource:"historical",aspectRatio:"16:9",fps:30,resolution:"1080p",theme:"dark",clips,voice,checks:buildChecks(clips),credits:["OpenHistoricalMap contributors","Cliopatria / Seshat Global History Databank","MapLibre GL JS"]};
   }
   const ys=years(prompt);
@@ -78,6 +78,6 @@ export function planFromPrompt(prompt:string):MapForgeProject {
       {id:"focus-"+i,kind:"marker",label:prompt.trim().slice(0,80),point:center,color:"#d6b36a"}
     ],narration:prompt.trim()
   }));
-  const voice:MapForgeVoice={provider:"browser",voice:"",language:"en-US",pace:0.96,tone:"documentary"};
+  const voice:MapForgeVoice={provider:"neural",voice:"af_heart",language:"en-US",pace:0.96,tone:"documentary",model:"Kokoro-82M"};
   return {title:prompt.trim().slice(0,80)||"MapForge project",prompt,mapSource:"historical",aspectRatio:"16:9",fps:30,resolution:"1080p",theme:"dark",clips,voice,checks:buildChecks(clips),credits:["OpenHistoricalMap contributors","Cliopatria / Seshat Global History Databank","OpenFreeMap / OpenStreetMap","MapLibre GL JS"]};
 }
