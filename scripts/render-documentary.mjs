@@ -108,7 +108,7 @@ run('python3',['-m','pip','install','--disable-pip-version-check','--break-syste
 const chapterAudio=[];
 for(const c of manifest.chapters){
   const out=path.join(audioDir,c.id+'.mp3');
-  run('edge-tts',['--voice','en-US-ChristopherNeural','--rate','-5%','--pitch','-2Hz','--text',c.narration,'--write-media',out]);
+  run('edge-tts',['--voice','en-US-ChristopherNeural','--rate=-5%','--pitch=-2Hz','--text',c.narration,'--write-media',out]);
   chapterAudio.push(out);
 }
 
