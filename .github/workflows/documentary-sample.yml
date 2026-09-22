@@ -27,7 +27,7 @@ jobs:
           sudo apt-get install -y ffmpeg librsvg2-bin curl unzip fonts-dejavu python3-pil
           python3 -m pip install --user --disable-pip-version-check piper-tts
           mkdir -p voices
-          python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
+          python3 -m piper.download_voices --data-dir voices en_US-lessac-high
       - name: Validate Cliopatria+ Reconquista atlas
         run: node scripts/validate-reconquista-atlas.mjs
       - name: Fetch and resolve Cliopatria
