@@ -161,7 +161,7 @@ for (const c of manifest.chapters) {
     const mp4 = path.join(sceneDir,`${i+1}.mp4`);
     const script = `${c.narration}\\n\\nScene focus: ${title}. ${visual}.\\n`;
     fs.writeFileSync(txt,script);
-    run('espeak-ng',['-v','en-us','-s','88','-p','38','-a','150','-f',txt,'-w',wav]);
+    run('piper',['--model','en_US-lessac-medium','--input_file',txt,'--output_file',wav]);
 
     const sceneSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720">
       <rect width="1280" height="720" fill="#111318"/>
