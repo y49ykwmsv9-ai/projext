@@ -1,9 +1,14 @@
 name: MapForge build
+
 on:
   push:
-    branches: ["feature/mapforge-studio"]
+    branches: ["main", "feature/mapforge-studio"]
   pull_request:
-    branches: ["feature/mapforge-studio","main"]
+    branches: ["main"]
+
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
       - run: npm install
       - run: npm run typecheck
