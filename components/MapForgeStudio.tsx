@@ -8,7 +8,8 @@ import {planFromPrompt} from "../lib/mapforge/planner";
 import type {MapForgeClip,MapForgeProject} from "../lib/mapforge/types";
 import "../app/mapforge/mapforge.css";
 
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";\nsetWorkerUrl(`${BASE_PATH}/maplibre/maplibre-gl-worker.mjs`);
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+setWorkerUrl(`${BASE_PATH}/maplibre/maplibre-gl-worker.mjs`);
 
 const STYLES={openfree:"https://tiles.openfreemap.org/styles/fiord",historical:"https://unpkg.com/@openhistoricalmap/map-styles@latest/dist/historical/historical.json"} as const;
 const demoPrompt="Create a cinematic Reconquista documentary from 711 to 1492. Show changing historical territories, invasion routes, major battles, cities, dates, camera moves, and a final fall of Granada.";
