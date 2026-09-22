@@ -29,7 +29,7 @@ jobs:
       - name: Upload sample
         uses: actions/upload-artifact@v7
         with:
-          name: reconquista-711-cliopatria-sample
-          path: projects/documentary/build/sample/*
+          name: reconquista-750-cliopatria-sample
+          path: projects/documentary/build/sample/reconquista-750-cliopatria-sample.mp4
           archive: false
           retention-days: 14
