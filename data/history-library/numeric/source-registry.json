@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.2.0",
+  "sources": [
+    {
+      "id": "mpd2023",
+      "name": "Maddison Project Database 2023",
+      "provider": "Bolt and van Zanden",
+      "coverage": "AD 1-2022; 169 countries and aggregate regions",
+      "license": "CC BY 4.0",
+      "source_url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+      "doi": "10.34894/INZBF2",
+      "ingestion_mode": "OWID-derived CSV or publisher release",
+      "metrics": ["population", "gdp_per_capita", "gdp"]
+    },
+    {
+      "id": "clioinfra",
+      "name": "Clio-Infra",
+      "provider": "Clio-Infra consortium",
+      "coverage": "historical socioeconomic indicators; indicator-specific",
+      "license": "source-specific; verify before redistribution",
+      "source_url": "https://clio-infra.eu/",
+      "ingestion_mode": "adapter",
+      "metrics": ["population", "urbanization", "education", "health", "inequality"]
+    },
+    {
+      "id": "seshat-quant",
+      "name": "Seshat Global History Databank quantitative releases",
+      "provider": "Seshat Global History Databank",
+      "coverage": "historical societies; variable-specific",
+      "license": "release-specific; verify before redistribution",
+      "source_url": "https://seshat-db.com/",
+      "ingestion_mode": "adapter",
+      "metrics": ["population", "social_complexity", "military", "infrastructure"]
+    },
+    {
+      "id": "cow-state-system",
+      "name": "Correlates of War State System Membership",
+      "provider": "Correlates of War",
+      "coverage": "1816-present",
+      "license": "verify before redistribution",
+      "source_url": "https://correlatesofwar.org/data-sets/state-system-membership/",
+      "ingestion_mode": "adapter",
+      "metrics": ["state_system_membership"]
+    },
+    {
+      "id": "cow-nmc",
+      "name": "Correlates of War National Material Capabilities",
+      "provider": "Correlates of War",
+      "coverage": "1816-2022",
+      "license": "verify before redistribution",
+      "source_url": "https://correlatesofwar.org/data-sets/national-material-capabilities/",
+      "ingestion_mode": "adapter",
+      "metrics": ["military", "industrial", "energy", "population"]
+    }
+  ]
+}
