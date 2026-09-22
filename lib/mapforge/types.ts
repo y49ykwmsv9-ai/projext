@@ -10,6 +10,8 @@ export type MapForgeClip = {
   id:string; title:string; year?:number; duration:number; camera:CameraMode;
   center:[number,number]; zoom:number; pitch?:number; bearing?:number;
   layers:MapForgeLayer[]; narration?:string;
+  // Optional narrative geography used to keep historical data scoped to the story.
+  region?:[number,number,number,number];
 };
 export type MapForgeProject = {
   title:string; prompt:string; mapSource:MapSource; aspectRatio:"16:9"|"9:16";
