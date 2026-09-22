@@ -1,0 +1,26 @@
+name: Build 711 Cinematic Reconquista Scene
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      MAP_URL: "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3-pro-image/images/bc75e9e4-564f-4fb7-8fff-3de69a168127/652b1c18-af86-44a5-9ca1-d102c6340715/A_high_detail_historical_strategy_documentary_map_of_the_Ibe.png?_jwt=eyJhbGciOiJIUzI1NiJ9"
+      AUDIO_URL: "https://dnznrvs05pmza.cloudfront.net/text_to_speech/3d9c67ba-23df-452d-85f0-f2c3e3f7f078/Reconquista_711_final_cinematic_narration.mp3?_jwt=eyJhbGciOiJIUzI1NiJ9"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install rendering tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg python3-pil
+      - name: Render scene
+        run: python3 scripts/render-711-cinematic-scene.py
+      - name: Upload finished 20 second scene
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconquista-711-cinematic-20s
+          path: /tmp/reconquista711/reconquista-711-cinematic-20s.mp4
+          retention-days: 14
