@@ -2,7 +2,6 @@ import fs from "node:fs";
 import path from "node:path";
 import { gunzipSync } from "node:zlib";
 import { execFileSync } from "node:child_process";
-import { feature as topoFeature } from "topojson-client";
 
 const root=process.cwd();
 const dataDir=path.join(root,"public","data","cliopatria");
@@ -81,14 +80,14 @@ const [battleX,battleY]=project(-5.65,36.65);
 const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720">
 <rect width="1280" height="720" fill="#7f9caf"/>
 <rect x="0" y="0" width="1280" height="96" fill="#17130f" opacity=".94"/>
-<text x="45" y="43" fill="#f5ead3" font-family="DejaVu Sans" font-size="31" font-weight="700">711  •  THE CONQUEST OF IBERIA</text>
+<text x="45" y="43" fill="#f5ead3" font-family="DejaVu Sans" font-size="31" font-weight="700">756  •  CÓRDOBA AND THE MAKING OF AL-ANDALUS</text>
 <text x="45" y="72" fill="#d7c39a" font-family="DejaVu Sans" font-size="14">CLIOPATRIA TIME-SLICE • DATABASE POLYGONS • ORIGINAL CAMPAIGN ANIMATION</text>
 <rect x="35" y="105" width="1210" height="580" rx="7" fill="#d8c59d"/>
 ${territories}
 <path d="${route}" fill="none" stroke="#c98a3d" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 9"/>
 ${labels}
 <circle cx="${battleX}" cy="${battleY}" r="11" fill="#9b3d2f" opacity=".82"/>
-<text x="70" y="138" fill="#1b1712" font-family="DejaVu Sans" font-size="16" font-weight="700">POLITICAL GEOGRAPHY FROM CLIOPATRIA, 711 CE</text>
+<text x="70" y="138" fill="#1b1712" font-family="DejaVu Sans" font-size="16" font-weight="700">POLITICAL GEOGRAPHY FROM CLIOPATRIA, 756 CE</text>
 <g transform="translate(875 525)"><rect width="340" height="135" rx="10" fill="#17130f" opacity=".88" stroke="#d7c39a" stroke-width="2"/>
 <text x="20" y="28" fill="#f5ead3" font-family="DejaVu Sans" font-size="15" font-weight="700">DATABASE-RESOLVED POLITIES</text>
 ${refs.map((r,i)=>`<circle cx="28" cy="${55+i*27}" r="7" fill="${colors[i%colors.length]}"/><text x="45" y="${60+i*27}" fill="#f5ead3" font-family="DejaVu Sans" font-size="13">${r.name}</text>`).join("")}
@@ -114,7 +113,7 @@ run("ffmpeg",["-y","-loop","1","-i",pngPath,"-i",wavPath,"-t","20","-filter_comp
 run("ffprobe",["-v","error","-show_entries","format=duration,size","-of","default=noprint_wrappers=1",mp4Path]);
 
 fs.writeFileSync(path.join(outDir,"sample-provenance.json"),JSON.stringify({
-  scene:{year,title:"The Conquest of Iberia",sceneNumber:1},
+  scene:{year,title:"Córdoba and the Making of al-Andalus",sceneNumber:1},
   cliopatria:{version:manifest.version,year,matchedPolities:refs.map(({geometry,...r})=>r)},
   geometrySource:"Cliopatria",
   routeAndEvents:"explicit documentary reconstruction, not database geometry",
