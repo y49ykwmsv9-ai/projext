@@ -98,10 +98,6 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
    map.addSource('wf-cities',{type:'geojson',data:{type:'FeatureCollection',features:cityFeatures}});
    map.addLayer({id:'wf-city-points',type:'circle',source:'wf-cities',minzoom:5,paint:{'circle-radius':['interpolate',['linear'],['zoom'],5,1.7,10,2.7,16,4.5,18,5.5],'circle-color':'#f0d486','circle-stroke-color':'#111820','circle-stroke-width':1,'circle-opacity':.9}});
    map.addLayer({id:'wf-city-labels',type:'symbol',source:'wf-cities',minzoom:6,layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],6,8,10,10,16,13,18,15],'text-offset':[0,1.05],'text-anchor':'top','text-allow-overlap':false},paint:{'text-color':'#f3e9c5','text-halo-color':'#101820','text-halo-width':1.3}});
-   map.addSource('wf-cliopatria',{type:'geojson',data:cliopatria});
-   map.addLayer({id:'wf-cliopatria-fill',type:'fill',source:'wf-cliopatria',minzoom:0,paint:{'fill-color':'#52636d','fill-opacity':mapMode==='history'?.06:0}}); 
-   map.addLayer({id:'wf-cliopatria-line',type:'line',source:'wf-cliopatria',minzoom:0,paint:{'line-color':'#cbbd98','line-width':['interpolate',['linear'],['zoom'],0,.35,4,.6,8,.9,14,1.25,18,1.6],'line-opacity':mapMode==='history'?.78:0}}); 
-   map.addLayer({id:'wf-cliopatria-hitbox',type:'fill',source:'wf-cliopatria',minzoom:0,paint:{'fill-color':'#ffffff','fill-opacity':0.001}});
    map.addSource('wf-history',{type:'geojson',data:cliopatria});
    map.addLayer({id:'wf-history-fill',type:'fill',source:'wf-history',minzoom:0,paint:{'fill-color':'#9f7ac2','fill-opacity':mapMode==='history'?.32:0}});
    map.addLayer({id:'wf-history-line',type:'line',source:'wf-history',minzoom:0,paint:{'line-color':'#d9c5ec','line-width':1,'line-opacity':mapMode==='history'?.75:0}});
