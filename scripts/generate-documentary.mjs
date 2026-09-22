@@ -30,6 +30,74 @@ function activeForYear(year) {
     .map(p => p.name).filter(Boolean).slice(0, 100);
 }
 
+
+// Scene-by-scene production spec. Each scene gets its own visual asset, camera motion,
+// map animation, characters/armies, and transition rather than reusing one still.
+const sceneBlueprints = {
+  c01: [
+    ['711','Tariq crosses the Strait','animated map route; fleet silhouettes; shoreline landing; cavalry advance','map-route, fleet, cavalry, terrain'],
+    ['711','Guadalete','battlefield overhead; two army formations; cavalry charge; dust and banners','battle formations, cavalry, terrain'],
+    ['720','The north survives','mountain pass; small Asturian force; lookout and ambush; dawn transition','mountains, infantry, ambush'],
+    ['750','A frontier emerges','animated frontier map; towns, raids, fortresses and trade routes','map, towns, trade, fortifications']
+  ],
+  c02: [
+    ['756','Abd al-Rahman reaches Córdoba','journey map; palace courtyard; arrival at Córdoba','map route, palace, court'],
+    ['780','Building the emirate','Córdoba streets; mosque construction; scribes and tax officials','city, mosque, administration'],
+    ['850','The northern frontier','castle chain; cavalry raid; counter-raid; village life','fortresses, cavalry, villages'],
+    ['900','A divided peninsula','split-screen map of Córdoba, León, Navarre and frontier counties','political map, borders, courts']
+  ],
+  c03: [
+    ['929','The caliphate proclaimed','Córdoba court; proclamation; banners; map expands from capital','court, ceremony, map'],
+    ['950','Madinat al-Zahra','palace-city flyover; artisans; scholars; gardens','palace, artisans, scholars'],
+    ['997','Almanzor raids Santiago','campaign route; marching army; siege/raid; withdrawal','route, army, siege'],
+    ['1009','Civil war','Córdoba streets; rival armies; burning districts; fractured map','city, armies, civil war'],
+    ['1031','The taifa map','caliphate fractures into colored taifa territories with animated borders','animated political map']
+  ],
+  c04: [
+    ['1085','Toledo falls','Castilian army approaches; walls; surrender; city interior','siege, walls, city'],
+    ['1086','Sagrajas','North African reinforcements arrive; two armies deploy; clash','march, formations, battle'],
+    ['1094','El Cid takes Valencia','siege lines; gates; cavalry; city under new rule','siege, cavalry, city'],
+    ['1100','The frontier marketplace','parias exchange; diplomats; merchants; castle frontier','diplomacy, trade, frontier']
+  ],
+  c05: [
+    ['1147','Lisbon','fleet arrives; siege works; city walls; surrender','fleet, siege, city'],
+    ['1195','Alarcos','armies collide; Castilian retreat; Almohad pursuit','battle formations, cavalry'],
+    ['1212','Road to Las Navas','coalition marches through mountain pass; scouts; banners','march, mountains, scouts'],
+    ['1212','Las Navas de Tolosa','wide battlefield; staged formations; breakthrough; pursuit','battle animation, formations']
+  ],
+  c06: [
+    ['1236','Córdoba','siege towers and banners; city gates open; new administration','siege, city, administration'],
+    ['1238','Valencia','Aragonese approach; walls; surrender; Mediterranean harbor','army, city, harbor'],
+    ['1248','Seville','river blockade; siege engines; surrender; city map','river, siege, city'],
+    ['1250','The new frontier','Castile, Aragón and Portugal expand; Granada isolated','animated political map, frontier']
+  ],
+  c07: [
+    ['1238','Nasrid Granada','mountain fortress; Granada valley; court establishing control','mountains, city, court'],
+    ['1300','The Alhambra','architectural reconstruction; courtiers; gardens; artisans','architecture, court'],
+    ['1340','Frontier life','castle watchtower; raid; prisoner exchange; market','frontier, cavalry, market'],
+    ['1350','Plague and politics','empty street; trade disruption; shifting political map','city, trade, map']
+  ],
+  c08: [
+    ['1469','Isabella and Ferdinand','court marriage; map of Castile and Aragón; separate institutions','court, map'],
+    ['1482','War begins','Granada frontier; Castilian mobilization; artillery train','army, artillery, map'],
+    ['1487','Málaga','naval blockade; siege; street fighting; surrender','siege, harbor, city'],
+    ['1489','Baza','long siege; trenches; artillery; surrender','siege works, artillery'],
+    ['1491','Santa Fe','fortified camp rises; negotiation envoys; Granada in distance','camp, diplomacy, city']
+  ],
+  c09: [
+    ['1491','The final winter','snowy mountain routes; supply columns; fortified camp','mountains, logistics, camp'],
+    ['1492','Granada surrenders','Boabdil procession; gates; Ferdinand and Isabella; Alhambra','ceremony, city, court'],
+    ['1492','The settlement changes','decree scroll; Jewish departure routes; Muslim communities under new rule','documents, migration, city'],
+    ['1492','A new Atlantic horizon','Iberian port; ships; Atlantic route map; transition westward','port, ships, map']
+  ],
+  c10: [
+    ['711-1492','Eight centuries in motion','accelerated animated political map across the full timeline','timeline map'],
+    ['711-1492','People across frontiers','montage of markets, villages, courts, soldiers and travelers','social life, trade'],
+    ['1492+','Legacy of al-Andalus','architecture, manuscripts, agriculture, science and language visual montage','architecture, manuscripts'],
+    ['1492','A complicated ending','Granada skyline dissolves into modern map; final chronology','city, map, chronology']
+  ]
+};
+
 const narration = {
 c01: `The story begins in the early eighth century, when the political map of the Iberian Peninsula changed with extraordinary speed. In 711, forces associated with Tariq ibn Ziyad crossed from North Africa into Iberia. The Visigothic kingdom, already divided by internal political struggles, proved unable to stop the invasion. King Roderic was defeated, and Muslim armies moved rapidly through much of the peninsula. By the early 720s, Muslim rule had been established over most of Iberia, while resistance remained in the mountainous north. The new territory became known to historians as al-Andalus. It was not a single unchanging state. Authority shifted among governors, emirs, local elites and later dynasties, while Christian communities in the north developed their own political centers. Asturias became particularly important. The traditional date for the beginning of the Reconquista is often associated with the resistance of Pelagius and the battle conventionally called Covadonga, usually dated around 718 or 722, although the evidence for the event is much later and its scale is debated. What is clear is that northern Christian polities survived while Muslim rule consolidated elsewhere. The frontier was therefore not a simple line. It was a zone of raids, alliances, migration, tribute and local accommodation. Some Christian rulers negotiated with Muslim authorities, while some Muslim rulers negotiated with Christian neighbors. The conquest also transformed agriculture, taxation, urban administration and patterns of settlement. Arabic became a major language of government and culture, while Latin-derived Romance languages continued to develop. Jewish communities remained an important part of Iberian society as well. From the beginning, then, the history was more complicated than two solid blocks moving toward a final collision. The centuries ahead would be shaped by changing rulers, regional interests, religious identities and the practical realities of controlling land.`,
 c02: `By the middle of the eighth century, the political structure of Muslim Iberia was being rebuilt. Abd al-Rahman I, a survivor of the Umayyad dynasty that had fallen in the Middle East, established an independent emirate centered on Córdoba in 756. His state was politically independent from the Abbasid caliphate, even though it remained part of the wider Islamic world. Córdoba became the center of a government that gradually developed its own institutions, taxation and military forces. The emirate never controlled every corner of the peninsula with equal intensity. Mountainous regions, frontier communities and powerful local families could resist central authority. At the same time, northern Christian states were not united. Asturias developed into León, while other Christian powers emerged in Navarre, the Pyrenees and the counties that would eventually form Catalonia. These states fought one another as well as Muslim neighbors. Frontier warfare could be violent, but it could also be economically useful. Raiding, tribute and control of strategic towns were recurring features. Fortifications and settlement programs gradually changed the frontier landscape. Muslim and Christian communities could live under different rulers while remaining connected by trade and diplomacy. The word Reconquista can therefore obscure the fact that there was no continuous Christian command structure and no single military plan stretching from the eighth century to the fifteenth. Medieval rulers pursued immediate political goals. A king might ally with a Muslim ruler against another Christian king, while a taifa prince in a later period might pay tribute to a Christian monarch in exchange for protection against a rival Muslim state. Córdoba nevertheless became the most powerful political center in Iberia. Its court, markets, scholars and monumental architecture reflected the resources of al-Andalus. The Great Mosque of Córdoba began under Abd al-Rahman I and expanded under later rulers. By the ninth and tenth centuries, the emirate had become a major western Islamic state. Yet its authority remained dependent on the ability of rulers to manage regional elites, religious disputes, military recruitment and frontier pressure. Those tensions would become especially important when the emirate was transformed into a caliphate.`,
@@ -50,6 +118,7 @@ const chapters = config.chapters.map(c => ({
   ...c,
   narration: narration[c.id],
   activeHistoricalPolities: activeForYear(c.year),
+  scenes: sceneBlueprints[c.id] || [],
   visualPlan: [
     'title card with chapter date and subject',
     'licensed historical map with slow camera movement',
