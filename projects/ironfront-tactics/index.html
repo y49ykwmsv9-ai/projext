@@ -111,4 +111,22 @@ $("saveBtn").onclick=saveCurrent;$("newSave").onclick=()=>{clearBattle();$("save
 setInterval(()=>{if(!paused&&units.length)saveCurrent()},30000);
 function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;if(!paused){for(let i=0;i<speed;i++)step(dt)}render();requestAnimationFrame(frame)}updateInfo();requestAnimationFrame(frame);
 })();
-</script></body></html>
+</script>
+<!-- IRONFRONT MOBILE PRESENTATION LAYER v1 -->
+<style>
+:root{--if-accent:#e7b84b;--if-panel:#101820eF;--if-line:#556673}#mobileQuick{display:none;position:absolute;left:8px;right:8px;bottom:68px;z-index:25;gap:6px;overflow-x:auto;padding:3px}#mobileQuick button{min-width:72px;min-height:44px;background:#111a22ee;border-color:#667784}#touchTip{position:absolute;left:50%;top:12px;transform:translateX(-50%);z-index:18;background:#101820dd;border:1px solid var(--if-line);border-radius:999px;padding:7px 11px;font-size:11px;pointer-events:none;opacity:0;transition:opacity .25s}#touchTip.show{opacity:1}@media(max-width:760px){#mobileQuick{display:flex}.panel.army-panel{bottom:120px;max-height:30%;width:calc(100% - 16px)}.top{gap:4px}.top button{min-width:44px}.bottom{padding-left:5px}.bottom button{min-width:70px}.unitgrid{max-height:120px}}
+</style>
+<script>
+(()=>{
+const boot=()=>{
+ const battle=document.querySelector('.battle'); if(!battle||battle.dataset.mobileLayer)return; battle.dataset.mobileLayer='1';
+ const q=document.createElement('div');q.id='mobileQuick';['Pause','Deploy','RTS','Scenario','Save'].forEach(label=>{const b=document.createElement('button');b.textContent=label;b.type='button';b.addEventListener('click',()=>{const map={Pause:'pauseBtn',Deploy:'deployArmies',RTS:'toggleRTS',Scenario:'scenarioBtn',Save:'saveBtn'};document.getElementById(map[label])?.click()});q.appendChild(b)});battle.appendChild(q);
+ const tip=document.createElement('div');tip.id='touchTip';tip.textContent='Tap to select · drag to box-select · two-finger pinch to zoom';battle.appendChild(tip);setTimeout(()=>tip.classList.add('show'),700);setTimeout(()=>tip.classList.remove('show'),5000);
+ let pinch=0,lastMid=null;
+ battle.addEventListener('touchstart',e=>{if(e.touches.length===2){pinch=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);lastMid={x:(e.touches[0].clientX+e.touches[1].clientX)/2,y:(e.touches[0].clientY+e.touches[1].clientY)/2}}, {passive:true});
+ battle.addEventListener('touchmove',e=>{if(e.touches.length!==2||!pinch)return;const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);const factor=pinch/d; if(window.cam)window.cam.dist=Math.max(18,Math.min(130,window.cam.dist*factor));pinch=d;},{passive:true});
+ battle.addEventListener('touchend',()=>{pinch=0;lastMid=null},{passive:true});
+}; if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
+})();
+</script>
+</body></html>
