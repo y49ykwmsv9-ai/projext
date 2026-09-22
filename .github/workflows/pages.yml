@@ -76,4 +76,4 @@ jobs:
         uses: actions/deploy-pages@v4
 
 # Ironfront release pipeline: source-only Pages deployment.
-# Old Worldforge/Chronicle workflows are intentionally excluded.
+# Ironfront UI/3D/mobile correction release.
