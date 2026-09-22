@@ -143,7 +143,8 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   const map=mapRef.current;if(!map||!mapReady||!map.isStyleLoaded())return;
   if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-color',countryColorExpression(colorMap));
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-color',selectedNationId?['case',['==',['get','__wf_id'],selectedNationId],'#fff0b9','#101820']:'#101820');
-  if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');
+  if(map.getLayer('wf-admin1-fill'))map.setPaintProperty('wf-admin1-fill','fill-opacity',mapMode==='history'?0:0.001);
+  if(map.getLayer('wf-admin1-line')){map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');map.setPaintProperty('wf-admin1-line','line-opacity',mapMode==='history'?0:['interpolate',['linear'],['zoom'],2.2,.45,7,.72,14,.9,21,1]);}
   if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-opacity',mapMode==='history'?0:['interpolate',['linear'],['zoom'],0,.78,1.8,.68,2.15,.18,2.3,0,22,0]);
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-opacity',mapMode==='history'?0:['interpolate',['linear'],['zoom'],0,.9,1.9,.9,2.2,0,22,0]);
   if(map.getLayer('wf-history-fill'))map.setPaintProperty('wf-history-fill','fill-opacity',mapMode==='history'?.18:0);
