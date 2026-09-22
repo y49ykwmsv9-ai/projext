@@ -102,3 +102,42 @@ button{touch-action:manipulation}
   .timeline-list,.history-list,.news-list,.chat-log{max-height:none;overflow:visible;}
   .info-panel{padding-bottom:calc(14px + env(safe-area-inset-bottom));}
 }
+
+
+/* Mobile interaction/stacking correction.
+   Map remains the click target; panels never sit underneath the command dock. */
+.world-maplibre,
+.world-maplibre .maplibregl-canvas-container,
+.world-maplibre .maplibregl-canvas{
+  pointer-events:auto!important;
+}
+.info-panel{
+  z-index:70!important;
+  contain:layout paint!important;
+}
+.command-bar{z-index:55!important}
+.zoom-dock{z-index:54!important}
+.tab-dock{z-index:80!important}
+@media(max-width:600px){
+  .info-panel{
+    bottom:calc(112px + var(--wf-safe-bottom))!important;
+    max-height:42dvh!important;
+    overflow-y:auto!important;
+    contain:layout paint!important;
+  }
+  .game-shell.panel-open .command-bar{
+    bottom:calc(62px + var(--wf-safe-bottom))!important;
+    z-index:55!important;
+  }
+  .game-shell.panel-open .zoom-dock{
+    bottom:calc(62px + var(--wf-safe-bottom))!important;
+    z-index:54!important;
+  }
+  .game-shell.panel-open .map-modes{
+    z-index:20!important;
+  }
+  .game-shell.panel-open .live-report-stack,
+  .game-shell.panel-open .event-stack{
+    z-index:21!important;
+  }
+}
