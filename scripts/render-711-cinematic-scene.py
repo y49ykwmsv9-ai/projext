@@ -72,6 +72,7 @@ def arrow(d,pts,p,fill,width=7):
     d.polygon([b,(b[0]-z*math.cos(ang-.5),b[1]-z*math.sin(ang-.5)),(b[0]-z*math.cos(ang+.5),b[1]-z*math.sin(ang+.5))],fill=fill)
 
 def marker(d,x,y,label,sub,photo=None,side=1):
+    x,y=int(round(x)),int(round(y))
     r=34
     d.ellipse((x-r,y-r,x+r,y+r),fill=(15,16,14,235),outline=(218,170,78,255),width=3)
     if photo and os.path.exists(photo):
