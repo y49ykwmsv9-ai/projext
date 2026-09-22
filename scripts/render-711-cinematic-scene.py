@@ -7,7 +7,7 @@ N=FPS*DUR
 OUT="/tmp/reconquista711"
 os.makedirs(OUT,exist_ok=True)
 
-MAP_URL=os.environ.get("MAP_URL","https://commons.wikimedia.org/wiki/Special:Redirect/file/P%C3%A9ninsule_Ib%C3%A9rique_en_711.png")
+MAP_URL=os.environ.get("MAP_URL","https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg")
 PORTRAIT_TARIQ="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tariq_ibn_Ziyad.jpg"
 PORTRAIT_RODERIC="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rod%C3%A9ric.jpg"
 
@@ -17,7 +17,10 @@ def fetch(url,path):
         f.write(r.read())
 
 fetch(MAP_URL, f"{OUT}/map.svg")
-subprocess.run(["rsvg-convert","-w",str(W),"-h",str(H),f"{OUT}/map.svg","-o",f"{OUT}/map.png"],check=True)
+if MAP_URL.lower().split("?")[0].endswith(".svg"):
+    subprocess.run(["rsvg-convert","-w",str(W),"-h",str(H),f"{OUT}/map.svg","-o",f"{OUT}/map.png"],check=True)
+else:
+    Image.open(f"{OUT}/map.svg").convert("RGB").save(f"{OUT}/map.png")
 subprocess.run(["piper","--model","voices/en_US-lessac-high.onnx","--output_file",f"{OUT}/narration.wav"],input="""In 711, Tariq ibn Ziyad crossed the Strait of Gibraltar and landed in southern Iberia. Roderic marched south with the Visigothic army. At Guadalete, the armies met, and Roderic was defeated. The road to Córdoba and Toledo now lay open, and the conquest of Visigothic Iberia had begun.""".encode(),check=True)
 for name,url in [("tariq.jpg",PORTRAIT_TARIQ),("roderic.jpg",PORTRAIT_RODERIC)]:
     try: fetch(url,f"{OUT}/{name}")
