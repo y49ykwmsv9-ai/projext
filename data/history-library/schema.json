@@ -1,74 +1,19 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "database": "HISTORIX",
-  "entity_types": [
-    "polity",
-    "event",
-    "person",
-    "place",
-    "observation",
-    "relation",
-    "territorial_snapshot"
-  ],
-  "temporal_model": {
-    "year_format": "integer",
-    "bce": "negative",
-    "ce": "positive",
-    "open_end": 9999
-  },
+  "entity_types": ["polity","event","person","place","observation","relation","territorial_snapshot"],
+  "temporal_model": {"year_format":"integer","bce":"negative","ce":"positive","open_end":9999},
   "provenance_required": true,
-  "event_types": [
-    "war",
-    "battle",
-    "treaty",
-    "revolution",
-    "succession",
-    "migration",
-    "epidemic",
-    "disaster",
-    "economic",
-    "technological",
-    "religious",
-    "diplomatic",
-    "exploration",
-    "independence",
-    "colonialism",
-    "other"
-  ],
-  "relation_types": [
-    "related_to",
-    "participated_in",
-    "located_at",
-    "ruled",
-    "predecessor_of",
-    "successor_of",
-    "fought",
-    "allied_with",
-    "succeeded",
-    "occurred_at",
-    "affected"
-  ],
-  "confidence_levels": [
-    "high",
-    "medium",
-    "low",
-    "unknown"
-  ],
-  "numeric_observation_fields": [
-    "metric",
-    "year",
-    "value",
-    "lower",
-    "upper",
-    "unit",
-    "currency_basis",
-    "confidence",
-    "source_ids"
-  ],
-  "graph_requirements": {
-    "stable_ids": true,
-    "source_ids": true,
-    "temporal_scope": true,
-    "orphan_relationships_rejected": true
-  }
+  "confidence_levels": ["high","medium","low","unknown"],
+  "event_types": ["war","battle","treaty","revolution","succession","migration","epidemic","disaster","economic","technological","religious","diplomatic","exploration","independence","colonialism","other"],
+  "relation_types": ["related_to","participated_in","located_at","ruled","predecessor_of","successor_of","fought","allied_with","succeeded","occurred_at","affected"],
+  "numeric_observation_fields": ["entity_id","metric","year","value","lower","upper","unit","currency_basis","confidence","source_ids","source_record_id"],
+  "observation_schema": {
+    "required_fields": ["entity_id","metric","year","value","unit","confidence","source_ids","source_record_id"],
+    "optional_fields": ["lower","upper","currency_basis","notes"],
+    "year_rule": "integer; BCE negative; CE positive",
+    "value_rule": "numeric estimate; do not infer false precision",
+    "uncertainty_rule": "lower and upper preserve published uncertainty or competing bounds"
+  },
+  "graph_requirements": {"stable_ids":true,"source_ids":true,"temporal_scope":true,"orphan_relationships_rejected":true}
 }
