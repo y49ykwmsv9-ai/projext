@@ -161,7 +161,7 @@ for (const c of manifest.chapters) {
         `drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='${q(year + '  •  ' + title)}':fontcolor=white:fontsize=30:x=42:y=28`,
         `drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='SCENE ${sceneNumber}  •  ${q(tags)}':fontcolor=white@0.88:fontsize=16:box=1:boxcolor=black@0.48:boxborderw=9:x=42:y=665`
       ].join(',');
-      run('ffmpeg', ['-y', '-loop', '1', '-i', imagePath, '-i', wav, '-f', 'lavfi', '-i', ambience, '-t', String(sec), '-filter_complex', `[0:v]${filter}[v];[1:a]aresample=22050,apad=pad_dur=90[n];[2:a]volume=0.16[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]', '-map', '[v]', '-map', '[aout]', '-r', '24', '-c:v', 'libx264', '-preset', 'veryfast', '-tune', 'stillimage', '-b:v', '850k', '-maxrate', '1000k', '-bufsize', '1700k', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', mp4]);
+      run('ffmpeg', ['-y', '-loop', '1', '-i', imagePath, '-i', wav, '-f', 'lavfi', '-i', ambience, '-t', String(sec), '-filter_complex', `[0:v]${filter}[v];[1:a]aresample=22050,apad=pad_dur=90[n];[2:a]volume=0.16[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]`, '-map', '[v]', '-map', '[aout]', '-r', '24', '-c:v', 'libx264', '-preset', 'veryfast', '-tune', 'stillimage', '-b:v', '850k', '-maxrate', '1000k', '-bufsize', '1700k', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', mp4]);
     }
     sceneFiles.push(mp4);
   }
