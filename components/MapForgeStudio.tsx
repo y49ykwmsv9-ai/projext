@@ -1,11 +1,14 @@
 "use client";
 import {useEffect,useRef,useState} from "react";
-import maplibregl,{type Map as MLMap} from "maplibre-gl";
+import * as maplibregl from "maplibre-gl";
+import {setWorkerUrl,type Map as MLMap} from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {queryCliopatriaYear} from "../lib/cliopatria";
 import {planFromPrompt} from "../lib/mapforge/planner";
 import type {MapForgeClip,MapForgeProject} from "../lib/mapforge/types";
 import "../app/mapforge/mapforge.css";
+
+setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
 
 const STYLES={openfree:"https://tiles.openfreemap.org/styles/fiord",historical:"https://unpkg.com/@openhistoricalmap/map-styles@latest/dist/historical/historical.json"} as const;
 const demoPrompt="Create a cinematic Reconquista documentary from 711 to 1492. Show changing historical territories, invasion routes, major battles, cities, dates, camera moves, and a final fall of Granada.";
