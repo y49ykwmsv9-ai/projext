@@ -91,23 +91,20 @@ def load_seed_polities() -> list[dict[str, Any]]:
     )
 
 
-def cliopatria_identity(name: str) -> str:
-    """Stable Chronicle ID for a Cliopatria polity entity."""
-    return f"cliopatria-{slug(name)}"
-
-
 def ingest_cliopatria(path: Path) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
-    """Ingest the release and return resources plus a completeness manifest.
+    """Ingest Cliopatria and preserve every unique POLITY name.
 
     Cliopatria is row-oriented: one polity can have many temporal/spatial rows.
     Completeness is therefore measured against unique POLITY names, not raw
-    feature count. The raw row count is retained for auditability.
+    feature count. IDs are deterministic and disambiguate slug collisions.
     """
     raw = path.read_bytes()
     data = json.loads(raw.decode("utf-8"))
 
     grouped: dict[str, dict[str, Any]] = {}
     source_names: dict[str, str] = {}
+    name_to_pid: dict[str, str] = {}
+    used_ids: set[str] = set()
     source_rows = 0
     relation_rows = 0
     invalid_rows: list[dict[str, Any]] = []
@@ -131,7 +128,21 @@ def ingest_cliopatria(path: Path) -> tuple[dict[str, dict[str, Any]], dict[str, 
         name = str(name).strip()
         name_key = source_name_key(name)
         source_names.setdefault(name_key, name)
-        pid = cliopatria_identity(source_names[name_key])
+
+        if name_key not in name_to_pid:
+            base = f"cliopatria-{slug(source_names[name_key])}"
+            pid = base
+            if pid in used_ids:
+                digest = hashlib.sha1(name_key.encode("utf-8")).hexdigest()[:10]
+                pid = f"{base}-{digest}"
+                counter = 2
+                while pid in used_ids:
+                    pid = f"{base}-{digest}-{counter}"
+                    counter += 1
+            name_to_pid[name_key] = pid
+            used_ids.add(pid)
+
+        pid = name_to_pid[name_key]
 
         if pid not in grouped:
             grouped[pid] = {
@@ -206,7 +217,7 @@ def ingest_cliopatria(path: Path) -> tuple[dict[str, dict[str, Any]], dict[str, 
             ),
         },
         "invalid_rows": invalid_rows,
-        "stable_id_rule": "cliopatria-<normalized source Name>",
+        "stable_id_rule": "cliopatria-<slug source Name>, with deterministic SHA-1 suffix on slug collision",
         "notes": [
             "Completeness is evaluated against unique POLITY Name values.",
             "Cliopatria rows are temporal/spatial observations of entities, not separate polities.",
