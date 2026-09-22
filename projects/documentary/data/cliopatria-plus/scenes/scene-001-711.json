@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "reconquista-711-conquest-of-iberia",
+  "year": 711,
+  "durationSeconds": 20,
+  "dataSource": "projects/documentary/data/cliopatria-plus/reconquista-atlas.json",
+  "animationPrinciples": [
+    "All place anchors resolve by stable atlas ID before rendering.",
+    "Map positions are projected from stored longitude/latitude, never hand-authored screen coordinates in production.",
+    "Routes are drawn from ordered atlas place IDs; reconstructed routes are visually distinguished from sourced geometry.",
+    "Leader/event markers carry explicit labels and source metadata.",
+    "Portrait assets use historical artwork where a public-domain or compatible source exists; otherwise the marker falls back to a clearly labeled reconstruction."
+  ],
+  "entityIds": [
+    "person.tariq",
+    "person.roderic",
+    "polity.umayyad",
+    "polity.visigothic",
+    "place.gibraltar",
+    "place.guadalete",
+    "place.seville",
+    "place.cordoba",
+    "place.toledo",
+    "event.guadalete-711",
+    "route.tariq-711"
+  ],
+  "animationTracks": [
+    {
+      "id": "fleet-crossing",
+      "type": "sprite-route",
+      "routeId": "route.tariq-711",
+      "start": 0,
+      "end": 4,
+      "style": "naval-fleet"
+    },
+    {
+      "id": "tariq-route",
+      "type": "route-draw",
+      "routeId": "route.tariq-711",
+      "start": 2,
+      "end": 12,
+      "style": "campaign-arrow",
+      "direction": "forward"
+    },
+    {
+      "id": "visigoth-response",
+      "type": "route-draw",
+      "start": 5.5,
+      "end": 8.5,
+      "fromEntity": "person.roderic",
+      "toEntity": "event.guadalete-711",
+      "style": "defensive-movement"
+    },
+    {
+      "id": "guadalete-pulse",
+      "type": "event-pulse",
+      "eventId": "event.guadalete-711",
+      "start": 7.5,
+      "end": 13.5,
+      "style": "major-battle"
+    },
+    {
+      "id": "tariq-marker",
+      "type": "leader-marker",
+      "personId": "person.tariq",
+      "start": 0.5,
+      "end": 20,
+      "label": "Tariq ibn Ziyad | Umayyad commander | 711"
+    },
+    {
+      "id": "roderic-marker",
+      "type": "leader-marker",
+      "personId": "person.roderic",
+      "start": 0.5,
+      "end": 9,
+      "label": "Roderic | Visigothic king | 711"
+    },
+    {
+      "id": "city-labels",
+      "type": "place-labels",
+      "placeIds": [
+        "place.gibraltar",
+        "place.guadalete",
+        "place.seville",
+        "place.cordoba",
+        "place.toledo"
+      ],
+      "start": 0,
+      "end": 20
+    },
+    {
+      "id": "battle-card",
+      "type": "event-card",
+      "eventId": "event.guadalete-711",
+      "start": 7.5,
+      "end": 13.5
+    },
+    {
+      "id": "timeline",
+      "type": "timeline-marker",
+      "start": 0,
+      "end": 20
+    }
+  ],
+  "portraitAssets": [
+    {
+      "entityId": "person.tariq",
+      "sourceType": "historical-artwork",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tariq_ibn_Ziyad.jpg",
+      "license": "Public domain",
+      "depictionNote": "European miniature; historical identification is representational rather than a photographic likeness."
+    },
+    {
+      "entityId": "person.roderic",
+      "sourceType": "historical-artwork",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rod%C3%A9ric.jpg",
+      "license": "Public domain",
+      "depictionNote": "Painting by Marcelino de Unceta depicting Roderic."
+    }
+  ],
+  "referenceVideo": {
+    "userProvided": true,
+    "durationSeconds": 87.933,
+    "designSignals": [
+      "map-first composition",
+      "moving army units",
+      "animated campaign routes",
+      "persistent geographic labels",
+      "event markers",
+      "minimal UI"
+    ]
+  }
+}
