@@ -20,7 +20,7 @@ export default function MapForgeStudio(){
   const [playing,setPlaying]=useState(false);
   const [source,setSource]=useState<"openfree"|"historical">("historical");
   const [status,setStatus]=useState("");
-  const [showCredits,setShowCredits]=useState(false);
+  const [showCredits,setShowCredits]=useState(false);\n  const [voiceEnabled,setVoiceEnabled]=useState(true);\n  const [speaking,setSpeaking]=useState(false);
   const mapRef=useRef<MLMap|null>(null);
   const elRef=useRef<HTMLDivElement|null>(null);
   const timer=useRef<number|null>(null);
@@ -76,6 +76,18 @@ export default function MapForgeStudio(){
     return()=>{if(timer.current)window.clearInterval(timer.current)};
   },[playing,project,current?.duration]);
 
+  const speakCurrent=()=>{
+    const text=current?.narration?.trim();
+    if(!text||typeof window==="undefined"||!("speechSynthesis" in window))return;
+    window.speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang=project?.voice.language??"en-US";
+    u.rate=project?.voice.pace??0.96;
+    const voices=window.speechSynthesis.getVoices();
+    u.voice=voices.find(v=>v.lang===u.lang)||voices.find(v=>v.lang.startsWith("en"))||null;
+    u.onstart=()=>setSpeaking(true); u.onend=()=>setSpeaking(false); u.onerror=()=>setSpeaking(false);
+    window.speechSynthesis.speak(u);
+  };
   const exportJson=()=>{
     if(!project)return;
     const blob=new Blob([JSON.stringify(project,null,2)],{type:"application/json"});
@@ -113,12 +125,14 @@ export default function MapForgeStudio(){
   }
 
   return <main className="mf">
-    <header className="mf-head"><div><span className="mf-kicker">MAPFORGE / CREATION STUDIO</span><h1>{project.title}</h1><p>Edit the generated video plan, inspect the map, then export or record a preview.</p></div><div className="mf-actions"><button onClick={()=>setProject(null)}>New video</button><button onClick={exportJson}>Export JSON</button><button onClick={record}>Record WebM</button></div></header>
+    <header className="mf-head"><div><span className="mf-kicker">MAPFORGE / CREATION STUDIO</span><h1>{project.title}</h1><p>Edit the generated video plan, inspect the map, then export or record a preview.</p></div><div className="mf-actions"><button onClick={()=>setProject(null)}>New video</button><button onClick={exportJson}>Export JSON</button><button onClick={record}>Record WebM</button><button onClick={speakCurrent}>{speaking?"Speaking…":"Play voice-over"}</button></div></header>
     <section className="mf-workspace">
       <aside className="mf-left">
         <label>VIDEO PROMPT<textarea value={prompt} onChange={e=>setPrompt(e.target.value)}/></label>
         <button className="mf-generate-again" onClick={generate}>Regenerate from prompt</button>
         <div className="mf-row"><button className={source==="historical"?"on":""} onClick={()=>setSource("historical")}>Historical</button><button className={source==="openfree"?"on":""} onClick={()=>setSource("openfree")}>Modern</button></div>
+        <div className="mf-card"><b>Production checks</b><p>{project.checks.filter(x=>x.severity==="error"&&!x.passed).length?"Blocked: resolve chronology errors before recording.":"Chronology, geography, camera continuity and narration checks passed or flagged for review."}</p>{project.checks.slice(0,8).map(x=><div key={x.id} className={x.passed?"mf-check":"mf-check warn"}>● {x.label}: {x.passed?"PASS":"REVIEW"} <small>{x.detail}</small></div>)}</div>
+        <div className="mf-card"><b>Voice-over engine</b><p>{project.voice.provider==="browser"?"Browser TTS is available for preview. For a genuinely human-sounding final voice, connect an external neural TTS provider and attach its generated audio before final render.":project.voice.provider}</p><button onClick={()=>setVoiceEnabled(!voiceEnabled)}>{voiceEnabled?"Voice enabled":"Voice disabled"}</button></div>
         <div className="mf-card"><b>Creation engine</b><p>Prompt → narrative scenes → dated geography → camera choreography → map animation. Historical data is filtered to the scene year and the geography implied by the narrative.</p></div>
         <button className="mf-credit" onClick={()=>setShowCredits(!showCredits)}>{showCredits?"Hide":"Show"} data credits</button>
         {showCredits&&<div className="mf-card small">{project.credits.map(x=><div key={x}>• {x}</div>)}</div>}
