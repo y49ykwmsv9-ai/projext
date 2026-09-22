@@ -73,3 +73,32 @@ button{touch-action:manipulation}
 @media(prefers-reduced-motion:reduce){
  .floating,.event-card,.live-report,.interpretation-card{animation:none!important}
 }
+
+
+/* iPhone/mobile stability pass: every interactive surface owns its scroll area. */
+.info-panel,.menu-pop,.event-stack,.live-report-stack,.log-dock,.timeline-list,.history-list,.news-list,.chat-log,.save-list,.launcher{
+  overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch;
+}
+.info-panel{overflow-y:auto;overflow-x:hidden;min-height:0;contain:layout paint;}
+.info-panel>*{min-width:0;}
+.menu-pop{overflow-y:auto;overflow-x:hidden;min-height:0;contain:layout paint;}
+.event-stack,.live-report-stack{overflow-y:auto;overflow-x:hidden;min-height:0;}
+.launcher{overflow-y:auto;overflow-x:hidden;}
+@media(max-width:600px){
+  .top-controls button,.top-controls select,.top-controls input,.command-bar button,.zoom-dock button,.tab-dock button,.menu-pop button,.actions button,.info-panel button{
+    min-height:44px;
+  }
+  .top-controls{scrollbar-width:none;-webkit-overflow-scrolling:touch;}
+  .top-controls::-webkit-scrollbar{display:none;}
+  .map-modes{scrollbar-width:none;-webkit-overflow-scrolling:touch;}
+  .map-modes::-webkit-scrollbar{display:none;}
+  .tab-dock{scrollbar-width:none;-webkit-overflow-scrolling:touch;}
+  .tab-dock::-webkit-scrollbar{display:none;}
+  .floating{backdrop-filter:none;-webkit-backdrop-filter:none;}
+  .info-panel,.menu-pop,.event-stack,.live-report-stack,.log-dock{contain:strict;}
+  .info-panel .actions{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .info-panel .actions button{white-space:normal;line-height:1.15;padding:8px 6px;}
+  .timeline-list,.history-list,.news-list,.chat-log{max-height:none;overflow:visible;}
+  .info-panel{padding-bottom:calc(14px + env(safe-area-inset-bottom));}
+}
