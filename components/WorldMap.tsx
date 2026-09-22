@@ -89,11 +89,12 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   map.on('error',fail);
   map.on('load',()=>{
    map.addSource('wf-countries',{type:'geojson',data:countries,promoteId:'__wf_id'});
-   map.addLayer({id:'wf-country-fill',type:'fill',source:'wf-countries',paint:{'fill-color':'#52636d','fill-opacity':['interpolate',['linear'],['zoom'],0,.52,1.05,.42,1.35,.20,1.65,.05,1.85,0,22,0]}});
-   map.addLayer({id:'wf-country-line',type:'line',source:'wf-countries',paint:{'line-color':'#101820','line-width':['interpolate',['linear'],['zoom'],.65,.45,4,.75,8,1.05,14,1.5,18,1.9],'line-opacity':['interpolate',['linear'],['zoom'],0,.72,1.1,.58,1.45,.24,1.7,0,22,0]}});
+   map.addLayer({id:'wf-country-fill',type:'fill',source:'wf-countries',paint:{'fill-color':'#52636d','fill-opacity':0}});
+   map.addLayer({id:'wf-country-line',type:'line',source:'wf-countries',paint:{'line-color':'#101820','line-width':0,'line-opacity':0}});
    map.addSource('wf-admin1',{type:'geojson',data:admin1GeoJson(admin1Features),promoteId:'__wf_region_id'});
-   map.addLayer({id:'wf-admin1-fill',type:'fill',source:'wf-admin1',minzoom:2.2,paint:{'fill-color':'#e5c777','fill-opacity':['interpolate',['linear'],['zoom'],2.2,0.001,22,0.001]}});
-   map.addLayer({id:'wf-admin1-line',type:'line',source:'wf-admin1',minzoom:2.2,paint:{'line-color':'#d6c7a0','line-width':1,'line-opacity':0}});
+   map.addLayer({id:'wf-admin1-hitbox',type:'fill',source:'wf-admin1',minzoom:1.15,paint:{'fill-color':'#ffffff','fill-opacity':0.001}});
+   map.addLayer({id:'wf-admin1-line',type:'line',source:'wf-admin1',minzoom:1.15,paint:{'line-color':'#e3c780','line-width':1.4,'line-opacity':0}});
+   map.addLayer({id:'wf-admin1-selected',type:'line',source:'wf-admin1',minzoom:1.15,paint:{'line-color':'#f3d37a','line-width':['interpolate',['linear'],['zoom'],1.15,1.2,6,2.2,14,3.2,22,4],'line-opacity':0},filter:['==',['get','__wf_region_id'],'']});
    map.addSource('wf-cities',{type:'geojson',data:{type:'FeatureCollection',features:cityFeatures}});
    map.addSource('wf-history',{type:'geojson',data:cliopatria});
    map.addLayer({id:'wf-history-fill',type:'fill',source:'wf-history',minzoom:0,paint:{'fill-color':'#9f7ac2','fill-opacity':mapMode==='history'?.32:0}});
@@ -105,10 +106,10 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
     const z=map.getZoom();
     let hits:any[]=[];
     try{
-      hits=map.queryRenderedFeatures(point,{layers:z>=2.2?['wf-admin1-fill']:['wf-country-hitbox','wf-country-fill']});
+      hits=map.queryRenderedFeatures(point,{layers:z>=1.15?['wf-admin1-hitbox']:['wf-country-hitbox','wf-country-fill']});
     }catch{}
     if(z>=2.2){
-      const region=hits.find((f:any)=>String(f.layer?.id)==='wf-admin1-fill');
+      const region=hits.find((f:any)=>String(f.layer?.id)==='wf-admin1-hitbox');
       if(region){
         const p=region.properties??{};
         const raw=String(p.__wf_region_id??p.adm1_code??p.ADM1_CODE??p.code??p.id??region.id??'');
@@ -123,11 +124,13 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
     }
     return false;
    };
-   map.on('click',(e:any)=>pickAt(e.point));
+   let lastTouch=0;
+   map.on('click',(e:any)=>{if(Date.now()-lastTouch<450)return;pickAt(e.point)});
+   map.on('touchend',(e:any)=>{lastTouch=Date.now();const t=e?.points?.[0]??e?.point;if(t)pickAt(t)});
    map.on('mouseenter','wf-country-fill',()=>{map.getCanvas().style.cursor='pointer'});
    map.on('mouseleave','wf-country-fill',()=>{map.getCanvas().style.cursor=''});
-   map.on('mouseenter','wf-admin1-fill',()=>{map.getCanvas().style.cursor='crosshair'});
-   map.on('mouseleave','wf-admin1-fill',()=>{map.getCanvas().style.cursor=''});
+   map.on('mouseenter','wf-admin1-hitbox',()=>{map.getCanvas().style.cursor='crosshair'});
+   map.on('mouseleave','wf-admin1-hitbox',()=>{map.getCanvas().style.cursor=''});
    setMapReady(true);
   });
   const report=()=>zoomChangeRef.current?.(map.getZoom());
@@ -139,10 +142,11 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   const map=mapRef.current;if(!map||!mapReady||!map.isStyleLoaded())return;
   if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-color',countryColorExpression(colorMap));
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-color',selectedNationId?['case',['==',['get','__wf_id'],selectedNationId],'#fff0b9','#101820']:'#101820');
-  if(map.getLayer('wf-admin1-fill'))map.setPaintProperty('wf-admin1-fill','fill-opacity',mapMode==='history'?0:0.001);
-  if(map.getLayer('wf-admin1-line')){map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');map.setPaintProperty('wf-admin1-line','line-opacity',0);}
-  if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-opacity',mapMode==='history'?0:['interpolate',['linear'],['zoom'],0,.52,1.05,.42,1.35,.20,1.65,.05,1.85,0,22,0]);
-  if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-opacity',mapMode==='history'?0:['interpolate',['linear'],['zoom'],0,.72,1.1,.58,1.45,.24,1.7,0,22,0]);
+  if(map.getLayer('wf-admin1-hitbox'))map.setPaintProperty('wf-admin1-hitbox','fill-opacity',mapMode==='history'?0:0.001);
+  if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-opacity',0);
+  if(map.getLayer('wf-admin1-selected')){map.setFilter('wf-admin1-selected',selectedRegion?['==',['get','__wf_region_id'],selectedRegion]:['==',['get','__wf_region_id'],'']);map.setPaintProperty('wf-admin1-selected','line-opacity',mapMode==='history'?0:.95);}
+  if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-opacity',0);
+  if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-opacity',0);
   if(map.getLayer('wf-history-fill'))map.setPaintProperty('wf-history-fill','fill-opacity',mapMode==='history'?.18:0);
   if(map.getLayer('wf-history-line'))map.setPaintProperty('wf-history-line','line-opacity',mapMode==='history'?.82:0);
  },[worldState,mapMode,colorMap,selectedNationId,selectedRegion,mapReady]);
