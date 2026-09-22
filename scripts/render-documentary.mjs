@@ -116,11 +116,11 @@ for (const c of manifest.chapters) {
 
     const overlayInput = mapOverlay ? ['-loop','1','-i',mapOverlay] : [];
     const overlayFilter = mapOverlay
-      ? '[0:v]scale=1280:720,setsar=1[base];[3:v]scale=1280:720,format=rgba,colorchannelmixer=aa=0.92[map];[base][map]blend=all_expr=\'if(gt(A,0),B,A)\'[comp];[comp]'
-      : '[0:v]';
+      ? `[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,${motion}[base];[2:v]scale=1280:720,format=rgba,colorchannelmixer=aa=0.92[map];[base][map]overlay=0:0[comp]`
+      : '';
     const ambience = `aevalsrc=0.006*sin(2*PI*92*t)+0.003*sin(2*PI*137*t):s=22050:d=${sec}`;
-    run('ffmpeg',['-y','-loop','1','-i',imagePath,'-i',wav,...overlayInput,'-f','lavfi','-i',ambience,'-t',String(sec),'-r','24','-vf',filter,'-filter_complex', mapOverlay
-      ? '[1:a]aresample=22050,apad=pad_dur=90[n];[2:a]volume=0.18[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]'
+    run('ffmpeg',['-y','-loop','1','-i',imagePath,'-i',wav,...overlayInput,'-f','lavfi','-i',ambience,'-t',String(sec),'-r','24','-vf',mapOverlay ? 'null' : filter,'-filter_complex', mapOverlay
+      ? `${overlayFilter};[1:a]aresample=22050,apad=pad_dur=90[n];[3:a]volume=0.18[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]`
       : '[1:a]aresample=22050,apad=pad_dur=90[n];[2:a]volume=0.18[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]','-map',mapOverlay ? '[comp]' : '0:v','-map','[aout]','-c:v','libx264','-preset','veryfast','-tune','stillimage','-b:v','850k','-maxrate','1000k','-bufsize','1700k','-pix_fmt','yuv420p','-c:a','aac','-b:a','96k','-movflags','+faststart',mp4]);
     sceneFiles.push(mp4);
   }
