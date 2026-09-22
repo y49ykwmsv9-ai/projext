@@ -133,7 +133,7 @@ function activeAtYear(feature: CliopatriaFeature, year: number, manifest: Cliopa
   return from <= year && year <= to;
 }
 
-export async function queryCliopatriaYear(year: number) {
+export async function queryCliopatriaYear(year: number, region?: [number, number, number, number]) {
   const manifest = await loadCliopatriaManifest();
   if (year < manifest.yearRange[0] || year > manifest.yearRange[1]) return [];
 
