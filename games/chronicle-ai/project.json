@@ -1,0 +1,19 @@
+{
+  "id": "chronicle-ai",
+  "name": "Chronicle AI",
+  "version": "0.1.0",
+  "type": "standalone-static",
+  "entry": "index.html",
+  "status": "prototype",
+  "lineage": [
+    "Worldforge",
+    "Chronicle"
+  ],
+  "features": [
+    "natural-language-orders",
+    "event-resolver",
+    "autonomous-reactions",
+    "persistent-local-saves"
+  ],
+  "created": "2026-09-21"
+}
