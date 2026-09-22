@@ -7,6 +7,9 @@ on:
       - "scripts/resolve-cliopatria-sample.mjs"
       - "scripts/render-cliopatria-sample.mjs"
       - "projects/documentary/map-style.json"
+      - "projects/documentary/data/cliopatria-plus/reconquista-atlas.json"
+      - "scripts/validate-reconquista-atlas.mjs"
+      - "scripts/cliopatria-plus.mjs"
       - ".github/workflows/documentary-sample.yml"
 
 jobs:
@@ -22,9 +25,11 @@ jobs:
           python3 -m pip install --user --disable-pip-version-check piper-tts
           mkdir -p voices
           python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
+      - name: Validate Cliopatria+ Reconquista atlas
+        run: node scripts/validate-reconquista-atlas.mjs
       - name: Fetch and resolve Cliopatria
         run: node scripts/resolve-cliopatria-sample.mjs
-      - name: Render 711 sample
+      - name: Render 750 Cliopatria sample
         run: node scripts/render-cliopatria-sample.mjs
       - name: Upload sample
         uses: actions/upload-artifact@v7
