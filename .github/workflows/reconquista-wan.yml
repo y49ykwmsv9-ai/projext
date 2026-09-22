@@ -44,8 +44,15 @@ jobs:
           pattern: wan-scenes-*
           path: projects/documentary/build/wan
           merge-multiple: true
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Install rendering and neural voice tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg curl
+          python -m pip install --disable-pip-version-check piper-tts
+          mkdir -p voices
+          python -m piper.download_voices --data-dir voices en_US-lessac-medium
+      - name: Generate researched documentary narration package
+        run: node scripts/generate-documentary.mjs
       - name: Assemble 60 minute AI-generated documentary
         run: python scripts/assemble-wan-documentary.py
       - name: Verify final MP4
