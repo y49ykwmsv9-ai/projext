@@ -1,0 +1,24 @@
+name: Vercel Drop package
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package source
+        run: |
+          rm -rf .git node_modules .next out
+          zip -r mapforge-vercel-drop.zip . -x "*.DS_Store"
+      - name: Upload package
+        uses: actions/upload-artifact@v4
+        with:
+          name: mapforge-vercel-drop
+          path: mapforge-vercel-drop.zip
+          retention-days: 7
