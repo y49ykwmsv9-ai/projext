@@ -1,0 +1,4799 @@
+{
+  "schema_version": "1.3.0",
+  "database": "HISTORIX",
+  "kind": "person_enrichment_index",
+  "record_count": 61,
+  "source": "lib/historical-records.ts",
+  "records": [
+    {
+      "id": "sargon-akkad",
+      "identity": {
+        "canonical_name": "Sargon of Akkad",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -2334,
+        "end": -2279,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesopotamia",
+        "place_ids": [],
+        "polity_ids": [
+          "akkad"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "akkad"
+      ],
+      "biography": {
+        "summary": "Founder of the Akkadian Empire and one of the earliest known imperial rulers.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "akkad"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Founder of the Akkadian Empire and one of the earliest known imperial rulers.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "hammurabi",
+      "identity": {
+        "canonical_name": "Hammurabi",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -1792,
+        "end": -1750,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesopotamia",
+        "place_ids": [],
+        "polity_ids": [
+          "old-babylonian"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "law",
+        "babylon"
+      ],
+      "biography": {
+        "summary": "Babylonian king associated with imperial expansion and a famous law collection.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "old-babylonian"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Babylonian king associated with imperial expansion and a famous law collection.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "cyrus-great",
+      "identity": {
+        "canonical_name": "Cyrus the Great",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -559,
+        "end": -530,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Persia",
+        "place_ids": [],
+        "polity_ids": [
+          "achaemenid"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "persia",
+        "empire"
+      ],
+      "biography": {
+        "summary": "Founder of the Achaemenid Empire and conqueror of Babylon.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "achaemenid"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Founder of the Achaemenid Empire and conqueror of Babylon.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "darius-great",
+      "identity": {
+        "canonical_name": "Darius I",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -522,
+        "end": -486,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Persia",
+        "place_ids": [],
+        "polity_ids": [
+          "achaemenid"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "persia"
+      ],
+      "biography": {
+        "summary": "Achaemenid ruler who consolidated the empire and sponsored major administrative works.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "achaemenid"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Achaemenid ruler who consolidated the empire and sponsored major administrative works.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "leonidas",
+      "identity": {
+        "canonical_name": "Leonidas I",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -490,
+        "end": -480,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Greece",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "ruler",
+        "battle"
+      ],
+      "biography": {
+        "summary": "Spartan king who commanded Greek defenders at Thermopylae.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Spartan king who commanded Greek defenders at Thermopylae.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "alexander-great",
+      "identity": {
+        "canonical_name": "Alexander the Great",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -356,
+        "end": -323,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Macedon and Asia",
+        "place_ids": [],
+        "polity_ids": [
+          "macedon"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "conqueror"
+      ],
+      "biography": {
+        "summary": "Macedonian king whose conquests created a vast Hellenistic realm.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "macedon"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Macedonian king whose conquests created a vast Hellenistic realm.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "hannibal",
+      "identity": {
+        "canonical_name": "Hannibal Barca",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -247,
+        "end": -183,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Carthage",
+        "place_ids": [],
+        "polity_ids": [
+          "carthage"
+        ]
+      },
+      "roles": [
+        "commander",
+        "war"
+      ],
+      "biography": {
+        "summary": "Carthaginian commander who invaded Italy during the Second Punic War.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "carthage"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Carthaginian commander who invaded Italy during the Second Punic War.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "julius-caesar",
+      "identity": {
+        "canonical_name": "Julius Caesar",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -100,
+        "end": -44,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Rome",
+        "place_ids": [],
+        "polity_ids": [
+          "roman-republic"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "commander",
+        "rome"
+      ],
+      "biography": {
+        "summary": "Roman general and statesman whose civil war helped end the Roman Republic.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "roman-republic"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Roman general and statesman whose civil war helped end the Roman Republic.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "augustus-person",
+      "identity": {
+        "canonical_name": "Augustus",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": -63,
+        "end": 14,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Rome",
+        "place_ids": [],
+        "polity_ids": [
+          "roman-empire"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "rome"
+      ],
+      "biography": {
+        "summary": "First Roman emperor and architect of the early imperial settlement.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "roman-empire"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "First Roman emperor and architect of the early imperial settlement.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "constantine-person",
+      "identity": {
+        "canonical_name": "Constantine the Great",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 272,
+        "end": 337,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Roman Empire",
+        "place_ids": [],
+        "polity_ids": [
+          "roman-empire"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "religion"
+      ],
+      "biography": {
+        "summary": "Roman emperor who reunited the empire and supported Christianity.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "roman-empire"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Roman emperor who reunited the empire and supported Christianity.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "justinian",
+      "identity": {
+        "canonical_name": "Justinian I",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 482,
+        "end": 565,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Eastern Roman Empire",
+        "place_ids": [],
+        "polity_ids": [
+          "eastern-roman"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "byzantium",
+        "law"
+      ],
+      "biography": {
+        "summary": "Eastern Roman emperor associated with legal codification and Mediterranean reconquests.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "eastern-roman"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Eastern Roman emperor associated with legal codification and Mediterranean reconquests.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "muhammad",
+      "identity": {
+        "canonical_name": "Muhammad",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 570,
+        "end": 632,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Arabia",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "religion",
+        "leader"
+      ],
+      "biography": {
+        "summary": "Founder of Islam and leader of the early Muslim community.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Founder of Islam and leader of the early Muslim community.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "charlemagne",
+      "identity": {
+        "canonical_name": "Charlemagne",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 747,
+        "end": 814,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Western Europe",
+        "place_ids": [],
+        "polity_ids": [
+          "carolingian"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "franks",
+        "empire"
+      ],
+      "biography": {
+        "summary": "Frankish ruler crowned emperor in 800 and presided over a large western European realm.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "carolingian"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Frankish ruler crowned emperor in 800 and presided over a large western European realm.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "william-conqueror",
+      "identity": {
+        "canonical_name": "William the Conqueror",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1028,
+        "end": 1087,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Normandy and England",
+        "place_ids": [],
+        "polity_ids": [
+          "england-kingdom"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "conquest"
+      ],
+      "biography": {
+        "summary": "Norman duke who conquered England in 1066 and became its king.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "england-kingdom"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Norman duke who conquered England in 1066 and became its king.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "saladin",
+      "identity": {
+        "canonical_name": "Saladin",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1137,
+        "end": 1193,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Middle East",
+        "place_ids": [],
+        "polity_ids": [
+          "ayyubid-sultanate"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "commander"
+      ],
+      "biography": {
+        "summary": "Sultan who united major Muslim territories and defeated Crusader forces at Hattin.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "ayyubid-sultanate"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Sultan who united major Muslim territories and defeated Crusader forces at Hattin.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "genghis-khan",
+      "identity": {
+        "canonical_name": "Genghis Khan",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1162,
+        "end": 1227,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mongolia",
+        "place_ids": [],
+        "polity_ids": [
+          "mongol"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "conqueror"
+      ],
+      "biography": {
+        "summary": "Founder of the Mongol Empire and organizer of a major Eurasian conquest state.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "mongol"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Founder of the Mongol Empire and organizer of a major Eurasian conquest state.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "kublai-khan",
+      "identity": {
+        "canonical_name": "Kublai Khan",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1215,
+        "end": 1294,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "East Asia",
+        "place_ids": [],
+        "polity_ids": [
+          "yuan"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "china",
+        "mongol"
+      ],
+      "biography": {
+        "summary": "Mongol ruler who founded the Yuan dynasty in China.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "yuan"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Mongol ruler who founded the Yuan dynasty in China.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "ibn-battuta",
+      "identity": {
+        "canonical_name": "Ibn Battuta",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1304,
+        "end": 1368,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "North Africa and Eurasia",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "traveler",
+        "scholar"
+      ],
+      "biography": {
+        "summary": "Moroccan traveler whose journeys provide important descriptions of fourteenth-century societies.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Moroccan traveler whose journeys provide important descriptions of fourteenth-century societies.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "timur",
+      "identity": {
+        "canonical_name": "Timur",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1336,
+        "end": 1405,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Central Asia",
+        "place_ids": [],
+        "polity_ids": [
+          "timurid"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "conqueror"
+      ],
+      "biography": {
+        "summary": "Central Asian conqueror who founded the Timurid dynasty.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "timurid"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Central Asian conqueror who founded the Timurid dynasty.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "joan-arc",
+      "identity": {
+        "canonical_name": "Joan of Arc",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1412,
+        "end": 1431,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "France",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "war",
+        "france"
+      ],
+      "biography": {
+        "summary": "French military and religious figure associated with the Lancastrian phase of the Hundred Years’ War.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "French military and religious figure associated with the Lancastrian phase of the Hundred Years’ War.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "mehmed-conqueror",
+      "identity": {
+        "canonical_name": "Mehmed II",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1432,
+        "end": 1481,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Ottoman Empire",
+        "place_ids": [],
+        "polity_ids": [
+          "ottoman"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "ottoman",
+        "conquest"
+      ],
+      "biography": {
+        "summary": "Ottoman sultan who conquered Constantinople in 1453.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "ottoman"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ottoman sultan who conquered Constantinople in 1453.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "isabella-castile",
+      "identity": {
+        "canonical_name": "Isabella I of Castile",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1451,
+        "end": 1504,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Iberia",
+        "place_ids": [],
+        "polity_ids": [
+          "castile"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "iberia"
+      ],
+      "biography": {
+        "summary": "Queen of Castile whose reign coincided with the completion of the Reconquista and Columbus voyage.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "castile"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Queen of Castile whose reign coincided with the completion of the Reconquista and Columbus voyage.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "columbus-person",
+      "identity": {
+        "canonical_name": "Christopher Columbus",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1451,
+        "end": 1506,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Atlantic",
+        "place_ids": [],
+        "polity_ids": [
+          "castile"
+        ]
+      },
+      "roles": [
+        "explorer",
+        "atlantic"
+      ],
+      "biography": {
+        "summary": "Navigator whose 1492 voyage under Castilian sponsorship reached the Caribbean.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "castile"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Navigator whose 1492 voyage under Castilian sponsorship reached the Caribbean.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "leonardo",
+      "identity": {
+        "canonical_name": "Leonardo da Vinci",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1452,
+        "end": 1519,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Italy",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "artist",
+        "science",
+        "renaissance"
+      ],
+      "biography": {
+        "summary": "Italian artist, engineer and polymath of the Renaissance.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Italian artist, engineer and polymath of the Renaissance.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "martin-luther",
+      "identity": {
+        "canonical_name": "Martin Luther",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1483,
+        "end": 1546,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Central Europe",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "religion",
+        "reformation"
+      ],
+      "biography": {
+        "summary": "German theologian whose writings helped initiate the Protestant Reformation.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "German theologian whose writings helped initiate the Protestant Reformation.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "suleiman",
+      "identity": {
+        "canonical_name": "Suleiman the Magnificent",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1494,
+        "end": 1566,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Ottoman Empire",
+        "place_ids": [],
+        "polity_ids": [
+          "ottoman"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "ottoman"
+      ],
+      "biography": {
+        "summary": "Ottoman sultan during a period of major imperial expansion and legal reform.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "ottoman"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ottoman sultan during a period of major imperial expansion and legal reform.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "galileo",
+      "identity": {
+        "canonical_name": "Galileo Galilei",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1564,
+        "end": 1642,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Italy",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "science",
+        "astronomy"
+      ],
+      "biography": {
+        "summary": "Astronomer and physicist central to the Scientific Revolution.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Astronomer and physicist central to the Scientific Revolution.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "shakespeare",
+      "identity": {
+        "canonical_name": "William Shakespeare",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1564,
+        "end": 1616,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "England",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "literature",
+        "culture"
+      ],
+      "biography": {
+        "summary": "English playwright and poet whose works became central to the English literary canon.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "English playwright and poet whose works became central to the English literary canon.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "tokugawa-ieyasu",
+      "identity": {
+        "canonical_name": "Tokugawa Ieyasu",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1543,
+        "end": 1616,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Japan",
+        "place_ids": [],
+        "polity_ids": [
+          "tokugawa"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "japan"
+      ],
+      "biography": {
+        "summary": "Japanese daimyo who established the Tokugawa shogunate.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "tokugawa"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Japanese daimyo who established the Tokugawa shogunate.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "gutenberg",
+      "identity": {
+        "canonical_name": "Johannes Gutenberg",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1400,
+        "end": 1468,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Holy Roman Empire",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "technology",
+        "printing"
+      ],
+      "biography": {
+        "summary": "European printer traditionally associated with the spread of movable-type printing in Europe.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "European printer traditionally associated with the spread of movable-type printing in Europe.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "peter-great",
+      "identity": {
+        "canonical_name": "Peter the Great",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1672,
+        "end": 1725,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Russia",
+        "place_ids": [],
+        "polity_ids": [
+          "russian-tsardom",
+          "russian-empire"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "modernization"
+      ],
+      "biography": {
+        "summary": "Russian ruler who transformed institutions and expanded the Russian state.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "russian-tsardom",
+          "russian-empire"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Russian ruler who transformed institutions and expanded the Russian state.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "catherine-great",
+      "identity": {
+        "canonical_name": "Catherine the Great",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1729,
+        "end": 1796,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Russia",
+        "place_ids": [],
+        "polity_ids": [
+          "russian-empire"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "russia"
+      ],
+      "biography": {
+        "summary": "Empress of Russia during territorial expansion and administrative reform.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "russian-empire"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Empress of Russia during territorial expansion and administrative reform.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "george-washington",
+      "identity": {
+        "canonical_name": "George Washington",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1732,
+        "end": 1799,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "North America",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "commander",
+        "president"
+      ],
+      "biography": {
+        "summary": "Military commander of the American Revolution and first U.S. president.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Military commander of the American Revolution and first U.S. president.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "jefferson",
+      "identity": {
+        "canonical_name": "Thomas Jefferson",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1743,
+        "end": 1826,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "North America",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "statesman",
+        "revolution"
+      ],
+      "biography": {
+        "summary": "American statesman and principal drafter of the Declaration of Independence.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "American statesman and principal drafter of the Declaration of Independence.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "napoleon",
+      "identity": {
+        "canonical_name": "Napoleon Bonaparte",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1769,
+        "end": 1821,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "France",
+        "place_ids": [],
+        "polity_ids": [
+          "first-empire"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "commander",
+        "france"
+      ],
+      "biography": {
+        "summary": "French military and political leader who became emperor and reshaped Europe through war and administration.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "first-empire"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "French military and political leader who became emperor and reshaped Europe through war and administration.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "simón-bolivar",
+      "identity": {
+        "canonical_name": "Simón Bolívar",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1783,
+        "end": 1830,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "South America",
+        "place_ids": [],
+        "polity_ids": [
+          "gran-colombia"
+        ]
+      },
+      "roles": [
+        "independence",
+        "commander"
+      ],
+      "biography": {
+        "summary": "Military and political leader associated with independence movements in northern South America.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "gran-colombia"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Military and political leader associated with independence movements in northern South America.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "abraham-lincoln",
+      "identity": {
+        "canonical_name": "Abraham Lincoln",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1809,
+        "end": 1865,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "president",
+        "civil-war"
+      ],
+      "biography": {
+        "summary": "U.S. president during the Civil War who issued the Emancipation Proclamation.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "U.S. president during the Civil War who issued the Emancipation Proclamation.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "queen-victoria",
+      "identity": {
+        "canonical_name": "Queen Victoria",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1819,
+        "end": 1901,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Britain",
+        "place_ids": [],
+        "polity_ids": [
+          "united-kingdom"
+        ]
+      },
+      "roles": [
+        "monarch",
+        "britain"
+      ],
+      "biography": {
+        "summary": "British monarch whose reign coincided with industrialization and imperial expansion.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "united-kingdom"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "British monarch whose reign coincided with industrialization and imperial expansion.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "otto-von-bismarck",
+      "identity": {
+        "canonical_name": "Otto von Bismarck",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1815,
+        "end": 1898,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Germany",
+        "place_ids": [],
+        "polity_ids": [
+          "prussia",
+          "german-empire"
+        ]
+      },
+      "roles": [
+        "statesman",
+        "unification"
+      ],
+      "biography": {
+        "summary": "Prussian statesman who drove German unification and served as first imperial chancellor.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "prussia",
+          "german-empire"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Prussian statesman who drove German unification and served as first imperial chancellor.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "florence-nightingale",
+      "identity": {
+        "canonical_name": "Florence Nightingale",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1820,
+        "end": 1910,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Britain",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "medicine",
+        "reform"
+      ],
+      "biography": {
+        "summary": "Nursing reformer associated with changes in military and civilian medical care.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Nursing reformer associated with changes in military and civilian medical care.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "mahatma-gandhi",
+      "identity": {
+        "canonical_name": "Mahatma Gandhi",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1869,
+        "end": 1948,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "South Asia",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "independence",
+        "politics"
+      ],
+      "biography": {
+        "summary": "Indian independence leader associated with mass nonviolent political action.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Indian independence leader associated with mass nonviolent political action.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "mustafa-kemal",
+      "identity": {
+        "canonical_name": "Mustafa Kemal Atatürk",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1881,
+        "end": 1938,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Turkey",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "ruler",
+        "reform"
+      ],
+      "biography": {
+        "summary": "Founder of the Republic of Turkey and leader of major state reforms after the Ottoman collapse.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Founder of the Republic of Turkey and leader of major state reforms after the Ottoman collapse.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "woodrow-wilson",
+      "identity": {
+        "canonical_name": "Woodrow Wilson",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1856,
+        "end": 1924,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "president",
+        "diplomacy"
+      ],
+      "biography": {
+        "summary": "U.S. president during World War I and advocate of the League of Nations.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "U.S. president during World War I and advocate of the League of Nations.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "vladimir-lenin",
+      "identity": {
+        "canonical_name": "Vladimir Lenin",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1870,
+        "end": 1924,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Russia",
+        "place_ids": [],
+        "polity_ids": [
+          "russian-sfsr"
+        ]
+      },
+      "roles": [
+        "revolution",
+        "russia"
+      ],
+      "biography": {
+        "summary": "Bolshevik revolutionary and head of the Soviet government after 1917.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "russian-sfsr"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Bolshevik revolutionary and head of the Soviet government after 1917.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "joseph-stalin",
+      "identity": {
+        "canonical_name": "Joseph Stalin",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1878,
+        "end": 1953,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Soviet Union",
+        "place_ids": [],
+        "polity_ids": [
+          "soviet-union"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "soviet"
+      ],
+      "biography": {
+        "summary": "Soviet leader during forced industrialization, collectivization and World War II.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "soviet-union"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Soviet leader during forced industrialization, collectivization and World War II.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "winston-churchill",
+      "identity": {
+        "canonical_name": "Winston Churchill",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1874,
+        "end": 1965,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Britain",
+        "place_ids": [],
+        "polity_ids": [
+          "united-kingdom"
+        ]
+      },
+      "roles": [
+        "statesman",
+        "wwii"
+      ],
+      "biography": {
+        "summary": "British prime minister during much of World War II and a major wartime statesman.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "united-kingdom"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "British prime minister during much of World War II and a major wartime statesman.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "franklin-roosevelt",
+      "identity": {
+        "canonical_name": "Franklin D. Roosevelt",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1882,
+        "end": 1945,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "president",
+        "economy",
+        "wwii"
+      ],
+      "biography": {
+        "summary": "U.S. president during the Great Depression and most of World War II.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "U.S. president during the Great Depression and most of World War II.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "charles-de-gaulle",
+      "identity": {
+        "canonical_name": "Charles de Gaulle",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1890,
+        "end": 1970,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "France",
+        "place_ids": [],
+        "polity_ids": [
+          "free-france"
+        ]
+      },
+      "roles": [
+        "commander",
+        "statesman",
+        "wwii"
+      ],
+      "biography": {
+        "summary": "French general and leader of Free France during World War II, later president of France.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "free-france"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "French general and leader of Free France during World War II, later president of France.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "hideki-tojo",
+      "identity": {
+        "canonical_name": "Hideki Tojo",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1884,
+        "end": 1948,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Japan",
+        "place_ids": [],
+        "polity_ids": [
+          "meiji-japan"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "wwii"
+      ],
+      "biography": {
+        "summary": "Japanese general and prime minister during much of the Pacific War.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "meiji-japan"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Japanese general and prime minister during much of the Pacific War.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "harry-truman",
+      "identity": {
+        "canonical_name": "Harry S. Truman",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1884,
+        "end": 1972,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "president",
+        "wwii",
+        "cold-war"
+      ],
+      "biography": {
+        "summary": "U.S. president at the end of World War II and during the early Cold War.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "U.S. president at the end of World War II and during the early Cold War.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "jawaharlal-nehru",
+      "identity": {
+        "canonical_name": "Jawaharlal Nehru",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1889,
+        "end": 1964,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "South Asia",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "statesman",
+        "india"
+      ],
+      "biography": {
+        "summary": "First prime minister of independent India and a prominent non-aligned statesman.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "First prime minister of independent India and a prominent non-aligned statesman.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "mao-zedong",
+      "identity": {
+        "canonical_name": "Mao Zedong",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1893,
+        "end": 1976,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "China",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "ruler",
+        "china",
+        "revolution"
+      ],
+      "biography": {
+        "summary": "Chinese Communist leader and founding leader of the People’s Republic of China.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Chinese Communist leader and founding leader of the People’s Republic of China.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "nelson-mandela",
+      "identity": {
+        "canonical_name": "Nelson Mandela",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1918,
+        "end": 2013,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "South Africa",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "statesman",
+        "south-africa"
+      ],
+      "biography": {
+        "summary": "Anti-apartheid leader and first president of South Africa elected after the end of apartheid.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Anti-apartheid leader and first president of South Africa elected after the end of apartheid.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "martin-luther-king",
+      "identity": {
+        "canonical_name": "Martin Luther King Jr.",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1929,
+        "end": 1968,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "civil-rights",
+        "activism"
+      ],
+      "biography": {
+        "summary": "Civil-rights leader associated with nonviolent activism in the United States.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Civil-rights leader associated with nonviolent activism in the United States.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "john-kennedy",
+      "identity": {
+        "canonical_name": "John F. Kennedy",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1917,
+        "end": 1963,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "president",
+        "cold-war"
+      ],
+      "biography": {
+        "summary": "U.S. president during a major phase of the Cold War, including the Cuban Missile Crisis.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "U.S. president during a major phase of the Cold War, including the Cuban Missile Crisis.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "nikita-khrushchev",
+      "identity": {
+        "canonical_name": "Nikita Khrushchev",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1894,
+        "end": 1971,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Soviet Union",
+        "place_ids": [],
+        "polity_ids": [
+          "soviet-union"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "cold-war"
+      ],
+      "biography": {
+        "summary": "Soviet leader during de-Stalinization and the Cuban Missile Crisis.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "soviet-union"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Soviet leader during de-Stalinization and the Cuban Missile Crisis.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "ronald-reagan",
+      "identity": {
+        "canonical_name": "Ronald Reagan",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1911,
+        "end": 2004,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "United States",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "president",
+        "cold-war"
+      ],
+      "biography": {
+        "summary": "U.S. president during the later Cold War.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "U.S. president during the later Cold War.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "mikhail-gorbachev",
+      "identity": {
+        "canonical_name": "Mikhail Gorbachev",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1931,
+        "end": 2022,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Soviet Union",
+        "place_ids": [],
+        "polity_ids": [
+          "soviet-union"
+        ]
+      },
+      "roles": [
+        "ruler",
+        "cold-war"
+      ],
+      "biography": {
+        "summary": "Soviet leader associated with perestroika, glasnost and the final years of the USSR.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": [
+          "soviet-union"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Soviet leader associated with perestroika, glasnost and the final years of the USSR.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "deng-xiaoping",
+      "identity": {
+        "canonical_name": "Deng Xiaoping",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1904,
+        "end": 1997,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "China",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "ruler",
+        "economy",
+        "china"
+      ],
+      "biography": {
+        "summary": "Chinese leader associated with economic reforms beginning in the late 1970s.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Chinese leader associated with economic reforms beginning in the late 1970s.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "lech-walesa",
+      "identity": {
+        "canonical_name": "Lech Wałęsa",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1943,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Poland",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "politics",
+        "cold-war"
+      ],
+      "biography": {
+        "summary": "Polish labor leader and later president associated with the Solidarity movement.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Polish labor leader and later president associated with the Solidarity movement.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    },
+    {
+      "id": "malala",
+      "identity": {
+        "canonical_name": "Malala Yousafzai",
+        "alternate_names": [],
+        "entity_type": "person"
+      },
+      "chronology": {
+        "start": 1997,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Pakistan",
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "roles": [
+        "activism",
+        "education"
+      ],
+      "biography": {
+        "summary": "Pakistani education activist and Nobel Peace Prize laureate.",
+        "major_actions": [],
+        "offices_titles": [],
+        "relationships": []
+      },
+      "associations": {
+        "event_ids": [],
+        "place_ids": [],
+        "polity_ids": []
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Pakistani education activist and Nobel Peace Prize laureate.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Detailed biography",
+          "Chronological evidence",
+          "Relationships",
+          "Event associations",
+          "Independent source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "major_actions",
+          "offices_titles",
+          "relationships",
+          "event_ids",
+          "place_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Add researched facts only with source-level provenance."
+      }
+    }
+  ]
+}
