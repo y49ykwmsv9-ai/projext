@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predev": "node scripts/copy-maplibre-worker.mjs",
     "build": "node scripts/prepare-world-data.mjs && node scripts/prepare-cliopatria.mjs && next build",
+    "prebuild": "node scripts/copy-maplibre-worker.mjs",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "check": "npm run typecheck && npm run build",
@@ -28,6 +30,6 @@
     "@types/react-dom": "^19.0.0",
     "@types/topojson-client": "^3.1.0",
     "typescript": "^5.0.0",
-    "@types/d3-geo": "^3.1.0"
+    "@types/d3-geo": "^3.0.0"
   }
 }
