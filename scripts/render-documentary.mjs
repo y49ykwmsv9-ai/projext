@@ -104,7 +104,7 @@ for(const c of manifest.chapters){
 // Natural neural narration through a free external TTS service. No paid API key is required.
 // Edge-TTS voices are substantially less synthetic than the previous eSpeak output.
 const audioDir=path.join(scenesDir,'audio'); fs.mkdirSync(audioDir,{recursive:true});
-run('python3',['-m','pip','install','--disable-pip-version-check','-q','edge-tts']);
+run('python3',['-m','pip','install','--disable-pip-version-check','--break-system-packages','-q','edge-tts']);
 const chapterAudio=[];
 for(const c of manifest.chapters){
   const out=path.join(audioDir,c.id+'.mp3');
