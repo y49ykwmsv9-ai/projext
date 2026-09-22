@@ -50,8 +50,12 @@ jobs:
           mkdir -p out/projects/ironfront-tactics/assets/sprites
           cp projects/ironfront-tactics/index.html out/projects/ironfront-tactics/index.html
           cp -r projects/ironfront-tactics/assets/. out/projects/ironfront-tactics/assets/
-          mkdir -p out/projects/ironfront-tactics/data\n          cp -r projects/ironfront-tactics/data/. out/projects/ironfront-tactics/data/
+          mkdir -p out/projects/ironfront-tactics/data
+          cp -r projects/ironfront-tactics/data/. out/projects/ironfront-tactics/data/
           cp projects/ironfront-tactics/README.md out/projects/ironfront-tactics/README.md
+          cat > out/projects/ironfront-tactics/version.txt <<'EOF'
+Ironfront Tactics - GitHub Pages deployment
+EOF
 
       - name: Verify Ironfront export
         run: |
@@ -61,6 +65,7 @@ jobs:
           test -f out/projects/ironfront-tactics/assets/sprites/effects-atlas.svg
           test -f out/projects/ironfront-tactics/data/units.json
           test -f out/projects/ironfront-tactics/data/scenarios.json
+          test -f out/projects/ironfront-tactics/version.txt
           echo "Ironfront Tactics export verified."
 
       - name: Add Pages fallback
