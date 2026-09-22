@@ -8,7 +8,7 @@ const outDir=path.join(root,"projects/documentary/build/sample");
 fs.mkdirSync(outDir,{recursive:true});
 const run=(cmd,args)=>execFileSync(cmd,args,{stdio:"inherit"});
 
-if(data.year!==756)throw new Error(`Expected Cliopatria sample year 756, got ${data.year}`);
+if(data.year!==750)throw new Error(`Expected Cliopatria sample year 756, got ${data.year}`);
 if(data.references.some(r=>!r.resolved))throw new Error("Sample contains unresolved Cliopatria references: "+data.references.filter(r=>!r.resolved).map(r=>r.key).join(", "));
 
 const W=1280,H=720,mapX=55,mapY=108,mapW=1170,mapH=565;
@@ -29,14 +29,14 @@ const [bx,by]=project(-4.78,37.89);
 const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
 <rect width="${W}" height="${H}" fill="#7f9caf"/>
 <rect x="0" y="0" width="${W}" height="96" fill="#17130f" opacity=".94"/>
-<text x="45" y="43" fill="#f5ead3" font-family="DejaVu Sans" font-size="31" font-weight="700">756  •  CÓRDOBA AND THE MAKING OF AL-ANDALUS</text>
+<text x="45" y="43" fill="#f5ead3" font-family="DejaVu Sans" font-size="31" font-weight="700">750  •  IBERIA AT THE UMAYYAD FRONTIER</text>
 <text x="45" y="72" fill="#d7c39a" font-family="DejaVu Sans" font-size="14">CLIOPATRIA TIME-SLICE • DATABASE POLITICAL GEOGRAPHY • ORIGINAL ANIMATION</text>
 <rect x="35" y="105" width="1210" height="580" rx="7" fill="#d8c59d"/>
 ${territories}
 <path d="${route}" fill="none" stroke="#c98a3d" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 9"/>
 ${labels}
 <circle cx="${bx}" cy="${by}" r="11" fill="#9b3d2f" opacity=".82"/>
-<text x="70" y="138" fill="#1b1712" font-family="DejaVu Sans" font-size="16" font-weight="700">POLITICAL GEOGRAPHY FROM CLIOPATRIA, 756 CE</text>
+<text x="70" y="138" fill="#1b1712" font-family="DejaVu Sans" font-size="16" font-weight="700">POLITICAL GEOGRAPHY FROM CLIOPATRIA, 750 CE</text>
 <g transform="translate(850 515)"><rect width="370" height="145" rx="10" fill="#17130f" opacity=".89" stroke="#d7c39a" stroke-width="2"/>
 <text x="20" y="28" fill="#f5ead3" font-family="DejaVu Sans" font-size="15" font-weight="700">DATABASE-RESOLVED POLITIES</text>
 ${data.references.map((r,i)=>`<circle cx="28" cy="${55+i*29}" r="7" fill="${colors[i%colors.length]}"/><text x="45" y="${60+i*29}" fill="#f5ead3" font-family="DejaVu Sans" font-size="13">${esc(r.record?.Name||r.key)}</text>`).join("")}
@@ -44,25 +44,25 @@ ${data.references.map((r,i)=>`<circle cx="28" cy="${55+i*29}" r="7" fill="${colo
 <text x="40" y="708" fill="#f5ead3" font-family="DejaVu Sans" font-size="11">Cliopatria ${data.version} • territorial geometry: database • route/city markers: explicit documentary reconstruction</text>
 </svg>`;
 
-const svgPath=path.join(outDir,"reconquista-756-cliopatria-sample.svg");
-const pngPath=path.join(outDir,"reconquista-756-cliopatria-sample.png");
+const svgPath=path.join(outDir,"reconquista-750-cliopatria-sample.svg");
+const pngPath=path.join(outDir,"reconquista-750-cliopatria-sample.png");
 fs.writeFileSync(svgPath,svg);
 run("rsvg-convert",["-w","1280","-h","720","-o",pngPath,svgPath]);
 
 const narrationPath=path.join(outDir,"narration.txt");
-fs.writeFileSync(narrationPath,"By 756, the political map of Iberia had changed sharply. Abd al-Rahman the First established the independent Emirate of Córdoba, while the Kingdom of Asturias persisted in the north. The political territories shown here are resolved from Cliopatria at the 756 time slice. The moving campaign line is an explicit documentary reconstruction rather than a claim that Cliopatria records a precise marching route. The design rule is simple: database geometry supplies the historical map, while animation explains movement and chronology.");
+fs.writeFileSync(narrationPath,"By 750, the political map of Iberia reflected the western reach of the Umayyad Caliphate and the persistence of the Kingdom of Asturias in the north. The political territories shown here are resolved from Cliopatria at the 750 time slice. The moving campaign line is an explicit documentary reconstruction rather than a claim that Cliopatria records a precise marching route. The design rule is simple: database geometry supplies the historical map, while animation explains movement and chronology.");
 const wavPath=path.join(outDir,"narration.wav");
 run("piper",["--data-dir",path.join(root,"voices"),"--model","en_US-lessac-medium","--input_file",narrationPath,"--output_file",wavPath]);
 
 const [sx,sy]=project(-5.35,36.14),[ex,ey]=project(-4.03,39.86);
 const dx=ex-sx,dy=ey-sy;
-const filter=`[0:v]zoompan=z='1.01+0.02*sin(on/65)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,drawbox=x='${sx}+(${dx})*mod(t/20\\,1)':y='${sy}+(${dy})*mod(t/20\\,1)':w=16:h=16:color=#c98a3d@0.98:t=fill,drawbox=x='${bx}-18':y='${by}-18':w='36+12*sin(2*PI*t)':h='36+12*sin(2*PI*t)':color=#9b3d2f@0.38:t=fill,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='CLIOPATRIA • 756 CE':fontcolor=#f5ead3:fontsize=17:box=1:boxcolor=black@0.45:boxborderw=8:x=55:y=115,format=yuv420p[v]`;
-const mp4Path=path.join(outDir,"reconquista-756-cliopatria-sample.mp4");
+const filter=`[0:v]zoompan=z='1.01+0.02*sin(on/65)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,drawbox=x='${sx}+(${dx})*mod(t/20\\,1)':y='${sy}+(${dy})*mod(t/20\\,1)':w=16:h=16:color=#c98a3d@0.98:t=fill,drawbox=x='${bx}-18':y='${by}-18':w='36+12*sin(2*PI*t)':h='36+12*sin(2*PI*t)':color=#9b3d2f@0.38:t=fill,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='CLIOPATRIA • 750 CE':fontcolor=#f5ead3:fontsize=17:box=1:boxcolor=black@0.45:boxborderw=8:x=55:y=115,format=yuv420p[v]`;
+const mp4Path=path.join(outDir,"reconquista-750-cliopatria-sample.mp4");
 run("ffmpeg",["-y","-loop","1","-i",pngPath,"-i",wavPath,"-t","20","-filter_complex",filter+";[1:a]apad[a]","-map","[v]","-map","[a]","-r","24","-c:v","libx264","-preset","veryfast","-b:v","1600k","-pix_fmt","yuv420p","-c:a","aac","-b:a","128k","-movflags","+faststart",mp4Path]);
 run("ffprobe",["-v","error","-show_entries","format=duration,size","-of","default=noprint_wrappers=1",mp4Path]);
 
 fs.writeFileSync(path.join(outDir,"sample-provenance.json"),JSON.stringify({
-  scene:{year:756,title:"Córdoba and the Making of al-Andalus",sceneNumber:1},
+  scene:{year:756,title:"Iberia at the Umayyad Frontier",sceneNumber:1},
   cliopatria:{version:data.version,year:data.year,matchedPolities:data.references.map(r=>({key:r.key,name:r.record?.Name,polityId:r.record?.SeshatID??null}))},
   geometrySource:"Cliopatria",
   routeAndEvents:"explicit documentary reconstruction, not database geometry",
