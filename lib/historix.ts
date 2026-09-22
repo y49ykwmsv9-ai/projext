@@ -14,6 +14,22 @@ export type HistorixGraph = {
   relations: Array<{ id:string; from_type:HistoricalRecordKind; from_id:string; relation:string; to_type:"polity"; to_id:string; source:string }>;
 };
 
+export type HistorixEventEnrichment = {
+  id: string;
+  identity: { canonical_name: string; alternate_names: string[]; event_type: string; subtype: string };
+  chronology: { start: number; end: number | null; date_label: string | null; date_precision: string; is_approximate: boolean; uncertainty_years: number | null };
+  geography: { region: string; place_ids: string[]; polity_ids: string[]; extent_note: string | null };
+  participants: Array<{ id: string; kind: string; role: string }>;
+  context: { causes: string[]; triggers: string[]; preceding_event_ids: string[]; background: string | null };
+  narrative: { summary: string; phases: Array<{ label: string; description: string; start?: number | null; end?: number | null }>; turning_points: string[] };
+  consequences: { political: string[]; territorial: string[]; demographic: string[]; economic: string[]; military: string[]; cultural: string[] };
+  quantitative: Array<{ metric: string; value?: number | null; lower?: number | null; upper?: number | null; unit?: string | null; status: string; source_ids?: string[]; notes?: string | null }>;
+  evidence: { claims: Array<{ claim: string; source_ids: string[]; confidence: string; notes?: string | null }>; primary_source_ids: string[]; secondary_source_ids: string[] };
+  uncertainty: { confidence: string; disputes: string[]; unknowns: string[] };
+  graph: { preceding_event_ids: string[]; following_event_ids: string[]; related_place_ids: string[]; related_person_ids: string[]; related_polity_ids: string[] };
+  editorial: { status: string; missing_fields: string[]; last_reviewed: string | null; editor_notes: string | null };
+};
+
 export type HistorixObservation = {
   entity_id: string;
   metric: string;
@@ -32,6 +48,22 @@ export type HistorixObservation = {
 const BASE="/data/history-library";
 let graphPromise: Promise<HistorixGraph>|undefined;
 const observationCache = new Map<string, Promise<HistorixObservation[]>>();
+
+let eventEnrichmentPromise: Promise<HistorixEventEnrichment[]>|undefined;
+
+export function loadHistorixEventEnrichments(): Promise<HistorixEventEnrichment[]> {
+  eventEnrichmentPromise ??= fetch("/data/history-library/enrichment/events.json").then(async r => {
+    if(!r.ok) throw new Error("HISTORIX 1.3 event enrichments unavailable ("+r.status+")");
+    const payload=await r.json() as { records: HistorixEventEnrichment[] };
+    return payload.records;
+  });
+  return eventEnrichmentPromise;
+}
+
+export async function getHistorixEventEnrichment(id:string) {
+  const rows=await loadHistorixEventEnrichments();
+  return rows.find(row=>row.id===id);
+}
 
 export function loadHistorixGraph(): Promise<HistorixGraph> {
   graphPromise ??= fetch(`${BASE}/graph/curated-records.json`).then(async r => {
