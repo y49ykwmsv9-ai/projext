@@ -113,7 +113,7 @@ function drawLowPoly(vp){
   data[k]=u.x;data[k+1]=terrainY(u.x,u.z);data[k+2]=u.z;
   data[k+3]=s[0];data[k+4]=s[1];data[k+5]=s[2];
   data[k+6]=c[0];data[k+7]=c[1];data[k+8]=c[2];
-  data[k+9]=u.angle;data[k+10]=u.anim;data[k+11]=u.state==="charge"?1:0;n++;
+  data[k+9]=Number.isFinite(u.angle)?u.angle:0;data[k+10]=simTime*7+u.phase;data[k+11]=u.state==="charge"?1:0;n++;
  }
  if(!n)return;
  gl.useProgram(modelProg);
@@ -159,7 +159,7 @@ if(f==="cavalry")return[((col%2)*2-1)*(Math.floor(col/2)+.5)*a.spacing,(row-(Mat
 if(f==="battery")return[(col-mid)*a.spacing*1.7,(row-(Math.ceil(n/cols)-1)/2)*a.spacing*1.3];
 return[(col-mid)*a.spacing,(row-(Math.ceil(n/cols)-1)/2)*a.spacing]}
 function addFormationUI(){armyCards.querySelectorAll(".army-card").forEach((card,i)=>{if(card.querySelector(".formation"))return;const s=document.createElement("select");s.className="formation";["line","column","wedge","square","cavalry","battery"].forEach(x=>{const o=document.createElement("option");o.textContent=x;s.appendChild(o)});s.value=armies[i].formation||"line";s.onchange=e=>armies[i].formation=e.target.value;card.querySelector(".mini").appendChild(s)})}
-function adaptiveQuality(now){fpsFrames.push(now);while(fpsFrames[0]<now-1000)fpsFrames.shift();if(qualityMode==="auto"&&fpsFrames.length<24&&units.length>2500)qualityMode="low";if(qualityMode==="auto"&&fpsFrames.length>48&&units.length<1800)qualityMode="high";$("qualityBadge").textContent="QUALITY "+qualityMode.toUpperCase()+" · "+fpsFrames.length+" FPS"}
+function adaptiveQuality(now){fpsFrames.push(now);while(fpsFrames[0]<now-1000)fpsFrames.shift();if(qualityMode==="auto"&&fpsFrames.length<24&&units.length>2500)qualityMode="low";if(qualityMode==="auto"&&fpsFrames.length>48&&units.length<1800)qualityMode="high";const q=$("qualityBadge");if(q)q.textContent="QUALITY "+qualityMode.toUpperCase()+" · "+fpsFrames.length+" FPS"}
 function toast(s){const t=$("battleToast");t.textContent=s;t.classList.add("show");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("show"),1600)}
 function recordReplay(){if(paused)return;replay.push({t:simTime,units:units.map(u=>({id:u.id,x:u.x,z:u.z,hp:u.hp,side:u.side,state:u.state||"idle",angle:u.angle})),cam:{...cam}});if(replay.length>180)replay.shift();replayCursor=replay.length-1}
 function applyReplay(s){if(!s)return;simTime=s.t;const m=new Map(s.units.map(v=>[v.id,v]));for(const u of units){const v=m.get(u.id);if(v)Object.assign(u,v)};cam={...cam,...s.cam};updateInfo()}
