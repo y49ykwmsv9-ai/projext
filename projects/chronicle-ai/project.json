@@ -1,0 +1,21 @@
+{
+  "id": "chronicle-ai",
+  "name": "Chronicle AI",
+  "version": "0.1.0",
+  "type": "standalone-static",
+  "entry": "index.html",
+  "status": "prototype",
+  "lineage": ["Worldforge", "Chronicle"],
+  "features": [
+    "natural-language-orders",
+    "event-resolver",
+    "autonomous-reactions",
+    "persistent-local-saves",
+    "save-import-export"
+  ],
+  "created": "2026-09-21",
+  "deployment": {
+    "independent": true,
+    "rootDirectory": "projects/chronicle-ai"
+  }
+}
