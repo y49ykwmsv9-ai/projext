@@ -28,7 +28,8 @@ for name,url in [("tariq.jpg",PORTRAIT_TARIQ),("roderic.jpg",PORTRAIT_RODERIC)]:
     try: fetch(url,f"{OUT}/{name}")
     except Exception: pass
 
-src=Image.open(f"{OUT}/map.png").convert("RGB")\nbase=ImageOps.fit(src,(W,H),method=Image.Resampling.LANCZOS,centering=(0.5,0.48))
+src=Image.open(f"{OUT}/map.png").convert("RGB")
+base=ImageOps.fit(src,(W,H),method=Image.Resampling.LANCZOS,centering=(0.5,0.48))
 
 # Atlas coordinates: these are the exact stored lon/lat values from reconquista-atlas.json.
 places={
