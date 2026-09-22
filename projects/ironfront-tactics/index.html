@@ -105,26 +105,27 @@ const ma=gl.getAttribLocation(modelProg,"a"),mi=gl.getAttribLocation(modelProg,"
 function modelSpec(type){if(type.includes("Tank"))return[1.5,.65,2.3];if(type==="Heavy Tank")return[1.8,.8,2.8];if(type==="Cavalry")return[.75,1.35,1.6];if(type.includes("Artillery")||type.includes("Gun")||type.includes("Howitzer")||type==="Catapult"||type==="Ballista")return[1.2,.8,1.7];if(type==="Armored Car")return[1.25,.75,1.9];return[.55,1.25,.55]}
 function teamColor(side){return side===0?[.18,.45,.95]:side===1?[.9,.22,.2]:[.8,.65,.18]}
 function drawLowPoly(vp){
- const max=qualityMode==="low"?250:qualityMode==="high"?3500:1600,arr=new Float32Array(Math.min(units.length,max)*8);let n=0;
- for(const u of units){if(n>=max)break;const dx=u.x-cam.targetX,dz=u.z-cam.targetZ;if(dx*dx+dz*dz>cam.dist*cam.dist*1.3)continue;const s=modelSpec(u.type),col=teamColor(u.side),k=n*8;arr[k]=u.x;arr[k+1]=terrainY(u.x,u.z);arr[k+2]=u.z;arr[k+3]=s[0];arr[k+4]=s[1];arr[k+5]=s[2];arr[k+6]=u.angle;arr[k+7]=u.anim;n++}
- if(!n)return;gl.useProgram(modelProg);gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.enableVertexAttribArray(ma);gl.vertexAttribPointer(ma,3,gl.FLOAT,false,0,0);
- gl.bindBuffer(gl.ARRAY_BUFFER,instanceBuf);gl.bufferData(gl.ARRAY_BUFFER,arr.subarray(0,n*8),gl.DYNAMIC_DRAW);
- const stride=32;gl.enableVertexAttribArray(mi);gl.vertexAttribPointer(mi,3,gl.FLOAT,false,stride,0);gl.vertexAttribDivisor(mi,1);
- gl.enableVertexAttribArray(ms);gl.vertexAttribPointer(ms,3,gl.FLOAT,false,stride,12);gl.vertexAttribDivisor(ms,1);
- gl.enableVertexAttribArray(mc);gl.vertexAttribPointer(mc,3,gl.FLOAT,false,stride,24);gl.vertexAttribDivisor(mc,1);
- gl.enableVertexAttribArray(mg);gl.vertexAttribPointer(mg,1,gl.FLOAT,false,stride,36);gl.vertexAttribDivisor(mg,1);
- gl.enableVertexAttribArray(mt);gl.vertexAttribPointer(mt,1,gl.FLOAT,false,stride,40);gl.vertexAttribDivisor(mt,1);
- // color is packed separately for portability on mobile GPUs
- const colors=new Float32Array(n*3);for(let i=0;i<n;i++){const col=teamColor(units[i].side);colors[i*3]=col[0];colors[i*3+1]=col[1];colors[i*3+2]=col[2]}
- gl.bufferData(gl.ARRAY_BUFFER,arr.subarray(0,n*8),gl.DYNAMIC_DRAW);
- // use a second compact instance buffer for colors/angles
- const aux=gl.createBuffer();const auxArr=new Float32Array(n*5);for(let i=0;i<n;i++){const u=units[i],col=teamColor(u.side);auxArr.set([col[0],col[1],col[2],u.angle,u.anim],i*5)}
- gl.bindBuffer(gl.ARRAY_BUFFER,aux);gl.bufferData(gl.ARRAY_BUFFER,auxArr,gl.DYNAMIC_DRAW);
- gl.vertexAttribPointer(mc,3,gl.FLOAT,false,20,0);gl.vertexAttribDivisor(mc,1);gl.vertexAttribPointer(mg,1,gl.FLOAT,false,20,12);gl.vertexAttribDivisor(mg,1);gl.vertexAttribPointer(mt,1,gl.FLOAT,false,20,16);gl.vertexAttribDivisor(mt,1);
- gl.uniformMatrix4fv(mvp,false,vp);gl.drawArraysInstanced(gl.TRIANGLES,0,36,n);gl.deleteBuffer(aux);
-}
-
-function drawFortifications(vp){/* simple 3D boxes using canvas sprite layer omitted; units remain the focal mass */}
+ const max=qualityMode==="low"?180:qualityMode==="high"?2200:900;
+ const data=new Float32Array(Math.min(units.length,max)*12);let n=0;
+ for(const u of units){
+  if(n>=max)break;
+  const s=modelSpec(u.type),c=teamColor(u.side),k=n*12;
+  data[k]=u.x;data[k+1]=terrainY(u.x,u.z);data[k+2]=u.z;
+  data[k+3]=s[0];data[k+4]=s[1];data[k+5]=s[2];
+  data[k+6]=c[0];data[k+7]=c[1];data[k+8]=c[2];
+  data[k+9]=u.angle;data[k+10]=u.anim;data[k+11]=u.state==="charge"?1:0;n++;
+ }
+ if(!n)return;
+ gl.useProgram(modelProg);
+ gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.enableVertexAttribArray(ma);gl.vertexAttribPointer(ma,3,gl.FLOAT,false,0,0);
+ gl.bindBuffer(gl.ARRAY_BUFFER,instanceBuf);gl.bufferData(gl.ARRAY_BUFFER,data.subarray(0,n*12),gl.DYNAMIC_DRAW);
+ const stride=48;
+ for(const [loc,size,off] of [[mi,3,0],[ms,3,12],[mc,3,24],[mg,1,36],[mt,1,40]]){
+   gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,size,gl.FLOAT,false,stride,off);gl.vertexAttribDivisor(loc,1);
+ }
+ gl.uniformMatrix4fv(mvp,false,vp);
+ gl.drawArraysInstanced(gl.TRIANGLES,0,36,n);
+}function drawFortifications(vp){/* simple 3D boxes using canvas sprite layer omitted; units remain the focal mass */}
 function render(){const w=canvas.width,h=canvas.height;gl.viewport(0,0,w,h);gl.enable(gl.DEPTH_TEST);gl.clearColor(.10,.13,.15,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);const c=camera(),pr=perspective(1.05,w/h,.1,500),vp=matMul(pr,c.view);drawTerrain(vp);drawUnits(vp,c);drawLowPoly(vp)}
 function deployArmies(){clearBattle();const W=150,Z=150;for(const a of armies){const n=Math.min(30000,Math.max(1,a.count)),ca=Math.cos(a.angle),sa=Math.sin(a.angle);for(let i=0;i<n;i++){const [lx,lz]=formationOffset(a,i,n),x=(a.x-.5)*W+lx*ca-lz*sa,z=(a.z-.5)*Z+lx*sa+lz*ca;spawn(a.type,x,z,a.team,{angle:a.angle,order:a.order})}}rebuildGrid();updateInfo();toast("Deployed "+units.length+" units")}
 function renderArmies(){armyCards.innerHTML="";armies.forEach((a,i)=>{const d=document.createElement("div");d.className="army-card";d.innerHTML=`<strong>Army ${i+1} · <input value="${a.name}"></strong><div class="mini"><select><option>Blue</option><option>Red</option><option>Green</option><option>Gold</option></select><select class="unit"></select><input type="number" min="1" max="30000" value="${a.count}"><select class="order"><option>Attack</option><option>Hold</option><option>Guard</option></select><input class="spacing" type="number" min="2" max="40" value="${a.spacing}"><input class="rank" type="number" min=".2" max="6" step=".1" value="${a.rank}"></div>`;const ins=d.querySelectorAll("input"),sels=d.querySelectorAll("select"),us=sels[1];unitTypes.forEach(u=>{const o=document.createElement("option");o.textContent=u[0];us.appendChild(o)});us.value=a.type;sels[0].selectedIndex=a.team;ins[0].oninput=e=>a.name=e.target.value;ins[1].oninput=e=>a.count=Math.max(1,Math.min(30000,+e.target.value||1));ins[2].oninput=e=>a.spacing=Math.max(2,Math.min(40,+e.target.value||12));ins[3].oninput=e=>a.rank=Math.max(.2,Math.min(6,+e.target.value||1));sels[0].onchange=e=>a.team=e.target.selectedIndex;sels[1].onchange=e=>a.type=e.target.value;sels[2].onchange=e=>a.order=e.target.value;armyCards.appendChild(d)})}
