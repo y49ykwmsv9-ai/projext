@@ -1,38 +1,85 @@
-# Worldforge
+# Worldforge and Game Projects
 
-Worldforge is a browser-based grand-strategy world simulator built as a persistent TypeScript/Next.js application.
+This repository is a multi-project workspace for browser grand-strategy and AI-driven strategy games.
 
-## Current engine
+The original **Worldforge** application remains at the repository root. New standalone games live under `projects/<project-id>/` so each game can evolve, deploy, and be preserved independently.
+
+## Repository organization
+
+```text
+/
+├── app/                 # Worldforge Next.js application shell
+├── components/          # Worldforge UI components
+├── engine/              # reusable simulation systems
+├── data/                # historical/geographic data
+├── public/              # Worldforge static assets
+├── projects/            # independent game projects
+│   ├── README.md
+│   └── chronicle-ai/
+│       ├── README.md
+│       ├── project.json
+│       └── index.html
+├── docs/                # architecture, research, and project lineage
+└── archive/             # preserved retired snapshots/releases
+```
+
+## Worldforge
+
+Worldforge is the primary browser-based grand-strategy world simulator.
+
+### Current engine
 
 - Deterministic world clock and simulation ticks
-- Four-tier geography: **country → region → county → city**
+- Country → region → county → city geography
 - Data-driven parent/child geography and dynamic ratios
 - Separate legal ownership and current control
 - Population, density, manpower and demographic growth
 - GDP, taxation, treasury, debt, inflation and industry
 - Military readiness, mobilization, supply and war support
-- Diplomatic relations, treaties, trade access and sanctions framework
-- Technology, laws and research state
+- Diplomatic relations, treaties, trade access and sanctions
+- Technology, laws and research
 - Army-unit state model
-- Event state model for alternate-history systems
+- Alternate-history event model
 - Natural-language command console
 - Browser save/load
-- World country map and bundled U.S. county map
-- Historical 1936, historical 1939 and sandbox scenario foundations
+- Bundled world and U.S. county map data
+- Historical 1936, historical 1939, and sandbox foundations
 
-## Geography
+### Geography
 
 The intended hierarchy is:
 
-Country → Region → County → City
+**Country → Region → County → City**
 
-The engine does not assume a fixed number of children. Child counts, population shares, area shares, density and urbanization are calculated from the loaded map hierarchy.
+Builds bundle Natural Earth Admin-1 provinces/states and populated-place data into `public/data/`. The browser uses local static assets rather than requesting an external GeoJSON service at runtime.
 
-Builds now bundle Natural Earth Admin-1 provinces/states and populated-place city data into `public/data/`. The browser reads only these local static assets; there is no runtime request to an external GeoJSON service. Countries without a first-order polygon receive a local fallback region so every mapped country remains interactable.
+The `lib/historical-polities.ts` registry keeps historically attested and unrecognized polities separate from active simulation participation.
 
-The separate `lib/historical-polities.ts` registry stores historical and unrecognized polities independently of simulation participation, so encyclopedia coverage can grow without inflating the active world-state. The registry is intentionally separate from playable nations and can represent extinct states, empires, breakaway governments, colonial administrations, and other historically attested polities.
+## Standalone games
+
+### Chronicle AI
+
+Located at `projects/chronicle-ai/`.
+
+Chronicle AI is a standalone text-driven strategy prototype with natural-language orders, deterministic state mutation, autonomous foreign reactions, event history, and persistent local campaign saves.
+
+It is intentionally separate from Worldforge. It can be deployed from its own directory without changing the root application.
+
+## Project rules
+
+- Every game gets a unique project ID.
+- Never overwrite an existing game's directory or deployment boundary.
+- Keep game-specific source and assets inside that project's directory.
+- Reuse shared systems/data deliberately and document the reuse.
+- Add every project to `docs/PROJECTS.md`.
+- Record ancestry and cross-project reuse in `docs/PROJECT-LINEAGE.md`.
+- Preserve retired versions with Git history, tags/releases, or `archive/` snapshots.
+
+This gives future games a stable way to reference previous work without turning the repository into one giant application where changing one game breaks another.
 
 ## Development
+
+For Worldforge:
 
 ```bash
 npm install
@@ -40,12 +87,12 @@ npm run build
 npm run start
 ```
 
-The GitHub Actions workflow builds the Next.js application on pushes and pull requests to main.
+For a standalone static game, open its `index.html` or serve that project directory with a static HTTP server.
 
-## Architecture
+The GitHub Actions workflow builds the root Next.js application on pushes and pull requests to `main`.
 
-- engine/ — deterministic simulation and commands
-- data/ — scenarios and geographic-data specifications
-- components/ — interactive game interface
-- app/ — Next.js application shell
-- docs/ — architecture and data-pipeline documentation
+## Documentation
+
+- `docs/PROJECTS.md` — project registry and workspace rules
+- `docs/PROJECT-LINEAGE.md` — ancestry and reusable concepts
+- `projects/README.md` — standard structure for new games
