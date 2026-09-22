@@ -1,0 +1,1658 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "cliopatria-plus-reconquista",
+  "title": "Cliopatria+ Reconquista Historical Atlas",
+  "purpose": "Project-local extension layer for documentary/game rendering. Cliopatria remains the authoritative polity-geography layer; this atlas adds sourced cities, routes, battles, sieges, political events, people, and scene relationships that are outside Cliopatria's core polity geometry.",
+  "temporalScope": {
+    "fromYear": 711,
+    "toYear": 1492,
+    "region": "Iberian Peninsula and directly connected North African/Mediterranean routes"
+  },
+  "authority": {
+    "polityGeometry": "Cliopatria",
+    "eventAndPlaceIdentifiers": "Project-local stable IDs linked to Wikidata/Wikipedia or scholarly sources",
+    "routeGeometry": "Explicitly modeled documentary reconstruction unless a source supplies a route geometry",
+    "uncertaintyRule": "Exact medieval locations and routes are marked approximate when the evidence is disputed or reconstructed"
+  },
+  "sources": [
+    {
+      "id": "cliopatria-v0.2.0",
+      "type": "dataset",
+      "title": "Cliopatria",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "note": "Historical polity polygons and time slices"
+    },
+    {
+      "id": "wikidata",
+      "type": "knowledge-base",
+      "title": "Wikidata",
+      "url": "https://www.wikidata.org/",
+      "note": "Stable identifiers and structured place/event metadata"
+    },
+    {
+      "id": "britannica-reconquista",
+      "type": "reference",
+      "title": "Encyclopaedia Britannica: Reconquista",
+      "url": "https://www.britannica.com/event/Reconquista"
+    },
+    {
+      "id": "britannica-al-andalus",
+      "type": "reference",
+      "title": "Encyclopaedia Britannica: Al-Andalus",
+      "url": "https://www.britannica.com/place/Al-Andalus"
+    },
+    {
+      "id": "cambridge-ncmh",
+      "type": "scholarship",
+      "title": "The New Cambridge Medieval History",
+      "url": "https://www.cambridge.org/core/books/new-cambridge-medieval-history/"
+    }
+  ],
+  "polities": [
+    {
+      "id": "polity.visigothic",
+      "name": "Visigothic Kingdom",
+      "cliopatria": {
+        "candidates": [
+          "Visigothic Kingdom"
+        ],
+        "required": true
+      }
+    },
+    {
+      "id": "polity.umayyad",
+      "name": "Umayyad Caliphate",
+      "cliopatria": {
+        "candidates": [
+          "Umayyad Caliphate"
+        ],
+        "required": true
+      }
+    },
+    {
+      "id": "polity.asturias",
+      "name": "Kingdom of Asturias",
+      "cliopatria": {
+        "candidates": [
+          "Kingdom of Asturias",
+          "Asturias"
+        ],
+        "required": true
+      }
+    },
+    {
+      "id": "polity.cordoba-emirate",
+      "name": "Emirate of Córdoba",
+      "cliopatria": {
+        "candidates": [
+          "Emirate of Córdoba",
+          "Cordoba Emirate"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.cordoba-caliphate",
+      "name": "Caliphate of Córdoba",
+      "cliopatria": {
+        "candidates": [
+          "Cordoba Caliphate",
+          "Caliphate of Córdoba"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.taifas",
+      "name": "Taifas of Iberia",
+      "cliopatria": {
+        "candidates": [
+          "Taifas of Iberia",
+          "Taifas"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.almoravid",
+      "name": "Almoravid dynasty",
+      "cliopatria": {
+        "candidates": [
+          "Almoravid dynasty",
+          "Almoravid Empire"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.almohad",
+      "name": "Almohad Caliphate",
+      "cliopatria": {
+        "candidates": [
+          "Almohad Caliphate"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.castile",
+      "name": "Kingdom of Castile",
+      "cliopatria": {
+        "candidates": [
+          "Kingdom of Castile",
+          "Castile"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.aragon",
+      "name": "Crown of Aragon",
+      "cliopatria": {
+        "candidates": [
+          "Crown of Aragon",
+          "Kingdom of Aragon",
+          "Aragon"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.portugal",
+      "name": "Kingdom of Portugal",
+      "cliopatria": {
+        "candidates": [
+          "Kingdom of Portugal",
+          "Portugal"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.granada",
+      "name": "Emirate of Granada",
+      "cliopatria": {
+        "candidates": [
+          "Emirate of Granada",
+          "Nasrid Emirate",
+          "Granada"
+        ],
+        "required": false
+      }
+    },
+    {
+      "id": "polity.navarre",
+      "name": "Kingdom of Navarre",
+      "cliopatria": {
+        "candidates": [
+          "Kingdom of Navarre",
+          "Navarre"
+        ],
+        "required": false
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "place.gibraltar",
+      "name": "Gibraltar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.35,
+          36.14
+        ]
+      },
+      "role": "strait crossing and landing point",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.guadalete",
+      "name": "Guadalete battlefield",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.22,
+          36.58
+        ]
+      },
+      "role": "battle site; exact location debated",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.cordoba",
+      "name": "Córdoba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.78,
+          37.89
+        ]
+      },
+      "role": "major political capital",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.toledo",
+      "name": "Toledo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.03,
+          39.86
+        ]
+      },
+      "role": "former Visigothic and taifa capital",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.covadonga",
+      "name": "Covadonga",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.05,
+          43.31
+        ]
+      },
+      "role": "traditional early Asturian resistance site",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "place.leon",
+      "name": "León",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.57,
+          42.6
+        ]
+      },
+      "role": "Christian royal center",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "place.pamplona",
+      "name": "Pamplona",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.64,
+          42.82
+        ]
+      },
+      "role": "Navarrese center",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.santiago",
+      "name": "Santiago de Compostela",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.54,
+          42.88
+        ]
+      },
+      "role": "pilgrimage center targeted by Almanzor",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.madinat-al-zahra",
+      "name": "Madinat al-Zahra",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.87,
+          37.89
+        ]
+      },
+      "role": "caliphal palace-city",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.seville",
+      "name": "Seville",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.99,
+          37.39
+        ]
+      },
+      "role": "major taifa and Almohad city",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.zaragoza",
+      "name": "Zaragoza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.88,
+          41.65
+        ]
+      },
+      "role": "major taifa and frontier city",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.badajoz",
+      "name": "Badajoz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.97,
+          38.88
+        ]
+      },
+      "role": "major taifa center",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.valencia",
+      "name": "Valencia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.38,
+          39.47
+        ]
+      },
+      "role": "eastern frontier and Mediterranean city",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.lisbon",
+      "name": "Lisbon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.14,
+          38.72
+        ]
+      },
+      "role": "Portuguese conquest and siege, 1147",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.sagrajas",
+      "name": "Sagrajas",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.97,
+          38.94
+        ]
+      },
+      "role": "1086 battlefield",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.alarcos",
+      "name": "Alarcos",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4,
+          38.95
+        ]
+      },
+      "role": "1195 battlefield",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.santa-elena",
+      "name": "Santa Elena",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.54,
+          38.34
+        ]
+      },
+      "role": "Las Navas de Tolosa battlefield area",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.mallorca",
+      "name": "Mallorca",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.99,
+          39.62
+        ]
+      },
+      "role": "Aragonese conquest target",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "place.jaen",
+      "name": "Jaén",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.79,
+          37.77
+        ]
+      },
+      "role": "Castilian campaign base and frontier city",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.malaga",
+      "name": "Málaga",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.42,
+          36.72
+        ]
+      },
+      "role": "Granada War siege and port",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.baza",
+      "name": "Baza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.77,
+          37.49
+        ]
+      },
+      "role": "1489 siege",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.granada",
+      "name": "Granada",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6,
+          37.18
+        ]
+      },
+      "role": "Nasrid capital",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.alhambra",
+      "name": "Alhambra",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59,
+          37.18
+        ]
+      },
+      "role": "Nasrid palace-fortress complex",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.santa-fe",
+      "name": "Santa Fe",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.72,
+          37.19
+        ]
+      },
+      "role": "Castilian siege camp founded 1491",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.almeria",
+      "name": "Almería",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.46,
+          36.84
+        ]
+      },
+      "role": "eastern Granada port",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.guadix",
+      "name": "Guadix",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.07,
+          37.3
+        ]
+      },
+      "role": "eastern Granada stronghold",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.salobrena",
+      "name": "Salobreña",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59,
+          36.74
+        ]
+      },
+      "role": "Granada coastal stronghold",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.loja",
+      "name": "Loja",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.15,
+          37.17
+        ]
+      },
+      "role": "Granada War stronghold",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.vera",
+      "name": "Vera",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.87,
+          37.24
+        ]
+      },
+      "role": "Granada War eastern target",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.velez-blanco",
+      "name": "Vélez-Blanco",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1,
+          37.69
+        ]
+      },
+      "role": "Granada War eastern target",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.velez-rubio",
+      "name": "Vélez-Rubio",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.08,
+          37.65
+        ]
+      },
+      "role": "Granada War eastern target",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.almunecar",
+      "name": "Almuñécar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.69,
+          36.73
+        ]
+      },
+      "role": "Granada coastal city",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    {
+      "id": "place.murcia",
+      "name": "Murcia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.13,
+          37.99
+        ]
+      },
+      "role": "Granada War campaign base",
+      "sources": [
+        "wikidata"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event.guadalete-711",
+      "type": "battle",
+      "name": "Battle of Guadalete",
+      "year": 711,
+      "placeId": "place.guadalete",
+      "participants": [
+        "polity.visigothic",
+        "polity.umayyad"
+      ],
+      "wikidata": "Q504172",
+      "certainty": "high",
+      "sources": [
+        "wikidata",
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.covadonga",
+      "type": "battle",
+      "name": "Battle of Covadonga",
+      "year": 722,
+      "placeId": "place.covadonga",
+      "participants": [
+        "polity.asturias"
+      ],
+      "certainty": "contested-date-and-scale",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.cordoba-756",
+      "type": "political-event",
+      "name": "Abd al-Rahman I establishes the independent Emirate of Córdoba",
+      "year": 756,
+      "placeId": "place.cordoba",
+      "participants": [
+        "polity.cordoba-emirate"
+      ],
+      "sources": [
+        "britannica-al-andalus"
+      ]
+    },
+    {
+      "id": "event.santiago-997",
+      "type": "raid",
+      "name": "Almanzor's raid on Santiago de Compostela",
+      "year": 997,
+      "placeId": "place.santiago",
+      "participants": [
+        "polity.cordoba-caliphate"
+      ],
+      "sources": [
+        "britannica-reconquista",
+        "cambridge-ncmh"
+      ]
+    },
+    {
+      "id": "event.cordoba-civil-war",
+      "type": "civil-war",
+      "name": "Córdoba civil war",
+      "year": 1009,
+      "placeId": "place.cordoba",
+      "participants": [
+        "polity.cordoba-caliphate"
+      ],
+      "sources": [
+        "britannica-al-andalus",
+        "cambridge-ncmh"
+      ]
+    },
+    {
+      "id": "event.toledo-1085",
+      "type": "siege",
+      "name": "Siege and conquest of Toledo",
+      "year": 1085,
+      "placeId": "place.toledo",
+      "participants": [
+        "polity.castile",
+        "polity.taifas"
+      ],
+      "wikidata": "Q18008716",
+      "sources": [
+        "wikidata",
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.sagrajas-1086",
+      "type": "battle",
+      "name": "Battle of Sagrajas",
+      "year": 1086,
+      "placeId": "place.sagrajas",
+      "participants": [
+        "polity.castile",
+        "polity.almoravid"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.valencia-1094",
+      "type": "siege",
+      "name": "El Cid takes Valencia",
+      "year": 1094,
+      "placeId": "place.valencia",
+      "sources": [
+        "britannica-reconquista",
+        "cambridge-ncmh"
+      ]
+    },
+    {
+      "id": "event.lisbon-1147",
+      "type": "siege",
+      "name": "Siege and conquest of Lisbon",
+      "year": 1147,
+      "placeId": "place.lisbon",
+      "participants": [
+        "polity.portugal"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.alarcos-1195",
+      "type": "battle",
+      "name": "Battle of Alarcos",
+      "year": 1195,
+      "placeId": "place.alarcos",
+      "participants": [
+        "polity.castile",
+        "polity.almohad"
+      ],
+      "wikidata": "Q1481920",
+      "sources": [
+        "wikidata",
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.las-navas-1212",
+      "type": "battle",
+      "name": "Battle of Las Navas de Tolosa",
+      "year": 1212,
+      "placeId": "place.santa-elena",
+      "participants": [
+        "polity.castile",
+        "polity.aragon",
+        "polity.navarre",
+        "polity.almohad"
+      ],
+      "wikidata": "Q219697",
+      "sources": [
+        "wikidata",
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.cordoba-1236",
+      "type": "siege",
+      "name": "Conquest of Córdoba",
+      "year": 1236,
+      "placeId": "place.cordoba",
+      "participants": [
+        "polity.castile"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.valencia-1238",
+      "type": "siege",
+      "name": "Conquest of Valencia",
+      "year": 1238,
+      "placeId": "place.valencia",
+      "participants": [
+        "polity.aragon"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.seville-1248",
+      "type": "siege",
+      "name": "Siege and conquest of Seville",
+      "year": 1248,
+      "placeId": "place.seville",
+      "participants": [
+        "polity.castile"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.malaga-1487",
+      "type": "siege",
+      "name": "Siege and conquest of Málaga",
+      "year": 1487,
+      "placeId": "place.malaga",
+      "participants": [
+        "polity.castile",
+        "polity.granada"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.baza-1489",
+      "type": "siege",
+      "name": "Siege and surrender of Baza",
+      "year": 1489,
+      "placeId": "place.baza",
+      "participants": [
+        "polity.castile",
+        "polity.granada"
+      ],
+      "sources": [
+        "britannica-reconquista",
+        "cambridge-ncmh"
+      ]
+    },
+    {
+      "id": "event.granada-1491-92",
+      "type": "siege",
+      "name": "Siege and surrender of Granada",
+      "year": 1491,
+      "placeId": "place.granada",
+      "participants": [
+        "polity.castile",
+        "polity.granada"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "event.granada-surrender-1492",
+      "type": "political-event",
+      "name": "Granada surrenders to Ferdinand and Isabella",
+      "year": 1492,
+      "placeId": "place.granada",
+      "participants": [
+        "polity.castile",
+        "polity.granada"
+      ],
+      "sources": [
+        "britannica-reconquista"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "route.tariq-711",
+      "name": "Tariq's invasion route",
+      "year": 711,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.gibraltar"
+        ],
+        [
+          "place.guadalete"
+        ],
+        [
+          "place.cordoba"
+        ],
+        [
+          "place.toledo"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.abd-al-rahman-756",
+      "name": "Abd al-Rahman I's arrival route to Córdoba",
+      "year": 756,
+      "kind": "political-journey",
+      "points": [
+        [
+          "place.gibraltar"
+        ],
+        [
+          "place.cordoba"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.almanzor-santiago",
+      "name": "Almanzor's campaign route to Santiago",
+      "year": 997,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.cordoba"
+        ],
+        [
+          "place.santiago"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.almoravid-sagrajas",
+      "name": "Almoravid intervention route",
+      "year": 1086,
+      "kind": "reinforcement",
+      "points": [
+        [
+          "place.lisbon"
+        ],
+        [
+          "place.sagrajas"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.el-cid-valencia",
+      "name": "El Cid's eastern campaign route",
+      "year": 1094,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.toledo"
+        ],
+        [
+          "place.valencia"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.las-navas",
+      "name": "Coalition march to Las Navas de Tolosa",
+      "year": 1212,
+      "kind": "coalition-march",
+      "points": [
+        [
+          "place.toledo"
+        ],
+        [
+          "place.santa-elena"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.ferdinand-andalusia",
+      "name": "Ferdinand III's Guadalquivir campaign",
+      "year": 1236,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.toledo"
+        ],
+        [
+          "place.cordoba"
+        ],
+        [
+          "place.seville"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.james-valencia",
+      "name": "James I's Aragonese campaign toward Valencia",
+      "year": 1238,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.zaragoza"
+        ],
+        [
+          "place.valencia"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.granada-war-west",
+      "name": "Western Granada War axis",
+      "year": 1482,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.jaen"
+        ],
+        [
+          "place.loja"
+        ],
+        [
+          "place.malaga"
+        ],
+        [
+          "place.granada"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.granada-war-east",
+      "name": "Eastern Granada War axis",
+      "year": 1489,
+      "kind": "campaign",
+      "points": [
+        [
+          "place.murcia"
+        ],
+        [
+          "place.vera"
+        ],
+        [
+          "place.velez-blanco"
+        ],
+        [
+          "place.baza"
+        ],
+        [
+          "place.guadix"
+        ],
+        [
+          "place.almeria"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.santa-fe-granada",
+      "name": "Santa Fe to Granada final approach",
+      "year": 1491,
+      "kind": "siege-logistics",
+      "points": [
+        [
+          "place.santa-fe"
+        ],
+        [
+          "place.granada"
+        ]
+      ],
+      "certainty": "reconstructed"
+    },
+    {
+      "id": "route.granada-atlantic",
+      "name": "Post-1492 Atlantic transition",
+      "year": 1492,
+      "kind": "maritime-context",
+      "points": [
+        [
+          "place.granada"
+        ],
+        [
+          "place.lisbon"
+        ]
+      ],
+      "certainty": "illustrative-context"
+    }
+  ],
+  "people": [
+    {
+      "id": "person.tariq",
+      "name": "Tariq ibn Ziyad",
+      "role": "commander",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.roderic",
+      "name": "Roderic",
+      "role": "Visigothic king",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.pelagius",
+      "name": "Pelagius",
+      "role": "Asturian resistance leader",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.abd-al-rahman-i",
+      "name": "Abd al-Rahman I",
+      "role": "emir",
+      "sources": [
+        "britannica-al-andalus"
+      ]
+    },
+    {
+      "id": "person.abd-al-rahman-iii",
+      "name": "Abd al-Rahman III",
+      "role": "caliph",
+      "sources": [
+        "britannica-al-andalus"
+      ]
+    },
+    {
+      "id": "person.almanzor",
+      "name": "Al-Mansur / Almanzor",
+      "role": "chamberlain and military commander",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.alfonso-vi",
+      "name": "Alfonso VI",
+      "role": "king of León and Castile",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.yusuf-ibn-tashfin",
+      "name": "Yusuf ibn Tashfin",
+      "role": "Almoravid ruler",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.el-cid",
+      "name": "Rodrigo Díaz de Vivar / El Cid",
+      "role": "military leader",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.alfonso-viii",
+      "name": "Alfonso VIII",
+      "role": "king of Castile",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.sancho-vii",
+      "name": "Sancho VII",
+      "role": "king of Navarre",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.ferdinand-iii",
+      "name": "Ferdinand III",
+      "role": "king of Castile and León",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.james-i",
+      "name": "James I of Aragon",
+      "role": "king of Aragon",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.muhammad-i",
+      "name": "Muhammad I of Granada",
+      "role": "founder of Nasrid dynasty",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.isabella",
+      "name": "Isabella I of Castile",
+      "role": "queen",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.ferdinand-ii",
+      "name": "Ferdinand II of Aragon",
+      "role": "king",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    },
+    {
+      "id": "person.boabdil",
+      "name": "Muhammad XII / Boabdil",
+      "role": "Nasrid ruler",
+      "sources": [
+        "britannica-reconquista"
+      ]
+    }
+  ],
+  "sceneAnchors": [
+    {
+      "sceneNumber": 1,
+      "entityIds": [
+        "person.tariq",
+        "place.gibraltar",
+        "route.tariq-711"
+      ]
+    },
+    {
+      "sceneNumber": 2,
+      "entityIds": [
+        "event.guadalete-711",
+        "place.guadalete",
+        "polity.visigothic",
+        "polity.umayyad"
+      ]
+    },
+    {
+      "sceneNumber": 3,
+      "entityIds": [
+        "person.pelagius",
+        "place.covadonga",
+        "polity.asturias"
+      ]
+    },
+    {
+      "sceneNumber": 4,
+      "entityIds": [
+        "polity.umayyad",
+        "polity.asturias",
+        "route.tariq-711",
+        "place.cordoba"
+      ]
+    },
+    {
+      "sceneNumber": 5,
+      "entityIds": [
+        "person.abd-al-rahman-i",
+        "place.cordoba",
+        "route.abd-al-rahman-756"
+      ]
+    },
+    {
+      "sceneNumber": 6,
+      "entityIds": [
+        "place.cordoba",
+        "place.madinat-al-zahra",
+        "polity.cordoba-emirate"
+      ]
+    },
+    {
+      "sceneNumber": 7,
+      "entityIds": [
+        "polity.cordoba-emirate",
+        "polity.asturias",
+        "place.leon",
+        "place.pamplona"
+      ]
+    },
+    {
+      "sceneNumber": 8,
+      "entityIds": [
+        "polity.cordoba-emirate",
+        "place.cordoba",
+        "place.leon",
+        "place.pamplona"
+      ]
+    },
+    {
+      "sceneNumber": 9,
+      "entityIds": [
+        "person.abd-al-rahman-iii",
+        "polity.cordoba-caliphate",
+        "place.cordoba"
+      ]
+    },
+    {
+      "sceneNumber": 10,
+      "entityIds": [
+        "place.madinat-al-zahra",
+        "polity.cordoba-caliphate"
+      ]
+    },
+    {
+      "sceneNumber": 11,
+      "entityIds": [
+        "person.almanzor",
+        "place.santiago",
+        "route.almanzor-santiago",
+        "event.santiago-997"
+      ]
+    },
+    {
+      "sceneNumber": 12,
+      "entityIds": [
+        "event.cordoba-civil-war",
+        "place.cordoba",
+        "polity.cordoba-caliphate"
+      ]
+    },
+    {
+      "sceneNumber": 13,
+      "entityIds": [
+        "polity.taifas",
+        "place.toledo",
+        "place.zaragoza",
+        "place.seville",
+        "place.badajoz"
+      ]
+    },
+    {
+      "sceneNumber": 14,
+      "entityIds": [
+        "event.toledo-1085",
+        "place.toledo",
+        "person.alfonso-vi",
+        "polity.castile"
+      ]
+    },
+    {
+      "sceneNumber": 15,
+      "entityIds": [
+        "event.sagrajas-1086",
+        "place.sagrajas",
+        "person.yusuf-ibn-tashfin",
+        "polity.almoravid"
+      ]
+    },
+    {
+      "sceneNumber": 16,
+      "entityIds": [
+        "event.valencia-1094",
+        "place.valencia",
+        "person.el-cid",
+        "route.el-cid-valencia"
+      ]
+    },
+    {
+      "sceneNumber": 17,
+      "entityIds": [
+        "place.toledo",
+        "place.valencia",
+        "polity.taifas",
+        "polity.castile"
+      ]
+    },
+    {
+      "sceneNumber": 18,
+      "entityIds": [
+        "event.lisbon-1147",
+        "place.lisbon",
+        "polity.portugal"
+      ]
+    },
+    {
+      "sceneNumber": 19,
+      "entityIds": [
+        "event.alarcos-1195",
+        "place.alarcos",
+        "polity.castile",
+        "polity.almohad"
+      ]
+    },
+    {
+      "sceneNumber": 20,
+      "entityIds": [
+        "route.las-navas",
+        "place.santa-elena",
+        "polity.castile",
+        "polity.aragon",
+        "polity.navarre",
+        "polity.almohad"
+      ]
+    },
+    {
+      "sceneNumber": 21,
+      "entityIds": [
+        "event.las-navas-1212",
+        "place.santa-elena",
+        "person.alfonso-viii"
+      ]
+    },
+    {
+      "sceneNumber": 22,
+      "entityIds": [
+        "event.cordoba-1236",
+        "place.cordoba",
+        "polity.castile"
+      ]
+    },
+    {
+      "sceneNumber": 23,
+      "entityIds": [
+        "event.valencia-1238",
+        "place.valencia",
+        "person.james-i",
+        "polity.aragon"
+      ]
+    },
+    {
+      "sceneNumber": 24,
+      "entityIds": [
+        "event.seville-1248",
+        "place.seville",
+        "person.ferdinand-iii",
+        "polity.castile"
+      ]
+    },
+    {
+      "sceneNumber": 25,
+      "entityIds": [
+        "polity.castile",
+        "polity.aragon",
+        "polity.portugal",
+        "polity.granada",
+        "place.granada"
+      ]
+    },
+    {
+      "sceneNumber": 26,
+      "entityIds": [
+        "person.muhammad-i",
+        "polity.granada",
+        "place.granada"
+      ]
+    },
+    {
+      "sceneNumber": 27,
+      "entityIds": [
+        "place.alhambra",
+        "polity.granada",
+        "place.granada"
+      ]
+    },
+    {
+      "sceneNumber": 28,
+      "entityIds": [
+        "place.jaen",
+        "place.granada",
+        "polity.granada"
+      ]
+    },
+    {
+      "sceneNumber": 29,
+      "entityIds": [
+        "person.isabella",
+        "person.ferdinand-ii",
+        "polity.castile",
+        "polity.aragon"
+      ]
+    },
+    {
+      "sceneNumber": 30,
+      "entityIds": [
+        "event.malaga-1487",
+        "place.malaga",
+        "polity.castile",
+        "polity.granada"
+      ]
+    },
+    {
+      "sceneNumber": 31,
+      "entityIds": [
+        "event.baza-1489",
+        "place.baza",
+        "route.granada-war-east",
+        "polity.castile",
+        "polity.granada"
+      ]
+    },
+    {
+      "sceneNumber": 32,
+      "entityIds": [
+        "place.santa-fe",
+        "route.santa-fe-granada",
+        "place.granada"
+      ]
+    },
+    {
+      "sceneNumber": 33,
+      "entityIds": [
+        "route.santa-fe-granada",
+        "place.granada",
+        "person.boabdil",
+        "event.granada-1491-92"
+      ]
+    },
+    {
+      "sceneNumber": 34,
+      "entityIds": [
+        "event.granada-surrender-1492",
+        "place.granada",
+        "person.boabdil"
+      ]
+    },
+    {
+      "sceneNumber": 35,
+      "entityIds": [
+        "event.granada-surrender-1492",
+        "place.granada",
+        "place.alhambra",
+        "person.isabella",
+        "person.ferdinand-ii"
+      ]
+    },
+    {
+      "sceneNumber": 36,
+      "entityIds": [
+        "place.granada",
+        "place.lisbon",
+        "route.granada-atlantic"
+      ]
+    },
+    {
+      "sceneNumber": 37,
+      "entityIds": [
+        "route.tariq-711",
+        "route.almanzor-santiago",
+        "route.las-navas",
+        "route.granada-war-west",
+        "route.santa-fe-granada"
+      ]
+    },
+    {
+      "sceneNumber": 38,
+      "entityIds": [
+        "place.cordoba",
+        "place.toledo",
+        "place.seville",
+        "place.granada",
+        "place.valencia"
+      ]
+    },
+    {
+      "sceneNumber": 39,
+      "entityIds": [
+        "place.alhambra",
+        "place.cordoba",
+        "place.toledo",
+        "place.santiago",
+        "place.granada"
+      ]
+    },
+    {
+      "sceneNumber": 40,
+      "entityIds": [
+        "place.granada",
+        "event.granada-surrender-1492",
+        "polity.granada",
+        "polity.castile"
+      ]
+    }
+  ],
+  "notes": [
+    "This is not a modified copy of the upstream Cliopatria dataset. It is a project-local extension layer.",
+    "Polity records must resolve against the pinned Cliopatria release before a scene can use them as authoritative political geometry.",
+    "Cities, battles, sieges, people and routes are not falsely assigned Cliopatria polity IDs. They use stable project IDs and external source identifiers.",
+    "Routes are rendered as reconstructed paths unless a source provides a route geometry. The renderer must label reconstructed routes accordingly.",
+    "The engine should cache and reuse this atlas plus the prepared Cliopatria runtime shards instead of downloading and resolving the same data for every scene."
+  ]
+}
