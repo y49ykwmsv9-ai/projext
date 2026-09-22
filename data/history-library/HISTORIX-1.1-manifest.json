@@ -1,0 +1,14 @@
+{
+  "database": "HISTORIX",
+  "version": "1.1.0",
+  "graph_status": "curated-graph-layer",
+  "source_file": "lib/historical-records.ts",
+  "record_counts": {
+    "events": 100,
+    "places": 37,
+    "people": 59,
+    "relations": 143
+  },
+  "coverage_note": "Curated event/place/person records are normalized into first-class graph resources. Cliopatria remains the complete polity baseline.",
+  "runtime": "lazy-load graph resource by domain/id"
+}
