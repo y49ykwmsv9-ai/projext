@@ -2,6 +2,10 @@ name: Build 711 Cinematic Reconquista Scene
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/render-711-cinematic-scene.py"
+      - ".github/workflows/reconquista-711-cinematic.yml"
 
 jobs:
   build:
