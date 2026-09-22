@@ -1,4 +1,4 @@
-name: Deploy Ironfront Tactics to GitHub Pages
+name: Deploy Ironfront Tactics Only
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: ironfront-pages
   cancel-in-progress: true
 
 jobs:
@@ -24,23 +24,31 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout Ironfront source
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Assemble standalone site
+      - name: Remove any previous assembled site
         shell: bash
         run: |
           set -euo pipefail
           rm -rf site
           mkdir -p site
+
+      - name: Assemble Ironfront only
+        shell: bash
+        run: |
+          set -euo pipefail
           cp projects/ironfront-tactics/index.html site/index.html
           cp projects/ironfront-tactics/README.md site/README.md
           cp -R projects/ironfront-tactics/assets site/assets
           cp -R projects/ironfront-tactics/data site/data
           printf '%s\n' "Ironfront Tactics standalone deployment" > site/DEPLOYMENT.txt
           printf '%s\n' "${GITHUB_SHA}" > site/BUILD_COMMIT.txt
+          touch site/.nojekyll
 
-      - name: Verify standalone site
+      - name: Verify Ironfront-only artifact
         shell: bash
         run: |
           set -euo pipefail
@@ -50,20 +58,19 @@ jobs:
           test -s site/assets/sprites/effects-atlas.svg
           test -s site/data/units.json
           test -s site/data/scenarios.json
-          ! grep -qE 'Worldforge|Chronicle AI' site/index.html
-          echo "Ironfront standalone site verified."
+          ! grep -qiE 'Worldforge|Chronicle AI' site/index.html
+          ! find site -type f -print | grep -qiE 'worldforge|chronicle'
+          test "$(find site -maxdepth 1 -type f | wc -l)" -ge 4
+          echo "Ironfront-only artifact verified."
 
-      - name: Disable Jekyll processing
-        run: touch site/.nojekyll
-
-      - name: Configure Pages
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Ironfront Pages artifact
+      - name: Upload Ironfront artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
-      - name: Deploy Ironfront to Pages
+      - name: Deploy Ironfront
         id: deployment
         uses: actions/deploy-pages@v4
