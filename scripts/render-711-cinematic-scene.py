@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 import os, math, subprocess, urllib.request
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageOps
 
 W,H,FPS,DUR = 1280,720,24,20
 N=FPS*DUR
 OUT="/tmp/reconquista711"
 os.makedirs(OUT,exist_ok=True)
 
-MAP_URL=os.environ.get("MAP_URL","https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg")
+MAP_URL=os.environ.get("MAP_URL","https://commons.wikimedia.org/wiki/Special:Redirect/file/P%C3%A9ninsule_Ib%C3%A9rique_en_711.png")
 PORTRAIT_TARIQ="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tariq_ibn_Ziyad.jpg"
 PORTRAIT_RODERIC="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rod%C3%A9ric.jpg"
 
@@ -18,12 +18,12 @@ def fetch(url,path):
 
 fetch(MAP_URL, f"{OUT}/map.svg")
 subprocess.run(["rsvg-convert","-w",str(W),"-h",str(H),f"{OUT}/map.svg","-o",f"{OUT}/map.png"],check=True)
-subprocess.run(["piper","--model","voices/en_US-lessac-medium.onnx","--output_file",f"{OUT}/narration.wav"],input="""In 711, Tariq ibn Ziyad crossed Gibraltar and landed in Iberia. Roderic marched south with the Visigothic army. At Guadalete, their armies met, and Roderic was defeated. Tariq then drove inland, taking Seville and Córdoba before advancing toward Toledo. The conquest had begun.""".encode(),check=True)
+subprocess.run(["piper","--model","voices/en_US-lessac-high.onnx","--output_file",f"{OUT}/narration.wav"],input="""In 711, Tariq ibn Ziyad crossed the Strait of Gibraltar and landed in southern Iberia. Roderic marched south with the Visigothic army. At Guadalete, the armies met, and Roderic was defeated. The road to Córdoba and Toledo now lay open, and the conquest of Visigothic Iberia had begun.""".encode(),check=True)
 for name,url in [("tariq.jpg",PORTRAIT_TARIQ),("roderic.jpg",PORTRAIT_RODERIC)]:
     try: fetch(url,f"{OUT}/{name}")
     except Exception: pass
 
-base=Image.open(f"{OUT}/map.png").convert("RGB").resize((W,H),Image.Resampling.LANCZOS)
+src=Image.open(f"{OUT}/map.png").convert("RGB")\nbase=ImageOps.fit(src,(W,H),method=Image.Resampling.LANCZOS,centering=(0.5,0.48))
 
 # Atlas coordinates: these are the exact stored lon/lat values from reconquista-atlas.json.
 places={
@@ -32,8 +32,8 @@ places={
 }
 # Calibrated geographic transform against the atlas-linked map control points.
 def geo(lon,lat):
-    x=841.98391926*lon+141.16455474*lat+35.86195326*lon*lon-10.56647746*lon*lat-2.39763464*lat*lat
-    y=-4320.14966728*lon-541.58522246*lat-167.7816283*lon*lon+66.32012454*lon*lat+11.23141653*lat*lat
+    x=(lon+10.0)/(14.5)*W
+    y=(44.5-lat)/(9.5)*H
     return x,y
 P={k:geo(*v) for k,v in places.items()}
 
@@ -155,9 +155,9 @@ for i in range(N):
 
     # Leader markers appear when narration introduces them.
     if t>=2.8:
-        marker(d,560,126,"RODERIC","Visigothic king • 711",f"{OUT}/roderic.jpg" if os.path.exists(f"{OUT}/roderic.jpg") else None,-1)
+        marker(d,P["toledo"][0]-105,P["toledo"][1]-85,"RODERIC","Visigothic king • 711",f"{OUT}/roderic.jpg" if os.path.exists(f"{OUT}/roderic.jpg") else None,-1)
     if t>=0.5:
-        marker(d,770,318,"TARIQ IBN ZIYAD","Umayyad commander • 711",f"{OUT}/tariq.jpg" if os.path.exists(f"{OUT}/tariq.jpg") else None,1)
+        marker(d,P["gibraltar"][0]+115,P["gibraltar"][1]-90,"TARIQ IBN ZIYAD","Umayyad commander • 711",f"{OUT}/tariq.jpg" if os.path.exists(f"{OUT}/tariq.jpg") else None,1)
 
     # Title and documentary rail.
     d.rounded_rectangle((22,18,470,103),14,fill=(28,21,14,220),outline=(213,171,94,235),width=2)
