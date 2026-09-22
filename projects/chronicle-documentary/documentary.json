@@ -1,0 +1,283 @@
+{
+  "title": "Chronicle: A World in Motion",
+  "edition": "1.0",
+  "targetDurationSeconds": 3600,
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "method": {
+    "historicalData": [
+      "repository/data",
+      "repository/public/data",
+      "Cliopatria v0.2.0 via scripts/prepare-cliopatria.mjs"
+    ],
+    "visuals": [
+      "procedural cartography",
+      "procedural graphs",
+      "optional Runway illustrative media"
+    ],
+    "rule": "Generated visuals are illustrations, not historical evidence."
+  },
+  "chapters": [
+    {
+      "id": "opening",
+      "title": "The Map Is Not the Story",
+      "durationSeconds": 240,
+      "scenes": [
+        "opening-map",
+        "method",
+        "chronology"
+      ]
+    },
+    {
+      "id": "geography",
+      "title": "Borders, Regions and Places",
+      "durationSeconds": 360,
+      "scenes": [
+        "world-map",
+        "region-drilldown",
+        "city-network"
+      ]
+    },
+    {
+      "id": "systems",
+      "title": "Population, Economy and Power",
+      "durationSeconds": 480,
+      "scenes": [
+        "population",
+        "economy",
+        "industry",
+        "logistics"
+      ]
+    },
+    {
+      "id": "conflict",
+      "title": "War as a System",
+      "durationSeconds": 600,
+      "scenes": [
+        "mobilization",
+        "fronts",
+        "supply",
+        "diplomacy"
+      ]
+    },
+    {
+      "id": "alternate-history",
+      "title": "When Decisions Change the Timeline",
+      "durationSeconds": 600,
+      "scenes": [
+        "counterfactual",
+        "event-chain",
+        "divergence-map"
+      ]
+    },
+    {
+      "id": "simulation",
+      "title": "Inside the Chronicle Engine",
+      "durationSeconds": 480,
+      "scenes": [
+        "command",
+        "reaction",
+        "news-event",
+        "save-state"
+      ]
+    },
+    {
+      "id": "closing",
+      "title": "History, Simulation and Uncertainty",
+      "durationSeconds": 240,
+      "scenes": [
+        "uncertainty",
+        "closing-map"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "opening-map",
+      "type": "map",
+      "durationSeconds": 90,
+      "date": "1939-09-01",
+      "mode": "world",
+      "layers": "borders,labels,timeline"
+    },
+    {
+      "id": "method",
+      "type": "graph",
+      "durationSeconds": 70,
+      "date": null,
+      "mode": "timeline",
+      "layers": "source-to-scene provenance"
+    },
+    {
+      "id": "chronology",
+      "type": "timeline",
+      "durationSeconds": 80,
+      "date": null,
+      "mode": "timeline",
+      "layers": "1914,1918,1933,1939,1941,1945"
+    },
+    {
+      "id": "world-map",
+      "type": "map",
+      "durationSeconds": 120,
+      "date": "1939-09-01",
+      "mode": "world",
+      "layers": "polities,regions,cities,trade"
+    },
+    {
+      "id": "region-drilldown",
+      "type": "map",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "region",
+      "layers": "region-boundaries,settlements,ownership,control"
+    },
+    {
+      "id": "city-network",
+      "type": "map",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "network",
+      "layers": "cities,ports,rail,supply-routes"
+    },
+    {
+      "id": "population",
+      "type": "graph",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "line",
+      "layers": "Population over time"
+    },
+    {
+      "id": "economy",
+      "type": "graph",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "line",
+      "layers": "Economic capacity over time"
+    },
+    {
+      "id": "industry",
+      "type": "graph",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "bar",
+      "layers": "Industrial allocation"
+    },
+    {
+      "id": "logistics",
+      "type": "map",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "logistics",
+      "layers": "supply,depots,routes,terrain"
+    },
+    {
+      "id": "mobilization",
+      "type": "map",
+      "durationSeconds": 120,
+      "date": null,
+      "mode": "military",
+      "layers": "units,mobilization,readiness,fronts"
+    },
+    {
+      "id": "fronts",
+      "type": "map",
+      "durationSeconds": 180,
+      "date": null,
+      "mode": "front",
+      "layers": "front-lines,objectives,unit-density,terrain"
+    },
+    {
+      "id": "supply",
+      "type": "map",
+      "durationSeconds": 150,
+      "date": null,
+      "mode": "supply",
+      "layers": "depots,capacity,attrition,routes"
+    },
+    {
+      "id": "diplomacy",
+      "type": "graph",
+      "durationSeconds": 150,
+      "date": null,
+      "mode": "network",
+      "layers": "Diplomatic relationships"
+    },
+    {
+      "id": "counterfactual",
+      "type": "map",
+      "durationSeconds": 180,
+      "date": null,
+      "mode": "comparison",
+      "layers": "baseline,alternate,divergence"
+    },
+    {
+      "id": "event-chain",
+      "type": "timeline",
+      "durationSeconds": 180,
+      "date": null,
+      "mode": "timeline",
+      "layers": "decision,reaction,secondary-effect,public-event,long-term-effect"
+    },
+    {
+      "id": "divergence-map",
+      "type": "map",
+      "durationSeconds": 180,
+      "date": null,
+      "mode": "history-diff",
+      "layers": "ownership-change,control-change,event-origin"
+    },
+    {
+      "id": "command",
+      "type": "ui",
+      "durationSeconds": 100,
+      "date": null,
+      "mode": "command-console",
+      "layers": ""
+    },
+    {
+      "id": "reaction",
+      "type": "map",
+      "durationSeconds": 100,
+      "date": null,
+      "mode": "reaction",
+      "layers": "actor-intent,response,uncertainty"
+    },
+    {
+      "id": "news-event",
+      "type": "timeline",
+      "durationSeconds": 100,
+      "date": null,
+      "mode": "news",
+      "layers": "event-date,headline,report,follow-on-events"
+    },
+    {
+      "id": "save-state",
+      "type": "ui",
+      "durationSeconds": 80,
+      "date": null,
+      "mode": "local-save",
+      "layers": ""
+    },
+    {
+      "id": "uncertainty",
+      "type": "graph",
+      "durationSeconds": 100,
+      "date": null,
+      "mode": "confidence",
+      "layers": "Evidence and uncertainty"
+    },
+    {
+      "id": "closing-map",
+      "type": "map",
+      "durationSeconds": 100,
+      "date": "1945-09-02",
+      "mode": "world",
+      "layers": "borders,timeline,event-density"
+    }
+  ]
+}
