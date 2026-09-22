@@ -50,7 +50,7 @@ async function queryYear(year){
   return result;
 }
 
-const year=711;
+const year=756;
 const all=await queryYear(year);
 const nameOf=f=>String((f.properties??{}).Name??(f.properties??{}).name??(f.properties??{}).Polity??f.id);
 const refs=[];
@@ -61,7 +61,7 @@ for(const terms of [["visigoth"],["umayyad"],["asturias"]]){
     refs.push({cliopatriaId:String(match.id),name:nameOf(match),fromYear:Number(p.FromYear??p.fromYear),toYear:Number(p.ToYear??p.toYear),wikidata:p.Wikidata??p.WikidataID??null,seshatId:p.SeshatID??null,geometry:match.geometry});
   }
 }
-if(refs.length<2)throw new Error("Cliopatria sample could not resolve the required 711 Iberian polities.");
+if(refs.length<2)throw new Error("Cliopatria sample could not resolve the required 756 Iberian polities.");
 
 const lon0=-10.8,lon1=4.7,lat0=35,lat1=44.5;
 const W=1280,H=720,mapX=55,mapY=108,mapW=1170,mapH=565;
@@ -94,21 +94,21 @@ ${refs.map((r,i)=>`<circle cx="28" cy="${55+i*27}" r="7" fill="${colors[i%colors
 </g>
 <text x="40" y="708" fill="#f5ead3" font-family="DejaVu Sans" font-size="11">Cliopatria ${manifest.version} • geometry: database • route/city/event markers: explicit documentary reconstruction</text>
 </svg>`;
-const svgPath=path.join(outDir,"reconquista-711-cliopatria-sample.svg");
-const pngPath=path.join(outDir,"reconquista-711-cliopatria-sample.png");
+const svgPath=path.join(outDir,"reconquista-756-cliopatria-sample.svg");
+const pngPath=path.join(outDir,"reconquista-756-cliopatria-sample.png");
 fs.writeFileSync(svgPath,svg);
 run("rsvg-convert",["-w","1280","-h","720","-o",pngPath,svgPath]);
 
 const narrationPath=path.join(outDir,"narration.txt");
-fs.writeFileSync(narrationPath,"In 711, forces of the Umayyad Caliphate crossed from North Africa into Iberia. The political layer in this reconstruction is not a hand-drawn approximation. It is resolved from the Cliopatria historical geospatial database at the 711 time slice. The campaign line begins at Gibraltar, passes the Guadalete battlefield, and continues toward Córdoba and Toledo. Those route and event markers are explicitly treated as documentary overlays, while the territorial shapes come directly from the historical database. This is the design rule for the larger documentary: database-backed geography first, animation second.");
+fs.writeFileSync(narrationPath,"By 756, the political map of Iberia had changed sharply. Abd al-Rahman the First established the independent Emirate of Córdoba, while the Kingdom of Asturias persisted in the north. The political territories shown here are resolved from Cliopatria at the 756 time slice. The moving campaign line is an explicit documentary reconstruction rather than a claim that Cliopatria records a precise marching route. This distinction is deliberate: database geometry supplies the historical map, while animation explains movement and chronology.");
 const wavPath=path.join(outDir,"narration.wav");
 run("piper",["--data-dir",path.join(root,"voices"),"--model","en_US-lessac-medium","--input_file",narrationPath,"--output_file",wavPath]);
 
 const [sx,sy]=project(-5.35,36.14);
 const [ex,ey]=project(-4.03,39.86);
 const dx=ex-sx,dy=ey-sy;
-const filter=`[0:v]zoompan=z='1.01+0.02*sin(on/65)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,drawbox=x='${sx}+(${dx})*mod(t/20\\,1)':y='${sy}+(${dy})*mod(t/20\\,1)':w=16:h=16:color=#c98a3d@0.98:t=fill,drawbox=x='${battleX}-18':y='${battleY}-18':w='36+12*sin(2*PI*t)':h='36+12*sin(2*PI*t)':color=#9b3d2f@0.38:t=fill,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='CLIOPATRIA • 711 CE':fontcolor=#f5ead3:fontsize=17:box=1:boxcolor=black@0.45:boxborderw=8:x=55:y=115,format=yuv420p[v]`;
-const mp4Path=path.join(outDir,"reconquista-711-cliopatria-sample.mp4");
+const filter=`[0:v]zoompan=z='1.01+0.02*sin(on/65)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=24,drawbox=x='${sx}+(${dx})*mod(t/20\\,1)':y='${sy}+(${dy})*mod(t/20\\,1)':w=16:h=16:color=#c98a3d@0.98:t=fill,drawbox=x='${battleX}-18':y='${battleY}-18':w='36+12*sin(2*PI*t)':h='36+12*sin(2*PI*t)':color=#9b3d2f@0.38:t=fill,drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='CLIOPATRIA • 756 CE':fontcolor=#f5ead3:fontsize=17:box=1:boxcolor=black@0.45:boxborderw=8:x=55:y=115,format=yuv420p[v]`;
+const mp4Path=path.join(outDir,"reconquista-756-cliopatria-sample.mp4");
 run("ffmpeg",["-y","-loop","1","-i",pngPath,"-i",wavPath,"-t","20","-filter_complex",filter+";[1:a]apad[a]","-map","[v]","-map","[a]","-r","24","-c:v","libx264","-preset","veryfast","-b:v","1600k","-pix_fmt","yuv420p","-c:a","aac","-b:a","128k","-movflags","+faststart",mp4Path]);
 run("ffprobe",["-v","error","-show_entries","format=duration,size","-of","default=noprint_wrappers=1",mp4Path]);
 
