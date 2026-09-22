@@ -1,0 +1,47 @@
+name: Build Historical Library
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/history-library/**"
+      - "data/historical-polities-*.csv"
+      - "scripts/build-history-library.py"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download Cliopatria
+        run: |
+          mkdir -p .history-upstream
+          curl -L --fail --retry 3             https://github.com/Seshat-Global-History-Databank/cliopatria/raw/main/cliopatria.geojson.zip             -o .history-upstream/cliopatria.geojson.zip
+          unzip -o .history-upstream/cliopatria.geojson.zip -d .history-upstream
+
+      - name: Build modular resources
+        run: |
+          python scripts/build-history-library.py             --cliopatria .history-upstream/cliopatria.geojson
+
+      - name: Validate generated library
+        run: |
+          test -s data/history-library/catalog.json
+          test -d data/history-library/polities
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/history-library/catalog.json")
+          c = json.loads(p.read_text())
+          assert c.get("polity_count", 0) > 0
+          print("Historical library resources:", c["polity_count"])
+          PY
+
+      - name: Upload library artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chronicle-history-library
+          path: data/history-library
+          retention-days: 30
