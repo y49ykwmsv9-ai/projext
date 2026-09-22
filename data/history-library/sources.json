@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "sources": [
+    {
+      "id": "cliopatria",
+      "name": "Cliopatria / Seshat Global History Databank",
+      "coverage": "3400 BCE-2024 CE",
+      "type": "geospatial historical dataset",
+      "url": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+      "notes": "Worldwide polities, political groups, events and rulers; more than 1,600 political entities and approximately 14,000 temporal/spatial records in the current release."
+    },
+    {
+      "id": "seshat",
+      "name": "Seshat Global History Databank",
+      "coverage": "varies by variable and polity",
+      "type": "historical social and political database",
+      "url": "https://seshat-db.com/",
+      "notes": "Check the license of each release before redistribution. Some Seshat datasets are CC BY-NC-SA."
+    },
+    {
+      "id": "maddison-2023",
+      "name": "Maddison Project Database 2023",
+      "coverage": "historical economic estimates through 2022; 169 countries",
+      "type": "population and economic estimates",
+      "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "clio-infra",
+      "name": "Clio-Infra",
+      "coverage": "historical socioeconomic indicators; coverage varies by indicator",
+      "type": "historical socioeconomic dataset",
+      "url": "https://clio-infra.eu/"
+    },
+    {
+      "id": "cow-state-system",
+      "name": "Correlates of War State System Membership v2024",
+      "coverage": "1816-2024",
+      "type": "state-system membership",
+      "url": "https://correlatesofwar.org/data-sets/state-system-membership/",
+      "notes": "Consult upstream terms before bundling or redistributing the data."
+    },
+    {
+      "id": "cow-nmc",
+      "name": "Correlates of War National Material Capabilities v7",
+      "coverage": "1816-2022",
+      "type": "material capability indicators",
+      "url": "https://correlatesofwar.org/data-sets/national-material-capabilities/",
+      "notes": "Consult upstream terms before bundling or redistributing the data."
+    }
+  ]
+}
