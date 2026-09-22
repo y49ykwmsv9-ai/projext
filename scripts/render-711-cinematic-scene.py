@@ -7,8 +7,7 @@ N=FPS*DUR
 OUT="/tmp/reconquista711"
 os.makedirs(OUT,exist_ok=True)
 
-MAP_URL=os.environ["MAP_URL"]
-AUDIO_URL=os.environ["AUDIO_URL"]
+MAP_URL=os.environ.get("MAP_URL","https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg")
 PORTRAIT_TARIQ="https://commons.wikimedia.org/wiki/Special:Redirect/file/Tariq_ibn_Ziyad.jpg"
 PORTRAIT_RODERIC="https://commons.wikimedia.org/wiki/Special:Redirect/file/Rod%C3%A9ric.jpg"
 
@@ -17,8 +16,9 @@ def fetch(url,path):
     with urllib.request.urlopen(req,timeout=60) as r, open(path,"wb") as f:
         f.write(r.read())
 
-fetch(MAP_URL, f"{OUT}/map.png")
-fetch(AUDIO_URL, f"{OUT}/narration.mp3")
+fetch(MAP_URL, f"{OUT}/map.svg")
+subprocess.run(["rsvg-convert","-w",str(W),"-h",str(H),f"{OUT}/map.svg","-o",f"{OUT}/map.png"],check=True)
+subprocess.run(["piper","--model","voices/en_US-lessac-medium.onnx","--output_file",f"{OUT}/narration.wav"],input="""In 711, Tariq ibn Ziyad crossed Gibraltar and landed in Iberia. Roderic marched south with the Visigothic army. At Guadalete, their armies met, and Roderic was defeated. Tariq then drove inland, taking Seville and Córdoba before advancing toward Toledo. The conquest had begun.""".encode(),check=True)
 for name,url in [("tariq.jpg",PORTRAIT_TARIQ),("roderic.jpg",PORTRAIT_RODERIC)]:
     try: fetch(url,f"{OUT}/{name}")
     except Exception: pass
@@ -189,8 +189,8 @@ for i in range(N):
     im.save(f"{OUT}/f{i:04d}.jpg",quality=91)
 
 # Make exact 20s MP4 and synchronize the 20.16s narration.
-subprocess.run(["ffmpeg","-y","-framerate",str(FPS),"-i",f"{OUT}/f%04d.jpg","-i",f"{OUT}/narration.mp3",
-                "-filter_complex","[1:a]atempo=1.008,aformat=sample_fmts=fltp:sample_rates=48000[a]",
+subprocess.run(["ffmpeg","-y","-framerate",str(FPS),"-i",f"{OUT}/f%04d.jpg","-i",f"{OUT}/narration.wav",
+                "-filter_complex","[1:a]atempo=1.008,highpass=f=70,lowpass=f=12000,acompressor=threshold=-18dB:ratio=3:attack=5:release=120,volume=1.4,aformat=sample_fmts=fltp:sample_rates=48000[a]",
                 "-map","0:v:0","-map","[a]","-t","20","-r",str(FPS),"-c:v","libx264","-preset","medium","-crf","18",
                 "-pix_fmt","yuv420p","-c:a","aac","-b:a","192k","-movflags","+faststart",f"{OUT}/reconquista-711-cinematic-20s.mp4"],check=True)
 subprocess.run(["ffprobe","-v","error","-show_entries","format=duration:stream=width,height,r_frame_rate","-of","json",f"{OUT}/reconquista-711-cinematic-20s.mp4"],check=True)
