@@ -49,6 +49,6 @@ const result={dataset:'Cliopatria',version,year:750,sourceUrl:'https://github.co
  {key:'guadalete',label:'Guadalete',lon:-5.86,lat:36.52,source:'auxiliary event point'},
  {key:'cordoba',label:'Córdoba',lon:-4.78,lat:37.89,source:'auxiliary city point'},
  {key:'toledo',label:'Toledo',lon:-4.03,lat:39.86,source:'auxiliary city point'}
-],provenance:'Territorial polygons are taken directly from Cliopatria records active in 711 CE. Auxiliary city/event points are explicitly not presented as Cliopatria polygons.'};
-fs.writeFileSync(path.join(dir,'sample-711-cliopatria.json'),JSON.stringify(result,null,2));
+],provenance:'Territorial polygons are taken directly from Cliopatria records active in 750 CE. Auxiliary city/event points are explicitly not presented as Cliopatria polygons.'};
+fs.writeFileSync(path.join(dir,'sample-750-cliopatria.json'),JSON.stringify(result,null,2));
 console.log(JSON.stringify({version,recordCount:features.length,references:references.map(r=>({key:r.key,resolved:r.resolved,name:r.record?.Name}))},null,2));
