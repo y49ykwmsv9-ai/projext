@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0.0",
+  "database": "HISTORIX",
+  "version": "1.0.0",
   "generated_at": "2026-09-22",
-  "status": "seeded-and-expandable",
+  "status": "production-baseline",
   "resource_roots": {
     "polities": "data/history-library/polities/",
     "events": "data/history-library/events/",
     "people": "data/history-library/people/",
     "places": "data/history-library/places/",
     "observations": "data/history-library/observations/",
-    "relations": "data/history-library/relations/"
+    "relations": "data/history-library/relations/",
+    "territorial_snapshots": "data/history-library/territorial-snapshots/"
   },
   "seed_sources": [
     "data/historical-polities-since-1000-bce.csv",
@@ -16,17 +19,20 @@
     "lib/historical-records.ts",
     "lib/cliopatria.ts"
   ],
-  "external_expansion": {
-    "cliopatria": "https://github.com/Seshat-Global-History-Databank/cliopatria",
+  "cliopatria_baseline": {
+    "source_commit": "ad28a691b7c07c1fca89d0e0636d324667d2a258",
+    "unique_polities_required": 1583,
     "coverage": "3400 BCE-2024 CE",
-    "strategy": "ingest temporal/spatial polity rows into individually addressable resources"
+    "completeness_rule": "unique POLITY names, not raw temporal/spatial feature count"
   },
-  "numeric_expansion": [
+  "numeric_sources_registered": [
     "Maddison Project Database 2023",
     "Clio-Infra",
     "Seshat quantitative releases",
     "Correlates of War datasets where licensing permits"
   ],
   "lookup_rule": "polities/<stable-id>.json; events/<stable-id>.json; people/<stable-id>.json; places/<stable-id>.json; observations/<stable-id>.json; relations/<stable-id>.json",
-  "important": "The catalog is deliberately lightweight. Full historical records are lazy-loaded rather than embedded into one client bundle."
+  "runtime_rule": "Resources are lazy-loaded by stable ID and cached; the browser does not import the full historical corpus.",
+  "provenance_rule": "Every externally sourced observation must retain source, date, unit/scope and confidence or uncertainty metadata.",
+  "scope_note": "HISTORIX 1.0 is complete against its declared Cliopatria polity baseline. Event, person, place and quantitative coverage remains extensible and must not be represented as universally exhaustive."
 }
