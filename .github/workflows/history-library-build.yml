@@ -24,15 +24,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download pinned Cliopatria source file
+      - name: Download Cliopatria source snapshot
         run: |
           mkdir -p .history-upstream
           curl -L --fail --retry 3             https://github.com/Seshat-Global-History-Databank/cliopatria/raw/main/cliopatria.geojson.zip             -o .history-upstream/cliopatria.geojson.zip
           unzip -o .history-upstream/cliopatria.geojson.zip -d .history-upstream
+          test -s .history-upstream/cliopatria_polities_only.geojson
 
       - name: Build modular resources
         run: |
-          python scripts/build-history-library.py             --cliopatria .history-upstream/cliopatria.geojson
+          python scripts/build-history-library.py             --cliopatria .history-upstream/cliopatria_polities_only.geojson
 
       - name: Enforce Cliopatria completeness target
         run: |
