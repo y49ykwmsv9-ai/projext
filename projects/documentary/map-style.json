@@ -1,0 +1,36 @@
+{
+  "name": "chronicle-historical-map-v3",
+  "designBasis": "Latest approved 711 AD map sketch: geographic parchment map, restrained historical palette, clear political fills, campaign arrows, shields, battle markers, labels, compass, legend and a strong date/title rail.",
+  "palette": {
+    "parchment": "#d8c59d",
+    "ink": "#1d1a15",
+    "water": "#7f9caf",
+    "umayyad": "#3e6b4f",
+    "christian": "#8b6f2d",
+    "battle": "#9b3d2f",
+    "route": "#c98a3d",
+    "label": "#f6ecd8"
+  },
+  "sources": {
+    "early711": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Al-Andalus-711.svg",
+      "credit": "Al-Andalus-711.svg, Micheletb, Wikimedia Commons, public domain"
+    },
+    "campaign711": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/P%C3%A9ninsule_Ib%C3%A9rique_en_711.png",
+      "credit": "Péninsule Ibérique en 711.png, Elryck / NACLE, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    "later": {
+      "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg",
+      "credit": "Reconquista (914-1492).svg, Macucal, Wikimedia Commons"
+    }
+  },
+  "animation": {
+    "movingArmyMarker": true,
+    "routeProgress": true,
+    "battlePulse": true,
+    "territoryPulse": true,
+    "labelReveal": true,
+    "mapCameraMotion": true
+  }
+}
