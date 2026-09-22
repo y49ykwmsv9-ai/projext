@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { loadReconquistaAtlas, resolveSceneEntities } from './cliopatria-plus.mjs';
 import { execFileSync } from 'node:child_process';
 
 const root = process.cwd();
@@ -7,6 +8,7 @@ const build = path.join(root, 'projects', 'documentary', 'build');
 const manifest = JSON.parse(fs.readFileSync(path.join(build, 'documentary-manifest.json'), 'utf8'));
 const sceneAssets = JSON.parse(fs.readFileSync(path.join(root, 'projects', 'documentary', 'scene-assets.json'), 'utf8'));
 const mapStyle = JSON.parse(fs.readFileSync(path.join(root, 'projects', 'documentary', 'map-style.json'), 'utf8'));
+const atlas = loadReconquistaAtlas();
 const assets = path.join(build, 'assets');
 const chaptersDir = path.join(build, 'chapters');
 const sceneAssetMap = new Map(sceneAssets.assets.map(a => [a.sceneNumber, a.imageUrl]));
@@ -114,6 +116,8 @@ for (const c of manifest.chapters) {
   for (let i = 0; i < scenes.length; i++) {
     sceneNumber++;
     const [year, title, visual, tags] = scenes[i];
+    const atlasEntities = resolveSceneEntities(atlas, sceneNumber);
+    const atlasNames = atlasEntities.map(e => e.name).join(', ');
     const sceneDir = path.join(chaptersDir, c.id);
     fs.mkdirSync(sceneDir, { recursive: true });
     const imageUrl = sceneAssetMap.get(sceneNumber);
@@ -125,7 +129,7 @@ for (const c of manifest.chapters) {
     const txt = path.join(sceneDir, `${i + 1}.txt`);
     const wav = path.join(sceneDir, `${i + 1}.wav`);
     const mp4 = path.join(sceneDir, `${i + 1}.mp4`);
-    const script = [narrationParts[i], sceneContext(c, title, visual)].filter(Boolean).join('\n\n');
+    const script = [narrationParts[i], sceneContext(c, title, visual), `Historical atlas entities: ${atlasNames}. Route and event geometry is labeled as reconstructed unless sourced geometry is explicitly available.`].filter(Boolean).join('\n\n');
     fs.writeFileSync(txt, script);
     run(path.join(process.env.HOME || '/home/runner', '.local', 'bin', 'piper'), ['--data-dir', path.join(root, 'voices'), '--model', 'en_US-lessac-medium', '--input_file', txt, '--output_file', wav]);
 
@@ -184,6 +188,12 @@ const plan = {
   mapStyle: mapStyle.name,
   mapDesignBasis: mapStyle.designBasis,
   animation: mapStyle.animation,
+  historicalAtlas: {
+    datasetId: atlas.datasetId,
+    schemaVersion: atlas.schemaVersion,
+    source: 'projects/documentary/data/cliopatria-plus/reconquista-atlas.json',
+    counts: Object.fromEntries(['polities','places','events','routes','people'].map(k => [k, atlas[k]?.length ?? 0]))
+  },
   chapters: manifest.chapters.map(c => ({ id: c.id, year: c.year, title: c.title, targetSeconds: c.minutes * 60, sceneCount: (c.scenes || []).length }))
 };
 fs.writeFileSync(path.join(build, 'render-plan.json'), JSON.stringify(plan, null, 2));
