@@ -7,7 +7,8 @@ on:
       - "scripts/generate-documentary.mjs"
       - "scripts/render-documentary.mjs"
       - "projects/documentary/**"
-      - "data/historical-polities-expansion-v2.csv"\n      - ".github/workflows/documentary-build.yml"
+      - "data/historical-polities-expansion-v2.csv"
+      - ".github/workflows/documentary-build.yml"
 
 jobs:
   render-reconquista:
