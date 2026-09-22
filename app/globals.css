@@ -114,3 +114,15 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.001ms!important}
 }
+
+/* Collision guards */
+.info-panel{max-height:min(68vh,calc(100% - 220px))}
+.log-dock{left:12px;right:auto;top:auto;bottom:118px;max-width:330px;max-height:82px;overflow:auto;z-index:29;pointer-events:none}
+@media(max-width:900px){
+ .info-panel{max-height:calc(100dvh - 180px)}
+ .log-dock{left:6px;right:6px;top:auto;bottom:105px;max-width:none;max-height:12dvh;overflow:hidden;z-index:22}
+}
+@media(max-width:600px){
+ .info-panel{max-height:48dvh}
+ .log-dock{bottom:105px;max-height:12dvh}
+}
