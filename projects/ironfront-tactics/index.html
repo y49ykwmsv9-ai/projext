@@ -169,7 +169,7 @@ function saveReplay(){localStorage.setItem("ironfront-replay-v2",JSON.stringify(
 $("rewindBtn").onclick=rewindReplay;$("ffBtn").onclick=()=>{speed=speed===1?2:speed===2?4:1;$("ffBtn").textContent=speed+"×"};$("bookmarkBtn").onclick=()=>{bookmarks.push({t:simTime,cam:{...cam}});saveReplay();toast("Camera bookmark saved")};$("lowPowerBtn").onclick=()=>{qualityMode=qualityMode==="low"?"auto":"low";localStorage.setItem("ironfront-quality",qualityMode);toast("Quality "+qualityMode.toUpperCase())};
 
 const saveKey="ironfront-tactics-saves-v2";
-function saveData(){return{version:3,createdAt:new Date().toISOString(),terrain,weather,simTime,nextId,units,forts,sieges,armies,camera:cam,rtsMode}}
+function saveData(){return{version:3,createdAt:new Date().toISOString(),terrain,weather,simTime,nextId,units:units.map(u=>{const v={...u};delete v.target;return v}),forts,sieges,armies:armies.map(a=>({...a})),camera:{...cam},rtsMode}}
 function saves(){try{return JSON.parse(localStorage.getItem(saveKey)||"[]")}catch{return[]}}
 function renderSaves(){const a=saves();$("saveList").innerHTML=a.length?"":"<div class='muted'>No local saves yet.</div>";a.forEach((s,i)=>{const d=document.createElement("div");d.className="save";const sp=document.createElement("span");sp.textContent=s.name;d.append(sp,btn("Load",()=>{loadState(s.data);$("saveModal").classList.remove("show")}),btn("Delete",()=>{a.splice(i,1);localStorage.setItem(saveKey,JSON.stringify(a));renderSaves()}));$("saveList").appendChild(d)})}
 function saveCurrent(){const a=saves();a.unshift({name:"Battle "+new Date().toLocaleString(),data:saveData()});localStorage.setItem(saveKey,JSON.stringify(a.slice(0,30)));renderSaves();$("saveModal").classList.add("show")}
