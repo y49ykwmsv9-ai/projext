@@ -13,8 +13,8 @@ export type MapForgeClip = {
   // Optional narrative geography used to keep historical data scoped to the story.
   region?:[number,number,number,number];
 };
-export type MapForgeProject = {
+export type MapForgeCheck = { id:string; label:string; passed:boolean; severity:"error"|"warning"|"info"; detail:string; };\nexport type MapForgeVoice = { provider:"none"|"browser"|"external"; voice?:string; language:"en-US"|"en-GB"|"es-ES"|"fr-FR"|"de-DE"; pace:number; tone:string; };\nexport type MapForgeProject = {
   title:string; prompt:string; mapSource:MapSource; aspectRatio:"16:9"|"9:16";
   fps:30|60; resolution:"720p"|"1080p"|"4k"; theme:"dark"|"light"|"satellite";
-  clips:MapForgeClip[]; credits:string[];
+  clips:MapForgeClip[]; credits:string[]; voice:MapForgeVoice; checks:MapForgeCheck[];
 };
