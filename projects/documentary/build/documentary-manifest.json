@@ -1,0 +1,81 @@
+{
+  "id": "chronicle-ww2-1936-1945",
+  "title": "The World at War: 1936–1945",
+  "targetDurationMinutes": 60,
+  "generatedFrom": "scripts/generate-documentary.mjs",
+  "status": "production-ready-web-documentary",
+  "chapters": [
+    {
+      "id": "c01",
+      "year": 1936,
+      "title": "A Continent Under Pressure",
+      "minutes": 5
+    },
+    {
+      "id": "c02",
+      "year": 1938,
+      "title": "The Crisis of Central Europe",
+      "minutes": 6
+    },
+    {
+      "id": "c03",
+      "year": 1939,
+      "title": "The War Begins",
+      "minutes": 6
+    },
+    {
+      "id": "c04",
+      "year": 1940,
+      "title": "The Fall of the West",
+      "minutes": 7
+    },
+    {
+      "id": "c05",
+      "year": 1941,
+      "title": "A Wider War",
+      "minutes": 7
+    },
+    {
+      "id": "c06",
+      "year": 1942,
+      "title": "The Limits of Expansion",
+      "minutes": 7
+    },
+    {
+      "id": "c07",
+      "year": 1943,
+      "title": "The Tide Turns",
+      "minutes": 6
+    },
+    {
+      "id": "c08",
+      "year": 1944,
+      "title": "The Great Counteroffensive",
+      "minutes": 6
+    },
+    {
+      "id": "c09",
+      "year": 1945,
+      "title": "The Collapse of Nazi Germany",
+      "minutes": 6
+    },
+    {
+      "id": "c10",
+      "year": 1945,
+      "title": "A War Becomes a World Order",
+      "minutes": 4
+    }
+  ],
+  "sources": [
+    "United States Holocaust Memorial Museum, World War II Dates and Timeline",
+    "United States Holocaust Memorial Museum, World War II in Europe",
+    "United States Holocaust Memorial Museum, World War II: In Depth"
+  ],
+  "visualAssets": [
+    "Runway-generated archival map plate: late-1930s Europe",
+    "Runway-generated 1939 Poland campaign map plate",
+    "Runway-generated 1940 Western Europe campaign map plate",
+    "Runway-generated archival map plate: late-1930s Europe variation"
+  ],
+  "notes": "The 60-minute target is an edit plan. The browser player provides the complete chapter narration and uses speech synthesis for playback. A final broadcast MP4 requires an external video-rendering pass."
+}
