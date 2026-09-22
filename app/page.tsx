@@ -1,2 +1,5 @@
-import GameShell from '../components/GameShell';
-export default function Home(){ return <GameShell/>; }
+import MapForgeStudio from '../components/MapForgeStudio';
+
+export default function Home(){
+  return <MapForgeStudio/>;
+}
