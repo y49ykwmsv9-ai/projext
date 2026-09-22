@@ -66,14 +66,10 @@ def marker(d,x,y,label,sub,photo=None,side=1):
     r=34
     d.ellipse((x-r,y-r,x+r,y+r),fill=(15,16,14,235),outline=(218,170,78,255),width=3)
     if photo and os.path.exists(photo):
-        im=Image.open(photo).convert("RGB")
-        im.thumbnail((56,56),Image.Resampling.LANCZOS)
+        im=Image.open(photo).convert("RGB").resize((56,56),Image.Resampling.LANCZOS)
         mask=Image.new("L",(56,56),0); md=ImageDraw.Draw(mask); md.ellipse((0,0,56,56),fill=255)
-        layer=Image.new("RGB",(56,56)); layer.paste(im.resize((56,56)),(0,0),mask)
-        frame=Image.new("RGB",(64,64),(30,22,13)); frame.paste(layer,(4,4),mask)
-        im2=frame.resize((64,64))
-        im2.save(f"{OUT}/tmp_portrait.jpg")
-        d.bitmap((x-32,y-32),im2)
+        crop=im.convert("RGBA"); crop.putalpha(mask)
+        d._image.paste(crop,(x-28,y-28),crop)
         d.ellipse((x-r,y-r,x+r,y+r),outline=(218,170,78,255),width=3)
     bx=x+r+14 if side>0 else x-r-238; by=y-30
     d.rounded_rectangle((bx,by,bx+224,by+62),10,fill=(8,10,9,225),outline=(210,165,78,235),width=2)
