@@ -27,6 +27,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg librsvg2-bin curl fonts-dejavu python3-pip
           python3 -m pip install --user --disable-pip-version-check piper-tts
+          mkdir -p voices
+          python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
 
       - name: Generate historical documentary package
         run: node scripts/generate-documentary.mjs
