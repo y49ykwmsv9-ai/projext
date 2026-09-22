@@ -1,0 +1,22 @@
+name: Chronicle Documentary Preview
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "projects/chronicle-documentary/**"
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: node projects/chronicle-documentary/src/generate-documentary.mjs --input projects/chronicle-documentary/documentary.json --output projects/chronicle-documentary/dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chronicle-documentary-scene-package
+          path: projects/chronicle-documentary/dist
