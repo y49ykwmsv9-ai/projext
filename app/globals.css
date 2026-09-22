@@ -173,10 +173,10 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
     overflow-y:auto!important;
   }
   .menu-pop{
-    top:calc(62px + env(safe-area-inset-top,0px))!important;
+    top:calc(110px + env(safe-area-inset-top,0px))!important;
     left:6px!important;right:auto!important;
     max-width:calc(100vw - 12px)!important;
-    max-height:calc(100dvh - 130px)!important;
+    max-height:calc(100dvh - 178px)!important;
     z-index:110!important;
   }
   .command-bar{
