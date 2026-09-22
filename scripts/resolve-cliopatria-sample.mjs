@@ -37,14 +37,14 @@ const find=(year,cands)=>{
  return features.filter(f=>active(f,year)).map(f=>({f,n:norm(entityName(f))})).filter(x=>cs.some(c=>x.n===c||x.n.includes(c)||c.includes(x.n))).sort((a,b)=>Number((b.f.properties||{}).Area||0)-Number((a.f.properties||{}).Area||0))[0]?.f;
 };
 const wanted=[
- {key:'emirate-of-cordoba',candidates:['Emirate of Córdoba','Emirate of Cordoba','Cordoba Emirate']},
+ {key:'umayyad-caliphate',candidates:['Umayyad Caliphate']},
  {key:'asturias',candidates:['Kingdom of Asturias','Asturias']}
 ];
 const references=wanted.map(x=>{
- const f=find(756,x.candidates);
+ const f=find(750,x.candidates);
  return {key:x.key,source:'Cliopatria',resolved:Boolean(f),record:f?f.properties:null,geometry:f?.geometry||null};
 });
-const result={dataset:'Cliopatria',version,year:756,sourceUrl:'https://github.com/Seshat-Global-History-Databank/cliopatria/tree/'+version,recordCount:features.length,references,geographicPoints:[
+const result={dataset:'Cliopatria',version,year:750,sourceUrl:'https://github.com/Seshat-Global-History-Databank/cliopatria/tree/'+version,recordCount:features.length,references,geographicPoints:[
  {key:'gibraltar',label:'Gibraltar',lon:-5.35,lat:36.14,source:'auxiliary geographic point'},
  {key:'guadalete',label:'Guadalete',lon:-5.86,lat:36.52,source:'auxiliary event point'},
  {key:'cordoba',label:'Córdoba',lon:-4.78,lat:37.89,source:'auxiliary city point'},
