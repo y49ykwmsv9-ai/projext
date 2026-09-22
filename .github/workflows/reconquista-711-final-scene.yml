@@ -10,31 +10,35 @@ on:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     env:
       MAP_URL: "https://commons.wikimedia.org/wiki/Special:FilePath/C._710_Iberian_Peninsula_Visigothic_Provinces.jpg"
-      NARRATION_URL: "https://dnznrvs05pmza.cloudfront.net/text_to_speech/3d9c67ba-23df-452d-85f0-f2c3e3f7f078/Reconquista_711_final_cinematic_narration.mp3?_jwt=eyJrZXlIYXNoIjoiZjZiN2VlN2JjNmQzNDc4NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIwNjA3NX0.Tv80LjDUyovd--xAYmbpMFOjM7pXzl4xxXMvIQxnEVE"
       TARIQ_URL: "https://commons.wikimedia.org/wiki/Special:FilePath/Tariq_ibn_Ziyad.jpg"
       RODERIC_URL: "https://commons.wikimedia.org/wiki/Special:FilePath/Rod%C3%A9ric.jpg"
+      NARRATION_TEXT: "In 711, Tariq ibn Ziyad crossed Gibraltar and landed in Iberia. Roderic marched south with the Visigothic army. At Guadalete, their armies met, and Roderic was defeated. Tariq then drove inland, taking Seville and Córdoba before advancing toward Toledo. The conquest had begun."
     steps:
       - uses: actions/checkout@v4
-      - name: Install rendering tools
+      - name: Install rendering and neural TTS tools
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg curl fonts-dejavu python3-pip
-          python3 -m pip install --user --disable-pip-version-check pillow
-      - name: Fetch map, narration, and archival portraits
+          python3 -m pip install --user --disable-pip-version-check pillow piper-tts
+          mkdir -p voices
+          python3 -m piper.download_voices --data-dir voices en_US-lessac-high
+      - name: Fetch map and archival portraits
         run: |
           mkdir -p projects/documentary/build/scene-711
           curl -L --fail --retry 3 "$MAP_URL" -o projects/documentary/build/scene-711/map-base.jpg
-          curl -L --fail --retry 3 "$NARRATION_URL" -o projects/documentary/build/scene-711/narration.mp3
           curl -L --fail --retry 3 "$TARIQ_URL" -o projects/documentary/build/scene-711/tariq.jpg
           curl -L --fail --retry 3 "$RODERIC_URL" -o projects/documentary/build/scene-711/roderic.jpg
+      - name: Generate cinematic neural narration
+        run: |
+          printf '%s\n' "$NARRATION_TEXT" | python3 -m piper             --model voices/en_US-lessac-high.onnx             --output_file projects/documentary/build/scene-711/narration.wav             --length_scale 0.94
       - name: Fetch Cliopatria v0.2.0 geometry
         run: node scripts/resolve-cliopatria-sample.mjs
       - name: Render the event-driven 711 scene
         run: |
-          python3 scripts/render-711-final-scene.py             projects/documentary/build/scene-711/map-base.jpg             projects/documentary/build/scene-711/narration.mp3             projects/documentary/build/scene-711/reconquista-711-final-scene.mp4             projects/documentary/build/scene-711/tariq.jpg             projects/documentary/build/scene-711/roderic.jpg             projects/documentary/data/cliopatria.geojson
+          python3 scripts/render-711-final-scene.py             projects/documentary/build/scene-711/map-base.jpg             projects/documentary/build/scene-711/narration.wav             projects/documentary/build/scene-711/reconquista-711-final-scene.mp4             projects/documentary/build/scene-711/tariq.jpg             projects/documentary/build/scene-711/roderic.jpg             projects/documentary/data/cliopatria.geojson
       - name: Verify final scene
         run: |
           ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate             -of default=noprint_wrappers=1             projects/documentary/build/scene-711/reconquista-711-final-scene.mp4
