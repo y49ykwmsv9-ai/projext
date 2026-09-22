@@ -1,4 +1,4 @@
-name: Build Historical Library
+name: Build HISTORIX Historical Library
 
 on:
   workflow_dispatch:
@@ -6,6 +6,8 @@ on:
     paths:
       - "data/history-library/**"
       - "data/historical-polities-*.csv"
+      - "lib/historical-records.ts"
+      - "lib/cliopatria.ts"
       - "scripts/build-history-library.py"
       - "scripts/validate-history-library.py"
       - ".github/workflows/history-library-build.yml"
@@ -24,14 +26,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download Cliopatria source snapshot
+      - name: Download pinned Cliopatria source snapshot
+        env:
+          CLIOPATRIA_COMMIT: ad28a691b7c07c1fca89d0e0636d324667d2a258
         run: |
           mkdir -p .history-upstream
-          curl -L --fail --retry 3             https://github.com/Seshat-Global-History-Databank/cliopatria/raw/main/cliopatria.geojson.zip             -o .history-upstream/cliopatria.geojson.zip
+          curl -L --fail --retry 3             "https://github.com/Seshat-Global-History-Databank/cliopatria/raw/$CLIOPATRIA_COMMIT/cliopatria.geojson.zip"             -o .history-upstream/cliopatria.geojson.zip
           unzip -o .history-upstream/cliopatria.geojson.zip -d .history-upstream
           test -s .history-upstream/cliopatria_polities_only.geojson
 
-      - name: Build modular resources
+      - name: Build modular HISTORIX resources
         run: |
           python scripts/build-history-library.py             --cliopatria .history-upstream/cliopatria_polities_only.geojson
 
@@ -39,9 +43,9 @@ jobs:
         run: |
           python scripts/validate-history-library.py --require-cliopatria
 
-      - name: Upload library artifact
+      - name: Upload HISTORIX library artifact
         uses: actions/upload-artifact@v4
         with:
-          name: chronicle-history-library
+          name: historix-1.0-library
           path: data/history-library
           retention-days: 30
