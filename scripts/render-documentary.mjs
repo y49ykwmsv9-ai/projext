@@ -168,7 +168,7 @@ for (const c of manifest.chapters) {
 }
 
 const concatFile = path.join(build, 'concat-scenes.txt');
-fs.writeFileSync(concatFile, sceneFiles.map(f => `file '${f.replaceAll("'", "'\\''")}'`).join('\n') + '\n');
+fs.writeFileSync(concatFile, sceneFiles.map(f => "file '" + f.replaceAll("'", "'\\\\''") + "'").join('\n') + '\n');
 const final = path.join(build, 'reconquista-documentary-60min.mp4');
 run('ffmpeg', ['-y', '-f', 'concat', '-safe', '0', '-i', concatFile, '-c', 'copy', '-movflags', '+faststart', final]);
 run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration,size', '-of', 'default=noprint_wrappers=1', final]);
