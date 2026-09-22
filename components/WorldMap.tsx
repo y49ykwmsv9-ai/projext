@@ -67,7 +67,7 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   if(!el.current||mapRef.current)return;
   let map:maplibregl.Map;
   try{
-   map=new maplibregl.Map({container:el.current,style:LOCAL_MAP_STYLE,center:[0,20],zoom:1.05,minZoom:0,maxZoom:18,renderWorldCopies:false,dragRotate:false,pitchWithRotate:false,maxPitch:0,attributionControl:false,fadeDuration:0,refreshExpired:false});
+   map=new maplibregl.Map({container:el.current,style:LOCAL_MAP_STYLE,center:[0,20],zoom:1.05,minZoom:0,maxZoom:18,renderWorldCopies:false,dragRotate:false,pitchWithRotate:false,maxPitch:0,attributionControl:false,fadeDuration:0});
   }catch{
    if(el.current)el.current.dataset.mapFallback='map-init-failed';
    return;
