@@ -143,7 +143,22 @@ run('ffprobe',['-v','error','-show_entries','format=duration,size','-of','defaul
 
 const plan={title:manifest.title,targetDurationMinutes:60,output:final,resolution:'1280x720',sceneCount:sceneFiles.length,sceneDurationSeconds:60,narration:'Edge-TTS en-US-ChristopherNeural',visuals:'6 individually rendered animated scenes per chapter; map/battle/siege/city/court/trade/frontier treatments',map:'Macucal, Wikimedia Commons, CC BY-SA 3.0 / GFDL'};
 fs.writeFileSync(path.join(build,'render-plan.json'),JSON.stringify(plan,null,2));
-console.log('Finished scene-based documentary: '+final);const sourceCredit = 'Map: Macucal, Wikimedia Commons, CC BY-SA 3.0 / GFDL';
+console.log('Finished scene-based documentary: '+final);const sceneAssets = [
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d6db5e08-6607-478b-a5f1-3d35adf14d2f/b7138e64-ed49-462a-87e7-f339369b5f4f/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWJlMjgwMTU0MmRjY2YxYyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDE5MjQwNX0.MklyYkttey1MUrAQw3Epvi8cPJ1TRaBmkm8k6hWvGa8",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/e21f503a-e7ae-4ce9-b81a-8754e8047ff2/a126ee0b-4dcd-4ef8-98fd-a73a8d6bdbff/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjQ4ZjJmMzJkOTA1MjRhYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIxNzkwNn0.C-sAXs3stMH14OEDM0Cp4Os4zGWNDOeuci5bgoZsEDw",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f891eae0-66d6-4c7f-8214-626984ce6a81/60e8fa81-aff2-4eb6-be4b-b3f1f2dc503c/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiODBjMWZjNGY0MDczOTY0MyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIzMTg4N30.RN_hfSRS6agg-F39XFblGZUeKbHCvsORnJI_-7xuJH0",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/5771c58f-b664-48a0-91b9-2d209fa0e456/8e3ec719-4f75-499d-8255-3d86c39fdebf/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMGY0YmUxOTIwOWZmNzc4MSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIzMTE4Nn0.SJBbCGXtZG13bcPRpTS0WkS9w83yw_GGJORy0t5Rzqs",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/7a15c78a-6a34-43f5-a559-a05e279a6ec1/907de2dc-44c6-4be0-a857-e4dd34450b3e/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImt5Ijoibm9wIn0",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/5ed8f5ee-4b8d-411f-b7db-1c025460d116/977d59b3-e349-4cd2-808f-8964473b6381/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImJ1Y2tldCI6InJ1bndheSJ9",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/3fde457e-58cf-4f06-9335-803924875153/6a2869ca-e848-4517-b043-ae9b3add7889/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIxOTIzMX0.PiUurvn9m6Ke-Dschao9anPU5ChOUZZIZsEfs5udpY0",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/96b6f2bb-fedd-4c48-994f-39bee30e8597/0d7b84e5-6300-4604-ae25-3a336f8d4411/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImJrZXlIYXNoIjoiZTczMzc4NTJlNGFjNDRhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDE5MDAzNH0.jZVllozHNpkbu5lDSdt2Ro2RYmBhEmY58oKBheoJ2Yo",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d9125e43-6233-45ac-9983-53cc30a99071/e3b1d731-54fb-47b2-9962-a4771de4ea70/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJI1NiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIxNzg2OH0.DIYl-7uYhv6jXQKsD008lw1x6R8PSZTQfBDZaCSgZXQ",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/ccad43c9-4811-4c40-a679-024b7c087e38/a135812c-86e4-4948-a068-b65be44729e9/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImJrZXlIYXNoIjoiYmVlY2ZhZWQ0MmE5MTM4ZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIxNjE3M30.1pUEyegy504I4wDL7uxsy1Bncgkd711egKSx3N9hmDw",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/ada10654-de14-4c4b-846d-ac16bfbf89ec/dd0dbecb-1c7f-467d-8dd7-c5d5a9d57871/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImJrZXlIYXNoIjoiY2I4ZWVhNDNiNWIzYzBlMCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIxNjEzMX0.54Te60LUrmFaPjynWGzBXnUXg_1L-vlEsq0Iw5M-9gE",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/7cfa5244-bdc3-4737-9f48-b9d0e3ebeb33/ec6130b1-ac84-47d4-b829-963b73527c03/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJIUzI1NiIsImJrZXlIYXNoIjoiMTJjZTFiN2QzOGU5Nzc2NiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDE3MjU0MX0.Aau3le_MiB6wu9fg434KwvzVA3tsk_nRTx5oRT4GzRU",
+  "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f1027a83-30bb-47a6-9330-3e993a8790b4/42026678-51b5-439c-8f71-ffadc44979f5/Create_one_standalone_cinematic_historical_documentary_frame.jpg?_jwt=eyJhbGciOiJI1NiIsImJrZXlIYXNoIjoiYWJlNDQ5M2RiMWUwYmQyNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIxMzY5M30.xLQ5dPMZBoCRGEhlqJkVgZM-EBTeFrID_zvbarZxfMs"
+];
+const sourceCredit = 'Map: Macucal, Wikimedia Commons, CC BY-SA 3.0 / GFDL';
 const chapterFiles = [];
 const sceneFiles = [];
 
@@ -174,10 +189,11 @@ for (const c of manifest.chapters) {
       <text x="70" y="650" fill="#c9c5bb" font-family="DejaVu Sans" font-size="18">${escapeFilter(tags)}</text>
       <text x="70" y="685" fill="#8e8b84" font-family="DejaVu Sans" font-size="16">${escapeFilter(sourceCredit)}</text>
     </svg>`;
+    const assetUrl = sceneAssets[(sceneFiles.length) % sceneAssets.length];
+    const pngPath=path.join(sceneDir,`${i+1}.jpg`);
+    run('curl',['-L','--fail','--silent','--show-error','-o',pngPath,assetUrl]);
     const svgPath=path.join(sceneDir,`${i+1}.svg`);
-    const pngPath=path.join(sceneDir,`${i+1}.png`);
     fs.writeFileSync(svgPath,sceneSvg);
-    run('rsvg-convert',['-w','1280','-h','720','-o',pngPath,svgPath]);
 
     const motion = i % 3 === 0
       ? 'zoompan=z=1+0.06*on/864:d=1:s=1280x720:fps=24'
