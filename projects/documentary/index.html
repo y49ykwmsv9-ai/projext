@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The World at War: 1936–1945</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:#090b0f;color:#e9e3d4;font-family:Georgia,serif}
+#app{min-height:100vh;display:grid;grid-template-rows:auto 1fr auto}
+header{padding:18px 24px;border-bottom:1px solid #343842;background:#0d1016;display:flex;justify-content:space-between;gap:20px;align-items:center}
+h1{font-size:clamp(20px,3vw,34px);margin:0}.sub{font:12px/1.4 system-ui;color:#9ea6b4}
+main{display:grid;grid-template-columns:minmax(0,1fr) 340px;min-height:0}
+#stage{position:relative;min-height:70vh;background:#14171d;overflow:hidden}
+#visual{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.78) contrast(1.02)}
+#shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.68),transparent 48%,rgba(0,0,0,.35))}
+#caption{position:absolute;left:6%;right:6%;bottom:7%;max-width:850px}
+#year{font:700 16px system-ui;letter-spacing:.18em;color:#d7b56d}
+#title{font-size:clamp(30px,5vw,64px);margin:8px 0;text-shadow:0 2px 20px #000}
+#narration{font-size:clamp(15px,1.6vw,21px);line-height:1.55;color:#eee9df;text-shadow:0 1px 8px #000}
+aside{border-left:1px solid #343842;background:#0e1117;padding:18px;overflow:auto}
+button{border:1px solid #555d6b;background:#171c24;color:#eee;padding:10px 13px;border-radius:7px;cursor:pointer}
+button:hover{background:#222a35}
+.controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chapter{padding:12px;border:1px solid #2c313b;border-radius:8px;margin:8px 0;background:#11151c;cursor:pointer}
+.chapter.active{border-color:#b99452;background:#171817}
+.chapter strong{display:block}.chapter span{font:12px system-ui;color:#9ea6b4}
+footer{padding:10px 18px;border-top:1px solid #343842;background:#0d1016;font:12px system-ui;color:#9ea6b4}
+@media(max-width:800px){main{grid-template-columns:1fr}aside{border-left:0;border-top:1px solid #343842;max-height:38vh}#stage{min-height:62vh}}
+</style>
+</head>
+<body>
+<div id="app">
+<header><div><h1>The World at War: 1936–1945</h1><div class="sub">Chronicle historical documentary • original map and archival-style graphics • 60-minute production plan</div></div><div class="controls"><button id="play">▶ Play narration</button><button id="pause">Ⅱ Pause</button><button id="stop">■ Stop</button></div></header>
+<main>
+<section id="stage">
+<img id="visual" alt="Documentary visual">
+<div id="shade"></div>
+<div id="caption"><div id="year"></div><div id="title"></div><div id="narration"></div></div>
+</section>
+<aside><div class="sub">CHAPTERS</div><div id="chapters"></div></aside>
+</main>
+<footer>Historical chronology cross-checked against the United States Holocaust Memorial Museum. This production uses original documentary graphics rather than reproducing another channel's branded visual package.</footer>
+</div>
+<script>
+const images=[
+"https://dnznrvs05pmza.cloudfront.net/b2ecd4e4-3162-4d62-b787-7cd5369c6a25.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYTViMzE4ZDUzMzAyYjEzOCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDE3OTU0MX0.bfIDKuC0p82bz7Td86zMGsA0-YjUOLj-DJouDf4zQ0E",
+"https://dnznrvs05pmza.cloudfront.net/90c1d975-536f-4cc6-aaae-69b511debf51.png",
+"https://dnznrvs05pmza.cloudfront.net/93b91e92-57e5-4a52-bb21-1f6c7666524b.png",
+"https://dnznrvs05pmza.cloudfront.net/802ddcaa-8760-457c-bafa-91ac020120dd.png",
+"https://dnznrvs05pmza.cloudfront.net/5ad0ba7f-24fc-408f-be39-e784520a9efa.png"
+];
+const chapters=[
+["1936","A Continent Under Pressure","In 1936 Europe was not yet at war, but the political system built after the First World War was under sustained pressure. Germany remilitarized the Rhineland in March, testing whether the other powers would enforce the postwar settlement. Later that year Germany and Italy announced the Rome-Berlin Axis, while Germany and Japan signed the Anti-Comintern Pact. Rearmament, ideological conflict, and the weakness of collective security were changing the strategic balance. The important point is not that a single decision made a later war inevitable. Rather, several governments were testing the limits of the international order at the same time."],
+["1938","The Crisis of Central Europe","In 1938 the crisis moved directly into Central Europe. Germany incorporated Austria in the Anschluss in March, and later in the year the Munich Agreement transferred the Sudeten border regions of Czechoslovakia to Germany. The settlement was presented at the time as a way to prevent a larger European war, but it left Czechoslovakia strategically weakened. In November, Kristallnacht marked a major escalation of organized anti-Jewish violence under the Nazi regime. These events belong in the same chronology, but they should not be collapsed into one simple story."],
+["1939","The War Begins","On August 23, 1939 Germany and the Soviet Union signed a non-aggression agreement with a secret protocol dividing parts of Eastern Europe into spheres of influence. On September 1 Germany invaded Poland. Britain and France declared war on Germany on September 3, turning the Polish crisis into a European war. Soviet forces entered eastern Poland on September 17, and Poland was partitioned between the two powers. The campaign demonstrated the vulnerability of smaller states caught between larger military powers."],
+["1940","The Fall of the West","The relative lull after the destruction of Poland ended in April 1940. Germany attacked Denmark and Norway, then launched its western offensive on May 10 against the Low Countries and France. German forces reached the English Channel, and France signed an armistice in June. Britain remained in the war, protected by the Channel and supported by the Royal Air Force and Royal Navy. The Battle of Britain followed as Germany sought the conditions for a possible invasion."],
+["1941","A Wider War","In 1941 the war widened dramatically. Germany and its allies attacked Yugoslavia and Greece in April, then on June 22 launched the invasion of the Soviet Union. German armies advanced deep into Soviet territory, but the campaign did not produce the quick victory Berlin had sought. By the autumn, resistance around Leningrad and Moscow was hardening. On December 7 Japan attacked Pearl Harbor, and the United States entered the war. Germany and Italy then declared war on the United States."],
+["1942","The Limits of Expansion","By 1942 Axis expansion reached its greatest geographic extent, but the strategic picture was changing. In the Pacific, the United States halted a major Japanese advance at Midway. In North Africa, British forces and their allies contested the Axis advance toward Egypt. On the Eastern Front, Germany renewed its offensive toward the Volga and the Caucasus, reaching Stalingrad. At the same time, Nazi persecution had developed into systematic mass murder."],
+["1943","The Tide Turns","The surrender of the German Sixth Army at Stalingrad in February 1943 marked a major strategic reversal on the Eastern Front. Germany still possessed formidable military power, but its ability to dictate the direction of the war was diminishing. In July the Germans launched the Battle of Kursk, where Soviet forces absorbed and then defeated the offensive. That same month Allied forces landed in Sicily. Italy's Fascist government fell, and German forces continued the fighting."],
+["1944","The Great Counteroffensive","In 1944 the Allies opened a major front in Western Europe with the Normandy landings on June 6. More than two million Allied soldiers would enter France during the campaign that followed. In the east, the Soviet Operation Bagration destroyed much of German Army Group Centre and drove German forces westward. Paris was liberated in August, while Romania changed sides. By the end of the year Germany still had significant forces, but it was fighting from increasingly compressed defensive positions."],
+["1945","The Collapse of Nazi Germany","The final campaign in Europe began with enormous Soviet and Western Allied advances in early 1945. Soviet forces crossed into Germany from the east while American and British forces crossed the Rhine in March. Berlin was encircled in April. Adolf Hitler died on April 30, and Germany surrendered unconditionally in May. The surrender ended the European war, but it did not immediately end the global conflict."],
+["1945","A War Becomes a World Order","The war continued in Asia after Germany's surrender. The United States used atomic bombs against Hiroshima on August 6 and Nagasaki on August 9. The Soviet Union entered the war against Japan on August 8 and invaded Japanese-held Manchuria. Japan formally surrendered on September 2, 1945. Europe was divided into competing political spheres, the United States and Soviet Union emerged as superpowers, and the postwar international order began to take shape."]
+];
+let current=0, speaking=false;
+const $=id=>document.getElementById(id);
+function render(){
+ const c=chapters[current];
+ $("year").textContent=c[0];
+ $("title").textContent=c[1];
+ $("narration").textContent=c[2];
+ $("visual").src=images[Math.min(images.length-1,Math.floor(current/2))];
+ document.querySelectorAll(".chapter").forEach((e,i)=>e.classList.toggle("active",i===current));
+}
+function speak(){
+ speechSynthesis.cancel();
+ const u=new SpeechSynthesisUtterance(chapters[current][2]);
+ u.rate=.93;u.pitch=.95;u.onend=()=>{if(current<chapters.length-1){current++;render();speak();}};
+ speechSynthesis.speak(u);speaking=true;
+}
+chapters.forEach((c,i)=>{
+ const d=document.createElement("div");d.className="chapter";d.innerHTML="<strong>"+c[0]+" · "+c[1]+"</strong><span>Chapter "+(i+1)+"</span>";
+ d.onclick=()=>{speechSynthesis.cancel();current=i;render();};
+ $("chapters").appendChild(d);
+});
+$("play").onclick=speak;
+$("pause").onclick=()=>speechSynthesis.pause();
+$("stop").onclick=()=>{speechSynthesis.cancel();speaking=false;};
+render();
+</script>
+</body>
+</html>
