@@ -126,3 +126,85 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
  .info-panel{max-height:48dvh}
  .log-dock{bottom:105px;max-height:12dvh}
 }
+
+/* FINAL MOBILE COLLISION GRID
+   One owner per screen zone. Humans apparently need maps and buttons to stop fighting each other. */
+@media(max-width:600px){
+  .game-shell{height:100dvh;min-height:0;overflow:hidden}
+  .top-controls{
+    top:env(safe-area-inset-top,0px)!important;
+    left:6px!important;right:6px!important;
+    height:54px!important;min-height:54px!important;max-height:54px!important;
+    padding:5px 7px!important;gap:6px!important;
+    flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;
+    z-index:90!important;
+  }
+  .top-controls>div:nth-child(2){flex:0 0 auto!important}
+  .top-controls .time-controls{margin-left:auto!important;flex:0 0 auto!important;flex-wrap:nowrap!important}
+  .top-controls .time-controls>*{flex:0 0 auto!important}
+  .map-hint{display:none!important}
+  .map-modes{
+    top:calc(62px + env(safe-area-inset-top,0px))!important;
+    left:6px!important;right:6px!important;
+    width:auto!important;max-width:none!important;
+    height:42px!important;min-height:42px!important;
+    padding:0!important;
+    flex-wrap:nowrap!important;white-space:nowrap!important;
+    overflow-x:auto!important;overflow-y:hidden!important;
+    z-index:70!important;
+  }
+  .map-modes span,.map-modes button{height:42px!important;min-height:42px!important;display:flex!important;align-items:center!important}
+  .map-modes button{flex:0 0 auto!important;padding:7px 11px!important}
+  .game-shell.panel-open .event-stack,
+  .game-shell.panel-open .live-report-stack{
+    top:110px!important;
+    max-height:12dvh!important;
+    z-index:25!important;
+  }
+  .game-shell.panel-open .event-stack{left:6px!important;width:calc(50% - 9px)!important}
+  .game-shell.panel-open .live-report-stack{left:calc(50% + 3px)!important;right:6px!important;width:auto!important}
+  .info-panel{
+    top:auto!important;
+    left:6px!important;right:6px!important;
+    bottom:calc(112px + var(--wf-safe-bottom))!important;
+    width:auto!important;
+    max-height:calc(100dvh - 270px)!important;
+    z-index:100!important;
+    overflow-y:auto!important;
+  }
+  .menu-pop{
+    top:calc(62px + env(safe-area-inset-top,0px))!important;
+    left:6px!important;right:auto!important;
+    max-width:calc(100vw - 12px)!important;
+    max-height:calc(100dvh - 130px)!important;
+    z-index:110!important;
+  }
+  .command-bar{
+    left:6px!important;right:62px!important;
+    bottom:calc(58px + var(--wf-safe-bottom))!important;
+    height:50px!important;
+    z-index:95!important;
+  }
+  .zoom-dock{
+    right:6px!important;
+    bottom:calc(112px + var(--wf-safe-bottom))!important;
+    z-index:96!important;
+  }
+  .tab-dock{
+    left:6px!important;right:6px!important;
+    bottom:var(--wf-safe-bottom)!important;
+    width:auto!important;max-width:none!important;
+    height:50px!important;
+    z-index:97!important;
+    overflow-x:auto!important;overflow-y:hidden!important;
+  }
+  .tab-dock button{height:50px!important;min-height:50px!important;flex:0 0 auto!important}
+  .log-dock{
+    left:6px!important;right:6px!important;
+    bottom:calc(164px + var(--wf-safe-bottom))!important;
+    max-height:42px!important;
+    z-index:80!important;
+    overflow:hidden!important;
+  }
+  .game-shell.panel-open .interpretation-card{display:none!important}
+}
