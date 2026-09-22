@@ -6,6 +6,8 @@ on:
     paths:
       - "scripts/resolve-cliopatria-sample.mjs"
       - "scripts/render-cliopatria-sample.mjs"
+      - "scripts/render-711-cinematic-scene.py"
+      - ".github/workflows/reconquista-711-cinematic.yml"
       - "projects/documentary/map-style.json"
       - "projects/documentary/data/cliopatria-plus/reconquista-atlas.json"
       - "scripts/validate-reconquista-atlas.mjs"
@@ -21,7 +23,7 @@ jobs:
       - name: Install rendering tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg librsvg2-bin curl unzip fonts-dejavu
+          sudo apt-get install -y ffmpeg librsvg2-bin curl unzip fonts-dejavu python3-pil
           python3 -m pip install --user --disable-pip-version-check piper-tts
           mkdir -p voices
           python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
@@ -31,6 +33,14 @@ jobs:
         run: node scripts/resolve-cliopatria-sample.mjs
       - name: Render 750 Cliopatria sample
         run: node scripts/render-cliopatria-sample.mjs
+      - name: Render 711 cinematic scene
+        run: python3 scripts/render-711-cinematic-scene.py
+      - name: Upload 711 cinematic scene
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconquista-711-cinematic-20s
+          path: /tmp/reconquista711/reconquista-711-cinematic-20s.mp4
+          retention-days: 14
       - name: Upload sample
         uses: actions/upload-artifact@v7
         with:
