@@ -1,11 +1,74 @@
 {
-  "schema_version": "1.0.0",
-  "entity_types": ["polity", "event", "person", "place", "observation", "relation", "territorial_snapshot"],
-  "temporal_model": {"year_format": "integer", "bce": "negative", "ce": "positive", "open_end": 9999},
+  "schema_version": "1.1.0",
+  "database": "HISTORIX",
+  "entity_types": [
+    "polity",
+    "event",
+    "person",
+    "place",
+    "observation",
+    "relation",
+    "territorial_snapshot"
+  ],
+  "temporal_model": {
+    "year_format": "integer",
+    "bce": "negative",
+    "ce": "positive",
+    "open_end": 9999
+  },
   "provenance_required": true,
-  "polity_required": ["id", "canonical_name", "type", "start_year", "end_year"],
-  "observation_metrics": ["population", "gdp", "gdp_per_capita", "urbanization", "tax_revenue", "military_manpower", "agricultural_output", "trade", "other"],
-  "event_types": ["war", "battle", "treaty", "revolution", "succession", "migration", "epidemic", "disaster", "economic", "technological", "religious", "diplomatic", "other"],
-  "confidence_levels": ["high", "medium", "low", "unknown"],
-  "numeric_observation_fields": ["metric", "year", "value", "lower", "upper", "unit", "currency_basis", "confidence", "source_ids"]
+  "event_types": [
+    "war",
+    "battle",
+    "treaty",
+    "revolution",
+    "succession",
+    "migration",
+    "epidemic",
+    "disaster",
+    "economic",
+    "technological",
+    "religious",
+    "diplomatic",
+    "exploration",
+    "independence",
+    "colonialism",
+    "other"
+  ],
+  "relation_types": [
+    "related_to",
+    "participated_in",
+    "located_at",
+    "ruled",
+    "predecessor_of",
+    "successor_of",
+    "fought",
+    "allied_with",
+    "succeeded",
+    "occurred_at",
+    "affected"
+  ],
+  "confidence_levels": [
+    "high",
+    "medium",
+    "low",
+    "unknown"
+  ],
+  "numeric_observation_fields": [
+    "metric",
+    "year",
+    "value",
+    "lower",
+    "upper",
+    "unit",
+    "currency_basis",
+    "confidence",
+    "source_ids"
+  ],
+  "graph_requirements": {
+    "stable_ids": true,
+    "source_ids": true,
+    "temporal_scope": true,
+    "orphan_relationships_rejected": true
+  }
 }
