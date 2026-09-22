@@ -81,10 +81,10 @@ export default function MapForgeStudio(){
         historicalChecks.push({id:"historical-"+sc.id,label:"Historical data",passed:active.length>0,severity:active.length>0?"info":"warning",detail:active.length?active.length+" active polities in scene scope.":"No CLIOPATRIA polity matched this scene scope; review before publication."});
       }
       setRenderPhase("continuity");
-      const gate=[...project.checks,...historicalChecks,...renderGate(project.clips)];
-      const fatal=gate.some(x=>x.severity==="error"&&!x.passed);
-      setProject({...project,checks:gate});
-      if(fatal){setStatus("Final render blocked by production QC.");return;}
+      const preGate=[...project.checks,...historicalChecks];
+      const fatal=preGate.some(x=>x.severity==="error"&&!x.passed);
+      setProject({...project,checks:preGate});
+      if(fatal){setStatus("Render blocked by chronology or historical QC.");return;}
       setRenderPhase("voice-generation");setStatus("Generating neural narration and measuring every scene…");
       for(const sc of project.clips){
         if(!sc.narration)continue;
@@ -92,6 +92,9 @@ export default function MapForgeStudio(){
         sc.narrationSeconds=audioCache.current[sc.id].duration;
         sc.duration=Math.max(4,sc.narrationSeconds+0.6);
       }
+      const finalGate=[...preGate,...renderGate(project.clips)];
+      if(finalGate.some(x=>x.severity==="error"&&!x.passed)){setProject({...project,checks:finalGate});setRenderPhase("final-qc");setStatus("Render blocked by final QC.");return;}
+      setProject({...project,checks:finalGate});
       setRenderPhase("audio-sync");
       const canvas=m.getCanvas().captureStream(project.fps);
       const ctx=new AudioContext();
