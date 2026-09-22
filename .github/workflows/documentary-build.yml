@@ -1,25 +1,49 @@
-name: Chronicle Documentary Build
+name: Reconquista Documentary Build
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "scripts/generate-documentary.mjs"
+      - "scripts/render-documentary.mjs"
       - "projects/documentary/**"
       - "data/historical-polities-expansion-v2.csv"
 
 jobs:
-  build-documentary-package:
+  render-reconquista:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - name: Generate documentary manifest
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install free rendering tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng librsvg2-bin curl fonts-dejavu
+
+      - name: Generate historical documentary package
         run: node scripts/generate-documentary.mjs
-      - name: Upload production package
-        uses: actions/upload-artifact@v4
+
+      - name: Render 60-minute documentary
+        run: node scripts/render-documentary.mjs
+
+      - name: Upload finished MP4
+        uses: actions/upload-artifact@v7
         with:
-          name: chronicle-documentary-production-package
-          path: projects/documentary/build/
+          name: reconquista-documentary-60min
+          path: projects/documentary/build/reconquista-documentary-60min.mp4
+          archive: false
+          compression-level: 0
+          retention-days: 14
+
+      - name: Upload source package and credits
+        uses: actions/upload-artifact@v7
+        with:
+          name: reconquista-documentary-sources
+          path: |
+            projects/documentary/build/documentary-manifest.json
+            projects/documentary/build/documentary-script.md
+            projects/documentary/build/documentary-shotlist.csv
+            projects/documentary/build/render-plan.json
+          retention-days: 14
