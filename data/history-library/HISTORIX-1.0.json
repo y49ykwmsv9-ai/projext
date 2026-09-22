@@ -1,0 +1,55 @@
+{
+  "name": "HISTORIX",
+  "version": "1.0.0",
+  "release_status": "production-baseline",
+  "generated_at": "2026-09-22",
+  "repository": "y49ykwmsv9-ai/projext",
+  "scope": {
+    "polity_baseline": "Cliopatria-complete",
+    "cliopatria_source_commit": "ad28a691b7c07c1fca89d0e0636d324667d2a258",
+    "unique_cliopatria_polities": 1583,
+    "generated_polity_resources": 2216,
+    "curated_historical_record_source": "lib/historical-records.ts",
+    "runtime_model": "lazy-loaded modular resources"
+  },
+  "guarantees": [
+    "Every unique POLITY name in the pinned Cliopatria source snapshot is imported.",
+    "Stable collision-safe IDs are assigned to Cliopatria polity resources.",
+    "Temporal and spatial source records are preserved with provenance.",
+    "Historical resources are addressable independently rather than requiring one monolithic client bundle.",
+    "Validation fails the build when the Cliopatria completeness target is not met."
+  ],
+  "resource_domains": [
+    "polities",
+    "events",
+    "people",
+    "places",
+    "observations",
+    "relations",
+    "territorial_snapshots"
+  ],
+  "quantitative_domains": [
+    "population",
+    "gdp",
+    "gdp_per_capita",
+    "urbanization",
+    "tax_revenue",
+    "military_manpower",
+    "agricultural_output",
+    "trade",
+    "resources",
+    "infrastructure",
+    "technology",
+    "government_capacity"
+  ],
+  "epistemic_policy": {
+    "estimates_are_not_treated_as_exact": "Ancient and medieval quantitative values retain source and confidence metadata.",
+    "provenance_required": true,
+    "conflicting_estimates_retained": true
+  },
+  "known_v1_scope_limitations": [
+    "The release is a production historical-data foundation, not a claim that every historical event, person, place, or numerical observation has already been digitized.",
+    "Additional event, person, place, and quantitative datasets are ingested through subsequent source adapters without changing the core schema.",
+    "Upstream datasets with restrictive licenses are referenced and validated for compatibility before redistribution."
+  ]
+}
