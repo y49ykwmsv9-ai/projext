@@ -1,4 +1,5 @@
-import type { CameraMode, MapForgeClip, MapForgeProject, MapForgeCheck, MapForgeVoice } from "./types";
+import type { CameraMode, MapForgeClip, MapForgeProject, MapForgeVoice } from "./types";
+import {addTransitionRoutes,narrationSeconds,runContinuityChecks} from "./continuity";
 
 const places:Record<string,[number,number]> = {
   "gibraltar":[-5.35,36.14],"tangier":[-5.81,35.78],"cordoba":[-4.78,37.89],
@@ -28,19 +29,7 @@ const reconquista: Array<[number,string,string,[number,number],number,CameraMode
 
 function narrationFor(title:string,year:number,prompt:string){
   const clean=prompt.replace(/\s+/g," ").trim();
-  return `${title}. In ${year}, the political geography described by this scene is changing around ${title.toLowerCase()}. ${clean.slice(0,220)}. The sequence then moves forward without assuming that later outcomes have already happened.`;
-}
-function buildChecks(clips:MapForgeClip[]):MapForgeCheck[]{
-  const checks:MapForgeCheck[]=[];
-  for(let i=1;i<clips.length;i++){
-    const a=clips[i-1],b=clips[i];
-    checks.push({id:"chronology-"+i,label:"Chronology",passed:(a.year??0)<=(b.year??0),severity:"error",detail:`${a.year??"undated"} → ${b.year??"undated"}`});
-    const distance=Math.hypot(b.center[0]-a.center[0],b.center[1]-a.center[1]);
-    checks.push({id:"geography-"+i,label:"Geographic continuity",passed:distance<35,severity:distance<35?"info":"warning",detail:distance<35?"Camera transition is spatially plausible.":"Large geographic jump: insert an establishing shot or route transition."});
-    checks.push({id:"camera-"+i,label:"Camera continuity",passed:Math.abs((b.zoom??5)-(a.zoom??5))<=2.2,severity:Math.abs((b.zoom??5)-(a.zoom??5))<=2.2?"info":"warning",detail:"Zoom delta checked for a smooth transition."});
-    checks.push({id:"narration-"+i,label:"Narration continuity",passed:!!b.narration&&b.narration.length>80,severity:"warning",detail:b.narration&&b.narration.length>80?"Narration has enough context for a scene.":"Narration needs expansion."});
-  }
-  return checks;
+  return `${title}. In ${year}, this scene establishes the political and geographic context before the sequence moves forward. The map focuses on the places and powers relevant to this moment, while later developments remain outside the scene until their own date. ${clean.slice(0,360)}`;
 }
 function findPlace(text:string) {
   const key=Object.keys(places).sort((a,b)=>b.length-a.length).find(k=>text.toLowerCase().includes(k));
@@ -66,7 +55,8 @@ export function planFromPrompt(prompt:string):MapForgeProject {
     clips[10].layers.push({id:"battle-route",kind:"route",label:"Christian campaign",coordinates:[places.toledo,places["las navas de tolosa"]],color:"#9fb8c3",width:4});
     clips[14].layers.push({id:"final-route",kind:"route",label:"Final campaign",coordinates:[places.toledo,places.granada],color:"#d6b36a",width:4});
     const voice:MapForgeVoice={provider:"neural",voice:"af_heart",language:"en-US",pace:0.96,tone:"documentary",model:"Kokoro-82M"};
-    return {title:"The Reconquista, 711–1492",prompt,mapSource:"historical",aspectRatio:"16:9",fps:30,resolution:"1080p",theme:"dark",clips,voice,checks:buildChecks(clips),credits:["OpenHistoricalMap contributors","Cliopatria / Seshat Global History Databank","MapLibre GL JS"]};
+    clips=addTransitionRoutes(clips).map(c=>({...c,narrationSeconds:narrationSeconds(c.narration||"",voice.pace)}));
+    return {title:"The Reconquista, 711–1492",prompt,mapSource:"historical",aspectRatio:"16:9",fps:30,resolution:"1080p",theme:"dark",clips,voice,checks:runContinuityChecks(clips),credits:["OpenHistoricalMap contributors","Cliopatria / Seshat Global History Databank","MapLibre GL JS"]};
   }
   const ys=years(prompt);
   const center=findPlace(prompt);
@@ -79,5 +69,6 @@ export function planFromPrompt(prompt:string):MapForgeProject {
     ],narration:prompt.trim()
   }));
   const voice:MapForgeVoice={provider:"neural",voice:"af_heart",language:"en-US",pace:0.96,tone:"documentary",model:"Kokoro-82M"};
-  return {title:prompt.trim().slice(0,80)||"MapForge project",prompt,mapSource:"historical",aspectRatio:"16:9",fps:30,resolution:"1080p",theme:"dark",clips,voice,checks:buildChecks(clips),credits:["OpenHistoricalMap contributors","Cliopatria / Seshat Global History Databank","OpenFreeMap / OpenStreetMap","MapLibre GL JS"]};
+  clips=addTransitionRoutes(clips).map(c=>({...c,narrationSeconds:narrationSeconds(c.narration||"",voice.pace)}));
+  return {title:prompt.trim().slice(0,80)||"MapForge project",prompt,mapSource:"historical",aspectRatio:"16:9",fps:30,resolution:"1080p",theme:"dark",clips,voice,checks:runContinuityChecks(clips),credits:["OpenHistoricalMap contributors","Cliopatria / Seshat Global History Databank","OpenFreeMap / OpenStreetMap","MapLibre GL JS"]};
 }
