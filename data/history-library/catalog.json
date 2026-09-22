@@ -1,36 +1,13 @@
 {
-  "schema_version": "1.1.0",
-  "database": "HISTORIX",
-  "version": "1.1.0",
-  "generated_at": "2026-09-22",
-  "status": "production-graph-baseline",
-  "resource_roots": {
-    "polities": "data/history-library/polities/",
-    "events": "data/history-library/events/",
-    "people": "data/history-library/people/",
-    "places": "data/history-library/places/",
-    "observations": "data/history-library/observations/",
-    "relations": "data/history-library/relations/",
-    "graph": "data/history-library/graph/"
-  },
-  "cliopatria_baseline": {
-    "source_commit": "ad28a691b7c07c1fca89d0e0636d324667d2a258",
-    "unique_polities_required": 1583,
-    "completeness_rule": "unique POLITY names"
-  },
-  "curated_graph": {
-    "events": 100,
-    "places": 37,
-    "people": 59,
-    "relations": 143,
-    "source": "lib/historical-records.ts"
-  },
-  "numeric_sources_registered": [
-    "Maddison Project Database 2023",
-    "Clio-Infra",
-    "Seshat quantitative releases",
-    "Correlates of War datasets where licensing permits"
-  ],
-  "runtime_rule": "Use stable IDs and lazy-load only the requested domain/resource.",
-  "scope_note": "1.1 adds a normalized first-class curated historical graph. It does not claim exhaustive event/person/place coverage."
+  "schema_version":"1.2.0",
+  "database":"HISTORIX",
+  "version":"1.2.0",
+  "generated_at":"2026-09-22",
+  "status":"quantitative-substrate-baseline",
+  "resource_roots":{"polities":"data/history-library/polities/","events":"data/history-library/events/","people":"data/history-library/people/","places":"data/history-library/places/","observations":"data/history-library/observations/","relations":"data/history-library/relations/","graph":"data/history-library/graph/","numeric":"data/history-library/numeric/"},
+  "cliopatria_baseline":{"source_commit":"ad28a691b7c07c1fca89d0e0636d324667d2a258","unique_polities_required":1583,"completeness_rule":"unique POLITY names"},
+  "curated_graph":{"events":100,"places":37,"people":59,"relations":143,"source":"lib/historical-records.ts"},
+  "quantitative_layer":{"version":"1.2.0","manifest":"data/history-library/HISTORIX-1.2-manifest.json","source_registry":"data/history-library/numeric/source-registry.json","primary_source":"mpd2023"},
+  "runtime_rule":"Use stable IDs and lazy-load only the requested domain/resource.",
+  "scope_note":"1.2 adds the quantitative observation contract and source ingestion layer. It preserves uncertainty and provenance and does not claim exhaustive numerical coverage of all historical polities."
 }
