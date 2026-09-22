@@ -1,0 +1,16 @@
+{
+  "database": "HISTORIX",
+  "version": "1.2.0",
+  "layer": "quantitative-historical-substrate",
+  "status": "source-ready",
+  "numeric_domains": ["population", "gdp", "gdp_per_capita", "urbanization", "trade", "tax_revenue", "military_manpower", "agricultural_output"],
+  "observation_model": {
+    "one_row": "one metric observation for one entity and year",
+    "uncertainty": "lower and upper bounds are optional and preserved when supplied",
+    "provenance": "every observation carries source_ids and source_record_id",
+    "historical_years": "BCE uses negative integers; CE uses positive integers"
+  },
+  "registered_sources": ["mpd2023", "clioinfra", "seshat-quant", "cow-state-system", "cow-nmc"],
+  "runtime": "quantitative packs are lazy-loaded by source/domain/entity",
+  "scope_note": "1.2 establishes the numerical schema, source registry, ingestion contracts, validation, and runtime query layer. It does not fabricate precision where historical sources provide estimates or sparse observations."
+}
