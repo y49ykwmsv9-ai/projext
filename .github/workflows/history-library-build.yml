@@ -11,6 +11,7 @@ on:
       - "scripts/build-history-library.py"
       - "scripts/validate-history-library.py"
       - "scripts/validate-historix-1.1.py"
+      - "scripts/validate-historix-1.2.py"
       - ".github/workflows/history-library-build.yml"
 
 jobs:
@@ -18,39 +19,29 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
+        with: {python-version: "3.12"}
       - name: Download pinned Cliopatria source snapshot
-        env:
-          CLIOPATRIA_COMMIT: ad28a691b7c07c1fca89d0e0636d324667d2a258
+        env: {CLIOPATRIA_COMMIT: ad28a691b7c07c1fca89d0e0636d324667d2a258}
         run: |
           mkdir -p .history-upstream
-          curl -L --fail --retry 3             "https://github.com/Seshat-Global-History-Databank/cliopatria/raw/$CLIOPATRIA_COMMIT/cliopatria.geojson.zip"             -o .history-upstream/cliopatria.geojson.zip
+          curl -L --fail --retry 3 "https://github.com/Seshat-Global-History-Databank/cliopatria/raw/$CLIOPATRIA_COMMIT/cliopatria.geojson.zip" -o .history-upstream/cliopatria.geojson.zip
           unzip -o .history-upstream/cliopatria.geojson.zip -d .history-upstream
           test -s .history-upstream/cliopatria_polities_only.geojson
-
       - name: Build modular HISTORIX resources
-        run: |
-          python scripts/build-history-library.py             --cliopatria .history-upstream/cliopatria_polities_only.geojson
-
+        run: python scripts/build-history-library.py --cliopatria .history-upstream/cliopatria_polities_only.geojson
       - name: Enforce Cliopatria completeness target
-        run: |
-          python scripts/validate-history-library.py --require-cliopatria
-
+        run: python scripts/validate-history-library.py --require-cliopatria
       - name: Validate HISTORIX 1.1 graph
-        run: |
-          python scripts/validate-historix-1.1.py
-
+        run: python scripts/validate-historix-1.1.py
+      - name: Validate HISTORIX 1.2 quantitative layer
+        run: python scripts/validate-historix-1.2.py
       - name: Upload HISTORIX library artifact
         uses: actions/upload-artifact@v4
         with:
-          name: historix-1.0-library
+          name: historix-1.2-library
           path: data/history-library
           retention-days: 30
