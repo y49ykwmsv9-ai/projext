@@ -94,12 +94,12 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   map.on('error',fail);
   map.on('load',()=>{
    map.addSource('wf-countries',{type:'geojson',data:countries,promoteId:'__wf_id'});
-   map.addLayer({id:'wf-country-fill',type:'fill',source:'wf-countries',paint:{'fill-color':'#52636d','fill-opacity':['interpolate',['linear'],['zoom'],0,.78,4,.62,7,.28,12,.10,18,.03]}});
+   map.addLayer({id:'wf-country-fill',type:'fill',source:'wf-countries',paint:{'fill-color':'#52636d','fill-opacity':['interpolate',['linear'],['zoom'],0,.78,4,.62,7,.32,12,.14,18,.05]}});
    map.addLayer({id:'wf-country-line',type:'line',source:'wf-countries',paint:{'line-color':'#101820','line-width':['interpolate',['linear'],['zoom'],.65,.45,4,.75,8,1.05,14,1.5,18,1.9],'line-opacity':.9}});
    map.addSource('wf-country-labels',{type:'geojson',data:labelFeatures});
    map.addLayer({id:'wf-country-labels',type:'symbol',source:'wf-country-labels',minzoom:.65,layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],.65,6.2,2,7.2,5,9,9,11,14,13],'text-anchor':'center','text-allow-overlap':true,'text-ignore-placement':true},paint:{'text-color':'#f2ead0','text-halo-color':'#0a1117','text-halo-width':1.35,'text-opacity':['interpolate',['linear'],['zoom'],.65,.82,3,.9,8,1]}});
    map.addSource('wf-admin1',{type:'geojson',data:{type:'FeatureCollection',features:admin1Features}});
-   map.addLayer({id:'wf-admin1-fill',type:'fill',source:'wf-admin1',minzoom:2.2,paint:{'fill-color':'#e5c777','fill-opacity':['interpolate',['linear'],['zoom'],2,.08,5,.055,9,.025,14,.012]}});
+   map.addLayer({id:'wf-admin1-fill',type:'fill',source:'wf-admin1',minzoom:2.2,paint:{'fill-color':'#e5c777','fill-opacity':['interpolate',['linear'],['zoom'],2,.14,5,.10,9,.06,14,.035]}});
    map.addLayer({id:'wf-admin1-line',type:'line',source:'wf-admin1',minzoom:2.2,paint:{'line-color':'#d6c7a0','line-width':['interpolate',['linear'],['zoom'],2,.45,6,.8,10,1.2,16,1.8,21,2.4],'line-opacity':['interpolate',['linear'],['zoom'],2,.45,7,.72,14,.9,21,1]}});
    map.addSource('wf-cities',{type:'geojson',data:{type:'FeatureCollection',features:cityFeatures}});
    map.addLayer({id:'wf-city-points',type:'circle',source:'wf-cities',minzoom:5,paint:{'circle-radius':['interpolate',['linear'],['zoom'],5,1.7,10,2.7,16,4.5,18,5.5],'circle-color':'#f0d486','circle-stroke-color':'#111820','circle-stroke-width':1,'circle-opacity':.9}});
@@ -113,18 +113,38 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
    map.addLayer({id:'wf-history-line',type:'line',source:'wf-history',minzoom:0,paint:{'line-color':'#d9c5ec','line-width':1,'line-opacity':mapMode==='history'?.75:0}});
    map.addLayer({id:'wf-country-hitbox',type:'fill',source:'wf-countries',minzoom:0,paint:{'fill-color':'#ffffff','fill-opacity':0.001}});
    map.addLayer({id:'wf-city-labels',type:'symbol',source:'wf-cities',minzoom:6,layout:{'text-field':['get','name'],'text-size':['interpolate',['linear'],['zoom'],6,9,12,12,18,15,22,18],'text-offset':[0,1.05],'text-anchor':'top'},paint:{'text-color':'#f3e9c5','text-halo-color':'#101820','text-halo-width':1.3}});
-   map.on('click',(e:any)=>{
-    const cpHits=map.queryRenderedFeatures(e.point,{layers:['wf-cliopatria-hitbox']});
-    const cp=cpHits.find((f:any)=>f.properties?.__wf_nation_id);
+   const pickAt=(point:any)=>{
+    const zoomNow=map.getZoom();
+    const layers=zoomNow>=2.2
+      ? ['wf-admin1-fill','wf-cliopatria-fill','wf-country-fill','wf-admin1','wf-cliopatria-hitbox','wf-country-hitbox']
+      : ['wf-cliopatria-fill','wf-country-fill','wf-cliopatria-hitbox','wf-country-hitbox'];
+    const hits=map.queryRenderedFeatures(point,{layers});
+    const region=hits.find((f:any)=>String(f.layer?.id).startsWith('wf-admin1'));
+    if(region){
+      const p=region.properties??{};
+      const raw=String(p.id??p.adm1_code??p.code??region.id??'');
+      const rid=raw.startsWith('admin1-')?raw:'admin1-'+raw.replace(/[^a-zA-Z0-9_-]/g,'-');
+      if(raw) regionSelectRef.current(rid);
+      return true;
+    }
+    const cp=hits.find((f:any)=>String(f.layer?.id).startsWith('wf-cliopatria') && f.properties?.__wf_nation_id);
     if(cp){
       countrySelectRef.current(String(cp.properties.__wf_nation_id),String(cp.properties.__cp_name??'Unknown'));
-      return;
+      return true;
     }
-    const hits=map.queryRenderedFeatures(e.point,{layers:['wf-admin1','wf-country-hitbox']});
-    const region=hits.find((f:any)=>f.layer?.id==='wf-admin1');
-    if(region){const p=region.properties??{};const rid='admin1-'+String(p.adm1_code??p.code??region.id??'').replace(/[^a-zA-Z0-9_-]/g,'-');if(rid)regionSelectRef.current(rid);return;}
-    const country=hits.find((f:any)=>f.layer?.id==='wf-country-hitbox');
-    if(country)countrySelectRef.current(String(country.properties?.__wf_id??country.id),String(country.properties?.name??'Unknown'));
+    const country=hits.find((f:any)=>String(f.layer?.id).startsWith('wf-country'));
+    if(country){
+      countrySelectRef.current(String(country.properties?.__wf_id??country.id),String(country.properties?.name??'Unknown'));
+      return true;
+    }
+    return false;
+   };
+   map.on('click',(e:any)=>{pickAt(e.point);});
+   map.on('touchend',(e:any)=>{
+    if(e?.point) pickAt(e.point);
+   });
+   map.on('mouseup',(e:any)=>{
+    if(e?.point) pickAt(e.point);
    });
    map.on('mouseenter','wf-cliopatria-hitbox',()=>{map.getCanvas().style.cursor='pointer'});
    map.on('mouseleave','wf-cliopatria-hitbox',()=>{map.getCanvas().style.cursor=''});
