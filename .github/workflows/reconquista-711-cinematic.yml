@@ -14,14 +14,12 @@ jobs:
     env:
       MAP_URL: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg"
     steps:
-      - uses: actions/checkout@v4
-      - name: Install rendering tools and neural narration
+/      - uses: actions/checkout@v4
+      - name: Install rendering tools
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg librsvg2-bin python3-pil curl fonts-dejavu
-          python3 -m pip install --user --disable-pip-version-check piper-tts
-          mkdir -p voices
-          python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
+          python3 -m pip install --user --disable-pip-version-check edge-tts
       - name: Render event-driven 711 scene
         run: python3 scripts/render-711-cinematic-scene.py
       - name: Upload finished 20 second scene

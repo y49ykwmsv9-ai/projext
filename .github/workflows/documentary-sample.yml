@@ -2,6 +2,7 @@ name: Reconquista Documentary Sample
 
 on:
   workflow_dispatch:
+  pull_request:
   push:
     paths:
       - "scripts/resolve-cliopatria-sample.mjs"
@@ -24,15 +25,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg librsvg2-bin curl unzip fonts-dejavu python3-pil
-          python3 -m pip install --user --disable-pip-version-check piper-tts
-          mkdir -p voices
-          python3 -m piper.download_voices --data-dir voices en_US-lessac-medium
-      - name: Validate Cliopatria+ Reconquista atlas
-        run: node scripts/validate-reconquista-atlas.mjs
-      - name: Fetch and resolve Cliopatria
-        run: node scripts/resolve-cliopatria-sample.mjs
-      - name: Render 750 Cliopatria sample
-        run: node scripts/render-cliopatria-sample.mjs
+          python3 -m pip install --user --disable-pip-version-check edge-tts
       - name: Render 711 cinematic scene
         run: python3 scripts/render-711-cinematic-scene.py
       - name: Upload 711 cinematic scene
