@@ -1,9 +1,9 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "database": "HISTORIX",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "generated_at": "2026-09-22",
-  "status": "production-baseline",
+  "status": "production-graph-baseline",
   "resource_roots": {
     "polities": "data/history-library/polities/",
     "events": "data/history-library/events/",
@@ -11,19 +11,19 @@
     "places": "data/history-library/places/",
     "observations": "data/history-library/observations/",
     "relations": "data/history-library/relations/",
-    "territorial_snapshots": "data/history-library/territorial-snapshots/"
+    "graph": "data/history-library/graph/"
   },
-  "seed_sources": [
-    "data/historical-polities-since-1000-bce.csv",
-    "data/historical-polities-expansion-v2.csv",
-    "lib/historical-records.ts",
-    "lib/cliopatria.ts"
-  ],
   "cliopatria_baseline": {
     "source_commit": "ad28a691b7c07c1fca89d0e0636d324667d2a258",
     "unique_polities_required": 1583,
-    "coverage": "3400 BCE-2024 CE",
-    "completeness_rule": "unique POLITY names, not raw temporal/spatial feature count"
+    "completeness_rule": "unique POLITY names"
+  },
+  "curated_graph": {
+    "events": 100,
+    "places": 37,
+    "people": 59,
+    "relations": 143,
+    "source": "lib/historical-records.ts"
   },
   "numeric_sources_registered": [
     "Maddison Project Database 2023",
@@ -31,8 +31,6 @@
     "Seshat quantitative releases",
     "Correlates of War datasets where licensing permits"
   ],
-  "lookup_rule": "polities/<stable-id>.json; events/<stable-id>.json; people/<stable-id>.json; places/<stable-id>.json; observations/<stable-id>.json; relations/<stable-id>.json",
-  "runtime_rule": "Resources are lazy-loaded by stable ID and cached; the browser does not import the full historical corpus.",
-  "provenance_rule": "Every externally sourced observation must retain source, date, unit/scope and confidence or uncertainty metadata.",
-  "scope_note": "HISTORIX 1.0 is complete against its declared Cliopatria polity baseline. Event, person, place and quantitative coverage remains extensible and must not be represented as universally exhaustive."
+  "runtime_rule": "Use stable IDs and lazy-load only the requested domain/resource.",
+  "scope_note": "1.1 adds a normalized first-class curated historical graph. It does not claim exhaustive event/person/place coverage."
 }
