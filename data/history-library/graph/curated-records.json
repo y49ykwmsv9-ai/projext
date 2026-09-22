@@ -1,0 +1,4769 @@
+{
+  "database": "HISTORIX",
+  "version": "1.1.0",
+  "generated_at": "2026-09-22",
+  "source": "lib/historical-records.ts",
+  "record_counts": {
+    "events": 100,
+    "places": 37,
+    "people": 59,
+    "relations": 143
+  },
+  "events": [
+    {
+      "id": "sumer-urbanization",
+      "name": "Rise of Sumerian city-states",
+      "start": -3500,
+      "region": "Mesopotamia",
+      "description": "Growth of urban centers, writing and organized institutions in southern Mesopotamia.",
+      "tags": [
+        "ancient",
+        "urban",
+        "writing"
+      ],
+      "related_polities": [
+        "sumer"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "akkad-conquest",
+      "name": "Akkadian imperial expansion",
+      "start": -2334,
+      "region": "Mesopotamia",
+      "description": "Sargon of Akkad built an early territorial empire across Mesopotamia.",
+      "tags": [
+        "war",
+        "empire",
+        "mesopotamia"
+      ],
+      "related_polities": [
+        "akkad"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "ur-iii",
+      "name": "Third Dynasty of Ur established",
+      "start": -2112,
+      "region": "Mesopotamia",
+      "description": "Ur became the center of a highly administered Mesopotamian state.",
+      "tags": [
+        "state",
+        "administration",
+        "bronze-age"
+      ],
+      "related_polities": [
+        "ur-third-dynasty"
+      ],
+      "significance": 6,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hammurabi-reign",
+      "name": "Hammurabi consolidates Babylonia",
+      "start": -1792,
+      "region": "Mesopotamia",
+      "description": "Babylon expanded under Hammurabi and became a major Mesopotamian power.",
+      "tags": [
+        "war",
+        "law",
+        "babylon"
+      ],
+      "related_polities": [
+        "old-babylonian"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hittite-babylon",
+      "name": "Hittite sack of Babylon",
+      "start": -1595,
+      "region": "Mesopotamia",
+      "description": "A Hittite campaign ended the Old Babylonian dynasty.",
+      "tags": [
+        "war",
+        "collapse"
+      ],
+      "related_polities": [
+        "old-babylonian"
+      ],
+      "significance": 6,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "sea-peoples",
+      "name": "Late Bronze Age disruptions",
+      "start": -1200,
+      "region": "Eastern Mediterranean",
+      "description": "A period of warfare, migration and political disruption affected several eastern Mediterranean states.",
+      "tags": [
+        "bronze-age",
+        "migration",
+        "collapse"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "neo-assyrian-expansion",
+      "name": "Neo-Assyrian imperial expansion",
+      "start": -900,
+      "region": "Near East",
+      "description": "Assyria developed a large militarized empire across the Near East.",
+      "tags": [
+        "empire",
+        "war",
+        "assyria"
+      ],
+      "related_polities": [
+        "assyrian-empire"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "babylon-fall",
+      "name": "Fall of Babylon to Cyrus",
+      "start": -539,
+      "region": "Mesopotamia",
+      "description": "The Achaemenid conquest incorporated Babylon into the Persian Empire.",
+      "tags": [
+        "conquest",
+        "persia"
+      ],
+      "related_polities": [
+        "neo-babylonian",
+        "achaemenid"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "marathon",
+      "name": "Battle of Marathon",
+      "start": -490,
+      "region": "Greece",
+      "description": "Athenian forces defeated a Persian expeditionary force near Marathon.",
+      "tags": [
+        "battle",
+        "persian-wars"
+      ],
+      "related_polities": [
+        "achaemenid"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "thermopylae",
+      "name": "Battle of Thermopylae",
+      "start": -480,
+      "region": "Greece",
+      "description": "A Persian invasion force fought Greek defenders at Thermopylae.",
+      "tags": [
+        "battle",
+        "persian-wars"
+      ],
+      "related_polities": [
+        "achaemenid"
+      ],
+      "significance": 7,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "salamis",
+      "name": "Battle of Salamis",
+      "start": -480,
+      "region": "Greece",
+      "description": "Greek naval forces defeated the Persian fleet near Salamis.",
+      "tags": [
+        "naval",
+        "battle",
+        "persian-wars"
+      ],
+      "related_polities": [
+        "achaemenid"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "alexander-conquest",
+      "name": "Alexanderian conquest of Persia",
+      "start": -334,
+      "region": "Mediterranean and Asia",
+      "description": "Macedonian armies conquered the Achaemenid Empire and reached deep into Asia.",
+      "tags": [
+        "conquest",
+        "hellenistic"
+      ],
+      "related_polities": [
+        "macedon",
+        "achaemenid"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cannae",
+      "name": "Battle of Cannae",
+      "start": -216,
+      "region": "Italy",
+      "description": "Hannibal won a major tactical victory over Rome during the Second Punic War.",
+      "tags": [
+        "battle",
+        "rome",
+        "carthage"
+      ],
+      "related_polities": [
+        "carthage",
+        "roman-republic"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "carthage-destruction",
+      "name": "Destruction of Carthage",
+      "start": -146,
+      "region": "North Africa",
+      "description": "Rome destroyed Carthage at the end of the Third Punic War.",
+      "tags": [
+        "war",
+        "rome",
+        "carthage"
+      ],
+      "related_polities": [
+        "carthage",
+        "roman-republic"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "roman-caesar",
+      "name": "Caesar crosses the Rubicon",
+      "start": -49,
+      "region": "Italy",
+      "description": "Julius Caesar crossed into Italy with his army, beginning a civil war.",
+      "tags": [
+        "civil-war",
+        "rome"
+      ],
+      "related_polities": [
+        "roman-republic"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "actium",
+      "name": "Battle of Actium",
+      "start": -31,
+      "region": "Mediterranean",
+      "description": "Octavian defeated the forces of Antony and Cleopatra in a decisive naval engagement.",
+      "tags": [
+        "naval",
+        "civil-war",
+        "rome"
+      ],
+      "related_polities": [
+        "roman-republic"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "augustus",
+      "name": "Augustus becomes first Roman emperor",
+      "start": -27,
+      "region": "Rome",
+      "description": "Octavian established the political order conventionally associated with the Roman Empire.",
+      "tags": [
+        "rome",
+        "imperial"
+      ],
+      "related_polities": [
+        "roman-empire"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "pompeii",
+      "name": "Vesuvius eruption and destruction of Pompeii",
+      "start": 79,
+      "region": "Italy",
+      "description": "Mount Vesuvius erupted and buried Pompeii and neighboring settlements.",
+      "tags": [
+        "disaster",
+        "volcano",
+        "archaeology"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "constantine",
+      "name": "Constantine wins at Milvian Bridge",
+      "start": 312,
+      "region": "Italy",
+      "description": "Constantine defeated Maxentius and secured control of the western Roman Empire.",
+      "tags": [
+        "battle",
+        "rome",
+        "religion"
+      ],
+      "related_polities": [
+        "roman-empire"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "edict-milan",
+      "name": "Edict of Milan",
+      "start": 313,
+      "region": "Roman Empire",
+      "description": "Imperial policy granted toleration to Christianity and other religions.",
+      "tags": [
+        "religion",
+        "law"
+      ],
+      "related_polities": [
+        "roman-empire"
+      ],
+      "significance": 7,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "theodosius",
+      "name": "Roman Empire permanently divided",
+      "start": 395,
+      "region": "Mediterranean",
+      "description": "After Theodosius I, eastern and western imperial administrations developed separately.",
+      "tags": [
+        "rome",
+        "politics"
+      ],
+      "related_polities": [
+        "western-roman",
+        "eastern-roman"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "western-fall",
+      "name": "Fall of the Western Roman Empire",
+      "start": 476,
+      "region": "Western Europe",
+      "description": "The deposition of Romulus Augustulus conventionally marks the end of the Western Roman Empire.",
+      "tags": [
+        "collapse",
+        "rome"
+      ],
+      "related_polities": [
+        "western-roman"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "justinian-reconquest",
+      "name": "Justinianian reconquests",
+      "start": 533,
+      "region": "Mediterranean",
+      "description": "Eastern Roman armies reconquered parts of North Africa and Italy.",
+      "tags": [
+        "war",
+        "byzantium"
+      ],
+      "related_polities": [
+        "eastern-roman"
+      ],
+      "significance": 7,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hegira",
+      "name": "Hijra of Muhammad to Medina",
+      "start": 622,
+      "region": "Arabia",
+      "description": "Muhammad migrated from Mecca to Medina, an event central to the Islamic calendar.",
+      "tags": [
+        "religion",
+        "migration"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "arab-conquests",
+      "name": "Early Islamic conquests",
+      "start": 630,
+      "region": "Middle East",
+      "description": "Arab-Muslim armies rapidly expanded across the Middle East, North Africa and beyond.",
+      "tags": [
+        "conquest",
+        "caliphate"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tang-foundation",
+      "name": "Tang dynasty established",
+      "start": 618,
+      "region": "China",
+      "description": "The Tang dynasty reunified much of China and oversaw a major period of expansion.",
+      "tags": [
+        "china",
+        "dynasty"
+      ],
+      "related_polities": [
+        "tang"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tang-an-lushan",
+      "name": "An Lushan Rebellion",
+      "start": 755,
+      "region": "China",
+      "description": "A devastating rebellion severely weakened the Tang state.",
+      "tags": [
+        "rebellion",
+        "china",
+        "civil-war"
+      ],
+      "related_polities": [
+        "tang"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "norman-conquest",
+      "name": "Norman Conquest of England",
+      "start": 1066,
+      "region": "England",
+      "description": "William of Normandy defeated Harold II and established Norman rule in England.",
+      "tags": [
+        "conquest",
+        "england"
+      ],
+      "related_polities": [
+        "england-kingdom"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "first-crusade",
+      "name": "First Crusade",
+      "start": 1096,
+      "region": "Levant",
+      "description": "Western European crusading armies campaigned in the eastern Mediterranean.",
+      "tags": [
+        "crusade",
+        "war"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "magna-carta",
+      "name": "Magna Carta",
+      "start": 1215,
+      "region": "England",
+      "description": "English barons compelled King John to accept a charter limiting aspects of royal authority.",
+      "tags": [
+        "law",
+        "constitution",
+        "england"
+      ],
+      "related_polities": [
+        "england-kingdom"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mongol-invasion",
+      "name": "Mongol conquest begins in North China",
+      "start": 1211,
+      "region": "East Asia",
+      "description": "Mongol forces expanded into the Jin and wider East Asian political system.",
+      "tags": [
+        "mongol",
+        "conquest"
+      ],
+      "related_polities": [
+        "mongol"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "baghdad-fall",
+      "name": "Mongol capture of Baghdad",
+      "start": 1258,
+      "region": "Mesopotamia",
+      "description": "Hülegü’s forces captured Baghdad, ending Abbasid political authority there.",
+      "tags": [
+        "conquest",
+        "mongol",
+        "baghdad"
+      ],
+      "related_polities": [
+        "mongol",
+        "il-khanate"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "black-death",
+      "name": "Black Death reaches Europe",
+      "start": 1347,
+      "region": "Europe",
+      "description": "Plague spread through Europe and caused catastrophic mortality and social disruption.",
+      "tags": [
+        "plague",
+        "demography",
+        "disaster"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "constantinople-fall",
+      "name": "Fall of Constantinople",
+      "start": 1453,
+      "region": "Constantinople",
+      "description": "Ottoman forces captured Constantinople, ending the Byzantine Empire.",
+      "tags": [
+        "conquest",
+        "ottoman",
+        "byzantium"
+      ],
+      "related_polities": [
+        "ottoman",
+        "eastern-roman"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "columbus-voyage",
+      "name": "Columbus reaches the Americas",
+      "start": 1492,
+      "region": "Atlantic",
+      "description": "Christopher Columbus reached Caribbean islands during a voyage sponsored by Castile.",
+      "tags": [
+        "exploration",
+        "atlantic",
+        "colonialism"
+      ],
+      "related_polities": [
+        "castile"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tordesillas",
+      "name": "Treaty of Tordesillas",
+      "start": 1494,
+      "region": "Atlantic",
+      "description": "Castile and Portugal agreed to a division of overseas spheres of expansion.",
+      "tags": [
+        "treaty",
+        "colonialism"
+      ],
+      "related_polities": [
+        "spanish-empire",
+        "portuguese-empire"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "reformation",
+      "name": "Lutheran Reformation begins",
+      "start": 1517,
+      "region": "Central Europe",
+      "description": "Martin Luther’s challenge to church practices helped initiate the Protestant Reformation.",
+      "tags": [
+        "religion",
+        "reformation"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tenochtitlan",
+      "name": "Fall of Tenochtitlan",
+      "start": 1521,
+      "region": "Mesoamerica",
+      "description": "Spanish and Indigenous allies defeated the Mexica state and captured its capital.",
+      "tags": [
+        "conquest",
+        "mesoamerica"
+      ],
+      "related_polities": [
+        "aztec"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "magellan",
+      "name": "Magellan expedition begins",
+      "start": 1519,
+      "region": "Atlantic and Pacific",
+      "description": "The expedition associated with Ferdinand Magellan began the first circumnavigation of Earth.",
+      "tags": [
+        "exploration",
+        "navigation"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "lepanto",
+      "name": "Battle of Lepanto",
+      "start": 1571,
+      "region": "Mediterranean",
+      "description": "The Holy League defeated an Ottoman fleet in a major Mediterranean naval battle.",
+      "tags": [
+        "naval",
+        "ottoman"
+      ],
+      "related_polities": [
+        "ottoman"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "defenestration",
+      "name": "Defenestration of Prague",
+      "start": 1618,
+      "region": "Bohemia",
+      "description": "The Prague defenestration helped trigger the Bohemian Revolt and Thirty Years’ War.",
+      "tags": [
+        "rebellion",
+        "central-europe",
+        "war"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "westphalia",
+      "name": "Peace of Westphalia",
+      "start": 1648,
+      "region": "Europe",
+      "description": "Treaties ending major parts of the Thirty Years’ War reshaped European diplomacy.",
+      "tags": [
+        "treaty",
+        "diplomacy",
+        "war"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "glorious-revolution",
+      "name": "Glorious Revolution",
+      "start": 1688,
+      "region": "Britain",
+      "description": "James II was displaced and William and Mary took the English throne.",
+      "tags": [
+        "revolution",
+        "monarchy"
+      ],
+      "related_polities": [
+        "england-kingdom"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "american-independence",
+      "name": "American Declaration of Independence",
+      "start": 1776,
+      "region": "North America",
+      "description": "Thirteen British colonies declared independence and formed a revolutionary state.",
+      "tags": [
+        "revolution",
+        "independence"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "french-revolution",
+      "name": "French Revolution begins",
+      "start": 1789,
+      "region": "France",
+      "description": "The French Revolution transformed the political and social order of France and Europe.",
+      "tags": [
+        "revolution",
+        "politics"
+      ],
+      "related_polities": [
+        "first-french-republic"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "bastille",
+      "name": "Storming of the Bastille",
+      "start": 1789,
+      "region": "Paris",
+      "description": "Revolutionaries seized the Bastille during the early French Revolution.",
+      "tags": [
+        "revolution",
+        "paris"
+      ],
+      "related_polities": [
+        "first-french-republic"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "haitian-revolution",
+      "name": "Haitian Revolution begins",
+      "start": 1791,
+      "region": "Caribbean",
+      "description": "Enslaved and free people launched a revolution that ultimately produced Haitian independence.",
+      "tags": [
+        "revolution",
+        "abolition",
+        "independence"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "napoleon-coup",
+      "name": "Napoleon’s coup of 18 Brumaire",
+      "start": 1799,
+      "region": "France",
+      "description": "Napoleon Bonaparte helped overthrow the Directory and establish the Consulate.",
+      "tags": [
+        "coup",
+        "france"
+      ],
+      "related_polities": [
+        "first-french-republic"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "trafalgar",
+      "name": "Battle of Trafalgar",
+      "start": 1805,
+      "region": "Atlantic",
+      "description": "British naval forces defeated a combined French-Spanish fleet.",
+      "tags": [
+        "naval",
+        "napoleonic-wars"
+      ],
+      "related_polities": [
+        "first-empire"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "waterloo",
+      "name": "Battle of Waterloo",
+      "start": 1815,
+      "region": "Belgium",
+      "description": "Coalition forces defeated Napoleon, ending his Hundred Days.",
+      "tags": [
+        "battle",
+        "napoleonic-wars"
+      ],
+      "related_polities": [
+        "first-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "congress-vienna",
+      "name": "Congress of Vienna",
+      "start": 1814,
+      "region": "Europe",
+      "description": "European powers negotiated a post-Napoleonic settlement and balance of power.",
+      "tags": [
+        "diplomacy",
+        "europe"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "greek-independence",
+      "name": "Greek War of Independence begins",
+      "start": 1821,
+      "region": "Greece",
+      "description": "Greek revolutionaries began a successful struggle against Ottoman rule.",
+      "tags": [
+        "revolution",
+        "independence"
+      ],
+      "related_polities": [
+        "ottoman"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "indian-rebellion",
+      "name": "Indian Rebellion of 1857",
+      "start": 1857,
+      "region": "South Asia",
+      "description": "A major uprising challenged East India Company rule and led to direct British Crown administration.",
+      "tags": [
+        "rebellion",
+        "colonialism"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "italy-unification",
+      "name": "Kingdom of Italy proclaimed",
+      "start": 1861,
+      "region": "Italy",
+      "description": "The Kingdom of Italy was proclaimed during the process of Italian unification.",
+      "tags": [
+        "unification",
+        "nationalism"
+      ],
+      "related_polities": [
+        "kingdom-italy"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "american-civil-war",
+      "name": "American Civil War begins",
+      "start": 1861,
+      "region": "North America",
+      "description": "The United States entered a civil war following secession and conflict over the Union and slavery.",
+      "tags": [
+        "civil-war",
+        "slavery"
+      ],
+      "related_polities": [
+        "confederate-states"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "emancipation",
+      "name": "Emancipation Proclamation",
+      "start": 1863,
+      "region": "North America",
+      "description": "The U.S. proclamation declared enslaved people in rebelling areas to be free as a wartime measure.",
+      "tags": [
+        "slavery",
+        "war",
+        "law"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "german-unification",
+      "name": "German Empire proclaimed",
+      "start": 1871,
+      "region": "Central Europe",
+      "description": "The German Empire was proclaimed after Prussian-led unification wars.",
+      "tags": [
+        "unification",
+        "nationalism"
+      ],
+      "related_polities": [
+        "german-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "scramble-africa",
+      "name": "Berlin Conference",
+      "start": 1884,
+      "region": "Africa",
+      "description": "European powers negotiated rules for colonial claims in Africa.",
+      "tags": [
+        "colonialism",
+        "diplomacy"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "meiji-restoration",
+      "name": "Meiji Restoration",
+      "start": 1868,
+      "region": "Japan",
+      "description": "Political authority was reorganized around the emperor and Japan embarked on rapid institutional modernization.",
+      "tags": [
+        "japan",
+        "modernization"
+      ],
+      "related_polities": [
+        "meiji-japan"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "boxer-rebellion",
+      "name": "Boxer Uprising",
+      "start": 1899,
+      "region": "China",
+      "description": "The anti-foreign and anti-Christian Boxer movement culminated in international military intervention.",
+      "tags": [
+        "rebellion",
+        "china",
+        "imperialism"
+      ],
+      "related_polities": [
+        "qing"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "russian-revolution-1905",
+      "name": "Russian Revolution of 1905",
+      "start": 1905,
+      "region": "Russia",
+      "description": "Mass protest and political crisis forced concessions from the Russian imperial government.",
+      "tags": [
+        "revolution",
+        "russia"
+      ],
+      "related_polities": [
+        "russian-empire"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "wwi",
+      "name": "First World War",
+      "start": 1914,
+      "region": "Europe and world",
+      "description": "A global war involving major alliances transformed borders, empires and societies.",
+      "tags": [
+        "world-war",
+        "industrial-war"
+      ],
+      "related_polities": [
+        "german-empire",
+        "austro-hungarian",
+        "russian-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "russian-february",
+      "name": "February Revolution",
+      "start": 1917,
+      "region": "Russia",
+      "description": "Mass unrest and military breakdown led to the abdication of Nicholas II.",
+      "tags": [
+        "revolution",
+        "russia"
+      ],
+      "related_polities": [
+        "russian-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "russian-october",
+      "name": "October Revolution",
+      "start": 1917,
+      "region": "Russia",
+      "description": "Bolshevik forces seized key government institutions in Petrograd.",
+      "tags": [
+        "revolution",
+        "russia"
+      ],
+      "related_polities": [
+        "russian-sfsr"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "versailles",
+      "name": "Treaty of Versailles",
+      "start": 1919,
+      "region": "Europe",
+      "description": "The peace treaty imposed terms on Germany and helped establish the postwar settlement.",
+      "tags": [
+        "treaty",
+        "wwi"
+      ],
+      "related_polities": [
+        "german-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "league",
+      "name": "League of Nations established",
+      "start": 1920,
+      "region": "International",
+      "description": "The League of Nations began operating as an international organization after World War I.",
+      "tags": [
+        "diplomacy",
+        "international"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "great-depression",
+      "name": "Great Depression begins",
+      "start": 1929,
+      "region": "Global",
+      "description": "A worldwide economic crisis produced severe unemployment, deflation and political disruption.",
+      "tags": [
+        "economy",
+        "crisis"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "manchuria",
+      "name": "Japanese invasion of Manchuria",
+      "start": 1931,
+      "region": "East Asia",
+      "description": "Japanese forces seized Manchuria and established Manchukuo.",
+      "tags": [
+        "war",
+        "imperialism"
+      ],
+      "related_polities": [
+        "manchu-state"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "spanish-civil-war",
+      "name": "Spanish Civil War begins",
+      "start": 1936,
+      "region": "Spain",
+      "description": "Military revolt developed into a major civil war involving foreign intervention.",
+      "tags": [
+        "civil-war",
+        "ideology"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "munich",
+      "name": "Munich Agreement",
+      "start": 1938,
+      "region": "Central Europe",
+      "description": "Britain, France, Germany and Italy agreed to the transfer of the Sudetenland from Czechoslovakia to Germany.",
+      "tags": [
+        "diplomacy",
+        "central-europe"
+      ],
+      "related_polities": [
+        "czechoslovakia-first"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "wwii",
+      "name": "Second World War",
+      "start": 1939,
+      "region": "Global",
+      "description": "A global war transformed political borders, economies and societies across multiple continents.",
+      "tags": [
+        "world-war",
+        "total-war"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "barbarossa",
+      "name": "Operation Barbarossa",
+      "start": 1941,
+      "region": "Eastern Europe",
+      "description": "Germany launched its invasion of the Soviet Union.",
+      "tags": [
+        "war",
+        "eastern-front"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "pearl-harbor",
+      "name": "Attack on Pearl Harbor",
+      "start": 1941,
+      "region": "Pacific",
+      "description": "Japanese forces attacked the U.S. Pacific Fleet base, bringing the United States into the Pacific War.",
+      "tags": [
+        "war",
+        "naval"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "stalingrad",
+      "name": "Battle of Stalingrad",
+      "start": 1942,
+      "region": "Eastern Europe",
+      "description": "The prolonged battle ended with the surrender of the German Sixth Army and became a major turning point on the Eastern Front.",
+      "tags": [
+        "battle",
+        "wwii"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "normandy",
+      "name": "Normandy landings",
+      "start": 1944,
+      "region": "France",
+      "description": "Allied forces established a major western European beachhead in Normandy.",
+      "tags": [
+        "invasion",
+        "wwii"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hiroshima",
+      "name": "Atomic bombing of Hiroshima",
+      "start": 1945,
+      "region": "Japan",
+      "description": "The United States used an atomic bomb against Hiroshima during the final phase of the Pacific War.",
+      "tags": [
+        "nuclear",
+        "wwii"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "un-creation",
+      "name": "United Nations founded",
+      "start": 1945,
+      "region": "International",
+      "description": "The United Nations was established as a new international organization after World War II.",
+      "tags": [
+        "diplomacy",
+        "international"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "india-independence",
+      "name": "Indian independence",
+      "start": 1947,
+      "region": "South Asia",
+      "description": "British rule in India ended and the subcontinent was partitioned into new states.",
+      "tags": [
+        "independence",
+        "decolonization"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "nato",
+      "name": "NATO established",
+      "start": 1949,
+      "region": "North Atlantic",
+      "description": "Twelve states signed the North Atlantic Treaty establishing a collective-defense organization.",
+      "tags": [
+        "alliance",
+        "cold-war"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "chinese-revolution",
+      "name": "People’s Republic of China proclaimed",
+      "start": 1949,
+      "region": "China",
+      "description": "The Chinese Communist Party established the People’s Republic of China after the civil war.",
+      "tags": [
+        "revolution",
+        "china"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "korean-war",
+      "name": "Korean War begins",
+      "start": 1950,
+      "region": "Korea",
+      "description": "War broke out on the Korean Peninsula and became an internationalized Cold War conflict.",
+      "tags": [
+        "war",
+        "cold-war"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "suez",
+      "name": "Suez Crisis",
+      "start": 1956,
+      "region": "Middle East",
+      "description": "The nationalization of the Suez Canal was followed by an Anglo-French-Israeli military intervention and international pressure for withdrawal.",
+      "tags": [
+        "war",
+        "diplomacy",
+        "suez"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cuban-revolution",
+      "name": "Cuban Revolution triumph",
+      "start": 1959,
+      "region": "Caribbean",
+      "description": "Revolutionary forces overthrew the Batista government.",
+      "tags": [
+        "revolution",
+        "cold-war"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "berlin-wall",
+      "name": "Berlin Wall constructed",
+      "start": 1961,
+      "region": "Germany",
+      "description": "East German authorities began constructing the Berlin Wall around West Berlin.",
+      "tags": [
+        "cold-war",
+        "border"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cuban-missile",
+      "name": "Cuban Missile Crisis",
+      "start": 1962,
+      "region": "Caribbean",
+      "description": "The United States and Soviet Union confronted each other over Soviet missiles in Cuba.",
+      "tags": [
+        "nuclear",
+        "cold-war",
+        "diplomacy"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "moon-landing",
+      "name": "Apollo 11 Moon landing",
+      "start": 1969,
+      "region": "Moon",
+      "description": "Humans landed on the Moon during the Apollo 11 mission.",
+      "tags": [
+        "space",
+        "technology"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "bangladesh",
+      "name": "Bangladesh independence war",
+      "start": 1971,
+      "region": "South Asia",
+      "description": "Conflict in East Pakistan culminated in the creation of Bangladesh.",
+      "tags": [
+        "war",
+        "independence"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "oil-crisis",
+      "name": "1973 oil crisis",
+      "start": 1973,
+      "region": "Global",
+      "description": "Oil supply restrictions and price increases produced a major global economic shock.",
+      "tags": [
+        "economy",
+        "energy"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "vietnam-fall",
+      "name": "Fall of Saigon",
+      "start": 1975,
+      "region": "Vietnam",
+      "description": "North Vietnamese forces captured Saigon, ending the Vietnam War.",
+      "tags": [
+        "war",
+        "decolonization"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "iran-revolution",
+      "name": "Iranian Revolution",
+      "start": 1979,
+      "region": "Iran",
+      "description": "A revolutionary movement overthrew the Pahlavi monarchy and established a new political order.",
+      "tags": [
+        "revolution",
+        "iran"
+      ],
+      "related_polities": [
+        "pahlavi"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "berlin-wall-fall",
+      "name": "Fall of the Berlin Wall",
+      "start": 1989,
+      "region": "Germany",
+      "description": "East German border restrictions collapsed and the Berlin Wall ceased functioning as a closed border.",
+      "tags": [
+        "cold-war",
+        "germany"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "soviet-dissolution",
+      "name": "Dissolution of the Soviet Union",
+      "start": 1991,
+      "region": "Eurasia",
+      "description": "The Soviet Union ceased to exist and fifteen independent republics emerged.",
+      "tags": [
+        "collapse",
+        "cold-war"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "yugoslavia-breakup",
+      "name": "Breakup of Yugoslavia",
+      "start": 1991,
+      "region": "Balkans",
+      "description": "The Socialist Federal Republic of Yugoslavia entered a prolonged period of dissolution and armed conflict.",
+      "tags": [
+        "collapse",
+        "war",
+        "balkans"
+      ],
+      "related_polities": [
+        "yugoslavia-socialist"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "rwandan-genocide",
+      "name": "Rwandan genocide",
+      "start": 1994,
+      "region": "Great Lakes Africa",
+      "description": "A genocide in Rwanda killed large numbers of Tutsi and moderate Hutu civilians.",
+      "tags": [
+        "genocide",
+        "africa"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "euro-intro",
+      "name": "Euro introduced as accounting currency",
+      "start": 1999,
+      "region": "Europe",
+      "description": "The euro became an accounting currency for participating states before notes and coins entered circulation in 2002.",
+      "tags": [
+        "economy",
+        "europe"
+      ],
+      "related_polities": [],
+      "significance": 7,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "9-11",
+      "name": "September 11 attacks",
+      "start": 2001,
+      "region": "United States",
+      "description": "Terrorist attacks in the United States prompted major changes in international security and warfare.",
+      "tags": [
+        "terrorism",
+        "security"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "iraq-war",
+      "name": "Iraq War begins",
+      "start": 2003,
+      "region": "Iraq",
+      "description": "A U.S.-led coalition invaded Iraq, overthrowing the Ba’athist government.",
+      "tags": [
+        "war",
+        "middle-east"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "arab-spring",
+      "name": "Arab Spring begins",
+      "start": 2010,
+      "region": "North Africa and Middle East",
+      "description": "Protests and uprisings spread across several Arab states and produced varied political outcomes.",
+      "tags": [
+        "protest",
+        "revolution",
+        "middle-east"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "crimea-2014",
+      "name": "Russian annexation of Crimea",
+      "start": 2014,
+      "region": "Crimea",
+      "description": "Russia took control of Crimea after the 2014 political crisis in Ukraine; the annexation was not recognized by Ukraine and many states.",
+      "tags": [
+        "war",
+        "territory",
+        "ukraine"
+      ],
+      "related_polities": [
+        "russian-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "covid-pandemic",
+      "name": "COVID-19 pandemic declared",
+      "start": 2020,
+      "region": "Global",
+      "description": "A global infectious disease pandemic produced widespread mortality, public-health measures and economic disruption.",
+      "tags": [
+        "pandemic",
+        "economy",
+        "society"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    }
+  ],
+  "places": [
+    {
+      "id": "ur",
+      "name": "Ur",
+      "start": -3000,
+      "region": "Mesopotamia",
+      "description": "Major Sumerian urban center near the Euphrates and a center of early state formation.",
+      "tags": [
+        "city",
+        "archaeology",
+        "sumer"
+      ],
+      "location": {
+        "lat": 30.962,
+        "lon": 46.104
+      },
+      "related_polities": [
+        "sumer",
+        "ur-third-dynasty"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "start": -1800,
+      "region": "Mesopotamia",
+      "description": "Ancient city on the Euphrates and capital of several Babylonian states.",
+      "tags": [
+        "city",
+        "mesopotamia"
+      ],
+      "location": {
+        "lat": 32.542,
+        "lon": 44.421
+      },
+      "related_polities": [
+        "old-babylonian",
+        "neo-babylonian"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "nineveh",
+      "name": "Nineveh",
+      "start": -900,
+      "region": "Mesopotamia",
+      "description": "Ancient Assyrian capital on the Tigris near modern Mosul.",
+      "tags": [
+        "city",
+        "assyria"
+      ],
+      "location": {
+        "lat": 36.359,
+        "lon": 43.152
+      },
+      "related_polities": [
+        "assyrian-empire"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "persepolis",
+      "name": "Persepolis",
+      "start": -515,
+      "region": "Persia",
+      "description": "Ceremonial capital of the Achaemenid Empire.",
+      "tags": [
+        "city",
+        "persia",
+        "archaeology"
+      ],
+      "location": {
+        "lat": 29.935,
+        "lon": 52.891
+      },
+      "related_polities": [
+        "achaemenid"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "athens",
+      "name": "Athens",
+      "start": -500,
+      "region": "Greece",
+      "description": "Greek polis and major center of political, military and cultural development.",
+      "tags": [
+        "city",
+        "greece"
+      ],
+      "location": {
+        "lat": 37.984,
+        "lon": 23.728
+      },
+      "related_polities": [
+        "roman-republic"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "sparta",
+      "name": "Sparta",
+      "start": -500,
+      "region": "Greece",
+      "description": "Peloponnesian polis noted for its militarized social organization.",
+      "tags": [
+        "city",
+        "greece"
+      ],
+      "location": {
+        "lat": 37.074,
+        "lon": 22.43
+      },
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "start": -753,
+      "region": "Italy",
+      "description": "Capital of the Roman state and a central Mediterranean political center.",
+      "tags": [
+        "city",
+        "rome"
+      ],
+      "location": {
+        "lat": 41.9028,
+        "lon": 12.4964
+      },
+      "related_polities": [
+        "roman-republic",
+        "roman-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "carthage-place",
+      "name": "Carthage",
+      "start": -814,
+      "region": "North Africa",
+      "description": "Phoenician-founded city that became the center of a major Mediterranean power.",
+      "tags": [
+        "city",
+        "carthage"
+      ],
+      "location": {
+        "lat": 36.8528,
+        "lon": 10.3233
+      },
+      "related_polities": [
+        "carthage"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "start": -331,
+      "region": "Egypt",
+      "description": "Mediterranean port founded by Alexander and major Hellenistic intellectual center.",
+      "tags": [
+        "city",
+        "egypt"
+      ],
+      "location": {
+        "lat": 31.2,
+        "lon": 29.918
+      },
+      "related_polities": [
+        "ptolemaic"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "constantinople",
+      "name": "Constantinople",
+      "start": 330,
+      "region": "Bosphorus",
+      "description": "Imperial capital founded as New Rome and later capital of the Byzantine Empire and Ottoman Empire.",
+      "tags": [
+        "city",
+        "rome",
+        "byzantium",
+        "ottoman"
+      ],
+      "location": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "related_polities": [
+        "eastern-roman",
+        "ottoman"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "baghdad",
+      "name": "Baghdad",
+      "start": 762,
+      "region": "Mesopotamia",
+      "description": "Abbasid capital and major intellectual, commercial and political center.",
+      "tags": [
+        "city",
+        "islamic-world"
+      ],
+      "location": {
+        "lat": 33.3152,
+        "lon": 44.3661
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cordoba",
+      "name": "Cordoba",
+      "start": 929,
+      "region": "Iberia",
+      "description": "Major city of al-Andalus and capital of the Caliphate of Córdoba.",
+      "tags": [
+        "city",
+        "islamic-world",
+        "iberia"
+      ],
+      "location": {
+        "lat": 37.8882,
+        "lon": -4.7794
+      },
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "timbuktu",
+      "name": "Timbuktu",
+      "start": 1300,
+      "region": "West Africa",
+      "description": "Important trans-Saharan commercial and scholarly center.",
+      "tags": [
+        "city",
+        "mali",
+        "trade"
+      ],
+      "location": {
+        "lat": 16.7666,
+        "lon": -3.0026
+      },
+      "related_polities": [
+        "mali"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "venice",
+      "name": "Venice",
+      "start": 1200,
+      "region": "Italy",
+      "description": "Maritime republic and major Mediterranean commercial center.",
+      "tags": [
+        "city",
+        "trade",
+        "republic"
+      ],
+      "location": {
+        "lat": 45.44,
+        "lon": 12.315
+      },
+      "related_polities": [
+        "republic-venice"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "kyiv",
+      "name": "Kyiv",
+      "start": 1000,
+      "region": "Eastern Europe",
+      "description": "Major East European center associated with Kyivan Rus and later states.",
+      "tags": [
+        "city",
+        "eastern-europe"
+      ],
+      "location": {
+        "lat": 50.4501,
+        "lon": 30.5234
+      },
+      "related_polities": [
+        "kiev-rus"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cracow",
+      "name": "Kraków",
+      "start": 1000,
+      "region": "Central Europe",
+      "description": "Major Polish political and cultural center.",
+      "tags": [
+        "city",
+        "poland"
+      ],
+      "location": {
+        "lat": 50.0647,
+        "lon": 19.945
+      },
+      "related_polities": [
+        "polish-lithuanian"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "start": 1000,
+      "region": "Central Europe",
+      "description": "Bohemian and later Czech political center on the Vltava.",
+      "tags": [
+        "city",
+        "bohemia",
+        "czechia"
+      ],
+      "location": {
+        "lat": 50.0755,
+        "lon": 14.4378
+      },
+      "related_polities": [
+        "holy-roman-empire",
+        "czechoslovakia-first"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "constantinople-1453",
+      "name": "Walls of Constantinople",
+      "start": 1453,
+      "region": "Constantinople",
+      "description": "Fortification system central to the defense and eventual Ottoman conquest of the city.",
+      "tags": [
+        "fortification",
+        "siege"
+      ],
+      "location": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "related_polities": [
+        "eastern-roman",
+        "ottoman"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tenochtitlan-place",
+      "name": "Tenochtitlan",
+      "start": 1500,
+      "region": "Mesoamerica",
+      "description": "Mexica imperial capital built on islands in Lake Texcoco.",
+      "tags": [
+        "city",
+        "mexica",
+        "mesoamerica"
+      ],
+      "location": {
+        "lat": 19.4326,
+        "lon": -99.1332
+      },
+      "related_polities": [
+        "aztec"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cusco",
+      "name": "Cusco",
+      "start": 1450,
+      "region": "Andes",
+      "description": "Capital and ceremonial center of the Inca Empire.",
+      "tags": [
+        "city",
+        "inca",
+        "andes"
+      ],
+      "location": {
+        "lat": -13.5319,
+        "lon": -71.9675
+      },
+      "related_polities": [
+        "inca"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul",
+      "start": 1500,
+      "region": "Anatolia",
+      "description": "Ottoman imperial capital following the conquest of Constantinople.",
+      "tags": [
+        "city",
+        "ottoman"
+      ],
+      "location": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "related_polities": [
+        "ottoman"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "start": 1400,
+      "region": "France",
+      "description": "Major French political and cultural center.",
+      "tags": [
+        "city",
+        "france"
+      ],
+      "location": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "start": 1400,
+      "region": "England",
+      "description": "Political and commercial center of England and later the United Kingdom.",
+      "tags": [
+        "city",
+        "britain"
+      ],
+      "location": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "related_polities": [
+        "england-kingdom",
+        "united-kingdom"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "start": 1600,
+      "region": "Netherlands",
+      "description": "Major Dutch commercial and financial center during the Dutch Golden Age.",
+      "tags": [
+        "city",
+        "trade"
+      ],
+      "location": {
+        "lat": 52.3676,
+        "lon": 4.9041
+      },
+      "related_polities": [
+        "dutch-empire"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna",
+      "start": 1700,
+      "region": "Central Europe",
+      "description": "Habsburg imperial capital and major Central European diplomatic center.",
+      "tags": [
+        "city",
+        "habsburg"
+      ],
+      "location": {
+        "lat": 48.2082,
+        "lon": 16.3738
+      },
+      "related_polities": [
+        "austrian-empire",
+        "austro-hungarian"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "start": 1700,
+      "region": "Germany",
+      "description": "Prussian capital and later German imperial capital.",
+      "tags": [
+        "city",
+        "prussia",
+        "germany"
+      ],
+      "location": {
+        "lat": 52.52,
+        "lon": 13.405
+      },
+      "related_polities": [
+        "prussia",
+        "german-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "washington",
+      "name": "Washington, D.C.",
+      "start": 1800,
+      "region": "North America",
+      "description": "Capital of the United States and seat of its federal government.",
+      "tags": [
+        "city",
+        "capital"
+      ],
+      "location": {
+        "lat": 38.9072,
+        "lon": -77.0369
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "start": 1800,
+      "region": "North America",
+      "description": "Major Atlantic port and commercial center of the United States.",
+      "tags": [
+        "city",
+        "trade"
+      ],
+      "location": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "start": 1900,
+      "region": "South America",
+      "description": "Major industrial and commercial city in Brazil.",
+      "tags": [
+        "city",
+        "industry"
+      ],
+      "location": {
+        "lat": -23.5558,
+        "lon": -46.6396
+      },
+      "related_polities": [
+        "empire-brazil"
+      ],
+      "significance": 7,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "start": 1600,
+      "region": "Japan",
+      "description": "Japanese political center, first as Edo and later as Tokyo.",
+      "tags": [
+        "city",
+        "japan"
+      ],
+      "location": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "related_polities": [
+        "tokugawa",
+        "meiji-japan"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "start": 1200,
+      "region": "South Asia",
+      "description": "Major South Asian imperial and political center.",
+      "tags": [
+        "city",
+        "india"
+      ],
+      "location": {
+        "lat": 28.6139,
+        "lon": 77.209
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "start": 1400,
+      "region": "China",
+      "description": "Chinese imperial capital under the Ming and Qing dynasties.",
+      "tags": [
+        "city",
+        "china"
+      ],
+      "location": {
+        "lat": 39.9042,
+        "lon": 116.4074
+      },
+      "related_polities": [
+        "ming",
+        "qing"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "moscow",
+      "name": "Moscow",
+      "start": 1400,
+      "region": "Russia",
+      "description": "Russian political center that became capital of the Russian state and later USSR.",
+      "tags": [
+        "city",
+        "russia"
+      ],
+      "location": {
+        "lat": 55.7558,
+        "lon": 37.6173
+      },
+      "related_polities": [
+        "grand-principality-moscow",
+        "russian-empire",
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "start": 1000,
+      "region": "Egypt",
+      "description": "Major Nile city and political center of Egypt.",
+      "tags": [
+        "city",
+        "egypt"
+      ],
+      "location": {
+        "lat": 30.0444,
+        "lon": 31.2357
+      },
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "jerusalem",
+      "name": "Jerusalem",
+      "start": -1000,
+      "region": "Levant",
+      "description": "Ancient and enduring religious and political center.",
+      "tags": [
+        "city",
+        "religion"
+      ],
+      "location": {
+        "lat": 31.7683,
+        "lon": 35.2137
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mecca",
+      "name": "Mecca",
+      "start": 600,
+      "region": "Arabia",
+      "description": "Islamic holy city and birthplace of Muhammad.",
+      "tags": [
+        "city",
+        "religion"
+      ],
+      "location": {
+        "lat": 21.4225,
+        "lon": 39.8262
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "medina",
+      "name": "Medina",
+      "start": 600,
+      "region": "Arabia",
+      "description": "City where Muhammad established the early Muslim community after the Hijra.",
+      "tags": [
+        "city",
+        "religion"
+      ],
+      "location": {
+        "lat": 24.4672,
+        "lon": 39.6112
+      },
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    }
+  ],
+  "people": [
+    {
+      "id": "sargon-akkad",
+      "name": "Sargon of Akkad",
+      "start": -2334,
+      "end": -2279,
+      "region": "Mesopotamia",
+      "description": "Founder of the Akkadian Empire and one of the earliest known imperial rulers.",
+      "tags": [
+        "ruler",
+        "akkad"
+      ],
+      "related_polities": [
+        "akkad"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hammurabi",
+      "name": "Hammurabi",
+      "start": -1792,
+      "end": -1750,
+      "region": "Mesopotamia",
+      "description": "Babylonian king associated with imperial expansion and a famous law collection.",
+      "tags": [
+        "ruler",
+        "law",
+        "babylon"
+      ],
+      "related_polities": [
+        "old-babylonian"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "cyrus-great",
+      "name": "Cyrus the Great",
+      "start": -559,
+      "end": -530,
+      "region": "Persia",
+      "description": "Founder of the Achaemenid Empire and conqueror of Babylon.",
+      "tags": [
+        "ruler",
+        "persia",
+        "empire"
+      ],
+      "related_polities": [
+        "achaemenid"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "darius-great",
+      "name": "Darius I",
+      "start": -522,
+      "end": -486,
+      "region": "Persia",
+      "description": "Achaemenid ruler who consolidated the empire and sponsored major administrative works.",
+      "tags": [
+        "ruler",
+        "persia"
+      ],
+      "related_polities": [
+        "achaemenid"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "leonidas",
+      "name": "Leonidas I",
+      "start": -490,
+      "end": -480,
+      "region": "Greece",
+      "description": "Spartan king who commanded Greek defenders at Thermopylae.",
+      "tags": [
+        "ruler",
+        "battle"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "alexander-great",
+      "name": "Alexander the Great",
+      "start": -356,
+      "end": -323,
+      "region": "Macedon and Asia",
+      "description": "Macedonian king whose conquests created a vast Hellenistic realm.",
+      "tags": [
+        "ruler",
+        "conqueror"
+      ],
+      "related_polities": [
+        "macedon"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hannibal",
+      "name": "Hannibal Barca",
+      "start": -247,
+      "end": -183,
+      "region": "Carthage",
+      "description": "Carthaginian commander who invaded Italy during the Second Punic War.",
+      "tags": [
+        "commander",
+        "war"
+      ],
+      "related_polities": [
+        "carthage"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "julius-caesar",
+      "name": "Julius Caesar",
+      "start": -100,
+      "end": -44,
+      "region": "Rome",
+      "description": "Roman general and statesman whose civil war helped end the Roman Republic.",
+      "tags": [
+        "ruler",
+        "commander",
+        "rome"
+      ],
+      "related_polities": [
+        "roman-republic"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "augustus-person",
+      "name": "Augustus",
+      "start": -63,
+      "end": 14,
+      "region": "Rome",
+      "description": "First Roman emperor and architect of the early imperial settlement.",
+      "tags": [
+        "ruler",
+        "rome"
+      ],
+      "related_polities": [
+        "roman-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "constantine-person",
+      "name": "Constantine the Great",
+      "start": 272,
+      "end": 337,
+      "region": "Roman Empire",
+      "description": "Roman emperor who reunited the empire and supported Christianity.",
+      "tags": [
+        "ruler",
+        "religion"
+      ],
+      "related_polities": [
+        "roman-empire"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "justinian",
+      "name": "Justinian I",
+      "start": 482,
+      "end": 565,
+      "region": "Eastern Roman Empire",
+      "description": "Eastern Roman emperor associated with legal codification and Mediterranean reconquests.",
+      "tags": [
+        "ruler",
+        "byzantium",
+        "law"
+      ],
+      "related_polities": [
+        "eastern-roman"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "muhammad",
+      "name": "Muhammad",
+      "start": 570,
+      "end": 632,
+      "region": "Arabia",
+      "description": "Founder of Islam and leader of the early Muslim community.",
+      "tags": [
+        "religion",
+        "leader"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "charlemagne",
+      "name": "Charlemagne",
+      "start": 747,
+      "end": 814,
+      "region": "Western Europe",
+      "description": "Frankish ruler crowned emperor in 800 and presided over a large western European realm.",
+      "tags": [
+        "ruler",
+        "franks",
+        "empire"
+      ],
+      "related_polities": [
+        "carolingian"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "william-conqueror",
+      "name": "William the Conqueror",
+      "start": 1028,
+      "end": 1087,
+      "region": "Normandy and England",
+      "description": "Norman duke who conquered England in 1066 and became its king.",
+      "tags": [
+        "ruler",
+        "conquest"
+      ],
+      "related_polities": [
+        "england-kingdom"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "saladin",
+      "name": "Saladin",
+      "start": 1137,
+      "end": 1193,
+      "region": "Middle East",
+      "description": "Sultan who united major Muslim territories and defeated Crusader forces at Hattin.",
+      "tags": [
+        "ruler",
+        "commander"
+      ],
+      "related_polities": [
+        "ayyubid-sultanate"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "genghis-khan",
+      "name": "Genghis Khan",
+      "start": 1162,
+      "end": 1227,
+      "region": "Mongolia",
+      "description": "Founder of the Mongol Empire and organizer of a major Eurasian conquest state.",
+      "tags": [
+        "ruler",
+        "conqueror"
+      ],
+      "related_polities": [
+        "mongol"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "kublai-khan",
+      "name": "Kublai Khan",
+      "start": 1215,
+      "end": 1294,
+      "region": "East Asia",
+      "description": "Mongol ruler who founded the Yuan dynasty in China.",
+      "tags": [
+        "ruler",
+        "china",
+        "mongol"
+      ],
+      "related_polities": [
+        "yuan"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "ibn-battuta",
+      "name": "Ibn Battuta",
+      "start": 1304,
+      "end": 1368,
+      "region": "North Africa and Eurasia",
+      "description": "Moroccan traveler whose journeys provide important descriptions of fourteenth-century societies.",
+      "tags": [
+        "traveler",
+        "scholar"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "timur",
+      "name": "Timur",
+      "start": 1336,
+      "end": 1405,
+      "region": "Central Asia",
+      "description": "Central Asian conqueror who founded the Timurid dynasty.",
+      "tags": [
+        "ruler",
+        "conqueror"
+      ],
+      "related_polities": [
+        "timurid"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "joan-arc",
+      "name": "Joan of Arc",
+      "start": 1412,
+      "end": 1431,
+      "region": "France",
+      "description": "French military and religious figure associated with the Lancastrian phase of the Hundred Years’ War.",
+      "tags": [
+        "war",
+        "france"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mehmed-conqueror",
+      "name": "Mehmed II",
+      "start": 1432,
+      "end": 1481,
+      "region": "Ottoman Empire",
+      "description": "Ottoman sultan who conquered Constantinople in 1453.",
+      "tags": [
+        "ruler",
+        "ottoman",
+        "conquest"
+      ],
+      "related_polities": [
+        "ottoman"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "isabella-castile",
+      "name": "Isabella I of Castile",
+      "start": 1451,
+      "end": 1504,
+      "region": "Iberia",
+      "description": "Queen of Castile whose reign coincided with the completion of the Reconquista and Columbus voyage.",
+      "tags": [
+        "ruler",
+        "iberia"
+      ],
+      "related_polities": [
+        "castile"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "columbus-person",
+      "name": "Christopher Columbus",
+      "start": 1451,
+      "end": 1506,
+      "region": "Atlantic",
+      "description": "Navigator whose 1492 voyage under Castilian sponsorship reached the Caribbean.",
+      "tags": [
+        "explorer",
+        "atlantic"
+      ],
+      "related_polities": [
+        "castile"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo da Vinci",
+      "start": 1452,
+      "end": 1519,
+      "region": "Italy",
+      "description": "Italian artist, engineer and polymath of the Renaissance.",
+      "tags": [
+        "artist",
+        "science",
+        "renaissance"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "martin-luther",
+      "name": "Martin Luther",
+      "start": 1483,
+      "end": 1546,
+      "region": "Central Europe",
+      "description": "German theologian whose writings helped initiate the Protestant Reformation.",
+      "tags": [
+        "religion",
+        "reformation"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "suleiman",
+      "name": "Suleiman the Magnificent",
+      "start": 1494,
+      "end": 1566,
+      "region": "Ottoman Empire",
+      "description": "Ottoman sultan during a period of major imperial expansion and legal reform.",
+      "tags": [
+        "ruler",
+        "ottoman"
+      ],
+      "related_polities": [
+        "ottoman"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "galileo",
+      "name": "Galileo Galilei",
+      "start": 1564,
+      "end": 1642,
+      "region": "Italy",
+      "description": "Astronomer and physicist central to the Scientific Revolution.",
+      "tags": [
+        "science",
+        "astronomy"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "shakespeare",
+      "name": "William Shakespeare",
+      "start": 1564,
+      "end": 1616,
+      "region": "England",
+      "description": "English playwright and poet whose works became central to the English literary canon.",
+      "tags": [
+        "literature",
+        "culture"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "tokugawa-ieyasu",
+      "name": "Tokugawa Ieyasu",
+      "start": 1543,
+      "end": 1616,
+      "region": "Japan",
+      "description": "Japanese daimyo who established the Tokugawa shogunate.",
+      "tags": [
+        "ruler",
+        "japan"
+      ],
+      "related_polities": [
+        "tokugawa"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "gutenberg",
+      "name": "Johannes Gutenberg",
+      "start": 1400,
+      "end": 1468,
+      "region": "Holy Roman Empire",
+      "description": "European printer traditionally associated with the spread of movable-type printing in Europe.",
+      "tags": [
+        "technology",
+        "printing"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "peter-great",
+      "name": "Peter the Great",
+      "start": 1672,
+      "end": 1725,
+      "region": "Russia",
+      "description": "Russian ruler who transformed institutions and expanded the Russian state.",
+      "tags": [
+        "ruler",
+        "modernization"
+      ],
+      "related_polities": [
+        "russian-tsardom",
+        "russian-empire"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "catherine-great",
+      "name": "Catherine the Great",
+      "start": 1729,
+      "end": 1796,
+      "region": "Russia",
+      "description": "Empress of Russia during territorial expansion and administrative reform.",
+      "tags": [
+        "ruler",
+        "russia"
+      ],
+      "related_polities": [
+        "russian-empire"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "george-washington",
+      "name": "George Washington",
+      "start": 1732,
+      "end": 1799,
+      "region": "North America",
+      "description": "Military commander of the American Revolution and first U.S. president.",
+      "tags": [
+        "commander",
+        "president"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "jefferson",
+      "name": "Thomas Jefferson",
+      "start": 1743,
+      "end": 1826,
+      "region": "North America",
+      "description": "American statesman and principal drafter of the Declaration of Independence.",
+      "tags": [
+        "statesman",
+        "revolution"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "napoleon",
+      "name": "Napoleon Bonaparte",
+      "start": 1769,
+      "end": 1821,
+      "region": "France",
+      "description": "French military and political leader who became emperor and reshaped Europe through war and administration.",
+      "tags": [
+        "ruler",
+        "commander",
+        "france"
+      ],
+      "related_polities": [
+        "first-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "simón-bolivar",
+      "name": "Simón Bolívar",
+      "start": 1783,
+      "end": 1830,
+      "region": "South America",
+      "description": "Military and political leader associated with independence movements in northern South America.",
+      "tags": [
+        "independence",
+        "commander"
+      ],
+      "related_polities": [
+        "gran-colombia"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "abraham-lincoln",
+      "name": "Abraham Lincoln",
+      "start": 1809,
+      "end": 1865,
+      "region": "United States",
+      "description": "U.S. president during the Civil War who issued the Emancipation Proclamation.",
+      "tags": [
+        "president",
+        "civil-war"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "queen-victoria",
+      "name": "Queen Victoria",
+      "start": 1819,
+      "end": 1901,
+      "region": "Britain",
+      "description": "British monarch whose reign coincided with industrialization and imperial expansion.",
+      "tags": [
+        "monarch",
+        "britain"
+      ],
+      "related_polities": [
+        "united-kingdom"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "otto-von-bismarck",
+      "name": "Otto von Bismarck",
+      "start": 1815,
+      "end": 1898,
+      "region": "Germany",
+      "description": "Prussian statesman who drove German unification and served as first imperial chancellor.",
+      "tags": [
+        "statesman",
+        "unification"
+      ],
+      "related_polities": [
+        "prussia",
+        "german-empire"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "florence-nightingale",
+      "name": "Florence Nightingale",
+      "start": 1820,
+      "end": 1910,
+      "region": "Britain",
+      "description": "Nursing reformer associated with changes in military and civilian medical care.",
+      "tags": [
+        "medicine",
+        "reform"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mahatma-gandhi",
+      "name": "Mahatma Gandhi",
+      "start": 1869,
+      "end": 1948,
+      "region": "South Asia",
+      "description": "Indian independence leader associated with mass nonviolent political action.",
+      "tags": [
+        "independence",
+        "politics"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mustafa-kemal",
+      "name": "Mustafa Kemal Atatürk",
+      "start": 1881,
+      "end": 1938,
+      "region": "Turkey",
+      "description": "Founder of the Republic of Turkey and leader of major state reforms after the Ottoman collapse.",
+      "tags": [
+        "ruler",
+        "reform"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "woodrow-wilson",
+      "name": "Woodrow Wilson",
+      "start": 1856,
+      "end": 1924,
+      "region": "United States",
+      "description": "U.S. president during World War I and advocate of the League of Nations.",
+      "tags": [
+        "president",
+        "diplomacy"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "vladimir-lenin",
+      "name": "Vladimir Lenin",
+      "start": 1870,
+      "end": 1924,
+      "region": "Russia",
+      "description": "Bolshevik revolutionary and head of the Soviet government after 1917.",
+      "tags": [
+        "revolution",
+        "russia"
+      ],
+      "related_polities": [
+        "russian-sfsr"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "joseph-stalin",
+      "name": "Joseph Stalin",
+      "start": 1878,
+      "end": 1953,
+      "region": "Soviet Union",
+      "description": "Soviet leader during forced industrialization, collectivization and World War II.",
+      "tags": [
+        "ruler",
+        "soviet"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "winston-churchill",
+      "name": "Winston Churchill",
+      "start": 1874,
+      "end": 1965,
+      "region": "Britain",
+      "description": "British prime minister during much of World War II and a major wartime statesman.",
+      "tags": [
+        "statesman",
+        "wwii"
+      ],
+      "related_polities": [
+        "united-kingdom"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "franklin-roosevelt",
+      "name": "Franklin D. Roosevelt",
+      "start": 1882,
+      "end": 1945,
+      "region": "United States",
+      "description": "U.S. president during the Great Depression and most of World War II.",
+      "tags": [
+        "president",
+        "economy",
+        "wwii"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "charles-de-gaulle",
+      "name": "Charles de Gaulle",
+      "start": 1890,
+      "end": 1970,
+      "region": "France",
+      "description": "French general and leader of Free France during World War II, later president of France.",
+      "tags": [
+        "commander",
+        "statesman",
+        "wwii"
+      ],
+      "related_polities": [
+        "free-france"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "hideki-tojo",
+      "name": "Hideki Tojo",
+      "start": 1884,
+      "end": 1948,
+      "region": "Japan",
+      "description": "Japanese general and prime minister during much of the Pacific War.",
+      "tags": [
+        "ruler",
+        "wwii"
+      ],
+      "related_polities": [
+        "meiji-japan"
+      ],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "harry-truman",
+      "name": "Harry S. Truman",
+      "start": 1884,
+      "end": 1972,
+      "region": "United States",
+      "description": "U.S. president at the end of World War II and during the early Cold War.",
+      "tags": [
+        "president",
+        "wwii",
+        "cold-war"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "jawaharlal-nehru",
+      "name": "Jawaharlal Nehru",
+      "start": 1889,
+      "end": 1964,
+      "region": "South Asia",
+      "description": "First prime minister of independent India and a prominent non-aligned statesman.",
+      "tags": [
+        "statesman",
+        "india"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mao-zedong",
+      "name": "Mao Zedong",
+      "start": 1893,
+      "end": 1976,
+      "region": "China",
+      "description": "Chinese Communist leader and founding leader of the People’s Republic of China.",
+      "tags": [
+        "ruler",
+        "china",
+        "revolution"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "nelson-mandela",
+      "name": "Nelson Mandela",
+      "start": 1918,
+      "end": 2013,
+      "region": "South Africa",
+      "description": "Anti-apartheid leader and first president of South Africa elected after the end of apartheid.",
+      "tags": [
+        "statesman",
+        "south-africa"
+      ],
+      "related_polities": [],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "martin-luther-king",
+      "name": "Martin Luther King Jr.",
+      "start": 1929,
+      "end": 1968,
+      "region": "United States",
+      "description": "Civil-rights leader associated with nonviolent activism in the United States.",
+      "tags": [
+        "civil-rights",
+        "activism"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "john-kennedy",
+      "name": "John F. Kennedy",
+      "start": 1917,
+      "end": 1963,
+      "region": "United States",
+      "description": "U.S. president during a major phase of the Cold War, including the Cuban Missile Crisis.",
+      "tags": [
+        "president",
+        "cold-war"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "nikita-khrushchev",
+      "name": "Nikita Khrushchev",
+      "start": 1894,
+      "end": 1971,
+      "region": "Soviet Union",
+      "description": "Soviet leader during de-Stalinization and the Cuban Missile Crisis.",
+      "tags": [
+        "ruler",
+        "cold-war"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "ronald-reagan",
+      "name": "Ronald Reagan",
+      "start": 1911,
+      "end": 2004,
+      "region": "United States",
+      "description": "U.S. president during the later Cold War.",
+      "tags": [
+        "president",
+        "cold-war"
+      ],
+      "related_polities": [],
+      "significance": 8,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "mikhail-gorbachev",
+      "name": "Mikhail Gorbachev",
+      "start": 1931,
+      "end": 2022,
+      "region": "Soviet Union",
+      "description": "Soviet leader associated with perestroika, glasnost and the final years of the USSR.",
+      "tags": [
+        "ruler",
+        "cold-war"
+      ],
+      "related_polities": [
+        "soviet-union"
+      ],
+      "significance": 10,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    },
+    {
+      "id": "deng-xiaoping",
+      "name": "Deng Xiaoping",
+      "start": 1904,
+      "end": 1997,
+      "region": "China",
+      "description": "Chinese leader associated with economic reforms beginning in the late 1970s.",
+      "tags": [
+        "ruler",
+        "economy",
+        "china"
+      ],
+      "related_polities": [],
+      "significance": 9,
+      "source": "Worldforge curated historical pack",
+      "confidence": "high"
+    }
+  ],
+  "relations": [
+    {
+      "id": "sumer-urbanization--related--sumer",
+      "from_type": "event",
+      "from_id": "sumer-urbanization",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "sumer",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "akkad-conquest--related--akkad",
+      "from_type": "event",
+      "from_id": "akkad-conquest",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "akkad",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "ur-iii--related--ur-third-dynasty",
+      "from_type": "event",
+      "from_id": "ur-iii",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ur-third-dynasty",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "hammurabi-reign--related--old-babylonian",
+      "from_type": "event",
+      "from_id": "hammurabi-reign",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "old-babylonian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "hittite-babylon--related--old-babylonian",
+      "from_type": "event",
+      "from_id": "hittite-babylon",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "old-babylonian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "neo-assyrian-expansion--related--assyrian-empire",
+      "from_type": "event",
+      "from_id": "neo-assyrian-expansion",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "assyrian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "babylon-fall--related--neo-babylonian",
+      "from_type": "event",
+      "from_id": "babylon-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "neo-babylonian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "babylon-fall--related--achaemenid",
+      "from_type": "event",
+      "from_id": "babylon-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "marathon--related--achaemenid",
+      "from_type": "event",
+      "from_id": "marathon",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "thermopylae--related--achaemenid",
+      "from_type": "event",
+      "from_id": "thermopylae",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "salamis--related--achaemenid",
+      "from_type": "event",
+      "from_id": "salamis",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "alexander-conquest--related--macedon",
+      "from_type": "event",
+      "from_id": "alexander-conquest",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "macedon",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "alexander-conquest--related--achaemenid",
+      "from_type": "event",
+      "from_id": "alexander-conquest",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "cannae--related--carthage",
+      "from_type": "event",
+      "from_id": "cannae",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "carthage",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "cannae--related--roman-republic",
+      "from_type": "event",
+      "from_id": "cannae",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "carthage-destruction--related--carthage",
+      "from_type": "event",
+      "from_id": "carthage-destruction",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "carthage",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "carthage-destruction--related--roman-republic",
+      "from_type": "event",
+      "from_id": "carthage-destruction",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "roman-caesar--related--roman-republic",
+      "from_type": "event",
+      "from_id": "roman-caesar",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "actium--related--roman-republic",
+      "from_type": "event",
+      "from_id": "actium",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "augustus--related--roman-empire",
+      "from_type": "event",
+      "from_id": "augustus",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantine--related--roman-empire",
+      "from_type": "event",
+      "from_id": "constantine",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "edict-milan--related--roman-empire",
+      "from_type": "event",
+      "from_id": "edict-milan",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "theodosius--related--western-roman",
+      "from_type": "event",
+      "from_id": "theodosius",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "western-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "theodosius--related--eastern-roman",
+      "from_type": "event",
+      "from_id": "theodosius",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "eastern-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "western-fall--related--western-roman",
+      "from_type": "event",
+      "from_id": "western-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "western-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "justinian-reconquest--related--eastern-roman",
+      "from_type": "event",
+      "from_id": "justinian-reconquest",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "eastern-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tang-foundation--related--tang",
+      "from_type": "event",
+      "from_id": "tang-foundation",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "tang",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tang-an-lushan--related--tang",
+      "from_type": "event",
+      "from_id": "tang-an-lushan",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "tang",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "norman-conquest--related--england-kingdom",
+      "from_type": "event",
+      "from_id": "norman-conquest",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "england-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "magna-carta--related--england-kingdom",
+      "from_type": "event",
+      "from_id": "magna-carta",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "england-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "mongol-invasion--related--mongol",
+      "from_type": "event",
+      "from_id": "mongol-invasion",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "mongol",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "baghdad-fall--related--mongol",
+      "from_type": "event",
+      "from_id": "baghdad-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "mongol",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "baghdad-fall--related--il-khanate",
+      "from_type": "event",
+      "from_id": "baghdad-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "il-khanate",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantinople-fall--related--ottoman",
+      "from_type": "event",
+      "from_id": "constantinople-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantinople-fall--related--eastern-roman",
+      "from_type": "event",
+      "from_id": "constantinople-fall",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "eastern-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "columbus-voyage--related--castile",
+      "from_type": "event",
+      "from_id": "columbus-voyage",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "castile",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tordesillas--related--spanish-empire",
+      "from_type": "event",
+      "from_id": "tordesillas",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "spanish-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tordesillas--related--portuguese-empire",
+      "from_type": "event",
+      "from_id": "tordesillas",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "portuguese-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tenochtitlan--related--aztec",
+      "from_type": "event",
+      "from_id": "tenochtitlan",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "aztec",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "lepanto--related--ottoman",
+      "from_type": "event",
+      "from_id": "lepanto",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "glorious-revolution--related--england-kingdom",
+      "from_type": "event",
+      "from_id": "glorious-revolution",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "england-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "french-revolution--related--first-french-republic",
+      "from_type": "event",
+      "from_id": "french-revolution",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "first-french-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "bastille--related--first-french-republic",
+      "from_type": "event",
+      "from_id": "bastille",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "first-french-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "napoleon-coup--related--first-french-republic",
+      "from_type": "event",
+      "from_id": "napoleon-coup",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "first-french-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "trafalgar--related--first-empire",
+      "from_type": "event",
+      "from_id": "trafalgar",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "first-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "waterloo--related--first-empire",
+      "from_type": "event",
+      "from_id": "waterloo",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "first-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "greek-independence--related--ottoman",
+      "from_type": "event",
+      "from_id": "greek-independence",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "italy-unification--related--kingdom-italy",
+      "from_type": "event",
+      "from_id": "italy-unification",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "kingdom-italy",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "american-civil-war--related--confederate-states",
+      "from_type": "event",
+      "from_id": "american-civil-war",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "confederate-states",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "german-unification--related--german-empire",
+      "from_type": "event",
+      "from_id": "german-unification",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "german-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "meiji-restoration--related--meiji-japan",
+      "from_type": "event",
+      "from_id": "meiji-restoration",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "meiji-japan",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "boxer-rebellion--related--qing",
+      "from_type": "event",
+      "from_id": "boxer-rebellion",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "qing",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "russian-revolution-1905--related--russian-empire",
+      "from_type": "event",
+      "from_id": "russian-revolution-1905",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "wwi--related--german-empire",
+      "from_type": "event",
+      "from_id": "wwi",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "german-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "wwi--related--austro-hungarian",
+      "from_type": "event",
+      "from_id": "wwi",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "austro-hungarian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "wwi--related--russian-empire",
+      "from_type": "event",
+      "from_id": "wwi",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "russian-february--related--russian-empire",
+      "from_type": "event",
+      "from_id": "russian-february",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "russian-october--related--russian-sfsr",
+      "from_type": "event",
+      "from_id": "russian-october",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-sfsr",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "versailles--related--german-empire",
+      "from_type": "event",
+      "from_id": "versailles",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "german-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "manchuria--related--manchu-state",
+      "from_type": "event",
+      "from_id": "manchuria",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "manchu-state",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "munich--related--czechoslovakia-first",
+      "from_type": "event",
+      "from_id": "munich",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "czechoslovakia-first",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "barbarossa--related--soviet-union",
+      "from_type": "event",
+      "from_id": "barbarossa",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "stalingrad--related--soviet-union",
+      "from_type": "event",
+      "from_id": "stalingrad",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "cuban-missile--related--soviet-union",
+      "from_type": "event",
+      "from_id": "cuban-missile",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "iran-revolution--related--pahlavi",
+      "from_type": "event",
+      "from_id": "iran-revolution",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "pahlavi",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "soviet-dissolution--related--soviet-union",
+      "from_type": "event",
+      "from_id": "soviet-dissolution",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "yugoslavia-breakup--related--yugoslavia-socialist",
+      "from_type": "event",
+      "from_id": "yugoslavia-breakup",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "yugoslavia-socialist",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "crimea-2014--related--russian-empire",
+      "from_type": "event",
+      "from_id": "crimea-2014",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "ur--related--sumer",
+      "from_type": "place",
+      "from_id": "ur",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "sumer",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "ur--related--ur-third-dynasty",
+      "from_type": "place",
+      "from_id": "ur",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ur-third-dynasty",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "babylon--related--old-babylonian",
+      "from_type": "place",
+      "from_id": "babylon",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "old-babylonian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "babylon--related--neo-babylonian",
+      "from_type": "place",
+      "from_id": "babylon",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "neo-babylonian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "nineveh--related--assyrian-empire",
+      "from_type": "place",
+      "from_id": "nineveh",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "assyrian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "persepolis--related--achaemenid",
+      "from_type": "place",
+      "from_id": "persepolis",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "athens--related--roman-republic",
+      "from_type": "place",
+      "from_id": "athens",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "rome--related--roman-republic",
+      "from_type": "place",
+      "from_id": "rome",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "rome--related--roman-empire",
+      "from_type": "place",
+      "from_id": "rome",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "carthage-place--related--carthage",
+      "from_type": "place",
+      "from_id": "carthage-place",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "carthage",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "alexandria--related--ptolemaic",
+      "from_type": "place",
+      "from_id": "alexandria",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ptolemaic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantinople--related--eastern-roman",
+      "from_type": "place",
+      "from_id": "constantinople",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "eastern-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantinople--related--ottoman",
+      "from_type": "place",
+      "from_id": "constantinople",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "timbuktu--related--mali",
+      "from_type": "place",
+      "from_id": "timbuktu",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "mali",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "venice--related--republic-venice",
+      "from_type": "place",
+      "from_id": "venice",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "republic-venice",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "kyiv--related--kiev-rus",
+      "from_type": "place",
+      "from_id": "kyiv",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "kiev-rus",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "cracow--related--polish-lithuanian",
+      "from_type": "place",
+      "from_id": "cracow",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "polish-lithuanian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "prague--related--holy-roman-empire",
+      "from_type": "place",
+      "from_id": "prague",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "holy-roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "prague--related--czechoslovakia-first",
+      "from_type": "place",
+      "from_id": "prague",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "czechoslovakia-first",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantinople-1453--related--eastern-roman",
+      "from_type": "place",
+      "from_id": "constantinople-1453",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "eastern-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantinople-1453--related--ottoman",
+      "from_type": "place",
+      "from_id": "constantinople-1453",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tenochtitlan-place--related--aztec",
+      "from_type": "place",
+      "from_id": "tenochtitlan-place",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "aztec",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "cusco--related--inca",
+      "from_type": "place",
+      "from_id": "cusco",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "inca",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "istanbul--related--ottoman",
+      "from_type": "place",
+      "from_id": "istanbul",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "london--related--england-kingdom",
+      "from_type": "place",
+      "from_id": "london",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "england-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "london--related--united-kingdom",
+      "from_type": "place",
+      "from_id": "london",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "united-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "amsterdam--related--dutch-empire",
+      "from_type": "place",
+      "from_id": "amsterdam",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "dutch-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "vienna--related--austrian-empire",
+      "from_type": "place",
+      "from_id": "vienna",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "austrian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "vienna--related--austro-hungarian",
+      "from_type": "place",
+      "from_id": "vienna",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "austro-hungarian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "berlin--related--prussia",
+      "from_type": "place",
+      "from_id": "berlin",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "prussia",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "berlin--related--german-empire",
+      "from_type": "place",
+      "from_id": "berlin",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "german-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "sao-paulo--related--empire-brazil",
+      "from_type": "place",
+      "from_id": "sao-paulo",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "empire-brazil",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tokyo--related--tokugawa",
+      "from_type": "place",
+      "from_id": "tokyo",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "tokugawa",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tokyo--related--meiji-japan",
+      "from_type": "place",
+      "from_id": "tokyo",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "meiji-japan",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "beijing--related--ming",
+      "from_type": "place",
+      "from_id": "beijing",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ming",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "beijing--related--qing",
+      "from_type": "place",
+      "from_id": "beijing",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "qing",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "moscow--related--grand-principality-moscow",
+      "from_type": "place",
+      "from_id": "moscow",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "grand-principality-moscow",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "moscow--related--russian-empire",
+      "from_type": "place",
+      "from_id": "moscow",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "moscow--related--soviet-union",
+      "from_type": "place",
+      "from_id": "moscow",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "sargon-akkad--related--akkad",
+      "from_type": "person",
+      "from_id": "sargon-akkad",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "akkad",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "hammurabi--related--old-babylonian",
+      "from_type": "person",
+      "from_id": "hammurabi",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "old-babylonian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "cyrus-great--related--achaemenid",
+      "from_type": "person",
+      "from_id": "cyrus-great",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "darius-great--related--achaemenid",
+      "from_type": "person",
+      "from_id": "darius-great",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "achaemenid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "alexander-great--related--macedon",
+      "from_type": "person",
+      "from_id": "alexander-great",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "macedon",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "hannibal--related--carthage",
+      "from_type": "person",
+      "from_id": "hannibal",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "carthage",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "julius-caesar--related--roman-republic",
+      "from_type": "person",
+      "from_id": "julius-caesar",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-republic",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "augustus-person--related--roman-empire",
+      "from_type": "person",
+      "from_id": "augustus-person",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "constantine-person--related--roman-empire",
+      "from_type": "person",
+      "from_id": "constantine-person",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "roman-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "justinian--related--eastern-roman",
+      "from_type": "person",
+      "from_id": "justinian",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "eastern-roman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "charlemagne--related--carolingian",
+      "from_type": "person",
+      "from_id": "charlemagne",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "carolingian",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "william-conqueror--related--england-kingdom",
+      "from_type": "person",
+      "from_id": "william-conqueror",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "england-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "saladin--related--ayyubid-sultanate",
+      "from_type": "person",
+      "from_id": "saladin",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ayyubid-sultanate",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "genghis-khan--related--mongol",
+      "from_type": "person",
+      "from_id": "genghis-khan",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "mongol",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "kublai-khan--related--yuan",
+      "from_type": "person",
+      "from_id": "kublai-khan",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "yuan",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "timur--related--timurid",
+      "from_type": "person",
+      "from_id": "timur",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "timurid",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "mehmed-conqueror--related--ottoman",
+      "from_type": "person",
+      "from_id": "mehmed-conqueror",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "isabella-castile--related--castile",
+      "from_type": "person",
+      "from_id": "isabella-castile",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "castile",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "columbus-person--related--castile",
+      "from_type": "person",
+      "from_id": "columbus-person",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "castile",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "suleiman--related--ottoman",
+      "from_type": "person",
+      "from_id": "suleiman",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "ottoman",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "tokugawa-ieyasu--related--tokugawa",
+      "from_type": "person",
+      "from_id": "tokugawa-ieyasu",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "tokugawa",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "peter-great--related--russian-tsardom",
+      "from_type": "person",
+      "from_id": "peter-great",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-tsardom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "peter-great--related--russian-empire",
+      "from_type": "person",
+      "from_id": "peter-great",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "catherine-great--related--russian-empire",
+      "from_type": "person",
+      "from_id": "catherine-great",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "napoleon--related--first-empire",
+      "from_type": "person",
+      "from_id": "napoleon",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "first-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "simón-bolivar--related--gran-colombia",
+      "from_type": "person",
+      "from_id": "simón-bolivar",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "gran-colombia",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "queen-victoria--related--united-kingdom",
+      "from_type": "person",
+      "from_id": "queen-victoria",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "united-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "otto-von-bismarck--related--prussia",
+      "from_type": "person",
+      "from_id": "otto-von-bismarck",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "prussia",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "otto-von-bismarck--related--german-empire",
+      "from_type": "person",
+      "from_id": "otto-von-bismarck",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "german-empire",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "vladimir-lenin--related--russian-sfsr",
+      "from_type": "person",
+      "from_id": "vladimir-lenin",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "russian-sfsr",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "joseph-stalin--related--soviet-union",
+      "from_type": "person",
+      "from_id": "joseph-stalin",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "winston-churchill--related--united-kingdom",
+      "from_type": "person",
+      "from_id": "winston-churchill",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "united-kingdom",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "charles-de-gaulle--related--free-france",
+      "from_type": "person",
+      "from_id": "charles-de-gaulle",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "free-france",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "hideki-tojo--related--meiji-japan",
+      "from_type": "person",
+      "from_id": "hideki-tojo",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "meiji-japan",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "nikita-khrushchev--related--soviet-union",
+      "from_type": "person",
+      "from_id": "nikita-khrushchev",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    },
+    {
+      "id": "mikhail-gorbachev--related--soviet-union",
+      "from_type": "person",
+      "from_id": "mikhail-gorbachev",
+      "relation": "related_to",
+      "to_type": "polity",
+      "to_id": "soviet-union",
+      "source": "Worldforge curated historical pack"
+    }
+  ]
+}
