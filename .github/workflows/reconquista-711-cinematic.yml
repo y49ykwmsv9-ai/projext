@@ -13,13 +13,13 @@ jobs:
     timeout-minutes: 30
     env:
       MAP_URL: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Reconquista_(914-1492).svg"
-      AUDIO_URL: "https://dnznrvs05pmza.cloudfront.net/text_to_speech/3d9c67ba-23df-452d-85f0-f2c3e3f7f078/Reconquista_711_final_cinematic_narration.mp3?_jwt=eyJhbGciOiJIUzI1NiJ9.eyJrZXlIYXNoIjoiZjZiN2VlN2JjNmQzNDc4NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIwNjA3NX0.Tv80LjDUyYovd--xAYmbpMFOjM7pXzl4xxXMvIQxnEVE"
     steps:
 /      - uses: actions/checkout@v4
       - name: Install rendering tools
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg librsvg2-bin python3-pil curl fonts-dejavu
+          python3 -m pip install --user --disable-pip-version-check edge-tts
       - name: Render event-driven 711 scene
         run: python3 scripts/render-711-cinematic-scene.py
       - name: Upload finished 20 second scene
