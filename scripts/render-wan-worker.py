@@ -7,7 +7,7 @@ build.mkdir(parents=True,exist_ok=True)
 start=int(os.environ.get("SCENE_START","1")); end=int(os.environ.get("SCENE_END","40"))
 assets=json.loads((root/"scene-assets.json").read_text())["assets"]
 assets=[a for a in assets if start<=a["sceneNumber"]<=end]
-client=Client("zerogpu-aoti/wan2-2-fp8da-aoti-faster")
+client=Client("Saravutw/WAN2.2_I2V_LIGHTNING_4-8step_custom")
 prompt=("Historical animated strategy map of medieval Iberia, geographically accurate parchment cartography, armies "
          "marching along campaign routes, ships crossing straits where appropriate, cities and battle sites anchored "
          "to geography, evolving political boundaries, restrained documentary military-map cinematography, dynamic "
@@ -20,7 +20,7 @@ for a in assets:
     motion=("Animate this map as a living historical documentary scene. Preserve map identity and readable labels. "
             "Animate armies, ships, marching routes, battle markers and subtle terrain atmosphere. Follow movement "
             "with a restrained strategic camera. Do not make a static slideshow.")
-    result=client.predict(handle_file(str(img)),None,prompt+motion,4,"",5.0,1.0,3.0,1000+n,False,7,api_name="/generate_video")
+    result=client.predict(handle_file(str(img)),None,prompt+motion,4,"",5.0,1.0,1.0,1000+n,False,7,"UniPCMultistep",6.0,16,True,True,api_name="/generate_video")
     src=result[0] if isinstance(result,(tuple,list)) else result
     if isinstance(src,dict): src=src.get("path") or src.get("url")
     if not src: raise RuntimeError(f"No output for scene {n}: {result}")
