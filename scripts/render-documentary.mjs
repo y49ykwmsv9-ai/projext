@@ -49,7 +49,7 @@ function mapSpec(year, title, visual) {
     bg: path.join(assets, 'map-711.png'),
     credit: mapStyle.sources.campaign711.credit,
     route: [[400, 610], [455, 560], [610, 470], [625, 355]],
-    routeLabel: 'Tariq\\'s campaign',
+    routeLabel: "Tariq's campaign",
     battle: [470, 555],
     armies: ['UMAYYAD', 'VISIGOTHIC'],
     cities: [['GIBRALTAR', 405, 625], ['GUADALETE', 470, 575], ['CÓRDOBA', 610, 485], ['TOLEDO', 625, 365]]
