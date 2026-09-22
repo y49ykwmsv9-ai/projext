@@ -1,1 +1,136 @@
-<!doctype html><html><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'><title>Ironfront Tactics</title><style>body{margin:0;background:#111;color:#eee;font:14px system-ui}button{background:#202a33;color:white;border:1px solid #52606b;border-radius:9px;padding:9px}.app{height:100dvh;display:grid;grid-template-rows:52px 1fr 58px}.top,.bottom{display:flex;align-items:center;gap:8px;padding:8px;background:#151a20}.top span{margin-left:auto}.battle{position:relative;overflow:hidden;background:#59604f}canvas{width:100%;height:100%}.panel{position:absolute;left:8px;top:8px;background:#111b23eF;border:1px solid #56636e;border-radius:12px;padding:10px;width:210px}.right{left:auto;right:8px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}.bottom{overflow:auto;white-space:nowrap}.bottom button{min-width:100px}.modal{display:none;position:absolute;inset:5%;background:#111b23f5;border:1px solid #667;border-radius:15px;padding:15px;overflow:auto}.modal.show{display:block}.row{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}@media(max-width:700px){.right{display:none}}</style><div class='app'><header class='top'><b>IRONFRONT TACTICS</b><span>60 FPS target</span><button onclick='maker()'>Scenario Maker</button></header><main class='battle'><canvas id='c'></canvas><section class='panel'><b>Army Builder</b><div class='grid' id='g'></div><div class='row'><button onclick='forts++'>Fortification</button><button onclick='sieges++'>Siege Equipment</button></div><small id='sel'>Selected: Infantry</small></section><section class='panel right'><b>Battlefield</b><p id='info'>Units: 0<br>Fortifications: 0<br>Siege: 0</p></section><div class='modal' id='m'><h2>Custom Scenario Maker</h2><p>Create battles, defenses, sieges and challenge scenarios.</p><div class='row'><button onclick='challenge(1)'>Bridgehead</button><button onclick='challenge(2)'>Castle Siege</button><button onclick='challenge(3)'>Outnumbered</button><button onclick='challenge(4)'>Armored Clash</button><button onclick='challenge(5)'>Hold the Line</button><button onclick='challenge(6)'>Encirclement</button></div><button onclick='populate()'>Populate Battlefield</button> <button onclick='clearAll()'>Clear</button> <button onclick='m.classList.remove("show")'>Close</button></div></main><footer class='bottom' id='bar'></footer></div><script>const c=document.getElementById('c'),x=c.getContext('2d');let units=[],forts=0,sieges=0,selected='Infantry';const types=['Infantry','Riflemen','MG Team','Tank','Heavy Tank','Artillery','Mortar','AT Gun','Cavalry','Engineer','Rocket Artillery','Flamethrower','Sniper','Recon','Supply','AA Gun','Field Gun','Howitzer','Siege Gun','Armored Car','Horse Artillery','Battering Ram','Catapult','Ballista'];function resize(){c.width=innerWidth*devicePixelRatio;c.height=(innerHeight-110)*devicePixelRatio;x.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}addEventListener('resize',resize);resize();types.slice(0,10).forEach(t=>{let b=document.createElement('button');b.textContent=t;b.onclick=()=>{selected=t;sel.textContent='Selected: '+t};bar.appendChild(b)});types.slice(10).forEach(t=>{let b=document.createElement('button');b.textContent=t;b.onclick=()=>{selected=t;sel.textContent='Selected: '+t};g.appendChild(b)});function draw(){x.clearRect(0,0,innerWidth,innerHeight);for(const u of units){x.fillStyle=u.side?'#d47777':'#78a7d4';x.beginPath();x.arc(u.x,u.y,7,0,7);x.fill();x.fillStyle='#111';x.font='9px system-ui';x.fillText(u.t,u.x+9,u.y+3)}requestAnimationFrame(draw)}draw();c.onclick=e=>{units.push({x:e.clientX,y:e.clientY,t:selected,side=units.length%2});update()};function update(){info.innerHTML='Units: '+units.length+'<br>Fortifications: '+forts+'<br>Siege: '+sieges}function populate(){for(let i=0;i<40;i++)units.push({x:30+Math.random()*(innerWidth-60),y:70+Math.random()*(innerHeight-150),t:types[i%types.length],side:i%2});update()}function clearAll(){units=[];forts=0;sieges=0;update()}function maker(){m.classList.add('show')}function challenge(n){clearAll();for(let i=0;i<20+n*6;i++)units.push({x:30+Math.random()*(innerWidth-60),y:70+Math.random()*(innerHeight-150),t:types[(i+n)%types.length],side:i%2});forts=n*2;sieges=n;update();m.classList.remove('show')}update()</script></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Ironfront Tactics</title>
+<style>
+:root{--bg:#101419;--panel:#172028eF;--line:#4c5b67;--muted:#aeb9c1}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:#eef2f4;font:14px system-ui,-apple-system,BlinkMacSystemFont,sans-serif}
+button,select,input{font:inherit;color:#eef2f4;background:#202a33;border:1px solid #52606b;border-radius:9px;min-height:42px;padding:8px 10px}
+button:active{transform:translateY(1px)}button.active{outline:2px solid #e8c15b}
+.app{height:100%;display:grid;grid-template-rows:54px 1fr 58px}.top,.bottom{display:flex;align-items:center;gap:8px;padding:7px 9px;background:#151a20;z-index:5}.top strong{letter-spacing:.08em}.top .spacer{flex:1}.battle{position:relative;min-height:0;overflow:hidden;background:#58604f}.battle canvas{display:block;width:100%;height:100%;touch-action:none}
+.panel{position:absolute;top:9px;left:9px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;width:min(260px,calc(100% - 18px));backdrop-filter:blur(5px);z-index:3}
+.panel.right{left:auto;right:9px;width:230px}.panel h3{margin:0 0 7px;font-size:14px}.stats{line-height:1.55;color:#d9e0e4}.muted{color:var(--muted);font-size:12px}
+.unitgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;max-height:250px;overflow:auto}.unitgrid button{min-height:38px;padding:5px;font-size:12px}
+.controls{display:flex;gap:6px;flex-wrap:wrap}.controls button{flex:1 1 70px}.bottom{overflow:auto;white-space:nowrap}.bottom button{min-width:92px}
+.modal{display:none;position:absolute;inset:3%;background:#111a22f7;border:1px solid #667783;border-radius:15px;padding:14px;overflow:auto;z-index:10}.modal.show{display:block}.modal h2{margin-top:0}.row{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0}.row>*{flex:1 1 120px}.save-list{display:grid;gap:6px}.save{display:flex;gap:6px;align-items:center;border:1px solid #3f4b55;padding:7px;border-radius:8px}.save span{flex:1}
+@media(max-width:760px){.panel.right{display:none}.panel{width:220px}.top span{display:none}.app{grid-template-rows:50px 1fr 60px}.bottom button{min-width:88px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="top">
+<strong>IRONFRONT TACTICS</strong><span class="muted">60 FPS / mobile tactical simulation</span><span class="spacer"></span>
+<button id="scenarioBtn">Scenarios</button><button id="saveBtn">Save</button>
+</header>
+<main class="battle">
+<canvas id="battlefield" aria-label="Interactive battlefield"></canvas>
+<section class="panel">
+<h3>Army Builder</h3>
+<div id="unitGrid" class="unitgrid"></div>
+<div class="controls" style="margin-top:7px"><button id="fortBtn">Fortify</button><button id="siegeBtn">Siege</button><button id="clearBtn">Clear</button></div>
+<div class="stats"><b id="selectedLabel">Selected: Infantry</b><br><span id="battleStats"></span></div>
+</section>
+<section class="panel right">
+<h3>Battlefield</h3>
+<div id="info" class="stats"></div>
+<div class="controls" style="margin-top:7px"><button id="pauseBtn">Pause</button><button id="speedBtn">1×</button><button id="resetBtn">Reset</button></div>
+</section>
+<div id="scenarioModal" class="modal">
+<h2>Scenario Maker & Challenges</h2>
+<div class="row">
+<button data-challenge="bridgehead">Bridgehead</button><button data-challenge="castle">Castle Siege</button><button data-challenge="outnumbered">Outnumbered</button><button data-challenge="armor">Armored Clash</button><button data-challenge="hold">Hold the Line</button><button data-challenge="encircle">Encirclement</button>
+</div>
+<hr>
+<div class="row"><label>Terrain<select id="terrain"><option>Plains</option><option>Forest</option><option>Hills</option><option>Desert</option><option>Snow</option></select></label><label>Weather<select id="weather"><option>Clear</option><option>Rain</option><option>Fog</option><option>Snow</option></select></label><label>Units per side<input id="unitCount" type="number" min="1" max="200" value="20"></label></div>
+<div class="row"><button id="makeBtn">Generate Custom Battle</button><button id="saveScenarioBtn">Save Scenario</button><button id="closeScenario">Close</button></div>
+<div id="scenarioStatus" class="muted"></div>
+</div>
+<div id="saveModal" class="modal">
+<h2>Saved Battles</h2><div class="row"><button id="newSave">New Save</button><button id="exportSave">Export JSON</button><button id="importSave">Import JSON</button><button id="closeSave">Close</button></div>
+<div id="saveList" class="save-list"></div><input id="fileInput" type="file" accept="application/json" hidden>
+</div>
+</main>
+<footer id="bottom" class="bottom"></footer>
+</div>
+<script>
+(() => {
+"use strict";
+const canvas=document.getElementById("battlefield"),ctx=canvas.getContext("2d",{alpha:false});
+const unitGrid=document.getElementById("unitGrid"),bottom=document.getElementById("bottom");
+const info=document.getElementById("info"),selectedLabel=document.getElementById("selectedLabel"),battleStats=document.getElementById("battleStats");
+const scenarioModal=document.getElementById("scenarioModal"),saveModal=document.getElementById("saveModal"),saveList=document.getElementById("saveList");
+const terrainEl=document.getElementById("terrain"),weatherEl=document.getElementById("weather"),unitCountEl=document.getElementById("unitCount"),scenarioStatus=document.getElementById("scenarioStatus");
+const unitTypes=[
+["Infantry",90,18,75,4,2,1],["Riflemen",85,24,90,4.5,2,1],["MG Team",70,12,130,3,5,1],["Tank",260,38,150,5,8,2],["Heavy Tank",420,55,170,3.5,12,3],["Artillery",120,65,300,2,14,3],["Mortar",80,45,180,2.5,10,2],["AT Gun",95,80,190,2,12,2],["Cavalry",110,28,80,8,2,1],["Engineer",95,20,70,4,2,1],["Rocket Artillery",100,90,360,2,18,4],["Flamethrower",85,35,55,3.5,2,1],["Sniper",60,42,170,3,3,1],["Recon",65,15,110,7,1,1],["Supply",100,0,60,3,0,1],["AA Gun",100,45,170,2,7,2],["Field Gun",110,48,230,2,10,2],["Howitzer",130,72,330,2,16,3],["Siege Gun",180,110,450,1.5,22,5],["Armored Car",150,30,120,7,5,2],["Horse Artillery",115,45,230,5,10,2],["Battering Ram",180,50,45,2,4,2],["Catapult",160,75,220,1.5,15,3],["Ballista",110,60,190,2,10,2]
+];
+const typeMap=new Map(unitTypes.map(a=>[a[0],a]));
+let selected="Infantry",units=[],forts=[],sieges=[],particles=[],projectiles=[],paused=false,speed=1,terrain="Plains",weather="Clear",nextId=1,last=performance.now(),acc=0,simTime=0,drag=null;
+const savesKey="ironfront-tactics-saves-v1";
+const atlas=new Image();atlas.src="assets/sprites/unit-atlas.svg";
+function makeButton(label,fn){const b=document.createElement("button");b.textContent=label;b.addEventListener("click",fn);return b}
+unitTypes.forEach((u,i)=>{const b=makeButton(u[0],()=>selectUnit(u[0],b));unitGrid.appendChild(b);if(i<12)bottom.appendChild(makeButton(u[0],()=>selectUnit(u[0],b)))});
+function selectUnit(name,btn){selected=name;selectedLabel.textContent="Selected: "+name;document.querySelectorAll(".unitgrid button").forEach(b=>b.classList.remove("active"));if(btn)btn.classList.add("active")}
+selectUnit("Infantry");
+function resize(){const r=canvas.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);canvas.width=Math.max(1,Math.floor(r.width*d));canvas.height=Math.max(1,Math.floor(r.height*d));ctx.setTransform(d,0,0,d,0,0)}addEventListener("resize",resize,{passive:true});resize();
+function pos(e){const r=canvas.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top}}
+function spawn(type,x,y,side){const d=typeMap.get(type)||typeMap.get("Infantry");units.push({id:nextId++,type,x,y,side,hp:d[1],maxHp:d[1],morale:100,ammo:type==="Supply"?100:100,target:null,cool:Math.random()*1,angle:0});}
+canvas.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;drag={...pos(e),moved:false};canvas.setPointerCapture(e.pointerId)});
+canvas.addEventListener("pointermove",e=>{if(!drag)return;const p=pos(e);if(Math.hypot(p.x-drag.x,p.y-drag.y)>8)drag.moved=true});
+canvas.addEventListener("pointerup",e=>{if(!drag)return;const p=pos(e);if(!drag.moved)spawn(selected,p.x,p.y,units.length%2);drag=null;updateInfo()});
+document.getElementById("fortBtn").addEventListener("click",()=>{forts.push({x:120+Math.random()*Math.max(1,canvas.clientWidth-240),y:100+Math.random()*Math.max(1,canvas.clientHeight-180),hp:260,maxHp:260});updateInfo()});
+document.getElementById("siegeBtn").addEventListener("click",()=>{sieges.push({x:120+Math.random()*Math.max(1,canvas.clientWidth-240),y:100+Math.random()*Math.max(1,canvas.clientHeight-180),hp:180,maxHp:180});updateInfo()});
+document.getElementById("clearBtn").addEventListener("click",clearBattle);
+document.getElementById("resetBtn").addEventListener("click",clearBattle);
+document.getElementById("pauseBtn").addEventListener("click",()=>{paused=!paused;document.getElementById("pauseBtn").textContent=paused?"Resume":"Pause"});
+document.getElementById("speedBtn").addEventListener("click",()=>{speed=speed===1?2:speed===2?4:1;document.getElementById("speedBtn").textContent=speed+"×"});
+document.getElementById("scenarioBtn").addEventListener("click",()=>scenarioModal.classList.add("show"));
+document.getElementById("closeScenario").addEventListener("click",()=>scenarioModal.classList.remove("show"));
+document.getElementById("saveBtn").addEventListener("click",()=>{renderSaves();saveModal.classList.add("show")});
+document.getElementById("closeSave").addEventListener("click",()=>saveModal.classList.remove("show"));
+document.querySelectorAll("[data-challenge]").forEach(b=>b.addEventListener("click",()=>challenge(b.dataset.challenge)));
+document.getElementById("makeBtn").addEventListener("click",makeCustom);
+document.getElementById("saveScenarioBtn").addEventListener("click",()=>{localStorage.setItem("ironfront-last-scenario",JSON.stringify({terrain,weather,count:Number(unitCountEl.value)||20}));scenarioStatus.textContent="Scenario template saved locally."});
+document.getElementById("newSave").addEventListener("click",()=>{clearBattle();scenarioModal.classList.remove("show");saveModal.classList.remove("show")});
+document.getElementById("exportSave").addEventListener("click",exportSave);
+document.getElementById("importSave").addEventListener("click",()=>document.getElementById("fileInput").click());
+document.getElementById("fileInput").addEventListener("change",importSave);
+function clearBattle(){units=[];forts=[];sieges=[];particles=[];projectiles=[];simTime=0;updateInfo()}
+function challenge(kind){
+clearBattle();const cfg={bridgehead:[24,8,5],castle:[18,14,12],outnumbered:[45,12,3],armor:[16,16,1],hold:[12,34,9],encircle:[22,28,4]}[kind]||[20,20,4];
+for(let i=0;i<cfg[0];i++)spawn(kind==="armor"?["Tank","Heavy Tank","Armored Car"][i%3]:unitTypes[(i+3)%unitTypes.length][0],40+Math.random()*canvas.clientWidth*.42,70+Math.random()*canvas.clientHeight*.8,0);
+for(let i=0;i<cfg[1];i++)spawn(kind==="armor"?["Tank","Heavy Tank","AT Gun"][i%3]:unitTypes[(i+10)%unitTypes.length][0],canvas.clientWidth*.55+Math.random()*canvas.clientWidth*.4,70+Math.random()*canvas.clientHeight*.8,1);
+for(let i=0;i<cfg[2];i++)forts.push({x:canvas.clientWidth*.48+Math.random()*80,y:80+i*55,hp:260,maxHp:260});
+sieges=Array.from({length:Math.max(1,Math.floor(cfg[2]/2))},()=>({x:canvas.clientWidth*.5,y:100+Math.random()*canvas.clientHeight*.7,hp:180,maxHp:180}));
+terrain=kind==="castle"?"Hills":kind==="encircle"?"Forest":"Plains";terrainEl.value=terrain;updateInfo();scenarioModal.classList.remove("show");
+}
+function makeCustom(){clearBattle();terrain=terrainEl.value;weather=weatherEl.value;let n=Math.max(1,Math.min(200,Number(unitCountEl.value)||20));for(let i=0;i<n;i++)spawn(unitTypes[i%unitTypes.length][0],35+Math.random()*canvas.clientWidth*.42,70+Math.random()*canvas.clientHeight*.82,0);for(let i=0;i<n;i++)spawn(unitTypes[(i+6)%unitTypes.length][0],canvas.clientWidth*.55+Math.random()*canvas.clientWidth*.4,70+Math.random()*canvas.clientHeight*.82,1);for(let i=0;i<Math.ceil(n/8);i++)forts.push({x:canvas.clientWidth*.48+Math.random()*100,y:80+Math.random()*canvas.clientHeight*.8,hp:260,maxHp:260});updateInfo();scenarioStatus.textContent="Custom battle generated."}
+function updateInfo(){const a=units.filter(u=>u.side===0).length,b=units.filter(u=>u.side===1).length;info.innerHTML="Blue: "+a+" units<br>Red: "+b+" units<br>Fortifications: "+forts.length+"<br>Siege engines: "+sieges.length+"<br>Terrain: "+terrain+" · Weather: "+weather+"<br>Battle time: "+simTime.toFixed(1)+"s";const s=typeMap.get(selected);battleStats.textContent="HP "+s[1]+" · Range "+s[3]+" · Speed "+s[4]+" · Damage "+s[5]}
+function nearestEnemy(u){let best=null,bd=Infinity;for(const v of units){if(v.side===u.side||v.hp<=0)continue;const d=Math.hypot(v.x-u.x,v.y-u.y);if(d<bd){bd=d;best=v}}return best}
+function step(dt){simTime+=dt;for(const u of units){if(u.hp<=0)continue;const d=typeMap.get(u.type)||unitTypes[0],t=nearestEnemy(u);if(!t)continue;const dx=t.x-u.x,dy=t.y-u.y,dist=Math.hypot(dx,dy)||1;u.angle=Math.atan2(dy,dx);if(dist>d[3]&&u.type!=="Supply"){u.x+=dx/dist*d[4]*dt;u.y+=dy/dist*d[4]*dt}else if(u.cool<=0&&d[5]>0&&u.ammo>0){u.cool=Math.max(.18,1.2-d[6]*.12);u.ammo--;projectiles.push({x:u.x,y:u.y,tx:t.x,ty:t.y,target:t,damage:d[5],life:0.25})}u.cool-=dt;u.morale=Math.max(0,u.morale-dt*.8);if(u.morale<25)u.x-=dx/dist*d[4]*dt*.5}
+for(const p of projectiles){p.life-=dt;if(p.life<=0&&p.target.hp>0){p.target.hp=Math.max(0,p.target.hp-p.damage);particles.push({x:p.target.x,y:p.target.y,t:.35})}}
+projectiles=projectiles.filter(p=>p.life>0);particles.forEach(p=>p.t-=dt);particles=particles.filter(p=>p.t>0);units=units.filter(u=>u.hp>0);if(Math.random()<dt*.4)updateInfo()}
+function draw(){const w=canvas.clientWidth,h=canvas.clientHeight;ctx.clearRect(0,0,w,h);const cell=48;ctx.fillStyle=terrain==="Snow"?"#d9ddd8":terrain==="Desert"?"#a68c60":terrain==="Forest"?"#4d6548":terrain==="Hills"?"#68705b":"#59604f";ctx.fillRect(0,0,w,h);ctx.strokeStyle="rgba(20,25,20,.12)";for(let x=0;x<w;x+=cell){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke()}for(let y=0;y<h;y+=cell){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke()}
+forts.forEach(f=>{ctx.fillStyle="#716c5a";ctx.fillRect(f.x-24,f.y-9,48,18);ctx.fillStyle="#b9ae8e";ctx.fillRect(f.x-20,f.y-5,40,10);ctx.fillStyle="#111";ctx.font="9px system-ui";ctx.fillText("FORT",f.x-17,f.y+4)});
+sieges.forEach(s=>{ctx.fillStyle="#654a37";ctx.fillRect(s.x-18,s.y-9,36,18);ctx.strokeStyle="#e0c27d";ctx.beginPath();ctx.moveTo(s.x-12,s.y-12);ctx.lineTo(s.x+12,s.y+12);ctx.stroke()});
+for(const u of units){const d=typeMap.get(u.type)||unitTypes[0],r=Math.max(5,Math.min(11,d[1]/35));ctx.save();ctx.translate(u.x,u.y);ctx.rotate(u.angle);ctx.fillStyle=u.side===0?"#78a7d4":"#d47777";ctx.strokeStyle="#182028";ctx.lineWidth=2;ctx.beginPath();ctx.arc(0,0,r,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.fillStyle="#e7dcc0";ctx.fillRect(-r*.55,-2,r*1.1,4);ctx.restore();ctx.fillStyle="#101417";ctx.fillRect(u.x-10,u.y-r-7,20,3);ctx.fillStyle="#77c66d";ctx.fillRect(u.x-10,u.y-r-7,20*Math.max(0,u.hp/u.maxHp),3)}
+for(const p of particles){ctx.globalAlpha=Math.max(0,p.t/.35);ctx.fillStyle="#f0ad45";ctx.beginPath();ctx.arc(p.x,p.y,(1-p.t/.35)*18+4,0,Math.PI*2);ctx.fill();ctx.globalAlpha=1}
+}
+function frame(now){const elapsed=Math.min(.1,(now-last)/1000);last=now;if(!paused){acc+=elapsed*speed;while(acc>=1/30){step(1/30);acc-=1/30}}draw();requestAnimationFrame(frame)}requestAnimationFrame(frame);
+function saveData(){return {version:1,createdAt:new Date().toISOString(),terrain,weather,simTime,nextId,units,forts,sieges}}
+function getSaves(){try{return JSON.parse(localStorage.getItem(savesKey)||"[]")}catch{return[]}}
+function renderSaves(){const arr=getSaves();saveList.innerHTML="";if(!arr.length){saveList.innerHTML='<div class="muted">No local saves yet.</div>';return}arr.forEach((s,i)=>{const row=document.createElement("div");row.className="save";const label=document.createElement("span");label.textContent=s.name+" · "+new Date(s.data.createdAt).toLocaleString();const load=makeButton("Load",()=>{loadState(s.data);saveModal.classList.remove("show")});const del=makeButton("Delete",()=>{arr.splice(i,1);localStorage.setItem(savesKey,JSON.stringify(arr));renderSaves()});row.append(label,load,del);saveList.appendChild(row)})}
+document.getElementById("saveBtn").addEventListener("dblclick",()=>saveCurrent());
+function saveCurrent(){const arr=getSaves();arr.unshift({name:"Battle "+new Date().toLocaleString(),data:saveData()});localStorage.setItem(savesKey,JSON.stringify(arr.slice(0,30)));renderSaves()}
+document.getElementById("saveBtn").addEventListener("click",saveCurrent);
+function loadState(d){terrain=d.terrain||"Plains";weather=d.weather||"Clear";simTime=Number(d.simTime)||0;nextId=Number(d.nextId)||1;units=Array.isArray(d.units)?d.units:[];forts=Array.isArray(d.forts)?d.forts:[];sieges=Array.isArray(d.sieges)?d.sieges:[];terrainEl.value=terrain;weatherEl.value=weather;updateInfo()}
+function exportSave(){const blob=new Blob([JSON.stringify(saveData(),null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="ironfront-battle.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+function importSave(e){const file=e.target.files&&e.target.files[0];if(!file)return;const reader=new FileReader();reader.onload=()=>{try{loadState(JSON.parse(reader.result));saveModal.classList.remove("show")}catch{alert("Invalid Ironfront save file.")}};reader.readAsText(file);e.target.value=""}
+setInterval(()=>{if(!paused&&units.length)saveCurrent()},30000);
+updateInfo();
+})();
+</script>
+</body>
+</html>
