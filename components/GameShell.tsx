@@ -188,7 +188,7 @@ function advanceBy(days:number){if(!Number.isFinite(days)||days<=0)return;setPau
   {activeEvents.length>0&&<div className='floating event-stack'>{activeEvents.slice(0,2).map(e=><div className='event-card' key={e.id}><b>{e.title}</b><p>{e.description}</p><div className='actions'>{e.options.map((o,i)=><button key={o} onClick={()=>{const s=structuredClone(worldState);const r=applyEventEffects(s,e.id,i);if(r.ok){s.scenario.divergence=Math.min(100,s.scenario.divergence+1);s.scenario.historyLog.push('event:'+e.id+':'+i);}setWorldState(s);setLog(l=>[r.message,...l].slice(0,12))}}>{o}</button>)}</div></div>)}</div>}
 
 <form className='floating command-bar' onSubmit={e=>{e.preventDefault();if(command.trim())quick(command);setCommand('')}}><input value={command} onChange={e=>setCommand(e.target.value)} placeholder='What do you want your government to do?'/><button>Issue Order</button></form>
-  <div className='floating zoom-dock'><button onClick={()=>setZoom(z=>Math.min(5,z*1.2))}>+</button><span>{zoom<10?Math.round(zoom*100)+'%':zoom<100?Math.round(zoom*10)/10+'×':Math.round(zoom)+'×'}</span><button onClick={()=>setZoom(z=>Math.max(.7,z/1.2))}>−</button><button onClick={()=>{setZoom(1);setPan({x:0,y:0})}}>Reset</button></div>
+  <div className='floating zoom-dock'><button onClick={()=>setZoom(z=>Math.min(22,z*1.2))}>+</button><span>{zoom<10?Math.round(zoom*100)+'%':zoom<100?Math.round(zoom*10)/10+'×':Math.round(zoom)+'×'}</span><button onClick={()=>setZoom(z=>Math.max(.7,z/1.2))}>−</button><button onClick={()=>{setZoom(1);setPan({x:0,y:0})}}>Reset</button></div>
   {log.length>0&&<div className='floating log-dock'>{log.slice(0,4).map((x,i)=><div key={i}>{x}</div>)}</div>}
  </main>
 }
