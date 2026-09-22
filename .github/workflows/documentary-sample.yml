@@ -19,16 +19,14 @@ jobs:
   sample:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      AUDIO_URL: "https://dnznrvs05pmza.cloudfront.net/text_to_speech/3d9c67ba-23df-452d-85f0-f2c3e3f7f078/Reconquista_711_final_cinematic_narration.mp3?_jwt=eyJhbGciOiJIUzI1NiJ9.eyJrZXlIYXNoIjoiZjZiN2VlN2JjNmQzNDc4NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5MDIwNjA3NX0.Tv80LjDUyYovd--xAYmbpMFOjM7pXzl4xxXMvIQxnEVE"
     steps:
       - uses: actions/checkout@v4
       - name: Install rendering tools
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg librsvg2-bin curl unzip fonts-dejavu python3-pil
-          python3 -m pip install --user --disable-pip-version-check piper-tts
-          mkdir -p voices
-          piper.download_voices --download-dir voices en_US-lessac-medium
-          piper.download_voices --download-dir voices en_US-lessac-high
       - name: Validate Cliopatria+ Reconquista atlas
         run: node scripts/validate-reconquista-atlas.mjs
       - name: Fetch and resolve Cliopatria
