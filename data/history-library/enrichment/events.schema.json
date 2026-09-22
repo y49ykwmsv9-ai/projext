@@ -1,0 +1,22 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://historix.local/schema/1.3/event-enrichment",
+  "title":"HISTORIX 1.3 Event Enrichment",
+  "type":"object",
+  "required":["id","identity","chronology","geography","participants","context","narrative","consequences","quantitative","evidence","uncertainty","graph","editorial"],
+  "properties":{
+    "id":{"type":"string"},
+    "identity":{"type":"object","required":["canonical_name","event_type"],"properties":{"canonical_name":{"type":"string"},"alternate_names":{"type":"array"},"event_type":{"type":"string"},"subtype":{"type":"string"}}},
+    "chronology":{"type":"object","required":["start"],"properties":{"start":{"type":"integer"},"end":{"type":["integer","null"]},"date_label":{"type":["string","null"]},"date_precision":{"type":"string"},"is_approximate":{"type":"boolean"},"uncertainty_years":{"type":["integer","null"]}}},
+    "geography":{"type":"object","required":["region"],"properties":{"region":{"type":"string"},"place_ids":{"type":"array"},"polity_ids":{"type":"array"},"extent_note":{"type":["string","null"]}}},
+    "participants":{"type":"array"},
+    "context":{"type":"object","required":["causes","triggers","preceding_event_ids"],"properties":{"causes":{"type":"array"},"triggers":{"type":"array"},"preceding_event_ids":{"type":"array"},"background":{"type":["string","null"]}}},
+    "narrative":{"type":"object","required":["summary","phases"],"properties":{"summary":{"type":"string"},"phases":{"type":"array"},"turning_points":{"type":"array"}}},
+    "consequences":{"type":"object","required":["political","territorial","demographic","economic","military","cultural"],"properties":{"political":{"type":"array"},"territorial":{"type":"array"},"demographic":{"type":"array"},"economic":{"type":"array"},"military":{"type":"array"},"cultural":{"type":"array"}}},
+    "quantitative":{"type":"array"},
+    "evidence":{"type":"object","required":["claims"],"properties":{"claims":{"type":"array"},"primary_source_ids":{"type":"array"},"secondary_source_ids":{"type":"array"}}},
+    "uncertainty":{"type":"object","required":["confidence","disputes"],"properties":{"confidence":{"type":"string"},"disputes":{"type":"array"},"unknowns":{"type":"array"}}},
+    "graph":{"type":"object","required":["preceding_event_ids","following_event_ids","related_place_ids","related_person_ids","related_polity_ids"],"properties":{"preceding_event_ids":{"type":"array"},"following_event_ids":{"type":"array"},"related_place_ids":{"type":"array"},"related_person_ids":{"type":"array"},"related_polity_ids":{"type":"array"}}},
+    "editorial":{"type":"object","required":["status","missing_fields"],"properties":{"status":{"type":"string"},"missing_fields":{"type":"array"},"last_reviewed":{"type":["string","null"]},"editor_notes":{"type":["string","null"]}}}
+  }
+}
