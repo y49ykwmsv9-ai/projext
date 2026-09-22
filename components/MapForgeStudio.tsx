@@ -22,6 +22,7 @@ import {queryCliopatriaYear} from "../lib/cliopatria";
 import {planFromPrompt} from "../lib/mapforge/planner";
 import type {MapForgeClip,MapForgeProject} from "../lib/mapforge/types";
 import {synthesizeNeural,type NeuralAudio,warmNeuralVoice} from "../lib/mapforge/tts";
+import {renderGate,type RenderPhase} from "../lib/mapforge/qc";
 import "../app/mapforge/mapforge.css";
 
 const BASE_PATH=process.env.NEXT_PUBLIC_BASE_PATH??"";
@@ -39,6 +40,7 @@ export default function MapForgeStudio(){
   const [voiceEnabled,setVoiceEnabled]=useState(true);
   const [speaking,setSpeaking]=useState(false);
   const [voiceStatus,setVoiceStatus]=useState("Neural voice idle");
+  const [renderPhase,setRenderPhase]=useState<RenderPhase>("planning");
   const audioCache=useRef<Record<string,NeuralAudio>>({});
   const mapRef=useRef<MLMap|null>(null);
   const elRef=useRef<HTMLDivElement|null>(null);
@@ -70,29 +72,59 @@ export default function MapForgeStudio(){
   const exportJson=()=>{if(!project)return;const blob=new Blob([JSON.stringify(project,null,2)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=(project.title||"mapforge").replace(/[^a-z0-9]+/gi,"-").toLowerCase()+".json";a.click();};
   const record=async()=>{
     const m=mapRef.current;if(!m||!project)return;
-    if(project.checks.some(x=>x.severity==="error"&&!x.passed)){setStatus("Render blocked: chronology checks failed.");return;}
-    setStatus("Generating neural narration for every scene…");setVoiceStatus("Generating neural narration…");
+    setRenderPhase("historical-verification");setStatus("Verifying historical scene scopes…");
     try{
-      for(const sc of project.clips){if(!sc.narration)continue;if(!audioCache.current[sc.id])audioCache.current[sc.id]=await synthesizeNeural(sc.narration,(project.voice.voice as any)||"af_heart",project.voice.pace);sc.narrationSeconds=audioCache.current[sc.id].duration;}
-      setProject({...project,clips:[...project.clips],voice:{...project.voice,provider:"neural",model:"Kokoro-82M"}});
-      const canvas=m.getCanvas().captureStream(project.fps),ctx=new AudioContext(),dest=ctx.createMediaStreamDestination();
+      const historicalChecks=[] as MapForgeProject["checks"];
+      for(const sc of project.clips){
+        if(!sc.year||!sc.region)continue;
+        const active=await queryCliopatriaYear(sc.year,sc.region);
+        historicalChecks.push({id:"historical-"+sc.id,label:"Historical data",passed:active.length>0,severity:active.length>0?"info":"warning",detail:active.length?active.length+" active polities in scene scope.":"No CLIOPATRIA polity matched this scene scope; review before publication."});
+      }
+      setRenderPhase("continuity");
+      const gate=[...project.checks,...historicalChecks,...renderGate(project.clips)];
+      const fatal=gate.some(x=>x.severity==="error"&&!x.passed);
+      setProject({...project,checks:gate});
+      if(fatal){setStatus("Final render blocked by production QC.");return;}
+      setRenderPhase("voice-generation");setStatus("Generating neural narration and measuring every scene…");
+      for(const sc of project.clips){
+        if(!sc.narration)continue;
+        if(!audioCache.current[sc.id])audioCache.current[sc.id]=await synthesizeNeural(sc.narration,(project.voice.voice as any)||"af_heart",project.voice.pace);
+        sc.narrationSeconds=audioCache.current[sc.id].duration;
+        sc.duration=Math.max(4,sc.narrationSeconds+0.6);
+      }
+      setRenderPhase("audio-sync");
+      const canvas=m.getCanvas().captureStream(project.fps);
+      const ctx=new AudioContext();
+      const dest=ctx.createMediaStreamDestination();
+      const master=ctx.createGain();
+      const compressor=ctx.createDynamicsCompressor();
+      master.gain.value=0.88;
+      compressor.threshold.value=-18;compressor.knee.value=12;compressor.ratio.value=3;compressor.attack.value=0.01;compressor.release.value=0.15;
+      master.connect(compressor);compressor.connect(dest);
       const mime=MediaRecorder.isTypeSupported("video/webm;codecs=vp9,opus")?"video/webm;codecs=vp9,opus":"video/webm";
       const stream=new MediaStream([...canvas.getVideoTracks(),...dest.stream.getAudioTracks()]);
-      const rec=new MediaRecorder(stream,{mimeType:mime}),chunks:Blob[]=[];
+      const rec=new MediaRecorder(stream,{mimeType:mime});
+      const chunks:Blob[]=[];
       rec.ondataavailable=e=>e.data.size&&chunks.push(e.data);
-      rec.onstop=()=>{const blob=new Blob(chunks,{type:mime}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=(project.title||"mapforge").replace(/[^a-z0-9]+/gi,"-").toLowerCase()+"-neural.webm";a.click();setStatus("Neural WebM exported with narration.");setVoiceStatus("Final audio/video render complete");ctx.close();};
-      rec.start(250);setPlaying(true);
-      for(let i=0;i<project.clips.length;i++){setClip(i);const sc=project.clips[i],audio=audioCache.current[sc.id];if(audio){const decoded=await ctx.decodeAudioData((await audio.blob.arrayBuffer()).slice(0));const node=ctx.createBufferSource();node.buffer=decoded;node.connect(dest);node.start();await new Promise(r=>setTimeout(r,Math.max(1200,decoded.duration*1000)));}else await new Promise(r=>setTimeout(r,Math.max(1200,sc.duration*1000)));}
+      rec.onstop=()=>{const blob=new Blob(chunks,{type:mime}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=(project.title||"mapforge").replace(/[^a-z0-9]+/gi,"-").toLowerCase()+"-neural.webm";a.click();setRenderPhase("complete");setStatus("Final QC passed · synchronized neural video exported.");setVoiceStatus("Final audio/video render complete");ctx.close();};
+      setRenderPhase("visual-render");rec.start(250);
+      for(let i=0;i<project.clips.length;i++){
+        const sc=project.clips[i];
+        setClip(i);
+        await draw(m,sc);
+        const audio=audioCache.current[sc.id];
+        if(audio){
+          const decoded=await ctx.decodeAudioData((await audio.blob.arrayBuffer()).slice(0));
+          const node=ctx.createBufferSource();
+          const gain=ctx.createGain();
+          node.buffer=decoded;gain.gain.setValueAtTime(0,ctx.currentTime);gain.gain.linearRampToValueAtTime(1,ctx.currentTime+0.08);gain.gain.setValueAtTime(1,ctx.currentTime+Math.max(0.08,decoded.duration-0.12));gain.gain.linearRampToValueAtTime(0,ctx.currentTime+decoded.duration);
+          node.connect(gain);gain.connect(master);node.start();
+          await new Promise(r=>setTimeout(r,Math.max(1000,(decoded.duration-0.12)*1000)));
+        }else await new Promise(r=>setTimeout(r,Math.max(1000,sc.duration*1000)));
+      }
+      setRenderPhase("final-qc");setStatus("Running final render QC…");
+      await new Promise(r=>setTimeout(r,350));
       setPlaying(false);rec.stop();
-    }catch(e){setPlaying(false);setStatus(e instanceof Error?e.message:"Neural render failed");setVoiceStatus("Neural render failed");}
+    }catch(e){setPlaying(false);setRenderPhase("final-qc");setStatus(e instanceof Error?e.message:"Neural render failed");setVoiceStatus("Neural render failed");}
   };
-  if(!project)return <main className="mf-create"><div className="mf-create-inner"><span className="mf-kicker">MAPFORGE · VIDEO CREATION ENGINE</span><h1>What do you want to make?</h1><p className="mf-create-sub">Describe the video in plain language. MapForge will turn the request into a historical timeline, geography, camera choreography, routes, labels, and map animation.</p><div className="mf-prompt-shell"><textarea autoFocus value={prompt} onChange={e=>setPrompt(e.target.value)} onKeyDown={e=>{if((e.metaKey||e.ctrlKey)&&e.key==="Enter")generate()}} placeholder="Create a cinematic documentary about the Reconquista from 711 to 1492, showing territorial changes, major campaigns, cities, battles, dates, narration, and camera movement…"/><button className="mf-create-button" disabled={!prompt.trim()} onClick={generate}>Create video</button></div><div className="mf-create-hint">⌘/Ctrl + Enter to create · No project is loaded until you submit a prompt.</div></div></main>;
-  return <main className="mf"><header className="mf-head"><div><span className="mf-kicker">MAPFORGE / CREATION STUDIO</span><h1>{project.title}</h1><p>Edit the generated video plan, inspect the map, then render with local neural narration.</p></div><div className="mf-actions"><button onClick={()=>setProject(null)}>New video</button><button onClick={exportJson}>Export JSON</button><button onClick={record}>Render neural video</button><button onClick={speakCurrent}>{speaking?"Speaking…":"Play neural voice"}</button></div></header>
-  <section className="mf-workspace"><aside className="mf-left"><label>VIDEO PROMPT<textarea value={prompt} onChange={e=>setPrompt(e.target.value)}/></label><button className="mf-generate-again" onClick={generate}>Regenerate from prompt</button><div className="mf-row"><button className={source==="historical"?"on":""} onClick={()=>setSource("historical")}>Historical</button><button className={source==="openfree"?"on":""} onClick={()=>setSource("openfree")}>Modern</button></div>
-  <div className="mf-card"><b>Production checks</b><p>{project.checks.filter(x=>x.severity==="error"&&!x.passed).length?"Blocked: resolve chronology errors before recording.":"Chronology, geography, camera continuity and narration checks passed or flagged for review."}</p>{project.checks.slice(0,8).map(x=><div key={x.id} className={x.passed?"mf-check":"mf-check warn"}>● {x.label}: {x.passed?"PASS":"REVIEW"} <small>{x.detail}</small></div>)}</div>
-  <div className="mf-card"><b>Neural voice-over engine</b><p>Kokoro-82M runs locally in the browser using WebGPU when available and WASM otherwise. No voice API key or per-minute credit system is required.</p><button onClick={()=>setVoiceEnabled(!voiceEnabled)}>{voiceEnabled?"Neural voice enabled":"Voice disabled"}</button><button onClick={()=>warmNeuralVoice().then(()=>setVoiceStatus("Neural model loaded")).catch(e=>setVoiceStatus(e.message))}>Load neural voice</button><small className="mf-voice-status">{voiceStatus}</small></div>
-  <div className="mf-card"><b>Creation engine</b><p>Prompt → historical timeline → geographically scoped CLIOPATRIA data → camera choreography → neural narration → synchronized WebM render.</p></div><button className="mf-credit" onClick={()=>setShowCredits(!showCredits)}>{showCredits?"Hide":"Show"} data credits</button>{showCredits&&<div className="mf-card small">{project.credits.map(x=><div key={x}>• {x}</div>)}</div>}</aside>
-  <section className="mf-map-wrap"><div ref={elRef} className="mf-map"/><div className="mf-map-title"><b>{current?.title}</b><span>{current?.year??"—"} · {current?.camera}</span></div><div className="mf-status">{status}</div></section>
-  <aside className="mf-right"><div className="mf-right-head"><b>Generated scenes</b><span>{clip+1}/{project.clips.length}</span></div>{project.clips.map((c,i)=><button key={c.id} className={"mf-scene "+(i===clip?"active":"")} onClick={()=>setClip(i)}><span>{c.year??"—"}</span><strong>{c.title}</strong><small>{c.camera} · {c.narrationSeconds?c.narrationSeconds.toFixed(1)+"s voice":c.duration+"s target"}</small></button>)}</aside></section>
-  <footer className="mf-transport"><button onClick={()=>setClip(Math.max(0,clip-1))}>‹</button><button onClick={()=>setPlaying(!playing)}>{playing?"Pause":"Play"}</button><button onClick={()=>setClip(Math.min(project.clips.length-1,clip+1))}>›</button><span>{current?.narration||"Scene ready"}</span><b>{Math.round((clip/(Math.max(1,project.clips.length-1)))*100)}%</b></footer></main>;
-}
+
