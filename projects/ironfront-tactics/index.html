@@ -85,52 +85,22 @@ function drawTerrain(vp){gl.useProgram(terrainProg);gl.bindBuffer(gl.ARRAY_BUFFE
 function drawUnits(vp,c){const arr=new Float32Array(units.length*6*7);let k=0;for(const u of units){const uv=uvMap[u.type]||uvMap.Infantry,sz=(u.type.includes("Tank")||u.type==="Armored Car")?1.8:1.15,bob=Math.abs(Math.sin(simTime*7+u.phase))*.12,base=terrainY(u.x,u.z)+1+bob;const qu=[[-.5,-.5,uv[0],uv[1]+uv[3]],[.5,-.5,uv[0]+uv[2],uv[1]+uv[3]],[-.5,.5,uv[0],uv[1]],[-.5,.5,uv[0],uv[1]],[.5,-.5,uv[0]+uv[2],uv[1]+uv[3]],[.5,.5,uv[0]+uv[2],uv[1]]];for(const q of qu){arr[k++]=u.x;arr[k++]=base;arr[k++]=u.z;arr[k++]=q[0]*sz;arr[k++]=q[1]*sz;arr[k++]=q[2];arr[k++]=q[3]}}gl.useProgram(prog);gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,arr,gl.DYNAMIC_DRAW);gl.enableVertexAttribArray(posLoc);gl.vertexAttribPointer(posLoc,3,gl.FLOAT,false,28,0);gl.enableVertexAttribArray(cornerLoc);gl.vertexAttribPointer(cornerLoc,2,gl.FLOAT,false,28,12);gl.enableVertexAttribArray(uvLoc);gl.vertexAttribPointer(uvLoc,2,gl.FLOAT,false,28,20);gl.uniformMatrix4fv(vpLoc,false,vp);gl.uniform3f(rightLoc,c.view[0],c.view[4],c.view[8]);gl.uniform3f(upLoc,0,1,0);gl.uniform1f(sizeLoc,1);gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,tex);gl.uniform1i(texLoc,0);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.drawArrays(gl.TRIANGLES,0,Math.min(units.length,900)*6);gl.disable(gl.BLEND)}
 
 const modelVS=shader(gl.VERTEX_SHADER,`#version 300 es
-in vec3 a;in vec3 iPos;in vec3 iScale;in vec3 iColor;in float iAngle;in float iAnim;
+in vec3 a;in vec3 iPos;in vec3 iScale;in vec3 iColor;in float iAngle;in float iAnim;in float iKind;
 uniform mat4 uVP;out vec3 vColor;
-void main(){vec3 p=a*iScale;float s=sin(iAngle),c=cos(iAngle);p=vec3(p.x*c-p.z*s,p.y,p.x*s+p.z*c);float bob=sin(iAnim)*.04;gl_Position=uVP*vec4(p+iPos+vec3(0,bob,0),1.);vColor=iColor;}`);
+void main(){int part=gl_VertexID/36;vec3 p=a-.5;float walk=sin(iAnim)*.16;
+if(iKind<.5){if(part==0)p*=vec3(.72,1.4,.52);else if(part==1)p=vec3(p.x*.5,p.y*.35+.92,p.z*.5);else{p=vec3(p.x*.14,p.y*.16,p.z*1.25);p.z+=.58;}if(part==0)p.x+=walk;}
+else if(iKind<1.5){if(part==0)p*=vec3(1,.38,1.45);else if(part==1)p=vec3(p.x*.55,p.y*.3+.48,p.z*.6);else{p=vec3(p.x*.12,p.y*.12,p.z*1.5);p.z+=.95;}}
+else if(iKind<2.5){if(part==0)p*=vec3(.62,.75,1.25);else if(part==1)p=vec3(p.x*.55,p.y*.5+.85,p.z*.55);else{p=vec3(p.x*.12,p.y*.12,p.z*1.35);p.z+=.9;}}
+else{if(part==0)p*=vec3(.8,.55,1);else if(part==1)p=vec3(p.x*.35,p.y*.25+.58,p.z*.35);else{p=vec3(p.x*.1,p.y*.1,p.z*1.55);p.z+=.65;}}
+float ss=sin(iAngle),cc=cos(iAngle);p=vec3(p.x*cc-p.z*ss,p.y,p.x*ss+p.z*cc);gl_Position=uVP*vec4(p*iScale+iPos+vec3(0,sin(iAnim)*.035,0),1.);vColor=iColor;}`);
 const modelFS=shader(gl.FRAGMENT_SHADER,`#version 300 es
-precision mediump float;in vec3 vColor;out vec4 o;void main(){o=vec4(vColor,1.);}`);
+precision mediump float;in vec3 vColor;out vec4 o;void main(){o=vec4(vColor*(.82+.18*abs(vColor.r-vColor.b)),1.);}`);
 const modelProg=gl.createProgram();gl.attachShader(modelProg,modelVS);gl.attachShader(modelProg,modelFS);gl.linkProgram(modelProg);
-const cubeVerts=new Float32Array([
--.5,0,-.5,.5,0,-.5,.5,1,-.5,-.5,0,-.5,.5,1,-.5,-.5,1,-.5,
--.5,0,.5,.5,1,.5,.5,0,.5,-.5,0,.5,-.5,1,.5,.5,1,.5,
--.5,0,-.5,-.5,1,-.5,-.5,1,.5,-.5,0,-.5,-.5,1,.5,-.5,0,.5,
-.5,0,-.5,.5,0,.5,.5,1,.5,.5,0,-.5,.5,1,.5,.5,1,-.5,
--.5,1,-.5,.5,1,-.5,.5,1,.5,-.5,1,-.5,.5,1,.5,-.5,1,.5,
--.5,0,-.5,-.5,0,.5,.5,0,.5,-.5,0,-.5,.5,0,.5,.5,0,-.5]);
-const modelBuf=gl.createBuffer(),instanceBuf=gl.createBuffer();
-gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.bufferData(gl.ARRAY_BUFFER,cubeVerts,gl.STATIC_DRAW);
-const ma=gl.getAttribLocation(modelProg,"a"),mi=gl.getAttribLocation(modelProg,"iPos"),ms=gl.getAttribLocation(modelProg,"iScale"),mc=gl.getAttribLocation(modelProg,"iColor"),mg=gl.getAttribLocation(modelProg,"iAngle"),mt=gl.getAttribLocation(modelProg,"iAnim"),mvp=gl.getUniformLocation(modelProg,"uVP");
-[mi,ms,mc,mg,mt].forEach((l)=>gl.enableVertexAttribArray(l));gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.enableVertexAttribArray(ma);gl.vertexAttribPointer(ma,3,gl.FLOAT,false,0,0);
-function modelSpec(type){if(type.includes("Tank"))return[1.5,.65,2.3];if(type==="Heavy Tank")return[1.8,.8,2.8];if(type==="Cavalry")return[.75,1.35,1.6];if(type.includes("Artillery")||type.includes("Gun")||type.includes("Howitzer")||type==="Catapult"||type==="Ballista")return[1.2,.8,1.7];if(type==="Armored Car")return[1.25,.75,1.9];return[.55,1.25,.55]}
-function teamColor(side){return side===0?[.18,.45,.95]:side===1?[.9,.22,.2]:[.8,.65,.18]}
-function drawLowPoly(vp){
- const max=qualityMode==="low"?180:qualityMode==="high"?2200:900;
- const total=Math.min(units.length+forts.length+sieges.length,max);
- const data=new Float32Array(total*12);let n=0;
- const put=(x,z,scale,color,angle=0,anim=0)=>{
-  if(n>=max)return;
-  const k=n*12;data[k]=x;data[k+1]=terrainY(x,z);data[k+2]=z;
-  data[k+3]=scale[0];data[k+4]=scale[1];data[k+5]=scale[2];
-  data[k+6]=color[0];data[k+7]=color[1];data[k+8]=color[2];
-  data[k+9]=Number.isFinite(angle)?angle:0;data[k+10]=anim;data[k+11]=0;n++;
- };
- for(const u of units){
-  const s=modelSpec(u.type),c=teamColor(u.side);
-  put(u.x,u.z,s,c,u.angle,simTime*7+u.phase);
- }
- for(const f of forts)put(f.x,f.z,[3.2,2.1,3.2],[.34,.39,.43],f.angle||0,0);
- for(const s of sieges)put(s.x,s.z,[1.4,1.0,3.4],[.72,.48,.18],s.angle||0,0);
- if(!n)return;
- gl.useProgram(modelProg);
- gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.enableVertexAttribArray(ma);gl.vertexAttribPointer(ma,3,gl.FLOAT,false,0,0);
- gl.bindBuffer(gl.ARRAY_BUFFER,instanceBuf);gl.bufferData(gl.ARRAY_BUFFER,data.subarray(0,n*12),gl.DYNAMIC_DRAW);
- const stride=48;
- for(const [loc,size,off] of [[mi,3,0],[ms,3,12],[mc,3,24],[mg,1,36],[mt,1,40]]){
-  gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,size,gl.FLOAT,false,stride,off);gl.vertexAttribDivisor(loc,1);
- }
- gl.uniformMatrix4fv(mvp,false,vp);gl.drawArraysInstanced(gl.TRIANGLES,0,36,n);
-}
+const compositeVerts=new Float32Array(108*3);for(let part=0;part<3;part++)compositeVerts.set(cubeVerts,part*108);
+const modelBuf=gl.createBuffer(),instanceBuf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.bufferData(gl.ARRAY_BUFFER,compositeVerts,gl.STATIC_DRAW);
+const ma=gl.getAttribLocation(modelProg,"a"),mi=gl.getAttribLocation(modelProg,"iPos"),ms=gl.getAttribLocation(modelProg,"iScale"),mc=gl.getAttribLocation(modelProg,"iColor"),mg=gl.getAttribLocation(modelProg,"iAngle"),mt=gl.getAttribLocation(modelProg,"iAnim"),mk=gl.getAttribLocation(modelProg,"iKind"),mvp=gl.getUniformLocation(modelProg,"uVP");
+function modelSpec(type){if(type.includes("Tank"))return[[1.6,.8,2.4],1];if(type==="Heavy Tank")return[[1.9,.95,2.9],1];if(type==="Cavalry")return[[1,1.45,1.7],2];if(type.includes("Artillery")||type.includes("Gun")||type==="Howitzer"||type==="Mortar"||type==="Catapult"||type==="Ballista")return[[1.25,.85,1.9],3];if(type==="Armored Car")return[[1.35,.8,2],1];return[[.62,1.3,.62],0]}
+function drawLowPoly(vp){const max=qualityMode==="low"?500:qualityMode==="high"?4500:2200,total=Math.min(units.length+forts.length+sieges.length,max),data=new Float32Array(total*13);let n=0;const put=(x,z,sc,col,a,an,k)=>{if(n>=max)return;const i=n*13;data[i]=x;data[i+1]=terrainY(x,z);data[i+2]=z;data[i+3]=sc[0];data[i+4]=sc[1];data[i+5]=sc[2];data[i+6]=col[0];data[i+7]=col[1];data[i+8]=col[2];data[i+9]=a||0;data[i+10]=an||0;data[i+11]=k||0;n++};for(const u of units){const m=modelSpec(u.type);put(u.x,u.z,m[0],teamColor(u.side),u.angle,simTime*7+u.phase,m[1])}for(const f of forts)put(f.x,f.z,[3.5,2.2,3.5],[.28,.32,.36],f.angle,0,3);for(const s of sieges)put(s.x,s.z,[1.5,1,3.5],[.62,.42,.16],s.angle,0,3);if(!n)return;gl.useProgram(modelProg);gl.bindBuffer(gl.ARRAY_BUFFER,modelBuf);gl.enableVertexAttribArray(ma);gl.vertexAttribPointer(ma,3,gl.FLOAT,false,0,0);gl.bindBuffer(gl.ARRAY_BUFFER,instanceBuf);gl.bufferData(gl.ARRAY_BUFFER,data.subarray(0,n*13),gl.DYNAMIC_DRAW);const stride=52;for(const [loc,size,off] of [[mi,3,0],[ms,3,12],[mc,3,24],[mg,1,36],[mt,1,40],[mk,1,44]]){gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,size,gl.FLOAT,false,stride,off);gl.vertexAttribDivisor(loc,1)}gl.uniformMatrix4fv(mvp,false,vp);gl.drawArraysInstanced(gl.TRIANGLES,0,108,n)}
 function drawFortifications(vp){/* simple 3D boxes using canvas sprite layer omitted; units remain the focal mass */}
 function render(){const w=canvas.width,h=canvas.height;gl.viewport(0,0,w,h);gl.enable(gl.DEPTH_TEST);gl.clearColor(.10,.13,.15,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);const c=camera(),pr=perspective(1.05,w/h,.1,500),vp=matMul(pr,c.view);drawTerrain(vp);drawLowPoly(vp)}
 function deployArmies(){clearBattle();const W=150,Z=150;for(const a of armies){const n=Math.min(30000,Math.max(1,a.count)),ca=Math.cos(a.angle),sa=Math.sin(a.angle);for(let i=0;i<n;i++){const [lx,lz]=formationOffset(a,i,n),x=(a.x-.5)*W+lx*ca-lz*sa,z=(a.z-.5)*Z+lx*sa+lz*ca;spawn(a.type,x,z,a.team,{angle:a.angle,order:a.order})}}rebuildGrid();updateInfo();toast("Deployed "+units.length+" units")}
