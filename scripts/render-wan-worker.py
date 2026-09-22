@@ -20,7 +20,7 @@ for a in assets:
     motion=("Animate this map as a living historical documentary scene. Preserve map identity and readable labels. "
             "Animate armies, ships, marching routes, battle markers and subtle terrain atmosphere. Follow movement "
             "with a restrained strategic camera. Do not make a static slideshow.")
-    result=client.predict(handle_file(str(img)),None,prompt+motion,4,"",5.0,1.0,1.0,1000+n,False,7,"UniPCMultistep",6.0,16,True,True,api_name="/generate_video")
+    last=None\n    for attempt in range(1,7):\n        try:\n            result=client.predict(handle_file(str(img)),None,prompt+motion,4,"",5.0,1.0,1.0,1000+n,False,7,"UniPCMultistep",6.0,16,True,True,api_name="/generate_video")\n            last=result\n            break\n        except Exception as exc:\n            last=exc\n            if attempt==6: raise\n            print(f"ZeroGPU queue attempt {attempt}/6 for scene {n}: {exc}")\n            import time; time.sleep(65)
     src=result[0] if isinstance(result,(tuple,list)) else result
     if isinstance(src,dict): src=src.get("path") or src.get("url")
     if not src: raise RuntimeError(f"No output for scene {n}: {result}")
