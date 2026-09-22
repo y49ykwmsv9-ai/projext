@@ -184,7 +184,7 @@ for i in range(N):
     # Cinematic vignette and subtle paper grain.
     vign=Image.new("L",(W,H),0); vd=ImageDraw.Draw(vign)
     vd.rectangle((0,0,W,H),fill=0)
-    for k in range(24):
+    for k in range(9):
         pad=k*18
         vd.rectangle((pad,pad,W-pad,H-pad),outline=int(4+k*3))
     vign=vign.filter(ImageFilter.GaussianBlur(28))
