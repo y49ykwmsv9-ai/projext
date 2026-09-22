@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Reconquista production build v3: final workflow formatting fixed.\nconst root = process.cwd();
+// Reconquista production build v4: fix runner root initialization.
+const root = process.cwd();
 const config = JSON.parse(fs.readFileSync(path.join(root, 'projects', 'documentary', 'documentary.json'), 'utf8'));
 const csvPath = path.join(root, 'data', 'historical-polities-expansion-v2.csv');
 
