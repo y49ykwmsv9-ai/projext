@@ -43,12 +43,12 @@ export function planFromPrompt(prompt:string):MapForgeProject {
   const p=prompt.toLowerCase();
   if(p.includes("reconquista")) {
     const reconquistaRegion:[number,number,number,number]=[-10,33,6,45];
-    const clips:MapForgeClip[]=reconquista.map(([year,title,place,center,zoom,camera],i)=>({
+    let clips:MapForgeClip[]=reconquista.map(([year,title,place,center,zoom,camera],i)=>({
       id:"reconquista-"+year+"-"+i,title,year,duration:6,camera,center:[...center] as [number,number],zoom,pitch:camera==="fly-to"?18:0,
       layers:[{id:"territory-"+i,kind:"polity",label:"Historical territorial control",fromYear:year,toYear:year},
         {id:"event-"+i,kind:"marker",label:title,point:center,color:"#d6b36a"},
         {id:"year-"+i,kind:"label",label:String(year),point:center,color:"#f2e7c7"}],
-      narration:title+" — "+year
+      narration:narrationFor(title,year,prompt),region:reconquistaRegion
     }));
     clips[1].layers.push({id:"invasion-route",kind:"route",label:"Tariq ibn Ziyad",coordinates:[places.tangier,places.gibraltar],color:"#d6b36a",width:4});
     clips[2].layers.push({id:"expansion-route",kind:"route",label:"Umayyad expansion",coordinates:[places.gibraltar,places.toledo],color:"#c98f5b",width:3});
@@ -61,12 +61,12 @@ export function planFromPrompt(prompt:string):MapForgeProject {
   const ys=years(prompt);
   const center=findPlace(prompt);
   const chosen=ys.length?ys:[new Date().getFullYear()];
-  const clips:MapForgeClip[]=chosen.slice(0,24).sort((a,b)=>a-b).map((year,i)=>({
+  let clips:MapForgeClip[]=chosen.slice(0,24).sort((a,b)=>a-b).map((year,i)=>({
     id:"generated-"+year+"-"+i,title:"Historical scene — "+year,year,duration:6,camera:(i%3===0?"top-down":i%3===1?"fly-to":"sweep") as CameraMode,
     center,zoom:5.2,pitch:12,layers:[
       {id:"history-"+i,kind:"polity",label:"Historical polities",fromYear:year,toYear:year},
       {id:"focus-"+i,kind:"marker",label:prompt.trim().slice(0,80),point:center,color:"#d6b36a"}
-    ],narration:prompt.trim()
+    ],narration:narrationFor("Historical scene",year,prompt),region:[center[0]-18,center[1]-10,center[0]+18,center[1]+10]
   }));
   const voice:MapForgeVoice={provider:"neural",voice:"af_heart",language:"en-US",pace:0.96,tone:"documentary",model:"Kokoro-82M"};
   clips=addTransitionRoutes(clips).map(c=>({...c,narrationSeconds:narrationSeconds(c.narration||"",voice.pace)}));
