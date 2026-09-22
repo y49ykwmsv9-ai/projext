@@ -1,0 +1,25 @@
+name: Chronicle Documentary Build
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/generate-documentary.mjs"
+      - "projects/documentary/**"
+      - "data/historical-polities-expansion-v2.csv"
+
+jobs:
+  build-documentary-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate documentary manifest
+        run: node scripts/generate-documentary.mjs
+      - name: Upload production package
+        uses: actions/upload-artifact@v4
+        with:
+          name: chronicle-documentary-production-package
+          path: projects/documentary/build/
