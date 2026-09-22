@@ -45,6 +45,24 @@ jobs:
           cp projects/chronicle-ai/README.md out/projects/chronicle-ai/README.md
           cp projects/chronicle-ai/project.json out/projects/chronicle-ai/project.json
 
+      - name: Add Ironfront Tactics standalone project
+        run: |
+          mkdir -p out/projects/ironfront-tactics/assets/sprites
+          cp projects/ironfront-tactics/index.html out/projects/ironfront-tactics/index.html
+          cp -r projects/ironfront-tactics/assets/. out/projects/ironfront-tactics/assets/
+          cp -r projects/ironfront-tactics/data out/projects/ironfront-tactics/data
+          cp projects/ironfront-tactics/README.md out/projects/ironfront-tactics/README.md
+
+      - name: Verify Ironfront export
+        run: |
+          test -f out/projects/ironfront-tactics/index.html
+          test -f out/projects/ironfront-tactics/assets/sprites/unit-atlas.svg
+          test -f out/projects/ironfront-tactics/assets/sprites/fortification-atlas.svg
+          test -f out/projects/ironfront-tactics/assets/sprites/effects-atlas.svg
+          test -f out/projects/ironfront-tactics/data/units.json
+          test -f out/projects/ironfront-tactics/data/scenarios.json
+          echo "Ironfront Tactics export verified."
+
       - name: Add Pages fallback
         run: cp out/index.html out/404.html
 
