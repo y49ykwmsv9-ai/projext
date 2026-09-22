@@ -131,7 +131,7 @@ for(const c of manifest.chapters){
   const silent=path.join(scenesDir,c.id+'-silent.mp4');
   run('ffmpeg',['-y','-f','concat','-safe','0','-i',list,'-c','copy',silent]);
   const narrated=path.join(scenesDir,c.id+'-narrated.mp4');
-  run('ffmpeg',['-y','-i',silent,'-i',chapterAudio.find(x=>x.endsWith(c.id+'.mp3')),'-t','360','-c:v','copy','-c:a','aac','-b:a','96k','-af','apad=pad_dur=360','-shortest',narrated]);
+  run('ffmpeg',['-y','-i',silent,'-i',chapterAudio.find(x=>x.endsWith(c.id+'.mp3')),'-t','360','-c:v','copy','-c:a','aac','-b:a','96k','-af','apad=pad_dur=360','-t','360',narrated]);
   chapterVideos.push(narrated);
 }
 
