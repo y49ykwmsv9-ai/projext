@@ -1,8 +1,11 @@
 'use client';
 
 import {useEffect,useMemo,useRef,useState} from 'react';
-import maplibregl from 'maplibre-gl';
+import * as maplibregl from 'maplibre-gl';
+import {setWorkerUrl} from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+
+setWorkerUrl('/maplibre/maplibre-gl-worker.mjs');
 import {feature} from 'topojson-client';
 import world from 'world-atlas/countries-110m.json';
 import {getWorldProfile} from '../lib/world-database';
