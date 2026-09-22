@@ -35,6 +35,13 @@ type Props={
  onZoomChange?:(zoom:number)=>void;
 };
 
+const LOCAL_MAP_STYLE:any={
+ version:8,
+ name:'Worldforge Local',
+ sources:{},
+ layers:[{id:'background',type:'background',paint:{'background-color':'#071521'}}]
+};
+
 export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures,historicalFeatures,selectedNationId,selectedRegion,zoom,onCountrySelect,onRegionSelect,onZoomChange}:Props){
  const el=useRef<HTMLDivElement|null>(null);
  const mapRef=useRef<maplibregl.Map|null>(null);
@@ -57,11 +64,15 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
  useEffect(()=>{
   if(!el.current||mapRef.current)return;
   let map:maplibregl.Map;
-  try{ map=new maplibregl.Map({container:el.current,style:'https://tiles.openfreemap.org/styles/liberty',center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:false,dragRotate:false,pitchWithRotate:false,attributionControl:undefined}); }catch{
+  try{
+   map=new maplibregl.Map({container:el.current,style:LOCAL_MAP_STYLE,center:[0,20],zoom:1.05,minZoom:0,maxZoom:22,renderWorldCopies:false,dragRotate:false,pitchWithRotate:false,attributionControl:false});
+  }catch{
    if(el.current)el.current.dataset.mapFallback='map-init-failed';
    return;
   }
   mapRef.current=map;
+  const fail=()=>{if(el.current)el.current.dataset.mapFallback='map-load-failed';};
+  map.on('error',fail);
   map.on('load',()=>{
    map.addSource('wf-countries',{type:'geojson',data:countries,promoteId:'__wf_id'});
    map.addLayer({id:'wf-country-fill',type:'fill',source:'wf-countries',paint:{'fill-color':'#52636d','fill-opacity':['interpolate',['linear'],['zoom'],0,.78,4,.62,7,.28,12,.10,18,.03]}});
@@ -84,7 +95,7 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
     if(country)countrySelectRef.current(String(country.properties?.__wf_id??country.id),String(country.properties?.name??'Unknown'));
    });
    map.on('mouseenter','wf-country-hitbox',()=>{map.getCanvas().style.cursor='pointer'});
-   map.on('mouseleave','wf-countries',()=>{map.getCanvas().style.cursor=''});
+   map.on('mouseleave','wf-country-hitbox',()=>{map.getCanvas().style.cursor=''});
    map.on('mouseenter','wf-admin1',()=>{map.getCanvas().style.cursor='crosshair'});
    map.on('mouseleave','wf-admin1',()=>{map.getCanvas().style.cursor=''});
    setMapReady(true);
@@ -100,10 +111,12 @@ export default function WorldMap({worldState,mapMode,admin1Features,cityFeatures
   if(src)src.setData(countries as any);
   if(map.getLayer('wf-country-fill'))map.setPaintProperty('wf-country-fill','fill-color',countryColorExpression(colorMap));
   if(map.getLayer('wf-country-line'))map.setPaintProperty('wf-country-line','line-color',selectedNationId?['case',['==',['get','__wf_id'],selectedNationId],'#fff0b9','#101820']:'#101820');
-  if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');if(map.getLayer('wf-history-fill'))map.setPaintProperty('wf-history-fill','fill-opacity',mapMode==='history'?.32:0);if(map.getLayer('wf-history-line'))map.setPaintProperty('wf-history-line','line-opacity',mapMode==='history'?.75:0);
+  if(map.getLayer('wf-admin1-line'))map.setPaintProperty('wf-admin1-line','line-color',selectedRegion?'#e3c780':'#d6c7a0');
+  if(map.getLayer('wf-history-fill'))map.setPaintProperty('wf-history-fill','fill-opacity',mapMode==='history'?.32:0);
+  if(map.getLayer('wf-history-line'))map.setPaintProperty('wf-history-line','line-opacity',mapMode==='history'?.75:0);
  },[worldState,mapMode,colorMap,selectedNationId,selectedRegion,mapReady]);
 
- useEffect(()=>{const map=mapRef.current;if(!map)return;const src=map.getSource('wf-admin1') as maplibregl.GeoJSONSource|undefined;if(src)src.setData({type:'FeatureCollection',features:admin1Features} as any);const cities=map.getSource('wf-cities') as maplibregl.GeoJSONSource|undefined;if(cities)cities.setData({type:'FeatureCollection',features:cityFeatures} as any);const hist=map.getSource('wf-history') as maplibregl.GeoJSONSource|undefined;if(hist)hist.setData({type:'FeatureCollection',features:historicalFeatures} as any)},[admin1Features,cityFeatures,historicalFeatures]);
+ useEffect(()=>{const map=mapRef.current;if(!map||!mapReady)return;const src=map.getSource('wf-admin1') as maplibregl.GeoJSONSource|undefined;if(src)src.setData({type:'FeatureCollection',features:admin1Features} as any);const cities=map.getSource('wf-cities') as maplibregl.GeoJSONSource|undefined;if(cities)cities.setData({type:'FeatureCollection',features:cityFeatures});const hist=map.getSource('wf-history') as maplibregl.GeoJSONSource|undefined;if(hist)hist.setData({type:'FeatureCollection',features:historicalFeatures} as any)},[admin1Features,cityFeatures,historicalFeatures,mapReady]);
  useEffect(()=>{const map=mapRef.current;if(!map)return;const z=Math.max(0,Math.min(22,zoom));if(Math.abs(map.getZoom()-z)>.08)map.zoomTo(z,{duration:180})},[zoom]);
 
  useEffect(()=>{
