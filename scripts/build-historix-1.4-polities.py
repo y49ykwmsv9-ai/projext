@@ -88,7 +88,7 @@ catalog["schema_version"]="1.4.0"
 catalog["version"]="1.4.0"
 catalog["status"]="complete-cliopatria-baseline"
 catalog["polity_layer"]={"version":"1.4.0","record_count":len(records),"storage":"data/history-library/polities/","aggregate":"data/history-library/polities/historix-linked.json","source_commit":"ad28a691b7c07c1fca89d0e0636d324667d2a258"}
-catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 manifest={
     "schema_version":"1.4.0",
