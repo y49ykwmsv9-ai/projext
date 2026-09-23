@@ -9,6 +9,7 @@ on:
       - ".github/workflows/pages.yml"
       - "scripts/render-sample-scene.mjs"
       - "projects/documentary/render/scenes/scene-711-v2.html"
+      - "projects/documentary/render/scenes/scene-711-v3.html"
       - "projects/documentary/render/scenes/scene-711-v2.json"
   workflow_dispatch:
 
@@ -41,8 +42,11 @@ jobs:
           npm install --no-save playwright@latest
           npx playwright install --with-deps chromium
 
-      - name: Render 711 CE sample scene for Pages
-        run: node scripts/render-sample-scene.mjs
+      - name: Render baseline 711 CE sample scene for Pages
+        run: SCENE_FILE=scene-711-v2.html node scripts/render-sample-scene.mjs
+
+      - name: Render geometry-integrity 711 CE comparison scene for Pages
+        run: SCENE_FILE=scene-711-v3.html node scripts/render-sample-scene.mjs
 
       - name: Assemble standalone project site
         shell: bash
@@ -54,12 +58,14 @@ jobs:
           cp projects/ironfront-tactics/README.md site/README.md
           cp -R projects/ironfront-tactics/assets site/assets
           cp -R projects/ironfront-tactics/data site/data
-          cp projects/documentary/render/scenes/scene-711-v2.html site/documentary/index.html
+          cp projects/documentary/render/scenes/scene-711-v3.html site/documentary/index.html
           cp projects/documentary/render/scenes/scene-711-v2.html site/documentary/scene-711-v2.html
+          cp projects/documentary/render/scenes/scene-711-v3.html site/documentary/scene-711-v3.html
           cp projects/documentary/render/scenes/scene-711-v2.json site/documentary/scene-711-v2.json
           cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
-          cp projects/documentary/build/sample-scene-711/scene-711-v2.mp4 site/documentary/sample-scene-711.mp4
-          printf '%s\\n' '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Strait — 711 CE Sample Scene</title><style>body{margin:0;background:#0b0f14;color:#eee;font:16px system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}video{width:100%;height:auto;background:#000}a{color:#9ed0ff}h1{font-weight:500}</style></head><body><main><h1>The Strait — 711 CE</h1><video controls playsinline preload="metadata" src="sample-scene-711.mp4"></video><p><a href="sample-scene-711.mp4" download>Download MP4</a></p></main></body></html>' > site/documentary/sample-scene-711-watch.html
+          cp projects/documentary/build/sample-scene-scene-711-v2/scene-711-v2.mp4 site/documentary/sample-scene-711-v2.mp4
+          cp projects/documentary/build/sample-scene-scene-711-v3/scene-711-v3.mp4 site/documentary/sample-scene-711-v3.mp4
+          printf '%s\\n' '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Strait — 711 CE Geometry Comparison</title><style>body{margin:0;background:#0b0f14;color:#eee;font:16px system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}video{width:100%;height:auto;background:#000}a{color:#9ed0ff}h1{font-weight:500}section{margin:28px 0}h2{font-weight:500}</style></head><body><main><h1>The Strait — 711 CE</h1><section><h2>Geometry-integrity v3</h2><video controls playsinline preload="metadata" src="sample-scene-711-v3.mp4"></video><p><a href="sample-scene-711-v3.mp4" download>Download v3 MP4</a></p></section><section><h2>Baseline v2</h2><video controls playsinline preload="metadata" src="sample-scene-711-v2.mp4"></video><p><a href="sample-scene-711-v2.mp4" download>Download v2 MP4</a></p></section></main></body></html>' > site/documentary/sample-scene-711-watch.html
           cp projects/documentary/render/SCENE-BASELINE-v2.md site/documentary/SCENE-BASELINE-v2.md
           cp projects/documentary/render/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
           cp projects/documentary/README.md site/documentary/README.md
@@ -78,9 +84,11 @@ jobs:
           test -s site/data/units.json
           test -s site/documentary/index.html
           test -s site/documentary/scene-711-v2.html
+          test -s site/documentary/scene-711-v3.html
           test -s site/documentary/scene-711-v2.json
           test -s site/documentary/sample-scene-711.svg
-          test -s site/documentary/sample-scene-711.mp4
+          test -s site/documentary/sample-scene-711-v2.mp4
+          test -s site/documentary/sample-scene-711-v3.mp4
           test -s site/documentary/sample-scene-711-watch.html
           test -s site/documentary/SCENE-BASELINE-v2.md
           test -s site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
