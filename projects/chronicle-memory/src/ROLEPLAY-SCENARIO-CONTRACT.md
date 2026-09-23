@@ -1,9 +1,11 @@
-# Roleplay Scenario Isolation Contract
+# Roleplay Scenario Isolation and Historical Continuity Contract
 
 ## Identity
+
 A simulation instance is identified by a stable scenario_id. The identity is based on character, starting date/context, preset/custom scenario identity, and a unique suffix. It must not be inferred solely from the character name.
 
 ## Automatic separation
+
 When a new roleplay is submitted:
 - If the active scenario identity matches an existing campaign, continue it.
 - If the character, starting context, preset, or scenario is new, create a new scenario identity.
@@ -12,8 +14,108 @@ When a new roleplay is submitted:
 - Browser persistence keys include scenario_id.
 - JSON exports/imports include scenario_id and reject mismatched campaign state unless explicitly imported as a new copy.
 
+## Historical baseline
+
+Every scenario must resolve a factual historical baseline appropriate to its date and geography before simulation actions are processed.
+
+The baseline should include, where available:
+- polities and territorial control;
+- settlements and important locations;
+- offices and constitutional/institutional structures;
+- historically significant people;
+- known factions, families, alliances, rivalries, and organizations;
+- military, economic, demographic, technological, and cultural conditions;
+- historically attested events already completed by the scenario start date.
+
+The Historix / CLIOPATRA / CLIOPATRIA data layer is a primary reference for this historical context where its records are available. Other validated historical sources may supplement it without silently contradicting established records.
+
+## Alternate-history boundary
+
+The simulation is allowed to diverge from recorded history, including through player action and autonomous AI action.
+
+Divergence must occur **from the historical baseline**, not by rewriting the baseline itself.
+
+Therefore:
+- historical facts that precede the current round remain facts unless the scenario explicitly establishes a counterfactual premise;
+- historically plausible institutions remain the available institutional framework unless a simulation event actually changes them;
+- real historical figures remain the relevant actors when they would historically be alive, present, or otherwise connected to the situation;
+- fictional developments must have a plausible chain of events and cannot be inserted solely because they produce a desired outcome.
+
+## Historical-person continuity
+
+Historical people are persistent world entities.
+
+For every significant historical figure used by the simulation, maintain an identity record sufficient to prevent accidental replacement. At minimum, preserve:
+- canonical identity;
+- lifespan;
+- historically attested offices/titles;
+- known locations and periods of activity;
+- relevant faction/family affiliations;
+- relationships supported by the historical data layer;
+- current simulation status;
+- the source or evidence basis for the historical identity.
+
+If a previous round states that a specific person holds an office, commands a force, governs a place, leads a faction, or otherwise occupies a defined role, the next round must retain that person unless one of these conditions is satisfied:
+1. the person historically died, departed, or ceased to hold the role during the intervening period;
+2. the simulation records a concrete event that plausibly removes or replaces the person;
+3. a documented institutional process produces a new officeholder;
+4. the scenario's explicit counterfactual premise establishes a different succession.
+
+No unexplained leader swapping is permitted.
+
+The engine must not invent elections, appointments, successions, constitutional changes, or offices simply to facilitate gameplay. When a political transition is possible, the simulation must model the actual or historically plausible process that produces it.
+
+## Player political agency
+
+The player character is a participant in the historical system, not an automatically elevated ruler.
+
+A character may begin outside formal politics and later pursue political influence. Advancement must be earned through actions and consequences appropriate to the period, including where applicable:
+- patronage and client networks;
+- wealth and property;
+- military service and command;
+- alliances and marriages where historically appropriate;
+- legal or civic standing;
+- factional support;
+- reputation, trust, and legitimacy;
+- elections, appointments, assemblies, senatorial or court processes, or other institutions only where those institutions actually existed and were accessible to the character.
+
+A player cannot simply adopt a later or incompatible title because it sounds authoritative. For example, a character in a republican system does not become an emperor merely because the player declares themselves one. The simulation must represent the intermediate political, military, legal, social, and institutional processes required for such a transformation, if it is even historically possible.
+
+## Historical figures as interactive actors
+
+Significant historical figures should be represented as actors the player can actually interact with when the geography, chronology, social position, and information pathways make that interaction plausible.
+
+The player may build relationships with, negotiate with, oppose, assist, compete with, or become dependent upon historical figures. These relationships should persist and affect later events.
+
+The engine should distinguish:
+- **known relationship:** supported by established history or prior simulation events;
+- **emerging relationship:** created through player/AI interaction;
+- **rivalry/conflict:** created by opposing interests or concrete events;
+- **trust/legitimacy:** accumulated through observable actions and consequences.
+
+Historical figures should not exist merely as names attached to news articles. When they are relevant actors, their decisions should have independent consequences and they should be capable of reacting to the player's actions when they could plausibly know about them.
+
+## Player impact propagation
+
+A player action must be evaluated for its plausible reach.
+
+The engine should propagate meaningful effects through connected:
+- people and patronage networks;
+- places and routes;
+- factions and institutions;
+- military formations;
+- markets and trade;
+- neighboring settlements and polities;
+- diplomatic relationships.
+
+A player can therefore change the course of the surrounding world, but the magnitude of that influence must follow from their actual resources, position, reputation, relationships, and accumulated legitimacy.
+
+The simulation must not reduce player agency to isolated stat adjustments. Numerical ledgers are state accounting; they do not replace the underlying social, political, military, and economic causality.
+
 ## Repository representation
+
 Each committed campaign uses:
+
 roleplays/<scenario_id>/scenario.json
 roleplays/<scenario_id>/state.json
 roleplays/<scenario_id>/rounds/round-NNN.json
@@ -22,10 +124,17 @@ roleplays/<scenario_id>/news/round-NNN.json
 The registry at roleplays/index.json records the latest committed round and date.
 
 ## Round continuity
-A new round starts from the previous round's committed state. The fixed metric schema remains attached to the scenario and is not silently changed between rounds.
+
+A new round starts from the previous round's committed state.
+
+The fixed metric schema remains attached to the scenario and is not silently changed between rounds.
+
+Historical identity, office, relationship, location, faction, and institutional continuity are also inherited from the previous committed state unless a documented historical transition or concrete simulation event changes them.
 
 ## News separation
+
 News is scenario-scoped and uses only information available within that scenario's timeline and visibility model.
 
 ## Commitment boundary
+
 A completed round is persisted only when its round state and news files are committed together.
