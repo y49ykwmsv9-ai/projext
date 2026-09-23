@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-nazi-germany",
+  "identity": {
+    "canonical_name": "Nazi Germany",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1936,
+    "end": 1944,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1936,
+      "to_year": 1937,
+      "area_km2": 497066.024675861,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12739,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1938,
+      "area_km2": 625692.2318260388,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12764,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1939,
+      "area_km2": 698431.4296350009,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12781,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 1637384.801381419,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12825,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 1879806.1344897992,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12843,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 3034673.3532843804,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12855,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 3308749.285896379,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12874,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 2709883.6004069205,
+      "wikidata_id": null,
+      "seshat_id": "de_ns_germany",
+      "wikipedia": "Nazi Germany",
+      "source_feature_index": 12899,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

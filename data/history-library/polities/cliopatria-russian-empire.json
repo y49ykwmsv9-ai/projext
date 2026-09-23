@@ -1,0 +1,714 @@
+{
+  "id": "cliopatria-russian-empire",
+  "identity": {
+    "canonical_name": "Russian Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1721,
+    "end": 1916,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 14451555.632386062,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9622,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 14527668.466879258,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9662,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 15047973.313202893,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9692,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1743,
+      "area_km2": 15032860.928346504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9743,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 15130054.358030722,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9822,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1751,
+      "area_km2": 15133187.761225333,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9843,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 15314641.379626943,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9877,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 15244235.321998678,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9924,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 15392938.563203754,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 9974,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 15314457.593619991,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10023,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 15779150.393229963,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10067,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 16116309.81496813,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10081,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 16055552.682485675,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10125,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1777,
+      "area_km2": 16055552.682485675,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10158,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1782,
+      "area_km2": 16171081.11353421,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10177,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 16304561.056950439,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10226,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 16309904.47478477,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10248,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 16476202.165118111,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 16595681.972641908,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10343,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 16761875.875572573,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10386,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 16752532.157688743,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10412,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 16693386.952508815,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10446,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1802,
+      "area_km2": 16718994.473858152,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10502,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 16767494.287036588,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10574,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 16838474.93856162,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10634,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 16886430.845113963,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10690,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 17053796.98139188,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 17382792.103618897,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10755,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 17399573.531058703,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10815,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 17200608.301759537,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10866,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 17431375.126607817,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10916,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1823,
+      "area_km2": 17397965.818751726,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 10991,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1827,
+      "area_km2": 17397715.042702764,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11126,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 17683827.885135826,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11167,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 17584863.476590317,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11213,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 17630779.335520618,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11259,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 17630413.441646203,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11287,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1845,
+      "area_km2": 17631472.954477355,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11314,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 18997308.49174038,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 20921921.143801007,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11463,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 21037501.52185824,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 21038276.420679204,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 20985079.419099174,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11569,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1858,
+      "area_km2": 21022289.714155804,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11604,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 21137581.766058203,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11606,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1861,
+      "area_km2": 22046213.108503785,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11649,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1862,
+      "area_km2": 22043222.99801185,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11696,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 22044359.065711565,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11705,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1867,
+      "area_km2": 22960965.852734927,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11747,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1869,
+      "area_km2": 21592213.344198857,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11821,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 21681986.71259973,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11878,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 21713846.97719269,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11894,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1876,
+      "area_km2": 22174399.550926138,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11907,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 22392873.119861074,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11948,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 22319316.855726536,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 11981,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1894,
+      "area_km2": 22293161.47287141,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12007,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 22339002.473952785,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12132,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 22342937.83507651,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12164,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 23074979.9043066,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12170,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1911,
+      "area_km2": 22299049.917278502,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12232,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 22299034.55143558,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1913,
+      "area_km2": 22341720.4053486,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1914,
+      "area_km2": 22490785.704155527,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12324,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 23070292.962705165,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12348,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 22871283.64315475,
+      "wikidata_id": null,
+      "seshat_id": "ru_romanov_dyn_2",
+      "wikipedia": "Russian Empire",
+      "source_feature_index": 12380,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

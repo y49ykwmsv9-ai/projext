@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-zaydi-alid-dynasties",
+  "identity": {
+    "canonical_name": "Zaydi Alid dynasties",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 866,
+    "end": 935,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 45392.13599311461,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3224,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 46067.872724375215,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3271,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 885,
+      "area_km2": 40616.958916369746,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 891,
+      "area_km2": 40916.07138573588,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3437,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 40916.07138573588,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 910,
+      "area_km2": 40616.958916369746,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3533,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 40567.309610690805,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3682,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 40567.309610690805,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Alid dynasties of northern Iran",
+      "source_feature_index": 3702,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-dzungar-khanate",
+  "identity": {
+    "canonical_name": "Dzungar Khanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1609,
+    "end": 1756,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1609,
+      "to_year": 1618,
+      "area_km2": 365737.3833990128,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 8588,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 839090.6979920969,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9195,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 1721863.1604643068,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9249,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 3653443.308920744,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9280,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 3653397.8029190227,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1708,
+      "area_km2": 2050858.2653609167,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1717,
+      "area_km2": 2050759.2846751416,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9498,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 2694196.03449862,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9578,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 2050759.2846751416,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9621,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1751,
+      "area_km2": 2050460.7616521483,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9665,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 2050460.7616521483,
+      "wikidata_id": null,
+      "seshat_id": "mn_zungharian_emp",
+      "wikipedia": "Dzungar Khanate",
+      "source_feature_index": 9876,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

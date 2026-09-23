@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-principality-of-bulgaria",
+  "identity": {
+    "canonical_name": "Principality of Bulgaria",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1880,
+    "end": 1944,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 63415.954611641675,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 11969,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1911,
+      "area_km2": 99673.81586176262,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12022,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 153443.24223222106,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12300,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1915,
+      "area_km2": 111800.61827438435,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12314,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 155060.7998196179,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12373,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 171194.18309985855,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12393,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 143691.00266427608,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12437,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 104087.53146075847,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1923,
+      "area_km2": 101645.97226462219,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1940,
+      "area_km2": 101693.9859938739,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1943,
+      "area_km2": 153841.8858066313,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12835,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 161338.72895031472,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Bulgaria",
+      "source_feature_index": 12911,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

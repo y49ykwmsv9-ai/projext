@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-great-yuan",
+  "identity": {
+    "canonical_name": "Great Yuan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -110,
+    "end": 50,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -110,
+      "to_year": -64,
+      "area_km2": 50986.250453934656,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuan dynasty",
+      "source_feature_index": 948,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": -51,
+      "area_km2": 50939.23109384333,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuan dynasty",
+      "source_feature_index": 1015,
+      "geometry_available": true
+    },
+    {
+      "from_year": -50,
+      "to_year": 42,
+      "area_km2": 51348.21334834599,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuan dynasty",
+      "source_feature_index": 1037,
+      "geometry_available": true
+    },
+    {
+      "from_year": 43,
+      "to_year": 50,
+      "area_km2": 51348.21334834599,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuan dynasty",
+      "source_feature_index": 1152,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

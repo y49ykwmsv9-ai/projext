@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-paramara-dynasty",
+  "identity": {
+    "canonical_name": "Paramara Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 980,
+    "end": 1235,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 980,
+      "to_year": 1055,
+      "area_km2": 215748.79026467112,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 3995,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1110,
+      "area_km2": 203198.09667343646,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 4510,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1187,
+      "area_km2": 196314.63708691494,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 4790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1201,
+      "area_km2": 166140.11258200317,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 5152,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1209,
+      "area_km2": 179338.268512086,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 5239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1226,
+      "area_km2": 179411.13217181378,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 5372,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1235,
+      "area_km2": 179442.55906567196,
+      "wikidata_id": null,
+      "seshat_id": "in_paramara_dyn",
+      "wikipedia": "Paramara dynasty",
+      "source_feature_index": 5513,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

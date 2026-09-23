@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-grand-duchy-of-tuscany",
+  "identity": {
+    "canonical_name": "Grand Duchy of Tuscany",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1797,
+    "end": 1848,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 1031.938784013928,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 10453,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 1031.938784013928,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 10549,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1805,
+      "area_km2": 961.5786437381996,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 10558,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 821.0193169864659,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 10702,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1813,
+      "area_km2": 891.3886008984305,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 10727,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1847,
+      "area_km2": 938.3024451226221,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 10973,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 24632.451636989856,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Grand Duchy of Tuscany",
+      "source_feature_index": 11456,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

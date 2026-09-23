@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-kingdom-of-osroene",
+  "identity": {
+    "canonical_name": "Kingdom of Osroene",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -63,
+    "end": 214,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -63,
+      "to_year": -41,
+      "area_km2": 50220.0162403984,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1011,
+      "geometry_available": true
+    },
+    {
+      "from_year": -40,
+      "to_year": -37,
+      "area_km2": 50168.936751282934,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1059,
+      "geometry_available": true
+    },
+    {
+      "from_year": -36,
+      "to_year": 22,
+      "area_km2": 50220.0162403984,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1064,
+      "geometry_available": true
+    },
+    {
+      "from_year": 23,
+      "to_year": 42,
+      "area_km2": 50068.95773918641,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1130,
+      "geometry_available": true
+    },
+    {
+      "from_year": 43,
+      "to_year": 77,
+      "area_km2": 50117.4775073537,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1155,
+      "geometry_available": true
+    },
+    {
+      "from_year": 78,
+      "to_year": 113,
+      "area_km2": 50068.95773918641,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1191,
+      "geometry_available": true
+    },
+    {
+      "from_year": 127,
+      "to_year": 160,
+      "area_km2": 50142.88560829182,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1246,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 183,
+      "area_km2": 50294.90199991521,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1282,
+      "geometry_available": true
+    },
+    {
+      "from_year": 184,
+      "to_year": 206,
+      "area_km2": 50068.95773918641,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 207,
+      "to_year": 214,
+      "area_km2": 50068.95773918641,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Osroene",
+      "source_feature_index": 1314,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

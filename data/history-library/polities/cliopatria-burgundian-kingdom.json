@@ -1,0 +1,234 @@
+{
+  "id": "cliopatria-burgundian-kingdom",
+  "identity": {
+    "canonical_name": "Burgundian Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 414,
+    "end": 660,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 414,
+      "to_year": 438,
+      "area_km2": 6879.7600191981965,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1675,
+      "geometry_available": true
+    },
+    {
+      "from_year": 443,
+      "to_year": 450,
+      "area_km2": 79727.29370027635,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1767,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 454,
+      "area_km2": 79867.42251751371,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1786,
+      "geometry_available": true
+    },
+    {
+      "from_year": 455,
+      "to_year": 457,
+      "area_km2": 122001.51358353115,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1816,
+      "geometry_available": true
+    },
+    {
+      "from_year": 458,
+      "to_year": 458,
+      "area_km2": 121930.95325389592,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1823,
+      "geometry_available": true
+    },
+    {
+      "from_year": 459,
+      "to_year": 461,
+      "area_km2": 79867.42251751371,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1825,
+      "geometry_available": true
+    },
+    {
+      "from_year": 462,
+      "to_year": 468,
+      "area_km2": 119620.21032393738,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 469,
+      "to_year": 479,
+      "area_km2": 119772.91093781676,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1852,
+      "geometry_available": true
+    },
+    {
+      "from_year": 480,
+      "to_year": 489,
+      "area_km2": 119816.10155708203,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1887,
+      "geometry_available": true
+    },
+    {
+      "from_year": 490,
+      "to_year": 499,
+      "area_km2": 119702.15549746106,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1913,
+      "geometry_available": true
+    },
+    {
+      "from_year": 500,
+      "to_year": 509,
+      "area_km2": 119678.68722910438,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1933,
+      "geometry_available": true
+    },
+    {
+      "from_year": 510,
+      "to_year": 522,
+      "area_km2": 120331.41833812576,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1940,
+      "geometry_available": true
+    },
+    {
+      "from_year": 523,
+      "to_year": 533,
+      "area_km2": 120407.67839748197,
+      "wikidata_id": null,
+      "seshat_id": "fr_burgundian_k",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 1959,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 611,
+      "area_km2": 352806.8838677543,
+      "wikidata_id": null,
+      "seshat_id": "fr_merovingian_emp_2",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 2206,
+      "geometry_available": true
+    },
+    {
+      "from_year": 612,
+      "to_year": 616,
+      "area_km2": 583607.1399839316,
+      "wikidata_id": null,
+      "seshat_id": "fr_merovingian_emp_2",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 2248,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 655,
+      "area_km2": 491977.54170912335,
+      "wikidata_id": null,
+      "seshat_id": "fr_merovingian_emp_2",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 2467,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 491977.54170912335,
+      "wikidata_id": null,
+      "seshat_id": "fr_merovingian_emp_2",
+      "wikipedia": "Kingdom of the Burgundians",
+      "source_feature_index": 2505,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

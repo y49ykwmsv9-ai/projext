@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-portuguese-ceylon",
+  "identity": {
+    "canonical_name": "Portuguese Ceylon",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1507,
+    "end": 1686,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1507,
+      "to_year": 1581,
+      "area_km2": 49905.59317625274,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_1",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 7744,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1594,
+      "area_km2": 49905.59317625274,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8408,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 61280.399568876135,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8462,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1618,
+      "area_km2": 54463.216795799286,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8509,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1619,
+      "to_year": 1628,
+      "area_km2": 42154.49435986531,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8636,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1631,
+      "area_km2": 39092.67777785538,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8743,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 33102.202252575655,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8761,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1658,
+      "area_km2": 33102.202252575655,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_2",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 8829,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 59735.42412405979,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_2",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 9053,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1682,
+      "area_km2": 42069.57684269127,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_2",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 9110,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 42069.57684269127,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_2",
+      "wikipedia": "Portuguese Ceylon",
+      "source_feature_index": 9258,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

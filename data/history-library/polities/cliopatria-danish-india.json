@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-danish-india",
+  "identity": {
+    "canonical_name": "Danish India",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1659,
+    "end": 1852,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1659,
+      "to_year": 1733,
+      "area_km2": 976.2122251419739,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 9049,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1743,
+      "area_km2": 1348.9357880846037,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 9705,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1756,
+      "area_km2": 717.5754914943518,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 9813,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1799,
+      "area_km2": 2885.458577674621,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 9936,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 985.0588504411741,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 10546,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1848,
+      "area_km2": 1392.7080406792315,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 10562,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 717.5754914943518,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danish India",
+      "source_feature_index": 11493,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

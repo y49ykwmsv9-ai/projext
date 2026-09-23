@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-county-of-touraine",
+  "identity": {
+    "canonical_name": "County of Touraine",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1206,
+    "end": 1491,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1206,
+      "to_year": 1271,
+      "area_km2": 10164.843289261198,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Touraine",
+      "source_feature_index": 5330,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1304,
+      "area_km2": 10003.095744823511,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Touraine",
+      "source_feature_index": 5822,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 10094.757773769403,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Touraine",
+      "source_feature_index": 6514,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 10186.54503459438,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Touraine",
+      "source_feature_index": 6650,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1421,
+      "area_km2": 10209.566246617896,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Touraine",
+      "source_feature_index": 6700,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1452,
+      "area_km2": 10140.853876838666,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Touraine",
+      "source_feature_index": 7022,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1486,
+      "area_km2": 10140.853876838666,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Touraine",
+      "source_feature_index": 7278,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 10140.853876838666,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Touraine",
+      "source_feature_index": 7596,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-principality-of-reuss-gera",
+  "identity": {
+    "canonical_name": "Principality of Reuss-Gera",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1806,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 1987.1623309410977,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 10692,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 1964.9303358131112,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 10740,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 1987.1623309410977,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 10751,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1813,
+      "area_km2": 1787.8265386775597,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 10812,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 1655.5167919548267,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 10914,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 3135.4340449728684,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 10986,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1869,
+      "area_km2": 2008.5978518314828,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 11055,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 2008.597851831483,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Reuss-Gera",
+      "source_feature_index": 11879,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-county-of-maine",
+  "identity": {
+    "canonical_name": "County of Maine",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 990,
+    "end": 1481,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 990,
+      "to_year": 1045,
+      "area_km2": 13826.180572768699,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Maine (province)",
+      "source_feature_index": 4043,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 13598.871972979445,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Maine (province)",
+      "source_feature_index": 4427,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1110,
+      "area_km2": 13598.871972979445,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_norman",
+      "wikipedia": "Maine (province)",
+      "source_feature_index": 4558,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 13826.180572768699,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Maine (province)",
+      "source_feature_index": 7243,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1474,
+      "area_km2": 13826.180572768699,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Maine (province)",
+      "source_feature_index": 7261,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 13826.180572768699,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Maine (province)",
+      "source_feature_index": 7473,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

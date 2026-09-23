@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-taifa-of-toledo",
+  "identity": {
+    "canonical_name": "Taifa of Toledo",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1010,
+    "end": 1093,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1010,
+      "to_year": 1014,
+      "area_km2": 77366.38559683341,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4140,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1033,
+      "area_km2": 77390.78341859301,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4192,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 77659.60361322794,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4319,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 77803.85604367511,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4361,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1065,
+      "area_km2": 77659.60361322794,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4409,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 90231.48265947124,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4526,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 90280.4255422906,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4589,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 47175.0294535738,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Toledo",
+      "source_feature_index": 4649,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

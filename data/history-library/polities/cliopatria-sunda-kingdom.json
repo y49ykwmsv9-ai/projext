@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-sunda-kingdom",
+  "identity": {
+    "canonical_name": "Sunda Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 674,
+    "end": 1578,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 674,
+      "to_year": 723,
+      "area_km2": 26861.072316564205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 2569,
+      "geometry_available": true
+    },
+    {
+      "from_year": 724,
+      "to_year": 731,
+      "area_km2": 62498.71327751515,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 2708,
+      "geometry_available": true
+    },
+    {
+      "from_year": 732,
+      "to_year": 740,
+      "area_km2": 121224.63641494575,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 2717,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 824,
+      "area_km2": 26861.072316564205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 2753,
+      "geometry_available": true
+    },
+    {
+      "from_year": 825,
+      "to_year": 895,
+      "area_km2": 62041.17202475413,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 3076,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 1027,
+      "area_km2": 26861.072316564205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 3507,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1293,
+      "area_km2": 62041.17202475413,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 4287,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1474,
+      "area_km2": 62270.64787353531,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 6024,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 26861.072316564205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 7460,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1518,
+      "area_km2": 54102.70482501823,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 7530,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1528,
+      "area_km2": 53873.22897623703,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 7878,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1571,
+      "area_km2": 44266.012380538865,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 8001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 22145.92149420658,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sunda Kingdom",
+      "source_feature_index": 8321,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-nayaks-of-madurai",
+  "identity": {
+    "canonical_name": "Nayaks of Madurai",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1529,
+    "end": 1737,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 47960.199868944444,
+      "wikidata_id": null,
+      "seshat_id": "in_madurai_nayaks",
+      "wikipedia": "Madurai Nayak dynasty",
+      "source_feature_index": 7975,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1571,
+      "area_km2": 47725.8767701308,
+      "wikidata_id": null,
+      "seshat_id": "in_madurai_nayaks",
+      "wikipedia": "Madurai Nayak dynasty",
+      "source_feature_index": 8041,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1712,
+      "area_km2": 48150.179449443734,
+      "wikidata_id": null,
+      "seshat_id": "in_madurai_nayaks",
+      "wikipedia": "Madurai Nayak dynasty",
+      "source_feature_index": 8298,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1733,
+      "area_km2": 48189.864225610276,
+      "wikidata_id": null,
+      "seshat_id": "in_madurai_nayaks",
+      "wikipedia": "Madurai Nayak dynasty",
+      "source_feature_index": 9531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 48189.864225610276,
+      "wikidata_id": null,
+      "seshat_id": "in_madurai_nayaks",
+      "wikipedia": "Madurai Nayak dynasty",
+      "source_feature_index": 9685,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

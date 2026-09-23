@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-principality-of-smolensk",
+  "identity": {
+    "canonical_name": "Principality of Smolensk",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1056,
+    "end": 1406,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1056,
+      "to_year": 1084,
+      "area_km2": 116130.24917269741,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 4513,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1110,
+      "area_km2": 116087.47357143652,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 4638,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1187,
+      "area_km2": 116153.35949717768,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 4793,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1201,
+      "area_km2": 150519.68016958237,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 5153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1240,
+      "area_km2": 116153.35949717768,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 5240,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1313,
+      "area_km2": 151032.65149578644,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 5985,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 146571.3545493316,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 6166,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1343,
+      "area_km2": 146809.0228506585,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 6239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1362,
+      "area_km2": 146327.56334165207,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 6377,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 110656.02108635669,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 6538,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1401,
+      "area_km2": 75618.52359559502,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 6583,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 74478.54703136123,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Smolensk",
+      "source_feature_index": 6862,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-emirate-of-bukhara",
+  "identity": {
+    "canonical_name": "Emirate of Bukhara",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1788,
+    "end": 1919,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 265932.1712225914,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 10265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1799,
+      "area_km2": 341223.4528416366,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 10310,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 368671.43545741506,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 10511,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 368719.74785527866,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 10604,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1808,
+      "area_km2": 368671.43545741506,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 10657,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1821,
+      "area_km2": 368354.2493395598,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 10779,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1863,
+      "area_km2": 268156.23006469844,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 11104,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1867,
+      "area_km2": 218754.17786247793,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 11732,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 218997.30510398952,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 12442,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 218997.30510398952,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Bukhara",
+      "source_feature_index": 12469,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

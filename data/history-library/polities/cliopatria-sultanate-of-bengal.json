@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-sultanate-of-bengal",
+  "identity": {
+    "canonical_name": "Sultanate of Bengal",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1344,
+    "end": 1533,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 5058.589281559412,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 6365,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1394,
+      "area_km2": 331702.1367939051,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 6469,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1481,
+      "area_km2": 305892.6285577961,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 6742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1496,
+      "area_km2": 331702.1367939051,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 7517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1501,
+      "area_km2": 331910.80443619576,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 7658,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1511,
+      "area_km2": 361167.3276730803,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 7712,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1518,
+      "area_km2": 346061.4290662246,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 7775,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1528,
+      "area_km2": 346071.77286216157,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 7862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 345894.6546593093,
+      "wikidata_id": null,
+      "seshat_id": "bd_bengal_sultanate",
+      "wikipedia": "Bengal Sultanate",
+      "source_feature_index": 8014,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

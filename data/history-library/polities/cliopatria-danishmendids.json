@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-danishmendids",
+  "identity": {
+    "canonical_name": "Danishmendids",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1094,
+    "end": 1187,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 58769.263416152244,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 4698,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 70926.973088949,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 4734,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1138,
+      "area_km2": 77490.98961028243,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 4775,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1151,
+      "area_km2": 77465.03415774796,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 4874,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 85779.36105093436,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 4977,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1176,
+      "area_km2": 85805.3165034688,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 5044,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 41684.618116694335,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Danishmendids",
+      "source_feature_index": 5099,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

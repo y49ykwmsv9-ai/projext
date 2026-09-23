@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-republic-of-pisa",
+  "identity": {
+    "canonical_name": "Republic of Pisa",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1010,
+    "end": 1401,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1010,
+      "to_year": 1084,
+      "area_km2": 2595.317852023469,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 4141,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1187,
+      "area_km2": 13812.685700484864,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 4651,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1201,
+      "area_km2": 24075.88259662372,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 5147,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1209,
+      "area_km2": 22878.888676946015,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 5253,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1226,
+      "area_km2": 27574.51935595208,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 5369,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1259,
+      "area_km2": 27694.55469047233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 5511,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1394,
+      "area_km2": 27647.265095314164,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 5808,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 2548.0282568653,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Pisa",
+      "source_feature_index": 6800,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

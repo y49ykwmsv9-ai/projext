@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-kingdom-of-norway",
+  "identity": {
+    "canonical_name": "Kingdom of Norway",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1814,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 346289.64881185984,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Norway",
+      "source_feature_index": 10943,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1921,
+      "area_km2": 346289.64881185984,
+      "wikidata_id": null,
+      "seshat_id": "no_norway_k_modern",
+      "wikipedia": "Norway",
+      "source_feature_index": 12223,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1925,
+      "area_km2": 346661.2763676199,
+      "wikidata_id": null,
+      "seshat_id": "no_norway_k_modern",
+      "wikipedia": "Norway",
+      "source_feature_index": 12539,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1931,
+      "area_km2": 420734.1363120145,
+      "wikidata_id": null,
+      "seshat_id": "no_norway_k_modern",
+      "wikipedia": "Norway",
+      "source_feature_index": 12594,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 462613.0356426915,
+      "wikidata_id": null,
+      "seshat_id": "no_norway_k_modern",
+      "wikipedia": "Norway",
+      "source_feature_index": 12676,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1940,
+      "area_km2": 420360.5988603348,
+      "wikidata_id": null,
+      "seshat_id": "no_norway_k_modern",
+      "wikipedia": "Norway",
+      "source_feature_index": 12738,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1944,
+      "area_km2": 371.62755576006856,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Norway",
+      "source_feature_index": 12844,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 2023,
+      "area_km2": 420717.1669453819,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Norway",
+      "source_feature_index": 12924,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 420717.1669453819,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Norway",
+      "source_feature_index": 13666,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

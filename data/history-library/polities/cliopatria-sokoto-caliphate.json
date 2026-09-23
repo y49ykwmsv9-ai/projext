@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-sokoto-caliphate",
+  "identity": {
+    "canonical_name": "Sokoto Caliphate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1805,
+    "end": 1904,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1805,
+      "to_year": 1808,
+      "area_km2": 478780.5442401619,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 10630,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1819,
+      "area_km2": 614789.463400574,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 10742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1833,
+      "area_km2": 630388.5357131605,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 11070,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 792705.9612675873,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 11270,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 798855.0196634738,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 11292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1894,
+      "area_km2": 792705.9612675873,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 11319,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1899,
+      "area_km2": 794624.2005481923,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 12127,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 792269.8006399085,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sokoto Caliphate",
+      "source_feature_index": 12165,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

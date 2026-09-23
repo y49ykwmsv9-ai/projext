@@ -1,0 +1,216 @@
+{
+  "id": "cliopatria-babylonia",
+  "identity": {
+    "canonical_name": "Babylonia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -1800,
+    "end": -601,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "hammurabi-reign"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -1800,
+      "to_year": -1761,
+      "area_km2": 7832.842399271224,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_1",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 34,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1760,
+      "to_year": -1751,
+      "area_km2": 97099.23030608514,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_1",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 39,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1750,
+      "to_year": -1701,
+      "area_km2": 220074.81674962363,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_1",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 43,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1700,
+      "to_year": -1601,
+      "area_km2": 126725.11742038671,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_1",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 44,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1600,
+      "to_year": -1501,
+      "area_km2": 126674.71669401185,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_1",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 51,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1500,
+      "to_year": -1401,
+      "area_km2": 119373.26682198902,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_2",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 67,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1400,
+      "to_year": -1301,
+      "area_km2": 226483.55954840998,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_2",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 73,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1300,
+      "to_year": -1241,
+      "area_km2": 155057.95543337232,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_2",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 81,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1240,
+      "to_year": -1221,
+      "area_km2": 134294.44177310084,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_2",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 84,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1200,
+      "to_year": -1151,
+      "area_km2": 132635.73270175006,
+      "wikidata_id": null,
+      "seshat_id": "iq_babylonia_2",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 97,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1100,
+      "to_year": -1001,
+      "area_km2": 132635.73270175006,
+      "wikidata_id": null,
+      "seshat_id": "iq_isin_dynasty2",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 106,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1000,
+      "to_year": -901,
+      "area_km2": 25191.500668384742,
+      "wikidata_id": null,
+      "seshat_id": "iq_bazi_dyn",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 112,
+      "geometry_available": true
+    },
+    {
+      "from_year": -900,
+      "to_year": -801,
+      "area_km2": 118947.91508953262,
+      "wikidata_id": null,
+      "seshat_id": "iq_dynasty_e",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 135,
+      "geometry_available": true
+    },
+    {
+      "from_year": -650,
+      "to_year": -631,
+      "area_km2": 133937.46238721383,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 209,
+      "geometry_available": true
+    },
+    {
+      "from_year": -615,
+      "to_year": -601,
+      "area_km2": 152402.91121132916,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Babylonia",
+      "source_feature_index": 231,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

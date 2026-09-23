@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-kingdom-of-egypt",
+  "identity": {
+    "canonical_name": "Kingdom of Egypt",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1922,
+    "end": 1952,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1922,
+      "to_year": 1925,
+      "area_km2": 1005708.7579025141,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12538,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1929,
+      "area_km2": 1007436.8024399246,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12615,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1930,
+      "to_year": 1935,
+      "area_km2": 1005435.3020222755,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12661,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1939,
+      "area_km2": 1005708.7579025141,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12736,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1943,
+      "area_km2": 1005435.3020222755,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12806,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1945,
+      "area_km2": 1005760.3342991547,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12902,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1947,
+      "area_km2": 1003742.4692631096,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 12949,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1949,
+      "area_km2": 1003923.217921855,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 13047,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 1952,
+      "area_km2": 1003923.217921855,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_2",
+      "wikipedia": "Kingdom of Egypt",
+      "source_feature_index": 13083,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

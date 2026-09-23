@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-kingdom-of-the-two-sicilies",
+  "identity": {
+    "canonical_name": "Kingdom of the Two Sicilies",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1815,
+    "end": 1860,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 91429.79067632237,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Two Sicilies",
+      "source_feature_index": 10984,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1847,
+      "area_km2": 91429.79067632237,
+      "wikidata_id": null,
+      "seshat_id": "it_two_sicilies_k",
+      "wikipedia": "Kingdom of the Two Sicilies",
+      "source_feature_index": 11047,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 69254.01091227254,
+      "wikidata_id": null,
+      "seshat_id": "it_two_sicilies_k",
+      "wikipedia": "Kingdom of the Two Sicilies",
+      "source_feature_index": 11452,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1859,
+      "area_km2": 91429.79067632237,
+      "wikidata_id": null,
+      "seshat_id": "it_two_sicilies_k",
+      "wikipedia": "Kingdom of the Two Sicilies",
+      "source_feature_index": 11490,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1860,
+      "area_km2": 56553.56122928138,
+      "wikidata_id": null,
+      "seshat_id": "it_two_sicilies_k",
+      "wikipedia": "Kingdom of the Two Sicilies",
+      "source_feature_index": 11646,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

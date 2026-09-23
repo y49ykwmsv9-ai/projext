@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-portuguese-africa",
+  "identity": {
+    "canonical_name": "Portuguese Africa",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1507,
+    "end": 1581,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1507,
+      "to_year": 1533,
+      "area_km2": 34830.74827213595,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_1",
+      "wikipedia": "Portuguese Africa",
+      "source_feature_index": 7756,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1546,
+      "area_km2": 33195.480917174,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_1",
+      "wikipedia": "Portuguese Africa",
+      "source_feature_index": 8034,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1563,
+      "area_km2": 28900.271456384027,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_1",
+      "wikipedia": "Portuguese Africa",
+      "source_feature_index": 8147,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1578,
+      "area_km2": 30515.83787081953,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_1",
+      "wikipedia": "Portuguese Africa",
+      "source_feature_index": 8267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1581,
+      "area_km2": 35684.77062393931,
+      "wikidata_id": null,
+      "seshat_id": "pt_portuguese_emp_1",
+      "wikipedia": "Portuguese Africa",
+      "source_feature_index": 8383,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

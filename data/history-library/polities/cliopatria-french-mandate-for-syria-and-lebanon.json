@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-french-mandate-for-syria-and-lebanon",
+  "identity": {
+    "canonical_name": "French Mandate for Syria and Lebanon",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1920,
+    "end": 1945,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 210021.94921755744,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12516,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1925,
+      "area_km2": 201572.0143668572,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12533,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1926,
+      "area_km2": 201513.27824428544,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12620,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1927,
+      "to_year": 1931,
+      "area_km2": 201572.0143668572,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12627,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 201258.9160125832,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12705,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1938,
+      "area_km2": 200844.4870590855,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12727,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1939,
+      "area_km2": 195918.4995351798,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_1",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12794,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1942,
+      "area_km2": 195918.4995351798,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12803,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 195893.31754446577,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12889,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 186183.1460030027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12904,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 186885.13767314452,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mandate for Syria and the Lebanon",
+      "source_feature_index": 12942,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

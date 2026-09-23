@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-irish-free-state",
+  "identity": {
+    "canonical_name": "Irish Free State",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1922,
+    "end": 1937,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1922,
+      "to_year": 1931,
+      "area_km2": 74990.29886781696,
+      "wikidata_id": null,
+      "seshat_id": "ei_ireland_rep",
+      "wikipedia": "Irish Free State",
+      "source_feature_index": 12548,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 74947.12532079426,
+      "wikidata_id": null,
+      "seshat_id": "ei_ireland_rep",
+      "wikipedia": "Irish Free State",
+      "source_feature_index": 12674,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1937,
+      "area_km2": 74947.12532079426,
+      "wikidata_id": null,
+      "seshat_id": "ei_ireland_rep",
+      "wikipedia": "Irish Free State",
+      "source_feature_index": 12745,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-banate-of-bosnia",
+  "identity": {
+    "canonical_name": "Banate of Bosnia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1188,
+    "end": 1384,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1188,
+      "to_year": 1201,
+      "area_km2": 29161.0414082827,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5122,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1205,
+      "area_km2": 29089.719617486175,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1215,
+      "area_km2": 29161.0414082827,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5322,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1235,
+      "area_km2": 29089.719617486175,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5414,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 29161.0414082827,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5571,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 18024.891394949846,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5648,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1284,
+      "area_km2": 19384.60115686522,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1325,
+      "area_km2": 19360.72468488727,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 5928,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 28973.10246344632,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 6202,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1362,
+      "area_km2": 37870.76946004418,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 6292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 37777.66219778692,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 6512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 49021.53913808547,
+      "wikidata_id": null,
+      "seshat_id": "ba_bosnia_banate",
+      "wikipedia": "Banate of Bosnia",
+      "source_feature_index": 6644,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-ganzhou-kingdom",
+  "identity": {
+    "canonical_name": "Ganzhou Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 860,
+    "end": 1039,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 860,
+      "to_year": 895,
+      "area_km2": 233160.37758219868,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 3180,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 910,
+      "area_km2": 233160.37758219868,
+      "wikidata_id": null,
+      "seshat_id": "cn_ganzhou_k",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 3493,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 233228.8470031551,
+      "wikidata_id": null,
+      "seshat_id": "cn_ganzhou_k",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 3631,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 232934.93399508845,
+      "wikidata_id": null,
+      "seshat_id": "cn_ganzhou_k",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 3687,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 989,
+      "area_km2": 232839.08539333643,
+      "wikidata_id": null,
+      "seshat_id": "cn_ganzhou_k",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 3706,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 1033,
+      "area_km2": 232581.2903935602,
+      "wikidata_id": null,
+      "seshat_id": "cn_ganzhou_k",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 4071,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 232581.2903935602,
+      "wikidata_id": null,
+      "seshat_id": "cn_ganzhou_k",
+      "wikipedia": "Ganzhou Uyghur Kingdom",
+      "source_feature_index": 4315,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

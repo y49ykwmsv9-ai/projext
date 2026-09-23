@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-principality-of-transylvania",
+  "identity": {
+    "canonical_name": "Principality of Transylvania",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1572,
+    "end": 1695,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1572,
+      "to_year": 1594,
+      "area_km2": 100991.58688691695,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 8330,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 101149.65614739053,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 8461,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1621,
+      "area_km2": 101149.65614739053,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 8555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1622,
+      "to_year": 1661,
+      "area_km2": 111716.99241807089,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 8689,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1669,
+      "area_km2": 108972.36539340431,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 9076,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 108677.30161118472,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 9109,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1682,
+      "area_km2": 108723.35608173895,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 9154,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 84738.75539789548,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 9260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 108585.95808930225,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 9293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 107492.81711463352,
+      "wikidata_id": null,
+      "seshat_id": "ro_transylvania_principality",
+      "wikipedia": "Principality of Transylvania (1570-1711)",
+      "source_feature_index": 9343,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

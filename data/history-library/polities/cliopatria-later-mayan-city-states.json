@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-later-mayan-city-states",
+  "identity": {
+    "canonical_name": "Later Mayan City-States",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 850,
+    "end": 1546,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 850,
+      "to_year": 869,
+      "area_km2": 177290.59555170333,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 3171,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 959,
+      "area_km2": 177290.59555170333,
+      "wikidata_id": null,
+      "seshat_id": "gt_tikal_terminal_classic",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 3273,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 1259,
+      "area_km2": 135191.35162742797,
+      "wikidata_id": null,
+      "seshat_id": "gt_tikal_early_postclassic",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 3879,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1428,
+      "area_km2": 135191.35162742797,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 5791,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1430,
+      "area_km2": 135135.53784790618,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 7091,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 135191.35162742797,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 7119,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 135135.53784790618,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 7167,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1525,
+      "area_km2": 187745.22544468913,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 7202,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 182718.9297828275,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 7970,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 170075.31891781397,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 7988,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 170356.35262404333,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 8042,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 170356.35262404333,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maya civilization",
+      "source_feature_index": 8055,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

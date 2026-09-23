@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-beylik-of-tunis",
+  "identity": {
+    "canonical_name": "Beylik of Tunis",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1706,
+    "end": 1884,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 79457.03317578592,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 9469,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1756,
+      "area_km2": 79407.36246918044,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 9504,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 79308.23452344892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 9926,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1793,
+      "area_km2": 79407.36246918039,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 9980,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 87855.78585203849,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 10384,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1829,
+      "area_km2": 87756.65790630697,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 10407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1839,
+      "area_km2": 87806.05213526731,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 11218,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1845,
+      "area_km2": 87956.13935742421,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 11311,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1858,
+      "area_km2": 87979.78390876419,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 11404,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1869,
+      "area_km2": 88078.91185449573,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 11608,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1879,
+      "area_km2": 87905.18008099883,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 11876,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 87905.18008099883,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Beylik of Tunis",
+      "source_feature_index": 11983,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

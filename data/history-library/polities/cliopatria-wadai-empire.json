@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-wadai-empire",
+  "identity": {
+    "canonical_name": "Wadai Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1636,
+    "end": 1910,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1636,
+      "to_year": 1889,
+      "area_km2": 279942.95464965305,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wadai Empire",
+      "source_feature_index": 8806,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 279886.23124895664,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wadai Empire",
+      "source_feature_index": 12080,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1904,
+      "area_km2": 279124.77189619996,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wadai Empire",
+      "source_feature_index": 12105,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1907,
+      "area_km2": 278553.1301128677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wadai Empire",
+      "source_feature_index": 12198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1908,
+      "to_year": 1910,
+      "area_km2": 278553.1301128677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wadai Empire",
+      "source_feature_index": 12242,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

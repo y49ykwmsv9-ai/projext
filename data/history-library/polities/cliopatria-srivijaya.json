@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-srivijaya",
+  "identity": {
+    "canonical_name": "Srivijaya",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 674,
+    "end": 1293,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 674,
+      "to_year": 681,
+      "area_km2": 5524.047423482605,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 2571,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 170100.9529440854,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 2584,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 717,
+      "area_km2": 483627.1314785547,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 2622,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 859,
+      "area_km2": 537552.6573743625,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 2679,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 1138,
+      "area_km2": 537552.6573743625,
+      "wikidata_id": null,
+      "seshat_id": "id_srivijaya_emp",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 3198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1201,
+      "area_km2": 456771.6281828906,
+      "wikidata_id": null,
+      "seshat_id": "id_srivijaya_emp",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 4860,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1284,
+      "area_km2": 456771.6281828906,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 5246,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 456771.6281828906,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Srivijaya",
+      "source_feature_index": 5957,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

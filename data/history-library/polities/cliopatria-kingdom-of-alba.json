@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-kingdom-of-alba",
+  "identity": {
+    "canonical_name": "Kingdom of Alba",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 900,
+    "end": 1293,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 900,
+      "to_year": 959,
+      "area_km2": 41646.177038201786,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 3573,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 979,
+      "area_km2": 41835.62699553452,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 3865,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 1033,
+      "area_km2": 48822.05772180289,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 3986,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1071,
+      "area_km2": 58290.09822787451,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 4300,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1093,
+      "area_km2": 58247.833167314755,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 4618,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 58332.33851804147,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 4697,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1235,
+      "area_km2": 59250.83657882684,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 4733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1271,
+      "area_km2": 64719.406142581116,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 5584,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1284,
+      "area_km2": 85304.36810931489,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 5842,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 85304.36810931489,
+      "wikidata_id": null,
+      "seshat_id": "gb_alba_k",
+      "wikipedia": "Kingdom of Alba",
+      "source_feature_index": 5937,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

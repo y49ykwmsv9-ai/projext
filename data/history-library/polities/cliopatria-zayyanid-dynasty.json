@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-zayyanid-dynasty",
+  "identity": {
+    "canonical_name": "Zayyanid dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1236,
+    "end": 1555,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1236,
+      "to_year": 1284,
+      "area_km2": 125838.80752858469,
+      "wikidata_id": null,
+      "seshat_id": "dz_zayyanid_dyn;dz_tlemcen",
+      "wikipedia": "Zayyanid dynasty",
+      "source_feature_index": 5596,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1343,
+      "area_km2": 126172.03510638671,
+      "wikidata_id": null,
+      "seshat_id": "dz_zayyanid_dyn;dz_tlemcen",
+      "wikipedia": "Zayyanid dynasty",
+      "source_feature_index": 5944,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1506,
+      "area_km2": 126172.03510638671,
+      "wikidata_id": null,
+      "seshat_id": "dz_zayyanid_dyn;dz_tlemcen",
+      "wikipedia": "Zayyanid dynasty",
+      "source_feature_index": 6485,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1511,
+      "area_km2": 125145.56200174575,
+      "wikidata_id": null,
+      "seshat_id": "dz_zayyanid_dyn;dz_tlemcen",
+      "wikipedia": "Zayyanid dynasty",
+      "source_feature_index": 7737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1518,
+      "area_km2": 124099.36982954634,
+      "wikidata_id": null,
+      "seshat_id": "dz_tlemcen",
+      "wikipedia": "Kingdom of Tlemcen",
+      "source_feature_index": 7791,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1520,
+      "area_km2": 125018.98535590195,
+      "wikidata_id": null,
+      "seshat_id": "dz_tlemcen",
+      "wikipedia": "Kingdom of Tlemcen",
+      "source_feature_index": 7871,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1551,
+      "area_km2": 125120.77686864378,
+      "wikidata_id": null,
+      "seshat_id": "dz_tlemcen",
+      "wikipedia": "Kingdom of Tlemcen",
+      "source_feature_index": 7911,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 125120.77686864378,
+      "wikidata_id": null,
+      "seshat_id": "dz_tlemcen",
+      "wikipedia": "Kingdom of Tlemcen",
+      "source_feature_index": 8189,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

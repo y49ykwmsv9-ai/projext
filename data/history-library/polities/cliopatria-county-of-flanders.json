@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-county-of-flanders",
+  "identity": {
+    "canonical_name": "County of Flanders",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 990,
+    "end": 1384,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 990,
+      "to_year": 1009,
+      "area_km2": 19129.372439389124,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 4040,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1151,
+      "area_km2": 17590.894116919975,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 4153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 17590.894116919975,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 4961,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1187,
+      "area_km2": 36834.332564591125,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 5055,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1215,
+      "area_km2": 9229.17301194136,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 5133,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1219,
+      "area_km2": 9295.94393273064,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 5403,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1259,
+      "area_km2": 9229.17301194136,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 5474,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 14743.304951065682,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 5762,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1304,
+      "area_km2": 29179.524316932762,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 5836,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1325,
+      "area_km2": 11534.4924697242,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 6087,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 24889.637438182537,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 6191,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1374,
+      "area_km2": 25072.74940675006,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 6280,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 25072.263613384945,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Flanders",
+      "source_feature_index": 6656,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

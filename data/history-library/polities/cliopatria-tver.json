@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-tver",
+  "identity": {
+    "canonical_name": "Tver",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1294,
+    "end": 1486,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 7059.995166416298,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 6050,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1332,
+      "area_km2": 7101.098787770142,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 6081,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 7080.061113176211,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 6273,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1394,
+      "area_km2": 7204.913629675413,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 6361,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1462,
+      "area_km2": 7163.5841225546,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 6737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1481,
+      "area_km2": 7183.700332736562,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 7376,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 7018.821681981665,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tver",
+      "source_feature_index": 7519,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

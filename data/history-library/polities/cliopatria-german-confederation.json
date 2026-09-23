@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-german-confederation",
+  "identity": {
+    "canonical_name": "German Confederation",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1815,
+    "end": 1863,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 342679.92925074365,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 10996,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1827,
+      "area_km2": 281550.2144803825,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11069,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 281682.4312464829,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11161,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 281793.6235743459,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11212,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 281388.3622171652,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11269,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 281707.35713426914,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1845,
+      "area_km2": 281905.93712242594,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11318,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1852,
+      "area_km2": 282016.8727840098,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11400,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1862,
+      "area_km2": 283326.58393272356,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11507,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 282875.3722495191,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Confederation",
+      "source_feature_index": 11706,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

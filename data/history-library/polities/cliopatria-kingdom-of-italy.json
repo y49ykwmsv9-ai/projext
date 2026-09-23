@@ -1,0 +1,556 @@
+{
+  "id": "cliopatria-kingdom-of-italy",
+  "identity": {
+    "canonical_name": "Kingdom of Italy",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 587,
+    "end": 1946,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "italy-unification"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 587,
+      "to_year": 601,
+      "area_km2": 147965.04280193188,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2165,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 627,
+      "area_km2": 155222.01011375958,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2220,
+      "geometry_available": true
+    },
+    {
+      "from_year": 628,
+      "to_year": 632,
+      "area_km2": 157032.19778155602,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2330,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 637,
+      "area_km2": 157675.77817269744,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2357,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 157744.83416853947,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2401,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 643,
+      "area_km2": 168927.25785027497,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 660,
+      "area_km2": 171790.420752026,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2452,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 691,
+      "area_km2": 172044.5142118251,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 704,
+      "area_km2": 179628.20072513813,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2609,
+      "geometry_available": true
+    },
+    {
+      "from_year": 705,
+      "to_year": 731,
+      "area_km2": 179443.9706987829,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2636,
+      "geometry_available": true
+    },
+    {
+      "from_year": 732,
+      "to_year": 740,
+      "area_km2": 209430.93046105947,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2723,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 149379.42650138872,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 750,
+      "area_km2": 208949.57812477503,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2770,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 754,
+      "area_km2": 218405.1302643955,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2802,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 756,
+      "area_km2": 219476.60692331768,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2817,
+      "geometry_available": true
+    },
+    {
+      "from_year": 757,
+      "to_year": 762,
+      "area_km2": 210468.55016440258,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2842,
+      "geometry_available": true
+    },
+    {
+      "from_year": 763,
+      "to_year": 774,
+      "area_km2": 204800.19427065644,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 2859,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 887,
+      "area_km2": 148199.48732351226,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3445,
+      "geometry_available": true
+    },
+    {
+      "from_year": 888,
+      "to_year": 891,
+      "area_km2": 171702.4250118416,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3455,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 171286.45349949383,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3479,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 51802.96361526931,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 171583.88194455852,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3562,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 171813.96989428398,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3638,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 959,
+      "area_km2": 171837.49069699403,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3767,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 969,
+      "area_km2": 171676.81683084313,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 3869,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1865,
+      "area_km2": 235521.69736586267,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 11695,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 242248.1730456071,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 11770,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1870,
+      "area_km2": 261885.44660850463,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 11827,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1884,
+      "area_km2": 274905.2251731709,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 11895,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1904,
+      "area_km2": 277767.53537813126,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12002,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1911,
+      "area_km2": 275196.8647670284,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12222,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1915,
+      "area_km2": 277713.30076340376,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 277858.18055997486,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12382,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 285449.8391936416,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 272623.20629034704,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12421,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 313696.0317576817,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12461,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 299453.0642097549,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12485,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1931,
+      "area_km2": 299477.82459860656,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 295590.3479766737,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12675,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1937,
+      "area_km2": 295325.4077969069,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1938,
+      "area_km2": 295301.02715398435,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12765,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1939,
+      "area_km2": 323120.7180038592,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12780,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 326075.30292498134,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12826,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 374186.812002968,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12842,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 427849.67592189234,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12856,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 455510.63618283934,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12873,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 267.25895093503595,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12900,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 289197.9325051341,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12923,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 340.1959307295411,
+      "wikidata_id": null,
+      "seshat_id": "it_italian_k",
+      "wikipedia": "Kingdom of Italy",
+      "source_feature_index": 12986,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

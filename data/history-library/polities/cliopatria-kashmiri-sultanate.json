@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-kashmiri-sultanate",
+  "identity": {
+    "canonical_name": "Kashmiri Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1344,
+    "end": 1587,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 201742.16271130738,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 6339,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1374,
+      "area_km2": 152322.8321979697,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 6451,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1401,
+      "area_km2": 152045.5154512604,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 6637,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 152015.98545515683,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 6826,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1452,
+      "area_km2": 152175.14937108548,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 6912,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1474,
+      "area_km2": 152045.1272895806,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 7267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1525,
+      "area_km2": 151968.43821664155,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 7459,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 152271.3964845487,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 7937,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1539,
+      "area_km2": 152322.8321979697,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 7999,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1555,
+      "area_km2": 152272.76626144687,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 8096,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1581,
+      "area_km2": 152350.51142670118,
+      "wikidata_id": null,
+      "seshat_id": "in_kashmiri_sultanate",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 8215,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1587,
+      "area_km2": 152350.51142670118,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kashmir Sultanate",
+      "source_feature_index": 8403,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "id": "cliopatria-british-colonial-empire",
+  "identity": {
+    "canonical_name": "British Colonial Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1706,
+    "end": 1999,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 174.35828516251203,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9450,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 227113.07922879382,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 417697.55221572245,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9522,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 483218.1699664984,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 635305.0289211104,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9610,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 640479.9002403556,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9641,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 650797.2503367773,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9671,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 678522.3302306932,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9729,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 714384.2313639333,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9771,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1751,
+      "area_km2": 740324.4570728958,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9797,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 844315.4363573798,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9892,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 868113.1202916908,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9903,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 991430.0069220234,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 9959,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 1676636.9269543882,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10012,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 1887813.9908409303,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10035,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 1927357.6432552803,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10096,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 1041979.4865675122,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10150,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1777,
+      "area_km2": 935843.388999049,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10154,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1779,
+      "area_km2": 1056156.099679258,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10187,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1780,
+      "area_km2": 1189037.9566511435,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10194,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1781,
+      "to_year": 1782,
+      "area_km2": 921933.487481531,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10212,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 725152.2132231846,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1793,
+      "area_km2": 695410.2449886538,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10271,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 699356.8261336974,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10358,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 714474.6125102917,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10429,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 737985.5008731716,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10457,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 763567.9381429936,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 769361.69580734,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10520,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 725965.4220358495,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10613,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 780919.7973318523,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10653,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 780630.988402068,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10662,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 781473.4631627176,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10717,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 783260.3858806893,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10768,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 1150239.1250703097,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 1289343.6670351748,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 970608.7388419096,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10894,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 1004750.0438463347,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 10969,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 860770.3291547558,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1823,
+      "area_km2": 886734.249918429,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11113,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1824,
+      "area_km2": 879432.1747929206,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11133,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 946671.9774730693,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 1076880.807207527,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11181,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 1085954.0103025825,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11225,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 1113708.1430941718,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 1191640.9471396282,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11310,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 1211447.1523360515,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11349,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 1227359.7101128155,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 1271991.9947060752,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11419,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1852,
+      "area_km2": 1311397.6664997786,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11446,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 1539800.0610245161,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11525,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 2550908.938001951,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11547,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1858,
+      "area_km2": 3206848.627478531,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11589,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 5133613.40635358,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11635,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1861,
+      "area_km2": 5331540.365193301,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11662,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1862,
+      "area_km2": 5939083.098259618,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11690,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 7252254.762776375,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11701,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 7253000.296941391,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11722,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 7285887.258169155,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11796,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1869,
+      "area_km2": 8071420.367958866,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11804,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 8420142.775424913,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 8526125.40233795,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11880,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1876,
+      "area_km2": 8679214.198923206,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11916,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 9382386.543085609,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11933,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 9787310.951201627,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 11959,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 10052860.708239311,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12042,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 12289917.276628735,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12076,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 12484174.524551542,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 12487779.664519947,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12147,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 13690377.648231845,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12182,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1907,
+      "area_km2": 6370489.441209407,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12212,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1908,
+      "to_year": 1910,
+      "area_km2": 7116973.424898514,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12251,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1913,
+      "area_km2": 11399038.327405863,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12273,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1914,
+      "area_km2": 11394877.016280439,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12327,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1916,
+      "area_km2": 11751905.137601312,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12352,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 11877885.101416603,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12396,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1919,
+      "area_km2": 11971923.673715176,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12438,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 12027564.089190975,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12515,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 11649766.291252252,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12530,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 11649741.681406083,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12571,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1926,
+      "area_km2": 11649863.93000761,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12617,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1927,
+      "to_year": 1927,
+      "area_km2": 11649741.681406083,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12625,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1928,
+      "to_year": 1931,
+      "area_km2": 11649766.291252252,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12634,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1941,
+      "area_km2": 1904847.8900588073,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12703,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1945,
+      "area_km2": 1836571.7970777045,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12861,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 1859352.3238532594,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 12959,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1957,
+      "area_km2": 1411856.5166364517,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 13007,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1958,
+      "to_year": 1962,
+      "area_km2": 578855.1496846008,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 13154,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1963,
+      "to_year": 1968,
+      "area_km2": 351420.7903143806,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "British Empire",
+      "source_feature_index": 13231,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1969,
+      "to_year": 1995,
+      "area_km2": 134104.64036676261,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "British Empire",
+      "source_feature_index": 13287,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1996,
+      "to_year": 1999,
+      "area_km2": 23222.480735035395,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "British Empire",
+      "source_feature_index": 13501,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

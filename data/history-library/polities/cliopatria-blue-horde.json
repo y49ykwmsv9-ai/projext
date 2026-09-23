@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-blue-horde",
+  "identity": {
+    "canonical_name": "Blue Horde",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1363,
+    "end": 1449,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 1828862.3421843462,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Blue Horde",
+      "source_feature_index": 6560,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1401,
+      "area_km2": 1827934.1401881198,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Blue Horde",
+      "source_feature_index": 6610,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1439,
+      "area_km2": 18967.278907437656,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Blue Horde",
+      "source_feature_index": 6846,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 18967.278907437656,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Blue Horde",
+      "source_feature_index": 7166,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

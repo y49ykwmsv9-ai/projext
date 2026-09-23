@@ -1,0 +1,256 @@
+{
+  "id": "cliopatria-republic-of-china",
+  "identity": {
+    "canonical_name": "Republic of China",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1912,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "chinese-revolution"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 8440429.805972412,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12296,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1913,
+      "area_km2": 8440429.805972412,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12320,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1915,
+      "area_km2": 8439607.941648476,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12334,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1930,
+      "to_year": 1931,
+      "area_km2": 7881338.601342547,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12663,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 6838296.462861711,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12699,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1937,
+      "area_km2": 7066626.109727184,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12735,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1938,
+      "area_km2": 4465129.129021145,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12772,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1939,
+      "area_km2": 4186672.203873803,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12801,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 4186754.4987289794,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12805,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1942,
+      "area_km2": 4189373.044285376,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12839,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 5778218.371422083,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12891,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 5708140.06720118,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12901,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 5433342.53965842,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12939,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 6451946.9190831985,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 12950,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 6320622.135632305,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 13001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1948,
+      "area_km2": 5972969.690985736,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 13045,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1949,
+      "area_km2": 5434227.300731816,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 13061,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 2023,
+      "area_km2": 81056.76274390341,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 13082,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 40938.85351801746,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of China (1912-1949)",
+      "source_feature_index": 13685,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

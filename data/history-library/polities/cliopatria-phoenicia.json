@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-phoenicia",
+  "identity": {
+    "canonical_name": "Phoenicia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -1150,
+    "end": -501,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -1150,
+      "to_year": -1001,
+      "area_km2": 12404.97976092665,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 102,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1000,
+      "to_year": -901,
+      "area_km2": 12958.482519368054,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 119,
+      "geometry_available": true
+    },
+    {
+      "from_year": -900,
+      "to_year": -801,
+      "area_km2": 14933.698897553093,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 126,
+      "geometry_available": true
+    },
+    {
+      "from_year": -800,
+      "to_year": -751,
+      "area_km2": 25425.179299740485,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 140,
+      "geometry_available": true
+    },
+    {
+      "from_year": -750,
+      "to_year": -676,
+      "area_km2": 28357.095344493027,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 179,
+      "geometry_available": true
+    },
+    {
+      "from_year": -675,
+      "to_year": -651,
+      "area_km2": 15496.144223854977,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 194,
+      "geometry_available": true
+    },
+    {
+      "from_year": -650,
+      "to_year": -616,
+      "area_km2": 14867.404617283835,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 214,
+      "geometry_available": true
+    },
+    {
+      "from_year": -615,
+      "to_year": -531,
+      "area_km2": 35130.06402206805,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 225,
+      "geometry_available": true
+    },
+    {
+      "from_year": -530,
+      "to_year": -501,
+      "area_km2": 22314.23540290751,
+      "wikidata_id": null,
+      "seshat_id": "lb_phoenician_emp",
+      "wikipedia": "Phoenicia",
+      "source_feature_index": 280,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

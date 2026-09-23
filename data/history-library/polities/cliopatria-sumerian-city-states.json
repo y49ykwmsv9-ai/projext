@@ -1,0 +1,156 @@
+{
+  "id": "cliopatria-sumerian-city-states",
+  "identity": {
+    "canonical_name": "Sumerian City-States",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -3400,
+    "end": -1761,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "sumer-urbanization"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -3400,
+      "to_year": -3201,
+      "area_km2": 22012.292763497044,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 0,
+      "geometry_available": true
+    },
+    {
+      "from_year": -3200,
+      "to_year": -3001,
+      "area_km2": 35614.59527198169,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 1,
+      "geometry_available": true
+    },
+    {
+      "from_year": -3000,
+      "to_year": -2701,
+      "area_km2": 45289.54883803891,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 3,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2700,
+      "to_year": -2501,
+      "area_km2": 80617.54918929553,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 8,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2500,
+      "to_year": -2301,
+      "area_km2": 106576.07060876074,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 10,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2300,
+      "to_year": -2251,
+      "area_km2": 8294.096180585033,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 13,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2100,
+      "to_year": -2001,
+      "area_km2": 12567.99722392463,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 25,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2000,
+      "to_year": -1801,
+      "area_km2": 53983.44046533461,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 28,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1800,
+      "to_year": -1761,
+      "area_km2": 48484.003876687755,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Sumer",
+      "source_feature_index": 37,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

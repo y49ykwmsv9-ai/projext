@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-duchy-of-milan",
+  "identity": {
+    "canonical_name": "Duchy of Milan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1402,
+    "end": 1539,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 37443.52656310867,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 6824,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1421,
+      "area_km2": 37374.25762814961,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 6909,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 42827.13636559038,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 6997,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1439,
+      "area_km2": 35384.00393265206,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7064,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 29862.168760516874,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1462,
+      "area_km2": 29862.168760516874,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7271,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1481,
+      "area_km2": 35315.24252475081,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7390,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1491,
+      "area_km2": 29862.363787310005,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7528,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1496,
+      "area_km2": 35315.24252475079,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7625,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1501,
+      "area_km2": 33481.749492301606,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_1",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7646,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 17570.192712529162,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_2",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7942,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 17545.998854998965,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_2",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 7994,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 17545.998854998965,
+      "wikidata_id": null,
+      "seshat_id": "it_milan_duc_2",
+      "wikipedia": "Duchy of Milan",
+      "source_feature_index": 8029,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

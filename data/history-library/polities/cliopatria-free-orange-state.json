@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-free-orange-state",
+  "identity": {
+    "canonical_name": "Free Orange State",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1856,
+    "end": 1899,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1856,
+      "to_year": 1870,
+      "area_km2": 132872.0841937635,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Orange Free State",
+      "source_feature_index": 11558,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1884,
+      "area_km2": 133104.31916473433,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Orange Free State",
+      "source_feature_index": 11887,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1897,
+      "area_km2": 132191.36378058372,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Orange Free State",
+      "source_feature_index": 12030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 132191.36378058372,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Orange Free State",
+      "source_feature_index": 12138,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

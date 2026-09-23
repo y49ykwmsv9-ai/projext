@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-makuria",
+  "identity": {
+    "canonical_name": "Makuria",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 347,
+    "end": 1414,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 347,
+      "to_year": 568,
+      "area_km2": 65102.10977291759,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Makuria",
+      "source_feature_index": 1468,
+      "geometry_available": true
+    },
+    {
+      "from_year": 569,
+      "to_year": 622,
+      "area_km2": 65102.10977291759,
+      "wikidata_id": null,
+      "seshat_id": "sd_makuria_k_1",
+      "wikipedia": "Makuria",
+      "source_feature_index": 2140,
+      "geometry_available": true
+    },
+    {
+      "from_year": 623,
+      "to_year": 655,
+      "area_km2": 65102.10977291759,
+      "wikidata_id": null,
+      "seshat_id": "sd_makuria_k_2",
+      "wikipedia": "Makuria",
+      "source_feature_index": 2286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 681,
+      "area_km2": 212626.74904638308,
+      "wikidata_id": null,
+      "seshat_id": "sd_makuria_k_2",
+      "wikipedia": "Makuria",
+      "source_feature_index": 2506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 212681.0253878873,
+      "wikidata_id": null,
+      "seshat_id": "sd_makuria_k_2",
+      "wikipedia": "Makuria",
+      "source_feature_index": 2592,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 849,
+      "area_km2": 212626.74904638308,
+      "wikidata_id": null,
+      "seshat_id": "sd_makuria_k_2",
+      "wikipedia": "Makuria",
+      "source_feature_index": 2628,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 1110,
+      "area_km2": 212626.74904638308,
+      "wikidata_id": null,
+      "seshat_id": "sd_makuria_k_3",
+      "wikipedia": "Makuria",
+      "source_feature_index": 3144,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1278,
+      "area_km2": 212626.74904638308,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Makuria",
+      "source_feature_index": 4803,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1406,
+      "area_km2": 212626.74904638308,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Makuria",
+      "source_feature_index": 6003,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 212626.74904638308,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Makuria",
+      "source_feature_index": 6896,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

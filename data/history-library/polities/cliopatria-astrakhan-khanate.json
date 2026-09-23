@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-astrakhan-khanate",
+  "identity": {
+    "canonical_name": "Astrakhan Khanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1468,
+    "end": 1768,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 160935.01002547942,
+      "wikidata_id": null,
+      "seshat_id": "ru_astrakhan_khanate",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 7405,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1501,
+      "area_km2": 161771.5583688353,
+      "wikidata_id": null,
+      "seshat_id": "ru_astrakhan_khanate",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 7477,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1555,
+      "area_km2": 162622.19220833408,
+      "wikidata_id": null,
+      "seshat_id": "ru_astrakhan_khanate",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 7688,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1647,
+      "area_km2": 126399.66671310083,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 8904,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1661,
+      "area_km2": 125781.44632513364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 8973,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1669,
+      "area_km2": 125972.93738295624,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 9080,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1762,
+      "area_km2": 124767.18317294956,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 9125,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 124767.18317294956,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Astrakhan Khanate",
+      "source_feature_index": 10011,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

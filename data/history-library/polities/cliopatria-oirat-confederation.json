@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-oirat-confederation",
+  "identity": {
+    "canonical_name": "Oirat Confederation",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1619,
+    "end": 1676,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1619,
+      "to_year": 1635,
+      "area_km2": 365737.3833990128,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 8657,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1658,
+      "area_km2": 839090.6979920969,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 8787,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 838699.8837070542,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 9039,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 838754.7874212016,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 9124,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 838754.7874212016,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 9153,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-dutch-cape-coast",
+  "identity": {
+    "canonical_name": "Dutch Cape Coast",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1653,
+    "end": 1795,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1653,
+      "to_year": 1669,
+      "area_km2": 32322.268807979763,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9013,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1682,
+      "area_km2": 32896.59758483434,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9105,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 30114.974141362232,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9256,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 29971.323747912917,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9272,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 30545.921060375298,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9321,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 30603.355877963204,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9371,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1720,
+      "area_km2": 29942.529438246078,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9405,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 33091.29088700491,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9627,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 33120.00436989294,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9658,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1743,
+      "area_km2": 63676.07581999916,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9696,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1768,
+      "area_km2": 63647.46832997873,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 9817,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1787,
+      "area_km2": 162828.48628967762,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 10054,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1793,
+      "area_km2": 284725.139757041,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 10257,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 284725.139757041,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_1",
+      "wikipedia": "Cape Coast",
+      "source_feature_index": 10379,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

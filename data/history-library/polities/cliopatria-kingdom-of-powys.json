@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-kingdom-of-powys",
+  "identity": {
+    "canonical_name": "Kingdom of Powys",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 540,
+    "end": 1168,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 540,
+      "to_year": 616,
+      "area_km2": 5614.506378393351,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 2029,
+      "geometry_available": true
+    },
+    {
+      "from_year": 617,
+      "to_year": 625,
+      "area_km2": 5659.125309667098,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 2268,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 627,
+      "area_km2": 5723.9026820290255,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 2291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 628,
+      "to_year": 632,
+      "area_km2": 5679.283750755278,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 2332,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 704,
+      "area_km2": 5614.506378393351,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 2359,
+      "geometry_available": true
+    },
+    {
+      "from_year": 705,
+      "to_year": 859,
+      "area_km2": 4315.867258870986,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 2635,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 899,
+      "area_km2": 4315.867258870986,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 3340,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 4315.867258870986,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 3644,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 946,
+      "area_km2": 4229.026409677231,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 3700,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 1039,
+      "area_km2": 4315.867258870986,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 3895,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 2425.2687585949725,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 4662,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1151,
+      "area_km2": 4458.0815948236,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 4753,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 4458.0815948236,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Powys",
+      "source_feature_index": 4988,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

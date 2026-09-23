@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-county-of-savoy",
+  "identity": {
+    "canonical_name": "County of Savoy",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1260,
+    "end": 1539,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1260,
+      "to_year": 1384,
+      "area_km2": 14987.049100996888,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 5777,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 15080.345019181203,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 6729,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 25458.29715042054,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 6754,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1439,
+      "area_km2": 36009.2403060805,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 6827,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1458,
+      "area_km2": 35963.25018205549,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7148,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1474,
+      "area_km2": 35963.25018205549,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7322,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 35734.65755223495,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7461,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1496,
+      "area_km2": 35572.98995782886,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1511,
+      "area_km2": 35734.3139973107,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7647,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1515,
+      "area_km2": 35665.318374216964,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7789,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 35711.416042977784,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7847,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1528,
+      "area_km2": 35663.7367161248,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 7877,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 35594.38240642663,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 8000,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 35594.38240642663,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Savoy",
+      "source_feature_index": 8027,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

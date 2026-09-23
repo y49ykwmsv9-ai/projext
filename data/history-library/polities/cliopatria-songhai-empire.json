@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-songhai-empire",
+  "identity": {
+    "canonical_name": "Songhai Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1463,
+    "end": 1608,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 116860.1825391503,
+      "wikidata_id": null,
+      "seshat_id": "ml_songhai_1",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 7362,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 251494.6773739184,
+      "wikidata_id": null,
+      "seshat_id": "ml_songhai_1",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 7398,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1496,
+      "area_km2": 629260.4716394694,
+      "wikidata_id": null,
+      "seshat_id": "ml_songhai_1",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 7486,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1563,
+      "area_km2": 629260.4716394694,
+      "wikidata_id": null,
+      "seshat_id": "ml_songhai_2",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 7672,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1594,
+      "area_km2": 665729.5306235802,
+      "wikidata_id": null,
+      "seshat_id": "ml_songhai_2",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 8293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 112.19838860990774,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 8498,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1601,
+      "area_km2": 224.36375561898035,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 8539,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 224.36375561898035,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Songhai Empire",
+      "source_feature_index": 8546,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

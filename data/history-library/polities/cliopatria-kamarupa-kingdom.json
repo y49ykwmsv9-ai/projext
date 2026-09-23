@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-kamarupa-kingdom",
+  "identity": {
+    "canonical_name": "Kamarupa Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 353,
+    "end": 1138,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 353,
+      "to_year": 450,
+      "area_km2": 131240.7206603112,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 1491,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 554,
+      "area_km2": 130013.14417630466,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 1792,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 655,
+      "area_km2": 134184.76148536772,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 2091,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 750,
+      "area_km2": 106214.82727745794,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 2486,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 824,
+      "area_km2": 91250.86365946494,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 2805,
+      "geometry_available": true
+    },
+    {
+      "from_year": 825,
+      "to_year": 839,
+      "area_km2": 91936.86434578123,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 3063,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 859,
+      "area_km2": 91250.86365946494,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 3116,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 959,
+      "area_km2": 92663.79130662142,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 3186,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 999,
+      "area_km2": 230539.1884104589,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 3872,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1000,
+      "to_year": 1055,
+      "area_km2": 229996.12422398076,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 4074,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1071,
+      "area_km2": 193751.45627623293,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 4447,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1125,
+      "area_km2": 185302.1901154223,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 4633,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1126,
+      "to_year": 1138,
+      "area_km2": 185302.1901154223,
+      "wikidata_id": null,
+      "seshat_id": "in_kamarupa_k",
+      "wikipedia": "Kamarupa",
+      "source_feature_index": 4842,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

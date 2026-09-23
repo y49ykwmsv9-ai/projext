@@ -1,0 +1,624 @@
+{
+  "id": "cliopatria-kingdom-of-england-56cd210d98",
+  "identity": {
+    "canonical_name": "Kingdom of England",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 936,
+    "end": 1708,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 118504.45789739673,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 3757,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 123845.85832647317,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 3798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 979,
+      "area_km2": 139841.03098172587,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 3862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 1014,
+      "area_km2": 132886.8477583345,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 3989,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1017,
+      "area_km2": 69149.20975030574,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 4184,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 132932.18571490518,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 4413,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 132844.59480526767,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 4506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 129425.80134250924,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_norman",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 4531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 213242.85287175604,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5377,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1219,
+      "area_km2": 191873.60641845388,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5422,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1235,
+      "area_km2": 213221.95105340783,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5460,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1249,
+      "area_km2": 222438.25390772749,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5623,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1271,
+      "area_km2": 225652.53404315744,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5704,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1278,
+      "area_km2": 214666.78491008395,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5870,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 214595.71618980597,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5906,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 229712.93243271657,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5956,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 224712.7989313181,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 5990,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 311102.321600697,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6068,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 224712.7989313181,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6158,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 213880.42773629687,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6234,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 213052.29630487965,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6297,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 220123.31951118822,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6380,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 207985.32164640145,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6420,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 286021.11847746826,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 220043.50521190488,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6591,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 200286.59990469588,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6695,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 193220.60394291015,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 186603.21693746408,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6868,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 192670.9230516885,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 6929,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 294361.4142712695,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7027,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1430,
+      "area_km2": 345915.42077920097,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7088,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 339771.073304001,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7136,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1458,
+      "area_km2": 201300.7022941938,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7182,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1481,
+      "area_km2": 166431.97497798834,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7341,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 166387.92535438616,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1501,
+      "area_km2": 166387.92535438616,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1539,
+      "area_km2": 166475.98391469894,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 7703,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 169986.60010382373,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8070,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 179030.38648690018,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8101,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 182335.85949944844,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 186630.08882016063,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8237,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1578,
+      "area_km2": 218051.20514843785,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8278,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1581,
+      "area_km2": 249156.8585268384,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8353,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1587,
+      "area_km2": 240013.4260933036,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8389,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 249156.8585268384,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8418,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 232080.44483689973,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8481,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1601,
+      "area_km2": 215610.817900381,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8525,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 219052.80311823176,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8542,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1639,
+      "area_km2": 341650.2806005273,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8569,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1641,
+      "area_km2": 248047.47791157666,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 183308.7950415501,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8894,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 70537.22394586971,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8942,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 20066.98813690559,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 8985,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1690,
+      "area_km2": 341939.66811630945,
+      "wikidata_id": null,
+      "seshat_id": "gb_tudor_stuart",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 9085,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1705,
+      "area_km2": 341675.6004253676,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 9312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 342178.8032464089,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of England",
+      "source_feature_index": 9439,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

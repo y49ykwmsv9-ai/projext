@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-taifa-of-almer-a",
+  "identity": {
+    "canonical_name": "Taifa of Almería",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1015,
+    "end": 1249,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1015,
+      "to_year": 1033,
+      "area_km2": 14846.26264466209,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 4167,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 20947.978033356067,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 4298,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1065,
+      "area_km2": 14846.262644662094,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 4435,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1084,
+      "area_km2": 14747.81023016328,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 4561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 10927.249004089268,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 4677,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 8968.180817917768,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 4911,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 4978.689375278637,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 5585,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 1503.4175130540668,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Almería",
+      "source_feature_index": 5661,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

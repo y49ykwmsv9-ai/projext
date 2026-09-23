@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-sultanate-of-palembang",
+  "identity": {
+    "canonical_name": "Sultanate of Palembang",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1459,
+    "end": 1821,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1459,
+      "to_year": 1511,
+      "area_km2": 77003.28590591374,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Palembang Sultanate",
+      "source_feature_index": 7337,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1555,
+      "area_km2": 75650.1512400007,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Palembang Sultanate",
+      "source_feature_index": 7803,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1669,
+      "area_km2": 75188.62479857834,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Palembang Sultanate",
+      "source_feature_index": 8219,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1808,
+      "area_km2": 75015.9693132222,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Palembang Sultanate",
+      "source_feature_index": 9120,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1819,
+      "area_km2": 74900.9812833939,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Palembang Sultanate",
+      "source_feature_index": 10774,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 54664.993755051684,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Palembang Sultanate",
+      "source_feature_index": 11023,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

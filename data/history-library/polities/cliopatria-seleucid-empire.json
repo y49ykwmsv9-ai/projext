@@ -1,0 +1,374 @@
+{
+  "id": "cliopatria-seleucid-empire",
+  "identity": {
+    "canonical_name": "Seleucid Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -318,
+    "end": -64,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -318,
+      "to_year": -316,
+      "area_km2": 116883.42698719043,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 499,
+      "geometry_available": true
+    },
+    {
+      "from_year": -307,
+      "to_year": -302,
+      "area_km2": 2319548.3572784765,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 522,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -292,
+      "area_km2": 2975895.008408745,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 524,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -284,
+      "area_km2": 2538083.359639229,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 542,
+      "geometry_available": true
+    },
+    {
+      "from_year": -283,
+      "to_year": -282,
+      "area_km2": 2538431.493839779,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 569,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -280,
+      "area_km2": 2795505.0240244274,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 576,
+      "geometry_available": true
+    },
+    {
+      "from_year": -279,
+      "to_year": -278,
+      "area_km2": 2692246.572694673,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 591,
+      "geometry_available": true
+    },
+    {
+      "from_year": -277,
+      "to_year": -265,
+      "area_km2": 2691942.8793845368,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 592,
+      "geometry_available": true
+    },
+    {
+      "from_year": -264,
+      "to_year": -257,
+      "area_km2": 2680826.886174805,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 622,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 2757970.786524857,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 635,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -240,
+      "area_km2": 2270021.592168635,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 657,
+      "geometry_available": true
+    },
+    {
+      "from_year": -239,
+      "to_year": -226,
+      "area_km2": 2063733.0849827046,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 669,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -224,
+      "area_km2": 2032703.654766043,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 701,
+      "geometry_available": true
+    },
+    {
+      "from_year": -223,
+      "to_year": -219,
+      "area_km2": 2033259.3712622323,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 714,
+      "geometry_available": true
+    },
+    {
+      "from_year": -218,
+      "to_year": -217,
+      "area_km2": 2091997.0510704112,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 725,
+      "geometry_available": true
+    },
+    {
+      "from_year": -216,
+      "to_year": -213,
+      "area_km2": 2053184.8432319523,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 737,
+      "geometry_available": true
+    },
+    {
+      "from_year": -212,
+      "to_year": -211,
+      "area_km2": 2052786.7895022156,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 742,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 2277510.379341206,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 750,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 2276780.3947592867,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 771,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -204,
+      "area_km2": 2277365.27723175,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 786,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -203,
+      "area_km2": 2274537.7810463975,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 813,
+      "geometry_available": true
+    },
+    {
+      "from_year": -202,
+      "to_year": -198,
+      "area_km2": 2274946.6092881486,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 828,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -189,
+      "area_km2": 2367037.6355197965,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 834,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -171,
+      "area_km2": 1924785.333545209,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 857,
+      "geometry_available": true
+    },
+    {
+      "from_year": -170,
+      "to_year": -165,
+      "area_km2": 2448734.0722043575,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 872,
+      "geometry_available": true
+    },
+    {
+      "from_year": -164,
+      "to_year": -145,
+      "area_km2": 669880.087522946,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 887,
+      "geometry_available": true
+    },
+    {
+      "from_year": -144,
+      "to_year": -127,
+      "area_km2": 491622.76408913627,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 899,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 222679.04398874624,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 915,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 91728.2874878467,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 949,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -78,
+      "area_km2": 89023.22849346495,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 967,
+      "geometry_available": true
+    },
+    {
+      "from_year": -66,
+      "to_year": -64,
+      "area_km2": 78396.2818307637,
+      "wikidata_id": null,
+      "seshat_id": "ir_seleucid_emp",
+      "wikipedia": "Seleucid dynasty",
+      "source_feature_index": 1008,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

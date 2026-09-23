@@ -1,0 +1,214 @@
+{
+  "id": "cliopatria-duchy-of-masovia",
+  "identity": {
+    "canonical_name": "Duchy of Masovia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1139,
+    "end": 1351,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1139,
+      "to_year": 1146,
+      "area_km2": 35860.30265021624,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 4894,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1168,
+      "area_km2": 166451.02951883353,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 4933,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1176,
+      "area_km2": 156016.92525588852,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5057,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 35708.1639943344,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5091,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1205,
+      "area_km2": 35555.82099373701,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5231,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1235,
+      "area_km2": 35708.16399433439,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 31769.69208646124,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5579,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 29260.188602928396,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5644,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 31426.675244029975,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5738,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1278,
+      "area_km2": 31448.11775704438,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5765,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1304,
+      "area_km2": 31317.42283560214,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 5884,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1325,
+      "area_km2": 31448.11775704438,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 6094,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 30989.122595869376,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 6196,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 25853.572239219997,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 6285,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 30989.122595869376,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Masovia",
+      "source_feature_index": 6371,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

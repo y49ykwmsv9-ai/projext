@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-mauretania",
+  "identity": {
+    "canonical_name": "Mauretania",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -212,
+    "end": 42,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -212,
+      "to_year": -198,
+      "area_km2": 51320.52200354256,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 746,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -111,
+      "area_km2": 69468.55730687708,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 841,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 69468.55730687708,
+      "wikidata_id": null,
+      "seshat_id": "ma_mauretania",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 932,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -43,
+      "area_km2": 214967.32329117635,
+      "wikidata_id": null,
+      "seshat_id": "ma_mauretania",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 956,
+      "geometry_available": true
+    },
+    {
+      "from_year": -42,
+      "to_year": -42,
+      "area_km2": 215017.68841720108,
+      "wikidata_id": null,
+      "seshat_id": "ma_mauretania",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 1053,
+      "geometry_available": true
+    },
+    {
+      "from_year": -41,
+      "to_year": -28,
+      "area_km2": 214967.32329117635,
+      "wikidata_id": null,
+      "seshat_id": "ma_mauretania",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 1056,
+      "geometry_available": true
+    },
+    {
+      "from_year": -27,
+      "to_year": 29,
+      "area_km2": 215291.63385872633,
+      "wikidata_id": null,
+      "seshat_id": "ma_mauretania",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 1087,
+      "geometry_available": true
+    },
+    {
+      "from_year": 30,
+      "to_year": 42,
+      "area_km2": 215291.63385872633,
+      "wikidata_id": null,
+      "seshat_id": "ma_mauretania",
+      "wikipedia": "Mauretania",
+      "source_feature_index": 1141,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

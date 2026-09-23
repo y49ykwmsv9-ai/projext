@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-i-vi-t",
+  "identity": {
+    "canonical_name": "Đại Việt",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1529,
+    "end": 1833,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 190572.10477225189,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mạc dynasty",
+      "source_feature_index": 8008,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 87062.92643417358,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mạc dynasty",
+      "source_feature_index": 8037,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1594,
+      "area_km2": 67850.98072136394,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mạc dynasty",
+      "source_feature_index": 8080,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1652,
+      "area_km2": 10160.509725719523,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mạc dynasty",
+      "source_feature_index": 8469,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1682,
+      "area_km2": 13709.023930609817,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mạc dynasty",
+      "source_feature_index": 9016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1793,
+      "area_km2": 3548.5142048902917,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 9255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 3774.839858745244,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 10383,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1798,
+      "area_km2": 3916.775191262843,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 10404,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 3548.5142048902917,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 10499,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 3916.775191262843,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 10538,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1829,
+      "area_km2": 3548.281228895467,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 10583,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 3548.281228895467,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Đại Việt",
+      "source_feature_index": 11210,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

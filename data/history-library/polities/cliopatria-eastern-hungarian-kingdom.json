@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-eastern-hungarian-kingdom",
+  "identity": {
+    "canonical_name": "Eastern Hungarian Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1529,
+    "end": 1571,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1529,
+      "to_year": 1539,
+      "area_km2": 57162.589020960215,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eastern Hungarian Kingdom",
+      "source_feature_index": 8018,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 89943.11761199206,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eastern Hungarian Kingdom",
+      "source_feature_index": 8072,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 144466.05040130543,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eastern Hungarian Kingdom",
+      "source_feature_index": 8148,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 112572.34768106307,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eastern Hungarian Kingdom",
+      "source_feature_index": 8178,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 112322.43105413059,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eastern Hungarian Kingdom",
+      "source_feature_index": 8200,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 112322.43105413059,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eastern Hungarian Kingdom",
+      "source_feature_index": 8268,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

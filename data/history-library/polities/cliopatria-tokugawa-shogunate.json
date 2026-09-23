@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-tokugawa-shogunate",
+  "identity": {
+    "canonical_name": "Tokugawa Shogunate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1600,
+    "end": 1869,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1600,
+      "to_year": 1601,
+      "area_km2": 163989.77291821674,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 8503,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 328728.1092626604,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 8550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1798,
+      "area_km2": 328728.1092626604,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 8582,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1821,
+      "area_km2": 362979.20980990457,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 10496,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1855,
+      "area_km2": 328728.1092626604,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 11081,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1863,
+      "area_km2": 420530.3846841138,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 11578,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1864,
+      "area_km2": 420345.1779947849,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 11733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 461626.55976205436,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 11761,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 461255.26713780046,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 11766,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1869,
+      "area_km2": 403350.6286067115,
+      "wikidata_id": null,
+      "seshat_id": "jp_tokugawa_shogunate",
+      "wikipedia": "Tokugawa shogunate",
+      "source_feature_index": 11828,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

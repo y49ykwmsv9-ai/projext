@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-achaean-league",
+  "identity": {
+    "canonical_name": "Achaean League",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -279,
+    "end": -145,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -279,
+      "to_year": -273,
+      "area_km2": 2578.770906254792,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 582,
+      "geometry_available": true
+    },
+    {
+      "from_year": -272,
+      "to_year": -272,
+      "area_km2": 2726.3093051782644,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 611,
+      "geometry_available": true
+    },
+    {
+      "from_year": -271,
+      "to_year": -265,
+      "area_km2": 2578.770906254791,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 612,
+      "geometry_available": true
+    },
+    {
+      "from_year": -264,
+      "to_year": -257,
+      "area_km2": 2726.1222841132812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 624,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 2578.770906254791,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 643,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -240,
+      "area_km2": 2849.529008114748,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 661,
+      "geometry_available": true
+    },
+    {
+      "from_year": -239,
+      "to_year": -231,
+      "area_km2": 3858.2056716937727,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 675,
+      "geometry_available": true
+    },
+    {
+      "from_year": -230,
+      "to_year": -226,
+      "area_km2": 9032.636391656815,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 680,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -211,
+      "area_km2": 11769.542173731103,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 704,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -207,
+      "area_km2": 11818.938258062473,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 758,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -165,
+      "area_km2": 11769.542173731103,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 796,
+      "geometry_available": true
+    },
+    {
+      "from_year": -164,
+      "to_year": -145,
+      "area_km2": 11769.542173731103,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Achaean League",
+      "source_feature_index": 882,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

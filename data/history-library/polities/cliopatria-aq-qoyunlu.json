@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-aq-qoyunlu",
+  "identity": {
+    "canonical_name": "Aq Qoyunlu",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1407,
+    "end": 1511,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 56838.9293266066,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 6881,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1439,
+      "area_km2": 77464.41926942377,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 6935,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1452,
+      "area_km2": 232961.36426531925,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7196,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 232909.91968977381,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7295,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 232885.51406604514,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7346,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 181432.42010172736,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 697815.4059933702,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7414,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1501,
+      "area_km2": 1701512.0044218383,
+      "wikidata_id": null,
+      "seshat_id": "ir_ak_koyunlu",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7503,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1506,
+      "area_km2": 1542551.7772164566,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7699,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1511,
+      "area_km2": 350484.9011338085,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aq Qoyunlu",
+      "source_feature_index": 7762,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-four-oirats",
+  "identity": {
+    "canonical_name": "Four Oirats",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1402,
+    "end": 1474,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 912047.6877410457,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 6808,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 912735.832775515,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 6982,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1439,
+      "area_km2": 1122723.9562722621,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 7013,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 3419754.0220523006,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 7142,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1462,
+      "area_km2": 3962756.519246033,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 7237,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 3962638.38826805,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 7379,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 1128029.6158367733,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Oirat Confederation",
+      "source_feature_index": 7431,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

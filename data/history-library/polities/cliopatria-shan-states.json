@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-shan-states",
+  "identity": {
+    "canonical_name": "Shan States",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1294,
+    "end": 1563,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1294,
+      "to_year": 1325,
+      "area_km2": 293416.7338659028,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 6005,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1362,
+      "area_km2": 293662.2121912249,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 6225,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 296350.2109021221,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 6559,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 297890.1265316752,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 6613,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1428,
+      "area_km2": 274189.0257070297,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 6678,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1481,
+      "area_km2": 274015.98855846707,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 7098,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1501,
+      "area_km2": 274066.2739034882,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 7540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1528,
+      "area_km2": 273843.5894522612,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 7691,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1539,
+      "area_km2": 387959.0067708789,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 7980,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 387639.3860351499,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 8059,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1555,
+      "area_km2": 356869.47846956225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 8112,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 273863.952759887,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Shan States",
+      "source_feature_index": 8222,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

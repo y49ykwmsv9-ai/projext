@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-gordyene",
+  "identity": {
+    "canonical_name": "Kingdom of Gordyene",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -63,
+    "end": 259,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -63,
+      "to_year": 113,
+      "area_km2": 14346.878446630164,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1022,
+      "geometry_available": true
+    },
+    {
+      "from_year": 127,
+      "to_year": 153,
+      "area_km2": 14076.352872552225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1244,
+      "geometry_available": true
+    },
+    {
+      "from_year": 154,
+      "to_year": 160,
+      "area_km2": 14297.679788934473,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 161,
+      "to_year": 164,
+      "area_km2": 14076.352872552225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1271,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 214,
+      "area_km2": 14297.679788934473,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1279,
+      "geometry_available": true
+    },
+    {
+      "from_year": 215,
+      "to_year": 246,
+      "area_km2": 13927.584229271466,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1322,
+      "geometry_available": true
+    },
+    {
+      "from_year": 247,
+      "to_year": 259,
+      "area_km2": 13927.584229271466,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Corduene",
+      "source_feature_index": 1352,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

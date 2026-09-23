@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-bornu-empire",
+  "identity": {
+    "canonical_name": "Bornu Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1385,
+    "end": 1894,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1385,
+      "to_year": 1481,
+      "area_km2": 13537.514246844483,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 6706,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 66503.68995301983,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 7506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1578,
+      "area_km2": 200963.62539201544,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 7594,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1635,
+      "area_km2": 339371.27315186046,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 8382,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1804,
+      "area_km2": 338577.4094723496,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 8818,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1808,
+      "area_km2": 338304.2490352804,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 10635,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 227106.50239430394,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 10753,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1833,
+      "area_km2": 228331.18067028886,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 10814,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1847,
+      "area_km2": 227106.50239430394,
+      "wikidata_id": null,
+      "seshat_id": "ni_bornu_emp",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 11260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1884,
+      "area_km2": 227106.50239430394,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 11464,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 228331.18067028886,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 12009,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 228331.18067028886,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kanem-Bornu Empire",
+      "source_feature_index": 12048,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

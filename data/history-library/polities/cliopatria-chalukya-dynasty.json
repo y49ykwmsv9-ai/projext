@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-chalukya-dynasty",
+  "identity": {
+    "canonical_name": "Chalukya Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 555,
+    "end": 756,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 555,
+      "to_year": 601,
+      "area_km2": 203426.8904537599,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2076,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 622,
+      "area_km2": 220521.28154739868,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2208,
+      "geometry_available": true
+    },
+    {
+      "from_year": 623,
+      "to_year": 625,
+      "area_km2": 525561.0227434504,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2279,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 632,
+      "area_km2": 749771.8310415065,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2300,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 643,
+      "area_km2": 927787.0793386119,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 927650.4904769534,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2468,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 927620.5636017444,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2478,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 804476.7406641804,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2503,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 731,
+      "area_km2": 803601.6817073803,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2520,
+      "geometry_available": true
+    },
+    {
+      "from_year": 732,
+      "to_year": 749,
+      "area_km2": 810225.8237132945,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2711,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 754,
+      "area_km2": 809654.3331082048,
+      "wikidata_id": null,
+      "seshat_id": "in_badami_chalukya_emp",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2763,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 756,
+      "area_km2": 209025.82154877714,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Chalukya dynasty",
+      "source_feature_index": 2826,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-lydia",
+  "identity": {
+    "canonical_name": "Lydia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -700,
+    "end": -541,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -700,
+      "to_year": -676,
+      "area_km2": 24042.384592924438,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lydia",
+      "source_feature_index": 190,
+      "geometry_available": true
+    },
+    {
+      "from_year": -675,
+      "to_year": -651,
+      "area_km2": 24823.918481534638,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lydia",
+      "source_feature_index": 196,
+      "geometry_available": true
+    },
+    {
+      "from_year": -650,
+      "to_year": -631,
+      "area_km2": 98904.91101949876,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lydia",
+      "source_feature_index": 212,
+      "geometry_available": true
+    },
+    {
+      "from_year": -630,
+      "to_year": -616,
+      "area_km2": 255588.19618801272,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lydia",
+      "source_feature_index": 221,
+      "geometry_available": true
+    },
+    {
+      "from_year": -615,
+      "to_year": -601,
+      "area_km2": 255809.00573026913,
+      "wikidata_id": null,
+      "seshat_id": "tr_lydia_k",
+      "wikipedia": "Lydia",
+      "source_feature_index": 222,
+      "geometry_available": true
+    },
+    {
+      "from_year": -600,
+      "to_year": -551,
+      "area_km2": 255952.26911916025,
+      "wikidata_id": null,
+      "seshat_id": "tr_lydia_k",
+      "wikipedia": "Lydia",
+      "source_feature_index": 245,
+      "geometry_available": true
+    },
+    {
+      "from_year": -550,
+      "to_year": -541,
+      "area_km2": 254964.34866074234,
+      "wikidata_id": null,
+      "seshat_id": "tr_lydia_k",
+      "wikipedia": "Lydia",
+      "source_feature_index": 261,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

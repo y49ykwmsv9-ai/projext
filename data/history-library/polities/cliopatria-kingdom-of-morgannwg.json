@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-kingdom-of-morgannwg",
+  "identity": {
+    "canonical_name": "Kingdom of Morgannwg",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 540,
+    "end": 1055,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 540,
+      "to_year": 946,
+      "area_km2": 1488.3815479725683,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Morgannwg",
+      "source_feature_index": 2030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 2865.7935627045285,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Morgannwg",
+      "source_feature_index": 3835,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 1045,
+      "area_km2": 1488.3815479725683,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Morgannwg",
+      "source_feature_index": 3899,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 1488.3815479725683,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Morgannwg",
+      "source_feature_index": 4396,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

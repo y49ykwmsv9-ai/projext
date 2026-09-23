@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-scotland",
+  "identity": {
+    "canonical_name": "Kingdom of Scotland",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1294,
+    "end": 1608,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 86071.20070111276,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 5996,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1474,
+      "area_km2": 86071.20070111276,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 6168,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1551,
+      "area_km2": 88867.57441921948,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 7483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 90185.19051929287,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 8159,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1578,
+      "area_km2": 91943.67504050313,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 8220,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1601,
+      "area_km2": 92385.93634706685,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 8358,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 92385.93634706685,
+      "wikidata_id": null,
+      "seshat_id": "gb_scotland_k",
+      "wikipedia": "Kingdom of Scotland",
+      "source_feature_index": 8548,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

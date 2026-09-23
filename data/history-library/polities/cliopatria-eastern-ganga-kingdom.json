@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-eastern-ganga-kingdom",
+  "identity": {
+    "canonical_name": "Eastern Ganga Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1056,
+    "end": 1351,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1056,
+      "to_year": 1151,
+      "area_km2": 163984.74544627528,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 4508,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1259,
+      "area_km2": 150812.58643009086,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 4996,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1293,
+      "area_km2": 206035.41451603032,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 5805,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1313,
+      "area_km2": 205937.35507623636,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 5986,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 205759.48143042935,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 6164,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1343,
+      "area_km2": 205596.99563242454,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 6236,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 205602.58081647995,
+      "wikidata_id": null,
+      "seshat_id": "in_ganga_k",
+      "wikipedia": "Eastern Ganga dynasty",
+      "source_feature_index": 6374,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

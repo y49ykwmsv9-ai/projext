@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-michoac-n",
+  "identity": {
+    "canonical_name": "Michoacán",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1305,
+    "end": 1533,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1305,
+      "to_year": 1428,
+      "area_km2": 5634.307183230566,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 6082,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1439,
+      "area_km2": 17530.89875881112,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7070,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 45786.408941726724,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7138,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1458,
+      "area_km2": 49787.38299067464,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 53040.526648466555,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 53763.079251972136,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 74593.15234352926,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7437,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 73429.35035498536,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7446,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1496,
+      "area_km2": 73871.40911152946,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1520,
+      "area_km2": 73732.30118450358,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7659,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1528,
+      "area_km2": 73902.39772617025,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 7904,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 73902.39772617025,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Michoacán",
+      "source_feature_index": 8011,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,1384 @@
+{
+  "id": "cliopatria-ottoman-empire",
+  "identity": {
+    "canonical_name": "Ottoman Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1305,
+    "end": 1923,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1305,
+      "to_year": 1325,
+      "area_km2": 12705.099395578287,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6103,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 27118.09024679865,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6204,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 31143.80571533015,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6253,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 188739.6098790883,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6336,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 190206.190298035,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6453,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 209227.9952658745,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6500,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 264192.4898433877,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6640,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 276994.15209986694,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6727,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 403705.80835282826,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emirate",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6752,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 387699.4194433678,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emirate",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6830,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 422154.3778862999,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6914,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 439325.8610511699,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6963,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 456556.0236953215,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 6998,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1430,
+      "area_km2": 549603.6898167394,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7062,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 562420.3252902437,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7114,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 562490.3264483951,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7147,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 567243.8492976924,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7253,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 568540.1275546798,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7269,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 652444.5863135513,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7321,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 798747.2614422363,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7389,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 895657.9364525586,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7444,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 904770.2683321475,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7463,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 913756.1085352754,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 930516.4162534738,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7580,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1501,
+      "area_km2": 930754.8602209121,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1506,
+      "area_km2": 931833.9867992473,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7729,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1511,
+      "area_km2": 933158.9516877243,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7734,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1515,
+      "area_km2": 933062.3236129975,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7788,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 1064114.9379830894,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_1",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7845,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1520,
+      "area_km2": 2690844.3609719067,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7879,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1525,
+      "area_km2": 2782608.936397941,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7917,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 2794711.4307705252,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7938,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 2816366.7159728627,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 7998,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 3178642.290502401,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 3196354.6629445166,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8099,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 3260056.7921967017,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8128,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 3484129.8759773923,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8185,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 3691277.8133743345,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8214,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 3643424.0546959694,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8246,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 3784288.648371183,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8324,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1587,
+      "area_km2": 3870576.298742411,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8370,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 4254573.183397323,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8439,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 4255329.44343697,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8456,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1601,
+      "area_km2": 4255285.287459455,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8504,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 4255126.217142354,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1611,
+      "area_km2": 3802082.03787469,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1625,
+      "area_km2": 3776546.5549184177,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8607,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1635,
+      "area_km2": 3585167.570665441,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8705,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1639,
+      "area_km2": 3381330.556857552,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8825,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1644,
+      "area_km2": 3524238.8599286284,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8854,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 3519273.615735258,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8922,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1661,
+      "area_km2": 3523693.162679875,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 8963,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1669,
+      "area_km2": 3526437.7897045477,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9072,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 3531298.433193399,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9113,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 3640022.001631136,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9163,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 3588811.726797735,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9182,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 3593358.4189955126,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_2",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 3510480.670473836,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9288,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 3490207.520615475,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9337,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 3441800.0279892758,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9362,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1705,
+      "area_km2": 3438225.6251770626,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9391,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1712,
+      "area_km2": 3149211.5553600793,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9456,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 2882924.154263626,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1726,
+      "area_km2": 2840688.0904790433,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9593,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 3143969.988085373,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9650,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 2902499.110956689,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9707,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 2843488.4029997992,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9739,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 2878777.0382375866,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9766,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 2835429.299184588,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9811,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1751,
+      "area_km2": 2878828.379944481,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 2878620.6173017607,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9865,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 2876633.6402287385,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9948,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 2878283.1230447176,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 9995,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 2836186.9791711075,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10069,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 2830826.697677347,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10091,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 2874495.408220634,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10117,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1779,
+      "area_km2": 2867198.8754535234,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10164,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1782,
+      "area_km2": 2874495.408220634,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 2874549.910403628,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10229,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 2872686.414900509,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10263,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 2830308.0773785557,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10301,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 2847025.910683056,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10334,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 2846444.153308792,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10369,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 2708933.621458853,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10392,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 2708557.5189344417,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10447,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 2646112.403131467,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10495,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 2659990.673451406,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 2681083.4170830846,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10571,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 2376172.1465018224,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10622,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 2376465.335468454,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10700,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 2357562.132215694,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10725,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 2357845.2105229963,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10756,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 1755123.999907089,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 1917232.7150864045,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10872,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 2087924.742472379,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10940,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 2177482.895666576,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 10982,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 2669499.9200636973,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11050,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1823,
+      "area_km2": 2633253.6356745088,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11080,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1824,
+      "area_km2": 2641263.590562526,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11117,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 2155353.562236715,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 2133264.7107663,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11172,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 2128108.6587832277,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11199,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 1459521.5457313263,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11257,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 1487848.395380466,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_3",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11281,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 1448423.4217442668,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11337,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1847,
+      "area_km2": 2113588.729213226,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11396,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 2113871.0775793027,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11450,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 2113917.415325054,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11489,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 2106835.1357314913,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11498,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 2106765.2197545944,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11579,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1858,
+      "area_km2": 2106788.7300927634,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11599,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1865,
+      "area_km2": 2106937.12785219,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11622,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1869,
+      "area_km2": 2106992.0092743733,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11768,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 2106879.237281771,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11860,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 2106831.844197873,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11896,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1876,
+      "area_km2": 2412810.83835119,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11908,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 2302764.359553723,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11956,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 2236715.3914997024,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 11988,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1894,
+      "area_km2": 2182134.4352074335,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12000,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1899,
+      "area_km2": 2181537.060479109,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12117,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 2169049.949574836,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12175,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1910,
+      "area_km2": 2169536.9485637695,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12224,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1911,
+      "area_km2": 2173570.901205815,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12277,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 2018189.207778772,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1914,
+      "area_km2": 1929926.090148223,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12307,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 1941185.6000509483,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12339,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 1800085.1898872398,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12381,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 1270795.2118654947,
+      "wikidata_id": null,
+      "seshat_id": "tr_ottoman_emp_4",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12406,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 1144040.8026759732,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12422,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 759971.1841840007,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12462,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 650327.3937204608,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12484,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 723856.4310918612,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Empire",
+      "source_feature_index": 12541,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

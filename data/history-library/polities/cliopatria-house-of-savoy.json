@@ -1,0 +1,214 @@
+{
+  "id": "cliopatria-house-of-savoy",
+  "identity": {
+    "canonical_name": "House of Savoy",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1564,
+    "end": 1720,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 35373.70609896331,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8263,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1587,
+      "area_km2": 38206.86869319032,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8339,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 44479.276372565,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8454,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1601,
+      "area_km2": 44596.630634704336,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8467,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1631,
+      "area_km2": 40007.38177762462,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1641,
+      "area_km2": 41128.06895186367,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8759,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 41151.11067390249,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8883,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1690,
+      "area_km2": 41315.71507170205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 8919,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 19433.18182144506,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9320,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1701,
+      "area_km2": 41315.71507170205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9372,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1705,
+      "area_km2": 27607.87284076606,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9422,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 41385.75293508324,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9465,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 43277.85361736223,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9492,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 67257.11983943445,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9538,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 44855.713627354264,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "House of Savoy",
+      "source_feature_index": 9583,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

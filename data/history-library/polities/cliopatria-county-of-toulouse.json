@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-county-of-toulouse",
+  "identity": {
+    "canonical_name": "County of Toulouse",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 990,
+    "end": 1249,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 990,
+      "to_year": 1027,
+      "area_km2": 21359.048235692997,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 4020,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1039,
+      "area_km2": 21287.48540704019,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 4260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1065,
+      "area_km2": 21359.048235692997,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 4350,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1146,
+      "area_km2": 52863.618198659184,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 4530,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 52816.20638809289,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 4938,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1187,
+      "area_km2": 52863.618198659184,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 4999,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1205,
+      "area_km2": 52816.25011669483,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 5161,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 52886.42718765886,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 5289,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 45369.26262790884,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 5375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1226,
+      "area_km2": 1105.1553135039155,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 5462,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 48253.129209757135,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 5621,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 48253.129209757135,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Toulouse",
+      "source_feature_index": 5676,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

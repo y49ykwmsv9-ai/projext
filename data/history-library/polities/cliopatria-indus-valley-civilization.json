@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-indus-valley-civilization",
+  "identity": {
+    "canonical_name": "Indus Valley Civilization",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -3000,
+    "end": -1701,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -3000,
+      "to_year": -2701,
+      "area_km2": 4997.632390870805,
+      "wikidata_id": null,
+      "seshat_id": "pk_kachi_pre_urban",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 5,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2700,
+      "to_year": -2501,
+      "area_km2": 14900.505341821243,
+      "wikidata_id": null,
+      "seshat_id": "pk_kachi_pre_urban",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 6,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2500,
+      "to_year": -2301,
+      "area_km2": 40148.65017281176,
+      "wikidata_id": null,
+      "seshat_id": "pk_kachi_pre_urban",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 11,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2300,
+      "to_year": -2001,
+      "area_km2": 755121.2924974479,
+      "wikidata_id": null,
+      "seshat_id": "pk_kachi_urban_1",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 15,
+      "geometry_available": true
+    },
+    {
+      "from_year": -2000,
+      "to_year": -1801,
+      "area_km2": 755121.2924974479,
+      "wikidata_id": null,
+      "seshat_id": "pk_kachi_urban_2",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 27,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1800,
+      "to_year": -1761,
+      "area_km2": 252962.83920120983,
+      "wikidata_id": null,
+      "seshat_id": "pk_kachi_urban_2",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 35,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1760,
+      "to_year": -1751,
+      "area_km2": 222948.35611590662,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 40,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1750,
+      "to_year": -1701,
+      "area_km2": 222948.35611590662,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Indus Valley Civilisation",
+      "source_feature_index": 42,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

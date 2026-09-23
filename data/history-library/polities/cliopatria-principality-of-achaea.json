@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-principality-of-achaea",
+  "identity": {
+    "canonical_name": "Principality of Achaea",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1206,
+    "end": 1439,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 19839.737491937223,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 5291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 19765.301179027287,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 5379,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1235,
+      "area_km2": 19123.993674686,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 5448,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1259,
+      "area_km2": 19025.72829116406,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 5608,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1278,
+      "area_km2": 14593.102733088948,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 5795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1313,
+      "area_km2": 14691.368116610893,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 5993,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 15889.500607232845,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 6175,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 14143.273150043773,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 6668,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1430,
+      "area_km2": 13723.96675863808,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 6790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 247.5621826095223,
+      "wikidata_id": null,
+      "seshat_id": "gr_achaea_principality",
+      "wikipedia": "Principality of Achaea",
+      "source_feature_index": 7115,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

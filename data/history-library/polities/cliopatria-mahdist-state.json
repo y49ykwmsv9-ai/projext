@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-mahdist-state",
+  "identity": {
+    "canonical_name": "Mahdist State",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1890,
+    "end": 1899,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 2327192.0283908383,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mahdist State",
+      "source_feature_index": 12086,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 2302663.425997526,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mahdist State",
+      "source_feature_index": 12092,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 2241968.4661839115,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mahdist State",
+      "source_feature_index": 12140,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

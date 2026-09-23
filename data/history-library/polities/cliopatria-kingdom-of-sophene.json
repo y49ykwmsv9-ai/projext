@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-kingdom-of-sophene",
+  "identity": {
+    "canonical_name": "Kingdom of Sophene",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -256,
+    "end": 113,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -256,
+      "to_year": -240,
+      "area_km2": 17121.969299207198,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 641,
+      "geometry_available": true
+    },
+    {
+      "from_year": -239,
+      "to_year": -226,
+      "area_km2": 16970.761990939063,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 671,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -224,
+      "area_km2": 17020.33529793496,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 702,
+      "geometry_available": true
+    },
+    {
+      "from_year": -223,
+      "to_year": -213,
+      "area_km2": 16970.761990939067,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 712,
+      "geometry_available": true
+    },
+    {
+      "from_year": -212,
+      "to_year": -189,
+      "area_km2": 17020.33529793496,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 743,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -111,
+      "area_km2": 16900.01034398724,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 848,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -88,
+      "area_km2": 16750.49747039482,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 928,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": 22,
+      "area_km2": 23760.89401659476,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 1024,
+      "geometry_available": true
+    },
+    {
+      "from_year": 23,
+      "to_year": 42,
+      "area_km2": 23784.97121292255,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 1133,
+      "geometry_available": true
+    },
+    {
+      "from_year": 43,
+      "to_year": 105,
+      "area_km2": 23760.89401659476,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 1150,
+      "geometry_available": true
+    },
+    {
+      "from_year": 106,
+      "to_year": 113,
+      "area_km2": 23759.074189986888,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Sophene",
+      "source_feature_index": 1222,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-electorate-of-hesse",
+  "identity": {
+    "canonical_name": "Electorate of Hesse",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1803,
+    "end": 1867,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 12373.410216400285,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 10590,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 12153.641103190468,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 10629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 10573.714134377817,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 10925,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 10530.359475154542,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 10997,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1839,
+      "area_km2": 13947.927182997884,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 11072,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1865,
+      "area_km2": 13882.353985792533,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 11321,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 330.56607554146194,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hesse",
+      "source_feature_index": 11777,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

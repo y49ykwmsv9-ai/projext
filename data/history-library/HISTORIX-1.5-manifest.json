@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.5.0",
+  "database": "HISTORIX",
+  "version": "1.5.0",
+  "layer": "canonical-places-and-geographic-hierarchy",
+  "status": "built",
+  "record_count": 37,
+  "storage": "data/history-library/places/historix-places.json",
+  "sources": [
+    "historix-curated-places",
+    "wikidata"
+  ],
+  "identity_rule": "preserve existing place IDs; materialize only source-supplied Wikidata IDs; never infer identity from names",
+  "next_step": "event and battle expansion plus temporal place-event indexing"
+}

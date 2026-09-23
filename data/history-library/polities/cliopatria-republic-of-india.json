@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-republic-of-india",
+  "identity": {
+    "canonical_name": "Republic of India",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1947,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 2823016.304005431,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 12996,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1952,
+      "area_km2": 3133078.5472328737,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13041,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1955,
+      "area_km2": 3165983.630104532,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13099,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1960,
+      "area_km2": 3167565.0255201664,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13144,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1961,
+      "to_year": 1962,
+      "area_km2": 3173317.8974563763,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13199,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1963,
+      "to_year": 1972,
+      "area_km2": 3180006.3642871757,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1973,
+      "to_year": 1975,
+      "area_km2": 3180057.7323293327,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 1978,
+      "area_km2": 3180006.3642871757,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13350,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1979,
+      "to_year": 1982,
+      "area_km2": 3180301.236274622,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13373,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1983,
+      "to_year": 1986,
+      "area_km2": 3180006.3642871757,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13390,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1987,
+      "to_year": 2023,
+      "area_km2": 3182468.8262455096,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13415,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 3182468.8262455096,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "India",
+      "source_feature_index": 13748,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

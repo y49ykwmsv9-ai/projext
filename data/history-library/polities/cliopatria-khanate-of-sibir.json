@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-khanate-of-sibir",
+  "identity": {
+    "canonical_name": "Khanate of Sibir",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1429,
+    "end": 1587,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1429,
+      "to_year": 1439,
+      "area_km2": 3226087.807033745,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7086,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 4373920.730913128,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7184,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1474,
+      "area_km2": 4373248.264315882,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7224,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 4409948.609420256,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7491,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 3223064.727328647,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7554,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 2824888.8089366667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7558,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1496,
+      "area_km2": 2824888.8089366667,
+      "wikidata_id": null,
+      "seshat_id": "ru_sibir_khanate",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7608,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1520,
+      "area_km2": 2824701.662894385,
+      "wikidata_id": null,
+      "seshat_id": "ru_sibir_khanate",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7670,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1555,
+      "area_km2": 2824790.0743792527,
+      "wikidata_id": null,
+      "seshat_id": "ru_sibir_khanate",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 7936,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1581,
+      "area_km2": 2824088.93664399,
+      "wikidata_id": null,
+      "seshat_id": "ru_sibir_khanate",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 8239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1587,
+      "area_km2": 2411355.921078762,
+      "wikidata_id": null,
+      "seshat_id": "ru_sibir_khanate",
+      "wikipedia": "Khanate of Sibir",
+      "source_feature_index": 8390,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

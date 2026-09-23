@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-minyue",
+  "identity": {
+    "canonical_name": "Minyue",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -333,
+    "end": -111,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -333,
+      "to_year": -219,
+      "area_km2": 376736.2918308355,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 459,
+      "geometry_available": true
+    },
+    {
+      "from_year": -218,
+      "to_year": -213,
+      "area_km2": 377001.725755767,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 727,
+      "geometry_available": true
+    },
+    {
+      "from_year": -212,
+      "to_year": -211,
+      "area_km2": 268104.84080951905,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 738,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 267357.13533767645,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 752,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 267893.7601176879,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 776,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -204,
+      "area_km2": 431219.30484216264,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 781,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -203,
+      "area_km2": 468197.20413312316,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 809,
+      "geometry_available": true
+    },
+    {
+      "from_year": -202,
+      "to_year": -171,
+      "area_km2": 268210.54502946703,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 827,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 268747.1698094785,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Minyue",
+      "source_feature_index": 909,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

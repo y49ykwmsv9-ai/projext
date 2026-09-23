@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-county-of-ribagorza",
+  "identity": {
+    "canonical_name": "County of Ribagorza",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 866,
+    "end": 1084,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 866,
+      "to_year": 874,
+      "area_km2": 15361.086413403622,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 3246,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 921,
+      "area_km2": 20948.378437679254,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 3310,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 989,
+      "area_km2": 24481.792844561547,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 3661,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 1014,
+      "area_km2": 25809.87437883342,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4015,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1017,
+      "area_km2": 25762.3774223249,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4190,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1027,
+      "area_km2": 25738.932484734287,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4229,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1033,
+      "area_km2": 85549.71484112593,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4252,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 172068.41709432818,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4318,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 28623.226740279744,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4363,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1071,
+      "area_km2": 20565.23662835387,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 20565.23662835387,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "County of Ribagorza",
+      "source_feature_index": 4590,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

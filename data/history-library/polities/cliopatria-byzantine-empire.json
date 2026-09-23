@@ -1,0 +1,974 @@
+{
+  "id": "cliopatria-byzantine-empire",
+  "identity": {
+    "canonical_name": "Byzantine Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 633,
+    "end": 1474,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 633,
+      "to_year": 633,
+      "area_km2": 2337563.673183509,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 634,
+      "to_year": 637,
+      "area_km2": 2272689.757928596,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2394,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 1675796.4694562557,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2412,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 646,
+      "area_km2": 1057429.3840112847,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2435,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 760872.0557981598,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2479,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 1040681.9254591733,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2495,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 665,
+      "area_km2": 1187886.9003197225,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2513,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 673,
+      "area_km2": 1068316.9185551715,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2553,
+      "geometry_available": true
+    },
+    {
+      "from_year": 674,
+      "to_year": 681,
+      "area_km2": 965490.3516556293,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2567,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 952330.6353360018,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2587,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 704,
+      "area_km2": 943368.2046492394,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2618,
+      "geometry_available": true
+    },
+    {
+      "from_year": 705,
+      "to_year": 717,
+      "area_km2": 842617.5607918835,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2652,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 723,
+      "area_km2": 743892.1254058552,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2684,
+      "geometry_available": true
+    },
+    {
+      "from_year": 724,
+      "to_year": 731,
+      "area_km2": 733600.5046217617,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2709,
+      "geometry_available": true
+    },
+    {
+      "from_year": 732,
+      "to_year": 740,
+      "area_km2": 703756.0338087806,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2716,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 694338.1095153126,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2752,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 750,
+      "area_km2": 703334.1157255133,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2756,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 767,
+      "area_km2": 693828.8424526039,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 768,
+      "to_year": 777,
+      "area_km2": 678915.7502131084,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2865,
+      "geometry_available": true
+    },
+    {
+      "from_year": 778,
+      "to_year": 782,
+      "area_km2": 676289.9378877733,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2917,
+      "geometry_available": true
+    },
+    {
+      "from_year": 783,
+      "to_year": 787,
+      "area_km2": 677695.8647113042,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2944,
+      "geometry_available": true
+    },
+    {
+      "from_year": 788,
+      "to_year": 805,
+      "area_km2": 703237.6946264629,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 2964,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 813,
+      "area_km2": 703237.3388431466,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3024,
+      "geometry_available": true
+    },
+    {
+      "from_year": 814,
+      "to_year": 829,
+      "area_km2": 697309.779549751,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3044,
+      "geometry_available": true
+    },
+    {
+      "from_year": 830,
+      "to_year": 839,
+      "area_km2": 691465.1610612334,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3089,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 849,
+      "area_km2": 659509.6682739861,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3136,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 638032.6259540059,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3150,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 626499.4084696537,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3202,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 625927.8551869345,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_1",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3242,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 624974.7101983564,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3257,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 637577.822430287,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 638515.1235266776,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 879,
+      "area_km2": 637426.6632809051,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3366,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 885,
+      "area_km2": 649047.451476777,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3378,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 895,
+      "area_km2": 637584.3162118518,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3423,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 633418.2550907631,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 910,
+      "area_km2": 635342.5884969911,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 622901.8177162528,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3606,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 622949.1881489379,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3657,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 640218.3100542898,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3720,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 720971.0211242938,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3740,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 720483.4395947955,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 960,
+      "area_km2": 743080.0025396398,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3843,
+      "geometry_available": true
+    },
+    {
+      "from_year": 961,
+      "to_year": 961,
+      "area_km2": 748673.6895339559,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3908,
+      "geometry_available": true
+    },
+    {
+      "from_year": 962,
+      "to_year": 969,
+      "area_km2": 762246.1719223914,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3923,
+      "geometry_available": true
+    },
+    {
+      "from_year": 970,
+      "to_year": 979,
+      "area_km2": 893165.6421980321,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 3952,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 989,
+      "area_km2": 899987.396433335,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4012,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 999,
+      "area_km2": 835220.3825340838,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4036,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1000,
+      "to_year": 1002,
+      "area_km2": 864449.1406375997,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4098,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1003,
+      "to_year": 1009,
+      "area_km2": 921773.4340514488,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4104,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1014,
+      "area_km2": 974239.31807385,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4139,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1017,
+      "area_km2": 1035306.7333219688,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4191,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1027,
+      "area_km2": 1139251.33283465,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4230,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1039,
+      "area_km2": 1180027.3535090853,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4253,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 1179630.4968149133,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4362,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 1206829.6494095172,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4408,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 1194573.6472986627,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4515,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 1148461.5867885365,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4527,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 1037571.9167192492,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_2",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4588,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 513717.4044394058,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4650,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 509633.03135584807,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4723,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 702969.5638466084,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4760,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1125,
+      "area_km2": 676257.5920493546,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4794,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1126,
+      "to_year": 1138,
+      "area_km2": 676423.9554537955,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4809,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1146,
+      "area_km2": 684406.5896007336,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4854,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 664169.8069743753,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 4946,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 655321.4446991407,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5010,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1176,
+      "area_km2": 728355.027087183,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5017,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 728310.0326477708,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5078,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1191,
+      "area_km2": 494226.3453009011,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1192,
+      "to_year": 1201,
+      "area_km2": 431886.60292471905,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5181,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1205,
+      "area_km2": 386676.88334935025,
+      "wikidata_id": null,
+      "seshat_id": "tr_byzantine_emp_3",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5251,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1226,
+      "area_km2": 4348.191957818936,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5273,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 255370.8002267485,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5911,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 239137.10594397073,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5967,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 251647.44331137722,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 5983,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 171727.80309327113,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6072,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 154563.04504919186,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 154752.5712281389,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 166504.32408999748,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6302,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 164074.75314633345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6392,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 76575.792583637,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 70196.61764587063,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6535,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 44046.39151716233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 37888.503973192055,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6682,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 11485.387046335552,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6799,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 11485.387046335552,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6885,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1430,
+      "area_km2": 11533.445958816505,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 6942,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 23204.43464115436,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 7132,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1467,
+      "area_km2": 23575.438108129303,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 7189,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 799.7323652854376,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Byzantine Empire",
+      "source_feature_index": 7418,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

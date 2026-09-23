@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-duchy-of-spoleto",
+  "identity": {
+    "canonical_name": "Duchy of Spoleto",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 577,
+    "end": 898,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 577,
+      "to_year": 586,
+      "area_km2": 15862.024175733744,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 2157,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 22755.522800837283,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 2749,
+      "geometry_available": true
+    },
+    {
+      "from_year": 775,
+      "to_year": 777,
+      "area_km2": 19693.986881850495,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 2905,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 23387.761082023255,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 3212,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 879,
+      "area_km2": 23387.761082023255,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 3308,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 881,
+      "area_km2": 23292.271916343954,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 3372,
+      "geometry_available": true
+    },
+    {
+      "from_year": 882,
+      "to_year": 887,
+      "area_km2": 23387.761082023255,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 3394,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 119644.56691313014,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Spoleto",
+      "source_feature_index": 3522,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

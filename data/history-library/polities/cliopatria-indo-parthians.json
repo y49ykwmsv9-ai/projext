@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-indo-parthians",
+  "identity": {
+    "canonical_name": "Indo-Parthians",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1,
+    "end": 90,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1,
+      "to_year": 13,
+      "area_km2": 487414.4041716089,
+      "wikidata_id": null,
+      "seshat_id": "pk_indo_parthian_k",
+      "wikipedia": "Indo-Parthian Kingdom",
+      "source_feature_index": 1110,
+      "geometry_available": true
+    },
+    {
+      "from_year": 14,
+      "to_year": 42,
+      "area_km2": 487435.19552444597,
+      "wikidata_id": null,
+      "seshat_id": "pk_indo_parthian_k",
+      "wikipedia": "Indo-Parthian Kingdom",
+      "source_feature_index": 1122,
+      "geometry_available": true
+    },
+    {
+      "from_year": 43,
+      "to_year": 50,
+      "area_km2": 487082.258454754,
+      "wikidata_id": null,
+      "seshat_id": "pk_indo_parthian_k",
+      "wikipedia": "Indo-Parthian Kingdom",
+      "source_feature_index": 1149,
+      "geometry_available": true
+    },
+    {
+      "from_year": 51,
+      "to_year": 83,
+      "area_km2": 483771.4571804883,
+      "wikidata_id": null,
+      "seshat_id": "pk_indo_parthian_k",
+      "wikipedia": "Indo-Parthian Kingdom",
+      "source_feature_index": 1162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 84,
+      "to_year": 90,
+      "area_km2": 483771.4571804883,
+      "wikidata_id": null,
+      "seshat_id": "pk_indo_parthian_k",
+      "wikipedia": "Indo-Parthian Kingdom",
+      "source_feature_index": 1202,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

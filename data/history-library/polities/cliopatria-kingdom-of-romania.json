@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-kingdom-of-romania",
+  "identity": {
+    "canonical_name": "Kingdom of Romania",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1919,
+    "end": 1947,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 302752.8593957049,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12452,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1935,
+      "area_km2": 300844.8759119087,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12501,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1937,
+      "area_km2": 300958.99369928904,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12757,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1938,
+      "area_km2": 301005.41152661253,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12762,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1939,
+      "area_km2": 301073.2856599484,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12785,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 245867.39586495954,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12821,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 198275.6788908723,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1943,
+      "area_km2": 277112.00107541535,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12851,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 194413.40398169812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 12893,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 238171.90603552584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Romania",
+      "source_feature_index": 13020,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

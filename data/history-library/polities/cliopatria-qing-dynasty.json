@@ -1,0 +1,664 @@
+{
+  "id": "cliopatria-qing-dynasty",
+  "identity": {
+    "canonical_name": "Qing Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1645,
+    "end": 1911,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 3630357.5577502493,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 8941,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 4112508.3477167445,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 8983,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 6029709.884943084,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 6228686.293988946,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 6228016.9927025605,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9139,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 5292713.593392175,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9146,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 4337129.3084873725,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9203,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 6269317.391358062,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9240,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 6004223.492388596,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9301,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 6301296.597407972,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9313,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 8472505.523124797,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9349,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 8886173.74873047,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9382,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1705,
+      "area_km2": 8935841.186067408,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9432,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1717,
+      "area_km2": 8932552.623781582,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9440,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 8950979.52926441,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9572,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 8932552.623781582,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9601,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 9164458.8734951,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9635,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 9237269.513998466,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9679,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1756,
+      "area_km2": 9348957.548283096,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9722,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 11365623.1906385,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9915,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 11374038.639793025,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 9970,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 11374452.702509463,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10004,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1782,
+      "area_km2": 11260459.357766839,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10044,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 11260624.261464322,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 11325800.252111167,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10282,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1793,
+      "area_km2": 11260624.261464322,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10322,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 12518024.942998927,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10351,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 12509373.828864256,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_1",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10415,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1804,
+      "area_km2": 12509373.828864256,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10465,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1808,
+      "area_km2": 12509426.258718409,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10638,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1811,
+      "area_km2": 12509353.993184874,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10782,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 12509197.869127654,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10859,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 12499113.57726267,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10908,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 12502479.578782678,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 10954,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 12502712.352476139,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1824,
+      "area_km2": 12320420.298798013,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11102,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 12320499.866516624,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11156,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1841,
+      "area_km2": 12320315.66441837,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11191,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1847,
+      "area_km2": 12317395.080292076,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11378,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1852,
+      "area_km2": 12101408.272106273,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11435,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 11866455.298744813,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11516,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 11225693.413026052,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11560,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1858,
+      "area_km2": 11524438.731059883,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11585,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 11468349.088095756,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11642,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1860,
+      "area_km2": 10500592.525724512,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11654,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1861,
+      "area_km2": 10435968.559151374,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11679,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1863,
+      "area_km2": 10551293.369576763,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11685,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1864,
+      "area_km2": 8521776.702352485,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11712,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 8401113.302241946,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11753,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 8708973.23385022,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11789,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1872,
+      "area_km2": 8775694.399360595,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11813,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1876,
+      "area_km2": 9407299.21220589,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11925,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1884,
+      "area_km2": 11121031.536486728,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 11939,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 11154061.146276541,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 11154116.57628437,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12089,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 11109988.960982414,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12098,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 11107606.766316937,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12137,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 10369188.147735184,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12189,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1910,
+      "area_km2": 11099660.431516943,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12202,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1911,
+      "area_km2": 11099770.77711432,
+      "wikidata_id": null,
+      "seshat_id": "cn_qing_dyn_2",
+      "wikipedia": "Qing dynasty",
+      "source_feature_index": 12265,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

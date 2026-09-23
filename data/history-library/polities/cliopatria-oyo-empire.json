@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-oyo-empire",
+  "identity": {
+    "canonical_name": "Oyo Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1609,
+    "end": 1835,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1609,
+      "to_year": 1669,
+      "area_km2": 6032.373580954546,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 8572,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1682,
+      "area_km2": 29175.6952304327,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 9121,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1733,
+      "area_km2": 43618.62331924497,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 9224,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1751,
+      "area_km2": 49030.49646851073,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 9666,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1761,
+      "area_km2": 70030.15885085118,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 9895,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 70001.47665583204,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 9955,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1819,
+      "area_km2": 87977.8171523094,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 10039,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1833,
+      "area_km2": 66361.99288511518,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 11024,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 66304.80459786943,
+      "wikidata_id": null,
+      "seshat_id": "ni_oyo_emp_2",
+      "wikipedia": "Oyo Empire",
+      "source_feature_index": 11235,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

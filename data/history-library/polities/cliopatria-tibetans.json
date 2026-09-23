@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-tibetans",
+  "identity": {
+    "canonical_name": "Tibetans",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 850,
+    "end": 1259,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 1864563.5418294505,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 3174,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 1864703.0036237005,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 3181,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 874,
+      "area_km2": 1864517.8944806557,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 3228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 959,
+      "area_km2": 1864703.0036237005,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 3293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 1009,
+      "area_km2": 1845658.3076220274,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 3877,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1055,
+      "area_km2": 1844918.6326065394,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 4160,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1138,
+      "area_km2": 1841158.928304309,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 4470,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1235,
+      "area_km2": 1863823.866813963,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 4880,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 1863934.788904417,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 5580,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 1863577.7615421137,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 5655,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 1740.4264553872754,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibetan people",
+      "source_feature_index": 5732,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

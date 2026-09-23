@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-vandal-kingdom",
+  "identity": {
+    "canonical_name": "Vandal Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 439,
+    "end": 533,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 439,
+      "to_year": 440,
+      "area_km2": 85012.28003691787,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 441,
+      "to_year": 442,
+      "area_km2": 107888.38705656849,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1751,
+      "geometry_available": true
+    },
+    {
+      "from_year": 443,
+      "to_year": 454,
+      "area_km2": 232835.07724494644,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1770,
+      "geometry_available": true
+    },
+    {
+      "from_year": 455,
+      "to_year": 457,
+      "area_km2": 237862.35730178698,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1809,
+      "geometry_available": true
+    },
+    {
+      "from_year": 458,
+      "to_year": 468,
+      "area_km2": 261213.21463634187,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1820,
+      "geometry_available": true
+    },
+    {
+      "from_year": 469,
+      "to_year": 489,
+      "area_km2": 271182.05212017254,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1859,
+      "geometry_available": true
+    },
+    {
+      "from_year": 490,
+      "to_year": 522,
+      "area_km2": 248580.5176343454,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1901,
+      "geometry_available": true
+    },
+    {
+      "from_year": 523,
+      "to_year": 533,
+      "area_km2": 248780.64590809235,
+      "wikidata_id": null,
+      "seshat_id": "dz_vandal_k",
+      "wikipedia": "Vandal Kingdom",
+      "source_feature_index": 1965,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

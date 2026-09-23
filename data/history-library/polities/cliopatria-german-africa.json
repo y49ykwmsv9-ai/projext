@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-german-africa",
+  "identity": {
+    "canonical_name": "German Africa",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1871,
+    "end": 1918,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1871,
+      "to_year": 1884,
+      "area_km2": 1897.5357499305956,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 11881,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 802967.9126251644,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12045,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 1061801.8935553783,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12075,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 2106053.005211207,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12110,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 2131588.4169665882,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12148,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 2153063.002748082,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12181,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1910,
+      "area_km2": 2339154.98762366,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12214,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1913,
+      "area_km2": 2671280.054410557,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12271,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1914,
+      "area_km2": 2667632.355053337,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 2587673.318645529,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12354,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 834372.9257431674,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12361,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 203274.32013462117,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12398,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 32816.48455703129,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German colonization of Africa",
+      "source_feature_index": 12439,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

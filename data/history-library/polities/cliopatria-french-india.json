@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-french-india",
+  "identity": {
+    "canonical_name": "French India",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1673,
+    "end": 1847,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 3702.8747770946547,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "French India",
+      "source_feature_index": 9178,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1720,
+      "area_km2": 17789.9256904396,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "French India",
+      "source_feature_index": 9190,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 9642.95405962966,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "French India",
+      "source_feature_index": 9629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1740,
+      "area_km2": 9981.0073819424,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "French India",
+      "source_feature_index": 9656,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1814,
+      "area_km2": 10024.509639439651,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "French India",
+      "source_feature_index": 9755,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 3289.582369325147,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "French India",
+      "source_feature_index": 11002,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1839,
+      "area_km2": 7671.37280008627,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "French India",
+      "source_feature_index": 11065,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1845,
+      "area_km2": 8658.542572350832,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "French India",
+      "source_feature_index": 11323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 4381.7904307611225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "French India",
+      "source_feature_index": 11399,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

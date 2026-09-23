@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-cimmerian-bosporus",
+  "identity": {
+    "canonical_name": "Cimmerian Bosporus",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -404,
+    "end": 372,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -404,
+      "to_year": -384,
+      "area_km2": 1810.6204229752636,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 364,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -367,
+      "area_km2": 1764.2584045781246,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 391,
+      "geometry_available": true
+    },
+    {
+      "from_year": -366,
+      "to_year": -231,
+      "area_km2": 6621.363391025778,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 403,
+      "geometry_available": true
+    },
+    {
+      "from_year": -230,
+      "to_year": -92,
+      "area_km2": 24828.264958860225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 685,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": 67,
+      "area_km2": 24828.264958860225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 1026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 78,
+      "to_year": 370,
+      "area_km2": 40039.68871771194,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 1195,
+      "geometry_available": true
+    },
+    {
+      "from_year": 371,
+      "to_year": 372,
+      "area_km2": 40185.21816767208,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bosporan Kingdom",
+      "source_feature_index": 1513,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

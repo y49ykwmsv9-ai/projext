@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-yuezhi",
+  "identity": {
+    "canonical_name": "Yuezhi",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -404,
+    "end": 42,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -404,
+      "to_year": -384,
+      "area_km2": 916154.1470558186,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 356,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -332,
+      "area_km2": 907503.0329211472,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 394,
+      "geometry_available": true
+    },
+    {
+      "from_year": -331,
+      "to_year": -204,
+      "area_km2": 916154.1470558186,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 469,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -171,
+      "area_km2": 900302.0695880828,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 812,
+      "geometry_available": true
+    },
+    {
+      "from_year": -170,
+      "to_year": -145,
+      "area_km2": 160755.40362577167,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 867,
+      "geometry_available": true
+    },
+    {
+      "from_year": -144,
+      "to_year": -127,
+      "area_km2": 233962.4500695193,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 900,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 571470.7452963892,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 916,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 460804.48158326757,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 943,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -64,
+      "area_km2": 460686.2355643295,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 955,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": -51,
+      "area_km2": 460346.5191947551,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 1014,
+      "geometry_available": true
+    },
+    {
+      "from_year": -50,
+      "to_year": 0,
+      "area_km2": 458125.73212795396,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 1033,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1,
+      "to_year": 13,
+      "area_km2": 458075.1050173372,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 1106,
+      "geometry_available": true
+    },
+    {
+      "from_year": 14,
+      "to_year": 29,
+      "area_km2": 458049.5584921085,
+      "wikidata_id": null,
+      "seshat_id": "af_tocharian",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 1129,
+      "geometry_available": true
+    },
+    {
+      "from_year": 30,
+      "to_year": 42,
+      "area_km2": 458049.5584921085,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yuezhi",
+      "source_feature_index": 1138,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

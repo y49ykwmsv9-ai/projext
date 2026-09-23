@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-republic-of-indonesia",
+  "identity": {
+    "canonical_name": "Republic of Indonesia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1946,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 569147.5693503397,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 12974,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1948,
+      "area_km2": 408208.9072453399,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 12999,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1949,
+      "area_km2": 122120.01534908563,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13075,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 1952,
+      "area_km2": 2022993.5311545192,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13094,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1959,
+      "area_km2": 1981050.912828489,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13102,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1960,
+      "to_year": 1975,
+      "area_km2": 2022993.5311545192,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13175,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 2005,
+      "area_km2": 2041331.131979164,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13351,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2023,
+      "area_km2": 2023106.9374515787,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13537,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 2023106.9374515787,
+      "wikidata_id": null,
+      "seshat_id": "id_indonesian_rep",
+      "wikipedia": "Indonesia",
+      "source_feature_index": 13755,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

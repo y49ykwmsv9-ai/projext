@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-kingdom-of-saudi-arabia",
+  "identity": {
+    "canonical_name": "Kingdom of Saudi Arabia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1936,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1936,
+      "to_year": 1942,
+      "area_km2": 1915075.6067552457,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 12710,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1945,
+      "area_km2": 1915696.511179364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 12883,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 1915023.4045363415,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 12973,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1955,
+      "area_km2": 1915206.4815448432,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 12998,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1957,
+      "area_km2": 1915315.1905739892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1958,
+      "to_year": 1959,
+      "area_km2": 1915132.879001163,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1960,
+      "to_year": 1966,
+      "area_km2": 1915315.1905739892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13174,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1967,
+      "to_year": 1968,
+      "area_km2": 1923368.2919357328,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13253,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1969,
+      "to_year": 1972,
+      "area_km2": 1923259.5829065877,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13279,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1973,
+      "to_year": 1989,
+      "area_km2": 1926341.8261911161,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13309,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1990,
+      "to_year": 1990,
+      "area_km2": 1929198.8314778756,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13429,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1991,
+      "to_year": 2023,
+      "area_km2": 1929172.586267038,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13446,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 1929172.586267038,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saudi Arabia",
+      "source_feature_index": 13761,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-kingdom-of-greece",
+  "identity": {
+    "canonical_name": "Kingdom of Greece",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1945,
+    "end": 1966,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 122017.25914839812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Greece",
+      "source_feature_index": 12932,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 99543.79444394648,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Greece",
+      "source_feature_index": 12968,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 105369.6719960246,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Greece",
+      "source_feature_index": 12992,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1948,
+      "area_km2": 116220.27499463588,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Greece",
+      "source_feature_index": 13034,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1962,
+      "area_km2": 122017.25914839812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Greece",
+      "source_feature_index": 13071,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1963,
+      "to_year": 1966,
+      "area_km2": 122017.25914839812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Greece",
+      "source_feature_index": 13239,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

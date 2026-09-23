@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-federated-republic-of-mexico",
+  "identity": {
+    "canonical_name": "Federated Republic of Mexico",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1824,
+    "end": 1865,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1824,
+      "to_year": 1824,
+      "area_km2": 3188400.8720674077,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11134,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1835,
+      "area_km2": 3188276.0192381525,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11152,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 1352775.2675962974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11308,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 1050405.6790115614,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11346,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 668071.2685145021,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11371,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 2796822.1854938786,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11420,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1852,
+      "area_km2": 2086426.5539457665,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11445,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 1924816.7636951108,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11528,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1861,
+      "area_km2": 2006917.3092217597,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11548,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1862,
+      "area_km2": 1996505.0299461826,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11689,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 1980488.0937653012,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11700,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1864,
+      "area_km2": 1773751.8774176755,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11723,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 165.91175737944562,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Mexican Republic",
+      "source_feature_index": 11748,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

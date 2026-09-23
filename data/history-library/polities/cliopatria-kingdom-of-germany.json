@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-germany",
+  "identity": {
+    "canonical_name": "Kingdom of Germany",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 911,
+    "end": 961,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 308194.0651887058,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3624,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 307422.8554492423,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3668,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 427058.5706200025,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3735,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 476221.3789278745,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3751,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 518770.80458361184,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3805,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 960,
+      "area_km2": 576342.124309662,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3852,
+      "geometry_available": true
+    },
+    {
+      "from_year": 961,
+      "to_year": 961,
+      "area_km2": 736804.9902838338,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Germany",
+      "source_feature_index": 3901,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

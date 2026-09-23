@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-kidarites",
+  "identity": {
+    "canonical_name": "Kidarites",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 358,
+    "end": 450,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 358,
+      "to_year": 386,
+      "area_km2": 426192.82491222274,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kidarites",
+      "source_feature_index": 1497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 389,
+      "area_km2": 473121.52276128635,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kidarites",
+      "source_feature_index": 1542,
+      "geometry_available": true
+    },
+    {
+      "from_year": 390,
+      "to_year": 401,
+      "area_km2": 473121.52276128635,
+      "wikidata_id": null,
+      "seshat_id": "af_kidarite_k",
+      "wikipedia": "Kidarites",
+      "source_feature_index": 1566,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 442,
+      "area_km2": 961557.4827003496,
+      "wikidata_id": null,
+      "seshat_id": "af_kidarite_k",
+      "wikipedia": "Kidarites",
+      "source_feature_index": 1621,
+      "geometry_available": true
+    },
+    {
+      "from_year": 443,
+      "to_year": 450,
+      "area_km2": 473121.52276128635,
+      "wikidata_id": null,
+      "seshat_id": "af_kidarite_k",
+      "wikipedia": "Kidarites",
+      "source_feature_index": 1773,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

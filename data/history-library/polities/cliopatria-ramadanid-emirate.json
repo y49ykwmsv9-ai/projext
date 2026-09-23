@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-ramadanid-emirate",
+  "identity": {
+    "canonical_name": "Ramadanid Emirate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1385,
+    "end": 1515,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1385,
+      "to_year": 1401,
+      "area_km2": 24004.159388440446,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ramadanid Emirate",
+      "source_feature_index": 6725,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1449,
+      "area_km2": 24004.159388440443,
+      "wikidata_id": null,
+      "seshat_id": "tr_ramadanid_emirate",
+      "wikipedia": "Ramadanid Emirate",
+      "source_feature_index": 6831,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1467,
+      "area_km2": 24452.557198237293,
+      "wikidata_id": null,
+      "seshat_id": "tr_ramadanid_emirate",
+      "wikipedia": "Ramadanid Emirate",
+      "source_feature_index": 7252,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1511,
+      "area_km2": 24477.166662350934,
+      "wikidata_id": null,
+      "seshat_id": "tr_ramadanid_emirate",
+      "wikipedia": "Ramadanid Emirate",
+      "source_feature_index": 7438,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1515,
+      "area_km2": 24477.166662350934,
+      "wikidata_id": null,
+      "seshat_id": "tr_ramadanid_emirate",
+      "wikipedia": "Ramadanid Emirate",
+      "source_feature_index": 7797,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

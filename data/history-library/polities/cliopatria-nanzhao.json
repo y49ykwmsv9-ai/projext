@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-nanzhao",
+  "identity": {
+    "canonical_name": "Nanzhao",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 741,
+    "end": 910,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 10877.288799003785,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 2751,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 754,
+      "area_km2": 215048.15326640502,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 2760,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 799,
+      "area_km2": 591100.6474358933,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 2831,
+      "geometry_available": true
+    },
+    {
+      "from_year": 800,
+      "to_year": 829,
+      "area_km2": 591100.6474358933,
+      "wikidata_id": null,
+      "seshat_id": "cn_nanzhao_k",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 3001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 830,
+      "to_year": 849,
+      "area_km2": 792615.4620299593,
+      "wikidata_id": null,
+      "seshat_id": "cn_nanzhao_k",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 3093,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 792446.3866141797,
+      "wikidata_id": null,
+      "seshat_id": "cn_nanzhao_k",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 3152,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 678482.9579571544,
+      "wikidata_id": null,
+      "seshat_id": "cn_nanzhao_k",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 3199,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 899,
+      "area_km2": 321796.1256608064,
+      "wikidata_id": null,
+      "seshat_id": "cn_nanzhao_k",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 3243,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 321796.1256608064,
+      "wikidata_id": null,
+      "seshat_id": "cn_nanzhao_k",
+      "wikipedia": "Nanzhao",
+      "source_feature_index": 3595,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

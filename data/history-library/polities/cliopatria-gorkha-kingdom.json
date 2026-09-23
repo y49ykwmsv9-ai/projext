@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-gorkha-kingdom",
+  "identity": {
+    "canonical_name": "Gorkha Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1588,
+    "end": 1787,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1588,
+      "to_year": 1717,
+      "area_km2": 148031.5598013944,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 8437,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1726,
+      "area_km2": 148110.99895934082,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 9591,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1743,
+      "area_km2": 148059.46747737165,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 9651,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 148222.1325263713,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 9809,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1756,
+      "area_km2": 148856.86519094158,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 9853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 148221.58488000423,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 9946,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 149017.22807941266,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 9991,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1774,
+      "area_km2": 149200.75805328353,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 10074,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1782,
+      "area_km2": 92173.17706238043,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 10115,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 92173.17706238043,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gorkha Kingdom",
+      "source_feature_index": 10231,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

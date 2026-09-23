@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-kingdom-of-iraq",
+  "identity": {
+    "canonical_name": "Kingdom of Iraq",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1932,
+    "end": 1957,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 433895.46163584775,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Iraq",
+      "source_feature_index": 12690,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1941,
+      "area_km2": 433413.26195280516,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Iraq",
+      "source_feature_index": 12720,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 433388.44760942215,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Iraq",
+      "source_feature_index": 12868,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1955,
+      "area_km2": 433895.46163584775,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Iraq",
+      "source_feature_index": 12987,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1957,
+      "area_km2": 433895.46163584775,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Iraq",
+      "source_feature_index": 13147,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

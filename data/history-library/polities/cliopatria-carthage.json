@@ -1,0 +1,356 @@
+{
+  "id": "cliopatria-carthage",
+  "identity": {
+    "canonical_name": "Carthage",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -650,
+    "end": -145,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "carthage-destruction"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -650,
+      "to_year": -631,
+      "area_km2": 3728.3914405799464,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 211,
+      "geometry_available": true
+    },
+    {
+      "from_year": -630,
+      "to_year": -501,
+      "area_km2": 12316.897201079182,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 220,
+      "geometry_available": true
+    },
+    {
+      "from_year": -500,
+      "to_year": -481,
+      "area_km2": 124877.97473857485,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 290,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -451,
+      "area_km2": 129112.1550063635,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 323,
+      "geometry_available": true
+    },
+    {
+      "from_year": -450,
+      "to_year": -405,
+      "area_km2": 198407.9986537453,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 337,
+      "geometry_available": true
+    },
+    {
+      "from_year": -404,
+      "to_year": -384,
+      "area_km2": 203939.99236607732,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 378,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -338,
+      "area_km2": 199514.18705010955,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 382,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -332,
+      "area_km2": 198873.74241236044,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 445,
+      "geometry_available": true
+    },
+    {
+      "from_year": -331,
+      "to_year": -308,
+      "area_km2": 199023.95955066232,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 471,
+      "geometry_available": true
+    },
+    {
+      "from_year": -307,
+      "to_year": -302,
+      "area_km2": 219354.96369175529,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 515,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -278,
+      "area_km2": 208676.90973075485,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 535,
+      "geometry_available": true
+    },
+    {
+      "from_year": -277,
+      "to_year": -276,
+      "area_km2": 197670.46339263098,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 600,
+      "geometry_available": true
+    },
+    {
+      "from_year": -275,
+      "to_year": -273,
+      "area_km2": 208040.12028488703,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 602,
+      "geometry_available": true
+    },
+    {
+      "from_year": -272,
+      "to_year": -265,
+      "area_km2": 206066.84027797024,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 610,
+      "geometry_available": true
+    },
+    {
+      "from_year": -264,
+      "to_year": -257,
+      "area_km2": 217284.20812643165,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 626,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 210874.71167694635,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 637,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -240,
+      "area_km2": 210299.89810399507,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 660,
+      "geometry_available": true
+    },
+    {
+      "from_year": -239,
+      "to_year": -231,
+      "area_km2": 209660.04124922745,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 673,
+      "geometry_available": true
+    },
+    {
+      "from_year": -230,
+      "to_year": -219,
+      "area_km2": 346282.1173036702,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 678,
+      "geometry_available": true
+    },
+    {
+      "from_year": -218,
+      "to_year": -217,
+      "area_km2": 454097.4371871099,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 732,
+      "geometry_available": true
+    },
+    {
+      "from_year": -216,
+      "to_year": -213,
+      "area_km2": 403800.5975666285,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 734,
+      "geometry_available": true
+    },
+    {
+      "from_year": -212,
+      "to_year": -211,
+      "area_km2": 367989.62195566215,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 745,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 375068.56435635244,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 757,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 405101.31818088196,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 766,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -204,
+      "area_km2": 295620.1617229975,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 799,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -203,
+      "area_km2": 321303.5106616777,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 816,
+      "geometry_available": true
+    },
+    {
+      "from_year": -202,
+      "to_year": -198,
+      "area_km2": 140736.4431913111,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 822,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -165,
+      "area_km2": 46315.275517195936,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 846,
+      "geometry_available": true
+    },
+    {
+      "from_year": -164,
+      "to_year": -145,
+      "area_km2": 46315.275517195936,
+      "wikidata_id": null,
+      "seshat_id": "tn_carthage_emp",
+      "wikipedia": "Ancient Carthage",
+      "source_feature_index": 883,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

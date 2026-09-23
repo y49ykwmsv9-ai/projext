@@ -1,0 +1,106 @@
+{
+  "id": "cliopatria-yugoslavia",
+  "identity": {
+    "canonical_name": "Yugoslavia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1919,
+    "end": 1945,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "yugoslavia-breakup"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 244290.3917091842,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yugoslavia",
+      "source_feature_index": 12465,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1935,
+      "area_km2": 246197.34599418778,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yugoslavia",
+      "source_feature_index": 12488,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1940,
+      "area_km2": 246054.41505861384,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yugoslavia",
+      "source_feature_index": 12743,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 250299.5656504925,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yugoslavia",
+      "source_feature_index": 12918,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

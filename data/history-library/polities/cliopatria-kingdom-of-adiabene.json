@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-kingdom-of-adiabene",
+  "identity": {
+    "canonical_name": "Kingdom of Adiabene",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -63,
+    "end": 370,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -63,
+      "to_year": 116,
+      "area_km2": 13757.914572053602,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1027,
+      "geometry_available": true
+    },
+    {
+      "from_year": 127,
+      "to_year": 160,
+      "area_km2": 13757.914572053602,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 161,
+      "to_year": 164,
+      "area_km2": 13683.341707750371,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1268,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 183,
+      "area_km2": 13757.914572053602,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1275,
+      "geometry_available": true
+    },
+    {
+      "from_year": 184,
+      "to_year": 214,
+      "area_km2": 13459.36799203475,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 215,
+      "to_year": 259,
+      "area_km2": 13409.26891982349,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1315,
+      "geometry_available": true
+    },
+    {
+      "from_year": 287,
+      "to_year": 366,
+      "area_km2": 13287.713471675923,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1401,
+      "geometry_available": true
+    },
+    {
+      "from_year": 367,
+      "to_year": 370,
+      "area_km2": 13409.26891982349,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Adiabene",
+      "source_feature_index": 1503,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

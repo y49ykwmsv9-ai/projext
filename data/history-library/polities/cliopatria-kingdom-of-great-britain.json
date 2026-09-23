@@ -1,0 +1,444 @@
+{
+  "id": "cliopatria-kingdom-of-great-britain",
+  "identity": {
+    "canonical_name": "Kingdom of Great Britain",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1709,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1709,
+      "to_year": 1756,
+      "area_km2": 341693.41968804994,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 9478,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 341650.2461410272,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 9943,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1793,
+      "area_km2": 341693.41968804994,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 9987,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 353085.14582167385,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 10373,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 353041.9722746511,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 10397,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 342322.296141639,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 10448,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 343315.5515365922,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 10491,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1819,
+      "area_km2": 343292.56062871334,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 10551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1839,
+      "area_km2": 383852.28384040215,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11044,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1852,
+      "area_km2": 348970.4625846226,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_1",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11340,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 348751.6378285514,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11499,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1858,
+      "area_km2": 349125.394477321,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1869,
+      "area_km2": 348794.8113755741,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11618,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1879,
+      "area_km2": 345454.1589358527,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1889,
+      "area_km2": 356891.6419101297,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 11987,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 665755.1572525073,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12061,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1904,
+      "area_km2": 740216.2845548788,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12115,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1912,
+      "area_km2": 745445.3053562335,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1914,
+      "area_km2": 745525.9679963771,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12309,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 749162.2469243003,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12341,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 750068.6098743456,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12383,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 755610.3913985775,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12408,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 762021.8805451349,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12418,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 763522.9760641705,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12459,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 771455.856467547,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12486,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 696709.4223201281,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12543,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 678991.623241523,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12578,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1931,
+      "area_km2": 673620.2844126946,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12596,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 687756.9453690832,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12680,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1939,
+      "area_km2": 823926.0067739318,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 809545.521251982,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12823,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1944,
+      "area_km2": 810975.3622049441,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12841,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1946,
+      "area_km2": 808497.2539390576,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 12921,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 725913.6190456988,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 13013,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1955,
+      "area_km2": 697785.276800501,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 13028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1968,
+      "area_km2": 1005177.2405093985,
+      "wikidata_id": null,
+      "seshat_id": "gb_british_emp_2",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 13132,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1969,
+      "to_year": 2023,
+      "area_km2": 671995.105341686,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 13274,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 266470.2363910917,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Great Britain",
+      "source_feature_index": 13653,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

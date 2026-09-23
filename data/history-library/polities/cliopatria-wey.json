@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-wey",
+  "identity": {
+    "canonical_name": "Wey",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -750,
+    "end": -248,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -750,
+      "to_year": -551,
+      "area_km2": 6979.345291404579,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 167,
+      "geometry_available": true
+    },
+    {
+      "from_year": -550,
+      "to_year": -481,
+      "area_km2": 6860.666578868629,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 260,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -451,
+      "area_km2": 6836.963956466979,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 320,
+      "geometry_available": true
+    },
+    {
+      "from_year": -450,
+      "to_year": -405,
+      "area_km2": 5828.717420998169,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 332,
+      "geometry_available": true
+    },
+    {
+      "from_year": -404,
+      "to_year": -367,
+      "area_km2": 5754.318762790852,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 381,
+      "geometry_available": true
+    },
+    {
+      "from_year": -366,
+      "to_year": -351,
+      "area_km2": 5404.542232964658,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 418,
+      "geometry_available": true
+    },
+    {
+      "from_year": -350,
+      "to_year": -285,
+      "area_km2": 5529.404838142974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 423,
+      "geometry_available": true
+    },
+    {
+      "from_year": -284,
+      "to_year": -257,
+      "area_km2": 5678.472283724754,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 561,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 5678.472283724754,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wey (state)",
+      "source_feature_index": 644,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

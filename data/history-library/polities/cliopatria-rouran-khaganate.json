@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-rouran-khaganate",
+  "identity": {
+    "canonical_name": "Rouran Khaganate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 402,
+    "end": 554,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 402,
+      "to_year": 406,
+      "area_km2": 3871441.5118249804,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 407,
+      "to_year": 409,
+      "area_km2": 3872479.8409766513,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1650,
+      "geometry_available": true
+    },
+    {
+      "from_year": 410,
+      "to_year": 413,
+      "area_km2": 3779613.980939219,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1663,
+      "geometry_available": true
+    },
+    {
+      "from_year": 414,
+      "to_year": 416,
+      "area_km2": 3778714.705383125,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1690,
+      "geometry_available": true
+    },
+    {
+      "from_year": 417,
+      "to_year": 425,
+      "area_km2": 3779338.5936583662,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1694,
+      "geometry_available": true
+    },
+    {
+      "from_year": 426,
+      "to_year": 438,
+      "area_km2": 3870457.388585379,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1715,
+      "geometry_available": true
+    },
+    {
+      "from_year": 439,
+      "to_year": 440,
+      "area_km2": 3871118.3241747273,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 441,
+      "to_year": 475,
+      "area_km2": 3870827.026643581,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1749,
+      "geometry_available": true
+    },
+    {
+      "from_year": 476,
+      "to_year": 479,
+      "area_km2": 3870933.7113805977,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1877,
+      "geometry_available": true
+    },
+    {
+      "from_year": 480,
+      "to_year": 533,
+      "area_km2": 3852569.9705467517,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1892,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 545,
+      "area_km2": 3853308.4144818867,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 1977,
+      "geometry_available": true
+    },
+    {
+      "from_year": 546,
+      "to_year": 554,
+      "area_km2": 3853308.4144818867,
+      "wikidata_id": null,
+      "seshat_id": "mn_rouran_khaganate",
+      "wikipedia": "Rouran Khaganate",
+      "source_feature_index": 2064,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-t-y-s-n-dynasty",
+  "identity": {
+    "canonical_name": "Tây Sơn dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1775,
+    "end": 1802,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 48334.293181721565,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10119,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1777,
+      "area_km2": 56762.36844620969,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10163,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1787,
+      "area_km2": 102091.02963790037,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10167,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 149996.59955926257,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10262,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 207051.6141797284,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10300,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 213858.61532507025,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10336,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 197587.95634185345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1798,
+      "area_km2": 181130.14015863897,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10394,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 179489.0821792193,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10494,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 181130.14015863897,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tây Sơn dynasty",
+      "source_feature_index": 10557,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

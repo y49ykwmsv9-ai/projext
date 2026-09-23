@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-khedivate-of-egypt",
+  "identity": {
+    "canonical_name": "Khedivate of Egypt",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1866,
+    "end": 1884,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1866,
+      "to_year": 1876,
+      "area_km2": 1834559.900114894,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "Khedivate of Egypt",
+      "source_feature_index": 11782,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 3002539.4388854024,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "Khedivate of Egypt",
+      "source_feature_index": 11953,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 3002539.4388854024,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "Khedivate of Egypt",
+      "source_feature_index": 11974,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

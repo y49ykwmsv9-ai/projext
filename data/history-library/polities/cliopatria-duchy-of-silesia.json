@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-duchy-of-silesia",
+  "identity": {
+    "canonical_name": "Duchy of Silesia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1139,
+    "end": 1304,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1139,
+      "to_year": 1146,
+      "area_km2": 121774.22279128192,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 4852,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1176,
+      "area_km2": 28638.82343217364,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 28724.32364088854,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5079,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1201,
+      "area_km2": 29008.390606233967,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5148,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1205,
+      "area_km2": 34892.70537066382,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5254,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 28993.70119687958,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5278,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1219,
+      "area_km2": 28928.04446834914,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1226,
+      "area_km2": 28993.70119687958,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5471,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1235,
+      "area_km2": 28839.145973581715,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5510,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 119973.60191936593,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5633,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 110596.02048275711,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5687,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1278,
+      "area_km2": 12672.158871284058,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5693,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1293,
+      "area_km2": 19086.10772335468,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5915,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 19086.10772335468,
+      "wikidata_id": null,
+      "seshat_id": "pl_piast_dyn_2",
+      "wikipedia": "Duchy of Silesia",
+      "source_feature_index": 5980,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

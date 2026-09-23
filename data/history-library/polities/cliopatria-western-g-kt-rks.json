@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-western-g-kt-rks",
+  "identity": {
+    "canonical_name": "Western Göktürks",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 587,
+    "end": 660,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 587,
+      "to_year": 591,
+      "area_km2": 3261083.4327307274,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2179,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 601,
+      "area_km2": 3120784.686496628,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 625,
+      "area_km2": 3862257.279393,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2209,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 626,
+      "area_km2": 3854186.1869506813,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2304,
+      "geometry_available": true
+    },
+    {
+      "from_year": 627,
+      "to_year": 627,
+      "area_km2": 4189329.176354627,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2317,
+      "geometry_available": true
+    },
+    {
+      "from_year": 628,
+      "to_year": 628,
+      "area_km2": 4190475.9481432345,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2327,
+      "geometry_available": true
+    },
+    {
+      "from_year": 629,
+      "to_year": 629,
+      "area_km2": 4205581.842151222,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2335,
+      "geometry_available": true
+    },
+    {
+      "from_year": 630,
+      "to_year": 632,
+      "area_km2": 3854186.1869506813,
+      "wikidata_id": null,
+      "seshat_id": "kg_western_turk_khaganate",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2345,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 640,
+      "area_km2": 3854186.1869506813,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2379,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 643,
+      "area_km2": 3854762.3668054966,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2428,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 3854842.650370641,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2466,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 1296513.5318366154,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2474,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 1266152.22623974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Göktürks",
+      "source_feature_index": 2499,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

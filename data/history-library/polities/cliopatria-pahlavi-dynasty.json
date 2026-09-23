@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-pahlavi-dynasty",
+  "identity": {
+    "canonical_name": "Pahlavi Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1924,
+    "end": 1978,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 1624334.9976886788,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 12579,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1931,
+      "area_km2": 1624334.9976886788,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 12597,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 1624310.183345294,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 12678,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1941,
+      "area_km2": 1624036.7829929555,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 12741,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1945,
+      "area_km2": 1158492.886822887,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 12854,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 1447946.3239857722,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 12980,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1975,
+      "area_km2": 1624310.1833452957,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 13011,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 1978,
+      "area_km2": 1624310.1833452957,
+      "wikidata_id": null,
+      "seshat_id": "ir_pahlavi_dyn",
+      "wikipedia": "Pahlavi dynasty",
+      "source_feature_index": 13330,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

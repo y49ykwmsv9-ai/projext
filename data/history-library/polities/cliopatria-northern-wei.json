@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-northern-wei",
+  "identity": {
+    "canonical_name": "Northern Wei",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 387,
+    "end": 533,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 387,
+      "to_year": 393,
+      "area_km2": 320630.5009183259,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1544,
+      "geometry_available": true
+    },
+    {
+      "from_year": 394,
+      "to_year": 394,
+      "area_km2": 320789.8650817894,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1576,
+      "geometry_available": true
+    },
+    {
+      "from_year": 395,
+      "to_year": 396,
+      "area_km2": 436745.6521851179,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1583,
+      "geometry_available": true
+    },
+    {
+      "from_year": 397,
+      "to_year": 401,
+      "area_km2": 437639.0436302575,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1611,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 413,
+      "area_km2": 178344.6347552034,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1620,
+      "geometry_available": true
+    },
+    {
+      "from_year": 414,
+      "to_year": 416,
+      "area_km2": 178393.36373512814,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1684,
+      "geometry_available": true
+    },
+    {
+      "from_year": 417,
+      "to_year": 425,
+      "area_km2": 178965.9154482374,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1699,
+      "geometry_available": true
+    },
+    {
+      "from_year": 426,
+      "to_year": 438,
+      "area_km2": 178596.94919743293,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1719,
+      "geometry_available": true
+    },
+    {
+      "from_year": 439,
+      "to_year": 440,
+      "area_km2": 671031.198590087,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1746,
+      "geometry_available": true
+    },
+    {
+      "from_year": 441,
+      "to_year": 450,
+      "area_km2": 789975.948276598,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1753,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 475,
+      "area_km2": 1166543.4288748365,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1794,
+      "geometry_available": true
+    },
+    {
+      "from_year": 476,
+      "to_year": 509,
+      "area_km2": 1166641.660088551,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1880,
+      "geometry_available": true
+    },
+    {
+      "from_year": 510,
+      "to_year": 522,
+      "area_km2": 1166388.3679810108,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1950,
+      "geometry_available": true
+    },
+    {
+      "from_year": 523,
+      "to_year": 533,
+      "area_km2": 1166388.3679810108,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_wei_dyn",
+      "wikipedia": "Northern Wei",
+      "source_feature_index": 1967,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

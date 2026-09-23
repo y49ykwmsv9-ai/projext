@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-islamic-republic-of-pakistan",
+  "identity": {
+    "canonical_name": "Islamic Republic of Pakistan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1947,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 937767.2812988288,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13015,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1962,
+      "area_km2": 1021668.6437274063,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1963,
+      "to_year": 1972,
+      "area_km2": 1021019.6592261755,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1973,
+      "to_year": 1975,
+      "area_km2": 876225.8653744644,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13327,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 1978,
+      "area_km2": 876173.1533108286,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13336,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1979,
+      "to_year": 1982,
+      "area_km2": 875923.6577842067,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13379,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1983,
+      "to_year": 1986,
+      "area_km2": 876173.1533108286,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13395,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1987,
+      "to_year": 1995,
+      "area_km2": 875923.1837591067,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1996,
+      "to_year": 2005,
+      "area_km2": 876172.2119610532,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13516,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2023,
+      "area_km2": 875923.1837591067,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 875923.1837591067,
+      "wikidata_id": null,
+      "seshat_id": "pk_pakistan_islamic_rep",
+      "wikipedia": "Pakistan",
+      "source_feature_index": 13672,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

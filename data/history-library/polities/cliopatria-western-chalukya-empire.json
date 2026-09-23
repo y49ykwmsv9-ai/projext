@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-western-chalukya-empire",
+  "identity": {
+    "canonical_name": "Western Chalukya Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 980,
+    "end": 1187,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 980,
+      "to_year": 989,
+      "area_km2": 731643.5512980177,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 3982,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 999,
+      "area_km2": 753285.0820836265,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4070,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1000,
+      "to_year": 1009,
+      "area_km2": 754152.1629705557,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4086,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1033,
+      "area_km2": 602424.0308424782,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4135,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 738006.888194362,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4326,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1093,
+      "area_km2": 602424.0308424782,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4333,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 639274.833629985,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4717,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 602424.0308424782,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4750,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1125,
+      "area_km2": 600039.4373305792,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4799,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1126,
+      "to_year": 1138,
+      "area_km2": 636808.0789090276,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4816,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1176,
+      "area_km2": 599817.5857821046,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 4870,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 510695.62153010175,
+      "wikidata_id": null,
+      "seshat_id": "in_kalyani_chalukya_emp",
+      "wikipedia": "Western Chalukya Empire",
+      "source_feature_index": 5073,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

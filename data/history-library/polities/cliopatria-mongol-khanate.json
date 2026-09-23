@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-mongol-khanate",
+  "identity": {
+    "canonical_name": "Mongol Khanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1468,
+    "end": 1635,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 3459985.2557156864,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 7427,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 4551339.067817982,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 7454,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1515,
+      "area_km2": 4550986.3114177985,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 7512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 4940749.928139684,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 7833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1520,
+      "area_km2": 5082632.230974972,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 7858,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1546,
+      "area_km2": 5082464.296605209,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 7898,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 498638.6242403802,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 8149,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1581,
+      "area_km2": 498574.1793195532,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 8179,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1625,
+      "area_km2": 498688.67872458004,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 8398,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1628,
+      "area_km2": 498878.0184894669,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 8696,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1631,
+      "area_km2": 498688.67872458004,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 8733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 498548.2810988505,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Mongol khanate",
+      "source_feature_index": 8756,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

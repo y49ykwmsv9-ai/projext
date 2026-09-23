@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-duchy-of-croatia",
+  "identity": {
+    "canonical_name": "Duchy of Croatia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 741,
+    "end": 925,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 741,
+      "to_year": 750,
+      "area_km2": 21041.14333317492,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 2755,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 787,
+      "area_km2": 21017.762173514708,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 2796,
+      "geometry_available": true
+    },
+    {
+      "from_year": 788,
+      "to_year": 792,
+      "area_km2": 20690.273777860635,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 2966,
+      "geometry_available": true
+    },
+    {
+      "from_year": 793,
+      "to_year": 805,
+      "area_km2": 20759.97735540025,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 2978,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 875,
+      "area_km2": 20875.492315101015,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3147,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 881,
+      "area_km2": 20945.4572322268,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3326,
+      "geometry_available": true
+    },
+    {
+      "from_year": 882,
+      "to_year": 886,
+      "area_km2": 20690.012438274473,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3398,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 895,
+      "area_km2": 20945.4572322268,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3439,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 20759.97735540025,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 899,
+      "area_km2": 20945.4572322268,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3516,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 20875.492315101015,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3591,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 21529.966203111835,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3604,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 21059.46759951312,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Duchy of Croatia",
+      "source_feature_index": 3654,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

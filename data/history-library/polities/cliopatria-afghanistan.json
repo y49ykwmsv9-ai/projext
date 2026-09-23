@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-afghanistan",
+  "identity": {
+    "canonical_name": "Afghanistan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1979,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1979,
+      "to_year": 1982,
+      "area_km2": 537039.1239985614,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_rep",
+      "wikipedia": "Afghanistan",
+      "source_feature_index": 13382,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1983,
+      "to_year": 1986,
+      "area_km2": 582212.9652993329,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_rep",
+      "wikipedia": "Afghanistan",
+      "source_feature_index": 13397,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1996,
+      "to_year": 1999,
+      "area_km2": 192790.1098271645,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_rep",
+      "wikipedia": "Afghanistan",
+      "source_feature_index": 13517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2000,
+      "to_year": 2005,
+      "area_km2": 83141.23975774398,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_rep",
+      "wikipedia": "Afghanistan",
+      "source_feature_index": 13527,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2023,
+      "area_km2": 643925.8781634201,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_rep",
+      "wikipedia": "Afghanistan",
+      "source_feature_index": 13549,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 643925.8781634201,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_rep",
+      "wikipedia": "Afghanistan",
+      "source_feature_index": 13657,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

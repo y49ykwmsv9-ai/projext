@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-polish-lithuania-kingdom",
+  "identity": {
+    "canonical_name": "(Polish-Lithuania Kingdom)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1395,
+    "end": 1449,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 1040496.9643030039,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 6766,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 920486.6272036844,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 6843,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 994924.0808850431,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 6908,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 1031765.399404462,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 6970,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1430,
+      "area_km2": 1031308.8489912339,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 7002,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 1031765.2493316176,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 7106,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 1032012.5849669209,
+      "wikidata_id": null,
+      "seshat_id": "pl_jagiellonian_dyn",
+      "wikipedia": "Jagiellonian dynasty",
+      "source_feature_index": 7155,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

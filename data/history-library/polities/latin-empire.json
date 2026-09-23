@@ -1,0 +1,20 @@
+{
+  "id": "latin-empire",
+  "canonical_name": "Latin Empire",
+  "type": "polity",
+  "start_year": 1204,
+  "end_year": 1261,
+  "era": "medieval",
+  "region": "Balkans",
+  "aliases": [],
+  "source_ids": [
+    "chronicle-seed-polities"
+  ],
+  "provenance": [
+    {
+      "source_id": "chronicle-seed-polities",
+      "retrieved_at": "2026-09-23",
+      "confidence": "unknown"
+    }
+  ]
+}

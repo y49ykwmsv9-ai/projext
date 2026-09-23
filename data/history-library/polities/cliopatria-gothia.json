@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-gothia",
+  "identity": {
+    "canonical_name": "Gothia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 207,
+    "end": 382,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 207,
+      "to_year": 237,
+      "area_km2": 210831.41202807584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1310,
+      "geometry_available": true
+    },
+    {
+      "from_year": 238,
+      "to_year": 246,
+      "area_km2": 228826.28013161418,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1346,
+      "geometry_available": true
+    },
+    {
+      "from_year": 247,
+      "to_year": 259,
+      "area_km2": 219317.21491912758,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1349,
+      "geometry_available": true
+    },
+    {
+      "from_year": 260,
+      "to_year": 260,
+      "area_km2": 382367.2250714358,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1354,
+      "geometry_available": true
+    },
+    {
+      "from_year": 261,
+      "to_year": 269,
+      "area_km2": 382342.6282017878,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1367,
+      "geometry_available": true
+    },
+    {
+      "from_year": 270,
+      "to_year": 307,
+      "area_km2": 634879.7466824402,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1386,
+      "geometry_available": true
+    },
+    {
+      "from_year": 308,
+      "to_year": 310,
+      "area_km2": 634926.4773691925,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 311,
+      "to_year": 352,
+      "area_km2": 634879.7466824402,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1438,
+      "geometry_available": true
+    },
+    {
+      "from_year": 353,
+      "to_year": 372,
+      "area_km2": 634833.4837133756,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1489,
+      "geometry_available": true
+    },
+    {
+      "from_year": 373,
+      "to_year": 377,
+      "area_km2": 302582.8203759116,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1521,
+      "geometry_available": true
+    },
+    {
+      "from_year": 378,
+      "to_year": 382,
+      "area_km2": 330512.36442349735,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Gothia",
+      "source_feature_index": 1528,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

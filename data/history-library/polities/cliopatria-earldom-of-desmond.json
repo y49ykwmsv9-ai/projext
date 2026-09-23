@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-earldom-of-desmond",
+  "identity": {
+    "canonical_name": "Earldom of Desmond",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1333,
+    "end": 1458,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1333,
+      "to_year": 1351,
+      "area_km2": 2375.726533805533,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Earl of Desmond",
+      "source_feature_index": 6278,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1384,
+      "area_km2": 12997.772992357284,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Earl of Desmond",
+      "source_feature_index": 6471,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 14799.668650795355,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Earl of Desmond",
+      "source_feature_index": 6712,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1421,
+      "area_km2": 20208.40306131145,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Earl of Desmond",
+      "source_feature_index": 6740,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1452,
+      "area_km2": 6858.03835085845,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Earl of Desmond",
+      "source_feature_index": 7015,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 6858.03835085845,
+      "wikidata_id": null,
+      "seshat_id": "gb_england_plantagenet",
+      "wikipedia": "Earl of Desmond",
+      "source_feature_index": 7282,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

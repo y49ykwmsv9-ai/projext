@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-turk-shahis",
+  "identity": {
+    "canonical_name": "Turk Shahis",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 561,
+    "end": 874,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 561,
+      "to_year": 643,
+      "area_km2": 138143.2564970819,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2106,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 665,
+      "area_km2": 275064.91634757566,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2460,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 673,
+      "area_km2": 256171.88173888312,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2552,
+      "geometry_available": true
+    },
+    {
+      "from_year": 674,
+      "to_year": 681,
+      "area_km2": 274888.98850873736,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2568,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 133034.6592957233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2586,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 717,
+      "area_km2": 339517.3136610121,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2619,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 849,
+      "area_km2": 304553.1401768364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 2682,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 865,
+      "area_km2": 304773.28141102643,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 3151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 223576.1562373345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 3241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 136714.68950730038,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kabul Shahi",
+      "source_feature_index": 3258,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

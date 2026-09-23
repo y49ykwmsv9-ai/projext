@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-caucasian-albania",
+  "identity": {
+    "canonical_name": "Caucasian Albania",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -63,
+    "end": 509,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -63,
+      "to_year": 59,
+      "area_km2": 50113.16358892667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1021,
+      "geometry_available": true
+    },
+    {
+      "from_year": 60,
+      "to_year": 67,
+      "area_km2": 49921.05102614084,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1178,
+      "geometry_available": true
+    },
+    {
+      "from_year": 68,
+      "to_year": 259,
+      "area_km2": 50113.16358892667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1182,
+      "geometry_available": true
+    },
+    {
+      "from_year": 287,
+      "to_year": 386,
+      "area_km2": 50113.16358892667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1404,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 438,
+      "area_km2": 74782.30914244591,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1559,
+      "geometry_available": true
+    },
+    {
+      "from_year": 439,
+      "to_year": 450,
+      "area_km2": 75000.99007260273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1728,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 489,
+      "area_km2": 74782.30914244591,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1774,
+      "geometry_available": true
+    },
+    {
+      "from_year": 490,
+      "to_year": 499,
+      "area_km2": 75000.99007260273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1921,
+      "geometry_available": true
+    },
+    {
+      "from_year": 500,
+      "to_year": 509,
+      "area_km2": 75000.99007260273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Caucasian Albania",
+      "source_feature_index": 1934,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-turks",
+  "identity": {
+    "canonical_name": "Turks",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 666,
+    "end": 756,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 666,
+      "to_year": 673,
+      "area_km2": 695741.2093554367,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Turk",
+      "source_feature_index": 2554,
+      "geometry_available": true
+    },
+    {
+      "from_year": 674,
+      "to_year": 691,
+      "area_km2": 967663.0740145216,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Turk",
+      "source_feature_index": 2576,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 717,
+      "area_km2": 959272.1835054496,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Turk",
+      "source_feature_index": 2617,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 750,
+      "area_km2": 780395.6016489473,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Turk",
+      "source_feature_index": 2784,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 754,
+      "area_km2": 644584.7242552056,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Turk",
+      "source_feature_index": 2800,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 756,
+      "area_km2": 161453.5713385346,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Turk",
+      "source_feature_index": 2808,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

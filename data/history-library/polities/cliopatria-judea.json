@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-judea",
+  "identity": {
+    "canonical_name": "Judea",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -144,
+    "end": 5,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -144,
+      "to_year": -127,
+      "area_km2": 5733.419551952299,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judea",
+      "source_feature_index": 902,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 14944.129056211914,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 922,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 15561.390434855633,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 927,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -78,
+      "area_km2": 32009.223235397032,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 973,
+      "geometry_available": true
+    },
+    {
+      "from_year": -77,
+      "to_year": -67,
+      "area_km2": 32758.388485098683,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 995,
+      "geometry_available": true
+    },
+    {
+      "from_year": -66,
+      "to_year": -50,
+      "area_km2": 31913.23099435521,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1006,
+      "geometry_available": true
+    },
+    {
+      "from_year": -49,
+      "to_year": -41,
+      "area_km2": 31962.551928576933,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1045,
+      "geometry_available": true
+    },
+    {
+      "from_year": -40,
+      "to_year": -37,
+      "area_km2": 31920.803029540126,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1063,
+      "geometry_available": true
+    },
+    {
+      "from_year": -36,
+      "to_year": -28,
+      "area_km2": 31962.551928576933,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1075,
+      "geometry_available": true
+    },
+    {
+      "from_year": -27,
+      "to_year": -26,
+      "area_km2": 31920.803029540126,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1093,
+      "geometry_available": true
+    },
+    {
+      "from_year": -25,
+      "to_year": -20,
+      "area_km2": 32000.20242384619,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1098,
+      "geometry_available": true
+    },
+    {
+      "from_year": -19,
+      "to_year": 0,
+      "area_km2": 31920.803029540126,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1101,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1,
+      "to_year": 5,
+      "area_km2": 31920.803029540126,
+      "wikidata_id": null,
+      "seshat_id": "il_judea",
+      "wikipedia": "Judea",
+      "source_feature_index": 1109,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

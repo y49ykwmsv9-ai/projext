@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-d-l-riata",
+  "identity": {
+    "canonical_name": "Dál Riata",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 540,
+    "end": 899,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 540,
+      "to_year": 586,
+      "area_km2": 15792.471496431785,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 2032,
+      "geometry_available": true
+    },
+    {
+      "from_year": 587,
+      "to_year": 611,
+      "area_km2": 16559.304088229645,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 2166,
+      "geometry_available": true
+    },
+    {
+      "from_year": 612,
+      "to_year": 643,
+      "area_km2": 18553.091537558532,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 2237,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 749,
+      "area_km2": 14741.991472924728,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 2453,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 839,
+      "area_km2": 59788.71330150042,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 2786,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 874,
+      "area_km2": 41748.35177113075,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 3104,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 898,
+      "area_km2": 41646.177038201786,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 3286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 41646.177038201786,
+      "wikidata_id": null,
+      "seshat_id": "gb_dal_riata",
+      "wikipedia": "Dál Riata",
+      "source_feature_index": 3556,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

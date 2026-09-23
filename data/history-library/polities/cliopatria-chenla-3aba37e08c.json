@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-chenla-3aba37e08c",
+  "identity": {
+    "canonical_name": "(Chenla)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 555,
+    "end": 717,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 555,
+      "to_year": 616,
+      "area_km2": 183795.8702049876,
+      "wikidata_id": null,
+      "seshat_id": "kh_chenla",
+      "wikipedia": "Chenla",
+      "source_feature_index": 2096,
+      "geometry_available": true
+    },
+    {
+      "from_year": 617,
+      "to_year": 637,
+      "area_km2": 183985.89142329313,
+      "wikidata_id": null,
+      "seshat_id": "kh_chenla",
+      "wikipedia": "Chenla",
+      "source_feature_index": 2269,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 183641.1510078925,
+      "wikidata_id": null,
+      "seshat_id": "kh_chenla",
+      "wikipedia": "Chenla",
+      "source_feature_index": 2407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 709,
+      "area_km2": 427020.8908669091,
+      "wikidata_id": null,
+      "seshat_id": "kh_chenla",
+      "wikipedia": "Chenla",
+      "source_feature_index": 2439,
+      "geometry_available": true
+    },
+    {
+      "from_year": 710,
+      "to_year": 717,
+      "area_km2": 427020.8908669091,
+      "wikidata_id": null,
+      "seshat_id": "kh_chenla",
+      "wikipedia": "Chenla",
+      "source_feature_index": 2661,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

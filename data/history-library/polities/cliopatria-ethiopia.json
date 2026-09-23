@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-ethiopia",
+  "identity": {
+    "canonical_name": "Ethiopia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1942,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1942,
+      "to_year": 1952,
+      "area_km2": 1127670.0708572692,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 12862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1955,
+      "area_km2": 1253856.2132357177,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 13104,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1959,
+      "area_km2": 1254746.5066621003,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 13139,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1960,
+      "to_year": 1991,
+      "area_km2": 1254701.9235793392,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 13183,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1992,
+      "to_year": 2013,
+      "area_km2": 1128290.536487625,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 13489,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2014,
+      "to_year": 2023,
+      "area_km2": 1127751.5205462892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 13563,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 1127751.5205462892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ethiopia",
+      "source_feature_index": 13683,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-ghurid-dynasty",
+  "identity": {
+    "canonical_name": "Ghurid Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1152,
+    "end": 1209,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1152,
+      "to_year": 1176,
+      "area_km2": 152992.23303591573,
+      "wikidata_id": null,
+      "seshat_id": "af_ghur_principality",
+      "wikipedia": "Ghurid dynasty",
+      "source_feature_index": 4994,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 1235077.6190953404,
+      "wikidata_id": null,
+      "seshat_id": "af_ghur_principality",
+      "wikipedia": "Ghurid dynasty",
+      "source_feature_index": 5081,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1191,
+      "area_km2": 1951817.3733966185,
+      "wikidata_id": null,
+      "seshat_id": "af_ghur_principality",
+      "wikipedia": "Ghurid dynasty",
+      "source_feature_index": 5150,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1192,
+      "to_year": 1201,
+      "area_km2": 2117197.3294458166,
+      "wikidata_id": null,
+      "seshat_id": "af_ghur_principality",
+      "wikipedia": "Ghurid dynasty",
+      "source_feature_index": 5186,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1205,
+      "area_km2": 2142716.3569408865,
+      "wikidata_id": null,
+      "seshat_id": "af_ghur_principality",
+      "wikipedia": "Ghurid dynasty",
+      "source_feature_index": 5236,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 1828028.795542356,
+      "wikidata_id": null,
+      "seshat_id": "af_ghur_principality",
+      "wikipedia": "Ghurid dynasty",
+      "source_feature_index": 5281,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

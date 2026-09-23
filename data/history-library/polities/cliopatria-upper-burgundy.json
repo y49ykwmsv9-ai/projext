@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-upper-burgundy",
+  "identity": {
+    "canonical_name": "Upper Burgundy",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 887,
+    "end": 959,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 887,
+      "to_year": 895,
+      "area_km2": 41536.06359877973,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3441,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 41511.751236970944,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3499,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 41536.06359877973,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3525,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 41672.22643156246,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3548,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 41534.969775173166,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 41671.956633509646,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3622,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 45841.60991816703,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 31792.84375250912,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3749,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 31792.84375250913,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "Upper Burgundy",
+      "source_feature_index": 3808,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

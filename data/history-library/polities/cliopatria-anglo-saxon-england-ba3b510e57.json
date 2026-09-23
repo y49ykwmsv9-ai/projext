@@ -1,0 +1,624 @@
+{
+  "id": "cliopatria-anglo-saxon-england-ba3b510e57",
+  "identity": {
+    "canonical_name": "(Anglo-Saxon England)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 441,
+    "end": 935,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 441,
+      "to_year": 461,
+      "area_km2": 43213.11284931609,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 1761,
+      "geometry_available": true
+    },
+    {
+      "from_year": 462,
+      "to_year": 468,
+      "area_km2": 42951.256236682406,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 1835,
+      "geometry_available": true
+    },
+    {
+      "from_year": 469,
+      "to_year": 479,
+      "area_km2": 43213.11284931609,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 1850,
+      "geometry_available": true
+    },
+    {
+      "from_year": 480,
+      "to_year": 489,
+      "area_km2": 77091.00933136971,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 1884,
+      "geometry_available": true
+    },
+    {
+      "from_year": 490,
+      "to_year": 533,
+      "area_km2": 76957.68970337886,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 1915,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 545,
+      "area_km2": 72628.52806849987,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 1998,
+      "geometry_available": true
+    },
+    {
+      "from_year": 546,
+      "to_year": 554,
+      "area_km2": 72504.34948514042,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2046,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 576,
+      "area_km2": 82434.9825386538,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2075,
+      "geometry_available": true
+    },
+    {
+      "from_year": 577,
+      "to_year": 586,
+      "area_km2": 94065.53729233,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2154,
+      "geometry_available": true
+    },
+    {
+      "from_year": 587,
+      "to_year": 591,
+      "area_km2": 93978.17999345488,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2176,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 611,
+      "area_km2": 94018.9614050699,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2194,
+      "geometry_available": true
+    },
+    {
+      "from_year": 612,
+      "to_year": 616,
+      "area_km2": 94145.79211751497,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2243,
+      "geometry_available": true
+    },
+    {
+      "from_year": 617,
+      "to_year": 625,
+      "area_km2": 97417.42531244112,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 627,
+      "area_km2": 104667.46427422305,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2299,
+      "geometry_available": true
+    },
+    {
+      "from_year": 628,
+      "to_year": 632,
+      "area_km2": 110177.37653599365,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 633,
+      "area_km2": 108314.84448549406,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2374,
+      "geometry_available": true
+    },
+    {
+      "from_year": 634,
+      "to_year": 637,
+      "area_km2": 108616.65133744643,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2392,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 643,
+      "area_km2": 115134.2331278604,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2425,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 115178.4505696074,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2463,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 127068.29975236217,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2471,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 127089.96226474196,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2509,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 665,
+      "area_km2": 127576.09167401792,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2524,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 681,
+      "area_km2": 127071.43195518572,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2542,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 127090.02742860542,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2596,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 704,
+      "area_km2": 128083.35279401392,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 705,
+      "to_year": 709,
+      "area_km2": 130528.32432825347,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2647,
+      "geometry_available": true
+    },
+    {
+      "from_year": 710,
+      "to_year": 717,
+      "area_km2": 140204.72422028202,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2668,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 740,
+      "area_km2": 140645.430078211,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2674,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 140864.75040832342,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2743,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 754,
+      "area_km2": 140336.96325286705,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2768,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 762,
+      "area_km2": 140117.64292275463,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2824,
+      "geometry_available": true
+    },
+    {
+      "from_year": 763,
+      "to_year": 771,
+      "area_km2": 140512.17274959682,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2851,
+      "geometry_available": true
+    },
+    {
+      "from_year": 772,
+      "to_year": 782,
+      "area_km2": 140426.10871124867,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2889,
+      "geometry_available": true
+    },
+    {
+      "from_year": 783,
+      "to_year": 787,
+      "area_km2": 140426.10871124867,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2937,
+      "geometry_available": true
+    },
+    {
+      "from_year": 788,
+      "to_year": 799,
+      "area_km2": 140624.6823889334,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2957,
+      "geometry_available": true
+    },
+    {
+      "from_year": 800,
+      "to_year": 805,
+      "area_km2": 140492.4102238151,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 2995,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 824,
+      "area_km2": 140426.0681166952,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3023,
+      "geometry_available": true
+    },
+    {
+      "from_year": 825,
+      "to_year": 829,
+      "area_km2": 140160.1408575637,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3074,
+      "geometry_available": true
+    },
+    {
+      "from_year": 830,
+      "to_year": 839,
+      "area_km2": 140492.4102238151,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3101,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 859,
+      "area_km2": 140471.13635122668,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3121,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 140516.47430779735,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3207,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 132848.08513450023,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3251,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 89033.12303491525,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 76273.63570666948,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 75522.97555688229,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3329,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 879,
+      "area_km2": 82155.82193294654,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3356,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 883,
+      "area_km2": 73404.2379768543,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 884,
+      "to_year": 885,
+      "area_km2": 73426.33927749438,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3408,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 891,
+      "area_km2": 74389.31092982258,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3418,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 72452.56143409523,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3468,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 74389.31092982258,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3505,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 74476.96763805547,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3526,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 910,
+      "area_km2": 74389.31092982258,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3549,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 74135.90748041296,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3611,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 111995.22396616955,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3672,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 112082.88067440248,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "History of Anglo-Saxon England",
+      "source_feature_index": 3726,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

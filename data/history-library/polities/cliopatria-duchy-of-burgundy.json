@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-duchy-of-burgundy",
+  "identity": {
+    "canonical_name": "Duchy of Burgundy",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1003,
+    "end": 1481,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1003,
+      "to_year": 1009,
+      "area_km2": 31612.937509597865,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 4114,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1017,
+      "area_km2": 18168.609533381707,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 4163,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 67895.66354327959,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 6733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 69987.80511471114,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 6760,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 69185.80222263736,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 6823,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 56717.39074239524,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 6910,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 56472.25120134372,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 6962,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 56585.9582525209,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 6996,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1430,
+      "area_km2": 58425.87510522166,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 7065,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 71478.79288623587,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 7112,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 75449.36496018454,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 7152,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 97550.68123925463,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 7255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1474,
+      "area_km2": 97550.67157526672,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 7272,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 119712.16835136068,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Duchy of Burgundy",
+      "source_feature_index": 7465,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

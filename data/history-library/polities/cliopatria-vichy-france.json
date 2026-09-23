@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-vichy-france",
+  "identity": {
+    "canonical_name": "(Vichy France)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1940,
+    "end": 1944,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 10587215.377192087,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vichy France",
+      "source_feature_index": 12814,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 9856182.726572629,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vichy France",
+      "source_feature_index": 12834,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 9834096.382236283,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vichy France",
+      "source_feature_index": 12870,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 11922017.909923436,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vichy France",
+      "source_feature_index": 12888,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 11670572.326065443,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vichy France",
+      "source_feature_index": 12912,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

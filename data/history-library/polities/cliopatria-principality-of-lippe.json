@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-principality-of-lippe",
+  "identity": {
+    "canonical_name": "Principality of Lippe",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1806,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 806.8924435241552,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 10686,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 763.3521124655679,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 10733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1813,
+      "area_km2": 785.122277994861,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 10746,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 807.0428808568452,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 10929,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 850.5668708290275,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 11001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1863,
+      "area_km2": 828.6346614655203,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 11066,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 785.2067505294823,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 11738,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1869,
+      "area_km2": 763.1344661463949,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 11780,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 763.1344661463949,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Lippe",
+      "source_feature_index": 11871,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

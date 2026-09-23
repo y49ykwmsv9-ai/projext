@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-moghulistan",
+  "identity": {
+    "canonical_name": "Moghulistan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1463,
+    "end": 1518,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 464590.0433867591,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7353,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 302142.0957447962,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7408,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 1382779.6149716482,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7480,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1491,
+      "area_km2": 1383469.8285511688,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7543,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1511,
+      "area_km2": 1080691.0648628795,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7600,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1515,
+      "area_km2": 1365230.885860395,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 1365276.9185013669,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Moghulistan",
+      "source_feature_index": 7822,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

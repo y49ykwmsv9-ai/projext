@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-republic-of-florence",
+  "identity": {
+    "canonical_name": "Republic of Florence",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1260,
+    "end": 1737,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 10107.167126232029,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 5761,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1278,
+      "area_km2": 10201.39190145813,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 5831,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1401,
+      "area_km2": 10107.330132583384,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 5876,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1486,
+      "area_km2": 14118.25348678967,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 6810,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1506,
+      "area_km2": 12064.76439801248,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 7590,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1546,
+      "area_km2": 12040.899490429047,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 7748,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1555,
+      "area_km2": 12538.591205878336,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 8139,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1571,
+      "area_km2": 20134.549295155317,
+      "wikidata_id": null,
+      "seshat_id": "it_florence_rep",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 8204,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1599,
+      "area_km2": 20134.549295155313,
+      "wikidata_id": null,
+      "seshat_id": "it_tuscany_grand_duc",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 8338,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1708,
+      "area_km2": 19731.414976493346,
+      "wikidata_id": null,
+      "seshat_id": "it_tuscany_grand_duc",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 8513,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1733,
+      "area_km2": 19636.857579706022,
+      "wikidata_id": null,
+      "seshat_id": "it_tuscany_grand_duc",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 9490,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 19876.33380960873,
+      "wikidata_id": null,
+      "seshat_id": "it_tuscany_grand_duc",
+      "wikipedia": "Republic of Florence",
+      "source_feature_index": 9698,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

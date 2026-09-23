@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-czechoslovakia",
+  "identity": {
+    "canonical_name": "Czechoslovakia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1919,
+    "end": 1991,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 120863.02608612385,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 12449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 144816.19638343592,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 12494,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1935,
+      "area_km2": 145015.80951167512,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 12550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1937,
+      "area_km2": 144592.84929379946,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 12746,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1938,
+      "area_km2": 85910.02587687479,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 12760,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1948,
+      "area_km2": 129627.0072991489,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 13023,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1952,
+      "area_km2": 129604.88359156302,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 13057,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1968,
+      "area_km2": 129247.01782510686,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 13122,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1991,
+      "to_year": 1991,
+      "area_km2": 129224.6905871428,
+      "wikidata_id": null,
+      "seshat_id": "cz_czechoslovakia",
+      "wikipedia": "Czechoslovakia",
+      "source_feature_index": 13451,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

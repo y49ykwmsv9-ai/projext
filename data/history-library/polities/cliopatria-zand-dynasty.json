@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-zand-dynasty",
+  "identity": {
+    "canonical_name": "Zand Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1748,
+    "end": 1793,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1748,
+      "to_year": 1751,
+      "area_km2": 573044.3408538927,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 9856,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 883805.5779783262,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 9862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 1585735.865253363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 9942,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 1585562.3491933513,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 9988,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1775,
+      "area_km2": 1585563.2331366471,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 10020,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1779,
+      "area_km2": 1592651.3188305763,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 10162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1787,
+      "area_km2": 1585563.2331366471,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 10200,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 899495.2230678244,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 10260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 620798.0915355214,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 10305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 620798.0915355214,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zand dynasty",
+      "source_feature_index": 10341,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "id": "cliopatria-papal-states",
+  "identity": {
+    "canonical_name": "Papal States",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 755,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 755,
+      "to_year": 756,
+      "area_km2": 12807.622268875404,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2821,
+      "geometry_available": true
+    },
+    {
+      "from_year": 757,
+      "to_year": 762,
+      "area_km2": 21793.137105853497,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2832,
+      "geometry_available": true
+    },
+    {
+      "from_year": 763,
+      "to_year": 774,
+      "area_km2": 27414.421534654346,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 775,
+      "to_year": 777,
+      "area_km2": 14091.963333697126,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2901,
+      "geometry_available": true
+    },
+    {
+      "from_year": 778,
+      "to_year": 782,
+      "area_km2": 14139.758126535677,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2921,
+      "geometry_available": true
+    },
+    {
+      "from_year": 783,
+      "to_year": 787,
+      "area_km2": 20234.565468877747,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2942,
+      "geometry_available": true
+    },
+    {
+      "from_year": 788,
+      "to_year": 792,
+      "area_km2": 20162.69970199776,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2955,
+      "geometry_available": true
+    },
+    {
+      "from_year": 793,
+      "to_year": 805,
+      "area_km2": 15157.642771064811,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 2970,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 849,
+      "area_km2": 15062.153605385514,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3018,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 879,
+      "area_km2": 15873.762177074257,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 881,
+      "area_km2": 16312.888513242371,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3374,
+      "geometry_available": true
+    },
+    {
+      "from_year": 882,
+      "to_year": 887,
+      "area_km2": 15873.762177074257,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3397,
+      "geometry_available": true
+    },
+    {
+      "from_year": 888,
+      "to_year": 899,
+      "area_km2": 15969.251342753554,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3465,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 15873.762177074257,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3590,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 15969.251342753554,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3616,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 935,
+      "area_km2": 15873.762177074257,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3676,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 960,
+      "area_km2": 15969.251342753554,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3760,
+      "geometry_available": true
+    },
+    {
+      "from_year": 961,
+      "to_year": 969,
+      "area_km2": 15873.762177074257,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3905,
+      "geometry_available": true
+    },
+    {
+      "from_year": 970,
+      "to_year": 989,
+      "area_km2": 15897.385575873568,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 3961,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 1033,
+      "area_km2": 15873.762177074257,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4025,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1045,
+      "area_km2": 15945.648943521537,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4313,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 15945.83190782154,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4416,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 16070.13728214614,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4511,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1084,
+      "area_km2": 15854.206908356224,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4534,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1146,
+      "area_km2": 16113.659134105117,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4640,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1201,
+      "area_km2": 16042.925848653675,
+      "wikidata_id": null,
+      "seshat_id": "it_st_peter_rep_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 4936,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1259,
+      "area_km2": 16187.20565448153,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 5238,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 16425.427282868197,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 5806,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1278,
+      "area_km2": 28486.781325136944,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 5873,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 39455.476170755726,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 5903,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1313,
+      "area_km2": 39501.38404977706,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_1",
+      "wikipedia": "Papal States",
+      "source_feature_index": 5954,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1462,
+      "area_km2": 39501.38404977706,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 6162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1486,
+      "area_km2": 39453.55127835169,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 7365,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1506,
+      "area_km2": 39617.45328801246,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 7557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1528,
+      "area_km2": 40668.315036515254,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_2",
+      "wikipedia": "Papal States",
+      "source_feature_index": 7758,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1555,
+      "area_km2": 40668.315036515254,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_3",
+      "wikipedia": "Papal States",
+      "source_feature_index": 7974,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1599,
+      "area_km2": 40691.60368144319,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_3",
+      "wikipedia": "Papal States",
+      "source_feature_index": 8234,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1652,
+      "area_km2": 41740.74712057216,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_3",
+      "wikipedia": "Papal States",
+      "source_feature_index": 8522,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1708,
+      "area_km2": 41740.74712057216,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 9002,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1733,
+      "area_km2": 41764.1489644708,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 9505,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1740,
+      "area_km2": 41740.74712057216,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 9684,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1747,
+      "area_km2": 41670.518200440936,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 9779,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1796,
+      "area_km2": 41740.74712057216,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 9833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 30082.541250210757,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10467,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 38897.72280307274,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10529,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1805,
+      "area_km2": 30034.737943412303,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10599,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 29963.454686537996,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10672,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1810,
+      "area_km2": 30034.675724748024,
+      "wikidata_id": null,
+      "seshat_id": "it_papal_state_4",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10707,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 39244.622608886275,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10906,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1847,
+      "area_km2": 39315.84364709631,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 10952,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 39244.622608886275,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 11433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1858,
+      "area_km2": 39315.84364709631,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 11475,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 39244.622608886275,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 11639,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1860,
+      "area_km2": 29608.553814305717,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 11656,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1869,
+      "area_km2": 14072.467132509719,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 11681,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 14072.467132509719,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papal States",
+      "source_feature_index": 11839,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

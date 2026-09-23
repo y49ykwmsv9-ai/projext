@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-francoist-spain",
+  "identity": {
+    "canonical_name": "Francoist Spain",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1939,
+    "end": 1975,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1939,
+      "to_year": 1939,
+      "area_km2": 854068.4050210197,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 12786,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1941,
+      "area_km2": 854113.0677294689,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 12820,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 853939.5102447296,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 12853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1944,
+      "area_km2": 854139.2097201224,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 12881,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1957,
+      "area_km2": 854285.8932372291,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 12925,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1958,
+      "to_year": 1960,
+      "area_km2": 815186.1899968407,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 13171,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1961,
+      "to_year": 1972,
+      "area_km2": 815207.459040367,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 13210,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1973,
+      "to_year": 1975,
+      "area_km2": 785173.7975910538,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francoist Spain",
+      "source_feature_index": 13311,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

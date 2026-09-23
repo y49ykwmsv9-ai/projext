@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-former-qin",
+  "identity": {
+    "canonical_name": "Former Qin",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 353,
+    "end": 393,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 353,
+      "to_year": 370,
+      "area_km2": 388301.5652540483,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1486,
+      "geometry_available": true
+    },
+    {
+      "from_year": 371,
+      "to_year": 372,
+      "area_km2": 1160709.9360938687,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1511,
+      "geometry_available": true
+    },
+    {
+      "from_year": 373,
+      "to_year": 377,
+      "area_km2": 1492488.308423206,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1520,
+      "geometry_available": true
+    },
+    {
+      "from_year": 378,
+      "to_year": 382,
+      "area_km2": 1798333.4725242204,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1529,
+      "geometry_available": true
+    },
+    {
+      "from_year": 383,
+      "to_year": 386,
+      "area_km2": 1277818.364481504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1536,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 389,
+      "area_km2": 265793.38832133135,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1547,
+      "geometry_available": true
+    },
+    {
+      "from_year": 390,
+      "to_year": 391,
+      "area_km2": 213615.32380764227,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1569,
+      "geometry_available": true
+    },
+    {
+      "from_year": 392,
+      "to_year": 393,
+      "area_km2": 213615.32380764227,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Former Qin",
+      "source_feature_index": 1573,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-fihrids",
+  "identity": {
+    "canonical_name": "Fihrids",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 750,
+    "end": 756,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 750,
+      "to_year": 750,
+      "area_km2": 251323.12595183085,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Fihrids",
+      "source_feature_index": 2783,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 754,
+      "area_km2": 145608.15817033913,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Fihrids",
+      "source_feature_index": 2798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 756,
+      "area_km2": 251323.12595183085,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Fihrids",
+      "source_feature_index": 2811,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

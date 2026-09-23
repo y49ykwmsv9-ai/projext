@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-emirate-of-jabal-shammar",
+  "identity": {
+    "canonical_name": "Emirate of Jabal Shammar",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1825,
+    "end": 1921,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 84253.96597461322,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 11153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 84253.96597461322,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 11364,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 459742.8250602392,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 11382,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1876,
+      "area_km2": 84253.96597461322,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 11790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1884,
+      "area_km2": 135542.12776300515,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 11940,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 222014.9834929775,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 375103.1568128259,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12084,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1904,
+      "area_km2": 674959.8794521838,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12094,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1915,
+      "area_km2": 84253.96597461322,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12207,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 259971.14219374524,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12371,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1919,
+      "area_km2": 244776.03521855964,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 244175.4541199287,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Jabal Shammar",
+      "source_feature_index": 12504,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

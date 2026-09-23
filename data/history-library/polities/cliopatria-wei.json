@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-wei",
+  "identity": {
+    "canonical_name": "Wei",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -404,
+    "end": -204,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -404,
+      "to_year": -367,
+      "area_km2": 79310.3589065369,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 365,
+      "geometry_available": true
+    },
+    {
+      "from_year": -366,
+      "to_year": -351,
+      "area_km2": 74083.784338207,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 404,
+      "geometry_available": true
+    },
+    {
+      "from_year": -350,
+      "to_year": -338,
+      "area_km2": 59516.67976527701,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 439,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -327,
+      "area_km2": 59891.233447650004,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 454,
+      "geometry_available": true
+    },
+    {
+      "from_year": -326,
+      "to_year": -292,
+      "area_km2": 86264.95958917796,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 482,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -226,
+      "area_km2": 97232.22956111001,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 543,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -224,
+      "area_km2": 97010.3726891626,
+      "wikidata_id": null,
+      "seshat_id": "cn_wei_dyn_warring_states",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 692,
+      "geometry_available": true
+    },
+    {
+      "from_year": -223,
+      "to_year": -223,
+      "area_km2": 97010.3726891626,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wei (state)",
+      "source_feature_index": 717,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 22235.46418802171,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eighteen Kingdoms",
+      "source_feature_index": 775,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -204,
+      "area_km2": 59783.05453967112,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Eighteen Kingdoms",
+      "source_feature_index": 782,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

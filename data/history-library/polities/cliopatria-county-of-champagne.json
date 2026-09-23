@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-county-of-champagne",
+  "identity": {
+    "canonical_name": "County of Champagne",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 990,
+    "end": 1284,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 990,
+      "to_year": 1002,
+      "area_km2": 25320.702753067508,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 4057,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1003,
+      "to_year": 1027,
+      "area_km2": 27400.120115594007,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 4100,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1055,
+      "area_km2": 27422.83806085094,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 4351,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 25252.646533708863,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 4504,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1125,
+      "area_km2": 25276.47891881701,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 4726,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1205,
+      "area_km2": 25276.47891881701,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 5000,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1215,
+      "area_km2": 25073.045740936264,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 5285,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1259,
+      "area_km2": 25162.67124627913,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 5424,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1278,
+      "area_km2": 25342.104109957563,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 5798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 25342.104109957563,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Champagne",
+      "source_feature_index": 5907,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

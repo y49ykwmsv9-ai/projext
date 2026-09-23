@@ -1,0 +1,684 @@
+{
+  "id": "cliopatria-kingdom-of-spain",
+  "identity": {
+    "canonical_name": "Kingdom of Spain",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1516,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 690074.9574582381,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 7835,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1520,
+      "area_km2": 945446.1829376013,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 7855,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1525,
+      "area_km2": 664854.5416969849,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 7900,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 677150.0290449598,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 7955,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 872138.966355764,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8017,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 876050.2139784727,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8031,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 971767.582393919,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8077,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1555,
+      "area_km2": 971450.2013988423,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8142,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 737532.7257195865,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8195,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 730657.8502468731,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8266,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 722628.7962578743,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8344,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1581,
+      "area_km2": 692782.4986795401,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8378,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1641,
+      "area_km2": 660617.9587485319,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8870,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 679136.6935854006,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8890,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 683486.0599680708,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8913,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 677063.4848061615,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 8947,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 682146.4437027257,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9010,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 678079.1673822743,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9056,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 674494.5322315191,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9102,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 674247.5266104642,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9170,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 653407.3417210376,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9196,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1690,
+      "area_km2": 657299.8624112221,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9250,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 641385.1654845475,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9324,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 642432.5537277178,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9367,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 657503.617616287,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1705,
+      "area_km2": 552407.1065779396,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9416,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 496094.9637017587,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9471,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 614775.6131126084,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 494305.1084827995,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spain",
+      "source_feature_index": 9543,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1733,
+      "area_km2": 543074.4159792297,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 9577,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1747,
+      "area_km2": 593211.553178797,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 9691,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1777,
+      "area_km2": 594074.5221679691,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 9848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1780,
+      "area_km2": 503172.08651013346,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10173,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1781,
+      "to_year": 1795,
+      "area_km2": 504165.34190508665,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10218,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 495799.49491963245,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10411,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 503262.44024049165,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10442,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 502245.5028790592,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 502080.52450131817,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1808,
+      "area_km2": 495799.49491963245,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10578,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 233627.64462535028,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10750,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 132136.1849087125,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10811,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 378189.8558885195,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10868,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 495846.6439159163,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spain",
+      "source_feature_index": 10915,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1833,
+      "area_km2": 495846.6439159163,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 10985,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 495752.2858418164,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 11262,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 495467.2798742898,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 11285,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1858,
+      "area_km2": 495846.6439159163,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 11312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1872,
+      "area_km2": 495846.6439159163,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 11605,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 984338.2724181273,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 11945,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 988526.5797620806,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 11977,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 1044232.4794023279,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12006,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 1294123.6266565372,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12046,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 1238581.9200077546,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12129,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 1230137.540187624,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 841166.4883835951,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12172,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1911,
+      "area_km2": 839997.0317841351,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1921,
+      "area_km2": 854188.5493905115,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12285,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 848480.1345266529,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 843960.7759626269,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12587,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1931,
+      "area_km2": 854188.5493905115,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "Spain",
+      "source_feature_index": 12602,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 2023,
+      "area_km2": 506584.5271838983,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Spain",
+      "source_feature_index": 13346,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 506584.5271838983,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Spain",
+      "source_feature_index": 13579,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

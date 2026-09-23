@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-bolivia",
+  "identity": {
+    "canonical_name": "Bolivia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1825,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1825,
+      "to_year": 1835,
+      "area_km2": 1813514.9247053126,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11138,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1864,
+      "area_km2": 1813514.9247053126,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11326,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 1816878.4221491464,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11755,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 1813514.9247053126,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11779,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1876,
+      "area_km2": 1576225.058226264,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11819,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 1576632.6383925914,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11950,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 1575216.3729141294,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 11975,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1904,
+      "area_km2": 1575361.4902055901,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 12017,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1925,
+      "area_km2": 1329316.9699535216,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 12237,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1928,
+      "area_km2": 1329119.433075824,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 12604,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1929,
+      "to_year": 1935,
+      "area_km2": 1329147.2166324789,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 12652,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1952,
+      "area_km2": 1085071.4305959244,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_rep",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 12748,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 2023,
+      "area_km2": 1085071.4305959244,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_modern",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 13121,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 1085071.4305959244,
+      "wikidata_id": null,
+      "seshat_id": "bo_bolivia_modern",
+      "wikipedia": "Bolivia",
+      "source_feature_index": 13605,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

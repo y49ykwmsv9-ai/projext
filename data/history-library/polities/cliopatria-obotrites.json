@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-obotrites",
+  "identity": {
+    "canonical_name": "Obotrites",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 793,
+    "end": 946,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 793,
+      "to_year": 805,
+      "area_km2": 11600.781304031834,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Obotrites",
+      "source_feature_index": 2969,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 813,
+      "area_km2": 15438.490168094826,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Obotrites",
+      "source_feature_index": 3017,
+      "geometry_available": true
+    },
+    {
+      "from_year": 814,
+      "to_year": 881,
+      "area_km2": 15290.734107870177,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Obotrites",
+      "source_feature_index": 3036,
+      "geometry_available": true
+    },
+    {
+      "from_year": 882,
+      "to_year": 886,
+      "area_km2": 15373.777725220461,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Obotrites",
+      "source_feature_index": 3396,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 935,
+      "area_km2": 15290.734107870177,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Obotrites",
+      "source_feature_index": 3440,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 15115.922355953559,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Obotrites",
+      "source_feature_index": 3763,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

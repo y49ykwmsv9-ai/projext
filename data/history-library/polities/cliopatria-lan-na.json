@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-lan-na",
+  "identity": {
+    "canonical_name": "Lan Na",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1600,
+    "end": 1761,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1600,
+      "to_year": 1618,
+      "area_km2": 52632.40849494734,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 8527,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 52465.29667826988,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 9676,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 52437.86277587872,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 9715,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1756,
+      "area_km2": 52798.18838534848,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 9775,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 52798.18838534848,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 9905,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

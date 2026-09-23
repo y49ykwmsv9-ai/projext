@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-duchy-of-thuringia",
+  "identity": {
+    "canonical_name": "Duchy of Thuringia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 567,
+    "end": 723,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 567,
+      "to_year": 632,
+      "area_km2": 40556.90545050363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Thuringia",
+      "source_feature_index": 2128,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 660,
+      "area_km2": 40403.34331086612,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Thuringia",
+      "source_feature_index": 2441,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 717,
+      "area_km2": 40556.90545050363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Thuringia",
+      "source_feature_index": 2531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 723,
+      "area_km2": 40556.90545050363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Thuringia",
+      "source_feature_index": 2690,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-zululand",
+  "identity": {
+    "canonical_name": "Zululand",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1820,
+    "end": 1897,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1820,
+      "to_year": 1839,
+      "area_km2": 25596.147654769517,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zululand",
+      "source_feature_index": 11026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1847,
+      "area_km2": 25622.715556122574,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zululand",
+      "source_feature_index": 11352,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1855,
+      "area_km2": 26017.73469122564,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zululand",
+      "source_feature_index": 11442,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1884,
+      "area_km2": 25464.2957619333,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zululand",
+      "source_feature_index": 11549,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1894,
+      "area_km2": 25117.83523823835,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zululand",
+      "source_feature_index": 12040,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 25066.21545788262,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Zululand",
+      "source_feature_index": 12107,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

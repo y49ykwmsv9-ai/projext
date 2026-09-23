@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-ayyubid-sultanate",
+  "identity": {
+    "canonical_name": "Ayyubid Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1177,
+    "end": 1249,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 1716546.3468599687,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5083,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1191,
+      "area_km2": 1830550.1253969648,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5155,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1192,
+      "to_year": 1201,
+      "area_km2": 2034836.4657988623,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5185,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1219,
+      "area_km2": 1818428.124453036,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1226,
+      "area_km2": 1818402.0431731762,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5459,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1235,
+      "area_km2": 1818428.124453036,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 1517728.5468474843,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5617,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 1229936.5297129878,
+      "wikidata_id": null,
+      "seshat_id": "eg_ayyubid_sultanate",
+      "wikipedia": "Ayyubid dynasty",
+      "source_feature_index": 5683,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

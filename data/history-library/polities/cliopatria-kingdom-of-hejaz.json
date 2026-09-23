@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-hejaz",
+  "identity": {
+    "canonical_name": "Kingdom of Hejaz",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1916,
+    "end": 1925,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 74129.54091931594,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12363,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 370959.8490737594,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12401,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 432998.5362417941,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12447,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 433993.4698209083,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12473,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 292843.336938844,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 270591.4774272329,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12537,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 214597.77189300483,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hejaz",
+      "source_feature_index": 12568,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

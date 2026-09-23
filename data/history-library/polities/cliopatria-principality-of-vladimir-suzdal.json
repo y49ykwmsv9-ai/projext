@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-principality-of-vladimir-suzdal",
+  "identity": {
+    "canonical_name": "Principality of Vladimir-Suzdal",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1294,
+    "end": 1486,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 215167.69751531322,
+      "wikidata_id": null,
+      "seshat_id": "ru_vladimir_suzdal",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 188331.37527633936,
+      "wikidata_id": null,
+      "seshat_id": "ru_vladimir_suzdal",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6058,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1332,
+      "area_km2": 188919.7397591393,
+      "wikidata_id": null,
+      "seshat_id": "ru_vladimir_suzdal",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6180,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 184522.04095271367,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6325,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1374,
+      "area_km2": 121591.43482887899,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6400,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1394,
+      "area_km2": 112861.57642567728,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6607,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1414,
+      "area_km2": 90644.7151277977,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6781,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 84261.24387056057,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 6947,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1462,
+      "area_km2": 38303.67799262183,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 7045,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1481,
+      "area_km2": 6484.946347733558,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 7355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 2971.75925872999,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Vladimir-Suzdal",
+      "source_feature_index": 7539,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

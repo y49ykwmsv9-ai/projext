@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-belgian-congo",
+  "identity": {
+    "canonical_name": "Belgian Congo",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1890,
+    "end": 1962,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 1824402.9017215653,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12082,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 2281404.7488118988,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12095,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 2281059.16038428,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12141,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1910,
+      "area_km2": 2307867.775383025,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12192,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1915,
+      "area_km2": 2343394.3783125863,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12268,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 2357651.936940758,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12369,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1921,
+      "area_km2": 2358255.8790376456,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12388,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1952,
+      "area_km2": 2358484.8859237535,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 12526,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1955,
+      "area_km2": 2358255.8790376456,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 13098,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1959,
+      "area_km2": 2357853.5369911534,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 13141,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1960,
+      "to_year": 1960,
+      "area_km2": 49841.803506373784,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 13173,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1961,
+      "to_year": 1962,
+      "area_km2": 49841.78816026822,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Belgian Congo",
+      "source_feature_index": 13196,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

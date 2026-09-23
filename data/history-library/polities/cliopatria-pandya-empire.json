@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-pandya-empire",
+  "identity": {
+    "canonical_name": "Pandya Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1216,
+    "end": 1325,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1216,
+      "to_year": 1219,
+      "area_km2": 25319.417734319264,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 5411,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1235,
+      "area_km2": 52244.278443974305,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 5482,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 77525.91527040409,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 5574,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 123871.73020185344,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 5651,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 220109.8926164879,
+      "wikidata_id": null,
+      "seshat_id": "in_pandya_emp_3",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 5744,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1313,
+      "area_km2": 218199.9030216462,
+      "wikidata_id": null,
+      "seshat_id": "in_pandya_emp_3",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 5770,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 218199.9030216462,
+      "wikidata_id": null,
+      "seshat_id": "in_pandya_emp_3",
+      "wikipedia": "Pandya Empire",
+      "source_feature_index": 6140,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

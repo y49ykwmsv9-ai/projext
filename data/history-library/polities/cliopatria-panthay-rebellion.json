@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-panthay-rebellion",
+  "identity": {
+    "canonical_name": "Panthay Rebellion",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1856,
+    "end": 1872,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1856,
+      "to_year": 1858,
+      "area_km2": 341823.942772759,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Panthay Rebellion",
+      "source_feature_index": 11574,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1867,
+      "area_km2": 408545.1082831343,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Panthay Rebellion",
+      "source_feature_index": 11614,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1870,
+      "area_km2": 341823.942772759,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Panthay Rebellion",
+      "source_feature_index": 11829,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 341823.942772759,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Panthay Rebellion",
+      "source_feature_index": 11901,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

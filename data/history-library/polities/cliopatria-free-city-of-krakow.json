@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-free-city-of-krakow",
+  "identity": {
+    "canonical_name": "Free City of Krakow",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1815,
+    "end": 1845,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1815,
+      "to_year": 1829,
+      "area_km2": 1644.7780645662535,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Free City of Cracow",
+      "source_feature_index": 10975,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 1467.3475001706893,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Free City of Cracow",
+      "source_feature_index": 11205,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1841,
+      "area_km2": 1644.7780645662535,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Free City of Cracow",
+      "source_feature_index": 11248,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 1644.7780645662535,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Free City of Cracow",
+      "source_feature_index": 11393,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

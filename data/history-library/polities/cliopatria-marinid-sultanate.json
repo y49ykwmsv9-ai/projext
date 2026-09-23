@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-marinid-sultanate",
+  "identity": {
+    "canonical_name": "Marinid Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1250,
+    "end": 1467,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 388669.0232888597,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Marinid Sultanate",
+      "source_feature_index": 5754,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 514801.00921453955,
+      "wikidata_id": null,
+      "seshat_id": "ma_marinid_dyn",
+      "wikipedia": "Marinid Sultanate",
+      "source_feature_index": 6355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 737940.8762095574,
+      "wikidata_id": null,
+      "seshat_id": "ma_marinid_dyn",
+      "wikipedia": "Marinid Sultanate",
+      "source_feature_index": 6465,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1414,
+      "area_km2": 388541.00210950506,
+      "wikidata_id": null,
+      "seshat_id": "ma_marinid_dyn",
+      "wikipedia": "Marinid Sultanate",
+      "source_feature_index": 6517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1462,
+      "area_km2": 388366.19588127796,
+      "wikidata_id": null,
+      "seshat_id": "ma_marinid_dyn",
+      "wikipedia": "Marinid Sultanate",
+      "source_feature_index": 6978,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 388366.19588127796,
+      "wikidata_id": null,
+      "seshat_id": "ma_marinid_dyn",
+      "wikipedia": "Marinid Sultanate",
+      "source_feature_index": 7378,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

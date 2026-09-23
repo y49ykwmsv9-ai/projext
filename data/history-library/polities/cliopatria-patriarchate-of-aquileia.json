@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-patriarchate-of-aquileia",
+  "identity": {
+    "canonical_name": "Patriarchate of Aquileia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1260,
+    "end": 1449,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 9053.301063848641,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 5817,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1293,
+      "area_km2": 9145.03226454215,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 5861,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1313,
+      "area_km2": 8241.449977845743,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 5968,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1343,
+      "area_km2": 8450.265596588462,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 6156,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1362,
+      "area_km2": 8355.24388961885,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 6388,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1384,
+      "area_km2": 8263.473323252103,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 6530,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1406,
+      "area_km2": 8309.965890474996,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 6691,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1421,
+      "area_km2": 8471.715706801831,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 6877,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1439,
+      "area_km2": 1750.2138466075442,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 7038,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 1750.2138466075442,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Patriarchate of Aquileia",
+      "source_feature_index": 7200,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

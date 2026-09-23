@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-pyu-city-states",
+  "identity": {
+    "canonical_name": "Pyu City-States",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 84,
+    "end": 1045,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 84,
+      "to_year": 849,
+      "area_km2": 116186.97827394767,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pyu city-states",
+      "source_feature_index": 1207,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 111321.83617723154,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pyu city-states",
+      "source_feature_index": 3166,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 959,
+      "area_km2": 95230.52688076682,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pyu city-states",
+      "source_feature_index": 3187,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 1039,
+      "area_km2": 77433.2073592008,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pyu city-states",
+      "source_feature_index": 3871,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 77433.2073592008,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Pyu city-states",
+      "source_feature_index": 4369,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-free-city-of-hamburg",
+  "identity": {
+    "canonical_name": "Free City of Hamburg",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1814,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 750.8732984574168,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 10905,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 858.0005775171222,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 10951,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1847,
+      "area_km2": 1414.4688084100615,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 11010,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1852,
+      "area_km2": 1393.196260867603,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 11432,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1863,
+      "area_km2": 1414.4688084100615,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 11519,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 1393.1719910424924,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 11713,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1869,
+      "area_km2": 1393.0378464075136,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 11791,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 1393.0378464075136,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hamburg",
+      "source_feature_index": 11841,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

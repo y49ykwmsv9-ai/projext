@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-maurya-empire",
+  "identity": {
+    "canonical_name": "Maurya Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -318,
+    "end": -171,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -318,
+      "to_year": -316,
+      "area_km2": 1713098.5284245464,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 497,
+      "geometry_available": true
+    },
+    {
+      "from_year": -315,
+      "to_year": -302,
+      "area_km2": 2117096.335250026,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 507,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -292,
+      "area_km2": 2621865.351628334,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 526,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -257,
+      "area_km2": 3816378.3249978046,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 537,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 3946255.6172140413,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 634,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -226,
+      "area_km2": 3946255.617214041,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 652,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -189,
+      "area_km2": 1140195.3791244929,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 698,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -171,
+      "area_km2": 1140195.3791244929,
+      "wikidata_id": null,
+      "seshat_id": "in_mauryan_emp",
+      "wikipedia": "Maurya Empire",
+      "source_feature_index": 860,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-afghanistan",
+  "identity": {
+    "canonical_name": "Kingdom of Afghanistan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1926,
+    "end": 1972,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1926,
+      "to_year": 1926,
+      "area_km2": 643906.431964653,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 12603,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1927,
+      "to_year": 1939,
+      "area_km2": 643906.4319646532,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_k",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 12621,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1942,
+      "area_km2": 643832.3848422909,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_k",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 12816,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1946,
+      "area_km2": 643906.431964653,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_k",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 12879,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 643807.168946265,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_k",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 13024,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1968,
+      "area_km2": 643906.4319646532,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_k",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 13032,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1969,
+      "to_year": 1972,
+      "area_km2": 643906.4319646532,
+      "wikidata_id": null,
+      "seshat_id": "af_afghanistan_k",
+      "wikipedia": "Kingdom of Afghanistan",
+      "source_feature_index": 13277,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

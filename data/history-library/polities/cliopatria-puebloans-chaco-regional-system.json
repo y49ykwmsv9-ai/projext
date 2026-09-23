@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-puebloans-chaco-regional-system",
+  "identity": {
+    "canonical_name": "Puebloans - Chaco Regional System",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 850,
+    "end": 1151,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 850,
+      "to_year": 1039,
+      "area_km2": 21203.16197839674,
+      "wikidata_id": null,
+      "seshat_id": "us_chaco_1",
+      "wikipedia": "Ancestral Puebloans",
+      "source_feature_index": 3164,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1146,
+      "area_km2": 64974.31752292462,
+      "wikidata_id": null,
+      "seshat_id": "us_chaco_2",
+      "wikipedia": "Ancestral Puebloans",
+      "source_feature_index": 4355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 64974.31752292462,
+      "wikidata_id": null,
+      "seshat_id": "us_chaco_2",
+      "wikipedia": "Ancestral Puebloans",
+      "source_feature_index": 4934,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

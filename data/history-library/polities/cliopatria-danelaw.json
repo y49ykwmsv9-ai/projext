@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-danelaw",
+  "identity": {
+    "canonical_name": "Danelaw",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 878,
+    "end": 959,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 878,
+      "to_year": 879,
+      "area_km2": 45806.66039698201,
+      "wikidata_id": null,
+      "seshat_id": "gb_danelaw",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3347,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 885,
+      "area_km2": 55257.39104346308,
+      "wikidata_id": null,
+      "seshat_id": "gb_danelaw",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3386,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 910,
+      "area_km2": 54513.05075687419,
+      "wikidata_id": null,
+      "seshat_id": "gb_danelaw",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3435,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 54568.35209943552,
+      "wikidata_id": null,
+      "seshat_id": "gb_danelaw",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3633,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 935,
+      "area_km2": 16602.47107825353,
+      "wikidata_id": null,
+      "seshat_id": "gb_danelaw",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3689,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 16771.02255617072,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3775,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 16602.47107825353,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_2",
+      "wikipedia": "Danelaw",
+      "source_feature_index": 3815,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-iberian-union",
+  "identity": {
+    "canonical_name": "Iberian Union",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1582,
+    "end": 1639,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1582,
+      "to_year": 1587,
+      "area_km2": 801063.5443643203,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 814351.5625892382,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8421,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 800095.2620229954,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8496,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1601,
+      "area_km2": 797500.8655044822,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 798623.2980533369,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8547,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1618,
+      "area_km2": 798488.0596309153,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8573,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1619,
+      "to_year": 1621,
+      "area_km2": 798467.3065673575,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8663,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1622,
+      "to_year": 1625,
+      "area_km2": 803828.0499791002,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8668,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1631,
+      "area_km2": 804128.0206487561,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8708,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 793725.26980215,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8769,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1639,
+      "area_km2": 803606.9781616961,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Iberian Union",
+      "source_feature_index": 8791,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

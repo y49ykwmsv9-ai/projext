@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-kingdom-of-east-anglia",
+  "identity": {
+    "canonical_name": "Kingdom of East Anglia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 534,
+    "end": 869,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 534,
+      "to_year": 665,
+      "area_km2": 12260.294428680709,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Kingdom of East Anglia",
+      "source_feature_index": 1992,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 799,
+      "area_km2": 12501.632974635557,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Kingdom of East Anglia",
+      "source_feature_index": 2555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 865,
+      "area_km2": 12501.632974635557,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Kingdom of East Anglia",
+      "source_feature_index": 3108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 10444.667531674939,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Kingdom of East Anglia",
+      "source_feature_index": 3230,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

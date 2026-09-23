@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-kingdom-of-jordan",
+  "identity": {
+    "canonical_name": "Kingdom of Jordan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1947,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 98279.91665746155,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13019,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1948,
+      "area_km2": 98356.66169031878,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1952,
+      "area_km2": 103473.44894876535,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13056,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1955,
+      "area_km2": 103705.87563551399,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13116,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1957,
+      "area_km2": 103473.43997653056,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13127,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1960,
+      "to_year": 1966,
+      "area_km2": 103705.87563551399,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13189,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1967,
+      "to_year": 1972,
+      "area_km2": 90201.17116610314,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1973,
+      "to_year": 1975,
+      "area_km2": 90251.8333927378,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13314,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 1982,
+      "area_km2": 90226.80632348292,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13344,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1983,
+      "to_year": 1986,
+      "area_km2": 90278.41497833945,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13399,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1987,
+      "to_year": 2005,
+      "area_km2": 90249.7047279408,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13412,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2023,
+      "area_km2": 90200.53014821878,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 90193.16425085363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jordan",
+      "source_feature_index": 13577,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

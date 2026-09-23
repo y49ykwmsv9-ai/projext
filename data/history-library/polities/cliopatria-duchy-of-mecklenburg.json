@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-duchy-of-mecklenburg",
+  "identity": {
+    "canonical_name": "Duchy of Mecklenburg",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1806,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1806,
+      "to_year": 1808,
+      "area_km2": 10955.090917032458,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 10693,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1811,
+      "area_km2": 10869.115512203738,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 10749,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 11211.31925379324,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 10870,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1833,
+      "area_km2": 11297.29465862196,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 10920,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 11254.515851024478,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 11263,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1862,
+      "area_km2": 11297.603956469806,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 11289,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 11254.515851024478,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 11704,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 11212.027534256531,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 11743,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1869,
+      "area_km2": 11254.947589771657,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 11784,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 11254.947589771657,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Mecklenburg",
+      "source_feature_index": 11875,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-serbs",
+  "identity": {
+    "canonical_name": "Serbs",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1805,
+    "end": 1915,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1805,
+      "to_year": 1813,
+      "area_km2": 42930.20902190701,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 10648,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1847,
+      "area_km2": 41371.06575472539,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 10963,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 41276.612829509104,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 11440,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 41206.52983263071,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 11468,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 41371.065754725365,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 11534,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 41347.79209619634,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 11551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1876,
+      "area_km2": 41371.06575472539,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 11592,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 41178.571892118496,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 11934,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1910,
+      "area_km2": 49695.6171429101,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 12037,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1911,
+      "area_km2": 49719.85977246691,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 12274,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 90659.80609963546,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 12297,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1913,
+      "area_km2": 88968.5835792273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 12323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1914,
+      "area_km2": 88968.5835792273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 12332,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 88968.5835792273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Serbs",
+      "source_feature_index": 12356,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

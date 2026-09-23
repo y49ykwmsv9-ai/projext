@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-albania",
+  "identity": {
+    "canonical_name": "Albania",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1912,
+    "end": 1945,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 17681.71646804158,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12302,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1915,
+      "area_km2": 27676.312987930378,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12315,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 5419.939148905209,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12376,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1918,
+      "area_km2": 5516.665444796972,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12395,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 5419.9404212235795,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12478,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1935,
+      "area_km2": 27793.37126556075,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12511,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1938,
+      "area_km2": 27819.6908498748,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12718,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 27578.693978452924,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12910,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 27793.371265560745,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Albania",
+      "source_feature_index": 12929,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

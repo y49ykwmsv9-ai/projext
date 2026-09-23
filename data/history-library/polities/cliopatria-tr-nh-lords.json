@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-tr-nh-lords",
+  "identity": {
+    "canonical_name": "Trịnh lords",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1572,
+    "end": 1787,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1572,
+      "to_year": 1594,
+      "area_km2": 45835.00345957493,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 8312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1644,
+      "area_km2": 103059.31604362479,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 8497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 103059.3160436248,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 8930,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 103086.83294127794,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 8968,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 96113.12800061783,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 8987,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1676,
+      "area_km2": 103086.83294127794,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 9042,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1708,
+      "area_km2": 113217.30040332238,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 9215,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 113383.58287448443,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 9520,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1756,
+      "area_km2": 113328.46683428423,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 9525,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 113273.69041221582,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 9898,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1774,
+      "area_km2": 113328.46683428423,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 9954,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1777,
+      "area_km2": 158296.22200730676,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 10144,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1782,
+      "area_km2": 113328.46683428423,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 10183,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 113328.46683428423,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Trịnh lords",
+      "source_feature_index": 10237,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

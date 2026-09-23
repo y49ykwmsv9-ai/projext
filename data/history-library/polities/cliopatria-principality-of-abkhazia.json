@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-principality-of-abkhazia",
+  "identity": {
+    "canonical_name": "Principality of Abkhazia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1468,
+    "end": 1829,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1468,
+      "to_year": 1571,
+      "area_km2": 6065.707175636779,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 7401,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 5828.948188922724,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 8313,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1699,
+      "area_km2": 5828.948188922724,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 8623,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1726,
+      "area_km2": 10254.784923966068,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 9384,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1774,
+      "area_km2": 8713.811254375216,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 9645,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1787,
+      "area_km2": 8666.636661215167,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 10145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1810,
+      "area_km2": 10232.110880064583,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 10267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 9852.38838745615,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 10839,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1827,
+      "area_km2": 9757.877433755555,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 10855,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 9757.877433755555,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Abkhazia",
+      "source_feature_index": 11188,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-county-of-armagnac",
+  "identity": {
+    "canonical_name": "County of Armagnac",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1206,
+    "end": 1496,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1206,
+      "to_year": 1271,
+      "area_km2": 7125.886600999329,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 5279,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1278,
+      "area_km2": 6961.488204995737,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 5858,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1332,
+      "area_km2": 6985.312558641697,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 5914,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1362,
+      "area_km2": 6985.791167717735,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 6305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 23727.40708088262,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 6575,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1406,
+      "area_km2": 16044.697986863863,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 6687,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1421,
+      "area_km2": 13798.837823190719,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 6883,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1452,
+      "area_km2": 13820.880762136672,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 7042,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1491,
+      "area_km2": 14008.899574960671,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 7289,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1496,
+      "area_km2": 14008.899574960671,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "County of Armagnac",
+      "source_feature_index": 7612,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

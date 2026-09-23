@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-east-franks",
+  "identity": {
+    "canonical_name": "East Franks",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 850,
+    "end": 910,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 436486.5007486315,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3168,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 869,
+      "area_km2": 435167.99977899727,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3184,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 513366.5599542161,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3268,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 512735.34004107007,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3296,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 430360.93010215816,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3335,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 879,
+      "area_km2": 430344.61574661336,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3353,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 881,
+      "area_km2": 484365.3137405157,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3385,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 891,
+      "area_km2": 556403.1109626319,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3447,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 556608.4204375556,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3481,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 730847.7048746805,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3491,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 559419.4075393478,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3529,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 434952.35265769286,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3560,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 522040.0952807017,
+      "wikidata_id": null,
+      "seshat_id": "de_east_francia",
+      "wikipedia": "East Francia",
+      "source_feature_index": 3571,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "cliopatria-han",
+  "identity": {
+    "canonical_name": "Han",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -404,
+    "end": -203,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "tang-an-lushan"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -404,
+      "to_year": -367,
+      "area_km2": 18417.837501218546,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 379,
+      "geometry_available": true
+    },
+    {
+      "from_year": -366,
+      "to_year": -351,
+      "area_km2": 22239.625755400073,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 417,
+      "geometry_available": true
+    },
+    {
+      "from_year": -350,
+      "to_year": -338,
+      "area_km2": 23008.309058221643,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 427,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -257,
+      "area_km2": 15533.517444959542,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 446,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 15885.082272465745,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 640,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -231,
+      "area_km2": 15633.521096198649,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 658,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 4527.150525133088,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 762,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -204,
+      "area_km2": 454873.85055993544,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 800,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -203,
+      "area_km2": 1310598.0010179528,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Han (state)",
+      "source_feature_index": 819,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

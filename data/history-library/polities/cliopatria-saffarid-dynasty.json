@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-saffarid-dynasty",
+  "identity": {
+    "canonical_name": "Saffarid Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 860,
+    "end": 899,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 4860.010737101155,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3203,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 128675.70472478014,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3240,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 389133.34154481225,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3259,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 2151732.792383572,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3324,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 2077455.8768777594,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3327,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 883,
+      "area_km2": 2058709.229479486,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3367,
+      "geometry_available": true
+    },
+    {
+      "from_year": 884,
+      "to_year": 885,
+      "area_km2": 1969652.2387758584,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3414,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 895,
+      "area_km2": 2151829.243149057,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3424,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 1970533.3504314413,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3508,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 2436281.398652115,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 2123480.139030841,
+      "wikidata_id": null,
+      "seshat_id": "ir_saffarid_emp",
+      "wikipedia": "Saffarid dynasty",
+      "source_feature_index": 3553,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

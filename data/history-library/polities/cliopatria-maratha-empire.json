@@ -1,0 +1,354 @@
+{
+  "id": "cliopatria-maratha-empire",
+  "identity": {
+    "canonical_name": "Maratha Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1677,
+    "end": 1845,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1677,
+      "to_year": 1686,
+      "area_km2": 34392.496988242376,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9219,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 32856.626408735596,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9297,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 5539.759539340908,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9559,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1737,
+      "area_km2": 111039.45422432447,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9607,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 193284.82720342273,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9726,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 328171.8098947817,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9768,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 327422.5057719165,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9799,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1751,
+      "area_km2": 395735.3267418863,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9830,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 973648.9742017289,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9894,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 1016749.6804421691,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9897,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 1170548.3881784482,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 9949,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 1157168.5900053373,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10041,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 1277473.4831302715,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10099,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 1254119.1045707762,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10140,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1779,
+      "area_km2": 1251910.847841483,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1782,
+      "area_km2": 1224908.9417829122,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10196,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1790,
+      "area_km2": 1179899.762261347,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 1179812.1264275932,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10309,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 1196130.3159817227,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10329,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1796,
+      "area_km2": 1168144.2825252865,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10366,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 1168037.5345828715,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10463,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 1167708.8121042026,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10487,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 1164050.8930978347,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10510,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 1121806.021175822,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10605,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1808,
+      "area_km2": 890819.1394001085,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10658,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1813,
+      "area_km2": 889846.6187682118,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10778,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1819,
+      "area_km2": 854916.3722748396,
+      "wikidata_id": null,
+      "seshat_id": "in_maratha_emp",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 10880,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1841,
+      "area_km2": 82885.14036318677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 11018,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 82885.14036318677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Maratha Empire",
+      "source_feature_index": 11367,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

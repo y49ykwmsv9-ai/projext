@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-later-qin",
+  "identity": {
+    "canonical_name": "Later Qin",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 387,
+    "end": 416,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 387,
+      "to_year": 393,
+      "area_km2": 110604.88711766466,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1556,
+      "geometry_available": true
+    },
+    {
+      "from_year": 394,
+      "to_year": 394,
+      "area_km2": 324005.3012247217,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1580,
+      "geometry_available": true
+    },
+    {
+      "from_year": 395,
+      "to_year": 396,
+      "area_km2": 324504.26889058185,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1586,
+      "geometry_available": true
+    },
+    {
+      "from_year": 397,
+      "to_year": 401,
+      "area_km2": 323561.6595879905,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1600,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 406,
+      "area_km2": 489922.71448425483,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1633,
+      "geometry_available": true
+    },
+    {
+      "from_year": 407,
+      "to_year": 409,
+      "area_km2": 573288.2798134331,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1646,
+      "geometry_available": true
+    },
+    {
+      "from_year": 410,
+      "to_year": 413,
+      "area_km2": 460711.907480904,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1671,
+      "geometry_available": true
+    },
+    {
+      "from_year": 414,
+      "to_year": 416,
+      "area_km2": 332280.2824180537,
+      "wikidata_id": null,
+      "seshat_id": "cn_later_qin_dyn",
+      "wikipedia": "Later Qin",
+      "source_feature_index": 1678,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-etruscans",
+  "identity": {
+    "canonical_name": "Etruscans",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -750,
+    "end": -265,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -750,
+      "to_year": -651,
+      "area_km2": 42547.808939615774,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 159,
+      "geometry_available": true
+    },
+    {
+      "from_year": -650,
+      "to_year": -601,
+      "area_km2": 46674.54984893271,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 210,
+      "geometry_available": true
+    },
+    {
+      "from_year": -600,
+      "to_year": -551,
+      "area_km2": 48186.382943303695,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 237,
+      "geometry_available": true
+    },
+    {
+      "from_year": -550,
+      "to_year": -541,
+      "area_km2": 54716.02902762567,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 267,
+      "geometry_available": true
+    },
+    {
+      "from_year": -540,
+      "to_year": -531,
+      "area_km2": 54617.89245269565,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 273,
+      "geometry_available": true
+    },
+    {
+      "from_year": -530,
+      "to_year": -481,
+      "area_km2": 65835.26030115705,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 286,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -451,
+      "area_km2": 65431.1128398973,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 302,
+      "geometry_available": true
+    },
+    {
+      "from_year": -450,
+      "to_year": -384,
+      "area_km2": 65359.47826759969,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 342,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -338,
+      "area_km2": 33681.82716270137,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 395,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -327,
+      "area_km2": 32325.072366828324,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 449,
+      "geometry_available": true
+    },
+    {
+      "from_year": -326,
+      "to_year": -292,
+      "area_km2": 31755.548751844588,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 478,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -272,
+      "area_km2": 30572.524703870742,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 541,
+      "geometry_available": true
+    },
+    {
+      "from_year": -271,
+      "to_year": -265,
+      "area_km2": 30572.524703870742,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Etruscan civilization",
+      "source_feature_index": 618,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

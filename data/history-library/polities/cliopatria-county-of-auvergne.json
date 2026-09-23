@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-county-of-auvergne",
+  "identity": {
+    "canonical_name": "County of Auvergne",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1206,
+    "end": 1501,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1206,
+      "to_year": 1215,
+      "area_km2": 18882.14294958645,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 5292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1235,
+      "area_km2": 18951.947947756278,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 5451,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1249,
+      "area_km2": 18905.441145084285,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 5616,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 18951.947947756278,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 5710,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 19455.19234761044,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 5792,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1332,
+      "area_km2": 19408.47362357307,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 5849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1351,
+      "area_km2": 19477.581134976204,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 6328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 19676.86290302882,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 6557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 20438.247248845695,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 6601,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1401,
+      "area_km2": 19584.645576314717,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 6665,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 18882.083151853334,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 6858,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1452,
+      "area_km2": 706.2260148644731,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 7170,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1496,
+      "area_km2": 706.2260148644731,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 7298,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1501,
+      "area_km2": 706.2260148644731,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "Auvergne",
+      "source_feature_index": 7676,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

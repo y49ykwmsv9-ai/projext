@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-southern-song",
+  "identity": {
+    "canonical_name": "Southern Song",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1028,
+    "end": 1278,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1028,
+      "to_year": 1039,
+      "area_km2": 2764372.207048415,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1055,
+      "area_km2": 2763159.4060122217,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4359,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1138,
+      "area_km2": 2799672.9762828867,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1240,
+      "area_km2": 2057227.6706565558,
+      "wikidata_id": null,
+      "seshat_id": "cn_southern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 1954300.1996699283,
+      "wikidata_id": null,
+      "seshat_id": "cn_southern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 5684,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 1944002.3574823625,
+      "wikidata_id": null,
+      "seshat_id": "cn_southern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 5692,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 1731185.2851357108,
+      "wikidata_id": null,
+      "seshat_id": "cn_southern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 5811,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1278,
+      "area_km2": 1731185.2851357108,
+      "wikidata_id": null,
+      "seshat_id": "cn_southern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 5855,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

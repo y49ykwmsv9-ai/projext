@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-kuomintang",
+  "identity": {
+    "canonical_name": "Kuomintang",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1917,
+    "end": 1929,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 6473185.378152523,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12411,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1919,
+      "area_km2": 6469911.002660902,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12417,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 5502364.192036111,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12487,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 6555764.316862889,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12542,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 5014009.568617532,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1926,
+      "area_km2": 3679061.6376520786,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12595,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1927,
+      "to_year": 1927,
+      "area_km2": 5834645.843175014,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12623,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1928,
+      "to_year": 1928,
+      "area_km2": 7195954.990247815,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12642,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1929,
+      "to_year": 1929,
+      "area_km2": 8097552.912672006,
+      "wikidata_id": null,
+      "seshat_id": "cn_chinese_rep",
+      "wikipedia": "Kuomintang",
+      "source_feature_index": 12649,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

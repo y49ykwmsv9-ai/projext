@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-mexico",
+  "identity": {
+    "canonical_name": "Mexico",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1868,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1868,
+      "to_year": 1876,
+      "area_km2": 2004763.1781923848,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 11823,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 2002083.4819235005,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 11943,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1889,
+      "area_km2": 2002600.084535882,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 11982,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1910,
+      "area_km2": 1995099.3388351833,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 12053,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1911,
+      "area_km2": 1960510.433566901,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 12279,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 1995099.3388351814,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 12283,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 1995099.3388351833,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_1",
+      "wikipedia": "Mexico",
+      "source_feature_index": 12497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 2023,
+      "area_km2": 1995099.3388351833,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_2",
+      "wikipedia": "Mexico",
+      "source_feature_index": 12552,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 1995099.3388351833,
+      "wikidata_id": null,
+      "seshat_id": "mx_mexico_2",
+      "wikipedia": "Mexico",
+      "source_feature_index": 13595,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-paraguay",
+  "identity": {
+    "canonical_name": "Paraguay",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1811,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1811,
+      "to_year": 1813,
+      "area_km2": 321603.9694592889,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 10837,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1819,
+      "area_km2": 322409.9402862507,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 10878,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 321603.9694592889,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 11019,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1864,
+      "area_km2": 321932.835189848,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 11105,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 382792.6855702544,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 11752,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 321932.835189848,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 11799,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1869,
+      "area_km2": 38438.917168921565,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 11805,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1935,
+      "area_km2": 158604.51004436516,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 11931,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 2023,
+      "area_km2": 402453.3037651663,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 12733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 402453.3037651663,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Paraguay",
+      "source_feature_index": 13687,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

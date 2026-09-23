@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-sur-empire",
+  "identity": {
+    "canonical_name": "Sur Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1540,
+    "end": 1594,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 865420.9538280173,
+      "wikidata_id": null,
+      "seshat_id": "in_sur_emp",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8095,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 1254263.3975858283,
+      "wikidata_id": null,
+      "seshat_id": "in_sur_emp",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8122,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 1209808.1695582797,
+      "wikidata_id": null,
+      "seshat_id": "in_sur_emp",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8182,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 331702.1367939051,
+      "wikidata_id": null,
+      "seshat_id": "in_sur_emp",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8209,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 331194.01661454537,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8242,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 369294.4165598518,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8317,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1587,
+      "area_km2": 38835.52997065499,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8373,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 38835.52997065499,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sur Empire",
+      "source_feature_index": 8435,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

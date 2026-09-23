@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-mamluk-dynasty",
+  "identity": {
+    "canonical_name": "Mamluk Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1210,
+    "end": 1293,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 390221.59739869536,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5376,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1226,
+      "area_km2": 445312.28127666935,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5426,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1235,
+      "area_km2": 579183.27156921,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1249,
+      "area_km2": 1289885.9354193585,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5622,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 1337756.4679648322,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5701,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1284,
+      "area_km2": 1344818.9379251301,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5801,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 1344818.9379251301,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Mamluk dynasty (Delhi)",
+      "source_feature_index": 5955,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

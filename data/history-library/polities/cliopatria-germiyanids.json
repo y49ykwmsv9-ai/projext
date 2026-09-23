@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-germiyanids",
+  "identity": {
+    "canonical_name": "Germiyanids",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1305,
+    "end": 1439,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1305,
+      "to_year": 1325,
+      "area_km2": 22871.17295764841,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6078,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 22215.196220714533,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6249,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 33276.73007343452,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 212417.76908842914,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 212440.30748221616,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6424,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 217789.36004701164,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6533,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1406,
+      "area_km2": 119775.4706324967,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6567,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 90323.9731254651,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6880,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1430,
+      "area_km2": 58184.40560412504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 6936,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 5011.412318017414,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Germiyanids",
+      "source_feature_index": 7123,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

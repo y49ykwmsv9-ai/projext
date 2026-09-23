@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-principality-of-waldeck-and-pyrmont",
+  "identity": {
+    "canonical_name": "Principality of Waldeck and Pyrmont",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1806,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 964.5953707501791,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 10681,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1813,
+      "area_km2": 942.6969588065053,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 10712,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1819,
+      "area_km2": 964.5953707501791,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 10900,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1863,
+      "area_km2": 942.4475048386755,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 11007,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 964.5953707501791,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 11718,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1869,
+      "area_km2": 898.8754485107572,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 11794,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 898.8754485107572,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Waldeck and Pyrmont",
+      "source_feature_index": 11846,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

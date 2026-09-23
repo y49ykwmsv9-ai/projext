@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-hammadid-dynasty",
+  "identity": {
+    "canonical_name": "Hammadid Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1018,
+    "end": 1151,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1018,
+      "to_year": 1055,
+      "area_km2": 165042.7767012947,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hammadid dynasty",
+      "source_feature_index": 4235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 164949.21229776568,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hammadid dynasty",
+      "source_feature_index": 4493,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 32832.767624239066,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hammadid dynasty",
+      "source_feature_index": 4551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1138,
+      "area_km2": 32732.8029393961,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hammadid dynasty",
+      "source_feature_index": 4609,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1146,
+      "area_km2": 32899.914634270564,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hammadid dynasty",
+      "source_feature_index": 4863,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 32899.91463427055,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hammadid dynasty",
+      "source_feature_index": 4948,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

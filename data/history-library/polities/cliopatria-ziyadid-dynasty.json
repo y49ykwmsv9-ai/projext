@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-ziyadid-dynasty",
+  "identity": {
+    "canonical_name": "Ziyadid dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 866,
+    "end": 1138,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 866,
+      "to_year": 1039,
+      "area_km2": 215446.69673532885,
+      "wikidata_id": null,
+      "seshat_id": "ye_ziyad_dyn",
+      "wikipedia": "Ziyadid dynasty",
+      "source_feature_index": 3220,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1055,
+      "area_km2": 215442.11192139823,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ziyadid dynasty",
+      "source_feature_index": 4331,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 140613.3740416637,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ziyadid dynasty",
+      "source_feature_index": 4487,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 134858.01240534778,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ziyadid dynasty",
+      "source_feature_index": 4608,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1125,
+      "area_km2": 8272.21809899974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ziyadid dynasty",
+      "source_feature_index": 4659,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1126,
+      "to_year": 1138,
+      "area_km2": 8272.21809899974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ziyadid dynasty",
+      "source_feature_index": 4812,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

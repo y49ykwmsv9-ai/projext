@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-kalmyk-khanate",
+  "identity": {
+    "canonical_name": "Kalmyk Khanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1632,
+    "end": 1771,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 58332.0719009892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kalmyk Khanate",
+      "source_feature_index": 8781,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1737,
+      "area_km2": 163059.3089690467,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kalmyk Khanate",
+      "source_feature_index": 8793,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1768,
+      "area_km2": 175226.42656009228,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kalmyk Khanate",
+      "source_feature_index": 9721,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 174814.07078254598,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kalmyk Khanate",
+      "source_feature_index": 10047,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

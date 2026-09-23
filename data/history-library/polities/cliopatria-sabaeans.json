@@ -1,0 +1,214 @@
+{
+  "id": "cliopatria-sabaeans",
+  "identity": {
+    "canonical_name": "Sabaeans",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -800,
+    "end": 282,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -800,
+      "to_year": -701,
+      "area_km2": 15043.526637371875,
+      "wikidata_id": null,
+      "seshat_id": "ye_sabaean_commonwealth",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 139,
+      "geometry_available": true
+    },
+    {
+      "from_year": -700,
+      "to_year": -676,
+      "area_km2": 17090.171979478746,
+      "wikidata_id": null,
+      "seshat_id": "ye_sabaean_commonwealth",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 192,
+      "geometry_available": true
+    },
+    {
+      "from_year": -675,
+      "to_year": -551,
+      "area_km2": 55243.100766673226,
+      "wikidata_id": null,
+      "seshat_id": "ye_sabaean_commonwealth",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 193,
+      "geometry_available": true
+    },
+    {
+      "from_year": -550,
+      "to_year": -451,
+      "area_km2": 63947.67138595806,
+      "wikidata_id": null,
+      "seshat_id": "ye_sabaean_commonwealth",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 256,
+      "geometry_available": true
+    },
+    {
+      "from_year": -450,
+      "to_year": -384,
+      "area_km2": 63947.67138595806,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 331,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -351,
+      "area_km2": 36026.54614278211,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 387,
+      "geometry_available": true
+    },
+    {
+      "from_year": -350,
+      "to_year": -111,
+      "area_km2": 35605.01064592353,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 422,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -67,
+      "area_km2": 35661.22854418039,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 936,
+      "geometry_available": true
+    },
+    {
+      "from_year": -36,
+      "to_year": -32,
+      "area_km2": 35942.32970346799,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1071,
+      "geometry_available": true
+    },
+    {
+      "from_year": -31,
+      "to_year": -26,
+      "area_km2": 54375.71000861904,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1081,
+      "geometry_available": true
+    },
+    {
+      "from_year": -25,
+      "to_year": -20,
+      "area_km2": 28533.682697452332,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1100,
+      "geometry_available": true
+    },
+    {
+      "from_year": 154,
+      "to_year": 237,
+      "area_km2": 64450.64785275195,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1261,
+      "geometry_available": true
+    },
+    {
+      "from_year": 238,
+      "to_year": 246,
+      "area_km2": 27982.670819480278,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1335,
+      "geometry_available": true
+    },
+    {
+      "from_year": 247,
+      "to_year": 269,
+      "area_km2": 64450.64785275194,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1353,
+      "geometry_available": true
+    },
+    {
+      "from_year": 270,
+      "to_year": 282,
+      "area_km2": 64450.64785275194,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sabaeans",
+      "source_feature_index": 1382,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

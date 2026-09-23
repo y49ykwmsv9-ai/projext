@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-antigonid-dynasty",
+  "identity": {
+    "canonical_name": "Antigonid Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -291,
+    "end": -278,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -291,
+      "to_year": -285,
+      "area_km2": 127922.02677373073,
+      "wikidata_id": null,
+      "seshat_id": "gr_antigonid_emp",
+      "wikipedia": "Antigonid dynasty",
+      "source_feature_index": 554,
+      "geometry_available": true
+    },
+    {
+      "from_year": -284,
+      "to_year": -282,
+      "area_km2": 25397.7983210781,
+      "wikidata_id": null,
+      "seshat_id": "gr_antigonid_emp",
+      "wikipedia": "Antigonid dynasty",
+      "source_feature_index": 560,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -280,
+      "area_km2": 36828.6577436357,
+      "wikidata_id": null,
+      "seshat_id": "gr_antigonid_emp",
+      "wikipedia": "Antigonid dynasty",
+      "source_feature_index": 575,
+      "geometry_available": true
+    },
+    {
+      "from_year": -279,
+      "to_year": -278,
+      "area_km2": 23235.336720573403,
+      "wikidata_id": null,
+      "seshat_id": "gr_antigonid_emp",
+      "wikipedia": "Antigonid dynasty",
+      "source_feature_index": 580,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

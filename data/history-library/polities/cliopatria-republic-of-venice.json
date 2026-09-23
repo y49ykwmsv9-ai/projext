@@ -1,0 +1,764 @@
+{
+  "id": "cliopatria-republic-of-venice",
+  "identity": {
+    "canonical_name": "Republic of Venice",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 705,
+    "end": 1796,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 705,
+      "to_year": 859,
+      "area_km2": 2639.522039605197,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 2644,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 874,
+      "area_km2": 2663.556204525027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3216,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 2640.4060724239844,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3313,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 2663.556204525027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3332,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 879,
+      "area_km2": 2640.4060724239844,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3361,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 886,
+      "area_km2": 2663.556204525027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3369,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 921,
+      "area_km2": 2640.4060724239844,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3442,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 935,
+      "area_km2": 2663.556204525027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3665,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 960,
+      "area_km2": 2640.4060724239844,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3754,
+      "geometry_available": true
+    },
+    {
+      "from_year": 961,
+      "to_year": 999,
+      "area_km2": 2732.741940835686,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 3902,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1000,
+      "to_year": 1033,
+      "area_km2": 6982.186730397622,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 4081,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 7005.336862498664,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 4299,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1146,
+      "area_km2": 6982.186730397622,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 4393,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 7005.336862498664,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 4912,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 6982.186730397622,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 4978,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1187,
+      "area_km2": 5644.322738954143,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5045,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1205,
+      "area_km2": 6982.186730397622,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5106,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 16948.359327545728,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5303,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1240,
+      "area_km2": 22183.68465911522,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5342,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 19833.304266686468,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5663,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 19865.75710378279,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5729,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1278,
+      "area_km2": 19911.861036106242,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5786,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 17267.098830340088,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5892,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1304,
+      "area_km2": 19189.06969535118,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 5938,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 20562.42465775876,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6118,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 19979.905935266495,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6126,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 18375.970909410713,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6220,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 17414.639737899608,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6271,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1362,
+      "area_km2": 18061.916967814283,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6345,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 13107.306355827126,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 12431.685549287831,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6625,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 14201.213426206541,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6721,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 24167.95001662691,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6772,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 25587.567641697384,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6836,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 30277.20704081764,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6900,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 36865.054105847266,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 6966,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 43790.63215777715,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7000,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1439,
+      "area_km2": 51728.38452249459,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7059,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 46201.62858324564,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 52087.623850626274,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7249,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 52182.96730971377,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 51752.7076194837,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7324,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1474,
+      "area_km2": 51996.123952628135,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7394,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 50712.51542003546,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7475,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 49198.68570174116,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7522,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 52614.07623714704,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7583,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1501,
+      "area_km2": 63607.190018207984,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7630,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1506,
+      "area_km2": 62939.25503514249,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7724,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1511,
+      "area_km2": 63919.70367796874,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1525,
+      "area_km2": 63758.071445365946,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7796,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1563,
+      "area_km2": 63666.173405408015,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_3",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 7946,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 62544.6384608602,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 8250,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 50434.06962994057,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 8328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1599,
+      "area_km2": 49861.0123499582,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 8368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1644,
+      "area_km2": 49512.6438420579,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 8507,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 49588.05111612977,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 8920,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1672,
+      "area_km2": 44741.92510098234,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 8955,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1686,
+      "area_km2": 43990.96923543637,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9159,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 65217.75734799089,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 64892.26694129879,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9341,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 64799.69160756501,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9357,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1708,
+      "area_km2": 64632.19318896931,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9390,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1717,
+      "area_km2": 64839.88694758828,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9486,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1733,
+      "area_km2": 45226.141432755074,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9586,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 45085.401371290296,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9706,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 45226.141432755074,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9731,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1747,
+      "area_km2": 45111.2684200873,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9757,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1771,
+      "area_km2": 45085.401371290296,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 9861,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1795,
+      "area_km2": 45112.148196674716,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 10092,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 38790.1891649958,
+      "wikidata_id": null,
+      "seshat_id": "it_venetian_rep_4",
+      "wikipedia": "Republic of Venice",
+      "source_feature_index": 10400,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

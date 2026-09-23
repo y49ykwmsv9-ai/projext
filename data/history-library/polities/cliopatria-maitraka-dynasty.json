@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-maitraka-dynasty",
+  "identity": {
+    "canonical_name": "Maitraka Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 476,
+    "end": 731,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 476,
+      "to_year": 533,
+      "area_km2": 144788.90759138807,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 1865,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 554,
+      "area_km2": 145067.2548638085,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 2004,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 611,
+      "area_km2": 149998.20886854833,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 2082,
+      "geometry_available": true
+    },
+    {
+      "from_year": 612,
+      "to_year": 646,
+      "area_km2": 150557.041456526,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 2250,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 149998.20886854833,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 2475,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 723,
+      "area_km2": 303530.9020902613,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 2500,
+      "geometry_available": true
+    },
+    {
+      "from_year": 724,
+      "to_year": 731,
+      "area_km2": 303530.9020902613,
+      "wikidata_id": null,
+      "seshat_id": "in_maitraka_dyn",
+      "wikipedia": "Maitraka dynasty",
+      "source_feature_index": 2702,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-great-moravia",
+  "identity": {
+    "canonical_name": "Great Moravia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 814,
+    "end": 910,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 814,
+      "to_year": 824,
+      "area_km2": 30182.548373629477,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3050,
+      "geometry_available": true
+    },
+    {
+      "from_year": 825,
+      "to_year": 839,
+      "area_km2": 30182.548373629477,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3066,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 849,
+      "area_km2": 57275.30728327389,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3112,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 101716.93614035888,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3172,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 874,
+      "area_km2": 156678.39611112874,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3182,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 282459.06759702,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3295,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 282279.5727712605,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3334,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 886,
+      "area_km2": 282459.06759702,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3349,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 887,
+      "area_km2": 282280.0196277643,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 888,
+      "to_year": 891,
+      "area_km2": 282459.06759702,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3452,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 282280.0196277643,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3477,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 56666.78255137983,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3494,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 899,
+      "area_km2": 29820.72841076766,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3535,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 20900.75413737716,
+      "wikidata_id": null,
+      "seshat_id": "cz_moravia_k",
+      "wikipedia": "Great Moravia",
+      "source_feature_index": 3578,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

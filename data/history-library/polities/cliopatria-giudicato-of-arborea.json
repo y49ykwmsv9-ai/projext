@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-giudicato-of-arborea",
+  "identity": {
+    "canonical_name": "Giudicato of Arborea",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 866,
+    "end": 1421,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 866,
+      "to_year": 1014,
+      "area_km2": 3854.575342186532,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 3235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1017,
+      "area_km2": 2230.152461902701,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 4198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1065,
+      "area_km2": 3854.5753421865325,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 4241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 12248.501158918632,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 4541,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1325,
+      "area_km2": 3854.5753421865325,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 4600,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1343,
+      "area_km2": 4144.63958748408,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 6233,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1374,
+      "area_km2": 3854.575342186532,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 6409,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1414,
+      "area_km2": 26138.00895336178,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 6592,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 26138.00895336178,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Judicate of Arborea",
+      "source_feature_index": 6956,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

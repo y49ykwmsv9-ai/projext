@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-bamana-empire",
+  "identity": {
+    "canonical_name": "Bamana Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1713,
+    "end": 1821,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1713,
+      "to_year": 1747,
+      "area_km2": 23423.351594272262,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 9557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1751,
+      "area_km2": 34696.14358556836,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 9859,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 23423.351594272262,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 9866,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1799,
+      "area_km2": 23423.351594272262,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 10078,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 34696.14358556836,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 10548,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1819,
+      "area_km2": 104715.64436585843,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 10560,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 10721.630098926757,
+      "wikidata_id": null,
+      "seshat_id": "ml_bamana_k",
+      "wikipedia": "Bamana Empire",
+      "source_feature_index": 11040,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

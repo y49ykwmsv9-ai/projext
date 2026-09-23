@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-sultanate-of-johor",
+  "identity": {
+    "canonical_name": "Sultanate of Johor",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1529,
+    "end": 1884,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1529,
+      "to_year": 1608,
+      "area_km2": 208007.5041085086,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 8012,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1625,
+      "area_km2": 207921.3296283462,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 8595,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1669,
+      "area_km2": 206798.62786182758,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 8699,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1690,
+      "area_km2": 179138.38104184353,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 9104,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1726,
+      "area_km2": 179224.55552200598,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 9322,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1819,
+      "area_km2": 164836.5043648643,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 9655,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1852,
+      "area_km2": 62692.45313029266,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 11068,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1879,
+      "area_km2": 19950.922152382693,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 11506,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 19950.92215238268,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Johor Sultanate",
+      "source_feature_index": 11976,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

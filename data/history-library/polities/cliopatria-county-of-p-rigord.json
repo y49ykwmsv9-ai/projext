@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-county-of-p-rigord",
+  "identity": {
+    "canonical_name": "County of Périgord",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1206,
+    "end": 1481,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1206,
+      "to_year": 1271,
+      "area_km2": 12015.604522091066,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 5286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1332,
+      "area_km2": 8547.049070668265,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 5872,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1362,
+      "area_km2": 8547.049070668265,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 6296,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1401,
+      "area_km2": 8547.049070668267,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 6696,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1452,
+      "area_km2": 18220.508991335504,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 7179,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1474,
+      "area_km2": 18313.689241175656,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 7296,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 18313.689241175656,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_2",
+      "wikipedia": "County of Périgord",
+      "source_feature_index": 7493,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

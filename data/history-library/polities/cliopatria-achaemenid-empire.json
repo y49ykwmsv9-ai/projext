@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-achaemenid-empire",
+  "identity": {
+    "canonical_name": "Achaemenid Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -550,
+    "end": -327,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -550,
+      "to_year": -541,
+      "area_km2": 3326351.9570643324,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 268,
+      "geometry_available": true
+    },
+    {
+      "from_year": -540,
+      "to_year": -531,
+      "area_km2": 3706442.2660244666,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 275,
+      "geometry_available": true
+    },
+    {
+      "from_year": -530,
+      "to_year": -501,
+      "area_km2": 4269862.0108621195,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 282,
+      "geometry_available": true
+    },
+    {
+      "from_year": -500,
+      "to_year": -481,
+      "area_km2": 5552559.804357906,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 299,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -451,
+      "area_km2": 5622974.480726565,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 313,
+      "geometry_available": true
+    },
+    {
+      "from_year": -450,
+      "to_year": -405,
+      "area_km2": 5526330.696071158,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 350,
+      "geometry_available": true
+    },
+    {
+      "from_year": -404,
+      "to_year": -384,
+      "area_km2": 4993029.207447402,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 362,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -367,
+      "area_km2": 4313538.241672563,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 390,
+      "geometry_available": true
+    },
+    {
+      "from_year": -366,
+      "to_year": -351,
+      "area_km2": 4324068.525952178,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 400,
+      "geometry_available": true
+    },
+    {
+      "from_year": -350,
+      "to_year": -338,
+      "area_km2": 4326040.368804244,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 436,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -334,
+      "area_km2": 5011253.946100601,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 453,
+      "geometry_available": true
+    },
+    {
+      "from_year": -333,
+      "to_year": -332,
+      "area_km2": 4604160.416731697,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 458,
+      "geometry_available": true
+    },
+    {
+      "from_year": -331,
+      "to_year": -327,
+      "area_km2": 3508275.8157663424,
+      "wikidata_id": null,
+      "seshat_id": "ir_achaemenid_emp",
+      "wikipedia": "Achaemenid Empire",
+      "source_feature_index": 467,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

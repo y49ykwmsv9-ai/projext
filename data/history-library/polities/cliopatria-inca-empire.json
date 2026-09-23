@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-inca-empire",
+  "identity": {
+    "canonical_name": "Inca Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1440,
+    "end": 1571,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 8783.28179087286,
+      "wikidata_id": null,
+      "seshat_id": "pe_inca_emp",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 7160,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1474,
+      "area_km2": 155367.62605453003,
+      "wikidata_id": null,
+      "seshat_id": "pe_inca_emp",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 7247,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 434544.54306785046,
+      "wikidata_id": null,
+      "seshat_id": "pe_inca_emp",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 7468,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1496,
+      "area_km2": 537148.7587201019,
+      "wikidata_id": null,
+      "seshat_id": "pe_inca_emp",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 7525,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1533,
+      "area_km2": 2095031.9905848631,
+      "wikidata_id": null,
+      "seshat_id": "pe_inca_emp",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 7642,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 2077939.68951987,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 8022,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1563,
+      "area_km2": 4864.459942666766,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 8089,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 4864.459942666766,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Inca Empire",
+      "source_feature_index": 8258,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

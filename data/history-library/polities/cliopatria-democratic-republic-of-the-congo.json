@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-democratic-republic-of-the-congo",
+  "identity": {
+    "canonical_name": "Democratic Republic of the Congo",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1960,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1960,
+      "to_year": 1960,
+      "area_km2": 2307867.775383025,
+      "wikidata_id": null,
+      "seshat_id": "cg_congo_democratic_rep",
+      "wikipedia": "Democratic Republic of the Congo",
+      "source_feature_index": 13187,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1961,
+      "to_year": 1962,
+      "area_km2": 2307723.294016357,
+      "wikidata_id": null,
+      "seshat_id": "cg_congo_democratic_rep",
+      "wikipedia": "Democratic Republic of the Congo",
+      "source_feature_index": 13217,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1963,
+      "to_year": 1966,
+      "area_km2": 2307780.858999739,
+      "wikidata_id": null,
+      "seshat_id": "cg_congo_democratic_rep",
+      "wikipedia": "Democratic Republic of the Congo",
+      "source_feature_index": 13229,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1967,
+      "to_year": 1972,
+      "area_km2": 2307837.4084259868,
+      "wikidata_id": null,
+      "seshat_id": "cg_congo_democratic_rep",
+      "wikipedia": "Democratic Republic of the Congo",
+      "source_feature_index": 13265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1996,
+      "to_year": 2023,
+      "area_km2": 2307837.4084259868,
+      "wikidata_id": null,
+      "seshat_id": "cg_congo_democratic_rep",
+      "wikipedia": "Democratic Republic of the Congo",
+      "source_feature_index": 13512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 2307837.4084259868,
+      "wikidata_id": null,
+      "seshat_id": "cg_congo_democratic_rep",
+      "wikipedia": "Democratic Republic of the Congo",
+      "source_feature_index": 13623,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

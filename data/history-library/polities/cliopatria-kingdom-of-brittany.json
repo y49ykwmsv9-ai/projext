@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-kingdom-of-brittany",
+  "identity": {
+    "canonical_name": "Kingdom of Brittany",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 825,
+    "end": 921,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 825,
+      "to_year": 859,
+      "area_km2": 24213.009495619055,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3071,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 40597.49335803159,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3209,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 41556.439176736705,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3254,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 879,
+      "area_km2": 47424.96453565027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 881,
+      "area_km2": 45484.8917311201,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3373,
+      "geometry_available": true
+    },
+    {
+      "from_year": 882,
+      "to_year": 887,
+      "area_km2": 45804.43866413958,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3395,
+      "geometry_available": true
+    },
+    {
+      "from_year": 888,
+      "to_year": 895,
+      "area_km2": 45484.891731120086,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3466,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 910,
+      "area_km2": 45804.43866413958,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3502,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 45804.43866413958,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Brittany",
+      "source_feature_index": 3613,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

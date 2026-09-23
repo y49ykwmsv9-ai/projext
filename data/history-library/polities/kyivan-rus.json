@@ -1,0 +1,20 @@
+{
+  "id": "kyivan-rus",
+  "canonical_name": "Kievan Rus",
+  "type": "polity",
+  "start_year": 882,
+  "end_year": 1240,
+  "era": "medieval",
+  "region": "Eastern Europe",
+  "aliases": [],
+  "source_ids": [
+    "chronicle-seed-polities"
+  ],
+  "provenance": [
+    {
+      "source_id": "chronicle-seed-polities",
+      "retrieved_at": "2026-09-23",
+      "confidence": "unknown"
+    }
+  ]
+}

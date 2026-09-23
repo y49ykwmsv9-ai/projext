@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-nawab-of-awadh",
+  "identity": {
+    "canonical_name": "Nawab of Awadh",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1727,
+    "end": 1802,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1727,
+      "to_year": 1743,
+      "area_km2": 102852.06518075679,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 9644,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 102668.39563747296,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 9796,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1751,
+      "area_km2": 102587.38484046464,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 9829,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1761,
+      "area_km2": 102614.3792011676,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 9889,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 102535.07084768856,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 9958,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 102614.3792011676,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10037,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 102214.86173276942,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10094,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1782,
+      "area_km2": 97321.78437326867,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10147,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 97268.70263744162,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10236,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1793,
+      "area_km2": 93532.7227622594,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10269,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 115929.46766594503,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10363,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1799,
+      "area_km2": 115166.76746507974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10431,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 115166.76746507974,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nawab of Awadh",
+      "source_feature_index": 10515,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

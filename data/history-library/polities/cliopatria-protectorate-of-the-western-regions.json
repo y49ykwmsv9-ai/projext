@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-protectorate-of-the-western-regions",
+  "identity": {
+    "canonical_name": "Protectorate of the Western Regions",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 117,
+    "end": 601,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 117,
+      "to_year": 183,
+      "area_km2": 272537.68493561936,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1234,
+      "geometry_available": true
+    },
+    {
+      "from_year": 184,
+      "to_year": 196,
+      "area_km2": 534924.5025007328,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1288,
+      "geometry_available": true
+    },
+    {
+      "from_year": 197,
+      "to_year": 223,
+      "area_km2": 695020.3188495621,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1302,
+      "geometry_available": true
+    },
+    {
+      "from_year": 306,
+      "to_year": 386,
+      "area_km2": 695193.2233832038,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1431,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 401,
+      "area_km2": 597784.6285934224,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 468,
+      "area_km2": 597888.2566428904,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1634,
+      "geometry_available": true
+    },
+    {
+      "from_year": 469,
+      "to_year": 475,
+      "area_km2": 598450.9042334118,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 476,
+      "to_year": 554,
+      "area_km2": 437554.40968067356,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 1868,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 560,
+      "area_km2": 437417.87947079446,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 2070,
+      "geometry_available": true
+    },
+    {
+      "from_year": 561,
+      "to_year": 591,
+      "area_km2": 533421.2658989651,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 2100,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 601,
+      "area_km2": 533421.2658989651,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Protectorate of the Western Regions",
+      "source_feature_index": 2196,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

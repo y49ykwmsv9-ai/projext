@@ -1,0 +1,444 @@
+{
+  "id": "cliopatria-republic-of-genoa",
+  "identity": {
+    "canonical_name": "Republic of Genoa",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1010,
+    "end": 1795,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1010,
+      "to_year": 1033,
+      "area_km2": 4140.854080217121,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 4162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 4281.034587800633,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 4292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1098,
+      "area_km2": 4187.746163159274,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 4385,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1146,
+      "area_km2": 4187.746163159274,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 4741,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 4281.034587800633,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 4905,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1201,
+      "area_km2": 4187.746163159274,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 4970,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1249,
+      "area_km2": 5847.281312608994,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 5204,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 7154.28774492996,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 5735,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 13114.956641323217,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 5778,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1284,
+      "area_km2": 14463.634770049019,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_1",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 5847,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1304,
+      "area_km2": 25681.002618510418,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 5935,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 26748.85771718098,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1351,
+      "area_km2": 28010.293690103343,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6133,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 20576.580817731025,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 22987.277302775543,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6492,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 13749.999715760474,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6634,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 25037.682832282095,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6734,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 25318.271537720102,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6758,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 19820.18816555666,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6822,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 25203.38766221052,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6961,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1439,
+      "area_km2": 9273.29920383319,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 6995,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 14747.61193500598,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 7151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 25249.011782792855,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 7256,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1525,
+      "area_km2": 26048.744148078295,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 7270,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 16755.623373293674,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_2",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 7940,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1539,
+      "area_km2": 16755.623373293674,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 7993,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 12777.485291934558,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 8092,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1563,
+      "area_km2": 12730.473908679265,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 8126,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1631,
+      "area_km2": 16052.0362939744,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 8241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1641,
+      "area_km2": 14773.661498729412,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 8763,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 14797.332979063893,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 8879,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1708,
+      "area_km2": 14609.900954593255,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 8924,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1733,
+      "area_km2": 14539.603090353146,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 9479,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 14400.66516845571,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 9708,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 14537.576506861717,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 9737,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1747,
+      "area_km2": 14563.769701711,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 9760,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1793,
+      "area_km2": 14305.372860429945,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 9850,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 3181.655111448995,
+      "wikidata_id": null,
+      "seshat_id": "it_genoa_rep_3",
+      "wikipedia": "Republic of Genoa",
+      "source_feature_index": 10371,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-sena-dynasty",
+  "identity": {
+    "canonical_name": "Sena Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1072,
+    "end": 1235,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1072,
+      "to_year": 1098,
+      "area_km2": 256548.10396611821,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 4593,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 256548.10396611821,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 4763,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1138,
+      "area_km2": 256667.08099378465,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 4796,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1146,
+      "area_km2": 257143.09212748133,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 4851,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 257024.11509981492,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 4944,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 253585.45627328238,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 5008,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1226,
+      "area_km2": 253802.11780438485,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 5018,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1235,
+      "area_km2": 253802.11780438485,
+      "wikidata_id": null,
+      "seshat_id": "bd_sena_dyn",
+      "wikipedia": "Sena Dynasty",
+      "source_feature_index": 5502,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

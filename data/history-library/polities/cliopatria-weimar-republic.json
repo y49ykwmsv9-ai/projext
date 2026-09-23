@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-weimar-republic",
+  "identity": {
+    "canonical_name": "Weimar Republic",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1920,
+    "end": 1935,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 458036.1661527874,
+      "wikidata_id": null,
+      "seshat_id": "de_weimar_rep",
+      "wikipedia": "Weimar Republic",
+      "source_feature_index": 12489,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 453428.02624648885,
+      "wikidata_id": null,
+      "seshat_id": "de_weimar_rep",
+      "wikipedia": "Weimar Republic",
+      "source_feature_index": 12545,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1925,
+      "area_km2": 456834.66618517216,
+      "wikidata_id": null,
+      "seshat_id": "de_weimar_rep",
+      "wikipedia": "Weimar Republic",
+      "source_feature_index": 12577,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1929,
+      "area_km2": 460629.17049411277,
+      "wikidata_id": null,
+      "seshat_id": "de_weimar_rep",
+      "wikipedia": "Weimar Republic",
+      "source_feature_index": 12591,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1930,
+      "to_year": 1931,
+      "area_km2": 478452.45558932907,
+      "wikidata_id": null,
+      "seshat_id": "de_weimar_rep",
+      "wikipedia": "Weimar Republic",
+      "source_feature_index": 12667,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 481582.9973873837,
+      "wikidata_id": null,
+      "seshat_id": "de_weimar_rep",
+      "wikipedia": "Weimar Republic",
+      "source_feature_index": 12673,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

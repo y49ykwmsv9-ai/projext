@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-r-o-de-la-plata",
+  "identity": {
+    "canonical_name": "Río de la Plata",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1811,
+    "end": 1833,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 1678493.5127176126,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 10841,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 1677893.7338145047,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 10853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 1221605.8552865598,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 10882,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 905992.4634271332,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 10960,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 1391945.6207418954,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 11022,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1827,
+      "area_km2": 1410672.4049568295,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 11107,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 1412831.921583753,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 11186,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 1412831.921583753,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Río de la Plata",
+      "source_feature_index": 11226,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

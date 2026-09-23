@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-southern-ming",
+  "identity": {
+    "canonical_name": "Southern Ming",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1645,
+    "end": 1682,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 2180007.37932304,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Southern Ming",
+      "source_feature_index": 8923,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 2171534.7090057437,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Southern Ming",
+      "source_feature_index": 8964,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 198795.39468588177,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Southern Ming",
+      "source_feature_index": 9020,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1672,
+      "area_km2": 40938.85351801746,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Southern Ming",
+      "source_feature_index": 9071,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 976184.6167041215,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Southern Ming",
+      "source_feature_index": 9162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 1931756.3458653952,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Southern Ming",
+      "source_feature_index": 9181,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "id": "cliopatria-kingdom-of-hungary",
+  "identity": {
+    "canonical_name": "Kingdom of Hungary",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1000,
+    "end": 1546,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1000,
+      "to_year": 1002,
+      "area_km2": 271924.5648977949,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4088,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1003,
+      "to_year": 1009,
+      "area_km2": 231985.45271335775,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4113,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1014,
+      "area_km2": 239487.41787170552,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4130,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1017,
+      "area_km2": 226407.20513741518,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4201,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1027,
+      "area_km2": 265466.7981674847,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1039,
+      "area_km2": 265331.45671793085,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4244,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1065,
+      "area_km2": 271901.49618564715,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4342,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1084,
+      "area_km2": 271512.02082866634,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4536,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 271534.25827381195,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4666,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 307167.0538256916,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4709,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1138,
+      "area_km2": 342715.65024650446,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1146,
+      "area_km2": 345534.79279446456,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1168,
+      "area_km2": 345512.5553493189,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 4958,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1176,
+      "area_km2": 323774.1877284676,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5031,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 323617.76176880026,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5065,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1191,
+      "area_km2": 441350.49483940564,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5168,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1192,
+      "to_year": 1201,
+      "area_km2": 335065.40803305374,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5173,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1205,
+      "area_km2": 353287.200421368,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 334806.8475199461,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5293,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 334829.4702616598,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5384,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1219,
+      "area_km2": 360330.38494922454,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1220,
+      "to_year": 1235,
+      "area_km2": 361607.6323441688,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5456,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 334739.8434584896,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5615,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 335898.36968433636,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5670,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1259,
+      "area_km2": 349467.3225756944,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5708,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 349512.6357244619,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5793,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1278,
+      "area_km2": 349046.7281709691,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1293,
+      "area_km2": 349000.45244902367,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5902,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 334132.4817537147,
+      "wikidata_id": null,
+      "seshat_id": "hu_arpad_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 5997,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 291761.2191576503,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6062,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 349938.1410782691,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6170,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 341023.355557945,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6231,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 333917.15332147357,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6330,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 333893.85468266305,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6414,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 334005.8534768163,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 344138.8582424896,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6552,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 338285.62211941055,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6604,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 338630.7162278611,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6663,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 338700.67769236007,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6784,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 338537.6060875348,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6860,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 331723.47341909184,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 6960,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1439,
+      "area_km2": 332001.7928158635,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7052,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1449,
+      "area_km2": 338486.3474649558,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7171,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 332627.5040234205,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7339,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 331682.155590727,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7356,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 334525.8830727983,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7399,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 409991.975935216,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7482,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 413189.34525937145,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7536,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 466329.0746022468,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7575,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1520,
+      "area_km2": 337523.500835957,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7603,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1525,
+      "area_km2": 333999.0496118554,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7921,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 324832.2602815073,
+      "wikidata_id": null,
+      "seshat_id": "hu_later_dyn",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7968,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 219131.4373095525,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 7989,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 241602.30394418168,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 8043,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 121533.90952779891,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Hungary",
+      "source_feature_index": 8054,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

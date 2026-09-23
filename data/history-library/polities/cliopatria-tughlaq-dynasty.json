@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-tughlaq-dynasty",
+  "identity": {
+    "canonical_name": "Tughlaq Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1326,
+    "end": 1414,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 2446788.471741286,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6218,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 2449486.162867806,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6269,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 1886437.1779859914,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6341,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1374,
+      "area_km2": 436448.0653426532,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6457,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 437073.11824346276,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6623,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 436265.60786673037,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6722,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 431439.11000004044,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6771,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 189727.53754651462,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 88975.1131104822,
+      "wikidata_id": null,
+      "seshat_id": "in_delhi_sultanate",
+      "wikipedia": "Tughlaq dynasty",
+      "source_feature_index": 6902,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

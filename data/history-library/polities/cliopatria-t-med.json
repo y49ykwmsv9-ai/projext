@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-t-med",
+  "identity": {
+    "canonical_name": "Tümed",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1547,
+    "end": 1699,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 2080979.781955305,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8106,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1581,
+      "area_km2": 2616320.4399267775,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8165,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1599,
+      "area_km2": 413938.8247390785,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8395,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1608,
+      "area_km2": 413933.1849441499,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8530,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1644,
+      "area_km2": 413938.8247390785,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8567,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 414336.9743806384,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8940,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 413938.8247390785,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8979,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1676,
+      "area_km2": 414108.4260517137,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 8995,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 414083.1384534986,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 9209,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 414529.64363303065,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 9234,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1695,
+      "area_km2": 413938.82473907835,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 9303,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 413669.9052630353,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tumed",
+      "source_feature_index": 9345,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

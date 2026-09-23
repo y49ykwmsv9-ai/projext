@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-sukhothai-kingdom",
+  "identity": {
+    "canonical_name": "Sukhothai Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1241,
+    "end": 1458,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1241,
+      "to_year": 1293,
+      "area_km2": 271851.35856615845,
+      "wikidata_id": null,
+      "seshat_id": "th_sukhotai",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 5671,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1343,
+      "area_km2": 395110.2830757076,
+      "wikidata_id": null,
+      "seshat_id": "th_sukhotai",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 5999,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 395055.04764903215,
+      "wikidata_id": null,
+      "seshat_id": "th_sukhotai",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 6412,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 395251.57762618735,
+      "wikidata_id": null,
+      "seshat_id": "th_sukhotai",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 6445,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 277519.2566941638,
+      "wikidata_id": null,
+      "seshat_id": "th_sukhotai",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 6555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1421,
+      "area_km2": 63192.14305497911,
+      "wikidata_id": null,
+      "seshat_id": "th_sukhotai",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 6600,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1449,
+      "area_km2": 63192.14305497911,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 7051,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 222.63421717967555,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sukhothai Kingdom",
+      "source_feature_index": 7299,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

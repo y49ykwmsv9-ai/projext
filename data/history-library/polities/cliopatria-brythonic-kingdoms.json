@@ -1,0 +1,714 @@
+{
+  "id": "cliopatria-brythonic-kingdoms",
+  "identity": {
+    "canonical_name": "(Brythonic Kingdoms)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 439,
+    "end": 1284,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 439,
+      "to_year": 440,
+      "area_km2": 207599.69414430286,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1734,
+      "geometry_available": true
+    },
+    {
+      "from_year": 441,
+      "to_year": 450,
+      "area_km2": 162185.8747955457,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1762,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 451,
+      "area_km2": 162412.45012779214,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1783,
+      "geometry_available": true
+    },
+    {
+      "from_year": 452,
+      "to_year": 454,
+      "area_km2": 162185.8747955457,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1800,
+      "geometry_available": true
+    },
+    {
+      "from_year": 455,
+      "to_year": 461,
+      "area_km2": 163542.92962521737,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1818,
+      "geometry_available": true
+    },
+    {
+      "from_year": 462,
+      "to_year": 468,
+      "area_km2": 163804.78623785105,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1837,
+      "geometry_available": true
+    },
+    {
+      "from_year": 469,
+      "to_year": 479,
+      "area_km2": 163542.92962521737,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1847,
+      "geometry_available": true
+    },
+    {
+      "from_year": 480,
+      "to_year": 522,
+      "area_km2": 129529.74654683401,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1883,
+      "geometry_available": true
+    },
+    {
+      "from_year": 523,
+      "to_year": 533,
+      "area_km2": 129690.34800533162,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 1957,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 539,
+      "area_km2": 129797.0688478246,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2003,
+      "geometry_available": true
+    },
+    {
+      "from_year": 540,
+      "to_year": 554,
+      "area_km2": 129924.59133040438,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2017,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 568,
+      "area_km2": 119468.6405106759,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2069,
+      "geometry_available": true
+    },
+    {
+      "from_year": 569,
+      "to_year": 576,
+      "area_km2": 119603.86481310934,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2141,
+      "geometry_available": true
+    },
+    {
+      "from_year": 577,
+      "to_year": 586,
+      "area_km2": 107881.15443411199,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 587,
+      "to_year": 591,
+      "area_km2": 83569.7021815721,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2178,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 601,
+      "area_km2": 83316.89163593197,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2197,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 611,
+      "area_km2": 83272.46538243242,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2211,
+      "geometry_available": true
+    },
+    {
+      "from_year": 612,
+      "to_year": 616,
+      "area_km2": 83352.08421657736,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2240,
+      "geometry_available": true
+    },
+    {
+      "from_year": 617,
+      "to_year": 625,
+      "area_km2": 79999.4903600577,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2254,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 627,
+      "area_km2": 77679.51569988506,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2295,
+      "geometry_available": true
+    },
+    {
+      "from_year": 628,
+      "to_year": 632,
+      "area_km2": 72274.9390557843,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2325,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 633,
+      "area_km2": 72957.34943526694,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2371,
+      "geometry_available": true
+    },
+    {
+      "from_year": 634,
+      "to_year": 637,
+      "area_km2": 72863.27477957409,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2389,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 643,
+      "area_km2": 66119.75348504848,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2426,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 69446.45703060241,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2464,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 57639.35240413232,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2473,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 57746.85295346298,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2511,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 704,
+      "area_km2": 57639.35240413232,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2528,
+      "geometry_available": true
+    },
+    {
+      "from_year": 705,
+      "to_year": 709,
+      "area_km2": 54524.08585450965,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2651,
+      "geometry_available": true
+    },
+    {
+      "from_year": 710,
+      "to_year": 740,
+      "area_km2": 44713.81128711831,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2669,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 44648.11917608385,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2739,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 754,
+      "area_km2": 42632.922509063705,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2765,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 787,
+      "area_km2": 42698.614620098175,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2820,
+      "geometry_available": true
+    },
+    {
+      "from_year": 788,
+      "to_year": 805,
+      "area_km2": 42632.922509063705,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 2954,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 829,
+      "area_km2": 42698.614620098175,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 830,
+      "to_year": 839,
+      "area_km2": 42632.922509063705,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3098,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 859,
+      "area_km2": 42698.614620098175,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3123,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 42670.80179712599,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3208,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 42584.01685648688,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 54470.34564215077,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3266,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 877,
+      "area_km2": 54317.281255189286,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3307,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 883,
+      "area_km2": 54346.72963030074,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3354,
+      "geometry_available": true
+    },
+    {
+      "from_year": 884,
+      "to_year": 897,
+      "area_km2": 54368.69422749919,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 54281.03751926627,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3528,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 54368.69422749919,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 54411.43116787602,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3589,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 54520.57750490004,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3612,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 54429.3077687966,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3674,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 54341.65106056369,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3727,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 47923.53653015553,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3758,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 43395.82581690577,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3799,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 979,
+      "area_km2": 43348.71647718353,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3860,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 1039,
+      "area_km2": 43364.06254079632,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 3988,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 33836.81599861102,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4346,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 33923.60093925014,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4397,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 33892.56325824791,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4502,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 34152.23833342754,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4544,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 27384.177573557838,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4603,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1098,
+      "area_km2": 16633.377932259908,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4665,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1168,
+      "area_km2": 17901.51471784237,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 4747,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1209,
+      "area_km2": 17800.615366795384,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 5035,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 17825.926599115217,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 5380,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1235,
+      "area_km2": 17905.575355450208,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 5443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1278,
+      "area_km2": 14544.036676695605,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 5609,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 14544.036676695605,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Celtic Britons",
+      "source_feature_index": 5900,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-taifa-of-badajoz",
+  "identity": {
+    "canonical_name": "Taifa of Badajoz",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1010,
+    "end": 1151,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1010,
+      "to_year": 1014,
+      "area_km2": 104531.71938318187,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1015,
+      "to_year": 1017,
+      "area_km2": 104629.85037185477,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4170,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1027,
+      "area_km2": 102204.97543458841,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4212,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1033,
+      "area_km2": 101510.21363915243,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4274,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 106729.17769849219,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4307,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1055,
+      "area_km2": 100750.51847799281,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4371,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 95777.19794355027,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4452,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 65261.203728680375,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4583,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1093,
+      "area_km2": 65278.083882375686,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4637,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 4454.49533303338,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Badajoz",
+      "source_feature_index": 4916,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

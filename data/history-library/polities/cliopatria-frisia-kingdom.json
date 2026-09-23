@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-frisia-kingdom",
+  "identity": {
+    "canonical_name": "Frisia Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 612,
+    "end": 717,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 612,
+      "to_year": 616,
+      "area_km2": 63720.452730710414,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2238,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 660,
+      "area_km2": 57128.88265684257,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2458,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 665,
+      "area_km2": 57195.05980883241,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 673,
+      "area_km2": 57128.88265684257,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 674,
+      "to_year": 681,
+      "area_km2": 57195.05980883241,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2565,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 57128.88265684257,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2590,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 709,
+      "area_km2": 57195.05980883241,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2620,
+      "geometry_available": true
+    },
+    {
+      "from_year": 710,
+      "to_year": 717,
+      "area_km2": 57195.05980883241,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Frisia",
+      "source_feature_index": 2662,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

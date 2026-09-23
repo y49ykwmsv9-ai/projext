@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-united-principalities-of-moldavia-and-wallachia",
+  "identity": {
+    "canonical_name": "United Principalities of Moldavia and Wallachia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1859,
+    "end": 1916,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1859,
+      "to_year": 1879,
+      "area_km2": 128549.32835846231,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United Principalities of Moldavia and Wallachia",
+      "source_feature_index": 11615,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1899,
+      "area_km2": 130261.65827463233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United Principalities of Moldavia and Wallachia",
+      "source_feature_index": 11990,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1912,
+      "area_km2": 130284.47893086002,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United Principalities of Moldavia and Wallachia",
+      "source_feature_index": 12179,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1914,
+      "area_km2": 138273.26491452608,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United Principalities of Moldavia and Wallachia",
+      "source_feature_index": 12305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 138434.9252556073,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United Principalities of Moldavia and Wallachia",
+      "source_feature_index": 12345,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 155631.27607241215,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United Principalities of Moldavia and Wallachia",
+      "source_feature_index": 12385,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

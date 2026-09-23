@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-axum",
+  "identity": {
+    "canonical_name": "Kingdom of Axum",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -50,
+    "end": 946,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -50,
+      "to_year": 237,
+      "area_km2": 97003.90299438157,
+      "wikidata_id": null,
+      "seshat_id": "et_aksum_emp_1",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 1036,
+      "geometry_available": true
+    },
+    {
+      "from_year": 238,
+      "to_year": 352,
+      "area_km2": 133415.64185753584,
+      "wikidata_id": null,
+      "seshat_id": "et_aksum_emp_1",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 1344,
+      "geometry_available": true
+    },
+    {
+      "from_year": 353,
+      "to_year": 533,
+      "area_km2": 97003.90299438157,
+      "wikidata_id": null,
+      "seshat_id": "et_aksum_emp_2",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 1490,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 601,
+      "area_km2": 392798.4248962758,
+      "wikidata_id": null,
+      "seshat_id": "et_aksum_emp_2",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 1986,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 805,
+      "area_km2": 97003.90299438157,
+      "wikidata_id": null,
+      "seshat_id": "et_aksum_emp_3",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 2229,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 935,
+      "area_km2": 97003.90299438157,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 3030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 97003.90299438157,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Aksum",
+      "source_feature_index": 3785,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

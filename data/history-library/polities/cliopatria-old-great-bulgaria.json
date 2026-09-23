@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-old-great-bulgaria",
+  "identity": {
+    "canonical_name": "Old Great Bulgaria",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 633,
+    "end": 681,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 633,
+      "to_year": 655,
+      "area_km2": 244844.94110055303,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Old Great Bulgaria",
+      "source_feature_index": 2369,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 673,
+      "area_km2": 301063.6716313905,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Old Great Bulgaria",
+      "source_feature_index": 2494,
+      "geometry_available": true
+    },
+    {
+      "from_year": 674,
+      "to_year": 681,
+      "area_km2": 62759.49940916368,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Old Great Bulgaria",
+      "source_feature_index": 2566,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-kingdom-of-the-iberians",
+  "identity": {
+    "canonical_name": "Kingdom of the Iberians",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 814,
+    "end": 999,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 814,
+      "to_year": 824,
+      "area_km2": 24351.681195221554,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Iberians",
+      "source_feature_index": 3045,
+      "geometry_available": true
+    },
+    {
+      "from_year": 825,
+      "to_year": 839,
+      "area_km2": 24327.71890549584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Iberians",
+      "source_feature_index": 3077,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 865,
+      "area_km2": 24351.681195221554,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Iberians",
+      "source_feature_index": 3135,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 885,
+      "area_km2": 24207.583971575074,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Iberians",
+      "source_feature_index": 3239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 989,
+      "area_km2": 24614.739091023344,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Iberians",
+      "source_feature_index": 3428,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 999,
+      "area_km2": 24614.739091023344,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of the Iberians",
+      "source_feature_index": 4032,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

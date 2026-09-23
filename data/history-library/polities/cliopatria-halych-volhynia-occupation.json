@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-halych-volhynia-occupation",
+  "identity": {
+    "canonical_name": "Halych-Volhynia occupation",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1056,
+    "end": 1240,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 277331.3404935976,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 4453,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 452489.7852985185,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 4584,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 452401.8863708773,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 4636,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 452246.97067002644,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 4683,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1146,
+      "area_km2": 407975.6500207669,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 4695,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1187,
+      "area_km2": 408047.26936122467,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 4915,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1191,
+      "area_km2": 408416.29128857097,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 5137,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1192,
+      "to_year": 1205,
+      "area_km2": 408047.26936122467,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 5193,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1235,
+      "area_km2": 333047.44746528944,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 5333,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 333724.34720045835,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Galicia-Volhynia",
+      "source_feature_index": 5556,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

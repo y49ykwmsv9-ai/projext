@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kashmir-and-jammu",
+  "identity": {
+    "canonical_name": "Kashmir and Jammu",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1846,
+    "end": 1947,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 169325.66913766376,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 11410,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 169502.85536237407,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 11451,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 169089.80646284504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 11488,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1858,
+      "area_km2": 164746.48853971795,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 11497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 164497.986161577,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 11621,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1884,
+      "area_km2": 168841.3040847041,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 11647,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 182006.4521879708,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Jammu and Kashmir (princely state)",
+      "source_feature_index": 13014,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

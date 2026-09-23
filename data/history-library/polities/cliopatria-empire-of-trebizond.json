@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-empire-of-trebizond",
+  "identity": {
+    "canonical_name": "Empire of Trebizond",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1206,
+    "end": 1462,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 33147.27626230432,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 5302,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1226,
+      "area_km2": 15136.665054207631,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 5387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1249,
+      "area_km2": 14803.138631433261,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 5528,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1250,
+      "to_year": 1293,
+      "area_km2": 14707.316838695773,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 5716,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 14923.67398246738,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6008,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1332,
+      "area_km2": 14971.642530942623,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6053,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 13592.801562264014,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6320,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1384,
+      "area_km2": 26581.952279382804,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6404,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 26630.266479971066,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6671,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 26486.80564946798,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6777,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 26341.05833669325,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6852,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 26486.80564946798,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6898,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1458,
+      "area_km2": 26630.266479971066,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 6952,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 26581.434826641285,
+      "wikidata_id": null,
+      "seshat_id": "tr_trebizond_emp",
+      "wikipedia": "Empire of Trebizond",
+      "source_feature_index": 7331,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

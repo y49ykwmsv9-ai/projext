@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-kingdom-of-jerusalem",
+  "identity": {
+    "canonical_name": "Kingdom of Jerusalem",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1099,
+    "end": 1293,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 14836.469774848505,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_1",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 4751,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1125,
+      "area_km2": 36748.50495199431,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_1",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 4798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1126,
+      "to_year": 1168,
+      "area_km2": 53894.95839480907,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_1",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 4814,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1187,
+      "area_km2": 19007.864453211183,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_1",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5021,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1191,
+      "area_km2": 2569.8737945359812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5172,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1192,
+      "to_year": 1235,
+      "area_km2": 8909.429815529033,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_2",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5176,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1259,
+      "area_km2": 8858.155323174191,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_2",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5605,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 8693.350419746093,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_2",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5789,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1284,
+      "area_km2": 2113.976654600347,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_2",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5851,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 2113.976654600347,
+      "wikidata_id": null,
+      "seshat_id": "il_jerusalem_k_2",
+      "wikipedia": "Kingdom of Jerusalem",
+      "source_feature_index": 5946,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

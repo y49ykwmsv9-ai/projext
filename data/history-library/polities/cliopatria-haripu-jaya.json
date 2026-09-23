@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-haripu-jaya",
+  "identity": {
+    "canonical_name": "Haripuñjaya",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 661,
+    "end": 1293,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 661,
+      "to_year": 665,
+      "area_km2": 143044.10062656912,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Haripuñjaya",
+      "source_feature_index": 2518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 1065,
+      "area_km2": 143044.10062656912,
+      "wikidata_id": null,
+      "seshat_id": "th_haribhunjaya_k",
+      "wikipedia": "Haripuñjaya",
+      "source_feature_index": 2545,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1187,
+      "area_km2": 141820.99565437922,
+      "wikidata_id": null,
+      "seshat_id": "th_haribhunjaya_k",
+      "wikipedia": "Haripuñjaya",
+      "source_feature_index": 4585,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1284,
+      "area_km2": 54786.390017023194,
+      "wikidata_id": null,
+      "seshat_id": "th_haribhunjaya_k",
+      "wikipedia": "Haripuñjaya",
+      "source_feature_index": 5131,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1293,
+      "area_km2": 54786.390017023194,
+      "wikidata_id": null,
+      "seshat_id": "th_haribhunjaya_k",
+      "wikipedia": "Haripuñjaya",
+      "source_feature_index": 5921,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

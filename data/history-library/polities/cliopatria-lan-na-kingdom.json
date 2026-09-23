@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-lan-na-kingdom",
+  "identity": {
+    "canonical_name": "Lan Na Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1294,
+    "end": 1563,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1294,
+      "to_year": 1343,
+      "area_km2": 73765.10141441385,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 6026,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1362,
+      "area_km2": 78968.66348896254,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 6338,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1452,
+      "area_km2": 52548.657282700486,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 6507,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 52632.5638784321,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 7266,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1506,
+      "area_km2": 52548.657282700486,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 7323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1511,
+      "area_km2": 52632.5638784321,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 7736,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1555,
+      "area_km2": 52548.657282700486,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 7790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 52548.657282700486,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lan Na",
+      "source_feature_index": 8216,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

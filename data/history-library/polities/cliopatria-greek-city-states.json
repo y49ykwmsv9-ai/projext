@@ -1,0 +1,594 @@
+{
+  "id": "cliopatria-greek-city-states",
+  "identity": {
+    "canonical_name": "Greek City-States",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -800,
+    "end": 83,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -800,
+      "to_year": -751,
+      "area_km2": 58484.87446344054,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 141,
+      "geometry_available": true
+    },
+    {
+      "from_year": -750,
+      "to_year": -701,
+      "area_km2": 64105.809261435774,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 180,
+      "geometry_available": true
+    },
+    {
+      "from_year": -700,
+      "to_year": -676,
+      "area_km2": 91049.92526911218,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 191,
+      "geometry_available": true
+    },
+    {
+      "from_year": -675,
+      "to_year": -651,
+      "area_km2": 91487.75155981355,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 195,
+      "geometry_available": true
+    },
+    {
+      "from_year": -650,
+      "to_year": -631,
+      "area_km2": 124013.98802734412,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 215,
+      "geometry_available": true
+    },
+    {
+      "from_year": -630,
+      "to_year": -616,
+      "area_km2": 138945.50478705947,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 218,
+      "geometry_available": true
+    },
+    {
+      "from_year": -615,
+      "to_year": -601,
+      "area_km2": 167225.7357379338,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 226,
+      "geometry_available": true
+    },
+    {
+      "from_year": -600,
+      "to_year": -551,
+      "area_km2": 169638.2453773935,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 253,
+      "geometry_available": true
+    },
+    {
+      "from_year": -550,
+      "to_year": -541,
+      "area_km2": 189486.3503176646,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 255,
+      "geometry_available": true
+    },
+    {
+      "from_year": -540,
+      "to_year": -531,
+      "area_km2": 167709.5931470228,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 276,
+      "geometry_available": true
+    },
+    {
+      "from_year": -530,
+      "to_year": -501,
+      "area_km2": 167200.1628916521,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 279,
+      "geometry_available": true
+    },
+    {
+      "from_year": -500,
+      "to_year": -481,
+      "area_km2": 146314.75328617598,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 287,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -451,
+      "area_km2": 123350.974259315,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 317,
+      "geometry_available": true
+    },
+    {
+      "from_year": -450,
+      "to_year": -405,
+      "area_km2": 125277.03345547673,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 330,
+      "geometry_available": true
+    },
+    {
+      "from_year": -404,
+      "to_year": -384,
+      "area_km2": 173082.95721666596,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 372,
+      "geometry_available": true
+    },
+    {
+      "from_year": -383,
+      "to_year": -367,
+      "area_km2": 178601.3681811456,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 386,
+      "geometry_available": true
+    },
+    {
+      "from_year": -366,
+      "to_year": -351,
+      "area_km2": 123933.56758262542,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 413,
+      "geometry_available": true
+    },
+    {
+      "from_year": -350,
+      "to_year": -338,
+      "area_km2": 144388.10933938398,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 421,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -334,
+      "area_km2": 93633.80428654862,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 442,
+      "geometry_available": true
+    },
+    {
+      "from_year": -333,
+      "to_year": -332,
+      "area_km2": 94880.12479548366,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 463,
+      "geometry_available": true
+    },
+    {
+      "from_year": -331,
+      "to_year": -327,
+      "area_km2": 104782.77545896609,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 474,
+      "geometry_available": true
+    },
+    {
+      "from_year": -326,
+      "to_year": -324,
+      "area_km2": 97524.67394394356,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 475,
+      "geometry_available": true
+    },
+    {
+      "from_year": -323,
+      "to_year": -319,
+      "area_km2": 134489.53057474407,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 487,
+      "geometry_available": true
+    },
+    {
+      "from_year": -318,
+      "to_year": -308,
+      "area_km2": 162720.8206528233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 502,
+      "geometry_available": true
+    },
+    {
+      "from_year": -307,
+      "to_year": -302,
+      "area_km2": 89219.11134339478,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 516,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -292,
+      "area_km2": 88486.12056956405,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 531,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -285,
+      "area_km2": 80006.73844701519,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 550,
+      "geometry_available": true
+    },
+    {
+      "from_year": -284,
+      "to_year": -284,
+      "area_km2": 93633.78868635996,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 557,
+      "geometry_available": true
+    },
+    {
+      "from_year": -283,
+      "to_year": -282,
+      "area_km2": 93586.24716373872,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 567,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -280,
+      "area_km2": 94821.43394264442,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 571,
+      "geometry_available": true
+    },
+    {
+      "from_year": -279,
+      "to_year": -278,
+      "area_km2": 92020.89258206857,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 584,
+      "geometry_available": true
+    },
+    {
+      "from_year": -277,
+      "to_year": -276,
+      "area_km2": 68521.32522900279,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 599,
+      "geometry_available": true
+    },
+    {
+      "from_year": -275,
+      "to_year": -273,
+      "area_km2": 94388.67225612282,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 604,
+      "geometry_available": true
+    },
+    {
+      "from_year": -272,
+      "to_year": -272,
+      "area_km2": 98876.33759786941,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 607,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -224,
+      "area_km2": 87381.38379918285,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 705,
+      "geometry_available": true
+    },
+    {
+      "from_year": -223,
+      "to_year": -211,
+      "area_km2": 87864.22322423718,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 709,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 70897.55839432981,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 753,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 70751.01823899336,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 759,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -203,
+      "area_km2": 80819.51110733306,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 807,
+      "geometry_available": true
+    },
+    {
+      "from_year": -202,
+      "to_year": -198,
+      "area_km2": 78129.9826702815,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 825,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -189,
+      "area_km2": 130882.49508400114,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 840,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -171,
+      "area_km2": 190740.23013512834,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 852,
+      "geometry_available": true
+    },
+    {
+      "from_year": -170,
+      "to_year": -165,
+      "area_km2": 178655.51624149003,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 861,
+      "geometry_available": true
+    },
+    {
+      "from_year": -164,
+      "to_year": -145,
+      "area_km2": 206487.68006130517,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 881,
+      "geometry_available": true
+    },
+    {
+      "from_year": -144,
+      "to_year": -127,
+      "area_km2": 103509.47941991042,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 907,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 100248.33677400176,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 925,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 89140.91178110256,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 934,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -88,
+      "area_km2": 73144.36933869934,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 961,
+      "geometry_available": true
+    },
+    {
+      "from_year": -87,
+      "to_year": -78,
+      "area_km2": 66003.01080076127,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 978,
+      "geometry_available": true
+    },
+    {
+      "from_year": -77,
+      "to_year": -64,
+      "area_km2": 31602.132650747008,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 989,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": -43,
+      "area_km2": 23623.176617456902,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 1016,
+      "geometry_available": true
+    },
+    {
+      "from_year": -42,
+      "to_year": 77,
+      "area_km2": 23893.38837191995,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 1051,
+      "geometry_available": true
+    },
+    {
+      "from_year": 78,
+      "to_year": 83,
+      "area_km2": 602.3889300473465,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Polis",
+      "source_feature_index": 1190,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

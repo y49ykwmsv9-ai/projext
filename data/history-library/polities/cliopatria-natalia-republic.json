@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-natalia-republic",
+  "identity": {
+    "canonical_name": "Natalia Republic",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1840,
+    "end": 1910,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1840,
+      "to_year": 1847,
+      "area_km2": 37667.68674907997,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 11353,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1855,
+      "area_km2": 36775.59017652049,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 11443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1876,
+      "area_km2": 36959.155706281505,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 11550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1884,
+      "area_km2": 36434.64296490544,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 11935,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1897,
+      "area_km2": 36380.6546094392,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 12039,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 61946.90354468863,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 12151,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1907,
+      "area_km2": 62052.17711587225,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 12183,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1908,
+      "to_year": 1910,
+      "area_km2": 61920.62847739315,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Natalia Republic",
+      "source_feature_index": 12249,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

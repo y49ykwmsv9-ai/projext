@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-atropatene",
+  "identity": {
+    "canonical_name": "Atropatene",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -307,
+    "end": -165,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -307,
+      "to_year": -302,
+      "area_km2": 147018.07036912188,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 520,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -248,
+      "area_km2": 147248.5967296045,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 525,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -224,
+      "area_km2": 147248.59672960456,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 655,
+      "geometry_available": true
+    },
+    {
+      "from_year": -223,
+      "to_year": -219,
+      "area_km2": 146718.5109330721,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 715,
+      "geometry_available": true
+    },
+    {
+      "from_year": -218,
+      "to_year": -211,
+      "area_km2": 147248.59672960456,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 724,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 146792.64214983417,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 749,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 147253.24318749894,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 773,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -198,
+      "area_km2": 146792.64214983417,
+      "wikidata_id": null,
+      "seshat_id": "ir_atropatene_k",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 785,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -189,
+      "area_km2": 146792.64214983417,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 835,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -171,
+      "area_km2": 147248.59672960456,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 858,
+      "geometry_available": true
+    },
+    {
+      "from_year": -170,
+      "to_year": -165,
+      "area_km2": 147248.59672960456,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Atropatene",
+      "source_feature_index": 871,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

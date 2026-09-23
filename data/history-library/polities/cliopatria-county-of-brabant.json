@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-county-of-brabant",
+  "identity": {
+    "canonical_name": "County of Brabant",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1260,
+    "end": 1430,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 11926.908016654766,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 5785,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1293,
+      "area_km2": 11904.873311270356,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 5837,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 13184.468261999431,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 6013,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1401,
+      "area_km2": 13118.925708005097,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 6115,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 14143.803529904237,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 6840,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 23284.161177105965,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 6977,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 13118.925708005097,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 7007,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1430,
+      "area_km2": 13184.637365368175,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Landgraviate of Brabant",
+      "source_feature_index": 7056,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

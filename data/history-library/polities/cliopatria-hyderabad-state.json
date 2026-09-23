@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-hyderabad-state",
+  "identity": {
+    "canonical_name": "Hyderabad State",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1727,
+    "end": 1947,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1727,
+      "to_year": 1743,
+      "area_km2": 261169.47806485707,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 9659,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1751,
+      "area_km2": 261393.05305502494,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 9816,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 261199.81344111924,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 9869,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 261115.636172733,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 9930,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 260411.89066080618,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 9981,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 260246.81055912358,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10032,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1775,
+      "area_km2": 183921.15310804217,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10056,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1779,
+      "area_km2": 184117.8181301038,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10160,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1787,
+      "area_km2": 183948.2887779284,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10204,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1791,
+      "area_km2": 183960.36276595114,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10254,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 184129.89211812656,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10348,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1798,
+      "area_km2": 184157.63405817092,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 10382,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 211298.1384594907,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hyderabad State",
+      "source_feature_index": 13022,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

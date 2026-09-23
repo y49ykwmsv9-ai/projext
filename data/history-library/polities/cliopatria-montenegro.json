@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-montenegro",
+  "identity": {
+    "canonical_name": "Montenegro",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1853,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1853,
+      "to_year": 1879,
+      "area_km2": 6131.471326716392,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 11514,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 6035.804469558638,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 11979,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1910,
+      "area_km2": 8889.220644872123,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 12004,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1911,
+      "area_km2": 9126.515946951175,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 12281,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1912,
+      "area_km2": 17189.76019712337,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 12284,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1915,
+      "area_km2": 14308.941656118584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 12311,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2023,
+      "area_km2": 13883.62252710825,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 13552,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 13883.62252710825,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Montenegro",
+      "source_feature_index": 13576,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

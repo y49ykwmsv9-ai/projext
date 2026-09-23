@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-principality-of-antioch",
+  "identity": {
+    "canonical_name": "Principality of Antioch",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1099,
+    "end": 1271,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 7612.477033607519,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 4764,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1138,
+      "area_km2": 15401.099397331138,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 4788,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1151,
+      "area_km2": 15626.796981261352,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 4861,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 15602.015244206197,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 5001,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1176,
+      "area_km2": 7936.291859462221,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 5012,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1177,
+      "to_year": 1187,
+      "area_km2": 7811.953990031695,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 5084,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1259,
+      "area_km2": 5306.820572960555,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 5159,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 5558.089278157105,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Antioch",
+      "source_feature_index": 5799,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

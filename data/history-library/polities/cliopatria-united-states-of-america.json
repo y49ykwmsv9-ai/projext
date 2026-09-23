@@ -1,0 +1,794 @@
+{
+  "id": "cliopatria-united-states-of-america",
+  "identity": {
+    "canonical_name": "United States of America",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1776,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1776,
+      "to_year": 1777,
+      "area_km2": 1037343.9428152106,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10156,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1779,
+      "area_km2": 1008384.6692505125,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10180,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1780,
+      "area_km2": 884183.721594366,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10193,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1781,
+      "to_year": 1782,
+      "area_km2": 1009367.2318450381,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10215,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 1009220.2104512841,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10247,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 1062121.673534366,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10276,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 1099275.8012024546,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10318,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 1102732.3907260057,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10325,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 1103923.017959083,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 1161629.6184283658,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10425,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 1173463.372961285,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10473,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 1184321.565131604,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10477,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 1184777.4449392979,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10524,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 1246532.0364413103,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10591,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 1312524.7128476643,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10643,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 1340499.666033192,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10678,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 1365647.8221047663,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10710,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 1392625.1687388988,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 1420448.6965786363,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10822,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 1502915.902934867,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10861,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 1597096.4106427152,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10898,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 1586511.8239516842,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 10945,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 1947672.9990590513,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11003,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1823,
+      "area_km2": 2119305.2985590263,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11095,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1824,
+      "area_km2": 2347418.2892599166,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11131,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 2378035.2604100965,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11158,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 2402091.268725493,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11195,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 2474221.562523558,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11221,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 2754133.2451008675,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 2812240.065316945,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11296,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 2948339.264375385,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11356,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 3001968.09808578,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 3517894.9000902227,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11428,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 3454273.4578549354,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11438,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 3468486.4313350674,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11478,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 3861910.1516292905,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11523,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1858,
+      "area_km2": 4196277.280253708,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11556,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1860,
+      "area_km2": 4301830.761547267,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11637,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1861,
+      "area_km2": 2497774.7890993566,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11677,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1862,
+      "area_km2": 3147524.9488043603,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11683,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 3318460.9648498297,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11702,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1864,
+      "area_km2": 3841202.5358410105,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11720,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 4005223.1241432796,
+      "wikidata_id": null,
+      "seshat_id": "us_antebellum",
+      "wikipedia": "United States",
+      "source_feature_index": 11754,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 5723518.155048113,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1869,
+      "area_km2": 7948991.3604147965,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11814,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 8076884.849165515,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 8075280.524017499,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11892,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1876,
+      "area_km2": 8275621.216502454,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11930,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 8847792.514678102,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11938,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1889,
+      "area_km2": 8907365.340771765,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 11967,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1897,
+      "area_km2": 9402937.599118423,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12077,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 9435721.21127147,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 9905090.03035793,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12196,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1907,
+      "area_km2": 9785250.24795766,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12199,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1908,
+      "to_year": 1910,
+      "area_km2": 9906130.158245903,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12241,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1912,
+      "area_km2": 9784692.840144297,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12262,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1913,
+      "area_km2": 9784969.997392759,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12316,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1915,
+      "area_km2": 9787018.825512784,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12337,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1917,
+      "area_km2": 9868625.618705695,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 9870220.446901822,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12434,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 9875363.836548273,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12477,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1923,
+      "area_km2": 9875086.679299835,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12510,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1935,
+      "area_km2": 9815984.895352347,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_reconstruction",
+      "wikipedia": "United States",
+      "source_feature_index": 12563,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1940,
+      "area_km2": 9781654.622706734,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United States",
+      "source_feature_index": 12717,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 12001451.03579185,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United States",
+      "source_feature_index": 12833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1943,
+      "area_km2": 11770179.230838329,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "United States",
+      "source_feature_index": 12869,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 11770301.562571695,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 12908,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 12189523.056899518,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 12928,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 10398412.628301395,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 12966,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1966,
+      "area_km2": 10148911.016277937,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 12990,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1967,
+      "to_year": 2005,
+      "area_km2": 9610607.976488188,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 13248,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2023,
+      "area_km2": 9875894.896745529,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 13535,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 9436704.343814587,
+      "wikidata_id": null,
+      "seshat_id": "us_united_states_of_america_contemporary",
+      "wikipedia": "United States",
+      "source_feature_index": 13722,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

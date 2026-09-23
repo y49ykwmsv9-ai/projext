@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-kingdom-of-luang-phrabang",
+  "identity": {
+    "canonical_name": "Kingdom of Luang Phrabang",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1709,
+    "end": 1894,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1709,
+      "to_year": 1733,
+      "area_km2": 160713.55644668918,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 9503,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 160741.15058148696,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 9686,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1768,
+      "area_km2": 160851.04899424294,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 9744,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1774,
+      "area_km2": 160713.33555804586,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 10058,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1777,
+      "area_km2": 160521.4109756273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 10127,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1782,
+      "area_km2": 160741.15058148696,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 10171,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1790,
+      "area_km2": 148096.48623673446,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 10224,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1827,
+      "area_km2": 147904.64738211577,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 10289,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1884,
+      "area_km2": 148212.65437259697,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 11166,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 147934.21620347298,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 12011,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 124326.85139754096,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Luang Prabang",
+      "source_feature_index": 12052,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

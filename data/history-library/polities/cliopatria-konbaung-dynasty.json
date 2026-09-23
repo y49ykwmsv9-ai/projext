@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-konbaung-dynasty",
+  "identity": {
+    "canonical_name": "Konbaung Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1741,
+    "end": 1819,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1741,
+      "to_year": 1751,
+      "area_km2": 116288.70381358979,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 9756,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 112428.81350111714,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 9872,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 446706.792298584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 9932,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 522157.6816136381,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 9983,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1774,
+      "area_km2": 669238.3344937774,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 10052,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1787,
+      "area_km2": 616800.6782985023,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 10130,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1793,
+      "area_km2": 675525.4656260294,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 10258,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1814,
+      "area_km2": 675754.8965368632,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 10381,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 675754.8965368632,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Konbaung dynasty",
+      "source_feature_index": 10995,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-lazica",
+  "identity": {
+    "canonical_name": "Lazica",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -63,
+    "end": 545,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -63,
+      "to_year": 67,
+      "area_km2": 28524.879275035924,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1025,
+      "geometry_available": true
+    },
+    {
+      "from_year": 68,
+      "to_year": 259,
+      "area_km2": 18165.243728866026,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1183,
+      "geometry_available": true
+    },
+    {
+      "from_year": 260,
+      "to_year": 264,
+      "area_km2": 18286.26328733823,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1360,
+      "geometry_available": true
+    },
+    {
+      "from_year": 265,
+      "to_year": 286,
+      "area_km2": 18111.174182372684,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1376,
+      "geometry_available": true
+    },
+    {
+      "from_year": 287,
+      "to_year": 305,
+      "area_km2": 18165.243728866026,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 306,
+      "to_year": 395,
+      "area_km2": 24529.36984761606,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1428,
+      "geometry_available": true
+    },
+    {
+      "from_year": 396,
+      "to_year": 396,
+      "area_km2": 17022.01992152334,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1594,
+      "geometry_available": true
+    },
+    {
+      "from_year": 397,
+      "to_year": 401,
+      "area_km2": 23474.597124962056,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1601,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 533,
+      "area_km2": 24529.36984761606,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 1630,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 539,
+      "area_km2": 24650.389406088263,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2009,
+      "geometry_available": true
+    },
+    {
+      "from_year": 540,
+      "to_year": 545,
+      "area_km2": 24650.389406088263,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2020,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

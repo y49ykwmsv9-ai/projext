@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-nguy-n-lords",
+  "identity": {
+    "canonical_name": "Nguyễn lords",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1572,
+    "end": 1775,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1572,
+      "to_year": 1652,
+      "area_km2": 89943.81584897033,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 8325,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 100448.45019890962,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9017,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1690,
+      "area_km2": 93855.92287797747,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9052,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1699,
+      "area_km2": 94595.58443414968,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9342,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 97843.48423242314,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9389,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1708,
+      "area_km2": 97984.23859002876,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9409,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1756,
+      "area_km2": 97905.22553867064,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9484,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1774,
+      "area_km2": 102091.02963790037,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 9939,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 8428.075264488129,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nguyễn lords",
+      "source_feature_index": 10110,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

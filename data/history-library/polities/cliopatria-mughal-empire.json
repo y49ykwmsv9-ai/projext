@@ -1,0 +1,564 @@
+{
+  "id": "cliopatria-mughal-empire",
+  "identity": {
+    "canonical_name": "Mughal Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1529,
+    "end": 1858,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 1200132.4253850223,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 7995,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 955783.5115621217,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 344712.5999243542,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8093,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1555,
+      "area_km2": 316589.4495304746,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8124,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 506138.2744874009,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8210,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 1076240.853807708,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8244,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 1385896.9327710157,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8316,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1587,
+      "area_km2": 1961491.3356107972,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 2360283.533672367,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 2714075.6334620286,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8458,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1611,
+      "area_km2": 2825891.031433009,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8501,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1625,
+      "area_km2": 2838210.370532434,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8604,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1639,
+      "area_km2": 2814658.6776951607,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8701,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1647,
+      "area_km2": 2871484.386194977,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8857,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 2814658.6776951607,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 8959,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 2870414.898478136,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9023,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1661,
+      "area_km2": 3210362.7168462873,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9046,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1669,
+      "area_km2": 3272338.4270463665,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9074,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 3321950.900156485,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9118,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 3291991.066232632,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9165,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1686,
+      "area_km2": 3291934.6322275577,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9185,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 3407632.2332945745,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1699,
+      "area_km2": 3735808.632647662,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9334,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1705,
+      "area_km2": 3760244.449847558,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9395,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 3712445.787719221,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9458,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 3687718.540653704,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9477,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 3599387.4905415233,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9551,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 3234527.1457289928,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9589,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 3131940.1920637856,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9615,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 2768634.6858879905,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9652,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 2768164.8565928275,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9713,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 2565453.747665355,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9734,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 1672447.932540853,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9764,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 537533.2977973232,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9805,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1756,
+      "area_km2": 537637.7150351014,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9854,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 532436.9266093128,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9940,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 134009.2462899065,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 9990,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 134738.18102213638,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10071,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1782,
+      "area_km2": 327783.529530778,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10088,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1790,
+      "area_km2": 364168.45251773944,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10233,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1793,
+      "area_km2": 362121.6643895322,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10303,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1799,
+      "area_km2": 350069.59227309184,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 349914.50138628937,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10552,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 350059.1625065141,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10569,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 299044.39008942427,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10619,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 295924.34367993067,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10695,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 296450.6953942927,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10722,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 296079.4345667331,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10758,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1856,
+      "area_km2": 240566.6820964551,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 10792,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1858,
+      "area_km2": 578.4685590435136,
+      "wikidata_id": null,
+      "seshat_id": "in_mughal_emp",
+      "wikipedia": "Mughal Empire",
+      "source_feature_index": 11601,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

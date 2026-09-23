@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-kingdom-of-numidia",
+  "identity": {
+    "canonical_name": "Kingdom of Numidia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -197,
+    "end": -47,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -197,
+      "to_year": -145,
+      "area_km2": 306737.2640750468,
+      "wikidata_id": null,
+      "seshat_id": "dz_numidia",
+      "wikipedia": "Jugurtha",
+      "source_feature_index": 844,
+      "geometry_available": true
+    },
+    {
+      "from_year": -144,
+      "to_year": -111,
+      "area_km2": 306761.70017038303,
+      "wikidata_id": null,
+      "seshat_id": "dz_numidia",
+      "wikipedia": "Jugurtha",
+      "source_feature_index": 903,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 307188.44277159986,
+      "wikidata_id": null,
+      "seshat_id": "dz_numidia",
+      "wikipedia": "Jugurtha",
+      "source_feature_index": 929,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -50,
+      "area_km2": 125873.11269882895,
+      "wikidata_id": null,
+      "seshat_id": "dz_numidia",
+      "wikipedia": "Jugurtha",
+      "source_feature_index": 963,
+      "geometry_available": true
+    },
+    {
+      "from_year": -49,
+      "to_year": -49,
+      "area_km2": 125848.676603493,
+      "wikidata_id": null,
+      "seshat_id": "dz_numidia",
+      "wikipedia": "Jugurtha",
+      "source_feature_index": 1044,
+      "geometry_available": true
+    },
+    {
+      "from_year": -48,
+      "to_year": -47,
+      "area_km2": 125848.676603493,
+      "wikidata_id": null,
+      "seshat_id": "dz_numidia",
+      "wikipedia": "Jugurtha",
+      "source_feature_index": 1048,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

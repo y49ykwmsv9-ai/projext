@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-ostrogothic-kingdom",
+  "identity": {
+    "canonical_name": "Ostrogothic Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 500,
+    "end": 560,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 500,
+      "to_year": 509,
+      "area_km2": 556173.268512885,
+      "wikidata_id": null,
+      "seshat_id": "it_ostrogoth_k",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 1932,
+      "geometry_available": true
+    },
+    {
+      "from_year": 510,
+      "to_year": 533,
+      "area_km2": 574057.8126836098,
+      "wikidata_id": null,
+      "seshat_id": "it_ostrogoth_k",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 1939,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 535,
+      "area_km2": 576942.8390566161,
+      "wikidata_id": null,
+      "seshat_id": "it_ostrogoth_k",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 2007,
+      "geometry_available": true
+    },
+    {
+      "from_year": 536,
+      "to_year": 539,
+      "area_km2": 452700.05972230894,
+      "wikidata_id": null,
+      "seshat_id": "it_ostrogoth_k",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 2011,
+      "geometry_available": true
+    },
+    {
+      "from_year": 540,
+      "to_year": 545,
+      "area_km2": 206265.09212163056,
+      "wikidata_id": null,
+      "seshat_id": "it_ostrogoth_k",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 2022,
+      "geometry_available": true
+    },
+    {
+      "from_year": 546,
+      "to_year": 554,
+      "area_km2": 77918.26878071832,
+      "wikidata_id": null,
+      "seshat_id": "it_ostrogoth_k",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 2041,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 560,
+      "area_km2": 32821.17768539873,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ostrogothic Kingdom",
+      "source_feature_index": 2078,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

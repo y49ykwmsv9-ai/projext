@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-kingdom-of-bithynia",
+  "identity": {
+    "canonical_name": "Kingdom of Bithynia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -333,
+    "end": -67,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -333,
+      "to_year": -332,
+      "area_km2": 14643.664958784315,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 465,
+      "geometry_available": true
+    },
+    {
+      "from_year": -331,
+      "to_year": -324,
+      "area_km2": 14571.587163392815,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 472,
+      "geometry_available": true
+    },
+    {
+      "from_year": -323,
+      "to_year": -302,
+      "area_km2": 14715.363483038676,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 489,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -282,
+      "area_km2": 14571.587163392815,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 532,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -280,
+      "area_km2": 14643.664958784315,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 573,
+      "geometry_available": true
+    },
+    {
+      "from_year": -279,
+      "to_year": -204,
+      "area_km2": 27392.478094051312,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 583,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -127,
+      "area_km2": 29830.45307590682,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 820,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -92,
+      "area_km2": 29902.828230498835,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 920,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -88,
+      "area_km2": 30024.44108996796,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 966,
+      "geometry_available": true
+    },
+    {
+      "from_year": -77,
+      "to_year": -67,
+      "area_km2": 30213.41545598866,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Bithynia",
+      "source_feature_index": 991,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

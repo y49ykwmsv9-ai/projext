@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-northern-yuan",
+  "identity": {
+    "canonical_name": "Northern Yuan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1375,
+    "end": 1439,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1375,
+      "to_year": 1401,
+      "area_km2": 3439108.754105173,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Northern Yuan",
+      "source_feature_index": 6585,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 2291442.7570671276,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Northern Yuan",
+      "source_feature_index": 6865,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 2183543.040545772,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Northern Yuan",
+      "source_feature_index": 6933,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1430,
+      "area_km2": 2184493.7529110294,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Northern Yuan",
+      "source_feature_index": 7030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 2184493.7529110294,
+      "wikidata_id": null,
+      "seshat_id": "mn_mongol_late",
+      "wikipedia": "Northern Yuan",
+      "source_feature_index": 7133,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-hafsid-dynasty",
+  "identity": {
+    "canonical_name": "Hafsid Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1236,
+    "end": 1571,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1236,
+      "to_year": 1293,
+      "area_km2": 224039.80718754447,
+      "wikidata_id": null,
+      "seshat_id": "tn_hafsid_dyn",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 5589,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1343,
+      "area_km2": 224190.0243258465,
+      "wikidata_id": null,
+      "seshat_id": "tn_hafsid_dyn",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 6012,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 224244.17224455756,
+      "wikidata_id": null,
+      "seshat_id": "tn_hafsid_dyn",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 6354,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1452,
+      "area_km2": 224190.0243258465,
+      "wikidata_id": null,
+      "seshat_id": "tn_hafsid_dyn",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 6488,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1511,
+      "area_km2": 224190.0243258465,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 7257,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1520,
+      "area_km2": 222431.07560124365,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 7792,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1533,
+      "area_km2": 222304.8894800469,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 7913,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 221485.97757402493,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 8021,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1551,
+      "area_km2": 222304.8894800469,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 8090,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 173148.08228811587,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 8190,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 88078.9118544957,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 8207,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 88078.9118544957,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hafsid dynasty",
+      "source_feature_index": 8257,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

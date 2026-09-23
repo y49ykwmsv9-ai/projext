@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-mataram-sultanate",
+  "identity": {
+    "canonical_name": "Mataram Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1588,
+    "end": 1743,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1588,
+      "to_year": 1618,
+      "area_km2": 45323.2691629256,
+      "wikidata_id": null,
+      "seshat_id": "id_mataram_k",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 8422,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1619,
+      "to_year": 1621,
+      "area_km2": 57748.16372775881,
+      "wikidata_id": null,
+      "seshat_id": "id_mataram_k",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 8662,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1622,
+      "to_year": 1625,
+      "area_km2": 63163.55785150032,
+      "wikidata_id": null,
+      "seshat_id": "id_mataram_k",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 8667,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1676,
+      "area_km2": 65740.91329786333,
+      "wikidata_id": null,
+      "seshat_id": "id_mataram_k",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 8707,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1705,
+      "area_km2": 54649.88316423233,
+      "wikidata_id": null,
+      "seshat_id": "id_mataram_k",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 9225,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1740,
+      "area_km2": 54649.88316423233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 9454,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 54649.88316423233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Mataram Sultanate",
+      "source_feature_index": 9769,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

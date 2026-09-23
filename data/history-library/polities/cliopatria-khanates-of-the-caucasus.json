@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-khanates-of-the-caucasus",
+  "identity": {
+    "canonical_name": "Khanates of the Caucasus",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1748,
+    "end": 1796,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1748,
+      "to_year": 1762,
+      "area_km2": 88035.74200923125,
+      "wikidata_id": null,
+      "seshat_id": "az_caucasus_khanates",
+      "wikipedia": "Khanates of the Caucasus",
+      "source_feature_index": 9827,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1787,
+      "area_km2": 87987.35473909303,
+      "wikidata_id": null,
+      "seshat_id": "az_caucasus_khanates",
+      "wikipedia": "Khanates of the Caucasus",
+      "source_feature_index": 10013,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 194383.24424552484,
+      "wikidata_id": null,
+      "seshat_id": "az_caucasus_khanates",
+      "wikipedia": "Khanates of the Caucasus",
+      "source_feature_index": 10272,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1795,
+      "area_km2": 87987.35473909303,
+      "wikidata_id": null,
+      "seshat_id": "az_caucasus_khanates",
+      "wikipedia": "Khanates of the Caucasus",
+      "source_feature_index": 10312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 48.180324336168056,
+      "wikidata_id": null,
+      "seshat_id": "az_caucasus_khanates",
+      "wikipedia": "Khanates of the Caucasus",
+      "source_feature_index": 10430,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

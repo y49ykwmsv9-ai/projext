@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-taifa-of-valencia",
+  "identity": {
+    "canonical_name": "Taifa of Valencia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1010,
+    "end": 1249,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1010,
+      "to_year": 1039,
+      "area_km2": 11873.354334232918,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 4128,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 32821.33236758899,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 4349,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1065,
+      "area_km2": 18269.143923889493,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 4398,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 11823.59768237843,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 4663,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 11799.251883265351,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 4707,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 53656.35384343591,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 4957,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1240,
+      "area_km2": 7834.289877189016,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 5613,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1249,
+      "area_km2": 6279.368804461663,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Valencia",
+      "source_feature_index": 5674,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

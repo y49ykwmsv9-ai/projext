@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-yenisei-kyrgyz",
+  "identity": {
+    "canonical_name": "Yenisei Kyrgyz",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 555,
+    "end": 1219,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 555,
+      "to_year": 681,
+      "area_km2": 423936.7376321778,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 2067,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 691,
+      "area_km2": 424096.47344251367,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 2585,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 762,
+      "area_km2": 423936.7376321778,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 2624,
+      "geometry_available": true
+    },
+    {
+      "from_year": 793,
+      "to_year": 839,
+      "area_km2": 167264.22709607647,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 2974,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 849,
+      "area_km2": 211970.27917087948,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 3129,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 1205,
+      "area_km2": 424096.47344251367,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 3153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1209,
+      "area_km2": 423817.20840819867,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 5274,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 380301.7245819766,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 5370,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1219,
+      "area_km2": 380301.7245819766,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Yenisei Kyrgyz",
+      "source_feature_index": 5430,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

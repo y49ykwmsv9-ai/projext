@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-kingdom-of-croatia",
+  "identity": {
+    "canonical_name": "Kingdom of Croatia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 926,
+    "end": 1098,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 55426.70408497101,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 3704,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 959,
+      "area_km2": 56132.36325763141,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 3770,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 960,
+      "area_km2": 54755.21600285429,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 3884,
+      "geometry_available": true
+    },
+    {
+      "from_year": 961,
+      "to_year": 969,
+      "area_km2": 55687.837144661666,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 3915,
+      "geometry_available": true
+    },
+    {
+      "from_year": 970,
+      "to_year": 979,
+      "area_km2": 54919.85657960249,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 3934,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 989,
+      "area_km2": 90286.88627069874,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 3977,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 999,
+      "area_km2": 92789.23296573704,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 4066,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1000,
+      "to_year": 1017,
+      "area_km2": 90472.30759739893,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 4090,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1084,
+      "area_km2": 90403.10074985535,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 4226,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 70112.10426152605,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 4639,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1094,
+      "to_year": 1098,
+      "area_km2": 35618.477985568825,
+      "wikidata_id": null,
+      "seshat_id": "hr_croatia_k",
+      "wikipedia": "Kingdom of Croatia (925–1102)",
+      "source_feature_index": 4725,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

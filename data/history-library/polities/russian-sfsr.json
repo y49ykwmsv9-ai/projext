@@ -1,0 +1,20 @@
+{
+  "id": "russian-sfsr",
+  "canonical_name": "Russian SFSR",
+  "type": "polity",
+  "start_year": 1917,
+  "end_year": 1991,
+  "era": "modern",
+  "region": "Eurasia",
+  "aliases": [],
+  "source_ids": [
+    "chronicle-seed-polities"
+  ],
+  "provenance": [
+    {
+      "source_id": "chronicle-seed-polities",
+      "retrieved_at": "2026-09-23",
+      "confidence": "unknown"
+    }
+  ]
+}

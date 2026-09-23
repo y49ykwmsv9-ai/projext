@@ -1,0 +1,384 @@
+{
+  "id": "cliopatria-kingdom-of-armenia",
+  "identity": {
+    "canonical_name": "Kingdom of Armenia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -326,
+    "end": 646,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -326,
+      "to_year": -324,
+      "area_km2": 241707.82479927677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 480,
+      "geometry_available": true
+    },
+    {
+      "from_year": -323,
+      "to_year": -319,
+      "area_km2": 242100.23693273476,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 496,
+      "geometry_available": true
+    },
+    {
+      "from_year": -318,
+      "to_year": -316,
+      "area_km2": 241980.35988882065,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 500,
+      "geometry_available": true
+    },
+    {
+      "from_year": -315,
+      "to_year": -308,
+      "area_km2": 242471.10406602194,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 511,
+      "geometry_available": true
+    },
+    {
+      "from_year": -307,
+      "to_year": -302,
+      "area_km2": 242324.4528806337,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 517,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -282,
+      "area_km2": 241725.3304352232,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 530,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -257,
+      "area_km2": 240878.58460000623,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 579,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -231,
+      "area_km2": 224124.54929404767,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 631,
+      "geometry_available": true
+    },
+    {
+      "from_year": -230,
+      "to_year": -211,
+      "area_km2": 224603.3037351129,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 683,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 269.3835442549011,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 777,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -127,
+      "area_km2": 224603.3037351129,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 853,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 224379.13934673683,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 910,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 132053.797208549,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 939,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -88,
+      "area_km2": 130870.1754248257,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 959,
+      "geometry_available": true
+    },
+    {
+      "from_year": -87,
+      "to_year": -78,
+      "area_km2": 300627.18833639903,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 975,
+      "geometry_available": true
+    },
+    {
+      "from_year": -77,
+      "to_year": -67,
+      "area_km2": 519576.7479296809,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 990,
+      "geometry_available": true
+    },
+    {
+      "from_year": -66,
+      "to_year": -64,
+      "area_km2": 168772.46639855884,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 999,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": 59,
+      "area_km2": 217689.1068279688,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1019,
+      "geometry_available": true
+    },
+    {
+      "from_year": 68,
+      "to_year": 113,
+      "area_km2": 218264.62564183175,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1189,
+      "geometry_available": true
+    },
+    {
+      "from_year": 154,
+      "to_year": 160,
+      "area_km2": 218361.80599766105,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1248,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 259,
+      "area_km2": 218361.80599766105,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1280,
+      "geometry_available": true
+    },
+    {
+      "from_year": 287,
+      "to_year": 305,
+      "area_km2": 218561.4494460835,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1405,
+      "geometry_available": true
+    },
+    {
+      "from_year": 306,
+      "to_year": 323,
+      "area_km2": 218393.61446960314,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1421,
+      "geometry_available": true
+    },
+    {
+      "from_year": 324,
+      "to_year": 336,
+      "area_km2": 218369.32680689517,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 337,
+      "to_year": 357,
+      "area_km2": 218393.61446960314,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1457,
+      "geometry_available": true
+    },
+    {
+      "from_year": 358,
+      "to_year": 366,
+      "area_km2": 218369.32680689517,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1500,
+      "geometry_available": true
+    },
+    {
+      "from_year": 367,
+      "to_year": 370,
+      "area_km2": 218270.48364512777,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1507,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 395,
+      "area_km2": 143621.58387726298,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1548,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 438,
+      "area_km2": 143621.58387726298,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1615,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 489,
+      "area_km2": 143621.58387726298,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 1797,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 643,
+      "area_km2": 73793.12733941493,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 2406,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 47195.740531589494,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Armenia (antiquity)",
+      "source_feature_index": 2457,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

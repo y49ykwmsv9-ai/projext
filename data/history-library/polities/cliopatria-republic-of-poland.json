@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-republic-of-poland",
+  "identity": {
+    "canonical_name": "Republic of Poland",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1953,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1953,
+      "to_year": 1968,
+      "area_km2": 314573.86776496086,
+      "wikidata_id": null,
+      "seshat_id": "pl_polish_peoples_rep",
+      "wikipedia": "Poland",
+      "source_feature_index": 13105,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1969,
+      "to_year": 1989,
+      "area_km2": 314617.9719151609,
+      "wikidata_id": null,
+      "seshat_id": "pl_polish_peoples_rep",
+      "wikipedia": "Poland",
+      "source_feature_index": 13285,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1990,
+      "to_year": 1991,
+      "area_km2": 314235.66802533215,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Poland",
+      "source_feature_index": 13427,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1992,
+      "to_year": 2023,
+      "area_km2": 314192.9548666393,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Poland",
+      "source_feature_index": 13490,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 314192.9548666393,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Poland",
+      "source_feature_index": 13686,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

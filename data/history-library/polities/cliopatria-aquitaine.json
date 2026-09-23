@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-aquitaine",
+  "identity": {
+    "canonical_name": "Aquitaine",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 629,
+    "end": 895,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 629,
+      "to_year": 632,
+      "area_km2": 82664.9079340243,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2340,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 665,
+      "area_km2": 649364.5218672566,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2537,
+      "geometry_available": true
+    },
+    {
+      "from_year": 666,
+      "to_year": 673,
+      "area_km2": 516625.2187201271,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 674,
+      "to_year": 681,
+      "area_km2": 204791.10926353864,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2582,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 717,
+      "area_km2": 205019.87836297028,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2602,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 723,
+      "area_km2": 204534.5196775877,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2687,
+      "geometry_available": true
+    },
+    {
+      "from_year": 724,
+      "to_year": 731,
+      "area_km2": 205019.87836297022,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2700,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 754,
+      "area_km2": 205019.87836297022,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2778,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 762,
+      "area_km2": 205044.16630561766,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2815,
+      "geometry_available": true
+    },
+    {
+      "from_year": 763,
+      "to_year": 767,
+      "area_km2": 204113.2803181042,
+      "wikidata_id": null,
+      "seshat_id": "fr_aquitaine_duc_1",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 2856,
+      "geometry_available": true
+    },
+    {
+      "from_year": 888,
+      "to_year": 891,
+      "area_km2": 204089.9657626765,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 3453,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 204089.9657626765,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aquitaine",
+      "source_feature_index": 3478,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

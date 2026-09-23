@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-funan",
+  "identity": {
+    "canonical_name": "Funan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 51,
+    "end": 640,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 51,
+      "to_year": 237,
+      "area_km2": 245197.61788678102,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Funan",
+      "source_feature_index": 1165,
+      "geometry_available": true
+    },
+    {
+      "from_year": 238,
+      "to_year": 545,
+      "area_km2": 245197.61788678102,
+      "wikidata_id": null,
+      "seshat_id": "kh_funan_1",
+      "wikipedia": "Funan",
+      "source_feature_index": 1340,
+      "geometry_available": true
+    },
+    {
+      "from_year": 546,
+      "to_year": 637,
+      "area_km2": 245197.61788678102,
+      "wikidata_id": null,
+      "seshat_id": "kh_funan_2",
+      "wikipedia": "Funan",
+      "source_feature_index": 2058,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 245197.61788678102,
+      "wikidata_id": null,
+      "seshat_id": "kh_funan_2",
+      "wikipedia": "Funan",
+      "source_feature_index": 2398,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

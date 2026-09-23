@@ -1,0 +1,304 @@
+{
+  "id": "cliopatria-duchy-of-lorraine",
+  "identity": {
+    "canonical_name": "Duchy of Lorraine",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1431,
+    "end": 1768,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1431,
+      "to_year": 1439,
+      "area_km2": 17118.464651736045,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7129,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 10174.285373272764,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7288,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 10174.285373272764,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7352,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 10017.630935891499,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7366,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 10129.443826701481,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7417,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 10084.13173789128,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7550,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 17209.470874533992,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7568,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1496,
+      "area_km2": 17254.333677511753,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7613,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1501,
+      "area_km2": 17186.359382150273,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7666,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1518,
+      "area_km2": 16984.510423600263,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7694,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1551,
+      "area_km2": 16851.48858585537,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 7892,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 17009.370617490353,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8171,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1587,
+      "area_km2": 17096.772396233937,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8233,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1601,
+      "area_km2": 17142.39245523524,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8413,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1608,
+      "area_km2": 17096.772396233937,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8544,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1631,
+      "area_km2": 17142.39245523524,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8562,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 17231.115344831134,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8778,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1658,
+      "area_km2": 17297.244512747755,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 8982,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 17342.038676246266,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 9034,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 17319.392999772495,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 9130,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 17478.38527667957,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 9374,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1733,
+      "area_km2": 17478.38527667957,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 9534,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1756,
+      "area_km2": 17478.38527667957,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 9835,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 17478.38527667957,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Lorraine",
+      "source_feature_index": 9999,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-kalmar-union",
+  "identity": {
+    "canonical_name": "(Kalmar Union)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1402,
+    "end": 1525,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 950539.3073804681,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 6806,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 950647.8595470198,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 6925,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1421,
+      "area_km2": 954938.4587575326,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 6980,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 954514.9771803978,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7011,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1449,
+      "area_km2": 1269467.840224994,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7074,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 1270722.3369584477,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7238,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1458,
+      "area_km2": 1270711.2875140617,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1467,
+      "area_km2": 1277918.848765105,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7308,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 1277357.4058414206,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 1285897.1791284394,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1501,
+      "area_km2": 1285990.3751069766,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7514,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1520,
+      "area_km2": 829796.557618501,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7716,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1525,
+      "area_km2": 1285990.3751069766,
+      "wikidata_id": null,
+      "seshat_id": "sv_kalmar_union",
+      "wikipedia": "Kalmar Union",
+      "source_feature_index": 7909,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-merina-kingdom",
+  "identity": {
+    "canonical_name": "Merina Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1792,
+    "end": 1897,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1792,
+      "to_year": 1795,
+      "area_km2": 67330.06665392278,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 10350,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1802,
+      "area_km2": 85400.58161889814,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 10405,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1810,
+      "area_km2": 112887.27470026478,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 10581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1813,
+      "area_km2": 67330.06665392278,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 10803,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1819,
+      "area_km2": 112887.27470026478,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 10923,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 173288.25161661912,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 11060,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1823,
+      "area_km2": 244721.81673489691,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 11090,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1824,
+      "area_km2": 369241.38679176464,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 11122,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1833,
+      "area_km2": 374728.1321318147,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 11137,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1839,
+      "area_km2": 397202.3857265027,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 11265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1894,
+      "area_km2": 426716.10424690135,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 11329,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 426716.10424690135,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Merina Kingdom",
+      "source_feature_index": 12126,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

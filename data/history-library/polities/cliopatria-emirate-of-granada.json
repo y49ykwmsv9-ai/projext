@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-emirate-of-granada",
+  "identity": {
+    "canonical_name": "Emirate of Granada",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1241,
+    "end": 1491,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1241,
+      "to_year": 1293,
+      "area_km2": 31432.150397109897,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 5678,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1332,
+      "area_km2": 31106.40278654053,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 5988,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 30044.69944677426,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6299,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 28332.76937549981,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6381,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 28061.537275031667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6418,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 30044.69944677426,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6545,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1401,
+      "area_km2": 28061.537275031667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6584,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 28036.943676636245,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6864,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1439,
+      "area_km2": 27838.994704587596,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 6931,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1462,
+      "area_km2": 27296.342190338826,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 7186,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1486,
+      "area_km2": 26051.525591403755,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 7364,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 13011.420382547945,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Emirate of Granada",
+      "source_feature_index": 7559,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

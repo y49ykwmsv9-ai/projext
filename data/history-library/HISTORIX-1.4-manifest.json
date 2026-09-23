@@ -2,21 +2,20 @@
   "schema_version": "1.4.0",
   "database": "HISTORIX",
   "version": "1.4.0",
-  "layer": "referenced-polity-universe",
-  "status": "structured-and-editable",
-  "purpose": "Expand the polity dataset to every unique polity referenced by the HISTORIX curated library while preserving the Cliopatria baseline.",
-  "record_count": 59,
-  "discovery_source": "data/history-library/graph/curated-records.json",
-  "storage": "data/history-library/polities/historix-linked.json",
-  "cliopatria_baseline": {
-    "source_commit": "ad28a691b7c07c1fca89d0e0636d324667d2a258",
-    "unique_polities_required": 1583,
-    "role": "broad baseline; not replaced by the 1.4 linked layer"
+  "layer": "complete-polity-universe",
+  "status": "complete-cliopatria-baseline",
+  "purpose": "Materialize all unique Cliopatria polity records as individually addressable, editable HISTORIX 1.4 polity records.",
+  "record_count": 1583,
+  "source": {
+    "dataset": "Cliopatria",
+    "commit": "ad28a691b7c07c1fca89d0e0636d324667d2a258"
   },
-  "stable_id_rule": "Reuse exact existing HISTORIX polity reference IDs.",
+  "storage": "data/history-library/polities/",
+  "aggregate": "data/history-library/polities/historix-linked.json",
+  "stable_id_rule": "Reuse deterministic cliopatria- IDs generated from source polity names.",
   "editable_units": [
     "polities"
   ],
-  "research_status": "linked-structured",
-  "next_step": "source-backed chronology, geography, Cliopatria identity resolution, succession and quantitative linkage"
+  "research_status": "cliopatria-imported",
+  "next_step": "verified HISTORIX aliases, chronology normalization, geographic linkage, succession, people/events/places linkage and quantitative observations."
 }

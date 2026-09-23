@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-beylik-of-karaman",
+  "identity": {
+    "canonical_name": "Beylik of Karaman",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1305,
+    "end": 1467,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 27749.656248993877,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6119,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 81820.35227673456,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6127,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 91156.15068468949,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6219,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 99332.82534892904,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6272,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 99551.65538781296,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6343,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 91374.98072357343,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6455,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1384,
+      "area_km2": 100412.99883807762,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6481,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1401,
+      "area_km2": 100337.20738903426,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6720,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 99803.22571353138,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6835,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1428,
+      "area_km2": 100337.20738903426,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 6901,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1429,
+      "to_year": 1462,
+      "area_km2": 100433.16782673699,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 7060,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 100270.29342385914,
+      "wikidata_id": null,
+      "seshat_id": "tr_karaman_bey",
+      "wikipedia": "Karamanids",
+      "source_feature_index": 7395,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "cliopatria-german-empire",
+  "identity": {
+    "canonical_name": "German Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1871,
+    "end": 1919,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "german-unification"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 660482.9928191627,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 11898,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1884,
+      "area_km2": 557015.2522038628,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 11909,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 812238.9511990536,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 11999,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1897,
+      "area_km2": 848337.6784661184,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12060,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1899,
+      "area_km2": 813876.965237538,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12156,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1904,
+      "area_km2": 815739.558455255,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12176,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1914,
+      "area_km2": 815543.2309409166,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12229,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 632360.1791166002,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12342,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1916,
+      "to_year": 1916,
+      "area_km2": 858016.1452589077,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12384,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 890631.861264561,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12410,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1918,
+      "area_km2": 1423979.3630822303,
+      "wikidata_id": null,
+      "seshat_id": "de_hohenzollern_3",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12420,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1919,
+      "area_km2": 518265.5794598682,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "German Empire",
+      "source_feature_index": 12460,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

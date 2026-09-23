@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-huns",
+  "identity": {
+    "canonical_name": "Huns",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 106,
+    "end": 425,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 106,
+      "to_year": 370,
+      "area_km2": 58474.91835818796,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1221,
+      "geometry_available": true
+    },
+    {
+      "from_year": 371,
+      "to_year": 372,
+      "area_km2": 325549.7282155249,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1515,
+      "geometry_available": true
+    },
+    {
+      "from_year": 373,
+      "to_year": 377,
+      "area_km2": 827357.2620191282,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 378,
+      "to_year": 382,
+      "area_km2": 947849.6377217988,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1524,
+      "geometry_available": true
+    },
+    {
+      "from_year": 383,
+      "to_year": 394,
+      "area_km2": 1130065.8031555992,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1533,
+      "geometry_available": true
+    },
+    {
+      "from_year": 395,
+      "to_year": 395,
+      "area_km2": 1130134.886268718,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1589,
+      "geometry_available": true
+    },
+    {
+      "from_year": 396,
+      "to_year": 396,
+      "area_km2": 1462824.9162791478,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1596,
+      "geometry_available": true
+    },
+    {
+      "from_year": 397,
+      "to_year": 406,
+      "area_km2": 1444959.382835335,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1603,
+      "geometry_available": true
+    },
+    {
+      "from_year": 407,
+      "to_year": 409,
+      "area_km2": 1213227.811671076,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1641,
+      "geometry_available": true
+    },
+    {
+      "from_year": 410,
+      "to_year": 416,
+      "area_km2": 1213250.4581739383,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1668,
+      "geometry_available": true
+    },
+    {
+      "from_year": 417,
+      "to_year": 425,
+      "area_km2": 1213250.4581739383,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Huns",
+      "source_feature_index": 1704,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

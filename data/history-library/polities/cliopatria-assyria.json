@@ -1,0 +1,186 @@
+{
+  "id": "cliopatria-assyria",
+  "identity": {
+    "canonical_name": "Assyria",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -1800,
+    "end": -901,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "neo-assyrian-expansion"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -1800,
+      "to_year": -1761,
+      "area_km2": 77170.61591512688,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Assyria",
+      "source_feature_index": 32,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1760,
+      "to_year": -1701,
+      "area_km2": 25617.153844053166,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Assyria",
+      "source_feature_index": 41,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1700,
+      "to_year": -1501,
+      "area_km2": 63721.64145582211,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Assyria",
+      "source_feature_index": 45,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1500,
+      "to_year": -1401,
+      "area_km2": 35815.6862702609,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Assyria",
+      "source_feature_index": 64,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1400,
+      "to_year": -1301,
+      "area_km2": 34429.08876087258,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Assyria",
+      "source_feature_index": 71,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1300,
+      "to_year": -1241,
+      "area_km2": 195096.8833092337,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 78,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1240,
+      "to_year": -1221,
+      "area_km2": 445830.5749350426,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 89,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1220,
+      "to_year": -1201,
+      "area_km2": 599270.3168224652,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 90,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1200,
+      "to_year": -1151,
+      "area_km2": 467281.9910773735,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 96,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1150,
+      "to_year": -1101,
+      "area_km2": 515450.6376023157,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 100,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1100,
+      "to_year": -1001,
+      "area_km2": 515079.55062841554,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 109,
+      "geometry_available": true
+    },
+    {
+      "from_year": -1000,
+      "to_year": -901,
+      "area_km2": 25472.951224122287,
+      "wikidata_id": null,
+      "seshat_id": "iq_middle_assyrian_emp",
+      "wikipedia": "Assyria",
+      "source_feature_index": 117,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

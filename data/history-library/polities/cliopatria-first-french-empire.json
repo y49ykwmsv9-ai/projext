@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-first-french-empire",
+  "identity": {
+    "canonical_name": "(First French Empire)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1805,
+    "end": 1814,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 737120.7737045145,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10639,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 678875.5622666386,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10676,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 1053034.1027579803,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10709,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 1066798.1307626292,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10780,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 1243595.949101118,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10819,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 1067917.9300500692,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10860,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 507290.8170417585,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "First French Empire",
+      "source_feature_index": 10910,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

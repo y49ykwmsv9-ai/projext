@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-kingdom-of-navarre",
+  "identity": {
+    "canonical_name": "Kingdom of Navarre",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1139,
+    "end": 1428,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1139,
+      "to_year": 1201,
+      "area_km2": 22232.075215570134,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Navarre",
+      "source_feature_index": 4858,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1284,
+      "area_km2": 10050.34682474158,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Navarre",
+      "source_feature_index": 5244,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1362,
+      "area_km2": 10050.65905301009,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Navarre",
+      "source_feature_index": 6295,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 10098.144920100329,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Navarre",
+      "source_feature_index": 6542,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1421,
+      "area_km2": 10050.65905301009,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Navarre",
+      "source_feature_index": 6587,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1422,
+      "to_year": 1428,
+      "area_km2": 10050.65905301009,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Navarre",
+      "source_feature_index": 7025,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

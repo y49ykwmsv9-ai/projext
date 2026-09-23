@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-kingdom-of-aragon",
+  "identity": {
+    "canonical_name": "Kingdom of Aragon",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1015,
+    "end": 1168,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1015,
+      "to_year": 1027,
+      "area_km2": 3087.0497626500655,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4196,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 2395.303779084576,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4332,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1084,
+      "area_km2": 10120.332474756977,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1098,
+      "area_km2": 18572.984435904506,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4657,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 21407.173396006598,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4748,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1111,
+      "to_year": 1125,
+      "area_km2": 25653.70353102825,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4800,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1126,
+      "to_year": 1138,
+      "area_km2": 100638.15976365718,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4815,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1139,
+      "to_year": 1151,
+      "area_km2": 37821.70060584484,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4869,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1168,
+      "area_km2": 37750.13371905326,
+      "wikidata_id": null,
+      "seshat_id": "es_aragon_k",
+      "wikipedia": "Kingdom of Aragon",
+      "source_feature_index": 4985,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

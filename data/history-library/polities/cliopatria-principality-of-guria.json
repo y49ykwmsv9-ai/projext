@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-principality-of-guria",
+  "identity": {
+    "canonical_name": "Principality of Guria",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1468,
+    "end": 1829,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1468,
+      "to_year": 1506,
+      "area_km2": 4180.368261538124,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 7443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1515,
+      "area_km2": 4850.5588274008205,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 7735,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1516,
+      "to_year": 1546,
+      "area_km2": 4659.139168317806,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 7849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1563,
+      "area_km2": 4300.395142565473,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 8129,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 4659.139168317806,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 8247,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 4300.395142565473,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 8323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1726,
+      "area_km2": 4659.139168317806,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 8606,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1771,
+      "area_km2": 3870.8871776914243,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 9649,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1827,
+      "area_km2": 3775.521584562613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 10089,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 3775.5215845626126,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Guria",
+      "source_feature_index": 11170,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

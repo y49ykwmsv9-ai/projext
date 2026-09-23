@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-rashidun-caliphate",
+  "identity": {
+    "canonical_name": "Rashidun Caliphate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 633,
+    "end": 665,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 633,
+      "to_year": 633,
+      "area_km2": 2543054.19615923,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2362,
+      "geometry_available": true
+    },
+    {
+      "from_year": 634,
+      "to_year": 637,
+      "area_km2": 3201677.9671624387,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2380,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 3773945.978407339,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2405,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 643,
+      "area_km2": 4395276.079270305,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2438,
+      "geometry_available": true
+    },
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 6739021.480293942,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2456,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 655,
+      "area_km2": 7090122.564040989,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2484,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 6521450.667644542,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2491,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 665,
+      "area_km2": 5866463.787040407,
+      "wikidata_id": null,
+      "seshat_id": "sa_rashidun_dyn",
+      "wikipedia": "Rashidun Caliphate",
+      "source_feature_index": 2539,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

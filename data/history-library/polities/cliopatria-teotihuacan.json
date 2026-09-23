@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-teotihuacan",
+  "identity": {
+    "canonical_name": "Teotihuacan",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -50,
+    "end": 704,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -50,
+      "to_year": 105,
+      "area_km2": 5674.000581128504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Teotihuacan",
+      "source_feature_index": 1034,
+      "geometry_available": true
+    },
+    {
+      "from_year": 106,
+      "to_year": 655,
+      "area_km2": 5674.000581128504,
+      "wikidata_id": null,
+      "seshat_id": "mx_basin_of_mexico_7",
+      "wikipedia": "Teotihuacan",
+      "source_feature_index": 1226,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 691,
+      "area_km2": 5674.000581128504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Teotihuacan",
+      "source_feature_index": 2489,
+      "geometry_available": true
+    },
+    {
+      "from_year": 692,
+      "to_year": 704,
+      "area_km2": 5674.000581128504,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Teotihuacan",
+      "source_feature_index": 2611,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

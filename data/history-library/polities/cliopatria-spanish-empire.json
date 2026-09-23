@@ -1,0 +1,824 @@
+{
+  "id": "cliopatria-spanish-empire",
+  "identity": {
+    "canonical_name": "Spanish Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1516,
+    "end": 1879,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 256512.12661719666,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 7823,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1525,
+      "area_km2": 486439.89943803084,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 7925,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 878304.3085016927,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 7965,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 985724.3741005143,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 7983,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1539,
+      "area_km2": 1469907.8641654486,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8048,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 3968029.8131122906,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8062,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 4104600.7051137215,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8117,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1563,
+      "area_km2": 4220142.736330799,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8153,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 4228461.74500646,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8288,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1578,
+      "area_km2": 4409345.426698719,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8310,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1581,
+      "area_km2": 4517465.629961401,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8360,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1587,
+      "area_km2": 5697799.465836416,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8384,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 6080631.570100413,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8427,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 6401492.8015858,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8494,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1608,
+      "area_km2": 6381186.441794633,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8535,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1611,
+      "area_km2": 6508058.006883343,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8574,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1618,
+      "area_km2": 6533618.052431825,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8627,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1619,
+      "to_year": 1621,
+      "area_km2": 6902283.234544915,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8655,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1622,
+      "to_year": 1625,
+      "area_km2": 6908770.315719799,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8665,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1628,
+      "area_km2": 7065807.1955842385,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8710,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1631,
+      "area_km2": 7118453.967231507,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8722,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 7103370.676625812,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8770,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1639,
+      "area_km2": 7064031.412276356,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8786,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1658,
+      "area_km2": 6152470.753456205,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 8846,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 6226721.6554242205,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9035,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1676,
+      "area_km2": 6263658.379671643,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9128,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 6267956.357603128,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9213,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 6248820.966699403,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9230,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 6482716.385427133,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9296,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 6511538.087687545,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9308,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 6609259.006928258,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9354,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 6905916.844933987,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9388,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1705,
+      "area_km2": 6904120.735506923,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9435,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 6830485.029650217,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 6925947.006290504,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 7017001.273090912,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_1",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9521,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 7023970.113201122,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9562,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 7039961.6891513895,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9608,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 7049671.467599711,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9642,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1740,
+      "area_km2": 7060878.965647927,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9669,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 7076770.822921315,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9772,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1751,
+      "area_km2": 7076427.64995544,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 9356847.33863831,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9891,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 9713681.655269487,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9902,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 9725277.564229727,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 9960,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 9553305.688117214,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10014,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 9780460.353809327,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10034,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 9803456.27430725,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10097,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1775,
+      "area_km2": 9808530.833844157,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10149,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1776,
+      "to_year": 1777,
+      "area_km2": 9814038.520506512,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10155,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1779,
+      "area_km2": 11004379.860166684,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10186,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1780,
+      "area_km2": 11010007.40709633,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10195,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1781,
+      "to_year": 1782,
+      "area_km2": 11170719.881262647,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10213,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 11195953.353295421,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10234,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 11246567.000250347,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10273,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1793,
+      "area_km2": 11251052.434342157,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10314,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 11256126.856328238,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10359,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 11256011.861638343,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10427,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 11270549.55903092,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10456,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 11275113.819990333,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10484,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 11242168.465551332,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10519,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1805,
+      "area_km2": 11189479.621557686,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10614,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 11301320.137119815,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10666,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 11300081.021463744,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10719,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 11353905.722222831,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10767,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1811,
+      "area_km2": 8527020.813667843,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10831,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1812,
+      "to_year": 1813,
+      "area_km2": 8454391.874906704,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 7860529.937502797,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_2",
+      "wikipedia": "Spanish Empire",
+      "source_feature_index": 10891,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 8502734.473112974,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 10968,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 7830730.86001857,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11034,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1823,
+      "area_km2": 1983444.1742020345,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11111,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1852,
+      "area_km2": 505737.6093468424,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11135,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1858,
+      "area_km2": 487369.03442159493,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11530,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1860,
+      "area_km2": 487383.36317666405,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11632,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1872,
+      "area_km2": 541062.8500118722,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11675,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 372.50890350212524,
+      "wikidata_id": null,
+      "seshat_id": "es_spanish_emp_3",
+      "wikipedia": "History of Spain (1808–1874)",
+      "source_feature_index": 11932,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

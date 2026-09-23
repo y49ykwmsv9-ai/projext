@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-kingdom-of-the-suebi",
+  "identity": {
+    "canonical_name": "Kingdom of the Suebi",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 414,
+    "end": 586,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 414,
+      "to_year": 416,
+      "area_km2": 53504.06611684377,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1682,
+      "geometry_available": true
+    },
+    {
+      "from_year": 417,
+      "to_year": 425,
+      "area_km2": 87648.36152696445,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1696,
+      "geometry_available": true
+    },
+    {
+      "from_year": 426,
+      "to_year": 438,
+      "area_km2": 95101.50624682022,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1723,
+      "geometry_available": true
+    },
+    {
+      "from_year": 439,
+      "to_year": 440,
+      "area_km2": 149184.79755230056,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1741,
+      "geometry_available": true
+    },
+    {
+      "from_year": 441,
+      "to_year": 457,
+      "area_km2": 248613.46135511578,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1750,
+      "geometry_available": true
+    },
+    {
+      "from_year": 458,
+      "to_year": 475,
+      "area_km2": 95340.75442980713,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1819,
+      "geometry_available": true
+    },
+    {
+      "from_year": 476,
+      "to_year": 576,
+      "area_km2": 91850.46084258315,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 1879,
+      "geometry_available": true
+    },
+    {
+      "from_year": 577,
+      "to_year": 586,
+      "area_km2": 91850.46084258315,
+      "wikidata_id": null,
+      "seshat_id": "pt_suebi_k",
+      "wikipedia": "Kingdom of the Suebi",
+      "source_feature_index": 2145,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-taifa-of-tortosa",
+  "identity": {
+    "canonical_name": "Taifa of Tortosa",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1010,
+    "end": 1110,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1010,
+      "to_year": 1027,
+      "area_km2": 8011.032420279496,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4154,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1028,
+      "to_year": 1039,
+      "area_km2": 8082.44148799479,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4284,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 7176.46583016741,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4392,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 6959.642986139384,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4437,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 6767.992128870288,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1098,
+      "area_km2": 10143.586369248394,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4676,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1110,
+      "area_km2": 5712.338416127735,
+      "wikidata_id": null,
+      "seshat_id": "es_taifas",
+      "wikipedia": "Taifa of Tortosa",
+      "source_feature_index": 4735,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

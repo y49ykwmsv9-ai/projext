@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-chandela-kingdom",
+  "identity": {
+    "canonical_name": "Chandela Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 960,
+    "end": 1313,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 960,
+      "to_year": 1084,
+      "area_km2": 80123.91037779863,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 3882,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1151,
+      "area_km2": 74067.05560300573,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 4674,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1201,
+      "area_km2": 74732.00638923055,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 4972,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1202,
+      "to_year": 1209,
+      "area_km2": 80324.2375657859,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 5208,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 80631.30859361328,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 5347,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1226,
+      "area_km2": 80305.2330896026,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 5393,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1227,
+      "to_year": 1235,
+      "area_km2": 80244.5505327765,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 5540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1293,
+      "area_km2": 80562.87744792273,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 5583,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1294,
+      "to_year": 1304,
+      "area_km2": 80125.50705491984,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 6025,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 80125.50705491984,
+      "wikidata_id": null,
+      "seshat_id": "in_chandela_k",
+      "wikipedia": "Chandelas of Jejakabhukti",
+      "source_feature_index": 6106,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

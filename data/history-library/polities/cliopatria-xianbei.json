@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-xianbei",
+  "identity": {
+    "canonical_name": "Xianbei",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 60,
+    "end": 237,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 60,
+      "to_year": 83,
+      "area_km2": 998181.3713224393,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1176,
+      "geometry_available": true
+    },
+    {
+      "from_year": 84,
+      "to_year": 105,
+      "area_km2": 998276.7284858361,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1205,
+      "geometry_available": true
+    },
+    {
+      "from_year": 106,
+      "to_year": 116,
+      "area_km2": 3439317.053651657,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 117,
+      "to_year": 153,
+      "area_km2": 3508879.848235754,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1232,
+      "geometry_available": true
+    },
+    {
+      "from_year": 154,
+      "to_year": 160,
+      "area_km2": 3511935.207209515,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1250,
+      "geometry_available": true
+    },
+    {
+      "from_year": 161,
+      "to_year": 164,
+      "area_km2": 5220509.861768925,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 196,
+      "area_km2": 5220201.530550654,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1284,
+      "geometry_available": true
+    },
+    {
+      "from_year": 197,
+      "to_year": 206,
+      "area_km2": 5220364.101832648,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1297,
+      "geometry_available": true
+    },
+    {
+      "from_year": 207,
+      "to_year": 223,
+      "area_km2": 5220435.3895603195,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1312,
+      "geometry_available": true
+    },
+    {
+      "from_year": 224,
+      "to_year": 237,
+      "area_km2": 625368.7325389945,
+      "wikidata_id": null,
+      "seshat_id": "mn_xianbei",
+      "wikipedia": "Xianbei",
+      "source_feature_index": 1327,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

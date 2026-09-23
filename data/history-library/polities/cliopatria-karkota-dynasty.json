@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-karkota-dynasty",
+  "identity": {
+    "canonical_name": "Karkota Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 592,
+    "end": 859,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 592,
+      "to_year": 601,
+      "area_km2": 127359.81444447319,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2183,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 625,
+      "area_km2": 127210.62690424577,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2230,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 655,
+      "area_km2": 209254.52433738206,
+      "wikidata_id": null,
+      "seshat_id": "in_karkota_dyn",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2292,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 731,
+      "area_km2": 118275.05749436097,
+      "wikidata_id": null,
+      "seshat_id": "in_karkota_dyn",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2492,
+      "geometry_available": true
+    },
+    {
+      "from_year": 732,
+      "to_year": 750,
+      "area_km2": 118537.45605442167,
+      "wikidata_id": null,
+      "seshat_id": "in_karkota_dyn",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2720,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 771,
+      "area_km2": 122720.94024599403,
+      "wikidata_id": null,
+      "seshat_id": "in_karkota_dyn",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2801,
+      "geometry_available": true
+    },
+    {
+      "from_year": 772,
+      "to_year": 849,
+      "area_km2": 122977.13929880498,
+      "wikidata_id": null,
+      "seshat_id": "in_karkota_dyn",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 2881,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 122660.10847524831,
+      "wikidata_id": null,
+      "seshat_id": "in_karkota_dyn",
+      "wikipedia": "Karkota dynasty",
+      "source_feature_index": 3163,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-muhammad-ali-dynasty",
+  "identity": {
+    "canonical_name": "Muhammad Ali dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1805,
+    "end": 1865,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1805,
+      "to_year": 1810,
+      "area_km2": 1770.8739339547656,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 10626,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1821,
+      "area_km2": 604461.1812704075,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 10802,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1833,
+      "area_km2": 1643333.674547951,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 11089,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1839,
+      "area_km2": 2313375.6134074447,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 11266,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 2689003.41684581,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 11328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1847,
+      "area_km2": 1648360.3202415693,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 11390,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1864,
+      "area_km2": 1834559.900114894,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 11459,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 1834559.900114894,
+      "wikidata_id": null,
+      "seshat_id": "eg_egypt_modern_1",
+      "wikipedia": "History of Egypt under the Muhammad Ali dynasty",
+      "source_feature_index": 11757,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "id": "cliopatria-carolingian-empire-33692416a0",
+  "identity": {
+    "canonical_name": "(Carolingian Empire)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 718,
+    "end": 989,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 718,
+      "to_year": 723,
+      "area_km2": 501744.422411574,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francia",
+      "source_feature_index": 2685,
+      "geometry_available": true
+    },
+    {
+      "from_year": 724,
+      "to_year": 731,
+      "area_km2": 362440.8599373495,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francia",
+      "source_feature_index": 2691,
+      "geometry_available": true
+    },
+    {
+      "from_year": 732,
+      "to_year": 740,
+      "area_km2": 733111.5403012201,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francia",
+      "source_feature_index": 2719,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 749,
+      "area_km2": 760508.6470497062,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francia",
+      "source_feature_index": 2730,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 750,
+      "area_km2": 555519.365534662,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francia",
+      "source_feature_index": 2782,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 754,
+      "area_km2": 555674.2587730982,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Francia",
+      "source_feature_index": 2799,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 762,
+      "area_km2": 566556.1003310336,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2812,
+      "geometry_available": true
+    },
+    {
+      "from_year": 763,
+      "to_year": 767,
+      "area_km2": 577819.7427023113,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2862,
+      "geometry_available": true
+    },
+    {
+      "from_year": 768,
+      "to_year": 771,
+      "area_km2": 726173.7849819702,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2878,
+      "geometry_available": true
+    },
+    {
+      "from_year": 772,
+      "to_year": 774,
+      "area_km2": 740220.377866427,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2880,
+      "geometry_available": true
+    },
+    {
+      "from_year": 775,
+      "to_year": 777,
+      "area_km2": 979957.01478462,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2899,
+      "geometry_available": true
+    },
+    {
+      "from_year": 778,
+      "to_year": 782,
+      "area_km2": 944934.1792090854,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2914,
+      "geometry_available": true
+    },
+    {
+      "from_year": 783,
+      "to_year": 787,
+      "area_km2": 942405.7495290082,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2925,
+      "geometry_available": true
+    },
+    {
+      "from_year": 788,
+      "to_year": 792,
+      "area_km2": 1228587.441004777,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2949,
+      "geometry_available": true
+    },
+    {
+      "from_year": 793,
+      "to_year": 799,
+      "area_km2": 1217634.1677389743,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 2985,
+      "geometry_available": true
+    },
+    {
+      "from_year": 800,
+      "to_year": 805,
+      "area_km2": 1281380.7652988653,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 3005,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 813,
+      "area_km2": 1317304.199743592,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 3029,
+      "geometry_available": true
+    },
+    {
+      "from_year": 814,
+      "to_year": 824,
+      "area_km2": 1301489.8366328992,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 3048,
+      "geometry_available": true
+    },
+    {
+      "from_year": 825,
+      "to_year": 829,
+      "area_km2": 1304397.088152248,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 3057,
+      "geometry_available": true
+    },
+    {
+      "from_year": 830,
+      "to_year": 839,
+      "area_km2": 1258619.9070373245,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 3087,
+      "geometry_available": true
+    },
+    {
+      "from_year": 840,
+      "to_year": 849,
+      "area_km2": 1291814.761654984,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_1",
+      "wikipedia": "Francia",
+      "source_feature_index": 3109,
+      "geometry_available": true
+    },
+    {
+      "from_year": 850,
+      "to_year": 859,
+      "area_km2": 1247012.0305147474,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3158,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 1001419.948847345,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3195,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 1075626.3482973054,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3231,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 1222330.0343683758,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3279,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 875,
+      "area_km2": 1187110.9002342217,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3290,
+      "geometry_available": true
+    },
+    {
+      "from_year": 876,
+      "to_year": 877,
+      "area_km2": 1187094.5750549196,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3339,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 879,
+      "area_km2": 1177032.9223921748,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3343,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 881,
+      "area_km2": 1105921.9851978004,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3380,
+      "geometry_available": true
+    },
+    {
+      "from_year": 882,
+      "to_year": 883,
+      "area_km2": 1174773.4257328943,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3388,
+      "geometry_available": true
+    },
+    {
+      "from_year": 884,
+      "to_year": 885,
+      "area_km2": 1174346.487747868,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 886,
+      "to_year": 886,
+      "area_km2": 1187654.4640638886,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 887,
+      "to_year": 887,
+      "area_km2": 978060.039201915,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 888,
+      "to_year": 891,
+      "area_km2": 774358.437730269,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3458,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 774563.1318076008,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3475,
+      "geometry_available": true
+    },
+    {
+      "from_year": 896,
+      "to_year": 897,
+      "area_km2": 1148014.934065391,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3485,
+      "geometry_available": true
+    },
+    {
+      "from_year": 898,
+      "to_year": 898,
+      "area_km2": 976634.7083369654,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 899,
+      "to_year": 899,
+      "area_km2": 976344.99860503,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 1182195.6270640737,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3567,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 532722.9633475811,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3652,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 925,
+      "area_km2": 498584.6808173265,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3696,
+      "geometry_available": true
+    },
+    {
+      "from_year": 926,
+      "to_year": 935,
+      "area_km2": 643674.7531277897,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3718,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 959,
+      "area_km2": 353828.8738174282,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3781,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 979,
+      "area_km2": 353874.5519683593,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3888,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 989,
+      "area_km2": 353874.5519683593,
+      "wikidata_id": null,
+      "seshat_id": "fr_carolingian_emp_2",
+      "wikipedia": "West Francia",
+      "source_feature_index": 3975,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

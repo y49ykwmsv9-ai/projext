@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-kingdom-of-mrauk-u",
+  "identity": {
+    "canonical_name": "Kingdom of Mrauk U",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1429,
+    "end": 1787,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1429,
+      "to_year": 1481,
+      "area_km2": 84574.24663136105,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 7069,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1528,
+      "area_km2": 84394.60979339045,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 7510,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1533,
+      "area_km2": 84425.22337377544,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1534,
+      "to_year": 1546,
+      "area_km2": 102176.78477823199,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8030,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 52359.57484000161,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8141,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 100283.23785850884,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8173,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 100445.73957016565,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8193,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1587,
+      "area_km2": 76558.57261344997,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1669,
+      "area_km2": 76860.90214841881,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 8443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1740,
+      "area_km2": 58854.74658187218,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 9103,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1756,
+      "area_km2": 59160.09166222022,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 9752,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 59213.452776042526,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 9918,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1782,
+      "area_km2": 58854.74658187218,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 9975,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1787,
+      "area_km2": 58854.74658187218,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Mrauk U",
+      "source_feature_index": 10225,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

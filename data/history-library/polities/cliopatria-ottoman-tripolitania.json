@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-ottoman-tripolitania",
+  "identity": {
+    "canonical_name": "Ottoman Tripolitania",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1840,
+    "end": 1911,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1840,
+      "to_year": 1858,
+      "area_km2": 894407.2755924576,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Tripolitania",
+      "source_feature_index": 11355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1884,
+      "area_km2": 894458.3647850282,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Tripolitania",
+      "source_feature_index": 11636,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1894,
+      "area_km2": 881871.9105229761,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Tripolitania",
+      "source_feature_index": 12019,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1904,
+      "area_km2": 881471.9856429135,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Tripolitania",
+      "source_feature_index": 12101,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1910,
+      "area_km2": 880043.0415452142,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Tripolitania",
+      "source_feature_index": 12201,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1911,
+      "area_km2": 880043.0415452142,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Ottoman Tripolitania",
+      "source_feature_index": 12263,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

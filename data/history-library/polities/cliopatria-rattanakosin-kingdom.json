@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-rattanakosin-kingdom",
+  "identity": {
+    "canonical_name": "Rattanakosin Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1783,
+    "end": 1931,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1783,
+      "to_year": 1795,
+      "area_km2": 360015.410957249,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 10243,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1821,
+      "area_km2": 430003.0301879546,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 10419,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1824,
+      "area_km2": 441251.225246862,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 11099,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 441223.6457395283,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 11154,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1841,
+      "area_km2": 618361.4469970054,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 11194,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1852,
+      "area_km2": 607027.2277799024,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 11379,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1884,
+      "area_km2": 607054.8072872368,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 11518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 672469.9484649921,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12024,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 659741.3278611625,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12085,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1904,
+      "area_km2": 613025.4911355806,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12091,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1907,
+      "area_km2": 574372.73293324,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12205,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1908,
+      "to_year": 1910,
+      "area_km2": 522007.59913299634,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12247,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1911,
+      "to_year": 1929,
+      "area_km2": 522065.17022387177,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1930,
+      "to_year": 1931,
+      "area_km2": 522065.17022387177,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Rattanakosin Kingdom (1782–1932)",
+      "source_feature_index": 12657,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

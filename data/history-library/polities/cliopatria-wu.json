@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-wu",
+  "identity": {
+    "canonical_name": "Wu",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -750,
+    "end": -451,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -750,
+      "to_year": -551,
+      "area_km2": 193430.20533788743,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Wu (state)",
+      "source_feature_index": 178,
+      "geometry_available": true
+    },
+    {
+      "from_year": -550,
+      "to_year": -481,
+      "area_km2": 193430.20533788743,
+      "wikidata_id": null,
+      "seshat_id": "cn_wu_confederacy",
+      "wikipedia": "Wu (state)",
+      "source_feature_index": 257,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -451,
+      "area_km2": 82998.71837793534,
+      "wikidata_id": null,
+      "seshat_id": "cn_wu_confederacy",
+      "wikipedia": "Wu (state)",
+      "source_feature_index": 315,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

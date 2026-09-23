@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-bidar-sultanate",
+  "identity": {
+    "canonical_name": "Bidar Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1492,
+    "end": 1618,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1492,
+      "to_year": 1518,
+      "area_km2": 63693.186224966994,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 7632,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1520,
+      "area_km2": 26341.463147073362,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 7870,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1546,
+      "area_km2": 32230.492772076286,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 7914,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 32175.136118475533,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 8136,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1578,
+      "area_km2": 32230.492772076286,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 8191,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1579,
+      "to_year": 1611,
+      "area_km2": 32008.81246103758,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 8367,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1618,
+      "area_km2": 32008.81246103758,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bidar Sultanate",
+      "source_feature_index": 8601,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

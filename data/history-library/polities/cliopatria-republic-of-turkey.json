@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-republic-of-turkey",
+  "identity": {
+    "canonical_name": "Republic of Turkey",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1924,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1924,
+      "to_year": 1935,
+      "area_km2": 763250.8340500498,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 12572,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1938,
+      "area_km2": 763326.0815733178,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 12722,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1944,
+      "area_km2": 768279.1761236071,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 12798,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 768252.498684911,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 12946,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 768275.6932821143,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 12960,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 768227.1231975424,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 13008,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1948,
+      "area_km2": 768083.9316656655,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 13050,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 2005,
+      "area_km2": 768203.928600339,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 13063,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2013,
+      "area_km2": 768005.997683441,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 13545,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2014,
+      "to_year": 2023,
+      "area_km2": 767584.6359500913,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 13561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 767584.6359500913,
+      "wikidata_id": null,
+      "seshat_id": "tr_turkey_rep",
+      "wikipedia": "Turkey",
+      "source_feature_index": 13718,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-commonwealth-of-australia",
+  "identity": {
+    "canonical_name": "Commonwealth of Australia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1905,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1905,
+      "to_year": 1942,
+      "area_km2": 7778251.762247081,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Australia",
+      "source_feature_index": 12200,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 7973597.508016217,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Australia",
+      "source_feature_index": 12887,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 8114559.060725398,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Australia",
+      "source_feature_index": 12907,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 8231960.4315596055,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Australia",
+      "source_feature_index": 12930,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 2023,
+      "area_km2": 7792029.008993475,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Australia",
+      "source_feature_index": 12965,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 7778339.358788546,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Australia",
+      "source_feature_index": 13726,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

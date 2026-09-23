@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-regency-of-algiers",
+  "identity": {
+    "canonical_name": "Regency of Algiers",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1706,
+    "end": 1845,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 210898.59610048254,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 9457,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1791,
+      "area_km2": 210948.26680708796,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 9482,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1829,
+      "area_km2": 212049.2084671973,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 10335,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 207492.65073606677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 11198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 196556.08124087812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 11255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 196556.08124087815,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 11283,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 182233.72282643142,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 11338,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 163251.99078414906,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Regency of Algiers",
+      "source_feature_index": 11395,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

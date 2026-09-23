@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-bourbon-kingdom-of-france-ad94c46694",
+  "identity": {
+    "canonical_name": "(Bourbon Kingdom of France)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1815,
+    "end": 1848,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 628138.8718585355,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 10989,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1829,
+      "area_km2": 629205.9568803605,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11054,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 633411.1548317192,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11214,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 644480.1962391302,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11258,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 644810.7619304353,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11286,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 658646.3301449185,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11316,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 693719.6142237119,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11385,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 857021.8391823894,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11405,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 231289.37031810154,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Bourbon Restoration in France",
+      "source_feature_index": 11462,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

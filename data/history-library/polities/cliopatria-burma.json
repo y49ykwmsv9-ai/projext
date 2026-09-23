@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-burma",
+  "identity": {
+    "canonical_name": "Burma",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1820,
+    "end": 1989,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 698258.7445970363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11031,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1824,
+      "area_km2": 797916.0204786219,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11114,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1825,
+      "to_year": 1827,
+      "area_km2": 552642.0764169598,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11149,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1833,
+      "area_km2": 552420.5230691409,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11180,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1841,
+      "area_km2": 552579.544195193,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11237,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1852,
+      "area_km2": 552405.0230293395,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11370,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1858,
+      "area_km2": 437084.0669195894,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11527,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1884,
+      "area_km2": 436996.64152080927,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 11634,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1986,
+      "area_km2": 675942.4360751898,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 13048,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1987,
+      "to_year": 1989,
+      "area_km2": 675942.4360751898,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Myanmar",
+      "source_feature_index": 13418,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

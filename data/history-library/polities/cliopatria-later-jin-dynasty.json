@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-later-jin-dynasty",
+  "identity": {
+    "canonical_name": "Later Jin Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1619,
+    "end": 1644,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1619,
+      "to_year": 1621,
+      "area_km2": 50291.10578138608,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8648,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1622,
+      "to_year": 1625,
+      "area_km2": 138391.58716358917,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8669,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1628,
+      "area_km2": 168858.18486686063,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8718,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1631,
+      "area_km2": 160992.48178974562,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8730,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 281244.2713985972,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8780,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1639,
+      "area_km2": 1943074.7807514986,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8792,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1641,
+      "area_km2": 2516284.3754629293,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8836,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 2516284.3754629293,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Later Jin (1616-1636)",
+      "source_feature_index": 8896,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

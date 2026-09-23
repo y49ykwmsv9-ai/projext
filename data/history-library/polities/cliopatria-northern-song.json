@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-northern-song",
+  "identity": {
+    "canonical_name": "Northern Song",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 961,
+    "end": 1027,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 961,
+      "to_year": 969,
+      "area_km2": 902631.4064521473,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 3909,
+      "geometry_available": true
+    },
+    {
+      "from_year": 970,
+      "to_year": 979,
+      "area_km2": 1579406.317220602,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 3956,
+      "geometry_available": true
+    },
+    {
+      "from_year": 980,
+      "to_year": 989,
+      "area_km2": 2765818.509059826,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4008,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 1017,
+      "area_km2": 2764372.207048415,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4035,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1018,
+      "to_year": 1027,
+      "area_km2": 2764372.207048415,
+      "wikidata_id": null,
+      "seshat_id": "cn_northern_song_dyn",
+      "wikipedia": "Song dynasty",
+      "source_feature_index": 4215,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

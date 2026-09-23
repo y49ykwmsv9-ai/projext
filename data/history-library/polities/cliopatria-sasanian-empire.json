@@ -1,0 +1,534 @@
+{
+  "id": "cliopatria-sasanian-empire",
+  "identity": {
+    "canonical_name": "Sasanian Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 215,
+    "end": 643,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 215,
+      "to_year": 223,
+      "area_km2": 52228.9198511565,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1323,
+      "geometry_available": true
+    },
+    {
+      "from_year": 224,
+      "to_year": 237,
+      "area_km2": 638749.2855911015,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1325,
+      "geometry_available": true
+    },
+    {
+      "from_year": 238,
+      "to_year": 259,
+      "area_km2": 2687808.177451222,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1347,
+      "geometry_available": true
+    },
+    {
+      "from_year": 260,
+      "to_year": 260,
+      "area_km2": 3148176.2570883106,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 261,
+      "to_year": 262,
+      "area_km2": 3148646.838749158,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 263,
+      "to_year": 264,
+      "area_km2": 3044022.246256407,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1375,
+      "geometry_available": true
+    },
+    {
+      "from_year": 265,
+      "to_year": 269,
+      "area_km2": 3044149.841094683,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1378,
+      "geometry_available": true
+    },
+    {
+      "from_year": 270,
+      "to_year": 282,
+      "area_km2": 3040307.966212196,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 283,
+      "to_year": 286,
+      "area_km2": 3252738.741356847,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1391,
+      "geometry_available": true
+    },
+    {
+      "from_year": 287,
+      "to_year": 305,
+      "area_km2": 2940699.362368454,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1407,
+      "geometry_available": true
+    },
+    {
+      "from_year": 306,
+      "to_year": 346,
+      "area_km2": 2793100.727196285,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1424,
+      "geometry_available": true
+    },
+    {
+      "from_year": 347,
+      "to_year": 357,
+      "area_km2": 2792755.0159199974,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1471,
+      "geometry_available": true
+    },
+    {
+      "from_year": 358,
+      "to_year": 366,
+      "area_km2": 3147419.272456764,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1498,
+      "geometry_available": true
+    },
+    {
+      "from_year": 367,
+      "to_year": 370,
+      "area_km2": 3168087.889900241,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1509,
+      "geometry_available": true
+    },
+    {
+      "from_year": 371,
+      "to_year": 386,
+      "area_km2": 3399173.7921806676,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 395,
+      "area_km2": 2986291.1075959555,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1540,
+      "geometry_available": true
+    },
+    {
+      "from_year": 396,
+      "to_year": 396,
+      "area_km2": 2985898.637905808,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1598,
+      "geometry_available": true
+    },
+    {
+      "from_year": 397,
+      "to_year": 401,
+      "area_km2": 2985924.175489972,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1609,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 409,
+      "area_km2": 2986291.1075959555,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1619,
+      "geometry_available": true
+    },
+    {
+      "from_year": 410,
+      "to_year": 438,
+      "area_km2": 2986321.3763781306,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1655,
+      "geometry_available": true
+    },
+    {
+      "from_year": 439,
+      "to_year": 450,
+      "area_km2": 3129341.446697461,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1743,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 489,
+      "area_km2": 2986976.030736297,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_1",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1796,
+      "geometry_available": true
+    },
+    {
+      "from_year": 490,
+      "to_year": 509,
+      "area_km2": 2154742.778662121,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1900,
+      "geometry_available": true
+    },
+    {
+      "from_year": 510,
+      "to_year": 522,
+      "area_km2": 2229706.811519701,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1948,
+      "geometry_available": true
+    },
+    {
+      "from_year": 523,
+      "to_year": 533,
+      "area_km2": 3127532.7878984953,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1966,
+      "geometry_available": true
+    },
+    {
+      "from_year": 534,
+      "to_year": 539,
+      "area_km2": 3163999.928578749,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 1988,
+      "geometry_available": true
+    },
+    {
+      "from_year": 540,
+      "to_year": 545,
+      "area_km2": 3279240.761746049,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 546,
+      "to_year": 554,
+      "area_km2": 3189275.019207158,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2053,
+      "geometry_available": true
+    },
+    {
+      "from_year": 555,
+      "to_year": 560,
+      "area_km2": 3172782.3856823505,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2095,
+      "geometry_available": true
+    },
+    {
+      "from_year": 561,
+      "to_year": 566,
+      "area_km2": 3166958.036423235,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 567,
+      "to_year": 576,
+      "area_km2": 3166831.7977394466,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2124,
+      "geometry_available": true
+    },
+    {
+      "from_year": 577,
+      "to_year": 586,
+      "area_km2": 3203842.963113227,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2143,
+      "geometry_available": true
+    },
+    {
+      "from_year": 587,
+      "to_year": 591,
+      "area_km2": 3178304.4381941254,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2167,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 601,
+      "area_km2": 3047534.7225951916,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2184,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 611,
+      "area_km2": 3623717.4331078976,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2228,
+      "geometry_available": true
+    },
+    {
+      "from_year": 612,
+      "to_year": 616,
+      "area_km2": 3838104.647146923,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2236,
+      "geometry_available": true
+    },
+    {
+      "from_year": 617,
+      "to_year": 622,
+      "area_km2": 4363039.028506941,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 623,
+      "to_year": 625,
+      "area_km2": 4998457.147275048,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2288,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 626,
+      "area_km2": 4792545.857265246,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2290,
+      "geometry_available": true
+    },
+    {
+      "from_year": 627,
+      "to_year": 627,
+      "area_km2": 4413815.745371145,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2308,
+      "geometry_available": true
+    },
+    {
+      "from_year": 628,
+      "to_year": 628,
+      "area_km2": 4398158.536623503,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2333,
+      "geometry_available": true
+    },
+    {
+      "from_year": 629,
+      "to_year": 629,
+      "area_km2": 3243113.0623432505,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2338,
+      "geometry_available": true
+    },
+    {
+      "from_year": 630,
+      "to_year": 632,
+      "area_km2": 3346581.6016761563,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2348,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 633,
+      "area_km2": 2963498.8557221675,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2360,
+      "geometry_available": true
+    },
+    {
+      "from_year": 634,
+      "to_year": 637,
+      "area_km2": 2891564.69183792,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2381,
+      "geometry_available": true
+    },
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 2565289.37949045,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2410,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 643,
+      "area_km2": 2551221.33617887,
+      "wikidata_id": null,
+      "seshat_id": "ir_sassanid_emp_2",
+      "wikipedia": "Sasanian Empire",
+      "source_feature_index": 2440,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

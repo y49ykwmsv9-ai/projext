@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-batavian-republic",
+  "identity": {
+    "canonical_name": "Batavian Republic",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1796,
+    "end": 1810,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1796,
+      "to_year": 1802,
+      "area_km2": 259795.1321383318,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Batavian Republic",
+      "source_feature_index": 10402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1805,
+      "area_km2": 35968.15126068238,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Batavian Republic",
+      "source_feature_index": 10584,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 35836.21834486677,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Batavian Republic",
+      "source_feature_index": 10685,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 39294.137811904155,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Batavian Republic",
+      "source_feature_index": 10731,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 39294.137811904155,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Batavian Republic",
+      "source_feature_index": 10744,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

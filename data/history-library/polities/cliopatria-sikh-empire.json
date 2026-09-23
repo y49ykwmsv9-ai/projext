@@ -1,0 +1,214 @@
+{
+  "id": "cliopatria-sikh-empire",
+  "identity": {
+    "canonical_name": "Sikh Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1799,
+    "end": 1848,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 2735.4414779206254,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 10498,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 57518.77375463572,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 10537,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1806,
+      "area_km2": 60116.82668864457,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 10582,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1810,
+      "area_km2": 63121.79782897855,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 10730,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1819,
+      "area_km2": 63173.49759688853,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 10801,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 202528.82066629617,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11063,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1827,
+      "area_km2": 244891.80022534262,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11088,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 244821.19229280233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 251442.0996194841,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11209,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 312595.47558778076,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11267,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 349341.9278321363,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 394106.9686572054,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11327,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 397813.25644167134,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11389,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 209140.1439296313,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11402,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 205951.5894434348,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Sikh Empire",
+      "source_feature_index": 11460,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

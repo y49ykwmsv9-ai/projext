@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-kushan-empire",
+  "identity": {
+    "canonical_name": "Kushan Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 43,
+    "end": 237,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 43,
+      "to_year": 50,
+      "area_km2": 458049.5584921085,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1145,
+      "geometry_available": true
+    },
+    {
+      "from_year": 51,
+      "to_year": 90,
+      "area_km2": 638996.4164184526,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1160,
+      "geometry_available": true
+    },
+    {
+      "from_year": 91,
+      "to_year": 116,
+      "area_km2": 1709274.5034871653,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1215,
+      "geometry_available": true
+    },
+    {
+      "from_year": 117,
+      "to_year": 126,
+      "area_km2": 1971828.4840332381,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1233,
+      "geometry_available": true
+    },
+    {
+      "from_year": 127,
+      "to_year": 153,
+      "area_km2": 2267302.500889771,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1243,
+      "geometry_available": true
+    },
+    {
+      "from_year": 154,
+      "to_year": 160,
+      "area_km2": 2267231.105890335,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1262,
+      "geometry_available": true
+    },
+    {
+      "from_year": 161,
+      "to_year": 164,
+      "area_km2": 2201617.410912944,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1273,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 183,
+      "area_km2": 2201760.271879137,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1278,
+      "geometry_available": true
+    },
+    {
+      "from_year": 184,
+      "to_year": 214,
+      "area_km2": 1938519.2694833404,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1294,
+      "geometry_available": true
+    },
+    {
+      "from_year": 215,
+      "to_year": 223,
+      "area_km2": 1941527.7582829455,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1321,
+      "geometry_available": true
+    },
+    {
+      "from_year": 224,
+      "to_year": 237,
+      "area_km2": 1939254.3432398983,
+      "wikidata_id": null,
+      "seshat_id": "af_kushan_emp",
+      "wikipedia": "Kushan Empire",
+      "source_feature_index": 1333,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

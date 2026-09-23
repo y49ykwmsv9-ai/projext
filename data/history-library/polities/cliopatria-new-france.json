@@ -1,0 +1,434 @@
+{
+  "id": "cliopatria-new-france",
+  "identity": {
+    "canonical_name": "New France",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1609,
+    "end": 1791,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1609,
+      "to_year": 1611,
+      "area_km2": 2509.108693348691,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8570,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1625,
+      "area_km2": 17818.47534548514,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8620,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1628,
+      "area_km2": 3997.124706570293,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8719,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1631,
+      "area_km2": 222.37768286497325,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8727,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 17556.224038900487,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8783,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1639,
+      "area_km2": 21270.78126284465,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1641,
+      "area_km2": 21430.970154395673,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8834,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 29369.13106541716,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8893,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1652,
+      "area_km2": 31907.37242888171,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8944,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1658,
+      "area_km2": 33214.9886359798,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 8999,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1661,
+      "area_km2": 23422.01904802488,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_1",
+      "wikipedia": "New France",
+      "source_feature_index": 9028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1662,
+      "to_year": 1669,
+      "area_km2": 24446.517233429622,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9087,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 69710.78620036664,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9138,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 95431.21323148542,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9148,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 104036.81865796167,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9204,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 114427.93005505989,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9239,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 123462.32384793092,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9300,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 121669.56873384595,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9314,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 124991.60081572537,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9348,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 140655.01635604163,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9379,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1705,
+      "area_km2": 149610.8105729092,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1712,
+      "area_km2": 149889.32928904783,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9441,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 147266.17112547418,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9529,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 163526.7994049773,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9571,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 200440.91294192505,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9603,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 203870.60727154647,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9634,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 235164.93702183987,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9682,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 242924.7767381129,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9723,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 245651.5000354532,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9781,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1751,
+      "area_km2": 247341.27722782365,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9784,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1752,
+      "to_year": 1756,
+      "area_km2": 244654.2138573203,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9884,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 249342.52856133782,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9916,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 118642.4619960817,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 9968,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1779,
+      "area_km2": 90857.76275796005,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 10003,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1782,
+      "area_km2": 61562.87925927746,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 10188,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1783,
+      "to_year": 1790,
+      "area_km2": 77155.1041047197,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 10242,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 391.41653764457425,
+      "wikidata_id": null,
+      "seshat_id": "fr_bourbon_k_2",
+      "wikipedia": "New France",
+      "source_feature_index": 10320,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

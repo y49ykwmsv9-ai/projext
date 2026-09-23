@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-zapotec-civilization",
+  "identity": {
+    "canonical_name": "Zapotec Civilization",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -500,
+    "end": 895,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -500,
+      "to_year": -292,
+      "area_km2": 6447.078460848409,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_1_early",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 294,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -92,
+      "area_km2": 6447.078460848409,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_1_late",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 540,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": 206,
+      "area_km2": 69767.7808673665,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_2",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 974,
+      "geometry_available": true
+    },
+    {
+      "from_year": 207,
+      "to_year": 509,
+      "area_km2": 69767.7808673665,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_3_a",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 1306,
+      "geometry_available": true
+    },
+    {
+      "from_year": 510,
+      "to_year": 601,
+      "area_km2": 69767.7808673665,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_3_b_4",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 1938,
+      "geometry_available": true
+    },
+    {
+      "from_year": 602,
+      "to_year": 891,
+      "area_km2": 8549.745872561878,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_3_b_4",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 2210,
+      "geometry_available": true
+    },
+    {
+      "from_year": 892,
+      "to_year": 895,
+      "area_km2": 8549.745872561878,
+      "wikidata_id": null,
+      "seshat_id": "mx_monte_alban_3_b_4",
+      "wikipedia": "Zapotec civilization",
+      "source_feature_index": 3470,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

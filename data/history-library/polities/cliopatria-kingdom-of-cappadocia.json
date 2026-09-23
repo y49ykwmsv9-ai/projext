@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-kingdom-of-cappadocia",
+  "identity": {
+    "canonical_name": "Kingdom of Cappadocia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -239,
+    "end": 22,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -239,
+      "to_year": -219,
+      "area_km2": 67935.7273231421,
+      "wikidata_id": null,
+      "seshat_id": "tr_cappadocia_2",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 666,
+      "geometry_available": true
+    },
+    {
+      "from_year": -218,
+      "to_year": -213,
+      "area_km2": 67859.95718062663,
+      "wikidata_id": null,
+      "seshat_id": "tr_cappadocia_2",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 729,
+      "geometry_available": true
+    },
+    {
+      "from_year": -212,
+      "to_year": -189,
+      "area_km2": 67615.05141506802,
+      "wikidata_id": null,
+      "seshat_id": "tr_cappadocia_2",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 739,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -127,
+      "area_km2": 81396.49213957827,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 854,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 91786.98873207031,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 911,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 88757.41314558241,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 938,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -88,
+      "area_km2": 88611.33071862425,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 952,
+      "geometry_available": true
+    },
+    {
+      "from_year": -77,
+      "to_year": -67,
+      "area_km2": 91590.0632206881,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 983,
+      "geometry_available": true
+    },
+    {
+      "from_year": -66,
+      "to_year": -64,
+      "area_km2": 91738.4261279234,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 998,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": -26,
+      "area_km2": 86669.61862463533,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 1012,
+      "geometry_available": true
+    },
+    {
+      "from_year": -25,
+      "to_year": 13,
+      "area_km2": 86768.75745164981,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 1097,
+      "geometry_available": true
+    },
+    {
+      "from_year": 14,
+      "to_year": 22,
+      "area_km2": 86768.75745164981,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Cappadocia",
+      "source_feature_index": 1124,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

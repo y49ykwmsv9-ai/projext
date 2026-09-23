@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-kingdom-of-lazica",
+  "identity": {
+    "canonical_name": "Kingdom of Lazica",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 638,
+    "end": 777,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 638,
+      "to_year": 646,
+      "area_km2": 23424.302078712306,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2408,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 681,
+      "area_km2": 23545.321637184505,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2482,
+      "geometry_available": true
+    },
+    {
+      "from_year": 682,
+      "to_year": 723,
+      "area_km2": 23424.302078712306,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2606,
+      "geometry_available": true
+    },
+    {
+      "from_year": 724,
+      "to_year": 740,
+      "area_km2": 18248.814042184553,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2694,
+      "geometry_available": true
+    },
+    {
+      "from_year": 741,
+      "to_year": 774,
+      "area_km2": 18320.690157878253,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2728,
+      "geometry_available": true
+    },
+    {
+      "from_year": 775,
+      "to_year": 777,
+      "area_km2": 18320.690157878253,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lazica",
+      "source_feature_index": 2898,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

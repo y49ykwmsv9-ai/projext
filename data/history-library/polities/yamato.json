@@ -1,0 +1,20 @@
+{
+  "id": "yamato",
+  "canonical_name": "Yamato polity",
+  "type": "polity",
+  "start_year": 250,
+  "end_year": 710,
+  "era": "ancient",
+  "region": "Japan",
+  "aliases": [],
+  "source_ids": [
+    "chronicle-seed-polities"
+  ],
+  "provenance": [
+    {
+      "source_id": "chronicle-seed-polities",
+      "retrieved_at": "2026-09-23",
+      "confidence": "unknown"
+    }
+  ]
+}

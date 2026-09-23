@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-state-of-israel",
+  "identity": {
+    "canonical_name": "State of Israel",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1948,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1948,
+      "to_year": 1948,
+      "area_km2": 22893.64544526972,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13046,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1952,
+      "area_km2": 21927.627537761993,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13062,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1955,
+      "area_km2": 21799.57174757172,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13103,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1957,
+      "area_km2": 83177.47260645503,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13138,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1958,
+      "to_year": 1966,
+      "area_km2": 21799.57174757172,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13162,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1967,
+      "to_year": 1972,
+      "area_km2": 90410.95285256393,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13242,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1973,
+      "to_year": 1975,
+      "area_km2": 29550.532901399616,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 1982,
+      "area_km2": 89671.16389407852,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13365,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1983,
+      "to_year": 1986,
+      "area_km2": 31835.240923638186,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13391,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1987,
+      "to_year": 2005,
+      "area_km2": 28787.23327273613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13422,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2006,
+      "to_year": 2013,
+      "area_km2": 30363.64709754631,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13538,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2014,
+      "to_year": 2023,
+      "area_km2": 28658.84096960442,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13562,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 28658.84096960442,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Israel",
+      "source_feature_index": 13689,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

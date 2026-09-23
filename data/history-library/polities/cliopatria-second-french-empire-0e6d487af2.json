@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-second-french-empire-0e6d487af2",
+  "identity": {
+    "canonical_name": "Second French Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1853,
+    "end": 1870,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 629595.5266086861,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11539,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1859,
+      "area_km2": 625912.9771429034,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11544,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1861,
+      "area_km2": 644797.3144987238,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11661,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1862,
+      "area_km2": 655682.139406434,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11688,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1863,
+      "to_year": 1863,
+      "area_km2": 671425.8952877296,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11699,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1869,
+      "area_km2": 644708.1829720563,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11729,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 565362.4013030478,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_napoleonic",
+      "wikipedia": "Second French Empire",
+      "source_feature_index": 11858,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

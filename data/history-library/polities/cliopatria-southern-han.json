@@ -1,0 +1,104 @@
+{
+  "id": "cliopatria-southern-han",
+  "identity": {
+    "canonical_name": "Southern Han",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 911,
+    "end": 979,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 911,
+      "to_year": 946,
+      "area_km2": 322736.845595756,
+      "wikidata_id": null,
+      "seshat_id": "cn_five_dyn",
+      "wikipedia": "Southern Han",
+      "source_feature_index": 3602,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 261016.332179714,
+      "wikidata_id": null,
+      "seshat_id": "cn_five_dyn",
+      "wikipedia": "Southern Han",
+      "source_feature_index": 3790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 969,
+      "area_km2": 261096.74000337103,
+      "wikidata_id": null,
+      "seshat_id": "cn_five_dyn",
+      "wikipedia": "Southern Han",
+      "source_feature_index": 3848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 970,
+      "to_year": 979,
+      "area_km2": 260987.19800919227,
+      "wikidata_id": null,
+      "seshat_id": "cn_five_dyn",
+      "wikipedia": "Southern Han",
+      "source_feature_index": 3949,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

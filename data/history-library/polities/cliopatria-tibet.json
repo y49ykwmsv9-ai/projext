@@ -1,0 +1,554 @@
+{
+  "id": "cliopatria-tibet",
+  "identity": {
+    "canonical_name": "Tibet",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1363,
+    "end": 1952,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1363,
+      "to_year": 1374,
+      "area_km2": 1546215.0176799507,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 6532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 1546253.1933938612,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 6568,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1401,
+      "area_km2": 1545057.6404546555,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 6692,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 1545757.6255532913,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 6869,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1467,
+      "area_km2": 1546215.0176799505,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 6937,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1539,
+      "area_km2": 1546163.5190151953,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 7412,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 1546214.9486437163,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8064,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1555,
+      "area_km2": 1546360.2110558804,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1581,
+      "area_km2": 1546308.7814273594,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8230,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1587,
+      "area_km2": 1546163.5190151953,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8394,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1599,
+      "area_km2": 1545974.0919334302,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8410,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1635,
+      "area_km2": 1546433.4548524886,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1644,
+      "area_km2": 1550033.1702825627,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8802,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 1549842.8715455234,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8938,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 1549912.6263277342,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8978,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1672,
+      "area_km2": 1549573.8073635043,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 8996,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 1549505.9217580922,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9144,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 1549573.8073635045,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9211,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1699,
+      "area_km2": 1604809.3176645262,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9231,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 1604860.8163292804,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9378,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1717,
+      "area_km2": 1555193.3789923359,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9430,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 893279.9625599046,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9564,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 1555193.3789923359,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9599,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 1323585.6523018098,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9639,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1743,
+      "area_km2": 1250775.0117984414,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9677,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1756,
+      "area_km2": 1250854.3863496445,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9788,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 1251065.9875947295,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9907,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1768,
+      "area_km2": 1250781.6350284624,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 9962,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 1250521.5756548082,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 10051,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 1250367.5897708733,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 10104,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1787,
+      "area_km2": 1250812.68205351,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 10133,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1788,
+      "to_year": 1790,
+      "area_km2": 1247026.432810336,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 10275,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 1247182.5159381034,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 10317,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 1231285.0919428766,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "History of Tibet",
+      "source_feature_index": 10326,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1913,
+      "area_km2": 910375.4497188771,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12303,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1916,
+      "area_km2": 907992.1090017932,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12336,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1917,
+      "area_km2": 907612.6082669959,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12394,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1918,
+      "to_year": 1925,
+      "area_km2": 1365984.54684639,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12433,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1926,
+      "area_km2": 1365910.2186714653,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12607,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1927,
+      "to_year": 1927,
+      "area_km2": 1366396.1875419295,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1928,
+      "to_year": 1928,
+      "area_km2": 1217316.2446985538,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12637,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1929,
+      "to_year": 1931,
+      "area_km2": 1217166.5642953424,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12645,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1937,
+      "area_km2": 907992.1090017932,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12688,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1938,
+      "area_km2": 907816.0584991637,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12777,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1939,
+      "to_year": 1943,
+      "area_km2": 910461.876113152,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12792,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1946,
+      "area_km2": 910637.9266157816,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12909,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 910715.0687426757,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 12989,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1949,
+      "area_km2": 910689.3244466126,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 13035,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 1952,
+      "area_km2": 910513.273943983,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Tibet",
+      "source_feature_index": 13089,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

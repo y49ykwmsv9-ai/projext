@@ -1,0 +1,754 @@
+{
+  "id": "cliopatria-habsburg-monarchy",
+  "identity": {
+    "canonical_name": "(Habsburg Monarchy)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1459,
+    "end": 1805,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 100275.85872630528,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7316,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1467,
+      "area_km2": 100162.18469110609,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1474,
+      "area_km2": 100704.64681053912,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7423,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 100634.94702782674,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7456,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 155209.63142677097,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7507,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 101860.07966639714,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7593,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1496,
+      "area_km2": 150349.09054071302,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7620,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1501,
+      "area_km2": 171362.55556660704,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7650,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1506,
+      "area_km2": 172745.55256707544,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7709,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1507,
+      "to_year": 1511,
+      "area_km2": 174883.60933121556,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7755,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1518,
+      "area_km2": 174770.49916195328,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7785,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1525,
+      "area_km2": 119928.07585815492,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 123339.44452147595,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 7952,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1539,
+      "area_km2": 93015.31185707876,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 8019,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1546,
+      "area_km2": 98330.27808045148,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 8074,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1547,
+      "to_year": 1551,
+      "area_km2": 101700.39687968098,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 8144,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 105564.05454249901,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg Austria",
+      "source_feature_index": 8177,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 341137.89331107197,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8197,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 340171.4766203048,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8270,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1587,
+      "area_km2": 352121.31272253563,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8343,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1588,
+      "to_year": 1594,
+      "area_km2": 352413.91680629726,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8441,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 351546.852874997,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8476,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1618,
+      "area_km2": 351750.07916961337,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8518,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1619,
+      "to_year": 1621,
+      "area_km2": 223061.90495405102,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8644,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1622,
+      "to_year": 1625,
+      "area_km2": 341004.17056376475,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8681,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1626,
+      "to_year": 1628,
+      "area_km2": 340711.56648000324,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8692,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1631,
+      "area_km2": 384312.6957696765,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8736,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 292795.1392054365,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8754,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1639,
+      "area_km2": 331369.0772119985,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8815,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1641,
+      "area_km2": 325280.77492273354,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8875,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1642,
+      "to_year": 1644,
+      "area_km2": 329255.6735259968,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8888,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1645,
+      "to_year": 1647,
+      "area_km2": 328556.1919677369,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8916,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1652,
+      "area_km2": 329189.3629830818,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_1",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 8949,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1653,
+      "to_year": 1669,
+      "area_km2": 329189.3629830818,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9007,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1672,
+      "area_km2": 325377.3009527025,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9097,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1682,
+      "area_km2": 332719.91110888246,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9176,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 277891.44782248646,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9243,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1687,
+      "to_year": 1690,
+      "area_km2": 380042.17759810376,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9276,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 401594.0380037758,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1699,
+      "area_km2": 523093.07314104104,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9365,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1701,
+      "area_km2": 527200.7213018625,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9400,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1702,
+      "to_year": 1705,
+      "area_km2": 530521.7544820365,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9419,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1706,
+      "to_year": 1708,
+      "area_km2": 569432.8211074328,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9476,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 578093.0890599962,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9496,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 668637.5169630332,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9546,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 729883.0107097159,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9575,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1733,
+      "area_km2": 752160.9141959876,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9625,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 653146.8599049494,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9694,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 683625.7526382053,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9742,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 576901.4477316164,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9748,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1747,
+      "area_km2": 579458.9599250436,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9821,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1756,
+      "area_km2": 574553.0342528034,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9845,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 569613.1833968366,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9922,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 613828.9762161853,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 9972,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1768,
+      "area_km2": 574553.0342528034,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10025,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1769,
+      "to_year": 1771,
+      "area_km2": 574396.4213395026,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10065,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1772,
+      "to_year": 1774,
+      "area_km2": 652307.1306415986,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10082,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1777,
+      "area_km2": 663578.1960594465,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10124,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1778,
+      "to_year": 1779,
+      "area_km2": 712761.1008348011,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10176,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1790,
+      "area_km2": 669308.7400460682,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10207,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1791,
+      "to_year": 1791,
+      "area_km2": 700293.7598109563,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1792,
+      "to_year": 1793,
+      "area_km2": 667304.3639976023,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10344,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1795,
+      "area_km2": 684123.4557994149,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10387,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 675164.8280516879,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10413,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 707689.1315516036,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10444,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1799,
+      "to_year": 1799,
+      "area_km2": 703739.7065695501,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10503,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 738392.2965237761,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1804,
+      "area_km2": 680295.6234813106,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10575,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1805,
+      "to_year": 1805,
+      "area_km2": 669876.3289409515,
+      "wikidata_id": null,
+      "seshat_id": "at_habsburg_2",
+      "wikipedia": "Habsburg monarchy",
+      "source_feature_index": 10636,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

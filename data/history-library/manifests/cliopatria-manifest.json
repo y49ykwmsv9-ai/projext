@@ -1,0 +1,31 @@
+{
+  "target": "cliopatria-complete",
+  "source": {
+    "source_id": "cliopatria",
+    "source_file": "cliopatria_polities_only.geojson",
+    "sha256": "5df3b5868cfab8f76030853fa2346ed3cd71171ad807b6f72d783ee2dce6839e",
+    "retrieved_at": "2026-09-23"
+  },
+  "counts": {
+    "raw_features": 13765,
+    "polity_rows": 13380,
+    "relation_rows": 385,
+    "unique_source_polities": 1583,
+    "imported_polities": 1583,
+    "temporal_spatial_records": 13380,
+    "invalid_polity_rows": 0
+  },
+  "coverage": {
+    "missing": [],
+    "unexpected": [],
+    "coverage_ratio": 1.0,
+    "complete": true
+  },
+  "invalid_rows": [],
+  "stable_id_rule": "cliopatria-<slug source Name>, with deterministic SHA-1 suffix on slug collision",
+  "notes": [
+    "Completeness is evaluated against unique POLITY Name values.",
+    "Cliopatria rows are temporal/spatial observations of entities, not separate polities.",
+    "Geometry is not copied into narrative resources; source_feature_index records the originating row."
+  ]
+}

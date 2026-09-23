@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-duchy-of-bohemia",
+  "identity": {
+    "canonical_name": "Duchy of Bohemia",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 896,
+    "end": 1002,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 896,
+      "to_year": 899,
+      "area_km2": 45639.40978334157,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3501,
+      "geometry_available": true
+    },
+    {
+      "from_year": 900,
+      "to_year": 910,
+      "area_km2": 45570.306174943595,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3579,
+      "geometry_available": true
+    },
+    {
+      "from_year": 911,
+      "to_year": 921,
+      "area_km2": 45767.60047176833,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3617,
+      "geometry_available": true
+    },
+    {
+      "from_year": 922,
+      "to_year": 935,
+      "area_km2": 45745.16291990536,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3660,
+      "geometry_available": true
+    },
+    {
+      "from_year": 936,
+      "to_year": 946,
+      "area_km2": 45107.505641479685,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3748,
+      "geometry_available": true
+    },
+    {
+      "from_year": 947,
+      "to_year": 959,
+      "area_km2": 84402.7132366255,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3811,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 961,
+      "area_km2": 128567.90104072467,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 962,
+      "to_year": 989,
+      "area_km2": 127026.83130398644,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 3927,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 999,
+      "area_km2": 81126.01119849381,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 4016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1000,
+      "to_year": 1002,
+      "area_km2": 81126.01119849381,
+      "wikidata_id": null,
+      "seshat_id": "cz_bohemian_duc",
+      "wikipedia": "Duchy of Bohemia",
+      "source_feature_index": 4073,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

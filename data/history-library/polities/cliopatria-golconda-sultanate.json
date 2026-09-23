@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-golconda-sultanate",
+  "identity": {
+    "canonical_name": "Golconda Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1519,
+    "end": 1686,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1519,
+      "to_year": 1520,
+      "area_km2": 52268.495119098334,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 7875,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1571,
+      "area_km2": 104087.71432372517,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 7918,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1611,
+      "area_km2": 114003.46683975286,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 8318,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1639,
+      "area_km2": 169354.3512926812,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 8605,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1658,
+      "area_km2": 203633.13896167575,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 8858,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1659,
+      "to_year": 1669,
+      "area_km2": 189610.65410812307,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 9043,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1676,
+      "area_km2": 189389.78673174203,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 9119,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1682,
+      "area_km2": 189777.85768735953,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 9183,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1683,
+      "to_year": 1686,
+      "area_km2": 189777.85768735953,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Qutb Shahi dynasty",
+      "source_feature_index": 9264,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

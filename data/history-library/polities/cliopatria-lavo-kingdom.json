@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-lavo-kingdom",
+  "identity": {
+    "canonical_name": "Lavo Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 638,
+    "end": 1394,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 638,
+      "to_year": 640,
+      "area_km2": 127641.6164933877,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_1",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 2416,
+      "geometry_available": true
+    },
+    {
+      "from_year": 641,
+      "to_year": 660,
+      "area_km2": 127760.68015161649,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_1",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 2436,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 717,
+      "area_km2": 126306.86648208901,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_1",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 2517,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 805,
+      "area_km2": 126451.4490707353,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_1",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 2680,
+      "geometry_available": true
+    },
+    {
+      "from_year": 806,
+      "to_year": 1002,
+      "area_km2": 126430.25366449489,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_1",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 3028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1003,
+      "to_year": 1027,
+      "area_km2": 126430.25366449489,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_2",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 4108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 143091.79210094517,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_2",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 4486,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1187,
+      "area_km2": 140787.8500098298,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_2",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 4547,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1241,
+      "to_year": 1351,
+      "area_km2": 42717.11333508126,
+      "wikidata_id": null,
+      "seshat_id": "th_lavo_k_2",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 5664,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1374,
+      "area_km2": 34834.0505014187,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 6437,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 31852.70881266326,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 6618,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 31852.70881266326,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lavo Kingdom",
+      "source_feature_index": 6674,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

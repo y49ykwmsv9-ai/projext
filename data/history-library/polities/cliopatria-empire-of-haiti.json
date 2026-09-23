@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-empire-of-haiti",
+  "identity": {
+    "canonical_name": "Empire of Haiti",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1805,
+    "end": 1915,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1805,
+      "to_year": 1808,
+      "area_km2": 31292.055208037345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 10625,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1821,
+      "area_km2": 31346.836472366937,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 10761,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1845,
+      "area_km2": 83655.62131294688,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 11078,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1860,
+      "area_km2": 31292.055208037345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 11414,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1864,
+      "area_km2": 31346.836472366937,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 11668,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1914,
+      "area_km2": 31292.055208037345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 11765,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1915,
+      "area_km2": 31292.055208037345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "First Empire of Haiti",
+      "source_feature_index": 12343,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

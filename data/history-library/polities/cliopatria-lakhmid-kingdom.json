@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-lakhmid-kingdom",
+  "identity": {
+    "canonical_name": "Lakhmid Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 270,
+    "end": 633,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 270,
+      "to_year": 401,
+      "area_km2": 258841.84181228405,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 1389,
+      "geometry_available": true
+    },
+    {
+      "from_year": 402,
+      "to_year": 438,
+      "area_km2": 258841.84181228405,
+      "wikidata_id": null,
+      "seshat_id": "iq_lakhmid_k",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 1627,
+      "geometry_available": true
+    },
+    {
+      "from_year": 439,
+      "to_year": 450,
+      "area_km2": 259124.27861150555,
+      "wikidata_id": null,
+      "seshat_id": "iq_lakhmid_k",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 1740,
+      "geometry_available": true
+    },
+    {
+      "from_year": 451,
+      "to_year": 489,
+      "area_km2": 258841.84181228405,
+      "wikidata_id": null,
+      "seshat_id": "iq_lakhmid_k",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 1790,
+      "geometry_available": true
+    },
+    {
+      "from_year": 490,
+      "to_year": 509,
+      "area_km2": 259124.27861150555,
+      "wikidata_id": null,
+      "seshat_id": "iq_lakhmid_k",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 1908,
+      "geometry_available": true
+    },
+    {
+      "from_year": 510,
+      "to_year": 601,
+      "area_km2": 258675.8541528337,
+      "wikidata_id": null,
+      "seshat_id": "iq_lakhmid_k",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 1954,
+      "geometry_available": true
+    },
+    {
+      "from_year": 629,
+      "to_year": 632,
+      "area_km2": 258675.8541528337,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 2341,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 633,
+      "area_km2": 258179.3060324851,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Lakhmid kingdom",
+      "source_feature_index": 2350,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

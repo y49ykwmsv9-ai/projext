@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-hotaki-dynasty",
+  "identity": {
+    "canonical_name": "Hotaki Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1709,
+    "end": 1737,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 4857.547871981389,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hotak dynasty",
+      "source_feature_index": 9488,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1717,
+      "area_km2": 149398.08078124892,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hotak dynasty",
+      "source_feature_index": 9555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1718,
+      "to_year": 1720,
+      "area_km2": 552631.8323164626,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hotak dynasty",
+      "source_feature_index": 9587,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1726,
+      "area_km2": 919073.4874571768,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hotak dynasty",
+      "source_feature_index": 9611,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1727,
+      "to_year": 1733,
+      "area_km2": 1918356.782841212,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hotak dynasty",
+      "source_feature_index": 9653,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 552475.541166457,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Hotak dynasty",
+      "source_feature_index": 9701,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

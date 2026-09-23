@@ -1,0 +1,154 @@
+{
+  "id": "cliopatria-duchy-of-nassau",
+  "identity": {
+    "canonical_name": "Duchy of Nassau",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1806,
+    "end": 1865,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1806,
+      "to_year": 1806,
+      "area_km2": 11388.195716195349,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 10660,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1807,
+      "to_year": 1808,
+      "area_km2": 5092.942553299002,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 10714,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 16877.334409427855,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 10771,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1811,
+      "to_year": 1813,
+      "area_km2": 11636.200995257988,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 10829,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 5203.263809949551,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 10884,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 5314.461149742146,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 10961,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1863,
+      "area_km2": 5800.138208821307,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 11028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1864,
+      "area_km2": 5955.1955653270425,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 11725,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 5955.1955653270425,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Duchy of Nassau",
+      "source_feature_index": 11749,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

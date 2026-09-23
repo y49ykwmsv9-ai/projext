@@ -1,0 +1,184 @@
+{
+  "id": "cliopatria-electorate-of-hanover",
+  "identity": {
+    "canonical_name": "Electorate of Hanover",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1709,
+    "end": 1802,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1709,
+      "to_year": 1712,
+      "area_km2": 23856.14488120676,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9512,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1713,
+      "to_year": 1720,
+      "area_km2": 23750.46899447231,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9533,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1740,
+      "area_km2": 29789.80167281667,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9595,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1741,
+      "to_year": 1743,
+      "area_km2": 29834.163676312244,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9777,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1744,
+      "to_year": 1756,
+      "area_km2": 29855.955397906637,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9791,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1757,
+      "to_year": 1761,
+      "area_km2": 47658.08592582399,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9909,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1762,
+      "to_year": 1762,
+      "area_km2": 42902.472417091536,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 9965,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1763,
+      "to_year": 1774,
+      "area_km2": 31765.40240462357,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 10000,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1795,
+      "area_km2": 31807.867297393645,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 10135,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1796,
+      "to_year": 1796,
+      "area_km2": 31786.50560592706,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 10423,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1799,
+      "area_km2": 31807.86729739364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 10469,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1800,
+      "to_year": 1802,
+      "area_km2": 31807.86729739364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Electorate of Hanover",
+      "source_feature_index": 10525,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

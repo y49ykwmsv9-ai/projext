@@ -1,0 +1,204 @@
+{
+  "id": "cliopatria-italian-africa",
+  "identity": {
+    "canonical_name": "Italian Africa",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1890,
+    "end": 1943,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 270644.8024954318,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12049,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1899,
+      "area_km2": 592593.7765998241,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12130,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1900,
+      "to_year": 1911,
+      "area_km2": 587265.8115111644,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12168,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1912,
+      "to_year": 1919,
+      "area_km2": 1467308.853056379,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12288,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1921,
+      "area_km2": 1610722.6436240654,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12502,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1925,
+      "area_km2": 1610821.3778472578,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12555,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1926,
+      "to_year": 1929,
+      "area_km2": 1642229.4610212613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12601,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1930,
+      "to_year": 1931,
+      "area_km2": 2115020.4503703075,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12670,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1932,
+      "to_year": 1935,
+      "area_km2": 2114969.3611777374,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12682,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1939,
+      "area_km2": 3329421.7426632047,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12756,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1940,
+      "area_km2": 3514583.089633959,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12818,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 1538476.9378539973,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12848,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 1535785.2403379283,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12852,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 1540602.2690103953,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Italian Empire",
+      "source_feature_index": 12880,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

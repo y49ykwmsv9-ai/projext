@@ -1,0 +1,94 @@
+{
+  "id": "cliopatria-papua-new-guinea",
+  "identity": {
+    "canonical_name": "Papua New Guinea",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1946,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1946,
+      "to_year": 1975,
+      "area_km2": 477475.8225645613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papua New Guinea",
+      "source_feature_index": 12976,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1976,
+      "to_year": 2023,
+      "area_km2": 483567.76973090967,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papua New Guinea",
+      "source_feature_index": 13342,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 483567.76973090967,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Papua New Guinea",
+      "source_feature_index": 13617,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "id": "cliopatria-talpur-dynasty",
+  "identity": {
+    "canonical_name": "Talpur Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1820,
+    "end": 1894,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 147651.4198727274,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11011,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1835,
+      "area_km2": 535463.7924465113,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11101,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 528677.7635237455,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11297,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 79066.12323052512,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11363,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1845,
+      "area_km2": 192784.66403545433,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11381,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1847,
+      "area_km2": 74721.9221089265,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11425,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 74847.68540799468,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11431,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 49864.178959655364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11474,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1859,
+      "area_km2": 54232.41721534352,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11520,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1863,
+      "area_km2": 49864.178959655364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11658,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1876,
+      "area_km2": 49914.34619953665,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11714,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1877,
+      "to_year": 1879,
+      "area_km2": 49864.178959655364,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11941,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 49915.442047303084,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 11964,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 50115.18509802047,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 12025,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 50115.18509802047,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Talpur dynasty",
+      "source_feature_index": 12083,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

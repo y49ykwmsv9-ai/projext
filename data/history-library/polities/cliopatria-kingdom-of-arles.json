@@ -1,0 +1,224 @@
+{
+  "id": "cliopatria-kingdom-of-arles",
+  "identity": {
+    "canonical_name": "Kingdom of Arles",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 936,
+    "end": 1384,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 936,
+      "to_year": 959,
+      "area_km2": 117221.29947837922,
+      "wikidata_id": null,
+      "seshat_id": "fr_arles_k",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 3764,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 960,
+      "area_km2": 117175.62132744817,
+      "wikidata_id": null,
+      "seshat_id": "fr_arles_k",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 3856,
+      "geometry_available": true
+    },
+    {
+      "from_year": 961,
+      "to_year": 989,
+      "area_km2": 117013.3848165809,
+      "wikidata_id": null,
+      "seshat_id": "fr_arles_k",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 3906,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 1009,
+      "area_km2": 116942.21359125614,
+      "wikidata_id": null,
+      "seshat_id": "fr_arles_k",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 4028,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1010,
+      "to_year": 1033,
+      "area_km2": 117028.88199425567,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 4137,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1034,
+      "to_year": 1039,
+      "area_km2": 18279.77306442594,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 4317,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1055,
+      "area_km2": 18168.609533381707,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 4364,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1146,
+      "area_km2": 18191.04839075129,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 4522,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1147,
+      "to_year": 1151,
+      "area_km2": 18302.211921795522,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 4941,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1152,
+      "to_year": 1187,
+      "area_km2": 18191.04839075129,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 5003,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1188,
+      "to_year": 1205,
+      "area_km2": 20921.237357768012,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 5143,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1206,
+      "to_year": 1259,
+      "area_km2": 20990.065262079886,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 5272,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1260,
+      "to_year": 1284,
+      "area_km2": 20807.597033341382,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 5816,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1285,
+      "to_year": 1332,
+      "area_km2": 20762.204424331372,
+      "wikidata_id": null,
+      "seshat_id": "fr_capetian_k_2",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 5959,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1374,
+      "area_km2": 21036.55258332295,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 6315,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1375,
+      "to_year": 1384,
+      "area_km2": 21037.27630924891,
+      "wikidata_id": null,
+      "seshat_id": "fr_valois_k_1",
+      "wikipedia": "Kingdom of Arles",
+      "source_feature_index": 6569,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

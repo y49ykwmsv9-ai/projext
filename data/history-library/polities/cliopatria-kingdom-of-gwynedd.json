@@ -1,0 +1,304 @@
+{
+  "id": "cliopatria-kingdom-of-gwynedd",
+  "identity": {
+    "canonical_name": "Kingdom of Gwynedd",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 540,
+    "end": 1284,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 540,
+      "to_year": 591,
+      "area_km2": 8215.601194545567,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2027,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 625,
+      "area_km2": 8108.100645214909,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2201,
+      "geometry_available": true
+    },
+    {
+      "from_year": 626,
+      "to_year": 632,
+      "area_km2": 7245.073716779319,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 633,
+      "to_year": 655,
+      "area_km2": 8108.100645214909,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2365,
+      "geometry_available": true
+    },
+    {
+      "from_year": 656,
+      "to_year": 660,
+      "area_km2": 8215.601194545567,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2497,
+      "geometry_available": true
+    },
+    {
+      "from_year": 661,
+      "to_year": 704,
+      "area_km2": 8108.100645214909,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2515,
+      "geometry_available": true
+    },
+    {
+      "from_year": 705,
+      "to_year": 859,
+      "area_km2": 6363.471777266053,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 2653,
+      "geometry_available": true
+    },
+    {
+      "from_year": 860,
+      "to_year": 865,
+      "area_km2": 10720.793935838321,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 3197,
+      "geometry_available": true
+    },
+    {
+      "from_year": 866,
+      "to_year": 869,
+      "area_km2": 10634.008995199201,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 3245,
+      "geometry_available": true
+    },
+    {
+      "from_year": 870,
+      "to_year": 874,
+      "area_km2": 10720.793935838321,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 3260,
+      "geometry_available": true
+    },
+    {
+      "from_year": 875,
+      "to_year": 877,
+      "area_km2": 15188.388768867117,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 3317,
+      "geometry_available": true
+    },
+    {
+      "from_year": 878,
+      "to_year": 921,
+      "area_km2": 6363.471777266053,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 3365,
+      "geometry_available": true
+    },
+    {
+      "from_year": 960,
+      "to_year": 1039,
+      "area_km2": 6363.471777266053,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 3849,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1040,
+      "to_year": 1045,
+      "area_km2": 10634.008995199201,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 4367,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 10720.793935838321,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 4425,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 23246.894346143134,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 4446,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1084,
+      "area_km2": 10720.793935838321,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 4581,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1085,
+      "to_year": 1093,
+      "area_km2": 6363.471777266053,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 4685,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1099,
+      "to_year": 1168,
+      "area_km2": 5715.41395955936,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 4730,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1169,
+      "to_year": 1209,
+      "area_km2": 5693.606348158282,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 5049,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1210,
+      "to_year": 1215,
+      "area_km2": 8836.28322349969,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 5361,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1216,
+      "to_year": 1235,
+      "area_km2": 12564.396602336854,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 5409,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1236,
+      "to_year": 1278,
+      "area_km2": 14544.036676695605,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 5561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1279,
+      "to_year": 1284,
+      "area_km2": 14544.036676695605,
+      "wikidata_id": null,
+      "seshat_id": "gb_brythonic_k",
+      "wikipedia": "Kingdom of Gwynedd",
+      "source_feature_index": 5878,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

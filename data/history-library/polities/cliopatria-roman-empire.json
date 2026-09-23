@@ -1,0 +1,617 @@
+{
+  "id": "cliopatria-roman-empire",
+  "identity": {
+    "canonical_name": "Roman Empire",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -31,
+    "end": 394,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [
+    "theodosius",
+    "western-fall"
+  ],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -31,
+      "to_year": -31,
+      "area_km2": 1692465.939823182,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1079,
+      "geometry_available": true
+    },
+    {
+      "from_year": -30,
+      "to_year": -28,
+      "area_km2": 2412886.258289115,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1083,
+      "geometry_available": true
+    },
+    {
+      "from_year": -27,
+      "to_year": -26,
+      "area_km2": 3059903.503164862,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1094,
+      "geometry_available": true
+    },
+    {
+      "from_year": -25,
+      "to_year": -20,
+      "area_km2": 3552215.7365959184,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1099,
+      "geometry_available": true
+    },
+    {
+      "from_year": -19,
+      "to_year": -15,
+      "area_km2": 3292932.840750153,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1102,
+      "geometry_available": true
+    },
+    {
+      "from_year": -14,
+      "to_year": 0,
+      "area_km2": 3480537.1498743882,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1105,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1,
+      "to_year": 5,
+      "area_km2": 3550372.1782314517,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1111,
+      "geometry_available": true
+    },
+    {
+      "from_year": 6,
+      "to_year": 8,
+      "area_km2": 3650360.249361282,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1118,
+      "geometry_available": true
+    },
+    {
+      "from_year": 9,
+      "to_year": 13,
+      "area_km2": 3477419.2031669505,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1121,
+      "geometry_available": true
+    },
+    {
+      "from_year": 14,
+      "to_year": 22,
+      "area_km2": 3512911.4832939045,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1126,
+      "geometry_available": true
+    },
+    {
+      "from_year": 23,
+      "to_year": 42,
+      "area_km2": 3609090.0030450174,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1136,
+      "geometry_available": true
+    },
+    {
+      "from_year": 43,
+      "to_year": 50,
+      "area_km2": 3888657.3801009636,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1144,
+      "geometry_available": true
+    },
+    {
+      "from_year": 51,
+      "to_year": 59,
+      "area_km2": 4099311.237631734,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1161,
+      "geometry_available": true
+    },
+    {
+      "from_year": 60,
+      "to_year": 67,
+      "area_km2": 4303691.344629171,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1177,
+      "geometry_available": true
+    },
+    {
+      "from_year": 68,
+      "to_year": 77,
+      "area_km2": 4211152.001108708,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1184,
+      "geometry_available": true
+    },
+    {
+      "from_year": 78,
+      "to_year": 83,
+      "area_km2": 4216599.078914454,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1198,
+      "geometry_available": true
+    },
+    {
+      "from_year": 84,
+      "to_year": 90,
+      "area_km2": 4295506.93480503,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1206,
+      "geometry_available": true
+    },
+    {
+      "from_year": 91,
+      "to_year": 105,
+      "area_km2": 4263184.124511789,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1213,
+      "geometry_available": true
+    },
+    {
+      "from_year": 106,
+      "to_year": 113,
+      "area_km2": 4585714.057496045,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1219,
+      "geometry_available": true
+    },
+    {
+      "from_year": 114,
+      "to_year": 116,
+      "area_km2": 4900434.242712745,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1229,
+      "geometry_available": true
+    },
+    {
+      "from_year": 117,
+      "to_year": 126,
+      "area_km2": 5263199.312993251,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1235,
+      "geometry_available": true
+    },
+    {
+      "from_year": 127,
+      "to_year": 153,
+      "area_km2": 4558217.585423739,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1237,
+      "geometry_available": true
+    },
+    {
+      "from_year": 154,
+      "to_year": 160,
+      "area_km2": 4582517.100062064,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1258,
+      "geometry_available": true
+    },
+    {
+      "from_year": 161,
+      "to_year": 164,
+      "area_km2": 4500114.317580582,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1269,
+      "geometry_available": true
+    },
+    {
+      "from_year": 165,
+      "to_year": 183,
+      "area_km2": 4653671.118249524,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1277,
+      "geometry_available": true
+    },
+    {
+      "from_year": 184,
+      "to_year": 196,
+      "area_km2": 4583893.862844727,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1290,
+      "geometry_available": true
+    },
+    {
+      "from_year": 197,
+      "to_year": 206,
+      "area_km2": 4640800.476061555,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1300,
+      "geometry_available": true
+    },
+    {
+      "from_year": 207,
+      "to_year": 214,
+      "area_km2": 4551366.891708336,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1307,
+      "geometry_available": true
+    },
+    {
+      "from_year": 215,
+      "to_year": 237,
+      "area_km2": 4577378.554040167,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1319,
+      "geometry_available": true
+    },
+    {
+      "from_year": 238,
+      "to_year": 246,
+      "area_km2": 4560711.165603991,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1337,
+      "geometry_available": true
+    },
+    {
+      "from_year": 247,
+      "to_year": 259,
+      "area_km2": 4559762.400264493,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1351,
+      "geometry_available": true
+    },
+    {
+      "from_year": 260,
+      "to_year": 260,
+      "area_km2": 4420867.621955735,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1358,
+      "geometry_available": true
+    },
+    {
+      "from_year": 261,
+      "to_year": 269,
+      "area_km2": 2549582.1846606717,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1370,
+      "geometry_available": true
+    },
+    {
+      "from_year": 270,
+      "to_year": 282,
+      "area_km2": 3444329.306428419,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1380,
+      "geometry_available": true
+    },
+    {
+      "from_year": 283,
+      "to_year": 286,
+      "area_km2": 4216499.313626595,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_principate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1397,
+      "geometry_available": true
+    },
+    {
+      "from_year": 287,
+      "to_year": 298,
+      "area_km2": 4184812.9941288386,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1403,
+      "geometry_available": true
+    },
+    {
+      "from_year": 299,
+      "to_year": 305,
+      "area_km2": 4183113.79168206,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1415,
+      "geometry_available": true
+    },
+    {
+      "from_year": 306,
+      "to_year": 307,
+      "area_km2": 4177416.687929916,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1426,
+      "geometry_available": true
+    },
+    {
+      "from_year": 308,
+      "to_year": 310,
+      "area_km2": 4177799.9317081496,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1432,
+      "geometry_available": true
+    },
+    {
+      "from_year": 311,
+      "to_year": 312,
+      "area_km2": 4178523.4697756553,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1435,
+      "geometry_available": true
+    },
+    {
+      "from_year": 313,
+      "to_year": 323,
+      "area_km2": 4178951.781357628,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1443,
+      "geometry_available": true
+    },
+    {
+      "from_year": 324,
+      "to_year": 336,
+      "area_km2": 4180776.458164509,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1445,
+      "geometry_available": true
+    },
+    {
+      "from_year": 337,
+      "to_year": 337,
+      "area_km2": 4175362.303901643,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1453,
+      "geometry_available": true
+    },
+    {
+      "from_year": 338,
+      "to_year": 346,
+      "area_km2": 4175215.3243342396,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1463,
+      "geometry_available": true
+    },
+    {
+      "from_year": 347,
+      "to_year": 352,
+      "area_km2": 4175087.2792693754,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1465,
+      "geometry_available": true
+    },
+    {
+      "from_year": 353,
+      "to_year": 357,
+      "area_km2": 4176142.9943381175,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1480,
+      "geometry_available": true
+    },
+    {
+      "from_year": 358,
+      "to_year": 366,
+      "area_km2": 4169683.46222262,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1493,
+      "geometry_available": true
+    },
+    {
+      "from_year": 367,
+      "to_year": 370,
+      "area_km2": 4063132.420460653,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1505,
+      "geometry_available": true
+    },
+    {
+      "from_year": 371,
+      "to_year": 377,
+      "area_km2": 4148921.2938172477,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1514,
+      "geometry_available": true
+    },
+    {
+      "from_year": 378,
+      "to_year": 382,
+      "area_km2": 3999055.6263475,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1525,
+      "geometry_available": true
+    },
+    {
+      "from_year": 383,
+      "to_year": 386,
+      "area_km2": 4089832.0128333895,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1531,
+      "geometry_available": true
+    },
+    {
+      "from_year": 387,
+      "to_year": 389,
+      "area_km2": 4113838.089098112,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1557,
+      "geometry_available": true
+    },
+    {
+      "from_year": 390,
+      "to_year": 391,
+      "area_km2": 4113602.85987986,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1564,
+      "geometry_available": true
+    },
+    {
+      "from_year": 392,
+      "to_year": 393,
+      "area_km2": 4113875.5153946313,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1574,
+      "geometry_available": true
+    },
+    {
+      "from_year": 394,
+      "to_year": 394,
+      "area_km2": 4114215.951910777,
+      "wikidata_id": null,
+      "seshat_id": "tr_roman_dominate",
+      "wikipedia": "Roman Empire",
+      "source_feature_index": 1579,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

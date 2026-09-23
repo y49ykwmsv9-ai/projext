@@ -1,0 +1,124 @@
+{
+  "id": "cliopatria-dabuyid-dynasty",
+  "identity": {
+    "canonical_name": "Dabuyid Dynasty",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 644,
+    "end": 756,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 644,
+      "to_year": 646,
+      "area_km2": 64825.01204510937,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dabuyid dynasty",
+      "source_feature_index": 2449,
+      "geometry_available": true
+    },
+    {
+      "from_year": 647,
+      "to_year": 717,
+      "area_km2": 64800.20418872407,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dabuyid dynasty",
+      "source_feature_index": 2485,
+      "geometry_available": true
+    },
+    {
+      "from_year": 718,
+      "to_year": 749,
+      "area_km2": 64405.07127585736,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dabuyid dynasty",
+      "source_feature_index": 2688,
+      "geometry_available": true
+    },
+    {
+      "from_year": 750,
+      "to_year": 750,
+      "area_km2": 64137.89574376536,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dabuyid dynasty",
+      "source_feature_index": 2773,
+      "geometry_available": true
+    },
+    {
+      "from_year": 751,
+      "to_year": 754,
+      "area_km2": 64405.07127585736,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dabuyid dynasty",
+      "source_feature_index": 2803,
+      "geometry_available": true
+    },
+    {
+      "from_year": 755,
+      "to_year": 756,
+      "area_km2": 64405.07127585736,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Dabuyid dynasty",
+      "source_feature_index": 2819,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

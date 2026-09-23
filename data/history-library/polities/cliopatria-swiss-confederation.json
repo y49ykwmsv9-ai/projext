@@ -1,0 +1,654 @@
+{
+  "id": "cliopatria-swiss-confederation",
+  "identity": {
+    "canonical_name": "Swiss Confederation",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1294,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1294,
+      "to_year": 1325,
+      "area_km2": 2970.994549202756,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6016,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 2970.994549202756,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6215,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1351,
+      "area_km2": 3860.748642228528,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6266,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1352,
+      "to_year": 1362,
+      "area_km2": 6022.97773544371,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6460,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1363,
+      "to_year": 1394,
+      "area_km2": 11220.38281210572,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6490,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 11857.941575381117,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6768,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1414,
+      "area_km2": 11995.201876609297,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6837,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1415,
+      "to_year": 1439,
+      "area_km2": 12655.730838448158,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 6974,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1440,
+      "to_year": 1458,
+      "area_km2": 13458.753998149787,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7159,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1459,
+      "to_year": 1462,
+      "area_km2": 15966.96194709068,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7328,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1463,
+      "to_year": 1474,
+      "area_km2": 17104.278361576202,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7393,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1475,
+      "to_year": 1481,
+      "area_km2": 17562.043201054137,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7467,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1482,
+      "to_year": 1486,
+      "area_km2": 21508.939244496,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7523,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1487,
+      "to_year": 1491,
+      "area_km2": 21736.700203239685,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7586,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1492,
+      "to_year": 1496,
+      "area_km2": 21987.11667949346,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7633,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1497,
+      "to_year": 1501,
+      "area_km2": 22745.37907362302,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7639,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1511,
+      "area_km2": 31243.877572980648,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7721,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1515,
+      "area_km2": 40167.33518994376,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_1",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7795,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1516,
+      "to_year": 1518,
+      "area_km2": 37862.38289274095,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7844,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1519,
+      "to_year": 1525,
+      "area_km2": 38365.93539890573,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7869,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1526,
+      "to_year": 1528,
+      "area_km2": 37563.21262827306,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 7943,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1529,
+      "to_year": 1539,
+      "area_km2": 40052.5440370248,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8006,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1540,
+      "to_year": 1551,
+      "area_km2": 46277.89498001853,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8088,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1552,
+      "to_year": 1555,
+      "area_km2": 46415.99894689027,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8192,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 46096.31358245874,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8208,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1564,
+      "to_year": 1571,
+      "area_km2": 45958.20961558699,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8255,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1572,
+      "to_year": 1601,
+      "area_km2": 43633.89120404883,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8329,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1602,
+      "to_year": 1631,
+      "area_km2": 43564.94359988385,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8554,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1632,
+      "to_year": 1635,
+      "area_km2": 43542.218423808394,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8762,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1636,
+      "to_year": 1647,
+      "area_km2": 43564.94359988385,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8831,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1648,
+      "to_year": 1672,
+      "area_km2": 43725.38351179806,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 8957,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1673,
+      "to_year": 1676,
+      "area_km2": 43930.9490891767,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9157,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1677,
+      "to_year": 1690,
+      "area_km2": 43769.91238238986,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9187,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1691,
+      "to_year": 1695,
+      "area_km2": 43423.99604778201,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9344,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1696,
+      "to_year": 1733,
+      "area_km2": 43769.91238238986,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9358,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1734,
+      "to_year": 1737,
+      "area_km2": 43722.04482429395,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9702,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1747,
+      "area_km2": 43768.55936738721,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9733,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1748,
+      "to_year": 1779,
+      "area_km2": 43722.04482429395,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 9857,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1780,
+      "to_year": 1793,
+      "area_km2": 43699.601896751534,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 10203,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1794,
+      "to_year": 1796,
+      "area_km2": 43422.6992977633,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 10376,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1797,
+      "to_year": 1798,
+      "area_km2": 39286.548415274105,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_2",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 10452,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1847,
+      "area_km2": 40201.04929495233,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_3",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 10976,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1848,
+      "to_year": 1848,
+      "area_km2": 40883.514708696144,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_3",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11457,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1858,
+      "area_km2": 40999.22544095991,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11494,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 40883.514708696144,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11617,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1863,
+      "area_km2": 40836.441040548394,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11643,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 40859.29301638785,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11734,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1870,
+      "area_km2": 40836.441040548394,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11774,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1914,
+      "area_km2": 41132.04010130429,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 11899,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1918,
+      "area_km2": 40813.84323117427,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12344,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1919,
+      "to_year": 1937,
+      "area_km2": 40790.650389897506,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12464,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1938,
+      "to_year": 1939,
+      "area_km2": 40836.4319426152,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12766,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1940,
+      "to_year": 1942,
+      "area_km2": 41067.16226754291,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12828,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1943,
+      "to_year": 1943,
+      "area_km2": 40974.31831039391,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12875,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1944,
+      "to_year": 1944,
+      "area_km2": 40812.17884493779,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12897,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 40927.24464224615,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12917,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1949,
+      "area_km2": 40836.64093536933,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 12978,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 2023,
+      "area_km2": 40677.3583791109,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 13080,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 40677.3583791109,
+      "wikidata_id": null,
+      "seshat_id": "ch_swiss_conf_4",
+      "wikipedia": "Switzerland",
+      "source_feature_index": 13631,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

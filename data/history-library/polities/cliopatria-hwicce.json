@@ -1,0 +1,114 @@
+{
+  "id": "cliopatria-hwicce",
+  "identity": {
+    "canonical_name": "Hwicce",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 577,
+    "end": 627,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 577,
+      "to_year": 586,
+      "area_km2": 3526.656683385135,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Hwicce",
+      "source_feature_index": 2160,
+      "geometry_available": true
+    },
+    {
+      "from_year": 587,
+      "to_year": 591,
+      "area_km2": 4839.4900931171705,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Hwicce",
+      "source_feature_index": 2169,
+      "geometry_available": true
+    },
+    {
+      "from_year": 592,
+      "to_year": 616,
+      "area_km2": 4903.853001325976,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Hwicce",
+      "source_feature_index": 2200,
+      "geometry_available": true
+    },
+    {
+      "from_year": 617,
+      "to_year": 626,
+      "area_km2": 4838.170784415995,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Hwicce",
+      "source_feature_index": 2265,
+      "geometry_available": true
+    },
+    {
+      "from_year": 627,
+      "to_year": 627,
+      "area_km2": 4838.170784415995,
+      "wikidata_id": null,
+      "seshat_id": "gb_anglo_saxon_1",
+      "wikipedia": "Hwicce",
+      "source_feature_index": 2309,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

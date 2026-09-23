@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-french-fourth-republic-b7b5f2016d",
+  "identity": {
+    "canonical_name": "(French Fourth Republic)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1945,
+    "end": 1957,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 12421348.49692448,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 12941,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 13156365.214229126,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 12957,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1947,
+      "area_km2": 13156161.75213089,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 13002,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1948,
+      "to_year": 1948,
+      "area_km2": 13156161.78561764,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 13052,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1949,
+      "area_km2": 13156183.41848271,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 13070,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 1952,
+      "area_km2": 13106189.278930245,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 13085,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1953,
+      "to_year": 1955,
+      "area_km2": 12530121.130631674,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 13108,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1956,
+      "to_year": 1957,
+      "area_km2": 11261400.598210266,
+      "wikidata_id": null,
+      "seshat_id": "fr_france_modern_2",
+      "wikipedia": "French Fourth Republic",
+      "source_feature_index": 13136,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

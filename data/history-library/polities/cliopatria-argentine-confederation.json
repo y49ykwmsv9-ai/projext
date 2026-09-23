@@ -1,0 +1,214 @@
+{
+  "id": "cliopatria-argentine-confederation",
+  "identity": {
+    "canonical_name": "Argentine Confederation",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1834,
+    "end": 1929,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 1412831.921583753,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11246,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 1431507.66640653,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11275,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1845,
+      "area_km2": 1465226.6614967824,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11333,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1852,
+      "area_km2": 1464935.3766222731,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11413,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1856,
+      "area_km2": 1357476.4595945848,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11501,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1860,
+      "area_km2": 1356919.7344748855,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11594,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1864,
+      "area_km2": 1598668.2949243875,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11669,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1865,
+      "to_year": 1865,
+      "area_km2": 1600255.1615360242,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11764,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1867,
+      "area_km2": 1600340.6263195104,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11773,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1868,
+      "to_year": 1869,
+      "area_km2": 1715169.78477802,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11833,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1879,
+      "area_km2": 1715090.1147344247,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11866,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1880,
+      "to_year": 1884,
+      "area_km2": 2004976.9069519637,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11992,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1904,
+      "area_km2": 2793356.5379273808,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 11997,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1928,
+      "area_km2": 2792789.267710991,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 12217,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1929,
+      "to_year": 1929,
+      "area_km2": 2792789.267710991,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Argentine Confederation",
+      "source_feature_index": 12648,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

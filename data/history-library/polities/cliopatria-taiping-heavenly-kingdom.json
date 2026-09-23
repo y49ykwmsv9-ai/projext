@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-taiping-heavenly-kingdom",
+  "identity": {
+    "canonical_name": "Taiping Heavenly Kingdom",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1853,
+    "end": 1864,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 224375.9002250772,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11515,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 224821.85338573507,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11561,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1859,
+      "area_km2": 224375.9002250772,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11584,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1860,
+      "area_km2": 283394.7741232047,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11653,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1861,
+      "to_year": 1861,
+      "area_km2": 347846.402280718,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11680,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1863,
+      "area_km2": 231470.38295252845,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11684,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1864,
+      "area_km2": 185942.0278303293,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Taiping Heavenly Kingdom",
+      "source_feature_index": 11711,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "id": "cliopatria-aetolian-league",
+  "identity": {
+    "canonical_name": "Aetolian League",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -284,
+    "end": -189,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -284,
+      "to_year": -282,
+      "area_km2": 7360.680617987095,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 558,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -280,
+      "area_km2": 7482.916935599875,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 570,
+      "geometry_available": true
+    },
+    {
+      "from_year": -279,
+      "to_year": -278,
+      "area_km2": 7774.779557400077,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 588,
+      "geometry_available": true
+    },
+    {
+      "from_year": -277,
+      "to_year": -273,
+      "area_km2": 7360.650027720083,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 598,
+      "geometry_available": true
+    },
+    {
+      "from_year": -272,
+      "to_year": -272,
+      "area_km2": 7460.348563411442,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 609,
+      "geometry_available": true
+    },
+    {
+      "from_year": -271,
+      "to_year": -231,
+      "area_km2": 7482.916935599873,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 614,
+      "geometry_available": true
+    },
+    {
+      "from_year": -230,
+      "to_year": -226,
+      "area_km2": 10068.470473776584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 682,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -211,
+      "area_km2": 10117.246884740302,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 708,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 11244.315262604068,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 754,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 11781.436616499877,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 760,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -203,
+      "area_km2": 11391.089733820096,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 804,
+      "geometry_available": true
+    },
+    {
+      "from_year": -202,
+      "to_year": -198,
+      "area_km2": 10117.246884740302,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 823,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -189,
+      "area_km2": 10068.470473776584,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Aetolian League",
+      "source_feature_index": 843,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

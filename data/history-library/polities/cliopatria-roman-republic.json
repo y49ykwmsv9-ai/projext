@@ -1,0 +1,564 @@
+{
+  "id": "cliopatria-roman-republic",
+  "identity": {
+    "canonical_name": "Roman Republic",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": -500,
+    "end": -32,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": -500,
+      "to_year": -481,
+      "area_km2": 238.21137942663339,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 289,
+      "geometry_available": true
+    },
+    {
+      "from_year": -480,
+      "to_year": -338,
+      "area_km2": 906.4470584672462,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 322,
+      "geometry_available": true
+    },
+    {
+      "from_year": -337,
+      "to_year": -327,
+      "area_km2": 9305.279570563815,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 444,
+      "geometry_available": true
+    },
+    {
+      "from_year": -326,
+      "to_year": -324,
+      "area_km2": 10064.588251654188,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 477,
+      "geometry_available": true
+    },
+    {
+      "from_year": -323,
+      "to_year": -319,
+      "area_km2": 10454.77752492203,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 491,
+      "geometry_available": true
+    },
+    {
+      "from_year": -318,
+      "to_year": -302,
+      "area_km2": 12178.94874573851,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 505,
+      "geometry_available": true
+    },
+    {
+      "from_year": -301,
+      "to_year": -292,
+      "area_km2": 32033.410830499375,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 536,
+      "geometry_available": true
+    },
+    {
+      "from_year": -291,
+      "to_year": -282,
+      "area_km2": 57285.27185370067,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 555,
+      "geometry_available": true
+    },
+    {
+      "from_year": -281,
+      "to_year": -280,
+      "area_km2": 57330.11306172049,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 574,
+      "geometry_available": true
+    },
+    {
+      "from_year": -279,
+      "to_year": -278,
+      "area_km2": 54256.47209871549,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 581,
+      "geometry_available": true
+    },
+    {
+      "from_year": -277,
+      "to_year": -276,
+      "area_km2": 54111.96260779298,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 601,
+      "geometry_available": true
+    },
+    {
+      "from_year": -275,
+      "to_year": -272,
+      "area_km2": 70197.35566068268,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 603,
+      "geometry_available": true
+    },
+    {
+      "from_year": -271,
+      "to_year": -265,
+      "area_km2": 92091.00261140788,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 613,
+      "geometry_available": true
+    },
+    {
+      "from_year": -264,
+      "to_year": -257,
+      "area_km2": 118455.07418260787,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_1",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 625,
+      "geometry_available": true
+    },
+    {
+      "from_year": -256,
+      "to_year": -248,
+      "area_km2": 135921.8281003011,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 638,
+      "geometry_available": true
+    },
+    {
+      "from_year": -247,
+      "to_year": -240,
+      "area_km2": 136871.53017098352,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 659,
+      "geometry_available": true
+    },
+    {
+      "from_year": -239,
+      "to_year": -231,
+      "area_km2": 137708.81643100746,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 672,
+      "geometry_available": true
+    },
+    {
+      "from_year": -230,
+      "to_year": -226,
+      "area_km2": 176055.7913062336,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 679,
+      "geometry_available": true
+    },
+    {
+      "from_year": -225,
+      "to_year": -224,
+      "area_km2": 167305.55154506458,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 703,
+      "geometry_available": true
+    },
+    {
+      "from_year": -223,
+      "to_year": -223,
+      "area_km2": 210472.9735630654,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 711,
+      "geometry_available": true
+    },
+    {
+      "from_year": -222,
+      "to_year": -219,
+      "area_km2": 216929.51660599766,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 723,
+      "geometry_available": true
+    },
+    {
+      "from_year": -218,
+      "to_year": -217,
+      "area_km2": 219104.12675945833,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 731,
+      "geometry_available": true
+    },
+    {
+      "from_year": -216,
+      "to_year": -213,
+      "area_km2": 156306.8351584366,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 733,
+      "geometry_available": true
+    },
+    {
+      "from_year": -212,
+      "to_year": -211,
+      "area_km2": 309651.3246674126,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 744,
+      "geometry_available": true
+    },
+    {
+      "from_year": -210,
+      "to_year": -209,
+      "area_km2": 327650.0602781592,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 756,
+      "geometry_available": true
+    },
+    {
+      "from_year": -208,
+      "to_year": -207,
+      "area_km2": 352867.8561699945,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 765,
+      "geometry_available": true
+    },
+    {
+      "from_year": -206,
+      "to_year": -204,
+      "area_km2": 399305.28299323,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 798,
+      "geometry_available": true
+    },
+    {
+      "from_year": -203,
+      "to_year": -203,
+      "area_km2": 414118.26248966303,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 817,
+      "geometry_available": true
+    },
+    {
+      "from_year": -202,
+      "to_year": -198,
+      "area_km2": 594841.1640643798,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 821,
+      "geometry_available": true
+    },
+    {
+      "from_year": -197,
+      "to_year": -189,
+      "area_km2": 392399.3653860277,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 845,
+      "geometry_available": true
+    },
+    {
+      "from_year": -188,
+      "to_year": -171,
+      "area_km2": 417626.9024253097,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 847,
+      "geometry_available": true
+    },
+    {
+      "from_year": -170,
+      "to_year": -165,
+      "area_km2": 506264.10308669525,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 866,
+      "geometry_available": true
+    },
+    {
+      "from_year": -164,
+      "to_year": -145,
+      "area_km2": 648898.6228174684,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 884,
+      "geometry_available": true
+    },
+    {
+      "from_year": -144,
+      "to_year": -127,
+      "area_km2": 850618.6485916233,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_2",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 904,
+      "geometry_available": true
+    },
+    {
+      "from_year": -126,
+      "to_year": -111,
+      "area_km2": 1162467.483648005,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 923,
+      "geometry_available": true
+    },
+    {
+      "from_year": -110,
+      "to_year": -92,
+      "area_km2": 1188001.569961464,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 930,
+      "geometry_available": true
+    },
+    {
+      "from_year": -91,
+      "to_year": -88,
+      "area_km2": 1305123.8313175025,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 962,
+      "geometry_available": true
+    },
+    {
+      "from_year": -87,
+      "to_year": -78,
+      "area_km2": 1188098.7945208384,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 979,
+      "geometry_available": true
+    },
+    {
+      "from_year": -77,
+      "to_year": -67,
+      "area_km2": 1346012.2049156579,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 987,
+      "geometry_available": true
+    },
+    {
+      "from_year": -66,
+      "to_year": -64,
+      "area_km2": 1562680.383214856,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1003,
+      "geometry_available": true
+    },
+    {
+      "from_year": -63,
+      "to_year": -51,
+      "area_km2": 1612218.4455155304,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1018,
+      "geometry_available": true
+    },
+    {
+      "from_year": -50,
+      "to_year": -50,
+      "area_km2": 2216201.638033891,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1041,
+      "geometry_available": true
+    },
+    {
+      "from_year": -49,
+      "to_year": -49,
+      "area_km2": 2214956.2329974035,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1046,
+      "geometry_available": true
+    },
+    {
+      "from_year": -48,
+      "to_year": -47,
+      "area_km2": 2215806.979161725,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1047,
+      "geometry_available": true
+    },
+    {
+      "from_year": -46,
+      "to_year": -45,
+      "area_km2": 2341511.3607398495,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1049,
+      "geometry_available": true
+    },
+    {
+      "from_year": -44,
+      "to_year": -43,
+      "area_km2": 2341905.1089108386,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1050,
+      "geometry_available": true
+    },
+    {
+      "from_year": -42,
+      "to_year": -42,
+      "area_km2": 2340368.9722669935,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1052,
+      "geometry_available": true
+    },
+    {
+      "from_year": -41,
+      "to_year": -41,
+      "area_km2": 2341598.950827875,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1057,
+      "geometry_available": true
+    },
+    {
+      "from_year": -40,
+      "to_year": -37,
+      "area_km2": 2211774.10129273,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1060,
+      "geometry_available": true
+    },
+    {
+      "from_year": -36,
+      "to_year": -32,
+      "area_km2": 2341905.1089108386,
+      "wikidata_id": null,
+      "seshat_id": "it_roman_rep_3",
+      "wikipedia": "Roman Republic",
+      "source_feature_index": 1070,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

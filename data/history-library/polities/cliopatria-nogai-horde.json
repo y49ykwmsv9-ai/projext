@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-nogai-horde",
+  "identity": {
+    "canonical_name": "Nogai Horde",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1450,
+    "end": 1563,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1450,
+      "to_year": 1452,
+      "area_km2": 704382.2034109223,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 7230,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1453,
+      "to_year": 1467,
+      "area_km2": 704382.2034109223,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 7281,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1468,
+      "to_year": 1501,
+      "area_km2": 704314.332768242,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 7424,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1502,
+      "to_year": 1511,
+      "area_km2": 704418.5157210204,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 7708,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1512,
+      "to_year": 1520,
+      "area_km2": 704704.4525491718,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 7783,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1521,
+      "to_year": 1555,
+      "area_km2": 439482.2999928255,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 7901,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1556,
+      "to_year": 1563,
+      "area_km2": 438287.1823976634,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Nogai Horde",
+      "source_feature_index": 8194,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

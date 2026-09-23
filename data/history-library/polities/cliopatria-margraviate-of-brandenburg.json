@@ -1,0 +1,174 @@
+{
+  "id": "cliopatria-margraviate-of-brandenburg",
+  "identity": {
+    "canonical_name": "Margraviate of Brandenburg",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1260,
+    "end": 1414,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1260,
+      "to_year": 1271,
+      "area_km2": 30199.808448616335,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 5771,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1272,
+      "to_year": 1304,
+      "area_km2": 41412.866189167784,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 5827,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1305,
+      "to_year": 1313,
+      "area_km2": 41672.673672176825,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6097,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1314,
+      "to_year": 1325,
+      "area_km2": 44084.84339606898,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6138,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1326,
+      "to_year": 1332,
+      "area_km2": 77889.52119760124,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6201,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1333,
+      "to_year": 1343,
+      "area_km2": 80391.31650160016,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6291,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1344,
+      "to_year": 1351,
+      "area_km2": 80499.56389988294,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6368,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1385,
+      "to_year": 1394,
+      "area_km2": 42074.01478649305,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6702,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1395,
+      "to_year": 1401,
+      "area_km2": 41922.627013106416,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6749,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1402,
+      "to_year": 1406,
+      "area_km2": 35598.2593137457,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6817,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1407,
+      "to_year": 1414,
+      "area_km2": 35598.2593137457,
+      "wikidata_id": null,
+      "seshat_id": "de_empire_3",
+      "wikipedia": "Margraviate of Brandenburg",
+      "source_feature_index": 6916,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

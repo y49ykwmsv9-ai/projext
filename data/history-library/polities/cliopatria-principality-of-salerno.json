@@ -1,0 +1,144 @@
+{
+  "id": "cliopatria-principality-of-salerno",
+  "identity": {
+    "canonical_name": "Principality of Salerno",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 840,
+    "end": 1084,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 840,
+      "to_year": 879,
+      "area_km2": 17669.43104269086,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 3115,
+      "geometry_available": true
+    },
+    {
+      "from_year": 880,
+      "to_year": 969,
+      "area_km2": 17644.618780873134,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 3384,
+      "geometry_available": true
+    },
+    {
+      "from_year": 970,
+      "to_year": 979,
+      "area_km2": 5279.465080063375,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 3937,
+      "geometry_available": true
+    },
+    {
+      "from_year": 990,
+      "to_year": 1045,
+      "area_km2": 5352.263670204023,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 4056,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1046,
+      "to_year": 1055,
+      "area_km2": 5640.848887706581,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 4424,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1056,
+      "to_year": 1065,
+      "area_km2": 5616.845601156372,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 4448,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1066,
+      "to_year": 1071,
+      "area_km2": 5448.624318876368,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 4579,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1072,
+      "to_year": 1084,
+      "area_km2": 5448.624318876368,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Principality of Salerno",
+      "source_feature_index": 4634,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

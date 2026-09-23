@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-guatemala",
+  "identity": {
+    "canonical_name": "Guatemala",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1840,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1840,
+      "to_year": 1841,
+      "area_km2": 82703.8484785756,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 11350,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1842,
+      "to_year": 1912,
+      "area_km2": 109055.80264424613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 11369,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1913,
+      "to_year": 1919,
+      "area_km2": 109167.52171713497,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 12322,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1920,
+      "to_year": 1978,
+      "area_km2": 109055.80264424613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 12513,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1979,
+      "to_year": 1991,
+      "area_km2": 108886.8440220709,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 13376,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1992,
+      "to_year": 2023,
+      "area_km2": 109055.80264424613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 13483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 109055.80264424613,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Guatemala",
+      "source_feature_index": 13716,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

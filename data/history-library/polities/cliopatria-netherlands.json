@@ -1,0 +1,514 @@
+{
+  "id": "cliopatria-netherlands",
+  "identity": {
+    "canonical_name": "(Netherlands)",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1811,
+    "end": 2024,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1811,
+      "to_year": 1813,
+      "area_km2": 121548.06303417345,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 10828,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1814,
+      "to_year": 1814,
+      "area_km2": 325623.87840748375,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 10886,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1815,
+      "to_year": 1819,
+      "area_km2": 396750.2266936481,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 10962,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1820,
+      "to_year": 1821,
+      "area_km2": 396642.9645523936,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11027,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1822,
+      "to_year": 1823,
+      "area_km2": 457211.36817582283,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11109,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1824,
+      "to_year": 1827,
+      "area_km2": 506628.9197132041,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11132,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1828,
+      "to_year": 1829,
+      "area_km2": 515069.6958873202,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11184,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1830,
+      "to_year": 1833,
+      "area_km2": 510141.28213187476,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11224,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1834,
+      "to_year": 1835,
+      "area_km2": 516602.2608501019,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11236,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1836,
+      "to_year": 1839,
+      "area_km2": 518606.63689856767,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11305,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1840,
+      "to_year": 1845,
+      "area_km2": 522197.8975121437,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11351,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1846,
+      "to_year": 1848,
+      "area_km2": 528260.4229812404,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11421,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1849,
+      "to_year": 1852,
+      "area_km2": 544733.9904567889,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11466,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1853,
+      "to_year": 1855,
+      "area_km2": 585452.5598085304,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1856,
+      "to_year": 1856,
+      "area_km2": 605338.7653215139,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11552,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1857,
+      "to_year": 1858,
+      "area_km2": 709163.9044460964,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11591,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1859,
+      "to_year": 1859,
+      "area_km2": 713070.4708277815,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11629,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1860,
+      "to_year": 1861,
+      "area_km2": 774698.4532394963,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11664,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1862,
+      "to_year": 1863,
+      "area_km2": 846195.5799553164,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11691,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1864,
+      "to_year": 1865,
+      "area_km2": 846306.9638417541,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11724,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1866,
+      "to_year": 1869,
+      "area_km2": 869018.7252841207,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11797,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1870,
+      "to_year": 1870,
+      "area_km2": 866969.6696690496,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11853,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1871,
+      "to_year": 1872,
+      "area_km2": 866949.9487848863,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11883,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1873,
+      "to_year": 1884,
+      "area_km2": 1302786.4192822308,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 11917,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1885,
+      "to_year": 1889,
+      "area_km2": 1302512.0537610413,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12038,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1890,
+      "to_year": 1894,
+      "area_km2": 1308595.263285719,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12071,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1895,
+      "to_year": 1897,
+      "area_km2": 1649836.0143781928,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12106,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1898,
+      "to_year": 1904,
+      "area_km2": 1806278.7050133334,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12150,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1905,
+      "to_year": 1907,
+      "area_km2": 1833717.6695699978,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12215,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1908,
+      "to_year": 1913,
+      "area_km2": 2018976.327516742,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12250,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1914,
+      "to_year": 1914,
+      "area_km2": 2060918.9458427723,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12333,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1915,
+      "to_year": 1916,
+      "area_km2": 2061371.8747205501,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12355,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1917,
+      "to_year": 1921,
+      "area_km2": 2061459.0171795639,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12399,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1922,
+      "to_year": 1923,
+      "area_km2": 2061371.7397966688,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12532,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1924,
+      "to_year": 1929,
+      "area_km2": 2061502.6645607974,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12573,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1930,
+      "to_year": 1935,
+      "area_km2": 2061435.9816092981,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12665,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1936,
+      "to_year": 1940,
+      "area_km2": 2060590.8833838366,
+      "wikidata_id": null,
+      "seshat_id": "nl_dutch_emp_2",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12728,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1941,
+      "to_year": 1941,
+      "area_km2": 2023053.6138751248,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12836,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1942,
+      "to_year": 1942,
+      "area_km2": 1962177.1274135686,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12859,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1945,
+      "to_year": 1945,
+      "area_km2": 38382.36773417304,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12944,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1946,
+      "to_year": 1946,
+      "area_km2": 1449742.6859399853,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 12954,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1947,
+      "to_year": 1948,
+      "area_km2": 1611470.346848698,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 13003,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1949,
+      "to_year": 1949,
+      "area_km2": 1896612.055516797,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 13067,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1950,
+      "to_year": 2023,
+      "area_km2": 38295.22527515907,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 13087,
+      "geometry_available": true
+    },
+    {
+      "from_year": 2024,
+      "to_year": 2024,
+      "area_km2": 38295.22527515907,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Netherlands",
+      "source_feature_index": 13709,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

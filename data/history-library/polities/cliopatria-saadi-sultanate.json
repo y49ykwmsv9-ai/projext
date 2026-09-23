@@ -1,0 +1,164 @@
+{
+  "id": "cliopatria-saadi-sultanate",
+  "identity": {
+    "canonical_name": "Saadi Sultanate",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1556,
+    "end": 1740,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1556,
+      "to_year": 1581,
+      "area_km2": 384367.4869312336,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8236,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1582,
+      "to_year": 1594,
+      "area_km2": 577778.706496766,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8392,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1595,
+      "to_year": 1599,
+      "area_km2": 841431.83122114,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8483,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1600,
+      "to_year": 1608,
+      "area_km2": 577778.706496766,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8524,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1609,
+      "to_year": 1611,
+      "area_km2": 384089.50822715956,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8571,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1628,
+      "area_km2": 384039.2341244774,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8619,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1629,
+      "to_year": 1639,
+      "area_km2": 384367.4869312336,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8729,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1640,
+      "to_year": 1669,
+      "area_km2": 384641.36416253046,
+      "wikidata_id": null,
+      "seshat_id": "ma_saadi_sultanate",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 8837,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1670,
+      "to_year": 1737,
+      "area_km2": 678.9432859782894,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 9141,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1738,
+      "to_year": 1740,
+      "area_km2": 678.9432859782894,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Saadi Sultanate",
+      "source_feature_index": 9720,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

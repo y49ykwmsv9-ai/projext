@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-western-qin",
+  "identity": {
+    "canonical_name": "Western Qin",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 387,
+    "end": 438,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 387,
+      "to_year": 393,
+      "area_km2": 113928.32321825446,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1543,
+      "geometry_available": true
+    },
+    {
+      "from_year": 394,
+      "to_year": 396,
+      "area_km2": 113794.95845222304,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1577,
+      "geometry_available": true
+    },
+    {
+      "from_year": 397,
+      "to_year": 401,
+      "area_km2": 113840.2970153401,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1610,
+      "geometry_available": true
+    },
+    {
+      "from_year": 410,
+      "to_year": 413,
+      "area_km2": 113840.2970153401,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1654,
+      "geometry_available": true
+    },
+    {
+      "from_year": 414,
+      "to_year": 416,
+      "area_km2": 228703.15646935548,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1685,
+      "geometry_available": true
+    },
+    {
+      "from_year": 417,
+      "to_year": 425,
+      "area_km2": 229139.34068519322,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1698,
+      "geometry_available": true
+    },
+    {
+      "from_year": 426,
+      "to_year": 438,
+      "area_km2": 199463.31860305672,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Western Qin",
+      "source_feature_index": 1718,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

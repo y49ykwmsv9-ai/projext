@@ -1,0 +1,134 @@
+{
+  "id": "cliopatria-kingdom-of-imereti",
+  "identity": {
+    "canonical_name": "Kingdom of Imereti",
+    "alternate_names": [],
+    "polity_type": "historical-polity",
+    "wikidata_instance_ids": []
+  },
+  "chronology": {
+    "start": 1468,
+    "end": 1810,
+    "date_precision": "cliopatria-source"
+  },
+  "geography": {
+    "regions": [],
+    "capital_place_ids": [],
+    "territorial_notes": []
+  },
+  "status": {
+    "historix_reference_count": 0,
+    "cliopatria_link": "resolved-source-record"
+  },
+  "predecessors": [],
+  "successors": [],
+  "rulers": [],
+  "associated_event_ids": [],
+  "associated_person_ids": [],
+  "associated_place_ids": [],
+  "source_links": [
+    "cliopatria"
+  ],
+  "temporal_records": [
+    {
+      "from_year": 1468,
+      "to_year": 1578,
+      "area_km2": 11561.12012326642,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 7400,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1612,
+      "to_year": 1699,
+      "area_km2": 11513.174974602018,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 8624,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1700,
+      "to_year": 1720,
+      "area_km2": 11490.181408421457,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 9383,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1721,
+      "to_year": 1774,
+      "area_km2": 11300.220409873233,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 9605,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1775,
+      "to_year": 1802,
+      "area_km2": 11181.74063686587,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 10143,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1803,
+      "to_year": 1808,
+      "area_km2": 11063.185695944801,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 10609,
+      "geometry_available": true
+    },
+    {
+      "from_year": 1809,
+      "to_year": 1810,
+      "area_km2": 11063.185695944801,
+      "wikidata_id": null,
+      "seshat_id": "",
+      "wikipedia": "Kingdom of Imereti",
+      "source_feature_index": 10773,
+      "geometry_available": true
+    }
+  ],
+  "evidence": {
+    "source_ids": [
+      "cliopatria-pinned"
+    ],
+    "confidence": "medium"
+  },
+  "uncertainty": {
+    "unknowns": [
+      "HISTORIX cross-links",
+      "alternate names",
+      "polity type normalization"
+    ],
+    "disputes": []
+  },
+  "editorial": {
+    "status": "cliopatria-imported",
+    "last_reviewed": null,
+    "notes": "Complete Cliopatria baseline record. HISTORIX-specific cross-links are added only when verified."
+  },
+  "research": {
+    "status": "source-linked",
+    "sources": [
+      "cliopatria-pinned"
+    ],
+    "wikidata_ids": [],
+    "notes": "No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed.",
+    "geography_method": "Cliopatria only",
+    "retrieved_at": "2026-09-23",
+    "crosslink_method": "deterministic name/alias matching against existing HISTORIX records; no new records created"
+  }
+}

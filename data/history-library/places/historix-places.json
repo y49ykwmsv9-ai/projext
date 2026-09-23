@@ -1,0 +1,1779 @@
+{
+  "schema_version": "1.5.0",
+  "database": "HISTORIX",
+  "kind": "canonical_places",
+  "record_count": 37,
+  "source_policy": {
+    "identity": "existing HISTORIX IDs or source-supplied Wikidata IDs only",
+    "runtime": "bundled; no runtime external API dependency"
+  },
+  "records": [
+    {
+      "id": "alexandria",
+      "identity": {
+        "canonical_name": "Alexandria",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -331,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 31.2,
+        "longitude": 29.918,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "ptolemaic"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "amsterdam",
+      "identity": {
+        "canonical_name": "Amsterdam",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1600,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 52.3676,
+        "longitude": 4.9041,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "dutch-empire"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "athens",
+      "identity": {
+        "canonical_name": "Athens",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -500,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 37.984,
+        "longitude": 23.728,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "roman-republic"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "babylon",
+      "identity": {
+        "canonical_name": "Babylon",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -1800,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 32.542,
+        "longitude": 44.421,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "old-babylonian",
+          "neo-babylonian"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "baghdad",
+      "identity": {
+        "canonical_name": "Baghdad",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 762,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 33.3152,
+        "longitude": 44.3661,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "beijing",
+      "identity": {
+        "canonical_name": "Beijing",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 39.9042,
+        "longitude": 116.4074,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "ming",
+          "qing"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "berlin",
+      "identity": {
+        "canonical_name": "Berlin",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1700,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "prussia",
+          "german-empire"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "cairo",
+      "identity": {
+        "canonical_name": "Cairo",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 30.0444,
+        "longitude": 31.2357,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "carthage-place",
+      "identity": {
+        "canonical_name": "Carthage",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -814,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 36.8528,
+        "longitude": 10.3233,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "carthage"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "constantinople",
+      "identity": {
+        "canonical_name": "Constantinople",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 330,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 41.0082,
+        "longitude": 28.9784,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "eastern-roman",
+          "ottoman"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "constantinople-1453",
+      "identity": {
+        "canonical_name": "Walls of Constantinople",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1453,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 41.0082,
+        "longitude": 28.9784,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "eastern-roman",
+          "ottoman"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "cordoba",
+      "identity": {
+        "canonical_name": "Cordoba",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 929,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 37.8882,
+        "longitude": -4.7794,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "cracow",
+      "identity": {
+        "canonical_name": "Kraków",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 50.0647,
+        "longitude": 19.945,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "polish-lithuanian"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "cusco",
+      "identity": {
+        "canonical_name": "Cusco",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1450,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": -13.5319,
+        "longitude": -71.9675,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "inca"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "delhi",
+      "identity": {
+        "canonical_name": "Delhi",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1200,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 28.6139,
+        "longitude": 77.209,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "istanbul",
+      "identity": {
+        "canonical_name": "Istanbul",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1500,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 41.0082,
+        "longitude": 28.9784,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "ottoman"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "jerusalem",
+      "identity": {
+        "canonical_name": "Jerusalem",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -1000,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 31.7683,
+        "longitude": 35.2137,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "kyiv",
+      "identity": {
+        "canonical_name": "Kyiv",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 50.4501,
+        "longitude": 30.5234,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "kiev-rus"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "london",
+      "identity": {
+        "canonical_name": "London",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "england-kingdom",
+          "united-kingdom"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "mecca",
+      "identity": {
+        "canonical_name": "Mecca",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 600,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 21.4225,
+        "longitude": 39.8262,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "medina",
+      "identity": {
+        "canonical_name": "Medina",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 600,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 24.4672,
+        "longitude": 39.6112,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "moscow",
+      "identity": {
+        "canonical_name": "Moscow",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 55.7558,
+        "longitude": 37.6173,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "grand-principality-moscow",
+          "russian-empire",
+          "soviet-union"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "new-york",
+      "identity": {
+        "canonical_name": "New York",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1800,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "nineveh",
+      "identity": {
+        "canonical_name": "Nineveh",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -900,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 36.359,
+        "longitude": 43.152,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "assyrian-empire"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "paris",
+      "identity": {
+        "canonical_name": "Paris",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "persepolis",
+      "identity": {
+        "canonical_name": "Persepolis",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -515,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 29.935,
+        "longitude": 52.891,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "achaemenid"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "prague",
+      "identity": {
+        "canonical_name": "Prague",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 50.0755,
+        "longitude": 14.4378,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "holy-roman-empire",
+          "czechoslovakia-first"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "rome",
+      "identity": {
+        "canonical_name": "Rome",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -753,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 41.9028,
+        "longitude": 12.4964,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "roman-republic",
+          "roman-empire"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "sao-paulo",
+      "identity": {
+        "canonical_name": "São Paulo",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1900,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": -23.5558,
+        "longitude": -46.6396,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "empire-brazil"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "sparta",
+      "identity": {
+        "canonical_name": "Sparta",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -500,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 37.074,
+        "longitude": 22.43,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "tenochtitlan-place",
+      "identity": {
+        "canonical_name": "Tenochtitlan",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1500,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 19.4326,
+        "longitude": -99.1332,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "aztec"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "timbuktu",
+      "identity": {
+        "canonical_name": "Timbuktu",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1300,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 16.7666,
+        "longitude": -3.0026,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "mali"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "tokyo",
+      "identity": {
+        "canonical_name": "Tokyo",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1600,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 35.6762,
+        "longitude": 139.6503,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "tokugawa",
+          "meiji-japan"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "ur",
+      "identity": {
+        "canonical_name": "Ur",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": -3000,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 30.962,
+        "longitude": 46.104,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "sumer",
+          "ur-third-dynasty"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "venice",
+      "identity": {
+        "canonical_name": "Venice",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1200,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 45.44,
+        "longitude": 12.315,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "republic-venice"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "vienna",
+      "identity": {
+        "canonical_name": "Vienna",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1700,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 48.2082,
+        "longitude": 16.3738,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [
+          "austrian-empire",
+          "austro-hungarian"
+        ],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    },
+    {
+      "id": "washington",
+      "identity": {
+        "canonical_name": "Washington, D.C.",
+        "alternate_names": [],
+        "place_type": "curated-place",
+        "wikidata_id": null
+      },
+      "chronology": {
+        "start": 1800,
+        "end": null,
+        "date_precision": "curated-record"
+      },
+      "geography": {
+        "latitude": 38.9072,
+        "longitude": -77.0369,
+        "country_ids": [],
+        "region_ids": [],
+        "admin_parent_ids": []
+      },
+      "hierarchy": {
+        "parent_place_ids": [],
+        "child_place_ids": []
+      },
+      "associations": {
+        "polity_ids": [],
+        "event_ids": [],
+        "person_ids": []
+      },
+      "evidence": {
+        "source_ids": [
+          "Worldforge curated historical pack"
+        ],
+        "confidence": "high",
+        "source_links": []
+      },
+      "uncertainty": {
+        "unknowns": [],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "curated-preserved",
+        "last_reviewed": null,
+        "notes": "Stable HISTORIX 1.1 place record preserved as the canonical seed."
+      }
+    }
+  ]
+}
