@@ -23,11 +23,39 @@ def main():
     payload=json.loads(AGG.read_text(encoding="utf-8"))
     records=payload["records"]
     ids={}
+    wikipedia_titles={}
     for r in records:
         for tr in r.get("temporal_records",[]):
             q=tr.get("wikidata_id")
             if isinstance(q,str) and q.startswith("Q"):
                 ids.setdefault(q,[]).append(r["id"])
+            wp=tr.get("wikipedia")
+            if isinstance(wp,str) and wp.strip():
+                title=wp.strip()
+                if "wikipedia.org/wiki/" in title:
+                    title=urllib.parse.unquote(title.split("/wiki/",1)[1]).replace("_"," ")
+                wikipedia_titles.setdefault(title,[]).append(r["id"])
+
+    # When Cliopatria supplied a Wikipedia page but no Wikidata ID, resolve the
+    # page's own Wikibase item property. This remains source-linked identity
+    # resolution, not name-based guessing.
+    if wikipedia_titles:
+        titles=sorted(wikipedia_titles)
+        for i in range(0,len(titles),50):
+            url="https://en.wikipedia.org/w/api.php?"+urllib.parse.urlencode({
+                "action":"query","format":"json","prop":"pageprops",
+                "ppprop":"wikibase_item","redirects":1,
+                "titles":"|".join(titles[i:i+50])
+            })
+            data=get_json(url)
+            for page in data.get("query",{}).get("pages",{}).values():
+                q=page.get("pageprops",{}).get("wikibase_item")
+                title=page.get("title")
+                if q and title:
+                    for rid in wikipedia_titles.get(title,[]):
+                        ids.setdefault(q,[]).append(rid)
+            time.sleep(0.15)
+
     qids=sorted(ids)
     enriched={}
     for i in range(0,len(qids),50):
@@ -68,7 +96,7 @@ def main():
         if not entities:
             r["research"]= {
                 "status":"source-linked",
-                "sources":["cliopatria-pinned"],
+                "sources":["cliopatria-pinned","wikipedia-pageprops"],
                 "wikidata_ids":qids_for_record,
                 "notes":"No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed."
             }
@@ -90,7 +118,7 @@ def main():
             "wikipedia_en_title":sitelink,
             "wikipedia_en_url":wiki_page.get("url"),
             "wikipedia_en_summary":wiki_page.get("summary"),
-            "identity_method":"Cliopatria-supplied WikidataID; no name-based matching",
+            "identity_method":"Cliopatria-supplied WikidataID or Cliopatria-supplied Wikipedia pageprops; no name-based matching",
             "notes":"Wikidata fields are source-derived and should be reviewed when conflicting historical identities or naming conventions occur."
         }
         r["editorial"]["status"]="research-enriched"
@@ -101,7 +129,7 @@ def main():
 
     payload["research_layer"]={
         "source":"Wikidata",
-        "method":"Cliopatria-provided Wikidata IDs only",
+        "method":"Cliopatria-provided Wikidata IDs plus Cliopatria-provided Wikipedia pageprops",
         "retrieved_at":today,
         "resolved_entities":sum(1 for r in records if r.get("research",{}).get("status")=="research-enriched"),
         "wikipedia_summaries":sum(1 for r in records if r.get("research",{}).get("wikipedia_en_summary")),
