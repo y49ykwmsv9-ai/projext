@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "sandbox",
+      "name": "Historical Sandbox",
+      "description": "Start from sourced historical conditions at a selected date without forcing subsequent historical outcomes.",
+      "mode": "sandbox",
+      "forced_events": false,
+      "historical_lock": false
+    },
+    {
+      "id": "historical-branch",
+      "name": "Historical Branch",
+      "description": "Start from a sourced historical snapshot and allow the player's actions to create a divergent timeline.",
+      "mode": "historical-branch",
+      "forced_events": false,
+      "historical_lock": false
+    }
+  ]
+}
