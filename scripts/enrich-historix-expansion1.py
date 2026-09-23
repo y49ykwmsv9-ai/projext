@@ -104,7 +104,7 @@ def main():
    de_facto+=1
  # Contested/special places retain separate unresolved de jure status rather than receiving a guessed parent.
  unresolved=[]
- for p_id,n,typ,attrs in c.execute("select place_id,canonical_name,place_type,attributes from places where parent_place_id is null and place_type!='administrative-country'").fetchall():
+ for p_id,n,typ,attrs in c.execute("select place_id,canonical_name,place_type,attributes from places where parent_place_id is null and place_type!='administrative-country' and json_extract(attributes,'$.dataset')='Natural Earth'").fetchall():
   a=json.loads(attrs or "{}")
   unresolved.append([p_id,n,typ,a.get("adm0_a3"),"de_jure_unresolved"])
   c.execute("""insert or ignore into place_jurisdiction
