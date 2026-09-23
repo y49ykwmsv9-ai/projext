@@ -1,25 +1,52 @@
 {
-  "schema_version":"1.3.0",
-  "database":"HISTORIX",
-  "version":"1.3.0",
-  "layer":"expanded-curated-records",
-  "status":"structured-and-editable",
-  "purpose":"Expand existing curated records without replacing stable IDs.",
-  "compatibility":"Additive to HISTORIX 1.0-1.2.",
-  "editable_units":["events","people","places"],
-  "event_enrichment":{
-    "source_records":"lib/historical-records.ts",
-    "current_event_count":100,
-    "storage":"data/history-library/enrichment/events.json",
-    "stable_id_rule":"Reuse existing historical-record ID.",
-    "fields":["identity","chronology","geography","participants","context","narrative","consequences","quantitative","evidence","uncertainty","graph","editorial"]
+  "schema_version": "1.3.0",
+  "database": "HISTORIX",
+  "version": "1.3.0",
+  "layer": "expanded-curated-records",
+  "status": "structured-and-editable",
+  "purpose": "Expand existing curated records without replacing stable IDs.",
+  "compatibility": "Additive to HISTORIX 1.0-1.2.",
+  "editable_units": [
+    "events",
+    "people",
+    "places"
+  ],
+  "event_enrichment": {
+    "source_records": "lib/historical-records.ts",
+    "current_event_count": 100,
+    "storage": "data/history-library/enrichment/events.json",
+    "stable_id_rule": "Reuse existing historical-record ID.",
+    "fields": [
+      "identity",
+      "chronology",
+      "geography",
+      "participants",
+      "context",
+      "narrative",
+      "consequences",
+      "quantitative",
+      "evidence",
+      "uncertainty",
+      "graph",
+      "editorial"
+    ]
   },
-  "modification_model":{
-    "base_record":"Existing seed remains compatibility layer.",
-    "enrichment":"Expanded fields are stored separately.",
-    "overrides":"Edit only the affected enrichment record.",
-    "provenance":"Factual claims can carry source_ids and confidence.",
-    "no_false_precision":true
+  "modification_model": {
+    "base_record": "Existing seed remains compatibility layer.",
+    "enrichment": "Expanded fields are stored separately.",
+    "overrides": "Edit only the affected enrichment record.",
+    "provenance": "Factual claims can carry source_ids and confidence.",
+    "no_false_precision": true
   },
-  "next_version":"1.4 expands the polity dataset from every polity referenced by the expanded library."
+  "next_version": "1.4 expands the polity dataset from every polity referenced by the expanded library.",
+  "people_enrichment": {
+    "source_records": "lib/historical-records.ts",
+    "current_people_count": 61,
+    "storage": "data/history-library/enrichment/people.json"
+  },
+  "place_enrichment": {
+    "source_records": "lib/historical-records.ts",
+    "current_place_count": 37,
+    "storage": "data/history-library/enrichment/places.json"
+  }
 }
