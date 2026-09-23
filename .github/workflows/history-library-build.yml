@@ -32,7 +32,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
+        with:
+          python-version: "3.12"
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip
+      - name: Verify workflow context
+        run: |
+          python --version
+          git --version
+          test -f scripts/build-history-library.py
+          test -f scripts/validate-history-library.py
+          test -f scripts/build-historix-1.4-polities.py
+          test -f scripts/build-historix-1.5-places.py
+          test -f scripts/validate-historix-1.5.py
       - name: Download pinned Cliopatria source snapshot
         env: {CLIOPATRIA_COMMIT: ad28a691b7c07c1fca89d0e0636d324667d2a258}
         run: |
@@ -66,16 +78,31 @@ jobs:
         run: python scripts/build-historix-1.5-places.py
       - name: Validate HISTORIX 1.5 canonical place layer
         run: python scripts/validate-historix-1.5.py
+      - name: Verify generated HISTORIX artifacts before commit
+        run: |
+          test -s data/history-library/polities/historix-linked.json
+          test -s data/history-library/places/historix-places.json
+          test -s data/history-library/graph/place-time-index.json
+          test -s data/history-library/HISTORIX-1.5-manifest.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("data/history-library/places/historix-places.json")
+          rows=json.loads(p.read_text())["records"]
+          assert rows, "HISTORIX 1.5 place layer is empty"
+          assert len({r["id"] for r in rows}) == len(rows), "duplicate place IDs"
+          print(f"Verified {len(rows)} bundled canonical places")
+          PY
       - name: Persist generated 1.4 polity resources
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/history-library/polities data/history-library/places data/history-library/graph/place-time-index.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/HISTORIX-1.5-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
-          git diff --cached --quiet || git commit -m "HISTORIX 1.4: materialize complete 1583 polity universe"
+          git diff --cached --quiet || git commit -m "HISTORIX: persist generated 1.4 polity and 1.5 place layers"
           git push
       - name: Upload HISTORIX library artifact
         uses: actions/upload-artifact@v4
         with:
-          name: historix-1.4-library
+          name: historix-1.5-library
           path: data/history-library
           retention-days: 30
