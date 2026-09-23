@@ -1,0 +1,70 @@
+name: Render Reconquista Education Videos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "projects/documentary/render/scenes/scene-711-education-v1.html"
+      - "projects/documentary/render/scenes/scene-711-education-v2.html"
+      - "scripts/render-sample-scene.mjs"
+      - ".github/workflows/render-education-videos.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reconquista-education-render
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install rendering dependencies
+        run: |
+          set -e
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          npm init -y
+          npm install --no-save playwright@latest
+          npx playwright install --with-deps chromium
+
+      - name: Render education v1
+        run: |
+          set -e
+          SCENE_FILE=scene-711-education-v1.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
+          test -s projects/documentary/build/sample-scene-711-education-v1/scene-711-education-v1.mp4
+
+      - name: Render education v2
+        run: |
+          set -e
+          SCENE_FILE=scene-711-education-v2.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
+          test -s projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4
+
+      - name: Validate rendered videos
+        run: |
+          set -e
+          for f in \
+            projects/documentary/build/sample-scene-711-education-v1/scene-711-education-v1.mp4 \
+            projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4
+          do
+            echo "VALIDATING $f"
+            ffprobe -v error \
+              -show_entries format=duration,size \
+              -show_entries stream=codec_name,width,height,r_frame_rate \
+              -of default=noprint_wrappers=1 "$f"
+          done
+
+      - name: Upload rendered videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconquista-education-v1-v2-rendered-videos
+          if-no-files-found: error
+          retention-days: 14
+          path: |
+            projects/documentary/build/sample-scene-711-education-v1/scene-711-education-v1.mp4
+            projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4
