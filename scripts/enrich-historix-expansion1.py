@@ -84,6 +84,9 @@ def main():
    source_record_key TEXT,
    confidence TEXT,
    status TEXT NOT NULL DEFAULT 'asserted',
+   claim_status TEXT NOT NULL DEFAULT 'asserted',
+   valid_from TEXT,
+   valid_to TEXT,
    notes TEXT,
    UNIQUE(place_id,parent_place_id,polity_id,jurisdiction_basis,source_id)
  );CREATE INDEX IF NOT EXISTS idx_pj_place ON place_jurisdiction(place_id);
@@ -102,7 +105,13 @@ def main():
  unresolved=[]
  for p_id,n,typ,attrs in c.execute("select place_id,canonical_name,place_type,attributes from places where parent_place_id is null and place_type!='administrative-country'").fetchall():
   a=json.loads(attrs or "{}")
-  unresolved.append([p_id,n,typ,a.get("adm0_a3"),"de_jure_not_asserted"])
+  unresolved.append([p_id,n,typ,a.get("adm0_a3"),"de_jure_unresolved"])
+  c.execute("""insert or ignore into place_jurisdiction
+    (place_id,parent_place_id,polity_id,jurisdiction_basis,relationship,source_id,source_record_key,confidence,status,claim_status,valid_from,valid_to,notes)
+    values(?,?,?,?,?,?,?,?,?,?,?,?)""",
+    (p_id,None,None,"de_jure","jurisdictional-parent-unresolved","historix-jurisdiction-review",
+     p_id,"not-asserted","unresolved","unresolved",None,None,
+     "Review state only; no de jure sovereignty or parent is inferred."))
  c.execute("insert or replace into store_meta(key,value) values('jurisdiction_model','de_jure and de_facto assertions are stored separately; absence of a de_jure assertion is not a claim of non-sovereignty')")
  c.execute("delete from place_identity_audit");dupes=0
  rows=c.execute("select json_extract(attributes,'$.geographic_identity_key'),min(place_id),count(*),group_concat(distinct json_extract(attributes,'$.source_id')) from places where json_extract(attributes,'$.geographic_identity_key') is not null group by 1").fetchall()
@@ -119,7 +128,7 @@ def main():
  for i in range(10000):
   z=temporal[(i*7919)%len(temporal)];sy,ey=yr(z[2]),yr(z[3]);qy=(sy+((ey-sy)//2) if sy is not None and ey is not None else sy if sy is not None else ey)
   if not c.execute("select 1 from places where canonical_name=? and (start_date is null or cast(start_date as integer)<=?) and (end_date is null or cast(end_date as integer)>=?) limit 1",(z[1],qy,qy)).fetchone():fails.append([z[0],z[1],qy])
- report={"status":"completed" if not(fails or orphan or orrel or miss or selfr or dupes) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"de_facto_jurisdiction_assertions":de_facto,"de_jure_jurisdiction_assertions":c.execute("select count(*) from place_jurisdiction where jurisdiction_basis='de_jure' and status='asserted'").fetchone()[0],"de_jure_review_states":c.execute("select count(*) from place_jurisdiction where jurisdiction_basis='de_jure' and status='unresolved'").fetchone()[0],"jurisdictional_parent_unresolved":len(unresolved),"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
+ report={"status":"completed" if not(fails or orphan or orrel or miss or selfr or dupes) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"de_facto_jurisdiction_assertions":de_facto,"de_jure_jurisdiction_assertions":c.execute("select count(*) from place_jurisdiction where jurisdiction_basis='de_jure' and status='asserted'").fetchone()[0],"de_jure_review_states":c.execute("select count(*) from place_jurisdiction where jurisdiction_basis='de_jure' and status='unresolved'").fetchone()[0],"jurisdictional_parent_unresolved":len(unresolved),"jurisdiction_rows":c.execute("select count(*) from place_jurisdiction").fetchone()[0],"jurisdiction_rows_missing_status":c.execute("select count(*) from place_jurisdiction where status is null or claim_status is null").fetchone()[0],"jurisdiction_rows_missing_provenance":c.execute("select count(*) from place_jurisdiction j left join sources s on s.source_id=j.source_id where s.source_id is null").fetchone()[0],"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
  c.execute("insert or replace into store_meta values('roadmap_status',?)",("Expansion 1 enrichment and validation completed" if report["status"]=="completed" else "Expansion 1 validation failed",))
  c.commit();REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False) + chr(10));c.close();print(json.dumps(report,indent=2))
  if report["status"]!="completed":raise SystemExit(1)
