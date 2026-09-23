@@ -109,7 +109,7 @@ def main():
   unresolved.append([p_id,n,typ,a.get("adm0_a3"),"de_jure_unresolved"])
   c.execute("""insert or ignore into place_jurisdiction
     (place_id,parent_place_id,polity_id,jurisdiction_basis,relationship,source_id,source_record_key,confidence,status,claim_status,valid_from,valid_to,notes)
-    values(?,?,?,?,?,?,?,?,?,?,?,?)""",
+    values(?,?,?,?,?,?,?,?,?,?,?,?,?)""",
     (p_id,None,None,"de_jure","jurisdictional-parent-unresolved","historix-jurisdiction-review",
      p_id,"not-asserted","unresolved","unresolved",None,None,
      "Review state only; no de jure sovereignty or parent is inferred."))
