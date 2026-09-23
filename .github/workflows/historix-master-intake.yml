@@ -1,0 +1,46 @@
+name: HISTORIX unified master-store pipeline
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/**"
+      - "data/history-library/enrichment/**"
+      - ".github/workflows/historix-master-intake.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "data/history-library/enrichment/**"
+      - ".github/workflows/historix-master-intake.yml"
+
+jobs:
+  historix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run unified HISTORIX expansion pipeline
+        run: python scripts/historix_pipeline.py
+
+      - name: Upload canonical HISTORIX artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: historix-master-sqlite
+          path: |
+            data/historix-master/historix_master.sqlite
+            data/historix-master/intake_report.json
+            data/historix-master/expansion1_report.json
+            data/historix-master/pipeline_report.json
+          if-no-files-found: error
+
+      - name: Persist pipeline reports
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/historix-master/intake_report.json                   data/historix-master/expansion1_report.json                   data/historix-master/pipeline_report.json
+          git diff --cached --quiet || git commit -m "HISTORIX: persist unified pipeline reports"
+          git push
