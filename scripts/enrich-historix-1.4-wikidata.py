@@ -53,6 +53,7 @@ def main():
     # When Cliopatria supplied a Wikipedia page but no Wikidata ID, resolve the
     # page's own Wikibase item property. This remains source-linked identity
     # resolution, not name-based guessing.
+    resolved_qids_by_record={rid:set() for r in records for rid in [r["id"]]}
     if wikipedia_titles:
         titles=sorted(wikipedia_titles)
         for i in range(0,len(titles),50):
@@ -68,6 +69,7 @@ def main():
                 if q and title:
                     for rid in wikipedia_titles.get(title,[]):
                         ids.setdefault(q,[]).append(rid)
+                        resolved_qids_by_record.setdefault(rid,set()).add(q)
             time.sleep(0.15)
 
     qids=sorted(ids)
@@ -105,12 +107,12 @@ def main():
 
     today=str(date.today())
     for r in records:
-        qids_for_record=sorted({tr.get("wikidata_id") for tr in r.get("temporal_records",[]) if isinstance(tr.get("wikidata_id"),str) and tr.get("wikidata_id","").startswith("Q")})
+        qids_for_record=sorted(({tr.get("wikidata_id") for tr in r.get("temporal_records",[]) if isinstance(tr.get("wikidata_id"),str) and tr.get("wikidata_id","").startswith("Q")} | resolved_qids_by_record.get(r["id"],set())))
         entities=[enriched[q] for q in qids_for_record if q in enriched and "missing" not in enriched[q]]
         if not entities:
             r["research"]= {
                 "status":"source-linked",
-                "sources":["cliopatria-pinned","wikipedia-pageprops"],
+                "sources":["cliopatria-pinned","wikipedia-pageprops"] if resolved_qids_by_record.get(r["id"]) else ["cliopatria-pinned"],
                 "wikidata_ids":qids_for_record,
                 "notes":"No resolvable Wikidata entity was supplied by the Cliopatria source record; no identity was guessed."
             }
