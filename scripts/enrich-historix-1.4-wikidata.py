@@ -15,9 +15,23 @@ POLITY_DIR=ROOT/"data/history-library/polities"
 AGG=POLITY_DIR/"historix-linked.json"
 
 def get_json(url):
-    req=urllib.request.Request(url,headers={"User-Agent":"HISTORIX/1.4 research pipeline"})
-    with urllib.request.urlopen(req,timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+    req=urllib.request.Request(url,headers={
+        "User-Agent":"HISTORIX/1.4 research pipeline (historical database build)",
+        "Accept":"application/json"
+    })
+    last=None
+    for attempt in range(7):
+        try:
+            with urllib.request.urlopen(req,timeout=45) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            last=exc
+            if exc.code not in {429,500,502,503,504} or attempt==6:
+                raise
+            retry_after=exc.headers.get("Retry-After")
+            delay=int(retry_after) if retry_after and retry_after.isdigit() else min(30,5*(attempt+1))
+            time.sleep(delay)
+    raise last
 
 def main():
     payload=json.loads(AGG.read_text(encoding="utf-8"))
