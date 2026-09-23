@@ -1,0 +1,34 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 1,
+  "date": "-0062-01-29",
+  "treasury": 7500,
+  "metrics": {
+    "population": 100,
+    "currency": 7500,
+    "soldiers": 80,
+    "taxation": 0,
+    "economy": 52,
+    "agriculture": 54,
+    "infrastructure": 41,
+    "trade": 30,
+    "readiness": 50,
+    "morale": 53,
+    "supply": 51,
+    "organization": 40,
+    "stability": 52,
+    "legitimacy": 42,
+    "exhaustion": 0,
+    "technology": 20,
+    "intelligence": 21,
+    "relations": 35
+  },
+  "relationships": {
+    "nearby-landowners": 4,
+    "poor-agricultural-workers": 5,
+    "smallholders": 2,
+    "military-connections": 0,
+    "roman-political-elite": 0
+  },
+  "previous_action": "Begins gathering support of influential landowners near the estate, funds local agriculture, and sends gifts to poorer workers."
+}
