@@ -72,7 +72,40 @@ def main():
    ch=pid("nep",w+f"|{la:.6f}|{lo:.6f}");pa=pid("ne1",k1) if k1 in c1 else ((c0.get(k0) or [None])[0])
    add(c,ch,n,"populated-place",geom=g,parent=pa,lat=la,lon=lo,key=w,attrs={"dataset":"Natural Earth","layer":"populated-places","adm0_a3":k0,"adm1_code":k1,"wikidata_id":prop(p,"wikidataid"),"temporal_status":"current-reference","population_max":prop(p,"pop_max")})
    rel(c,ch,pa,"geographic-child","natural-earth-pinned",w);counts["populated"]+=1
- c.execute("delete from place_identity_audit");dupes=0
+ # Jurisdictional parent model: de facto and de jure are separate assertions.
+ c.executescript("""CREATE TABLE IF NOT EXISTS place_jurisdiction(
+   assertion_id INTEGER PRIMARY KEY AUTOINCREMENT,
+   place_id TEXT NOT NULL,
+   parent_place_id TEXT,
+   polity_id TEXT,
+   jurisdiction_basis TEXT NOT NULL CHECK(jurisdiction_basis IN ('de_facto','de_jure')),
+   relationship TEXT NOT NULL,
+   source_id TEXT NOT NULL,
+   source_record_key TEXT,
+   confidence TEXT,
+   status TEXT NOT NULL DEFAULT 'asserted',
+   notes TEXT,
+   UNIQUE(place_id,parent_place_id,polity_id,jurisdiction_basis,source_id)
+ );CREATE INDEX IF NOT EXISTS idx_pj_place ON place_jurisdiction(place_id);
+ CREATE INDEX IF NOT EXISTS idx_pj_parent ON place_jurisdiction(parent_place_id);
+ CREATE INDEX IF NOT EXISTS idx_pj_polity ON place_jurisdiction(polity_id);""")
+ # Every Natural Earth admin-1/populated place with a recognized admin-0 parent gets an explicit
+ # de facto jurisdiction assertion. We do not infer de jure sovereignty from this dataset.
+ de_facto=0
+ for p_id,attrs,parent in c.execute("select place_id,attributes,parent_place_id from places where parent_place_id is not null").fetchall():
+  a=json.loads(attrs or "{}")
+  if a.get("dataset")=="Natural Earth":
+   c.execute("insert or ignore into place_jurisdiction(place_id,parent_place_id,jurisdiction_basis,relationship,source_id,source_record_key,confidence,status,notes) values(?,?,?,?,?,?,?,?,?)",
+             (p_id,parent,"de_facto","administrative-parent","natural-earth-pinned",a.get("adm1_code") or a.get("adm0_a3"),"source-defined","asserted","Natural Earth administrative geography; no de jure sovereignty inferred"))
+   de_facto+=1
+ # Contested/special places retain separate unresolved de jure status rather than receiving a guessed parent.
+ unresolved=[]
+ for p_id,n,typ,attrs in c.execute("select place_id,canonical_name,place_type,attributes from places where parent_place_id is null and place_type!='administrative-country'").fetchall():
+  a=json.loads(attrs or "{}")
+  unresolved.append([p_id,n,typ,a.get("adm0_a3"),"de_jure_not_asserted"])
+ c.execute("insert or replace into store_meta(key,value) values('jurisdiction_model','de_jure and de_facto assertions are stored separately; absence of a de_jure assertion is not a claim of non-sovereignty')")
+
+c.execute("delete from place_identity_audit");dupes=0
  rows=c.execute("select json_extract(attributes,'$.geographic_identity_key'),min(place_id),count(*),group_concat(distinct json_extract(attributes,'$.source_id')) from places where json_extract(attributes,'$.geographic_identity_key') is not null group by 1").fetchall()
  for k,pa,n,s in rows:
   st="unique" if n==1 else "duplicate-review";dupes+=max(0,n-1);c.execute("insert or replace into place_identity_audit values(?,?,?,?,?)",(k,pa,n,s or "",st))
@@ -87,7 +120,7 @@ def main():
  for i in range(10000):
   z=temporal[(i*7919)%len(temporal)];sy,ey=yr(z[2]),yr(z[3]);qy=(sy+((ey-sy)//2) if sy is not None and ey is not None else sy if sy is not None else ey)
   if not c.execute("select 1 from places where canonical_name=? and (start_date is null or cast(start_date as integer)<=?) and (end_date is null or cast(end_date as integer)>=?) limit 1",(z[1],qy,qy)).fetchone():fails.append([z[0],z[1],qy])
- report={"status":"completed" if not(fails or orphan or orrel or miss or selfr or dupes) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
+ report={"status":"completed" if not(fails or orphan or orrel or miss or selfr or dupes) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"de_facto_jurisdiction_assertions":de_facto,"de_jure_jurisdiction_assertions":c.execute("select count(*) from place_jurisdiction where jurisdiction_basis='de_jure'").fetchone()[0],"jurisdictional_parent_unresolved":len(unresolved),"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
  c.execute("insert or replace into store_meta values('roadmap_status',?)",("Expansion 1 enrichment and validation completed" if report["status"]=="completed" else "Expansion 1 validation failed",))
  c.commit();REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False) + chr(10));c.close();print(json.dumps(report,indent=2))
  if report["status"]!="completed":raise SystemExit(1)
