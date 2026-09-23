@@ -58,8 +58,8 @@ jobs:
           cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
           cp projects/documentary/render/sample-scene-711-watch.html site/documentary/sample-scene-711-watch.html
           cp projects/documentary/build/sample-scene-711-v4/scene-711-v4.mp4 site/documentary/sample-scene-711-previous.mp4
-          cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v1.mp4 site/documentary/sample-scene-711.mp4
-          cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v1.mp4 site/documentary/reconquista-711-education-v2.mp4
+          cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4 site/documentary/sample-scene-711.mp4
+          cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4 site/documentary/reconquista-711-education-v2.mp4
           cp projects/documentary/render/SCENE-BASELINE-v2.md site/documentary/SCENE-BASELINE-v2.md
           cp projects/documentary/render/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
           cp projects/documentary/README.md site/documentary/README.md
