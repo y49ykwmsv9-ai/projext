@@ -37,6 +37,26 @@ jobs:
       - name: Preflight documentary renderer
         run: node scripts/preflight-documentary-render.mjs
 
+      - name: Validate Reconquista package
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const m=JSON.parse(fs.readFileSync('projects/documentary/build/documentary-manifest.json','utf8'));
+          const a=JSON.parse(fs.readFileSync('projects/documentary/scene-assets.json','utf8'));
+          if (!/reconquista|iberian/i.test(m.id+' '+m.title)) throw new Error('Wrong documentary package: expected Reconquista/Iberia');
+          if (Number(m.targetDurationMinutes)!==60) throw new Error('Target duration is not 60 minutes');
+          if (m.chapters?.length!==10) throw new Error('Expected 10 Reconquista chapters');
+          if (a.assets.length<40) throw new Error('Expected at least 40 local scene plates');
+          for (const x of a.assets) {
+            if (!x.imagePath || /runway|cloudfront.net|https?:\\/\\//i.test(x.imagePath)) throw new Error('External/transient scene asset detected: '+x.imagePath);
+            if (!fs.existsSync(x.imagePath)) throw new Error('Missing local scene plate: '+x.imagePath);
+          }
+          const raw=fs.readFileSync('projects/documentary/build/documentary-manifest.json','utf8');
+          if (/Runway/i.test(raw)) throw new Error('Runway reference remains in generated documentary manifest');
+          if (!/CLIOPATRIA|CLIOPATRA/i.test(raw) || !/HISTORIX/i.test(raw)) throw new Error('Historical provenance missing');
+          console.log('Reconquista package validation passed:', a.assets.length, 'local scene plates');
+          NODE
+
       - name: Render 60-minute documentary
         run: node scripts/render-documentary.mjs
 
