@@ -2,18 +2,33 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 
-const root = path.resolve(process.cwd());
-const scenePath = path.resolve(process.argv[2] || path.join(root, "scenes/iberia-0711-gibraltar.json"));
+const scenePath = path.resolve(process.argv[2] || "projects/historix-renderer/scenes/iberia-0711-gibraltar.json");
 const scene = JSON.parse(fs.readFileSync(scenePath, "utf8"));
-const csvPath = path.resolve(root, "../../data/historical-polities-since-1000-bce.csv");
-const csv = fs.readFileSync(csvPath, "utf8");
 
-for (const id of scene.databaseBindings.polities.map(x => x.id)) {
-  if (!csv.includes(`"${id}"`)) throw new Error(`Historical polity record missing from bundled database: ${id}`);
+// Resolve repository-relative data from the scene location, not process.cwd().
+// GitHub Actions checks the repository out at /home/runner/work/projext/projext,
+// while this renderer lives two levels below the repository root.
+const repoRoot = path.resolve(path.dirname(scenePath), "../..");
+const csvPath = path.join(repoRoot, "data/historical-polities-since-1000-bce.csv");
+if (!fs.existsSync(csvPath)) {
+  throw new Error(`Bundled historical database not found: ${csvPath}`);
+}
+const csv = fs.readFileSync(csvPath, "utf8");
+const rows = new Set(
+  csv.split(/\r?\n/).slice(1).filter(Boolean).map(line => {
+    const first = line.match(/^"([^"]+)"/);
+    return first ? first[1] : line.split(",")[0].trim();
+  })
+);
+
+for (const { id } of scene.databaseBindings.polities) {
+  if (!rows.has(id)) {
+    throw new Error(`Historical polity record missing from bundled database: ${id}`);
+  }
 }
 
 const W = scene.render.width, H = scene.render.height;
-const outDir = path.join(root, "dist/scenes");
+const outDir = path.join(repoRoot, "projects/historix-renderer/dist/scenes");
 fs.mkdirSync(outDir, { recursive: true });
 
 const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
@@ -27,26 +42,21 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   <rect width="100%" height="100%" fill="url(#sky)"/>
   <rect x="0" y="330" width="1920" height="750" fill="url(#sea)"/>
 
-  <!-- Stylized Iberian terrain silhouette, deliberately schematic rather than false-precision GIS. -->
   <path d="M650 365 L760 315 L930 320 L1060 375 L1195 410 L1290 505 L1260 610 L1160 675 L1070 770 L900 785 L760 720 L690 620 L600 555 L585 455 Z"
         fill="#6d725d" stroke="#d6c99c" stroke-width="6"/>
   <path d="M650 365 L760 315 L930 320 L1060 375 L1195 410 L1290 505 L1260 610 L1160 675 L1070 770 L900 785 L760 720 L690 620 L600 555 L585 455 Z"
         fill="none" stroke="#30372f" stroke-width="2"/>
 
-  <!-- North Africa -->
   <path d="M690 900 L790 815 L1040 800 L1210 845 L1350 920 L1420 1080 L570 1080 Z"
         fill="#554d3d" stroke="#c5b58b" stroke-width="4"/>
 
-  <!-- Strait and route -->
   <path d="M835 785 C800 745 775 710 760 665 C748 625 755 590 790 555"
         fill="none" stroke="#e4b84d" stroke-width="10" stroke-linecap="round"/>
   <path d="M790 555 L765 575 L775 535 Z" fill="#e4b84d"/>
 
-  <!-- Terrain relief -->
   <path d="M640 475 C760 430 900 455 1020 430 S1200 455 1260 500" fill="none" stroke="#8d8f72" stroke-width="10" opacity=".55"/>
   <path d="M720 610 C850 570 980 610 1130 575" fill="none" stroke="#8d8f72" stroke-width="8" opacity=".45"/>
 
-  <!-- Army sprite clusters -->
   <g transform="translate(770 850)">
     <circle cx="0" cy="0" r="18" fill="#d7b45a"/><circle cx="42" cy="-8" r="18" fill="#d7b45a"/>
     <circle cx="82" cy="5" r="18" fill="#d7b45a"/><circle cx="22" cy="38" r="18" fill="#d7b45a"/>
@@ -58,7 +68,6 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
     <circle cx="92" cy="-5" r="20" fill="#a24f4f"/><circle cx="38" cy="58" r="20" fill="#a24f4f"/>
   </g>
 
-  <!-- Place markers -->
   <g fill="#f2e8c9" stroke="#15191d" stroke-width="5">
     <circle cx="790" cy="555" r="12"/><circle cx="970" cy="575" r="12"/>
     <circle cx="1070" cy="490" r="12"/><circle cx="1035" cy="410" r="12"/>
@@ -107,9 +116,10 @@ const report = {
   renderer: "historix-renderer",
   renderingBackend: "GitHub Actions + librsvg",
   programmatic: true,
-  sourceScene: path.relative(root, scenePath),
+  sourceScene: path.relative(repoRoot, scenePath),
+  databasePath: path.relative(repoRoot, csvPath),
   databaseValidation: scene.databaseBindings.polities.map(x => x.id),
-  outputs: [path.relative(root, svgPath), path.relative(root, pngPath)],
+  outputs: [path.relative(repoRoot, svgPath), path.relative(repoRoot, pngPath)],
   historicalScope: scene.period,
   generatedAt: new Date().toISOString()
 };
