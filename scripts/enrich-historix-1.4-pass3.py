@@ -10,7 +10,10 @@ def main():
     event=json.loads(files["events"].read_text())["records"]
     people=[]; places=[]
     for kind in ("people","places"):
-        for f in files[kind].glob("*.json"): people.append(json.loads(f.read_text())) if kind=="people" else places.append(json.loads(f.read_text()))
+        for f in files[kind].glob("*.json"):
+            item=json.loads(f.read_text())
+            if isinstance(item,dict) and item.get("id"):
+                people.append(item) if kind=="people" else places.append(item)
     entities={"events":event,"people":people,"places":places}
     for r in p["records"]:
         names=[norm(r["identity"]["canonical_name"])]+[norm(x) for x in r["identity"].get("alternate_names",[])]
