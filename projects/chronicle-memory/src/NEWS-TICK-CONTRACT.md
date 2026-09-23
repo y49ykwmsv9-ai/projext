@@ -20,7 +20,7 @@ For each explicit time advance, generate 5-10 newsworthy articles by default.
 - Never fill the quota with meaningless filler. If fewer than 5 genuinely newsworthy developments occurred, use distinct substantive developments and mark low-confidence reports rather than inventing facts.
 
 ## Article format
-Each event is presented as a newspaper-style story with a headline, date/place/actors, and a 5-7 sentence minimum article. Major wars, regime changes, major economic shocks, disasters, treaties, rebellions, and comparable events may be substantially longer or split into related articles.
+Each event is presented as a numbered newspaper-style story with a headline and a clearly displayed event number immediately alongside the date, followed by place/actors and a 5-7 sentence minimum article. The machine-readable event_number must be sequential within the round and must appear in every news event record. Major wars, regime changes, major economic shocks, disasters, treaties, rebellions, and comparable events may be substantially longer or split into related articles.
 Every article identifies, where known: what happened; who is involved; where it happened; why it happened; immediate consequences; likely or already observed follow-on consequences; and what the player can actually know about it.
 
 ## Period-authentic reporting
