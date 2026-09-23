@@ -6,6 +6,10 @@ on:
     paths:
       - "scripts/build-historix-master-intake.py"
       - ".github/workflows/historix-master-intake.yml"
+  pull_request:
+    paths:
+      - "scripts/build-historix-master-intake.py"
+      - ".github/workflows/historix-master-intake.yml"
 
 jobs:
   intake:
@@ -27,6 +31,7 @@ jobs:
           print("HISTORIX intake validation passed: 1583 polities")
           PY
       - name: Persist master datastore
+        if: github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
