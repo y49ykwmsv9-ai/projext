@@ -1,0 +1,11 @@
+{
+  "id":"historix-renderer",
+  "name":"Historix Documentary Renderer",
+  "version":"0.1.0",
+  "type":"github-actions-renderer",
+  "status":"initial-pipeline",
+  "entry":"src/render.mjs",
+  "lineage":["worldforge","chronicle-ai"],
+  "dataSource":"repository-local Historix/CLIOPATRA/CLIOPATRIA data",
+  "deployment":{"code":"GitHub","rendering":"GitHub Actions","artifacts":"GitHub Actions artifacts"}
+}
