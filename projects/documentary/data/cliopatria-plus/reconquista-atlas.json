@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "datasetId": "cliopatria-plus-reconquista",
   "title": "Cliopatria+ Reconquista Historical Atlas",
   "purpose": "Project-local extension layer for documentary/game rendering. Cliopatria remains the authoritative polity-geography layer; this atlas adds sourced cities, routes, battles, sieges, political events, people, and scene relationships that are outside Cliopatria's core polity geometry.",
@@ -1664,5 +1664,59 @@
     "Cities, battles, sieges, people and routes are not falsely assigned Cliopatria polity IDs. They use stable project IDs and external source identifiers.",
     "Routes are rendered as reconstructed paths unless a source provides a route geometry. The renderer must label reconstructed routes accordingly.",
     "The engine should cache and reuse this atlas plus the prepared Cliopatria runtime shards instead of downloading and resolving the same data for every scene."
-  ]
+  ],
+  "authorityPolicy": {
+    "primary": "Cliopatria polity entities and temporal political geography",
+    "HISTORIX": "HISTORIX is the reconciliation and provenance layer; it must not silently override Cliopatria geometry",
+    "secondary": [
+      "Wikidata",
+      "Encyclopaedia Britannica",
+      "New Cambridge Medieval History"
+    ],
+    "conflictRule": "Preserve conflicting claims with source attribution and uncertainty rather than collapsing them into an unsupported single fact."
+  },
+  "documentaryDesignPass": {
+    "visualGoal": "Cinematic historical atlas with restrained parchment/cartographic texture, terrain relief, legible labels, animated campaign routes, battle/siege markers, chapter date rail, and source/uncertainty badges.",
+    "passes": [
+      "geographic fidelity pass",
+      "political-boundary pass",
+      "terrain/relief pass",
+      "settlement hierarchy pass",
+      "campaign-route animation pass",
+      "battle/siege visual language pass",
+      "lighting/atmosphere pass",
+      "typography and label collision pass",
+      "continuity pass across chapter transitions",
+      "historical provenance overlay pass"
+    ],
+    "labelRules": {
+      "hierarchy": [
+        "capital",
+        "major city",
+        "fortress",
+        "battlefield",
+        "settlement"
+      ],
+      "collisionAvoidance": true,
+      "neverObscureBattleMarkers": true,
+      "reconstructedRouteBadge": true
+    },
+    "uncertaintyRendering": {
+      "high": "solid geometry/marker",
+      "approximate": "dashed or softened route/marker with APPROXIMATE badge",
+      "contested": "outlined marker with CONTESTED badge",
+      "illustrative": "thin dotted route with ILLUSTRATIVE badge"
+    }
+  },
+  "sourceAudit": {
+    "status": "authoritative-pass-v2",
+    "requiredChecks": [
+      "every political geometry claim resolves to the pinned Cliopatria baseline",
+      "every event has one or more named sources",
+      "every reconstructed route is explicitly marked reconstructed",
+      "contested chronology or location is retained as uncertainty",
+      "scene anchors resolve to stable entity IDs",
+      "no generated visual is treated as documentary evidence"
+    ]
+  }
 }
