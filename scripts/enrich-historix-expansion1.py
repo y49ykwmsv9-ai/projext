@@ -111,7 +111,7 @@ def main():
     (place_id,parent_place_id,polity_id,jurisdiction_basis,relationship,source_id,source_record_key,confidence,status,claim_status,valid_from,valid_to,notes)
     values(?,?,?,?,?,?,?,?,?,?,?,?)""",
     (p_id,None,None,"de_jure","jurisdictional-parent-unresolved","historix-jurisdiction-review",
-     p_id,"not-asserted","unresolved","unresolved","unresolved",None,None,
+     p_id,"not-asserted","unresolved","unresolved",None,None,
      "Review state only; no de jure sovereignty or parent is inferred."))
  c.execute("insert or replace into store_meta(key,value) values('jurisdiction_model','de_jure and de_facto assertions are stored separately; absence of a de_jure assertion is not a claim of non-sovereignty')")
  c.execute("delete from place_identity_audit");dupes=0
