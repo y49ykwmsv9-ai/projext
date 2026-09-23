@@ -1,0 +1,89 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 6,
+  "period": "1 June 62 BCE – 30 June 62 BCE",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R006-E001",
+      "date": "-0062-06-02",
+      "title": "Semi-Permanent Works Rise at the New Forward Holding",
+      "article": "Work has begun in earnest upon the small post established on the ground recently added to Gaius Maximus Valerius's estate. Timber structures, repaired earthworks, storage shelters, and more durable approaches are being installed around the former expedition camp. The works remain modest and are not comparable with the permanent fortifications of a Roman military station, but they are intended to survive ordinary seasons rather than serve for a single campaign. The higher ground is being kept clear, while the road and water approaches are being maintained so that men and supplies can reach the post without difficulty. The new holding is consequently beginning to look less like an abandoned battlefield position and more like a permanent part of the estate.",
+      "ledger": {
+        "currency": -300,
+        "infrastructure": 3,
+        "organization": 1,
+        "readiness": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R006-E002",
+      "date": "-0062-06-06",
+      "title": "Wounded Soldiers Receive Greater Care as Expedition Is Prepared for Renewal",
+      "article": "Greater attention is now being given to the men wounded during the expedition against the robbers. Those unable to return to duty have been separated from the fit men and given places where they can be watched and treated without interfering with the daily work of the estate. Food, water, bandages, and rest have been provided more regularly, while men familiar with treating wounds have been assigned to the injured. Valerius has made clear that the expedition is to be preserved rather than rushed forward at the cost of men who may yet recover. The prospect of resuming operations has therefore become a practical concern around the estate, with the wounded regarded as future members of the company rather than simply losses from the recent battles.",
+      "ledger": {
+        "currency": -150,
+        "morale": 2,
+        "readiness": 1,
+        "exhaustion": -1,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R006-E003",
+      "date": "-0062-06-10",
+      "title": "Builders and Masons Arrive to Take Permanent Residence on Valerius's Estate",
+      "article": "A number of skilled builders and masons have arrived at Valerius's estate under an unusual arrangement intended to keep their labor close at hand. Rather than receiving only ordinary wages, the workers are being offered residence upon Valerius's land, with their obligation to the household taking the form of regular work on estate construction and maintenance. Houses or quarters are being prepared for the new residents, and their presence is expected to provide a permanent source of skilled labor. The arrangement has attracted interest among neighboring households because skilled craftsmen are not easily kept in one place when their labor can be sold elsewhere. Valerius's estate is consequently beginning to acquire a small resident community whose trades are tied directly to the improvement of his property.",
+      "ledger": {
+        "currency": -50,
+        "infrastructure": 2,
+        "economy": 1,
+        "relations": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R006-E004",
+      "date": "-0062-06-14",
+      "title": "Smiths, Lumber Workers and Blacksmiths Establish Workshops",
+      "article": "More skilled workers have taken up residence, including smiths, men accustomed to preparing timber, and blacksmiths capable of repairing tools, fittings, weapons, and agricultural implements. Their workshops are being established close to the areas already under construction so that materials can be worked without repeated journeys to distant settlements. The arrangement provides the estate with labor that would otherwise have to be purchased or sought elsewhere whenever repairs were required. The workers receive their place to live from Valerius, while their labor constitutes the service expected in return. The workshops are still small, but the concentration of several useful trades on one estate has begun to change the pace at which construction and repairs can be undertaken.",
+      "ledger": {
+        "currency": -100,
+        "infrastructure": 2,
+        "technology": 1,
+        "economy": 1,
+        "organization": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R006-E005",
+      "date": "-0062-06-18",
+      "title": "Road, Water and Timber Work Expands Around the New Holding",
+      "article": "The arrival of permanent craftsmen has allowed work to spread beyond the immediate defensive post. Timber is being cut and prepared for structures, roads are being cleared, and damaged approaches toward the waterways are being repaired. The workshops are also producing and repairing tools needed by agricultural workers and estate hands. The converging roads remain open to travelers, while the higher ground around the forward post is being kept under closer watch. The work has not created a commercial port or major settlement, but it is giving the tract the basic infrastructure from which a larger undertaking could eventually grow.",
+      "ledger": {
+        "currency": -100,
+        "infrastructure": 2,
+        "trade": 1,
+        "supply": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R006-E006",
+      "date": "-0062-06-23",
+      "title": "Landowners Take Interest in the Growing Estate Workforce",
+      "article": "The increasing number of craftsmen living upon Valerius's land has become noticeable among neighboring landowners. A resident group of builders, masons, smiths, lumber workers, and blacksmiths gives the estate capabilities that most small rural holdings must obtain from outside. The arrangement has also begun to make the estate more attractive to other skilled men looking for stable residence and regular work. Nearby landowners remain aware that Valerius's holding is still modest, but its combination of armed men, workshops, roads, and waterways is becoming unusual for the district. The development has strengthened the practical ties between Valerius and the neighboring households whose trade and security already depend upon the same roads.",
+      "ledger": {
+        "relations": 2,
+        "economy": 1,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R006-E007",
+      "date": "-0062-06-30",
+      "title": "Local News: Estate Becomes a Permanent Base for Men, Craftsmen and Future Operations",
+      "article": "The month closes with substantial changes visible upon the lands of Gaius Maximus Valerius. The recently acquired forward holding now contains semi-permanent works, maintained roads, working stores, and resident craftsmen whose labor is tied to the estate. At the principal estate, greater care has been given to the wounded from the expedition, with the intention that recovered men may return to service when their condition permits. Builders, masons, smiths, lumber workers, and blacksmiths have also established themselves upon Valerius's land under arrangements exchanging residence for regular estate labor. The result is still a small rural establishment by Roman standards, but it now possesses a concentration of military, agricultural, and construction capacity that it did not possess at the beginning of the year. The roads and waterways leading toward the lake remain undeveloped as a commercial enterprise, yet the physical groundwork for future expansion is becoming increasingly difficult to overlook.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ]
+}
