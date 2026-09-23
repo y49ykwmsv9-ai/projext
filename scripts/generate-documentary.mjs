@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadReconquistaAtlas } from './cliopatria-plus.mjs';
+import { execFileSync } from 'node:child_process';
 
 // Reconquista production build v4: fix runner root initialization.
 const root = process.cwd();
