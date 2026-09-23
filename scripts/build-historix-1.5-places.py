@@ -3,9 +3,11 @@
 
 Seeds:
 1. Existing HISTORIX curated places, preserving their stable IDs.
-2. Wikidata capital IDs already supplied by the pinned Cliopatria-linked polity
-   records. These IDs are trusted source identifiers, not name-based guesses.
-3. Up to two levels of Wikidata administrative parents/country entities.
+2. Wikidata IDs explicitly supplied by the pinned Cliopatria polity records.
+   Their P36 capital claims are then used as place seeds. This avoids the old
+   failure mode where the complete 1,583-polity layer existed but only a small
+   curated place set was materialized.
+3. Administrative parents/countries recursively from trusted place IDs.
 
 The output is bundled into HISTORIX. Runtime applications do not need Wikidata.
 """
@@ -114,14 +116,33 @@ def main():
                        "notes":"Stable HISTORIX 1.1 place record preserved as the canonical seed."}
         }
 
-    seeds=set()
+    polity_qids=set()
+    direct_capital_qids=set()
     for p in pol.get("records",[]):
-        seeds.update(x for x in p.get("geography",{}).get("capital_wikidata_ids",[]) if isinstance(x,str) and x.startswith("Q"))
+        for q in p.get("research",{}).get("wikidata_ids",[]):
+            if isinstance(q,str) and q.startswith("Q"):
+                polity_qids.add(q)
+        for q in p.get("geography",{}).get("capital_wikidata_ids",[]):
+            if isinstance(q,str) and q.startswith("Q"):
+                direct_capital_qids.add(q)
 
-    # Expand two parent levels from trusted seed IDs.
+    polity_entities={}
+    qlist=sorted(polity_qids)
+    for i in range(0,len(qlist),50):
+        got=api(qlist[i:i+50]).get("entities",{})
+        polity_entities.update(got)
+        time.sleep(.2)
+
+    capital_qids=set(direct_capital_qids)
+    for e in polity_entities.values():
+        capital_qids.update(x for x in qclaims(e,"P36") if isinstance(x,str) and x.startswith("Q"))
+
+    seeds=set(capital_qids)
+
+    # Expand four parent/country levels from trusted place IDs.
     frontier=set(seeds)
     fetched={}
-    for depth in range(3):
+    for depth in range(5):
         if not frontier: break
         batch=sorted(frontier - set(fetched))
         for i in range(0,len(batch),50):
@@ -168,11 +189,11 @@ def main():
              },"records":rows}
     OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n")
     manifest={"schema_version":"1.5.0","database":"HISTORIX","version":"1.5.0",
-              "layer":"canonical-places-and-geographic-hierarchy","status":"built",
+              "layer":"canonical-places-and-geographic-hierarchy","status":"source-backed-expanded",
               "record_count":len(rows),"storage":"data/history-library/places/historix-places.json",
               "sources":["historix-curated-places","wikidata"],
               "identity_rule":"preserve existing place IDs; materialize only source-supplied Wikidata IDs; never infer identity from names",
-              "next_step":"event and battle expansion plus temporal place-event indexing"}
+              "next_step":"verified historical place aliases, time-varying administrative hierarchy, and place-time coverage tests"}
     MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n")
     catalog_path=LIB/"catalog.json"; catalog=json.loads(catalog_path.read_text())
     catalog["place_layer"]={"version":"1.5.0","record_count":len(rows),
@@ -181,6 +202,6 @@ def main():
       "scope_note":"Canonical place seeds plus source-backed capital and geographic hierarchy expansion. No name-based identity guessing."}
     catalog["version"]="1.5.0"; catalog["schema_version"]="1.5.0"
     catalog_path.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\n")
-    print(f"HISTORIX 1.5 places built: {len(rows)} records from {len(seeds)} trusted capital IDs")
+    print(f"HISTORIX 1.5 places built: {len(rows)} records from {len(polity_qids)} trusted polity IDs and {len(seeds)} trusted place seeds")
 
 if __name__=="__main__": main()
