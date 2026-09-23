@@ -1,0 +1,26 @@
+{
+  "sceneId": "iberia-0711-gibraltar",
+  "title": "711: The Crossing into Iberia",
+  "renderer": "historix-renderer",
+  "renderingBackend": "GitHub Actions + librsvg",
+  "visualRevision": "cinematic-map-v2",
+  "programmatic": true,
+  "sourceScene": "projects/historix-renderer/scenes/iberia-0711-gibraltar.json",
+  "databasePath": "data/historical-polities-since-1000-bce.csv",
+  "databaseValidation": [
+    "visigoths",
+    "andalus"
+  ],
+  "graphNodes": 6,
+  "graphEdges": 4,
+  "outputs": [
+    "projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.svg",
+    "projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.png"
+  ],
+  "historicalScope": {
+    "startYear": 711,
+    "endYear": 711,
+    "display": "Spring–summer 711"
+  },
+  "generatedAt": "2026-09-23T02:36:49.671Z"
+}

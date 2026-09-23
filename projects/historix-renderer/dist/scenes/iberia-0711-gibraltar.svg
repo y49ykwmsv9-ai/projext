@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111b26"/><stop offset=".55" stop-color="#26353d"/><stop offset="1" stop-color="#0c171e"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#163b49"/><stop offset=".5" stop-color="#0d2a37"/><stop offset="1" stop-color="#081b25"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7d8065"/><stop offset=".45" stop-color="#62664f"/><stop offset="1" stop-color="#4d5042"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#e5bd61" stop-opacity=".28"/><stop offset="1" stop-color="#e5bd61" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <rect y="185" width="100%" height="895" fill="url(#sea)"/>
+  <path d="M40 120 C210 100 340 142 505 120 S760 102 905 123" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 185 C210 165 340 207 505 185 S760 167 905 188" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 250 C210 230 340 272 505 250 S760 232 905 253" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 315 C210 295 340 337 505 315 S760 297 905 318" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 380 C210 360 340 402 505 380 S760 362 905 383" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 445 C210 425 340 467 505 445 S760 427 905 448" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 510 C210 490 340 532 505 510 S760 492 905 513" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 575 C210 555 340 597 505 575 S760 557 905 578" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 640 C210 620 340 662 505 640 S760 622 905 643" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 705 C210 685 340 727 505 705 S760 687 905 708" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 770 C210 750 340 792 505 770 S760 752 905 773" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 835 C210 815 340 857 505 835 S760 817 905 838" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 900 C210 880 340 922 505 900 S760 882 905 903" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 965 C210 945 340 987 505 965 S760 947 905 968" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/><path d="M40 1030 C210 1010 340 1052 505 1030 S760 1012 905 1033" fill="none" stroke="#5d8790" stroke-width="2" opacity=".23"/>
+
+  <!-- atmospheric light over the Strait -->
+  <ellipse cx="700" cy="700" rx="280" ry="210" fill="url(#glow)"/>
+
+  <!-- Iberian Peninsula silhouette -->
+  <path d="M575 330 L665 270 L760 248 L870 265 L965 250 L1050 285 L1130 270 L1210 315
+           L1280 365 L1310 445 L1270 515 L1215 550 L1190 625 L1115 650 L1060 705
+           L970 720 L885 690 L810 665 L735 620 L690 570 L625 545 L585 485 L548 425 Z"
+        fill="url(#land)" stroke="#dfcf9d" stroke-width="5"/>
+  <path d="M575 330 L665 270 L760 248 L870 265 L965 250 L1050 285 L1130 270 L1210 315
+           L1280 365 L1310 445 L1270 515 L1215 550 L1190 625 L1115 650 L1060 705
+           L970 720 L885 690 L810 665 L735 620 L690 570 L625 545 L585 485 L548 425 Z"
+        fill="none" stroke="#252b28" stroke-width="2"/>
+
+  <!-- internal historical-region guides, deliberately approximate and labeled -->
+  <path d="M690 570 C760 530 810 510 875 520 S990 490 1060 430" fill="none" stroke="#d6c99c" stroke-width="2" stroke-dasharray="8 8" opacity=".55"/>
+  <path d="M760 248 C790 340 770 420 785 470 S820 585 810 665" fill="none" stroke="#d6c99c" stroke-width="2" stroke-dasharray="8 8" opacity=".45"/>
+  <path d="M965 250 C940 330 960 405 920 480 S900 610 885 690" fill="none" stroke="#d6c99c" stroke-width="2" stroke-dasharray="8 8" opacity=".45"/>
+  <path d="M570 275 C700 245 825 300 940 270 S1170 247 1325 290" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 318 C700 288 825 343 940 313 S1170 290 1325 333" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 361 C700 331 825 386 940 356 S1170 333 1325 376" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 404 C700 374 825 429 940 399 S1170 376 1325 419" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 447 C700 417 825 472 940 442 S1170 419 1325 462" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 490 C700 460 825 515 940 485 S1170 462 1325 505" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 533 C700 503 825 558 940 528 S1170 505 1325 548" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 576 C700 546 825 601 940 571 S1170 548 1325 591" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 619 C700 589 825 644 940 614 S1170 591 1325 634" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 662 C700 632 825 687 940 657 S1170 634 1325 677" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 705 C700 675 825 730 940 700 S1170 677 1325 720" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/><path d="M570 748 C700 718 825 773 940 743 S1170 720 1325 763" fill="none" stroke="#b5aa7c" stroke-width="3" opacity=".28"/>
+  
+  <path d="M615 385 L650 325 L688 385 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M640 342 L650 325 L660 342" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M670 350 L705 290 L743 350 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M695 307 L705 290 L715 307" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M730 375 L765 315 L803 375 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M755 332 L765 315 L775 332" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M800 335 L835 275 L873 335 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M825 292 L835 275 L845 292" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M875 370 L910 310 L948 370 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M900 327 L910 310 L920 327" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M955 325 L990 265 L1028 325 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M980 282 L990 265 L1000 282" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M1045 365 L1080 305 L1118 365 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M1070 322 L1080 305 L1090 322" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M1115 340 L1150 280 L1188 340 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M1140 297 L1150 280 L1160 297" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+  <path d="M1195 400 L1230 340 L1268 400 Z" fill="#5c5f4c" stroke="#d0c18e" stroke-width="2" opacity=".78"/>
+  <path d="M1220 357 L1230 340 L1240 357" fill="none" stroke="#e9dfc0" stroke-width="3" opacity=".65"/>
+
+
+  <!-- North Africa -->
+  <path d="M470 800 L535 735 L650 720 L760 750 L865 805 L940 870 L990 930 L1015 1080 L400 1080 Z"
+        fill="#514b3c" stroke="#b8aa80" stroke-width="4"/>
+  <path d="M470 800 C610 835 745 815 880 875" fill="none" stroke="#8e8666" stroke-width="8" opacity=".35"/>
+  <path d="M505 850 C630 900 760 875 920 940" fill="none" stroke="#8e8666" stroke-width="5" opacity=".25"/>
+
+  <!-- Gibraltar / Strait -->
+  <path d="M535 735 C590 705 635 695 705 710" fill="none" stroke="#e5d6a5" stroke-width="5"/>
+  <path d="M535 735 C590 720 650 720 705 710" fill="none" stroke="#111a20" stroke-width="18" opacity=".55"/>
+  
+  <g transform="translate(535 735)">
+    <path d="M0 0 L38 0 L30 9 L8 9 Z" fill="#7c5940" stroke="#1b2021" stroke-width="2"/>
+    <path d="M18 0 L18 -24 M18 -24 L31 -8 L18 -8 Z" fill="#d8c99b" stroke="#1b2021" stroke-width="2"/>
+  </g>
+  <g transform="translate(565 759)">
+    <path d="M0 0 L38 0 L30 9 L8 9 Z" fill="#7c5940" stroke="#1b2021" stroke-width="2"/>
+    <path d="M18 0 L18 -24 M18 -24 L31 -8 L18 -8 Z" fill="#d8c99b" stroke="#1b2021" stroke-width="2"/>
+  </g>
+  <g transform="translate(595 735)">
+    <path d="M0 0 L38 0 L30 9 L8 9 Z" fill="#7c5940" stroke="#1b2021" stroke-width="2"/>
+    <path d="M18 0 L18 -24 M18 -24 L31 -8 L18 -8 Z" fill="#d8c99b" stroke="#1b2021" stroke-width="2"/>
+  </g>
+  <g transform="translate(625 759)">
+    <path d="M0 0 L38 0 L30 9 L8 9 Z" fill="#7c5940" stroke="#1b2021" stroke-width="2"/>
+    <path d="M18 0 L18 -24 M18 -24 L31 -8 L18 -8 Z" fill="#d8c99b" stroke="#1b2021" stroke-width="2"/>
+  </g>
+
+  <!-- invasion route -->
+  <path d="M625 755 C650 740 678 730 705 710 C760 660 805 610 835 570 C865 530 895 500 925 470 C965 435 1000 410 1035 382"
+        fill="none" stroke="#e6bd58" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 10"/>
+  <path d="M1020 390 L1045 378 L1027 360 Z" fill="#e6bd58"/>
+  <path d="M610 780 C655 750 690 725 705 710" fill="none" stroke="#f4df9e" stroke-width="2" opacity=".8"/>
+
+  <!-- landing force -->
+  <g>
+    <circle cx="620" cy="760" r="4" fill="#d5ad52"/><circle cx="638" cy="760" r="4" fill="#d5ad52"/><circle cx="656" cy="760" r="4" fill="#d5ad52"/><circle cx="674" cy="760" r="4" fill="#d5ad52"/><circle cx="692" cy="760" r="4" fill="#d5ad52"/><circle cx="710" cy="760" r="4" fill="#d5ad52"/><circle cx="620" cy="778" r="4" fill="#d5ad52"/><circle cx="638" cy="778" r="4" fill="#d5ad52"/><circle cx="656" cy="778" r="4" fill="#d5ad52"/><circle cx="674" cy="778" r="4" fill="#d5ad52"/><circle cx="692" cy="778" r="4" fill="#d5ad52"/><circle cx="710" cy="778" r="4" fill="#d5ad52"/><circle cx="620" cy="796" r="4" fill="#d5ad52"/><circle cx="638" cy="796" r="4" fill="#d5ad52"/><circle cx="656" cy="796" r="4" fill="#d5ad52"/><circle cx="674" cy="796" r="4" fill="#d5ad52"/><circle cx="692" cy="796" r="4" fill="#d5ad52"/><circle cx="710" cy="796" r="4" fill="#d5ad52"/><circle cx="620" cy="814" r="4" fill="#d5ad52"/><circle cx="638" cy="814" r="4" fill="#d5ad52"/><circle cx="656" cy="814" r="4" fill="#d5ad52"/><circle cx="674" cy="814" r="4" fill="#d5ad52"/><circle cx="692" cy="814" r="4" fill="#d5ad52"/><circle cx="710" cy="814" r="4" fill="#d5ad52"/>
+    <circle cx="690" cy="750" r="58" fill="none" stroke="#e4bd5e" stroke-width="2" opacity=".5"/>
+    <circle cx="690" cy="750" r="75" fill="none" stroke="#e4bd5e" stroke-width="1" stroke-dasharray="5 9" opacity=".35"/>
+  </g>
+
+  <!-- Visigothic field force -->
+  <g>
+    <circle cx="1120" cy="490" r="4" fill="#a95c55"/><circle cx="1138" cy="490" r="4" fill="#a95c55"/><circle cx="1156" cy="490" r="4" fill="#a95c55"/><circle cx="1174" cy="490" r="4" fill="#a95c55"/><circle cx="1120" cy="508" r="4" fill="#a95c55"/><circle cx="1138" cy="508" r="4" fill="#a95c55"/><circle cx="1156" cy="508" r="4" fill="#a95c55"/><circle cx="1174" cy="508" r="4" fill="#a95c55"/><circle cx="1120" cy="526" r="4" fill="#a95c55"/><circle cx="1138" cy="526" r="4" fill="#a95c55"/><circle cx="1156" cy="526" r="4" fill="#a95c55"/><circle cx="1174" cy="526" r="4" fill="#a95c55"/><circle cx="1120" cy="544" r="4" fill="#a95c55"/><circle cx="1138" cy="544" r="4" fill="#a95c55"/><circle cx="1156" cy="544" r="4" fill="#a95c55"/><circle cx="1174" cy="544" r="4" fill="#a95c55"/>
+    <path d="M1090 470 L1175 505" stroke="#a95c55" stroke-width="3" opacity=".55"/>
+  </g>
+
+  
+    <g class="city">
+      <circle cx="1035" cy="382" r="14" fill="#0b1116" opacity=".72"/>
+      <circle cx="1035" cy="382" r="7" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="1047" y="369" fill="#f3ead4" font-family="Arial,sans-serif" font-size="21" font-weight="700">Toledo</text>
+    </g>
+    <g class="city">
+      <circle cx="920" cy="560" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="920" cy="560" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="932" y="547" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Córdoba</text>
+    </g>
+    <g class="city">
+      <circle cx="785" cy="470" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="785" cy="470" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="797" y="457" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Mérida</text>
+    </g>
+    <g class="city">
+      <circle cx="720" cy="600" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="720" cy="600" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="732" y="587" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Seville</text>
+    </g>
+    <g class="city">
+      <circle cx="1060" cy="295" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="1060" cy="295" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="1072" y="282" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Zaragoza</text>
+    </g>
+    <g class="city">
+      <circle cx="1180" cy="355" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="1180" cy="355" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="1192" y="342" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Tarraco</text>
+    </g>
+    <g class="city">
+      <circle cx="705" cy="710" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="705" cy="710" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="717" y="697" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Gibraltar</text>
+    </g>
+    <g class="city">
+      <circle cx="640" cy="760" r="12" fill="#0b1116" opacity=".72"/>
+      <circle cx="640" cy="760" r="5" fill="#e7d6a5" stroke="#161b1d" stroke-width="2"/>
+      <text x="652" y="747" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="500">Ceuta</text>
+    </g>
+
+  <!-- major labels -->
+  <text x="92" y="92" fill="#f3ead4" font-family="Georgia,serif" font-size="54" font-weight="700">711: The Crossing into Iberia</text>
+  <text x="95" y="137" fill="#d4ccba" font-family="Arial,sans-serif" font-size="24">Tariq ibn Ziyad crosses the Strait of Gibraltar</text>
+  <text x="95" y="178" fill="#e5bd58" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">SPRING–SUMMER 711 • WESTERN MEDITERRANEAN</text>
+
+  <text x="565" y="695" fill="#f4e9c8" font-family="Arial,sans-serif" font-size="18" font-weight="700">STRAIT OF GIBRALTAR</text>
+  <text x="565" y="820" fill="#ead9a7" font-family="Arial,sans-serif" font-size="18">Umayyad-aligned landing force</text>
+  <text x="1110" y="458" fill="#e4aaa2" font-family="Arial,sans-serif" font-size="18" font-weight="700">VISIGOTHIC FIELD FORCE</text>
+  <text x="730" y="930" fill="#d5c9a7" font-family="Arial,sans-serif" font-size="18">North Africa</text>
+
+  <!-- timeline -->
+  <g transform="translate(80 945)">
+    <line x1="0" y1="0" x2="1740" y2="0" stroke="#9f936f" stroke-width="2" opacity=".65"/>
+    <circle cx="30" cy="0" r="7" fill="#e5bd58"/>
+    <circle cx="860" cy="0" r="5" fill="#d2c6a4"/>
+    <circle cx="1710" cy="0" r="5" fill="#d2c6a4"/>
+    <text x="0" y="35" fill="#d7cfbd" font-family="Arial,sans-serif" font-size="16">711 • landing</text>
+    <text x="805" y="35" fill="#d7cfbd" font-family="Arial,sans-serif" font-size="16">campaign advances</text>
+    <text x="1590" y="35" fill="#d7cfbd" font-family="Arial,sans-serif" font-size="16">Visigothic crisis</text>
+  </g>
+
+  <!-- source / graph overlay -->
+  <g transform="translate(1390 80)">
+    <rect width="445" height="245" rx="14" fill="#0b1117" opacity=".94" stroke="#a99b77"/>
+    <text x="24" y="34" fill="#f3ead4" font-family="Arial,sans-serif" font-size="18" font-weight="700">HISTORIX • SOURCE GRAPH</text>
+    <line x1="55" y1="88" x2="150" y2="128" stroke="#e5bd58" stroke-width="3"/>
+    <line x1="150" y1="128" x2="250" y2="88" stroke="#e5bd58" stroke-width="3"/>
+    <line x1="250" y1="88" x2="350" y2="128" stroke="#a99b77" stroke-width="3"/>
+    <circle cx="55" cy="88" r="10" fill="#e5bd58"/><circle cx="150" cy="128" r="10" fill="#e5bd58"/>
+    <circle cx="250" cy="88" r="10" fill="#d8d0bd"/><circle cx="350" cy="128" r="10" fill="#a95c55"/>
+    <text x="25" y="172" fill="#c9c3b5" font-family="Arial,sans-serif" font-size="15">Tariq → Gibraltar → Córdoba → Toledo</text>
+    <text x="25" y="198" fill="#c9c3b5" font-family="Arial,sans-serif" font-size="14">Visigothic Kingdom • polity layer</text>
+    <text x="25" y="222" fill="#c9c3b5" font-family="Arial,sans-serif" font-size="14">HISTORIX / CLIOPATRIA bridge</text>
+  </g>
+
+  <!-- historical caution -->
+  <g transform="translate(1390 350)">
+    <rect width="445" height="142" rx="14" fill="#0b1117" opacity=".94" stroke="#a99b77"/>
+    <text x="24" y="30" fill="#f3ead4" font-family="Arial,sans-serif" font-size="17" font-weight="700">HISTORICAL SOURCE NOTE</text>
+    <text x="24" y="58" fill="#c9c3b5" font-family="Arial,sans-serif" font-size="14">Landing at Gibraltar is well attested.</text>
+    <text x="24" y="82" fill="#c9c3b5" font-family="Arial,sans-serif" font-size="14">Chronology and conquest details can</text>
+    <text x="24" y="106" fill="#c9c3b5" font-family="Arial,sans-serif" font-size="14">depend on later narrative traditions.</text>
+    <text x="24" y="130" fill="#e5bd58" font-family="Arial,sans-serif" font-size="13">Visualized as evidence-aware reconstruction.</text>
+  </g>
+
+  <text x="1430" y="540" fill="#9f9a8e" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">PROGRAMMATIC HISTORICAL VISUALIZATION</text>
+</svg>
