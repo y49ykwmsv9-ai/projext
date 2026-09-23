@@ -1,45 +1,8 @@
 {
-  "scenario_id": "GMV-62BCE-001",
-  "round": 10,
-  "date": "-0062-10-31",
-  "treasury": 1100,
-  "metrics": {
-    "population": 113,
-    "currency": 1100,
-    "soldiers": 92,
-    "taxation": 0,
-    "economy": 67,
-    "agriculture": 53,
-    "infrastructure": 75,
-    "trade": 53,
-    "readiness": 82,
-    "morale": 64,
-    "supply": 60,
-    "organization": 71,
-    "stability": 57,
-    "legitimacy": 64,
-    "exhaustion": 7,
-    "technology": 22,
-    "intelligence": 56,
-    "relations": 81
-  },
-  "relationships": {
-    "nearby-landowners": 18,
-    "poor-agricultural-workers": 5,
-    "smallholders": 2,
-    "military-connections": 3,
-    "roman-political-elite": 3,
-    "quintus-caecilius-metellus-celer": 0,
-    "marcus-claudius-marcellus": 8
-  },
-  "previous_action": "Gaius Maximus Valerius emphasizes that he seeks neither to grow beyond his proper station nor to usurp authority. He publicly conducts his affairs according to Roman law and the virtues expected of a respectable Roman landholder and commander. He declares the road and lake port officially open for commerce and hosts an opening festival intended to draw merchants, laborers, neighboring people and others whose ears may have reached the estate's name.",
-  "continuity": {
-    "historical_actors": [
-      "Marcus Tullius Cicero",
-      "Gaius Julius Caesar",
-      "Marcus Claudius Marcellus",
-      "Quintus Caecilius Metellus Celer"
-    ],
-    "campaign_development": "Valerius has formally opened the road from his main estate to the lake trade port and forward base for commerce. An opening festival brought merchants and local people to the station, increasing the port's visibility. Valerius has publicly emphasized adherence to Roman law, civic virtue and the limits of private authority, explicitly rejecting any claim to usurp public power. The road watchtowers and separate port defenses remain in place while the commercial face of the estate becomes more prominent."
-  }
+  "scenario_id":"GMV-62BCE-001","round":11,"date":"-0062-11-30","treasury":980,
+  "wealth_accounts":{"public":1280,"private":20,"private_transfer_rate":0.10,"last_round_net_public_profit":200,"last_round_private_transfer":20},
+  "metrics":{"population":113,"currency":980,"soldiers":92,"taxation":0,"economy":73,"agriculture":53,"infrastructure":77,"trade":65,"readiness":83,"morale":64,"supply":62,"organization":77,"stability":60,"legitimacy":66,"exhaustion":7,"technology":24,"intelligence":60,"relations":88},
+  "relationships":{"nearby-landowners":18,"poor-agricultural-workers":5,"smallholders":2,"military-connections":3,"roman-political-elite":3,"quintus-caecilius-metellus-celer":0,"marcus-claudius-marcellus":8},
+  "previous_action":"Gaius Maximus Valerius organizes regular patrols of the road and sends dispatches across the Roman world seeking skilled shipwrights and sailors for a private commercial fleet operating under Roman law. He begins collecting profits from the road and port, stores wealth separately between the main estate and port, and establishes public and private wealth accounts with a fixed 10% transfer of realized net public profit into the private account.",
+  "continuity":{"historical_actors":["Marcus Tullius Cicero","Gaius Julius Caesar","Marcus Claudius Marcellus","Quintus Caecilius Metellus Celer"],"campaign_development":"Valerius's road is now regularly patrolled, the lake port is producing recurring commercial receipts, and commercial reserves are decentralized between the main estate and port. A separate private household reserve has been established. The public commercial account retains 90% of each realized net profit for operations and reinvestment, while 10% moves to the private reserve without automatic compounding. Dispatches are seeking shipwrights and sailors for a modest private commercial fleet; no naval command or public authority has been claimed."}
 }
