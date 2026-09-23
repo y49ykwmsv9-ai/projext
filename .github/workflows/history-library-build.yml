@@ -15,6 +15,7 @@ on:
       - "scripts/validate-historix-1.3.py"
       - "scripts/validate-historix-1.4.py"
       - "scripts/build-historix-1.4-polities.py"
+      - "scripts/enrich-historix-1.4-wikidata.py"
       - ".github/workflows/history-library-build.yml"
 
 jobs:
@@ -46,6 +47,8 @@ jobs:
         run: python scripts/validate-historix-1.3.py
       - name: Materialize complete HISTORIX 1.4 polity universe
         run: python scripts/build-historix-1.4-polities.py
+      - name: Research-enrich HISTORIX 1.4 from source-linked Wikidata
+        run: python scripts/enrich-historix-1.4-wikidata.py
       - name: Validate HISTORIX 1.4 complete polity universe
         run: python scripts/validate-historix-1.4.py
       - name: Persist generated 1.4 polity resources
