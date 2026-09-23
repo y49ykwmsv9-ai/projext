@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "purpose": "Source-backed jurisdiction assertions for HISTORIX. De facto administration and de jure legal/sovereignty status are stored separately.",
+  "rules": [
+    "Never infer de jure sovereignty from Natural Earth administrative geometry alone.",
+    "A place may have multiple simultaneous de facto and de jure assertions.",
+    "Assertions must carry provenance and temporal validity when a source provides it.",
+    "Unresolved records remain explicitly unresolved rather than receiving a guessed parent.",
+    "Contested claims must be represented as separate sourced assertions rather than collapsed into one winner."
+  ],
+  "assertions": []
+}
