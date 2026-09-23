@@ -1,0 +1,22 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "character": {
+    "name": "Gaius Maximus Valerius",
+    "role": "young centurion",
+    "traits": [
+      "ambitious",
+      "virtuous",
+      "civic"
+    ]
+  },
+  "start": {
+    "year": -62,
+    "display": "62 BCE"
+  },
+  "latest_round": 1,
+  "latest_date": "-0062-01-29",
+  "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
+  "metric_schema": "fixed-v1",
+  "news_style": "period-authentic-local-newspaper",
+  "isolation": "Independent state, rounds, events, relationships, and news."
+}
