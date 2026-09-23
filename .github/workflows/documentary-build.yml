@@ -59,3 +59,5 @@ jobs:
             projects/documentary/build/documentary-shotlist.csv
             projects/documentary/build/render-plan.json
           retention-days: 14
+
+# Renderer pipeline: preflight is mandatory before the production render.
