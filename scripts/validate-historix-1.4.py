@@ -15,13 +15,16 @@ cliopatria_files=sorted(polity_path.parent.glob('cliopatria-*.json'))
 assert payload['schema_version']=='1.4.0'
 assert schema['schema_version']=='1.4.0'
 assert manifest['version']=='1.4.0'
-expected=sorted({r['to_id'] for r in graph.get('relations',[]) if r.get('to_type')=='polity' and r.get('to_id')})
 actual=sorted(r['id'] for r in payload['records'])
-assert actual==expected, f'polity coverage mismatch: expected {len(expected)}, got {len(actual)}'
+source_ids=sorted(p.stem for p in cliopatria_files)
+graph_ids=sorted({r['to_id'] for r in graph.get('relations',[]) if r.get('to_type')=='polity' and r.get('to_id')})
+assert actual==source_ids, f'polity coverage mismatch: expected complete Cliopatria baseline {len(source_ids)}, got {len(actual)}'
+assert set(graph_ids).issubset(set(actual)), 'curated graph contains a polity absent from the complete baseline'
 assert len(actual)==len(set(actual))
 required={'id','identity','chronology','geography','status','source_links','evidence','uncertainty','editorial'}
 for r in payload['records']:
     assert required <= r.keys(), f'missing required fields in {r.get("id")}'
+    assert r.get('temporal_records'), f'missing temporal source records in {r.get("id")}'
     assert r['status']['cliopatria_link'] in {'pending-exact-resolution','resolved'}
     assert r['editorial']['status'] in {'linked-structured','research-enriched','reviewed'}
 assert payload['record_count']==len(actual)==manifest['record_count']==1583
