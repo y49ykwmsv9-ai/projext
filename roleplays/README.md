@@ -81,3 +81,7 @@ The browser runtime namespaces local saves by scenario_id. Repository commits us
 ## Current player scenario
 
 GMV-62BCE-001 is the first committed scenario in this store.
+
+
+## Automatic Round Commitment
+Every completed roleplay round is committed to GitHub immediately after resolution. The committed round file, news file, updated state, and continuity information are the authoritative campaign record for all subsequent rounds. Future rounds must inherit prior committed relationships, historical actors, events, knowledge, locations, institutions, and consequences rather than regenerating the campaign from scratch.
