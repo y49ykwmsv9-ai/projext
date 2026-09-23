@@ -87,8 +87,8 @@ export type HistorixPolity = {
 
 let polityPromise: Promise<HistorixPolity[]>|undefined;
 export function loadHistorixPolities(): Promise<HistorixPolity[]> {
-  polityPromise ??= fetch(\"/data/history-library/polities/historix-linked.json\").then(async r => {
-    if(!r.ok) throw new Error(\"HISTORIX 1.4 polity layer unavailable (\"+r.status+\")\");
+  polityPromise ??= fetch("/data/history-library/polities/historix-linked.json").then(async r => {
+    if(!r.ok) throw new Error("HISTORIX 1.4 polity layer unavailable ("+r.status+")");
     const payload=await r.json() as { records: HistorixPolity[] };
     return payload.records;
   });
