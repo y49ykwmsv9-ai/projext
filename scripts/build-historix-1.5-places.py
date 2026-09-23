@@ -12,7 +12,7 @@ Seeds:
 The output is bundled into HISTORIX. Runtime applications do not need Wikidata.
 """
 from __future__ import annotations
-import json, time, urllib.parse, urllib.request
+import json, time, urllib.error, urllib.parse, urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -35,13 +35,19 @@ def api(ids):
         "User-Agent":"HISTORIX/1.5 (canonical historical database build)",
         "Accept-Encoding":"gzip,deflate"
     })
-    for attempt in range(4):
+    for attempt in range(8):
         try:
             with urllib.request.urlopen(req,timeout=45) as r:
                 return json.loads(r.read().decode())
+        except urllib.error.HTTPError as exc:
+            if exc.code not in {429,500,502,503,504} or attempt==7:
+                raise
+            retry_after=exc.headers.get("Retry-After")
+            delay=int(retry_after) if retry_after and retry_after.isdigit() else min(30,2**attempt)
+            time.sleep(delay)
         except Exception:
-            if attempt==3: raise
-            time.sleep(2**attempt)
+            if attempt==7: raise
+            time.sleep(min(30,2**attempt))
     return {}
 
 def qclaims(e,p):
