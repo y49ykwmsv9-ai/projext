@@ -1,20 +1,24 @@
 {
-  "scenario_id": "1444-asturias",
-  "baseline": "Historix / CLIOPATRA / CLIOPATRIA historical baseline plus scenario setup",
-  "round_directory": "data/rounds/1444-asturias/",
-  "rounds": [
-    {
-      "round": 1,
-      "date": "1444-01-01",
-      "file": "round-0001.json",
-      "status": "immutable",
-      "current_state_source": true
-    }
+  "scenario_id":"1444-asturias",
+  "format_version":"1.1",
+  "baseline":"Historix / CLIOPATRA / CLIOPATRIA historical baseline plus scenario setup",
+  "round_directory":"data/rounds/1444-asturias/",
+  "authoritative_reconstruction":"scenario baseline plus immutable round mutations in numeric order",
+  "rounds":[
+    {"round":1,"date":"1444-01-01","file":"round-0001.json","status":"immutable"},
+    {"round":2,"date":"1444-01-08","file":"round-0002.json","status":"immutable"}
   ],
-  "reconstruction": {
-    "method": "replay ordered round files and apply state mutations exactly once",
-    "military_conservation_required": true,
-    "battle_casualty_validation_required": true,
-    "client_values_are_non_authoritative": true
+  "latest_round":2,
+  "latest_date":"1444-01-08",
+  "reconstruction":{
+    "method":"replay ordered round files and apply state mutations exactly once",
+    "military_conservation_required":true,
+    "battle_casualty_validation_required":true,
+    "client_values_are_non_authoritative":true
+  },
+  "validation":{
+    "round_chain_contiguous":true,
+    "military_conservation":true,
+    "all_military_mentions_have_exact_counts":true
   }
 }
