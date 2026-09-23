@@ -147,9 +147,7 @@ for (const c of manifest.chapters) {
       const [x2, y2] = overlayInfo.spec.route[overlayInfo.spec.route.length - 1];
       const [bx, by] = overlayInfo.spec.battle;
       const mapFilter = [
-        '[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2',
-        motion,
-        'eq=contrast=1.05:saturation=0.82:brightness=-0.02[base]',
+        `[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,${motion},eq=contrast=1.05:saturation=0.82:brightness=-0.02[base]`,
         '[2:v]scale=1280:720,format=rgba,colorchannelmixer=aa=0.98[ui]',
         '[base][ui]overlay=0:0[mapui]',
         `[mapui]drawbox=x='${x1}+(${x2-x1})*mod(t/${sec},1)':y='${y1}+(${y2-y1})*mod(t/${sec},1)':w=18:h=18:color=0xc98a3d@0.96:t=fill[moving]`,
