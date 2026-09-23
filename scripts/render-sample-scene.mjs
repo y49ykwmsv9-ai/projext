@@ -30,7 +30,7 @@ await page.goto('file://' + scene, { waitUntil: 'load' });
 await page.waitForTimeout(1000);
 await page.screenshot({ path: path.join(outDir, 'sample-scene-711-first-frame.png'), fullPage: false });
 
-const durationMs = 19000;
+const durationMs = Number(process.env.DURATION_MS || 22000);
 await page.waitForTimeout(durationMs);
 
 const videoPath = await page.video().path();
