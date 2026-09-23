@@ -20,6 +20,7 @@ The repository is a multi-project workspace. The root application and every game
 |---|---|---|
 | `worldforge` | repository root | Primary grand-strategy engine/application |
 | `chronicle-ai` | `projects/chronicle-ai/` | Standalone natural-language strategy prototype |
+| `chronicle-memory` | `projects/chronicle-memory/` | Alternate-history roleplay engine with persistent scenario memory |
 | `historix-renderer` | `projects/historix-renderer/` | External documentary scene/video renderer using GitHub Actions |
 
 ## Project isolation
