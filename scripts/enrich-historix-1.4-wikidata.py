@@ -42,6 +42,25 @@ def main():
         enriched.update(data.get("entities",{}))
         time.sleep(0.15)
 
+    # Resolve English Wikipedia summaries from the sitelinks returned by Wikidata.
+    titles=sorted({e.get("sitelinks",{}).get("enwiki",{}).get("title") for e in enriched.values() if e.get("sitelinks",{}).get("enwiki",{}).get("title")})
+    wiki={}
+    for i in range(0,len(titles),50):
+        batch=titles[i:i+50]
+        url="https://en.wikipedia.org/w/api.php?"+urllib.parse.urlencode({
+            "action":"query","format":"json","prop":"extracts|info","exintro":1,
+            "explaintext":1,"inprop":"url","redirects":1,"titles":"|".join(batch)
+        })
+        data=get_json(url)
+        for page in data.get("query",{}).get("pages",{}).values():
+            title=page.get("title")
+            if title:
+                wiki[title]={
+                    "summary":page.get("extract"),
+                    "url":page.get("fullurl")
+                }
+        time.sleep(0.15)
+
     today=str(date.today())
     for r in records:
         qids_for_record=sorted({tr.get("wikidata_id") for tr in r.get("temporal_records",[]) if isinstance(tr.get("wikidata_id"),str) and tr.get("wikidata_id","").startswith("Q")})
@@ -59,6 +78,7 @@ def main():
         aliases=e.get("aliases",{}).get("en",[])
         desc=e.get("descriptions",{}).get("en",{}).get("value")
         sitelink=e.get("sitelinks",{}).get("enwiki",{}).get("title")
+        wiki_page=wiki.get(sitelink,{})
         r["identity"]["alternate_names"]=sorted({a["value"] for a in aliases if a.get("value")} | {labels.get("en",{}).get("value","")}) if labels.get("en") else sorted({a["value"] for a in aliases if a.get("value")})
         r["research"]={
             "status":"research-enriched",
@@ -68,6 +88,8 @@ def main():
             "wikidata_label":labels.get("en",{}).get("value"),
             "wikidata_description":desc,
             "wikipedia_en_title":sitelink,
+            "wikipedia_en_url":wiki_page.get("url"),
+            "wikipedia_en_summary":wiki_page.get("summary"),
             "identity_method":"Cliopatria-supplied WikidataID; no name-based matching",
             "notes":"Wikidata fields are source-derived and should be reviewed when conflicting historical identities or naming conventions occur."
         }
@@ -82,6 +104,7 @@ def main():
         "method":"Cliopatria-provided Wikidata IDs only",
         "retrieved_at":today,
         "resolved_entities":sum(1 for r in records if r.get("research",{}).get("status")=="research-enriched"),
+        "wikipedia_summaries":sum(1 for r in records if r.get("research",{}).get("wikipedia_en_summary")),
         "unresolved_entities":sum(1 for r in records if r.get("research",{}).get("status")!="research-enriched")
     }
     AGG.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
