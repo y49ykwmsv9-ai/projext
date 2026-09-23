@@ -11,7 +11,7 @@ const mapStyle = JSON.parse(fs.readFileSync(path.join(root, 'projects', 'documen
 const atlas = loadReconquistaAtlas();
 const assets = path.join(build, 'assets');
 const chaptersDir = path.join(build, 'chapters');
-const sceneAssetMap = new Map(sceneAssets.assets.map(a => [a.sceneNumber, a.imageUrl]));
+const sceneAssetMap = new Map(sceneAssets.assets.map(a => [a.sceneNumber, a.imagePath]));
 fs.mkdirSync(assets, { recursive: true });
 fs.mkdirSync(chaptersDir, { recursive: true });
 
@@ -120,11 +120,14 @@ for (const c of manifest.chapters) {
     const atlasNames = atlasEntities.map(e => e.name).join(', ');
     const sceneDir = path.join(chaptersDir, c.id);
     fs.mkdirSync(sceneDir, { recursive: true });
-    const imageUrl = sceneAssetMap.get(sceneNumber);
-    if (!imageUrl) throw new Error(`Missing generated scene asset for scene ${sceneNumber}`);
+    const imageRef = sceneAssetMap.get(sceneNumber);
+    if (!imageRef) throw new Error(`Missing generated local scene asset for scene ${sceneNumber}`);
+    if (String(imageRef).includes('runway') || String(imageRef).includes('cloudfront.net/gemini')) throw new Error('Transient image-model asset detected; documentary must render from local assets.');
     const isMapScene = /map|frontier|route|road|new frontier|political|chronology|horizon|conquest|campaign|advance|falls|granada/i.test(`${title} ${visual}`);
-    const imagePath = path.join(sceneDir, `${i + 1}.jpg`);
-    if (!fs.existsSync(imagePath)) run('curl', ['-L', '--fail', '--retry', '3', '-o', imagePath, imageUrl]);
+    const sourceImagePath = path.isAbsolute(imageRef) ? imageRef : path.join(root, imageRef);
+    if (!fs.existsSync(sourceImagePath)) throw new Error(`Missing local scene plate: ${sourceImagePath}`);
+    const imagePath = path.join(sceneDir, `${i + 1}.png`);
+    if (!fs.existsSync(imagePath)) fs.copyFileSync(sourceImagePath, imagePath);
 
     const txt = path.join(sceneDir, `${i + 1}.txt`);
     const wav = path.join(sceneDir, `${i + 1}.wav`);
