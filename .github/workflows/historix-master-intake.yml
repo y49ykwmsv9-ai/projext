@@ -2,6 +2,7 @@ name: HISTORIX master-store intake
 # Expansion 1 canonical geography verification pipeline
 # script syntax repaired
 # final report syntax check
+# valid JSON report write
 on:
   workflow_dispatch:
   push:
