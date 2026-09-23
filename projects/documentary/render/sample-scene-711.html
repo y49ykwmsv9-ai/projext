@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>711 CE · Crossing into Iberia · HISTORIX/CLIOPATRIA sample scene</title>
+<style>
+html,body{margin:0;height:100%;background:#10100d;color:#eee9dc;font-family:Georgia,serif}
+body{display:grid;place-items:center}
+.scene{width:min(100vw,1400px);aspect-ratio:16/9;position:relative;overflow:hidden;background:#d9c79f;box-shadow:0 20px 70px #000}
+svg{width:100%;height:100%;display:block}
+.hud{position:absolute;inset:0;pointer-events:none}
+.kicker{position:absolute;left:4.2%;top:5%;font:700 12px/1 system-ui;letter-spacing:.22em;color:#ead8a5}
+h1{position:absolute;left:4%;top:7%;margin:0;font-size:clamp(28px,4vw,60px);font-weight:500;text-shadow:0 3px 12px #0008}
+.caption{position:absolute;left:4%;bottom:9%;max-width:52%;padding:18px 22px;background:#111cdd0; background:linear-gradient(90deg,#111cdd0,#111cdd0)}
+.caption p{margin:0;font-size:clamp(14px,1.35vw,21px);line-height:1.45;text-shadow:0 2px 7px #000}
+.badge{position:absolute;right:4%;top:5%;font:700 10px system-ui;letter-spacing:.12em;padding:8px 10px;border:1px solid #e8d7aa88;background:#16130dcc}
+.source{position:absolute;right:4%;bottom:5%;font:10px system-ui;color:#eee8d2cc;text-align:right}
+.controls{position:absolute;left:50%;bottom:3%;transform:translateX(-50%);display:flex;gap:8px;pointer-events:auto}
+button{background:#17140fdd;color:#eee9dc;border:1px solid #d9c79f66;border-radius:5px;padding:7px 11px;cursor:pointer}
+button:hover{background:#2a2419}
+.route{stroke-dasharray:18 12;animation:dash 2.5s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-60}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35;transform:scale(1.25)}}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="scene">
+<svg viewBox="0 0 1600 900" role="img" aria-label="Cinematic historical atlas of the 711 CE crossing from North Africa into Iberia">
+<defs>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#355b63"/><stop offset="1" stop-color="#17353d"/></linearGradient>
+ <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#cdbb8c"/><stop offset="1" stop-color="#a99368"/></linearGradient>
+ <filter id="paper"><feTurbulence baseFrequency=".018" numOctaves="2" seed="8" result="n"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#sea)"/>
+<path d="M0 0H1600V250 C1320 220 1190 275 1000 245 C780 210 600 250 430 210 C250 170 120 230 0 205Z" fill="#223f45" opacity=".45"/>
+<!-- Iberia silhouette, simplified documentary geometry -->
+<path d="M245 112 L510 72 L785 118 L1040 88 L1290 185 L1415 325 L1350 505 L1190 610 L1060 735 L820 790 L650 735 L525 650 L420 565 L330 430 L270 285Z" fill="url(#land)" stroke="#ead9ad" stroke-width="4" filter="url(#paper)"/>
+<!-- North Africa -->
+<path d="M0 720 L210 660 L410 635 L600 690 L800 675 L1020 720 L1280 700 L1600 735V900H0Z" fill="#8f7855" opacity=".9"/>
+<!-- Strait -->
+<path d="M0 570 C230 515 350 535 505 570 C630 600 730 605 820 570 L820 650 C690 680 565 650 430 625 C270 595 130 620 0 655Z" fill="url(#sea)"/>
+<!-- terrain relief -->
+<g fill="none" stroke="#756546" opacity=".45">
+<path d="M300 190 C480 145 610 170 750 145 S1030 145 1220 245"/>
+<path d="M285 235 C470 195 610 215 760 190 S1030 190 1255 275"/>
+<path d="M330 290 C510 245 640 270 780 235 S1060 240 1310 315"/>
+<path d="M370 345 C520 310 650 335 790 300 S1040 300 1320 365"/>
+<path d="M420 405 C570 370 680 395 805 355 S1050 355 1300 415"/>
+<path d="M480 470 C620 435 720 455 830 415 S1050 420 1230 465"/>
+<path d="M540 530 C660 500 750 515 860 480 S1030 480 1160 520"/>
+<path d="M620 590 C720 560 805 575 900 545 S1040 550 1090 575"/>
+</g>
+<!-- mountain chains -->
+<g fill="#6f624b" opacity=".55">
+<path d="M330 190 l90-100 70 100z"/><path d="M420 190 l95-120 75 120z"/><path d="M1040 230 l90-120 90 120z"/><path d="M1120 310 l120-145 105 145z"/>
+</g>
+<!-- political zones, intentionally restrained and tied to temporal layer -->
+<path d="M255 115 L510 72 L785 118 L760 240 L560 280 L400 250Z" fill="#75634b" opacity=".13"/>
+<path d="M760 240 L1040 88 L1290 185 L1350 505 L1190 610 L1010 560 L850 480Z" fill="#5e715c" opacity=".12"/>
+<!-- campaign route, reconstructed -->
+<path id="route" class="route" d="M425 705 C500 640 575 600 650 585 C720 570 735 535 760 485 C785 435 805 390 830 335 C850 300 865 260 875 220" fill="none" stroke="#e7d08b" stroke-width="9" stroke-linecap="round"/>
+<path d="M425 705 C500 640 575 600 650 585 C720 570 735 535 760 485 C785 435 805 390 830 335 C850 300 865 260 875 220" fill="none" stroke="#241f15" stroke-width="2" opacity=".8"/>
+<!-- landing marker -->
+<circle cx="425" cy="705" r="20" fill="#e7d08b" opacity=".22" class="pulse"/>
+<circle cx="425" cy="705" r="8" fill="#f1d991"/>
+<!-- Guadalete marker: approximate/contested -->
+<circle cx="785" cy="440" r="19" fill="none" stroke="#e8d7aa" stroke-width="3" stroke-dasharray="5 5"/>
+<circle cx="785" cy="440" r="7" fill="#d9a56c"/>
+<!-- Córdoba -->
+<circle cx="875" cy="300" r="8" fill="#eee1b8"/>
+<text x="895" y="294" fill="#f1e5c3" font-size="24" font-family="Georgia">Córdoba</text>
+<!-- Toledo -->
+<circle cx="1060" cy="190" r="8" fill="#eee1b8"/>
+<text x="1080" y="185" fill="#f1e5c3" font-size="24" font-family="Georgia">Toledo</text>
+<!-- Gibraltar -->
+<circle cx="450" cy="565" r="7" fill="#eee1b8"/>
+<text x="470" y="560" fill="#f1e5c3" font-size="22" font-family="Georgia">Gibraltar</text>
+<!-- labels -->
+<text x="150" y="825" fill="#e9ddbd" font-size="21" font-family="system-ui" letter-spacing="4">NORTH AFRICA</text>
+<text x="980" y="770" fill="#5c503c" font-size="30" font-family="Georgia" opacity=".7">IBERIAN PENINSULA</text>
+<text x="690" y="470" fill="#f0e2bf" font-size="17" font-family="system-ui" letter-spacing="2">GUADALETE · APPROXIMATE SITE</text>
+<!-- date rail -->
+<g transform="translate(1080 835)">
+<line x1="0" y1="0" x2="420" y2="0" stroke="#ead9ad" stroke-width="2" opacity=".7"/>
+<circle cx="0" cy="0" r="5" fill="#ead9ad"/><circle cx="210" cy="0" r="5" fill="#ead9ad"/><circle cx="420" cy="0" r="7" fill="#ead9ad"/>
+<text x="0" y="28" fill="#eee2c3" font-size="16">710</text><text x="194" y="28" fill="#eee2c3" font-size="16">711</text><text x="398" y="28" fill="#eee2c3" font-size="16">712</text>
+</g>
+</svg>
+<div class="hud">
+<div class="kicker">CHRONICLE HISTORICAL ATLAS · SCENE 01</div>
+<h1>711 CE · Crossing into Iberia</h1>
+<div class="badge">HISTORIX RECONCILIATION · CLIOPATRIA GEOGRAPHY</div>
+<div class="caption"><p id="caption">Tariq ibn Ziyad's forces crossed from North Africa into the Iberian Peninsula in 711. The campaign path shown here is a documentary reconstruction anchored to the project atlas. Political geography is resolved against the Cliopatria temporal layer; uncertain locations are deliberately marked rather than presented as precise fact.</p></div>
+<div class="source">PRIMARY GEOGRAPHY: CLIOPATRIA · RECONCILIATION: HISTORIX<br>SECONDARY: BRITANNICA · WIKIDATA · NEW CAMBRIDGE MEDIEVAL HISTORY<br>ROUTE STATUS: RECONSTRUCTED · BATTLEFIELD: APPROXIMATE/DEBATED</div>
+<div class="controls"><button id="toggle">Pause route</button><button id="reset">Reset scene</button></div>
+</div>
+</div>
+<script>
+const route=document.getElementById('route'),toggle=document.getElementById('toggle');
+toggle.onclick=()=>{route.style.animationPlayState=route.style.animationPlayState==='paused'?'running':'paused';toggle.textContent=route.style.animationPlayState==='paused'?'Resume route':'Pause route'};
+document.getElementById('reset').onclick=()=>{route.style.animationPlayState='running';toggle.textContent='Pause route';window.scrollTo(0,0)};
+</script>
+</body>
+</html>
