@@ -11,6 +11,7 @@ manifest_path=ROOT/'data/history-library/HISTORIX-1.4-manifest.json'
 def load(p): return json.loads(p.read_text(encoding='utf-8'))
 
 payload=load(polity_path); schema=load(schema_path); graph=load(graph_path); manifest=load(manifest_path)
+cliopatria_files=sorted(polity_path.parent.glob('cliopatria-*.json'))
 assert payload['schema_version']=='1.4.0'
 assert schema['schema_version']=='1.4.0'
 assert manifest['version']=='1.4.0'
@@ -23,5 +24,6 @@ for r in payload['records']:
     assert required <= r.keys(), f'missing required fields in {r.get("id")}'
     assert r['status']['cliopatria_link'] in {'pending-exact-resolution','resolved'}
     assert r['editorial']['status'] in {'linked-structured','research-enriched','reviewed'}
-assert payload['record_count']==len(actual)==manifest['record_count']==59
+assert payload['record_count']==len(actual)==manifest['record_count']==1583
+assert len(cliopatria_files)==1583
 print(f'HISTORIX 1.4 validation passed: {len(actual)} referenced polities')
