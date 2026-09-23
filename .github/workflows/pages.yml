@@ -40,7 +40,9 @@ jobs:
           cp projects/ironfront-tactics/README.md site/README.md
           cp -R projects/ironfront-tactics/assets site/assets
           cp -R projects/ironfront-tactics/data site/data
-          cp projects/documentary/render/sample-scene-711.html site/documentary/index.html
+          cp projects/documentary/render/scenes/scene-711-v2.html site/documentary/index.html
+          cp projects/documentary/render/scenes/scene-711-v2.html site/documentary/scene-711-v2.html
+          cp projects/documentary/render/scenes/scene-711-v2.json site/documentary/scene-711-v2.json
           cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
           cp projects/documentary/render/SCENE-BASELINE-v2.md site/documentary/SCENE-BASELINE-v2.md
           cp projects/documentary/render/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
@@ -59,11 +61,15 @@ jobs:
           test -s site/assets/sprites/unit-atlas.svg
           test -s site/data/units.json
           test -s site/documentary/index.html
+          test -s site/documentary/scene-711-v2.html
+          test -s site/documentary/scene-711-v2.json
           test -s site/documentary/sample-scene-711.svg
           test -s site/documentary/SCENE-BASELINE-v2.md
           test -s site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
           grep -q "HISTORIX" site/documentary/index.html
           grep -q "CLIOPATRIA" site/documentary/index.html
+          grep -q "RECONSTRUCTED" site/documentary/index.html
+          grep -q "CONTESTED" site/documentary/index.html
           grep -q "global visual and production baseline" site/documentary/SCENE-BASELINE-v2.md
           grep -q "outside/production build" site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
           echo "Ironfront root and documentary production-standard artifacts verified."
