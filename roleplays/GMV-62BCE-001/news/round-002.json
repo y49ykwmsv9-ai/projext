@@ -11,8 +11,8 @@
       "event_id": "GMV-62BCE-001-R002-E001",
       "date": "-0062-01-30",
       "type": "recruitment",
-      "title": "Men are sought for service on the estate",
-      "article": "Valerius has begun seeking armed men for service in an expedition intended to deal with bands of robbers reported to be troubling estates in the surrounding country. The recruiting has drawn men from neighboring farms and villages, with payment and provisions said to be among the terms being offered. Several men known locally for experience with horses and weapons have reportedly answered the call. The purpose of the gathering has not been described as a general levy, but as a private force for the protection of Valerius’s lands and nearby roads. Landowners who have recently met with Valerius are said to be watching the undertaking with interest.",
+      "title": "Men Sought for Protection of Estates and Roads",
+      "article": "Gaius Maximus Valerius has begun recruiting armed men for a private expedition against robbers whose depredations have been reported in the countryside around his estates. Notices and word carried through neighboring farms have brought in laborers and other men accustomed to country life, while several recruits are said to have previous experience with horses or weapons. Payment, food, and equipment are understood to be provided from the Valerius household, rather than through a public levy. The gathering has therefore drawn particular attention among neighboring landowners, whose own estates have been affected by reports of theft. Valerius has not announced a date for the force to depart, but preparations at his estate are already plainly visible. Those following the matter locally regard the undertaking chiefly as an effort to secure property and the roads used by the surrounding estates.",
       "visibility": "local",
       "confidence": "high",
       "ledger": {
@@ -21,28 +21,30 @@
         "readiness": 2,
         "organization": 1,
         "relations": 1
-      }
+      },
+      "event_number": 1
     },
     {
       "event_id": "GMV-62BCE-001-R002-E002",
       "date": "-0062-02-03",
       "type": "security",
-      "title": "Reports of robberies bring concern to neighboring farms",
-      "article": "Fresh reports of theft have circulated among farmers living beyond Valerius’s estate, renewing complaints about armed robbers in the countryside. Livestock and stores are among the property said to have been taken, though accounts differ as to the number of men involved. Travelers have been advised by some estate holders to move in company rather than alone. No public authority has yet announced a broad operation in response to the reports. The disturbances have nevertheless given greater urgency to the private preparations now under way around Valerius’s lands.",
+      "title": "Country Estates Report Renewed Robberies",
+      "article": "Reports of robbery have increased among estates and farms beyond the immediate lands of Valerius, bringing renewed concern over the safety of livestock, stores, and travelers. Several households report the loss of animals or provisions, although the accounts differ concerning the number of men responsible and the places from which they came. Farmers traveling between settlements have increasingly chosen to move in company, particularly on less frequented roads. No general public force has been announced for the district, and the burden of protecting many isolated holdings remains with their owners. The reports have consequently strengthened interest in the private preparations being made at Valerius’s estate. Landowners in the vicinity are now exchanging warnings more frequently as they attempt to determine whether the disturbances are the work of one band or several.",
       "visibility": "local",
       "confidence": "medium",
       "ledger": {
         "stability": -1,
         "intelligence": 1,
         "relations": 1
-      }
+      },
+      "event_number": 2
     },
     {
       "event_id": "GMV-62BCE-001-R002-E003",
       "date": "-0062-02-08",
       "type": "logistics",
-      "title": "Horses, arms and provisions gathered",
-      "article": "Suppliers attached to the Valerius household have been busy obtaining provisions and equipment for the men being assembled. Horses have been inspected, weapons repaired, and stores of grain and other provisions set aside for the expected movement. The preparations have attracted attention because of their scale, though there has been no announcement of the exact route or date of departure. Some neighboring landowners have reportedly offered assistance with animals and supplies. For the workers of the estate, the preparations have brought an unusual amount of activity to the household yards and surrounding roads.",
+      "title": "Valerius Household Amasses Arms, Horses and Grain",
+      "article": "The Valerius household has spent the past several days assembling the supplies required for the armed company now gathering on the estate. Horses have been examined and prepared, weapons repaired or made serviceable, and grain and other provisions placed in stores for use on the road. The purchases have brought additional activity to the estate yards and have been noticed by farmers and traders passing through the surrounding country. Several neighboring landowners are said to have assisted with animals or supplies, reflecting the common concern over the reported robberies. The scale of the preparations has made it increasingly clear that the company is intended for more than a brief journey by a handful of retainers. No route or departure date has been publicly given, however, and the immediate destination remains the subject of local speculation.",
       "visibility": "local",
       "confidence": "high",
       "ledger": {
@@ -51,28 +53,30 @@
         "readiness": 2,
         "organization": 1,
         "agriculture": -1
-      }
+      },
+      "event_number": 3
     },
     {
       "event_id": "GMV-62BCE-001-R002-E004",
       "date": "-0062-02-13",
       "type": "relations",
-      "title": "Neighboring landowners discuss common security",
-      "article": "Several landowners who have maintained recent contact with Valerius have discussed the insecurity of the roads and fields beyond their estates. The conversations have centered on patrols, warnings between households, and the possibility of sharing information when suspicious bands are seen. No common command has been announced, and each estate remains responsible for its own men. The discussions have nevertheless brought Valerius into closer contact with landowners whose interests have been affected by the same disturbances. Those familiar with the meetings say the immediate concern is protection of property and movement rather than any wider political undertaking.",
+      "title": "Landowners Confer on the Security of Country Roads",
+      "article": "Several landowners who have recently maintained relations with Valerius met to discuss the insecurity reported along roads and among the outlying fields. Those present are said to have considered the use of patrols, the exchange of warnings, and the rapid passing of information when suspicious men or stolen livestock are observed. No common command or permanent association has been announced, and the estates concerned remain separately managed. The discussions nevertheless mark a closer cooperation among households whose property and trade depend upon the same roads. Valerius’s preparations have given these conversations a practical focus, particularly as neighboring owners consider how they might protect their own holdings. Participants have reportedly emphasized the defense of property and safe movement rather than any wider political purpose.",
       "visibility": "local",
       "confidence": "medium",
       "ledger": {
         "relations": 2,
         "intelligence": 1,
         "legitimacy": 1
-      }
+      },
+      "event_number": 4
     },
     {
       "event_id": "GMV-62BCE-001-R002-E005",
       "date": "-0062-02-19",
       "type": "recruitment",
-      "title": "Additional men join the planned expedition",
-      "article": "The number of men attached to Valerius’s proposed expedition has increased as additional recruits arrive from nearby settlements. The newcomers include farm laborers accustomed to the country as well as men with previous experience in armed service. Payment has been arranged from Valerius’s own resources, and the recruits are being gathered into a more orderly body before any movement is attempted. The sight of the growing company has prompted both approval and caution among residents, particularly those whose property lies near roads where robberies have been reported. There is still no report that the force has set out.",
+      "title": "More Recruits Arrive as Private Force Takes Shape",
+      "article": "Further recruits have joined the company being assembled by Valerius, increasing the number of armed men now attached to the proposed expedition. Among those arriving are farm laborers familiar with the local country and men said to have served previously in armed companies. The recruits are being kept together at the estate while arrangements are made for their pay, provisions, and equipment. Their growing number has become a visible matter in nearby settlements, where residents differ between those who welcome a stronger guard for the roads and those who are uneasy at the appearance of a sizable private company. Landowners whose property lies near the affected roads are watching the preparations closely. Valerius has still given no public notice that the force has begun its march, and the company remains assembled on his lands.",
       "visibility": "local",
       "confidence": "high",
       "ledger": {
@@ -81,33 +85,36 @@
         "readiness": 1,
         "organization": 2,
         "morale": 1
-      }
+      },
+      "event_number": 5
     },
     {
       "event_id": "GMV-62BCE-001-R002-E006",
       "date": "-0062-02-23",
       "type": "intelligence",
-      "title": "Information on the robbers is collected",
-      "article": "Men working for Valerius have begun collecting reports from travelers, herdsmen and estate workers concerning the movements of the robbers. Particular attention has been paid to roads, isolated stretches of countryside and places where livestock can be driven away without attracting immediate notice. The reports remain uneven, and no single account has established the size or leadership of the bands involved. Even so, the gathering of information has given the preparations a more deliberate character. Valerius is now said to be waiting for a clearer picture of the countryside before committing his men to the road.",
+      "title": "Travelers and Herdsmen Questioned About Robber Bands",
+      "article": "Information concerning the reported robberies is being gathered from travelers, herdsmen, and workers who regularly pass through the countryside around Valerius’s estates. Particular attention has been given to isolated roads, grazing grounds, and places where stolen livestock might be moved without immediate notice. The accounts collected so far are not consistent, and no reliable report has established either the strength or leadership of the men responsible. Some witnesses describe small parties operating separately, while others speak of a larger company moving between districts. The uncertainty has prevented local observers from identifying a single headquarters or fixed route for the robbers. Valerius’s men are nevertheless continuing their inquiries, and the information is being considered alongside the preparations already made for the proposed expedition.",
       "visibility": "local",
       "confidence": "medium",
       "ledger": {
         "intelligence": 2,
         "readiness": 1,
         "organization": 1
-      }
+      },
+      "event_number": 6
     },
     {
       "event_id": "GMV-62BCE-001-R002-E007",
       "date": "-0062-02-28",
       "type": "roundup",
-      "title": "Local country watches Valerius prepare for an expedition",
-      "article": "Across the past month, Valerius has turned the support recently gathered around his estate toward a more immediate concern: the insecurity reported on nearby roads and farms. Men have been hired, horses and weapons prepared, and provisions assembled while neighboring landowners have exchanged information about the disturbances. The force remains on Valerius’s lands at the close of the month, and no expedition has yet been publicly reported as underway. Among local residents, the preparations have become a subject of frequent discussion, with some welcoming the prospect of safer roads and others watching carefully as a private armed company grows. For now, the country waits to see whether the men gathered at the estate will soon take to the roads.",
+      "title": "Local News: Private Force Remains Ready as Country Awaits Its March",
+      "article": "The month closes with unusual activity around the estate of Gaius Maximus Valerius, where an armed company has been gathered in response to reports of robbery on neighboring roads and farms. Recruits have arrived, horses and weapons have been prepared, and provisions have been collected for a journey whose date and destination have not been publicly announced. At the same time, neighboring landowners have exchanged warnings and discussed measures for guarding their own property against further theft. The disturbances remain imperfectly understood, with conflicting reports concerning the number and organization of the robbers responsible. For residents of the surrounding country, the principal question is now whether the company assembled at Valerius’s estate will soon take to the roads. The preparations have already become a prominent subject of local conversation, as some households look for relief from the insecurity while others watch carefully as a private armed force grows in their midst.",
       "visibility": "local",
       "confidence": "high",
       "ledger": {
         "currency": 0
-      }
+      },
+      "event_number": 7
     }
   ]
 }
