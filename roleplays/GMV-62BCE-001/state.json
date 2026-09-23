@@ -1,38 +1,38 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 9,
-  "date": "-0062-09-30",
-  "treasury": 1500,
+  "round": 7,
+  "date": "-0062-07-31",
+  "treasury": 3750,
   "metrics": {
-    "population": 108,
-    "currency": 1500,
+    "population": 100,
+    "currency": 3750,
     "soldiers": 92,
     "taxation": 0,
-    "economy": 59,
+    "economy": 57,
     "agriculture": 53,
-    "infrastructure": 76,
-    "trade": 47,
-    "readiness": 82,
-    "morale": 62,
-    "supply": 60,
-    "organization": 70,
-    "stability": 55,
-    "legitimacy": 60,
+    "infrastructure": 58,
+    "trade": 34,
+    "readiness": 75,
+    "morale": 61,
+    "supply": 54,
+    "organization": 65,
+    "stability": 52,
+    "legitimacy": 55,
     "exhaustion": 7,
-    "technology": 22,
-    "intelligence": 54,
-    "relations": 76
+    "technology": 21,
+    "intelligence": 50,
+    "relations": 65
   },
   "relationships": {
-    "nearby-landowners": 16,
+    "nearby-landowners": 12,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
     "military-connections": 3,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
-    "marcus-claudius-marcellus": 7
+    "marcus-claudius-marcellus": 4
   },
-  "previous_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road to it, using his armed men to secure the works and demonstrate that the force exists to protect the peace rather than threaten peaceful travelers. He also strengthens the port with watchtowers and a raised citadel upon the cliffs overlooking it, with the sole road through the pass controlled by a fortified gatehouse.",
+  "previous_action": "Following the recovery of the wounded, Gaius Maximus Valerius resumes his expedition and uses the extended pause to train with his troops, strengthening discipline and the bonds between the men and their commander.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -40,6 +40,6 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius has begun replacing the port's rough approach with a formal paved road and has built a layered defensive position around the lake landing: watchtowers, a fortified gatehouse controlling the pass, and a raised private citadel on the cliffs. His armed men are being used to secure the construction and protect peaceful traffic, reinforcing his effort to distinguish estate security from a threat to ordinary travelers. The port is increasingly visible to merchants, neighboring landowners and Roman political connections."
+    "campaign_development": "The expedition has resumed after the spring fighting and the recovery of its wounded. Valerius used the pause to train personally with his men, strengthening discipline and cohesion. Scouts have resumed work in the countryside, and the forward holding remains the expedition's rear base with resident craftsmen and semi-permanent works."
   }
 }
