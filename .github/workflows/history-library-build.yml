@@ -16,6 +16,9 @@ on:
       - "scripts/validate-historix-1.4.py"
       - "scripts/build-historix-1.4-polities.py"
       - "scripts/enrich-historix-1.4-wikidata.py"
+      - "scripts/enrich-historix-1.4-pass4.py"
+      - "scripts/enrich-historix-1.4-pass3.py"
+      - "scripts/enrich-historix-1.4-pass2.py"
       - ".github/workflows/history-library-build.yml"
 
 jobs:
@@ -47,15 +50,21 @@ jobs:
         run: python scripts/validate-historix-1.3.py
       - name: Materialize complete HISTORIX 1.4 polity universe
         run: python scripts/build-historix-1.4-polities.py
-      - name: Research-enrich HISTORIX 1.4 from source-linked Wikidata
+      - name: Enrichment pass 1: source-linked Wikidata and Wikipedia
         run: python scripts/enrich-historix-1.4-wikidata.py
+      - name: Enrichment pass 2: chronology geography succession and rulers
+        run: python scripts/enrich-historix-1.4-pass2.py
+      - name: Enrichment pass 3: crosslink existing events people and places
+        run: python scripts/enrich-historix-1.4-pass3.py
+      - name: Enrichment pass 4: build place-time query index
+        run: python scripts/enrich-historix-1.4-pass4.py
       - name: Validate HISTORIX 1.4 complete polity universe
         run: python scripts/validate-historix-1.4.py
       - name: Persist generated 1.4 polity resources
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history-library/polities data/history-library/HISTORIX-1.4-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
+          git add data/history-library/polities data/history-library/graph/place-time-index.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
           git diff --cached --quiet || git commit -m "HISTORIX 1.4: materialize complete 1583 polity universe"
           git push
       - name: Upload HISTORIX library artifact
