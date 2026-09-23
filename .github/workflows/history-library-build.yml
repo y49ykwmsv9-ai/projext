@@ -54,7 +54,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/history-library/polities data/history-library/HISTORIX-1.4-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
           git diff --cached --quiet || git commit -m "HISTORIX 1.4: materialize complete 1583 polity universe"
-          git push\n      - name: Upload HISTORIX library artifact
+          git push
+      - name: Upload HISTORIX library artifact
         uses: actions/upload-artifact@v4
         with:
           name: historix-1.4-library
