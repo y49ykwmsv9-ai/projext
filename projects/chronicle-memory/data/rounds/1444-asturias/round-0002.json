@@ -1,0 +1,165 @@
+{
+  "round": 2,
+  "date": "1444-01-08",
+  "previous_round": 1,
+  "scenario_id": "1444-asturias",
+  "format_version": "1.1",
+  "events": [
+    {
+      "event_id": "r2-e1",
+      "type": "economic_policy",
+      "headline": "The First Tax Receipts Arrive Under the New Schedule",
+      "article": "The first week of collections under the Crown's modest tax increase produces additional receipts, but officials report that the increase is not translating into an equal gain in usable treasury funds because agricultural subsidies and collection costs are absorbing part of the proceeds. The policy therefore produces a real but limited fiscal improvement rather than a free increase in wealth. Rural officials report that the agricultural subsidy is reaching producers, although its larger effects are expected only after more time has passed. Merchant confidence remains somewhat below its pre-tax level, particularly among traders who face the higher assessment. No immediate food-price shock is recorded, and the agricultural program remains active. The treasury and agricultural policy states are carried forward into the next round as persistent values.",
+      "significance": "regional",
+      "actors": ["asturias"],
+      "locations": ["oviedo", "asturias"],
+      "causes": ["r1-e1"],
+      "effects": ["tax_receipts_realized", "agriculture_program_continues", "merchant_confidence_remains_reduced"],
+      "state_changes": [
+        {"actor_id":"asturias","stat":"treasury","before":1000,"delta":18,"after":1018,"reason":"net first-week tax receipts after policy costs","source":"derived_simulation"},
+        {"actor_id":"asturias","stat":"agriculture_investment_index","before":1.050,"delta":0.005,"after":1.055,"reason":"continued subsidy disbursement","source":"simulation"}
+      ],
+      "information": {"visibility":"public","confidence":"medium"}
+    },
+    {
+      "event_id": "r2-e2",
+      "type": "military",
+      "headline": "Frontier Garrisons Complete Their First Week on Alert",
+      "article": "The 2,400 Asturian troops ordered to the frontier in Round 1 remain in their assigned positions. No fighting occurs during the week, so the army's total strength remains exactly 12,000 troops and no permanent casualties are recorded. The 2,400 troops remain committed to the frontier, leaving 9,600 troops available elsewhere. Supply officers report additional upkeep costs from maintaining the deployment, while commanders report that readiness has improved modestly because the formations have completed a week of organized patrols and preparation. The deployment therefore changes readiness and expenditure without creating phantom soldiers. These exact troop counts carry forward into the next round until a later movement, battle, recruitment, reinforcement, or loss changes them.",
+      "significance": "regional",
+      "actors": ["asturias"],
+      "locations": ["asturias-frontier"],
+      "causes": ["r1-e2"],
+      "effects": ["frontier_readiness_increase", "supply_cost_increase"],
+      "state_changes": [
+        {"actor_id":"asturias","stat":"border_readiness","before":58,"delta":2,"after":60,"reason":"one week of sustained patrol readiness","source":"simulation"},
+        {"actor_id":"asturias","stat":"troops_total","before":12000,"delta":0,"after":12000,"reason":"no recruitment or casualties","source":"military ledger"},
+        {"actor_id":"asturias","stat":"troops_committed_frontier","before":2400,"delta":0,"after":2400,"reason":"deployment unchanged","source":"military ledger"}
+      ],
+      "military": {
+        "formations": [
+          {"formation_id":"asturias-frontier-001","side":"asturias","troops_committed":2400,"troops_remaining":2400,"permanent_losses":0,"temporary_losses":0,"location":"asturias-frontier"}
+        ],
+        "battle": false
+      },
+      "information": {"visibility":"public","confidence":"high"}
+    },
+    {
+      "event_id": "r2-e3",
+      "type": "diplomacy",
+      "headline": "Pamplona Returns the Asturian Trade Proposal With Conditions",
+      "article": "Navarrese officials respond to the Asturian trade initiative with a counterproposal rather than immediately accepting the original terms. Pamplona is willing to discuss reduced barriers for selected merchants, but its negotiators seek reciprocal access and guarantees for Navarrese traders. The response confirms that the diplomatic initiative has produced a real negotiation, while also demonstrating that the Asturian court cannot dictate the outcome. Relations remain improved from the previous round, but no new trade revenue is booked yet because the commercial terms are unresolved. The counterproposal creates a concrete diplomatic choice for the next negotiation stage. Both sides retain their existing interests and can abandon the talks if the expected benefits cease to justify the concessions.",
+      "significance":"regional",
+      "actors":["asturias","navarre"],
+      "locations":["pamplona","oviedo"],
+      "causes":["r1-e3"],
+      "effects":["trade_counterproposal","negotiation_continues"],
+      "state_changes": [
+        {"actor_id":"asturias","stat":"relations_navarre","before":8,"delta":1,"after":9,"reason":"constructive diplomatic response","source":"simulation"},
+        {"actor_id":"navarre","stat":"relations_asturias","before":8,"delta":1,"after":9,"reason":"constructive diplomatic response","source":"simulation"}
+      ],
+      "information": {"visibility":"public","confidence":"high"}
+    },
+    {
+      "event_id": "r2-e4",
+      "type": "security",
+      "headline": "Border Patrols Report Increased Activity Without Engagement",
+      "article": "Asturian patrols report several movements near the frontier but no confirmed hostile force crossing. Commanders increase observation and maintain the existing 2,400-man deployment rather than escalating to a larger mobilization. The reports are treated as observations rather than proof of an impending attack. Because no engagement occurs, the military ledger records no battle casualties and no change to total troop strength. The incident nevertheless raises the value placed on reconnaissance and keeps the frontier formations at elevated readiness. Further intelligence will determine whether the movements represent routine activity, local banditry, migration, or preparation for a larger operation.",
+      "significance":"regional",
+      "actors":["asturias"],
+      "locations":["asturias-frontier"],
+      "causes":["r1-e2","local_frontier_activity"],
+      "effects":["reconnaissance_priority_increase"],
+      "state_changes": [
+        {"actor_id":"asturias","stat":"border_readiness","before":60,"delta":1,"after":61,"reason":"heightened observation without mobilization","source":"simulation"}
+      ],
+      "military": {
+        "formations": [
+          {"formation_id":"asturias-frontier-001","side":"asturias","troops_committed":2400,"troops_remaining":2400,"permanent_losses":0,"temporary_losses":0,"location":"asturias-frontier"}
+        ],
+        "battle": false
+      },
+      "information": {"visibility":"reported","confidence":"medium"}
+    },
+    {
+      "event_id": "r2-e5",
+      "type": "foreign_politics",
+      "headline": "Navarrese Merchants Debate the Cost of Concessions",
+      "article": "Merchants in Navarre debate whether the proposed commercial concessions would create enough new trade to justify opening additional access to Asturian markets. The discussion is not controlled by the Asturian crown and may influence the eventual shape of the agreement. Some traders favor the proposal because they expect greater market access, while others fear that reduced barriers could expose them to stronger competition. The disagreement does not break the negotiations, but it makes a rapid final settlement less certain. No Asturian trade revenue is added from this discussion because the agreement remains unsettled. The outcome will depend on the balance between commercial opportunity and domestic political resistance inside Navarre.",
+      "significance":"regional",
+      "actors":["navarre"],
+      "locations":["pamplona"],
+      "causes":["r2-e3"],
+      "effects":["internal_trade_lobbying"],
+      "state_changes": [
+        {"actor_id":"navarre","stat":"trade_negotiation_pressure","before":0,"delta":2,"after":2,"reason":"merchant lobbying over proposed concessions","source":"simulation"}
+      ],
+      "information": {"visibility":"reported","confidence":"medium"}
+    },
+    {
+      "event_id": "r2-e6",
+      "type": "regional",
+      "headline": "Iberian Courts Continue Their Own Calculations",
+      "article": "Elsewhere in Iberia, neighboring political authorities continue assessing their own security and commercial interests rather than responding automatically to Asturian policy. Reports indicate routine diplomatic and economic activity among regional courts, with no confirmed event this week requiring an Asturian military response. The absence of a major foreign intervention is itself recorded as a simulation outcome rather than a promise that the region will remain quiet. Asturian officials therefore retain the 12,000-man army without expanding mobilization beyond the existing 2,400-man frontier commitment. Intelligence remains incomplete, so some reported developments carry lower confidence than the court's direct observations. The regional situation will be reevaluated during the next explicit time advance.",
+      "significance":"regional",
+      "actors":["asturias","navarre"],
+      "locations":["iberia"],
+      "causes":["autonomous_world_tick"],
+      "effects":["no_major_regional_escalation"],
+      "state_changes": [],
+      "information": {"visibility":"reported","confidence":"low"}
+    }
+  ],
+  "state_changes": [
+    {"actor_id":"asturias","stat":"treasury","before":1000,"delta":18,"after":1018,"cause":"net first-week tax receipts","source_event_id":"r2-e1"},
+    {"actor_id":"asturias","stat":"agriculture_investment_index","before":1.050,"delta":0.005,"after":1.055,"cause":"continued agricultural subsidy","source_event_id":"r2-e1"},
+    {"actor_id":"asturias","stat":"border_readiness","before":58,"delta":2,"after":60,"cause":"sustained frontier deployment","source_event_id":"r2-e2"},
+    {"actor_id":"asturias","stat":"troops_total","before":12000,"delta":0,"after":12000,"cause":"no recruitment or casualties","source_event_id":"r2-e2"},
+    {"actor_id":"asturias","stat":"troops_committed_frontier","before":2400,"delta":0,"after":2400,"cause":"deployment unchanged","source_event_id":"r2-e2"},
+    {"actor_id":"asturias","stat":"relations_navarre","before":8,"delta":1,"after":9,"cause":"trade negotiation continues","source_event_id":"r2-e3"},
+    {"actor_id":"navarre","stat":"relations_asturias","before":8,"delta":1,"after":9,"cause":"trade negotiation continues","source_event_id":"r2-e3"},
+    {"actor_id":"asturias","stat":"border_readiness","before":60,"delta":1,"after":61,"cause":"increased reconnaissance","source_event_id":"r2-e4"},
+    {"actor_id":"navarre","stat":"trade_negotiation_pressure","before":0,"delta":2,"after":2,"cause":"merchant lobbying","source_event_id":"r2-e5"}
+  ],
+  "military_ledger": [
+    {
+      "actor_id":"asturias",
+      "total_troops":12000,
+      "available_troops":9600,
+      "committed_troops":2400,
+      "garrison_troops":0,
+      "permanent_losses":0,
+      "recruitment_gains":0,
+      "reinforcements_received":0,
+      "temporary_unavailable":0
+    }
+  ],
+  "end_state_snapshot": {
+    "authoritative_source": "round-0001.json replay + round-0002 state mutations",
+    "asturias": {
+      "treasury":1018,
+      "tax_rate_index":1.030,
+      "agriculture_investment_index":1.055,
+      "military_expenditure_index":1.040,
+      "border_readiness":61,
+      "relations_navarre":9,
+      "military": {
+        "total_troops":12000,
+        "available_troops":9600,
+        "committed_troops":2400,
+        "permanent_losses":0
+      }
+    },
+    "navarre": {
+      "relations_asturias":9,
+      "trade_negotiation_pressure":2
+    }
+  },
+  "validation": {
+    "military_conservation": "9600 + 2400 = 12000",
+    "battle_count":0,
+    "permanent_military_losses":0,
+    "all_military_mentions_have_exact_counts":true,
+    "state_mutations_reconcile":true
+  }
+}
