@@ -17,6 +17,19 @@
     "Stable id must equal the polity id already referenced by HISTORIX.",
     "Preserve distinct historical polities even when names or territories overlap.",
     "Do not mark Cliopatria identity as resolved without exact source-name verification.",
-    "Factual additions require source_ids and confidence."
-  ]
+    "Factual additions require source_ids and confidence.",
+    "Wikidata enrichment may use only Wikidata IDs explicitly supplied by Cliopatria; never infer identity from name similarity."
+  ],
+  "fields": {
+    "research": [
+      "status",
+      "sources",
+      "retrieved_at",
+      "wikidata_ids",
+      "wikidata_label",
+      "wikidata_description",
+      "wikipedia_en_title",
+      "identity_method"
+    ]
+  }
 }
