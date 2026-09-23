@@ -35,6 +35,39 @@ Chronicle AI is a separate standalone prototype descended conceptually from the 
 - local state schema
 - project assets
 
+## Chronicle Memory
+
+**ID:** `chronicle-memory`  
+**Location:** `projects/chronicle-memory/`
+
+Chronicle Memory is a separate alternate-history roleplay and simulation-memory project.
+
+### Reused concepts
+
+- Worldforge historical/geographic data as read-only inputs
+- Chronicle AI natural-language instruction pattern
+- preset and role selection
+- world clock and persistent event history
+- deterministic state validation
+
+### New systems
+
+- canonical-history versus alternate-history separation
+- scenario memory ledger
+- causal event graph
+- provenance and uncertainty tracking
+- statistics-backed narrative context
+- autonomous actor memory and reactions
+
+### Intentionally isolated
+
+- scenario state
+- roleplay resolver
+- memory graph
+- presets
+- runtime UI
+- deployment boundary
+
 ## Future projects
 
 Every new project should document the project IDs it references, which systems/data are reused, which systems are forked or rewritten, and its independent deployment path.
