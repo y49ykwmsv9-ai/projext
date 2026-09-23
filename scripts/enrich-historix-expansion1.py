@@ -89,6 +89,6 @@ def main():
   if not c.execute("select 1 from places where canonical_name=? and (start_date is null or cast(start_date as integer)<=?) and (end_date is null or cast(end_date as integer)>=?) limit 1",(z[1],qy,qy)).fetchone():fails.append([z[0],z[1],qy])
  report={"status":"completed" if not(fails or orphan or orrel or miss or selfr or dupes) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
  c.execute("insert or replace into store_meta values('roadmap_status',?)",("Expansion 1 enrichment and validation completed" if report["status"]=="completed" else "Expansion 1 validation failed",))
- c.commit();REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\\n");c.close();print(json.dumps(report,indent=2))
+ c.commit();REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False) + chr(10));c.close();print(json.dumps(report,indent=2))
  if report["status"]!="completed":raise SystemExit(1)
 if __name__=="__main__":main()
