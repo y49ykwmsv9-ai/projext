@@ -15,6 +15,11 @@ on:
       - "data/historical-polities-expansion-v2.csv"
       - ".github/workflows/documentary-build.yml"
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   render-reconquista:
     runs-on: ubuntu-24.04
@@ -65,8 +70,6 @@ jobs:
         with:
           name: reconquista-documentary-60min
           path: projects/documentary/build/reconquista-documentary-60min.mp4
-          archive: false
-          compression-level: 0
           retention-days: 14
 
       - name: Upload source package and credits
@@ -82,13 +85,32 @@ jobs:
 
 # Renderer pipeline: preflight is mandatory before the production render.
 
-      - name: Publish watchable documentary package
+      - name: Prepare GitHub Pages watch player
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          cp projects/documentary/build/reconquista-documentary-60min.mp4 dist/reconquista-documentary.mp4
+          cat > dist/index.html <<'HTML'
+          <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Reconquista: Seven Centuries of Iberian History</title><style>body{margin:0;background:#101214;color:#eee;font:16px system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}video{width:100%;background:#000;border-radius:12px}h1{font-size:clamp(24px,4vw,44px)}p{color:#aaa}</style></head><body><main><h1>The Reconquista: Seven Centuries of Iberian History</h1><p>711–1492 • CLIOPATRA / CLIOPATRIA + HISTORIX • original programmatic documentary render</p><video controls playsinline preload="metadata" src="reconquista-documentary.mp4"></video></main></body></html>
+          HTML
+
+      - name: Upload watch player artifact
         uses: actions/upload-artifact@v4
         with:
-          name: reconquista-documentary-watchable
-          path: |
-            dist/reconquista-documentary.mp4
-            dist/reconquista-documentary.html
-            dist/validation.json
-          if-no-files-found: error
+          name: reconquista-documentary-watch-player
+          path: dist
           retention-days: 30
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+      - name: Deploy documentary to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
