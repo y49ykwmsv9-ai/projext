@@ -1,38 +1,38 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 9,
-  "date": "-0062-09-30",
-  "treasury": 1550,
+  "round": 10,
+  "date": "-0062-10-31",
+  "treasury": 1100,
   "metrics": {
-    "population": 108,
-    "currency": 1550,
+    "population": 113,
+    "currency": 1100,
     "soldiers": 92,
     "taxation": 0,
-    "economy": 64,
+    "economy": 67,
     "agriculture": 53,
     "infrastructure": 75,
-    "trade": 47,
+    "trade": 53,
     "readiness": 82,
-    "morale": 62,
-    "supply": 59,
-    "organization": 70,
-    "stability": 55,
-    "legitimacy": 60,
+    "morale": 64,
+    "supply": 60,
+    "organization": 71,
+    "stability": 57,
+    "legitimacy": 64,
     "exhaustion": 7,
     "technology": 22,
-    "intelligence": 55,
-    "relations": 76
+    "intelligence": 56,
+    "relations": 81
   },
   "relationships": {
-    "nearby-landowners": 16,
+    "nearby-landowners": 18,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
     "military-connections": 3,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
-    "marcus-claudius-marcellus": 7
+    "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
+  "previous_action": "Gaius Maximus Valerius emphasizes that he seeks neither to grow beyond his proper station nor to usurp authority. He publicly conducts his affairs according to Roman law and the virtues expected of a respectable Roman landholder and commander. He declares the road and lake port officially open for commerce and hosts an opening festival intended to draw merchants, laborers, neighboring people and others whose ears may have reached the estate's name.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -40,6 +40,6 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius has established a formal road connecting his main estate to the lake trade port and forward base. Watchtowers now secure stretches of that road, while the port itself has separate defenses centered on a fortified gatehouse and a raised private citadel overlooking the landing. The armed force is being presented as protection for laborers, travelers, merchants and the estate's works. The port remains modest by Roman standards but is increasingly important as a commercial and logistical position."
+    "campaign_development": "Valerius has formally opened the road from his main estate to the lake trade port and forward base for commerce. An opening festival brought merchants and local people to the station, increasing the port's visibility. Valerius has publicly emphasized adherence to Roman law, civic virtue and the limits of private authority, explicitly rejecting any claim to usurp public power. The road watchtowers and separate port defenses remain in place while the commercial face of the estate becomes more prominent."
   }
 }
