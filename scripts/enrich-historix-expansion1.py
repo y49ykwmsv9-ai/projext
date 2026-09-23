@@ -53,11 +53,11 @@ def main():
    q=pol.get(v) or pn.get(norm(v))
    if q:c.execute("insert or ignore into place_polity values(?,?,?)",(p,q,"member-of-context"));member+=1
  d={k:get(BASE+v).get("features",[]) for k,v in FILES.items()}; a0=d["admin0"];a1=d["admin1"];pp=d["populated"]
- c0={str(prop(f.get("properties")or{},"adm0_a3","iso_a3","sov_a3") or ""):f for f in a0}; c1={str(prop(f.get("properties")or{},"adm1_code") or ""):f for f in a1}
+ c0={}; c1={str(prop(f.get("properties")or{},"adm1_code") or ""):f for f in a1}
  counts={"admin0":0,"admin1":0,"populated":0}
  for f in a0:
   p=f.get("properties")or{};g=f.get("geometry");n=prop(p,"name","name_en","name_long");k=str(prop(p,"adm0_a3","iso_a3","sov_a3") or "")
-  if n and k and g:add(c,pid("ne0",k),n,"administrative-country",geom=g,key=k,attrs={"dataset":"Natural Earth","layer":"admin-0","adm0_a3":k,"iso_a3":prop(p,"iso_a3"),"temporal_status":"current-reference"});counts["admin0"]+=1
+  if n and k and g:\n   _,h=gh(g); place_id=pid("ne0",k+"|"+h); add(c,place_id,n,"administrative-country",geom=g,key=k+"|"+h,attrs={"dataset":"Natural Earth","layer":"admin-0","adm0_a3":k,"iso_a3":prop(p,"iso_a3"),"temporal_status":"current-reference"}); c0.setdefault(k,[]).append(place_id); counts["admin0"]+=1
  for f in a1:
   p=f.get("properties")or{};g=f.get("geometry");n=prop(p,"name","name_en");k=str(prop(p,"adm1_code") or "");k0=str(prop(p,"adm0_a3","iso_a3") or "")
   if n and k and g:
@@ -68,7 +68,7 @@ def main():
   p=f.get("properties")or{};g=f.get("geometry")or{};n=prop(p,"name","nameascii");co=g.get("coordinates")or[]
   if n and g.get("type")=="Point" and len(co)>=2:
    lo,la=float(co[0]),float(co[1]);w=str(prop(p,"wikidataid","nameascii") or n);k0=str(prop(p,"adm0_a3","iso_a3") or "");k1=str(prop(p,"adm1_code") or "")
-   ch=pid("nep",w+f"|{la:.6f}|{lo:.6f}");pa=pid("ne1",k1) if k1 in c1 else (pid("ne0",k0) if k0 in c0 else None)
+   ch=pid("nep",w+f"|{la:.6f}|{lo:.6f}");pa=pid("ne1",k1) if k1 in c1 else ((c0.get(k0) or [None])[0])
    add(c,ch,n,"populated-place",geom=g,parent=pa,lat=la,lon=lo,key=w,attrs={"dataset":"Natural Earth","layer":"populated-places","adm0_a3":k0,"adm1_code":k1,"wikidata_id":prop(p,"wikidataid"),"temporal_status":"current-reference","population_max":prop(p,"pop_max")})
    rel(c,ch,pa,"geographic-child","natural-earth-pinned",w);counts["populated"]+=1
  c.execute("delete from place_identity_audit");dupes=0
