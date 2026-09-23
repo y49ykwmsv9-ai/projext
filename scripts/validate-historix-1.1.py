@@ -28,6 +28,8 @@ def main():
             if "end" in record:
                 assert record["start"] <= record["end"], f"invalid dates: {rid}"
 
+    # Relations use singular endpoint types while the graph stores plural collections.
+    type_to_collection = {"event": "events", "place": "places", "person": "people"}
     relation_ids = set()
     for relation in graph["relations"]:
         assert relation["id"] not in relation_ids, f"duplicate relation: {relation['id']}"
