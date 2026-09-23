@@ -19,6 +19,8 @@ on:
       - "scripts/enrich-historix-1.4-pass4.py"
       - "scripts/enrich-historix-1.4-pass3.py"
       - "scripts/enrich-historix-1.4-pass2.py"
+      - "scripts/build-historix-1.5-places.py"
+      - "scripts/validate-historix-1.5.py"
       - ".github/workflows/history-library-build.yml"
 
 jobs:
@@ -60,11 +62,15 @@ jobs:
         run: python scripts/enrich-historix-1.4-pass4.py
       - name: Validate HISTORIX 1.4 complete polity universe
         run: python scripts/validate-historix-1.4.py
+      - name: Expansion 1: build canonical places and geographic hierarchy
+        run: python scripts/build-historix-1.5-places.py
+      - name: Validate HISTORIX 1.5 canonical place layer
+        run: python scripts/validate-historix-1.5.py
       - name: Persist generated 1.4 polity resources
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history-library/polities data/history-library/graph/place-time-index.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
+          git add data/history-library/polities data/history-library/places data/history-library/graph/place-time-index.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/HISTORIX-1.5-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
           git diff --cached --quiet || git commit -m "HISTORIX 1.4: materialize complete 1583 polity universe"
           git push
       - name: Upload HISTORIX library artifact
