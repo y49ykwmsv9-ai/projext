@@ -1,0 +1,187 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 16,
+  "period": {
+    "start": "-0061-04-01",
+    "end": "-0061-04-30",
+    "display": "1 April 61 BCE – 30 April 61 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "special_event_policy": {
+    "magnitude_scale": "1-10",
+    "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
+    "influence_rule": "Event influence increases exponentially with magnitude rather than linearly.",
+    "this_round_special_events": 0
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0061-04-03",
+      "type": "DIRECT",
+      "headline": "VALERIUS RETURNS HOME AND INSPECTS THE ESTATE'S WORKS",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Main Estate",
+        "Estate Stewards"
+      ],
+      "article": "Valerius returns to his main estate at the beginning of April after the long expedition and immediately turns his attention from the road to the condition of the holdings that supported it. Storehouses, workshops, the lake port, timber stands, cultivated fields and water points are inspected by stewards reporting on their present condition. The inspection is not limited to what the estate can produce this season, but also to what can be taken from it without weakening future production. Valerius orders the existing facilities treated as parts of a single productive system, with supplies moving between them according to need rather than allowing one location to consume reserves simply because they are available. The return of the field force also gives the estate a clearer opportunity to organize its resources around ordinary production rather than wartime demand.",
+      "ledger": {
+        "currency": -35,
+        "infrastructure": 1,
+        "supply": 2,
+        "stability": 2,
+        "intelligence": 2,
+        "relations": 2,
+        "exhaustion": -2
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0061-04-08",
+      "type": "CONNECTED",
+      "headline": "TIMBER CUTTING IS PLACED UNDER A ROTATION SYSTEM",
+      "entities": [
+        "Timber Stands",
+        "Estate Stewards",
+        "Lumber Workers",
+        "Gaius Maximus Valerius"
+      ],
+      "article": "The estate's timber workers begin marking woodland for controlled cutting instead of treating the surrounding forest as an unlimited reserve. Areas are divided so that mature stands can be harvested while younger growth is left to develop, and cleared sections are designated for future regrowth rather than immediate reuse. Building timber remains available for the road, port and workshops, but stewards are instructed to account for the quantity removed and the time required for replacement growth. The change reduces the amount that can be taken from the woods at once, yet it gives the estate a more dependable supply over successive years. Valerius's administrators are also instructed to keep timber stores separate from standing forest so that emergency demand does not quietly become permanent overcutting.",
+      "ledger": {
+        "currency": -20,
+        "infrastructure": 2,
+        "technology": 1,
+        "economy": 1,
+        "stability": 1,
+        "supply": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0061-04-13",
+      "type": "DIRECT",
+      "headline": "FIELDS AND WATER SOURCES ARE RECORDED AGAINST FUTURE DEMAND",
+      "entities": [
+        "Agricultural Land",
+        "Water Sources",
+        "Estate Stewards",
+        "Local Households"
+      ],
+      "article": "Estate officials begin a second set of records covering cultivated land and the water sources that support both agriculture and household work. Fields are grouped according to their present condition, while streams, wells and lake access are recorded according to the uses already placed upon them. Stewards are instructed to report when demand approaches what a source can reliably provide rather than waiting for shortages to become visible in the stores. Agricultural work is adjusted around the condition of the soil and available water, with productive land protected from unnecessary exhaustion. The records give the estate a clearer picture of how much it can take from the land in one season without compromising the next.",
+      "ledger": {
+        "currency": -25,
+        "agriculture": 3,
+        "infrastructure": 1,
+        "supply": 1,
+        "stability": 2,
+        "intelligence": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0061-04-18",
+      "type": "CONNECTED",
+      "headline": "WORKSHOPS AND THE LAKE PORT ADOPT MATERIAL-SAVING MEASURES",
+      "entities": [
+        "Lake Port",
+        "Workshops",
+        "Commercial Fleet",
+        "Estate Stewards"
+      ],
+      "article": "The workshops attached to the estate and lake port begin changing their routines to reduce avoidable consumption of timber, metal, rope and other materials. Damaged tools and fittings are repaired where practical before replacement, while boats are inspected more regularly so that small failures do not become large demands for new material. Port stewards also begin recording incoming and outgoing stores more carefully, allowing merchants and estate officials to distinguish ordinary trade from supplies reserved for maintenance. The measures do not halt production or commerce, but they make the cost of keeping the facilities operating more visible. The result is a slower draw on stored materials and a more predictable demand for the estate's workshops.",
+      "ledger": {
+        "currency": -30,
+        "economy": 1,
+        "trade": 2,
+        "infrastructure": 1,
+        "technology": 1,
+        "supply": 1,
+        "organization": 1
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0061-04-22",
+      "type": "DIRECT",
+      "headline": "A PERMANENT MAINTENANCE REGISTER IS ESTABLISHED",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Stewards",
+        "Main Estate",
+        "Lake Port",
+        "Winter Pass Holding"
+      ],
+      "article": "Valerius orders the creation of a maintenance register covering the estate's principal productive facilities. Roads, storage buildings, workshops, water works, the lake port and the winter holding are entered with records of their materials, labor requirements and recurring repairs. The purpose is to prevent expansion from outrunning the resources needed to keep existing works functioning. Stewards are expected to report deterioration before a structure becomes unusable, while new construction is to be considered alongside the continuing cost of maintenance. The register gives the estate an administrative means of measuring productive capacity against the resources consumed to preserve it.",
+      "ledger": {
+        "currency": -20,
+        "infrastructure": 1,
+        "organization": 1,
+        "technology": 1,
+        "stability": 2,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0061-04-26",
+      "type": "WORLD",
+      "headline": "ROME'S SPRING REPORTS REACH THE ESTATE AFTER THE WINTER CAMPAIGN",
+      "entities": [
+        "Roman Republic",
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar"
+      ],
+      "article": "News from Rome reaches the estate with the spring traffic of merchants, travelers and private letters. Marcus Tullius Cicero and Gaius Julius Caesar remain among the Roman names most frequently discussed in political conversation, although the reports concern affairs far beyond Valerius's holdings. The information arrives unevenly, with some accounts several weeks old by the time they are repeated locally. Valerius's own return has become the more immediate subject among neighboring estates, where attention is now turning from his military expedition to the condition of the larger estate that financed it. The wider political world continues to move independently while Valerius concentrates on keeping his newly expanded holdings productive.",
+      "ledger": {
+        "intelligence": 2,
+        "relations": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0061-04-30",
+      "type": "WORLD",
+      "headline": "LOCAL NEWS: THE ESTATE TURNS FROM EXPANSION TOWARD LONG-TERM PRODUCTION",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Main Estate",
+        "Lake Port",
+        "Winter Pass Holding"
+      ],
+      "article": "April closes with Valerius back at the center of his estate administration and a new emphasis placed on the durability of its productive works. Timber cutting is being rotated, water and agricultural use are being recorded, workshops are repairing more before replacing, and the principal roads, port and holdings are now covered by a common maintenance register. The changes do not produce an immediate transformation in the size of the estate, but they establish rules intended to keep its productive base from being consumed faster than it can recover. Merchants continue to use the lake port, agricultural work proceeds across the holdings, and the recently incorporated territory remains tied to the older estate through roads and administration. After months in which military expansion dominated Valerius's affairs, the estate is now being organized around the less dramatic problem of remaining productive year after year.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ],
+  "running_total": {
+    "currency": -130,
+    "population": 0,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 3,
+    "agriculture": 3,
+    "infrastructure": 7,
+    "trade": 2,
+    "readiness": 0,
+    "morale": 1,
+    "supply": 6,
+    "organization": 2,
+    "stability": 10,
+    "legitimacy": 1,
+    "exhaustion": -2,
+    "technology": 3,
+    "intelligence": 6,
+    "relations": 3
+  },
+  "commercial_accounting": {
+    "gross_receipts": 620,
+    "operating_security_and_maintenance_costs": 440,
+    "net_public_profit": 180,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 18,
+    "public_account_change": 162,
+    "public_account_end": 2130,
+    "private_account_end": 115
+  }
+}

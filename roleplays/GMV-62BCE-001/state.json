@@ -1,33 +1,33 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 15,
-  "date": "-0061-03-31",
-  "treasury": 850,
+  "round": 16,
+  "date": "-0061-04-30",
+  "treasury": 720,
   "wealth_accounts": {
-    "public": 1968,
-    "private": 97,
+    "public": 2130,
+    "private": 115,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 140,
-    "last_round_private_transfer": 14
+    "last_round_net_public_profit": 180,
+    "last_round_private_transfer": 18
   },
   "metrics": {
     "population": 119,
-    "currency": 850,
+    "currency": 720,
     "soldiers": 71,
     "taxation": 0,
-    "economy": 87,
-    "agriculture": 56,
-    "infrastructure": 85,
-    "trade": 86,
+    "economy": 90,
+    "agriculture": 59,
+    "infrastructure": 92,
+    "trade": 88,
     "readiness": 100,
-    "morale": 81,
-    "supply": 82,
+    "morale": 82,
+    "supply": 88,
     "organization": 100,
-    "stability": 82,
-    "legitimacy": 79,
-    "exhaustion": 21,
-    "technology": 27,
-    "intelligence": 98,
+    "stability": 92,
+    "legitimacy": 80,
+    "exhaustion": 19,
+    "technology": 30,
+    "intelligence": 104,
     "relations": 100
   },
   "relationships": {
@@ -39,7 +39,7 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius leads his men onto the trail of the organized bandits identified during the earlier expedition. His stated objective is to destroy the remaining organized bandit force in the region and bring the expedition to an end. The column advances with the discipline, physical conditioning and unusually reliable supply organization developed throughout the campaign.",
+  "previous_action": "Gaius Maximus Valerius returns to his estate and begins ensuring that the estate's production facilities remain sustainable. Timber, cultivated land, water sources, livestock resources and other productive inputs are to be managed so that consumption does not exceed the rate at which the estate can replenish them, while existing facilities are maintained and new ones are planned around sustainable supply.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -49,6 +49,12 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius led the expedition back onto the trail of the organized bandit network. After locating its remaining encampment, his force defeated the organized band in a major final action, dismantled its stores and command structure, and began the return march. The campaign's military objective has been substantially fulfilled. The estate, incorporated winter holding, road and lake port remain under administration while the expedition returns."
+    "campaign_development": "Valerius returned from the completed bandit expedition and resumed direct administration of the expanded estate. Production facilities, timber, agricultural land, water sources, workshops, the lake port and roads are now being managed under a sustainability and maintenance system intended to keep recurring resource consumption below replenishment and productive capacity. The estate's military force remains intact and highly organized, while the immediate emphasis has shifted from expansion to durable production."
+  },
+  "special_event_policy": {
+    "magnitude_scale": "1-10",
+    "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
+    "influence_rule": "Event influence increases exponentially with magnitude rather than linearly.",
+    "this_round_special_events": 0
   }
 }
