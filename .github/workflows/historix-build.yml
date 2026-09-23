@@ -34,6 +34,8 @@ jobs:
           test -f scripts/enrich-historix-1.4-pass4.py
           test -f scripts/build-historix-1.5-places.py
           test -f scripts/validate-historix-1.5.py
+          test -f scripts/build-historix-geonames-places.py
+          test -f scripts/test-historix-place-time-coverage.py
 
       - name: Download pinned Cliopatria source snapshot
         env:
@@ -80,22 +82,33 @@ jobs:
       - name: Expansion 1 place layer
         run: python scripts/build-historix-1.5-places.py
 
+      - name: Build extensive GeoNames place gazetteer
+        run: python scripts/build-historix-geonames-places.py
+
       - name: Validate HISTORIX 1.5
         run: python scripts/validate-historix-1.5.py
+
+      - name: Run Place x Time coverage report
+        run: python scripts/test-historix-place-time-coverage.py
 
       - name: Verify generated artifacts
         run: |
           set -euxo pipefail
           test -s data/history-library/polities/historix-linked.json
           test -s data/history-library/places/historix-places.json
+          test -s data/history-library/places/gazetteer-index.json
+          test -s data/history-library/places/gazetteer-name-index.json
           test -s data/history-library/graph/place-time-index.json
+          test -s data/history-library/graph/place-time-coverage.json
           test -s data/history-library/HISTORIX-1.5-manifest.json
           python - <<'PY'
           import json
           p=json.load(open("data/history-library/places/historix-places.json", encoding="utf-8"))
           n=p["record_count"]
+          g=json.load(open("data/history-library/places/gazetteer-index.json", encoding="utf-8"))
           assert n >= 37, f"place layer regressed below preserved curated baseline: {n}"
-          print(f"Verified {n} canonical place records")
+          assert g["record_count"] >= 100000, f"GeoNames place gazetteer unexpectedly small: {g['record_count']}"
+          print(f"Verified {n} canonical place records plus {g['record_count']} gazetteer places")
           PY
 
       - name: Persist generated data
@@ -103,7 +116,7 @@ jobs:
           set -euxo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history-library/polities data/history-library/places data/history-library/graph/place-time-index.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/HISTORIX-1.5-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
+          git add data/history-library/polities data/history-library/places data/history-library/graph/place-time-index.json data/history-library/graph/place-time-coverage.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/HISTORIX-1.5-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
           else
