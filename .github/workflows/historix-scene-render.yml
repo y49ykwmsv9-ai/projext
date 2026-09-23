@@ -14,7 +14,7 @@ on:
       - ".github/workflows/historix-scene-render.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   render-scene:
@@ -31,7 +31,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
       - name: Render scene
         run: |
-          node projects/historix-renderer/src/render-still.mjs ${{ inputs.scene || 'projects/historix-renderer/scenes/iberia-0711-gibraltar.json' }}
+          node projects/historix-renderer/src/render-still.mjs ${{ inputs.scene || 'projects/historix-renderer/scenes/iberia-0711-gibraltar.json' ${{
       - name: Verify outputs
         run: |
           test -s projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.svg
@@ -40,9 +40,19 @@ jobs:
       - name: Upload rendered scene
         uses: actions/upload-artifact@v4
         with:
-          name: historix-iberia-0711-gibraltar-scene-${{ github.run_number }}
+          name: historix-iberia-0711-gibraltar-scene-${{ github.run_number ${{
           path: |
             projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.svg
             projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.png
             projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.json
           retention-days: 30
+      - name: Publish stable render to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.svg
+          git add projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.png
+          git add projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Publish verified HISTORIX Iberia scene render [skip ci]"
+          git push
