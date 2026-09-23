@@ -41,5 +41,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: reconquista-sample-scene-711-v4
-          path: projects/documentary/build/sample-scene-711-v3
+          path: projects/documentary/build/sample-scene-711-v4
           retention-days: 14
