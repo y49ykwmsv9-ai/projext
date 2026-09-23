@@ -1,0 +1,51 @@
+name: HISTORIX master-store intake
+# Expansion 1 canonical geography verification pipeline
+# script syntax repaired
+# final report syntax check
+# valid JSON report write
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/build-historix-master-intake.py"
+      - "scripts/enrich-historix-expansion1.py"
+      - "scripts/validate-historix-expansion1.py"
+      - ".github/workflows/historix-master-intake.yml"
+  pull_request:
+    paths:
+      - "scripts/build-historix-master-intake.py"
+      - "scripts/enrich-historix-expansion1.py"
+      - "scripts/validate-historix-expansion1.py"
+      - ".github/workflows/historix-master-intake.yml"
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build HISTORIX master datastore
+        run: python scripts/build-historix-master-intake.py
+      - name: Run Expansion 1 enrichment
+        run: python scripts/enrich-historix-expansion1.py
+      - name: Validate Expansion 1
+        run: python scripts/validate-historix-expansion1.py
+      - name: Upload local SQLite artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: historix-master-sqlite
+          path: |
+            data/historix-master/historix_master.sqlite
+            data/historix-master/intake_report.json
+            data/historix-master/expansion1_report.json
+          if-no-files-found: error
+      - name: Persist validation reports
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/historix-master/intake_report.json data/historix-master/expansion1_report.json
+          git diff --cached --quiet || git commit -m "HISTORIX: persist Expansion 1 validation reports"
+          git push
+

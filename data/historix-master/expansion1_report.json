@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "natural_earth_commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+  "natural_earth_counts": {
+    "admin0": 249,
+    "admin1": 4589,
+    "populated": 7342
+  },
+  "cliopatria_memberof_place_links": 2742,
+  "places_total": 25560,
+  "place_polity_links": 15412,
+  "place_relations": 11861,
+  "de_facto_jurisdiction_assertions": 11861,
+  "de_jure_jurisdiction_assertions": 0,
+  "jurisdictional_parent_unresolved": 13450,
+  "exact_identity_duplicate_excess": 0,
+  "orphan_parent_links": 0,
+  "orphan_relations": 0,
+  "missing_place_provenance": 0,
+  "self_relations": 0,
+  "temporal_place_records": 13380,
+  "place_time_lookups_checked": 10000,
+  "place_time_lookup_failures": [],
+  "lookup_validation_passed": true,
+  "generated_at": "2026-09-23T01:43:52.178111+00:00"
+}
