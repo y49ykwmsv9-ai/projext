@@ -156,7 +156,7 @@ def main():
                         str(end) if end is not None else None,"cliopatria-imported",
                         json.dumps(attrs,ensure_ascii=False),json.dumps([name])))
         db.execute("DELETE FROM provenance WHERE entity_type='polity' AND entity_id=? AND source_id=?",
-                   ("polity",stable,"cliopatria-pinned"))
+                   (stable,"cliopatria-pinned"))
         db.execute("""INSERT INTO provenance(entity_type,entity_id,source_id,source_record_key,assertion,
                       confidence,retrieved_at,notes) VALUES(?,?,?,?,?,?,?,?)""",
                    ("polity",stable,"cliopatria-pinned",name,
