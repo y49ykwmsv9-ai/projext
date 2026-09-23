@@ -6,6 +6,7 @@ name: HISTORIX master-store intake
 on:
   workflow_dispatch:
   push:
+    branches: ["main"]
     paths:
       - "scripts/build-historix-master-intake.py"
       - "scripts/enrich-historix-expansion1.py"
@@ -48,6 +49,3 @@ jobs:
           git diff --cached --quiet || git commit -m "HISTORIX: persist Expansion 1 validation reports"
           git push
 
-# jurisdiction model validation trigger
-
-# rerun after jurisdiction indentation repair
