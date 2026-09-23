@@ -7,6 +7,16 @@
     "display": "1 January 62 BCE – 29 January 62 BCE"
   },
   "submitted_action": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
+  "action": {
+    "action_id": "GMV-62BCE-001-R001-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
+    "components": [
+      { "type": "political_support", "target": "nearby-landowners" },
+      { "type": "agricultural_investment", "target": "estate" },
+      { "type": "patronage", "target": "poor-agricultural-workers" }
+    ]
+  },
   "events": [
     {
       "date": "-0062-01-01",
