@@ -780,3 +780,77 @@ The test will deliberately distinguish:
 5. **Divergence:** history may emerge naturally from conditions, but the engine never forces an event solely because it happened in real history.
 
 The goal is a world that feels recognizably 1444 without becoming a museum exhibit. If the player does nothing, nations still act, economies still change, conflicts still develop, and the world keeps moving.
+
+
+
+## Standardized simulation metric schema
+
+Chronicle Memory uses one fixed metric vocabulary and fixed scales across all rounds. New rounds must not invent alternate indexes for concepts that already have a defined metric. A metric's unit and scale are part of the simulation contract.
+
+### Core metrics
+
+| Domain | Metric | Unit / scale | Rule |
+|---|---|---|---|
+| Population | population | exact people | Persistent exact count once established |
+| Population | births, deaths, migration | exact people per period | Must reconcile with population changes |
+| Treasury | treasury | exact currency units | Persistent exact balance |
+| Economy | economic output | 0-100 | Relative modeled output condition |
+| Agriculture | agricultural output | 0-100 | Relative productive condition |
+| Agriculture | food stock | exact resource units | Persistent stock |
+| Taxation | tax burden | 0-100 | 0 = none, 100 = maximum modeled burden |
+| Infrastructure | infrastructure | 0-100 | General infrastructure condition/capacity |
+| Trade | trade activity | 0-100 | Relative commercial activity |
+| Diplomacy | relations | -100 to +100 | -100 hostile, 0 neutral, +100 exceptionally aligned |
+| Stability | internal stability | 0-100 | 0 = collapse-level instability, 100 = highly stable |
+| Legitimacy | legitimacy | 0-100 | Government/dynastic legitimacy |
+| Military | total troops | exact soldiers | Conservation-controlled military population |
+| Military | available troops | exact soldiers | Not committed elsewhere |
+| Military | deployed troops | exact soldiers | Committed to a formation/front/location |
+| Military | garrison troops | exact soldiers | Assigned to fixed defensive garrisons |
+| Military | reserve manpower | exact people | Eligible manpower not yet serving |
+| Military | readiness | 0-100 | Operational preparedness |
+| Military | morale | 0-100 | Willingness/cohesion under pressure |
+| Military | supply | 0-100 | Ability to sustain current forces |
+| Military | organization | 0-100 | Command, cohesion, and unit organization |
+| Military | permanent losses | exact soldiers | Deaths/irrecoverable losses; never silently restored |
+| Military | temporary unavailable | exact soldiers | Wounded/sick/otherwise temporarily unavailable |
+| Military | recruitment gains | exact soldiers | New troops created by a valid recruitment event |
+| Military | reinforcements received | exact soldiers | Troops transferred into the force |
+| War | war exhaustion | 0-100 | Cumulative modeled war strain |
+| Technology | technology level | 0-100 | Relative modeled technological capability |
+| Intelligence | intelligence confidence | 0-100 | Confidence in a specific intelligence assessment |
+
+### Fixed-scale rules
+
+1. Exact quantities remain exact. Population, treasury, troops, casualties, manpower, food stocks, and similar quantities are never replaced by abstract scores.
+2. Condition metrics use their declared scale. Readiness, morale, supply, stability, legitimacy, infrastructure, trade activity, and similar conditions always use the same 0-100 scale.
+3. Relations always use -100 to +100. Do not create separate friendship, hostility, diplomatic warmth, or relation indexes for the same relationship.
+4. No unexplained indexes. Metrics such as "tax_rate_index", "agriculture_investment_index", and "military_expenditure_index" are legacy fields from the initial test and must not be used in new rounds.
+5. Legacy migration is explicit. Existing Round 1 policy indexes are treated as legacy initialization fields. The standardized Round 2 record establishes the fixed-scale equivalents and becomes the format used from Round 2 onward.
+6. Before/after/delta is mandatory. Any persistent metric changed by an event records its previous value, delta, resulting value, reason, source event, and provenance.
+7. No scale switching between rounds. A readiness value of 61 means the same thing in every round. A relation score of 9 means the same thing in every round. A troop count of 12,000 means exactly 12,000 troops until another valid state mutation changes it.
+8. Military conservation is mandatory. Available troops + deployed troops + garrison troops + other explicitly tracked serving buckets = total troops, subject to separately recorded temporary unavailable categories and permanent losses.
+9. Battles resolve numerically before narration. Engaged troop counts, permanent losses, temporary losses, survivors, and formation locations are resolved in state first. The news article cannot invent or alter those numbers.
+10. Derived metrics do not replace source metrics. A dashboard may calculate an overall indicator for display, but the underlying standardized metrics remain the authoritative state.
+
+### Standard event state-change format
+
+Every event that changes persistent state should use an object containing actor_id, metric, before, delta, after, unit, reason, source_event_id, and provenance. Exact quantities use explicit units such as soldiers, people, or currency_units.
+
+### Round 2 standardized baseline
+
+Round 2 is the first record using the permanent standardized vocabulary. The legacy Round 1 values are preserved for auditability, while Round 2 establishes the following fixed-scale values for continued replay:
+
+- Tax burden: 53/100
+- Agricultural output: 56/100
+- Military expenditure condition: 54/100
+- Frontier readiness: 61/100
+- Asturias-Navarre relations: 9 on the -100 to +100 relations scale
+- Navarre trade activity: 2/100
+- Treasury: 1,018 currency units
+- Total troops: 12,000 soldiers
+- Available troops: 9,600 soldiers
+- Frontier deployed troops: 2,400 soldiers
+- Permanent military losses: 0 soldiers
+
+From this point forward, all rounds must use the standardized metrics above and the same scales. If a new domain is genuinely required, it must be added to the schema first rather than introducing a one-off metric inside a round.
