@@ -4,7 +4,7 @@ This gate applies to the **outside/production build and every future scene**, no
 
 ## Reference bar
 
-The production target is polished animated historical-documentary mapping. Public examples and current map-animation workflows emphasize cinematic camera movement, animated routes, controlled labels, temporal clarity, layered geography, and sequences paced to narration. Kings and Generals' long-form medieval-history videos are used as a quality reference for animated historical storytelling, not as a source of branding or copied artwork. citeturn0youtube36turn0youtube37
+The production target is polished animated historical-documentary mapping. Public examples and current map-animation workflows emphasize cinematic camera movement, animated routes, controlled labels, temporal clarity, layered geography, and sequences paced to narration. Kings and Generals' long-form medieval-history videos are used as a quality reference for animated historical storytelling, not as a source of branding or copied artwork.
 
 ## Pass criteria
 
