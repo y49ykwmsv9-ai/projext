@@ -4,8 +4,10 @@ import { execFileSync } from 'node:child_process';
 import { chromium } from 'playwright';
 
 const root = process.cwd();
-const scene = path.join(root, 'projects', 'documentary', 'render', 'scenes', 'scene-711-v2.html');
-const outDir = path.join(root, 'projects', 'documentary', 'build', 'sample-scene-711');
+const sceneFile = process.env.SCENE_FILE || 'scene-711-v2.html';
+const sceneName = path.basename(sceneFile, path.extname(sceneFile));
+const scene = path.join(root, 'projects', 'documentary', 'render', 'scenes', sceneFile);
+const outDir = path.join(root, 'projects', 'documentary', 'build', `sample-${sceneName}`);
 fs.mkdirSync(outDir, { recursive: true });
 
 if (!fs.existsSync(scene)) throw new Error('Sample scene HTML not found: ' + scene);
@@ -40,10 +42,10 @@ if (errors.length) {
   throw new Error('Sample scene browser errors detected: ' + errors.join(' | '));
 }
 
-const webm = path.join(outDir, 'scene-711-v2.webm');
+const webm = path.join(outDir, `${sceneName}.webm`);
 fs.copyFileSync(videoPath, webm);
 
-const mp4 = path.join(outDir, 'scene-711-v2.mp4');
+const mp4 = path.join(outDir, `${sceneName}.mp4`);
 execFileSync('ffmpeg', [
   '-y', '-i', webm,
   '-vf', 'fps=30,format=yuv420p',
@@ -63,9 +65,9 @@ execFileSync('ffprobe', [
 fs.writeFileSync(path.join(outDir, 'RENDER-RESULT.txt'),
   'Sample scene render completed.\n' +
   'Scene: The Strait — 711 CE\n' +
-  'Source: scene-711-v2.html\n' +
+  'Source: ' + sceneFile + '\n' +
   'Visual renderer: browser Canvas/WebGL-independent 2D Canvas scene\n' +
-  'Output: scene-711-v2.mp4\n'
+  'Output: ' + sceneName + '.mp4\n'
 );
 
 console.log('Sample scene render complete:', mp4);
