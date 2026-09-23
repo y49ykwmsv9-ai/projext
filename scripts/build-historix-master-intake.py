@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the HISTORIX Master Store polity intake from the pinned Cliopatria source."""
 from __future__ import annotations
-import csv, datetime as dt, hashlib, json, os, sqlite3, tempfile, urllib.request, zipfile
+import csv, datetime as dt, hashlib, json, os, sqlite3, tempfile, urllib.request, zipfile, zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,6 +53,20 @@ def init_db(db):
     );
     CREATE INDEX IF NOT EXISTS idx_polities_name ON polities(canonical_name);
     CREATE INDEX IF NOT EXISTS idx_provenance_entity ON provenance(entity_type, entity_id);
+    CREATE TABLE IF NOT EXISTS places(
+      place_id TEXT PRIMARY KEY, canonical_name TEXT NOT NULL, place_type TEXT NOT NULL,
+      start_date TEXT, end_date TEXT, parent_place_id TEXT,
+      latitude REAL, longitude REAL, area REAL, geometry BLOB,
+      attributes TEXT NOT NULL DEFAULT '{}', source_record_key TEXT
+    );
+    CREATE TABLE IF NOT EXISTS place_polity(
+      place_id TEXT NOT NULL, polity_id TEXT NOT NULL,
+      relationship TEXT NOT NULL DEFAULT 'spatial-footprint',
+      PRIMARY KEY(place_id, polity_id)
+    );
+    CREATE INDEX IF NOT EXISTS idx_places_name ON places(canonical_name);
+    CREATE INDEX IF NOT EXISTS idx_places_parent ON places(parent_place_id);
+    CREATE INDEX IF NOT EXISTS idx_place_polity_polity ON place_polity(polity_id);
     CREATE INDEX IF NOT EXISTS idx_alias_lookup ON aliases(entity_type, alias);
     """)
     meta = {
@@ -102,6 +116,8 @@ def main():
               "wikipedia": p.get("Wikipedia") or p.get("wikipedia"),
               "seshat_id": p.get("SeshatID") or p.get("seshatid"),
               "member_of": p.get("MemberOf") or p.get("memberof"),
+              "geometry": f.get("geometry"),
+              "area": p.get("Area") or p.get("area"),
             }
             polity_features.append(rec)
             by_name.setdefault(str(name), []).append(rec)
@@ -123,6 +139,7 @@ def main():
                 json.dumps({"commit":CLI_COMMIT,"unique_polities":EXPECTED,"raw_features":len(features)})))
 
     created = updated = 0
+    places_created = 0
     for name in names:
         rows = by_name[name]
         starts = [r["from_year"] for r in rows if isinstance(r["from_year"],int)]
@@ -166,6 +183,49 @@ def main():
             db.execute("INSERT INTO aliases(entity_type,entity_id,alias,language,source_id) VALUES(?,?,?,?,?)",
                        ("polity",stable,alias,None,"cliopatria-pinned"))
 
+    # Expansion 1 first pass: materialize every source-backed spatial footprint as a canonical place.
+    # These are actual Cliopatria POLITY geometries, not invented cities or regions.
+    for name in names:
+        stable = "cliopatria:" + hashlib.sha1(name.encode("utf-8")).hexdigest()[:16]
+        for row in by_name[name]:
+            geom = row.get("geometry")
+            if not geom:
+                continue
+            raw_geom = json.dumps(geom, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+            geom_hash = hashlib.sha256(raw_geom).hexdigest()[:20]
+            place_id = "cliopatria-place:" + hashlib.sha1(
+                (name + "|" + str(row.get("from_year")) + "|" + str(row.get("to_year")) + "|" + geom_hash).encode("utf-8")
+            ).hexdigest()[:20]
+            lon = lat = None
+            if geom.get("type") == "Point" and isinstance(geom.get("coordinates"), list) and len(geom["coordinates"]) >= 2:
+                lon, lat = float(geom["coordinates"][0]), float(geom["coordinates"][1])
+            attrs = {
+                "source": "Cliopatria", "source_commit": CLI_COMMIT,
+                "geometry_type": geom.get("type"),
+                "geometry_sha256": hashlib.sha256(raw_geom).hexdigest(),
+                "wikidata_id": row.get("wikidata_id"), "wikipedia": row.get("wikipedia"),
+                "seshat_id": row.get("seshat_id"), "member_of": row.get("member_of")
+            }
+            db.execute("""INSERT OR REPLACE INTO places(
+                place_id,canonical_name,place_type,start_date,end_date,latitude,longitude,area,geometry,attributes,source_record_key
+            ) VALUES(?,?,?,?,?,?,?,?,?,?,?)""", (
+                place_id, name, "territorial-footprint",
+                str(row.get("from_year")) if row.get("from_year") is not None else None,
+                str(row.get("to_year")) if row.get("to_year") is not None else None,
+                lat, lon, row.get("area"), sqlite3.Binary(zlib.compress(raw_geom, 9)),
+                json.dumps(attrs, ensure_ascii=False), name
+            ))
+            db.execute("""INSERT OR REPLACE INTO place_polity(place_id,polity_id,relationship)
+                         VALUES(?,?,?)""", (place_id, stable, "spatial-footprint"))
+            db.execute("""INSERT OR REPLACE INTO provenance(
+                entity_type,entity_id,source_id,source_record_key,assertion,confidence,retrieved_at,notes
+            ) VALUES(?,?,?,?,?,?,?,?)""", (
+                "place", place_id, "cliopatria-pinned", name,
+                "Source-backed territorial footprint imported from Cliopatria POLITY geometry",
+                "source-defined", now(), f"Cliopatria commit {CLI_COMMIT}"
+            ))
+            places_created += 1
+
     db.execute("""UPDATE import_runs SET completed_at=?,status=?,records_created=?,records_updated=?,
                   records_rejected=?,notes=? WHERE run_id=?""",
                (now(),"completed",created,updated,0,
@@ -185,8 +245,8 @@ def main():
       "polity_features":len(polity_features),
       "unique_polities":len(names),
       "expected_unique_polities":EXPECTED,
-      "created":created,"updated":updated,"rejected":0,
-      "next_step":"Expansion 1: canonical places + geographic hierarchy, after baseline validation"
+      "created":created,"updated":updated,"places_created":places_created,"rejected":0,
+      "next_step":"Expansion 1 continuing: place hierarchy and non-polity geographic entities"
     }
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(report,indent=2))
