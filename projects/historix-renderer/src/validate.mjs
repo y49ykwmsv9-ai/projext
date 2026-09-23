@@ -1,0 +1,10 @@
+import fs from "node:fs";
+import path from "node:path";
+const root=path.resolve(process.cwd());
+const m=JSON.parse(fs.readFileSync(path.join(root,"config/documentary.json"),"utf8"));
+if(!m.title) throw new Error("Documentary title is missing");
+if(!(m.targetDurationMinutes>0)) throw new Error("targetDurationMinutes must be positive");
+if(!m.resolution?.width||!m.resolution?.height) throw new Error("Resolution is incomplete");
+const missing=m.dataRoots.map(p=>path.resolve(root,p)).filter(p=>!fs.existsSync(p));
+console.log(JSON.stringify({valid:missing.length===0,title:m.title,targetDurationMinutes:m.targetDurationMinutes,missingDataRoots:missing},null,2));
+if(missing.length) process.exit(1);
