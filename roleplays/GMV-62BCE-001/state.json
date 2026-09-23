@@ -1,30 +1,30 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 8,
-  "date": "-0062-08-31",
-  "treasury": 2550,
+  "round": 9,
+  "date": "-0062-09-30",
+  "treasury": 1550,
   "metrics": {
     "population": 108,
-    "currency": 2550,
+    "currency": 1550,
     "soldiers": 92,
     "taxation": 0,
-    "economy": 62,
+    "economy": 64,
     "agriculture": 53,
-    "infrastructure": 66,
-    "trade": 44,
-    "readiness": 79,
+    "infrastructure": 75,
+    "trade": 47,
+    "readiness": 82,
     "morale": 62,
-    "supply": 58,
-    "organization": 67,
-    "stability": 53,
-    "legitimacy": 57,
+    "supply": 59,
+    "organization": 70,
+    "stability": 55,
+    "legitimacy": 60,
     "exhaustion": 7,
     "technology": 22,
-    "intelligence": 52,
-    "relations": 71
+    "intelligence": 55,
+    "relations": 76
   },
   "relationships": {
-    "nearby-landowners": 14,
+    "nearby-landowners": 16,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
     "military-connections": 3,
@@ -32,7 +32,7 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 7
   },
-  "previous_action": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
+  "previous_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -40,6 +40,6 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius has converted the strategically placed lake-side ground into an operating but still modest trade and transport station. Improved roads, a working landing and small boats now provide both commercial revenue and an additional route for moving supplies and men. Resident craftsmen remain on the estate, and the forward holding continues to support the expedition. The port's success has increased Valerius's visibility among merchants, neighboring landowners and Roman political connections without granting him public office."
+    "campaign_development": "Valerius has established a formal road connecting his main estate to the lake trade port and forward base. Watchtowers now secure stretches of that road, while the port itself has separate defenses centered on a fortified gatehouse and a raised private citadel overlooking the landing. The armed force is being presented as protection for laborers, travelers, merchants and the estate's works. The port remains modest by Roman standards but is increasingly important as a commercial and logistical position."
   }
 }
