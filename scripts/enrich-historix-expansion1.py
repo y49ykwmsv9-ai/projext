@@ -34,10 +34,17 @@ def rel(c,ch,pa,typ,src,key):
 def main():
  c=sqlite3.connect(DB);c.executescript("""CREATE TABLE IF NOT EXISTS place_relations(relation_id INTEGER PRIMARY KEY AUTOINCREMENT,child_place_id TEXT NOT NULL,parent_place_id TEXT NOT NULL,relation_type TEXT NOT NULL,source_id TEXT NOT NULL,source_record_key TEXT,confidence TEXT,UNIQUE(child_place_id,parent_place_id,relation_type,source_id));CREATE INDEX IF NOT EXISTS idx_prc ON place_relations(child_place_id);CREATE INDEX IF NOT EXISTS idx_prp ON place_relations(parent_place_id);CREATE TABLE IF NOT EXISTS place_identity_audit(identity_key TEXT PRIMARY KEY,canonical_place_id TEXT NOT NULL,duplicate_count INTEGER NOT NULL,source_domains TEXT NOT NULL,status TEXT NOT NULL)""")
  c.execute("INSERT OR REPLACE INTO sources VALUES(?,?,?,?,?)",("natural-earth-pinned","Natural Earth 10m geographic reference layers","geospatial-dataset",BASE,json.dumps({"commit":NE,"layers":FILES})))
- for p,s,a in c.execute("select place_id,source_record_key,attributes from places where place_id like 'cliopatria-place:%'").fetchall():
+ # A temporal Cliopatria footprint is not a duplicate merely because it represents the same named polity.
+ # Identity therefore includes source record, geometry, and temporal interval.
+ for p,s,a,sd,ed,gblob in c.execute("select place_id,source_record_key,attributes,start_date,end_date,geometry from places where place_id like 'cliopatria-place:%'").fetchall():
   d=json.loads(a or "{}")
   if not d.get("geographic_identity_key"):
-   d["geographic_identity_key"]=f"territorial-footprint|Cliopatria|{s or p}"; d["source_id"]="Cliopatria"
+   geom_hash="nogeom"
+   if gblob:
+    try: geom_hash=hashlib.sha256(zlib.decompress(gblob)).hexdigest()
+    except Exception: pass
+   d["geographic_identity_key"]=f"territorial-footprint|Cliopatria|{s or p}|{geom_hash}|{sd or ''}|{ed or ''}"
+   d["source_id"]="Cliopatria"
    c.execute("update places set attributes=? where place_id=?",(json.dumps(d,ensure_ascii=False),p))
  pol={n:i for n,i in c.execute("select canonical_name,polity_id from polities")}; pn={norm(n):i for n,i in pol.items()}; member=0
  for p,n,a in c.execute("select place_id,canonical_name,attributes from places where place_id like 'cliopatria-place:%'").fetchall():
@@ -79,8 +86,8 @@ def main():
  for i in range(10000):
   z=temporal[(i*7919)%len(temporal)];sy,ey=yr(z[2]),yr(z[3]);qy=(sy+((ey-sy)//2) if sy is not None and ey is not None else sy if sy is not None else ey)
   if not c.execute("select 1 from places where canonical_name=? and (start_date is null or cast(start_date as integer)<=?) and (end_date is null or cast(end_date as integer)>=?) limit 1",(z[1],qy,qy)).fetchone():fails.append([z[0],z[1],qy])
- report={"status":"completed" if not(fails or orphan or orrel or miss or selfr) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
- c.execute("insert or replace into store_meta values('roadmap_status','Expansion 1 enrichment and validation completed')")
+ report={"status":"completed" if not(fails or orphan or orrel or miss or selfr or dupes) else "failed","natural_earth_commit":NE,"natural_earth_counts":counts,"cliopatria_memberof_place_links":member,"places_total":c.execute("select count(*) from places").fetchone()[0],"place_polity_links":c.execute("select count(*) from place_polity").fetchone()[0],"place_relations":c.execute("select count(*) from place_relations").fetchone()[0],"exact_identity_duplicate_excess":dupes,"orphan_parent_links":orphan,"orphan_relations":orrel,"missing_place_provenance":miss,"self_relations":selfr,"temporal_place_records":len(temporal),"place_time_lookups_checked":10000,"place_time_lookup_failures":fails[:20],"lookup_validation_passed":not fails,"generated_at":now()}
+ c.execute("insert or replace into store_meta values('roadmap_status',?)",("Expansion 1 enrichment and validation completed" if report["status"]=="completed" else "Expansion 1 validation failed",))
  c.commit();REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n");c.close();print(json.dumps(report,indent=2))
  if report["status"]!="completed":raise SystemExit(1)
 if __name__=="__main__":main()
