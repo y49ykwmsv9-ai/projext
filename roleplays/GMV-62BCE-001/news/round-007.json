@@ -1,0 +1,141 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 7,
+  "period": {
+    "start": "-0062-07-01",
+    "end": "-0062-07-31"
+  },
+  "player_action": "Following the recovery of the wounded, Gaius Maximus Valerius resumes his expedition and uses the extended pause to train with his troops, strengthening discipline and the bonds between the men and their commander.",
+  "events": [
+    {
+      "event_number": 1,
+      "date": "2 July 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Gaius Maximus Valerius",
+        "Expedition",
+        "Estate Forces"
+      ],
+      "headline": "VALERIUS RESUMES THE EXPEDITION AFTER THE WOUNDED RECOVER",
+      "article": "The men under Gaius Maximus Valerius have resumed their movement from the fortified holding after several weeks in which the wounded of the spring expedition were tended and brought back toward service. The column departed with its baggage and provisions in order, while the forward holding continued to serve as a place of rest and supply behind it. Valerius himself accompanied the leading part of the force rather than leaving the renewed expedition to a subordinate. Neighbors observed that the men appeared better ordered than when they first marched in April. The expedition is again directed toward the country in which the robber bands had previously operated. No public proclamation has been made concerning the final extent of the undertaking.",
+      "ledger": {
+        "currency": -150,
+        "readiness": 1,
+        "supply": -1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event_number": 2,
+      "date": "6 July 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Gaius Maximus Valerius",
+        "Troops",
+        "Training"
+      ],
+      "headline": "A HARDER DISCIPLINE IS TAUGHT IN THE SUMMER HEAT",
+      "article": "Before pressing farther into the countryside, Valerius spent several days drilling the men who had returned to his service. The exercises concerned the keeping of ranks, movement over broken ground, the handling of shields and spears, and the orderly changing of the men at the front. The commander took part in the exercises and corrected small failures of order himself rather than leaving every matter to his officers. Men who had fought in the spring engagements were used to instruct those with less experience. The work was strenuous, particularly under the summer heat, but the repeated exercises gave the force a more settled appearance. Those familiar with the expedition remarked that the men now moved with greater confidence in one another.",
+      "ledger": {
+        "currency": -100,
+        "readiness": 3,
+        "organization": 3,
+        "morale": 2,
+        "relations": 1
+      }
+    },
+    {
+      "event_number": 3,
+      "date": "10 July 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Scouts",
+        "Expedition",
+        "Bandits"
+      ],
+      "headline": "SCOUTS TRACE THE OLD ROBBERS' ROADS",
+      "article": "Scouts sent ahead of Valerius's column have found several tracks leading away from the roads used during the earlier fighting. The signs include recently disturbed earth, cut branches and the remains of temporary shelters in country familiar to the expedition. The tracks are too scattered to establish the strength of the men who made them, and the scouts have not claimed to have found the whole band. Valerius has therefore kept his men together while small parties examine the approaches. The information has nevertheless given the expedition a clearer understanding of the ground through which it is moving. Several of the tracks lead toward country already known to local cultivators as difficult ground for ordinary travel.",
+      "ledger": {
+        "intelligence": 2,
+        "organization": 1,
+        "readiness": 1
+      }
+    },
+    {
+      "event_number": 4,
+      "date": "15 July 62 BCE",
+      "type": "CONNECTED",
+      "tags": [
+        "Local Cultivators",
+        "Expedition",
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "COUNTRY PEOPLE OFFER GUIDANCE TO THE RETURNING FORCE",
+      "article": "Several cultivators from settlements near the expedition's route have spoken with men attached to Valerius's column. They described paths that are seldom used by carts and pointed out places where water may be found without returning to the main road. Their knowledge appears to have been gathered through ordinary travel and work in the district rather than through any organized military service. Valerius's men have taken note of the information and have continued to question residents about the movements of suspicious strangers. The exchanges have been conducted cautiously, for the countryside has reason to be wary of armed parties. Still, the willingness of some inhabitants to speak with the expedition suggests that Valerius's name is becoming familiar beyond the immediate estate lands.",
+      "ledger": {
+        "relations": 2,
+        "legitimacy": 1,
+        "intelligence": 1
+      }
+    },
+    {
+      "event_number": 5,
+      "date": "20 July 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Expedition",
+        "Bandits",
+        "Forward Holding"
+      ],
+      "headline": "AN ABANDONED ROBBERS' CAMP IS FOUND BEYOND THE OLD ROUTE",
+      "article": "Men searching a wooded tract beyond one of the roads used in the spring have found a small camp recently deserted by its occupants. The place contained rough shelters, cooking remains and signs that men had stayed there for some time, but there was no company waiting when Valerius's men arrived. The camp was examined and the surrounding ground searched before the expedition moved onward. No reliable account has yet established where the occupants have gone. The discovery has nevertheless provided the expedition with another indication that the disorder which troubled the estates was not confined to a single road. Valerius has ordered the information carried back to the forward holding so that the routes already examined can be compared with the new findings.",
+      "ledger": {
+        "intelligence": 2,
+        "readiness": 1
+      }
+    },
+    {
+      "event_number": 6,
+      "date": "25 July 62 BCE",
+      "type": "CONNECTED",
+      "tags": [
+        "Marcus Tullius Cicero",
+        "Roman Politics",
+        "Marcus Claudius Marcellus"
+      ],
+      "headline": "ROMAN POLITICAL NEWS CONTINUES TO CIRCULATE AMONG THE ESTATES",
+      "article": "News from Rome has reached the district through merchants and men accustomed to carrying letters between estates. Marcus Tullius Cicero, who held the consulship in the previous year, remains a prominent subject of conversation as the consequences of the Catilinarian conspiracy continue to occupy Roman political discussion. Such affairs are distant from Valerius's present expedition, yet landowners with connections beyond the district continue to follow them closely. The same circles that have previously taken notice of Valerius's security work have begun to ask how his renewed expedition is proceeding. No new office or public command has been offered to him, and his present authority remains tied to the men and property under his own influence. Nevertheless, the combination of military experience and growing local connections has made his activities increasingly noticeable.",
+      "ledger": {
+        "relations": 2,
+        "intelligence": 1,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event_number": 7,
+      "date": "31 July 62 BCE",
+      "type": "WORLD",
+      "tags": [
+        "Rome",
+        "Gaius Julius Caesar",
+        "Marcus Tullius Cicero"
+      ],
+      "headline": "LOCAL NEWS: ROME REMAINS RESTLESS WHILE THE EXPEDITION MOVES AGAIN",
+      "article": "Across the wider Roman world, attention remains fixed upon the political consequences of the disturbances of the previous year and upon the conduct of leading men in the Republic. Cicero's public career continues to attract discussion after his consulship, while Gaius Julius Caesar has also become a subject of frequent political conversation following his recent office and legal affairs. In the countryside around Valerius's estate, the more immediate concern is quieter: his expedition has resumed, his wounded have returned toward service, and his men have spent part of the summer training together. The new forward holding continues to serve as the expedition's rear position, with its roads, waterways and workshops growing more useful by the month. The lake-side land remains undeveloped as a commercial port, though its position continues to attract attention from those considering future trade. For the present, Valerius's men are back in the field, and the countryside waits to see whether the renewed search will bring the remaining robbers to account.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ],
+  "running_total": {
+    "currency": -250,
+    "readiness": 7,
+    "organization": 4,
+    "morale": 2,
+    "supply": -1,
+    "exhaustion": 1,
+    "intelligence": 7,
+    "relations": 5,
+    "legitimacy": 2
+  }
+}
