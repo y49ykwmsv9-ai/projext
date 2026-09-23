@@ -1,33 +1,33 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 14,
-  "date": "-0061-02-28",
-  "treasury": 775,
+  "round": 15,
+  "date": "-0061-03-31",
+  "treasury": 850,
   "wealth_accounts": {
-    "public": 1842,
-    "private": 83,
+    "public": 1968,
+    "private": 97,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 130,
-    "last_round_private_transfer": 13
+    "last_round_net_public_profit": 140,
+    "last_round_private_transfer": 14
   },
   "metrics": {
     "population": 119,
-    "currency": 775,
-    "soldiers": 78,
+    "currency": 850,
+    "soldiers": 71,
     "taxation": 0,
-    "economy": 85,
+    "economy": 87,
     "agriculture": 56,
     "infrastructure": 85,
-    "trade": 82,
-    "readiness": 94,
-    "morale": 71,
-    "supply": 74,
+    "trade": 86,
+    "readiness": 100,
+    "morale": 81,
+    "supply": 82,
     "organization": 100,
-    "stability": 74,
-    "legitimacy": 76,
-    "exhaustion": 13,
+    "stability": 82,
+    "legitimacy": 79,
+    "exhaustion": 21,
     "technology": 27,
-    "intelligence": 81,
+    "intelligence": 98,
     "relations": 100
   },
   "relationships": {
@@ -39,7 +39,7 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius formally incorporates the newly secured territories and captured winter-pass holding into his estate, establishing recognized boundaries, appointing local administration, regularizing obligations and connecting the new lands to the existing estate, road and lake-port system.",
+  "previous_action": "Gaius Maximus Valerius leads his men onto the trail of the organized bandits identified during the earlier expedition. His stated objective is to destroy the remaining organized bandit force in the region and bring the expedition to an end. The column advances with the discipline, physical conditioning and unusually reliable supply organization developed throughout the campaign.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -49,6 +49,6 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "The winter-pass holding captured in January has been formally incorporated into Valerius's estate. Its boundaries, productive resources, households, roads, stores and defensive works are now recorded under estate administration, with the holding linked to the established road and lake-port network. Local administration has begun, while Valerius remains in the field. The estate now controls a larger and more interconnected territorial base."
+    "campaign_development": "Valerius led the expedition back onto the trail of the organized bandit network. After locating its remaining encampment, his force defeated the organized band in a major final action, dismantled its stores and command structure, and began the return march. The campaign's military objective has been substantially fulfilled. The estate, incorporated winter holding, road and lake port remain under administration while the expedition returns."
   }
 }
