@@ -1,45 +1,45 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 12,
-  "date": "-0062-12-31",
-  "treasury": 850,
+  "round": 13,
+  "date": "-0061-01-31",
+  "treasury": 1030,
   "wealth_accounts": {
-    "public": 1505,
-    "private": 45,
+    "public": 1725,
+    "private": 70,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 250,
     "last_round_private_transfer": 25
   },
   "metrics": {
     "population": 113,
-    "currency": 850,
-    "soldiers": 92,
+    "currency": 1030,
+    "soldiers": 78,
     "taxation": 0,
-    "economy": 79,
+    "economy": 82,
     "agriculture": 53,
-    "infrastructure": 79,
-    "trade": 74,
-    "readiness": 85,
-    "morale": 64,
-    "supply": 64,
-    "organization": 86,
-    "stability": 64,
-    "legitimacy": 66,
-    "exhaustion": 8,
+    "infrastructure": 82,
+    "trade": 78,
+    "readiness": 93,
+    "morale": 70,
+    "supply": 72,
+    "organization": 100,
+    "stability": 68,
+    "legitimacy": 70,
+    "exhaustion": 15,
     "technology": 27,
-    "intelligence": 64,
-    "relations": 92
+    "intelligence": 77,
+    "relations": 99
   },
   "relationships": {
     "nearby-landowners": 18,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
-    "military-connections": 3,
+    "military-connections": 4,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius continues administering his estate, road, lake port and commercial accounts while personally leading the ongoing expedition. Regular road patrols continue, dispatches for skilled shipwrights and sailors remain active, the private commercial fleet is developed within Roman law, commercial receipts are collected and divided between the main estate and port, and the expedition remains under Valerius's direction.",
+  "previous_action": "Gaius Maximus Valerius continues administering his estate while personally leading the expedition into its next major phase. The force advances through difficult winter country, encounters dangerous and unexpected opposition, and ultimately secures a materially stronger position, with the expedition's gains substantially exceeding its losses.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -48,6 +48,6 @@
       "Quintus Caecilius Metellus Celer",
       "Gnaeus Pompeius Magnus"
     ],
-    "campaign_development": "Valerius continues to administer a functioning estate, road, defended lake port and forward holding while personally leading the ongoing expedition. Regular road patrols remain active. Skilled shipwrights and sailors have begun arriving through the dispatch network, and small commercial craft are being tested. Commercial reserves remain decentralized between the main estate and port, with a separate private reserve receiving 10% of realized net public commercial profit each round."
+    "campaign_development": "The expedition has entered a new phase. A winter ambush caused casualties, but Valerius held the column together, pursued the attackers to a fortified store-yard, and captured the position in a major winter action. The captured depot provides supplies, a secure foothold and control of a useful pass. The estate, road and lake port continue operating under separate public and private accounts while Valerius remains in the field."
   }
 }
