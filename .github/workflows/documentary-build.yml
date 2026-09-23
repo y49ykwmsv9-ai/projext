@@ -16,11 +16,11 @@ on:
 
 jobs:
   render-reconquista:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 360
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install free rendering tools
         run: |
