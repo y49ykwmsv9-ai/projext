@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.4.0",
+  "database": "HISTORIX",
+  "kind": "polity_enrichment",
+  "required": [
+    "id",
+    "identity",
+    "chronology",
+    "geography",
+    "status",
+    "source_links",
+    "evidence",
+    "uncertainty",
+    "editorial"
+  ],
+  "rules": [
+    "Stable id must equal the polity id already referenced by HISTORIX.",
+    "Preserve distinct historical polities even when names or territories overlap.",
+    "Do not mark Cliopatria identity as resolved without exact source-name verification.",
+    "Factual additions require source_ids and confidence."
+  ]
+}
