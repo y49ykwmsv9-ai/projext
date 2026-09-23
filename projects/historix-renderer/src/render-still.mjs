@@ -8,7 +8,7 @@ const scene = JSON.parse(fs.readFileSync(scenePath, "utf8"));
 // Resolve repository-relative data from the scene location, not process.cwd().
 // GitHub Actions checks the repository out at /home/runner/work/projext/projext,
 // while this renderer lives two levels below the repository root.
-const repoRoot = path.resolve(path.dirname(scenePath), "../..");
+const repoRoot = path.resolve(path.dirname(scenePath), "../../..");
 const csvPath = path.join(repoRoot, "data/historical-polities-since-1000-bce.csv");
 if (!fs.existsSync(csvPath)) {
   throw new Error(`Bundled historical database not found: ${csvPath}`);
