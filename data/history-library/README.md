@@ -13,7 +13,7 @@ The primary unit is **polity**, not the modern nation-state. This preserves king
 - `catalog.json` - lightweight lookup index
 - `schema.json` - canonical resource schema
 - `sources.json` - provenance and licensing registry
-- `polities/` - one resource per polity
+- `polities/` - polity resources and the HISTORIX 1.4 referenced-polity layer
 - `events/` - event resources
 - `people/` - rulers and people
 - `places/` - cities, sites, regions and infrastructure
@@ -26,6 +26,12 @@ The browser loads only the records required for the current simulation date, map
 ## Historical scope
 
 The expansion pipeline uses the existing project data plus Cliopatria/Seshat-linked material and other compatible historical datasets. Cliopatria covers worldwide polities, political groups, events and rulers from 3400 BCE to 2024 CE and currently describes more than 1,600 political entities with roughly 14,000 temporal/spatial records.
+
+## HISTORIX 1.4 polity layer
+
+HISTORIX 1.4 materializes every unique polity referenced by the curated HISTORIX graph into `data/history-library/polities/historix-linked.json`. It preserves the existing stable IDs and historical distinctions. The Cliopatria baseline remains a separate broad dataset; exact identity matching is explicitly tracked as unresolved until verified.
+
+To modify one polity, edit its object by stable `id`, add source-backed fields, and run the 1.4 validator.
 
 ## Numerical policy
 
