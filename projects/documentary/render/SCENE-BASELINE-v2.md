@@ -28,6 +28,31 @@ A scene must feel like documentary footage, not a static SVG with animated decor
 14. Generated imagery is never historical evidence. Historical facts remain data-driven.
 15. Every scene passes the visual QA gate before production status.
 
+## Historical geometry integrity
+
+Every geographic object named by a scene must encompass its historically appropriate geographic geometry at the scene date and viewing scale. This is a hard production requirement, not a stylistic preference.
+
+### Political geography
+- Major countries, kingdoms, emirates, counties, provinces, regions, and other territorial entities use historically appropriate boundary geometry from the authoritative geographic data layer.
+- Never represent a major polity with a generic six-sided polygon, rectangle, circle, rounded blob, or placeholder silhouette.
+- Simplification for performance is permitted only when it preserves recognizable shape, relative extent, adjacency, coastline, and historically relevant boundaries at the current scale.
+- Political fills must conform to the underlying geographic surface rather than behaving like stickers placed over it.
+
+### Physical geography
+- Coastlines, islands, rivers, lakes, mountain systems, passes, straits, and other physical features use geometry appropriate to their actual geographic form and scene scale.
+- Internal lines are permitted only when they correspond to an actual geographic or historical feature. Decorative vertical, horizontal, radial, or random linework is prohibited.
+- Routes must remain spatially grounded in the geography they traverse. They must not float across unrelated terrain or use arbitrary straight-line shortcuts when the historical route is known or reconstructed.
+
+### Settlements and events
+- Cities, ports, fortifications, battlefields, sieges, crossings, and other point or area events must be anchored to their historical geographic location or explicitly marked approximate/reconstructed location.
+- A marker must not substitute for the geographic context needed to understand the event.
+
+### Geometry quality test
+A viewer should be able to recognize the represented place from its geographic silhouette and spatial relationships before reading the label. If a major object looks like a generic diagram, it fails regardless of how polished the styling is.
+
+### Placeholder-geography prohibition
+A scene fails if major geography is rendered as a low-complexity placeholder with decorative internal detail, if political borders float independently from the underlying geography, if rivers/roads ignore terrain, or if unrelated geographic features are merged into one synthetic shape.
+
 ## Canonical layer stack
 
 1. Atmosphere, sky, sea, haze and seasonal lighting
