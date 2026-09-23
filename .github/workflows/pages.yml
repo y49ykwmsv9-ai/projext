@@ -16,13 +16,33 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - name: Install rendering dependencies
+        run: |
+          set -e
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          npm init -y
+          npm install --no-save playwright@latest
+          npx playwright install --with-deps chromium
+
       - uses: actions/configure-pages@v5
+
+      - name: Render education v1
+        run: |
+          SCENE_FILE=scene-711-education-v1.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
+
+      - name: Render education v2
+        run: |
+          SCENE_FILE=scene-711-education-v2.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
+
       - name: Assemble site
         run: |
           set -e
@@ -39,18 +59,24 @@ jobs:
           cp projects/documentary/README.md site/documentary/README.md
           cp projects/documentary/HISTORIX-CLIOPATRIA-DESIGN-PASS.md site/documentary/HISTORIX-CLIOPATRIA-DESIGN-PASS.md
           cp projects/documentary/data/cliopatria-plus/reconquista-atlas.json site/documentary/reconquista-atlas.json
-          printf '%s\\n' "$GITHUB_SHA" > site/BUILD_COMMIT.txt
+          cp projects/documentary/build/sample-scene-711-education-v1/scene-711-education-v1.mp4 site/documentary/reconquista-711-education-v1.mp4
+          cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4 site/documentary/reconquista-711-education-v2.mp4
+          printf '%s\n' "$GITHUB_SHA" > site/BUILD_COMMIT.txt
           touch site/.nojekyll
-      - name: Verify
+
+      - name: Verify published video assets
         run: |
           set -e
-          test -s site/index.html
           test -s site/documentary/education-v1-v2-watch.html
-          test -s site/documentary/scene-711-education-v1.html
-          test -s site/documentary/scene-711-education-v2.html
+          test -s site/documentary/reconquista-711-education-v1.mp4
+          test -s site/documentary/reconquista-711-education-v2.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 site/documentary/reconquista-711-education-v1.mp4
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 site/documentary/reconquista-711-education-v2.mp4
+
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
