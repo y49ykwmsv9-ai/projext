@@ -156,7 +156,7 @@ for (const c of manifest.chapters) {
         `[moving]drawbox=x='${bx}-(${q(String(24))}+10*sin(2*PI*t))*0.5':y='${by}-(${q(String(24))}+10*sin(2*PI*t))*0.5':w='${q(String(24))}+10*sin(2*PI*t)':h='${q(String(24))}+10*sin(2*PI*t)':color=#9b3d2f@0.58:t=fill[pulsed]`,
         `[pulsed]drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf:text='${q(overlayInfo.spec.routeLabel)}':fontcolor=#f6ecd8:fontsize=18:box=1:boxcolor=black@0.45:boxborderw=8:x=55:y=120[comp]`
       ].join(';');
-      run('ffmpeg', ['-y', '-loop', '1', '-i', overlayInfo.spec.bg, '-i', wav, '-loop', '1', '-i', overlayInfo.png, '-f', 'lavfi', '-i', ambience, '-t', String(sec), '-filter_complex', `${mapFilter};[1:a]aresample=22050,apad=pad_dur=90[n];[3:a]volume=0.16[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]`, '-map', '[comp]', '-map', '[aout], '-r', '24', '-c:v', 'libx264', '-preset', 'veryfast', '-tune', 'stillimage', '-b:v', '950k', '-maxrate', '1100k', '-bufsize', '2200k', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', mp4]);
+      run('ffmpeg', ['-y', '-loop', '1', '-i', overlayInfo.spec.bg, '-i', wav, '-loop', '1', '-i', overlayInfo.png, '-f', 'lavfi', '-i', ambience, '-t', String(sec), '-filter_complex', `${mapFilter};[1:a]aresample=22050,apad=pad_dur=90[n];[3:a]volume=0.16[a];[n][a]amix=inputs=2:duration=first:dropout_transition=2[aout]`, '-map', '[comp]', '-map', '[aout]', '-r', '24', '-c:v', 'libx264', '-preset', 'veryfast', '-tune', 'stillimage', '-b:v', '950k', '-maxrate', '1100k', '-bufsize', '2200k', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '96k', '-movflags', '+faststart', mp4]);
     } else {
       const filter = [
         'scale=1280:720:force_original_aspect_ratio=decrease',
