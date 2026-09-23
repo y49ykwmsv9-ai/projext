@@ -1,0 +1,50 @@
+{
+  "id": "iberia-0711-gibraltar",
+  "title": "711: The Crossing into Iberia",
+  "subtitle": "Tariq ibn Ziyad crosses the Strait of Gibraltar",
+  "period": {
+    "startYear": 711,
+    "endYear": 711,
+    "display": "Spring–summer 711"
+  },
+  "purpose": "Opening historical scene establishing the invasion that transformed Visigothic Iberia and later became the political background to the Reconquista.",
+  "visualModel": {
+    "type": "programmatic-sprite-map",
+    "projection": "stylized-iberian-map",
+    "layers": ["terrain", "water", "polity", "route", "army-sprites", "labels", "timeline", "source-card"]
+  },
+  "databaseBindings": {
+    "polities": [
+      {"id": "visigoths", "source": "data/historical-polities-since-1000-bce.csv"},
+      {"id": "andalus", "source": "data/historical-polities-since-1000-bce.csv"}
+    ],
+    "historicalGeographyModule": "engine/historical-geography.ts",
+    "historicalDatabase": "HISTORIX/CLIOPATRIA bridge"
+  },
+  "graph": {
+    "nodes": [
+      {"id": "tariq", "label": "Tariq ibn Ziyad", "type": "person"},
+      {"id": "gibraltar", "label": "Jabal Tariq / Gibraltar", "type": "place"},
+      {"id": "roderic", "label": "Roderic", "type": "person"},
+      {"id": "visigothic-kingdom", "label": "Visigothic Kingdom", "type": "polity"},
+      {"id": "cordoba", "label": "Córdoba", "type": "place"},
+      {"id": "toledo", "label": "Toledo", "type": "place"}
+    ],
+    "edges": [
+      {"from": "tariq", "to": "gibraltar", "relation": "commands_landing"},
+      {"from": "gibraltar", "to": "cordoba", "relation": "route"},
+      {"from": "cordoba", "to": "toledo", "relation": "advance"},
+      {"from": "roderic", "to": "visigothic-kingdom", "relation": "rules"}
+    ]
+  },
+  "historicalNotes": [
+    "Cambridge scholarship places Tariq ibn Ziyad's landing at Gibraltar in 711 and describes the subsequent campaign against the Visigothic kingdom.",
+    "The exact chronology and details of the conquest are partly dependent on later narrative sources, so the scene avoids presenting disputed details as certain."
+  ],
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "outputStem": "iberia-0711-gibraltar"
+  }
+}
