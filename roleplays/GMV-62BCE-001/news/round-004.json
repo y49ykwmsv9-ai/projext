@@ -1,0 +1,95 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 4,
+  "period": {
+    "start": "-0062-04-01",
+    "end": "-0062-04-30",
+    "display": "1 April 62 BCE – 30 April 62 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "restored_from_campaign_record": true,
+  "events": [
+    {
+      "event": 1,
+      "date": "-0062-04-08",
+      "type": "DIRECT",
+      "headline": "THE EXPEDITION ENTERS THE TROUBLED COUNTRY",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force"
+      ],
+      "article": "Valerius leads the armed company away from its estate and onto the roads where repeated reports of robbery have been gathered. The march is conducted with the watches, scouts and provisions prepared during the preceding months, while information from travelers and neighboring estates is used to guide the column. The first days of the expedition bring no certainty about where the principal band lies, and the men move carefully through country in which isolated farms and roads remain vulnerable. Valerius keeps the vanguard under his direct attention as the force begins operating beyond the immediate protection of the estate. The expedition has now become a sustained military undertaking rather than a local show of strength.",
+      "ledger": {
+        "currency": -250,
+        "readiness": 3,
+        "organization": 3,
+        "stability": 1,
+        "legitimacy": 1,
+        "intelligence": 6,
+        "relations": 5,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0062-04-16",
+      "type": "SPECIAL",
+      "headline": "THE BATTLE OF THE NARROW ROAD",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force"
+      ],
+      "article": "A band of armed robbers strikes the column where the road contracts between broken ground and a steep rise. The attack begins against the forward elements, forcing Valerius's men to compress their formation while the rear guards secure the baggage and animals. The fighting is close and confused, with the narrow ground preventing either side from deploying freely. Valerius keeps the center from breaking and orders the men at the rear to advance only after the attackers have committed themselves. After a hard struggle the bandits withdraw from the road, leaving the expedition in possession of the route but costing Valerius several men. The encounter gives the company its first serious test under sustained pressure since leaving the estate.",
+      "ledger": {
+        "soldiers": -5,
+        "organization": 1,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0062-04-24",
+      "type": "SPECIAL",
+      "headline": "THE BATTLE OF THE RIVER CROSSING",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force"
+      ],
+      "article": "Later in the month the expedition encounters another armed group attempting to contest a river crossing used by travelers and estate traffic. The attackers hold the opposite bank and make repeated efforts to disrupt the Roman advance while the baggage remains exposed behind the leading elements. Valerius orders the crossing secured in stages, keeping enough men together to prevent the force from being divided by the river. The fighting continues around the approaches to the water, where exhausted men struggle for footing and control of the crossing. Once the opposite bank is secured, the attackers retreat and the expedition continues its movement with the crossing in its possession. The victory costs additional lives and strains the column, but the men emerge with greater confidence in their ability to maintain formation during difficult operations.",
+      "ledger": {
+        "soldiers": -7,
+        "morale": 1,
+        "supply": 1,
+        "organization": 1,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0062-04-30",
+      "type": "WORLD",
+      "headline": "LOCAL NEWS: VALERIUS'S EXPEDITION HAS REACHED THE ROADS BEYOND HIS ESTATE",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force"
+      ],
+      "article": "By the end of April, word has spread among neighboring estates that Valerius's armed company is operating beyond its home territory. Reports describe two hard engagements and continued movement along roads troubled by robbery. The force has suffered losses, but remains in the field and has demonstrated that it can operate away from the estate's immediate defenses. Travelers and landowners now have a clearer sense that the expedition is intended to continue rather than end after a single encounter. The campaign has entered a more dangerous phase, with Valerius's men pursuing an organized problem rather than merely guarding their own property.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ],
+  "running_total": {
+    "currency": -250,
+    "soldiers": -12,
+    "readiness": 3,
+    "morale": 1,
+    "supply": 1,
+    "organization": 5,
+    "stability": 1,
+    "legitimacy": 1,
+    "exhaustion": 7,
+    "intelligence": 6,
+    "relations": 5
+  }
+}
