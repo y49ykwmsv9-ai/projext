@@ -34,9 +34,12 @@ def main():
     for relation in graph["relations"]:
         assert relation["id"] not in relation_ids, f"duplicate relation: {relation['id']}"
         relation_ids.add(relation["id"])
-        assert f"{relation['from_type']}:{relation['from_id']}" in records
+        assert relation["from_type"] in type_to_collection, f"unknown relation from_type: {relation['from_type']}"
+        assert f"{relation['from_type']}:{relation['from_id']}" in records, (
+            f"missing relation source: {relation['from_type']}:{relation['from_id']}"
+        )
         assert relation["to_type"] == "polity"
-        assert relation["to_id"]
+        assert relation["to_id"], f"empty polity target for relation {relation['id']}"
 
     counts = {
         "events": len(graph["events"]),
