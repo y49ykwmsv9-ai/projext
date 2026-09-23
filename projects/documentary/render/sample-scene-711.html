@@ -3,106 +3,172 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>711 CE · Crossing into Iberia · HISTORIX/CLIOPATRIA sample scene</title>
+<title>711 CE | Crossing into Iberia | HISTORIX / CLIOPATRIA Scene Baseline</title>
 <style>
-html,body{margin:0;height:100%;background:#10100d;color:#eee9dc;font-family:Georgia,serif}
-body{display:grid;place-items:center}
-.scene{width:min(100vw,1400px);aspect-ratio:16/9;position:relative;overflow:hidden;background:#d9c79f;box-shadow:0 20px 70px #000}
-svg{width:100%;height:100%;display:block}
+:root{--ink:#17140f;--paper:#cbb98b;--gold:#e6cc86;--fog:#e9dfc4}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#090b0b;color:var(--fog);font-family:Georgia,serif}
+body{display:grid;place-items:center}.scene{position:relative;width:min(100vw,1600px);aspect-ratio:16/9;overflow:hidden;background:#243f45;box-shadow:0 24px 90px #000}
+svg{position:absolute;inset:0;width:100%;height:100%;display:block}
 .hud{position:absolute;inset:0;pointer-events:none}
-.kicker{position:absolute;left:4.2%;top:5%;font:700 12px/1 system-ui;letter-spacing:.22em;color:#ead8a5}
-h1{position:absolute;left:4%;top:7%;margin:0;font-size:clamp(28px,4vw,60px);font-weight:500;text-shadow:0 3px 12px #0008}
-.caption{position:absolute;left:4%;bottom:9%;max-width:52%;padding:18px 22px;background:#111cdd0; background:linear-gradient(90deg,#111cdd0,#111cdd0)}
-.caption p{margin:0;font-size:clamp(14px,1.35vw,21px);line-height:1.45;text-shadow:0 2px 7px #000}
-.badge{position:absolute;right:4%;top:5%;font:700 10px system-ui;letter-spacing:.12em;padding:8px 10px;border:1px solid #e8d7aa88;background:#16130dcc}
-.source{position:absolute;right:4%;bottom:5%;font:10px system-ui;color:#eee8d2cc;text-align:right}
-.controls{position:absolute;left:50%;bottom:3%;transform:translateX(-50%);display:flex;gap:8px;pointer-events:auto}
-button{background:#17140fdd;color:#eee9dc;border:1px solid #d9c79f66;border-radius:5px;padding:7px 11px;cursor:pointer}
-button:hover{background:#2a2419}
-.route{stroke-dasharray:18 12;animation:dash 2.5s linear infinite}
-@keyframes dash{to{stroke-dashoffset:-60}}
-.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-in-out infinite}
-@keyframes pulse{50%{opacity:.35;transform:scale(1.25)}}
-.hidden{display:none}
+.kicker{position:absolute;left:4%;top:4.5%;font:700 11px system-ui;letter-spacing:.24em;color:#e8d9ae;text-transform:uppercase}
+h1{position:absolute;left:4%;top:7%;margin:0;font-size:clamp(30px,4.2vw,68px);font-weight:500;letter-spacing:-.02em;text-shadow:0 4px 18px #000b}
+.deck{position:absolute;left:4%;bottom:7%;width:min(560px,43%);padding:18px 22px 20px;border-left:2px solid #e6cc86;background:linear-gradient(90deg,#0a1110e8,#0a111080,transparent);text-shadow:0 2px 8px #000}
+.deck p{margin:0;font-size:clamp(13px,1.25vw,19px);line-height:1.48}
+.meta{position:absolute;right:3.5%;top:4.5%;width:265px;padding:12px 14px;background:#0a0d0ddd;border:1px solid #e6cc8644;font:10px/1.5 system-ui;letter-spacing:.08em}
+.meta b{color:#e6cc86}.legend{position:absolute;right:3.5%;bottom:7%;width:265px;padding:12px 14px;background:#0a0d0dc9;border-top:1px solid #e6cc8655;font:10px/1.5 system-ui}
+.controls{position:absolute;left:50%;bottom:2.2%;transform:translateX(-50%);display:flex;gap:8px;pointer-events:auto}
+button{background:#10130fdd;color:#eee4c7;border:1px solid #e6cc8666;border-radius:4px;padding:7px 12px;font:11px system-ui;cursor:pointer}
+button:hover{background:#272318}
+@keyframes route{to{stroke-dashoffset:-96}}.route{animation:route 3.2s linear infinite}
+@keyframes pulse{50%{opacity:.2;transform:scale(1.35)}}.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-in-out infinite}
+@keyframes sail{0%{transform:translateX(0)}100%{transform:translateX(18px)}}.fleet{animation:sail 5s ease-in-out infinite alternate}
+@keyframes drift{0%,100%{opacity:.18}50%{opacity:.34}}.mist{animation:drift 7s ease-in-out infinite}
 </style>
 </head>
 <body>
 <div class="scene">
-<svg viewBox="0 0 1600 900" role="img" aria-label="Cinematic historical atlas of the 711 CE crossing from North Africa into Iberia">
+<svg viewBox="0 0 1600 900" aria-label="Cinematic historical atlas reconstruction of the 711 CE crossing into Iberia">
 <defs>
- <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#355b63"/><stop offset="1" stop-color="#17353d"/></linearGradient>
- <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#cdbb8c"/><stop offset="1" stop-color="#a99368"/></linearGradient>
- <filter id="paper"><feTurbulence baseFrequency=".018" numOctaves="2" seed="8" result="n"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter>
- <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+ <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#496d72"/><stop offset=".52" stop-color="#294e55"/><stop offset="1" stop-color="#142e35"/></linearGradient>
+ <linearGradient id="land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8c493"/><stop offset=".55" stop-color="#b59c69"/><stop offset="1" stop-color="#806c4e"/></linearGradient>
+ <linearGradient id="north" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9b825b"/><stop offset="1" stop-color="#6f5b43"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f1d995" stop-opacity=".55"/><stop offset="1" stop-color="#f1d995" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity=".35"/></filter>
+ <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse"><circle cx="8" cy="17" r="1" fill="#fff" opacity=".06"/><circle cx="43" cy="53" r="1" fill="#000" opacity=".07"/><path d="M3 70l20-8M50 10l15-4" stroke="#fff" opacity=".025"/></pattern>
+ <clipPath id="iberiaClip"><path d="M235 105L380 82 505 61 655 86 790 111 930 91 1060 112 1185 151 1295 205 1382 293 1430 360 1405 438 1355 500 1292 542 1238 585 1180 634 1118 693 1042 730 956 756 872 786 794 771 718 741 647 712 580 668 510 636 450 588 393 548 350 490 316 433 286 375 262 310 238 247Z"/></clipPath>
 </defs>
+
+<!-- 1. ATMOSPHERE / SEA -->
 <rect width="1600" height="900" fill="url(#sea)"/>
-<path d="M0 0H1600V250 C1320 220 1190 275 1000 245 C780 210 600 250 430 210 C250 170 120 230 0 205Z" fill="#223f45" opacity=".45"/>
-<!-- Iberia silhouette, simplified documentary geometry -->
-<path d="M245 112 L510 72 L785 118 L1040 88 L1290 185 L1415 325 L1350 505 L1190 610 L1060 735 L820 790 L650 735 L525 650 L420 565 L330 430 L270 285Z" fill="url(#land)" stroke="#ead9ad" stroke-width="4" filter="url(#paper)"/>
-<!-- North Africa -->
-<path d="M0 720 L210 660 L410 635 L600 690 L800 675 L1020 720 L1280 700 L1600 735V900H0Z" fill="#8f7855" opacity=".9"/>
-<!-- Strait -->
-<path d="M0 570 C230 515 350 535 505 570 C630 600 730 605 820 570 L820 650 C690 680 565 650 430 625 C270 595 130 620 0 655Z" fill="url(#sea)"/>
-<!-- terrain relief -->
-<g fill="none" stroke="#756546" opacity=".45">
-<path d="M300 190 C480 145 610 170 750 145 S1030 145 1220 245"/>
-<path d="M285 235 C470 195 610 215 760 190 S1030 190 1255 275"/>
-<path d="M330 290 C510 245 640 270 780 235 S1060 240 1310 315"/>
-<path d="M370 345 C520 310 650 335 790 300 S1040 300 1320 365"/>
-<path d="M420 405 C570 370 680 395 805 355 S1050 355 1300 415"/>
-<path d="M480 470 C620 435 720 455 830 415 S1050 420 1230 465"/>
-<path d="M540 530 C660 500 750 515 860 480 S1030 480 1160 520"/>
-<path d="M620 590 C720 560 805 575 900 545 S1040 550 1090 575"/>
+<ellipse cx="760" cy="350" rx="700" ry="250" fill="#9bb0a6" opacity=".08" filter="url(#soft)" class="mist"/>
+<path d="M0 590C260 560 440 575 620 610S1000 650 1600 585V900H0Z" fill="#10282e" opacity=".3"/>
+<g fill="none" stroke="#b5d0c8" opacity=".12">
+ <path d="M0 620Q220 590 430 625T850 620T1250 630T1600 610"/>
+ <path d="M0 665Q220 635 430 670T850 665T1250 675T1600 655"/>
+ <path d="M0 710Q220 680 430 715T850 710T1250 720T1600 700"/>
 </g>
-<!-- mountain chains -->
-<g fill="#6f624b" opacity=".55">
-<path d="M330 190 l90-100 70 100z"/><path d="M420 190 l95-120 75 120z"/><path d="M1040 230 l90-120 90 120z"/><path d="M1120 310 l120-145 105 145z"/>
+
+<!-- 2. NORTH AFRICA -->
+<path d="M0 700C150 665 290 641 435 650C560 658 680 699 815 685C980 667 1120 690 1280 675C1400 664 1510 686 1600 700V900H0Z" fill="url(#north)"/>
+<path d="M0 735C230 692 390 708 550 730S850 748 1010 715S1330 710 1600 745V900H0Z" fill="#594b39" opacity=".55"/>
+<g fill="none" stroke="#d1b77b" opacity=".18">
+ <path d="M20 760Q220 710 430 750T820 760T1200 735T1580 770"/>
+ <path d="M40 805Q220 760 420 795T800 810T1200 775T1560 815"/>
 </g>
-<!-- political zones, intentionally restrained and tied to temporal layer -->
-<path d="M255 115 L510 72 L785 118 L760 240 L560 280 L400 250Z" fill="#75634b" opacity=".13"/>
-<path d="M760 240 L1040 88 L1290 185 L1350 505 L1190 610 L1010 560 L850 480Z" fill="#5e715c" opacity=".12"/>
-<!-- campaign route, reconstructed -->
-<path id="route" class="route" d="M425 705 C500 640 575 600 650 585 C720 570 735 535 760 485 C785 435 805 390 830 335 C850 300 865 260 875 220" fill="none" stroke="#e7d08b" stroke-width="9" stroke-linecap="round"/>
-<path d="M425 705 C500 640 575 600 650 585 C720 570 735 535 760 485 C785 435 805 390 830 335 C850 300 865 260 875 220" fill="none" stroke="#241f15" stroke-width="2" opacity=".8"/>
-<!-- landing marker -->
-<circle cx="425" cy="705" r="20" fill="#e7d08b" opacity=".22" class="pulse"/>
-<circle cx="425" cy="705" r="8" fill="#f1d991"/>
-<!-- Guadalete marker: approximate/contested -->
-<circle cx="785" cy="440" r="19" fill="none" stroke="#e8d7aa" stroke-width="3" stroke-dasharray="5 5"/>
-<circle cx="785" cy="440" r="7" fill="#d9a56c"/>
-<!-- Córdoba -->
-<circle cx="875" cy="300" r="8" fill="#eee1b8"/>
-<text x="895" y="294" fill="#f1e5c3" font-size="24" font-family="Georgia">Córdoba</text>
-<!-- Toledo -->
-<circle cx="1060" cy="190" r="8" fill="#eee1b8"/>
-<text x="1080" y="185" fill="#f1e5c3" font-size="24" font-family="Georgia">Toledo</text>
-<!-- Gibraltar -->
-<circle cx="450" cy="565" r="7" fill="#eee1b8"/>
-<text x="470" y="560" fill="#f1e5c3" font-size="22" font-family="Georgia">Gibraltar</text>
-<!-- labels -->
-<text x="150" y="825" fill="#e9ddbd" font-size="21" font-family="system-ui" letter-spacing="4">NORTH AFRICA</text>
-<text x="980" y="770" fill="#5c503c" font-size="30" font-family="Georgia" opacity=".7">IBERIAN PENINSULA</text>
-<text x="690" y="470" fill="#f0e2bf" font-size="17" font-family="system-ui" letter-spacing="2">GUADALETE · APPROXIMATE SITE</text>
-<!-- date rail -->
-<g transform="translate(1080 835)">
-<line x1="0" y1="0" x2="420" y2="0" stroke="#ead9ad" stroke-width="2" opacity=".7"/>
-<circle cx="0" cy="0" r="5" fill="#ead9ad"/><circle cx="210" cy="0" r="5" fill="#ead9ad"/><circle cx="420" cy="0" r="7" fill="#ead9ad"/>
-<text x="0" y="28" fill="#eee2c3" font-size="16">710</text><text x="194" y="28" fill="#eee2c3" font-size="16">711</text><text x="398" y="28" fill="#eee2c3" font-size="16">712</text>
+
+<!-- 3. IBERIA -->
+<path d="M235 105L380 82 505 61 655 86 790 111 930 91 1060 112 1185 151 1295 205 1382 293 1430 360 1405 438 1355 500 1292 542 1238 585 1180 634 1118 693 1042 730 956 756 872 786 794 771 718 741 647 712 580 668 510 636 450 588 393 548 350 490 316 433 286 375 262 310 238 247Z" fill="url(#land)" stroke="#ead8a8" stroke-width="4" filter="url(#shadow)"/>
+
+<!-- 4. RELIEF MODEL -->
+<g clip-path="url(#iberiaClip)" fill="none" stroke="#665941">
+ <path d="M170 170Q350 120 530 175T900 145T1240 200T1490 170" stroke-width="5" opacity=".22"/>
+ <path d="M180 210Q360 160 540 215T900 185T1240 240T1490 210" stroke-width="4" opacity=".24"/>
+ <path d="M190 255Q360 205 540 260T900 230T1240 285T1490 255" stroke-width="3" opacity=".26"/>
+ <path d="M205 305Q370 255 555 305T910 280T1250 330T1480 300" stroke-width="3" opacity=".28"/>
+ <path d="M225 360Q390 315 570 360T925 335T1270 380T1470 350" stroke-width="2.5" opacity=".3"/>
+ <path d="M250 415Q410 370 590 415T940 390T1290 430T1440 410" stroke-width="2.5" opacity=".28"/>
+ <path d="M280 470Q440 430 610 470T955 445T1300 485T1410 465" stroke-width="2" opacity=".25"/>
+ <path d="M320 525Q470 485 635 525T970 500T1300 535T1370 520" stroke-width="2" opacity=".23"/>
+ <path d="M365 575Q500 540 660 575T990 550T1270 580" stroke-width="2" opacity=".2"/>
 </g>
+
+<!-- mountain systems -->
+<g fill="#665b46" opacity=".5">
+ <path d="M280 175l80-112 72 112z"/><path d="M365 175l105-132 88 132z"/>
+ <path d="M520 175l88-105 75 105z"/><path d="M1020 185l90-120 96 120z"/>
+ <path d="M1110 235l120-155 115 155z"/><path d="M1210 290l100-120 105 120z"/>
+ <path d="M610 600l110-145 105 145z"/><path d="M760 650l100-130 100 130z"/>
+</g>
+<g fill="#e9ddba" opacity=".45"><path d="M350 76l10 35h-24z"/><path d="M1450 214l9 32h-23z"/><path d="M820 540l9 29h-20z"/></g>
+
+<!-- 5. RIVERS -->
+<g fill="none" stroke="#52777a" stroke-width="7" opacity=".8">
+ <path d="M535 185C590 240 610 300 585 365C565 420 580 500 640 555"/>
+ <path d="M1005 170C950 230 925 300 950 360C970 415 950 480 900 530C870 565 840 590 815 620"/>
+ <path d="M1210 250C1145 295 1120 350 1140 405C1160 460 1130 515 1080 555"/>
+ <path d="M420 330C490 350 545 385 585 425"/>
+</g>
+<g fill="none" stroke="#8cb0a7" stroke-width="2" opacity=".7">
+ <path d="M535 185C590 240 610 300 585 365C565 420 580 500 640 555"/>
+ <path d="M1005 170C950 230 925 300 950 360C970 415 950 480 900 530C870 565 840 590 815 620"/>
+</g>
+
+<!-- 6. TEMPORAL POLITICAL GEOGRAPHY -->
+<path d="M240 105L655 86 790 111 760 280 620 330 465 300 350 245Z" fill="#6d5946" opacity=".12"/>
+<path d="M790 111L1060 112 1185 151 1295 205 1382 293 1405 438 1292 542 1180 634 1042 730 872 786 760 700 900 580 950 420Z" fill="#4e6657" opacity=".13"/>
+<g stroke="#f0dfaf" stroke-width="2" opacity=".28" stroke-dasharray="10 12">
+ <path d="M760 112V700"/><path d="M950 120V610"/><path d="M1185 150L900 580"/>
+</g>
+
+<!-- 7. SETTLEMENTS -->
+<g font-family="Georgia" fill="#f3e6c1">
+ <g><circle cx="450" cy="570" r="6"/><text x="465" y="564" font-size="22">Gibraltar</text></g>
+ <g><circle cx="735" cy="350" r="7"/><text x="750" y="344" font-size="24">Córdoba</text></g>
+ <g><circle cx="1030" cy="205" r="7"/><text x="1046" y="199" font-size="24">Toledo</text></g>
+ <g><circle cx="580" cy="425" r="5"/><text x="594" y="420" font-size="19">Seville</text></g>
+ <g><circle cx="1190" cy="350" r="5"/><text x="1204" y="345" font-size="19">Valencia</text></g>
+</g>
+<g fill="#efe2bd" opacity=".7">
+ <circle cx="520" cy="315" r="3"/><circle cx="650" cy="250" r="3"/><circle cx="825" cy="270" r="3"/><circle cx="910" cy="405" r="3"/><circle cx="1110" cy="500" r="3"/><circle cx="1250" cy="470" r="3"/><circle cx="700" cy="520" r="3"/>
+</g>
+
+<!-- 8. FORTIFICATION ICONS -->
+<g fill="none" stroke="#ead8a8" stroke-width="3">
+ <path d="M1020 190v-18l7 7 7-7v18M1016 190h22"/>
+ <path d="M575 415v-15l6 5 6-5v15M571 415h20"/>
+ <path d="M1185 340v-15l6 5 6-5v15M1180 340h22"/>
+</g>
+
+<!-- 9. RECONSTRUCTED CAMPAIGN ROUTE -->
+<path class="route" d="M410 718C445 680 470 635 450 570C500 525 550 475 580 425C630 385 690 365 735 350C780 325 805 280 850 250C920 225 970 210 1030 205" fill="none" stroke="#17130d" stroke-width="14" stroke-linecap="round" opacity=".7"/>
+<path class="route" d="M410 718C445 680 470 635 450 570C500 525 550 475 580 425C630 385 690 365 735 350C780 325 805 280 850 250C920 225 970 210 1030 205" fill="none" stroke="#e7cf84" stroke-width="8" stroke-linecap="round" stroke-dasharray="24 14"/>
+
+<!-- 10. FLEET -->
+<g class="fleet" fill="#17140f" stroke="#e6cc86" stroke-width="2">
+ <path d="M360 690l34 0-9 12h-18z"/><path d="M388 678l0 12"/>
+ <path d="M405 705l38 0-10 13h-19z"/><path d="M435 691l0 14"/>
+ <path d="M450 680l35 0-9 12h-18z"/><path d="M478 667l0 13"/>
+</g>
+
+<!-- 11. ARMY CONCENTRATIONS -->
+<g fill="#e6cc86" stroke="#17140f" stroke-width="2">
+ <g transform="translate(715 340)"><circle r="9"/><path d="M-18 20h36M-12 14v12M0 14v12M12 14v12"/></g>
+ <g transform="translate(1010 196)"><circle r="8"/><path d="M-15 18h30M-10 13v10M0 13v10M10 13v10"/></g>
+</g>
+
+<!-- 12. GUADALETE / UNCERTAINTY -->
+<circle cx="620" cy="475" r="36" fill="url(#glow)"/>
+<circle cx="620" cy="475" r="18" fill="none" stroke="#ead8a8" stroke-width="3" stroke-dasharray="6 6"/>
+<circle cx="620" cy="475" r="6" fill="#d7a36e" class="pulse"/>
+<text x="645" y="470" fill="#f1e3be" font-family="system-ui" font-size="17" letter-spacing="2">GUADALETE</text>
+<text x="645" y="491" fill="#dccca5" font-family="system-ui" font-size="12">APPROXIMATE / DEBATED LOCATION</text>
+
+<!-- 13. SCALE / ORIENTATION -->
+<g transform="translate(75 805)" font-family="system-ui" fill="#e9ddbd">
+ <text x="0" y="-18" font-size="12" letter-spacing="2">WESTERN MEDITERRANEAN · NOT TO SCALE</text>
+ <path d="M0 0h150M0-5v10M75-5v10M150-5v10" stroke="#e9ddbd" stroke-width="2"/>
+ <text x="0" y="22" font-size="11">0</text><text x="70" y="22" font-size="11">100</text><text x="140" y="22" font-size="11">200 km</text>
+</g>
+<g transform="translate(1510 805)" fill="#e9ddbd" text-anchor="middle"><path d="M0 30V-15l-10 15z"/><text y="48" font-family="system-ui" font-size="11">N</text></g>
+
+<!-- 14. FILM GRAIN -->
+<rect width="1600" height="900" fill="url(#grain)" opacity=".8"/>
 </svg>
+
 <div class="hud">
-<div class="kicker">CHRONICLE HISTORICAL ATLAS · SCENE 01</div>
-<h1>711 CE · Crossing into Iberia</h1>
-<div class="badge">HISTORIX RECONCILIATION · CLIOPATRIA GEOGRAPHY</div>
-<div class="caption"><p id="caption">Tariq ibn Ziyad's forces crossed from North Africa into the Iberian Peninsula in 711. The campaign path shown here is a documentary reconstruction anchored to the project atlas. Political geography is resolved against the Cliopatria temporal layer; uncertain locations are deliberately marked rather than presented as precise fact.</p></div>
-<div class="source">PRIMARY GEOGRAPHY: CLIOPATRIA · RECONCILIATION: HISTORIX<br>SECONDARY: BRITANNICA · WIKIDATA · NEW CAMBRIDGE MEDIEVAL HISTORY<br>ROUTE STATUS: RECONSTRUCTED · BATTLEFIELD: APPROXIMATE/DEBATED</div>
-<div class="controls"><button id="toggle">Pause route</button><button id="reset">Reset scene</button></div>
+ <div class="kicker">Chronicle Historical Atlas · Scene 01 · Documentary Baseline</div>
+ <h1>711 CE · Crossing into Iberia</h1>
+ <div class="meta"><b>HISTORIX RECONCILIATION</b><br>CLIOPATRIA temporal geography<br>Scene state: reconstructed<br>Political layer: historical snapshot<br>Generated visuals are illustrative, not evidence</div>
+ <div class="deck"><p>Tariq ibn Ziyad's forces crossed from North Africa into Iberia in 711. This scene models the movement as a geographic process: coast, relief, rivers, settlements, fortifications, military concentrations and a reconstructed route are layered into the same temporal frame. The Guadalete location remains explicitly approximate rather than being rendered with false precision.</p></div>
+ <div class="legend"><b>VISUAL KEY</b><br>solid terrain · temporal political layer<br>gold route · reconstructed campaign path<br>ring marker · approximate/contested location<br>fort icon · settlement/defensive site<br>Sources: CLIOPATRIA baseline · HISTORIX provenance layer</div>
+ <div class="controls"><button id="toggle">Pause motion</button><button id="reset">Reset</button></div>
 </div>
 </div>
 <script>
-const route=document.getElementById('route'),toggle=document.getElementById('toggle');
-toggle.onclick=()=>{route.style.animationPlayState=route.style.animationPlayState==='paused'?'running':'paused';toggle.textContent=route.style.animationPlayState==='paused'?'Resume route':'Pause route'};
-document.getElementById('reset').onclick=()=>{route.style.animationPlayState='running';toggle.textContent='Pause route';window.scrollTo(0,0)};
+const route=document.querySelector('.route'), fleet=document.querySelector('.fleet'), btn=document.getElementById('toggle');
+btn.onclick=()=>{const paused=getComputedStyle(route).animationPlayState==='paused';document.querySelectorAll('.route,.fleet,.pulse,.mist').forEach(x=>x.style.animationPlayState=paused?'running':'paused');btn.textContent=paused?'Pause motion':'Resume motion'};
+document.getElementById('reset').onclick=()=>{document.querySelectorAll('.route,.fleet,.pulse,.mist').forEach(x=>x.style.animationPlayState='running');btn.textContent='Pause motion'};
 </script>
 </body>
 </html>
