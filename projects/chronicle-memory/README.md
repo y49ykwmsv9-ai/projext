@@ -726,3 +726,57 @@ The core test is simple:
 > If the player stopped acting for several years, would the world still change?
 
 If the answer is no, the simulation is not sufficiently alive.
+
+
+## News-driven time leaps
+
+Every explicit time advance must produce a **news cycle**, not a dry status dump.
+
+### 5-10 newsworthy articles per leap
+
+The default target is **5-10 distinct news articles for every time leap**.
+
+- 1 week: usually 5, emphasizing immediate/local developments.
+- 1 month: usually 5-7.
+- 1 year: usually 6-10.
+- Multi-year/decade leaps: up to 10, with major events receiving more space.
+
+The count is a presentation target, not permission to invent filler. Articles must represent distinct substantive developments. When evidence is weak, the article is clearly presented as a report, rumor, or inference.
+
+Each newsworthy event should read like an actual historical news article: a headline followed by a substantial 5-7 sentence account covering what happened, who was involved, where it occurred, causes, consequences, and what information reached the player.
+
+### News is simulation state
+
+A nation mentioned in an article must be a real simulation actor, and the event must have a corresponding structured event record. The event must be able to alter state when appropriate.
+
+Examples:
+
+- A grain shortage changes food stocks/prices and may increase mortality, migration, and unrest.
+- A mobilization consumes money and supplies while increasing military readiness and threat.
+- A treaty changes diplomatic relations, trade access, and alliance obligations.
+- A rebellion changes control, stability, tax collection, military deployment, and foreign incentives.
+- A succession crisis changes leadership, legitimacy, faction strength, and intervention risk.
+
+The article is therefore the **narrative view of a real state transition**, not a decorative story generated after the fact.
+
+### Other nations must drive the news
+
+Each relevant foreign actor gets an autonomous decision pass during a time leap. The player is one participant in a world where nations are also trying to survive.
+
+Foreign actions may be beneficial, hostile, neutral, mistaken, opportunistic, or unrelated to the player. Their behavior must be constrained by resources, geography, institutions, intelligence, logistics, and their own existing history.
+
+The player should routinely receive reports about foreign wars, diplomacy, economic changes, rebellions, succession crises, discoveries, disasters, migrations, and other developments when the player's information network could plausibly reveal them.
+
+### 1444 living-world test
+
+The first full test scenario will start in **1444** using Historix / CLIOPATRA / CLIOPATRIA and other non-duplicate repository historical data as the baseline.
+
+The test will deliberately distinguish:
+
+1. **Historical baseline:** what the reference material says the world looked like in 1444.
+2. **Simulation state:** the exact numerical and diplomatic state established for this scenario.
+3. **News:** 5-10 generated articles after each player-requested time leap.
+4. **Causality:** every reported event's effects feed back into subsequent calculations.
+5. **Divergence:** history may emerge naturally from conditions, but the engine never forces an event solely because it happened in real history.
+
+The goal is a world that feels recognizably 1444 without becoming a museum exhibit. If the player does nothing, nations still act, economies still change, conflicts still develop, and the world keeps moving.
