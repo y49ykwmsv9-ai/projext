@@ -27,6 +27,7 @@ function parseCsv(text) {
 }
 
 const polities = fs.existsSync(csvPath) ? parseCsv(fs.readFileSync(csvPath, 'utf8')) : [];
+
 function activeForYear(year) {
   return polities.filter(p => Number(p.start_year) <= year && Number(p.end_year) >= year)
     .map(p => p.name).filter(Boolean).slice(0, 100);
@@ -115,6 +116,40 @@ c10: `What should we call the seven centuries of conflict that ended with Granad
 
 const outDir = path.join(root, 'projects', 'documentary', 'build');
 fs.mkdirSync(outDir, {recursive:true});
+// Local visual-intelligence pass: generate deterministic documentary plates from the
+// historical scene graph. This deliberately removes dependency on transient image-model URLs.
+const exec = (cmd, args) => execFileSync(cmd, args, { stdio: 'inherit' });
+function escapeXml(s) { return String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&apos;'); }
+function createScenePlate(sceneNumber, chapter, year, title, visual, tags) {
+  const dir = path.join(outDir, 'assets', 'scene-plates');
+  fs.mkdirSync(dir, { recursive: true });
+  const file = path.join(dir, String(sceneNumber).padStart(3,'0') + '.svg');
+  const png = file.replace(/\\.svg$/, '.png');
+  const seed = sceneNumber * 37;
+  const cx = 640 + ((seed % 7) - 3) * 35;
+  const cy = 405 + ((seed % 5) - 2) * 22;
+  const route = 'M 170 560 C 330 470, 430 520, 560 390 S 850 260, 1110 190';
+  const terrain = Array.from({length:11}, (_,i) => {
+    const x=90+i*110, y=160+(i%3)*38;
+    return '<path d="M '+x+' '+(y+180)+' Q '+(x+55)+' '+(y-35)+' '+(x+110)+' '+(y+180)+'" fill="none" stroke="#6f7b68" stroke-width="18" opacity=".20"/>';
+  }).join('');
+  const dots = Array.from({length:8}, (_,i) => {
+    const x=150+i*135, y=500-((i*67+seed)%230);
+    return '<circle cx="'+x+'" cy="'+y+'" r="'+(4+(i%3)*2)+'" fill="#e8d8b0" opacity=".9"/>';
+  }).join('');
+  const plate='<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">'
+   +'<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#253c4a"/><stop offset="1" stop-color="#14252f"/></linearGradient><radialGradient id="land"><stop stop-color="#b7a276"/><stop offset="1" stop-color="#766b50"/></radialGradient><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".45"/></filter></defs>'
+   +'<rect width="1600" height="900" fill="url(#sea)"/><path d="M0 170 Q250 100 500 190 T1000 170 T1600 210 L1600 900 L0 900Z" fill="url(#land)"/>'
+   +terrain+'<path d="'+route+'" fill="none" stroke="#c98a3d" stroke-width="8" stroke-linecap="round" stroke-dasharray="18 14" opacity=".95"/>'
+   +dots+'<circle cx="'+cx+'" cy="'+cy+'" r="26" fill="#9b3d2f" opacity=".9"/><circle cx="'+cx+'" cy="'+cy+'" r="44" fill="none" stroke="#e7b67a" stroke-width="3" opacity=".7"/>'
+   +'<g filter="url(#shadow)"><rect x="55" y="55" width="1490" height="135" rx="18" fill="#17140f" opacity=".86"/><text x="92" y="108" fill="#f6ecd8" font-size="34" font-family="DejaVu Sans" font-weight="700">'+escapeXml(year)+'  •  '+escapeXml(title)+'</text><text x="92" y="148" fill="#d8c59d" font-size="18" font-family="DejaVu Sans">'+escapeXml(chapter.title)+'  •  HISTORICAL SCENE GRAPH • PROGRAMMATIC VISUALIZATION</text></g>'
+   +'<g filter="url(#shadow)"><rect x="70" y="700" width="1460" height="125" rx="16" fill="#17140f" opacity=".82"/><text x="100" y="742" fill="#f6ecd8" font-size="17" font-family="DejaVu Sans" font-weight="700">'+escapeXml(visual)+'</text><text x="100" y="776" fill="#d8c59d" font-size="15" font-family="DejaVu Sans">'+escapeXml(tags)+' • RECONSTRUCTED VISUAL • CLIOPATRA / CLIOPATRIA + HISTORIX</text><text x="100" y="804" fill="#d8c59d" font-size="12" font-family="DejaVu Sans">Geography and chronology are derived from the documentary scene graph; illustrative marks are not eyewitness evidence.</text></g>'
+   +'</svg>';
+  fs.writeFileSync(file, plate);
+  exec('rsvg-convert',['-w','1600','-h','900','-o',png,file]);
+  return path.relative(root,png).replaceAll('\\\\','/');
+}
+
 
 const chapters = config.chapters.map(c => ({
   ...c,
@@ -159,6 +194,18 @@ fs.writeFileSync(path.join(outDir,'documentary-script.md'),
   '# The Reconquista: Seven Centuries of Iberian History\n\n' +
   chapters.map(c => `## ${c.year} — ${c.title}\n\n${c.narration}\n`).join('\n')
 );
+
+// Build local scene plates and a manifest that contains no transient external image URLs.
+const localSceneAssets = [];
+let localSceneNumber = 0;
+for (const chapter of chapters) {
+  for (const scene of chapter.scenes) {
+    localSceneNumber++;
+    const [year, title, visual, tags] = scene;
+    localSceneAssets.push({ sceneNumber: localSceneNumber, chapterId: chapter.id, year, title, visual, tags, imagePath: createScenePlate(localSceneNumber, chapter, year, title, visual, tags) });
+  }
+}
+fs.writeFileSync(path.join(root,'projects','documentary','scene-assets.json'), JSON.stringify({ generatedAt:new Date().toISOString(), source:'local-programmatic-scene-plates', assets:localSceneAssets }, null, 2));
 fs.writeFileSync(path.join(outDir,'documentary-shotlist.csv'),
   ['chapter,year,shot,duration_seconds,visual', ...chapters.flatMap(c => {
     const sec = Math.round(c.minutes*60/c.visualPlan.length);
