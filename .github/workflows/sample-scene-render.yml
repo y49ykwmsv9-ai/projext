@@ -1,0 +1,43 @@
+name: Reconquista Sample Scene Render
+
+concurrency:
+  group: reconquista-sample-scene
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/render-sample-scene.mjs"
+      - "projects/documentary/render/scenes/scene-711-v2.html"
+      - "projects/documentary/render/scenes/scene-711-v2.json"
+      - ".github/workflows/sample-scene-render.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  render-sample-scene:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          npm init -y
+          npm install --no-save playwright@latest
+          npx playwright install --with-deps chromium
+
+      - name: Render 711 CE sample scene
+        run: node scripts/render-sample-scene.mjs
+
+      - name: Upload rendered sample scene
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconquista-sample-scene-711
+          path: projects/documentary/build/sample-scene-711
+          retention-days: 14
