@@ -1,0 +1,3106 @@
+{
+  "schema_version": "1.4.0",
+  "database": "HISTORIX",
+  "kind": "linked_polity_index",
+  "record_count": 59,
+  "discovery": {
+    "source": "data/history-library/graph/curated-records.json",
+    "rule": "every unique relation.to_id",
+    "cliopatria_baseline": "preserved separately"
+  },
+  "records": [
+    {
+      "id": "achaemenid",
+      "identity": {
+        "canonical_name": "Achaemenid Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 8,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:alexander-conquest",
+        "event:babylon-fall",
+        "event:marathon",
+        "event:salamis",
+        "event:thermopylae",
+        "person:cyrus-great",
+        "person:darius-great",
+        "place:persepolis"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "akkad",
+      "identity": {
+        "canonical_name": "Akkadian Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:akkad-conquest",
+        "person:sargon-akkad"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "assyrian-empire",
+      "identity": {
+        "canonical_name": "Neo-Assyrian Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:neo-assyrian-expansion",
+        "place:nineveh"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "austrian-empire",
+      "identity": {
+        "canonical_name": "Austrian Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:vienna"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "austro-hungarian",
+      "identity": {
+        "canonical_name": "Austria-Hungary",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:wwi",
+        "place:vienna"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "ayyubid-sultanate",
+      "identity": {
+        "canonical_name": "Ayyubid Sultanate",
+        "alternate_names": [],
+        "polity_type": "sultanate"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:saladin"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "aztec",
+      "identity": {
+        "canonical_name": "Aztec Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:tenochtitlan",
+        "place:tenochtitlan-place"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "carolingian",
+      "identity": {
+        "canonical_name": "Carolingian Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:charlemagne"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "carthage",
+      "identity": {
+        "canonical_name": "Carthage",
+        "alternate_names": [],
+        "polity_type": "city-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 4,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:cannae",
+        "event:carthage-destruction",
+        "person:hannibal",
+        "place:carthage-place"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "castile",
+      "identity": {
+        "canonical_name": "Crown of Castile",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 3,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:columbus-voyage",
+        "person:columbus-person",
+        "person:isabella-castile"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "confederate-states",
+      "identity": {
+        "canonical_name": "Confederate States of America",
+        "alternate_names": [],
+        "polity_type": "government"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:american-civil-war"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "czechoslovakia-first",
+      "identity": {
+        "canonical_name": "Czechoslovakia",
+        "alternate_names": [],
+        "polity_type": "republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:munich",
+        "place:prague"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "dutch-empire",
+      "identity": {
+        "canonical_name": "Dutch Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:amsterdam"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "eastern-roman",
+      "identity": {
+        "canonical_name": "Eastern Roman Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 6,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:constantinople-fall",
+        "event:justinian-reconquest",
+        "event:theodosius",
+        "person:justinian",
+        "place:constantinople",
+        "place:constantinople-1453"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "empire-brazil",
+      "identity": {
+        "canonical_name": "Empire of Brazil",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:sao-paulo"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "england-kingdom",
+      "identity": {
+        "canonical_name": "Kingdom of England",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 5,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:glorious-revolution",
+        "event:magna-carta",
+        "event:norman-conquest",
+        "person:william-conqueror",
+        "place:london"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "first-empire",
+      "identity": {
+        "canonical_name": "First French Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 3,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:trafalgar",
+        "event:waterloo",
+        "person:napoleon"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "first-french-republic",
+      "identity": {
+        "canonical_name": "French First Republic",
+        "alternate_names": [],
+        "polity_type": "republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 3,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:bastille",
+        "event:french-revolution",
+        "event:napoleon-coup"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "free-france",
+      "identity": {
+        "canonical_name": "Free France",
+        "alternate_names": [],
+        "polity_type": "government"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:charles-de-gaulle"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "german-empire",
+      "identity": {
+        "canonical_name": "German Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 5,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:german-unification",
+        "event:versailles",
+        "event:wwi",
+        "person:otto-von-bismarck",
+        "place:berlin"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "gran-colombia",
+      "identity": {
+        "canonical_name": "Gran Colombia",
+        "alternate_names": [],
+        "polity_type": "republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:simón-bolivar"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "grand-principality-moscow",
+      "identity": {
+        "canonical_name": "Grand Principality of Moscow",
+        "alternate_names": [],
+        "polity_type": "principality"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:moscow"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "holy-roman-empire",
+      "identity": {
+        "canonical_name": "Holy Roman Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:prague"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "il-khanate",
+      "identity": {
+        "canonical_name": "Ilkhanate",
+        "alternate_names": [],
+        "polity_type": "khanate"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:baghdad-fall"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "inca",
+      "identity": {
+        "canonical_name": "Inca Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:cusco"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "kiev-rus",
+      "identity": {
+        "canonical_name": "Kyivan Rus",
+        "alternate_names": [],
+        "polity_type": "principality-confederation"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:kyiv"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "kingdom-italy",
+      "identity": {
+        "canonical_name": "Kingdom of Italy",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:italy-unification"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "macedon",
+      "identity": {
+        "canonical_name": "Kingdom of Macedon",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:alexander-conquest",
+        "person:alexander-great"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "mali",
+      "identity": {
+        "canonical_name": "Mali Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:timbuktu"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "manchu-state",
+      "identity": {
+        "canonical_name": "Manchukuo",
+        "alternate_names": [],
+        "polity_type": "client-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:manchuria"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "meiji-japan",
+      "identity": {
+        "canonical_name": "Meiji state",
+        "alternate_names": [],
+        "polity_type": "state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 3,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:meiji-restoration",
+        "person:hideki-tojo",
+        "place:tokyo"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "ming",
+      "identity": {
+        "canonical_name": "Ming dynasty",
+        "alternate_names": [],
+        "polity_type": "dynasty-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:beijing"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "mongol",
+      "identity": {
+        "canonical_name": "Mongol Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 3,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:baghdad-fall",
+        "event:mongol-invasion",
+        "person:genghis-khan"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "neo-babylonian",
+      "identity": {
+        "canonical_name": "Neo-Babylonian Empire",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:babylon-fall",
+        "place:babylon"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "old-babylonian",
+      "identity": {
+        "canonical_name": "Old Babylonian Kingdom",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 4,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:hammurabi-reign",
+        "event:hittite-babylon",
+        "person:hammurabi",
+        "place:babylon"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "ottoman",
+      "identity": {
+        "canonical_name": "Ottoman Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 8,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:constantinople-fall",
+        "event:greek-independence",
+        "event:lepanto",
+        "person:mehmed-conqueror",
+        "person:suleiman",
+        "place:constantinople",
+        "place:constantinople-1453",
+        "place:istanbul"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "pahlavi",
+      "identity": {
+        "canonical_name": "Pahlavi Iran",
+        "alternate_names": [],
+        "polity_type": "monarchy"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:iran-revolution"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "polish-lithuanian",
+      "identity": {
+        "canonical_name": "Polish-Lithuanian Commonwealth",
+        "alternate_names": [],
+        "polity_type": "commonwealth"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:cracow"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "portuguese-empire",
+      "identity": {
+        "canonical_name": "Portuguese Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:tordesillas"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "prussia",
+      "identity": {
+        "canonical_name": "Kingdom of Prussia",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:otto-von-bismarck",
+        "place:berlin"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "ptolemaic",
+      "identity": {
+        "canonical_name": "Ptolemaic Kingdom",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:alexandria"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "qing",
+      "identity": {
+        "canonical_name": "Qing dynasty",
+        "alternate_names": [],
+        "polity_type": "dynasty-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:boxer-rebellion",
+        "place:beijing"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "republic-venice",
+      "identity": {
+        "canonical_name": "Republic of Venice",
+        "alternate_names": [],
+        "polity_type": "republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "place:venice"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "roman-empire",
+      "identity": {
+        "canonical_name": "Roman Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 6,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:augustus",
+        "event:constantine",
+        "event:edict-milan",
+        "person:augustus-person",
+        "person:constantine-person",
+        "place:rome"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "roman-republic",
+      "identity": {
+        "canonical_name": "Roman Republic",
+        "alternate_names": [],
+        "polity_type": "republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 7,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:actium",
+        "event:cannae",
+        "event:carthage-destruction",
+        "event:roman-caesar",
+        "person:julius-caesar",
+        "place:athens",
+        "place:rome"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "russian-empire",
+      "identity": {
+        "canonical_name": "Russian Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 7,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:crimea-2014",
+        "event:russian-february",
+        "event:russian-revolution-1905",
+        "event:wwi",
+        "person:catherine-great",
+        "person:peter-great",
+        "place:moscow"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "russian-sfsr",
+      "identity": {
+        "canonical_name": "Russian SFSR",
+        "alternate_names": [],
+        "polity_type": "republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:russian-october",
+        "person:vladimir-lenin"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "russian-tsardom",
+      "identity": {
+        "canonical_name": "Tsardom of Russia",
+        "alternate_names": [],
+        "polity_type": "tsardom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:peter-great"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "soviet-union",
+      "identity": {
+        "canonical_name": "Soviet Union",
+        "alternate_names": [],
+        "polity_type": "union-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 8,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:barbarossa",
+        "event:cuban-missile",
+        "event:soviet-dissolution",
+        "event:stalingrad",
+        "person:joseph-stalin",
+        "person:mikhail-gorbachev",
+        "person:nikita-khrushchev",
+        "place:moscow"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "spanish-empire",
+      "identity": {
+        "canonical_name": "Spanish Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:tordesillas"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "sumer",
+      "identity": {
+        "canonical_name": "Sumerian city-states",
+        "alternate_names": [],
+        "polity_type": "city-states"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:sumer-urbanization",
+        "place:ur"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "tang",
+      "identity": {
+        "canonical_name": "Tang dynasty",
+        "alternate_names": [],
+        "polity_type": "dynasty-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:tang-an-lushan",
+        "event:tang-foundation"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "timurid",
+      "identity": {
+        "canonical_name": "Timurid Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:timur"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "tokugawa",
+      "identity": {
+        "canonical_name": "Tokugawa shogunate",
+        "alternate_names": [],
+        "polity_type": "shogunate"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:tokugawa-ieyasu",
+        "place:tokyo"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "united-kingdom",
+      "identity": {
+        "canonical_name": "United Kingdom",
+        "alternate_names": [],
+        "polity_type": "kingdom"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 3,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:queen-victoria",
+        "person:winston-churchill",
+        "place:london"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "ur-third-dynasty",
+      "identity": {
+        "canonical_name": "Third Dynasty of Ur",
+        "alternate_names": [],
+        "polity_type": "dynasty-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:ur-iii",
+        "place:ur"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "western-roman",
+      "identity": {
+        "canonical_name": "Western Roman Empire",
+        "alternate_names": [],
+        "polity_type": "empire"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 2,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:theodosius",
+        "event:western-fall"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "yuan",
+      "identity": {
+        "canonical_name": "Yuan dynasty",
+        "alternate_names": [],
+        "polity_type": "dynasty-state"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "person:kublai-khan"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    },
+    {
+      "id": "yugoslavia-socialist",
+      "identity": {
+        "canonical_name": "Socialist Federal Republic of Yugoslavia",
+        "alternate_names": [],
+        "polity_type": "federal-republic"
+      },
+      "chronology": {
+        "start": null,
+        "end": null,
+        "date_precision": "not-yet-researched"
+      },
+      "geography": {
+        "regions": [],
+        "capital_place_ids": [],
+        "territorial_notes": []
+      },
+      "status": {
+        "historix_reference_count": 1,
+        "cliopatria_link": "pending-exact-resolution"
+      },
+      "predecessors": [],
+      "successors": [],
+      "rulers": [],
+      "associated_event_ids": [],
+      "associated_person_ids": [],
+      "associated_place_ids": [],
+      "source_links": [
+        "event:yugoslavia-breakup"
+      ],
+      "evidence": {
+        "source_ids": [
+          "historix-1.1-curated-graph"
+        ],
+        "confidence": "medium"
+      },
+      "uncertainty": {
+        "unknowns": [
+          "chronology",
+          "territorial extent",
+          "aliases",
+          "exact Cliopatria identity mapping"
+        ],
+        "disputes": []
+      },
+      "editorial": {
+        "status": "linked-structured",
+        "last_reviewed": null,
+        "notes": "Generated from the complete set of unique polity references in the HISTORIX curated graph. Add source-backed chronology, geography, relationships and exact Cliopatria mapping without changing the stable id."
+      }
+    }
+  ]
+}
