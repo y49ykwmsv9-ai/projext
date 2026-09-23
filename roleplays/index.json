@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Registry of isolated Chronicle Memory roleplay simulations.",
+  "isolationRule": "Every distinct player scenario has its own scenario_id and state lineage.",
+  "scenarios": [
+    {
+      "scenario_id": "GMV-62BCE-001",
+      "character": "Gaius Maximus Valerius",
+      "start_year": -62,
+      "display_year": "62 BCE",
+      "type": "player-roleplay",
+      "path": "roleplays/GMV-62BCE-001/",
+      "latest_round": 1,
+      "latest_date": "-0062-01-29",
+      "status": "active"
+    }
+  ]
+}
