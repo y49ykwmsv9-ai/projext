@@ -17,6 +17,14 @@ A render passes only when all of these are true:
 - [ ] Political geography matches the scene date.
 - [ ] Geographic detail increases appropriately when the camera pushes in.
 
+### Geographic geometry integrity
+- [ ] Every named major geographic and political object has geometry appropriate to its historical extent and scene date.
+- [ ] Political entities are recognizable territorial shapes, not generic polygons or decorative silhouettes.
+- [ ] Coastlines, rivers, mountains, straits, islands, and other physical features retain their actual spatial relationships.
+- [ ] Routes and event markers remain anchored to the geography they explain.
+- [ ] Simplification preserves recognizable shape, adjacency, relative extent, and historically relevant boundaries at the current camera scale.
+- [ ] Internal lines represent documented geographic/historical features rather than decorative filler.
+
 ### Cinematic rendering
 - [ ] Terrain has visible depth and controlled lighting.
 - [ ] Atmospheric perspective separates foreground, middle distance, and background.
@@ -51,11 +59,15 @@ A render passes only when all of these are true:
 
 Any one of these fails the scene:
 
+- generic or low-complexity placeholder geography used for a major historical place or polity
 - flat polygon map with decorative contour lines used as a substitute for terrain
 - glowing route pasted over otherwise static geography
 - labels overlapping or clustering
 - camera jumps, linear camera motion, or meaningless zooming
 - arbitrary icons without geographic scale or context
+- political territories rendered as generic six-sided/rectangular/circular blobs
+- decorative internal lines that do not correspond to real geographic or historical features
+- major routes or events floating independently of their underlying geography
 - modern borders presented as historical without disclosure
 - unsupported historical certainty
 - all layers animating simultaneously
