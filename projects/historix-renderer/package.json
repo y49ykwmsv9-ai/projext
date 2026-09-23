@@ -1,0 +1,7 @@
+{
+  "name":"historix-documentary-renderer",
+  "version":"0.1.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"render":"node src/render.mjs","validate":"node src/validate.mjs","manifest":"node src/build-manifest.mjs"}
+}
