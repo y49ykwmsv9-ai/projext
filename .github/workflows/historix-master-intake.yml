@@ -30,6 +30,14 @@ jobs:
           assert c.execute("select count(*) from polities").fetchone()[0] == 1583
           print("HISTORIX intake validation passed: 1583 polities")
           PY
+      - name: Upload local SQLite artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: historix-master-sqlite
+          path: |
+            data/historix-master/historix_master.sqlite
+            data/historix-master/intake_report.json
+            if-no-files-found: error
       - name: Persist master datastore
         if: github.event_name == 'push'
         run: |
