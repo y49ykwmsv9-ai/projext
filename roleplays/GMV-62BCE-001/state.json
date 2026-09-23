@@ -1,38 +1,38 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 7,
-  "date": "-0062-07-31",
-  "treasury": 3750,
+  "round": 8,
+  "date": "-0062-08-31",
+  "treasury": 2550,
   "metrics": {
-    "population": 100,
-    "currency": 3750,
+    "population": 108,
+    "currency": 2550,
     "soldiers": 92,
     "taxation": 0,
-    "economy": 57,
+    "economy": 62,
     "agriculture": 53,
-    "infrastructure": 58,
-    "trade": 34,
-    "readiness": 75,
-    "morale": 61,
-    "supply": 54,
-    "organization": 65,
-    "stability": 52,
-    "legitimacy": 55,
+    "infrastructure": 66,
+    "trade": 44,
+    "readiness": 79,
+    "morale": 62,
+    "supply": 58,
+    "organization": 67,
+    "stability": 53,
+    "legitimacy": 57,
     "exhaustion": 7,
-    "technology": 21,
-    "intelligence": 50,
-    "relations": 65
+    "technology": 22,
+    "intelligence": 52,
+    "relations": 71
   },
   "relationships": {
-    "nearby-landowners": 12,
+    "nearby-landowners": 14,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
     "military-connections": 3,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
-    "marcus-claudius-marcellus": 4
+    "marcus-claudius-marcellus": 7
   },
-  "previous_action": "Following the recovery of the wounded, Gaius Maximus Valerius resumes his expedition and uses the extended pause to train with his troops, strengthening discipline and the bonds between the men and their commander.",
+  "previous_action": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -40,6 +40,6 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "The expedition has resumed after the spring fighting and the recovery of its wounded. Valerius used the pause to train personally with his men, strengthening discipline and cohesion. Scouts have resumed work in the countryside, and the forward holding remains the expedition's rear base with resident craftsmen and semi-permanent works."
+    "campaign_development": "Valerius has converted the strategically placed lake-side ground into an operating but still modest trade and transport station. Improved roads, a working landing and small boats now provide both commercial revenue and an additional route for moving supplies and men. Resident craftsmen remain on the estate, and the forward holding continues to support the expedition. The port's success has increased Valerius's visibility among merchants, neighboring landowners and Roman political connections without granting him public office."
   }
 }
