@@ -10,7 +10,7 @@ verified.
 The source is bundled into partitioned JSON files for lazy runtime loading.
 """
 from __future__ import annotations
-import json, urllib.request, zipfile, io
+import json, re, urllib.request, zipfile, io
 from collections import defaultdict
 from pathlib import Path
 
@@ -18,6 +18,9 @@ ROOT=Path(__file__).resolve().parents[1]
 LIB=ROOT/"data/history-library"
 OUT=LIB/"places/gazetteer"
 INDEX=LIB/"places/gazetteer-index.json"
+NAME_INDEX=LIB/"places/gazetteer-name-index.json"
+MANIFEST=LIB/"HISTORIX-1.5-manifest.json"
+CATALOG=LIB/"catalog.json"
 URL="https://download.geonames.org/export/dump/cities500.zip"
 
 def download():
@@ -81,6 +84,7 @@ def main():
 
     files=[]
     total=0
+    name_index=defaultdict(set)
     for cc,rows in sorted(by_country.items()):
         rows.sort(key=lambda r:r["id"])
         path=OUT/f"{cc}.json"
@@ -88,14 +92,28 @@ def main():
                  "source":"geonames-cities500","country_code":cc,"record_count":len(rows),"records":rows}
         path.write_text(json.dumps(payload,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
         files.append({"country_code":cc,"path":f"data/history-library/places/gazetteer/{cc}.json","record_count":len(rows)})
+        for r in rows:
+            names=[r["identity"]["canonical_name"],*r["identity"].get("alternate_names",[])]
+            for n in names:
+                key=re.sub(r"[^a-z0-9]+"," ",n.lower()).strip()
+                if key: name_index[key].add(cc)
         total+=len(rows)
 
+    NAME_INDEX.write_text(json.dumps({"schema_version":"1.5.0","database":"HISTORIX","kind":"place-gazetteer-name-index","names":{k:sorted(v) for k,v in sorted(name_index.items())}},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
     INDEX.write_text(json.dumps({
       "schema_version":"1.5.0","database":"HISTORIX","kind":"place-gazetteer-index",
       "source":"GeoNames cities500","source_url":URL,
       "license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0/",
       "record_count":total,"partition_count":len(files),"partitions":files
     },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    if MANIFEST.exists():
+        manifest=json.loads(MANIFEST.read_text())
+        manifest["gazetteer"]={"source":"GeoNames cities500","record_count":total,"partition_count":len(files),"index":"data/history-library/places/gazetteer-index.json","name_index":"data/history-library/places/gazetteer-name-index.json","license":"CC BY 4.0"}
+        MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+"\n")
+    if CATALOG.exists():
+        catalog=json.loads(CATALOG.read_text())
+        catalog["place_gazetteer"]={"version":"1.5.0","record_count":total,"storage":"data/history-library/places/gazetteer/","index":"data/history-library/places/gazetteer-index.json","name_index":"data/history-library/places/gazetteer-name-index.json","source":"GeoNames cities500","license":"CC BY 4.0"}
+        CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\n")
     print(f"HISTORIX GeoNames place gazetteer built: {total} records in {len(files)} country partitions")
 
 if __name__=="__main__":
