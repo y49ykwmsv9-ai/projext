@@ -1,37 +1,37 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 13,
-  "date": "-0061-01-31",
-  "treasury": 1030,
+  "round": 14,
+  "date": "-0061-02-28",
+  "treasury": 775,
   "wealth_accounts": {
-    "public": 1725,
-    "private": 70,
+    "public": 1842,
+    "private": 83,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 250,
-    "last_round_private_transfer": 25
+    "last_round_net_public_profit": 130,
+    "last_round_private_transfer": 13
   },
   "metrics": {
-    "population": 113,
-    "currency": 1030,
+    "population": 119,
+    "currency": 775,
     "soldiers": 78,
     "taxation": 0,
-    "economy": 82,
-    "agriculture": 53,
-    "infrastructure": 82,
-    "trade": 78,
-    "readiness": 93,
-    "morale": 70,
-    "supply": 72,
+    "economy": 85,
+    "agriculture": 56,
+    "infrastructure": 85,
+    "trade": 82,
+    "readiness": 94,
+    "morale": 71,
+    "supply": 74,
     "organization": 100,
-    "stability": 68,
-    "legitimacy": 70,
-    "exhaustion": 15,
+    "stability": 74,
+    "legitimacy": 76,
+    "exhaustion": 13,
     "technology": 27,
-    "intelligence": 77,
-    "relations": 99
+    "intelligence": 81,
+    "relations": 100
   },
   "relationships": {
-    "nearby-landowners": 18,
+    "nearby-landowners": 20,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
     "military-connections": 4,
@@ -39,15 +39,16 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius continues administering his estate while personally leading the expedition into its next major phase. The force advances through difficult winter country, encounters dangerous and unexpected opposition, and ultimately secures a materially stronger position, with the expedition's gains substantially exceeding its losses.",
+  "previous_action": "Gaius Maximus Valerius formally incorporates the newly secured territories and captured winter-pass holding into his estate, establishing recognized boundaries, appointing local administration, regularizing obligations and connecting the new lands to the existing estate, road and lake-port system.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
       "Gaius Julius Caesar",
+      "Marcus Porcius Cato",
+      "Gnaeus Pompeius Magnus",
       "Marcus Claudius Marcellus",
-      "Quintus Caecilius Metellus Celer",
-      "Gnaeus Pompeius Magnus"
+      "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "The expedition has entered a new phase. A winter ambush caused casualties, but Valerius held the column together, pursued the attackers to a fortified store-yard, and captured the position in a major winter action. The captured depot provides supplies, a secure foothold and control of a useful pass. The estate, road and lake port continue operating under separate public and private accounts while Valerius remains in the field."
+    "campaign_development": "The winter-pass holding captured in January has been formally incorporated into Valerius's estate. Its boundaries, productive resources, households, roads, stores and defensive works are now recorded under estate administration, with the holding linked to the established road and lake-port network. Local administration has begun, while Valerius remains in the field. The estate now controls a larger and more interconnected territorial base."
   }
 }
