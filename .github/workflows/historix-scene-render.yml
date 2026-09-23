@@ -1,0 +1,48 @@
+name: Historix Historical Scene Render
+on:
+  workflow_dispatch:
+    inputs:
+      scene:
+        description: Scene manifest path
+        required: true
+        default: projects/historix-renderer/scenes/iberia-0711-gibraltar.json
+        type: string
+  push:
+    paths:
+      - "projects/historix-renderer/scenes/**"
+      - "projects/historix-renderer/src/render-still.mjs"
+      - ".github/workflows/historix-scene-render.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  render-scene:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install SVG renderer
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+      - name: Render scene
+        run: |
+          node projects/historix-renderer/src/render-still.mjs ${{ inputs.scene || 'projects/historix-renderer/scenes/iberia-0711-gibraltar.json' }}
+      - name: Verify outputs
+        run: |
+          test -s projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.svg
+          test -s projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.png
+          test -s projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.json
+      - name: Upload rendered scene
+        uses: actions/upload-artifact@v4
+        with:
+          name: historix-iberia-0711-gibraltar-scene-${{ github.run_number }}
+          path: |
+            projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.svg
+            projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.png
+            projects/historix-renderer/dist/scenes/iberia-0711-gibraltar.json
+          retention-days: 30
