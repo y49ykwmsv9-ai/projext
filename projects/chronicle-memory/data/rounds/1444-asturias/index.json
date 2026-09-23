@@ -1,0 +1,20 @@
+{
+  "scenario_id": "1444-asturias",
+  "baseline": "Historix / CLIOPATRA / CLIOPATRIA historical baseline plus scenario setup",
+  "round_directory": "data/rounds/1444-asturias/",
+  "rounds": [
+    {
+      "round": 1,
+      "date": "1444-01-01",
+      "file": "round-0001.json",
+      "status": "immutable",
+      "current_state_source": true
+    }
+  ],
+  "reconstruction": {
+    "method": "replay ordered round files and apply state mutations exactly once",
+    "military_conservation_required": true,
+    "battle_casualty_validation_required": true,
+    "client_values_are_non_authoritative": true
+  }
+}
