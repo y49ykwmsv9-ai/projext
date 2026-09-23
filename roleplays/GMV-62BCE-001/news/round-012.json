@@ -1,0 +1,189 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 12,
+  "period": {
+    "start": "-0062-12-01",
+    "end": "-0062-12-31"
+  },
+  "player_action": "Gaius Maximus Valerius continues administering his estate, road, lake port and commercial accounts while personally leading the ongoing expedition. Regular road patrols continue, dispatches for skilled shipwrights and sailors remain active, the private commercial fleet is developed within Roman law, commercial receipts are collected and divided between the main estate and port, and the expedition remains under Valerius's direction.",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0062-12-03",
+      "type": "DIRECT",
+      "headline": "VALERIUS KEEPS THE ESTATE ROAD UNDER REGULAR WATCH",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Road",
+        "Lake Port",
+        "Forward Holding"
+      ],
+      "article": "The first days of December have seen the road between Valerius's principal estate and the lake station continue under regular patrol. Men assigned to the route inspect the watchtowers, accompany valuable carts and carry reports between the estate and the forward holding. The traffic is increasingly mixed, with agricultural goods moving toward the landing while tools, timber and other supplies pass inland. The arrangement has also made the road useful for carrying news from the expedition to those managing the estate. The patrols remain a private security measure attached to Valerius's holdings, rather than a claim to public authority.",
+      "ledger": {
+        "currency": -40,
+        "readiness": 1,
+        "organization": 1,
+        "stability": 1,
+        "intelligence": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0062-12-07",
+      "type": "DIRECT",
+      "headline": "THE EXPEDITION MOVES ON WHILE VALERIUS MAINTAINS HIS COMMAND",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force",
+        "Forward Holding"
+      ],
+      "article": "Valerius has continued to lead the expedition while keeping the force supplied from the holdings established earlier in the year. Scouts and small parties range ahead of the main body, examining roads, crossings and settlements connected with the route. The men have spent as much attention on gathering reliable reports as on movement itself, and officers have been required to keep their detachments together as the winter weather worsens. No major engagement has been reported during these days. The expedition therefore remains an active undertaking, with Valerius still personally directing its movements.",
+      "ledger": {
+        "currency": -70,
+        "readiness": 1,
+        "organization": 2,
+        "intelligence": 2,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0062-12-10",
+      "type": "CONNECTED",
+      "headline": "THE LAKE PORT RECORDS ANOTHER MONTH OF COMMERCIAL RECEIPTS",
+      "entities": [
+        "Lake Port",
+        "Merchants",
+        "Main Estate"
+      ],
+      "article": "Merchants using the lake landing have continued to pay for storage, loading, unloading and movement of goods along the estate road. The traffic remains modest, but the port is now producing receipts with enough regularity to support its own ordinary expenses. Grain and agricultural produce remain prominent among the goods handled, accompanied by timber, tools and other supplies. Written accounts at the landing are being compared with those kept at the main estate so that commercial income is not confused with Valerius's personal money. The developing trade is beginning to give the estate a second source of regular income alongside its agricultural base.",
+      "ledger": {
+        "currency": 180,
+        "trade": 3,
+        "economy": 2,
+        "stability": 1
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0062-12-14",
+      "type": "DIRECT",
+      "headline": "CRAFTSMEN ANSWER THE CALL FOR THE LAKE FLEET",
+      "entities": [
+        "Shipwrights",
+        "Sailors",
+        "Lake Port",
+        "Gaius Maximus Valerius"
+      ],
+      "article": "The dispatches sent in the previous month have begun to bear fruit as experienced boatmen and craftsmen arrive through commercial contacts. Several have inspected the landing, its stores and the existing boats before discussing terms of service. Their knowledge includes hull repair, rigging, caulking and the ordinary handling of cargo craft. The men are being engaged as private workers rather than placed under a military command. Their arrival gives the lake enterprise access to skills that were not readily available among the estate's existing workforce.",
+      "ledger": {
+        "currency": -90,
+        "technology": 2,
+        "trade": 2,
+        "organization": 1,
+        "relations": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0062-12-18",
+      "type": "DIRECT",
+      "headline": "COMMERCIAL RESERVES ARE AGAIN DIVIDED BETWEEN THE ESTATE AND THE PORT",
+      "entities": [
+        "Main Estate",
+        "Lake Port",
+        "Public Wealth Account",
+        "Private Wealth Account"
+      ],
+      "article": "As the month's receipts accumulate, Valerius's clerks again divide the commercial reserves between the principal estate and the defended landing. The port retains coin and goods needed for wages, repairs, loading and immediate purchases, while the estate holds the larger reserve against interruptions in trade or unexpected demands from the expedition. Separate records continue to distinguish the public business account from Valerius's private reserve. The system has required additional accounting and guards, but it leaves neither the commercial enterprise nor the household dependent upon a single store of valuables. The private reserve remains untouched except for the fixed share assigned to it from realized commercial profit.",
+      "ledger": {
+        "currency": -50,
+        "infrastructure": 1,
+        "supply": 1,
+        "organization": 2,
+        "stability": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0062-22",
+      "type": "CONNECTED",
+      "headline": "MERCHANTS TEST THE NEW BOATS AS WINTER TRAFFIC CONTINUES",
+      "entities": [
+        "Lake Port",
+        "Merchant Craft",
+        "Sailors",
+        "Merchants"
+      ],
+      "article": "The first vessels receiving attention from the newly engaged craftsmen have been put to practical use on the lake. Sailors have tested loading arrangements and routes while merchants observe whether the boats can carry ordinary cargo without excessive delay or loss. The work remains small in scale, but control over the craft promises to make the port less dependent upon outside carriers. Repairs and improvements are being recorded as part of the commercial account rather than being concealed among household expenses. The port's usefulness is consequently being judged by the money and goods it can move, not by the appearance of a larger fleet than the estate can support.",
+      "ledger": {
+        "currency": -60,
+        "trade": 2,
+        "technology": 1,
+        "economy": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0062-12-26",
+      "type": "WORLD",
+      "headline": "POMPEY'S NAME CONTINUES TO CARRY WEIGHT IN REPORTS FROM THE EAST",
+      "entities": [
+        "Gnaeus Pompeius Magnus",
+        "Roman Republic"
+      ],
+      "article": "Travelers and merchants arriving with eastern news continue to speak of Gnaeus Pompeius Magnus and the enormous influence attached to his recent military successes. Such reports are of interest to Roman soldiers and landholders because events in the eastern provinces affect trade, military expectations and the movement of men throughout the Republic. The news reaches Valerius through the same networks that carry prices, letters and commercial introductions to his lake station. His own expedition remains a local affair and has acquired no authority from Pompey's name or reputation. Nevertheless, the wider military world of the Republic is increasingly present in the conversations of men serving and trading far from Rome.",
+      "ledger": {
+        "intelligence": 1,
+        "relations": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0062-12-31",
+      "type": "WORLD",
+      "headline": "LOCAL NEWS: VALERIUS'S ESTATE, PORT AND EXPEDITION CLOSE THE YEAR IN ACTIVE SERVICE",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Main Estate",
+        "Lake Port",
+        "Expeditionary Force",
+        "Roman Republic"
+      ],
+      "article": "December closes with Valerius's estate operating on several fronts at once. The road remains patrolled, the lake port continues to return commercial receipts, skilled boatmen and craftsmen have begun arriving, and the expedition remains under Valerius's personal direction. The estate's commercial reserves are divided between the principal holding and the port, while the household reserve is recorded separately from money committed to the business. Reports from the wider Republic, including news concerning Pompey's influence in the East, continue to reach the country through travelers and merchants. Nothing in the month's activity has placed Valerius in public office, but the combination of military service, commerce and disciplined estate administration is making his holdings increasingly visible to those who deal with them.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ],
+  "running_total": {
+    "currency": -130,
+    "trade": 9,
+    "economy": 6,
+    "infrastructure": 2,
+    "readiness": 2,
+    "morale": 0,
+    "supply": 2,
+    "organization": 9,
+    "stability": 4,
+    "intelligence": 4,
+    "relations": 4,
+    "legitimacy": 0,
+    "technology": 3,
+    "agriculture": 0,
+    "soldiers": 0,
+    "taxation": 0,
+    "exhaustion": 1
+  },
+  "commercial_accounting": {
+    "gross_receipts": 600,
+    "operating_security_and_maintenance_costs": 350,
+    "net_public_profit": 250,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 25,
+    "public_account_change": 225,
+    "public_account_end": 1505,
+    "private_account_end": 45,
+    "treasury_metric_end": 850
+  }
+}
