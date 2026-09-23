@@ -1,0 +1,202 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 13,
+  "period": {
+    "start": "-0061-01-01",
+    "end": "-0061-01-31"
+  },
+  "player_action": "Gaius Maximus Valerius continues administering his estate while personally leading the expedition into its next major phase. The force advances through difficult winter country, encounters dangerous and unexpected opposition, and ultimately secures a materially stronger position, with the expedition's gains substantially exceeding its losses.",
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0061-01-04",
+      "type": "DIRECT",
+      "headline": "VALERIUS TAKES THE EXPEDITION INTO THE WINTER COUNTRY",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force",
+        "Forward Holding"
+      ],
+      "article": "The expedition has entered a harsher stretch of country as the new year begins, leaving familiar roads behind and following ground narrowed by winter. Valerius keeps the column compact, with scouts ahead and supplies close enough to support the leading elements. Cold has slowed movement and made every wagon, pack animal and ration matter. Scouts report that armed men familiar with the terrain have used the route, though their strength remains uncertain. Valerius continues the advance, refusing to let incomplete reports become an excuse for disorder.",
+      "ledger": {
+        "currency": -60,
+        "readiness": 1,
+        "organization": 2,
+        "intelligence": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0061-01-10",
+      "type": "CONNECTED",
+      "headline": "A WINTER AMBUSH BREAKS THE EXPEDITION'S MARCH",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force",
+        "Armed Band",
+        "Winter Road"
+      ],
+      "article": "The first serious crisis came on a narrow winter road where the ground fell sharply away on one side and rose into broken timber and stone on the other. Scouts were struck first, followed by missiles from concealed positions above the road, and the column compressed as men and animals struggled for room. Valerius moved toward the threatened front, ordering the rear to close the column and prevent the attackers from cutting the expedition in two. The fighting was close and confused, with shields battered by thrown weapons and men slipping in mud and half-frozen snow. The ambushers expected panic, but the formation held long enough for the reserve to reach the threatened section and drive the attackers from the road. The expedition suffered casualties and lost supplies, yet its discipline prevented the encounter from becoming a rout.",
+      "ledger": {
+        "currency": -130,
+        "soldiers": -9,
+        "readiness": -1,
+        "morale": 1,
+        "organization": 2,
+        "supply": -2,
+        "exhaustion": 2,
+        "intelligence": 2
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0061-01-11",
+      "type": "DIRECT",
+      "headline": "THE COLUMN TURNS THE AMBUSH INTO A PURSUIT",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force",
+        "Armed Band"
+      ],
+      "article": "By the following morning Valerius refused to withdraw blindly from the ground of the attack. Scouts traced the direction in which the surviving attackers fled, and the expedition followed cautiously rather than scattering in pursuit. The trail led to a concealed track descending toward a fortified store-yard holding food, animals and trade goods. The position was more substantial than the ambush suggested, with timber barriers, pits and buildings around a defensible approach. Valerius surrounded the site and cut its exits before demanding its surrender. The decision turned a costly surprise into an opportunity to recover what had been taken and discover who had been supplying the armed men.",
+      "ledger": {
+        "currency": -80,
+        "readiness": 1,
+        "organization": 2,
+        "intelligence": 3,
+        "supply": 2,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0061-01-14",
+      "type": "SPECIAL",
+      "headline": "THE WINTER PASS: VALERIUS BREAKS THE FORTIFIED BAND",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force",
+        "Fortified Store-Yard",
+        "Armed Band"
+      ],
+      "article": "The decisive action came before dawn beneath a sky so dark that the nearest trees appeared as black walls against the snow. Frost had hardened the ground, while sleet drove across the open approach to the fortified store-yard. Valerius divided his force before first light, leaving one body visible below the timber defenses while another moved through a difficult side approach identified by scouts. When defenders opened fire from the barriers, the visible line advanced behind locked shields, absorbing the first violence without breaking. Men fell on the frozen ground, others dragged wounded comrades behind the advancing line, and the defenders' shouting was nearly swallowed by the wind. Then the concealed party reached the rear and struck the gate and outer works from an unexpected direction. The defenders were caught between two pressures and began abandoning the barriers, but several launched a desperate counterattack against the main line, forcing Valerius into the center of the struggle. Accounts from the expedition place him among his own men, directing the line forward while refusing to allow the wounded to be abandoned. The counterattack finally collapsed when the reserve reached the gate, and the remaining defenders surrendered or fled. Inside the enclosure the expedition found grain, livestock, tools, timber, coin and trade goods sufficient to replace much of what had been lost in the ambush and provision the force for the next stage. More importantly, the captured position controlled the winter pass through which the armed band had been moving goods and men. The victory did not erase the losses, but it transformed the expedition's position: Valerius had entered the pass under pressure and emerged holding the ground, supplies and initiative. The survivors were exhausted, bloodied and short of sleep, yet the organization built over the previous year had withstood a sudden crisis without disintegrating. By sunset, the Roman standard stood over the captured store-yard while fires burned beside the walls and the wounded were carried inside out of the freezing wind. The expedition had begun the week fighting for survival on a narrow road; it ended with a fortified position, replenished stores and a route into country that had previously been closed to it.",
+      "ledger": {
+        "currency": 260,
+        "soldiers": -5,
+        "readiness": 4,
+        "morale": 5,
+        "supply": 5,
+        "organization": 4,
+        "stability": 2,
+        "legitimacy": 3,
+        "intelligence": 4,
+        "relations": 3,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0061-01-18",
+      "type": "DIRECT",
+      "headline": "THE CAPTURED DEPOT BECOMES A NEW BASE FOR THE EXPEDITION",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Captured Store-Yard",
+        "Expeditionary Force"
+      ],
+      "article": "Valerius orders the captured store-yard secured rather than stripped and abandoned. The surviving structures are repaired, the approach is watched, and recovered grain and tools are inventoried before distribution. Wounded men are moved into shelter while the able-bodied reorganize the expedition after the fighting. The position gives the force a secure point from which to continue its movement while protecting the route behind it. What began as an unexpected attack has therefore produced a new foothold for the expedition.",
+      "ledger": {
+        "currency": 80,
+        "infrastructure": 3,
+        "supply": 3,
+        "readiness": 2,
+        "organization": 2,
+        "stability": 2
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0061-01-23",
+      "type": "CONNECTED",
+      "headline": "MERCHANTS RETURN TO A ROAD ONCE FEARED TOO DANGEROUS",
+      "entities": [
+        "Merchants",
+        "Winter Pass",
+        "Lake Port",
+        "Gaius Maximus Valerius"
+      ],
+      "article": "News of the fighting and seizure of the fortified store-yard has reached merchants using surrounding routes. Several traders are discussing moving goods through the newly secured pass rather than avoiding the area. The road remains dangerous in winter, but an organized force and guarded store-yard have changed the practical calculation for those carrying valuable cargo. The lake port has begun receiving inquiries about future traffic through the route. The commercial value of the expedition is becoming more apparent even while its military work continues.",
+      "ledger": {
+        "currency": 110,
+        "trade": 4,
+        "economy": 3,
+        "relations": 2,
+        "intelligence": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0061-01-27",
+      "type": "WORLD",
+      "headline": "ROME HEARS OF POMPEY, CICERO AND THE REPUBLIC'S CONTINUING STRAIN",
+      "entities": [
+        "Gnaeus Pompeius Magnus",
+        "Marcus Tullius Cicero",
+        "Roman Republic"
+      ],
+      "article": "Letters arriving from Rome continue to describe a Republic in which military reputation, senatorial politics and private alliances remain closely watched. Gnaeus Pompeius Magnus remains a dominant name in reports concerning the East, while Marcus Tullius Cicero's political activity continues to draw attention among men concerned with the direction of the Republic. Such news reaches the countryside slowly and unevenly, often carried by merchants and private correspondence. Valerius's expedition remains separate from these larger political contests, though the growing commercial network around his holdings means distant affairs increasingly arrive with the same travelers who bring prices and military news. No new public office or formal political command has been conferred upon him.",
+      "ledger": {
+        "intelligence": 1,
+        "relations": 1,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0061-01-31",
+      "type": "WORLD",
+      "headline": "LOCAL NEWS: THE EXPEDITION RETURNS TO THE ROAD WITH A HARD-WON ADVANTAGE",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Expeditionary Force",
+        "Lake Port",
+        "Main Estate"
+      ],
+      "article": "January closes with Valerius's expedition in a markedly stronger position than it held when the year began. The force has paid for its advance in blood and supplies, but it now possesses a secured winter position, recovered provisions and a route whose commercial importance is already attracting attention. The road to the lake remains active, and estate administrators continue to keep the port, stores and private accounts operating while Valerius remains in the field. Men returning from the fighting describe the winter action as severe, but the discipline of the column and the decision to seize the fortified depot rather than retreat have changed the character of the campaign. The expedition is no longer merely following a difficult route: it now controls a useful position from which its next movement can be made.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ],
+  "running_total": {
+    "currency": 180,
+    "trade": 4,
+    "economy": 3,
+    "infrastructure": 3,
+    "readiness": 8,
+    "morale": 6,
+    "supply": 8,
+    "organization": 14,
+    "stability": 4,
+    "legitimacy": 4,
+    "exhaustion": 7,
+    "technology": 0,
+    "intelligence": 13,
+    "relations": 7,
+    "soldiers": -14,
+    "agriculture": 0,
+    "taxation": 0
+  },
+  "commercial_accounting": {
+    "gross_receipts": 600,
+    "operating_security_and_maintenance_costs": 350,
+    "net_public_profit": 250,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 25,
+    "public_account_change": 225,
+    "public_account_end": 1725,
+    "private_account_end": 70
+  }
+}
