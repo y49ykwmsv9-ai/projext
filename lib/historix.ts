@@ -43,6 +43,64 @@ export type HistorixPlace = {
   editorial: { status: string; last_reviewed: string | null; notes: string | null };
 };
 
+export type HistorixPlaceGazetteerIndex = {
+  schema_version: string;
+  database: "HISTORIX";
+  kind: "place-gazetteer-index";
+  source: string;
+  source_url: string;
+  license: string;
+  license_url: string;
+  record_count: number;
+  partition_count: number;
+  partitions: Array<{ country_code: string; path: string; record_count: number }>;
+};
+
+let placeGazetteerIndexPromise: Promise<HistorixPlaceGazetteerIndex>|undefined;
+const placeGazetteerCache = new Map<string, Promise<HistorixPlace[]>>();
+
+export function loadHistorixPlaceGazetteerIndex(): Promise<HistorixPlaceGazetteerIndex> {
+  placeGazetteerIndexPromise ??= fetch("/data/history-library/places/gazetteer-index.json").then(async r => {
+    if(!r.ok) throw new Error("HISTORIX GeoNames place gazetteer index unavailable ("+r.status+")");
+    return await r.json() as HistorixPlaceGazetteerIndex;
+  });
+  return placeGazetteerIndexPromise;
+}
+
+export async function loadHistorixPlaceGazetteer(countryCode:string): Promise<HistorixPlace[]> {
+  const cc=countryCode.trim().toUpperCase();
+  if(!/^[A-Z]{2}$/.test(cc)) return [];
+  let promise=placeGazetteerCache.get(cc);
+  if(!promise) {
+    promise=fetch(`/data/history-library/places/gazetteer/${encodeURIComponent(cc)}.json`).then(async r => {
+      if(!r.ok) {
+        if(r.status===404) return [];
+        throw new Error(`HISTORIX GeoNames partition unavailable (${r.status})`);
+      }
+      const payload=await r.json() as { records: HistorixPlace[] };
+      return payload.records;
+    });
+    placeGazetteerCache.set(cc,promise);
+  }
+  return promise;
+}
+
+export async function searchHistorixPlaceGazetteer(query:string, countryCodes?:string[]): Promise<HistorixPlace[]> {
+  const key=query.trim().toLocaleLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+  if(!key) return [];
+  const index=await fetch("/data/history-library/places/gazetteer-name-index.json").then(async r => {
+    if(!r.ok) return { names:{} as Record<string,string[]> };
+    return await r.json() as { names: Record<string,string[]> };
+  });
+  const codes=countryCodes?.map(x=>x.toUpperCase()).filter(x=>/^[A-Z]{2}$/.test(x)) ?? index.names[key] ?? [];
+  const unique=[...new Set(codes)];
+  const partitions=await Promise.all(unique.map(loadHistorixPlaceGazetteer));
+  return partitions.flat().filter(row => {
+    const text=[row.identity.canonical_name,...row.identity.alternate_names].join(" ").toLocaleLowerCase();
+    return text===query.trim().toLocaleLowerCase() || row.identity.alternate_names.some(n=>n.toLocaleLowerCase()===query.trim().toLocaleLowerCase());
+  });
+}
+
 let placePromise: Promise<HistorixPlace[]>|undefined;
 export function loadHistorixPlaces(): Promise<HistorixPlace[]> {
   placePromise ??= fetch("/data/history-library/places/historix-places.json").then(async r => {
@@ -196,4 +254,6 @@ export function clearHistorixCache() {
   observationCache.clear();
   polityPromise=undefined;
   placePromise=undefined;
+  placeGazetteerIndexPromise=undefined;
+  placeGazetteerCache.clear();
 }
