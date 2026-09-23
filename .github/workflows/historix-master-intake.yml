@@ -35,11 +35,11 @@ jobs:
             data/historix-master/intake_report.json
             data/historix-master/expansion1_report.json
           if-no-files-found: error
-      - name: Persist master datastore
+      - name: Persist validation reports
         if: github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/historix-master/historix_master.sqlite data/historix-master/intake_report.json data/historix-master/expansion1_report.json
-          git diff --cached --quiet || git commit -m "HISTORIX: complete Expansion 1 geographic enrichment"
+          git add data/historix-master/intake_report.json data/historix-master/expansion1_report.json
+          git diff --cached --quiet || git commit -m "HISTORIX: persist Expansion 1 validation reports"
           git push
