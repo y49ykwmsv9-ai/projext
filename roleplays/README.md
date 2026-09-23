@@ -98,26 +98,25 @@ The category distribution is dynamic rather than a rigid quota. Most events shou
 
 ## Event presentation
 
-Every news event must display a compact outlined metadata box immediately next to the event number/date information. The box must contain:
-- event number;
-- exact date;
-- primary event type;
-- entity/party tags for the people, places, institutions, forces, factions, or other named entities actually mentioned.
+Every news event uses readable bullet metadata rather than boxed or bracketed headers.
 
-The box is deliberately compact and must not consume excessive screen space.
-
-Example:
-
-~~~text
-┌─────────────────────────────────────────────────────────────┐
-│ EVENT 4 · 8 APRIL 62 BCE · DIRECT                         │
-│ Gaius Maximus Valerius · Roman Expedition · Bandits       │
-└─────────────────────────────────────────────────────────────┘
-~~~
-
-Do not use emoji as the event-type indicator. Do not replace the outlined metadata box with a large panel.
+- **Event:** sequential event number
+- **Date:** exact or explicitly simulation-generated date
+- **Type:** DIRECT, CONNECTED, WORLD, SURPRISE, or SPECIAL
+- **Entities:** named people, places, institutions, forces, factions, or other entities actually mentioned
 
 Event headlines must use highly readable, distinctive typography. Decorative Unicode characters that reduce legibility are prohibited. Major battles and SPECIAL events may receive stronger headline hierarchy while retaining normal readable characters.
+
+## Wealth accounting
+
+Commercial wealth is tracked separately from the fixed metric schema.
+
+- **Public account:** operating and reinvestment capital for the estate, road, port, fleet, maintenance, wages, stores, and other business expenses.
+- **Private account:** Valerius's personal reserve, kept separate from business capital.
+- **Profit basis:** private transfers are calculated from realized net public commercial profit, not gross receipts or the total accumulated public account.
+- **Fixed transfer:** 10% of realized net public commercial profit transfers to the private account each completed round unless the scenario explicitly changes the rate.
+- **No automatic compounding:** the private account produces no automatic returns merely by existing. Personal wealth therefore grows through the business's realized profits rather than through exponential self-compounding.
+- **Decentralized storage:** where the player establishes multiple holdings, commercial reserves may be divided among the main estate, port, and other secure locations. The account ledger remains unified even when physical stores are distributed.
 
 ## Information and knowledge
 
