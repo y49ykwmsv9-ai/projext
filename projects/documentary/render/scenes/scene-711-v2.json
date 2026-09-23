@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "reconquista-711-crossing-v2",
+  "baseline": "SCENE-BASELINE-v2",
+  "qualityGate": "DOCUMENTARY-VISUAL-QUALITY-GATE-v1",
+  "date": "711 CE",
+  "title": "The Strait — 711 CE",
+  "durationSeconds": 18,
+  "geographicExtent": [-10.5, 31.5, 2.5, 45.5],
+  "projection": "equirectangular-preview",
+  "authority": {
+    "primary": "CLIOPATRIA/CLIOPATRA",
+    "reconciliation": "HISTORIX",
+    "atlas": "projects/documentary/data/cliopatria-plus/reconquista-atlas.json"
+  },
+  "visualLayers": ["atmosphere","terrain","relief","hydrology","political","settlements","military","routes","events","editorial"],
+  "camera": [
+    {"t":0,"center":[-4.8,38.8],"zoom":1.0},
+    {"t":4,"center":[-5.3,36.8],"zoom":1.28},
+    {"t":10,"center":[-4.9,37.8],"zoom":1.48},
+    {"t":15,"center":[-4.3,39.0],"zoom":1.18},
+    {"t":18,"center":[-4.3,39.0],"zoom":1.18}
+  ],
+  "events": [
+    {"id":"event.guadalete","placeId":"place.guadalete","status":"CONTESTED","label":"Guadalete • c. 711"}
+  ],
+  "route": {
+    "id":"route.tariq-crossing",
+    "status":"RECONSTRUCTED",
+    "points":[[-5.79,35.78],[-5.55,35.98],[-5.35,36.14],[-5.15,36.28],[-5.9,36.45],[-6.22,36.58],[-5.55,37.2],[-4.78,37.89],[-4.03,39.86]]
+  },
+  "settlements": [
+    {"id":"place.gibraltar","name":"Gibraltar","lon":-5.35,"lat":36.14,"tier":1},
+    {"id":"place.guadalete","name":"Guadalete","lon":-6.22,"lat":36.58,"tier":0},
+    {"id":"place.cordoba","name":"Córdoba","lon":-4.78,"lat":37.89,"tier":1},
+    {"id":"place.toledo","name":"Toledo","lon":-4.03,"lat":39.86,"tier":1},
+    {"id":"place.seville","name":"Seville","lon":-5.99,"lat":37.39,"tier":1},
+    {"id":"place.covadonga","name":"Covadonga","lon":-5.05,"lat":43.31,"tier":0}
+  ]
+}
