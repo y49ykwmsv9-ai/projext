@@ -1,0 +1,42 @@
+{
+  "id": "chronicle-memory",
+  "name": "Chronicle Memory Roleplay Engine",
+  "version": "0.1.0",
+  "type": "alternate-history-roleplay-engine",
+  "status": "scaffold",
+  "entrypoint": "index.html",
+  "lineage": [
+    "worldforge",
+    "chronicle-ai"
+  ],
+  "shared_inputs": [
+    "data/history-library",
+    "lib",
+    "engine"
+  ],
+  "isolation": {
+    "owns": [
+      "scenario state",
+      "alternate-history event memory",
+      "causal graph",
+      "roleplay resolver",
+      "presets",
+      "runtime UI"
+    ],
+    "read_only_dependencies": [
+      "shared historical data",
+      "shared geography data",
+      "shared simulation primitives"
+    ]
+  },
+  "design_goals": [
+    "natural-language instructions",
+    "historically grounded responses",
+    "statistics-backed reasoning",
+    "persistent alternate-history memory",
+    "autonomous actor reactions",
+    "causal event graph",
+    "uncertainty and provenance tracking",
+    "non-deterministic historical divergence without forced canon"
+  ]
+}
