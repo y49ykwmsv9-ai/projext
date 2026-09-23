@@ -1,34 +1,34 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 1,
-  "date": "-0062-01-29",
-  "treasury": 7500,
+  "round": 2,
+  "date": "-0062-02-28",
+  "treasury": 5700,
   "metrics": {
     "population": 100,
-    "currency": 7500,
-    "soldiers": 80,
+    "currency": 5700,
+    "soldiers": 105,
     "taxation": 0,
     "economy": 52,
-    "agriculture": 54,
+    "agriculture": 53,
     "infrastructure": 41,
     "trade": 30,
-    "readiness": 50,
-    "morale": 53,
-    "supply": 51,
-    "organization": 40,
-    "stability": 52,
-    "legitimacy": 42,
+    "readiness": 56,
+    "morale": 55,
+    "supply": 52,
+    "organization": 46,
+    "stability": 51,
+    "legitimacy": 43,
     "exhaustion": 0,
     "technology": 20,
-    "intelligence": 21,
-    "relations": 35
+    "intelligence": 25,
+    "relations": 39
   },
   "relationships": {
-    "nearby-landowners": 4,
+    "nearby-landowners": 8,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
-    "military-connections": 0,
+    "military-connections": 1,
     "roman-political-elite": 0
   },
-  "previous_action": "Begins gathering support of influential landowners near the estate, funds local agriculture, and sends gifts to poorer workers."
+  "previous_action": "Uses the increase in support to begin hiring people for a planned expedition against bandits troubling his estates."
 }
