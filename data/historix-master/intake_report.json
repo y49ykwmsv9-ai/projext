@@ -1,6 +1,6 @@
 {
   "status": "completed",
-  "run_id": "6f0502b1699c7bb46572",
+  "run_id": "cde85c55b4df18cbd027",
   "database": "/home/runner/work/projext/projext/data/historix-master/historix_master.sqlite",
   "source": {
     "dataset": "Cliopatria",
@@ -12,8 +12,8 @@
   "polity_features": 13380,
   "unique_polities": 1583,
   "expected_unique_polities": 1583,
-  "created": 1583,
-  "updated": 0,
+  "created": 0,
+  "updated": 1583,
   "rejected": 0,
   "next_step": "Expansion 1: canonical places + geographic hierarchy, after baseline validation"
 }
