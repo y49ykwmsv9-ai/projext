@@ -1,10 +1,11 @@
-name: Deploy Ironfront Tactics Only
+name: Deploy Project Pages
 
 on:
   push:
     branches: [main]
     paths:
       - "projects/ironfront-tactics/**"
+      - "projects/documentary/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -14,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ironfront-pages
+  group: project-pages
   cancel-in-progress: true
 
 jobs:
@@ -29,51 +30,46 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Remove any previous assembled site
+      - name: Assemble standalone project site
         shell: bash
         run: |
           set -euo pipefail
           rm -rf site
-          mkdir -p site
-
-      - name: Assemble Ironfront only
-        shell: bash
-        run: |
-          set -euo pipefail
+          mkdir -p site/documentary
           cp projects/ironfront-tactics/index.html site/index.html
           cp projects/ironfront-tactics/README.md site/README.md
           cp -R projects/ironfront-tactics/assets site/assets
           cp -R projects/ironfront-tactics/data site/data
-          printf '%s\n' "Ironfront Tactics standalone deployment" > site/DEPLOYMENT.txt
+          cp projects/documentary/render/sample-scene-711.html site/documentary/index.html
+          cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
+          cp projects/documentary/README.md site/documentary/README.md
+          cp projects/documentary/HISTORIX-CLIOPATRIA-DESIGN-PASS.md site/documentary/HISTORIX-CLIOPATRIA-DESIGN-PASS.md
+          cp projects/documentary/data/cliopatria-plus/reconquista-atlas.json site/documentary/reconquista-atlas.json
+          printf '%s\n' "Ironfront Tactics at root; documentary sample at /documentary/" > site/DEPLOYMENT.txt
           printf '%s\n' "${GITHUB_SHA}" > site/BUILD_COMMIT.txt
           touch site/.nojekyll
 
-      - name: Verify Ironfront-only artifact
+      - name: Verify assembled artifact
         shell: bash
         run: |
           set -euo pipefail
           test -s site/index.html
           test -s site/assets/sprites/unit-atlas.svg
-          test -s site/assets/sprites/fortification-atlas.svg
-          test -s site/assets/sprites/effects-atlas.svg
           test -s site/data/units.json
-          test -s site/data/scenarios.json
-          ! grep -qiE 'Worldforge|Chronicle AI' site/index.html
-          ! find site -type f -print | grep -qiE 'worldforge|chronicle'
-          test "$(find site -maxdepth 1 -type f | wc -l)" -ge 4
-          echo "Ironfront-only artifact verified."
+          test -s site/documentary/index.html
+          test -s site/documentary/sample-scene-711.svg
+          grep -q "HISTORIX" site/documentary/index.html
+          grep -q "CLIOPATRIA" site/documentary/index.html
+          echo "Ironfront root and documentary sample artifact verified."
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Ironfront artifact
+      - name: Upload project artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
-      - name: Deploy Ironfront
+      - name: Deploy project Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-# Ironfront release pipeline: source-only Pages deployment.
-# Ironfront UI/3D/mobile correction release.
