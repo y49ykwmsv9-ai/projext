@@ -1,27 +1,27 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 6,
-  "date": "-0062-06-30",
-  "treasury": 4000,
+  "round": 7,
+  "date": "-0062-07-31",
+  "treasury": 3750,
   "metrics": {
     "population": 100,
-    "currency": 4000,
+    "currency": 3750,
     "soldiers": 92,
     "taxation": 0,
     "economy": 57,
     "agriculture": 53,
     "infrastructure": 58,
     "trade": 34,
-    "readiness": 68,
-    "morale": 59,
-    "supply": 55,
-    "organization": 61,
+    "readiness": 75,
+    "morale": 61,
+    "supply": 54,
+    "organization": 65,
     "stability": 52,
-    "legitimacy": 53,
-    "exhaustion": 6,
+    "legitimacy": 55,
+    "exhaustion": 7,
     "technology": 21,
-    "intelligence": 43,
-    "relations": 60
+    "intelligence": 50,
+    "relations": 65
   },
   "relationships": {
     "nearby-landowners": 12,
@@ -32,12 +32,14 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 4
   },
-  "previous_action": "Following the installation of semi-permanent works inside the new holdings, Valerius increases attention given to the wounded from the expedition so it can resume as soon as possible. He hires professional builders, smiths, masons, lumber workers, and blacksmiths to live on his estate in return for residence and working their rent through labor for him.",
+  "previous_action": "Following the recovery of the wounded, Gaius Maximus Valerius resumes his expedition and uses the extended pause to train with his troops, strengthening discipline and the bonds between the men and their commander.",
   "continuity": {
     "historical_actors": [
+      "Marcus Tullius Cicero",
+      "Gaius Julius Caesar",
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius has converted the new holding into a more durable forward base and established a resident skilled workforce of builders, masons, smiths, lumber workers, and blacksmiths. Wounded expedition men are receiving sustained care so the field force can recover. The lake-road site remains a future commercial possibility rather than an operating port."
+    "campaign_development": "The expedition has resumed after the spring fighting and the recovery of its wounded. Valerius used the pause to train personally with his men, strengthening discipline and cohesion. Scouts have resumed work in the countryside, and the forward holding remains the expedition's rear base with resident craftsmen and semi-permanent works."
   }
 }
