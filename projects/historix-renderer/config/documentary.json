@@ -1,0 +1,10 @@
+{
+  "title":"The Reconquista of Iberia",
+  "subtitle":"A chronological documentary timeline",
+  "targetDurationMinutes":60,
+  "fps":30,
+  "resolution":{"width":1920,"height":1080},
+  "dataRoots":["../../data","../../engine","../../public/data"],
+  "sceneDefaults":{"seconds":12,"transitionSeconds":0.5},
+  "output":"dist/historix-documentary.mp4"
+}
