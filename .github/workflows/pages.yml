@@ -46,6 +46,9 @@ jobs:
       - name: Render baseline 711 CE sample scene for Pages
         run: SCENE_FILE=scene-711-v2.html node scripts/render-sample-scene.mjs
 
+      - name: Render previous 711 CE sample scene for comparison
+        run: SCENE_FILE=scene-711-v3.html node scripts/render-sample-scene.mjs
+
       - name: Render current 711 CE sample scene for Pages
         run: SCENE_FILE=scene-711-v4.html node scripts/render-sample-scene.mjs
 
@@ -60,12 +63,14 @@ jobs:
           cp -R projects/ironfront-tactics/assets site/assets
           cp -R projects/ironfront-tactics/data site/data
           cp projects/documentary/render/scenes/scene-711-v4.html site/documentary/index.html
+          cp projects/documentary/render/scenes/scene-711-v3.html site/documentary/scene-711-v3.html
           cp projects/documentary/render/scenes/scene-711-v4.html site/documentary/scene-711-v4.html
           cp projects/documentary/render/scenes/scene-711-v2.json site/documentary/scene-711-v2.json
           cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
+          cp projects/documentary/build/sample-scene-711-v3/scene-711-v3.mp4 site/documentary/sample-scene-711-previous.mp4
           cp projects/documentary/build/sample-scene-711-v4/scene-711-v4.mp4 site/documentary/sample-scene-711.mp4
           cat > site/documentary/sample-scene-711-watch.html <<'EOF'
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reconquista Sample Scene — Current Render</title><style>body{margin:0;background:#0b0f14;color:#eee;font:16px system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}video{width:100%;height:auto;background:#000}a{color:#9ed0ff}h1{font-weight:500}.meta{opacity:.7;font-size:13px}</style></head><body><main><h1>The Strait — 711 CE</h1><p class="meta">Current production sample. This stable viewer is replaced in-place as new render versions pass the pipeline.</p><video controls playsinline preload="metadata" src="sample-scene-711.mp4"></video><p><a href="sample-scene-711.mp4" download>Download current MP4</a></p><p><a href="scene-711-v4.html">Open v4 scene preview</a></p></main></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reconquista Sample Scene — v4 vs v3</title><style>body{margin:0;background:#0b0f14;color:#eee;font:16px system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:24px}section{display:grid;grid-template-columns:1fr 1fr;gap:16px}article{background:#111821;padding:12px;border-radius:10px}video{width:100%;height:auto;background:#000}a{color:#9ed0ff}h1{font-weight:500}.meta{opacity:.7;font-size:13px}@media(max-width:800px){section{grid-template-columns:1fr}}</style></head><body><main><h1>The Strait — 711 CE</h1><p class="meta">Stable comparison viewer. Each production version is compared against the immediately preceding version. Current: v4. Previous: v3.</p><section><article><h2>v3 — Previous</h2><video controls playsinline preload="metadata" src="sample-scene-711-previous.mp4"></video><p><a href="sample-scene-711-previous.mp4" download>Download v3</a></p><a href="scene-711-v3.html">Open v3 scene</a></article><article><h2>v4 — Current</h2><video controls playsinline preload="metadata" src="sample-scene-711.mp4"></video><p><a href="sample-scene-711.mp4" download>Download v4</a></p><a href="scene-711-v4.html">Open v4 scene</a></article></section></main></body></html>
 EOF
           printf '%s\\n' '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Reconquista Sample Scene — Current Render</title><style>body{margin:0;background:#0b0f14;color:#eee;font:16px system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}video{width:100%;height:auto;background:#000}a{color:#9ed0ff}h1{font-weight:500}.meta{opacity:.7;font-size:13px}</style></head><body><main><h1>The Strait — 711 CE</h1><p class="meta">Current production sample. This stable viewer is replaced in-place as new render versions pass the pipeline.</p><video controls playsinline preload="metadata" src="sample-scene-711.mp4"></video><p><a href="sample-scene-711.mp4" download>Download current MP4</a></p><p><a href="scene-711-v4.html">Open v4 scene preview</a></p></main></body></html>'
           cp projects/documentary/render/SCENE-BASELINE-v2.md site/documentary/SCENE-BASELINE-v2.md
@@ -85,7 +90,9 @@ EOF
           test -s site/assets/sprites/unit-atlas.svg
           test -s site/data/units.json
           test -s site/documentary/index.html
+          test -s site/documentary/scene-711-v3.html
           test -s site/documentary/scene-711-v4.html
+          test -s site/documentary/sample-scene-711-previous.mp4
           test -s site/documentary/sample-scene-711.mp4
           test -s site/documentary/scene-711-v2.json
           test -s site/documentary/sample-scene-711.svg
