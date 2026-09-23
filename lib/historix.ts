@@ -31,6 +31,46 @@ export type HistorixEventEnrichment = {
 };
 
 
+export type HistorixPlace = {
+  id: string;
+  identity: { canonical_name: string; alternate_names: string[]; place_type: string; wikidata_id: string | null };
+  chronology: { start: number | null; end: number | null; date_precision: string };
+  geography: { latitude: number | null; longitude: number | null; country_ids: string[]; region_ids: string[]; admin_parent_ids: string[] };
+  hierarchy: { parent_place_ids: string[]; child_place_ids: string[] };
+  associations: { polity_ids: string[]; event_ids: string[]; person_ids: string[] };
+  evidence: { source_ids: string[]; confidence: string; source_links: string[] };
+  uncertainty: { unknowns: string[]; disputes: string[] };
+  editorial: { status: string; last_reviewed: string | null; notes: string | null };
+};
+
+let placePromise: Promise<HistorixPlace[]>|undefined;
+export function loadHistorixPlaces(): Promise<HistorixPlace[]> {
+  placePromise ??= fetch("/data/history-library/places/historix-places.json").then(async r => {
+    if(!r.ok) throw new Error("HISTORIX 1.5 place layer unavailable ("+r.status+")");
+    const payload=await r.json() as { records: HistorixPlace[] };
+    return payload.records;
+  });
+  return placePromise;
+}
+
+export async function getHistorixPlace(id:string) {
+  const rows=await loadHistorixPlaces();
+  return rows.find(row=>row.id===id);
+}
+
+export async function searchHistorixPlaces(query:string, year?:number) {
+  const rows=await loadHistorixPlaces();
+  const q=query.trim().toLocaleLowerCase();
+  return rows.filter(row => {
+    const text=[row.identity.canonical_name,...row.identity.alternate_names,row.identity.place_type].join(" ").toLocaleLowerCase();
+    if(q && !text.includes(q)) return false;
+    if(year===undefined) return true;
+    const start=row.chronology.start ?? -Infinity;
+    const end=row.chronology.end ?? Infinity;
+    return start<=year && year<=end;
+  });
+}
+
 export type HistorixPolity = {
   id: string;
   identity: { canonical_name: string; alternate_names: string[]; polity_type: string };
@@ -155,4 +195,5 @@ export function clearHistorixCache() {
   graphPromise=undefined;
   observationCache.clear();
   polityPromise=undefined;
+  placePromise=undefined;
 }
