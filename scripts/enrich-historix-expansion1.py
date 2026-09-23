@@ -104,8 +104,7 @@ def main():
   a=json.loads(attrs or "{}")
   unresolved.append([p_id,n,typ,a.get("adm0_a3"),"de_jure_not_asserted"])
  c.execute("insert or replace into store_meta(key,value) values('jurisdiction_model','de_jure and de_facto assertions are stored separately; absence of a de_jure assertion is not a claim of non-sovereignty')")
-
-c.execute("delete from place_identity_audit");dupes=0
+ c.execute("delete from place_identity_audit");dupes=0
  rows=c.execute("select json_extract(attributes,'$.geographic_identity_key'),min(place_id),count(*),group_concat(distinct json_extract(attributes,'$.source_id')) from places where json_extract(attributes,'$.geographic_identity_key') is not null group by 1").fetchall()
  for k,pa,n,s in rows:
   st="unique" if n==1 else "duplicate-review";dupes+=max(0,n-1);c.execute("insert or replace into place_identity_audit values(?,?,?,?,?)",(k,pa,n,s or "",st))
