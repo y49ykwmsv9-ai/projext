@@ -10,6 +10,7 @@ on:
     paths:
       - "scripts/generate-documentary.mjs"
       - "scripts/render-documentary.mjs"
+      - "scripts/preflight-documentary-render.mjs"
       - "projects/documentary/**"
       - "data/historical-polities-expansion-v2.csv"
       - ".github/workflows/documentary-build.yml"
