@@ -1,0 +1,112 @@
+name: HISTORIX build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  historix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify source tree
+        run: |
+          set -euxo pipefail
+          python --version
+          test -f scripts/build-history-library.py
+          test -f scripts/validate-history-library.py
+          test -f scripts/build-historix-1.4-polities.py
+          test -f scripts/enrich-historix-1.4-wikidata.py
+          test -f scripts/enrich-historix-1.4-pass2.py
+          test -f scripts/enrich-historix-1.4-pass3.py
+          test -f scripts/enrich-historix-1.4-pass4.py
+          test -f scripts/build-historix-1.5-places.py
+          test -f scripts/validate-historix-1.5.py
+
+      - name: Download pinned Cliopatria source snapshot
+        env:
+          CLIOPATRIA_COMMIT: ad28a691b7c07c1fca89d0e0636d324667d2a258
+        run: |
+          set -euxo pipefail
+          mkdir -p .history-upstream
+          curl -L --fail --retry 3 --retry-all-errors \
+            "https://github.com/Seshat-Global-History-Databank/cliopatria/raw/${CLIOPATRIA_COMMIT}/cliopatria.geojson.zip" \
+            -o .history-upstream/cliopatria.geojson.zip
+          unzip -o .history-upstream/cliopatria.geojson.zip -d .history-upstream
+          test -s .history-upstream/cliopatria_polities_only.geojson
+
+      - name: Build modular HISTORIX resources
+        run: python scripts/build-history-library.py --cliopatria .history-upstream/cliopatria_polities_only.geojson
+
+      - name: Validate HISTORIX 1.1
+        run: python scripts/validate-historix-1.1.py
+
+      - name: Validate HISTORIX 1.2
+        run: python scripts/validate-historix-1.2.py
+
+      - name: Validate HISTORIX 1.3
+        run: python scripts/validate-historix-1.3.py
+
+      - name: Materialize HISTORIX 1.4
+        run: python scripts/build-historix-1.4-polities.py
+
+      - name: Enrichment pass 1
+        run: python scripts/enrich-historix-1.4-wikidata.py
+
+      - name: Enrichment pass 2
+        run: python scripts/enrich-historix-1.4-pass2.py
+
+      - name: Enrichment pass 3
+        run: python scripts/enrich-historix-1.4-pass3.py
+
+      - name: Enrichment pass 4
+        run: python scripts/enrich-historix-1.4-pass4.py
+
+      - name: Validate HISTORIX 1.4
+        run: python scripts/validate-historix-1.4.py
+
+      - name: Expansion 1 place layer
+        run: python scripts/build-historix-1.5-places.py
+
+      - name: Validate HISTORIX 1.5
+        run: python scripts/validate-historix-1.5.py
+
+      - name: Verify generated artifacts
+        run: |
+          set -euxo pipefail
+          test -s data/history-library/polities/historix-linked.json
+          test -s data/history-library/places/historix-places.json
+          test -s data/history-library/graph/place-time-index.json
+          test -s data/history-library/HISTORIX-1.5-manifest.json
+
+      - name: Persist generated data
+        run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history-library/polities data/history-library/places data/history-library/graph/place-time-index.json data/history-library/HISTORIX-1.4-manifest.json data/history-library/HISTORIX-1.5-manifest.json data/history-library/catalog.json data/history-library/manifests/cliopatria-manifest.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "HISTORIX: persist generated 1.4 and 1.5 data"
+            git push
+          fi
+
+      - name: Upload HISTORIX artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: historix-library
+          path: data/history-library
+          retention-days: 30
