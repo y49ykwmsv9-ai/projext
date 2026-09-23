@@ -1,0 +1,34 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Chronicle Memory Military Event",
+  "type":"object",
+  "required":["event_id","type","actors","engagements","state_changes"],
+  "properties":{
+    "event_id":{"type":"string"},
+    "type":{"enum":["deployment","recruitment","reinforcement","battle","siege","raid","withdrawal","demobilization","garrison","military_reform"]},
+    "actors":{"type":"array","items":{"type":"string"}},
+    "locations":{"type":"array","items":{"type":"string"}},
+    "engagements":{"type":"array","items":{
+      "type":"object",
+      "required":["side","troops_committed","troops_remaining"],
+      "properties":{
+        "side":{"type":"string"},
+        "troops_committed":{"type":"integer","minimum":0},
+        "troops_remaining":{"type":"integer","minimum":0},
+        "permanent_losses":{"type":"integer","minimum":0},
+        "temporary_losses":{"type":"integer","minimum":0}
+      }
+    }},
+    "state_changes":{"type":"array","items":{
+      "type":"object",
+      "required":["actor_id","stat","before","delta","after"],
+      "properties":{
+        "actor_id":{"type":"string"},
+        "stat":{"type":"string"},
+        "before":{"type":"integer","minimum":0},
+        "delta":{"type":"integer"},
+        "after":{"type":"integer","minimum":0}
+      }
+    }}
+  }
+}
