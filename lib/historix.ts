@@ -30,6 +30,36 @@ export type HistorixEventEnrichment = {
   editorial: { status: string; missing_fields: string[]; last_reviewed: string | null; editor_notes: string | null };
 };
 
+
+export type HistorixPolity = {
+  id: string;
+  identity: { canonical_name: string; alternate_names: string[]; polity_type: string };
+  chronology: { start: number | null; end: number | null; date_precision: string };
+  geography: { regions: string[]; capital_place_ids: string[]; territorial_notes: string[] };
+  status: { historix_reference_count: number; cliopatria_link: string };
+  predecessors: string[]; successors: string[]; rulers: string[];
+  associated_event_ids: string[]; associated_person_ids: string[]; associated_place_ids: string[];
+  source_links: string[];
+  evidence: { source_ids: string[]; confidence: string };
+  uncertainty: { unknowns: string[]; disputes: string[] };
+  editorial: { status: string; last_reviewed: string | null; notes: string | null };
+};
+
+let polityPromise: Promise<HistorixPolity[]>|undefined;
+export function loadHistorixPolities(): Promise<HistorixPolity[]> {
+  polityPromise ??= fetch(\"/data/history-library/polities/historix-linked.json\").then(async r => {
+    if(!r.ok) throw new Error(\"HISTORIX 1.4 polity layer unavailable (\"+r.status+\")\");
+    const payload=await r.json() as { records: HistorixPolity[] };
+    return payload.records;
+  });
+  return polityPromise;
+}
+
+export async function getHistorixPolity(id:string) {
+  const rows=await loadHistorixPolities();
+  return rows.find(row=>row.id===id);
+}
+
 export type HistorixObservation = {
   entity_id: string;
   metric: string;
@@ -124,4 +154,5 @@ export async function queryHistorixObservations(metric:string,year?:number,entit
 export function clearHistorixCache() {
   graphPromise=undefined;
   observationCache.clear();
+  polityPromise=undefined;
 }
