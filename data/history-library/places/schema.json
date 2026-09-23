@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.5.0",
+  "database":"HISTORIX",
+  "kind":"canonical-place",
+  "required":["id","identity","chronology","geography","hierarchy","associations","evidence","uncertainty","editorial"],
+  "identity":{"canonical_name":"string","alternate_names":"string[]","place_type":"string","wikidata_id":"string|null"},
+  "chronology":{"start":"integer|null","end":"integer|null","date_precision":"string"},
+  "geography":{"latitude":"number|null","longitude":"number|null","country_ids":"string[]","region_ids":"string[]","admin_parent_ids":"string[]"},
+  "hierarchy":{"parent_place_ids":"string[]","child_place_ids":"string[]"},
+  "associations":{"polity_ids":"string[]","event_ids":"string[]","person_ids":"string[]"},
+  "evidence":{"source_ids":"string[]","confidence":"string","source_links":"string[]"},
+  "uncertainty":{"unknowns":"string[]","disputes":"string[]"},
+  "editorial":{"status":"string","last_reviewed":"string|null","notes":"string|null"}
+}
