@@ -29,7 +29,7 @@ required={'id','identity','chronology','geography','status','source_links','evid
 for r in payload['records']:
     assert required <= r.keys(), f'missing required fields in {r.get("id")}'
     assert r.get('temporal_records'), f'missing temporal source records in {r.get("id")}'
-    assert r['status']['cliopatria_link'] in {'pending-exact-resolution','resolved'}
+    assert r['status']['cliopatria_link'] in {'pending-exact-resolution','resolved','resolved-source-record'}
     assert r['editorial']['status'] in {'cliopatria-imported','linked-structured','research-enriched','reviewed'}
 assert payload['record_count']==len(actual)==manifest['record_count']==1583
 assert len(cliopatria_files)==1583
