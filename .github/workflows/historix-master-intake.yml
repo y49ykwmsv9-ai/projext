@@ -1,4 +1,5 @@
 name: HISTORIX master-store intake
+# Expansion 1 canonical geography verification pipeline
 on:
   workflow_dispatch:
   push:
