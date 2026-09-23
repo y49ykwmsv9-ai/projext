@@ -44,8 +44,6 @@ jobs:
         run: SCENE_FILE=scene-711-education-v1.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
       - name: Render education v2
         run: SCENE_FILE=scene-711-education-v2.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
-      - name: Render current education revision
-        run: SCENE_FILE=scene-711-education-v2.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
       - name: Assemble site
         run: |
           set -e
@@ -119,9 +117,9 @@ HTML
           test -s site/documentary/sample-scene-711.mp4
           test -s site/documentary/sample-scene-711-watch.html
           test -s site/documentary/scene-711-education-v2.html
-          test -s site/documentary/sample-scene-711-previous.mp4
-          test -s site/documentary/sample-scene-711.mp4
+          test -s site/documentary/reconquista-711-education-v1.mp4
           test -s site/documentary/reconquista-711-education-v2.mp4
+          test -s site/documentary/education-v1-v2-watch.html
           grep -q "HISTORIX" site/documentary/index.html
           grep -q "CLIOPATRIA" site/documentary/index.html
           grep -q "RECONSTRUCTED" site/documentary/index.html
