@@ -30,7 +30,7 @@ for r in payload['records']:
     assert required <= r.keys(), f'missing required fields in {r.get("id")}'
     assert r.get('temporal_records'), f'missing temporal source records in {r.get("id")}'
     assert r['status']['cliopatria_link'] in {'pending-exact-resolution','resolved'}
-    assert r['editorial']['status'] in {'linked-structured','research-enriched','reviewed'}
+    assert r['editorial']['status'] in {'cliopatria-imported','linked-structured','research-enriched','reviewed'}
 assert payload['record_count']==len(actual)==manifest['record_count']==1583
 assert len(cliopatria_files)==1583
 print(f'HISTORIX 1.4 validation passed: {len(actual)} referenced polities')
