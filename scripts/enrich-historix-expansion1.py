@@ -61,7 +61,7 @@ def main():
  for f in a1:
   p=f.get("properties")or{};g=f.get("geometry");n=prop(p,"name","name_en");k=str(prop(p,"adm1_code") or "");k0=str(prop(p,"adm0_a3","iso_a3") or "")
   if n and k and g:
-   ch=pid("ne1",k);pa=pid("ne0",k0) if k0 in c0 else None
+   ch=pid("ne1",k);pa=(c0.get(k0) or [None])[0]
    add(c,ch,n,"administrative-subdivision-1",geom=g,parent=pa,key=k,attrs={"dataset":"Natural Earth","layer":"admin-1","adm1_code":k,"adm0_a3":k0,"temporal_status":"current-reference"})
    rel(c,ch,pa,"administrative-child","natural-earth-pinned",k);counts["admin1"]+=1
  for f in pp:
