@@ -19,7 +19,7 @@ def main():
     records = {}
     for kind in ("events", "places", "people"):
         for record in graph[kind]:
-            rid = f"{kind}:{record['id']}"
+            rid = f"{kind[:-1]}:{record['id']}"
             assert rid not in records, f"duplicate record: {rid}"
             records[rid] = record
             assert record["id"] and record["name"]
