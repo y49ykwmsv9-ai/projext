@@ -1,0 +1,163 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 10,
+  "period": {
+    "start": "-0062-10-01",
+    "end": "-0062-10-31"
+  },
+  "player_action": "Gaius Maximus Valerius emphasizes that he seeks neither to grow beyond his proper station nor to usurp authority. He publicly conducts his affairs according to Roman law and the virtues expected of a respectable Roman landholder and commander. He declares the road and lake port officially open for commerce and hosts an opening festival intended to draw merchants, laborers, neighboring people and others whose ears may have reached the estate's name.",
+  "running_total": {
+    "currency": -450,
+    "population": 5,
+    "economy": 3,
+    "trade": 6,
+    "relations": 5,
+    "legitimacy": 4,
+    "stability": 2,
+    "intelligence": 1,
+    "morale": 2,
+    "supply": 1,
+    "organization": 1
+  },
+  "events": [
+    {
+      "event_number": 1,
+      "date": "2 October 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Gaius Maximus Valerius",
+        "Roman Law",
+        "Valerius Estate"
+      ],
+      "headline": "VALERIUS DECLARES THAT HIS AMBITION HAS NO CLAIM BEYOND HIS PROPER STATION",
+      "article": "Gaius Maximus Valerius has made a deliberate declaration concerning the character of his growing estate and the works surrounding it. Before men gathered from the neighboring country, he emphasized that the improvements were not intended as a claim to public authority or as an attempt to place his household above the laws of Rome. He stated that his conduct would remain within the law and that the virtues expected of a Roman landholder, including restraint, duty and proper respect for established authority, would guide his affairs. The statement comes at a moment when the road, port and private defenses have made his property considerably more conspicuous than it was at the beginning of the year. Those hearing the declaration are left with little ambiguity about the distinction Valerius wishes to draw between private prosperity and public power. The matter has been repeated by men returning along the new road, giving the declaration a wider audience than the original gathering.",
+      "ledger": {
+        "legitimacy": 2,
+        "relations": 1,
+        "stability": 1,
+        "intelligence": 1
+      }
+    },
+    {
+      "event_number": 2,
+      "date": "5 October 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Lake Port",
+        "Commerce",
+        "Road"
+      ],
+      "headline": "THE ROAD AND LAKE PORT ARE FORMALLY OPENED TO COMMERCE",
+      "article": "The road from Valerius's main estate to the lake station has now been declared open for regular commercial use. Carts carrying agricultural produce, tools and other lawful goods may travel the route toward the landing, while boats can receive cargo at the port and carry it onward by water. The opening is being presented as a commercial undertaking rather than an assertion of authority over the surrounding countryside. Guards remain at the road posts and the port defenses, but their stated purpose is the protection of travelers, merchants, stores and the estate's property. The gatehouse at the port marks the defended entrance, while the watchtowers along the road provide warning between the estate and the lake. What began as a strategically placed piece of land has therefore become an operating route of commerce.",
+      "ledger": {
+        "currency": -100,
+        "trade": 3,
+        "economy": 1,
+        "organization": 1,
+        "supply": 1
+      }
+    },
+    {
+      "event_number": 3,
+      "date": "9 October 62 BCE",
+      "type": "DIRECT",
+      "tags": [
+        "Opening Festival",
+        "Merchants",
+        "Local Population"
+      ],
+      "headline": "AN OPENING FESTIVAL BRINGS THE COUNTRYSIDE TO THE NEW PORT",
+      "article": "A festival has been held beside the lake to mark the opening of Valerius's road and port. Food, drink, music and customary public entertainments have drawn cultivators, craftsmen, merchants, boatmen and families from the surrounding country. The gathering has given people who had heard the name of Valerius only through travelers an opportunity to see the works for themselves. The road has carried visitors down from the main estate while boats have brought smaller groups and goods toward the landing. Valerius's men have remained visible around the works, but the occasion has been conducted as a celebration of commerce and local prosperity rather than as a military display. By evening, the new port has acquired a crowd far larger than the quiet landing it replaced.",
+      "ledger": {
+        "currency": -200,
+        "population": 3,
+        "relations": 2,
+        "morale": 2,
+        "trade": 1
+      }
+    },
+    {
+      "event_number": 4,
+      "date": "13 October 62 BCE",
+      "type": "CONNECTED",
+      "tags": [
+        "Merchants",
+        "Trade",
+        "Lake Port"
+      ],
+      "headline": "MERCHANTS TEST THE NEW ROUTE AS THE FESTIVAL'S VISITORS RETURN HOME",
+      "article": "The first days following the festival have brought practical use of the newly opened route. Merchants who came to inspect the landing have begun discussing the movement of grain, agricultural produce, timber, tools and other goods through the port. The paved road has made the journey from Valerius's main estate more dependable, while the defended landing gives merchants a clear place to load and unload. The port remains small and cannot yet rival the great commercial centers of the Roman world. Its advantage lies instead in the combination of a usable road, lake transport and a guarded approach. Several traders who attended the festival have indicated that they intend to return if the route continues to prove reliable.",
+      "ledger": {
+        "currency": 150,
+        "trade": 2,
+        "economy": 1,
+        "relations": 1
+      }
+    },
+    {
+      "event_number": 5,
+      "date": "18 October 62 BCE",
+      "type": "CONNECTED",
+      "tags": [
+        "Nearby Landowners",
+        "Smallholders",
+        "Valerius Estate"
+      ],
+      "headline": "NEIGHBORS RESPOND TO VALERIUS'S PLEDGE OF LAWFUL CONDUCT",
+      "article": "The opening of the port has prompted renewed discussion among neighboring landowners concerning the intentions of its owner. The repeated declaration that Valerius seeks no public authority beyond his proper station has eased some of the uncertainty created by the rapid construction of roads and defenses. Smallholders and cultivators have continued to use the road, while local craftsmen have found new customers among merchants visiting the landing. The distinction between a prosperous private estate and an authority over the surrounding countryside has been emphasized in conversations at the market and along the road. Valerius's reputation is consequently being shaped not only by his military service but by the manner in which he presents his wealth and improvements. The festival has helped turn what might have been a matter of rumor into something many local people have now seen directly.",
+      "ledger": {
+        "relations": 2,
+        "legitimacy": 1,
+        "stability": 1,
+        "economy": 1
+      }
+    },
+    {
+      "event_number": 6,
+      "date": "22 October 62 BCE",
+      "type": "CONNECTED",
+      "tags": [
+        "Marcus Claudius Marcellus",
+        "Roman Political Elite",
+        "Roman Republic"
+      ],
+      "headline": "VALERIUS'S DECLARATION OF RESTRAINT REACHES ROMAN POLITICAL CIRCLES",
+      "article": "Reports from the countryside concerning Valerius now include his declaration that neither the road nor the port is intended as a claim to public authority. Marcus Claudius Marcellus remains among the Roman political connections through which news of the estate has circulated, and the latest reports emphasize Valerius's stated adherence to Roman law and the conduct expected of a respectable citizen. No office, commission or extraordinary authority has been granted to him. The interest instead concerns a private man whose military reputation, property improvements and commercial connections are becoming increasingly visible. Such reports are likely to be considered alongside the practical fact that the port is now receiving merchants rather than merely displaying fortifications. Valerius's attempt to define his position before others define it for him has therefore become part of the story reaching Rome.",
+      "ledger": {
+        "relations": 1,
+        "legitimacy": 1,
+        "intelligence": 1
+      }
+    },
+    {
+      "event_number": 7,
+      "date": "27 October 62 BCE",
+      "type": "WORLD",
+      "tags": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Roman Republic"
+      ],
+      "headline": "ROME REMAINS THE SUBJECT OF COUNTRY NEWS AS TRADE GROWS AT THE LAKE",
+      "article": "News from Rome continues to circulate through merchants and travelers using the roads of Italy. Marcus Tullius Cicero remains a prominent subject of political discussion after the extraordinary events of his consulship, while Gaius Julius Caesar continues to command attention among Romans watching the ambitions of the Republic's leading men. In the countryside, the more immediate concern is increasingly commercial: travelers now speak of the lake port, the road leading to it and the festival that marked its opening. The contrast is striking between the enormous political affairs of Rome and the smaller prosperity being attempted by a private landowner in the countryside. Yet merchants carry both kinds of news along the same roads. The opening of Valerius's port has consequently begun placing his local affairs within a wider stream of Roman conversation.",
+      "ledger": {
+        "currency": 0
+      }
+    },
+    {
+      "event_number": 8,
+      "date": "31 October 62 BCE",
+      "type": "WORLD",
+      "tags": [
+        "Local News",
+        "Lake Port",
+        "Valerius Estate"
+      ],
+      "headline": "LOCAL NEWS: A PRIVATE ESTATE OPENS ITS ROAD AND PORT TO THE COUNTRY",
+      "article": "The month closes with the lake station operating openly as a place of commerce and the road from Valerius's principal estate carrying regular traffic toward it. The opening festival brought a substantial gathering from the surrounding countryside, and merchants who came to inspect the works have begun considering repeated use of the route. Valerius has taken care to emphasize that his improvements are private works conducted within Roman law, not a declaration of independent authority. The road watchtowers and port fortifications remain in place, but the public face of the new station is now commerce rather than military display. For a man whose estate was little known beyond its immediate neighbors only months ago, the change is considerable. The lake port has become a recognizable local institution, while its owner is attempting to ensure that growing influence does not become confused with a claim to rule.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ]
+}
