@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chronicle Memory News Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "round",
+    "date",
+    "headline",
+    "article",
+    "significance",
+    "actors",
+    "locations",
+    "effects",
+    "information"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "date": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "article": {
+      "type": "string",
+      "minLength": 1
+    },
+    "significance": {
+      "enum": [
+        "minor",
+        "regional",
+        "major",
+        "world"
+      ]
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "causes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "state_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "actor_id",
+          "stat",
+          "delta"
+        ],
+        "properties": {
+          "actor_id": {
+            "type": "string"
+          },
+          "stat": {
+            "type": "string"
+          },
+          "delta": {
+            "type": "number"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "information": {
+      "type": "object",
+      "required": [
+        "visibility",
+        "confidence"
+      ],
+      "properties": {
+        "visibility": {
+          "enum": [
+            "public",
+            "observed",
+            "reported",
+            "rumor",
+            "secret",
+            "inferred"
+          ]
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      }
+    }
+  }
+}
