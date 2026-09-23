@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Chronicle Memory Round Record",
+  "type": "object",
+  "required": ["round", "date", "previous_round", "events", "state_changes", "military_ledger"],
+  "properties": {
+    "round": {"type":"integer","minimum":1},
+    "date": {"type":"string","format":"date"},
+    "previous_round": {"type":["integer","null"],"minimum":1},
+    "scenario_id": {"type":"string"},
+    "events": {"type":"array","items":{"$ref":"news-event.schema.json"}},
+    "state_changes": {"type":"array","items":{
+      "type":"object",
+      "required":["actor_id","stat","before","delta","after","cause","source_event_id"],
+      "properties":{
+        "actor_id":{"type":"string"},
+        "stat":{"type":"string"},
+        "before":{"type":"number"},
+        "delta":{"type":"number"},
+        "after":{"type":"number"},
+        "cause":{"type":"string"},
+        "source_event_id":{"type":"string"}
+      }
+    }},
+    "military_ledger": {"type":"array","items":{
+      "type":"object",
+      "required":["actor_id","total_troops","available_troops","committed_troops","garrison_troops","permanent_losses"],
+      "properties":{
+        "actor_id":{"type":"string"},
+        "total_troops":{"type":"integer","minimum":0},
+        "available_troops":{"type":"integer","minimum":0},
+        "committed_troops":{"type":"integer","minimum":0},
+        "garrison_troops":{"type":"integer","minimum":0},
+        "permanent_losses":{"type":"integer","minimum":0},
+        "recruitment_gains":{"type":"integer","minimum":0},
+        "reinforcements_received":{"type":"integer","minimum":0}
+      }
+    }},
+    "checksum_inputs": {"type":"object"}
+  }
+}
