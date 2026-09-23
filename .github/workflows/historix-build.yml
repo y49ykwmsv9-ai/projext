@@ -90,6 +90,13 @@ jobs:
           test -s data/history-library/places/historix-places.json
           test -s data/history-library/graph/place-time-index.json
           test -s data/history-library/HISTORIX-1.5-manifest.json
+          python - <<'PY'
+          import json
+          p=json.load(open("data/history-library/places/historix-places.json", encoding="utf-8"))
+          n=p["record_count"]
+          assert n >= 37, f"place layer regressed below preserved curated baseline: {n}"
+          print(f"Verified {n} canonical place records")
+          PY
 
       - name: Persist generated data
         run: |
