@@ -124,9 +124,9 @@ def main():
             c.execute("INSERT INTO event_person_refs(event_id,person_ref) VALUES(?,?,?)",(eid,pid,"related"))
         g=e.get("graph",{})
         for rid in g.get("preceding_event_ids",[]) or []:
-            c.execute("INSERT OR IGNORE INTO event_relations VALUES(?,?,?,?,?)",(eid,rid,"preceding","resolved"))
+            c.execute("INSERT OR IGNORE INTO event_relations VALUES(?,?,?,?)",(eid,rid,"preceding","resolved"))
         for rid in g.get("following_event_ids",[]) or []:
-            c.execute("INSERT OR IGNORE INTO event_relations VALUES(?,?,?,?,?)",(eid,rid,"following","resolved"))
+            c.execute("INSERT OR IGNORE INTO event_relations VALUES(?,?,?,?)",(eid,rid,"following","resolved"))
         ev=e.get("evidence",{})
         claims=ev.get("claims",[]) or []
         for claim in claims:
