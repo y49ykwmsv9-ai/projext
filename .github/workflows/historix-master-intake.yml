@@ -47,3 +47,5 @@ jobs:
           git add data/historix-master/intake_report.json data/historix-master/expansion1_report.json
           git diff --cached --quiet || git commit -m "HISTORIX: persist Expansion 1 validation reports"
           git push
+
+# jurisdiction model validation trigger
