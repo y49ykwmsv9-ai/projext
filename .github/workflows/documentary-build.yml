@@ -33,6 +33,9 @@ jobs:
       - name: Generate historical documentary package
         run: node scripts/generate-documentary.mjs
 
+      - name: Preflight documentary renderer
+        run: node scripts/preflight-documentary-render.mjs
+
       - name: Render 60-minute documentary
         run: node scripts/render-documentary.mjs
 
