@@ -3,7 +3,7 @@
   "database": "HISTORIX",
   "version": "1.5.0",
   "layer": "canonical-places-and-geographic-hierarchy",
-  "status": "built",
+  "status": "source-backed-expanded",
   "record_count": 37,
   "storage": "data/history-library/places/historix-places.json",
   "sources": [
@@ -11,5 +11,5 @@
     "wikidata"
   ],
   "identity_rule": "preserve existing place IDs; materialize only source-supplied Wikidata IDs; never infer identity from names",
-  "next_step": "event and battle expansion plus temporal place-event indexing"
+  "next_step": "verified historical place aliases, time-varying administrative hierarchy, and place-time coverage tests"
 }
