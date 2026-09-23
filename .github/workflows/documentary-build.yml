@@ -81,3 +81,14 @@ jobs:
           retention-days: 14
 
 # Renderer pipeline: preflight is mandatory before the production render.
+
+      - name: Publish watchable documentary package
+        uses: actions/upload-artifact@v4
+        with:
+          name: reconquista-documentary-watchable
+          path: |
+            dist/reconquista-documentary.mp4
+            dist/reconquista-documentary.html
+            dist/validation.json
+          if-no-files-found: error
+          retention-days: 30
