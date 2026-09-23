@@ -10,6 +10,7 @@ on:
     paths:
       - "scripts/render-sample-scene.mjs"
       - "projects/documentary/render/scenes/scene-711-v2.html"
+      - "projects/documentary/render/scenes/scene-711-v3.html"
       - "projects/documentary/render/scenes/scene-711-v2.json"
       - ".github/workflows/sample-scene-render.yml"
 
@@ -33,11 +34,11 @@ jobs:
           npx playwright install --with-deps chromium
 
       - name: Render 711 CE sample scene
-        run: node scripts/render-sample-scene.mjs
+        run: SCENE_FILE=scene-711-v3.html node scripts/render-sample-scene.mjs
 
       - name: Upload rendered sample scene
         uses: actions/upload-artifact@v4
         with:
-          name: reconquista-sample-scene-711
-          path: projects/documentary/build/sample-scene-711
+          name: reconquista-sample-scene-711-v3
+          path: projects/documentary/build/sample-scene-711-v3
           retention-days: 14
