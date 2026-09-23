@@ -1,0 +1,87 @@
+{
+  "round": 1,
+  "date": "1444-01-01",
+  "previous_round": null,
+  "scenario_id": "1444-asturias",
+  "events": [
+    {
+      "event_id": "r1-e1",
+      "round": 1,
+      "date": "1444-01-01",
+      "headline": "The Crown Raises Taxes While Subsidizing the Harvest",
+      "article": "Royal officials begin collecting a modestly higher tax burden while directing new subsidies toward agriculture. The policy raises expected state revenue without treating the increase as costless: merchants and taxable households immediately face a somewhat heavier burden. Agricultural investment receives priority, increasing the kingdom's productive capacity and reducing some of the risk created by the tax change. The treasury therefore gains a projected short-term revenue improvement while part of that gain is committed to agricultural support. The economic effect is recorded as a continuing policy state rather than a one-turn narrative bonus. Future harvests, prices, population, and unrest will determine whether the policy remains beneficial.",
+      "significance": "regional",
+      "actors": ["asturias"],
+      "locations": ["oviedo", "asturias"],
+      "causes": ["r1-player-tax-policy", "r1-player-agriculture-subsidy"],
+      "effects": ["tax_rate_increase", "agriculture_investment_increase", "merchant_confidence_decrease"],
+      "state_changes": [
+        {"actor_id":"asturias","stat":"tax_rate_index","before":1.000,"delta":0.030,"after":1.030,"reason":"modest tax increase","source":"simulation"},
+        {"actor_id":"asturias","stat":"agriculture_investment_index","before":1.000,"delta":0.050,"after":1.050,"reason":"subsidized agriculture","source":"simulation"},
+        {"actor_id":"asturias","stat":"military_expenditure_index","before":1.000,"delta":0.040,"after":1.040,"reason":"border deployment funding","source":"simulation"}
+      ],
+      "information": {"visibility":"public","confidence":"medium"}
+    },
+    {
+      "event_id": "r1-e2",
+      "round": 1,
+      "date": "1444-01-01",
+      "headline": "Additional Troops Move Toward the Frontier",
+      "article": "The Asturian crown orders additional troops toward its vulnerable frontier positions. The order is treated as a real deployment from the existing army rather than an invented increase in the kingdom's total military strength. The deployment improves border readiness but reduces the number of troops immediately available elsewhere and increases supply expenditure. The military ledger records the exact number committed to the frontier so later reports can refer back to the same formations. No battle has occurred, so no permanent troop losses are recorded in this round. If fighting occurs later, casualties will be deducted from these committed forces and will remain deducted until a separate event creates replacements.",
+      "significance": "regional",
+      "actors": ["asturias"],
+      "locations": ["asturias-frontier"],
+      "causes": ["r1-player-border-deployment"],
+      "effects": ["border_readiness_increase", "troop_commitment_increase", "military_supply_cost_increase"],
+      "state_changes": [
+        {"actor_id":"asturias","stat":"border_readiness","before":50,"delta":8,"after":58,"reason":"additional frontier troops","source":"simulation"},
+        {"actor_id":"asturias","stat":"troops_total","before":12000,"delta":0,"after":12000,"reason":"deployment does not create troops","source":"military ledger"},
+        {"actor_id":"asturias","stat":"troops_committed_frontier","before":0,"delta":2400,"after":2400,"reason":"border deployment","source":"military ledger"}
+      ],
+      "information": {"visibility":"public","confidence":"high"}
+    },
+    {
+      "event_id": "r1-e3",
+      "round": 1,
+      "date": "1444-01-01",
+      "headline": "Asturian Envoys Seek Stronger Trade With Pamplona",
+      "article": "Asturian envoys arrive with proposals intended to strengthen commercial ties with Pamplona. The initiative is diplomatic and economic rather than an automatic treaty, so the relationship improves only to the extent that the other side accepts the proposed arrangements. Trade negotiations begin with a modest improvement in relations and a potential increase in future trade volume. The Asturian court does not control Pamplona's response, and Navarrese officials evaluate the proposal according to their own interests. No trade revenue is added immediately because the agreement has not yet been finalized. The negotiation itself becomes part of the persistent diplomatic state and can produce a later agreement, rejection, or counterproposal.",
+      "significance":"regional",
+      "actors":["asturias","navarre"],
+      "locations":["oviedo","pamplona"],
+      "causes":["r1-player-pamplona-trade"],
+      "effects":["trade_negotiation_opened","diplomatic_relation_improved"],
+      "state_changes":[
+        {"actor_id":"asturias","stat":"relations_navarre","before":0,"delta":8,"after":8,"reason":"trade diplomacy","source":"simulation"},
+        {"actor_id":"navarre","stat":"relations_asturias","before":0,"delta":8,"after":8,"reason":"received trade proposal","source":"simulation"}
+      ],
+      "information":{"visibility":"public","confidence":"medium"}
+    }
+  ],
+  "state_changes": [
+    {"actor_id":"asturias","stat":"tax_rate_index","before":1.000,"delta":0.030,"after":1.030,"cause":"modest tax increase","source_event_id":"r1-e1"},
+    {"actor_id":"asturias","stat":"agriculture_investment_index","before":1.000,"delta":0.050,"after":1.050,"cause":"agricultural subsidy","source_event_id":"r1-e1"},
+    {"actor_id":"asturias","stat":"military_expenditure_index","before":1.000,"delta":0.040,"after":1.040,"cause":"frontier deployment","source_event_id":"r1-e1"},
+    {"actor_id":"asturias","stat":"border_readiness","before":50,"delta":8,"after":58,"cause":"frontier deployment","source_event_id":"r1-e2"},
+    {"actor_id":"asturias","stat":"troops_total","before":12000,"delta":0,"after":12000,"cause":"deployment only","source_event_id":"r1-e2"},
+    {"actor_id":"asturias","stat":"troops_committed_frontier","before":0,"delta":2400,"after":2400,"cause":"frontier deployment","source_event_id":"r1-e2"},
+    {"actor_id":"asturias","stat":"relations_navarre","before":0,"delta":8,"after":8,"cause":"trade diplomacy","source_event_id":"r1-e3"},
+    {"actor_id":"navarre","stat":"relations_asturias","before":0,"delta":8,"after":8,"cause":"trade proposal received","source_event_id":"r1-e3"}
+  ],
+  "military_ledger": [
+    {
+      "actor_id":"asturias",
+      "total_troops":12000,
+      "available_troops":9600,
+      "committed_troops":2400,
+      "garrison_troops":0,
+      "permanent_losses":0,
+      "recruitment_gains":0,
+      "reinforcements_received":0
+    }
+  ],
+  "checksum_inputs": {
+    "military_conservation": "9600 + 2400 = 12000",
+    "round_rule": "No battle occurred; permanent military losses remain zero."
+  }
+}
