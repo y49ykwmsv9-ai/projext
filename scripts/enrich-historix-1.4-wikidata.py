@@ -6,7 +6,7 @@ guess identities from names. Only fields returned by Wikidata are copied, with
 explicit provenance and retrieval timestamps.
 """
 from __future__ import annotations
-import json, time, urllib.parse, urllib.request
+import json, os, time, urllib.parse, urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -86,24 +86,25 @@ def main():
         enriched.update(data.get("entities",{}))
         time.sleep(0.15)
 
-    # Resolve English Wikipedia summaries from the sitelinks returned by Wikidata.
-    titles=sorted({e.get("sitelinks",{}).get("enwiki",{}).get("title") for e in enriched.values() if e.get("sitelinks",{}).get("enwiki",{}).get("title")})
+    # Wikipedia summaries are optional because Wikimedia rate limits can make
+    # the canonical identity pass unnecessarily slow. Identity, aliases, claims,
+    # and sitelinks remain source-backed; summaries can be enabled for a later
+    # research pass without blocking the canonical build.
     wiki={}
-    for i in range(0,len(titles),50):
-        batch=titles[i:i+50]
-        url="https://en.wikipedia.org/w/api.php?"+urllib.parse.urlencode({
-            "action":"query","format":"json","prop":"extracts|info","exintro":1,
-            "explaintext":1,"inprop":"url","redirects":1,"titles":"|".join(batch)
-        })
-        data=get_json(url)
-        for page in data.get("query",{}).get("pages",{}).values():
-            title=page.get("title")
-            if title:
-                wiki[title]={
-                    "summary":page.get("extract"),
-                    "url":page.get("fullurl")
-                }
-        time.sleep(0.15)
+    if os.environ.get("HISTORIX_FETCH_WIKIPEDIA_SUMMARIES","0")=="1":
+        titles=sorted({e.get("sitelinks",{}).get("enwiki",{}).get("title") for e in enriched.values() if e.get("sitelinks",{}).get("enwiki",{}).get("title")})
+        for i in range(0,len(titles),50):
+            batch=titles[i:i+50]
+            url="https://en.wikipedia.org/w/api.php?"+urllib.parse.urlencode({
+                "action":"query","format":"json","prop":"extracts|info","exintro":1,
+                "explaintext":1,"inprop":"url","redirects":1,"titles":"|".join(batch)
+            })
+            data=get_json(url)
+            for page in data.get("query",{}).get("pages",{}).values():
+                title=page.get("title")
+                if title:
+                    wiki[title]={"summary":page.get("extract"),"url":page.get("fullurl")}
+            time.sleep(0.15)
 
     today=str(date.today())
     for r in records:
@@ -149,6 +150,7 @@ def main():
         "retrieved_at":today,
         "resolved_entities":sum(1 for r in records if r.get("research",{}).get("status")=="research-enriched"),
         "wikipedia_summaries":sum(1 for r in records if r.get("research",{}).get("wikipedia_en_summary")),
+        "summary_mode":os.environ.get("HISTORIX_FETCH_WIKIPEDIA_SUMMARIES","0"),
         "unresolved_entities":sum(1 for r in records if r.get("research",{}).get("status")!="research-enriched")
     }
     AGG.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
