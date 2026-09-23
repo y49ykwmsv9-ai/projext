@@ -1,22 +1,12 @@
 {
-  "scenario_id": "GMV-62BCE-001",
-  "character": {
-    "name": "Gaius Maximus Valerius",
-    "role": "young centurion",
-    "traits": [
-      "ambitious",
-      "virtuous",
-      "civic"
-    ]
-  },
-  "start": {
-    "year": -62,
-    "display": "62 BCE"
-  },
-  "latest_round": 10,
-  "latest_date": "-0062-10-31",
-  "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
-  "metric_schema": "fixed-v1",
-  "news_style": "period-authentic-local-newspaper",
-  "isolation": "Independent state, rounds, events, relationships, and news."
+  "scenario_id":"GMV-62BCE-001",
+  "character":{"name":"Gaius Maximus Valerius","role":"young centurion","traits":["ambitious","virtuous","civic"]},
+  "start":{"year":-62,"display":"62 BCE"},
+  "latest_round":11,
+  "latest_date":"-0062-11-30",
+  "calendar":"Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
+  "metric_schema":"fixed-v1",
+  "news_style":"period-authentic-local-newspaper",
+  "wealth_account_schema":{"public":"operating and reinvestment capital","private":"personal reserve","private_transfer_rate":0.10,"profit_basis":"realized net public commercial profit","anti_exponential_rule":true},
+  "isolation":"Independent state, rounds, events, relationships, and news."
 }
