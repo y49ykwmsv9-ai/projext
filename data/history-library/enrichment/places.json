@@ -1,0 +1,2821 @@
+{
+  "schema_version": "1.3.0",
+  "database": "HISTORIX",
+  "kind": "place_enrichment_index",
+  "record_count": 37,
+  "source": "lib/historical-records.ts",
+  "records": [
+    {
+      "id": "ur",
+      "identity": {
+        "canonical_name": "Ur",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -3000,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesopotamia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "30.962"
+        ]
+      },
+      "description": {
+        "summary": "Major Sumerian urban center near the Euphrates and a center of early state formation.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "30.962"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major Sumerian urban center near the Euphrates and a center of early state formation.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "babylon",
+      "identity": {
+        "canonical_name": "Babylon",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -1800,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesopotamia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "32.542"
+        ]
+      },
+      "description": {
+        "summary": "Ancient city on the Euphrates and capital of several Babylonian states.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "32.542"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ancient city on the Euphrates and capital of several Babylonian states.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "nineveh",
+      "identity": {
+        "canonical_name": "Nineveh",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -900,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesopotamia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "36.359"
+        ]
+      },
+      "description": {
+        "summary": "Ancient Assyrian capital on the Tigris near modern Mosul.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "36.359"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ancient Assyrian capital on the Tigris near modern Mosul.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "persepolis",
+      "identity": {
+        "canonical_name": "Persepolis",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -515,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Persia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "29.935"
+        ]
+      },
+      "description": {
+        "summary": "Ceremonial capital of the Achaemenid Empire.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "29.935"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ceremonial capital of the Achaemenid Empire.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "athens",
+      "identity": {
+        "canonical_name": "Athens",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -500,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Greece",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "37.984"
+        ]
+      },
+      "description": {
+        "summary": "Greek polis and major center of political, military and cultural development.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "37.984"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Greek polis and major center of political, military and cultural development.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "sparta",
+      "identity": {
+        "canonical_name": "Sparta",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -500,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Greece",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "37.074"
+        ]
+      },
+      "description": {
+        "summary": "Peloponnesian polis noted for its militarized social organization.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "37.074"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Peloponnesian polis noted for its militarized social organization.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "rome",
+      "identity": {
+        "canonical_name": "Rome",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -753,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Italy",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "41.9028"
+        ]
+      },
+      "description": {
+        "summary": "Capital of the Roman state and a central Mediterranean political center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "41.9028"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Capital of the Roman state and a central Mediterranean political center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "carthage-place",
+      "identity": {
+        "canonical_name": "Carthage",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -814,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "North Africa",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "36.8528"
+        ]
+      },
+      "description": {
+        "summary": "Phoenician-founded city that became the center of a major Mediterranean power.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "36.8528"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Phoenician-founded city that became the center of a major Mediterranean power.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "alexandria",
+      "identity": {
+        "canonical_name": "Alexandria",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -331,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Egypt",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "31.2"
+        ]
+      },
+      "description": {
+        "summary": "Mediterranean port founded by Alexander and major Hellenistic intellectual center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "31.2"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Mediterranean port founded by Alexander and major Hellenistic intellectual center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "constantinople",
+      "identity": {
+        "canonical_name": "Constantinople",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 330,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Bosphorus",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "41.0082"
+        ]
+      },
+      "description": {
+        "summary": "Imperial capital founded as New Rome and later capital of the Byzantine Empire and Ottoman Empire.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "41.0082"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Imperial capital founded as New Rome and later capital of the Byzantine Empire and Ottoman Empire.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "baghdad",
+      "identity": {
+        "canonical_name": "Baghdad",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 762,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesopotamia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "33.3152"
+        ]
+      },
+      "description": {
+        "summary": "Abbasid capital and major intellectual, commercial and political center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "33.3152"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Abbasid capital and major intellectual, commercial and political center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "cordoba",
+      "identity": {
+        "canonical_name": "Cordoba",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 929,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Iberia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "37.8882"
+        ]
+      },
+      "description": {
+        "summary": "Major city of al-Andalus and capital of the Caliphate of Córdoba.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "37.8882"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major city of al-Andalus and capital of the Caliphate of Córdoba.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "timbuktu",
+      "identity": {
+        "canonical_name": "Timbuktu",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1300,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "West Africa",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "16.7666"
+        ]
+      },
+      "description": {
+        "summary": "Important trans-Saharan commercial and scholarly center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "16.7666"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Important trans-Saharan commercial and scholarly center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "venice",
+      "identity": {
+        "canonical_name": "Venice",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1200,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Italy",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "45.44"
+        ]
+      },
+      "description": {
+        "summary": "Maritime republic and major Mediterranean commercial center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "45.44"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Maritime republic and major Mediterranean commercial center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "kyiv",
+      "identity": {
+        "canonical_name": "Kyiv",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Eastern Europe",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "50.4501"
+        ]
+      },
+      "description": {
+        "summary": "Major East European center associated with Kyivan Rus and later states.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "50.4501"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major East European center associated with Kyivan Rus and later states.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "cracow",
+      "identity": {
+        "canonical_name": "Kraków",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Central Europe",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "50.0647"
+        ]
+      },
+      "description": {
+        "summary": "Major Polish political and cultural center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "50.0647"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major Polish political and cultural center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "prague",
+      "identity": {
+        "canonical_name": "Prague",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Central Europe",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "50.0755"
+        ]
+      },
+      "description": {
+        "summary": "Bohemian and later Czech political center on the Vltava.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "50.0755"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Bohemian and later Czech political center on the Vltava.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "constantinople-1453",
+      "identity": {
+        "canonical_name": "Walls of Constantinople",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1453,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Constantinople",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "41.0082"
+        ]
+      },
+      "description": {
+        "summary": "Fortification system central to the defense and eventual Ottoman conquest of the city.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "41.0082"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Fortification system central to the defense and eventual Ottoman conquest of the city.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "tenochtitlan-place",
+      "identity": {
+        "canonical_name": "Tenochtitlan",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1500,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Mesoamerica",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "19.4326"
+        ]
+      },
+      "description": {
+        "summary": "Mexica imperial capital built on islands in Lake Texcoco.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "19.4326"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Mexica imperial capital built on islands in Lake Texcoco.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "cusco",
+      "identity": {
+        "canonical_name": "Cusco",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1450,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Andes",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "-13.5319"
+        ]
+      },
+      "description": {
+        "summary": "Capital and ceremonial center of the Inca Empire.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "-13.5319"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Capital and ceremonial center of the Inca Empire.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "istanbul",
+      "identity": {
+        "canonical_name": "Istanbul",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1500,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Anatolia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "41.0082"
+        ]
+      },
+      "description": {
+        "summary": "Ottoman imperial capital following the conquest of Constantinople.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "41.0082"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ottoman imperial capital following the conquest of Constantinople.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "paris",
+      "identity": {
+        "canonical_name": "Paris",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "France",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "48.8566"
+        ]
+      },
+      "description": {
+        "summary": "Major French political and cultural center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "48.8566"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major French political and cultural center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "london",
+      "identity": {
+        "canonical_name": "London",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "England",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "51.5074"
+        ]
+      },
+      "description": {
+        "summary": "Political and commercial center of England and later the United Kingdom.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "51.5074"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Political and commercial center of England and later the United Kingdom.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "amsterdam",
+      "identity": {
+        "canonical_name": "Amsterdam",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1600,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Netherlands",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "52.3676"
+        ]
+      },
+      "description": {
+        "summary": "Major Dutch commercial and financial center during the Dutch Golden Age.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "52.3676"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major Dutch commercial and financial center during the Dutch Golden Age.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "vienna",
+      "identity": {
+        "canonical_name": "Vienna",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1700,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Central Europe",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "48.2082"
+        ]
+      },
+      "description": {
+        "summary": "Habsburg imperial capital and major Central European diplomatic center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "48.2082"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Habsburg imperial capital and major Central European diplomatic center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "berlin",
+      "identity": {
+        "canonical_name": "Berlin",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1700,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Germany",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "52.52"
+        ]
+      },
+      "description": {
+        "summary": "Prussian capital and later German imperial capital.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "52.52"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Prussian capital and later German imperial capital.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "washington",
+      "identity": {
+        "canonical_name": "Washington, D.C.",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1800,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "North America",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "38.9072"
+        ]
+      },
+      "description": {
+        "summary": "Capital of the United States and seat of its federal government.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "38.9072"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Capital of the United States and seat of its federal government.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "new-york",
+      "identity": {
+        "canonical_name": "New York",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1800,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "North America",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "40.7128"
+        ]
+      },
+      "description": {
+        "summary": "Major Atlantic port and commercial center of the United States.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "40.7128"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major Atlantic port and commercial center of the United States.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "sao-paulo",
+      "identity": {
+        "canonical_name": "São Paulo",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1900,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "South America",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "-23.5558"
+        ]
+      },
+      "description": {
+        "summary": "Major industrial and commercial city in Brazil.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "-23.5558"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major industrial and commercial city in Brazil.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "tokyo",
+      "identity": {
+        "canonical_name": "Tokyo",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1600,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Japan",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "35.6762"
+        ]
+      },
+      "description": {
+        "summary": "Japanese political center, first as Edo and later as Tokyo.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "35.6762"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Japanese political center, first as Edo and later as Tokyo.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "delhi",
+      "identity": {
+        "canonical_name": "Delhi",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1200,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "South Asia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "28.6139"
+        ]
+      },
+      "description": {
+        "summary": "Major South Asian imperial and political center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "28.6139"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major South Asian imperial and political center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "beijing",
+      "identity": {
+        "canonical_name": "Beijing",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "China",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "39.9042"
+        ]
+      },
+      "description": {
+        "summary": "Chinese imperial capital under the Ming and Qing dynasties.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "39.9042"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Chinese imperial capital under the Ming and Qing dynasties.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "moscow",
+      "identity": {
+        "canonical_name": "Moscow",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1400,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Russia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "55.7558"
+        ]
+      },
+      "description": {
+        "summary": "Russian political center that became capital of the Russian state and later USSR.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "55.7558"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Russian political center that became capital of the Russian state and later USSR.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "cairo",
+      "identity": {
+        "canonical_name": "Cairo",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 1000,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Egypt",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "30.0444"
+        ]
+      },
+      "description": {
+        "summary": "Major Nile city and political center of Egypt.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "30.0444"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Major Nile city and political center of Egypt.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "jerusalem",
+      "identity": {
+        "canonical_name": "Jerusalem",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": -1000,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Levant",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "31.7683"
+        ]
+      },
+      "description": {
+        "summary": "Ancient and enduring religious and political center.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "31.7683"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Ancient and enduring religious and political center.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "mecca",
+      "identity": {
+        "canonical_name": "Mecca",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 600,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Arabia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "21.4225"
+        ]
+      },
+      "description": {
+        "summary": "Islamic holy city and birthplace of Muhammad.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "21.4225"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "Islamic holy city and birthplace of Muhammad.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    },
+    {
+      "id": "medina",
+      "identity": {
+        "canonical_name": "Medina",
+        "alternate_names": [],
+        "entity_type": "place"
+      },
+      "chronology": {
+        "start": 600,
+        "end": null,
+        "date_label": null,
+        "date_precision": "approximate",
+        "is_approximate": true
+      },
+      "geography": {
+        "region": "Arabia",
+        "latitude": null,
+        "longitude": null,
+        "historical_polity_ids": [
+          "24.4672"
+        ]
+      },
+      "description": {
+        "summary": "City where Muhammad established the early Muslim community after the Hijra.",
+        "historical_significance": [],
+        "geographic_role": [],
+        "temporal_changes": []
+      },
+      "associations": {
+        "event_ids": [],
+        "person_ids": [],
+        "polity_ids": [
+          "24.4672"
+        ]
+      },
+      "evidence": {
+        "claims": [
+          {
+            "claim": "City where Muhammad established the early Muslim community after the Hijra.",
+            "source_ids": [
+              "worldforge-curated-historical-pack"
+            ],
+            "confidence": "high"
+          }
+        ],
+        "primary_source_ids": [],
+        "secondary_source_ids": [
+          "worldforge-curated-historical-pack"
+        ]
+      },
+      "uncertainty": {
+        "confidence": "medium",
+        "disputes": [],
+        "unknowns": [
+          "Historical name sequence",
+          "Temporal boundaries",
+          "Associated events",
+          "Independent geographic/source review"
+        ]
+      },
+      "editorial": {
+        "status": "expanded-structured",
+        "missing_fields": [
+          "alternate_names",
+          "coordinates verification",
+          "historical_significance",
+          "temporal_changes",
+          "event_ids",
+          "person_ids",
+          "primary_sources",
+          "secondary_sources"
+        ],
+        "last_reviewed": null,
+        "editor_notes": "Structured 1.3 expansion from the existing seed. Preserve historical identities and add source-backed temporal/geographic detail."
+      }
+    }
+  ]
+}
