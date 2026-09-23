@@ -9,6 +9,7 @@ manifest=json.loads((LIB/"HISTORIX-1.5-manifest.json").read_text())
 assert payload["schema_version"]=="1.5.0"
 assert schema["schema_version"]=="1.5.0"
 assert manifest["version"]=="1.5.0"
+assert manifest["status"] in {"built","source-backed-expanded"}
 rows=payload["records"]
 ids=[r["id"] for r in rows]
 assert len(ids)==len(set(ids))==payload["record_count"]==manifest["record_count"]
@@ -26,4 +27,5 @@ for r in rows:
         assert r["id"] in next(x for x in rows if x["id"]==child)["hierarchy"]["parent_place_ids"]
     assert r["evidence"]["source_ids"], f"no provenance for {r['id']}"
     assert r["editorial"]["status"] in {"curated-preserved","research-enriched","reviewed"}
+assert len(rows)>=37, "place layer lost preserved curated place records"
 print(f"HISTORIX 1.5 validation passed: {len(rows)} canonical places")
