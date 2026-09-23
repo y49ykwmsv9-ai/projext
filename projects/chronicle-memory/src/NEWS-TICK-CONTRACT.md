@@ -3,6 +3,15 @@
 ## Purpose
 Every explicit time leap produces a living-news turn. News is not decoration. Each article is a structured simulation event whose actors, causes, locations, and state changes are written into world memory and used by later turns.
 
+## Action -> event -> ledger separation
+Player input must be preserved as a canonical structured action before event generation. Each action has a stable action_id, scenario_id, round, actor, original action_text, and structured components. Events derive from that action but must not expose engine reasoning in their public article text.
+
+Each event has two presentation layers:
+1. **News article:** period-authentic reporting containing only information plausibly available to contemporary observers.
+2. **AI ledger box:** a small numerical block attached beneath the article containing only that event's applicable state changes. The ledger is machine-facing and is not part of the newspaper prose.
+
+The numerical ledger uses the scenario's fixed metric schema. Event ledgers accumulate into the round total, and the round total is applied to the next committed state. Never change metric definitions or scales between rounds without an explicit schema-version migration.
+
 ## Required output volume
 For each explicit time advance, generate 5-10 newsworthy articles by default.
 - Short leaps may produce 5 articles when fewer events are plausible.
@@ -19,7 +28,7 @@ News must read as something a contemporary publication could plausibly print, no
 - Write from the information position of the period and place.
 - Use contemporary vocabulary, institutions, titles, customs, and geographic references appropriate to the scenario.
 - Report observable developments and attributed reports. Do not state hidden simulation causes as facts.
-- Do not mention metrics, state deltas, hidden variables, event graphs, causal scores, engine reasoning, or "the simulation".
+- Do not mention metrics, state deltas, hidden variables, event graphs, causal scores, engine reasoning, or "the simulation" in article prose.
 - Do not turn the article into an after-the-fact explanation of why the engine changed a number.
 - A player's private action can only appear in news when a contemporary observer could plausibly know about it.
 - Rumor, uncertainty, and conflicting reports should be written as reporting when appropriate rather than resolved by omniscient narration.
@@ -29,7 +38,7 @@ The final article is a local-reader round summary. It should resemble the closin
 It summarizes the notable events that actually occurred during the round, prioritizing local and nearby developments and adding relevant wider news that plausibly reached the locality. It is a story, not a ledger. It must not list metrics, explain hidden mechanics, or narrate the engine's internal logic.
 
 ## Event -> simulation rule
-An article is valid only if it corresponds to a structured event in simulation memory. At minimum it has event id, date/round, actors, locations, causes, effects, information visibility/confidence, and numerical state changes where applicable.
+An article is valid only if it corresponds to a structured event in simulation memory. At minimum it has event id, date/round, actors, locations, causes, effects, information visibility/confidence, and numerical state changes where applicable. The article text and AI ledger are separate fields/layers.
 Merely mentioning a nation in prose does not count. That nation must exist in the event graph and its state must be eligible to change.
 
 ## Cross-turn causality
@@ -50,5 +59,4 @@ Select articles in this order: 1) events directly altering the player's strategi
 ## Historical 1444 test mode
 Initialize a 1444 world from the Historix / CLIOPATRA / CLIOPATRIA reference layer where available, then process the first explicit time leap using autonomous logic.
 Historical events may occur because initialized conditions make them plausible, but the engine must not force them merely because a real historical date matches.
-The test asks whether a 1444 starting world naturally produces a historically grounded but divergent living world.
 Record both historical baseline evidence and simulation-generated events/state changes. The test succeeds only if news articles, named actors, and numerical consequences agree.
