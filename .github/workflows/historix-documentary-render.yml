@@ -1,0 +1,53 @@
+name: Historix Documentary Render
+on:
+  workflow_dispatch:
+    inputs:
+      duration_minutes:
+        description: Target documentary duration in minutes
+        required: true
+        default: "60"
+        type: string
+      ffmpeg_preset:
+        description: FFmpeg encoding preset
+        required: true
+        default: veryfast
+        type: choice
+        options: [ultrafast, superfast, veryfast, faster, fast, medium]
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install FFmpeg
+        uses: FedericoCarbonara/setup-ffmpeg@v3
+      - name: Configure duration
+        run: node -e "const fs=require('fs');const p='projects/historix-renderer/config/documentary.json';const x=JSON.parse(fs.readFileSync(p));x.targetDurationMinutes=Number(process.env.DURATION);fs.writeFileSync(p,JSON.stringify(x,null,2));"
+        env:
+          DURATION: ${{ inputs.duration_minutes }}
+      - name: Validate
+        working-directory: projects/historix-renderer
+        run: npm run validate
+      - name: Build scene manifest
+        working-directory: projects/historix-renderer
+        run: npm run manifest
+      - name: Render
+        working-directory: projects/historix-renderer
+        env:
+          FFMPEG_PRESET: ${{ inputs.ffmpeg_preset }}
+        run: npm run render
+      - name: Upload documentary
+        uses: actions/upload-artifact@v4
+        with:
+          name: historix-documentary-${{ github.run_number }}
+          path: |
+            projects/historix-renderer/dist/*.mp4
+            projects/historix-renderer/dist/*.json
+          retention-days: 30
