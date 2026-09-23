@@ -134,8 +134,17 @@ def main():
         time.sleep(.2)
 
     capital_qids=set(direct_capital_qids)
-    for e in polity_entities.values():
-        capital_qids.update(x for x in qclaims(e,"P36") if isinstance(x,str) and x.startswith("Q"))
+    polity_capital_map={}
+    for p in pol.get("records",[]):
+        pid=p["id"]
+        qs={q for q in p.get("geography",{}).get("capital_wikidata_ids",[]) if isinstance(q,str) and q.startswith("Q")}
+        for q in p.get("research",{}).get("wikidata_ids",[]):
+            e=polity_entities.get(q)
+            if e:
+                qs.update(x for x in qclaims(e,"P36") if isinstance(x,str) and x.startswith("Q"))
+        if qs:
+            polity_capital_map[pid]=sorted(qs)
+            capital_qids.update(qs)
 
     seeds=set(capital_qids)
 
@@ -166,7 +175,7 @@ def main():
     # Link canonical place associations from already-enriched polities.
     for p in pol.get("records",[]):
         pid=p["id"]
-        for q in p.get("geography",{}).get("capital_wikidata_ids",[]):
+        for q in polity_capital_map.get(pid,[]):
             key="wikidata:"+q
             if key in records:
                 records[key]["associations"]["polity_ids"]=sorted(set(records[key]["associations"]["polity_ids"]+[pid]))
