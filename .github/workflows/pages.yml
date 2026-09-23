@@ -7,6 +7,7 @@ on:
       - "projects/documentary/**"
       - "projects/ironfront-tactics/**"
       - "scripts/render-sample-scene.mjs"
+      - "projects/documentary/render/scenes/scene-711-education-v1.html"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -38,6 +39,8 @@ jobs:
         run: SCENE_FILE=scene-711-v3.html node scripts/render-sample-scene.mjs
       - name: Render v4 current
         run: SCENE_FILE=scene-711-v4.html node scripts/render-sample-scene.mjs
+      - name: Render finished 711 CE education cut
+        run: SCENE_FILE=scene-711-education-v1.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
       - name: Assemble site
         run: |
           set -e
@@ -50,11 +53,13 @@ jobs:
           cp projects/documentary/render/scenes/scene-711-v4.html site/documentary/index.html
           cp projects/documentary/render/scenes/scene-711-v3.html site/documentary/scene-711-v3.html
           cp projects/documentary/render/scenes/scene-711-v4.html site/documentary/scene-711-v4.html
+          cp projects/documentary/render/scenes/scene-711-education-v1.html site/documentary/scene-711-education-v1.html
           cp projects/documentary/render/scenes/scene-711-v2.json site/documentary/scene-711-v2.json
           cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
           cp projects/documentary/render/sample-scene-711-watch.html site/documentary/sample-scene-711-watch.html
           cp projects/documentary/build/sample-scene-711-v3/scene-711-v3.mp4 site/documentary/sample-scene-711-previous.mp4
           cp projects/documentary/build/sample-scene-711-v4/scene-711-v4.mp4 site/documentary/sample-scene-711.mp4
+          cp projects/documentary/build/sample-scene-711-education-v1/scene-711-education-v1.mp4 site/documentary/reconquista-711-education.mp4
           cp projects/documentary/render/SCENE-BASELINE-v2.md site/documentary/SCENE-BASELINE-v2.md
           cp projects/documentary/render/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md site/documentary/DOCUMENTARY-VISUAL-QUALITY-GATE-v1.md
           cp projects/documentary/README.md site/documentary/README.md
@@ -69,6 +74,8 @@ jobs:
           test -s site/documentary/sample-scene-711-previous.mp4
           test -s site/documentary/sample-scene-711.mp4
           test -s site/documentary/sample-scene-711-watch.html
+          test -s site/documentary/scene-711-education-v1.html
+          test -s site/documentary/reconquista-711-education.mp4
           grep -q "HISTORIX" site/documentary/index.html
           grep -q "CLIOPATRIA" site/documentary/index.html
           grep -q "RECONSTRUCTED" site/documentary/index.html
