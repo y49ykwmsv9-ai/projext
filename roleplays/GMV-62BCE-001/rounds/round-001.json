@@ -1,0 +1,54 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 1,
+  "period": {
+    "start": "-0062-01-01",
+    "end": "-0062-01-29",
+    "display": "1 January 62 BCE – 29 January 62 BCE"
+  },
+  "submitted_action": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
+  "events": [
+    {
+      "date": "-0062-01-01",
+      "type": "agriculture",
+      "title": "Agricultural investment begins"
+    },
+    {
+      "date": "-0062-01-04",
+      "type": "patronage",
+      "title": "Gifts distributed among poorer workers"
+    },
+    {
+      "date": "-0062-01-08",
+      "type": "relations",
+      "title": "Approaches to neighboring landowners"
+    },
+    {
+      "date": "-0062-01-13",
+      "type": "agriculture",
+      "title": "Agricultural spending becomes visible"
+    },
+    {
+      "date": "-0062-01-17",
+      "type": "relations",
+      "title": "Second meeting with neighboring landowners"
+    },
+    {
+      "date": "-0062-01-22",
+      "type": "patronage",
+      "title": "Assistance reaches additional households"
+    }
+  ],
+  "state_changes": {
+    "currency": -2500,
+    "economy": 2,
+    "agriculture": 4,
+    "infrastructure": 1,
+    "morale": 3,
+    "supply": 1,
+    "stability": 2,
+    "legitimacy": 2,
+    "intelligence": 1,
+    "relations": 5
+  }
+}
