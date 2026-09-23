@@ -56,17 +56,20 @@ def main():
     resolved_qids_by_record={rid:set() for r in records for rid in [r["id"]]}
     if wikipedia_titles:
         titles=sorted(wikipedia_titles)
+        # Resolve Wikipedia titles directly through Wikidata's site/title lookup.
+        # This avoids an extra Wikimedia pageprops API and preserves exact
+        # source-linked identity without name-based guessing.
         for i in range(0,len(titles),50):
-            url="https://en.wikipedia.org/w/api.php?"+urllib.parse.urlencode({
-                "action":"query","format":"json","prop":"pageprops",
-                "ppprop":"wikibase_item","redirects":1,
-                "titles":"|".join(titles[i:i+50])
+            batch=titles[i:i+50]
+            url="https://www.wikidata.org/w/api.php?"+urllib.parse.urlencode({
+                "action":"wbgetentities","format":"json","sites":"enwiki",
+                "titles":"|".join(batch),"props":"info|sitelinks","sitefilter":"enwiki"
             })
             data=get_json(url)
-            for page in data.get("query",{}).get("pages",{}).values():
-                q=page.get("pageprops",{}).get("wikibase_item")
-                title=page.get("title")
-                if q and title:
+            for entity in data.get("entities",{}).values():
+                q=entity.get("id")
+                title=entity.get("sitelinks",{}).get("enwiki",{}).get("title")
+                if q and q.startswith("Q") and title:
                     for rid in wikipedia_titles.get(title,[]):
                         ids.setdefault(q,[]).append(rid)
                         resolved_qids_by_record.setdefault(rid,set()).add(q)
@@ -146,7 +149,7 @@ def main():
 
     payload["research_layer"]={
         "source":"Wikidata",
-        "method":"Cliopatria-provided Wikidata IDs plus Cliopatria-provided Wikipedia pageprops",
+        "method":"Cliopatria-provided Wikidata IDs plus exact Wikidata enwiki site/title resolution",
         "retrieved_at":today,
         "resolved_entities":sum(1 for r in records if r.get("research",{}).get("status")=="research-enriched"),
         "wikipedia_summaries":sum(1 for r in records if r.get("research",{}).get("wikipedia_en_summary")),
