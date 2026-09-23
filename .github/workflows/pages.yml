@@ -35,11 +35,12 @@ jobs:
           npm init -y
           npm install --no-save playwright@latest
           npx playwright install --with-deps chromium
-      - name: Render v3 previous
-        run: SCENE_FILE=scene-711-v3.html node scripts/render-sample-scene.mjs
-      - name: Render v4 current
-        run: SCENE_FILE=scene-711-v4.html node scripts/render-sample-scene.mjs
-      - name: Render finished 711 CE education cut
+      - name: Render previous education revision
+        run: |
+          set -e
+          git show HEAD^:projects/documentary/render/scenes/scene-711-education-v2.html > projects/documentary/render/scenes/scene-711-education-v2-previous.html
+          SCENE_FILE=scene-711-education-v2-previous.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
+      - name: Render current education revision
         run: SCENE_FILE=scene-711-education-v2.html DURATION_MS=22000 node scripts/render-sample-scene.mjs
       - name: Assemble site
         run: |
@@ -51,13 +52,49 @@ jobs:
           cp -R projects/ironfront-tactics/assets site/assets
           cp -R projects/ironfront-tactics/data site/data
           cp projects/documentary/render/scenes/scene-711-v4.html site/documentary/index.html
-          cp projects/documentary/render/scenes/scene-711-v3.html site/documentary/scene-711-v3.html
-          cp projects/documentary/render/scenes/scene-711-v4.html site/documentary/scene-711-v4.html
           cp projects/documentary/render/scenes/scene-711-education-v2.html site/documentary/scene-711-education-v2.html
           cp projects/documentary/render/scenes/scene-711-v2.json site/documentary/scene-711-v2.json
           cp projects/documentary/render/sample-scene-711.svg site/documentary/sample-scene-711.svg
-          cp projects/documentary/render/sample-scene-711-watch.html site/documentary/sample-scene-711-watch.html
-          cp projects/documentary/build/sample-scene-711-v4/scene-711-v4.mp4 site/documentary/sample-scene-711-previous.mp4
+          cat > site/documentary/sample-scene-711-watch.html <<'HTML'
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reconquista Education Cut - Previous Revision vs Current</title>
+<style>
+body{margin:0;background:#0b0f14;color:#eee;font:16px system-ui,sans-serif}
+main{max-width:1500px;margin:auto;padding:24px}
+section{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+article{background:#111821;padding:12px;border-radius:10px}
+video{width:100%;background:#000}
+a{color:#9ed0ff}
+.badge{font-size:12px;opacity:.7;letter-spacing:.08em;text-transform:uppercase}
+@media(max-width:800px){section{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<h1>The Strait - 711 CE</h1>
+<p>Automatic production comparison. Every video-source revision replaces the stable viewer with the immediately preceding revision and the current revision.</p>
+<p class="badge">Previous revision vs Current revision • Build $GITHUB_SHA</p>
+<section>
+<article>
+<h2>Previous Revision</h2>
+<video controls playsinline preload="metadata" src="sample-scene-711-previous.mp4"></video>
+<p><a href="sample-scene-711-previous.mp4">Open previous MP4</a></p>
+</article>
+<article>
+<h2>Current Revision</h2>
+<video controls playsinline preload="metadata" src="sample-scene-711.mp4"></video>
+<p><a href="sample-scene-711.mp4">Open current MP4</a></p>
+</article>
+</section>
+</main>
+</body>
+</html>
+HTML
+          cp projects/documentary/build/sample-scene-711-education-v2-previous/scene-711-education-v2-previous.mp4 site/documentary/sample-scene-711-previous.mp4
           cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4 site/documentary/sample-scene-711.mp4
           cp projects/documentary/build/sample-scene-711-education-v2/scene-711-education-v2.mp4 site/documentary/reconquista-711-education-v2.mp4
           cp projects/documentary/render/SCENE-BASELINE-v2.md site/documentary/SCENE-BASELINE-v2.md
@@ -75,6 +112,8 @@ jobs:
           test -s site/documentary/sample-scene-711.mp4
           test -s site/documentary/sample-scene-711-watch.html
           test -s site/documentary/scene-711-education-v2.html
+          test -s site/documentary/sample-scene-711-previous.mp4
+          test -s site/documentary/sample-scene-711.mp4
           test -s site/documentary/reconquista-711-education-v2.mp4
           grep -q "HISTORIX" site/documentary/index.html
           grep -q "CLIOPATRIA" site/documentary/index.html
