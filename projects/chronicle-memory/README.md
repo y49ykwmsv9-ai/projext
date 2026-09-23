@@ -443,3 +443,286 @@ Future runtime code belongs under this directory. Do not place scenario state in
 - Do not make GitHub the required gameplay output channel.
 - Do not replace the conversational simulation with acknowledgement-only responses.
 - Do not advance time unless the player explicitly advances it or an already-established game mechanic requires a modeled internal date transition.
+
+
+## Historix / CLIOPATRA / CLIOPATRIA reference access
+
+Chronicle Memory should make the repository's historical knowledge layer easy for the assistant to consult during gameplay. The historical database is a **reference and evidence layer**, not a separate game master.
+
+The intended lookup priority is:
+
+1. **Current scenario state**: once the alternate timeline establishes a value, that value is authoritative for the scenario.
+2. **Historix / CLIOPATRA / CLIOPATRIA repository data**: use it for historical people, places, polities, dates, populations, geography, institutions, military information, economic context, relationships, and documented events.
+3. **Other repository historical datasets**: use compatible sources when they add non-duplicate information.
+4. **Reasoned simulation estimates**: when the available historical record is incomplete, derive a plausible value from known inputs and clearly treat it as an estimate.
+5. **Explicit uncertainty**: when neither evidence nor a defensible estimate is available, state the uncertainty rather than inventing fake precision.
+
+The assistant should be able to use this reference layer while responding in chat without requiring the player to manually open the database.
+
+### Evidence labels
+
+Material information should be mentally classified as one of:
+
+- **Historical fact**: directly supported by repository/source material.
+- **Historical estimate**: a documented or sourced estimate.
+- **Simulation value**: established by the current alternate timeline.
+- **Derived value**: calculated from simulation state and known formulas.
+- **Educated estimate**: a reasoned value created because historical data is incomplete.
+- **Uncertain**: insufficient evidence to make a defensible determination.
+
+The final roleplay does not need to clutter every sentence with labels, but the engine's internal memory should preserve the distinction.
+
+## The player versus a living world
+
+Chronicle Memory is fundamentally a **player-versus-world simulation**, not a player-versus-script simulation.
+
+The player's nation, faction, character, or polity is competing for survival, prosperity, influence, security, and continuity against other actors that have their own objectives.
+
+Other nations are not decorative background characters waiting for the player to act.
+
+They should:
+
+- pursue their own strategic interests;
+- expand or contract when circumstances permit;
+- negotiate, threaten, deceive, trade, spy, rebel, migrate, colonize, reform, or go to war where plausible;
+- respond to the player's successes and failures;
+- exploit weaknesses in the player's position;
+- form alliances and counter-alliances;
+- suffer their own internal crises;
+- make mistakes;
+- learn from previous events;
+- experience technological, demographic, economic, military, environmental, and political change;
+- sometimes make decisions that have nothing to do with the player.
+
+This means the world should continue moving even when the player does nothing strategically significant.
+
+### World pressure
+
+Every scenario should contain some combination of persistent pressures appropriate to its period:
+
+- demographic growth or decline;
+- food and resource constraints;
+- fiscal pressure;
+- disease;
+- climate and environmental shocks where historically relevant;
+- technological change;
+- succession disputes;
+- factional conflict;
+- religious or cultural tensions;
+- trade competition;
+- migration;
+- military threats;
+- diplomatic competition;
+- internal rebellion;
+- administrative limitations.
+
+These pressures should create opportunities and threats without becoming a random-event slot machine.
+
+## Reporting other nations in player responses
+
+The assistant should routinely tell the player what is happening beyond their own borders when those developments are relevant.
+
+A response may include sections such as:
+
+```text
+Round: 8
+Date: 17 September 1082
+
+YOUR REALM
+- ...
+
+ELSEWHERE
+- Kingdom A has begun mobilizing...
+- City B is experiencing a grain shortage...
+- Kingdom C is negotiating with Kingdom D...
+
+CONSEQUENCES
+- ...
+
+INTELLIGENCE / RUMORS
+- ...
+```
+
+The amount of information should scale with the time advanced and the significance of world events.
+
+A one-week advance may reveal a few nearby developments. A one-year advance may reveal substantial political, economic, demographic, military, and diplomatic changes across multiple regions.
+
+The assistant should prioritize:
+
+1. developments that directly affect the player;
+2. developments involving nearby or strategically relevant actors;
+3. major regional events;
+4. major global events;
+5. lower-confidence rumors or distant developments when they are interesting and useful.
+
+The player should not receive omniscient information merely because the assistant knows it. Information must be filtered through the player's role, communications, geography, intelligence, trade links, diplomatic contacts, and period-appropriate information speed.
+
+## Genuine data versus educated guesses
+
+The world should feel historically grounded without pretending that incomplete historical records contain perfect statistics.
+
+When reporting another nation's activity:
+
+- use genuine historical/repository data when it exists;
+- use current simulation data when the scenario has already established the relevant value;
+- use calculated consequences when they follow from the simulation;
+- use an educated guess when necessary;
+- never disguise an educated guess as a documented historical fact.
+
+For example:
+
+```text
+Historical basis:
+The repository records a strong trading relationship between X and Y.
+
+Simulation inference:
+Given the player's embargo, reduced trade access is likely to hurt X's revenue.
+
+Scenario estimate:
+X's treasury falls by approximately 6% this year.
+
+New simulation state:
+X responds by seeking alternative suppliers and opening negotiations with Z.
+```
+
+Once the scenario establishes the new treasury value, subsequent calculations use that simulation value rather than repeatedly re-estimating it from scratch.
+
+## Difficulty: challenging, fair, and survivable
+
+The game should be **fun and difficult without being impossible**.
+
+The engine must not reward every sensible player decision with automatic success. A strong decision can still fail because of:
+
+- limited resources;
+- poor timing;
+- enemy action;
+- incomplete information;
+- terrain;
+- weather;
+- political resistance;
+- administrative capacity;
+- economic constraints;
+- technological limitations;
+- unreliable allies;
+- internal factions;
+- unexpected but plausible events.
+
+Likewise, a risky decision should sometimes work.
+
+Difficulty should emerge from the world rather than arbitrary punishment.
+
+### No player favoritism
+
+The engine must not quietly make the simulation easier because the player is the protagonist.
+
+If the player makes a strategically poor decision, the world should exploit it when other actors could reasonably identify and act upon the weakness.
+
+If an AI nation has an obvious opportunity to attack, negotiate from strength, seize a market, support a rebellion, or undermine the player, it should have a reasoned chance to do so.
+
+The player can succeed because they made good decisions, adapted to changing conditions, took calculated risks, or benefited from circumstances. They should not succeed merely because the game wants the story to continue.
+
+### No impossible AI
+
+Other nations should also have limitations.
+
+AI actors should not:
+
+- know everything;
+- perfectly predict the player's intentions;
+- always choose the optimal strategy;
+- instantly mobilize enormous forces;
+- ignore logistics;
+- conjure resources;
+- coordinate perfectly across distant territories;
+- recover instantly from disasters.
+
+The world should contain competent opponents with human-like limitations, not omniscient supercomputers wearing medieval hats.
+
+### Difficulty should adapt to the situation, not cheat
+
+The engine may naturally increase pressure as the player's power grows because stronger powers attract competitors, balancing coalitions, resistance, internal opposition, and resource demands.
+
+That is different from spawning arbitrary enemies solely to punish success.
+
+A successful player should face **new strategic problems**, not a hidden difficulty slider that declares they have had too much fun.
+
+## Survival and failure
+
+Survival is a meaningful objective.
+
+Possible outcomes include:
+
+- prosperity;
+- stagnation;
+- partial success;
+- territorial loss;
+- economic decline;
+- political crisis;
+- civil war;
+- vassalization;
+- regime change;
+- fragmentation;
+- exile;
+- conquest;
+- collapse;
+- recovery after disaster;
+- unexpected resurgence.
+
+Failure should be possible, but the engine should distinguish between:
+
+- **recoverable setbacks**, where the player still has meaningful choices;
+- **terminal failure**, where the player's role or polity genuinely ceases to exist.
+
+When terminal failure occurs, the alternate timeline should continue. The player may be able to continue as a successor, faction, surviving state, dynasty, rebel movement, neighboring polity, or other historically plausible actor if the scenario permits it.
+
+## World-state requirements
+
+At minimum, the simulation should maintain enough information to reason about:
+
+- every active polity relevant to the scenario;
+- territory and important locations;
+- population;
+- economy and resources;
+- military capability;
+- political institutions;
+- leadership and succession;
+- diplomacy and relationships;
+- alliances and rivalries;
+- active projects;
+- current conflicts;
+- internal factions;
+- information/intelligence known by each actor;
+- recent events;
+- long-term causal relationships.
+
+The player state is only one part of this world state.
+
+## Design target
+
+The intended experience is:
+
+```text
+Historical knowledge
+       +
+Persistent numerical simulation
+       +
+Independent nations
+       +
+Player decisions
+       +
+Limited information
+       +
+Resource constraints
+       +
+Causal consequences
+       +
+Changing world pressures
+       =
+A difficult but believable alternate history
+```
+
+The core test is simple:
+
+> If the player stopped acting for several years, would the world still change?
+
+If the answer is no, the simulation is not sufficiently alive.
