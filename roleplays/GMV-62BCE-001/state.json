@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 23,
-  "date": "-0061-11-30",
+  "round": 25,
+  "date": "-0060-01-31",
   "treasury": 2210,
   "wealth_accounts": {
-    "public": 614,
-    "private": 236,
+    "public": 812,
+    "private": 290,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 200,
-    "last_round_private_transfer": 20
+    "last_round_net_public_profit": 220,
+    "last_round_private_transfer": 22
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -16,23 +16,23 @@
     "prior_settlement": "Round 22; 1,000 principal, 450 qualifying growth, 6% annualized rate, 15 interest realized"
   },
   "metrics": {
-    "population": 229,
-    "currency": 420,
+    "population": 249,
+    "currency": 390,
     "soldiers": 458,
     "taxation": 0,
     "economy": 100,
-    "agriculture": 67,
+    "agriculture": 78,
     "infrastructure": 100,
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 98,
+    "supply": 100,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 49,
-    "technology": 40,
-    "intelligence": 215,
+    "exhaustion": 55,
+    "technology": 41,
+    "intelligence": 244,
     "relations": 100
   },
   "relationships": {
@@ -44,7 +44,7 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius sends envoys to Roman officials offering to take over estates that are imposing substantial maintenance costs upon the state, proposes to purchase such properties at a very low price in exchange for removing the state's continuing burden, and pledges to restore them to productive use while grounding the transaction in a formal purchase from Rome.",
+  "previous_action": "Gaius Maximus Valerius continues consolidating the enlarged estate network, oversees its first full winter production cycle, maintains the new waterways and highway route, and directs labor toward sustained agricultural and commercial output.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -55,13 +55,22 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In November, Valerius sent envoys to Roman officials offering to purchase burdened public estates at low prices in exchange for assuming their maintenance obligations. One neglected estate was transferred after public review, and Valerius immediately began repairs and productive reorganization."
+    "campaign_development": "In January 60 BCE, Valerius consolidated the enlarged estate network through winter maintenance, production accounting and expanded labor. A new winter grain contract brought additional commercial traffic to the estate road, while reports from Rome emphasized the changing political environment surrounding Caesar, Cicero and Pompey."
   },
   "special_event_policy": {
-    "magnitude_scale": "1-10",
+    "magnitude_scale": "1-11",
+    "standard_magnitude_scale": "1-10",
+    "magnitude_11_change_index": 9.313225746,
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 0,
-    "current_round_opportunity_probability": 14,
-    "last_selected_magnitude": 6
+    "this_round_special_events": 1,
+    "this_round_magnitude_11_events": 0,
+    "current_round_opportunity_probability": 12,
+    "last_selected_magnitude": 1,
+    "magnitude_11_chance_percent": 4.1008,
+    "magnitude_11_checks": [
+      89.218,
+      17.9923,
+      28.8334
+    ]
   }
 }
