@@ -71,7 +71,7 @@ The canonical GMV campaign is stored at `roleplays/GMV-62BCE-001/`.
 
 ### Mandatory round-output checklist
 
-**Before generating or displaying any GMV round, the README and the current canonical GMV state must be read first. This is mandatory and is part of the round procedure.**
+**Before generating or displaying any GMV round, the README and the current canonical GMV state must be read first. This is mandatory and is part of the round procedure. The importance of this contract is operational, not cosmetic: each refinement made to one simulation area must remain subordinate to every previously established rule, continuity constraint, character, metric, event-system rule, financial rule, and presentation requirement. A new improvement must never cause previously established requirements to be forgotten, overwritten, or silently dropped. The contract is therefore a regression-prevention layer and the round cannot be considered valid if a refinement improves one dimension while breaking another.**
 
 For every round:
 
@@ -83,7 +83,10 @@ For every round:
 6. Keep engine checks and hidden causal logic out of the public news prose.
 7. Persist the round JSON, news JSON, state, and scenario pointer.
 8. Re-read the persisted files and verify the post-commit checks before treating the round as canonical.
-9. Only then output the player-facing round.
+9. Run a continuity/regression pass across prior rounds for recurring named characters, relationships, unresolved directives, event variety, and established campaign threads. Recurring characters must be reused by name when the prior record supports their involvement; do not repeatedly collapse distinct actors into generic labels such as “an officer” or “a local.” New recurring characters may be introduced when appropriate, but they must be persisted in the campaign character registry and reused consistently thereafter.
+10. Ensure event variety: a round should not become six differently worded versions of the same development. Events may cover distinct military, political, economic, social, logistical, diplomatic, intelligence, personal, geographic, and local developments when supported by the state and context. Do not manufacture events merely to satisfy variety; instead vary the *kind of news* that naturally emerges from the active situation.
+11. Keep recurring-character continuity and event-variety checks as hard requirements alongside the metric and special-event checks.
+12. Only then output the player-facing round.
 
 The GMV special-event system uses a standard 1–10 magnitude scale plus the separately randomized Magnitude-11 extension. Every round records its special-event resolution and three independent Magnitude-11 checks.
 
