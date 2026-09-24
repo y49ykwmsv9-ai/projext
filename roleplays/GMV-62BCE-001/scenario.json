@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 47,
-  "latest_date": "-0060-11-30",
+  "latest_round": 48,
+  "latest_date": "-0060-12-31",
   "metric_schema": "fixed-v1+land-area-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -21,9 +21,9 @@
     "magnitude_11": {
       "chance_percent": 6.42,
       "checks": [
-        18.4417,
-        54.9032,
-        88.1176
+        97.2629,
+        57.1284,
+        48.2126
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -31,14 +31,14 @@
     }
   },
   "continuity": {
-    "campaign_development": "November 60 BCE: Valerius ordered every soldier, including himself and his officers, to perform the same exercises, with officers required to meet or exceed the standard of the men under their command. The shared training exposed command weaknesses, a real security alarm interrupted an exercise, and one officer became temporarily unavailable from training strain before recovering by month's end. Intelligence rose from 977 to 983; end-of-round temporary unavailable returned to 0, with no treasury or supply change.",
-    "land_area_history": "4.25 square miles unchanged."
+    "campaign_development": "December 60 BCE: Valerius continued deeper into bandit-controlled country using captured watching-post records, but the older intelligence had to be tested against an adapting network. A false route and unreliable local information imposed delay and strain, while a concealed packet of newer records exposed changes in communications and dispersed supply. The expedition recovered usable provisions and entered the next phase with a substantially richer operational intelligence picture, while avoiding a pitched battle.",
+    "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "end_of_round_checks": {
     "required": true,
-    "special_event_resolution": "verified",
-    "magnitude_11_check": "verified",
-    "commit_check": "verified after canonical files persisted and re-read",
-    "canonical_round_47": "verified"
+    "special_event_resolution": "pending post-persistence verification",
+    "magnitude_11_check": "pending",
+    "commit_check": "pending",
+    "canonical_round_48": "pending"
   }
 }
