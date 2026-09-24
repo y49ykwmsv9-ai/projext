@@ -165,5 +165,36 @@
     "reason": "Round 49 historical schema, special-event/magnitude-11 resolution, and persistence checks passed. Round 50 is unlocked.",
     "unlocked_after_round": 49,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
+  },
+  "character_registry": {
+    "schema_version": "gmv-character-registry-v1",
+    "rule": "Recurring named characters are persistent simulation entities. Established characters must be considered during every round and reused by name when contextually involved. Generic labels may be used only for genuinely unidentified groups or when no named individual is supported by prior continuity.",
+    "characters": [
+      {
+        "id": "gaius_maximus_valerius",
+        "name": "Gaius Maximus Valerius",
+        "role": "player_character",
+        "status": "active",
+        "continuity": "canonical protagonist"
+      },
+      {
+        "id": "quintus_caecilius_metellus_celer",
+        "name": "Quintus Caecilius Metellus Celer",
+        "role": "Roman political connection",
+        "status": "established",
+        "continuity": "persisted relationship; may appear when contextually relevant"
+      },
+      {
+        "id": "marcus_claudius_marcellus",
+        "name": "Marcus Claudius Marcellus",
+        "role": "Roman connection",
+        "status": "established",
+        "continuity": "persisted relationship; may appear when contextually relevant"
+      }
+    ]
+  },
+  "event_variety_policy": {
+    "schema_version": "gmv-event-variety-v1",
+    "rule": "Do not make every event about the same subject. Prefer distinct news dimensions supported by current state: military operations, intelligence, logistics, political relationships, economic/property activity, social/local developments, personal developments, geography, and reactions. Variety must arise from simulation context and must not be fabricated solely to fill slots."
   }
 }
