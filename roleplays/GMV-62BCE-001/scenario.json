@@ -38,7 +38,7 @@
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "pending post-persistence verification",
-    "canonical_round_44": "pending"
+    "commit_check": "verified after canonical files persisted",
+    "canonical_round_44": "verified"
   }
 }
