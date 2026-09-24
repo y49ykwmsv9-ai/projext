@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 52,
-  "date": "-0059-04-30",
+  "round": 53,
+  "date": "-0059-05-31",
   "treasury": 1650,
   "wealth_accounts": {
     "public": 2693,
@@ -20,15 +20,15 @@
     "infrastructure": 100,
     "trade": 100,
     "readiness": 97,
-    "morale": 99,
-    "supply": 58,
+    "morale": 100,
+    "supply": 56,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 69,
+    "exhaustion": 68,
     "technology": 85,
-    "intelligence": 1027,
-    "relations": 108,
+    "intelligence": 1031,
+    "relations": 116,
     "land_area_sq_miles": 4.25,
     "temporary_unavailable": 0
   },
@@ -37,12 +37,12 @@
     "acres": 2720,
     "roman_iugera_approx": 4367,
     "change_this_round_sq_miles": 0,
-    "scope": "personal estates and holdings"
+    "scope": "personal estates and holdings; newly granted former bandit lands are owned but their exact measured area remains pending survey"
   },
   "relationships": {
-    "nearby-landowners": 27,
+    "nearby-landowners": 35,
     "poor-agricultural-workers": 7,
-    "smallholders": 5,
+    "smallholders": 8,
     "military-connections": 20,
     "roman-political-elite": 6,
     "quintus-caecilius-metellus_celer": 3,
@@ -50,22 +50,22 @@
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "April 59 BCE: Following the destruction of the organized bandit holdouts, Valerius consolidated the occupied estate belt, reopened civilian roads, processed recovered records, and maintained correspondence with Marcus Claudius Marcellus. A newly surfaced local property claim remained unresolved. On 27 April, a sealed dispatch from Quintus Caecilius Metellus Celer widened the political attention surrounding the recovered register and requested preservation of the source material. The expedition remains at 398 soldiers; supply is 58, exhaustion 69, readiness 97, intelligence 1027, and relations 108. Personal holdings remain 4.25 sq mi; the disputed tract was not acquired.",
-    "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
+    "campaign_development": "May 59 BCE: Surrounding landholders unanimously grant Gaius Maximus Valerius ownership of the former bandit-held lands seized during the expedition. They state that they lack the labor, resources, and time to restore the damaged properties into workable estates and credit Valerius with restoring their livelihoods. Ownership is established in principle, but the exact acreage of the transferred lands has not yet been surveyed and therefore does not alter the measured land-area metric. Valerius begins organizing restoration while maintaining the Roman force at 398 men.",
+    "land_area_history": "Round 33 establishes 4.00 square miles of measured pre-existing holdings; Round 42 adds 0.25 sq mi of confirmed acquisitions. Round 53 establishes ownership of all former bandit-held lands seized during the campaign, but their aggregate area remains unmeasured pending survey, so measured land_area_sq_miles remains 4.25 sq mi."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
-    "this_round_standard_special": true,
-    "this_round_magnitude": 7,
+    "this_round_standard_special": false,
+    "this_round_magnitude": null,
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
       "chance_percent": 4.7283,
       "checks": [
-        65.2041,
-        44.1187,
-        91.3072
+        54.2217,
+        12.3841,
+        88.4402
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -75,7 +75,7 @@
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
     "canonical_round_49": "verified",
-    "commit_check": "verified",
+    "commit_check": "pending",
     "financial_continuity_audit": {
       "status": "passed_with_historical_uncertainty_preserved",
       "candidate_estate_tax_on_recorded_profit": 135,
@@ -87,7 +87,8 @@
     "special_event_resolution": "verified",
     "canonical_round_51": "verified",
     "canonical_round_52": "verified",
-    "magnitude_11_check": "verified"
+    "magnitude_11_check": "verified",
+    "canonical_round_53": "pending"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -142,6 +143,22 @@
         "current_status": "active_aggregate_pending_transaction_breakdown",
         "provenance": "Round 42 records 0.25 sq mi of completed acquisitions; the source does not separate purchase price from restoration cost or give individual transaction values/dates.",
         "confidence": "area confirmed; purchase-price/date breakdown unresolved"
+      },
+      {
+        "holding_id": "round_53_former_bandit_lands",
+        "name": "Former bandit-held lands granted by surrounding landholders",
+        "asset_type": "estate_land",
+        "area_sq_miles": null,
+        "area_status": "ownership_confirmed_survey_pending",
+        "acquisition_date": "-0059-05",
+        "acquisition_round": 53,
+        "acquisition_value": null,
+        "currency_account": null,
+        "seller_counterparty": "surrounding landholders acting unanimously",
+        "acquisition_source_event_id": "GMV-62BCE-001-R053-E001",
+        "current_status": "owned_by_valerius_pending_area_survey",
+        "provenance": "Round 53 records unanimous transfer of ownership; landholders state they lack the resources and time to restore the former bandit lands. Exact aggregate area is not yet measured.",
+        "confidence": "ownership high; area unresolved"
       }
     ],
     "derived_total_land_area_sq_miles": 4.25,
@@ -149,7 +166,8 @@
       "exact historical acquisition date/price for the principal estate",
       "exact historical acquisition date/price for the lake-port holding",
       "individual Round-42 purchase prices and transaction dates",
-      "separation of Round-42 acquisition consideration from restoration/repair expenditure"
+      "separation of Round-42 acquisition consideration from restoration/repair expenditure",
+      "exact aggregate acreage of former bandit-held lands transferred in Round 53"
     ],
     "spatial_reconstruction": {
       "baseline_round": 33,
