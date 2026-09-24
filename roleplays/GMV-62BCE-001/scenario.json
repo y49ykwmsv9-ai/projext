@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 52,
-  "latest_date": "-0059-04-30",
+  "latest_round": 53,
+  "latest_date": "-0059-05-31",
   "metric_schema": "fixed-v1+land-area-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -14,16 +14,16 @@
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
-    "this_round_standard_special": true,
-    "this_round_magnitude": 7,
+    "this_round_standard_special": false,
+    "this_round_magnitude": null,
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
       "chance_percent": 4.7283,
       "checks": [
-        65.2041,
-        44.1187,
-        91.3072
+        54.2217,
+        12.3841,
+        88.4402
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -31,18 +31,19 @@
     }
   },
   "continuity": {
-    "campaign_development": "April 59 BCE: Following the destruction of the organized bandit holdouts, Valerius consolidated the occupied estate belt, reopened civilian roads, processed recovered records, and maintained correspondence with Marcus Claudius Marcellus. A newly surfaced local property claim remained unresolved. On 27 April, a sealed dispatch from Quintus Caecilius Metellus Celer widened the political attention surrounding the recovered register and requested preservation of the source material. The expedition remains at 398 soldiers; supply is 58, exhaustion 69, readiness 97, intelligence 1027, and relations 108. Personal holdings remain 4.25 sq mi; the disputed tract was not acquired.",
-    "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
+    "campaign_development": "May 59 BCE: Surrounding landholders unanimously grant Gaius Maximus Valerius ownership of the former bandit-held lands seized during the expedition. They state that they lack the labor, resources, and time to restore the damaged properties into workable estates and credit Valerius with restoring their livelihoods. Ownership is established in principle, but the exact acreage of the transferred lands has not yet been surveyed and therefore does not alter the measured land-area metric. Valerius begins organizing restoration while maintaining the Roman force at 398 men.",
+    "land_area_history": "Round 33 establishes 4.00 square miles of measured pre-existing holdings; Round 42 adds 0.25 sq mi of confirmed acquisitions. Round 53 establishes ownership of all former bandit-held lands seized during the campaign, but their aggregate area remains unmeasured pending survey, so measured land_area_sq_miles remains 4.25 sq mi."
   },
   "end_of_round_checks": {
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "verified",
+    "commit_check": "pending",
     "canonical_round_49": "verified",
     "canonical_round_50": "verified",
     "canonical_round_51": "verified",
-    "canonical_round_52": "verified"
+    "canonical_round_52": "verified",
+    "canonical_round_53": "pending"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
