@@ -525,17 +525,16 @@ Land Area: <delta>
 
 ### Event-type vocabulary
 
-The player-facing event type must be a previously established category, not an internal JSON implementation label. The established GMV categories are:
+The player-facing **Type** field uses the established GMV event categories:
 
-- **Agriculture**
-- **Patronage**
-- **Relations**
-- **Recruitment / Security**
-- **Preparation**
-- **Intelligence**
-- **Local Roundup**
+- **DIRECT**
+- **CONNECTED**
+- **SURPRISE**
+- **SPECIAL**
 
-Do not substitute implementation labels such as `direct`, `logistics`, `inference`, `surprise`, `political`, or `roundup` for the player-facing event type.
+These are the event categories used in the plain-text gameplay display. They are not interchangeable with subject-matter labels or internal resolver classifications.
+
+Do not substitute implementation labels such as `direct`, `logistics`, `inference`, `political`, or `roundup` for the player-facing category. The category must be displayed explicitly with every event.
 
 ### Involved parties / entities
 
