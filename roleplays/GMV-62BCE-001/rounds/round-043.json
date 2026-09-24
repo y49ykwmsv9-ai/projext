@@ -1,0 +1,167 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 43,
+  "period": {
+    "start": "-0060-07-01",
+    "end": "-0060-07-31",
+    "display": "1 July 60 BCE – 31 July 60 BCE"
+  },
+  "action": {
+    "action_id": "GMV-62BCE-001-R043-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius spends the month with the officers he decorated, strengthens personal ties through shared training, appoints them to guard his person and estates, and grants them honorary standing within his household lineage and dynastic circle.",
+    "components": [
+      "personal_training",
+      "officer_bonding",
+      "personal_guard",
+      "estate_security",
+      "household_honor"
+    ]
+  },
+  "historical_context": null,
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R043-E001",
+      "date": "-0060-07-03",
+      "type": "direct",
+      "headline": "VALERIUS SPENDS JULY'S FIRST DAYS WITH THE MEN HE HAS DECORATED",
+      "article": "The first days of July find Valerius deliberately separated from the formal routine of the command tent as he spends long hours with the officers he decorated in May. The men train together, review weapons and equipment, ride the estate roads, and discuss the decisions that had earned each officer his medal. Valerius makes the sessions personal rather than ceremonial, requiring the decorated commanders to demonstrate their skills in front of him and to explain how they would react when plans fail or communications break down. The officers in turn learn his habits, his expectations, and the standards by which he intends to judge their conduct. What had begun as public recognition in May becomes a much more intimate relationship between commander and selected subordinates. By the end of the first week, the group is spending enough time together that other officers begin referring to them as Valerius's trusted men.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R043-E002",
+      "date": "-0060-07-08",
+      "type": "connected",
+      "headline": "PERSONAL TRAINING TURNS MEDALISTS INTO A DISTINCT INNER CIRCLE",
+      "article": "The training continues beyond weapons practice as Valerius works personally with the decorated officers on discipline, movement, reconnaissance, and the protection of a commander's position. Each officer is expected to understand not only how to fight, but how to recognize danger before it reaches the person or estate he has been charged to protect. The exercises expose differences among the men, and Valerius assigns additional instruction where an officer's strengths do not yet match his new responsibilities. The decorated commanders increasingly operate together, learning one another's habits while maintaining their individual commands. Their shared training also gives Valerius a clearer sense of which men can be trusted when decisions must be made quickly and privately. The arrangement begins to resemble a carefully selected household guard rather than merely a group of decorated soldiers.",
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 963,
+          "delta": 3,
+          "after": 966,
+          "unit": "points",
+          "reason": "Personal training and close observation improve Valerius's understanding of the capabilities and limitations of his selected officers.",
+          "source_event_id": "GMV-62BCE-001-R043-E002",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R043-E003",
+      "date": "-0060-07-13",
+      "type": "direct",
+      "headline": "VALERIUS APPOINTS THE DECORATED OFFICERS TO GUARD HIS PERSON AND ESTATES",
+      "article": "On 13 July, Valerius formally assigns the decorated officers to a new personal protection duty covering both his person and his principal estate holdings. The appointment does not remove them from military service, but gives them a continuing responsibility to organize watches, inspect approaches, and maintain a trusted response force around the places most closely associated with Valerius's household. Each officer receives a defined responsibility so that protection does not depend upon a single commander being present. Valerius tells them that the assignment is based on demonstrated conduct rather than ancestry alone, repeating the principle that earned their medals. The appointments give the officers a new source of status and place them physically closer to the commander they have been serving. It also creates a small security structure whose members have a direct personal obligation to Valerius.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R043-E004",
+      "date": "-0060-07-17",
+      "type": "connected",
+      "headline": "THE NEW GUARD BEGINS INSPECTING THE ROADS AND GATES AROUND VALERIUS'S HOLDINGS",
+      "article": "Within days, the newly appointed guard begins making regular inspections of gates, roads, storage areas, and approaches to Valerius's estates. Their presence is disciplined rather than theatrical, with officers recording weaknesses and correcting routines instead of simply displaying armed men. Estate workers are instructed on how to report unusual activity, while guards learn the ordinary movements of laborers and suppliers so that genuine warnings are less likely to be confused with routine traffic. The arrangement also gives the decorated officers direct knowledge of the communities whose security is increasingly tied to Valerius's holdings. Their duties therefore extend beyond protecting a single person and begin connecting household security with the functioning of the estates. The first inspections produce no crisis, but they establish a more reliable system of watch and response.",
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "military_connections",
+          "before": 16,
+          "delta": 4,
+          "after": 20,
+          "unit": "relationship points",
+          "reason": "The decorated officers become a more integrated personal military network through recurring guard, training, and estate-security duties.",
+          "source_event_id": "GMV-62BCE-001-R043-E004",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R043-E005",
+      "date": "-0060-07-21",
+      "type": "surprise",
+      "headline": "VALERIUS OFFERS THE DECORATED MEN A PLACE WITHIN HIS HOUSEHOLD",
+      "article": "A further step comes unexpectedly when Valerius announces that the officers who have accepted the personal guard appointments will be treated as honorary members of his household lineage and dynastic circle. The designation carries personal prestige and an expectation of loyalty, hospitality, and continued service, but it does not erase their existing families, ranks, or legal standing. In a Roman society where household affiliation and patronage can carry substantial social meaning, the gesture is understood as more than a military appointment. Several of the officers receive the honor with visible pride, while others quietly recognize that such closeness to Valerius also brings obligations and scrutiny. The announcement therefore strengthens the bond between commander and guard without creating a new constitutional office. By evening, the decorated men are no longer viewed simply as officers who once received medals, but as a distinct trusted circle around Valerius's person and estates.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R043-E006",
+      "date": "-0060-07-26",
+      "type": "direct",
+      "headline": "VALERIUS TRAINS BESIDE HIS GUARD RATHER THAN ABOVE THEM",
+      "article": "On 26 July, Valerius deliberately joins the guard for another full training day, refusing to let the new household distinction become an excuse for ceremonial distance. He drills beside the men, tests their endurance, practices rapid responses to sudden threats, and personally questions them about the vulnerabilities they have found around the estates. The officers are expected to correct one another openly, while Valerius accepts the same scrutiny during the exercises. The practice reinforces the idea that proximity to his person is a responsibility earned through competence rather than a privilege that guarantees safety from judgment. It also makes the new guard familiar with Valerius's physical habits and command signals in circumstances where hesitation could matter. By the end of the exercise, the group has become a more cohesive protective unit with a shared standard of conduct.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R043-E007",
+      "date": "-0060-07-31",
+      "type": "connected",
+      "headline": "LOCAL REPORT: THE MEDALISTS HAVE BECOME VALERIUS'S TRUSTED HOUSEHOLD GUARD",
+      "article": "By the final day of July, the transformation of the decorated officers has become visible beyond Valerius's immediate household. Men who were publicly distinguished in May are now repeatedly seen training with the commander, inspecting his estates, and carrying responsibility for his personal security. Their new honorary household status gives the group a recognizable identity without dissolving the individual officers' existing loyalties and family connections. Estate workers have begun to understand which men are responsible for security, while local landowners recognize that Valerius has placed unusual personal confidence in a small group whose status was earned through service. The arrangement has not yet been tested by a major emergency, and no battle or crisis is invented merely to validate it. What has changed is the structure of trust around Valerius: a handful of decorated officers now stand closer to his person, household, and property than they did at the beginning of the month.",
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 966,
+          "delta": 2,
+          "after": 968,
+          "unit": "points",
+          "reason": "Continued direct contact and guard inspections expand Valerius's reliable knowledge of his officers and estate-security environment.",
+          "source_event_id": "GMV-62BCE-001-R043-E007",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ],
+  "round_ledger": {
+    "intelligence": {
+      "before": 963,
+      "delta": 5,
+      "after": 968,
+      "unit": "points"
+    },
+    "military_connections": {
+      "before": 16,
+      "delta": 4,
+      "after": 20,
+      "unit": "relationship points"
+    }
+  },
+  "special_event": null,
+  "land_area": {
+    "land_area_sq_miles": 4.25,
+    "change_this_round_sq_miles": 0
+  },
+  "state_transition": {
+    "before_state_ref": "roleplays/GMV-62BCE-001/state.json#round-42",
+    "after_state_ref": "roleplays/GMV-62BCE-001/state.json#round-43"
+  },
+  "migration": {
+    "status": "native-v2",
+    "source_schema": "gmv-round-v2",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-043.json",
+    "note": "Authored directly in canonical schema; no historical outcome rewritten."
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 12,
+      "magnitude": null,
+      "magnitude_11_eligibility": 6.42,
+      "magnitude_11_checks": [
+        41.2841,
+        68.5172,
+        93.0046
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "magnitude_11_events": 0
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false,
+      "verification_basis": "Pending post-persistence verification."
+    }
+  }
+}
