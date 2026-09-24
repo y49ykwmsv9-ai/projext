@@ -1149,3 +1149,19 @@ Every canonical round must finish with two machine-checkable end-of-round gates 
    - The canonical pointer must never advance to a round whose required records are missing or whose validation gate fails.
 
 These checks are part of the round lifecycle, not optional documentation. Future round generation must perform the simulation, resolve the special-event/magnitude-11 gate, persist the round records, commit them, and then perform the commit validation before presenting the round as canonical.
+
+
+## GMV financial metric definitions (canonical)
+
+For GMV, **Treasury** and **Currency** are deliberately different measures and must not be used interchangeably.
+
+- **Treasury** = the liquid **public/estate account** available for estate spending, procurement, construction, administration, and other public-side expenditures. Private mine proceeds do not enter Treasury unless a later action explicitly transfers them.
+- **Currency** = Valerius's **net liquid currency position** in the simulation: coined money/liquid monetary claims available to him after the campaign's recorded monetary inflows and outflows. When Valerius receives newly minted Roman coins as payment for personally owned silver, Currency **must increase** by the recognized monetary value of those coins.
+- **Private Wealth** = the broader private account for personally owned wealth. Coin received from a personally owned mine can increase both Currency and Private Wealth because Currency measures liquidity while Private Wealth measures the underlying private asset account.
+- **Public Wealth** and **Treasury** remain distinct: Public Wealth can include broader public assets/accounts, while Treasury is the immediately available public liquid balance.
+
+### Currency invariant
+
+A monetary receipt that actually puts spendable coin into Valerius's hands must produce a corresponding positive Currency ledger entry. The ledger must state the source and before/after values. A receipt that belongs to the private account must not silently increase the public Treasury.
+
+This resolves the prior ambiguity in which the campaign displayed a separate Currency value without defining how newly minted coins affected it. From Round 45 onward, coin receipts increase Currency according to their recognized monetary value, while the account receiving the coins determines whether Private Wealth or Treasury also changes.
