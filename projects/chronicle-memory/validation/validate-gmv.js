@@ -206,15 +206,19 @@ function validateRoundEvents(round, news) {
   if (!round || !state) return;
   const f = round.financials;
   if (!f) return;
-  const expectedNet = Number(f.gross_receipts) - Number(f.operating_security_maintenance);
-  if (Number.isFinite(expectedNet) && expectedNet !== Number(f.net_public_commercial_profit)) {
-    fail("FINANCIAL_RECONCILIATION", "gross receipts minus operating security/maintenance must equal net public commercial profit.");
+  const gross = Number(f.gross_receipts);
+  const costs = Number(f.operating_security_maintenance ?? f.operating_security_and_maintenance_costs);
+  const net = Number(f.net_public_commercial_profit ?? f.net_public_profit);
+  if (Number.isFinite(gross) && Number.isFinite(costs) && Number.isFinite(net) && gross - costs !== net) {
+    fail("FINANCIAL_RECONCILIATION", "gross receipts minus operating/security/maintenance costs must equal the declared net public commercial profit.");
   }
-  if (Number.isFinite(f.private_transfer) && Number.isFinite(f.private_transfer_rate) && Number.isFinite(f.net_public_commercial_profit)) {
-    const expectedTransfer = Math.round(f.net_public_commercial_profit * f.private_transfer_rate);
-    if (expectedTransfer !== f.private_transfer) {
-      fail("PRIVATE_TRANSFER", "private transfer must reconcile to the declared transfer rate and net public profit.");
-    }
+  if (Number.isFinite(f.private_transfer) && Number.isFinite(f.private_transfer_rate) && Number.isFinite(net)) {
+    const expectedTransfer = Math.round(net * f.private_transfer_rate);
+    if (expectedTransfer !== f.private_transfer) fail("PRIVATE_TRANSFER", "private transfer must reconcile to the declared transfer rate and net public profit.");
+  }
+  if (Number.isFinite(f.estate_tax_rate) && Number.isFinite(f.taxable_income_basis) && Number.isFinite(f.estate_tax)) {
+    const expectedTax = Math.round(f.taxable_income_basis * f.estate_tax_rate * 100) / 100;
+    if (Math.abs(expectedTax - f.estate_tax) > 1e-9) fail("ESTATE_TAX", "estate tax must reconcile exactly to taxable income basis and declared rate.");
   }
 }
 
@@ -248,8 +252,9 @@ function validateInformationBoundaries(round) {
   // Structural guard: every event must identify a type, and WORLD/INTELLIGENCE
   // reporting must not be represented as unexplained omniscient state.
   for (const e of round.events || []) {
-    if (!["DIRECT", "CONNECTED", "SURPRISE", "WORLD", "RUMOR", "INFERENCE"].includes(e.type)) {
-      fail("EVENT_TYPE", `Event ${e.event} uses unsupported information/event type: ${e.type}`);
+    const eventType = String(e.type || "").toUpperCase();
+    if (!["DIRECT", "CONNECTED", "SURPRISE", "WORLD", "RUMOR", "INFERENCE", "AGRICULTURE", "PATRONAGE", "RELATIONS", "ROUNDUP"].includes(eventType)) {
+      fail("EVENT_TYPE", `Event ${e.event_id || e.event} uses unsupported information/event type: ${e.type}`);
     }
   }
 }
@@ -430,6 +435,9 @@ function validateNextRoundGate(state) {
   }
   if (state.next_round_gate.status === "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT") {
     warn("NEXT_ROUND_LOCK", "Next-round generation is intentionally blocked until historical schema/property/commit audit passes.");
+  }
+  if (state.next_round_gate.status === "OPEN" && state.next_round_gate.audit_status !== "PASS_WITH_DOCUMENTED_UNCERTAINTY") {
+    fail("NEXT_ROUND_GATE_AUDIT_STATUS", "OPEN gate requires a passing historical audit status.");
   }
 }
 
