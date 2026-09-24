@@ -254,6 +254,54 @@ function validateInformationBoundaries(round) {
   }
 }
 
+function validateEndOfRoundChecks(round) {
+  if (!round || round.schema_version !== "gmv-round-v2") return;
+  const checks = round.end_of_round_checks;
+  if (!checks || typeof checks !== "object") {
+    fail("END_OF_ROUND_CHECKS", "Canonical round is missing end_of_round_checks.");
+    return;
+  }
+  const special = checks.special_event_resolution;
+  if (!special || typeof special !== "object") {
+    fail("SPECIAL_EVENT_CHECK", "Every round must record a special-event/magnitude resolution check.");
+  } else {
+    const selected = special.selected;
+    if (typeof selected !== "boolean") fail("SPECIAL_EVENT_SELECTED", "special_event_resolution.selected must be boolean.");
+    if (selected && (!Number.isInteger(special.magnitude) || special.magnitude < 1 || special.magnitude > 10)) fail("SPECIAL_EVENT_MAGNITUDE", "Selected standard special events must have a magnitude from 1 to 10.");
+    if (!selected && special.magnitude !== null) fail("SPECIAL_EVENT_NULL_MAGNITUDE", "Unselected special events must have magnitude null.");
+    if (typeof special.opportunity_chance !== "number" || special.opportunity_chance < 0 || special.opportunity_chance > 1) fail("SPECIAL_EVENT_OPPORTUNITY", "Every round must record a valid special-event opportunity chance.");
+    if (!Array.isArray(special.magnitude_11_checks)) fail("MAG11_CHECK", "Every round must record the magnitude-11 check array.");
+    if (!Number.isInteger(special.magnitude_11_events) || special.magnitude_11_events < 0) fail("MAG11_COUNT", "Every round must record a non-negative magnitude_11_events count.");
+    if (!selected && special.magnitude_11_events !== 0) fail("MAG11_SELECTION", "A round without a selected special event cannot record accepted magnitude-11 events.");
+    if (round.special_event !== null && round.special_event !== undefined) {
+      if (Boolean(round.special_event.selected) !== selected) fail("SPECIAL_EVENT_PARITY", "round.special_event and special_event_resolution disagree on selection.");
+      if (selected && round.special_event.magnitude !== special.magnitude) fail("SPECIAL_EVENT_PARITY", "round.special_event and special_event_resolution disagree on magnitude.");
+    }
+  }
+  const commit = checks.commit_check;
+  if (!commit || typeof commit !== "object" || commit.required !== true || commit.verified_after_commit !== true) {
+    fail("COMMIT_CHECK", "Canonical round must record a successful post-commit verification.");
+  }
+}
+
+function validateGitCommitState(round, scenario) {
+  if (!round || !scenario) return;
+  const { execSync } = require("child_process");
+  try {
+    const tracked = execSync(
+      \`git ls-files --error-unmatch "roleplays/GMV-62BCE-001/rounds/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/news/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/state.json" "roleplays/GMV-62BCE-001/scenario.json"\`,
+      { cwd: ROOT, encoding: "utf8" }
+    ).trim().split(/\\r?\\n/).filter(Boolean);
+    if (tracked.length !== 4) fail("COMMIT_TRACKING", "Canonical round/state/scenario files are not all tracked by git.");
+    const dirty = execSync("git status --porcelain --untracked-files=no", { cwd: ROOT, encoding: "utf8" }).trim();
+    if (dirty) fail("COMMIT_CLEAN", "Canonical round validation must run from a clean committed working tree.");
+    const head = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
+    if (!head) fail("COMMIT_HEAD", "Unable to resolve the validating commit.");
+  } catch (e) {
+    fail("COMMIT_CHECK_RUNTIME", \`Unable to verify committed canonical state: \${e.message}\`);
+  }
+}
+
 function validateHistoricalScriptGuard(round) {
   if (!round) return;
   const text = JSON.stringify(round).toLowerCase();
@@ -329,6 +377,8 @@ function main() {
   validateLandArea(state, scenario);
   validateInformationBoundaries(round);
   validateHistoricalScriptGuard(round);
+  validateEndOfRoundChecks(round);
+  validateGitCommitState(round, scenario);
   validateChronology(scenario);
   validateNoFuturePointer(round, scenario);
 
@@ -337,6 +387,7 @@ function main() {
   console.log(`Canonical round: ${scenario && scenario.latest_round}`);
   console.log(`Canonical date:  ${scenario && scenario.latest_date}`);
   console.log(`Round files:      ${discoverRounds().length}`);
+  console.log("End-of-round gates: special-event/magnitude-11 + committed-clean-tree");
 
   if (warnings.length) {
     console.log("\nWARNINGS:");
