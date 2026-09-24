@@ -89,6 +89,20 @@ The engine must resolve the underlying military state before writing the article
 
 The numerical resolution is authoritative. Narrative may not invent casualties, victories, troop movements, captures, or territorial changes that were not resolved in state.
 
+### Valerius personal combat profile
+
+Valerius's established combat characteristics are persistent simulation inputs, not merely narrative flavor. He has served as a centurion for a long period, has repeatedly participated in combat, has maintained continuous martial training, and is established as being in exceptional, beyond-peak physical condition. When Valerius personally participates in an armed engagement, the resolver must account for these attributes before determining his actions and outcomes.
+
+- Exceptional conditioning materially affects strength, speed, endurance, balance, coordination, recovery, and sustained physical performance.
+- Long centurion experience materially affects tactical judgment, threat recognition, timing, positioning, discipline under pressure, command decisions, and interpretation of changing battlefield conditions.
+- Repeated combat experience means battlefield noise, confusion, pressure, fatigue, and close-quarters conditions are modeled as familiar operating conditions rather than automatic penalties.
+- Conditioning can affect the actual resolution: maintaining formation position, crossing difficult terrain, sustaining prolonged effort, pursuing or disengaging, recovering from exertion, and remaining effective under physical strain.
+- Athleticism and experience provide contextual advantages, but never guarantee victory, survival, immunity from injury, or exceptional feats unsupported by the resolved situation.
+- If Valerius is injured, sick, exhausted, captured, or otherwise impaired, the condition becomes persistent state when resolved and affects subsequent combat until recovery is established.
+- Valerius's personal participation is mandatory whenever his forces enter an engagement covered by his oath and promise. His physical attributes therefore apply to the actual resolution, not merely to the narrative.
+
+These characteristics are not a generic hidden bonus. Their effects depend on terrain, equipment, opposition, formation, orders, fatigue, visibility, surprise, numbers, injuries, and other resolved conditions.
+
 ### Warfare must feel experienced, not summarized
 
 Military events must not read like a movie trailer, battle synopsis, or detached list of outcomes. The player should receive enough grounded sensory and situational detail to understand what participation or observation would actually feel like within the character's information and position.
