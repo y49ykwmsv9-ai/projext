@@ -1,1 +1,73 @@
-{"scenario_id":"GMV-62BCE-001","round":35,"date":"-0060-11-30","treasury":1970,"wealth_accounts":{"public":2360,"private":462,"private_transfer_rate":0.1,"last_round_net_public_profit":120,"last_round_private_transfer":12},"metrics":{"population":249,"currency":-700,"soldiers":411,"taxation":0,"economy":100,"agriculture":78,"infrastructure":100,"trade":100,"readiness":93,"morale":100,"supply":36,"organization":100,"stability":100,"legitimacy":100,"exhaustion":230,"technology":70,"intelligence":698,"relations":100,"land_area_sq_miles":4},"holdings":{"land_area_sq_miles":4,"acres":2560,"roman_iugera_approx":4110,"change_this_round_sq_miles":0,"scope":"personal estates and holdings"},"relationships":{"nearby-landowners":24,"poor-agricultural-workers":5,"smallholders":2,"military-connections":16,"roman-political-elite":3,"quintus-caecilius-metellus_celer":0,"marcus-claudius-marcellus":8,"merchant-connections":16},"previous_action":"Gaius Maximus Valerius acts on the captured dispatches by keeping the main expedition moving while sending urgent instructions back toward the ravine fortress and estate road. He orders officers to compare the recovered records with the routes already mapped, preserve the expedition's supply line, and prepare for the possibility that the network will attempt to strike the Roman rear while the main body is beyond the pass.","continuity":{"historical_actors":["Marcus Tullius Cicero","Gaius Julius Caesar","Marcus Porcius Cato","Gnaeus Pompeius Magnus","Marcus Licinius Crassus","Marcus Claudius Marcellus","Quintus Caecilius Metellus Celer"],"campaign_development":"In November 60 BCE, the captured dispatches were confirmed by a coordinated night assault on the ravine fortress. The fortress held and its road was reopened, but the rear communications are now an active military concern. Farther ahead, Valerius recovered another hidden storehouse linked to the network records. The expedition continues into the interior.","land_area_history":"The personal holdings measurement remains 4.00 square miles. Round 35 involved no land acquisition, loss, transfer, or other change to the holdings."},"special_event_policy":{"magnitude_scale":"1-11","standard_magnitude_scale":"1-10","this_round_standard_special":false,"this_round_magnitude_11_events":1,"current_round_opportunity_probability":12,"magnitude_11":{"chance_percent":12.84,"checks":[31.2841,8.4417,77.5032],"raw_successes":1,"accepted_candidates":1,"events":1}}}
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 36,
+  "date": "-0060-12-31",
+  "treasury": 1970,
+  "wealth_accounts": {
+    "public": 2470,
+    "private": 473,
+    "private_transfer_rate": 0.1,
+    "last_round_net_public_profit": 110,
+    "last_round_private_transfer": 11
+  },
+  "metrics": {
+    "population": 249,
+    "currency": -830,
+    "soldiers": 411,
+    "taxation": 0,
+    "economy": 100,
+    "agriculture": 78,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 94,
+    "morale": 100,
+    "supply": 40,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "exhaustion": 254,
+    "technology": 72,
+    "intelligence": 767,
+    "relations": 100,
+    "land_area_sq_miles": 4
+  },
+  "holdings": {
+    "land_area_sq_miles": 4,
+    "acres": 2560,
+    "roman_iugera_approx": 4110,
+    "change_this_round_sq_miles": 0
+  },
+  "relationships": {
+    "nearby-landowners": 24,
+    "poor-agricultural-workers": 5,
+    "smallholders": 2,
+    "military-connections": 16,
+    "roman-political-elite": 3,
+    "quintus-caecilius_metellus_celer": 0,
+    "marcus-claudius-marcellus": 8,
+    "merchant-connections": 16
+  },
+  "continuity": {
+    "campaign_development": "December 60 BCE: Valerius continued beyond the hard pass, secured a hidden store, reorganized the column, and crossed a river at the Ford of Three Fires after scouts found signs of recent watchers. A previously unrecorded settlement was identified beyond the ford. The ravine fortress remains in Roman hands and its road remains open.",
+    "land_area_history": "4.00 square miles unchanged."
+  },
+  "special_event_policy": {
+    "magnitude_scale": "1-11",
+    "standard_magnitude_scale": "1-10",
+    "this_round_standard_special": true,
+    "this_round_magnitude": 6,
+    "current_round_opportunity_probability": 14,
+    "magnitude_11_events": 0,
+    "magnitude_11": {
+      "chance_percent": 5.91,
+      "checks": [
+        71.44,
+        22.16,
+        94.08
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    }
+  }
+}
