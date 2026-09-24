@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 29,
-  "date": "-0060-05-31",
+  "round": 30,
+  "date": "-0060-06-30",
   "treasury": 1970,
   "wealth_accounts": {
-    "public": 1550,
-    "private": 372,
+    "public": 1685,
+    "private": 387,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 200,
-    "last_round_private_transfer": 20
+    "last_round_net_public_profit": 150,
+    "last_round_private_transfer": 15
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,7 +17,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": 100,
+    "currency": -10,
     "soldiers": 440,
     "taxation": 0,
     "economy": 100,
@@ -26,13 +26,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 92,
+    "supply": 88,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 95,
-    "technology": 47,
-    "intelligence": 338,
+    "exhaustion": 108,
+    "technology": 50,
+    "intelligence": 372,
     "relations": 100
   },
   "relationships": {
@@ -45,7 +45,7 @@
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius organizes a second expedition and leads the bulk of his forces in a march toward an infamous regional band that has defeated organized Roman centuries and troubled multiple districts, making the band a widespread regional concern.",
+  "previous_action": "Gaius Maximus Valerius turns the extremely narrow ravine into a fortress connected to his main estate and publicly declares it his property, using it as a forward operating base. He does not slow the expedition or give reckless chase. Instead he scouts deliberately, sends men to identify other likely ambush sites, and prepares counter-ambushes against the regional band.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -56,22 +56,22 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In May 60 BCE, Valerius organized a second expedition and led the bulk of his forces toward a regional band notorious across several districts for defeating organized Roman centuries. The expedition's first major contact came in a narrow ravine, where the band used difficult ground and dispersed attacks to inflict eighteen losses without allowing itself to be drawn into a conventional battle. Valerius kept the column together, refused a reckless pursuit, and reorganized the force for continued operations. The band remains active and the expedition continues."
+    "campaign_development": "In June 60 BCE, Valerius converted the narrow ravine used by the regional band into a permanent fortified forward station publicly declared as his property and linked to his principal estate. He continued operations rather than retreating, sending scouts to identify likely ambush grounds and preparing counter-ambush positions. A small bandit scouting party was caught and driven away near one of the prepared approaches. The main force remains in the field and the regional band remains active."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
     "magnitude_11_change_index": 9.313225746,
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 1,
+    "this_round_special_events": 0,
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
     "last_selected_magnitude": 7,
-    "magnitude_11_chance_percent": 7.43,
+    "magnitude_11_chance_percent": 11.82,
     "magnitude_11_checks": [
-      44.8127,
-      18.2234,
-      92.6148
+      74.2216,
+      38.4472,
+      92.0184
     ]
   }
 }

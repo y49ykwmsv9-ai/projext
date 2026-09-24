@@ -1,0 +1,193 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 30,
+  "period": {
+    "start": "-0060-06-01",
+    "end": "-0060-06-30",
+    "display": "1 June 60 BCE – 30 June 60 BCE"
+  },
+  "player_action": "Gaius Maximus Valerius turns the extremely narrow ravine into a fortress connected to his main estate and publicly declares it his property, using it as a forward operating base. He does not slow the expedition or give reckless chase. Instead he scouts deliberately, sends men to identify other likely ambush sites, and prepares counter-ambushes against the regional band.",
+  "metric_schema": "fixed-v1",
+  "special_event_selection": {
+    "standard_opportunity_probability": 12,
+    "standard_special_event_roll_percent": 63.4817,
+    "standard_special_event_selected": false,
+    "magnitude_11_chance_percent": 11.82,
+    "magnitude_11_checks": [
+      74.2216,
+      38.4472,
+      92.0184
+    ],
+    "magnitude_11_successes": 0,
+    "magnitude_11_candidates_accepted": 0,
+    "magnitude_11_events": 0
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-06-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE RAVINE IS MARKED FOR A PERMANENT FORTIFIED POST",
+      "article": "At the beginning of June, Valerius orders the narrow ravine where his column was attacked to be surveyed for permanent military use. The steep sides and confined road that had favored the regional band are measured for walls, gates and protected positions rather than abandoned as a dangerous stretch of country. Work parties begin clearing the immediate approaches while guards remain posted over the wounded and stores. Valerius declares that the position will serve his estate and expedition together, creating a secure forward base from which further movements can be made. The declaration is made publicly among the men and local inhabitants, identifying the fortified holding as property of Valerius rather than a temporary camp of uncertain ownership.",
+      "ledger": {
+        "currency": -15,
+        "supply": -1,
+        "intelligence": 4,
+        "exhaustion": 1,
+        "technology": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-06-08",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "STONE AND TIMBER TURN THE AMBUSH GROUND INTO A FORTRESS",
+      "article": "Construction proceeds without withdrawing the expedition from the country. Timber is brought from controlled supplies, stone is gathered near the ravine, and the most exposed approaches are narrowed so that an attacker cannot easily reproduce the sudden enclosure used in the May attack. A gate and protected fighting positions are established at the road's most vulnerable point, while stores are placed where they can be guarded without obstructing the movement of the column. The work is deliberately connected to the existing estate road system so that supplies can move between the principal estate and the forward position. The new fortress is not treated as a monument but as a working military station intended to remain useful after the present expedition has ended.",
+      "ledger": {
+        "currency": -25,
+        "supply": -2,
+        "technology": 1,
+        "intelligence": 3,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-06-12",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE NEW FORT IS LINKED TO THE MAIN ESTATE",
+      "article": "A protected route is marked and secured between the ravine position and Valerius's established estate network. Patrols begin moving along the route with regularity, carrying provisions and messages so that the forward post does not depend upon improvised deliveries. Valerius orders the connection treated as part of the estate's permanent military and commercial road system. The arrangement allows the fortress to remain supplied while the bulk of the expedition continues operating beyond it. Rather than retreating toward the safety of his existing holdings, Valerius uses the new position to extend the reach of his operations farther into the troubled country.",
+      "ledger": {
+        "currency": -15,
+        "supply": -1,
+        "infrastructure": 1,
+        "intelligence": 4,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-06-16",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "SCOUTS SEARCH FOR THE GROUND WHERE ANOTHER AMBUSH COULD BE SET",
+      "article": "Valerius sends scouting parties outward from the new fortress with instructions to study the country rather than pursue every sign of the band. Men examine narrow roads, wooded turns, stream crossings and slopes where a marching column would be forced to compress. Each location is recorded according to its approaches, concealment and possible escape routes. The scouts are specifically ordered to identify places that could serve an enemy ambush of the kind already encountered in the ravine. They are also instructed to determine whether those same places could be turned against the band itself if the opportunity arises.",
+      "ledger": {
+        "currency": -10,
+        "intelligence": 7,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-06-20",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS ORDERS COUNTER-AMBUSCADES PREPARED",
+      "article": "Several of the sites identified by the scouts are selected for concealed Roman positions. Small parties prepare places from which they can observe the road without exposing themselves, while larger bodies remain far enough away to avoid revealing that the country has been watched. The purpose is not to chase the band into its own terrain but to make the attackers uncertain about which routes remain safe for them. Orders are given for the main force to move only when the scouts have established a clear picture of the ground ahead. Valerius's officers begin treating the countryside as a series of controlled approaches rather than a road leading simply from one objective to another.",
+      "ledger": {
+        "currency": -15,
+        "supply": -1,
+        "intelligence": 6,
+        "exhaustion": 2,
+        "technology": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-06-24",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE FIRST COUNTER-AMBUSH CATCHES A BANDIT SCOUTING PARTY",
+      "article": "Near one of the newly watched approaches, scouts report movement consistent with a small party testing the road before a larger force follows. Valerius allows the party to pass the first observation point before closing the prepared position behind it, preventing the encounter from becoming a confused pursuit. The Roman detachment strikes only after the men have entered the chosen ground, then withdraws toward the fortress before a larger response can gather. Several weapons and supplies are taken, while the surviving bandit scouts escape into the surrounding country. The encounter is small compared with the ravine battle, but it gives Valerius's men their first practical proof that the band's preferred method can be answered without abandoning discipline.",
+      "ledger": {
+        "currency": -15,
+        "intelligence": 6,
+        "morale": 2,
+        "supply": 1,
+        "exhaustion": 3,
+        "relations": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-06-27",
+      "type": "WORLD",
+      "entities": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "headline": "REPORTS FROM ROME CONTINUE TO TRAVEL BEYOND THE HIGHWAYS",
+      "article": "News from Rome reaches the forward station with the regular movement of merchants and messengers. Caesar's political maneuvering remains a subject of close attention, while Cicero continues to take part in the arguments of Roman public life and Pompey's position remains important to calculations among influential men. These developments do not alter Valerius's authority or give him a new command. They are nevertheless recorded by the expedition because decisions in Rome can affect the standing of estates, military connections and men whose activities extend beyond a single district. The reports are read alongside the scouts' accounts from the country rather than allowing events in the capital to distract from the immediate campaign.",
+      "ledger": {
+        "intelligence": 4,
+        "relations": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0060-06-30",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL ROUNDUP: THE RAVINE FORTRESS BECOMES A FORWARD BASE",
+      "article": "June closes with the ravine transformed from the scene of Valerius's first major defeat of the month before into a fortified forward station linked directly to his principal estate. Scouts now watch several possible approaches, and prepared counter-ambush positions have been established in country that the regional band has previously used to its advantage. A small scouting party has already been caught and driven away without drawing the main expedition into a reckless pursuit. The bulk of Valerius's force remains in the field, and the regional band remains active. The campaign has therefore entered a new phase in which the country itself is being contested as carefully as the men moving through it.",
+      "ledger": {}
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": -110,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 0,
+    "infrastructure": 1,
+    "trade": 0,
+    "readiness": 0,
+    "morale": 2,
+    "supply": -4,
+    "organization": 0,
+    "stability": 0,
+    "legitimacy": 0,
+    "exhaustion": 13,
+    "technology": 3,
+    "intelligence": 34,
+    "relations": 2
+  },
+  "commercial_accounting": {
+    "gross_receipts": 520,
+    "operating_security_and_maintenance_costs": 370,
+    "acquisition_and_transition_costs": 0,
+    "net_public_profit": 150,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 15,
+    "public_account_start": 1550,
+    "public_account_end": 1685,
+    "private_account_start": 372,
+    "private_account_end": 387,
+    "public_account_change": 135
+  },
+  "treasury_interest_placement": {
+    "principal": 0,
+    "status": "settled",
+    "note": "No new treasury placement initiated; prior placement settled in Round 22."
+  }
+}
