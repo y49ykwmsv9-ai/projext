@@ -1,197 +1,863 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 20,
   "period": {
     "start": "-0061-08-01",
     "end": "-0061-08-31",
     "display": "1 August 61 BCE – 31 August 61 BCE"
   },
-  "player_action": "Gaius Maximus Valerius travels toward Rome, accepts 300 experienced cavalrymen on fair fixed estate contracts, establishes them as a dedicated heavy cavalry fighting force distinct from reconnaissance riders, establishes a permanent secluded and defended estate and office in Rome, keeps ten trusted guards there, and appoints his younger sister to administer outside affairs and maintain permanent communication with Rome.",
-  "metric_schema": "fixed-v1",
+  "action": {
+    "action_id": "GMV-62BCE-001-R020-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius travels toward Rome, accepts 300 experienced cavalrymen on fair fixed estate contracts, establishes them as a dedicated heavy cavalry fighting force distinct from reconnaissance riders, establishes a permanent secluded and defended estate and office in Rome, keeps ten trusted guards there, and appoints his younger sister to administer outside affairs and maintain permanent communication with Rome.",
+    "components": []
+  },
+  "historical_context": null,
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R020-E001",
       "date": "-0061-08-03",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS SETS OUT FOR ROME",
       "article": "Valerius leaves the estate for Rome accompanied by a small personal guard and household representatives. The journey is undertaken to place his growing affairs closer to the Republic's political and commercial center. The men remaining at the estate continue the routines established during the summer. Merchants and travelers recognize the disciplined household moving along the road. Valerius intends to keep the estate under continuous management despite his absence.",
-      "ledger": {
-        "currency": -25,
-        "morale": 1,
-        "stability": 1,
-        "intelligence": 2,
-        "relations": 1,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R020-E002",
       "date": "-0061-08-07",
-      "type": "SURPRISE",
-      "special_event": true,
-      "magnitude": 6,
-      "change_index": 3.814697265625,
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "surprise",
       "headline": "THREE HUNDRED EXPERIENCED HORSEMEN OFFER THEIR SERVICE TO VALERIUS",
       "article": "Several days into the journey, Valerius encounters roughly three hundred experienced cavalrymen seeking dependable employment. They offer fixed estate contracts on fair terms, asking for regular service rather than extraordinary privilege or public office. Valerius accepts the proposal and enters them formally into the estate's military establishment. He declares that these riders will constitute the heavy cavalry fighting force, remaining with the combat arm when battle is joined. The arrangement deliberately separates them from the existing mounted reconnaissance element, so scouts can continue observing roads and reporting movement without automatically being committed as fighting troops. The three hundred riders therefore begin service as a distinct contracted body that will train alongside the rest of the army while specializing in combat.",
-      "ledger": {
-        "currency": -360,
-        "soldiers": 300,
-        "morale": 6,
-        "readiness": 4,
-        "supply": -4,
-        "intelligence": 2,
-        "relations": 5,
-        "exhaustion": 3
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -360,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": 300,
+          "after": null,
+          "unit": "people",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 6,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "SURPRISE"
       }
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R020-E003",
       "date": "-0061-08-10",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "THE NEW CAVALRY ARE ENTERED AS A PERMANENT FIGHTING ARM",
       "article": "Valerius formalizes the distinction between the new heavy cavalry and the mounted men previously used for reconnaissance. The three hundred riders train with the infantry and practice controlled charges, close movement, withdrawal under pressure and coordinated attacks. The reconnaissance riders retain their road and crossing duties. This gives Valerius a clearer choice between sending cavalry to gather information and committing cavalry to combat. The new contracts also establish predictable obligations between the riders and the estate.",
-      "ledger": {
-        "currency": -70,
-        "morale": 2,
-        "readiness": 3,
-        "technology": 2,
-        "intelligence": 1,
-        "stability": 1,
-        "exhaustion": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -70,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R020-E004",
       "date": "-0061-08-14",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "A PERMANENT VALERIUS HOUSE AND OFFICE IS ESTABLISHED IN ROME",
       "article": "Valerius uses accumulated estate profits to secure a permanent residence and working office in an elevated, secluded part of Rome. The property has enclosed grounds, defensible entrances and enough room for a small household guard without presenting itself as a public military headquarters. Correspondence, contracts, commercial matters and visitors can now be handled in Rome without every matter passing through the distant estate. The house is maintained as a private extension of the estate rather than proclaimed as a political institution. Its permanent address nevertheless places Valerius's affairs close to the center of Roman commerce and public life.",
-      "ledger": {
-        "currency": -420,
-        "infrastructure": 3,
-        "economy": 2,
-        "trade": 3,
-        "stability": 2,
-        "legitimacy": 1,
-        "relations": 3,
-        "intelligence": 3,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -420,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R020-E005",
       "date": "-0061-08-18",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS APPOINTS HIS SISTER TO MANAGE THE ROMAN HOUSEHOLD'S OUTSIDE AFFAIRS",
       "article": "With the Roman property secured, Valerius appoints his younger sister to administer the household and its dealings beyond the estate. She receives correspondence, deals with merchants and representatives, arranges meetings and maintains communication with the country holdings. The appointment is a household responsibility, not a Roman public office, and she represents the estate where Valerius's personal presence is unnecessary. Trusted staff are placed under her direction. The arrangement lets Valerius travel or remain at his main estate without leaving the Roman side of his affairs unattended.",
-      "ledger": {
-        "currency": -35,
-        "organization": 2,
-        "stability": 2,
-        "intelligence": 3,
-        "relations": 3,
-        "legitimacy": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -35,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R020-E006",
       "date": "-0061-08-22",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "TEN TRUSTED GUARDS TAKE UP PERMANENT DUTY IN ROME",
       "article": "Ten of Valerius's most trusted guards are assigned to the new Roman household. They protect the residence, secure important correspondence and accompany household visitors when necessary. They remain part of Valerius's personal security establishment rather than becoming a public military force. The detachment is kept close to the property rather than displayed throughout the city. Their presence gives the administrator a secure base while preserving the distinction between a private guard and a Roman command.",
-      "ledger": {
-        "currency": -25,
-        "readiness": 1,
-        "morale": 1,
-        "stability": 2,
-        "relations": 1,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R020-E007",
       "date": "-0061-08-26",
-      "type": "CONNECTED",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "connected",
       "headline": "A PERMANENT LINE OF COMMUNICATION BEGINS BETWEEN ROME AND THE ESTATE",
       "article": "Messengers and written accounts begin moving on a regular schedule between the Roman residence, the lake port and the main estate. Commercial receipts, military reports and household instructions can now move through a known chain rather than relying on occasional travelers. Merchants gain a Roman address for contracts and payments, while the estate receives faster notice of developments affecting its business and security. The administrator establishes records for incoming and outgoing correspondence. Valerius now has a durable connection to Rome even when he is campaigning or absent from the city.",
-      "ledger": {
-        "currency": -20,
-        "trade": 2,
-        "economy": 2,
-        "infrastructure": 2,
-        "intelligence": 4,
-        "relations": 3,
-        "stability": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R020-E008",
       "date": "-0061-08-29",
-      "type": "WORLD",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "world",
       "headline": "ROME'S POLITICAL ARGUMENTS CONTINUE AS VALERIUS ESTABLISHES A PERMANENT PRESENCE",
       "article": "Reports circulating in Rome continue to describe disagreements among leading men over the settlement of Pompey's eastern affairs and the direction of Roman public policy. Marcus Tullius Cicero remains prominent in the city's political life, while Marcus Porcius Cato and Gaius Julius Caesar are among the figures discussed in different circles. Pompey's interests continue to shape conversation even while he is absent from Rome. Valerius's household now hears these reports directly through visitors and correspondents rather than solely through travelers reaching the countryside. No public office or decree concerning Valerius accompanies the news.",
-      "ledger": {
-        "intelligence": 3,
-        "relations": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E008",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R020-E008",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     },
     {
-      "event": 9,
+      "event_id": "GMV-62BCE-001-R020-E009",
       "date": "-0061-08-31",
-      "type": "WORLD",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "world",
       "headline": "LOCAL NEWS: VALERIUS NOW HAS A FORCE AND A HOUSEHOLD ON BOTH SIDES OF THE ROAD TO ROME",
       "article": "August closes with a major expansion of Valerius's household and military establishment. Three hundred newly contracted heavy cavalrymen have entered the estate's fighting force, while the earlier mounted scouts retain a separate reconnaissance purpose. In Rome, a permanent residence and office now handles outside affairs under the direction of Valerius's sister and the protection of ten trusted guards. Regular communications connect the Roman house, the lake port and the main estate. Valerius remains a private Roman landholder and soldier, but the reach of his household is now plainly broader than it was at the beginning of the month.",
-      "ledger": {}
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
+      }
     }
   ],
-  "running_total": {
-    "population": 0,
-    "currency": -955,
-    "soldiers": 300,
-    "taxation": 0,
-    "economy": 4,
-    "agriculture": 0,
-    "infrastructure": 7,
-    "trade": 5,
-    "readiness": 8,
-    "morale": 13,
-    "supply": -4,
-    "organization": 2,
-    "stability": 12,
-    "legitimacy": 3,
-    "exhaustion": 9,
-    "technology": 2,
-    "intelligence": 20,
-    "relations": 21
+  "round_ledger": {
+    "population": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "currency": {
+      "before": null,
+      "delta": -955,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": 300,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "taxation": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 7,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 13,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": -4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 12,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "exhaustion": {
+      "before": null,
+      "delta": 9,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 20,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 21,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
   },
-  "commercial_accounting": {
+  "financials": {
     "gross_receipts": 560,
     "operating_security_and_maintenance_costs": 390,
     "net_public_profit": 170,
@@ -201,16 +867,229 @@
     "public_account_end": 641,
     "private_account_end": 166
   },
-  "treasury_interest_placement": {
-    "principal": 1000,
-    "source_account": "public",
-    "destination": "currency_treasury",
-    "start_treasury": 1745,
-    "qualifying_growth": 170,
-    "term": "3 months",
-    "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
-    "current_annualized_rate": 0.045,
-    "interest_realized": 0,
-    "settlement": "after the three-month observation period"
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "fixed-v1",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-020.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 20,
+    "period": {
+      "start": "-0061-08-01",
+      "end": "-0061-08-31",
+      "display": "1 August 61 BCE – 31 August 61 BCE"
+    },
+    "player_action": "Gaius Maximus Valerius travels toward Rome, accepts 300 experienced cavalrymen on fair fixed estate contracts, establishes them as a dedicated heavy cavalry fighting force distinct from reconnaissance riders, establishes a permanent secluded and defended estate and office in Rome, keeps ten trusted guards there, and appoints his younger sister to administer outside affairs and maintain permanent communication with Rome.",
+    "metric_schema": "fixed-v1",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0061-08-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS SETS OUT FOR ROME",
+        "article": "Valerius leaves the estate for Rome accompanied by a small personal guard and household representatives. The journey is undertaken to place his growing affairs closer to the Republic's political and commercial center. The men remaining at the estate continue the routines established during the summer. Merchants and travelers recognize the disciplined household moving along the road. Valerius intends to keep the estate under continuous management despite his absence.",
+        "ledger": {
+          "currency": -25,
+          "morale": 1,
+          "stability": 1,
+          "intelligence": 2,
+          "relations": 1,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0061-08-07",
+        "type": "SURPRISE",
+        "special_event": true,
+        "magnitude": 6,
+        "change_index": 3.814697265625,
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THREE HUNDRED EXPERIENCED HORSEMEN OFFER THEIR SERVICE TO VALERIUS",
+        "article": "Several days into the journey, Valerius encounters roughly three hundred experienced cavalrymen seeking dependable employment. They offer fixed estate contracts on fair terms, asking for regular service rather than extraordinary privilege or public office. Valerius accepts the proposal and enters them formally into the estate's military establishment. He declares that these riders will constitute the heavy cavalry fighting force, remaining with the combat arm when battle is joined. The arrangement deliberately separates them from the existing mounted reconnaissance element, so scouts can continue observing roads and reporting movement without automatically being committed as fighting troops. The three hundred riders therefore begin service as a distinct contracted body that will train alongside the rest of the army while specializing in combat.",
+        "ledger": {
+          "currency": -360,
+          "soldiers": 300,
+          "morale": 6,
+          "readiness": 4,
+          "supply": -4,
+          "intelligence": 2,
+          "relations": 5,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0061-08-10",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE NEW CAVALRY ARE ENTERED AS A PERMANENT FIGHTING ARM",
+        "article": "Valerius formalizes the distinction between the new heavy cavalry and the mounted men previously used for reconnaissance. The three hundred riders train with the infantry and practice controlled charges, close movement, withdrawal under pressure and coordinated attacks. The reconnaissance riders retain their road and crossing duties. This gives Valerius a clearer choice between sending cavalry to gather information and committing cavalry to combat. The new contracts also establish predictable obligations between the riders and the estate.",
+        "ledger": {
+          "currency": -70,
+          "morale": 2,
+          "readiness": 3,
+          "technology": 2,
+          "intelligence": 1,
+          "stability": 1,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0061-08-14",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A PERMANENT VALERIUS HOUSE AND OFFICE IS ESTABLISHED IN ROME",
+        "article": "Valerius uses accumulated estate profits to secure a permanent residence and working office in an elevated, secluded part of Rome. The property has enclosed grounds, defensible entrances and enough room for a small household guard without presenting itself as a public military headquarters. Correspondence, contracts, commercial matters and visitors can now be handled in Rome without every matter passing through the distant estate. The house is maintained as a private extension of the estate rather than proclaimed as a political institution. Its permanent address nevertheless places Valerius's affairs close to the center of Roman commerce and public life.",
+        "ledger": {
+          "currency": -420,
+          "infrastructure": 3,
+          "economy": 2,
+          "trade": 3,
+          "stability": 2,
+          "legitimacy": 1,
+          "relations": 3,
+          "intelligence": 3,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0061-08-18",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS APPOINTS HIS SISTER TO MANAGE THE ROMAN HOUSEHOLD'S OUTSIDE AFFAIRS",
+        "article": "With the Roman property secured, Valerius appoints his younger sister to administer the household and its dealings beyond the estate. She receives correspondence, deals with merchants and representatives, arranges meetings and maintains communication with the country holdings. The appointment is a household responsibility, not a Roman public office, and she represents the estate where Valerius's personal presence is unnecessary. Trusted staff are placed under her direction. The arrangement lets Valerius travel or remain at his main estate without leaving the Roman side of his affairs unattended.",
+        "ledger": {
+          "currency": -35,
+          "organization": 2,
+          "stability": 2,
+          "intelligence": 3,
+          "relations": 3,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0061-08-22",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "TEN TRUSTED GUARDS TAKE UP PERMANENT DUTY IN ROME",
+        "article": "Ten of Valerius's most trusted guards are assigned to the new Roman household. They protect the residence, secure important correspondence and accompany household visitors when necessary. They remain part of Valerius's personal security establishment rather than becoming a public military force. The detachment is kept close to the property rather than displayed throughout the city. Their presence gives the administrator a secure base while preserving the distinction between a private guard and a Roman command.",
+        "ledger": {
+          "currency": -25,
+          "readiness": 1,
+          "morale": 1,
+          "stability": 2,
+          "relations": 1,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0061-08-26",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A PERMANENT LINE OF COMMUNICATION BEGINS BETWEEN ROME AND THE ESTATE",
+        "article": "Messengers and written accounts begin moving on a regular schedule between the Roman residence, the lake port and the main estate. Commercial receipts, military reports and household instructions can now move through a known chain rather than relying on occasional travelers. Merchants gain a Roman address for contracts and payments, while the estate receives faster notice of developments affecting its business and security. The administrator establishes records for incoming and outgoing correspondence. Valerius now has a durable connection to Rome even when he is campaigning or absent from the city.",
+        "ledger": {
+          "currency": -20,
+          "trade": 2,
+          "economy": 2,
+          "infrastructure": 2,
+          "intelligence": 4,
+          "relations": 3,
+          "stability": 2
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0061-08-29",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "ROME'S POLITICAL ARGUMENTS CONTINUE AS VALERIUS ESTABLISHES A PERMANENT PRESENCE",
+        "article": "Reports circulating in Rome continue to describe disagreements among leading men over the settlement of Pompey's eastern affairs and the direction of Roman public policy. Marcus Tullius Cicero remains prominent in the city's political life, while Marcus Porcius Cato and Gaius Julius Caesar are among the figures discussed in different circles. Pompey's interests continue to shape conversation even while he is absent from Rome. Valerius's household now hears these reports directly through visitors and correspondents rather than solely through travelers reaching the countryside. No public office or decree concerning Valerius accompanies the news.",
+        "ledger": {
+          "intelligence": 3,
+          "relations": 2
+        }
+      },
+      {
+        "event": 9,
+        "date": "-0061-08-31",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "LOCAL NEWS: VALERIUS NOW HAS A FORCE AND A HOUSEHOLD ON BOTH SIDES OF THE ROAD TO ROME",
+        "article": "August closes with a major expansion of Valerius's household and military establishment. Three hundred newly contracted heavy cavalrymen have entered the estate's fighting force, while the earlier mounted scouts retain a separate reconnaissance purpose. In Rome, a permanent residence and office now handles outside affairs under the direction of Valerius's sister and the protection of ten trusted guards. Regular communications connect the Roman house, the lake port and the main estate. Valerius remains a private Roman landholder and soldier, but the reach of his household is now plainly broader than it was at the beginning of the month.",
+        "ledger": {}
+      }
+    ],
+    "running_total": {
+      "population": 0,
+      "currency": -955,
+      "soldiers": 300,
+      "taxation": 0,
+      "economy": 4,
+      "agriculture": 0,
+      "infrastructure": 7,
+      "trade": 5,
+      "readiness": 8,
+      "morale": 13,
+      "supply": -4,
+      "organization": 2,
+      "stability": 12,
+      "legitimacy": 3,
+      "exhaustion": 9,
+      "technology": 2,
+      "intelligence": 20,
+      "relations": 21
+    },
+    "commercial_accounting": {
+      "gross_receipts": 560,
+      "operating_security_and_maintenance_costs": 390,
+      "net_public_profit": 170,
+      "private_transfer_rate": 0.1,
+      "private_transfer": 17,
+      "public_account_change": -795,
+      "public_account_end": 641,
+      "private_account_end": 166
+    },
+    "treasury_interest_placement": {
+      "principal": 1000,
+      "source_account": "public",
+      "destination": "currency_treasury",
+      "start_treasury": 1745,
+      "qualifying_growth": 170,
+      "term": "3 months",
+      "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
+      "current_annualized_rate": 0.045,
+      "interest_realized": 0,
+      "settlement": "after the three-month observation period"
+    }
   }
 }
