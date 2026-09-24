@@ -80,7 +80,8 @@ function validateNormalizedRound(round) {
   }
   return errors;
 }
-\nfunction readJson(file) {
+
+function readJson(file) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); }
   catch (e) { fail("JSON_INVALID", `${file}: ${e.message}`); return null; }
 }
@@ -191,7 +192,9 @@ function validateRoundEvents(round, news) {
   }
   for(const n of newsEvents){const id=n.event_id||n.event;if(!ids.has(id)) fail("NEWS_ORPHAN","News event "+id+" has no round event record."); if(news.schema_version==="gmv-news-v2" && n.source_event_id!==id) fail("NEWS_SOURCE_ID","News event "+id+" must point to the matching source event.");}
   for(const e of events.filter(e=>e.special_event===true)) if(!Number.isInteger(e.magnitude)||e.magnitude<1||e.magnitude>11) fail("SPECIAL_MAGNITUDE",`Special event ${e.event_id||e.event} has invalid magnitude.`);
-}\n\nfunction validateRunningTotals(round) {
+}
+
+function validateRunningTotals(round) {
   if(!round) return;
   if(round.schema_version==="gmv-round-v2"){
     const sums={}; for(const e of round.events||[]) for(const s of e.state_changes||[]) if(typeof s.delta==="number") sums[s.metric]=(sums[s.metric]||0)+s.delta;
@@ -202,7 +205,9 @@ function validateRoundEvents(round, news) {
   for(const e of events) for(const [metric,delta] of Object.entries(e.ledger||{})){if(typeof delta!=="number"||!Number.isFinite(delta)){fail("LEDGER_NUMERIC",`Event ${e.event} has non-numeric ledger value for ${metric}.`);continue;}sums[metric]=(sums[metric]||0)+delta;}
   for(const [metric,expected] of Object.entries(round.running_total||{})){const actual=sums[metric]||0;if(Math.abs(actual-expected)>1e-9)fail("RUNNING_TOTAL",`running_total.${metric} = ${expected}, but event ledgers sum to ${actual}.`);}
   for(const [metric,actual] of Object.entries(sums)) if(!(metric in (round.running_total||{}))) fail("RUNNING_TOTAL_MISSING",`Event ledgers contain ${metric} but running_total does not record it.`);
-}\n\nfunction validateFinancials(round, state) {
+}
+
+function validateFinancials(round, state) {
   if (!round || !state) return;
   const f = round.financials;
   if (!f) return;
@@ -296,7 +301,7 @@ function validateGitCommitState(round, scenario) {
     const tracked = execSync(
       \`git ls-files --error-unmatch "roleplays/GMV-62BCE-001/rounds/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/news/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/state.json" "roleplays/GMV-62BCE-001/scenario.json"\`,
       { cwd: ROOT, encoding: "utf8" }
-    ).trim().split(/\\r?\\n/).filter(Boolean);
+    ).trim().split(/\r?\n/).filter(Boolean);
     if (tracked.length !== 4) fail("COMMIT_TRACKING", "Canonical round/state/scenario files are not all tracked by git.");
     const dirty = execSync("git status --porcelain --untracked-files=no", { cwd: ROOT, encoding: "utf8" }).trim();
     if (dirty) fail("COMMIT_CLEAN", "Canonical round validation must run from a clean committed working tree.");
