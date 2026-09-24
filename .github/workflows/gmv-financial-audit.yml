@@ -1,0 +1,15 @@
+name: GMV Financial Continuity Audit
+on:
+  push:
+    paths:
+      - 'roleplays/GMV-62BCE-001/**'
+      - 'projects/chronicle-memory/validation/audit-financial-continuity.js'
+      - '.github/workflows/gmv-financial-audit.yml'
+  workflow_dispatch:
+jobs:
+  financial-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run exact financial continuity audit
+        run: node projects/chronicle-memory/validation/audit-financial-continuity.js
