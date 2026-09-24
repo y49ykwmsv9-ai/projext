@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 26,
-  "date": "-0060-02-28",
-  "treasury": 2210,
+  "round": 27,
+  "date": "-0060-03-31",
+  "treasury": 2105,
   "wealth_accounts": {
-    "public": 1082,
-    "private": 320,
+    "public": 1217,
+    "private": 335,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 300,
-    "last_round_private_transfer": 30
+    "last_round_net_public_profit": 150,
+    "last_round_private_transfer": 15
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,7 +17,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": 495,
+    "currency": 390,
     "soldiers": 458,
     "taxation": 0,
     "economy": 100,
@@ -26,13 +26,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 100,
+    "supply": 99,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 57,
-    "technology": 41,
-    "intelligence": 263,
+    "exhaustion": 71,
+    "technology": 46,
+    "intelligence": 286,
     "relations": 100
   },
   "relationships": {
@@ -45,7 +45,7 @@
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius expands his merchant connections and instructs his household and people living on his estates to mention his trade and road networks in ordinary conversation outside their work, seeking to make the network familiar beyond the estate itself.",
+  "previous_action": "Gaius Maximus Valerius organizes all the armed men under his command, trains them personally, and spends a full day with them to demonstrate leadership and virtue.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -56,7 +56,7 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In February 60 BCE, Valerius deliberately expanded his merchant connections and encouraged his household and estate residents to speak naturally of the roads, waterways, lake port and trade network outside their work. Independent merchants began treating the estate routes as one commercial corridor, while Roman political reports continued to arrive through the widening flow of merchants and messengers."
+    "campaign_development": "In March 60 BCE, Valerius brought all armed men serving across his estates, roads, lake port and Roman household under a common training order. He personally drilled with them and spent a full day sharing their duties, while field exercises tested the coordination of infantry, cavalry, guards and supply handlers. The result was a more unified pattern of service across a force that remained distributed among several holdings."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
@@ -67,11 +67,11 @@
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
     "last_selected_magnitude": 1,
-    "magnitude_11_chance_percent": 16.4797,
+    "magnitude_11_chance_percent": 8.42,
     "magnitude_11_checks": [
-      57.0298,
-      99.6406,
-      17.1723
+      55.1832,
+      12.7714,
+      80.4491
     ]
   }
 }
