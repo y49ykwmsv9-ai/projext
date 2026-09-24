@@ -101,9 +101,10 @@ function assertSame(a, b, code, message) {
 function validateIdentity(scenario, state, round, news, expectedRound) {
   if (!scenario || !state || !round || !news) return;
 
-  for (const [label, obj] of [["scenario", scenario], ["state", state], ["round", round], ["news", news]]) {
-    assertSame(obj.scenario_id, "GMV-62BCE-001", "SCENARIO_ID", `${label} has wrong scenario_id`);
+  for (const [label, obj] of [["scenario", scenario], ["state", state], ["round", round]]) {
+    assertSame(obj.scenario_id || obj.campaign_id, "GMV-62BCE-001", "SCENARIO_ID", label + " has wrong campaign/scenario id");
   }
+  if (news) assertSame(news.campaign_id || news.scenario_id, "GMV-62BCE-001", "NEWS_CAMPAIGN_ID", "news has wrong campaign/scenario id");
 
   assertSame(scenario.latest_round, state.round, "LATEST_ROUND_STATE",
     "scenario.latest_round must equal state.round");
@@ -166,6 +167,8 @@ function validateRoundEvents(round, news) {
   if (!round || !news) return;
   const events=Array.isArray(round.events)?round.events:[];
   const newsEvents=Array.isArray(news.events)?news.events:[];
+  if (news.schema_version !== "gmv-news-v2") fail("NEWS_SCHEMA", "Historical news records must use gmv-news-v2.");
+  if (news.schema_version === "gmv-news-v2" && !news.legacy_record) fail("NEWS_MIGRATION", "Migrated news must preserve legacy_record.");
   if(events.length===0) fail("NO_EVENTS","A substantive round must contain event records.");
   if(newsEvents.length!==events.length) fail("NEWS_EVENT_PARITY","News index and round event record counts must match.");
   const v2=round.schema_version==="gmv-round-v2";
@@ -186,7 +189,7 @@ function validateRoundEvents(round, news) {
       if(!e.ledger || typeof e.ledger!=="object") fail("EVENT_LEDGER",`Event ${id} is missing its state-change ledger.`);
     }
   }
-  for(const n of newsEvents){const id=n.event_id||n.event;if(!ids.has(id)) fail("NEWS_ORPHAN",`News event ${id} has no round event record.`);}
+  for(const n of newsEvents){const id=n.event_id||n.event;if(!ids.has(id)) fail("NEWS_ORPHAN","News event "+id+" has no round event record."); if(news.schema_version==="gmv-news-v2" && n.source_event_id!==id) fail("NEWS_SOURCE_ID","News event "+id+" must point to the matching source event.");}
   for(const e of events.filter(e=>e.special_event===true)) if(!Number.isInteger(e.magnitude)||e.magnitude<1||e.magnitude>11) fail("SPECIAL_MAGNITUDE",`Special event ${e.event_id||e.event} has invalid magnitude.`);
 }\n\nfunction validateRunningTotals(round) {
   if(!round) return;
@@ -275,6 +278,14 @@ function discoverRounds() {
 
 function validateChronology(scenario) {
   const rounds = discoverRounds();
+  for (const n of rounds) {
+    const f = path.join(ROUNDS, "round-" + String(n).padStart(3,"0") + ".json");
+    const r = readJson(f);
+    if (r && r.schema_version !== "gmv-round-v2") fail("HISTORICAL_SCHEMA", "Round " + n + " is not normalized to gmv-round-v2.");
+    const nf = path.join(NEWS, "round-" + String(n).padStart(3,"0") + ".json");
+    const nr = fs.existsSync(nf) ? readJson(nf) : null;
+    if (nr && nr.schema_version !== "gmv-news-v2") fail("HISTORICAL_NEWS_SCHEMA", "News round " + n + " is not normalized to gmv-news-v2.");
+  }
   if (!rounds.length) { fail("NO_ROUND_FILES", "No round records found."); return; }
   if (!rounds.includes(scenario.latest_round)) {
     fail("LATEST_ROUND_MISSING", `scenario.latest_round ${scenario.latest_round} has no round file.`);
