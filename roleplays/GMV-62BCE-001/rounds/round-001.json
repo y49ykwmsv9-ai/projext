@@ -1,64 +1,212 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 1,
   "period": {
     "start": "-0062-01-01",
     "end": "-0062-01-29",
     "display": "1 January 62 BCE – 29 January 62 BCE"
   },
-  "submitted_action": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
   "action": {
     "action_id": "GMV-62BCE-001-R001-A001",
     "actor": "Gaius Maximus Valerius",
     "action_text": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
     "components": [
-      { "type": "political_support", "target": "nearby-landowners" },
-      { "type": "agricultural_investment", "target": "estate" },
-      { "type": "patronage", "target": "poor-agricultural-workers" }
+      {
+        "type": "political_support",
+        "target": "nearby-landowners"
+      },
+      {
+        "type": "agricultural_investment",
+        "target": "estate"
+      },
+      {
+        "type": "patronage",
+        "target": "poor-agricultural-workers"
+      }
     ]
   },
+  "historical_context": null,
   "events": [
     {
+      "event_id": "GMV-62BCE-001-R001-E001",
       "date": "-0062-01-01",
       "type": "agriculture",
-      "title": "Agricultural investment begins"
+      "headline": "Agricultural investment begins",
+      "article": null,
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "agriculture"
+      }
     },
     {
+      "event_id": "GMV-62BCE-001-R001-E002",
       "date": "-0062-01-04",
       "type": "patronage",
-      "title": "Gifts distributed among poorer workers"
+      "headline": "Gifts distributed among poorer workers",
+      "article": null,
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "patronage"
+      }
     },
     {
+      "event_id": "GMV-62BCE-001-R001-E003",
       "date": "-0062-01-08",
       "type": "relations",
-      "title": "Approaches to neighboring landowners"
+      "headline": "Approaches to neighboring landowners",
+      "article": null,
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "relations"
+      }
     },
     {
+      "event_id": "GMV-62BCE-001-R001-E004",
       "date": "-0062-01-13",
       "type": "agriculture",
-      "title": "Agricultural spending becomes visible"
+      "headline": "Agricultural spending becomes visible",
+      "article": null,
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "agriculture"
+      }
     },
     {
+      "event_id": "GMV-62BCE-001-R001-E005",
       "date": "-0062-01-17",
       "type": "relations",
-      "title": "Second meeting with neighboring landowners"
+      "headline": "Second meeting with neighboring landowners",
+      "article": null,
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "relations"
+      }
     },
     {
+      "event_id": "GMV-62BCE-001-R001-E006",
       "date": "-0062-01-22",
       "type": "patronage",
-      "title": "Assistance reaches additional households"
+      "headline": "Assistance reaches additional households",
+      "article": null,
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "patronage"
+      }
     }
   ],
-  "state_changes": {
-    "currency": -2500,
-    "economy": 2,
-    "agriculture": 4,
-    "infrastructure": 1,
-    "morale": 3,
-    "supply": 1,
-    "stability": 2,
-    "legitimacy": 2,
-    "intelligence": 1,
-    "relations": 5
+  "round_ledger": {},
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-unspecified",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-001.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 1,
+    "period": {
+      "start": "-0062-01-01",
+      "end": "-0062-01-29",
+      "display": "1 January 62 BCE – 29 January 62 BCE"
+    },
+    "submitted_action": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
+    "action": {
+      "action_id": "GMV-62BCE-001-R001-A001",
+      "actor": "Gaius Maximus Valerius",
+      "action_text": "Gaius Maximus Valerius begins gathering support of influential landowners near his estate, funds local agriculture, and sends gifts to poorer workers.",
+      "components": [
+        {
+          "type": "political_support",
+          "target": "nearby-landowners"
+        },
+        {
+          "type": "agricultural_investment",
+          "target": "estate"
+        },
+        {
+          "type": "patronage",
+          "target": "poor-agricultural-workers"
+        }
+      ]
+    },
+    "events": [
+      {
+        "date": "-0062-01-01",
+        "type": "agriculture",
+        "title": "Agricultural investment begins"
+      },
+      {
+        "date": "-0062-01-04",
+        "type": "patronage",
+        "title": "Gifts distributed among poorer workers"
+      },
+      {
+        "date": "-0062-01-08",
+        "type": "relations",
+        "title": "Approaches to neighboring landowners"
+      },
+      {
+        "date": "-0062-01-13",
+        "type": "agriculture",
+        "title": "Agricultural spending becomes visible"
+      },
+      {
+        "date": "-0062-01-17",
+        "type": "relations",
+        "title": "Second meeting with neighboring landowners"
+      },
+      {
+        "date": "-0062-01-22",
+        "type": "patronage",
+        "title": "Assistance reaches additional households"
+      }
+    ],
+    "state_changes": {
+      "currency": -2500,
+      "economy": 2,
+      "agriculture": 4,
+      "infrastructure": 1,
+      "morale": 3,
+      "supply": 1,
+      "stability": 2,
+      "legitimacy": 2,
+      "intelligence": 1,
+      "relations": 5
+    }
   }
 }
