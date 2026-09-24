@@ -164,68 +164,42 @@ function validateMetricSchema(scenario, state, round) {
 
 function validateRoundEvents(round, news) {
   if (!round || !news) return;
-  const events = Array.isArray(round.events) ? round.events : [];
-  const newsEvents = Array.isArray(news.events) ? news.events : [];
-
-  if (events.length === 0) fail("NO_EVENTS", "A substantive round must contain event records.");
-  if (newsEvents.length !== events.length) {
-    fail("NEWS_EVENT_PARITY", "News index and round event record counts must match.");
-  }
-
-  const roundIds = new Set(events.map(e => e.event));
-  for (const e of events) {
-    if (!Number.isInteger(e.event)) fail("EVENT_ID", "Every event must have an integer event id.");
-    if (!isDateLike(e.date)) fail("EVENT_DATE", `Event ${e.event} has invalid date.`);
-    if (!e.headline) fail("EVENT_HEADLINE", `Event ${e.event} is missing a headline.`);
-    if (typeof e.article !== "string" || sentenceCount(e.article) < 5) {
-      fail("NEWS_DEPTH", `Event ${e.event} must contain a substantial article of at least 5 sentences.`);
-    }
-    if (!e.ledger || typeof e.ledger !== "object") {
-      fail("EVENT_LEDGER", `Event ${e.event} is missing its state-change ledger.`);
-    }
-  }
-
-  for (const n of newsEvents) {
-    if (!roundIds.has(n.event)) fail("NEWS_ORPHAN", `News event ${n.event} has no round event record.`);
-  }
-
-  const special = events.filter(e => e.special_event === true);
-  for (const e of special) {
-    if (!Number.isInteger(e.magnitude) || e.magnitude < 1 || e.magnitude > 11) {
-      fail("SPECIAL_MAGNITUDE", `Special event ${e.event} has invalid magnitude.`);
+  const events=Array.isArray(round.events)?round.events:[];
+  const newsEvents=Array.isArray(news.events)?news.events:[];
+  if(events.length===0) fail("NO_EVENTS","A substantive round must contain event records.");
+  if(newsEvents.length!==events.length) fail("NEWS_EVENT_PARITY","News index and round event record counts must match.");
+  const v2=round.schema_version==="gmv-round-v2";
+  const ids=new Set(events.map(e=>v2?e.event_id:e.event));
+  for(const e of events){
+    const id=e.event_id||e.event;
+    if(v2){
+      if(!e.event_id) fail("EVENT_ID","Normalized event missing event_id.");
+      if(!isDateLike(e.date)) fail("EVENT_DATE",`Event ${id} has invalid date.`);
+      if(!e.headline) fail("EVENT_HEADLINE",`Event ${id} is missing a headline.`);
+      if(e.article!==null && (typeof e.article!=="string" || sentenceCount(e.article)<5)) fail("NEWS_DEPTH",`Event ${id} must contain a substantial article of at least 5 sentences when article text exists.`);
+      if(!Array.isArray(e.state_changes)) fail("EVENT_LEDGER",`Event ${id} is missing normalized state_changes.`);
+    } else {
+      if(!Number.isInteger(e.event)) fail("EVENT_ID","Every event must have an integer event id.");
+      if(!isDateLike(e.date)) fail("EVENT_DATE",`Event ${id} has invalid date.`);
+      if(!e.headline) fail("EVENT_HEADLINE",`Event ${id} is missing a headline.`);
+      if(typeof e.article!=="string" || sentenceCount(e.article)<5) fail("NEWS_DEPTH",`Event ${id} must contain a substantial article of at least 5 sentences.`);
+      if(!e.ledger || typeof e.ledger!=="object") fail("EVENT_LEDGER",`Event ${id} is missing its state-change ledger.`);
     }
   }
-}
-
-function validateRunningTotals(round) {
-  if (!round) return;
-  const events = Array.isArray(round.events) ? round.events : [];
-  const sums = {};
-  for (const e of events) {
-    for (const [metric, delta] of Object.entries(e.ledger || {})) {
-      if (typeof delta !== "number" || !Number.isFinite(delta)) {
-        fail("LEDGER_NUMERIC", `Event ${e.event} has non-numeric ledger value for ${metric}.`);
-        continue;
-      }
-      sums[metric] = (sums[metric] || 0) + delta;
-    }
+  for(const n of newsEvents){const id=n.event_id||n.event;if(!ids.has(id)) fail("NEWS_ORPHAN",`News event ${id} has no round event record.`);}
+  for(const e of events.filter(e=>e.special_event===true)) if(!Number.isInteger(e.magnitude)||e.magnitude<1||e.magnitude>11) fail("SPECIAL_MAGNITUDE",`Special event ${e.event_id||e.event} has invalid magnitude.`);
+}\n\nfunction validateRunningTotals(round) {
+  if(!round) return;
+  if(round.schema_version==="gmv-round-v2"){
+    const sums={}; for(const e of round.events||[]) for(const s of e.state_changes||[]) if(typeof s.delta==="number") sums[s.metric]=(sums[s.metric]||0)+s.delta;
+    for(const [metric,obj] of Object.entries(round.round_ledger||{})){const expected=typeof obj==="object"?obj.delta:obj,actual=sums[metric]||0;if(Math.abs(actual-expected)>1e-9) fail("RUNNING_TOTAL",`round_ledger.${metric} = ${expected}, but event state_changes sum to ${actual}.`);}
+    return;
   }
-
-  for (const [metric, expected] of Object.entries(round.running_total || {})) {
-    const actual = sums[metric] || 0;
-    if (Math.abs(actual - expected) > 1e-9) {
-      fail("RUNNING_TOTAL", `running_total.${metric} = ${expected}, but event ledgers sum to ${actual}.`);
-    }
-  }
-
-  for (const [metric, actual] of Object.entries(sums)) {
-    if (!(metric in (round.running_total || {}))) {
-      fail("RUNNING_TOTAL_MISSING", `Event ledgers contain ${metric} but running_total does not record it.`);
-    }
-  }
-}
-
-function validateFinancials(round, state) {
+  const events=Array.isArray(round.events)?round.events:[],sums={};
+  for(const e of events) for(const [metric,delta] of Object.entries(e.ledger||{})){if(typeof delta!=="number"||!Number.isFinite(delta)){fail("LEDGER_NUMERIC",`Event ${e.event} has non-numeric ledger value for ${metric}.`);continue;}sums[metric]=(sums[metric]||0)+delta;}
+  for(const [metric,expected] of Object.entries(round.running_total||{})){const actual=sums[metric]||0;if(Math.abs(actual-expected)>1e-9)fail("RUNNING_TOTAL",`running_total.${metric} = ${expected}, but event ledgers sum to ${actual}.`);}
+  for(const [metric,actual] of Object.entries(sums)) if(!(metric in (round.running_total||{}))) fail("RUNNING_TOTAL_MISSING",`Event ledgers contain ${metric} but running_total does not record it.`);
+}\n\nfunction validateFinancials(round, state) {
   if (!round || !state) return;
   const f = round.financials;
   if (!f) return;
