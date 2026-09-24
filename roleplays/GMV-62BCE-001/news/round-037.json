@@ -1,0 +1,75 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 37,
+  "period": {
+    "start": "-0060-01-01",
+    "end": "-0060-01-31",
+    "display": "1 January 60 BCE – 31 January 60 BCE"
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-01-03",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "VALERIUS ORDERS A DAY OF REST BEFORE THE NEXT MARCH"
+    },
+    {
+      "event": 2,
+      "date": "-0060-01-07",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "ROTATING PATROLS KEEP WATCH WHILE THE MEN RECOVER"
+    },
+    {
+      "event": 3,
+      "date": "-0060-01-11",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "EARTHWORKS RISE AROUND THE WINTER POSITION"
+    },
+    {
+      "event": 4,
+      "date": "-0060-01-16",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "A SMALL WATCHTOWER OVERLOOKS THE APPROACHES"
+    },
+    {
+      "event": 5,
+      "date": "-0060-01-21",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "THE SECURE STOREHOUSE IS COMPLETED"
+    },
+    {
+      "event": 6,
+      "date": "-0060-01-25",
+      "type": "CONNECTED",
+      "special_event": true,
+      "magnitude": 4,
+      "headline": "A NIGHT WATCH FINDS THE CAMP HAS BEEN OBSERVED"
+    },
+    {
+      "event": 7,
+      "date": "-0060-01-28",
+      "type": "CONNECTED",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "THE MEN REACH THE END OF THE REST CYCLE"
+    },
+    {
+      "event": 8,
+      "date": "-0060-01-31",
+      "type": "WORLD",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "LOCAL ROUNDUP: THE WINTER POSITION BECOMES A SECURE CAMP"
+    }
+  ]
+}
