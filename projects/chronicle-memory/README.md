@@ -379,6 +379,26 @@ Required repository validation includes chronology/state/news parity, fixed metr
 - Record magnitude-11 eligibility/check data every round.
 - Keep SURPRISE separate from the special-event system.
 
+### Full-history causal event logic
+
+Future GMV event resolution MUST evaluate the complete canonical campaign history available before the current round, not merely the immediately preceding round.
+
+The history window is append-only and cumulative: every prior round, event, player directive, investment, financial transaction, relationship change, military development, infrastructure change, intelligence discovery, unresolved consequence, recovery, loss, acquisition, diplomatic interaction, and other persistent state transition is eligible to influence future event logic when causally relevant. The resolver must inspect the historical record across all preceding rounds before generating the current round.
+
+Past investments are persistent causal inputs, not isolated transactions. An investment can create delayed returns, maintenance obligations, dependencies, exposure, opportunities, political relationships, resource flows, strategic consequences, or failures in later rounds. Those consequences may surface many rounds after the original investment and must remain available to the resolver until resolved or rendered causally irrelevant by subsequent state.
+
+Historical continuity must therefore work on two levels:
+1. **State continuity:** current authoritative metrics and persistent state are carried forward exactly.
+2. **Event-memory continuity:** the resolver can trace prior events and their consequences across the entire chronology, including events whose immediate metric effect was zero.
+
+A prior event does not need to have changed a top-line metric to remain causally relevant. Examples include a past scouting discovery that later changes route knowledge, an earlier diplomatic interaction that later affects negotiations, a previous construction or investment that changes capacity, a training reform that changes how a later battle is resolved, or a prior unresolved threat that reappears after several rounds.
+
+For every new round, the simulation should construct a historical context from all rounds before the current round, identify causally relevant antecedents, and use those antecedents when resolving actors, opportunities, risks, reactions, investments, military situations, economics, diplomacy, and surprises. Events should reference older developments naturally when those developments actually matter; they should not artificially mention history merely to create continuity.
+
+The immediately previous round remains important, but it is only the newest layer of the historical context, never the sole source of continuity. No future round may silently discard earlier causal threads simply because they are more than one round old.
+
+This rule is part of the simulation contract and is a hard continuity requirement for GMV-62BCE-001.
+
 ### Commit gate
 - Round JSON, news JSON, state, and scenario pointer must be committed.
 - Validation must pass against the committed checkout.
