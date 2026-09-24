@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 48,
-  "latest_date": "-0060-12-31",
+  "latest_round": 49,
+  "latest_date": "-0059-01-31",
   "metric_schema": "fixed-v1+land-area-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -12,18 +12,25 @@
     "rule": "carry forward unless concrete land event changes it"
   },
   "special_event_policy": {
-    "magnitude_scale": "1-11",
-    "standard_magnitude_scale": "1-10",
-    "this_round_standard_special": false,
-    "this_round_magnitude": null,
-    "current_round_opportunity_probability": 12,
+    "selected": false,
+    "opportunity_chance": 12,
+    "magnitude": null,
+    "magnitude_11_eligibility": 4.7283,
+    "magnitude_11_checks": [
+      77.4595,
+      45.6908,
+      82.2397
+    ],
+    "raw_successes": 0,
+    "accepted_candidates": 0,
     "magnitude_11_events": 0,
+    "current_round_opportunity_probability": 12,
     "magnitude_11": {
-      "chance_percent": 6.42,
+      "chance_percent": 4.7283,
       "checks": [
-        97.2629,
-        57.1284,
-        48.2126
+        77.4595,
+        45.6908,
+        82.2397
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -31,14 +38,14 @@
     }
   },
   "continuity": {
-    "campaign_development": "December 60 BCE: Valerius continued deeper into bandit-controlled country using captured watching-post records, but the older intelligence had to be tested against an adapting network. A false route and unreliable local information imposed delay and strain, while a concealed packet of newer records exposed changes in communications and dispersed supply. The expedition recovered usable provisions and entered the next phase with a substantially richer operational intelligence picture, while avoiding a pitched battle.",
+    "campaign_development": "January 59 BCE: Valerius ordered the majority of his men into the bandit-controlled estates. Several outer properties were abandoned before the Roman advance reached them, but one estate resisted and produced a hard fight. Recovered estate records exposed further relationships among properties, men and dispersed stores, while a night attack showed that the remaining bandit fighters could still contest occupied ground. The expedition ended the month holding several positions inside the estates with a stronger intelligence picture, but increased exhaustion, reduced supplies and more strained local relations.",
     "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "end_of_round_checks": {
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "verified after canonical Round 48 files persisted and re-read",
-    "canonical_round_48": "verified"
+    "commit_check": "verified after canonical Round 49 files persisted and re-read",
+    "canonical_round_49": "verified"
   }
 }
