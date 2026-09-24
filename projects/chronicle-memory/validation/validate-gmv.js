@@ -352,6 +352,79 @@ function validateNoFuturePointer(round, scenario) {
   }
 }
 
+
+function validatePropertyLedger(state, scenario) {
+  if (!state || !scenario) return;
+  const ledger = state.property_ledger;
+  if (!ledger || ledger.schema_version !== "property-ledger-v1") {
+    fail("PROPERTY_LEDGER", "Persistent property_ledger is required.");
+    return;
+  }
+  if (!Array.isArray(ledger.records) || ledger.records.length === 0) {
+    fail("PROPERTY_LEDGER_EMPTY", "Property ledger must contain persistent holding records.");
+    return;
+  }
+  const ids = new Set();
+  let knownArea = 0;
+  for (const h of ledger.records) {
+    if (!h.holding_id || ids.has(h.holding_id)) fail("PROPERTY_ID", "Property ledger holding IDs must be stable and unique.");
+    ids.add(h.holding_id);
+    for (const key of ["acquisition_date","acquisition_round","acquisition_value"]) {
+      if (!(key in h)) fail("PROPERTY_METADATA", `Property ${h.holding_id || "unknown"} is missing ${key}; use null when the historical source does not preserve it.`);
+    }
+    if (Number.isFinite(h.area_sq_miles) && h.current_status && /active/i.test(h.current_status)) knownArea += h.area_sq_miles;
+    if (!h.provenance) fail("PROPERTY_PROVENANCE", `Property ${h.holding_id || "unknown"} is missing provenance.`);
+  }
+  if (!Number.isFinite(ledger.derived_total_land_area_sq_miles)) fail("PROPERTY_TOTAL", "Property ledger must expose a numeric derived total.");
+  if (Math.abs(ledger.derived_total_land_area_sq_miles - Number(state.metrics.land_area_sq_miles)) > 1e-9) fail("PROPERTY_TOTAL_SYNC", "Property ledger derived total must equal state land_area_sq_miles.");
+  if (state.holdings && Math.abs(Number(state.holdings.land_area_sq_miles) - ledger.derived_total_land_area_sq_miles) > 1e-9) fail("PROPERTY_HOLDINGS_SYNC", "holdings.land_area_sq_miles must equal the property-ledger derived total.");
+  if (scenario.land_area_metric && scenario.land_area_metric.name !== "land_area_sq_miles") fail("PROPERTY_METRIC", "Scenario land-area metric must remain land_area_sq_miles.");
+  if (state.next_round_gate && state.next_round_gate.status !== "OPEN") warn("NEXT_ROUND_BLOCKED", "Historical/property audit gate is currently blocked; no next round may be generated.");
+}
+
+function validateHistoricalSchemaAndCommit() {
+  const rounds = discoverRounds();
+  if (!rounds.length) return;
+  for (const n of rounds) {
+    const rf = path.join(ROUNDS, `round-${String(n).padStart(3,"0")}.json`);
+    const nf = path.join(NEWS, `round-${String(n).padStart(3,"0")}.json`);
+    const rr = readJson(rf);
+    const nn = fs.existsSync(nf) ? readJson(nf) : null;
+    if (!rr) { fail("HISTORY_ROUND_READ", `Unable to read historical round ${n}.`); continue; }
+    if (rr.schema_version !== "gmv-round-v2") fail("HISTORY_SCHEMA", `Historical round ${n} is not gmv-round-v2.`);
+    validateNormalizedRound(rr).forEach(m => fail("HISTORY_NORMALIZED_SCHEMA", `Round ${n}: ${m}`));
+    if (!nn) { fail("HISTORY_NEWS_MISSING", `Historical news file missing for round ${n}.`); continue; }
+    if (nn.schema_version !== "gmv-news-v2") fail("HISTORY_NEWS_SCHEMA", `Historical news ${n} is not gmv-news-v2.`);
+    if (!nn.legacy_record) fail("HISTORY_NEWS_MIGRATION", `Historical news ${n} lacks required legacy_record.`);
+  }
+  try {
+    const status = execSync("git status --porcelain --untracked-files=no", {cwd:ROOT,encoding:"utf8"}).trim();
+    if (status) fail("HISTORY_COMMIT_DIRTY", "Historical audit requires a clean committed checkout.");
+    for (const n of rounds) {
+      for (const rel of [
+        `roleplays/GMV-62BCE-001/rounds/round-${String(n).padStart(3,"0")}.json`,
+        `roleplays/GMV-62BCE-001/news/round-${String(n).padStart(3,"0")}.json`
+      ]) {
+        const disk = fs.readFileSync(path.join(ROOT,rel),"utf8");
+        const committed = execSync(`git show HEAD:${rel}`,{cwd:ROOT,encoding:"utf8"});
+        if (disk !== committed) fail("HISTORY_NOT_COMMITTED", `Working-tree ${rel} differs from HEAD; canonical history is not actually committed.`);
+      }
+    }
+  } catch (e) {
+    fail("HISTORY_COMMIT_RUNTIME", `Unable to prove historical files are committed: ${e.message}`);
+  }
+}
+
+function validateNextRoundGate(state) {
+  if (!state || !state.next_round_gate) {
+    fail("NEXT_ROUND_GATE", "Persistent state must contain next_round_gate.");
+    return;
+  }
+  if (state.next_round_gate.status === "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT") {
+    warn("NEXT_ROUND_LOCK", "Next-round generation is intentionally blocked until historical schema/property/commit audit passes.");
+  }
+}
+
 function main() {
   const expectedRoundArg = process.argv.indexOf("--round");
   const expectedRound = expectedRoundArg >= 0 ? Number(process.argv[expectedRoundArg + 1]) : null;
@@ -375,6 +448,9 @@ function main() {
   validateFinancials(round, state);
   validateMilitaryConservation(state);
   validateLandArea(state, scenario);
+  validatePropertyLedger(state, scenario);
+  validateHistoricalSchemaAndCommit();
+  validateNextRoundGate(state);
   validateInformationBoundaries(round);
   validateHistoricalScriptGuard(round);
   validateEndOfRoundChecks(round);
