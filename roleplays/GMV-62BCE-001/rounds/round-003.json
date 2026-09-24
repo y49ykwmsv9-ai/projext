@@ -1,23 +1,32 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 3,
   "period": {
     "start": "-0062-03-01",
     "end": "-0062-03-31",
     "display": "1 March 62 BCE – 31 March 62 BCE"
   },
-  "submitted_action": "Gaius Maximus Valerius is drawn into a discreet request from a moderately influential Roman politician seeking his presence as a security and martial coordinator.",
   "action": {
     "action_id": "GMV-62BCE-001-R003-A001",
     "actor": "Gaius Maximus Valerius",
     "action_text": "Gaius Maximus Valerius is drawn into a discreet request from a moderately influential Roman politician seeking his presence as a security and martial coordinator.",
     "components": [
-      {"type": "political_contact", "target": "roman-political-network"},
-      {"type": "security_coordination", "target": "private-armed-personnel"},
-      {"type": "military_reputation", "target": "growing-local-reputation"}
+      {
+        "type": "political_contact",
+        "target": "roman-political-network"
+      },
+      {
+        "type": "security_coordination",
+        "target": "private-armed-personnel"
+      },
+      {
+        "type": "military_reputation",
+        "target": "growing-local-reputation"
+      }
     ]
   },
-  "historical_anchor": {
+  "historical_context": {
     "name": "Quintus Caecilius Metellus Celer",
     "status": "historical figure",
     "role_in_round": "background political and military actor",
@@ -28,81 +37,564 @@
       "event_id": "GMV-62BCE-001-R003-E001",
       "date": "-0062-03-03",
       "type": "reputation",
-      "title": "Valerius's security work draws notice beyond neighboring estates",
+      "headline": "Valerius's security work draws notice beyond neighboring estates",
       "article": "Reports concerning the armed company maintained by Gaius Maximus Valerius have begun to travel beyond the circle of landowners whose estates first benefited from his preparations. Men who have dealt with the Valerius household have spoken of the company's discipline, its arrangements for provisions, and the inquiries made concerning the roads troubled by robbery. Such reports have passed through the ordinary connections of landowners, traders, veterans, and Roman households rather than through any public announcement. The attention has not yet brought Valerius a public appointment, but it has made his name known to men interested in the practical organization of armed retainers. The growing reputation is particularly notable because Valerius remains a private man whose authority still rests upon his household, his resources, and his military experience.",
+      "actors": [],
+      "location": null,
       "visibility": "local-to-regional",
       "confidence": "medium",
-      "ledger": {"intelligence": 1, "relations": 1, "legitimacy": 1}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E001",
+        "source_type": "reputation"
+      }
     },
     {
       "event_id": "GMV-62BCE-001-R003-E002",
       "date": "-0062-03-07",
       "type": "political_contact",
-      "title": "A Roman politician quietly seeks information on Valerius",
+      "headline": "A Roman politician quietly seeks information on Valerius",
       "article": "A Roman political household has made discreet inquiries concerning Valerius and the men assembled under his direction. The inquiry is associated with Marcus Claudius Marcellus, consul in the preceding year, whose connections among Roman senators and military households give his recommendation some weight even after leaving office. The inquiry has not taken the form of a summons or public commission. Instead, a trusted intermediary has sought accounts of Valerius's conduct, his ability to maintain discipline, and the loyalty of the men who serve under him. The intermediary appears to have learned of Valerius through the wider network of landowners and military connections rather than through any direct meeting. No promise of office has been made, but the inquiry indicates that Valerius's recent activities are beginning to attract notice in Roman political circles.",
+      "actors": [],
+      "location": null,
       "visibility": "restricted",
       "confidence": "medium",
-      "ledger": {"relations": 2, "intelligence": 2, "legitimacy": 1}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E002",
+        "source_type": "political_contact"
+      }
     },
     {
       "event_id": "GMV-62BCE-001-R003-E003",
       "date": "-0062-03-11",
       "type": "request",
-      "title": "Private request asks Valerius to attend a security conference",
+      "headline": "Private request asks Valerius to attend a security conference",
       "article": "A private message has now been delivered to Valerius requesting his presence at a meeting concerning the security and organization of armed men. The message has been carried through an intermediary known to the households with which Valerius has recently dealt, providing a direct connection between his local reputation and the political household that made the inquiry. The request concerns practical matters: the keeping of watches, the movement of armed parties, discipline, provisions, and the protection of persons and property. It does not grant Valerius public authority, alter his military rank, or place his existing company under another command. The identity of the politician behind the request has been kept within a narrow circle, and Valerius has been advised to treat the matter as private. His attendance would nevertheless mark the first occasion on which his recent security work has been deliberately sought beyond his own estates.",
+      "actors": [],
+      "location": null,
       "visibility": "restricted",
       "confidence": "high",
-      "ledger": {"currency": -150, "relations": 1, "readiness": 1, "organization": 1}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -150,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E003",
+        "source_type": "request"
+      }
     },
     {
       "event_id": "GMV-62BCE-001-R003-E004",
       "date": "-0062-03-16",
       "type": "security_coordination",
-      "title": "Valerius discusses the practical command of armed men",
+      "headline": "Valerius discusses the practical command of armed men",
       "article": "Valerius has attended the requested conference and has been questioned about the practical organization of a small armed company. Particular attention was given to the arrangement of watches, the keeping of provisions, the movement of men along roads, and the prevention of disorder among retainers. Those present appear to have been interested less in Valerius's rank than in the experience he has acquired while assembling and maintaining his own force. The discussion stopped short of offering him a formal military command, and no public authority was transferred to him. Nevertheless, the meeting has established a new connection between Valerius and a Roman political household with interests extending beyond the country estates where his reputation first developed. The request has therefore placed greater value upon his judgment as an organizer of armed men.",
+      "actors": [],
+      "location": null,
       "visibility": "restricted",
       "confidence": "high",
-      "ledger": {"organization": 2, "relations": 1, "intelligence": 1, "legitimacy": 1}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E004",
+        "source_type": "security_coordination"
+      }
     },
     {
       "event_id": "GMV-62BCE-001-R003-E005",
       "date": "-0062-03-21",
       "type": "historical_context",
-      "title": "Celer's command in Cisalpine Gaul keeps military affairs under scrutiny",
+      "headline": "Celer's command in Cisalpine Gaul keeps military affairs under scrutiny",
       "article": "Military affairs in northern Italy remain under the attention of Quintus Caecilius Metellus Celer, who is serving in Cisalpine Gaul after his role in the suppression of the Catilinarian rising. The province contains roads and settlements through which men, supplies, and reports pass between Italy and the Alpine approaches, making the organization of armed forces a matter of continuing concern. News of Celer's administration has circulated among Roman households accustomed to following the movements of magistrates and provincial commanders. There is no report that Celer has met Valerius or issued him an order. The significance for the country around Valerius lies instead in the wider military network in which a young man known for organizing armed retainers may now find his reputation carried. The affairs of Cisalpine Gaul therefore form part of the broader political and military setting surrounding Valerius's new connection.",
+      "actors": [],
+      "location": null,
       "visibility": "regional",
       "confidence": "high",
-      "ledger": {"intelligence": 2, "relations": 1}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E005",
+        "source_type": "historical_context"
+      }
     },
     {
       "event_id": "GMV-62BCE-001-R003-E006",
       "date": "-0062-03-26",
       "type": "reputation",
-      "title": "Valerius's men remain organized while new duties are considered",
+      "headline": "Valerius's men remain organized while new duties are considered",
       "article": "The armed company associated with Valerius has remained under orderly arrangements while its commander considers the new obligations placed before him. Men continue to receive provisions and maintain their equipment, while instructions concerning watches and readiness have been kept in force. Several of the landowners who first supported Valerius have learned that his military experience has attracted attention from outside their immediate district. Their response has been mixed, with some regarding the connection as an opportunity to strengthen the security of their own properties and others concerned that wider obligations may eventually draw Valerius's men away. For the present, the company remains tied to the Valerius household and no public military appointment has been announced. The new political connection has nevertheless given his military reputation a wider audience than it possessed only a few months earlier.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "high",
-      "ledger": {"readiness": 1, "organization": 1, "relations": 1, "morale": 1}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E006",
+        "source_type": "reputation"
+      }
     },
     {
       "event_id": "GMV-62BCE-001-R003-E007",
       "date": "-0062-03-31",
       "type": "roundup",
-      "title": "Local News: Valerius's reputation reaches a wider Roman circle",
+      "headline": "Local News: Valerius's reputation reaches a wider Roman circle",
       "article": "The month closes with Gaius Maximus Valerius no longer known solely for the private security arrangements surrounding his estates. Reports of his work have passed through landowners and military connections until they reached a Roman political household, which quietly sought his presence to discuss the organization and security of armed men. The meeting did not make Valerius a magistrate, alter his rank, or place his company under a new command, but it has established a political connection that did not exist at the beginning of the year. At the same time, military affairs in Cisalpine Gaul remain under the authority of Quintus Caecilius Metellus Celer, whose provincial command forms part of the wider environment in which Roman military reputations are being formed and circulated. Valerius's local supporters now have reason to regard his military experience as something that may carry beyond the estates where it first became useful. For the moment, however, he remains a young Roman military man whose growing influence depends upon the relationships and obligations he is able to establish.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "high",
-      "ledger": {"currency": 0}
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R003-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R003-E007",
+        "source_type": "roundup"
+      }
     }
   ],
-  "running_total": {
-    "currency": -150,
-    "soldiers": 0,
-    "readiness": 3,
-    "organization": 5,
-    "relations": 8,
-    "intelligence": 8,
-    "legitimacy": 4,
-    "morale": 1
+  "round_ledger": {
+    "currency": {
+      "before": null,
+      "delta": -150,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
+  },
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-unspecified",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-003.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 3,
+    "period": {
+      "start": "-0062-03-01",
+      "end": "-0062-03-31",
+      "display": "1 March 62 BCE – 31 March 62 BCE"
+    },
+    "submitted_action": "Gaius Maximus Valerius is drawn into a discreet request from a moderately influential Roman politician seeking his presence as a security and martial coordinator.",
+    "action": {
+      "action_id": "GMV-62BCE-001-R003-A001",
+      "actor": "Gaius Maximus Valerius",
+      "action_text": "Gaius Maximus Valerius is drawn into a discreet request from a moderately influential Roman politician seeking his presence as a security and martial coordinator.",
+      "components": [
+        {
+          "type": "political_contact",
+          "target": "roman-political-network"
+        },
+        {
+          "type": "security_coordination",
+          "target": "private-armed-personnel"
+        },
+        {
+          "type": "military_reputation",
+          "target": "growing-local-reputation"
+        }
+      ]
+    },
+    "historical_anchor": {
+      "name": "Quintus Caecilius Metellus Celer",
+      "status": "historical figure",
+      "role_in_round": "background political and military actor",
+      "note": "Celer is historically attested in 62 BCE as governor of Cisalpine Gaul. He is not made to contact Maximus directly in this round. His presence supplies the historically grounded regional military context through which Maximus's reputation can plausibly travel."
+    },
+    "events": [
+      {
+        "event_id": "GMV-62BCE-001-R003-E001",
+        "date": "-0062-03-03",
+        "type": "reputation",
+        "title": "Valerius's security work draws notice beyond neighboring estates",
+        "article": "Reports concerning the armed company maintained by Gaius Maximus Valerius have begun to travel beyond the circle of landowners whose estates first benefited from his preparations. Men who have dealt with the Valerius household have spoken of the company's discipline, its arrangements for provisions, and the inquiries made concerning the roads troubled by robbery. Such reports have passed through the ordinary connections of landowners, traders, veterans, and Roman households rather than through any public announcement. The attention has not yet brought Valerius a public appointment, but it has made his name known to men interested in the practical organization of armed retainers. The growing reputation is particularly notable because Valerius remains a private man whose authority still rests upon his household, his resources, and his military experience.",
+        "visibility": "local-to-regional",
+        "confidence": "medium",
+        "ledger": {
+          "intelligence": 1,
+          "relations": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R003-E002",
+        "date": "-0062-03-07",
+        "type": "political_contact",
+        "title": "A Roman politician quietly seeks information on Valerius",
+        "article": "A Roman political household has made discreet inquiries concerning Valerius and the men assembled under his direction. The inquiry is associated with Marcus Claudius Marcellus, consul in the preceding year, whose connections among Roman senators and military households give his recommendation some weight even after leaving office. The inquiry has not taken the form of a summons or public commission. Instead, a trusted intermediary has sought accounts of Valerius's conduct, his ability to maintain discipline, and the loyalty of the men who serve under him. The intermediary appears to have learned of Valerius through the wider network of landowners and military connections rather than through any direct meeting. No promise of office has been made, but the inquiry indicates that Valerius's recent activities are beginning to attract notice in Roman political circles.",
+        "visibility": "restricted",
+        "confidence": "medium",
+        "ledger": {
+          "relations": 2,
+          "intelligence": 2,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R003-E003",
+        "date": "-0062-03-11",
+        "type": "request",
+        "title": "Private request asks Valerius to attend a security conference",
+        "article": "A private message has now been delivered to Valerius requesting his presence at a meeting concerning the security and organization of armed men. The message has been carried through an intermediary known to the households with which Valerius has recently dealt, providing a direct connection between his local reputation and the political household that made the inquiry. The request concerns practical matters: the keeping of watches, the movement of armed parties, discipline, provisions, and the protection of persons and property. It does not grant Valerius public authority, alter his military rank, or place his existing company under another command. The identity of the politician behind the request has been kept within a narrow circle, and Valerius has been advised to treat the matter as private. His attendance would nevertheless mark the first occasion on which his recent security work has been deliberately sought beyond his own estates.",
+        "visibility": "restricted",
+        "confidence": "high",
+        "ledger": {
+          "currency": -150,
+          "relations": 1,
+          "readiness": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R003-E004",
+        "date": "-0062-03-16",
+        "type": "security_coordination",
+        "title": "Valerius discusses the practical command of armed men",
+        "article": "Valerius has attended the requested conference and has been questioned about the practical organization of a small armed company. Particular attention was given to the arrangement of watches, the keeping of provisions, the movement of men along roads, and the prevention of disorder among retainers. Those present appear to have been interested less in Valerius's rank than in the experience he has acquired while assembling and maintaining his own force. The discussion stopped short of offering him a formal military command, and no public authority was transferred to him. Nevertheless, the meeting has established a new connection between Valerius and a Roman political household with interests extending beyond the country estates where his reputation first developed. The request has therefore placed greater value upon his judgment as an organizer of armed men.",
+        "visibility": "restricted",
+        "confidence": "high",
+        "ledger": {
+          "organization": 2,
+          "relations": 1,
+          "intelligence": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R003-E005",
+        "date": "-0062-03-21",
+        "type": "historical_context",
+        "title": "Celer's command in Cisalpine Gaul keeps military affairs under scrutiny",
+        "article": "Military affairs in northern Italy remain under the attention of Quintus Caecilius Metellus Celer, who is serving in Cisalpine Gaul after his role in the suppression of the Catilinarian rising. The province contains roads and settlements through which men, supplies, and reports pass between Italy and the Alpine approaches, making the organization of armed forces a matter of continuing concern. News of Celer's administration has circulated among Roman households accustomed to following the movements of magistrates and provincial commanders. There is no report that Celer has met Valerius or issued him an order. The significance for the country around Valerius lies instead in the wider military network in which a young man known for organizing armed retainers may now find his reputation carried. The affairs of Cisalpine Gaul therefore form part of the broader political and military setting surrounding Valerius's new connection.",
+        "visibility": "regional",
+        "confidence": "high",
+        "ledger": {
+          "intelligence": 2,
+          "relations": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R003-E006",
+        "date": "-0062-03-26",
+        "type": "reputation",
+        "title": "Valerius's men remain organized while new duties are considered",
+        "article": "The armed company associated with Valerius has remained under orderly arrangements while its commander considers the new obligations placed before him. Men continue to receive provisions and maintain their equipment, while instructions concerning watches and readiness have been kept in force. Several of the landowners who first supported Valerius have learned that his military experience has attracted attention from outside their immediate district. Their response has been mixed, with some regarding the connection as an opportunity to strengthen the security of their own properties and others concerned that wider obligations may eventually draw Valerius's men away. For the present, the company remains tied to the Valerius household and no public military appointment has been announced. The new political connection has nevertheless given his military reputation a wider audience than it possessed only a few months earlier.",
+        "visibility": "local",
+        "confidence": "high",
+        "ledger": {
+          "readiness": 1,
+          "organization": 1,
+          "relations": 1,
+          "morale": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R003-E007",
+        "date": "-0062-03-31",
+        "type": "roundup",
+        "title": "Local News: Valerius's reputation reaches a wider Roman circle",
+        "article": "The month closes with Gaius Maximus Valerius no longer known solely for the private security arrangements surrounding his estates. Reports of his work have passed through landowners and military connections until they reached a Roman political household, which quietly sought his presence to discuss the organization and security of armed men. The meeting did not make Valerius a magistrate, alter his rank, or place his company under a new command, but it has established a political connection that did not exist at the beginning of the year. At the same time, military affairs in Cisalpine Gaul remain under the authority of Quintus Caecilius Metellus Celer, whose provincial command forms part of the wider environment in which Roman military reputations are being formed and circulated. Valerius's local supporters now have reason to regard his military experience as something that may carry beyond the estates where it first became useful. For the moment, however, he remains a young Roman military man whose growing influence depends upon the relationships and obligations he is able to establish.",
+        "visibility": "local",
+        "confidence": "high",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": -150,
+      "soldiers": 0,
+      "readiness": 3,
+      "organization": 5,
+      "relations": 8,
+      "intelligence": 8,
+      "legitimacy": 4,
+      "morale": 1
+    }
   }
 }
