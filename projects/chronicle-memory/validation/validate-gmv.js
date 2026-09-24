@@ -356,7 +356,7 @@ function validateNoFuturePointer(round, scenario) {
 function validatePropertyLedger(state, scenario) {
   if (!state || !scenario) return;
   const ledger = state.property_ledger;
-  if (!ledger || ledger.schema_version !== "property-ledger-v1") {
+  if (!ledger || ledger.schema_version !== "property-ledger-v1.1") {
     fail("PROPERTY_LEDGER", "Persistent property_ledger is required.");
     return;
   }
@@ -379,6 +379,14 @@ function validatePropertyLedger(state, scenario) {
   if (Math.abs(ledger.derived_total_land_area_sq_miles - Number(state.metrics.land_area_sq_miles)) > 1e-9) fail("PROPERTY_TOTAL_SYNC", "Property ledger derived total must equal state land_area_sq_miles.");
   if (state.holdings && Math.abs(Number(state.holdings.land_area_sq_miles) - ledger.derived_total_land_area_sq_miles) > 1e-9) fail("PROPERTY_HOLDINGS_SYNC", "holdings.land_area_sq_miles must equal the property-ledger derived total.");
   if (scenario.land_area_metric && scenario.land_area_metric.name !== "land_area_sq_miles") fail("PROPERTY_METRIC", "Scenario land-area metric must remain land_area_sq_miles.");
+  const spatial = ledger.spatial_reconstruction;
+  if (!spatial || spatial.baseline_round !== 33 || spatial.baseline_area_sq_miles !== 4) fail("PROPERTY_SPATIAL_BASELINE", "Round 33 must preserve the confirmed 4.00 sq mi baseline.");
+  if (spatial && (!spatial.allocation || spatial.allocation.principal_estate_sq_miles !== 3 || spatial.allocation.lake_port_sq_miles !== 1)) fail("PROPERTY_SPATIAL_ALLOCATION", "Resolved allocation must be 3.00 sq mi principal estate + 1.00 sq mi lake port.");
+  const principal = ledger.records.find(h => h.holding_id === "principal_estate");
+  const port = ledger.records.find(h => h.holding_id === "lake_port");
+  if (!principal || principal.current_status !== "active_historically_established" || principal.area_sq_miles !== 3 || principal.area_status !== "reconstructed_component_allocation") fail("PROPERTY_PRINCIPAL", "Principal estate must be established at reconstructed 3.00 sq mi.");
+  if (!port || port.current_status !== "active_historically_established" || port.area_sq_miles !== 1 || port.area_status !== "reconstructed_component_allocation") fail("PROPERTY_LAKE_PORT", "Lake port must be established at reconstructed 1.00 sq mi.");
+
   if (state.next_round_gate && state.next_round_gate.status !== "OPEN") warn("NEXT_ROUND_BLOCKED", "Historical/property audit gate is currently blocked; no next round may be generated.");
 }
 
