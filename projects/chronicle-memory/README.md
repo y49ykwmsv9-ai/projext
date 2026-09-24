@@ -502,3 +502,28 @@ A canonical round requires two distinct proofs:
 2. **Repository validation:** the exact committed revision containing those files is re-read from GitHub/Git and verified to contain the validated contents, with no uncommitted canonical changes.
 
 The phrase "committed" must therefore mean an actual repository commit, not an intended write, an API request that was not verified, a field inside JSON claiming verification, or an unconfirmed tool response.
+
+
+## Persistent property ledger and canonical next-round lock
+
+Land Area is a derived aggregate, not a standalone number. The campaign must maintain an append-only property ledger with stable holding IDs and, when supported by the historical record, exact asset name/type, location, area and unit, acquisition date, acquisition round, acquisition price, paying account, seller/counterparty, source event, current status, and disposal date/value. Missing historical facts are represented explicitly as null/unknown with provenance; they are never invented to make the ledger look complete.
+
+A later round may add, restore, subdivide, combine, transfer, dispose of, or otherwise change a holding, but it may never erase the original acquisition record. Active ledger areas are summed to derive metrics.land_area_sq_miles and holdings.land_area_sq_miles. Purchase consideration and restoration/repair costs must remain separate when the source distinguishes them; if the source only gives a combined expenditure, the combined amount must remain explicitly unresolved rather than being silently treated as purchase price.
+
+Private Wealth must likewise remain traceable to a persistent private-asset/cash history. Property acquisition, disposal, investment principal, realized return, Currency, and Private Wealth must not double-count the same money.
+
+### Historical schema/commit gate
+
+The command "give me the next round" is hard-locked behind a full historical audit. Before generating a new round, the validator must inspect every preceding round, not only the latest one, and require: complete round/news files; current-schema conformance or explicit validated migration; chronology with no gaps; event/news parity; ledger arithmetic; financial reconciliation; military conservation; property/land reconciliation; traceable private-asset movements; scenario/state pointer agreement; and actual Git commit verification.
+
+A self-authored verified=true field, an API write response, or a file merely existing in a working copy is not proof of persistence. The validator must verify the actual committed revision and re-read the committed canonical files. If any previous round fails the current data contract, do not generate the next round. Repair or migrate the historical data first.
+
+### Random-resolution audit trail
+
+Every special-event opportunity and magnitude-11 resolution must persist the actual fresh random draw(s), the probability/threshold, the result, and the accepted outcome. A fixed probability may remain constant across independent trials; the draw itself must be fresh for each trial. Random values may never be fabricated or backfilled after narration. A round whose random-resolution record cannot be independently audited is not canonical.
+
+### Historical ledger reconstruction rule
+
+When an older round gives only an aggregate—such as the Round 33 cumulative land baseline—or combines purchase and restoration costs, preserve exactly what the source establishes and mark the component facts unresolved. Do not infer individual acquisition prices, dates, or areas from the aggregate. The unresolved record remains in the ledger until the chronology provides a defensible source.
+
+The current GMV state therefore includes a persistent property-ledger audit status. Until that historical reconstruction and repository-wide schema audit passes, the next-round gate remains blocked.
