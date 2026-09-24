@@ -1,12 +1,12 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 2,
   "period": {
     "start": "-0062-01-30",
     "end": "-0062-02-28",
     "display": "30 January 62 BCE – 28 February 62 BCE"
   },
-  "submitted_action": "Gaius Maximus Valerius uses the increase in support to begin hiring people for a planned expedition against bandits troubling his estates.",
   "action": {
     "action_id": "GMV-62BCE-001-R002-A001",
     "actor": "Gaius Maximus Valerius",
@@ -26,121 +26,636 @@
       }
     ]
   },
+  "historical_context": null,
   "events": [
     {
       "event_id": "GMV-62BCE-001-R002-E001",
       "date": "-0062-01-30",
       "type": "recruitment",
-      "title": "Men are sought for service on the estate",
+      "headline": "Men are sought for service on the estate",
       "article": "Valerius has begun seeking armed men for service in an expedition intended to deal with bands of robbers reported to be troubling estates in the surrounding country. The recruiting has drawn men from neighboring farms and villages, with payment and provisions said to be among the terms being offered. Several men known locally for experience with horses and weapons have reportedly answered the call. The purpose of the gathering has not been described as a general levy, but as a private force for the protection of Valerius’s lands and nearby roads. Landowners who have recently met with Valerius are said to be watching the undertaking with interest.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "high",
-      "ledger": {
-        "currency": -900,
-        "soldiers": 15,
-        "readiness": 2,
-        "organization": 1,
-        "relations": 1
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -900,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": 15,
+          "after": null,
+          "unit": "people",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E001",
+        "source_type": "recruitment"
       }
     },
     {
       "event_id": "GMV-62BCE-001-R002-E002",
       "date": "-0062-02-03",
       "type": "security",
-      "title": "Reports of robberies bring concern to neighboring farms",
+      "headline": "Reports of robberies bring concern to neighboring farms",
       "article": "Fresh reports of theft have circulated among farmers living beyond Valerius’s estate, renewing complaints about armed robbers in the countryside. Livestock and stores are among the property said to have been taken, though accounts differ as to the number of men involved. Travelers have been advised by some estate holders to move in company rather than alone. No public authority has yet announced a broad operation in response to the reports. The disturbances have nevertheless given greater urgency to the private preparations now under way around Valerius’s lands.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "medium",
-      "ledger": {
-        "stability": -1,
-        "intelligence": 1,
-        "relations": 1
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E002",
+        "source_type": "security"
       }
     },
     {
       "event_id": "GMV-62BCE-001-R002-E003",
       "date": "-0062-02-08",
       "type": "logistics",
-      "title": "Horses, arms and provisions gathered",
+      "headline": "Horses, arms and provisions gathered",
       "article": "Suppliers attached to the Valerius household have been busy obtaining provisions and equipment for the men being assembled. Horses have been inspected, weapons repaired, and stores of grain and other provisions set aside for the expected movement. The preparations have attracted attention because of their scale, though there has been no announcement of the exact route or date of departure. Some neighboring landowners have reportedly offered assistance with animals and supplies. For the workers of the estate, the preparations have brought an unusual amount of activity to the household yards and surrounding roads.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "high",
-      "ledger": {
-        "currency": -500,
-        "supply": 1,
-        "readiness": 2,
-        "organization": 1,
-        "agriculture": -1
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -500,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E003",
+        "source_type": "logistics"
       }
     },
     {
       "event_id": "GMV-62BCE-001-R002-E004",
       "date": "-0062-02-13",
       "type": "relations",
-      "title": "Neighboring landowners discuss common security",
+      "headline": "Neighboring landowners discuss common security",
       "article": "Several landowners who have maintained recent contact with Valerius have discussed the insecurity of the roads and fields beyond their estates. The conversations have centered on patrols, warnings between households, and the possibility of sharing information when suspicious bands are seen. No common command has been announced, and each estate remains responsible for its own men. The discussions have nevertheless brought Valerius into closer contact with landowners whose interests have been affected by the same disturbances. Those familiar with the meetings say the immediate concern is protection of property and movement rather than any wider political undertaking.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "medium",
-      "ledger": {
-        "relations": 2,
-        "intelligence": 1,
-        "legitimacy": 1
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E004",
+        "source_type": "relations"
       }
     },
     {
       "event_id": "GMV-62BCE-001-R002-E005",
       "date": "-0062-02-19",
       "type": "recruitment",
-      "title": "Additional men join the planned expedition",
+      "headline": "Additional men join the planned expedition",
       "article": "The number of men attached to Valerius’s proposed expedition has increased as additional recruits arrive from nearby settlements. The newcomers include farm laborers accustomed to the country as well as men with previous experience in armed service. Payment has been arranged from Valerius’s own resources, and the recruits are being gathered into a more orderly body before any movement is attempted. The sight of the growing company has prompted both approval and caution among residents, particularly those whose property lies near roads where robberies have been reported. There is still no report that the force has set out.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "high",
-      "ledger": {
-        "currency": -400,
-        "soldiers": 10,
-        "readiness": 1,
-        "organization": 2,
-        "morale": 1
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -400,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": 10,
+          "after": null,
+          "unit": "people",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E005",
+        "source_type": "recruitment"
       }
     },
     {
       "event_id": "GMV-62BCE-001-R002-E006",
       "date": "-0062-02-23",
       "type": "intelligence",
-      "title": "Information on the robbers is collected",
+      "headline": "Information on the robbers is collected",
       "article": "Men working for Valerius have begun collecting reports from travelers, herdsmen and estate workers concerning the movements of the robbers. Particular attention has been paid to roads, isolated stretches of countryside and places where livestock can be driven away without attracting immediate notice. The reports remain uneven, and no single account has established the size or leadership of the bands involved. Even so, the gathering of information has given the preparations a more deliberate character. Valerius is now said to be waiting for a clearer picture of the countryside before committing his men to the road.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "medium",
-      "ledger": {
-        "intelligence": 2,
-        "readiness": 1,
-        "organization": 1
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E006",
+        "source_type": "intelligence"
       }
     },
     {
       "event_id": "GMV-62BCE-001-R002-E007",
       "date": "-0062-02-28",
       "type": "roundup",
-      "title": "Local country watches Valerius prepare for an expedition",
+      "headline": "Local country watches Valerius prepare for an expedition",
       "article": "Across the past month, Valerius has turned the support recently gathered around his estate toward a more immediate concern: the insecurity reported on nearby roads and farms. Men have been hired, horses and weapons prepared, and provisions assembled while neighboring landowners have exchanged information about the disturbances. The force remains on Valerius’s lands at the close of the month, and no expedition has yet been publicly reported as underway. Among local residents, the preparations have become a subject of frequent discussion, with some welcoming the prospect of safer roads and others watching carefully as a private armed company grows. For now, the country waits to see whether the men gathered at the estate will soon take to the roads.",
+      "actors": [],
+      "location": null,
       "visibility": "local",
       "confidence": "high",
-      "ledger": {
-        "currency": 0
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R002-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": "GMV-62BCE-001-R002-E007",
+        "source_type": "roundup"
       }
     }
   ],
-  "running_total": {
-    "currency": -1800,
-    "soldiers": 25,
-    "readiness": 6,
-    "organization": 6,
-    "relations": 4,
-    "intelligence": 4,
-    "stability": -1,
-    "supply": 1,
-    "agriculture": -1,
-    "legitimacy": 1,
-    "morale": 2
+  "round_ledger": {
+    "currency": {
+      "before": null,
+      "delta": -1800,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": 25,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 6,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 6,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": -1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": -1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
+  },
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-unspecified",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-002.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 2,
+    "period": {
+      "start": "-0062-01-30",
+      "end": "-0062-02-28",
+      "display": "30 January 62 BCE – 28 February 62 BCE"
+    },
+    "submitted_action": "Gaius Maximus Valerius uses the increase in support to begin hiring people for a planned expedition against bandits troubling his estates.",
+    "action": {
+      "action_id": "GMV-62BCE-001-R002-A001",
+      "actor": "Gaius Maximus Valerius",
+      "action_text": "Gaius Maximus Valerius uses the increase in support to begin hiring people for a planned expedition against bandits troubling his estates.",
+      "components": [
+        {
+          "type": "recruitment",
+          "target": "armed-retainers"
+        },
+        {
+          "type": "expedition_preparation",
+          "target": "estate-security"
+        },
+        {
+          "type": "bandit_suppression",
+          "target": "estate-and-nearby-roads"
+        }
+      ]
+    },
+    "events": [
+      {
+        "event_id": "GMV-62BCE-001-R002-E001",
+        "date": "-0062-01-30",
+        "type": "recruitment",
+        "title": "Men are sought for service on the estate",
+        "article": "Valerius has begun seeking armed men for service in an expedition intended to deal with bands of robbers reported to be troubling estates in the surrounding country. The recruiting has drawn men from neighboring farms and villages, with payment and provisions said to be among the terms being offered. Several men known locally for experience with horses and weapons have reportedly answered the call. The purpose of the gathering has not been described as a general levy, but as a private force for the protection of Valerius’s lands and nearby roads. Landowners who have recently met with Valerius are said to be watching the undertaking with interest.",
+        "visibility": "local",
+        "confidence": "high",
+        "ledger": {
+          "currency": -900,
+          "soldiers": 15,
+          "readiness": 2,
+          "organization": 1,
+          "relations": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R002-E002",
+        "date": "-0062-02-03",
+        "type": "security",
+        "title": "Reports of robberies bring concern to neighboring farms",
+        "article": "Fresh reports of theft have circulated among farmers living beyond Valerius’s estate, renewing complaints about armed robbers in the countryside. Livestock and stores are among the property said to have been taken, though accounts differ as to the number of men involved. Travelers have been advised by some estate holders to move in company rather than alone. No public authority has yet announced a broad operation in response to the reports. The disturbances have nevertheless given greater urgency to the private preparations now under way around Valerius’s lands.",
+        "visibility": "local",
+        "confidence": "medium",
+        "ledger": {
+          "stability": -1,
+          "intelligence": 1,
+          "relations": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R002-E003",
+        "date": "-0062-02-08",
+        "type": "logistics",
+        "title": "Horses, arms and provisions gathered",
+        "article": "Suppliers attached to the Valerius household have been busy obtaining provisions and equipment for the men being assembled. Horses have been inspected, weapons repaired, and stores of grain and other provisions set aside for the expected movement. The preparations have attracted attention because of their scale, though there has been no announcement of the exact route or date of departure. Some neighboring landowners have reportedly offered assistance with animals and supplies. For the workers of the estate, the preparations have brought an unusual amount of activity to the household yards and surrounding roads.",
+        "visibility": "local",
+        "confidence": "high",
+        "ledger": {
+          "currency": -500,
+          "supply": 1,
+          "readiness": 2,
+          "organization": 1,
+          "agriculture": -1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R002-E004",
+        "date": "-0062-02-13",
+        "type": "relations",
+        "title": "Neighboring landowners discuss common security",
+        "article": "Several landowners who have maintained recent contact with Valerius have discussed the insecurity of the roads and fields beyond their estates. The conversations have centered on patrols, warnings between households, and the possibility of sharing information when suspicious bands are seen. No common command has been announced, and each estate remains responsible for its own men. The discussions have nevertheless brought Valerius into closer contact with landowners whose interests have been affected by the same disturbances. Those familiar with the meetings say the immediate concern is protection of property and movement rather than any wider political undertaking.",
+        "visibility": "local",
+        "confidence": "medium",
+        "ledger": {
+          "relations": 2,
+          "intelligence": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R002-E005",
+        "date": "-0062-02-19",
+        "type": "recruitment",
+        "title": "Additional men join the planned expedition",
+        "article": "The number of men attached to Valerius’s proposed expedition has increased as additional recruits arrive from nearby settlements. The newcomers include farm laborers accustomed to the country as well as men with previous experience in armed service. Payment has been arranged from Valerius’s own resources, and the recruits are being gathered into a more orderly body before any movement is attempted. The sight of the growing company has prompted both approval and caution among residents, particularly those whose property lies near roads where robberies have been reported. There is still no report that the force has set out.",
+        "visibility": "local",
+        "confidence": "high",
+        "ledger": {
+          "currency": -400,
+          "soldiers": 10,
+          "readiness": 1,
+          "organization": 2,
+          "morale": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R002-E006",
+        "date": "-0062-02-23",
+        "type": "intelligence",
+        "title": "Information on the robbers is collected",
+        "article": "Men working for Valerius have begun collecting reports from travelers, herdsmen and estate workers concerning the movements of the robbers. Particular attention has been paid to roads, isolated stretches of countryside and places where livestock can be driven away without attracting immediate notice. The reports remain uneven, and no single account has established the size or leadership of the bands involved. Even so, the gathering of information has given the preparations a more deliberate character. Valerius is now said to be waiting for a clearer picture of the countryside before committing his men to the road.",
+        "visibility": "local",
+        "confidence": "medium",
+        "ledger": {
+          "intelligence": 2,
+          "readiness": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event_id": "GMV-62BCE-001-R002-E007",
+        "date": "-0062-02-28",
+        "type": "roundup",
+        "title": "Local country watches Valerius prepare for an expedition",
+        "article": "Across the past month, Valerius has turned the support recently gathered around his estate toward a more immediate concern: the insecurity reported on nearby roads and farms. Men have been hired, horses and weapons prepared, and provisions assembled while neighboring landowners have exchanged information about the disturbances. The force remains on Valerius’s lands at the close of the month, and no expedition has yet been publicly reported as underway. Among local residents, the preparations have become a subject of frequent discussion, with some welcoming the prospect of safer roads and others watching carefully as a private armed company grows. For now, the country waits to see whether the men gathered at the estate will soon take to the roads.",
+        "visibility": "local",
+        "confidence": "high",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": -1800,
+      "soldiers": 25,
+      "readiness": 6,
+      "organization": 6,
+      "relations": 4,
+      "intelligence": 4,
+      "stability": -1,
+      "supply": 1,
+      "agriculture": -1,
+      "legitimacy": 1,
+      "morale": 2
+    }
   }
 }
