@@ -1,118 +1,435 @@
 {
-  "schema_version": "gmv-round-output-sample-v1",
-  "description": "Player-facing GMV round display contract. Persistence remains gmv-round-v2.",
-  "round": 12,
-  "character": "Gaius Maximus Valerius",
-  "date_range": {
-    "start": "-0062-02-01",
-    "end": "-0062-02-28"
-  },
-  "events": [
-    {
-      "event_number": 1,
-      "date": "-0062-02-03",
-      "event_type": "Intelligence",
-      "headline": "VALERIUS RECEIVES WORD FROM THE FRONTIER",
-      "involved_parties_entities": [
-        "Gaius Maximus Valerius",
-        "Roman scouts",
-        "local travelers"
-      ],
-      "article": "A substantial period-authentic news account belongs here. It should describe the resolved event, identify the involved parties and place, explain what information reached Valerius, and report consequences without exposing internal simulation calculations.",
-      "ai_ledger": [
-        {
-          "metric": "Intelligence",
-          "before": 81,
-          "delta": 4,
-          "after": 85,
-          "unit": "points",
-          "reason": "New actionable intelligence was confirmed.",
-          "source_event_id": "GMV-62BCE-001-R12-E01",
-          "provenance": "simulation"
-        }
-      ]
-    }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GMV-001 Player-Facing Round Output",
+  "description": "Sample JSON Schema for the established plain-text GMV roleplay presentation contract. It does not replace gmv-round-v2 persistence.",
+  "type": "object",
+  "required": [
+    "round",
+    "character",
+    "date_range",
+    "events",
+    "special_event",
+    "running_total",
+    "round_end_state",
+    "end_of_round"
   ],
-  "special_event": null,
-  "running_total": {
-    "Population": 0,
-    "Currency": 0,
-    "Soldiers": 0,
-    "Taxation": 0,
-    "Economy": 0,
-    "Agriculture": 0,
-    "Infrastructure": 0,
-    "Trade": 0,
-    "Readiness": 0,
-    "Morale": 0,
-    "Supply": 0,
-    "Organization": 0,
-    "Stability": 0,
-    "Legitimacy": 0,
-    "Exhaustion": 0,
-    "Technology": 0,
-    "Intelligence": 4,
-    "Relations": 0,
-    "Land Area": 0
-  },
-  "round_end_state": {
-    "population": 119,
-    "currency": 775,
-    "soldiers": 78,
-    "taxation": 0,
-    "economy": 85,
-    "agriculture": 56,
-    "infrastructure": 85,
-    "trade": 82,
-    "readiness": 94,
-    "morale": 71,
-    "supply": 74,
-    "organization": 100,
-    "stability": 74,
-    "legitimacy": 76,
-    "exhaustion": 13,
-    "technology": 27,
-    "intelligence": 85,
-    "relations": 100,
-    "land_area": {
-      "value": 4,
-      "unit": "square_miles"
+  "properties": {
+    "round": {
+      "type": "integer",
+      "minimum": 1
     },
-    "accounting": {
-      "public_account": {
-        "value": 1842,
-        "unit": "currency_units"
-      },
-      "private_account": {
-        "value": 83,
-        "unit": "currency_units"
-      },
-      "private_transfer_rate": 0.1,
-      "last_round_net_public_commercial_profit": {
-        "value": 130,
-        "unit": "currency_units"
-      },
-      "last_round_private_transfer": {
-        "value": 13,
-        "unit": "currency_units"
-      },
-      "gross_receipts": {
-        "value": 0,
-        "unit": "currency_units"
-      },
-      "operating_security_maintenance": {
-        "value": 0,
-        "unit": "currency_units"
-      },
-      "investment_principal": {
-        "value": 0,
-        "unit": "currency_units"
-      },
-      "realized_investment_returns": {
-        "value": 0,
-        "unit": "currency_units"
+    "character": {
+      "type": "string"
+    },
+    "date_range": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        }
       }
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "event_number",
+          "date",
+          "event_type",
+          "headline",
+          "involved_parties_entities",
+          "article",
+          "ai_ledger"
+        ],
+        "properties": {
+          "event_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "date": {
+            "type": "string"
+          },
+          "event_type": {
+            "type": "string",
+            "enum": [
+              "Agriculture",
+              "Patronage",
+              "Relations",
+              "Recruitment / Security",
+              "Preparation",
+              "Intelligence",
+              "Local Roundup"
+            ]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "involved_parties_entities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "article": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ai_ledger": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "metric",
+                "before",
+                "delta",
+                "after",
+                "unit",
+                "reason",
+                "source_event_id",
+                "provenance"
+              ],
+              "properties": {
+                "metric": {
+                  "type": "string"
+                },
+                "before": {
+                  "type": [
+                    "number",
+                    "integer"
+                  ]
+                },
+                "delta": {
+                  "type": "number"
+                },
+                "after": {
+                  "type": [
+                    "number",
+                    "integer"
+                  ]
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "reason": {
+                  "type": "string"
+                },
+                "source_event_id": {
+                  "type": "string"
+                },
+                "provenance": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "special_event": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "running_total": {
+      "type": "object",
+      "required": [
+        "Population",
+        "Currency",
+        "Soldiers",
+        "Taxation",
+        "Economy",
+        "Agriculture",
+        "Infrastructure",
+        "Trade",
+        "Readiness",
+        "Morale",
+        "Supply",
+        "Organization",
+        "Stability",
+        "Legitimacy",
+        "Exhaustion",
+        "Technology",
+        "Intelligence",
+        "Relations",
+        "Land Area"
+      ],
+      "properties": {
+        "Population": {
+          "type": "number"
+        },
+        "Currency": {
+          "type": "number"
+        },
+        "Soldiers": {
+          "type": "number"
+        },
+        "Taxation": {
+          "type": "number"
+        },
+        "Economy": {
+          "type": "number"
+        },
+        "Agriculture": {
+          "type": "number"
+        },
+        "Infrastructure": {
+          "type": "number"
+        },
+        "Trade": {
+          "type": "number"
+        },
+        "Readiness": {
+          "type": "number"
+        },
+        "Morale": {
+          "type": "number"
+        },
+        "Supply": {
+          "type": "number"
+        },
+        "Organization": {
+          "type": "number"
+        },
+        "Stability": {
+          "type": "number"
+        },
+        "Legitimacy": {
+          "type": "number"
+        },
+        "Exhaustion": {
+          "type": "number"
+        },
+        "Technology": {
+          "type": "number"
+        },
+        "Intelligence": {
+          "type": "number"
+        },
+        "Relations": {
+          "type": "number"
+        },
+        "Land Area": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "round_end_state": {
+      "type": "object",
+      "required": [
+        "population",
+        "currency",
+        "soldiers",
+        "taxation",
+        "economy",
+        "agriculture",
+        "infrastructure",
+        "trade",
+        "readiness",
+        "morale",
+        "supply",
+        "organization",
+        "stability",
+        "legitimacy",
+        "exhaustion",
+        "technology",
+        "intelligence",
+        "relations",
+        "land_area",
+        "accounting"
+      ],
+      "properties": {
+        "population": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "number"
+        },
+        "soldiers": {
+          "type": "number"
+        },
+        "taxation": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "economy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "agriculture": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "infrastructure": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "trade": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "readiness": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "morale": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "supply": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "organization": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "stability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "legitimacy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "exhaustion": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "technology": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "intelligence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "relations": {
+          "type": "number",
+          "minimum": -100,
+          "maximum": 100
+        },
+        "land_area": {
+          "type": "object",
+          "required": [
+            "value",
+            "unit"
+          ],
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string"
+            }
+          }
+        },
+        "accounting": {
+          "type": "object",
+          "required": [
+            "public_account",
+            "private_account",
+            "private_transfer_rate",
+            "last_round_net_public_commercial_profit",
+            "last_round_private_transfer",
+            "gross_receipts",
+            "operating_security_maintenance",
+            "investment_principal",
+            "realized_investment_returns"
+          ],
+          "properties": {
+            "public_account": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "private_account": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "private_transfer_rate": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "last_round_net_public_commercial_profit": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "last_round_private_transfer": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "gross_receipts": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "operating_security_maintenance": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "investment_principal": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            },
+            "realized_investment_returns": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "end_of_round": {
+      "type": "string"
     }
-  },
-  "end_of_round": "-0062-02-28"
+  }
 }
