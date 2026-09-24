@@ -1,202 +1,919 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 35,
   "period": {
     "start": "-0060-11-01",
     "end": "-0060-11-30",
     "display": "1 November 60 BCE – 30 November 60 BCE"
   },
-  "metric_schema": "fixed-v1+land-area-v1",
-  "player_action": "Gaius Maximus Valerius acts on the captured dispatches by keeping the main expedition moving while sending urgent instructions back toward the ravine fortress and estate road. He orders officers to compare the recovered records with the routes already mapped, preserve the expedition's supply line, and prepare for the possibility that the network will attempt to strike the Roman rear while the main body is beyond the pass.",
-  "land_area_measurement": {
-    "metric": "land_area_sq_miles",
-    "value": 4,
-    "delta": 0,
-    "unit": "square miles",
-    "acres": 2560,
-    "roman_iugera_approx": 4110,
-    "scope": "Gaius Maximus Valerius personal estates and holdings"
+  "action": {
+    "action_id": "GMV-62BCE-001-R035-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius acts on the captured dispatches by keeping the main expedition moving while sending urgent instructions back toward the ravine fortress and estate road. He orders officers to compare the recovered records with the routes already mapped, preserve the expedition's supply line, and prepare for the possibility that the network will attempt to strike the Roman rear while the main body is beyond the pass.",
+    "components": []
   },
+  "historical_context": null,
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R035-E001",
       "date": "-0060-11-03",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "MESSENGERS CARRY WARNINGS BACK TO THE RAVINE FORTRESS",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
       "article": "Copies of the most urgent dispatches are prepared before the expedition advances farther into the hills. Mounted messengers are sent toward the ravine fortress carrying instructions concerning the roads, stores and warning posts identified in the captured records. The officers are told to preserve the existing supply route while avoiding unnecessary movement that might reveal how much the Romans have learned. Valerius keeps the main column on its forward course rather than abandoning the expedition. The captured tablets remain under guard with the senior officers.",
-      "ledger": {
-        "currency": -20,
-        "supply": -2,
-        "intelligence": 12,
-        "exhaustion": 3
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 12,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R035-E002",
       "date": "-0060-11-07",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "THE HIDDEN ROUTES ARE COMPARED WITH THE CAPTURED RECORDS",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
       "article": "Scouts and officers spend several days comparing the markings found after the pass battle with the roads already surveyed by the expedition. Several apparently unrelated tracks now appear to connect with the same chain of crossings and storage sites. A number of locations are removed from the list of ordinary country roads and treated as places requiring closer observation. The work gives the expedition a clearer picture of how movement through the hills can be concealed from a column traveling on the principal road. Valerius orders the findings incorporated into the marcher's route records.",
-      "ledger": {
-        "currency": -15,
-        "supply": -1,
-        "intelligence": 16,
-        "technology": 2,
-        "exhaustion": 3
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 16,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R035-E003",
       "date": "-0060-11-11",
-      "type": "SURPRISE",
+      "type": "surprise",
       "headline": "THE RAVINE FORTRESS STANDS AGAINST A NIGHT ASSAULT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
       "article": "Before dawn, men moving along the road toward the ravine fortress are attacked from several directions. The assault begins with an attempt to cut the road and isolate the fortified post from the estate country behind it. Fires appear along the approaches, while armed groups press toward the outer works under cover of darkness. The garrison is caught under pressure before the warning from the captured dispatches can fully change its preparations, but the fortress itself remains occupied and defensible.\n\nThe attackers concentrate their effort against the road-facing side, apparently expecting the post to be weakened by the absence of Valerius and the main expedition. The defenders withdraw from exposed positions rather than allowing themselves to be surrounded. Roman missiles and concentrated counterattacks prevent the attackers from reaching the principal interior works, while messengers move between the fortress and the estate road. The fighting continues through the morning as the attackers repeatedly test the approaches.\n\nBy midday the assault has become a battle for the fortress rather than a raid on the road. Several sections of the outer works are damaged, stores are consumed or destroyed, and Roman soldiers are killed defending the approaches. The attackers succeed in cutting portions of the road temporarily, but they cannot take the fortified position. A final assault against the gate is repulsed, after which the attacking force begins withdrawing toward the same network of concealed routes identified in the captured records.\n\nThe defenders pursue only far enough to recover abandoned equipment and reopen the immediate road. The fortress remains in Roman hands, but the attack demonstrates that the network has enough organization to strike a major rear position while the expedition is deep in the interior. The damage to the approaches will require substantial repair, and the garrison has lost men it cannot immediately replace from the distant column.\n\nNews of the fighting reaches Valerius with the next secure messenger. He is informed that the fortress survived, the road has been reopened and the attackers withdrew without capturing the post. The report also confirms several details contained in the captured dispatches, including the use of coordinated movement against the Roman rear. What had been a warning on wax tablets has now become a demonstrated threat against the expedition's established line of communication.\n\nValerius orders the surviving route records compared again with the report from the fortress. The main column does not abandon its forward position, but the expedition's officers now treat the ravine road, fortress and estate connection as an active military concern rather than a secure background line. Additional precautions are ordered for messengers and supply movement, while the damaged fortress is marked for repair when the expedition can spare the labor and material.\n\nThe assault changes the balance of the campaign. The regional network has shown that it can coordinate an attack at a considerable distance from the hard pass, while the Romans have demonstrated that the fortress and road system can survive a concentrated attempt to break them. The immediate result is neither the destruction of the Roman rear nor the defeat of the attacking force, but a costly warning that the campaign now extends in both directions at once. The ravine fortress remains standing, and the captured dispatches have gained greater value because their warnings have been tested against events in the field.",
-      "ledger": {
-        "currency": -90,
-        "soldiers": -17,
-        "readiness": -5,
-        "morale": 4,
-        "supply": -10,
-        "organization": 3,
-        "stability": 3,
-        "legitimacy": 2,
-        "exhaustion": 10,
-        "technology": 2,
-        "intelligence": 20,
-        "relations": 2
-      },
-      "special_event": true,
-      "magnitude": 11,
-      "change_index": 9.313225746
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -90,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": -17,
+          "after": null,
+          "unit": "people",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": -5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 10,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 20,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "SURPRISE"
+      }
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R035-E004",
       "date": "-0060-11-15",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "THE ROAD TO THE FORTRESS IS REOPENED",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
       "article": "Reports from the rear confirm that the principal road to the ravine fortress has been reopened after the assault. Damaged sections are marked and temporary repairs allow messengers and limited supply traffic to pass again. Officers report that several abandoned weapons and pieces of equipment were recovered from the approaches. The fortress remains occupied, although portions of its outer works require rebuilding. Valerius orders the road kept under observation while the main expedition continues.",
-      "ledger": {
-        "currency": -25,
-        "supply": -2,
-        "intelligence": 9,
-        "exhaustion": 4,
-        "relations": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 9,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R035-E005",
       "date": "-0060-11-19",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "VALERIUS ADVANCES TOWARD THE NETWORK'S INNER ROUTES",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
       "article": "The main column advances beyond the hard pass and reaches country associated with several of the routes identified in the captured records. Scouts work ahead of the infantry while cavalry patrols the exposed approaches. Valerius avoids committing the entire column to a single narrow route before the surrounding ground has been examined. The expedition establishes a temporary position near a usable water source and reorganizes its remaining supplies. The soldiers now march with the knowledge that attacks may come against either the front or the rear.",
-      "ledger": {
-        "currency": -20,
-        "supply": -3,
-        "intelligence": 10,
-        "exhaustion": 5,
-        "morale": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 10,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R035-E006",
       "date": "-0060-11-23",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "A HIDDEN STOREHOUSE IS FOUND BEYOND THE SECOND ROUTE",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
       "article": "Scouts following one of the routes marked in the captured records discover a concealed store away from the principal road. Grain, animal feed, tools and other provisions are found in quantities large enough to show that the location served more than a single traveling party. The stores are secured and their location is recorded alongside the earlier network evidence. Some material is suitable for the expedition's immediate needs, while the remainder is protected for later use or examination. The discovery gives the Romans another physical link between the captured documents and the country through which they are advancing.",
-      "ledger": {
-        "currency": -10,
-        "supply": 6,
-        "intelligence": 14,
-        "technology": 1,
-        "exhaustion": 3
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 6,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 14,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R035-E007",
       "date": "-0060-11-27",
-      "type": "WORLD",
+      "type": "world",
       "headline": "ROME'S POLITICAL NEWS REACHES THE COLUMN",
-      "entities": [
-        "Marcus Tullius Cicero",
-        "Gaius Julius Caesar",
-        "Gnaeus Pompeius Magnus",
-        "Marcus Licinius Crassus"
-      ],
       "article": "News from Rome reaches the expedition through the regular flow of letters and travelers. Caesar's expected consulship remains central to political discussion, while the interests of Caesar, Pompey and Crassus continue to be discussed together by men following affairs in the capital. Cicero remains active in Roman political life and continues to comment on the changing balance among the leading figures. The reports do not alter Valerius's military position, but officers discuss them while the column remains beyond the pass.",
-      "ledger": {
-        "intelligence": 5,
-        "relations": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R035-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R035-E008",
       "date": "-0060-11-30",
-      "type": "WORLD",
+      "type": "world",
       "headline": "LOCAL ROUNDUP: THE REAR HAS HELD, BUT THE WAR HAS WIDENED",
-      "entities": [
-        "Marcus Tullius Cicero",
-        "Gaius Julius Caesar",
-        "Gnaeus Pompeius Magnus",
-        "Marcus Licinius Crassus"
-      ],
       "article": "November closes with the expedition deeper beyond the hard pass and the ravine fortress still in Roman hands after a serious night assault. The captured dispatches have now been matched against events in the field, including the coordinated attack on the Roman rear and the network of routes supporting it. A hidden storehouse has also been recovered beyond the second route, giving the expedition another physical link to the organization described in the captured records. The fortress road has been reopened, although repairs remain necessary. Valerius's column continues forward with the campaign now extending across both the interior routes and the long road behind it.",
-      "ledger": {}
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
+      }
     }
   ],
-  "running_total": {
-    "population": 0,
-    "currency": -195,
-    "soldiers": -17,
-    "taxation": 0,
-    "economy": 0,
-    "agriculture": 0,
-    "infrastructure": 0,
-    "trade": 0,
-    "readiness": -5,
-    "morale": 5,
-    "supply": -12,
-    "organization": 3,
-    "stability": 3,
-    "legitimacy": 2,
-    "exhaustion": 30,
-    "technology": 5,
-    "intelligence": 86,
-    "relations": 4,
-    "land_area_sq_miles": 0
+  "round_ledger": {
+    "population": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "currency": {
+      "before": null,
+      "delta": -195,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": -17,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "taxation": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": -5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": -12,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "exhaustion": {
+      "before": null,
+      "delta": 30,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 86,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "land_area_sq_miles": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
   },
-  "special_event_selection": {
-    "standard_opportunity_percent": 12,
-    "standard_special_selected": false,
-    "standard_magnitude": null,
-    "standard_change_index": null,
-    "magnitude_11": {
-      "chance_percent": 12.84,
-      "checks": [
-        31.2841,
-        8.4417,
-        77.5032
-      ],
-      "raw_successes": 1,
-      "accepted_candidates": 1,
-      "events": 1
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "fixed-v1+land-area-v1",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-035.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 35,
+    "period": {
+      "start": "-0060-11-01",
+      "end": "-0060-11-30",
+      "display": "1 November 60 BCE – 30 November 60 BCE"
+    },
+    "metric_schema": "fixed-v1+land-area-v1",
+    "player_action": "Gaius Maximus Valerius acts on the captured dispatches by keeping the main expedition moving while sending urgent instructions back toward the ravine fortress and estate road. He orders officers to compare the recovered records with the routes already mapped, preserve the expedition's supply line, and prepare for the possibility that the network will attempt to strike the Roman rear while the main body is beyond the pass.",
+    "land_area_measurement": {
+      "metric": "land_area_sq_miles",
+      "value": 4,
+      "delta": 0,
+      "unit": "square miles",
+      "acres": 2560,
+      "roman_iugera_approx": 4110,
+      "scope": "Gaius Maximus Valerius personal estates and holdings"
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-11-03",
+        "type": "DIRECT",
+        "headline": "MESSENGERS CARRY WARNINGS BACK TO THE RAVINE FORTRESS",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Copies of the most urgent dispatches are prepared before the expedition advances farther into the hills. Mounted messengers are sent toward the ravine fortress carrying instructions concerning the roads, stores and warning posts identified in the captured records. The officers are told to preserve the existing supply route while avoiding unnecessary movement that might reveal how much the Romans have learned. Valerius keeps the main column on its forward course rather than abandoning the expedition. The captured tablets remain under guard with the senior officers.",
+        "ledger": {
+          "currency": -20,
+          "supply": -2,
+          "intelligence": 12,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0060-11-07",
+        "type": "CONNECTED",
+        "headline": "THE HIDDEN ROUTES ARE COMPARED WITH THE CAPTURED RECORDS",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Scouts and officers spend several days comparing the markings found after the pass battle with the roads already surveyed by the expedition. Several apparently unrelated tracks now appear to connect with the same chain of crossings and storage sites. A number of locations are removed from the list of ordinary country roads and treated as places requiring closer observation. The work gives the expedition a clearer picture of how movement through the hills can be concealed from a column traveling on the principal road. Valerius orders the findings incorporated into the marcher's route records.",
+        "ledger": {
+          "currency": -15,
+          "supply": -1,
+          "intelligence": 16,
+          "technology": 2,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0060-11-11",
+        "type": "SURPRISE",
+        "headline": "THE RAVINE FORTRESS STANDS AGAINST A NIGHT ASSAULT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Before dawn, men moving along the road toward the ravine fortress are attacked from several directions. The assault begins with an attempt to cut the road and isolate the fortified post from the estate country behind it. Fires appear along the approaches, while armed groups press toward the outer works under cover of darkness. The garrison is caught under pressure before the warning from the captured dispatches can fully change its preparations, but the fortress itself remains occupied and defensible.\n\nThe attackers concentrate their effort against the road-facing side, apparently expecting the post to be weakened by the absence of Valerius and the main expedition. The defenders withdraw from exposed positions rather than allowing themselves to be surrounded. Roman missiles and concentrated counterattacks prevent the attackers from reaching the principal interior works, while messengers move between the fortress and the estate road. The fighting continues through the morning as the attackers repeatedly test the approaches.\n\nBy midday the assault has become a battle for the fortress rather than a raid on the road. Several sections of the outer works are damaged, stores are consumed or destroyed, and Roman soldiers are killed defending the approaches. The attackers succeed in cutting portions of the road temporarily, but they cannot take the fortified position. A final assault against the gate is repulsed, after which the attacking force begins withdrawing toward the same network of concealed routes identified in the captured records.\n\nThe defenders pursue only far enough to recover abandoned equipment and reopen the immediate road. The fortress remains in Roman hands, but the attack demonstrates that the network has enough organization to strike a major rear position while the expedition is deep in the interior. The damage to the approaches will require substantial repair, and the garrison has lost men it cannot immediately replace from the distant column.\n\nNews of the fighting reaches Valerius with the next secure messenger. He is informed that the fortress survived, the road has been reopened and the attackers withdrew without capturing the post. The report also confirms several details contained in the captured dispatches, including the use of coordinated movement against the Roman rear. What had been a warning on wax tablets has now become a demonstrated threat against the expedition's established line of communication.\n\nValerius orders the surviving route records compared again with the report from the fortress. The main column does not abandon its forward position, but the expedition's officers now treat the ravine road, fortress and estate connection as an active military concern rather than a secure background line. Additional precautions are ordered for messengers and supply movement, while the damaged fortress is marked for repair when the expedition can spare the labor and material.\n\nThe assault changes the balance of the campaign. The regional network has shown that it can coordinate an attack at a considerable distance from the hard pass, while the Romans have demonstrated that the fortress and road system can survive a concentrated attempt to break them. The immediate result is neither the destruction of the Roman rear nor the defeat of the attacking force, but a costly warning that the campaign now extends in both directions at once. The ravine fortress remains standing, and the captured dispatches have gained greater value because their warnings have been tested against events in the field.",
+        "ledger": {
+          "currency": -90,
+          "soldiers": -17,
+          "readiness": -5,
+          "morale": 4,
+          "supply": -10,
+          "organization": 3,
+          "stability": 3,
+          "legitimacy": 2,
+          "exhaustion": 10,
+          "technology": 2,
+          "intelligence": 20,
+          "relations": 2
+        },
+        "special_event": true,
+        "magnitude": 11,
+        "change_index": 9.313225746
+      },
+      {
+        "event": 4,
+        "date": "-0060-11-15",
+        "type": "CONNECTED",
+        "headline": "THE ROAD TO THE FORTRESS IS REOPENED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Reports from the rear confirm that the principal road to the ravine fortress has been reopened after the assault. Damaged sections are marked and temporary repairs allow messengers and limited supply traffic to pass again. Officers report that several abandoned weapons and pieces of equipment were recovered from the approaches. The fortress remains occupied, although portions of its outer works require rebuilding. Valerius orders the road kept under observation while the main expedition continues.",
+        "ledger": {
+          "currency": -25,
+          "supply": -2,
+          "intelligence": 9,
+          "exhaustion": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0060-11-19",
+        "type": "DIRECT",
+        "headline": "VALERIUS ADVANCES TOWARD THE NETWORK'S INNER ROUTES",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "article": "The main column advances beyond the hard pass and reaches country associated with several of the routes identified in the captured records. Scouts work ahead of the infantry while cavalry patrols the exposed approaches. Valerius avoids committing the entire column to a single narrow route before the surrounding ground has been examined. The expedition establishes a temporary position near a usable water source and reorganizes its remaining supplies. The soldiers now march with the knowledge that attacks may come against either the front or the rear.",
+        "ledger": {
+          "currency": -20,
+          "supply": -3,
+          "intelligence": 10,
+          "exhaustion": 5,
+          "morale": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0060-11-23",
+        "type": "CONNECTED",
+        "headline": "A HIDDEN STOREHOUSE IS FOUND BEYOND THE SECOND ROUTE",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Scouts following one of the routes marked in the captured records discover a concealed store away from the principal road. Grain, animal feed, tools and other provisions are found in quantities large enough to show that the location served more than a single traveling party. The stores are secured and their location is recorded alongside the earlier network evidence. Some material is suitable for the expedition's immediate needs, while the remainder is protected for later use or examination. The discovery gives the Romans another physical link between the captured documents and the country through which they are advancing.",
+        "ledger": {
+          "currency": -10,
+          "supply": 6,
+          "intelligence": 14,
+          "technology": 1,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0060-11-27",
+        "type": "WORLD",
+        "headline": "ROME'S POLITICAL NEWS REACHES THE COLUMN",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Gnaeus Pompeius Magnus",
+          "Marcus Licinius Crassus"
+        ],
+        "article": "News from Rome reaches the expedition through the regular flow of letters and travelers. Caesar's expected consulship remains central to political discussion, while the interests of Caesar, Pompey and Crassus continue to be discussed together by men following affairs in the capital. Cicero remains active in Roman political life and continues to comment on the changing balance among the leading figures. The reports do not alter Valerius's military position, but officers discuss them while the column remains beyond the pass.",
+        "ledger": {
+          "intelligence": 5,
+          "relations": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0060-11-30",
+        "type": "WORLD",
+        "headline": "LOCAL ROUNDUP: THE REAR HAS HELD, BUT THE WAR HAS WIDENED",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Gnaeus Pompeius Magnus",
+          "Marcus Licinius Crassus"
+        ],
+        "article": "November closes with the expedition deeper beyond the hard pass and the ravine fortress still in Roman hands after a serious night assault. The captured dispatches have now been matched against events in the field, including the coordinated attack on the Roman rear and the network of routes supporting it. A hidden storehouse has also been recovered beyond the second route, giving the expedition another physical link to the organization described in the captured records. The fortress road has been reopened, although repairs remain necessary. Valerius's column continues forward with the campaign now extending across both the interior routes and the long road behind it.",
+        "ledger": {}
+      }
+    ],
+    "running_total": {
+      "population": 0,
+      "currency": -195,
+      "soldiers": -17,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": -5,
+      "morale": 5,
+      "supply": -12,
+      "organization": 3,
+      "stability": 3,
+      "legitimacy": 2,
+      "exhaustion": 30,
+      "technology": 5,
+      "intelligence": 86,
+      "relations": 4,
+      "land_area_sq_miles": 0
+    },
+    "special_event_selection": {
+      "standard_opportunity_percent": 12,
+      "standard_special_selected": false,
+      "standard_magnitude": null,
+      "standard_change_index": null,
+      "magnitude_11": {
+        "chance_percent": 12.84,
+        "checks": [
+          31.2841,
+          8.4417,
+          77.5032
+        ],
+        "raw_successes": 1,
+        "accepted_candidates": 1,
+        "events": 1
+      }
     }
   }
 }
