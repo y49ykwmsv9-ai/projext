@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GMV Persistent State v1",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "round",
+    "date",
+    "metrics",
+    "holdings",
+    "property_ledger",
+    "next_round_gate"
+  ],
+  "properties": {
+    "scenario_id": {
+      "const": "GMV-62BCE-001"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "date": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "holdings": {
+      "type": "object"
+    },
+    "property_ledger": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "status",
+        "unit",
+        "records",
+        "derived_total_land_area_sq_miles"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "property-ledger-v1"
+        },
+        "status": {
+          "type": "string"
+        },
+        "unit": {
+          "const": "square miles"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "holding_id",
+              "name",
+              "asset_type",
+              "area_sq_miles",
+              "acquisition_date",
+              "acquisition_round",
+              "acquisition_value",
+              "current_status",
+              "provenance"
+            ],
+            "properties": {
+              "holding_id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "asset_type": {
+                "type": "string"
+              },
+              "area_sq_miles": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "acquisition_date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "acquisition_round": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "acquisition_value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "currency_account": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "seller_counterparty": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "acquisition_source_event_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "current_status": {
+                "type": "string"
+              },
+              "disposal_date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "disposal_value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "provenance": {
+                "type": "string"
+              },
+              "confidence": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "derived_total_land_area_sq_miles": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "next_round_gate": {
+      "type": "object",
+      "required": [
+        "status",
+        "reason"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "OPEN",
+            "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
