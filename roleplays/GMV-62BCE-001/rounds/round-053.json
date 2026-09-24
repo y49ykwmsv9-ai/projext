@@ -46,7 +46,8 @@
         "readiness": 0,
         "intelligence": 0,
         "relations": 4,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 0
       }
     },
     {
@@ -71,7 +72,8 @@
         "readiness": 0,
         "intelligence": 1,
         "relations": 1,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 1
       }
     },
     {
@@ -96,7 +98,8 @@
         "readiness": 0,
         "intelligence": 0,
         "relations": 0,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 1
       }
     },
     {
@@ -121,7 +124,8 @@
         "readiness": 0,
         "intelligence": 2,
         "relations": 0,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 2
       }
     },
     {
@@ -145,7 +149,8 @@
         "readiness": 0,
         "intelligence": 0,
         "relations": 0,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 2
       }
     },
     {
@@ -170,7 +175,8 @@
         "readiness": 0,
         "intelligence": 0,
         "relations": 3,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 2
       }
     },
     {
@@ -194,7 +200,8 @@
         "readiness": 0,
         "intelligence": 1,
         "relations": 0,
-        "land_area_sq_miles": 0
+        "land_area_sq_miles": 0,
+        "organization": 1
       }
     }
   ],
@@ -238,6 +245,11 @@
       "before": 4.25,
       "delta": 0,
       "after": 4.25
+    },
+    "organization": {
+      "before": 100,
+      "delta": 9,
+      "after": 109
     }
   },
   "land_area": {
@@ -274,6 +286,13 @@
       "required": true,
       "verified_after_commit": true,
       "verification_basis": "Round 53, news, state and scenario records were re-read successfully after persistence."
+    },
+    "ledger_schema_reconciliation": {
+      "organization_in_all_events": true,
+      "organization_round_total": true,
+      "organization_before": 100,
+      "organization_delta": 9,
+      "organization_after": 109
     }
   }
 }
