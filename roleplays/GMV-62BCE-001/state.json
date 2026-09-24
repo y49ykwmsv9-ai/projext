@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 20,
-  "date": "-0061-08-31",
-  "treasury": 790,
+  "round": 21,
+  "date": "-0061-09-30",
+  "treasury": 500,
   "wealth_accounts": {
-    "public": 641,
-    "private": 166,
+    "public": 526,
+    "private": 188,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 170,
-    "last_round_private_transfer": 17
+    "last_round_net_public_profit": 220,
+    "last_round_private_transfer": 22
   },
   "treasury_interest_placement": {
     "principal": 1000,
@@ -24,22 +24,22 @@
   },
   "metrics": {
     "population": 119,
-    "currency": 790,
+    "currency": 500,
     "soldiers": 383,
     "taxation": 0,
     "economy": 100,
-    "agriculture": 61,
+    "agriculture": 62,
     "infrastructure": 100,
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 96,
+    "supply": 97,
     "organization": 100,
     "stability": 100,
-    "legitimacy": 84,
-    "exhaustion": 48,
+    "legitimacy": 87,
+    "exhaustion": 46,
     "technology": 40,
-    "intelligence": 166,
+    "intelligence": 182,
     "relations": 100
   },
   "relationships": {
@@ -51,22 +51,23 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius travels toward Rome, accepts 300 experienced cavalrymen on fair fixed estate contracts, establishes them as a dedicated heavy cavalry fighting force distinct from reconnaissance riders, establishes a permanent secluded and defended estate and office in Rome, keeps ten trusted guards there, and appoints his younger sister to administer outside affairs and maintain permanent communication with Rome.",
+  "previous_action": "Gaius Maximus Valerius continues to organize his estates' finances and invests in diversified strategic debt obligations tied to productive commerce, while refusing to profit from distressed sellers or predatory acquisitions associated in Roman discussion with the methods attributed to Crassus.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
       "Gaius Julius Caesar",
       "Marcus Porcius Cato",
       "Gnaeus Pompeius Magnus",
+      "Marcus Licinius Crassus",
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "During August, Valerius established a permanent Roman household, added three hundred contracted heavy cavalrymen to the estate's fighting force, separated combat cavalry from reconnaissance riders, appointed his younger sister to administer Roman outside affairs, and placed ten trusted guards with the Roman household. A regular communications line now connects Rome, the lake port and the main estate."
+    "campaign_development": "During September, Valerius consolidated the financial administration of his estates, separated operating and private reserves, committed three hundred currency to diversified productive debt obligations, and established a strict policy against acquiring property or obligations merely because another owner was under severe financial pressure."
   },
   "special_event_policy": {
     "magnitude_scale": "1-10",
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 1,
+    "this_round_special_events": 0,
     "current_round_opportunity_probability": 0.12,
     "last_selected_magnitude": 6
   }
