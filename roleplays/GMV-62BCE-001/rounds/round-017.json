@@ -1,176 +1,610 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 17,
   "period": {
     "start": "-0061-05-01",
     "end": "-0061-05-31",
     "display": "1 May 61 BCE – 31 May 61 BCE"
   },
-  "player_action": "Gaius Maximus Valerius transfers 1000 from the public account into the currency treasury as a treasury-linked interest placement. The placement's interest rate is to be determined by qualifying growth in the treasury over the coming months.",
-  "metric_schema": "fixed-v1",
-  "special_event_policy": {
-    "magnitude_scale": "1-10",
-    "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
-    "influence_rule": "Event influence increases exponentially with magnitude rather than linearly.",
-    "this_round_special_events": 0
+  "action": {
+    "action_id": "GMV-62BCE-001-R017-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius transfers 1000 from the public account into the currency treasury as a treasury-linked interest placement. The placement's interest rate is to be determined by qualifying growth in the treasury over the coming months.",
+    "components": []
   },
+  "historical_context": null,
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R017-E001",
       "date": "-0061-05-03",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "ONE THOUSAND IS PLACED INTO THE TREASURY FOR INTEREST-BEARING USE",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Public Account",
-        "Currency Treasury"
-      ],
       "article": "At the beginning of May, Valerius orders one thousand units of the estate's public account transferred into the liquid currency reserve. The sum is not treated as new wealth, but as capital moved from ordinary operating funds into a financial placement intended to earn a return. The arrangement leaves the public account with 1,130 units while the treasury receives the transferred principal alongside its existing reserve. Valerius's stewards are instructed to distinguish this transfer from genuine commercial receipts so that future growth of the treasury can be measured without counting the same money twice. The decision gives the estate a larger liquid base from which to conduct financial business while preserving a separate record of operating capital.",
-      "ledger": {
-        "currency": 1000,
-        "stability": 1,
-        "intelligence": 2,
-        "legitimacy": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 1000,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R017-E002",
       "date": "-0061-05-08",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "A TREASURY-LINKED RATE IS AGREED WITH THE ESTATE'S FINANCIAL AGENTS",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Financial Agents",
-        "Currency Treasury"
-      ],
       "article": "Valerius's financial agents record the terms under which the newly enlarged reserve may earn interest. The rate will begin from a modest annual base and rise according to qualifying growth in the treasury over the following three months, with a ceiling preventing the return from becoming detached from the estate's underlying earnings. Money transferred internally into the treasury is excluded from the calculation, while receipts produced through trade and other realized operations are counted. No interest is credited at the opening of the arrangement, since the return depends upon growth that has yet to occur. The terms are entered separately from the estate's ordinary commercial accounts so that the principal, earnings and operating capital remain distinguishable.",
-      "ledger": {
-        "currency": 0,
-        "economy": 1,
-        "technology": 1,
-        "organization": 0,
-        "stability": 1,
-        "intelligence": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R017-E003",
       "date": "-0061-05-14",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "LIQUID RESERVES ARE KEPT AVAILABLE FOR ORDINARY ESTATE BUSINESS",
-      "entities": [
-        "Main Estate",
-        "Lake Port",
-        "Estate Stewards",
-        "Currency Treasury"
-      ],
       "article": "The movement of capital does not halt the estate's ordinary work. Stewards retain operating funds for wages, maintenance, supplies and the upkeep of the road and lake port, while the treasury placement is treated as capital that should not be spent merely to meet routine expenses. Commercial stores remain distributed between the estate and port, preserving the decentralized system established earlier in the year. The arrangement gives the estate a clearer separation between money intended to keep productive works functioning and money intended to earn a financial return. Local officials are ordered to report unusual demands on either reserve before drawing upon the other.",
-      "ledger": {
-        "currency": 0,
-        "supply": 1,
-        "stability": 1,
-        "relations": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R017-E004",
       "date": "-0061-05-19",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "TRADE RECEIPTS GIVE THE TREASURY ITS FIRST QUALIFYING GROWTH",
-      "entities": [
-        "Lake Port",
-        "Commercial Fleet",
-        "Merchants",
-        "Currency Treasury"
-      ],
       "article": "The lake port records another month of commercial movement as merchants make use of the roads and protected landing. Receipts from transport, storage and estate-linked trade exceed the costs of maintaining the routes and facilities, leaving a realized commercial gain for the period. The resulting increase is counted as qualifying treasury growth rather than being confused with the thousand-unit transfer made at the start of the month. The distinction is entered into the accounts because the future interest rate depends upon productive growth rather than the relocation of existing capital. The port's activity therefore begins to influence not only trade income but also the eventual return on the new financial placement.",
-      "ledger": {
-        "currency": 140,
-        "economy": 1,
-        "trade": 4,
-        "supply": 2,
-        "infrastructure": 1,
-        "agriculture": 1,
-        "morale": 1,
-        "exhaustion": -1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 140,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R017-E005",
       "date": "-0061-05-24",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "THE ESTATE'S SUSTAINABILITY RULES CONTINUE UNDER THE NEW FINANCIAL ARRANGEMENT",
-      "entities": [
-        "Main Estate",
-        "Timber Stands",
-        "Agricultural Land",
-        "Water Sources"
-      ],
       "article": "The larger treasury reserve does not lead Valerius's stewards to increase extraction from the estate. Timber rotation, water accounting and agricultural records established in April continue through May, with productive inputs still measured against their ability to recover. The additional financial capital instead gives the administrators greater reason to preserve the productive base from which future receipts must come. Repairs and ordinary maintenance continue before unnecessary expansion, and the lake port remains supplied without drawing down stores faster than planned. The estate's financial strategy is consequently tied to the same principle that now governs its fields and woods: recurring gains are more useful when the source of those gains remains intact.",
-      "ledger": {
-        "currency": 0,
-        "agriculture": 0,
-        "economy": 0,
-        "supply": 0,
-        "stability": 1,
-        "technology": 0
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R017-E006",
       "date": "-0061-05-27",
-      "type": "WORLD",
+      "type": "world",
       "headline": "ROME'S SPRING POLITICS GROW MORE CONTENTIOUS AS CLODIUS FACES TRIAL",
-      "entities": [
-        "Roman Republic",
-        "Marcus Tullius Cicero",
-        "Publius Clodius Pulcher",
-        "Gnaeus Pompeius Magnus"
-      ],
       "article": "Reports from Rome describe increasing attention to the prosecution of Publius Clodius Pulcher, whose case is drawing political figures into a dispute that extends beyond the immediate charge. Marcus Tullius Cicero remains prominent in the discussion, while Gnaeus Pompeius Magnus continues to navigate the political difficulties surrounding his return from the East and the disposition of his settlements. The news reaches the estate through merchants and letters rather than through any direct Roman channel to Valerius. For the local households, the reports are another reminder that the Republic's political contests can affect credit, commerce and the movement of men even when the arguments themselves take place far away. Valerius's own financial arrangement remains a private estate matter and is not presented in Rome as a political undertaking.",
-      "ledger": {
-        "intelligence": 2,
-        "relations": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R017-E007",
       "date": "-0061-05-31",
-      "type": "WORLD",
+      "type": "world",
       "headline": "LOCAL NEWS: MAY CLOSES WITH A LARGER LIQUID RESERVE AND A RATE STILL TO BE EARNED",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Main Estate",
-        "Lake Port",
-        "Currency Treasury"
-      ],
       "article": "May closes with the estate holding a substantially larger liquid treasury after the transfer of one thousand units from its public operating account. Commercial receipts have also added one hundred and forty units of qualifying growth during the month, while the public account retains capital for ordinary maintenance and production. The treasury-linked interest arrangement has therefore begun under a measured rate of four and one-half percent annualized, subject to adjustment as further qualifying growth is recorded during the three-month observation period. No interest has yet been credited, and the principal remains part of the estate's capital rather than newly created wealth. Across the holdings, production continues under the sustainability rules established in April, leaving Valerius with a financial strategy increasingly tied to the durability of the estate that supplies its earnings.",
-      "ledger": {
-        "currency": 0
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R017-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     }
   ],
-  "running_total": {
-    "population": 0,
-    "currency": 1140,
-    "soldiers": 0,
-    "taxation": 0,
-    "economy": 2,
-    "agriculture": 1,
-    "infrastructure": 1,
-    "trade": 4,
-    "readiness": 0,
-    "morale": 1,
-    "supply": 3,
-    "organization": 0,
-    "stability": 4,
-    "legitimacy": 1,
-    "exhaustion": -1,
-    "technology": 1,
-    "intelligence": 5,
-    "relations": 2
+  "round_ledger": {
+    "population": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "currency": {
+      "before": null,
+      "delta": 1140,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "taxation": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "exhaustion": {
+      "before": null,
+      "delta": -1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
   },
-  "commercial_accounting": {
+  "financials": {
     "gross_receipts": 500,
     "operating_security_and_maintenance_costs": 360,
     "net_public_profit": 140,
@@ -180,16 +614,208 @@
     "public_account_end": 1256,
     "private_account_end": 129
   },
-  "treasury_interest_placement": {
-    "principal": 1000,
-    "source_account": "public",
-    "destination": "currency_treasury",
-    "start_treasury": 720,
-    "qualifying_growth": 140,
-    "term": "3 months",
-    "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
-    "current_annualized_rate": 4.5,
-    "interest_realized": 0,
-    "settlement": "after the three-month observation period"
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "fixed-v1",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-017.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 17,
+    "period": {
+      "start": "-0061-05-01",
+      "end": "-0061-05-31",
+      "display": "1 May 61 BCE – 31 May 61 BCE"
+    },
+    "player_action": "Gaius Maximus Valerius transfers 1000 from the public account into the currency treasury as a treasury-linked interest placement. The placement's interest rate is to be determined by qualifying growth in the treasury over the coming months.",
+    "metric_schema": "fixed-v1",
+    "special_event_policy": {
+      "magnitude_scale": "1-10",
+      "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
+      "influence_rule": "Event influence increases exponentially with magnitude rather than linearly.",
+      "this_round_special_events": 0
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0061-05-03",
+        "type": "DIRECT",
+        "headline": "ONE THOUSAND IS PLACED INTO THE TREASURY FOR INTEREST-BEARING USE",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Public Account",
+          "Currency Treasury"
+        ],
+        "article": "At the beginning of May, Valerius orders one thousand units of the estate's public account transferred into the liquid currency reserve. The sum is not treated as new wealth, but as capital moved from ordinary operating funds into a financial placement intended to earn a return. The arrangement leaves the public account with 1,130 units while the treasury receives the transferred principal alongside its existing reserve. Valerius's stewards are instructed to distinguish this transfer from genuine commercial receipts so that future growth of the treasury can be measured without counting the same money twice. The decision gives the estate a larger liquid base from which to conduct financial business while preserving a separate record of operating capital.",
+        "ledger": {
+          "currency": 1000,
+          "stability": 1,
+          "intelligence": 2,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0061-05-08",
+        "type": "DIRECT",
+        "headline": "A TREASURY-LINKED RATE IS AGREED WITH THE ESTATE'S FINANCIAL AGENTS",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Financial Agents",
+          "Currency Treasury"
+        ],
+        "article": "Valerius's financial agents record the terms under which the newly enlarged reserve may earn interest. The rate will begin from a modest annual base and rise according to qualifying growth in the treasury over the following three months, with a ceiling preventing the return from becoming detached from the estate's underlying earnings. Money transferred internally into the treasury is excluded from the calculation, while receipts produced through trade and other realized operations are counted. No interest is credited at the opening of the arrangement, since the return depends upon growth that has yet to occur. The terms are entered separately from the estate's ordinary commercial accounts so that the principal, earnings and operating capital remain distinguishable.",
+        "ledger": {
+          "currency": 0,
+          "economy": 1,
+          "technology": 1,
+          "organization": 0,
+          "stability": 1,
+          "intelligence": 2
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0061-05-14",
+        "type": "CONNECTED",
+        "headline": "LIQUID RESERVES ARE KEPT AVAILABLE FOR ORDINARY ESTATE BUSINESS",
+        "entities": [
+          "Main Estate",
+          "Lake Port",
+          "Estate Stewards",
+          "Currency Treasury"
+        ],
+        "article": "The movement of capital does not halt the estate's ordinary work. Stewards retain operating funds for wages, maintenance, supplies and the upkeep of the road and lake port, while the treasury placement is treated as capital that should not be spent merely to meet routine expenses. Commercial stores remain distributed between the estate and port, preserving the decentralized system established earlier in the year. The arrangement gives the estate a clearer separation between money intended to keep productive works functioning and money intended to earn a financial return. Local officials are ordered to report unusual demands on either reserve before drawing upon the other.",
+        "ledger": {
+          "currency": 0,
+          "supply": 1,
+          "stability": 1,
+          "relations": 1
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0061-05-19",
+        "type": "CONNECTED",
+        "headline": "TRADE RECEIPTS GIVE THE TREASURY ITS FIRST QUALIFYING GROWTH",
+        "entities": [
+          "Lake Port",
+          "Commercial Fleet",
+          "Merchants",
+          "Currency Treasury"
+        ],
+        "article": "The lake port records another month of commercial movement as merchants make use of the roads and protected landing. Receipts from transport, storage and estate-linked trade exceed the costs of maintaining the routes and facilities, leaving a realized commercial gain for the period. The resulting increase is counted as qualifying treasury growth rather than being confused with the thousand-unit transfer made at the start of the month. The distinction is entered into the accounts because the future interest rate depends upon productive growth rather than the relocation of existing capital. The port's activity therefore begins to influence not only trade income but also the eventual return on the new financial placement.",
+        "ledger": {
+          "currency": 140,
+          "economy": 1,
+          "trade": 4,
+          "supply": 2,
+          "infrastructure": 1,
+          "agriculture": 1,
+          "morale": 1,
+          "exhaustion": -1
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0061-05-24",
+        "type": "CONNECTED",
+        "headline": "THE ESTATE'S SUSTAINABILITY RULES CONTINUE UNDER THE NEW FINANCIAL ARRANGEMENT",
+        "entities": [
+          "Main Estate",
+          "Timber Stands",
+          "Agricultural Land",
+          "Water Sources"
+        ],
+        "article": "The larger treasury reserve does not lead Valerius's stewards to increase extraction from the estate. Timber rotation, water accounting and agricultural records established in April continue through May, with productive inputs still measured against their ability to recover. The additional financial capital instead gives the administrators greater reason to preserve the productive base from which future receipts must come. Repairs and ordinary maintenance continue before unnecessary expansion, and the lake port remains supplied without drawing down stores faster than planned. The estate's financial strategy is consequently tied to the same principle that now governs its fields and woods: recurring gains are more useful when the source of those gains remains intact.",
+        "ledger": {
+          "currency": 0,
+          "agriculture": 0,
+          "economy": 0,
+          "supply": 0,
+          "stability": 1,
+          "technology": 0
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0061-05-27",
+        "type": "WORLD",
+        "headline": "ROME'S SPRING POLITICS GROW MORE CONTENTIOUS AS CLODIUS FACES TRIAL",
+        "entities": [
+          "Roman Republic",
+          "Marcus Tullius Cicero",
+          "Publius Clodius Pulcher",
+          "Gnaeus Pompeius Magnus"
+        ],
+        "article": "Reports from Rome describe increasing attention to the prosecution of Publius Clodius Pulcher, whose case is drawing political figures into a dispute that extends beyond the immediate charge. Marcus Tullius Cicero remains prominent in the discussion, while Gnaeus Pompeius Magnus continues to navigate the political difficulties surrounding his return from the East and the disposition of his settlements. The news reaches the estate through merchants and letters rather than through any direct Roman channel to Valerius. For the local households, the reports are another reminder that the Republic's political contests can affect credit, commerce and the movement of men even when the arguments themselves take place far away. Valerius's own financial arrangement remains a private estate matter and is not presented in Rome as a political undertaking.",
+        "ledger": {
+          "intelligence": 2,
+          "relations": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0061-05-31",
+        "type": "WORLD",
+        "headline": "LOCAL NEWS: MAY CLOSES WITH A LARGER LIQUID RESERVE AND A RATE STILL TO BE EARNED",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Main Estate",
+          "Lake Port",
+          "Currency Treasury"
+        ],
+        "article": "May closes with the estate holding a substantially larger liquid treasury after the transfer of one thousand units from its public operating account. Commercial receipts have also added one hundred and forty units of qualifying growth during the month, while the public account retains capital for ordinary maintenance and production. The treasury-linked interest arrangement has therefore begun under a measured rate of four and one-half percent annualized, subject to adjustment as further qualifying growth is recorded during the three-month observation period. No interest has yet been credited, and the principal remains part of the estate's capital rather than newly created wealth. Across the holdings, production continues under the sustainability rules established in April, leaving Valerius with a financial strategy increasingly tied to the durability of the estate that supplies its earnings.",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "population": 0,
+      "currency": 1140,
+      "soldiers": 0,
+      "taxation": 0,
+      "economy": 2,
+      "agriculture": 1,
+      "infrastructure": 1,
+      "trade": 4,
+      "readiness": 0,
+      "morale": 1,
+      "supply": 3,
+      "organization": 0,
+      "stability": 4,
+      "legitimacy": 1,
+      "exhaustion": -1,
+      "technology": 1,
+      "intelligence": 5,
+      "relations": 2
+    },
+    "commercial_accounting": {
+      "gross_receipts": 500,
+      "operating_security_and_maintenance_costs": 360,
+      "net_public_profit": 140,
+      "private_transfer_rate": 0.1,
+      "private_transfer": 14,
+      "public_account_change": 126,
+      "public_account_end": 1256,
+      "private_account_end": 129
+    },
+    "treasury_interest_placement": {
+      "principal": 1000,
+      "source_account": "public",
+      "destination": "currency_treasury",
+      "start_treasury": 720,
+      "qualifying_growth": 140,
+      "term": "3 months",
+      "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
+      "current_annualized_rate": 4.5,
+      "interest_realized": 0,
+      "settlement": "after the three-month observation period"
+    }
   }
 }
