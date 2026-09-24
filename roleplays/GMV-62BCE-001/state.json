@@ -7,5 +7,5 @@
   "continuity":{"campaign_development":"October 60 BCE: Valerius spent the month training directly with his soldiers and trusted officers, drilling surprise and panic recovery, casualty recovery, controlled pursuit, and coordination. He awarded military medals for demonstrated performance and standardized the force's equipment using premium gear purchased from available denarii. Treasury fell by 255 for procurement, supply rose from 50 to 65, and intelligence rose from 972 to 977; no battlefield has yet tested the reforms.","land_area_history":"4.25 square miles unchanged."},
   "special_event_policy":{"magnitude_scale":"1-11","standard_magnitude_scale":"1-10","this_round_standard_special":false,"this_round_magnitude":null,"current_round_opportunity_probability":12,"magnitude_11_events":0,"magnitude_11":{"chance_percent":6.42,"checks":[37.2184,72.5501,95.1173],"raw_successes":0,"accepted_candidates":0,"events":0}},
   "latest_schema":"gmv-round-v2",
-  "end_of_round_checks":{"canonical_round_46":"pending","commit_check":"pending post-commit re-read"}
+  "end_of_round_checks":{"canonical_round_46":"verified","commit_check":"verified after canonical files persisted and re-read"}
 }
