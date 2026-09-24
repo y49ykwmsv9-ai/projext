@@ -1,0 +1,229 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 52,
+  "period": {
+    "start": "-0059-04-01",
+    "end": "-0059-04-30",
+    "display": "1 April 59 BCE – 30 April 59 BCE"
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R052-E001",
+      "round_number": 52,
+      "date": "4 April 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ORDERS THE ROADS OPENED AGAIN",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman patrols",
+        "local smallholders",
+        "estate roads"
+      ],
+      "body": "On 4 April, Gaius Maximus Valerius orders the principal roads through the recently contested estate belt reopened to regular civilian movement. Roman patrols remain visible at the larger crossings, but the columns no longer move as though expecting an organized enemy at every bend. Farmers begin carrying tools and animals between properties that had been separated by weeks of insecurity, while merchants cautiously test the reopened routes. Valerius's officers record reports of theft, abandoned buildings and damaged crossings rather than treating every complaint as evidence of another armed network. The change is immediately noticeable in the occupied district, where civilian traffic begins to replace military movement as the most common activity on several roads. Valerius keeps the patrols in place while the new security arrangement proves itself.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": -1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 2,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R052-E002",
+      "round_number": 52,
+      "date": "9 April 59 BCE",
+      "event_category": "Connected",
+      "title": "ROMAN OFFICERS SORT THE CAPTURED RECORDS INTO A USABLE REGISTER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman officers",
+        "captured records",
+        "estate routes",
+        "bandit network"
+      ],
+      "body": "The records recovered during the March raids are brought together on 9 April and arranged into a single working register for the expedition. Names, route references, stores and abandoned locations are separated where the documents allow, preventing rumors about suspected participants from being treated as established facts. Several entries correspond with information already gathered by Valerius's scouts, strengthening the reliability of those portions of the register. Other names cannot yet be connected to a specific act, and the officers leave those entries marked as unresolved rather than ordering arrests on the basis of incomplete evidence. Valerius receives the consolidated report and directs that copies of the confirmed material be prepared for the Roman correspondence network. The register gives the expedition a much clearer administrative picture of the district than it possessed when the fighting was still underway.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 5,
+        "relations": 0,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R052-E003",
+      "round_number": 52,
+      "date": "14 April 59 BCE",
+      "event_category": "Connected",
+      "title": "MARCELLUS SENDS A CAUTIOUS RESPONSE TO VALERIUS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Roman correspondence network"
+      ],
+      "body": "A reply associated with Marcus Claudius Marcellus reaches Valerius's command in mid-April after the earlier reports of the holdout campaign have circulated through the Roman network. The message acknowledges the military result but places particular attention on the recovered records and the conduct of the occupation that follows the fighting. Marcellus asks that confirmed information about the district be preserved and that unresolved property claims not be confused with military spoils. Valerius's officers answer with a concise account of the reopened roads, the returning smallholders and the continuing separation between occupied territory and Valerius's personal holdings. The exchange keeps the relationship active without producing a formal political settlement or a new grant of land. For Valerius, the correspondence is an indication that events in the district are beginning to attract attention beyond the expedition itself.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 2,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R052-E004",
+      "round_number": 52,
+      "date": "19 April 59 BCE",
+      "event_category": "Surprise",
+      "title": "A LOCAL LANDOWNER APPEARS WITH AN OLD CLAIM",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "local landowner",
+        "Valerius officers",
+        "smallholders",
+        "occupied estate belt"
+      ],
+      "body": "On 19 April, a local landowner unexpectedly appears before Valerius's officers carrying documents that he says establish a claim to a tract currently being used by returning agricultural workers. The papers are old enough to require comparison with the records recovered from the former bandit network, and neither side can immediately establish that the claim is false or conclusive. Rather than converting the dispute into a military seizure, Valerius orders the documents preserved and the contested tract left outside any personal acquisition decision while the evidence is examined. Smallholders working nearby are told that the dispute has not been settled and that their ordinary cultivation will continue where it does not interfere with the investigation. The incident exposes a problem that the defeat of the bandits had temporarily hidden: restoring order does not automatically resolve older questions of ownership. It also reinforces the distinction between Valerius's existing estate holdings and territory merely occupied by his expedition.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 1,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R052-E005",
+      "round_number": 52,
+      "date": "24 April 59 BCE",
+      "event_category": "Direct",
+      "title": "THE EXPEDITION'S STORES ARE RECOUNTED AFTER THE RAIDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman quartermasters",
+        "Valerius soldiers",
+        "captured provisions"
+      ],
+      "body": "Quartermasters conduct a full recount of the expedition's stores on 24 April after the intense series of raids that ended the holdouts. The usable provisions captured in March are now incorporated into the regular supply accounting, while damaged or unsuitable material is removed from the active stock. The soldiers remain at their established strength, with no Roman combat injuries added to the campaign's casualty record. Valerius's officers also begin rotating men away from the most demanding patrol duties as the force adjusts to the slower tempo of occupation. The recount leaves the expedition with 58 supply points and an exhaustion level of 70, showing that the force has begun recovering but has not yet returned to its earlier condition. The result gives Valerius a clearer basis for deciding how much further movement the expedition can support without drawing unnecessarily on its reserves.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": -2,
+        "morale": 0,
+        "readiness": 1,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R052-E006",
+      "round_number": 52,
+      "date": "30 April 59 BCE",
+      "event_category": "Connected",
+      "title": "THE DISTRICT ENTERS AN UNEASY PEACE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "local smallholders",
+        "Roman patrols",
+        "occupied estate belt"
+      ],
+      "body": "By the final day of April, the occupied estate belt has entered an uneasy but visible period of calm. Smallholders are working portions of their fields again, Roman patrols continue to circulate along the main roads, and no organized bandit force has reappeared. Reports reaching Valerius increasingly concern harvests, property disputes, transport and local grievances rather than armed attacks. Marcus Claudius Marcellus remains connected to the expedition through the correspondence channel, while the officers continue preparing the confirmed intelligence gathered during the campaign for wider Roman use. Valerius's men are recovering from the March operations without surrendering control of the district, leaving the expedition better positioned for a deliberate next move. The month closes without a new battle, but the character of the campaign has clearly changed from destruction of resistance to the management of its consequences.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 1,
+        "land_area_sq_miles": 0
+      }
+    }
+  ],
+  "round_ledger": {
+    "soldiers": {
+      "before": 398,
+      "delta": 0,
+      "after": 398
+    },
+    "supply": {
+      "before": 59,
+      "delta": -1,
+      "after": 58
+    },
+    "exhaustion": {
+      "before": 72,
+      "delta": -2,
+      "after": 70
+    },
+    "morale": {
+      "before": 99,
+      "delta": 0,
+      "after": 99
+    },
+    "readiness": {
+      "before": 97,
+      "delta": 1,
+      "after": 98
+    },
+    "intelligence": {
+      "before": 1016,
+      "delta": 8,
+      "after": 1024
+    },
+    "relations": {
+      "before": 99,
+      "delta": 6,
+      "after": 105
+    },
+    "land_area_sq_miles": {
+      "before": 4.25,
+      "delta": 0,
+      "after": 4.25
+    }
+  },
+  "land_area": {
+    "land_area_sq_miles": 4.25,
+    "change_this_round_sq_miles": 0
+  },
+  "special_event": null,
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 12,
+      "opportunity_roll": 68.4173,
+      "raw_successes": 0,
+      "accepted_candidates": 0
+    },
+    "magnitude_11": {
+      "chance_percent": 4.7283,
+      "checks": [
+        83.6142,
+        41.2087,
+        72.9051
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": true
+    }
+  }
+}
