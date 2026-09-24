@@ -13,12 +13,22 @@
     "year": -62,
     "display": "62 BCE"
   },
-  "latest_round": 32,
-  "latest_date": "-0060-08-31",
+  "latest_round": 33,
+  "latest_date": "-0060-09-30",
   "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
-  "metric_schema": "fixed-v1",
+  "metric_schema": "fixed-v1+land-area-v1",
   "news_style": "period-authentic-local-newspaper",
-  "latest_player_action": "Gaius Maximus Valerius begins the next major part of his expedition by leaving the ravine fortress under a reliable garrison and taking the main body deeper into the territory used by the regional band. He advances through several routes at once, using scouts trained in July to compare roads, water sources, settlements and concealed approaches before committing the column. He intends to find and break the band's wider network rather than chase isolated parties, while keeping the fortress and estate road behind him as a secure line of supply.",
+  "latest_player_action": "Gaius Maximus Valerius personally leads the expedition farther into the country used by the regional band. He keeps the main body concentrated around his own position, continues to use the ravine fortress and forward camp as linked bases, and presses the search for the network sustaining the band.",
+  "land_area_metric": {
+    "name": "land_area_sq_miles",
+    "unit": "square miles",
+    "scope": "Gaius Maximus Valerius personal estates and holdings",
+    "round_33_baseline": 4,
+    "acres": 2560,
+    "roman_iugera_approx": 4110,
+    "change_rule": "carry forward unchanged unless a concrete simulation event explicitly acquires, loses, transfers, or otherwise changes holdings",
+    "round_33_note": "Measurement only. No land was acquired in Round 33."
+  },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
@@ -32,13 +42,26 @@
     "magnitude_11_dry_spell_interaction": "None; Magnitude 11 chance is independently randomized each round.",
     "this_round_special_events": 0,
     "this_round_magnitude_11_events": 0,
-    "current_round_opportunity_probability": 18,
-    "last_selected_magnitude": 7,
-    "magnitude_11_chance_percent": 14.21,
+    "current_round_opportunity_probability": 14,
+    "consecutive_rounds_without_standard_special_event": 4,
+    "magnitude_11_chance_percent": 10.84,
     "magnitude_11_checks": [
-      72.4481,
-      19.3074,
-      86.5512
+      42.1187,
+      77.5402,
+      18.9321
     ]
+  },
+  "continuity": {
+    "historical_actors": [
+      "Marcus Tullius Cicero",
+      "Gaius Julius Caesar",
+      "Marcus Porcius Cato",
+      "Gnaeus Pompeius Magnus",
+      "Marcus Licinius Crassus",
+      "Marcus Claudius Marcellus",
+      "Quintus Caecilius Metellus Celer"
+    ],
+    "campaign_development": "In September 60 BCE, Valerius personally led the main expedition farther into the regional band's country. The ravine fortress and forward camp remained linked bases. Traveler reports, a night alarm, another concealed store, and a prepared crossing added new information while leaving the central future of the expedition unresolved.",
+    "land_area_history": "Round 33 adds the first explicit measurement of Valerius's personal estates and holdings. The 4.00 square mile figure is a retrospective measurement of property already accumulated through prior events, not a new acquisition. Future rounds must carry this value forward unless a concrete land transaction, loss, transfer, or other holdings event changes it."
   }
 }

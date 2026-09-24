@@ -159,3 +159,9 @@ GMV-62BCE-001 is the first committed scenario in this store.
 
 ## Automatic Round Commitment
 Every completed roleplay round is committed to GitHub immediately after resolution. The committed round file, news file, updated state, and continuity information are the authoritative campaign record for all subsequent rounds. Future rounds must inherit prior committed relationships, historical actors, events, knowledge, locations, institutions, and consequences rather than regenerating the campaign from scratch.
+
+## Personal Holdings Land-Area Metric
+
+Beginning with Round 33, every committed scenario state includes a fixed land_area_sq_miles metric for the player's personal estates and holdings. This is a measured state variable, not an automatic acquisition mechanism. Round 33 establishes Gaius Maximus Valerius at 4.00 square miles, equal to 2,560 acres or approximately 4,110 Roman iugera, as a retrospective measurement of property already accumulated through prior simulation events. The value changes only when a concrete simulation event actually changes the holdings.
+
+The historical basis uses the Roman iugerum as the period land measure. A Roman iugerum was approximately 0.623 acre, while Roman agricultural sources describe both smaller citizen allotments and much larger working estates. The campaign therefore treats the Round 33 figure as an integrated holdings footprint rather than assuming that all land is intensively cultivated.

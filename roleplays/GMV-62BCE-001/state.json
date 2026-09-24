@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 32,
-  "date": "-0060-08-31",
+  "round": 33,
+  "date": "-0060-09-30",
   "treasury": 1970,
   "wealth_accounts": {
-    "public": 2009,
-    "private": 423,
+    "public": 2144,
+    "private": 438,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 160,
-    "last_round_private_transfer": 16
+    "last_round_net_public_profit": 150,
+    "last_round_private_transfer": 15
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,7 +17,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": -190,
+    "currency": -285,
     "soldiers": 440,
     "taxation": 0,
     "economy": 100,
@@ -26,14 +26,23 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 83,
+    "supply": 77,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 144,
-    "technology": 56,
-    "intelligence": 454,
-    "relations": 100
+    "exhaustion": 161,
+    "technology": 58,
+    "intelligence": 496,
+    "relations": 100,
+    "land_area_sq_miles": 4
+  },
+  "holdings": {
+    "land_area_sq_miles": 4,
+    "acres": 2560,
+    "roman_iugera_approx": 4110,
+    "change_this_round_sq_miles": 0,
+    "scope": "personal estates and holdings",
+    "measurement_basis": "historical Roman land-measure and estate precedent applied to the cumulative holdings established by prior simulation events"
   },
   "relationships": {
     "nearby-landowners": 24,
@@ -45,7 +54,7 @@
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius begins the next major part of his expedition by leaving the ravine fortress under a reliable garrison and taking the main body deeper into the territory used by the regional band. He advances through several routes at once, using scouts trained in July to compare roads, water sources, settlements and concealed approaches before committing the column. He intends to find and break the band's wider network rather than chase isolated parties, while keeping the fortress and estate road behind him as a secure line of supply.",
+  "previous_action": "Gaius Maximus Valerius personally leads the expedition farther into the country used by the regional band. He keeps the main body concentrated around his own position, continues to use the ravine fortress and forward camp as linked bases, and presses the search for the network sustaining the band. He gives his officers freedom to report what they discover without telling them what result he expects, intending to let the country and the movement of men reveal what comes next.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -56,7 +65,8 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In August 60 BCE, Valerius began the next major phase of his expedition by leaving the ravine fortress under garrison and taking the main body deeper into territory used by the regional band. Multiple routes were surveyed before the column committed to the interior. Reports and field evidence revealed a distributed network of hidden stores and a supply road connecting it to cultivated holdings. Valerius established a forward camp and began operating against the network supporting the band rather than simply pursuing isolated parties."
+    "campaign_development": "Valerius now personally leads the main expedition deeper into the regional band's country. The ravine fortress and forward camp remain linked bases, while scouting and traveler reports continue to reveal fragments of the band's wider network. A second concealed store has been located, and a difficult crossing has been prepared for the march ahead.",
+    "land_area_history": "Round 33 establishes 4.00 square miles as the measured starting footprint of Valerius's personal estates and holdings. The measurement reflects land already accumulated through prior simulation events and adds no new property. The value remains fixed unless a later event explicitly acquires, loses, transfers, or otherwise changes land."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
@@ -65,13 +75,14 @@
     "influence_factor": "1.25^(magnitude-1)",
     "this_round_special_events": 0,
     "this_round_magnitude_11_events": 0,
-    "current_round_opportunity_probability": 18,
+    "current_round_opportunity_probability": 14,
+    "consecutive_rounds_without_standard_special_event": 4,
     "last_selected_magnitude": 7,
-    "magnitude_11_chance_percent": 14.21,
+    "magnitude_11_chance_percent": 10.84,
     "magnitude_11_checks": [
-      72.4481,
-      19.3074,
-      86.5512
+      42.1187,
+      77.5402,
+      18.9321
     ]
   }
 }

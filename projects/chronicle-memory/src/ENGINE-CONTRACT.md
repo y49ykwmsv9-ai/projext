@@ -147,3 +147,13 @@ The narrative cannot create a fact that the logic layer has not already resolved
 Every generated claim that materially affects gameplay must be traceable to either a canonical source observation, deterministic calculation, prior scenario event/state, or explicitly marked uncertain inference.
 
 This turns the repository into persistent simulation memory rather than a chatbot that forgets its own fictional history every few paragraphs.
+
+## 14. Personal Holdings Land Area
+
+From Round 33 onward, scenario state includes land_area_sq_miles for the player's personal estates and holdings. This is a persistent state metric alongside the established gameplay metrics.
+
+The engine must distinguish ownership or holding area from territory visited, patrolled, occupied temporarily, influenced, or controlled militarily. Expedition movement never changes this metric by itself.
+
+Round 33 establishes the campaign's first measured baseline at 4.00 square miles for Gaius Maximus Valerius. The baseline is a retrospective measurement of holdings accumulated through prior events and therefore has a zero acquisition delta in Round 33. Historical Roman land measures and estate precedents may be used to calibrate the baseline, but they may not create property without a concrete simulation event.
+
+Future mutations must record the causal event, signed land-area delta in square miles, before value, after value, and the underlying ownership transaction or loss mechanism. Supporting conversions should retain approximately 640 acres per square mile and approximately 1,028 Roman iugera per square mile for this campaign's state representation.

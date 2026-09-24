@@ -138,3 +138,16 @@ News is scenario-scoped and uses only information available within that scenario
 ## Commitment boundary
 
 A completed round is persisted only when its round state and news files are committed together.
+
+## Personal Holdings Land-Area Metric
+
+The scenario state must carry land_area_sq_miles alongside the existing fixed metrics from Round 33 onward. It represents the estimated total area of the player's personal estates and holdings already accumulated through simulation events.
+
+Rules:
+- Round 33 establishes the initial measured value for GMV-62BCE-001 at 4.00 square miles.
+- The measurement does not itself acquire land and has a zero round delta.
+- The metric is expressed in square miles in state and round records, with acreage and approximate Roman iugera retained as supporting conversions.
+- The metric must be carried forward unchanged unless a concrete event explicitly acquires, loses, transfers, abandons, sells, confiscates, or otherwise changes land.
+- Historical precedent informs the baseline measurement, but the engine must not use historical precedent to manufacture a new acquisition.
+- Future land changes must be attributable to a specific event and included in that event's ledger/state mutation.
+- The metric applies specifically to the player's personal estates and holdings, not all territory visited, occupied, patrolled, influenced, or militarily controlled by the player's expedition.
