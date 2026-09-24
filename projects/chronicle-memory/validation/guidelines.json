@@ -29,7 +29,12 @@
     "world_pressure": true,
     "survival_and_failure": true,
     "project_isolation": true,
-    "append_only_event_memory": true
+    "append_only_event_memory": true,
+    "full_history_causal_event_logic": true,
+    "historical_event_memory": true,
+    "persistent_investment_effects": true,
+    "delayed_consequences": true,
+    "multi_round_context": true
   },
   "hard_fail": [
     "round_and_date",
@@ -43,6 +48,10 @@
     "battles_resolve_before_narration",
     "no_legacy_metric_drift",
     "news_backed_by_events",
-    "project_isolation"
+    "project_isolation",
+    "full_history_causal_event_logic",
+    "historical_event_memory",
+    "persistent_investment_effects",
+    "multi_round_context"
   ]
 }
