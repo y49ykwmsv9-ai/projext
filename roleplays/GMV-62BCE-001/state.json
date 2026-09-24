@@ -75,7 +75,7 @@
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
     "canonical_round_49": "verified",
-    "commit_check": "pending",
+    "commit_check": "verified",
     "financial_continuity_audit": {
       "status": "passed_with_historical_uncertainty_preserved",
       "candidate_estate_tax_on_recorded_profit": 135,
@@ -88,7 +88,7 @@
     "canonical_round_51": "verified",
     "canonical_round_52": "verified",
     "magnitude_11_check": "verified",
-    "canonical_round_53": "pending"
+    "canonical_round_53": "verified"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -185,8 +185,8 @@
   },
   "next_round_gate": {
     "status": "OPEN",
-    "reason": "Round 52 has been resolved and persisted.",
-    "unlocked_after_round": 52,
+    "reason": "Round 53 has been resolved and persisted.",
+    "unlocked_after_round": 53,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   },
   "character_registry": {
