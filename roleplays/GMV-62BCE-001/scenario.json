@@ -13,8 +13,8 @@
     "year": -62,
     "display": "62 BCE"
   },
-  "latest_round": 24,
-  "latest_date": "-0061-12-31",
+  "latest_round": 25,
+  "latest_date": "-0060-01-31",
   "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
   "metric_schema": "fixed-v1",
   "news_style": "period-authentic-local-newspaper",
@@ -36,17 +36,27 @@
     "settlement": "interest is not credited until the observation period ends"
   },
   "special_event_policy": {
-    "magnitude_scale": "1-10",
+    "magnitude_scale": "1-11",
+    "standard_magnitude_scale": "1-10",
     "baseline_opportunity": "12% per round",
-    "dry_spell_adjustment": "After 3 consecutive rounds without a special event, +2 percentage points; +4 after 4; +6 after 5+, capped at 18%. This is a soft probability adjustment and never guarantees an event.",
-    "rarity_rule": "Higher magnitude events are increasingly rare and require substantially stronger causal justification.",
-    "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
+    "dry_spell_adjustment": "After 3 consecutive rounds without a standard special event, +2 percentage points; +4 after 4; +6 after 5+, capped at 18%. This does not affect Magnitude 11.",
+    "rarity_rule": "Standard Magnitudes 1-10 use the inverse-Change-Index distribution. Magnitude 11 is a separate exceptional class with a freshly randomized round-specific chance.",
     "influence_factor": "1.25^(magnitude-1)",
-    "long_run_target": "Approximately one special event every 8-12 rounds on average, with substantial variance.",
-    "magnitude_probability_formula": "P(m | special event) = [1 / 1.25^(m-1)] / sum[n=1..10][1 / 1.25^(n-1)]",
-    "this_round_special_events": 0,
-    "current_round_opportunity_probability": 14,
-    "last_selected_magnitude": 6
+    "magnitude_11_change_index": 9.313225746,
+    "magnitude_11_probability_rule": "Each round samples a new Magnitude 11 chance uniformly from 0%-18%, then performs three independent checks at that sampled percentage.",
+    "magnitude_11_max_events_per_round": 3,
+    "magnitude_11_dry_spell_interaction": "None; Magnitude 11 chance is independently randomized each round.",
+    "long_run_target": "Standard special events approximately every 8-12 rounds on average; Magnitude 11 has no quota and may have long dry periods or clustered appearances.",
+    "this_round_special_events": 1,
+    "this_round_magnitude_11_events": 0,
+    "current_round_opportunity_probability": 12,
+    "last_selected_magnitude": 1,
+    "magnitude_11_chance_percent": 4.1008,
+    "magnitude_11_checks": [
+      89.218,
+      17.9923,
+      28.8334
+    ]
   },
-  "latest_player_action": "Gaius Maximus Valerius sends envoys to Roman officials offering to take over estates that are imposing substantial maintenance costs upon the state, proposes to purchase such properties at a very low price in exchange for removing the state's continuing burden, and pledges to restore them to productive use while grounding the transaction in a formal purchase from Rome."
+  "latest_player_action": "Gaius Maximus Valerius continues consolidating the enlarged estate network, oversees its first full winter production cycle, maintains the new waterways and highway route, and directs labor toward sustained agricultural and commercial output."
 }
