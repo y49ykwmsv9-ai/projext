@@ -36,9 +36,9 @@
   },
   "end_of_round_checks": {
     "required": true,
-    "special_event_resolution": "pending post-persistence verification",
-    "magnitude_11_check": "pending",
-    "commit_check": "pending",
-    "canonical_round_48": "pending"
+    "special_event_resolution": "verified",
+    "magnitude_11_check": "verified",
+    "commit_check": "verified after canonical Round 48 files persisted and re-read",
+    "canonical_round_48": "verified"
   }
 }
