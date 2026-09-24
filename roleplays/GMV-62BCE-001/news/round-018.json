@@ -1,0 +1,207 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 18,
+  "period": {
+    "start": "-0061-06-01",
+    "end": "-0061-06-30",
+    "display": "1 June 61 BCE – 30 June 61 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "special_event_policy": {
+    "magnitude_scale": "1-10",
+    "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
+    "rarity_curve": "rarity decreases as magnitude increases; high-magnitude events require substantially stronger justification than low-magnitude events.",
+    "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
+    "influence_factor": "1.25^(magnitude-1)",
+    "isolation": "Independent state, rounds, events, relationships, and news.",
+    "this_round_special_events": 0
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0061-06-03",
+      "type": "DIRECT",
+      "headline": "VALERIUS BEGINS A MONTH OF DAILY DRILL AND ESTATE PATROLS",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Soldiers",
+        "Main Estate"
+      ],
+      "article": "With the estate settled into its new routine, Valerius begins June by keeping his soldiers constantly occupied in drill and patrol. Morning exercises are conducted on foot and in formation, followed by marches along the roads linking the principal holdings. The men practice maintaining order while moving through cultivated ground and wooded approaches, where discipline matters as much as speed. Valerius remains with them rather than leaving the work entirely to subordinate officers, and the repeated exercises become the central military routine of the month. Patrols also provide a visible armed presence around the estate without turning ordinary agricultural traffic into a military encampment.",
+      "ledger": {
+        "currency": -20,
+        "readiness": 0,
+        "morale": 1,
+        "supply": 1,
+        "organization": 0,
+        "stability": 2,
+        "exhaustion": 1,
+        "intelligence": 2
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0061-06-08",
+      "type": "DIRECT",
+      "headline": "THE ROAD NETWORK IS PATROLLED FROM ESTATE TO LAKE PORT",
+      "entities": [
+        "Estate Soldiers",
+        "Main Estate",
+        "Lake Port",
+        "Commercial Road"
+      ],
+      "article": "Patrols extend along the established road between the main estate and the lake port, with smaller parties checking approaches to storehouses and crossing points. The soldiers are instructed to observe travelers and traffic without interfering with legitimate merchants using the route. Repeated movement gives the men greater familiarity with the ground, including places where carts slow, roads narrow or woodland obscures the view. Merchants using the route report seeing the patrols regularly, while estate officials receive more frequent reports from the men in the field. The road therefore becomes not only a commercial connection but a route continuously observed by the estate's own soldiers.",
+      "ledger": {
+        "currency": -15,
+        "infrastructure": 1,
+        "trade": 1,
+        "supply": 1,
+        "stability": 2,
+        "intelligence": 3,
+        "relations": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0061-06-14",
+      "type": "DIRECT",
+      "headline": "FIELD EXERCISES TEST THE SOLDIERS UNDER SUMMER CONDITIONS",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Soldiers",
+        "Agricultural Holdings"
+      ],
+      "article": "By mid-month, Valerius shifts part of the training away from the estate buildings and into the surrounding fields and rough ground. The soldiers practice marching, forming ranks, changing direction and maintaining cohesion after extended movement. Water and supply arrangements are deliberately kept with the column so that the exercise tests endurance without exhausting the stores needed for ordinary estate work. The drills are repeated under the warmer conditions of June, making the men accustomed to maintaining formation after hours on the road. Valerius's presence throughout the exercises reinforces the routine established during the earlier campaign.",
+      "ledger": {
+        "currency": -20,
+        "morale": 2,
+        "supply": 1,
+        "technology": 1,
+        "intelligence": 2,
+        "exhaustion": 1,
+        "stability": 1
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0061-19",
+      "type": "CONNECTED",
+      "headline": "PATROLS REACH THE OUTER HOLDINGS AND WINTER PASS ROAD",
+      "entities": [
+        "Estate Soldiers",
+        "Winter Pass Holding",
+        "Outer Holdings"
+      ],
+      "article": "The patrol system is extended beyond the main estate to the recently incorporated territory and the road leading toward the winter holding. Small detachments travel between the outlying farms and the principal road, reporting on the condition of tracks, bridges, stores and water points as they pass. The work gives Valerius's soldiers a clearer picture of the territory now administered as part of the estate. Local workers and households become accustomed to seeing the patrols without the disturbances associated with a campaign force moving through the country. Reports from the outer holdings are brought back to the estate at regular intervals, adding to the information already gathered by the stewards.",
+      "ledger": {
+        "currency": -20,
+        "infrastructure": 1,
+        "agriculture": 1,
+        "supply": 1,
+        "intelligence": 3,
+        "stability": 2,
+        "relations": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0061-06-23",
+      "type": "CONNECTED",
+      "headline": "COMMERCIAL TRAFFIC CONTINUES WHILE THE GARRISON TRAINS",
+      "entities": [
+        "Lake Port",
+        "Commercial Fleet",
+        "Merchants",
+        "Estate Soldiers"
+      ],
+      "article": "Commercial activity at the lake port continues while the soldiers maintain their training schedule. The presence of regular patrols around the approaches gives merchants greater confidence in moving goods between the port and the estate, and receipts for transport and storage remain steady. The soldiers do not take over the port's ordinary work, but their routine presence becomes another part of the infrastructure supporting the trade route. Estate officials continue separating military stores from commercial stocks, preventing the training program from consuming supplies intended for merchants or maintenance. The month therefore produces a modest commercial return while the military establishment remains active.",
+      "ledger": {
+        "currency": 120,
+        "trade": 3,
+        "economy": 2,
+        "supply": 1,
+        "morale": 1,
+        "stability": 1,
+        "relations": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0061-06-27",
+      "type": "WORLD",
+      "headline": "REPORTS FROM ROME CARRY NEWS OF THE CLODian AFFAIR",
+      "entities": [
+        "Roman Republic",
+        "Marcus Tullius Cicero",
+        "Publius Clodius Pulcher",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "article": "Merchants arriving from the direction of Rome bring further reports concerning the continuing political controversy surrounding Publius Clodius Pulcher. Marcus Tullius Cicero remains closely associated with the dispute in the reports reaching the countryside, while other Roman figures continue to calculate their positions around the broader political settlement of the Republic. Gnaeus Pompeius Magnus is likewise mentioned in accounts concerning the unresolved political consequences of his eastern commands and settlements. The reports are fragmentary and arrive after passing through several hands, but they give Valerius's household another indication that affairs in Rome remain unsettled. None of the reported disputes produces a direct change in the administration of Valerius's estate.",
+      "ledger": {
+        "intelligence": 2,
+        "relations": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0061-06-30",
+      "type": "WORLD",
+      "headline": "LOCAL NEWS: A MONTH OF DRILL LEAVES THE ESTATE'S SOLDIERS ON THE ROADS",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Soldiers",
+        "Main Estate",
+        "Lake Port"
+      ],
+      "article": "June closes after a month in which Valerius has spent much of his time among the soldiers, alternating field exercises with regular patrols across the estate. The men have been seen repeatedly on the roads leading from the main holding to the lake port and the newer territory beyond it. Agricultural work, commerce and maintenance have continued while the military force has remained occupied with its own routine. Reports from the patrols have also added to the estate's knowledge of roads, water points, storehouses and movement across the holdings. The month has produced no great battle or sudden change, but the soldiers are now more accustomed to operating together across the territory they have been tasked to protect.",
+      "ledger": {
+        "currency": 0
+      }
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": 120,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 2,
+    "agriculture": 1,
+    "infrastructure": 2,
+    "trade": 4,
+    "readiness": 0,
+    "morale": 4,
+    "supply": 5,
+    "organization": 0,
+    "stability": 9,
+    "legitimacy": 0,
+    "exhaustion": 5,
+    "technology": 1,
+    "intelligence": 10,
+    "relations": 3
+  },
+  "commercial_accounting": {
+    "gross_receipts": 470,
+    "operating_security_and_maintenance_costs": 350,
+    "net_public_profit": 120,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 12,
+    "public_account_change": 108,
+    "public_account_end": 1364,
+    "private_account_end": 141
+  },
+  "treasury_interest_placement": {
+    "principal": 1000,
+    "source_account": "public",
+    "destination": "currency_treasury",
+    "start_treasury": 720,
+    "qualifying_growth": 260,
+    "term": "3 months",
+    "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
+    "current_annualized_rate": 0.05,
+    "interest_realized": 0,
+    "settlement": "after the three-month observation period"
+  }
+}
