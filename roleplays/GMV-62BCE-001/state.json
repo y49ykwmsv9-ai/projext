@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 30,
-  "date": "-0060-06-30",
+  "round": 31,
+  "date": "-0060-07-31",
   "treasury": 1970,
   "wealth_accounts": {
-    "public": 1685,
-    "private": 387,
+    "public": 1865,
+    "private": 407,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 150,
-    "last_round_private_transfer": 15
+    "last_round_net_public_profit": 200,
+    "last_round_private_transfer": 20
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,7 +17,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": -10,
+    "currency": -100,
     "soldiers": 440,
     "taxation": 0,
     "economy": 100,
@@ -26,13 +26,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 88,
+    "supply": 86,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 108,
-    "technology": 50,
-    "intelligence": 372,
+    "exhaustion": 123,
+    "technology": 54,
+    "intelligence": 409,
     "relations": 100
   },
   "relationships": {
@@ -45,7 +45,7 @@
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius turns the extremely narrow ravine into a fortress connected to his main estate and publicly declares it his property, using it as a forward operating base. He does not slow the expedition or give reckless chase. Instead he scouts deliberately, sends men to identify other likely ambush sites, and prepares counter-ambushes against the regional band.",
+  "previous_action": "Gaius Maximus Valerius makes disciplined training the foundation of his command. He personally trains with the men, teaches them to read terrain and deception, rotates veterans through instruction of less experienced soldiers, and uses repeated field exercises to make obedience to the plan a product of understanding rather than fear. He intends to become the most disciplined man in his command by example, cunning and practice, not by punishments, dismissals or force.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -56,7 +56,7 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In June 60 BCE, Valerius converted the narrow ravine used by the regional band into a permanent fortified forward station publicly declared as his property and linked to his principal estate. He continued operations rather than retreating, sending scouts to identify likely ambush grounds and preparing counter-ambush positions. A small bandit scouting party was caught and driven away near one of the prepared approaches. The main force remains in the field and the regional band remains active."
+    "campaign_development": "In July 60 BCE, Valerius made disciplined training the foundation of his command. He personally trained with the men, rotated experienced soldiers through instruction, and used terrain, deception and night exercises to teach soldiers to recognize danger and adapt without relying on fear or arbitrary punishment. A successful mock ambush exercise demonstrated that the command could identify prepared killing ground before entering it. The regional band remains active and the main force remains in the field."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
@@ -65,13 +65,13 @@
     "influence_factor": "1.25^(magnitude-1)",
     "this_round_special_events": 0,
     "this_round_magnitude_11_events": 0,
-    "current_round_opportunity_probability": 12,
+    "current_round_opportunity_probability": 18,
     "last_selected_magnitude": 7,
-    "magnitude_11_chance_percent": 11.82,
+    "magnitude_11_chance_percent": 6.73,
     "magnitude_11_checks": [
-      74.2216,
-      38.4472,
-      92.0184
+      12.4061,
+      71.2384,
+      88.1052
     ]
   }
 }

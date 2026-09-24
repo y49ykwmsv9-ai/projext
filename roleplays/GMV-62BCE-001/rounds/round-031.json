@@ -1,0 +1,189 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 31,
+  "period": {
+    "start": "-0060-07-01",
+    "end": "-0060-07-31",
+    "display": "1 July 60 BCE – 31 July 60 BCE"
+  },
+  "player_action": "Gaius Maximus Valerius makes disciplined training the foundation of his command. He personally trains with the men, teaches them to read terrain and deception, rotates veterans through instruction of less experienced soldiers, and uses repeated field exercises to make obedience to the plan a product of understanding rather than fear. He intends to become the most disciplined man in his command by example, cunning and practice, not by punishments, dismissals or force.",
+  "metric_schema": "fixed-v1",
+  "special_event_selection": {
+    "standard_opportunity_probability": 18,
+    "standard_special_event_roll_percent": 54.1823,
+    "standard_special_event_selected": false,
+    "magnitude_11_chance_percent": 6.73,
+    "magnitude_11_checks": [
+      12.4061,
+      71.2384,
+      88.1052
+    ],
+    "magnitude_11_successes": 0,
+    "magnitude_11_candidates_accepted": 0,
+    "magnitude_11_events": 0
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-07-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS TRAINS AT FIRST LIGHT WITH THE MEN",
+      "article": "July opens with Valerius appearing at the first training ground before the morning watch has fully changed. He takes the same exercises expected of the soldiers, repeating shield movements, marching intervals, formation changes and rapid assembly until his own performance leaves little room for complaint. The training is conducted without threats or arbitrary punishments, and mistakes are corrected by demonstration and repetition. Men who already possess experience are asked to explain their methods to those who have less, while Valerius moves among the groups and works through the difficult movements himself. By the end of the exercise, the centurion's example has become the standard against which the rest of the command measures its own discipline.",
+      "ledger": {
+        "currency": -15,
+        "intelligence": 3,
+        "exhaustion": 2,
+        "technology": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-07-07",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VETERANS BECOME INSTRUCTORS IN A ROTATING SCHOOL OF WAR",
+      "article": "Valerius establishes a rotating system in which experienced soldiers take turns teaching smaller groups instead of leaving training entirely to a handful of officers. One group practices formation changes while another studies sentry work, road movement and the recognition of ground that could conceal an ambush. Valerius joins each cycle rather than reserving himself for demonstrations before the assembled force. The arrangement gives the soldiers responsibility for transmitting knowledge while allowing him to observe which lessons survive when the instructor changes. The result is a command increasingly able to reproduce its standards without depending upon a single voice.",
+      "ledger": {
+        "currency": -10,
+        "intelligence": 4,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-07-12",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE MEN ARE TAUGHT TO SEE AN AMBUSH BEFORE IT IS SPRUNG",
+      "article": "Training turns from formation work to the problem that has already cost Valerius's command men in the ravine. Small parties are sent ahead over ground marked with false signs, concealed observers and deliberately misleading tracks. The soldiers must identify which paths offer concealment, which slopes restrict movement and which apparently empty positions would allow an enemy to watch the road. Valerius repeatedly changes the exercise after the men begin to master it, forcing them to reason from incomplete information rather than memorize a single pattern. The lessons are recorded by the officers so that the exercise can be repeated under different conditions during the expedition.",
+      "ledger": {
+        "currency": -20,
+        "supply": -1,
+        "intelligence": 7,
+        "technology": 2,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-07-17",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "COMMANDERS BEGIN COPYING VALERIUS'S METHOD OF DISCIPLINE",
+      "article": "The training system spreads beyond the exercises directly led by Valerius. Junior commanders begin requiring their men to explain why a formation is being changed, where a lookout should stand and what ground should be avoided before the movement begins. Reports from the companies show fewer repeated mistakes during drills, not because men are threatened into silence but because the reasons behind the orders have become part of the instruction. Valerius continues to participate in the exercises rather than presenting himself as exempt from the standard. Officers increasingly describe the command's discipline as a learned habit, built through practice and example.",
+      "ledger": {
+        "currency": -15,
+        "stability": 0,
+        "legitimacy": 0,
+        "intelligence": 4,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-07-21",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "NIGHT MARCHES TEST CUNNING AS WELL AS ENDURANCE",
+      "article": "A series of night exercises sends small groups along unfamiliar approaches with deliberately incomplete instructions. The men must use landmarks, sound, messenger discipline and agreed signals to reach positions without exposing the larger body. Valerius takes part in the movements and deliberately accepts the same uncertainty imposed on the soldiers. At several points he changes the expected route after learning that an approach has become too obvious, forcing the men to adapt rather than follow a memorized path. The exercises leave the command tired, but the officers now possess a practical method for moving disciplined troops through country where an enemy may be watching.",
+      "ledger": {
+        "currency": -20,
+        "supply": -2,
+        "intelligence": 8,
+        "technology": 1,
+        "exhaustion": 4
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-07-25",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "A MOCK AMBUSH IS DISCOVERED BEFORE THE COLUMN ENTERS THE KILLING GROUND",
+      "article": "The final field exercise of the month places a concealed training party across a route chosen to resemble the approaches used by the regional band. Scouts identify the signs early enough for the main column to halt outside the prepared ground rather than marching into it. Valerius allows the scouts to explain what they saw before confirming their judgment, turning the exercise into a lesson for the entire command. The column then approaches by another route and surrounds the training position without a disorderly rush. The exercise ends with the soldiers reviewing each decision together, and several of the men who had previously relied heavily on officers begin explaining the terrain to one another without prompting.",
+      "ledger": {
+        "currency": -10,
+        "supply": 1,
+        "intelligence": 7,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-07-28",
+      "type": "WORLD",
+      "entities": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "headline": "ROME'S POLITICAL NEWS REACHES THE FORWARD STATION",
+      "article": "Reports from Rome continue to arrive through merchants, messengers and men traveling between estates and the capital. Caesar's efforts to shape his political position remain closely watched, while Cicero continues to participate in public disputes and Pompey's standing remains a matter of interest among Roman elites. None of these reports grants Valerius a new office or command, and no direct contact with the men in Rome is recorded. The news is nevertheless preserved by his officers because changes in Roman politics can affect the movement of money, men and patronage far beyond the capital. Valerius's attention remains fixed on the expedition, but his information network continues to keep the command informed of events elsewhere.",
+      "ledger": {
+        "intelligence": 4
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0060-07-31",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL ROUNDUP: DISCIPLINE BECOMES A PRACTICED HABIT",
+      "article": "July closes with the expedition still in the field and the ravine fortress continuing to anchor its operations. Valerius has spent the month training beside his men, while veterans and junior commanders have been made responsible for teaching the same methods to others. Repeated exercises in terrain reading, deception, night movement and ambush recognition have given the soldiers practical tests rather than a single set of orders to memorize. The command has not been disciplined through dismissals or fear, but through repeated practice and an expectation that its commander will meet the same standard he asks of everyone else. The regional band remains active, and the knowledge gained during the month now travels with the column as it prepares for further operations.",
+      "ledger": {}
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": -90,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 0,
+    "infrastructure": 0,
+    "trade": 0,
+    "readiness": 0,
+    "morale": 0,
+    "supply": -2,
+    "organization": 0,
+    "stability": 0,
+    "legitimacy": 0,
+    "exhaustion": 15,
+    "technology": 4,
+    "intelligence": 37,
+    "relations": 0
+  },
+  "commercial_accounting": {
+    "gross_receipts": 520,
+    "operating_security_and_maintenance_costs": 320,
+    "acquisition_and_transition_costs": 0,
+    "net_public_profit": 200,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 20,
+    "public_account_start": 1685,
+    "public_account_end": 1865,
+    "private_account_start": 387,
+    "private_account_end": 407,
+    "public_account_change": 180
+  },
+  "treasury_interest_placement": {
+    "principal": 0,
+    "status": "settled",
+    "note": "No new treasury placement initiated; prior placement settled in Round 22."
+  }
+}
