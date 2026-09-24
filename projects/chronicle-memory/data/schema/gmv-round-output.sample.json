@@ -1,0 +1,118 @@
+{
+  "schema_version": "gmv-round-output-sample-v1",
+  "description": "Player-facing GMV round display contract. Persistence remains gmv-round-v2.",
+  "round": 12,
+  "character": "Gaius Maximus Valerius",
+  "date_range": {
+    "start": "-0062-02-01",
+    "end": "-0062-02-28"
+  },
+  "events": [
+    {
+      "event_number": 1,
+      "date": "-0062-02-03",
+      "event_type": "Intelligence",
+      "headline": "VALERIUS RECEIVES WORD FROM THE FRONTIER",
+      "involved_parties_entities": [
+        "Gaius Maximus Valerius",
+        "Roman scouts",
+        "local travelers"
+      ],
+      "article": "A substantial period-authentic news account belongs here. It should describe the resolved event, identify the involved parties and place, explain what information reached Valerius, and report consequences without exposing internal simulation calculations.",
+      "ai_ledger": [
+        {
+          "metric": "Intelligence",
+          "before": 81,
+          "delta": 4,
+          "after": 85,
+          "unit": "points",
+          "reason": "New actionable intelligence was confirmed.",
+          "source_event_id": "GMV-62BCE-001-R12-E01",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ],
+  "special_event": null,
+  "running_total": {
+    "Population": 0,
+    "Currency": 0,
+    "Soldiers": 0,
+    "Taxation": 0,
+    "Economy": 0,
+    "Agriculture": 0,
+    "Infrastructure": 0,
+    "Trade": 0,
+    "Readiness": 0,
+    "Morale": 0,
+    "Supply": 0,
+    "Organization": 0,
+    "Stability": 0,
+    "Legitimacy": 0,
+    "Exhaustion": 0,
+    "Technology": 0,
+    "Intelligence": 4,
+    "Relations": 0,
+    "Land Area": 0
+  },
+  "round_end_state": {
+    "population": 119,
+    "currency": 775,
+    "soldiers": 78,
+    "taxation": 0,
+    "economy": 85,
+    "agriculture": 56,
+    "infrastructure": 85,
+    "trade": 82,
+    "readiness": 94,
+    "morale": 71,
+    "supply": 74,
+    "organization": 100,
+    "stability": 74,
+    "legitimacy": 76,
+    "exhaustion": 13,
+    "technology": 27,
+    "intelligence": 85,
+    "relations": 100,
+    "land_area": {
+      "value": 4,
+      "unit": "square_miles"
+    },
+    "accounting": {
+      "public_account": {
+        "value": 1842,
+        "unit": "currency_units"
+      },
+      "private_account": {
+        "value": 83,
+        "unit": "currency_units"
+      },
+      "private_transfer_rate": 0.1,
+      "last_round_net_public_commercial_profit": {
+        "value": 130,
+        "unit": "currency_units"
+      },
+      "last_round_private_transfer": {
+        "value": 13,
+        "unit": "currency_units"
+      },
+      "gross_receipts": {
+        "value": 0,
+        "unit": "currency_units"
+      },
+      "operating_security_maintenance": {
+        "value": 0,
+        "unit": "currency_units"
+      },
+      "investment_principal": {
+        "value": 0,
+        "unit": "currency_units"
+      },
+      "realized_investment_returns": {
+        "value": 0,
+        "unit": "currency_units"
+      }
+    }
+  },
+  "end_of_round": "-0062-02-28"
+}
