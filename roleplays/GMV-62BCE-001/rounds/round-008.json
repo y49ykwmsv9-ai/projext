@@ -1,25 +1,152 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 8,
   "period": {
     "start": "-0062-08-01",
     "end": "-0062-08-31"
   },
-  "player_action": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
-  "running_total": {
-    "currency": -1200,
-    "population": 8,
-    "economy": 5,
-    "infrastructure": 8,
-    "trade": 10,
-    "readiness": 4,
-    "morale": 1,
-    "supply": 4,
-    "organization": 2,
-    "stability": 1,
-    "legitimacy": 2,
-    "technology": 1,
-    "intelligence": 2,
-    "relations": 6
+  "action": {
+    "action_id": "GMV-62BCE-001-R008-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
+    "components": []
+  },
+  "historical_context": null,
+  "events": [],
+  "round_ledger": {
+    "currency": {
+      "before": null,
+      "delta": -1200,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "population": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 10,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 6,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
+  },
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-unspecified",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-008.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 8,
+    "period": {
+      "start": "-0062-08-01",
+      "end": "-0062-08-31"
+    },
+    "player_action": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
+    "running_total": {
+      "currency": -1200,
+      "population": 8,
+      "economy": 5,
+      "infrastructure": 8,
+      "trade": 10,
+      "readiness": 4,
+      "morale": 1,
+      "supply": 4,
+      "organization": 2,
+      "stability": 1,
+      "legitimacy": 2,
+      "technology": 1,
+      "intelligence": 2,
+      "relations": 6
+    }
   }
 }
