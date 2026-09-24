@@ -4,153 +4,98 @@
 
 Special events are deliberately rare, unusually consequential developments. They should occur often enough to make the world feel capable of producing exceptional turns, but never become a routine event slot or a guaranteed reward for advancing time.
 
-This contract supersedes any older special-event frequency wording while preserving the existing magnitude system and fixed metric schema.
+This contract supersedes older special-event frequency wording while preserving the fixed metric schema and the established exponential magnitude influence formula.
 
 ## 1. Special-event opportunity rate
 
-For each completed time-advance round, the engine performs a special-event eligibility check after ordinary world events have been resolved.
+Baseline: **12% per round**.
 
-The baseline probability of a special-event opportunity is **12% per round**.
-
-This is an opportunity, not a requirement. A round may produce no special event even when the check succeeds if no candidate event meets the plausibility threshold.
-
-The previous rarity should therefore be relaxed modestly, not eliminated. The engine must never manufacture a special event merely to satisfy a target frequency.
-
-## 2. Dry-spell compensation
-
-To prevent long stretches in which special events effectively disappear, consecutive rounds without a special event apply a small temporary increase:
-
+Dry-spell adjustment:
 - 0-2 consecutive no-special rounds: +0 percentage points.
 - 3 consecutive no-special rounds: +2 points.
 - 4 consecutive no-special rounds: +4 points.
 - 5+ consecutive no-special rounds: +6 points maximum.
 
-The resulting opportunity probability is capped at **18%**.
+Overall opportunity probability is capped at **18%**.
 
-The bonus resets when a special event occurs.
+This is an opportunity, not a guarantee. A successful opportunity check still requires a plausible candidate.
 
-This is a soft correction for prolonged absence, not a pity timer. It does not force an event.
+## 2. Magnitude probability distribution
 
-## 3. Candidate quality gate
+Once a special-event opportunity exists and a candidate passes the plausibility gate, magnitude is selected using the **same exponential function that determines the Change Index**.
 
-A special event is eligible only when the underlying event is genuinely more consequential, unusual, or narratively significant than an ordinary DIRECT, CONNECTED, WORLD, or SURPRISE event.
+**Change Index(m) = 1.25^(m - 1)**
 
-Valid candidates can include:
+Magnitude weighting is the inverse of that Change Index:
 
-- major battles;
-- decisive discoveries;
-- severe but plausible disasters;
-- major political or diplomatic shocks;
-- unusually consequential commercial developments;
-- important territorial changes;
-- exceptional military breakthroughs or reversals;
-- rare opportunities created by accumulated player actions;
-- major developments elsewhere in the world that plausibly reach the player.
+**Raw Magnitude Weight(m) = 1 / 1.25^(m - 1)**
 
-Routine patrols, ordinary trade receipts, normal political rumors, small construction progress, and ordinary administrative changes are not special events merely because they are useful to the player.
+The ten raw weights are normalized so the conditional magnitude probabilities sum to 100%:
 
-## 4. Magnitude distribution
+**P(m | special event) = [1 / 1.25^(m - 1)] / sum[n=1..10] [1 / 1.25^(n - 1)]**
 
-Every special event retains the existing **Magnitude 1-10** system.
+Current distribution:
 
-Magnitude controls rarity and influence:
+| Magnitude | Change Index | Chance if special event occurs | Unconditional chance at 12% opportunity |
+|---:|---:|---:|---:|
+| 1 | 1.000x | 22.406% | 2.689% |
+| 2 | 1.250x | 17.925% | 2.151% |
+| 3 | 1.563x | 14.340% | 1.721% |
+| 4 | 1.953x | 11.472% | 1.377% |
+| 5 | 2.441x | 9.177% | 1.101% |
+| 6 | 3.052x | 7.342% | 0.881% |
+| 7 | 3.815x | 5.874% | 0.705% |
+| 8 | 4.768x | 4.699% | 0.564% |
+| 9 | 5.960x | 3.759% | 0.451% |
+| 10 | 7.451x | 3.007% | 0.361% |
 
-- **1-2:** uncommon exceptional events;
-- **3-4:** distinctly rare events;
-- **5-6:** very rare, major developments;
-- **7-8:** exceptional events requiring strong causal justification;
-- **9:** extraordinary events with substantial historical/simulation significance;
-- **10:** extreme outliers reserved for events of exceptional consequence.
+The unconditional column changes proportionally with the actual round opportunity probability. At 18%, use the same conditional distribution multiplied by 0.18.
 
-Higher magnitude remains exponentially more influential under the established factor:
+The distribution controls prior probability, not plausibility. A magnitude 10 event still requires exceptionally strong justification.
 
-**Influence factor = 1.25^(magnitude - 1)**
+## 3. Influence
 
-The magnitude is never increased simply because the player has gone several rounds without a special event.
+Magnitude affects state influence through the established Change Index:
 
-## 5. Magnitude selection
+**Change Index = 1.25^(magnitude - 1)**
 
-The opportunity check and magnitude check are separate.
+This scales a causally justified base effect. It does not automatically change every metric by that factor.
 
-First determine whether a special event is warranted. Only then select its magnitude based on:
+## 4. Selection order
 
-- causal strength;
-- accumulated world conditions;
-- player/world impact;
-- geographic reach;
-- historical plausibility;
-- number and importance of actors involved;
-- consequences already established in scenario memory.
+1. Calculate the round's special-event opportunity probability.
+2. Determine whether a plausible candidate exists.
+3. If eligible, select magnitude using the normalized inverse-Change-Index distribution.
+4. Apply candidate-specific plausibility constraints. A selected magnitude may be rejected or reduced if the event cannot credibly support that magnitude.
+5. Calculate actual metric effects from causal base effects and Change Index.
+6. Persist the selected event, magnitude, effects, and resulting state.
 
-Low magnitudes should account for most special events. Magnitudes 7-10 remain substantially rarer than magnitudes 1-6.
+No dry-spell rule directly selects magnitude.
 
-## 6. No guaranteed Round 18 event
+## 5. No quota
 
-Changing the frequency rules does **not** require rewriting Round 18 with a special event.
+Never use language such as "a special event is due." Clusters and dry periods are both valid. The dry-spell adjustment only changes opportunity probability.
 
-When an existing round is regenerated under the new contract, the engine may produce:
+## 6. Event category
 
-- no special event;
-- one low-magnitude special event;
-- or, when strongly justified, a higher-magnitude special event.
+SPECIAL is a significance classification, not a relationship category.
 
-The historical and causal evidence for the round determines the result.
+A special event must also retain its ordinary relationship category: DIRECT, CONNECTED, WORLD, or SURPRISE.
 
-## 7. No special-event quota
+Record `type` as the relationship category, plus `special_event: true`, `magnitude: 1-10`, and `change_index`.
 
-Never use language such as "a special event is due" as a reason to generate one.
+## 7. Narrative requirements
 
-The absence of special events across several rounds is itself valid world behavior. The dry-spell compensation only prevents the probability from becoming effectively negligible over long periods.
+Special events receive substantially more detailed reporting than ordinary events. Major battles require standalone multi-paragraph accounts, followed by separate aftermath where appropriate.
 
-## 8. Interaction with event categories
+Public news must never mention probability rolls, dry-spell compensation, magnitude-selection mechanics, Change Index calculations, hidden causal scoring, or engine reasoning.
 
-A special event is a significance classification, not a replacement for ordinary event causality.
+## 8. Continuity
 
-A special event may also be:
+Once committed, the selected magnitude, event identity, causal basis, effects, and resulting state mutations become persistent scenario facts.
 
-- DIRECT;
-- CONNECTED;
-- WORLD;
-- SURPRISE.
+## 9. Frequency target
 
-The event's category must describe its relationship to the player/world. **SPECIAL** describes exceptional significance.
+The intended long-run behavior remains approximately one special event every 8-12 rounds on average, with substantial variance. This is a target for overall feel, not a scheduling rule.
 
-Therefore, when the news schema permits both fields, record both:
-
-- relationship category;
-- special_event: true;
-- magnitude: 1-10.
-
-Do not turn every SURPRISE into a special event.
-
-## 9. Narrative requirements
-
-Special events must receive substantially more detailed reporting than ordinary events.
-
-Major battles require a standalone multi-paragraph account, followed by a separate aftermath where appropriate. Other high-magnitude events should receive proportionally expanded reporting.
-
-The public article must never mention:
-
-- probability rolls;
-- eligibility checks;
-- dry-spell compensation;
-- magnitude-selection mechanics;
-- influence formulas;
-- hidden causal scoring;
-- engine reasoning.
-
-Those belong to the logic layer only.
-
-## 10. Continuity and persistence
-
-The selected magnitude, special-event identity, causal basis, effects, and resulting state mutations are persistent scenario facts once committed.
-
-A later round must not silently downgrade, erase, or reinterpret a committed special event merely because the real historical timeline would have proceeded differently.
-
-## 11. Frequency target
-
-The intended long-run behavior is approximately **one special event every 8-12 rounds on average**, with substantial variance.
-
-This is a target for overall feel, not a scheduling rule. Clusters and dry periods are both valid.
-
-Magnitude 1-4 events should make up most observed special events. High-magnitude events must remain uncommon even when the overall special-event frequency increases.
+Magnitude 1-4 should make up most special events. Magnitudes 7-10 remain substantially rarer.

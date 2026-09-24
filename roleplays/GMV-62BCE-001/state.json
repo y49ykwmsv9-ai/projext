@@ -68,6 +68,8 @@
     "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
     "influence_rule": "Event influence increases exponentially with magnitude.",
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 1
+    "this_round_special_events": 1,
+    "current_round_opportunity_probability": 0.12,
+    "last_selected_magnitude": 4
   }
 }

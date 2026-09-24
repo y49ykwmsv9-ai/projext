@@ -15,19 +15,26 @@
     "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
     "influence_factor": "1.25^(magnitude-1)",
     "isolation": "Independent state, rounds, events, relationships, and news.",
-    "this_round_special_events": 1
+    "this_round_special_events": 1,
+    "magnitude_probability_rule": "Conditional magnitude probability is proportional to 1 / Change Index(m), normalized across magnitudes 1-10.",
+    "current_round_opportunity_probability": 0.12,
+    "current_round_magnitude_probability": {
+      "magnitude": 4,
+      "conditional_probability": 0.11472,
+      "unconditional_probability": 0.0137664
+    }
   },
   "events": [
     {
       "event": 1,
       "date": "-0061-06-03",
       "type": "DIRECT",
-      "headline": "VALERIUS BEGINS A MONTH OF DAILY DRILL AND ESTATE PATROLS",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Main Estate"
       ],
+      "headline": "VALERIUS BEGINS A MONTH OF DAILY DRILL AND ESTATE PATROLS",
       "article": "With the estate settled into its new routine, Valerius begins June by keeping his soldiers constantly occupied in drill and patrol. Morning exercises are conducted on foot and in formation, followed by marches along the roads linking the principal holdings. The men practice maintaining order while moving through cultivated ground and wooded approaches, where discipline matters as much as speed. Valerius remains with them rather than leaving the work entirely to subordinate officers, and the repeated exercises become the central military routine of the month. Patrols also provide a visible armed presence around the estate without turning ordinary agricultural traffic into a military encampment.",
       "ledger": {
         "currency": -20,
@@ -42,13 +49,13 @@
       "event": 2,
       "date": "-0061-06-08",
       "type": "DIRECT",
-      "headline": "THE ROAD NETWORK IS PATROLLED FROM ESTATE TO LAKE PORT",
       "entities": [
         "Estate Soldiers",
         "Main Estate",
         "Lake Port",
         "Commercial Road"
       ],
+      "headline": "THE ROAD NETWORK IS PATROLLED FROM ESTATE TO LAKE PORT",
       "article": "Patrols extend along the established road between the main estate and the lake port, with smaller parties checking approaches to storehouses and crossing points. The soldiers are instructed to observe travelers and traffic without interfering with legitimate merchants using the route. Repeated movement gives the men greater familiarity with the ground, including places where carts slow, roads narrow or woodland obscures the view. Merchants using the route report seeing the patrols regularly, while estate officials receive more frequent reports from the men in the field. The road therefore becomes not only a commercial connection but a route continuously observed by the estate's own soldiers.",
       "ledger": {
         "currency": -15,
@@ -65,12 +72,12 @@
       "event": 3,
       "date": "-0061-06-14",
       "type": "DIRECT",
-      "headline": "FIELD EXERCISES TEST THE SOLDIERS UNDER SUMMER CONDITIONS",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Agricultural Holdings"
       ],
+      "headline": "FIELD EXERCISES TEST THE SOLDIERS UNDER SUMMER CONDITIONS",
       "article": "By mid-month, Valerius shifts part of the training away from the estate buildings and into the surrounding fields and rough ground. The soldiers practice marching, forming ranks, changing direction and maintaining cohesion after extended movement. Water and supply arrangements are deliberately kept with the column so that the exercise tests endurance without exhausting the stores needed for ordinary estate work. The drills are repeated under the warmer conditions of June, making the men accustomed to maintaining formation after hours on the road. Valerius's presence throughout the exercises reinforces the routine established during the earlier campaign.",
       "ledger": {
         "currency": -20,
@@ -86,12 +93,12 @@
       "event": 4,
       "date": "-0061-06-19",
       "type": "CONNECTED",
-      "headline": "PATROLS REACH THE OUTER HOLDINGS AND WINTER PASS ROAD",
       "entities": [
         "Estate Soldiers",
         "Winter Pass Holding",
         "Outer Holdings"
       ],
+      "headline": "PATROLS REACH THE OUTER HOLDINGS AND WINTER PASS ROAD",
       "article": "The patrol system is extended beyond the main estate to the recently incorporated territory and the road leading toward the winter holding. Small detachments travel between the outlying farms and the principal road, reporting on the condition of tracks, bridges, stores and water points as they pass. The work gives Valerius's soldiers a clearer picture of the territory now administered as part of the estate. Local workers and households become accustomed to seeing the patrols without the disturbances associated with a campaign force moving through the country. Reports from the outer holdings are brought back to the estate at regular intervals, adding to the information already gathered by the stewards.",
       "ledger": {
         "currency": -20,
@@ -107,8 +114,7 @@
     {
       "event": 5,
       "date": "-0061-06-21",
-      "type": "SPECIAL",
-      "headline": "FIRE BREAKS OUT AT THE LAKE PORT AS PATROLS RUSH TO CONTAIN IT",
+      "type": "CONNECTED",
       "entities": [
         "Gaius Maximus Valerius",
         "Lake Port",
@@ -118,7 +124,8 @@
       ],
       "special_event": true,
       "magnitude": 4,
-      "influence_factor": 1.953125,
+      "change_index": 1.953125,
+      "headline": "FIRE BREAKS OUT AT THE LAKE PORT AS PATROLS RUSH TO CONTAIN IT",
       "article": "A fire breaks out among the storehouses beside the lake port in the third week of June, sending smoke across the water and drawing men from the surrounding roads toward the quay. The first reports describe flames taking hold near stored commercial goods, with wind carrying sparks toward adjoining sheds and the moorings. Valerius's patrols reach the port while the fire is still spreading, and the soldiers join boatmen, laborers and merchants in clearing the approaches and moving exposed cargo away from the flames. Several stores are lost before the fire is brought under control, while the principal quay and the greater part of the commercial fleet remain usable. The sudden destruction interrupts ordinary traffic and forces the estate to spend heavily on clearing the damaged structures and securing the remaining stores. Merchants who witnessed the response later report that the port was saved from a much wider loss, though confidence in the affected warehouses is shaken for the remainder of the month. The incident leaves the estate facing an unexpected repair burden at precisely the point when its soldiers had been occupied with the summer patrol cycle.",
       "ledger": {
         "currency": -70,
@@ -138,13 +145,13 @@
       "event": 6,
       "date": "-0061-06-23",
       "type": "CONNECTED",
-      "headline": "COMMERCIAL TRAFFIC CONTINUES WHILE THE GARRISON TRAINS",
       "entities": [
         "Lake Port",
         "Commercial Fleet",
         "Merchants",
         "Estate Soldiers"
       ],
+      "headline": "COMMERCIAL TRAFFIC CONTINUES WHILE THE GARRISON TRAINS",
       "article": "Despite the damage at the lake port earlier in the week, commercial activity resumes on a reduced scale while repairs begin. The presence of regular patrols around the approaches helps keep movement orderly as merchants inspect surviving stores and arrange alternate loading points. Estate officials continue separating military stores from commercial stocks, preventing the training program from consuming supplies intended for ordinary trade or maintenance. The surviving boats remain in service, and receipts continue to arrive even though the damaged warehouses cannot operate at their previous pace. The port therefore remains active, but the month's commercial accounts will carry the cost of the fire.",
       "ledger": {
         "currency": 120,
@@ -161,13 +168,13 @@
       "event": 7,
       "date": "-0061-06-27",
       "type": "WORLD",
-      "headline": "REPORTS FROM ROME CARRY NEWS OF THE CLODian AFFAIR",
       "entities": [
         "Roman Republic",
         "Marcus Tullius Cicero",
         "Publius Clodius Pulcher",
         "Gnaeus Pompeius Magnus"
       ],
+      "headline": "REPORTS FROM ROME CARRY NEWS OF THE CLODian AFFAIR",
       "article": "Merchants arriving from the direction of Rome bring further reports concerning the continuing political controversy surrounding Publius Clodius Pulcher. Marcus Tullius Cicero remains closely associated with the dispute in the reports reaching the countryside, while other Roman figures continue to calculate their positions around the broader political settlement of the Republic. Gnaeus Pompeius Magnus is likewise mentioned in accounts concerning the unresolved political consequences of his eastern commands and settlements. The reports are fragmentary and arrive after passing through several hands, but they give Valerius's household another indication that affairs in Rome remain unsettled. None of the reported disputes produces a direct change in the administration of Valerius's estate.",
       "ledger": {
         "intelligence": 2,
@@ -178,13 +185,13 @@
       "event": 8,
       "date": "-0061-06-30",
       "type": "WORLD",
-      "headline": "LOCAL NEWS: A MONTH OF DRILL, PATROLS AND FIRE LEAVES THE ESTATE ON ALERT",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Main Estate",
         "Lake Port"
       ],
+      "headline": "LOCAL NEWS: A MONTH OF DRILL, PATROLS AND FIRE LEAVES THE ESTATE ON ALERT",
       "article": "June closes after a month in which Valerius has spent much of his time among the soldiers, alternating field exercises with regular patrols across the estate. The men have been seen repeatedly on the roads leading from the main holding to the lake port and the newer territory beyond it. The fire at the port has added an unexpected interruption to the month's routine, damaging stores and forcing repairs while the soldiers helped contain the loss. Agricultural work and the wider estate administration have continued despite the disruption, and patrol reports have added to the household's knowledge of roads, water points and movement across the holdings. The soldiers finish the month more accustomed to operating together across the territory, while the lake port enters July with repairs and commercial confidence still to recover.",
       "ledger": {
         "currency": 0
