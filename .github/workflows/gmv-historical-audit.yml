@@ -1,0 +1,15 @@
+name: GMV Historical Audit
+on:
+  push:
+    paths:
+      - 'roleplays/GMV-62BCE-001/**'
+      - 'projects/chronicle-memory/validation/**'
+      - '.github/workflows/gmv-historical-audit.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run canonical GMV audit
+        run: node projects/chronicle-memory/validation/validate-gmv.js --round 48
