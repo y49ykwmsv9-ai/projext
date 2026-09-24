@@ -1,31 +1,31 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 21,
-  "date": "-0061-09-30",
-  "treasury": 500,
+  "round": 22,
+  "date": "-0061-10-31",
+  "treasury": 2040,
   "wealth_accounts": {
-    "public": 526,
-    "private": 188,
+    "public": 436,
+    "private": 216,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 220,
-    "last_round_private_transfer": 22
+    "last_round_net_public_profit": 280,
+    "last_round_private_transfer": 28
   },
   "treasury_interest_placement": {
     "principal": 1000,
     "source_account": "public",
     "destination": "currency_treasury",
     "start_treasury": 1745,
-    "qualifying_growth": 170,
+    "qualifying_growth": 450,
     "term": "3 months",
     "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
-    "current_annualized_rate": 0.045,
-    "interest_realized": 0,
-    "settlement": "after the three-month observation period"
+    "current_annualized_rate": 0.06,
+    "interest_realized": 15,
+    "settlement": "completed after the three-month observation period"
   },
   "metrics": {
-    "population": 119,
-    "currency": 500,
-    "soldiers": 383,
+    "population": 194,
+    "currency": 410,
+    "soldiers": 533,
     "taxation": 0,
     "economy": 100,
     "agriculture": 62,
@@ -36,10 +36,10 @@
     "supply": 97,
     "organization": 100,
     "stability": 100,
-    "legitimacy": 87,
-    "exhaustion": 46,
+    "legitimacy": 91,
+    "exhaustion": 48,
     "technology": 40,
-    "intelligence": 182,
+    "intelligence": 197,
     "relations": 100
   },
   "relationships": {
@@ -51,7 +51,7 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius continues to organize his estates' finances and invests in diversified strategic debt obligations tied to productive commerce, while refusing to profit from distressed sellers or predatory acquisitions associated in Roman discussion with the methods attributed to Crassus.",
+  "previous_action": "Gaius Maximus Valerius organizes his funds as efficiently as possible before the final inspection of the three-month treasury placement, protects operating reserves, and continues recruiting men on demonstrated merit by offering shelter, food and personal responsibility in return for defined service.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -62,13 +62,13 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "During September, Valerius consolidated the financial administration of his estates, separated operating and private reserves, committed three hundred currency to diversified productive debt obligations, and established a strict policy against acquiring property or obligations merely because another owner was under severe financial pressure."
+    "campaign_development": "During October, Valerius completed the three-month treasury inspection, realized fifteen currency of interest at a six percent annualized rate, reorganized liquid reserves, and admitted seventy-five men through merit-based recruitment under defined shelter-and-service terms."
   },
   "special_event_policy": {
     "magnitude_scale": "1-10",
     "influence_factor": "1.25^(magnitude-1)",
     "this_round_special_events": 0,
-    "current_round_opportunity_probability": 0.12,
+    "current_round_opportunity_probability": 12,
     "last_selected_magnitude": 6
   }
 }
