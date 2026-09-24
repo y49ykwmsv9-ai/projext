@@ -16,6 +16,11 @@ The repository is a multi-project workspace. The root application and every game
 
 ## Current projects
 
+### ROLEPLAY PROJECTS — `projects/chronicle-memory/`
+
+> **Do not mix this project with the other games or documentary projects.** This is the dedicated roleplay/simulation area. The `GMV-001` Gaius Maximus Valerius campaign belongs here. When searching for or modifying roleplay rounds, events, directives, decisions, or campaign state, start here and verify the explicit campaign ID before using a record.
+
+
 | Project ID | Location | Role |
 |---|---|---|
 | `worldforge` | repository root | Primary grand-strategy engine/application |
