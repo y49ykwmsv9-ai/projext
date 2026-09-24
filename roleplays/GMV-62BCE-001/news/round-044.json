@@ -1,0 +1,150 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 44,
+  "period": {
+    "start": "-0060-08-01",
+    "end": "-0060-08-31",
+    "display": "1 August 60 BCE – 31 August 60 BCE"
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R044-E001",
+      "date": "-0060-08-03",
+      "type": "direct",
+      "headline": "VALERIUS ORDERS A SMALL TAX TO BE LEVIED ON INCOME, NOT EXISTENCE",
+      "article": "At the beginning of August, Valerius announces a new fiscal rule for the people whose livelihoods are tied to his estates. Rather than imposing a fixed payment on every household, the estate will collect a small three-percent charge against recorded personal income. Those with little or no income therefore face little or no burden, while those who earn more contribute proportionally more to the upkeep of the estate. Valerius instructs his stewards that the assessment is to remain small enough that ordinary workers are not driven into debt merely to satisfy it. The purpose, he says, is to create a dependable contribution from prosperity rather than a punishment for poverty. The order marks the first permanent tax mechanism attached directly to the administration of Valerius's holdings.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius estate",
+        "estate households"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "taxation",
+          "before": 0,
+          "delta": 3,
+          "after": 3,
+          "unit": "index points; 3% income assessment",
+          "reason": "A uniform low percentage of personal income is introduced as the estate's standing tax rate.",
+          "source_event_id": "GMV-62BCE-001-R044-E001",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R044-E002",
+      "date": "-0060-08-08",
+      "type": "connected",
+      "headline": "STEWARDS BEGIN RECORDING INCOME SO THE NEW TAX CAN BE KEPT PROPORTIONAL",
+      "article": "Estate stewards spend the first week of the new system establishing simple records of wages, sales proceeds, rents, and other ordinary income. The purpose is not to value every possession a person owns, but to determine what each household actually earned during the assessment period. Workers and smallholders are given a clearer explanation of what counts as income and what does not, reducing the opportunity for arbitrary demands by individual collectors. The records also allow the estate to distinguish a prosperous month from a poor one without changing the three-percent rate itself. Valerius orders the stewards to keep collections predictable rather than extracting whatever amount seems convenient. The system begins to tie the estate's permanent revenue to the productive activity of the people living and working within it.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius estate",
+        "estate households"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": 100,
+          "delta": 0,
+          "after": 100,
+          "unit": "points",
+          "reason": "The new collection process is organized without changing the already-capped stability metric.",
+          "source_event_id": "GMV-62BCE-001-R044-E002",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R044-E003",
+      "date": "-0060-08-14",
+      "type": "direct",
+      "headline": "THE FIRST COLLECTIONS ARE SMALL ENOUGH TO BE FELT, BUT NOT TO DISRUPT DAILY WORK",
+      "article": "By mid-month, the first assessments are collected under the new rule. The amounts differ from household to household because the levy follows income rather than imposing the same charge on everyone. Agricultural laborers with modest earnings contribute only small sums, while households receiving larger proceeds contribute more. The stewards report that the collections have not required the abandonment of ordinary work or the sale of productive goods. Valerius uses the first receipts to demonstrate that the tax is intended to support the estate as a continuing institution rather than finance a sudden expansion of spending. The result is a modest but repeatable stream of revenue that can be forecast more reliably than a single commercial windfall.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius estate",
+        "estate households"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "treasury",
+          "before": 1880,
+          "delta": 18,
+          "after": 1898,
+          "unit": "currency",
+          "reason": "Initial three-percent income assessments produce a modest recurring estate-tax receipt.",
+          "source_event_id": "GMV-62BCE-001-R044-E003",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R044-E004",
+      "date": "-0060-08-19",
+      "type": "connected",
+      "headline": "LOCAL HOUSEHOLDS BEGIN TO SEE THE TAX AS A FIXED RULE RATHER THAN AN ARBITRARY DEMAND",
+      "article": "As the month advances, the regularity of the assessment becomes as important as the amount collected. Households begin to understand that the estate will take the same small percentage when income rises and less when income falls, rather than changing the demand according to the immediate needs of the steward. Smallholders and workers receive clearer receipts for what they have paid, while the estate gains a more consistent record of expected revenue. The arrangement does not make taxation popular simply because it is modest, but its predictable rule reduces uncertainty about what households will owe. Nearby observers note that Valerius has chosen a permanent fiscal mechanism instead of relying entirely on favorable markets or occasional sales. The estate consequently begins to possess a stable internal revenue stream alongside its commercial income.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius estate",
+        "estate households"
+      ],
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R044-E005",
+      "date": "-0060-08-24",
+      "type": "surprise",
+      "headline": "A GOOD HARVEST MONTH PRODUCES MORE TAX REVENUE WITHOUT A CHANGE IN THE TAX RATE",
+      "article": "An unexpectedly productive stretch of August brings higher earnings to several households connected to the estates. Because the levy is calculated as a percentage rather than a fixed charge, the estate receives additional revenue automatically without ordering a new assessment or raising the rate. The increase is modest, but it demonstrates the mechanism's intended relationship between prosperity and contribution. Households experiencing weaker earnings do not face the same increase, preserving the distinction between a proportional tax and a flat demand. Valerius's stewards therefore collect more from the month's stronger incomes while leaving the three-percent rule unchanged. The episode gives the new system its first practical demonstration of how a permanent revenue source can expand with productive activity without requiring repeated political decisions.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius estate",
+        "estate households"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "treasury",
+          "before": 1898,
+          "delta": 7,
+          "after": 1905,
+          "unit": "currency",
+          "reason": "Higher recorded income during the month produces additional receipts under the unchanged three-percent rate.",
+          "source_event_id": "GMV-62BCE-001-R044-E005",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R044-E006",
+      "date": "-0060-08-31",
+      "type": "connected",
+      "headline": "LOCAL REPORT: VALERIUS HAS CREATED A PERMANENT ESTATE REVENUE STREAM",
+      "article": "By the end of August, the new tax has become part of the ordinary administration of Valerius's holdings. Its rate remains three percent of recorded personal income, with the amount paid varying according to what each person actually earns. The system gives the estate a recurring source of cash that does not depend solely on selling land, winning favorable commercial terms, or receiving an exceptional windfall. At the same time, the low rate leaves the ordinary economic activity of the estate largely intact, and no major disruption to work is reported. The first month has therefore established a fiscal precedent that can continue into future months without requiring a new decision each time revenue is collected. Valerius now possesses a small but permanent tax base tied directly to the productive income generated within his holdings.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius estate",
+        "estate households"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 968,
+          "delta": 1,
+          "after": 969,
+          "unit": "points",
+          "reason": "The first month of income records gives Valerius better information about household earnings and the estate's recurring fiscal base.",
+          "source_event_id": "GMV-62BCE-001-R044-E006",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ]
+}
