@@ -69,6 +69,125 @@ Important systems must interact causally. Examples include population to tax bas
 
 A player-facing event describes actual consequences, not merely the player's instruction. Internal causal calculations are not news unless they themselves create a newsworthy consequence.
 
+## Armed conflict, warfare, guards, and military-action simulation
+
+Any event involving soldiers, guards, armed civilians, militias, raids, ambushes, sieges, battles, occupations, executions, massacres, patrols, escorts, military training, mobilization, or other armed conflict must be resolved as a **lived simulation event**, not as a thin cinematic summary.
+
+### Resolution before narration
+
+The engine must resolve the underlying military state before writing the article. At minimum, when relevant, account for:
+- forces, formations, commanders, unit roles, experience, readiness, morale, organization, supply, equipment, terrain, weather, visibility, fortifications, roads, rivers, crossings, elevation, and local geography;
+- objectives and orders of every participating actor;
+- intelligence quality and what each side actually knows;
+- surprise, scouting, reconnaissance, deception, communications, command delay, confusion, and misinformation;
+- positioning, movement, reserves, flanks, pursuit, withdrawal, reinforcement, encirclement, and routes of escape;
+- weapons and period-appropriate tactical capabilities;
+- fatigue, hunger, thirst, wounds, disease, fear, panic, discipline, cohesion, and exhaustion where relevant;
+- civilian presence and civilian consequences where applicable;
+- prisoners, missing personnel, captured equipment, destroyed supplies, damaged infrastructure, and territorial/control changes when applicable;
+- permanent losses, temporary unavailable personnel, surviving strength, and the resulting military state.
+
+The numerical resolution is authoritative. Narrative may not invent casualties, victories, troop movements, captures, or territorial changes that were not resolved in state.
+
+### Warfare must feel experienced, not summarized
+
+Military events must not read like a movie trailer, battle synopsis, or detached list of outcomes. The player should receive enough grounded sensory and situational detail to understand what participation or observation would actually feel like within the character's information and position.
+
+A detailed combat report should convey, where the resolved event supports it:
+- the physical environment and conditions before contact;
+- what the character's side could see, hear, understand, and misunderstand;
+- the buildup of tension before violence;
+- movement and tactical decisions as they unfold;
+- the changing condition of formations and individuals;
+- fear, confusion, courage, exhaustion, discipline, hesitation, panic, and leadership;
+- the immediate human consequences of violence;
+- moments of initiative, sacrifice, endurance, failure, or exceptional valor when supported by game state;
+- the aftermath: wounded, dead, missing, prisoners, damaged positions, abandoned equipment, displaced civilians, morale, supply, and command consequences.
+
+The prose should make the event **visceral, grounded, and immediate** without becoming gratuitously graphic. When the simulation produces severe violence, the account may describe blood, wounds, death, terror, physical exhaustion, and destruction with concrete period-appropriate language, but it must remain relevant to the event rather than becoming gore for its own sake.
+
+### Tone is determined by simulation state
+
+The engine must not assume that warfare is always heroic, always tragic, always victorious, or always horrific.
+
+Tone must emerge from the resolved conditions:
+- disciplined success can produce confidence, relief, pride, or valor;
+- desperate defense can produce terror, sacrifice, endurance, and grim determination;
+- catastrophic defeat can produce confusion, grief, rout, capture, destruction, and lasting trauma;
+- brutal fighting can be frightening and gruesome;
+- extraordinary conduct can be massively valorous when the state and evidence support it;
+- a strategically successful action can still have terrible human costs;
+- a tactical victory can create an economically or politically damaging aftermath;
+- an apparent defeat can become a successful withdrawal, preservation of the army, or later opportunity.
+
+**Success, failure, casualty severity, heroism, brutality, and emotional tone must therefore be outputs of the simulation rather than predetermined narrative choices.**
+
+### Constant detail, variable outcome
+
+The **level of detail is a fixed presentation requirement**. It must not become shorter simply because the player's side is losing, nor longer merely because the player's side is winning.
+
+The same standard of detailed reporting applies to:
+- victories;
+- defeats;
+- stalemates;
+- retreats;
+- ambushes;
+- raids;
+- sieges;
+- skirmishes;
+- patrol clashes;
+- guard actions;
+- failed attacks;
+- successful attacks;
+- massacres or atrocities when actually resolved;
+- non-combat military incidents with meaningful consequences.
+
+The event's **content, tone, intensity, and outcome vary with game logic; the reporting standard does not.**
+
+### Guards and non-battle armed events
+
+Guards, escorts, patrols, sentries, household troops, bodyguards, and security forces are simulated as real actors rather than decorative background characters.
+
+A guard action must account for the relevant duty, orders, threat assessment, location, visibility, available personnel, response time, weapons, command authority, and consequences. A tense guard incident may involve no combat at all; conversely, a routine security duty may escalate into violence if the state supports it.
+
+Do not turn every guard encounter into a battle. Do not turn every military movement into combat. The simulation determines whether contact, violence, pursuit, negotiation, surrender, escape, arrest, or no confrontation occurs.
+
+### Military causality and persistence
+
+Combat changes the world beyond the battlefield when warranted. Consider downstream effects on:
+- troop strength and manpower;
+- readiness, morale, supply, organization, and war exhaustion;
+- commanders and political leadership;
+- stability and legitimacy;
+- Treasury and economic output;
+- agriculture and trade;
+- infrastructure;
+- population, deaths, migration, displacement, and disease;
+- relations and diplomatic incentives;
+- intelligence and future planning;
+- territorial control and land area when actually changed.
+
+A battle is therefore not complete when the fighting stops. The simulation must process its immediate aftermath and any persistent consequences that logically follow.
+
+### Civilian and noncombatant treatment
+
+Where armed conflict affects civilians, the simulation should distinguish soldiers from noncombatants and report civilian displacement, casualties, property loss, hunger, disease, flight, refuge, or political consequences when those outcomes are actually resolved. Do not invent civilian suffering merely to intensify a scene.
+
+### Military article standard
+
+For a meaningful armed-conflict event, the narrative should normally contain a complete sequence rather than jumping directly from "the armies met" to "Valerius won":
+
+1. situation and setting;
+2. contact or escalation;
+3. tactical development;
+4. turning points and decisions;
+5. human experience and consequences;
+6. resolution;
+7. immediate aftermath and implications.
+
+This sequence is a narrative standard, not a fixed script. Events may unfold differently when the resolved situation warrants it.
+
+
 ## Special-event magnitude system
 
 GMV special events use one fixed significance system.
