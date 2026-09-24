@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 18,
-  "date": "-0061-06-30",
-  "treasury": 1910,
+  "round": 19,
+  "date": "-0061-07-31",
+  "treasury": 1745,
   "wealth_accounts": {
-    "public": 1301,
-    "private": 134,
+    "public": 1436,
+    "private": 149,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 50,
-    "last_round_private_transfer": 5
+    "last_round_net_public_profit": 150,
+    "last_round_private_transfer": 15
   },
   "treasury_interest_placement": {
     "principal": 1000,
@@ -24,34 +24,34 @@
   },
   "metrics": {
     "population": 119,
-    "currency": 1910,
-    "soldiers": 71,
+    "currency": 1745,
+    "soldiers": 83,
     "taxation": 0,
-    "economy": 95,
+    "economy": 96,
     "agriculture": 61,
     "infrastructure": 95,
-    "trade": 98,
+    "trade": 99,
     "readiness": 100,
-    "morale": 92,
-    "supply": 99,
+    "morale": 100,
+    "supply": 100,
     "organization": 100,
     "stability": 100,
     "legitimacy": 81,
-    "exhaustion": 30,
-    "technology": 34,
-    "intelligence": 131,
+    "exhaustion": 39,
+    "technology": 38,
+    "intelligence": 146,
     "relations": 100
   },
   "relationships": {
-    "nearby-landowners": 20,
+    "nearby-landowners": 22,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
-    "military-connections": 4,
+    "military-connections": 7,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius spends the entire month training with his soldiers and patrolling his estate.",
+  "previous_action": "Gaius Maximus Valerius organizes his men, recruits experienced veterans, drills shield-wall and pike formations, and trains heavy cavalry to serve as controlled scouts rather than exposed charging targets.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -61,14 +61,14 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius spent June training personally with the estate soldiers and maintaining regular patrols across the main estate, lake-port road, outer holdings and winter-pass road. A fire at the lake port damaged commercial stores during the month; patrols and local workers contained the incident, but repairs and reduced confidence impose a short-term burden on trade. The force remains organized and ready, while repeated patrols have increased local intelligence and familiarity with the territory. The treasury-linked placement remains active, with qualifying growth at 190 and the annualized rate at 4.5% before the three-month settlement."
+    "campaign_development": "During July, Valerius reorganized his estate force, recruited experienced veterans, introduced shield-wall and pike drills, and trained heavy cavalry as controlled scouts. The enlarged force now operates with a stronger emphasis on formation discipline, reconnaissance and coordinated movement. The lake port and surrounding roads remain active, while veteran recruitment has increased the estate's military connections."
   },
   "special_event_policy": {
     "magnitude_scale": "1-10",
     "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
     "influence_rule": "Event influence increases exponentially with magnitude.",
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 1,
+    "this_round_special_events": 0,
     "current_round_opportunity_probability": 0.12,
     "last_selected_magnitude": 4
   }
