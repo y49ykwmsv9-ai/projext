@@ -1,0 +1,145 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 23,
+  "period": {
+    "start": "-0061-11-01",
+    "end": "-0061-11-30",
+    "display": "1 November 61 BCE – 30 November 61 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0061-11-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS SENDS ENVOYS WITH AN OFFER TO RELIEVE ROME OF UNPRODUCTIVE ESTATES",
+      "article": "Valerius's envoys leave the Roman house with instructions to approach officials responsible for properties that have become costly to maintain without producing a corresponding return. The proposal is straightforward: where Rome wishes to dispose of an estate that has become a continuing charge, Valerius will offer a deliberately low purchase price in exchange for assuming the property and its future obligations. The envoys stress that the proposal is a purchase from the Roman public authority rather than a private seizure or an acquisition from a distressed individual. They also promise that the properties will be brought back into cultivation, repair and productive use rather than left idle. The first letters are delivered to officials in Rome before any specific property is named in public.",
+      "ledger": {
+        "currency": -20,
+        "intelligence": 3,
+        "relations": 2,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0061-11-07",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "ROMAN OFFICIALS ASK FOR ACCOUNTS BEFORE ENTERTAINING THE PROPOSAL",
+      "article": "The Roman representatives receive the proposal but ask for accounts showing which properties are genuinely burdensome to the public purse. Valerius's envoys answer that the offer is intended only for estates whose upkeep, security or administration consumes resources without adequate productive return. They provide records describing the proposed purchase terms, the promised assumption of future maintenance and the intended agricultural and commercial uses. Officials make clear that the price cannot be settled by private correspondence alone and that the public title must be properly transferred. The discussion therefore moves from a general offer toward the examination of particular properties.",
+      "ledger": {
+        "currency": -15,
+        "intelligence": 3,
+        "legitimacy": 1,
+        "stability": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0061-11-11",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "A SMALL GROUP OF NEGLECTED ESTATES IS IDENTIFIED FOR FURTHER REVIEW",
+      "article": "Records supplied to the Roman office identify several properties whose upkeep has become an unwelcome charge relative to their present output. Valerius's representatives request surveys rather than accepting the descriptions without inspection. The estates are compared according to land condition, buildings, water access, roads, labor requirements and existing obligations. No general right to purchase every burdened property is granted, and each holding remains subject to its own public review. One neglected estate is singled out for a closer examination because its productive capacity appears substantially greater than its present return.",
+      "ledger": {
+        "intelligence": 4,
+        "relations": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0061-11-15",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS SUBMITS A FORMAL LOW-PRICE OFFER FOR A NEGLECTED PUBLIC ESTATE",
+      "article": "Valerius's envoys submit a formal offer for the estate selected for closer review. The proposed price is intentionally small, reflecting the assumption that Valerius will take responsibility for repairs, security, administration and the restoration of productive activity after the transfer. The document also records that the transaction is to be made under Roman public authority, with the title and obligations stated openly rather than concealed within a private arrangement. Valerius's representatives argue that the public benefit lies in ending the continuing expense while returning the property to productive use. The officials agree to examine the offer rather than treating the proposed price alone as sufficient grounds for acceptance.",
+      "ledger": {
+        "currency": -10,
+        "intelligence": 3,
+        "legitimacy": 2,
+        "relations": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0061-11-20",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "ROME AGREES TO TRANSFER ONE BURDENED ESTATE AFTER PUBLIC REVIEW",
+      "article": "After the accounts and condition of the property are reviewed, Roman officials agree to the sale of one neglected estate for ninety currency under terms requiring Valerius to assume its future maintenance. The transfer is recorded as a disposal of a burdensome public holding rather than a private purchase from an individual owner. The low price is accompanied by the obligation to repair the property and restore productive activity, giving the agreement a defined public purpose without eliminating the ordinary requirements of a legal sale. Valerius's representatives accept the conditions and arrange for the purchase funds to be paid through the Roman office. The estate now passes into Valerius's holdings subject to the recorded obligations of the transaction.",
+      "ledger": {
+        "currency": -90,
+        "population": 20,
+        "economy": 2,
+        "agriculture": 3,
+        "infrastructure": 1,
+        "stability": 2,
+        "legitimacy": 3,
+        "relations": 4,
+        "organization": 2,
+        "intelligence": 2
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0061-11-24",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE NEW ESTATE IS PUT UNDER REPAIR AND PREPARED FOR PRODUCTION",
+      "article": "Valerius orders the newly acquired holding to be surveyed immediately rather than allowing the transfer to become another idle possession. Workers are assigned to repair usable structures, clear neglected fields and secure the water sources and roads required for regular production. Experienced administrators are placed over the property while laborers and craftsmen from the existing household begin the first work. The estate is divided between agricultural production, storage and supporting workshops according to what the survey finds capable of being sustained. The first priority is to make the property pay for its own maintenance rather than allowing the new holding to reproduce the burden that led Rome to sell it.",
+      "ledger": {
+        "currency": -35,
+        "population": 15,
+        "agriculture": 2,
+        "economy": 2,
+        "infrastructure": 2,
+        "supply": 1,
+        "organization": 3,
+        "stability": 3,
+        "legitimacy": 2,
+        "trade": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0061-11-27",
+      "type": "WORLD",
+      "entities": [
+        "Marcus Tullius Cicero"
+      ],
+      "headline": "ROME'S PUBLIC ACCOUNTS REMAIN A SUBJECT OF CLOSE ATTENTION",
+      "article": "Reports from Rome continue to describe close attention to public finances, private fortunes and the obligations created by property administration. Cicero remains prominent in the city's public arguments, and questions of how Roman resources should be managed continue to circulate among political and financial circles. News of Valerius's purchase is treated as a local property matter rather than as the acquisition of a public office or political command. His representatives continue to emphasize that the estate was acquired through a formal Roman transaction and that its future maintenance now rests with his household. The arrangement attracts notice precisely because it converts a continuing public expense into a private investment obligation.",
+      "ledger": {
+        "currency": 180,
+        "intelligence": 3,
+        "relations": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0061-11-30",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL NEWS: A FORMER PUBLIC BURDEN BEGINS ITS SECOND LIFE",
+      "article": "November closes with one neglected estate formally transferred from Roman public ownership into Valerius's holdings after review of its costs and condition. The purchase price was deliberately low, but the new owner has also accepted the repairs, administration and productive obligations attached to the property. Workers are already clearing fields, repairing structures and organizing supplies, while administrators prepare the first regular production accounts. The transaction has not made Valerius an officeholder, and his representatives continue to present the acquisition as a private purchase made under public authority. The wider estate network now contains another productive holding, while Rome has removed one continuing maintenance charge from its own accounts.",
+      "ledger": {}
+    }
+  ]
+}
