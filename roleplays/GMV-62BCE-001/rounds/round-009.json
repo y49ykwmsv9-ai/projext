@@ -1,22 +1,128 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 9,
   "period": {
     "start": "-0062-09-01",
     "end": "-0062-09-30"
   },
-  "player_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
-  "running_total": {
-    "currency": -1000,
-    "economy": 2,
-    "infrastructure": 9,
-    "trade": 3,
-    "readiness": 3,
-    "supply": 1,
-    "organization": 3,
-    "stability": 2,
-    "legitimacy": 3,
-    "intelligence": 3,
-    "relations": 5
+  "action": {
+    "action_id": "GMV-62BCE-001-R009-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
+    "components": []
+  },
+  "historical_context": null,
+  "events": [],
+  "round_ledger": {
+    "currency": {
+      "before": null,
+      "delta": -1000,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 9,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
+  },
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-unspecified",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-009.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 9,
+    "period": {
+      "start": "-0062-09-01",
+      "end": "-0062-09-30"
+    },
+    "player_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
+    "running_total": {
+      "currency": -1000,
+      "economy": 2,
+      "infrastructure": 9,
+      "trade": 3,
+      "readiness": 3,
+      "supply": 1,
+      "organization": 3,
+      "stability": 2,
+      "legitimacy": 3,
+      "intelligence": 3,
+      "relations": 5
+    }
   }
 }
