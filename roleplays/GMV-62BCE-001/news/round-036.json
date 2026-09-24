@@ -1,0 +1,67 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 36,
+  "period": {
+    "start": "-0060-12-01",
+    "end": "-0060-12-31",
+    "display": "1 December 60 BCE – 31 December 60 BCE"
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-12-03",
+      "headline": "THE COLUMN SECURES THE HIDDEN STORE",
+      "type": "DIRECT",
+      "special_event": false
+    },
+    {
+      "event": 2,
+      "date": "-0060-12-07",
+      "headline": "MESSENGERS RETURN FROM THE RAVINE ROAD",
+      "type": "CONNECTED",
+      "special_event": false
+    },
+    {
+      "event": 3,
+      "date": "-0060-12-11",
+      "headline": "THE COLUMN CHANGES ITS MARCHING ORDER",
+      "type": "DIRECT",
+      "special_event": false
+    },
+    {
+      "event": 4,
+      "date": "-0060-12-15",
+      "headline": "THE FORD OF THREE FIRES",
+      "type": "SURPRISE",
+      "special_event": true
+    },
+    {
+      "event": 5,
+      "date": "-0060-12-19",
+      "headline": "THE UNRECORDED SETTLEMENT IS FOUND",
+      "type": "CONNECTED",
+      "special_event": false
+    },
+    {
+      "event": 6,
+      "date": "-0060-12-23",
+      "headline": "WINTER SUPPLY IS REORGANIZED FOR THE INTERIOR",
+      "type": "DIRECT",
+      "special_event": false
+    },
+    {
+      "event": 7,
+      "date": "-0060-12-27",
+      "headline": "NEWS FROM ROME SPEAKS OF THE CONSULSHIP",
+      "type": "WORLD",
+      "special_event": false
+    },
+    {
+      "event": 8,
+      "date": "-0060-12-31",
+      "headline": "LOCAL ROUNDUP: THE NETWORK REACHES FARTHER THAN THE PASS",
+      "type": "WORLD",
+      "special_event": false
+    }
+  ]
+}
