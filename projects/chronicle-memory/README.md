@@ -421,3 +421,84 @@ Implementation files:
 GitHub is the persistent engineering/reference layer, not the required gameplay interface. Chat is the gameplay interface. The canonical campaign state is authoritative for the alternate timeline once initialized.
 
 GMV-62BCE-001 is the canonical GMV campaign identifier; its round/state/news records live under roleplays/GMV-62BCE-001/.
+
+
+## Persistent property and private-asset ledger
+
+The campaign state must maintain a persistent, append-only **property ledger** rather than treating Land Area as a standalone number. Land Area is a derived aggregate of the currently active property/territorial holdings represented in that ledger.
+
+Every property or holding that enters the canonical history must have a stable holding ID and, when known, exact:
+- asset/holding name;
+- asset type;
+- location;
+- area and explicit unit;
+- acquisition date;
+- acquisition round;
+- acquisition value/price;
+- currency/account used to acquire it;
+- seller/counterparty;
+- acquisition source event;
+- current status;
+- disposal date/value if later sold or transferred;
+- provenance and confidence.
+
+Historical records may legitimately lack one of these facts. **Missing historical information must be represented explicitly as null/unknown with provenance; it must never be invented or inferred merely to make the ledger complete.** If an older round gives only an aggregate, preserve that aggregate as an aggregate record and mark its component breakdown as unresolved.
+
+The ledger is cumulative and persistent. A later round may add, modify the status of, or dispose of a holding, but it may not erase the historical acquisition record. If a property is restored, subdivided, combined, leased, mortgaged, transferred, or otherwise changes status, the ledger records the transition while preserving the original acquisition record.
+
+### Property-ledger reconciliation
+
+At every canonical state:
+1. The active property ledger is the source of truth for property holdings.
+2. `metrics.land_area_sq_miles` must equal the sum of active ledger areas in square miles, to the precision actually supported by the records.
+3. `holdings.land_area_sq_miles` must equal that same derived total.
+4. A property purchase must create a corresponding acquisition ledger entry and a corresponding financial ledger entry when a price is actually established.
+5. A restoration/repair expense must not be silently counted as property acquisition price.
+6. An aggregate historical acquisition whose price is not preserved must remain a distinct unresolved accounting item; its value must not be fabricated.
+7. If an acquisition date, area, or price cannot be established from the canonical chronology, it remains unresolved until historical reconstruction finds a source.
+8. Disposal or transfer must subtract the disposed property's recorded area from the active aggregate and preserve the original record.
+9. Property records are never deleted merely because the property changes hands.
+10. The private-wealth ledger must reconcile asset acquisition/disposal and realized income against Currency and Private Wealth without double-counting cash.
+
+### Historical-data completeness gate
+
+A future round is **not eligible to become canonical** merely because the latest state file, scenario pointer, or round file appears internally consistent.
+
+Before generating or accepting "the next round," the engine must audit every prior round from Round 1 through the current canonical round and verify:
+- every round file exists;
+- every corresponding news file exists;
+- every historical round conforms to the current normalized schema or has an explicit, validated migration record;
+- chronology has no gaps;
+- every event/news pair has parity;
+- every persistent metric mutation has a valid ledger;
+- financial movements reconcile;
+- military quantities reconcile;
+- property/land acquisitions and disposals reconcile against the persistent property ledger;
+- persistent private assets and wealth movements are traceable to source events or explicit legacy-migration records;
+- scenario/state pointers agree;
+- the canonical files are actually present in the committed Git history;
+- the checkout used for validation is clean and the validator is evaluating the committed revision, not merely an uncommitted working copy.
+
+This is a **hard precondition** for advancing the simulation. If any historical round fails, the engine must stop at the current canonical round and repair/migrate the historical record before generating another round.
+
+A file existing on disk, being visible through an API, or having a plausible "commit_check" field is not proof that it was actually committed. Commit verification must inspect the repository's real Git state and re-read the committed files. A self-authored boolean such as `verified: true` is evidence only when independently verified by the repository validator.
+
+### Random-resolution auditability
+
+Random checks are stateful audit records, not narrative claims. Every round that invokes the standard special-event opportunity or magnitude-11 resolution must persist the actual fresh random draws used by the resolver, the probability threshold, the result, and the accepted outcome. The displayed probability may remain constant across independent trials; the random draw must be newly generated and persisted for each trial.
+
+The engine must never invent, backfill, or manually type a random draw after the fact. If a random-resolution record cannot be independently reconstructed from the persisted round data, that round fails the canonical gate.
+
+### Canonical next-round lock
+
+The command **"give me the next round"** means: first run the full historical/schema/commit audit described above. If that audit does not pass, do not generate the next round. Instead, identify the blocking records and repair the canonical data layer first.
+
+The same lock applies even when the requested round is only a continuation of an apparently simple action. No new simulation output may be presented as canonical until all preceding canonical records satisfy the current data contract and the prior round is verified as genuinely committed.
+
+### Canonical commit proof
+
+A canonical round requires two distinct proofs:
+1. **Content validation:** the round, news, state, scenario, property ledger, and required schemas pass validation.
+2. **Repository validation:** the exact committed revision containing those files is re-read from GitHub/Git and verified to contain the validated contents, with no uncommitted canonical changes.
+
+The phrase "committed" must therefore mean an actual repository commit, not an intended write, an API request that was not verified, a field inside JSON claiming verification, or an unconfirmed tool response.
