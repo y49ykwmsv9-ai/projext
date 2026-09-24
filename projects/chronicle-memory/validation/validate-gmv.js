@@ -401,6 +401,7 @@ function validatePropertyLedger(state, scenario) {
 }
 
 function validateHistoricalSchemaAndCommit() {
+  const { execSync } = require("child_process");
   const rounds = discoverRounds();
   if (!rounds.length) return;
   for (const n of rounds) {
