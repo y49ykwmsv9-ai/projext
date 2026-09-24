@@ -1,0 +1,181 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 37,
+  "period": {
+    "start": "-0060-01-01",
+    "end": "-0060-01-31",
+    "display": "1 January 60 BCE – 31 January 60 BCE"
+  },
+  "metric_schema": "fixed-v1+land-area-v1",
+  "player_action": "Gaius Maximus Valerius spends a day with his exhausted men, speaking with them about personal matters and their lives while rotating patrols continue to guard the position. His immediate goal is to bring exhaustion to 0 and supply to at least 45 before counting the next march. He also orders earthworks around the position, a small watchtower for observation and a secure storehouse for provisions, keeping the camp guarded while the men recover.",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-01-03",
+      "type": "DIRECT",
+      "headline": "VALERIUS ORDERS A DAY OF REST BEFORE THE NEXT MARCH",
+      "article": "The column remains in its winter position rather than setting out again at once. Valerius spends the day among the soldiers, speaking with them about their families, homes, losses, hopes and the lives they led before the expedition. Men who have spent months under marching orders are given time to speak without the formal rhythm of drills and patrol reports. The conversations continue through much of the day, while rotating patrols remain outside the position so that the camp is not left unwatched. The combination of rest and vigilance gives the exhausted column its first deliberate pause since the recent fighting.",
+      "ledger": {
+        "currency": -10,
+        "morale": 5,
+        "stability": 2,
+        "legitimacy": 2,
+        "exhaustion": -65,
+        "intelligence": 3,
+        "relations": 2
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-01-07",
+      "type": "DIRECT",
+      "headline": "ROTATING PATROLS KEEP WATCH WHILE THE MEN RECOVER",
+      "article": "The patrol system is reorganized so that no single group remains continuously on watch. Small detachments take turns along the approaches, river route and surrounding high ground, returning to the position for food and sleep before another group replaces them. Officers record the routes used by each patrol and compare reports for signs of recent movement. The arrangement allows the main body to remain at rest without surrendering the security gained through earlier scouting. By the end of the period, the soldiers are sleeping more regularly and the camp's perimeter is being watched without exhausting the same men repeatedly.",
+      "ledger": {
+        "currency": -15,
+        "supply": -1,
+        "readiness": 2,
+        "organization": 2,
+        "exhaustion": -55,
+        "intelligence": 8,
+        "stability": 2
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-01-11",
+      "type": "DIRECT",
+      "headline": "EARTHWORKS RISE AROUND THE WINTER POSITION",
+      "article": "Work begins on earthworks around the position chosen for the winter halt. The soldiers and attached laborers shape a low defensive perimeter, strengthen the approaches most exposed to movement from the surrounding country and create covered places from which sentries can observe the ground. The work is deliberately practical rather than elaborate, using the soil immediately available around the camp. Rotating patrols continue while the construction proceeds, keeping the working parties from becoming the only eyes on the approaches. The completed earthworks give the position a more defensible outline without turning it into a permanent fortress.",
+      "ledger": {
+        "currency": -25,
+        "supply": -2,
+        "infrastructure": 3,
+        "technology": 2,
+        "readiness": 2,
+        "exhaustion": -35,
+        "organization": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-01-16",
+      "type": "DIRECT",
+      "headline": "A SMALL WATCHTOWER OVERLOOKS THE APPROACHES",
+      "article": "A timber watchtower is raised on the highest practical point beside the new earthworks. From its platform, sentries can see farther along the river approach and toward the paths that connect the position with the hidden routes already discovered. The tower is modest in size but gives the patrols a fixed observation point that does not require men to remain constantly on exposed ground. A roster is established so that sentries rotate with the same discipline used by the patrols. The new position becomes the camp's clearest early-warning point.",
+      "ledger": {
+        "currency": -20,
+        "supply": -1,
+        "infrastructure": 2,
+        "technology": 2,
+        "intelligence": 12,
+        "exhaustion": -25,
+        "readiness": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-01-21",
+      "type": "DIRECT",
+      "headline": "THE SECURE STOREHOUSE IS COMPLETED",
+      "article": "The expedition finishes a guarded storehouse within the earthworks, using a dry and defensible section of the position for grain, animal feed, tools and other provisions. Supplies are divided between the storehouse and smaller working reserves so that a single incident cannot expose the entire stock. The store is placed under a written accounting system, with officers responsible for recording withdrawals and replenishment. The arrangement reduces the amount of food and equipment that must travel with every patrol. The position now has a more reliable reserve from which the expedition can operate when it eventually resumes its march.",
+      "ledger": {
+        "currency": -30,
+        "supply": 10,
+        "infrastructure": 3,
+        "organization": 2,
+        "stability": 2,
+        "exhaustion": -30,
+        "technology": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-01-25",
+      "type": "CONNECTED",
+      "special_event": true,
+      "magnitude": 4,
+      "change_index": 1.953125,
+      "headline": "A NIGHT WATCH FINDS THE CAMP HAS BEEN OBSERVED",
+      "article": "A rotating patrol returning shortly before midnight reports faint movement on a ridge beyond the river. The watchtower confirms that several figures have been present outside the immediate perimeter, but they withdraw before the patrol can close with them. No attack follows. The earthworks and tower allow the garrison to remain at its position without sending the entire camp into confusion. At dawn, the patrols find tracks that show the watchers approached, observed the new defenses and departed by a route already associated with the wider network. The incident does not become a battle, but it confirms that the camp's new works are being noticed by men outside the Roman position.",
+      "ledger": {
+        "currency": -10,
+        "readiness": 1,
+        "intelligence": 14,
+        "exhaustion": -15,
+        "relations": 1,
+        "stability": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-01-28",
+      "type": "CONNECTED",
+      "headline": "THE MEN REACH THE END OF THE REST CYCLE",
+      "article": "By the final days of the month, the rotation system has given the soldiers repeated periods away from patrol duty, while the new earthworks and watchtower reduce the burden placed on individual sentries. Valerius continues to spend time with the men rather than returning immediately to the demands of the next march. The storehouse is stocked and the camp's routine has become predictable enough for officers to plan the next movement without rushing the column. The soldiers remain alert, but the atmosphere is markedly different from the exhausted conditions that followed the November fighting. Preparations for the next phase are deliberately postponed until the men have recovered.",
+      "ledger": {
+        "currency": -10,
+        "morale": 3,
+        "exhaustion": -29,
+        "readiness": 1,
+        "supply": 1,
+        "relations": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0060-01-31",
+      "type": "WORLD",
+      "headline": "LOCAL ROUNDUP: THE WINTER POSITION BECOMES A SECURE CAMP",
+      "article": "The month closes with Valerius's men still at the winter position rather than counting a new march against them. The soldiers have spent the period recovering while rotating patrols maintained a watch around the camp. Earthworks, a small watchtower and a secure storehouse now give the position a more durable defensive and logistical structure. A brief encounter with distant watchers has provided another indication that the surrounding network continues to observe Roman movements. The column enters the next phase with its men rested, its immediate stores protected and its position more secure than it was at the start of the month.",
+      "ledger": {}
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": -155,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 0,
+    "infrastructure": 8,
+    "trade": 0,
+    "readiness": 8,
+    "morale": 8,
+    "supply": 8,
+    "organization": 6,
+    "stability": 7,
+    "legitimacy": 2,
+    "exhaustion": -254,
+    "technology": 7,
+    "intelligence": 37,
+    "relations": 5,
+    "land_area_sq_miles": 0
+  },
+  "land_area_measurement": {
+    "metric": "land_area_sq_miles",
+    "value": 4,
+    "delta": 0,
+    "unit": "square miles",
+    "acres": 2560,
+    "roman_iugera_approx": 4110,
+    "scope": "Gaius Maximus Valerius personal estates and holdings"
+  },
+  "special_event_selection": {
+    "standard_opportunity_percent": 12,
+    "standard_special_selected": true,
+    "standard_magnitude": 4,
+    "standard_change_index": 1.953125,
+    "magnitude_11": {
+      "chance_percent": 9.27,
+      "checks": [
+        71.4421,
+        36.8814,
+        92.1137
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    }
+  }
+}
