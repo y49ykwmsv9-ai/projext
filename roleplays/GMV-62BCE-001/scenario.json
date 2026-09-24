@@ -13,8 +13,8 @@
     "year": -62,
     "display": "62 BCE"
   },
-  "latest_round": 22,
-  "latest_date": "-0061-10-31",
+  "latest_round": 23,
+  "latest_date": "-0061-11-30",
   "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
   "metric_schema": "fixed-v1",
   "news_style": "period-authentic-local-newspaper",
@@ -43,6 +43,10 @@
     "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
     "influence_factor": "1.25^(magnitude-1)",
     "long_run_target": "Approximately one special event every 8-12 rounds on average, with substantial variance.",
-    "magnitude_probability_formula": "P(m | special event) = [1 / 1.25^(m-1)] / sum[n=1..10][1 / 1.25^(n-1)]"
-  }
+    "magnitude_probability_formula": "P(m | special event) = [1 / 1.25^(m-1)] / sum[n=1..10][1 / 1.25^(n-1)]",
+    "this_round_special_events": 0,
+    "current_round_opportunity_probability": 14,
+    "last_selected_magnitude": 6
+  },
+  "latest_player_action": "Gaius Maximus Valerius sends envoys to Roman officials offering to take over estates that are imposing substantial maintenance costs upon the state, proposes to purchase such properties at a very low price in exchange for removing the state's continuing burden, and pledges to restore them to productive use while grounding the transaction in a formal purchase from Rome."
 }
