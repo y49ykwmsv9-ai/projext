@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 50,
-  "latest_date": "-0059-02-28",
+  "latest_round": 51,
+  "latest_date": "-0059-03-31",
   "metric_schema": "fixed-v1+land-area-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -38,16 +38,17 @@
     }
   },
   "continuity": {
-    "campaign_development": "February 59 BCE: Valerius continued the planned invasion beyond the outer bandit estates and pushed into the inner estate network. A fortified storehouse produced another costly fight, local smallholders began approaching the Roman lines with geographic and human-network information, and Marcus Claudius Marcellus maintained an established political correspondence with the expedition. A surprise night strike disrupted a supply movement, demonstrating that the remaining bandit fighters could still operate around Roman-held ground. The month ended with Valerius deeper inside the network and better informed, but with fewer soldiers, lower supplies, greater exhaustion, slightly reduced readiness and more strained local relations.",
+    "campaign_development": "March 59 BCE: Valerius coordinated rapid raids against the remaining bandit holdouts and personally killed every armed holdout encountered in the decisive fighting. No Roman soldier was injured. The organized bandit positions inside the invaded estate belt collapsed, captured provisions partially replenished supplies, recovered records expanded intelligence, and local smallholders began returning to fields and work areas. Marcus Claudius Marcellus received news through the established Roman correspondence network. Personal holdings remain 4.25 sq mi; military occupation and captured property did not automatically become private ownership.",
     "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi; military occupation in Round 50 does not create private ownership."
   },
   "end_of_round_checks": {
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "verified after canonical Round 50 files persisted and re-read",
+    "commit_check": "pending",
     "canonical_round_49": "verified",
-    "canonical_round_50": "verified"
+    "canonical_round_50": "verified",
+    "canonical_round_51": "pending"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
