@@ -220,3 +220,105 @@ Each generated event must retain machine-readable references to materially relev
 
 Before committing each round, perform a continuity check confirming that the new events have incorporated relevant prior-world context and that no established person, place, relationship, institution, or unresolved development has been accidentally reset or forgotten.
 
+
+
+## Vigilant Watcher for Unresolved Developments
+
+Every unresolved event or open consequential thread must carry a persistent **massive-priority continuity flag** in simulation memory. The flag is an AI-facing vigilance mechanism. It is not a public metric, narrative label, or probability guarantee.
+
+### Definition
+
+An event is **UNRESOLVED** when a consequential question, threat, investigation, relationship, transaction, military objective, disappearance, discovery, dispute, negotiation, missing asset, unidentified actor, or other material development remains without a definite outcome.
+
+Unresolved status must persist independently of how recently the event appeared in the news.
+
+Each unresolved record must retain, where applicable:
+- origin event and round;
+- unresolved question or open consequence;
+- current status;
+- involved people and factions;
+- involved places and institutions;
+- known consequences;
+- last known state;
+- information available to the player;
+- information known elsewhere in the world;
+- plausible conditions that could reactivate or resolve it;
+- links to later events that advance, complicate, reactivate, or resolve the thread.
+
+### Massive red-flag behavior
+
+The AI equivalent of a massive red flag means:
+
+1. **Never silently discard it.**
+2. **Never treat it as resolved merely because it has not been mentioned recently.**
+3. **Check it during every monthly or longer continuity pass.**
+4. **Keep it eligible for causal reactivation indefinitely while the underlying matter remains unresolved.**
+5. **Give it substantially elevated consideration when a later event, location, person, institution, intelligence report, resource movement, relationship, or other development creates a plausible connection.**
+6. **Preserve its accumulated history when it reappears.**
+7. **Do not manufacture a resolution merely to clear the flag.**
+8. **Do not force it into an article when no credible causal connection exists.**
+
+This is a vigilance rule, not a recurrence rule. An unresolved event may remain dormant for many rounds while still carrying the highest continuity attention.
+
+### Dormancy and reactivation
+
+Unresolved developments use the following conceptual lifecycle:
+
+**ACTIVE → DORMANT → REACTIVATED → RESOLVED → HISTORICAL**
+
+- **ACTIVE:** currently developing or immediately relevant.
+- **DORMANT:** unresolved but presently lacking a credible reason to surface in public reporting.
+- **REACTIVATED:** a new development has created a plausible causal connection.
+- **RESOLVED:** the underlying question or consequence has reached a supported outcome.
+- **HISTORICAL:** the resolved matter remains part of the permanent world history and may still be referenced when relevant.
+
+Dormancy does not reduce historical importance. It only means that the current circumstances do not justify public reappearance.
+
+### Importance-based vigilance
+
+The watcher must prioritize unresolved developments according to their underlying significance, not recency alone.
+
+A recent minor unresolved dispute must not automatically outrank an older unresolved matter that could materially affect:
+- the player's safety or military position;
+- a major relationship;
+- an established estate, fort, road, settlement, port, market, or trade route;
+- reputation or social standing;
+- wealth or a major commercial undertaking;
+- an important faction or institution;
+- regional security;
+- accumulated intelligence;
+- an important enemy or ally;
+- a major discovery;
+- a prior battle or campaign;
+- a continuing political, diplomatic, or legal matter.
+
+Major unresolved developments remain high-priority even after many rounds without mention.
+
+### Continuity-pass behavior
+
+Before each round is committed, the continuity pass must inspect the unresolved-event registry and determine for each item whether:
+- it remains unresolved;
+- it should remain dormant;
+- new evidence advances it;
+- a current event plausibly reactivates it;
+- the world state has changed in a way that affects it;
+- it has actually been resolved by a supported event.
+
+If an unresolved matter becomes relevant, later news should surface it naturally through period-authentic channels such as correspondence, merchants, soldiers, officials, inspections, records, travelers, intelligence, rumors, negotiations, or direct observation.
+
+The public article must never say that an unresolved event was surfaced because of a continuity flag, watcher process, AI rule, audit mechanism, or simulation system.
+
+### No false closure
+
+An unresolved record is removed from the unresolved registry only when a concrete event or sufficiently reliable information establishes its outcome.
+
+A later event that merely provides another clue does not resolve the original matter. It should instead update the same persistent unresolved thread and preserve its prior history.
+
+A contradictory report should increase uncertainty rather than silently overwrite established information. Where appropriate, the world should retain competing reports until later evidence supports a resolution.
+
+### Audit integration
+
+The monthly estate and world continuity audit must verify that unresolved developments have not been lost, reset, duplicated, or incorrectly marked resolved.
+
+The audit may generate an in-world news event when it discovers a meaningful old consequence, new evidence, discrepancy, or development. Routine verification remains internal. The player-facing manifestation must always be an ordinary in-world event rather than a reference to auditing or engine mechanics.
+
