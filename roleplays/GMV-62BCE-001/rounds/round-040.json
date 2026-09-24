@@ -277,5 +277,26 @@
     "source_schema": "gmv-round-v2",
     "source_file": "roleplays/GMV-62BCE-001/rounds/round-040.json",
     "note": "Authored directly in canonical schema; no historical outcome rewritten."
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 0.12,
+      "magnitude": null,
+      "magnitude_11_eligibility": 6.42,
+      "magnitude_11_checks": [
+        48.2271,
+        12.4473,
+        81.3304
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "magnitude_11_events": 0
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": true,
+      "verification_basis": "Canonical round, news, state, and scenario pointer are present on the GitHub main branch and the canonical pointer resolves to Round 40."
+    }
   }
 }
