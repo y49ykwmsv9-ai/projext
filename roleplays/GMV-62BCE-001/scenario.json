@@ -13,8 +13,8 @@
     "year": -62,
     "display": "62 BCE"
   },
-  "latest_round": 25,
-  "latest_date": "-0060-01-31",
+  "latest_round": 26,
+  "latest_date": "-0060-02-28",
   "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
   "metric_schema": "fixed-v1",
   "news_style": "period-authentic-local-newspaper",
@@ -47,16 +47,16 @@
     "magnitude_11_max_events_per_round": 3,
     "magnitude_11_dry_spell_interaction": "None; Magnitude 11 chance is independently randomized each round.",
     "long_run_target": "Standard special events approximately every 8-12 rounds on average; Magnitude 11 has no quota and may have long dry periods or clustered appearances.",
-    "this_round_special_events": 1,
+    "this_round_special_events": 0,
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
     "last_selected_magnitude": 1,
-    "magnitude_11_chance_percent": 4.1008,
+    "magnitude_11_chance_percent": 16.4797,
     "magnitude_11_checks": [
-      89.218,
-      17.9923,
-      28.8334
+      57.0298,
+      99.6406,
+      17.1723
     ]
   },
-  "latest_player_action": "Gaius Maximus Valerius continues consolidating the enlarged estate network, oversees its first full winter production cycle, maintains the new waterways and highway route, and directs labor toward sustained agricultural and commercial output."
+  "latest_player_action": "Gaius Maximus Valerius expands his merchant connections and instructs his household and people living on his estates to mention his trade and road networks in ordinary conversation outside their work, seeking to make the network familiar beyond the estate itself."
 }
