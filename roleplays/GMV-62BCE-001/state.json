@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 28,
-  "date": "-0060-04-30",
+  "round": 29,
+  "date": "-0060-05-31",
   "treasury": 1970,
   "wealth_accounts": {
-    "public": 1370,
-    "private": 352,
+    "public": 1550,
+    "private": 372,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 170,
-    "last_round_private_transfer": 17
+    "last_round_net_public_profit": 200,
+    "last_round_private_transfer": 20
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,8 +17,8 @@
   },
   "metrics": {
     "population": 249,
-    "currency": 255,
-    "soldiers": 458,
+    "currency": 100,
+    "soldiers": 440,
     "taxation": 0,
     "economy": 100,
     "agriculture": 78,
@@ -26,13 +26,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 99,
+    "supply": 92,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 78,
-    "technology": 46,
-    "intelligence": 303,
+    "exhaustion": 95,
+    "technology": 47,
+    "intelligence": 338,
     "relations": 100
   },
   "relationships": {
@@ -45,7 +45,7 @@
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius pledges a formal oath and has it entered into the legal records associated with his household and dynasty, tying his honor to his reputation as a lasting commitment. Before his men, he promises to lead every march and expedition, eat the same rations whether good or bad, and lead every battle no matter how hard it may be, provided that doing so does not place the household as a whole at unreasonable risk.",
+  "previous_action": "Gaius Maximus Valerius organizes a second expedition and leads the bulk of his forces in a march toward an infamous regional band that has defeated organized Roman centuries and troubled multiple districts, making the band a widespread regional concern.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -56,22 +56,22 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In April 60 BCE, Valerius formalized a personal oath of command, preserving it among the household's legal records and publicly swearing before his armed men that he would share their marches and rations and lead them in battle when required, while retaining the responsibility to protect the household from reckless exposure. The pledge became part of the household's recorded reputation as well as a visible standard for his conduct in the field."
+    "campaign_development": "In May 60 BCE, Valerius organized a second expedition and led the bulk of his forces toward a regional band notorious across several districts for defeating organized Roman centuries. The expedition's first major contact came in a narrow ravine, where the band used difficult ground and dispersed attacks to inflict eighteen losses without allowing itself to be drawn into a conventional battle. Valerius kept the column together, refused a reckless pursuit, and reorganized the force for continued operations. The band remains active and the expedition continues."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
     "magnitude_11_change_index": 9.313225746,
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 0,
+    "this_round_special_events": 1,
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
-    "last_selected_magnitude": 1,
-    "magnitude_11_chance_percent": 13.26,
+    "last_selected_magnitude": 7,
+    "magnitude_11_chance_percent": 7.43,
     "magnitude_11_checks": [
-      48.3371,
-      21.4405,
-      67.1822
+      44.8127,
+      18.2234,
+      92.6148
     ]
   }
 }

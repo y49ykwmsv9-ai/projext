@@ -13,8 +13,8 @@
     "year": -62,
     "display": "62 BCE"
   },
-  "latest_round": 28,
-  "latest_date": "-0060-04-30",
+  "latest_round": 29,
+  "latest_date": "-0060-05-31",
   "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
   "metric_schema": "fixed-v1",
   "news_style": "period-authentic-local-newspaper",
@@ -47,16 +47,16 @@
     "magnitude_11_max_events_per_round": 3,
     "magnitude_11_dry_spell_interaction": "None; Magnitude 11 chance is independently randomized each round.",
     "long_run_target": "Standard special events approximately every 8-12 rounds on average; Magnitude 11 has no quota and may have long dry periods or clustered appearances.",
-    "this_round_special_events": 0,
+    "this_round_special_events": 1,
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
-    "last_selected_magnitude": 1,
-    "magnitude_11_chance_percent": 13.26,
+    "last_selected_magnitude": 7,
+    "magnitude_11_chance_percent": 7.43,
     "magnitude_11_checks": [
-      48.3371,
-      21.4405,
-      67.1822
+      44.8127,
+      18.2234,
+      92.6148
     ]
   },
-  "latest_player_action": "Gaius Maximus Valerius pledges a formal oath and has it entered into the legal records associated with his household and dynasty, tying his honor to his reputation as a lasting commitment. Before his men, he promises to lead every march and expedition, eat the same rations whether good or bad, and lead every battle no matter how hard it may be, provided that doing so does not place the household as a whole at unreasonable risk."
+  "latest_player_action": "Gaius Maximus Valerius organizes a second expedition and leads the bulk of his forces in a march toward an infamous regional band that has defeated organized Roman centuries and troubled multiple districts, making the band a widespread regional concern."
 }
