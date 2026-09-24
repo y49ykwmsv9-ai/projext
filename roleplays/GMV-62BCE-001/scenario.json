@@ -37,10 +37,12 @@
   },
   "special_event_policy": {
     "magnitude_scale": "1-10",
-    "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
-    "rarity_curve": "rarity decreases as magnitude increases; high-magnitude events require substantially stronger justification than low-magnitude events.",
+    "baseline_opportunity": "12% per round",
+    "dry_spell_adjustment": "After 3 consecutive rounds without a special event, +2 percentage points; +4 after 4; +6 after 5+, capped at 18%. This is a soft probability adjustment and never guarantees an event.",
+    "rarity_rule": "Higher magnitude events are increasingly rare and require substantially stronger causal justification.",
     "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
     "influence_factor": "1.25^(magnitude-1)",
+    "long_run_target": "Approximately one special event every 8-12 rounds on average, with substantial variance.",
     "isolation": "Independent state, rounds, events, relationships, and news."
   },
   "isolation": "Independent state, rounds, events, relationships, and news."

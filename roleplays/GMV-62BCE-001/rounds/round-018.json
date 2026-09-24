@@ -11,11 +11,11 @@
   "special_event_policy": {
     "magnitude_scale": "1-10",
     "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
-    "rarity_curve": "rarity decreases as magnitude increases; high-magnitude events require substantially stronger justification than low-magnitude events.",
+    "rarity_curve": "Special-event opportunity is 12% per round, with a temporary dry-spell adjustment after three consecutive no-special rounds, capped at 18%; this does not force an event.",
     "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
     "influence_factor": "1.25^(magnitude-1)",
     "isolation": "Independent state, rounds, events, relationships, and news.",
-    "this_round_special_events": 0
+    "this_round_special_events": 1
   },
   "events": [
     {
@@ -31,10 +31,8 @@
       "article": "With the estate settled into its new routine, Valerius begins June by keeping his soldiers constantly occupied in drill and patrol. Morning exercises are conducted on foot and in formation, followed by marches along the roads linking the principal holdings. The men practice maintaining order while moving through cultivated ground and wooded approaches, where discipline matters as much as speed. Valerius remains with them rather than leaving the work entirely to subordinate officers, and the repeated exercises become the central military routine of the month. Patrols also provide a visible armed presence around the estate without turning ordinary agricultural traffic into a military encampment.",
       "ledger": {
         "currency": -20,
-        "readiness": 0,
         "morale": 1,
         "supply": 1,
-        "organization": 0,
         "stability": 2,
         "exhaustion": 1,
         "intelligence": 2
@@ -86,7 +84,7 @@
     },
     {
       "event": 4,
-      "date": "-0061-19",
+      "date": "-0061-06-19",
       "type": "CONNECTED",
       "headline": "PATROLS REACH THE OUTER HOLDINGS AND WINTER PASS ROAD",
       "entities": [
@@ -108,6 +106,36 @@
     },
     {
       "event": 5,
+      "date": "-0061-06-21",
+      "type": "SPECIAL",
+      "headline": "FIRE BREAKS OUT AT THE LAKE PORT AS PATROLS RUSH TO CONTAIN IT",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Lake Port",
+        "Commercial Fleet",
+        "Estate Soldiers",
+        "Merchants"
+      ],
+      "special_event": true,
+      "magnitude": 4,
+      "influence_factor": 1.953125,
+      "article": "A fire breaks out among the storehouses beside the lake port in the third week of June, sending smoke across the water and drawing men from the surrounding roads toward the quay. The first reports describe flames taking hold near stored commercial goods, with wind carrying sparks toward adjoining sheds and the moorings. Valerius's patrols reach the port while the fire is still spreading, and the soldiers join boatmen, laborers and merchants in clearing the approaches and moving exposed cargo away from the flames. Several stores are lost before the fire is brought under control, while the principal quay and the greater part of the commercial fleet remain usable. The sudden destruction interrupts ordinary traffic and forces the estate to spend heavily on clearing the damaged structures and securing the remaining stores. Merchants who witnessed the response later report that the port was saved from a much wider loss, though confidence in the affected warehouses is shaken for the remainder of the month. The incident leaves the estate facing an unexpected repair burden at precisely the point when its soldiers had been occupied with the summer patrol cycle.",
+      "ledger": {
+        "currency": -70,
+        "economy": -1,
+        "infrastructure": -2,
+        "trade": -2,
+        "supply": -2,
+        "morale": 1,
+        "stability": 1,
+        "exhaustion": 2,
+        "technology": 1,
+        "intelligence": 2,
+        "relations": 1
+      }
+    },
+    {
+      "event": 6,
       "date": "-0061-06-23",
       "type": "CONNECTED",
       "headline": "COMMERCIAL TRAFFIC CONTINUES WHILE THE GARRISON TRAINS",
@@ -117,7 +145,7 @@
         "Merchants",
         "Estate Soldiers"
       ],
-      "article": "Commercial activity at the lake port continues while the soldiers maintain their training schedule. The presence of regular patrols around the approaches gives merchants greater confidence in moving goods between the port and the estate, and receipts for transport and storage remain steady. The soldiers do not take over the port's ordinary work, but their routine presence becomes another part of the infrastructure supporting the trade route. Estate officials continue separating military stores from commercial stocks, preventing the training program from consuming supplies intended for merchants or maintenance. The month therefore produces a modest commercial return while the military establishment remains active.",
+      "article": "Despite the damage at the lake port earlier in the week, commercial activity resumes on a reduced scale while repairs begin. The presence of regular patrols around the approaches helps keep movement orderly as merchants inspect surviving stores and arrange alternate loading points. Estate officials continue separating military stores from commercial stocks, preventing the training program from consuming supplies intended for ordinary trade or maintenance. The surviving boats remain in service, and receipts continue to arrive even though the damaged warehouses cannot operate at their previous pace. The port therefore remains active, but the month's commercial accounts will carry the cost of the fire.",
       "ledger": {
         "currency": 120,
         "trade": 3,
@@ -130,7 +158,7 @@
       }
     },
     {
-      "event": 6,
+      "event": 7,
       "date": "-0061-06-27",
       "type": "WORLD",
       "headline": "REPORTS FROM ROME CARRY NEWS OF THE CLODian AFFAIR",
@@ -147,17 +175,17 @@
       }
     },
     {
-      "event": 7,
+      "event": 8,
       "date": "-0061-06-30",
       "type": "WORLD",
-      "headline": "LOCAL NEWS: A MONTH OF DRILL LEAVES THE ESTATE'S SOLDIERS ON THE ROADS",
+      "headline": "LOCAL NEWS: A MONTH OF DRILL, PATROLS AND FIRE LEAVES THE ESTATE ON ALERT",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Main Estate",
         "Lake Port"
       ],
-      "article": "June closes after a month in which Valerius has spent much of his time among the soldiers, alternating field exercises with regular patrols across the estate. The men have been seen repeatedly on the roads leading from the main holding to the lake port and the newer territory beyond it. Agricultural work, commerce and maintenance have continued while the military force has remained occupied with its own routine. Reports from the patrols have also added to the estate's knowledge of roads, water points, storehouses and movement across the holdings. The month has produced no great battle or sudden change, but the soldiers are now more accustomed to operating together across the territory they have been tasked to protect.",
+      "article": "June closes after a month in which Valerius has spent much of his time among the soldiers, alternating field exercises with regular patrols across the estate. The men have been seen repeatedly on the roads leading from the main holding to the lake port and the newer territory beyond it. The fire at the port has added an unexpected interruption to the month's routine, damaging stores and forcing repairs while the soldiers helped contain the loss. Agricultural work and the wider estate administration have continued despite the disruption, and patrol reports have added to the household's knowledge of roads, water points and movement across the holdings. The soldiers finish the month more accustomed to operating together across the territory, while the lake port enters July with repairs and commercial confidence still to recover.",
       "ledger": {
         "currency": 0
       }
@@ -165,43 +193,43 @@
   ],
   "running_total": {
     "population": 0,
-    "currency": 120,
+    "currency": 50,
     "soldiers": 0,
     "taxation": 0,
-    "economy": 2,
+    "economy": 1,
     "agriculture": 1,
-    "infrastructure": 2,
-    "trade": 4,
+    "infrastructure": 0,
+    "trade": 2,
     "readiness": 0,
-    "morale": 4,
-    "supply": 5,
+    "morale": 5,
+    "supply": 3,
     "organization": 0,
-    "stability": 9,
+    "stability": 10,
     "legitimacy": 0,
-    "exhaustion": 5,
-    "technology": 1,
-    "intelligence": 10,
-    "relations": 3
+    "exhaustion": 7,
+    "technology": 2,
+    "intelligence": 12,
+    "relations": 4
   },
   "commercial_accounting": {
     "gross_receipts": 470,
-    "operating_security_and_maintenance_costs": 350,
-    "net_public_profit": 120,
+    "operating_security_and_maintenance_costs": 420,
+    "net_public_profit": 50,
     "private_transfer_rate": 0.1,
-    "private_transfer": 12,
-    "public_account_change": 108,
-    "public_account_end": 1364,
-    "private_account_end": 141
+    "private_transfer": 5,
+    "public_account_change": 45,
+    "public_account_end": 1301,
+    "private_account_end": 134
   },
   "treasury_interest_placement": {
     "principal": 1000,
     "source_account": "public",
     "destination": "currency_treasury",
     "start_treasury": 720,
-    "qualifying_growth": 260,
+    "qualifying_growth": 190,
     "term": "3 months",
     "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
-    "current_annualized_rate": 0.05,
+    "current_annualized_rate": 0.045,
     "interest_realized": 0,
     "settlement": "after the three-month observation period"
   }
