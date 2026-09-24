@@ -474,7 +474,7 @@ function main() {
   validateNextRoundGate(state);
   validateInformationBoundaries(round);
   validateHistoricalScriptGuard(round);
-  validateEndOfRoundChecks(round);
+  validateEndOfRoundChecks(round, scenario);
   validateGitCommitState(round, scenario);
   validateChronology(scenario);
   validateNoFuturePointer(round, scenario);
