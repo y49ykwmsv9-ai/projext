@@ -1,0 +1,25 @@
+name: GMV historical schema migration
+on:
+  push:
+    paths:
+      - "projects/chronicle-memory/data/schema/gmv-round-v2.schema.json"
+      - "projects/chronicle-memory/tools/migrate-gmv-history.js"
+      - "roleplays/GMV-62BCE-001/migration-request.json"
+permissions:
+  contents: write
+jobs:
+  migrate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Normalize historical GMV records
+        run: node projects/chronicle-memory/tools/migrate-gmv-history.js
+      - name: Commit normalized history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add roleplays/GMV-62BCE-001/rounds roleplays/GMV-62BCE-001/news
+          git diff --cached --quiet && exit 0
+          git commit -m "gmv: normalize historical round and news schemas"
+          git push
