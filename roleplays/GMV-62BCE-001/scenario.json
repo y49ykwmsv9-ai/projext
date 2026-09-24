@@ -17,9 +17,9 @@
     "magnitude": null,
     "magnitude_11_eligibility": 4.7283,
     "magnitude_11_checks": [
-      77.4595,
-      45.6908,
-      82.2397
+      71.3821,
+      38.2245,
+      91.6072
     ],
     "raw_successes": 0,
     "accepted_candidates": 0,
@@ -28,9 +28,9 @@
     "magnitude_11": {
       "chance_percent": 4.7283,
       "checks": [
-        77.4595,
-        45.6908,
-        82.2397
+        71.3821,
+        38.2245,
+        91.6072
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -38,17 +38,17 @@
     }
   },
   "continuity": {
-    "campaign_development": "March 59 BCE: Valerius coordinated rapid raids against the remaining bandit holdouts and personally killed every armed holdout encountered in the decisive fighting. No Roman soldier was injured. The organized bandit positions inside the invaded estate belt collapsed, captured provisions partially replenished supplies, recovered records expanded intelligence, and local smallholders began returning to fields and work areas. Marcus Claudius Marcellus received news through the established Roman correspondence network. Personal holdings remain 4.25 sq mi; military occupation and captured property did not automatically become private ownership.",
-    "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi; military occupation in Round 50 does not create private ownership."
+    "campaign_development": "March 59 BCE: Valerius coordinated rapid raids against every remaining organized bandit holdout and personally killed every armed bandit fighter encountered in the decisive fighting. No Roman soldier was injured. Captured provisions partially replenished supplies, recovered records expanded intelligence, local smallholders began returning to fields and work areas, and Marcus Claudius Marcellus remained connected through the established Roman correspondence network. The campaign has moved from active suppression of holdouts toward occupation, civilian administration and political consequences. Personal holdings remain 4.25 sq mi; military occupation and captured property did not automatically become private ownership.",
+    "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "end_of_round_checks": {
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "pending",
+    "commit_check": "verified",
     "canonical_round_49": "verified",
     "canonical_round_50": "verified",
-    "canonical_round_51": "pending"
+    "canonical_round_51": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
