@@ -160,8 +160,8 @@
     },
     "commit_check": {
       "required": true,
-      "verified_after_commit": false,
-      "verification_basis": "Pending post-persistence verification."
+      "verified_after_commit": true,
+      "verification_basis": "Canonical Round 43 round, news, state, and scenario files were persisted and re-read successfully after the persistence sequence."
     }
   }
 }
