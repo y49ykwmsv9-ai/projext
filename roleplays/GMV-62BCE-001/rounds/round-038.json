@@ -1,0 +1,181 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 38,
+  "period": {
+    "start": "-0060-02-01",
+    "end": "-0060-02-29",
+    "display": "1 February 60 BCE – 29 February 60 BCE"
+  },
+  "metric_schema": "fixed-v1+land-area-v1",
+  "player_action": "Gaius Maximus Valerius begins the next march only after personally confirming the source of the observation from the January camp. He then leaves the main body under its established officers and personally leads the pursuit with one single retainer, intending to stalk the observers and resolve the threat without exposing the rest of his men to another unnecessary engagement.",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-02-03",
+      "type": "DIRECT",
+      "headline": "VALERIUS CONFIRMS THE SOURCE OF THE OBSERVATION",
+      "article": "Before the column moves, Valerius returns to the ground from which the January watchers had been seen. He follows the signs left beyond the river and finds a temporary observation point concealed among the higher ground. The position contains the remains of a small fire, food scraps and marks showing that the men had been watching the Roman camp rather than merely travelling through the country. Further traces lead away from the position along a route already associated with the hidden network discovered during the earlier expedition. Valerius therefore has the first firm evidence that the figures seen from the winter camp were part of the same organized network that had already watched and opposed the Roman column.",
+      "ledger": {
+        "currency": -8,
+        "supply": -1,
+        "readiness": 1,
+        "intelligence": 18,
+        "exhaustion": 8,
+        "relations": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-02-06",
+      "type": "DIRECT",
+      "headline": "THE NEXT MARCH BEGINS AFTER THE SOURCE IS CONFIRMED",
+      "article": "The main column leaves the fortified winter position once the source of the observation has been established. Valerius gives the officers remaining with the body responsibility for maintaining the march and preserving the supply reserve while he moves ahead on a separate pursuit. The earthworks, watchtower and storehouse remain behind as a secure base rather than being abandoned in haste. The column proceeds into the country beyond the winter camp, carrying enough provisions to continue the interior expedition without exhausting the reserve held at the fortified position. The movement marks the formal resumption of the campaign after the January recovery period.",
+      "ledger": {
+        "currency": -25,
+        "supply": -4,
+        "exhaustion": 10,
+        "readiness": 1,
+        "intelligence": 4
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-02-10",
+      "type": "DIRECT",
+      "headline": "VALERIUS AND ONE RETAINER FOLLOW THE WATCHERS' TRAIL",
+      "article": "Valerius leaves the immediate column with a single trusted retainer and follows the route leading away from the observation point. The pair remain ahead of the main body long enough to determine where the watchers have been making their temporary camp. By nightfall they can distinguish signs of a settled encampment from the scattered traces of travellers. Valerius keeps the main force out of the immediate action, unwilling to expose hundreds of men merely to discover whether a small hostile party can be reached without a general engagement. The information gathered during the pursuit gives him a clear indication of where the watchers are based.",
+      "ledger": {
+        "currency": -12,
+        "supply": -1,
+        "intelligence": 20,
+        "exhaustion": 6,
+        "readiness": 1
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-02-13",
+      "type": "SURPRISE",
+      "special_event": true,
+      "magnitude": 7,
+      "change_index": 4.76837158203125,
+      "headline": "THE WATCHERS' CAMP IS SILENCED BEFORE THE MAIN COLUMN ARRIVES",
+      "article": "The camp beyond the ridge is found occupied by the same network whose movements had been traced from the winter position. Valerius and his single retainer reach the camp without bringing the main column into the encounter, and the first moments pass without the alarm spreading through the surrounding country. The position is then brought under Roman control before the wider Roman force has been committed. Several occupants are taken into custody, while others flee into the surrounding ground and abandon equipment, stores and written material behind them. The result is not a pitched battle, but it is far more consequential than a simple patrol encounter because the camp itself had served as an observation and communications point for the network. By first light, the Roman party has control of the abandoned position and a collection of records that can be examined by the larger expedition. The main body is informed only after the immediate danger has passed, leaving the bulk of Valerius's soldiers untouched by the encounter.",
+      "ledger": {
+        "currency": -45,
+        "readiness": 4,
+        "morale": 6,
+        "supply": 8,
+        "organization": 2,
+        "stability": 4,
+        "legitimacy": 3,
+        "exhaustion": 12,
+        "technology": 3,
+        "intelligence": 35,
+        "relations": 4
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-02-17",
+      "type": "CONNECTED",
+      "headline": "CAPTURED RECORDS REVEAL THE NETWORK'S INNER ROUTES",
+      "article": "The material recovered from the camp is examined after the main column reaches the position. Among the abandoned stores are written records and route markings that correspond with several of the hidden roads already discovered during the expedition. The records indicate that the watchers were not operating as an isolated band but were connected to other settlements and temporary stores farther into the interior. Several place names appear more than once, giving Roman officers the first coherent indication of how the scattered observation posts communicate with one another. The information does not settle every question, but it turns the earlier collection of isolated discoveries into a more intelligible network of routes and supporting positions.",
+      "ledger": {
+        "currency": -15,
+        "supply": -2,
+        "intelligence": 22,
+        "technology": 2,
+        "exhaustion": 5
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-02-21",
+      "type": "DIRECT",
+      "headline": "THE MAIN COLUMN ADVANCES BEYOND THE SILENCED CAMP",
+      "article": "With the immediate observation post removed, the main column resumes its advance into the interior. Officers secure the recovered stores and preserve the records before moving onward, while the route ahead is checked against the information recovered from the camp. The soldiers march in a more deliberate order than during the earlier pursuit, keeping the supply line connected to the fortified winter position. Valerius remains with the expedition after his reconnaissance, using the newly recovered information to determine the direction of the next movement. The column therefore enters the next stage with both its strength preserved and its understanding of the surrounding network considerably enlarged.",
+      "ledger": {
+        "currency": -20,
+        "supply": -3,
+        "readiness": 2,
+        "intelligence": 10,
+        "exhaustion": 8,
+        "organization": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-02-25",
+      "type": "WORLD",
+      "headline": "NEWS FROM ROME REACHES THE INTERIOR EXPEDITION",
+      "article": "Reports from Rome continue to circulate through the roads and commercial connections that reach the expedition's wider region. Gaius Julius Caesar's consulship remains a central subject of political discussion, while the influence of Gnaeus Pompeius Magnus and Marcus Licinius Crassus continues to shape the calculations of Roman political society. Marcus Tullius Cicero also remains a prominent voice in public affairs, and reports from Rome are carried outward even to distant military and commercial communities. None of these developments directly determines Valerius's present movement, but they form part of the political background against which Roman commanders and landholders judge the value of continued operations abroad. The expedition receives the news as information rather than as an immediate change in its orders.",
+      "ledger": {
+        "intelligence": 5,
+        "relations": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0060-02-29",
+      "type": "WORLD",
+      "headline": "LOCAL ROUNDUP: THE FIRST WATCHING POST HAS FALLEN",
+      "article": "The February march has carried Valerius beyond the winter position and into a new section of the interior routes. The source of the January observation was confirmed, and the watchers' camp was reached without committing the main body to another pitched engagement. Records recovered from the position now provide additional names and routes connected with the wider network that has occupied the expedition for months. The Roman column continues forward with its strength preserved and its supply reserve partly replenished by stores taken at the abandoned camp. The next movement will be shaped by the roads and settlements now revealed beyond the first observation post.",
+      "ledger": {}
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": -125,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 0,
+    "infrastructure": 0,
+    "trade": 0,
+    "readiness": 9,
+    "morale": 6,
+    "supply": -3,
+    "organization": 3,
+    "stability": 4,
+    "legitimacy": 3,
+    "exhaustion": 49,
+    "technology": 5,
+    "intelligence": 114,
+    "relations": 6,
+    "land_area_sq_miles": 0
+  },
+  "land_area_measurement": {
+    "metric": "land_area_sq_miles",
+    "value": 4,
+    "delta": 0,
+    "unit": "square miles",
+    "acres": 2560,
+    "roman_iugera_approx": 4110,
+    "scope": "Gaius Maximus Valerius personal estates and holdings"
+  },
+  "special_event_selection": {
+    "standard_opportunity_percent": 12,
+    "standard_special_selected": true,
+    "standard_magnitude": 7,
+    "standard_change_index": 4.76837158203125,
+    "magnitude_11": {
+      "chance_percent": 6.42,
+      "checks": [
+        48.2271,
+        12.4473,
+        81.3304
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    }
+  },
+  "financials": {
+    "gross_receipts": 470,
+    "operating_security_maintenance": 350,
+    "net_public_commercial_profit": 120,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 12
+  }
+}
