@@ -1,22 +1,128 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 10,
   "period": {
     "start": "-0062-10-01",
     "end": "-0062-10-31"
   },
-  "player_action": "Gaius Maximus Valerius emphasizes that he seeks neither to grow beyond his proper station nor to usurp authority. He publicly conducts his affairs according to Roman law and the virtues expected of a respectable Roman landholder and commander. He declares the road and lake port officially open for commerce and hosts an opening festival intended to draw merchants, laborers, neighboring people and others whose ears may have reached the estate's name.",
-  "running_total": {
-    "currency": -450,
-    "population": 5,
-    "economy": 3,
-    "trade": 6,
-    "relations": 5,
-    "legitimacy": 4,
-    "stability": 2,
-    "intelligence": 1,
-    "morale": 2,
-    "supply": 1,
-    "organization": 1
+  "action": {
+    "action_id": "GMV-62BCE-001-R010-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius emphasizes that he seeks neither to grow beyond his proper station nor to usurp authority. He publicly conducts his affairs according to Roman law and the virtues expected of a respectable Roman landholder and commander. He declares the road and lake port officially open for commerce and hosts an opening festival intended to draw merchants, laborers, neighboring people and others whose ears may have reached the estate's name.",
+    "components": []
+  },
+  "historical_context": null,
+  "events": [],
+  "round_ledger": {
+    "currency": {
+      "before": null,
+      "delta": -450,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "population": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 6,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
+  },
+  "financials": null,
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-unspecified",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-010.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 10,
+    "period": {
+      "start": "-0062-10-01",
+      "end": "-0062-10-31"
+    },
+    "player_action": "Gaius Maximus Valerius emphasizes that he seeks neither to grow beyond his proper station nor to usurp authority. He publicly conducts his affairs according to Roman law and the virtues expected of a respectable Roman landholder and commander. He declares the road and lake port officially open for commerce and hosts an opening festival intended to draw merchants, laborers, neighboring people and others whose ears may have reached the estate's name.",
+    "running_total": {
+      "currency": -450,
+      "population": 5,
+      "economy": 3,
+      "trade": 6,
+      "relations": 5,
+      "legitimacy": 4,
+      "stability": 2,
+      "intelligence": 1,
+      "morale": 2,
+      "supply": 1,
+      "organization": 1
+    }
   }
 }
