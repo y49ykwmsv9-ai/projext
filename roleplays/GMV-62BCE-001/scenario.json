@@ -14,16 +14,16 @@
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
-    "this_round_standard_special": false,
-    "this_round_magnitude": null,
+    "this_round_standard_special": true,
+    "this_round_magnitude": 7,
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
       "chance_percent": 4.7283,
       "checks": [
-        83.6142,
-        41.2087,
-        72.9051
+        65.2041,
+        44.1187,
+        91.3072
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -31,18 +31,18 @@
     }
   },
   "continuity": {
-    "campaign_development": "April 59 BCE: Following the destruction of the organized bandit holdouts, Valerius consolidated the occupied estate belt, reopened civilian roads, processed recovered records, and maintained correspondence with Marcus Claudius Marcellus. A newly surfaced local property claim demonstrated that restoring security did not resolve every ownership dispute. The expedition remains at 398 soldiers with no Roman combat injuries added; supply is 58, exhaustion 70, readiness 98, intelligence 1024, and relations 105. Personal holdings remain 4.25 sq mi; the disputed tract was not acquired.",
+    "campaign_development": "April 59 BCE: Following the destruction of the organized bandit holdouts, Valerius consolidated the occupied estate belt, reopened civilian roads, processed recovered records, and maintained correspondence with Marcus Claudius Marcellus. A newly surfaced local property claim remained unresolved. On 27 April, a sealed dispatch from Quintus Caecilius Metellus Celer widened the political attention surrounding the recovered register and requested preservation of the source material. The expedition remains at 398 soldiers; supply is 58, exhaustion 69, readiness 97, intelligence 1027, and relations 108. Personal holdings remain 4.25 sq mi; the disputed tract was not acquired.",
     "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "end_of_round_checks": {
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "verified",
+    "commit_check": "pending",
     "canonical_round_49": "verified",
     "canonical_round_50": "verified",
     "canonical_round_51": "verified",
-    "canonical_round_52": "verified"
+    "canonical_round_52": "pending"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
