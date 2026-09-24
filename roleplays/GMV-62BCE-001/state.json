@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 42,
-  "date": "-0060-06-30",
+  "round": 43,
+  "date": "-0060-07-31",
   "treasury": 1880,
   "wealth_accounts": {
     "public": 2693,
@@ -27,7 +27,7 @@
     "legitimacy": 100,
     "exhaustion": 55,
     "technology": 85,
-    "intelligence": 963,
+    "intelligence": 968,
     "relations": 100,
     "land_area_sq_miles": 4.25
   },
@@ -42,15 +42,15 @@
     "nearby-landowners": 26,
     "poor-agricultural-workers": 7,
     "smallholders": 3,
-    "military-connections": 16,
+    "military-connections": 20,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus_celer": 0,
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "June 60 BCE: Valerius continued acquiring neglected estates as restoration projects, refused an exploitative distressed sale, restored fields and infrastructure, and received a voluntary offer for a neighboring estate that remained under negotiation. Treasury fell to 1880 from restoration expenditure; agriculture rose to 79, relations to 100, and holdings to 4.25 square miles.",
-    "land_area_history": "4.25 square miles after a 0.25 square mile increase from completed restoration-oriented estate purchases."
+    "campaign_development": "July 60 BCE: Valerius spent the month training personally with the officers he had decorated, appointed them to guard his person and estates, and granted them honorary standing within his household lineage and dynastic circle. Their personal military connection strengthened and intelligence rose to 968; all other core metrics remained unchanged.",
+    "land_area_history": "4.25 square miles unchanged."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
@@ -62,9 +62,9 @@
     "magnitude_11": {
       "chance_percent": 6.42,
       "checks": [
-        28.4417,
-        71.2063,
-        94.1182
+        41.2841,
+        68.5172,
+        93.0046
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
