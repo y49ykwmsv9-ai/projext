@@ -1,1167 +1,262 @@
 # Chronicle Memory Roleplay Engine
 
-**Project ID:** `chronicle-memory`
+**Project ID:** chronicle-memory
 
-Chronicle Memory is an isolated alternate-history roleplay and simulation project. It is designed around a chat-first interaction: the player chooses a preset, role, and starting date, then gives natural-language commands. The actual game output is returned in the conversation. GitHub stores the rules, schemas, historical reference structure, and supporting code, but it is **not** the player's required output channel.
+Chronicle Memory is an isolated alternate-history roleplay and simulation project. The conversation is the gameplay interface; GitHub stores canonical rules, schemas, state, historical references, validation code, and campaign records. It is separate from Worldforge, Chronicle AI, and Historix Renderer.
 
-The project is intentionally separate from Worldforge, Chronicle AI, and Historix Renderer. It may **read** shared historical data, but its scenario state, resolver, memory graph, and runtime logic are owned by this directory.
+## Roleplay operating contract
 
-## Roleplay operating rules
+### Time and rounds
+- The player controls time advancement. Ordinary actions do not advance the calendar unless explicitly requested or their modeled completion requires later processing.
+- Every substantive game response identifies the current Round and Date.
+- A time advance parses the requested duration, advances the calendar, increments the round, processes ongoing projects and systemic changes, resolves autonomous actors, generates relevant events, updates state/memory/causal links, and reports the result.
+- Historical dates are context, not commands to reproduce real-world outcomes.
 
-These rules are mandatory for every game session.
+### Natural-language actions
+Every actionable instruction is interpreted into actor, action/intent, target, location, timing, prerequisites/resources, uncertainty, immediate effects, delayed effects, reactions, unintended consequences, and causal links. Actions may succeed, partially succeed, fail, be delayed, create unintended outcomes, trigger reactions, create opportunities, consume resources without achieving the goal, or create persistent projects.
 
-### 1. Every response reports the current round and date
+### Autonomous actors and information
+Other characters, governments, factions, institutions, armies, merchants, religious organizations, cities, and populations act independently according to interests, resources, information, institutions, geography, relationships, and prior experience. Actors cannot use information unavailable to them.
 
-Every substantive game response must begin with the current simulation clock:
+The simulation separates what actually happened, what the player knows, what the player's character knows, what another actor knows, and what is suspected, inferred, or rumored. Secret actions therefore do not automatically become public knowledge.
 
-```text
-Round: 12
-Date: 14 March 1066
-```
+### Historical baseline and divergence
+Historical reference material initializes conditions such as geography, population, institutions, technology, economics, military capacity, relationships, people, cities, infrastructure, and events where supported. Once play begins, accumulated scenario state is authoritative. The engine must never force a historical event merely because the real-world calendar reaches its historical date.
 
-The exact format may be styled differently in the eventual UI, but both **Round** and **Date** must always be present.
+Historical estimates remain distinguishable from simulation values. A source estimate may be converted into a documented starting value; subsequent changes are simulation state and retain provenance.
 
-The round number is the simulation turn counter. It increments whenever the player advances time. It does not mean a fixed historical unit such as a month or year.
+## Dynamic event and news rules
 
-### 2. The player controls time advancement
+**Dynamic events are a permanent rule for every future round, not a special rule for any particular storyline or action.**
 
-The player decides how far the simulation moves forward.
+The objective is a living, causally coherent world without manufactured drama or filler.
 
-Examples:
+### Dynamic-event requirements
+Future events should, when supported by resolved state:
+- contain distinct developments rather than repetitive administrative steps;
+- include meaningful opportunities, complications, reversals, discoveries, reactions, consequences, or new story threads;
+- vary across military, political, diplomatic, economic, social, logistical, geographic, personal, technological, environmental, and other relevant domains;
+- give autonomous actors genuine agency;
+- allow beneficial, costly, ambiguous, mixed, delayed, and unintended outcomes;
+- create persistent consequences when warranted;
+- reflect geography, resources, institutions, information, logistics, prior history, and current state;
+- remain period-authentic and historically plausible without becoming scripted history;
+- make SURPRISE events genuinely unexpected while remaining causally defensible;
+- scale narrative detail with significance.
 
-- `move 1 week`
-- `move 1 month`
-- `move 1 year`
-- `move 10 years`
-- `move 3 months`
-- `move 17 days`
-- `move 2 years and 6 months`
+Dynamic does not mean artificially dramatic. Do not invent a crisis, battle, discovery, betrayal, or windfall merely to make a round exciting. If the simulation supports only a quiet development, report it accurately.
 
-The engine must parse ordinary language equivalents such as:
+### News-cycle rules
+A time advance produces a news cycle rather than a dry status dump. The default presentation target is 5–10 distinct newsworthy articles per time leap, adjusted for actual event density and duration:
+- 1 week: usually about 5;
+- 1 month: usually 5–7;
+- 1 year: usually 6–10;
+- multi-year/decade leaps: up to 10, with major developments receiving more narrative space.
 
-- `advance a year`
-- `skip ahead five years`
-- `let six months pass`
-- `continue for one decade`
-- `move forward until 1100`
+These are presentation targets, not permission to create filler. Each article must correspond to a real resolved event/state record. A news article must not be a disguised explanation of internal simulation logic.
 
-A time-advance command changes the simulation clock, increments the round, applies accumulated demographic/economic/military/diplomatic processes, resolves autonomous actor behavior, creates relevant events, recalculates statistics, and then reports what happened.
+Each substantive event normally uses a period-authentic 5–7 sentence account describing what happened, who was involved, where it occurred, relevant causes and consequences, and what information reached the player. Major events may be longer or multipart.
 
-The engine must **not** advance the calendar merely because the player issued an ordinary action. If the player says `build a harbor`, that action is resolved at the current date unless its wording explicitly includes a passage of time or the action's modeled completion requires future processing.
+A nation, faction, person, institution, place, or asset mentioned in an article must be a real scenario entity and the article must have a corresponding structured event record. The article is the narrative view of state, not decorative fiction.
 
-### 3. Natural-language commands must cause game logic
+## Causal simulation rules
 
-The player should be able to speak normally rather than use a rigid command language.
+Numbers are first-class game state. Once a scenario establishes a numerical value, later rounds use that value unless a valid state mutation changes it.
 
-Examples:
+Current value = starting value + recorded positive changes - recorded negative changes + modeled growth/decay.
 
-- `Raise taxes on the merchants.`
-- `Build a defensive wall around the capital.`
-- `Send an envoy to the neighboring kingdom and propose a trade agreement.`
-- `Recruit 2,000 additional soldiers.`
-- `Try to secretly fund rebels in the province.`
-- `Move the army toward the northern border.`
-- `I want to make the capital the center of regional trade.`
-- `Order my commanders to prepare for an invasion without declaring war.`
+Important systems must interact causally. Examples include population to tax base to Treasury, population to manpower, infrastructure to production/trade capacity, trade to income to Treasury, conscription to manpower and labor availability, labor shortage to production and food prices, food shortage to mortality/migration/unrest, military mobilization to Treasury/food/labor consumption, and war to casualties/trade disruption/migration/political effects.
 
-The engine must interpret the command into game logic. A response such as `Okay!` followed by no state change is invalid behavior.
+A player-facing event describes actual consequences, not merely the player's instruction. Internal causal calculations are not news unless they themselves create a newsworthy consequence.
 
-For each actionable instruction, the resolver should determine as appropriate:
+## Special-event magnitude system
 
-1. **Who** is acting.
-2. **What** they are attempting.
-3. **Who or what** is affected.
-4. **Where** it occurs.
-5. **When** it occurs or how long it takes.
-6. **Required resources and prerequisites.**
-7. **Probability or feasibility**, where uncertainty is meaningful.
-8. **Immediate state changes.**
-9. **Delayed effects.**
-10. **Reactions by other actors.**
-11. **Unintended or second-order consequences.**
-12. **Events and causal links** created by the action.
+GMV special events use one fixed significance system.
 
-The assistant should reason through the action rather than merely acknowledge it.
+- Magnitude 1–10: resolved event significance/intensity; 1 minor, 10 exceptional.
+- Magnitude is assigned after simulation resolution from actual scope, consequences, actors, resources at stake, and persistence.
+- Magnitude does not guarantee success, positive outcomes, casualties, territory, or any other result.
+- Magnitude 11 is an exceptional extension/check, not part of the ordinary 1–10 scale.
+- Magnitude never replaces fixed simulation metrics.
 
-### 4. Every meaningful action changes or tests state
+When active, structured resolution records opportunity/chance, selection, resolved magnitude, change-index data where used, magnitude-11 eligibility/checks, raw successes, accepted candidates, and magnitude-11 events. If no special event is selected, special_event is null. Never fabricate a SPECIAL event. SURPRISE is an ordinary event category and does not imply a special event or magnitude.
 
-An instruction may:
+## Canonical player-facing round format
 
-- succeed;
-- partially succeed;
-- fail;
-- be delayed;
-- produce an unintended outcome;
-- trigger a reaction;
-- create a new opportunity;
-- consume resources without achieving the intended result;
-- create a persistent project that resolves over later rounds.
+Every event uses this structure:
 
-The outcome must be reflected in the simulation state.
+• EVENT N
+• Date: <date>
+• Type: DIRECT / CONNECTED / SURPRISE / SPECIAL
+• Entities: <actual involved entities>
 
-For example, if the player orders construction of a harbor, the engine should not simply say that construction began. It should determine or update relevant values such as:
+HEADLINE
 
-- treasury cost;
-- available labor;
-- construction capacity;
-- material requirements;
-- expected completion date;
-- trade capacity;
-- employment;
-- population effects;
-- food/logistics implications;
-- neighboring reactions;
-- the harbor's eventual capacity.
+<5–7 sentence period-authentic news article>
 
-### 5. Numbers are first-class game state
+AI Ledger
+<only metrics changed by this event>
 
-The simulation must maintain exact numerical values for modeled variables once they have been established in the scenario.
+The fixed player-facing event categories are exactly DIRECT, CONNECTED, SURPRISE, and SPECIAL. Do not replace them with internal resolver labels or subject-matter categories.
 
-If the player asks:
+Every event ledger lists only metrics actually changed by that event and records before → after, delta, unit, reason, source_event_id, and provenance in structured persistence. Unchanged metrics do not receive fake zero entries.
 
-> How many people live in my capital?
-
-the response should return the current simulation value, for example:
-
-```text
-Capital population: 137,842
-```
-
-That number must not be freshly invented on every turn.
-
-A numerical state should have a ledger conceptually equivalent to:
-
-```text
-current value
-= starting value
-+ recorded positive changes
-- recorded negative changes
-+ modeled growth/decay
-```
-
-Useful tracked quantities can include:
-
-- population;
-- births and deaths;
-- immigration and emigration;
-- households;
-- treasury;
-- tax revenue;
-- production/output;
-- food supply;
-- prices;
-- trade volume;
-- infrastructure capacity;
-- manpower;
-- military strength/readiness;
-- military casualties;
-- naval capacity;
-- stability;
-- legitimacy;
-- diplomatic relations;
-- territorial control;
-- resource stocks.
-
-The exact variables depend on the selected scenario and historical period.
-
-**Important distinction:** an exact number in the simulation means exact within the modeled alternate timeline. It does not claim that an uncertain historical estimate is literally known to the exact person.
-
-### 6. Statistics must interact causally
-
-The engine should not maintain disconnected numbers.
-
-Examples:
-
-```text
-Population -> tax base -> treasury
-Population -> manpower
-Infrastructure -> production/trade capacity
-Trade -> income -> treasury
-Conscription -> manpower -> labor availability
-Labor shortage -> production -> food prices
-Food shortage -> mortality/migration/unrest
-Military mobilization -> treasury + food + labor consumption
-War -> casualties + trade disruption + migration + political effects
-```
-
-When a player changes one important variable, the engine should consider the systems that logically depend on it.
-
-### 7. The simulation remembers its own history
-
-Once an action has happened in the alternate timeline, later turns use that result.
-
-The engine must not silently revert to the real historical timeline.
-
-For example:
-
-1. The player prevents a historical war.
-2. The scenario records the changed diplomatic and military conditions.
-3. Several rounds later, the real-world historical war date arrives.
-4. The engine does **not** automatically create that war simply because it happened in reality.
-
-Canonical history is context. The scenario's accumulated state is the authority for the alternate timeline.
-
-### 8. Characters and AI actors act independently
-
-The player is not the only source of action.
-
-Other characters, governments, factions, institutions, armies, merchants, religious organizations, cities, and populations should respond according to their:
-
-- interests;
-- resources;
-- information;
-- institutions;
-- relationships;
-- geography;
-- prior experiences;
-- current scenario conditions.
-
-They should not possess information the simulation has not made available to them.
-
-The player should therefore encounter consequences, opportunities, rumors, resistance, diplomacy, economic changes, and unexpected developments that were not directly commanded.
-
-### 9. Hidden information remains hidden when appropriate
-
-The engine should distinguish between:
-
-- what the player knows;
-- what the player's character knows;
-- what other actors know;
-- what actually happened;
-- what is merely suspected or rumored.
-
-Secret actions should not automatically become public knowledge.
-
-Historical context may inform the assistant's reasoning, but it should not be exposed as omniscient information when the player's role would not reasonably know it.
-
-### 10. Historical data is the baseline, not a script
-
-A preset establishes historical conditions at the selected starting date, including where supported:
-
-- population;
-- geography;
-- institutions;
-- technology;
-- economics;
-- military capacity;
-- political relationships;
-- people;
-- historical events;
-- cities and infrastructure.
-
-Once the player acts, the simulation branches.
-
-The engine must not force real-world events merely because the calendar reaches the date on which they happened historically.
-
-### 11. Historical values and simulation values remain separate
-
-A historical source may provide an estimate such as a population range.
-
-The scenario can convert that into a starting modeled value using documented assumptions. After the scenario starts, subsequent changes belong to the simulation.
-
-Conceptually:
-
-```text
-Historical source estimate
-        ↓
-Scenario initialization
-        ↓
-Simulation value
-        ↓
-Recorded changes over time
-        ↓
-Current alternate-history value
-```
-
-The response should be able to distinguish historical evidence from scenario-derived numbers when that distinction matters.
-
-### 12. Uncertainty must be represented honestly
-
-Sparse historical data, disputed claims, and estimated statistics should carry uncertainty/provenance.
-
-The engine may use modeled values when necessary, but it should not pretend that an estimate is a directly observed historical fact.
-
-Once a scenario establishes a numerical value, however, that value becomes authoritative for subsequent simulation calculations unless a later event explicitly changes it.
-
-### 13. Every turn follows a resolution pipeline
-
-For an ordinary player command:
-
-```text
-Player instruction
-    ↓
-Interpret plain language
-    ↓
-Identify actor / target / location / intent
-    ↓
-Check current state and prerequisites
-    ↓
-Calculate immediate effects
-    ↓
-Calculate delayed effects
-    ↓
-Resolve autonomous reactions
-    ↓
-Update numerical state
-    ↓
-Create event memory
-    ↓
-Update causal graph
-    ↓
-Update statistics
-    ↓
-Generate narrative response
-    ↓
-Report Round + Date + Results
-```
-
-For a time advance:
-
-```text
-Player time command
-    ↓
-Parse requested duration
-    ↓
-Advance calendar
-    ↓
-Increment round
-    ↓
-Process ongoing projects
-    ↓
-Apply demographic/economic/systemic changes
-    ↓
-Resolve autonomous actors
-    ↓
-Generate relevant events
-    ↓
-Update numerical state
-    ↓
-Update causal graph and memory
-    ↓
-Report Round + Date + Results
-```
-
-### 14. Responses should describe actual consequences
-
-A normal game response should tell the player what occurred, not merely repeat their instruction.
-
-For example, instead of:
-
-> You ordered the army north. Okay!
-
-the engine should resolve movement using available roads, terrain, supply, unit readiness, weather where modeled, enemy activity, and other relevant conditions, then report the resulting position, time/cost, intelligence, and reactions.
-
-For major events, narrative detail should scale with significance. Small routine changes can be concise. Wars, coups, economic crises, major construction, diplomatic breakthroughs, disasters, and other consequential events should receive substantially more detailed reporting.
-
-### 15. The chat is the game interface
-
-The player should not need to open GitHub, a dashboard, or an external database to receive game results.
-
-The intended interaction is:
-
-```text
-Player -> natural-language command -> assistant resolves simulation -> assistant returns result in chat
-```
-
-GitHub is the project's persistent engineering/reference layer. The conversation is the gameplay interface.
-
-## Example session
-
-```text
-Round: 1
-Date: 1 January 1066
-
-Player:
-I want to increase taxes on wealthy merchants and use the money to expand the capital's defenses.
-
-Engine:
-Interprets the instruction as a tax-policy change plus a defense construction program.
-
-It calculates the affected merchant population, expected revenue, political resistance, construction cost, available labor, and completion schedule.
-
-The tax change takes effect immediately. Construction begins if prerequisites are met. The resulting values are stored in scenario state.
-
-Player:
-move 1 year
-
-Engine:
-Advances the simulation by one year, processes the construction project, applies economic and demographic changes, resolves reactions, and reports the resulting events.
-
-Round: 2
-Date: 1 January 1067
-
-Capital population: 139,214
-Treasury: 48,620 silver
-Fortification project: 71% complete
-Merchant approval: -8
-Military readiness: +4%
-```
-
-The exact values above are illustrative only. In a real session they must come from the scenario state and calculation ledger.
-
-
-## Established special-event magnitude system
-
-GMV special events use the established magnitude framework. Magnitude is a **separate event-significance system** and must not replace or alter the fixed simulation metrics.
-
-### Magnitude scale
-
-- **Magnitude 1–10**: the event's resolved significance/intensity, where 1 is minor and 10 is exceptional.
-- Magnitude is assigned **after simulation resolution**, based on the event's actual scope, consequences, actors, resources at stake, and persistence.
-- Magnitude does not guarantee success, positive outcomes, casualties, territorial gains, or any other particular result.
-- A high-magnitude event can produce gains, losses, mixed consequences, or no persistent metric change if the resolved event warrants that result.
-- Magnitude must never be used as a substitute for exact quantities or the fixed 0–100 / -100 to +100 condition metrics.
-
-### Standard special-event selection
-
-When the established special-event system is active, the resolver records:
-
-- standard opportunity/chance;
-- whether the opportunity was selected;
-- resolved magnitude;
-- change index / magnitude-resolution value where used by the existing engine;
-- magnitude-11 eligibility/checks when the established system invokes that extension;
-- raw successes;
-- accepted candidates;
-- magnitude-11 events.
-
-**Magnitude 11 is an exceptional extension check, not part of the normal 1–10 scale.** It must never be silently presented as an ordinary magnitude result.
-
-### Special-event display
-
-If a special event is selected, the player-facing round output must identify it using the established special-event presentation and include its resolved magnitude. Its narrative must describe the actual resolved event, while its numerical consequences remain in the AI Ledger/state record.
-
-If no special event is selected, the output must explicitly preserve `special_event: null` in the structured record. Do not fabricate a special event merely to populate the presentation.
-
-### Magnitude integrity
-
-Magnitude is not a player-favoring reward roll. It is a significance/intensity resolution layer subject to the same simulation constraints as every other event:
-
-- resources;
-- geography;
-- logistics;
-- information;
-- actor capabilities;
-- prior state;
-- causal dependencies;
-- alternate-history conditions.
-
-The magnitude system must remain consistent across rounds. Do not invent a new event-intensity scale, rename magnitude into another metric, or switch to a different numerical range mid-campaign.
-
-## Mandatory plain-text roleplay output format
-
-The canonical gameplay response format is not the raw JSON schema. The JSON records are the persistence layer; the player-facing response must preserve the established GMV plain-text presentation.
-
-Every round response must use this structure:
-
-```text
-# Round N
-Character: Gaius Maximus Valerius
-Date: <start date> – <end date>
-
-## <event date> — <EVENT TYPE> — <HEADLINE>
-**Involved Parties / Entities:** <named actors, groups, institutions, places, or assets>
-
-<5-7 sentence period-authentic news/article account describing what happened, who was involved, where it happened, and the consequences. Do not expose internal simulation reasoning as prose.>
-
-**AI Ledger**
-```text
-<only the metrics actually changed by this event>
-<Metric>: <before> → <after> (<delta> <unit>)
-<Metric>: <before> → <after> (<delta> <unit>)
-```
-
----
-
-## <next event date> — <EVENT TYPE> — <HEADLINE>
-**Involved Parties / Entities:** ...
-
-<article>
-
-**AI Ledger**
-```text
-...
-```
-
----
-
-## <final event date> — LOCAL ROUNDUP — <HEADLINE>
-**Involved Parties / Entities:** ...
-
-<article>
-
-**AI Ledger**
-```text
-...
-```
-
----
-
-### Round N Running Total
-```text
-Population: <delta>
-Currency: <delta>
-Soldiers: <delta>
-Taxation: <delta>
-Economy: <delta>
-Agriculture: <delta>
-Infrastructure: <delta>
-Trade: <delta>
-Readiness: <delta>
-Morale: <delta>
-Supply: <delta>
-Organization: <delta>
-Stability: <delta>
-Legitimacy: <delta>
-Exhaustion: <delta>
-Technology: <delta>
-Intelligence: <delta>
-Relations: <delta>
-Land Area: <delta>
-```
-
-**End of Round N: <end date>**
-```
-
-### Event-type vocabulary
-
-The player-facing **Type** field uses the established GMV event categories:
-
-- **DIRECT**
-- **CONNECTED**
-- **SURPRISE**
-- **SPECIAL**
-
-These are the event categories used in the plain-text gameplay display. They are not interchangeable with subject-matter labels or internal resolver classifications.
-
-Do not substitute implementation labels such as `direct`, `logistics`, `inference`, `political`, or `roundup` for the player-facing category. The category must be displayed explicitly with every event.
-
-### Involved parties / entities
-
-Every event header must identify the relevant parties/entities immediately below the header. These may include the player character, named historical figures, allied or hostile actors, factions, local households, workers, recruits, neighboring landowners, farms, estates, travelers, merchants, robbers/bandits, institutions, or relevant locations/assets. Only identify entities that are actually involved in the resolved event; do not add decorative names.
-
-### Event ledger rules
-
-- The article is the narrative view of the resolved event.
-- The **AI Ledger** is the compact numerical audit view.
-- An event ledger lists **only metrics changed by that event**; unchanged metrics do not receive fake zero entries.
-- Every changed metric uses the fixed vocabulary and records before → after, delta, and unit.
-- The event's structured record must additionally retain `reason`, `source_event_id`, and `provenance`.
-- Do not expose internal causal calculations as if they were news.
-- Do not omit the ledger merely because the change is small.
-- Do not invent a special event simply to fill the format. If no special event resolves, report that no standard special event occurred in the structured record rather than fabricating one.
-
-### Always-referenced round statistics
-
-The round-end display must keep the same statistical vocabulary across rounds. The standard running total references:
-
-**Population, Currency/Treasury, Soldiers, Taxation, Economy, Agriculture, Infrastructure, Trade, Readiness, Morale, Supply, Organization, Stability, Legitimacy, Exhaustion, Technology, Intelligence, Relations, and Land Area.**
-
-The round-end state also references the established accounting statistics whenever applicable:
-
-- public account / public wealth;
-- private account / private wealth;
-- private transfer rate;
-- last-round net public commercial profit;
-- last-round private transfer;
+Round end uses the same metric vocabulary every round:
+
+Population, Currency, Treasury, Soldiers, Taxation, Economy, Agriculture, Infrastructure, Trade, Readiness, Morale, Supply, Organization, Stability, Legitimacy, Exhaustion, Technology, Intelligence, Relations, and Land Area.
+
+The end-of-round state also reports applicable accounting fields.
+
+## Canonical metric definitions and scales
+
+One metric vocabulary is used across all rounds. New rounds must not invent alternate indexes for concepts already defined here.
+
+| Metric | Unit / scale | Specific definition |
+|---|---|---|
+| Population | exact people | Total modeled resident population at the recorded date. |
+| Births | exact people/period | Recorded births during the period. |
+| Deaths | exact people/period | Recorded deaths during the period. |
+| Migration | exact people/period | Migration into or out of the modeled population; direction must be explicit. |
+| Treasury | exact currency units | Immediately spendable public/estate liquid account for procurement, construction, administration, military costs, and other public-side expenditure. |
+| Currency | exact currency units | Valerius's net liquid monetary position: coined money and liquid monetary claims personally available to him after recorded monetary inflows/outflows. |
+| Public Wealth | exact currency/asset value as defined by scenario | Broader public/estate asset account; not interchangeable with Treasury. |
+| Private Wealth | exact currency/asset value as defined by scenario | Broader personally owned asset account; not interchangeable with Currency. |
+| Tax Burden / Taxation | 0–100 | Modeled burden imposed by taxation; 0 = none, 100 = maximum modeled burden. |
+| Economic Output | 0–100 | Relative condition of aggregate modeled economic production/activity. |
+| Agricultural Output | 0–100 | Relative productive condition of agriculture. |
+| Infrastructure | 0–100 | Condition/capacity of modeled infrastructure supporting settlement, production, movement, administration, and logistics. |
+| Trade Activity | 0–100 | Relative level of active commercial exchange and trade throughput. |
+| Relations | -100 to +100 | Relationship condition between specified actors: -100 maximally hostile, 0 neutral, +100 exceptionally aligned. |
+| Stability | 0–100 | Internal political/social order and resistance to disruption; 0 = collapse-level instability, 100 = highly stable. |
+| Legitimacy | 0–100 | Perceived/accepted authority of the relevant ruler, government, or political order. |
+| Total Troops | exact soldiers | Total serving military personnel in the modeled force. |
+| Available Troops | exact soldiers | Serving troops not currently committed to deployment or fixed garrison. |
+| Deployed Troops | exact soldiers | Serving troops committed to a field formation, front, expedition, or active deployment. |
+| Garrison Troops | exact soldiers | Serving troops assigned to fixed defensive garrisons. |
+| Reserve Manpower | exact people | Eligible manpower not currently serving in the military. |
+| Readiness | 0–100 | Operational preparedness of the force for modeled tasks. |
+| Morale | 0–100 | Willingness, cohesion, confidence, and fighting spirit of the force. |
+| Supply | 0–100 | Ability of the current force to sustain operations with food, equipment, transport, and other required supplies. |
+| Organization | 0–100 | Command cohesion, unit organization, discipline, and operational coordination. |
+| Permanent Losses | exact soldiers | Irrecoverable military personnel losses, including deaths or other permanent removals from service. |
+| Temporary Unavailable | exact soldiers | Serving personnel temporarily unavailable because of wounds, sickness, separation, or another explicitly modeled temporary condition. |
+| Recruitment Gains | exact soldiers/period | New soldiers added through a valid recruitment event. |
+| Reinforcements Received | exact soldiers/period | Existing soldiers transferred into the modeled force from another source. |
+| War Exhaustion | 0–100 | Cumulative modeled strain from sustained warfare and its human, economic, political, and logistical effects. |
+| Technology | 0–100 | Relative modeled technological capability for the scenario's period and domain. |
+| Intelligence Confidence | 0–100 in intended schema | Confidence in the reliability of a specific intelligence assessment or information picture. Legacy cumulative intelligence values remain legacy state rather than being silently redefined. |
+| Land Area | exact area with explicit unit | Controlled/owned land represented by the scenario. Current GMV canonical state uses square miles; acres/iugera are derived conversions only. |
+
+### Metric invariants
+1. Exact quantities remain exact; never replace people, troops, money, food stocks, casualties, or land with abstract scores.
+2. Condition metrics retain their declared scales across every round.
+3. Relations always use -100 to +100.
+4. No unexplained one-off indexes may appear in new rounds.
+5. Every persistent metric mutation records before, delta, after, unit, reason, source_event_id, and provenance.
+6. Derived metrics never replace source metrics.
+7. Military conservation must reconcile total troops with available, deployed, garrison, and other explicitly tracked serving buckets; temporary unavailable and permanent losses are separately recorded.
+8. Battles are resolved numerically before narration; articles cannot invent or alter troop/casualty results.
+9. Legacy records may retain historical schema fields for auditability, but all new rounds use this contract.
+
+## Canonical accounting definitions
+
+### Treasury
+Treasury is the public/estate liquid account. It changes when public/estate revenue is received, public/estate expenses are paid, or an explicit transfer moves money into or out of the public account.
+
+### Currency
+Currency is Valerius's personal liquid-money position. If he receives spendable coined money, Currency increases by the recognized monetary value of that receipt. If he personally spends coins, Currency decreases.
+
+### Private Wealth
+Private Wealth is the broader private asset position. It can change through acquisition/disposal of private assets, realized income, investment returns, or other explicitly recorded private transactions. A receipt of personal coin may therefore increase both Currency and Private Wealth: Currency records liquidity; Private Wealth records the broader private asset account.
+
+### Public Wealth
+Public Wealth is broader than Treasury and can include non-liquid public/estate assets and accounts. Increasing Public Wealth does not automatically mean Treasury increases.
+
+### Private transfer rate
+The private transfer rate is the established fraction of qualifying private commercial profit transferred to the public/estate side. It must be applied consistently when that mechanism is active and recorded separately from gross private receipts.
+
+### Commercial accounting
+When modeled commercial activity generates financial change, distinguish where applicable:
 - gross receipts;
-- operating security/maintenance costs;
-- investment principal and realized returns when an investment program is active.
-
-These accounting values are not substitutes for the fixed simulation metrics. They are additional persistent/derived financial statistics and must retain explicit units and provenance.
-
-### Sample canonical display schema
-
-A machine-readable sample of this player-facing contract is stored at:
-
-`projects/chronicle-memory/data/schema/gmv-round-output.sample.json`
-
-It is a display contract/example, not a replacement for the canonical `gmv-round-v2` persistence schema.
-
-## Memory layers
-
-- **Canonical history:** sourced facts and observations from shared repository data.
-- **Scenario seed:** selected preset, role, date, constraints, and initial state.
-- **World state:** current values for polities, places, populations, economies, militaries, diplomacy, institutions, and other modeled systems.
-- **Event memory:** resolved actions, reactions, discoveries, wars, treaties, economic changes, demographic changes, and other meaningful events.
-- **Causal graph:** links between actions, conditions, events, actors, places, and outcomes.
-- **Uncertainty ledger:** confidence and provenance for claims and estimates.
-- **Derived knowledge:** statistics calculated from the current alternate timeline.
-- **Narrative memory:** compact context required for coherent roleplay.
-
-## Historical grounding
-
-The project is designed to consume the repository's historical data architecture, including the CLIOPATRA/CLIOPATRIA-derived historical corpus and existing geography/statistics systems where appropriate. Shared data remains read-only from this project's perspective.
-
-The dataset is primarily a reference and memory aid. The assistant's reasoning is the active simulation layer during chat gameplay. The project should therefore avoid pretending that every gameplay decision must be delegated to an external database or service.
-
-## Initial project structure
-
-```text
-projects/chronicle-memory/
-├── README.md
-├── project.json
-├── data/
-│   ├── presets.json
-│   └── schema/
-│       └── scenario.schema.json
-└── src/
-    └── ENGINE-CONTRACT.md
-```
-
-Future runtime code belongs under this directory. Do not place scenario state in shared `data/` directories unless a dataset is intentionally promoted to repository-wide historical infrastructure.
-
-## Isolation rules
-
-- Never modify another project as part of a Chronicle Memory feature.
-- Treat shared historical data as an input dependency.
-- Keep scenario saves and generated alternate-history records project-local.
-- Record provenance for imported historical facts.
-- Keep real history and alternate-history state distinguishable in every record.
-- Prefer append-only event memory so prior decisions remain auditable.
-- Do not make GitHub the required gameplay output channel.
-- Do not replace the conversational simulation with acknowledgement-only responses.
-- Do not advance time unless the player explicitly advances it or an already-established game mechanic requires a modeled internal date transition.
-
-
-## Historix / CLIOPATRA / CLIOPATRIA reference access
-
-Chronicle Memory should make the repository's historical knowledge layer easy for the assistant to consult during gameplay. The historical database is a **reference and evidence layer**, not a separate game master.
-
-The intended lookup priority is:
-
-1. **Current scenario state**: once the alternate timeline establishes a value, that value is authoritative for the scenario.
-2. **Historix / CLIOPATRA / CLIOPATRIA repository data**: use it for historical people, places, polities, dates, populations, geography, institutions, military information, economic context, relationships, and documented events.
-3. **Other repository historical datasets**: use compatible sources when they add non-duplicate information.
-4. **Reasoned simulation estimates**: when the available historical record is incomplete, derive a plausible value from known inputs and clearly treat it as an estimate.
-5. **Explicit uncertainty**: when neither evidence nor a defensible estimate is available, state the uncertainty rather than inventing fake precision.
-
-The assistant should be able to use this reference layer while responding in chat without requiring the player to manually open the database.
-
-### Evidence labels
-
-Material information should be mentally classified as one of:
-
-- **Historical fact**: directly supported by repository/source material.
-- **Historical estimate**: a documented or sourced estimate.
-- **Simulation value**: established by the current alternate timeline.
-- **Derived value**: calculated from simulation state and known formulas.
-- **Educated estimate**: a reasoned value created because historical data is incomplete.
-- **Uncertain**: insufficient evidence to make a defensible determination.
-
-The final roleplay does not need to clutter every sentence with labels, but the engine's internal memory should preserve the distinction.
-
-## The player versus a living world
-
-Chronicle Memory is fundamentally a **player-versus-world simulation**, not a player-versus-script simulation.
-
-The player's nation, faction, character, or polity is competing for survival, prosperity, influence, security, and continuity against other actors that have their own objectives.
-
-Other nations are not decorative background characters waiting for the player to act.
-
-They should:
-
-- pursue their own strategic interests;
-- expand or contract when circumstances permit;
-- negotiate, threaten, deceive, trade, spy, rebel, migrate, colonize, reform, or go to war where plausible;
-- respond to the player's successes and failures;
-- exploit weaknesses in the player's position;
-- form alliances and counter-alliances;
-- suffer their own internal crises;
-- make mistakes;
-- learn from previous events;
-- experience technological, demographic, economic, military, environmental, and political change;
-- sometimes make decisions that have nothing to do with the player.
-
-This means the world should continue moving even when the player does nothing strategically significant.
-
-### World pressure
-
-Every scenario should contain some combination of persistent pressures appropriate to its period:
-
-- demographic growth or decline;
-- food and resource constraints;
-- fiscal pressure;
-- disease;
-- climate and environmental shocks where historically relevant;
-- technological change;
-- succession disputes;
-- factional conflict;
-- religious or cultural tensions;
-- trade competition;
-- migration;
-- military threats;
-- diplomatic competition;
-- internal rebellion;
-- administrative limitations.
-
-These pressures should create opportunities and threats without becoming a random-event slot machine.
-
-## Reporting other nations in player responses
-
-The assistant should routinely tell the player what is happening beyond their own borders when those developments are relevant.
-
-A response may include sections such as:
-
-```text
-Round: 8
-Date: 17 September 1082
-
-YOUR REALM
-- ...
-
-ELSEWHERE
-- Kingdom A has begun mobilizing...
-- City B is experiencing a grain shortage...
-- Kingdom C is negotiating with Kingdom D...
-
-CONSEQUENCES
-- ...
-
-INTELLIGENCE / RUMORS
-- ...
-```
-
-The amount of information should scale with the time advanced and the significance of world events.
-
-A one-week advance may reveal a few nearby developments. A one-year advance may reveal substantial political, economic, demographic, military, and diplomatic changes across multiple regions.
-
-The assistant should prioritize:
-
-1. developments that directly affect the player;
-2. developments involving nearby or strategically relevant actors;
-3. major regional events;
-4. major global events;
-5. lower-confidence rumors or distant developments when they are interesting and useful.
-
-The player should not receive omniscient information merely because the assistant knows it. Information must be filtered through the player's role, communications, geography, intelligence, trade links, diplomatic contacts, and period-appropriate information speed.
-
-## Genuine data versus educated guesses
-
-The world should feel historically grounded without pretending that incomplete historical records contain perfect statistics.
-
-When reporting another nation's activity:
-
-- use genuine historical/repository data when it exists;
-- use current simulation data when the scenario has already established the relevant value;
-- use calculated consequences when they follow from the simulation;
-- use an educated guess when necessary;
-- never disguise an educated guess as a documented historical fact.
-
-For example:
-
-```text
-Historical basis:
-The repository records a strong trading relationship between X and Y.
-
-Simulation inference:
-Given the player's embargo, reduced trade access is likely to hurt X's revenue.
-
-Scenario estimate:
-X's treasury falls by approximately 6% this year.
-
-New simulation state:
-X responds by seeking alternative suppliers and opening negotiations with Z.
-```
-
-Once the scenario establishes the new treasury value, subsequent calculations use that simulation value rather than repeatedly re-estimating it from scratch.
-
-## Difficulty: challenging, fair, and survivable
-
-The game should be **fun and difficult without being impossible**.
-
-The engine must not reward every sensible player decision with automatic success. A strong decision can still fail because of:
-
-- limited resources;
-- poor timing;
-- enemy action;
-- incomplete information;
-- terrain;
-- weather;
-- political resistance;
-- administrative capacity;
-- economic constraints;
-- technological limitations;
-- unreliable allies;
-- internal factions;
-- unexpected but plausible events.
-
-Likewise, a risky decision should sometimes work.
-
-Difficulty should emerge from the world rather than arbitrary punishment.
-
-### No player favoritism
-
-The engine must not quietly make the simulation easier because the player is the protagonist.
-
-If the player makes a strategically poor decision, the world should exploit it when other actors could reasonably identify and act upon the weakness.
-
-If an AI nation has an obvious opportunity to attack, negotiate from strength, seize a market, support a rebellion, or undermine the player, it should have a reasoned chance to do so.
-
-The player can succeed because they made good decisions, adapted to changing conditions, took calculated risks, or benefited from circumstances. They should not succeed merely because the game wants the story to continue.
-
-### No impossible AI
-
-Other nations should also have limitations.
-
-AI actors should not:
-
-- know everything;
-- perfectly predict the player's intentions;
-- always choose the optimal strategy;
-- instantly mobilize enormous forces;
-- ignore logistics;
-- conjure resources;
-- coordinate perfectly across distant territories;
-- recover instantly from disasters.
-
-The world should contain competent opponents with human-like limitations, not omniscient supercomputers wearing medieval hats.
-
-### Difficulty should adapt to the situation, not cheat
-
-The engine may naturally increase pressure as the player's power grows because stronger powers attract competitors, balancing coalitions, resistance, internal opposition, and resource demands.
-
-That is different from spawning arbitrary enemies solely to punish success.
-
-A successful player should face **new strategic problems**, not a hidden difficulty slider that declares they have had too much fun.
-
-## Survival and failure
-
-Survival is a meaningful objective.
-
-Possible outcomes include:
-
-- prosperity;
-- stagnation;
-- partial success;
-- territorial loss;
-- economic decline;
-- political crisis;
-- civil war;
-- vassalization;
-- regime change;
-- fragmentation;
-- exile;
-- conquest;
-- collapse;
-- recovery after disaster;
-- unexpected resurgence.
-
-Failure should be possible, but the engine should distinguish between:
-
-- **recoverable setbacks**, where the player still has meaningful choices;
-- **terminal failure**, where the player's role or polity genuinely ceases to exist.
-
-When terminal failure occurs, the alternate timeline should continue. The player may be able to continue as a successor, faction, surviving state, dynasty, rebel movement, neighboring polity, or other historically plausible actor if the scenario permits it.
-
-## World-state requirements
-
-At minimum, the simulation should maintain enough information to reason about:
-
-- every active polity relevant to the scenario;
-- territory and important locations;
-- population;
-- economy and resources;
-- military capability;
-- political institutions;
-- leadership and succession;
-- diplomacy and relationships;
-- alliances and rivalries;
-- active projects;
-- current conflicts;
-- internal factions;
-- information/intelligence known by each actor;
-- recent events;
-- long-term causal relationships.
-
-The player state is only one part of this world state.
-
-## Design target
-
-The intended experience is:
-
-```text
-Historical knowledge
-       +
-Persistent numerical simulation
-       +
-Independent nations
-       +
-Player decisions
-       +
-Limited information
-       +
-Resource constraints
-       +
-Causal consequences
-       +
-Changing world pressures
-       =
-A difficult but believable alternate history
-```
-
-The core test is simple:
-
-> If the player stopped acting for several years, would the world still change?
-
-If the answer is no, the simulation is not sufficiently alive.
-
-
-## News-driven time leaps
-
-Every explicit time advance must produce a **news cycle**, not a dry status dump.
-
-### 5-10 newsworthy articles per leap
-
-The default target is **5-10 distinct news articles for every time leap**.
-
-- 1 week: usually 5, emphasizing immediate/local developments.
-- 1 month: usually 5-7.
-- 1 year: usually 6-10.
-- Multi-year/decade leaps: up to 10, with major events receiving more space.
-
-The count is a presentation target, not permission to invent filler. Articles must represent distinct substantive developments. When evidence is weak, the article is clearly presented as a report, rumor, or inference.
-
-Each newsworthy event should read like an actual historical news article: a headline followed by a substantial 5-7 sentence account covering what happened, who was involved, where it occurred, causes, consequences, and what information reached the player.
-
-### News is simulation state
-
-A nation mentioned in an article must be a real simulation actor, and the event must have a corresponding structured event record. The event must be able to alter state when appropriate.
-
-Examples:
-
-- A grain shortage changes food stocks/prices and may increase mortality, migration, and unrest.
-- A mobilization consumes money and supplies while increasing military readiness and threat.
-- A treaty changes diplomatic relations, trade access, and alliance obligations.
-- A rebellion changes control, stability, tax collection, military deployment, and foreign incentives.
-- A succession crisis changes leadership, legitimacy, faction strength, and intervention risk.
-
-The article is therefore the **narrative view of a real state transition**, not a decorative story generated after the fact.
-
-### Other nations must drive the news
-
-Each relevant foreign actor gets an autonomous decision pass during a time leap. The player is one participant in a world where nations are also trying to survive.
-
-Foreign actions may be beneficial, hostile, neutral, mistaken, opportunistic, or unrelated to the player. Their behavior must be constrained by resources, geography, institutions, intelligence, logistics, and their own existing history.
-
-The player should routinely receive reports about foreign wars, diplomacy, economic changes, rebellions, succession crises, discoveries, disasters, migrations, and other developments when the player's information network could plausibly reveal them.
-
-### 1444 living-world test
-
-The first full test scenario will start in **1444** using Historix / CLIOPATRA / CLIOPATRIA and other non-duplicate repository historical data as the baseline.
-
-The test will deliberately distinguish:
-
-1. **Historical baseline:** what the reference material says the world looked like in 1444.
-2. **Simulation state:** the exact numerical and diplomatic state established for this scenario.
-3. **News:** 5-10 generated articles after each player-requested time leap.
-4. **Causality:** every reported event's effects feed back into subsequent calculations.
-5. **Divergence:** history may emerge naturally from conditions, but the engine never forces an event solely because it happened in real history.
-
-The goal is a world that feels recognizably 1444 without becoming a museum exhibit. If the player does nothing, nations still act, economies still change, conflicts still develop, and the world keeps moving.
-
-
-
-## Standardized simulation metric schema
-
-Chronicle Memory uses one fixed metric vocabulary and fixed scales across all rounds. New rounds must not invent alternate indexes for concepts that already have a defined metric. A metric's unit and scale are part of the simulation contract.
-
-### Core metrics
-
-| Domain | Metric | Unit / scale | Rule |
-|---|---|---|---|
-| Population | population | exact people | Persistent exact count once established |
-| Population | births, deaths, migration | exact people per period | Must reconcile with population changes |
-| Treasury | treasury | exact currency units | Persistent exact balance |
-| Economy | economic output | 0-100 | Relative modeled output condition |
-| Agriculture | agricultural output | 0-100 | Relative productive condition |
-| Agriculture | food stock | exact resource units | Persistent stock |
-| Taxation | tax burden | 0-100 | 0 = none, 100 = maximum modeled burden |
-| Infrastructure | infrastructure | 0-100 | General infrastructure condition/capacity |
-| Trade | trade activity | 0-100 | Relative commercial activity |
-| Diplomacy | relations | -100 to +100 | -100 hostile, 0 neutral, +100 exceptionally aligned |
-| Stability | internal stability | 0-100 | 0 = collapse-level instability, 100 = highly stable |
-| Legitimacy | legitimacy | 0-100 | Government/dynastic legitimacy |
-| Military | total troops | exact soldiers | Conservation-controlled military population |
-| Military | available troops | exact soldiers | Not committed elsewhere |
-| Military | deployed troops | exact soldiers | Committed to a formation/front/location |
-| Military | garrison troops | exact soldiers | Assigned to fixed defensive garrisons |
-| Military | reserve manpower | exact people | Eligible manpower not yet serving |
-| Military | readiness | 0-100 | Operational preparedness |
-| Military | morale | 0-100 | Willingness/cohesion under pressure |
-| Military | supply | 0-100 | Ability to sustain current forces |
-| Military | organization | 0-100 | Command, cohesion, and unit organization |
-| Military | permanent losses | exact soldiers | Deaths/irrecoverable losses; never silently restored |
-| Military | temporary unavailable | exact soldiers | Wounded/sick/otherwise temporarily unavailable |
-| Military | recruitment gains | exact soldiers | New troops created by a valid recruitment event |
-| Military | reinforcements received | exact soldiers | Troops transferred into the force |
-| War | war exhaustion | 0-100 | Cumulative modeled war strain |
-| Technology | technology level | 0-100 | Relative modeled technological capability |
-| Intelligence | intelligence confidence | 0-100 | Confidence in a specific intelligence assessment |
-
-### Fixed-scale rules
-
-1. Exact quantities remain exact. Population, treasury, troops, casualties, manpower, food stocks, and similar quantities are never replaced by abstract scores.
-2. Condition metrics use their declared scale. Readiness, morale, supply, stability, legitimacy, infrastructure, trade activity, and similar conditions always use the same 0-100 scale.
-3. Relations always use -100 to +100. Do not create separate friendship, hostility, diplomatic warmth, or relation indexes for the same relationship.
-4. No unexplained indexes. Metrics such as "tax_rate_index", "agriculture_investment_index", and "military_expenditure_index" are legacy fields from the initial test and must not be used in new rounds.
-5. Legacy migration is explicit. Existing Round 1 policy indexes are treated as legacy initialization fields. The standardized Round 2 record establishes the fixed-scale equivalents and becomes the format used from Round 2 onward.
-6. Before/after/delta is mandatory. Any persistent metric changed by an event records its previous value, delta, resulting value, reason, source event, and provenance.
-7. No scale switching between rounds. A readiness value of 61 means the same thing in every round. A relation score of 9 means the same thing in every round. A troop count of 12,000 means exactly 12,000 troops until another valid state mutation changes it.
-8. Military conservation is mandatory. Available troops + deployed troops + garrison troops + other explicitly tracked serving buckets = total troops, subject to separately recorded temporary unavailable categories and permanent losses.
-9. Battles resolve numerically before narration. Engaged troop counts, permanent losses, temporary losses, survivors, and formation locations are resolved in state first. The news article cannot invent or alter those numbers.
-10. Derived metrics do not replace source metrics. A dashboard may calculate an overall indicator for display, but the underlying standardized metrics remain the authoritative state.
-
-### Standard event state-change format
-
-Every event that changes persistent state should use an object containing actor_id, metric, before, delta, after, unit, reason, source_event_id, and provenance. Exact quantities use explicit units such as soldiers, people, or currency_units.
-
-### Round 2 standardized baseline
-
-Round 2 is the first record using the permanent standardized vocabulary. The legacy Round 1 values are preserved for auditability, while Round 2 establishes the following fixed-scale values for continued replay:
-
-- Tax burden: 53/100
-- Agricultural output: 56/100
-- Military expenditure condition: 54/100
-- Frontier readiness: 61/100
-- Asturias-Navarre relations: 9 on the -100 to +100 relations scale
-- Navarre trade activity: 2/100
-- Treasury: 1,018 currency units
-- Total troops: 12,000 soldiers
-- Available troops: 9,600 soldiers
-- Frontier deployed troops: 2,400 soldiers
-- Permanent military losses: 0 soldiers
-
-From this point forward, all rounds must use the standardized metrics above and the same scales. If a new domain is genuinely required, it must be added to the schema first rather than introducing a one-off metric inside a round.
-
-
-## Mandatory guideline validation gate
-
-The README is the governing gameplay contract. It is no longer sufficient for a simulator continuation to rely on the assistant remembering these rules. The repository now contains a machine-readable guideline registry and a dependency-free validator:
-
-- `projects/chronicle-memory/validation/guidelines.json`
-- `projects/chronicle-memory/validation/validate-gmv.js`
-- `.github/workflows/chronicle-memory-validation.yml`
-
-### Required process for every GMV continuation
-
-Before a new round is treated as canonical:
-
-1. Resolve the explicit campaign ID `GMV-62BCE-001`.
-2. Read the canonical scenario pointer and current state.
-3. Confirm the requested continuation starts from the canonical latest round.
-4. Resolve the next round's date from the player's explicit time command; do not advance time merely because an ordinary action was issued.
-5. Interpret the player instruction into actor, action, target, location, timing, prerequisites, resources, uncertainty, immediate effects, delayed effects, reactions, unintended consequences, and causal links.
-6. Resolve the simulation state before writing narrative.
-7. Resolve autonomous actors subject to their resources, geography, institutions, information, logistics, and prior history.
-8. Keep hidden information separated by actor; distinguish fact, estimate, inference, rumor, and simulation value.
-9. Apply only the fixed metric vocabulary and fixed scales. Legacy indexes cannot appear in new rounds.
-10. Record persistent state changes with `before`, `delta`, `after`, `unit`, `reason`, `source_event_id`, and `provenance`.
-11. Reconcile exact quantities, especially population, treasury, food, manpower, troop buckets, casualties, and land area.
-12. Resolve battles numerically before any article is written.
-13. Generate the news cycle only from the resolved event/state records. Do not add decorative events whose underlying state does not exist.
-14. Ensure every news event maps to a real simulation event and every reported actor is a real scenario actor.
-15. Preserve alternate-history divergence. Historical dates are context, never automatic commands to reproduce real-world outcomes.
-16. Run the validator. A failed hard check means the round is **not canonical** and must not be presented as the next authoritative state.
-17. Commit the validated round records, then update the canonical pointer only after the round passes validation.
-18. Re-run validation after the final commit/update.
-
-### Mechanical checks now enforced
-
-The validator checks, at minimum:
-
-- canonical scenario ID and round/date synchronization;
-- canonical round/news file existence and parity;
-- sequential round numbering and gaps;
-- fixed metric schema and 0–100 condition scales;
-- -100 to +100 relations;
-- rejection of legacy metric indexes;
-- event IDs, dates, types, headlines, and substantive article length;
-- news/event one-to-one coverage;
-- special-event magnitude bounds;
-- event-ledger arithmetic against running totals;
-- financial reconciliation;
-- land-area metric/holdings synchronization;
-- military conservation when explicit troop buckets exist;
-- supported information/event types;
-- basic guards against scripted-history language;
-- canonical-pointer protection against continuing from a non-current round.
-
-### Two-layer validation
-
-Some README requirements are structural and can be mechanically rejected. Others require simulation reasoning and are therefore represented as mandatory process checks rather than pretending a static JSON linter can prove them.
-
-**Hard repository checks:** identity, chronology, state/news parity, metric scales, legacy-metric rejection, event ledgers, financial/land consistency, military conservation, and canonical-pointer integrity.
-
-**Simulation-contract checks:** natural-language interpretation, causal interactions, autonomous actor reasoning, information boundaries, historical-vs-simulation provenance, alternate-history divergence, world pressure, difficulty/fairness, survival/failure, and consequence quality.
-
-The second group must be completed by the simulation resolver before narrative generation. It must not be silently skipped merely because the JSON files are syntactically valid.
-
-### Candidate-round rule
-
-Existing historical/legacy round records may be preserved for auditability. **New rounds must conform to the standardized event state-change format.** A continuation is not considered complete until every persistent metric mutation can be traced through a state-change ledger with before/delta/after values and provenance.
-
-### Performance rule
-
-Validation is designed to be fast and dependency-free. It uses local repository records and indexed campaign files rather than searching unrelated projects or re-reading the entire historical corpus for every event. Historical lookup remains a reference layer; current scenario state remains authoritative once established.
-
-### Failure behavior
-
-If a canonical pointer, chronology, metric scale, ledger, conservation equation, event/news relationship, or other hard invariant fails, the process must stop rather than guessing, reconstructing, or silently repairing the campaign. The correct response is to identify the missing/conflicting record and resolve that conflict before simulation continues.
-
-
-## Mandatory historical schema migration
-
-The committed GMV chronology is treated as one canonical data series, even where older records were authored under earlier schemas. Before continuing the campaign, historical round/news records must be normalized to the current schema.
-
-The migration contract is:
-
-1. Preserve the original record verbatim under `legacy_record`.
-2. Normalize every round to `gmv-round-v2`.
-3. Normalize every news record to `gmv-news-v2`.
-4. Normalize event identity, dates, headlines, articles, visibility, confidence, and state-change structure.
-5. Never invent an absolute `before` or `after` value when the legacy record did not contain enough information; use explicit nulls and mark the field `legacy-migration`.
-6. Preserve the original metric schema in migration metadata.
-7. Do not silently alter historical outcomes while changing representation.
-8. Run the migration before treating the chronology as a uniform replayable dataset.
-9. Run the mandatory validator after migration.
-10. A migration is incomplete if any historical record remains on an undocumented schema.
-
-The repository implementation is `projects/chronicle-memory/tools/migrate-gmv-history.js`, with `gmv-round-v2.schema.json` defining the normalized round contract. The migration workflow is intentionally one-way for historical representation: source records remain recoverable through `legacy_record`, while future rounds are authored directly in the canonical schema.
-
-
-
-### 12. Special-event resolution and round completion checks
-
-Every canonical round must finish with two machine-checkable end-of-round gates before the round is considered complete:
-
-1. **Special-event / magnitude check**
-   - Resolve the standard special-event opportunity for the round.
-   - If a special event is selected, record its resolved magnitude on the standard 1–10 scale.
-   - If no special event is selected, record `selected: false` and `magnitude: null`; do not fabricate a SPECIAL event.
-   - Record the magnitude-11 eligibility/check data every round. A magnitude-11 event is only accepted when the documented extension check succeeds.
-   - The magnitude-11 check is separate from the player-facing event category **SURPRISE**. SURPRISE does not imply a special event or a magnitude.
-
-2. **Commit check**
-   - The canonical round record, news record, state, and scenario pointer must be committed to GitHub before the round is declared complete.
-   - The validator must run against the committed checkout and require a clean working tree. A round that exists only in chat or in an uncommitted working tree is not canonical.
-   - The end-of-round record must explicitly state that the post-commit check passed.
-   - The canonical pointer must never advance to a round whose required records are missing or whose validation gate fails.
-
-These checks are part of the round lifecycle, not optional documentation. Future round generation must perform the simulation, resolve the special-event/magnitude-11 gate, persist the round records, commit them, and then perform the commit validation before presenting the round as canonical.
-
-
-## GMV financial metric definitions (canonical)
-
-For GMV, **Treasury** and **Currency** are deliberately different measures and must not be used interchangeably.
-
-- **Treasury** = the liquid **public/estate account** available for estate spending, procurement, construction, administration, and other public-side expenditures. Private mine proceeds do not enter Treasury unless a later action explicitly transfers them.
-- **Currency** = Valerius's **net liquid currency position** in the simulation: coined money/liquid monetary claims available to him after the campaign's recorded monetary inflows and outflows. When Valerius receives newly minted Roman coins as payment for personally owned silver, Currency **must increase** by the recognized monetary value of those coins.
-- **Private Wealth** = the broader private account for personally owned wealth. Coin received from a personally owned mine can increase both Currency and Private Wealth because Currency measures liquidity while Private Wealth measures the underlying private asset account.
-- **Public Wealth** and **Treasury** remain distinct: Public Wealth can include broader public assets/accounts, while Treasury is the immediately available public liquid balance.
+- operating/security/maintenance costs;
+- investment principal;
+- realized investment returns;
+- net public commercial profit;
+- private transfer;
+- resulting Treasury/Currency/Private Wealth changes.
+
+Do not count the same monetary value twice across public and private accounts.
 
 ### Currency invariant
+Any monetary receipt that actually puts spendable coin into Valerius's hands creates a positive Currency ledger entry with before/after values, delta, unit, source_event_id, and provenance. A private receipt must not silently increase Treasury. Public receipts belong in Treasury unless an explicit transfer establishes otherwise.
 
-A monetary receipt that actually puts spendable coin into Valerius's hands must produce a corresponding positive Currency ledger entry. The ledger must state the source and before/after values. A receipt that belongs to the private account must not silently increase the public Treasury.
+## Standard state-change record
 
-This resolves the prior ambiguity in which the campaign displayed a separate Currency value without defining how newly minted coins affected it. From Round 45 onward, coin receipts increase Currency according to their recognized monetary value, while the account receiving the coins determines whether Private Wealth or Treasury also changes.
+Every persistent event mutation should be represented by an object equivalent to:
+
+{
+  "actor_id": "<actor>",
+  "metric": "<fixed metric>",
+  "before": 0,
+  "delta": 0,
+  "after": 0,
+  "unit": "<unit>",
+  "reason": "<why>",
+  "source_event_id": "<event>",
+  "provenance": "<source/derivation>"
+}
+
+## Mandatory round lifecycle and validation
+
+Before a round is canonical:
+1. Resolve campaign ID GMV-62BCE-001.
+2. Read the canonical scenario pointer and current state.
+3. Confirm continuation starts from the canonical latest round.
+4. Resolve dates only from the player's explicit time command.
+5. Interpret the action using the natural-language action contract.
+6. Resolve state and autonomous actors before narrative.
+7. Enforce information boundaries and historical-vs-simulation provenance.
+8. Apply only fixed metrics/scales.
+9. Reconcile exact quantities, including population, Treasury/Currency, food, manpower, troop buckets, casualties, and land area.
+10. Resolve battles numerically before writing articles.
+11. Generate news only from resolved event/state records.
+12. Ensure every news event maps to a real simulation event and every actor is a real scenario actor.
+13. Run the repository validator.
+14. If hard validation fails, the round is not canonical.
+15. Commit round, news, state, and scenario-pointer records.
+16. Re-run validation against the committed state and require the post-commit check to pass.
+17. Only then advance the canonical pointer and present the round as authoritative.
+
+Required repository validation includes chronology/state/news parity, fixed metric scales, legacy-metric rejection for new rounds, event/news coverage, ledger arithmetic, financial reconciliation, land synchronization, military conservation, supported event types, and canonical-pointer integrity.
+
+## Required end-of-round gates
+
+### Special-event / magnitude gate
+- Resolve the standard special-event opportunity.
+- If selected, record magnitude on the 1–10 scale.
+- If not selected, record selected=false and magnitude=null.
+- Record magnitude-11 eligibility/check data every round.
+- Keep SURPRISE separate from the special-event system.
+
+### Commit gate
+- Round JSON, news JSON, state, and scenario pointer must be committed.
+- Validation must pass against the committed checkout.
+- The end-of-round record must state that post-commit verification passed.
+- Never advance the canonical pointer to an incomplete or failed round.
+
+## Historical schema migration
+
+The committed GMV chronology is one canonical data series even where older records use earlier schemas. Migration must preserve original data under legacy_record, normalize rounds/news to the current schemas, preserve identity/dates/headlines/articles/visibility/confidence/state changes, use explicit nulls rather than inventing missing values, preserve migration metadata, and never silently alter historical outcomes.
+
+Implementation files:
+- projects/chronicle-memory/tools/migrate-gmv-history.js
+- projects/chronicle-memory/data/schema/gmv-round-v2.schema.json
+- projects/chronicle-memory/validation/validate-gmv.js
+- projects/chronicle-memory/validation/guidelines.json
+- .github/workflows/chronicle-memory-validation.yml
+
+## Repository role
+
+GitHub is the persistent engineering/reference layer, not the required gameplay interface. Chat is the gameplay interface. The canonical campaign state is authoritative for the alternate timeline once initialized.
+
+GMV-62BCE-001 is the canonical GMV campaign identifier; its round/state/news records live under roleplays/GMV-62BCE-001/.
