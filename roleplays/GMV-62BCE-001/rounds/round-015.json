@@ -1,179 +1,719 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 15,
   "period": {
     "start": "-0061-03-01",
     "end": "-0061-03-31"
   },
-  "player_action": "Gaius Maximus Valerius leads his men onto the trail of the organized bandits identified during the earlier expedition. His stated objective is to destroy the remaining organized bandit force in the region and bring the expedition to an end. The column advances with the discipline, physical conditioning and unusually reliable supply organization developed throughout the campaign.",
-  "metric_schema": "fixed-v1",
+  "action": {
+    "action_id": "GMV-62BCE-001-R015-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius leads his men onto the trail of the organized bandits identified during the earlier expedition. His stated objective is to destroy the remaining organized bandit force in the region and bring the expedition to an end. The column advances with the discipline, physical conditioning and unusually reliable supply organization developed throughout the campaign.",
+    "components": []
+  },
+  "historical_context": null,
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R015-E001",
       "date": "-0061-03-03",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "VALERIUS LEAVES THE NEW HOLDING TO FINISH THE EXPEDITION",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Expeditionary Force",
-        "Winter Pass Holding"
-      ],
       "article": "At the beginning of March, Valerius leaves the newly incorporated holding with the greater part of his field force and takes the trail of the organized bandits whose network has remained unresolved since the expedition began. The column moves out with fewer signs of the disorder that marked its earliest operations, with marching intervals, baggage placement and guard duties now practiced rather than improvised. Men accustomed to long road work carry themselves differently from the recruits who first entered the campaign, and the column's physical conditioning is plainly visible in the pace it maintains over difficult ground. The stores are also unusually well arranged for a force operating this far from its main estate, with food, spare equipment and animals distributed between the marching column and secured points behind it. Valerius intends this movement to be the final military phase of the expedition.",
-      "ledger": {
-        "currency": -60,
-        "readiness": 2,
-        "morale": 1,
-        "supply": 2,
-        "exhaustion": 1,
-        "intelligence": 2,
-        "organization": 0
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -60,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R015-E002",
       "date": "-0061-03-07",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "THE TRAIL LEADS DEEPER INTO THE COUNTRY",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Expeditionary Force",
-        "Organized Bandits",
-        "Winter Pass"
-      ],
       "article": "Scouts follow signs of recent movement beyond the roads already secured by Valerius's men. Tracks, abandoned fires and concealed caches indicate that the remaining bandits have withdrawn farther from the established routes rather than dispersing entirely. The pursuit is conducted in stages, with scouts ranging ahead while the main body preserves enough order to respond if the trail turns into an ambush. Several small caches are seized without a fight, yielding food and equipment that appear to have been intended for the fugitives. The discoveries confirm that the remaining force still possesses a functioning network, and Valerius presses onward before the trail can grow cold.",
-      "ledger": {
-        "currency": 35,
-        "supply": 2,
-        "intelligence": 4,
-        "readiness": 1,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 35,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R015-E003",
       "date": "-0061-03-12",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "THE BANDITS CHOOSE THE GROUND FOR THEIR LAST STAND",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Expeditionary Force",
-        "Organized Bandits"
-      ],
       "article": "The trail finally leads toward a wooded rise overlooking a narrow approach between two stretches of broken ground. Scouts report movement around a concealed encampment, and the signs suggest that the remaining organized bandits have gathered rather than continued their retreat. Valerius halts the column outside the immediate range of the camp and spends the remainder of the day examining the approaches. His men establish their own secure perimeter before nightfall, keeping the supply train protected and the wounded and animals away from the expected fighting. The bandits have chosen ground that favors concealment, but the Roman force arrives with its formation, supplies and command structure intact.",
-      "ledger": {
-        "currency": -45,
-        "readiness": 2,
-        "supply": 1,
-        "organization": 0,
-        "intelligence": 3,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -45,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R015-E004",
       "date": "-0061-03-15",
-      "type": "SPECIAL",
+      "type": "special",
       "headline": "THE LAST ENCAMPMENT: VALERIUS DESTROYS THE ORGANIZED BAND",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Expeditionary Force",
-        "Organized Bandits",
-        "Bandit Encampment"
-      ],
       "article": "The final battle of the expedition begins before sunrise, when the woods are still dark enough to conceal the movement of men along the lower approach. Valerius does not rush the camp. Instead, his men close the surrounding ground in measured stages, using the discipline acquired during months of campaigning to keep separate bodies from losing contact. The first clash comes when bandits attempt to break through a lightly held section, but the Roman line gives ground only far enough to draw them into a controlled engagement before sealing the opening. The bandits answer with a sudden attack from the trees, throwing the fight into close quarters where shields, clubs, swords and spears collide among roots and wet earth. For a moment the encampment's defenders appear capable of forcing a passage, and several Roman men are pulled into the undergrowth during the struggle. Valerius commits his reserve only after the attackers have exposed their direction, then drives the organized line forward with a coordinated advance that the force could not have executed at the beginning of the expedition. The fighting spreads along the edge of the camp as the defenders attempt to reach their horses and escape with their leaders. Roman soldiers trained by months of marching, fighting and repeated reorganization maintain their intervals even while exhausted, preventing the defenders from opening a permanent gap. A second bandit group makes for the rear of the Roman position, but the supply guards hold long enough for the reserve to turn and meet them. The unusually secure supply arrangement proves its worth here: men remain provisioned, replacements for damaged equipment are available, and the army does not have to break formation merely to protect its food and baggage. By midday the encampment is being entered from several directions, and organized resistance begins to collapse. Some bandits flee into the surrounding country, but their central camp, stores and command structure are taken. The fighting continues in scattered pockets until the afternoon, when the remaining organized body either surrenders or abandons the field. Valerius orders the surviving stores secured and the prisoners separated from the wounded. The Roman losses are real, but the force has accomplished the objective that brought it back onto the trail: the organized bandit formation that had sustained attacks across the region no longer exists as a coherent fighting body. As evening settles over the captured camp, the men who began the expedition as a much less disciplined body now stand in ordered ranks around the position they have taken. Their equipment is battered, their faces are exhausted, and several comrades will not march home, but the column remains intact and supplied. The campaign that began with scattered roads, uncertain intelligence and dangerous encounters has ended with the final organized enemy camp broken and the region's principal bandit network dismantled.",
-      "ledger": {
-        "currency": 140,
-        "soldiers": -7,
-        "readiness": 3,
-        "morale": 5,
-        "supply": 2,
-        "stability": 2,
-        "legitimacy": 3,
-        "intelligence": 5,
-        "relations": 3,
-        "exhaustion": 4
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 140,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": -7,
+          "after": null,
+          "unit": "people",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "SPECIAL"
       }
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R015-E005",
       "date": "-0061-03-19",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "THE REMAINING BANDIT NETWORK IS DISMANTLED",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Expeditionary Force",
-        "Local Communities",
-        "Organized Bandits"
-      ],
       "article": "In the days after the battle, Valerius sends patrols along the known routes used by the defeated band. Several abandoned caches are recovered and records taken from the encampment are examined for signs of remaining organized groups. Small parties of fugitives are reported in the countryside, but none retains the strength or organization of the force that occupied the captured camp. Local travelers begin using roads that had previously required armed escorts, while estate guards remain alert for isolated attacks. Valerius now has grounds to treat the expedition's principal military objective as fulfilled.",
-      "ledger": {
-        "currency": 45,
-        "trade": 2,
-        "stability": 3,
-        "intelligence": 3,
-        "relations": 3,
-        "readiness": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 45,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R015-E006",
       "date": "-0061-03-24",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "THE EXPEDITION BEGINS ITS RETURN MARCH",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Expeditionary Force",
-        "Main Estate",
-        "Lake Port"
-      ],
       "article": "With the organized bandit force broken, Valerius turns his men back toward the estate and the newly secured winter holding. The return march is conducted under tighter routine than the outward expedition, with supplies checked at fixed intervals and tired men rotated through duties. Merchants and local travelers begin appearing more frequently on the roads as news of the defeat spreads. The lake port receives the first reports that the expedition is returning rather than advancing farther into the country. For the men who have survived the campaign, the journey home is the first sustained movement in months that is not directed toward finding an enemy.",
-      "ledger": {
-        "currency": -40,
-        "trade": 2,
-        "economy": 2,
-        "supply": 1,
-        "morale": 2,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -40,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R015-E007",
       "date": "-0061-03-31",
-      "type": "WORLD",
+      "type": "world",
       "headline": "LOCAL NEWS: A LONG EXPEDITION APPROACHES ITS END",
-      "entities": [
-        "Gaius Maximus Valerius",
-        "Roman Republic",
-        "Main Estate",
-        "Lake Port"
-      ],
       "article": "March closes with Valerius's expedition on its return route after the destruction of the organized bandit camp. Reports reaching the surrounding settlements describe a force markedly different from the one that first entered the country, with veterans now accustomed to long marches, difficult ground and disciplined supply arrangements. The campaign has cost men, money and time, but the roads around the estate and lake port are increasingly treated as usable commercial routes rather than territory dominated by organized raiders. Valerius's new holding remains under estate administration while his field force makes its way home. The expedition has not expanded indefinitely into a permanent war, and its principal military purpose now appears to have been completed.",
-      "ledger": {
-        "currency": 0
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R015-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     }
   ],
-  "running_total": {
-    "currency": 75,
-    "population": 0,
-    "soldiers": -7,
-    "taxation": 0,
-    "economy": 2,
-    "agriculture": 0,
-    "infrastructure": 0,
-    "trade": 4,
-    "readiness": 9,
-    "morale": 10,
-    "supply": 8,
-    "organization": 0,
-    "stability": 8,
-    "legitimacy": 3,
-    "exhaustion": 8,
-    "technology": 0,
-    "intelligence": 17,
-    "relations": 9
+  "round_ledger": {
+    "currency": {
+      "before": null,
+      "delta": 75,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "population": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": -7,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "taxation": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 4,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 9,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 10,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "exhaustion": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 17,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 9,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
   },
-  "commercial_accounting": {
+  "financials": {
     "gross_receipts": 560,
     "operating_security_and_maintenance_costs": 420,
     "net_public_profit": 140,
@@ -182,5 +722,200 @@
     "public_account_change": 126,
     "public_account_end": 1968,
     "private_account_end": 97
+  },
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "fixed-v1",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-015.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 15,
+    "period": {
+      "start": "-0061-03-01",
+      "end": "-0061-03-31"
+    },
+    "player_action": "Gaius Maximus Valerius leads his men onto the trail of the organized bandits identified during the earlier expedition. His stated objective is to destroy the remaining organized bandit force in the region and bring the expedition to an end. The column advances with the discipline, physical conditioning and unusually reliable supply organization developed throughout the campaign.",
+    "metric_schema": "fixed-v1",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0061-03-03",
+        "type": "DIRECT",
+        "headline": "VALERIUS LEAVES THE NEW HOLDING TO FINISH THE EXPEDITION",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Expeditionary Force",
+          "Winter Pass Holding"
+        ],
+        "article": "At the beginning of March, Valerius leaves the newly incorporated holding with the greater part of his field force and takes the trail of the organized bandits whose network has remained unresolved since the expedition began. The column moves out with fewer signs of the disorder that marked its earliest operations, with marching intervals, baggage placement and guard duties now practiced rather than improvised. Men accustomed to long road work carry themselves differently from the recruits who first entered the campaign, and the column's physical conditioning is plainly visible in the pace it maintains over difficult ground. The stores are also unusually well arranged for a force operating this far from its main estate, with food, spare equipment and animals distributed between the marching column and secured points behind it. Valerius intends this movement to be the final military phase of the expedition.",
+        "ledger": {
+          "currency": -60,
+          "readiness": 2,
+          "morale": 1,
+          "supply": 2,
+          "exhaustion": 1,
+          "intelligence": 2,
+          "organization": 0
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0061-03-07",
+        "type": "CONNECTED",
+        "headline": "THE TRAIL LEADS DEEPER INTO THE COUNTRY",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Expeditionary Force",
+          "Organized Bandits",
+          "Winter Pass"
+        ],
+        "article": "Scouts follow signs of recent movement beyond the roads already secured by Valerius's men. Tracks, abandoned fires and concealed caches indicate that the remaining bandits have withdrawn farther from the established routes rather than dispersing entirely. The pursuit is conducted in stages, with scouts ranging ahead while the main body preserves enough order to respond if the trail turns into an ambush. Several small caches are seized without a fight, yielding food and equipment that appear to have been intended for the fugitives. The discoveries confirm that the remaining force still possesses a functioning network, and Valerius presses onward before the trail can grow cold.",
+        "ledger": {
+          "currency": 35,
+          "supply": 2,
+          "intelligence": 4,
+          "readiness": 1,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0061-03-12",
+        "type": "DIRECT",
+        "headline": "THE BANDITS CHOOSE THE GROUND FOR THEIR LAST STAND",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Expeditionary Force",
+          "Organized Bandits"
+        ],
+        "article": "The trail finally leads toward a wooded rise overlooking a narrow approach between two stretches of broken ground. Scouts report movement around a concealed encampment, and the signs suggest that the remaining organized bandits have gathered rather than continued their retreat. Valerius halts the column outside the immediate range of the camp and spends the remainder of the day examining the approaches. His men establish their own secure perimeter before nightfall, keeping the supply train protected and the wounded and animals away from the expected fighting. The bandits have chosen ground that favors concealment, but the Roman force arrives with its formation, supplies and command structure intact.",
+        "ledger": {
+          "currency": -45,
+          "readiness": 2,
+          "supply": 1,
+          "organization": 0,
+          "intelligence": 3,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0061-03-15",
+        "type": "SPECIAL",
+        "headline": "THE LAST ENCAMPMENT: VALERIUS DESTROYS THE ORGANIZED BAND",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Expeditionary Force",
+          "Organized Bandits",
+          "Bandit Encampment"
+        ],
+        "article": "The final battle of the expedition begins before sunrise, when the woods are still dark enough to conceal the movement of men along the lower approach. Valerius does not rush the camp. Instead, his men close the surrounding ground in measured stages, using the discipline acquired during months of campaigning to keep separate bodies from losing contact. The first clash comes when bandits attempt to break through a lightly held section, but the Roman line gives ground only far enough to draw them into a controlled engagement before sealing the opening. The bandits answer with a sudden attack from the trees, throwing the fight into close quarters where shields, clubs, swords and spears collide among roots and wet earth. For a moment the encampment's defenders appear capable of forcing a passage, and several Roman men are pulled into the undergrowth during the struggle. Valerius commits his reserve only after the attackers have exposed their direction, then drives the organized line forward with a coordinated advance that the force could not have executed at the beginning of the expedition. The fighting spreads along the edge of the camp as the defenders attempt to reach their horses and escape with their leaders. Roman soldiers trained by months of marching, fighting and repeated reorganization maintain their intervals even while exhausted, preventing the defenders from opening a permanent gap. A second bandit group makes for the rear of the Roman position, but the supply guards hold long enough for the reserve to turn and meet them. The unusually secure supply arrangement proves its worth here: men remain provisioned, replacements for damaged equipment are available, and the army does not have to break formation merely to protect its food and baggage. By midday the encampment is being entered from several directions, and organized resistance begins to collapse. Some bandits flee into the surrounding country, but their central camp, stores and command structure are taken. The fighting continues in scattered pockets until the afternoon, when the remaining organized body either surrenders or abandons the field. Valerius orders the surviving stores secured and the prisoners separated from the wounded. The Roman losses are real, but the force has accomplished the objective that brought it back onto the trail: the organized bandit formation that had sustained attacks across the region no longer exists as a coherent fighting body. As evening settles over the captured camp, the men who began the expedition as a much less disciplined body now stand in ordered ranks around the position they have taken. Their equipment is battered, their faces are exhausted, and several comrades will not march home, but the column remains intact and supplied. The campaign that began with scattered roads, uncertain intelligence and dangerous encounters has ended with the final organized enemy camp broken and the region's principal bandit network dismantled.",
+        "ledger": {
+          "currency": 140,
+          "soldiers": -7,
+          "readiness": 3,
+          "morale": 5,
+          "supply": 2,
+          "stability": 2,
+          "legitimacy": 3,
+          "intelligence": 5,
+          "relations": 3,
+          "exhaustion": 4
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0061-03-19",
+        "type": "DIRECT",
+        "headline": "THE REMAINING BANDIT NETWORK IS DISMANTLED",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Expeditionary Force",
+          "Local Communities",
+          "Organized Bandits"
+        ],
+        "article": "In the days after the battle, Valerius sends patrols along the known routes used by the defeated band. Several abandoned caches are recovered and records taken from the encampment are examined for signs of remaining organized groups. Small parties of fugitives are reported in the countryside, but none retains the strength or organization of the force that occupied the captured camp. Local travelers begin using roads that had previously required armed escorts, while estate guards remain alert for isolated attacks. Valerius now has grounds to treat the expedition's principal military objective as fulfilled.",
+        "ledger": {
+          "currency": 45,
+          "trade": 2,
+          "stability": 3,
+          "intelligence": 3,
+          "relations": 3,
+          "readiness": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0061-03-24",
+        "type": "CONNECTED",
+        "headline": "THE EXPEDITION BEGINS ITS RETURN MARCH",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Expeditionary Force",
+          "Main Estate",
+          "Lake Port"
+        ],
+        "article": "With the organized bandit force broken, Valerius turns his men back toward the estate and the newly secured winter holding. The return march is conducted under tighter routine than the outward expedition, with supplies checked at fixed intervals and tired men rotated through duties. Merchants and local travelers begin appearing more frequently on the roads as news of the defeat spreads. The lake port receives the first reports that the expedition is returning rather than advancing farther into the country. For the men who have survived the campaign, the journey home is the first sustained movement in months that is not directed toward finding an enemy.",
+        "ledger": {
+          "currency": -40,
+          "trade": 2,
+          "economy": 2,
+          "supply": 1,
+          "morale": 2,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0061-03-31",
+        "type": "WORLD",
+        "headline": "LOCAL NEWS: A LONG EXPEDITION APPROACHES ITS END",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Roman Republic",
+          "Main Estate",
+          "Lake Port"
+        ],
+        "article": "March closes with Valerius's expedition on its return route after the destruction of the organized bandit camp. Reports reaching the surrounding settlements describe a force markedly different from the one that first entered the country, with veterans now accustomed to long marches, difficult ground and disciplined supply arrangements. The campaign has cost men, money and time, but the roads around the estate and lake port are increasingly treated as usable commercial routes rather than territory dominated by organized raiders. Valerius's new holding remains under estate administration while his field force makes its way home. The expedition has not expanded indefinitely into a permanent war, and its principal military purpose now appears to have been completed.",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": 75,
+      "population": 0,
+      "soldiers": -7,
+      "taxation": 0,
+      "economy": 2,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 4,
+      "readiness": 9,
+      "morale": 10,
+      "supply": 8,
+      "organization": 0,
+      "stability": 8,
+      "legitimacy": 3,
+      "exhaustion": 8,
+      "technology": 0,
+      "intelligence": 17,
+      "relations": 9
+    },
+    "commercial_accounting": {
+      "gross_receipts": 560,
+      "operating_security_and_maintenance_costs": 420,
+      "net_public_profit": 140,
+      "private_transfer_rate": 0.1,
+      "private_transfer": 14,
+      "public_account_change": 126,
+      "public_account_end": 1968,
+      "private_account_end": 97
+    }
   }
 }
