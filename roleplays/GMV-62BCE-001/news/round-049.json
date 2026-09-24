@@ -1,0 +1,190 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 49,
+  "period": {
+    "start": "-0059-01-01",
+    "end": "-0059-01-31",
+    "display": "1 January 59 BCE – 31 January 59 BCE"
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R049-E001",
+      "date": "-0059-01-03",
+      "type": "direct",
+      "headline": "VALERIUS ORDERS THE MAJORITY OF HIS MEN INTO THE BANDIT ESTATES",
+      "article": "At the opening of January, Valerius gives the order that has been building through the expedition: the majority of his men are to move into the estates controlled by the bandit network rather than continue probing only its roads and watching posts. The column divides into several controlled bodies, with trusted officers taking responsibility for separate approaches while Valerius keeps the principal force moving toward the largest concentration of occupied property. The advance is deliberate rather than a reckless rush, but its purpose is unmistakable: the estates themselves are now the objective. Men move through cultivated ground and enclosed approaches that the bandits had previously used as protected space, forcing the defenders to decide whether to abandon positions or contest them. The first movement reaches the outer properties without a general engagement, but signs of hurried preparation show that the occupation is no longer being treated as a distant Roman expedition. By nightfall, Roman troops are established inside the outer belt of the bandit-controlled estates, and the campaign has entered a materially more direct phase.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius trusted officers",
+        "bandit-controlled estates",
+        "bandit defenders"
+      ],
+      "state_changes": [],
+      "source_event_id": "GMV-62BCE-001-R049-E001"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R049-E002",
+      "date": "-0059-01-07",
+      "type": "connected",
+      "headline": "SEVERAL ESTATES ARE ABANDONED BEFORE THE ROMANS CAN ENCIRCLE THEM",
+      "article": "The first systematic advance into the estates produces an immediate change in the pattern of resistance. Several smaller properties are found largely deserted, with food stores disturbed, animals driven away and household possessions removed in haste, indicating that the occupants withdrew before the Roman detachments arrived. Valerius orders his officers to record what is actually found rather than assume that every abandoned building represents a defeated bandit position. In one estate, marks left behind by carts and pack animals point toward a route that does not appear in the older captured records, suggesting that the withdrawal was organized along a newer line of movement. Scouts follow the signs far enough to confirm that the trail is recent without pulling the main body away from its assigned objectives. The discovery adds another layer to the expedition's understanding of the network and prevents the abandoned properties from being mistaken for the end of the resistance.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius scouts",
+        "Valerius soldiers",
+        "bandit households",
+        "bandit network"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 994,
+          "delta": 3,
+          "after": 997,
+          "unit": "points",
+          "reason": "Recent withdrawal routes and newly observed movement patterns provide information not contained in the older records.",
+          "source_event_id": "GMV-62BCE-001-R049-E002",
+          "provenance": "simulation"
+        }
+      ],
+      "source_event_id": "GMV-62BCE-001-R049-E002"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R049-E003",
+      "date": "-0059-01-12",
+      "type": "direct",
+      "headline": "THE FIRST ESTATE REFUSES TO YIELD — AND THE ADVANCE TURNS INTO A HARD FIGHT",
+      "article": "The first serious resistance comes at an estate whose defenders have chosen to remain behind its walls and approaches rather than withdraw with the other households. Roman troops encounter organized opposition as they move through the outer grounds, and the fighting becomes close and difficult where the approach narrows between cultivated land and the estate's defensive structures. Valerius commits additional men from the main body instead of allowing a smaller detachment to be isolated, and the pressure eventually forces the defenders away from the position they had chosen to hold. The clash is costly in time and physical effort even though it does not become a battle involving the whole expedition. Once the position is secured, the soldiers find evidence that the defenders had prepared for a longer resistance than the brief engagement suggests, including stores arranged for continued occupation. Valerius's decision to push the majority of his force into the estates has therefore produced its first unmistakable armed confrontation, and the men emerge from it with the campaign's next stage still ahead of them.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius officers",
+        "bandit defenders",
+        "occupied estate"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": 57,
+          "delta": 4,
+          "after": 61,
+          "unit": "points",
+          "reason": "The sustained advance and close fighting at the defended estate impose additional strain.",
+          "source_event_id": "GMV-62BCE-001-R049-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": 66,
+          "delta": -2,
+          "after": 64,
+          "unit": "points",
+          "reason": "The advance and fighting consume additional provisions and usable campaign stores.",
+          "source_event_id": "GMV-62BCE-001-R049-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 997,
+          "delta": 2,
+          "after": 999,
+          "unit": "points",
+          "reason": "The secured estate yields information about prepared positions and the network's expectations for Roman movement.",
+          "source_event_id": "GMV-62BCE-001-R049-E003",
+          "provenance": "simulation"
+        }
+      ],
+      "source_event_id": "GMV-62BCE-001-R049-E003"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R049-E004",
+      "date": "-0059-01-18",
+      "type": "connected",
+      "headline": "ESTATE RECORDS EXPOSE HOW THE BANDITS HAVE DISTRIBUTED THEIR MEN AND STORES",
+      "article": "After the fighting subsides, Valerius's officers search the secured estate and recover records that had not been removed during the hurried preparations for resistance. The material is not a complete ledger of the bandit network, but it contains enough names, quantities and references to neighboring properties to show that the occupied estate was part of a wider chain rather than an isolated strongpoint. Several entries correspond with the recent routes already discovered by the scouts, while others point toward properties farther ahead that have not yet been visited. Valerius orders the records preserved alongside the older captured documents so that the new information can be compared with what the expedition already knows. The comparison reveals that some of the network's apparent dispersal is deliberate, with men and stores shifted between estates instead of concentrated in one place. The discovery gives the Roman officers a substantially clearer picture of the ground immediately ahead without pretending that every entry can be trusted as current.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius officers",
+        "bandit network",
+        "secured estate",
+        "neighboring estates"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 999,
+          "delta": 2,
+          "after": 1001,
+          "unit": "points",
+          "reason": "Recovered estate records identify additional relationships among properties, personnel and dispersed stores.",
+          "source_event_id": "GMV-62BCE-001-R049-E004",
+          "provenance": "simulation"
+        }
+      ],
+      "source_event_id": "GMV-62BCE-001-R049-E004"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R049-E005",
+      "date": "-0059-01-24",
+      "type": "surprise",
+      "headline": "BANDIT FIGHTERS STRIKE THE OUTER ESTATES IN A NIGHT ATTACK",
+      "article": "The pressure on the estates produces a sharp response when bandit fighters launch a sudden attack against the Roman-held outer positions after nightfall. The attackers concentrate against a portion of the line where several recently occupied properties lie close together, apparently seeking to disrupt the Roman presence before more men can be moved forward. The first warning comes from sentries who detect movement beyond the occupied grounds, and the defenders are able to form before the attackers reach the inner positions. The fighting is confused in the darkness and spreads across several approaches before the bandit force breaks contact and withdraws rather than allowing itself to be fixed in a prolonged engagement. Valerius's officers hold the occupied ground and prevent the attack from reopening the route through the estates, but the night action leaves the men more fatigued and forces additional attention onto the perimeter. The attack makes clear that the withdrawal from several estates was not a general collapse of the network; its fighters are still capable of choosing the time and place of local resistance.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "bandit fighters",
+        "outer estates",
+        "Valerius sentries"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": 61,
+          "delta": 3,
+          "after": 64,
+          "unit": "points",
+          "reason": "The night attack and extended defensive movement add further physical strain.",
+          "source_event_id": "GMV-62BCE-001-R049-E005",
+          "provenance": "simulation"
+        }
+      ],
+      "source_event_id": "GMV-62BCE-001-R049-E005"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R049-E006",
+      "date": "-0059-01-31",
+      "type": "roundup",
+      "headline": "LOCAL NEWS: THE ESTATES ARE NO LONGER A DISTANT BANDIT SANCTUARY",
+      "article": "January closes with Roman forces holding several positions inside the estates that had previously served as protected ground for the bandit network. The advance has produced both easy gains and hard resistance: some properties were abandoned before the Romans arrived, while another had to be taken after a determined fight, and a later night attack demonstrated that the remaining bandit fighters had not been driven away from the wider district. Newly recovered records have added substantially to the expedition's intelligence picture, giving Valerius information about the distribution of men and stores beyond the positions already reached. The cost has been measured in provisions, fatigue and a growing need to protect the ground that has been occupied rather than simply moving past it. Local relations remain strained as the Roman presence expands through properties that had been under bandit control, even where no direct fighting occurs. Valerius therefore ends the month in a stronger informational position than he held at its beginning, but with the expedition now committed to dealing with an adversary that has begun contesting the estates themselves rather than only the roads and watching posts.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "bandit network",
+        "bandit fighters",
+        "occupied estates"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 99,
+          "delta": -2,
+          "after": 97,
+          "unit": "points",
+          "reason": "The expanded Roman presence across the bandit-controlled estates makes nearby households and local actors more cautious.",
+          "source_event_id": "GMV-62BCE-001-R049-E006",
+          "provenance": "simulation"
+        }
+      ],
+      "source_event_id": "GMV-62BCE-001-R049-E006"
+    }
+  ]
+}
