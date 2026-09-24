@@ -6,74 +6,80 @@
   "articles": [
     {
       "event": 1,
-      "date": "-0059-03-04",
-      "type": "direct",
-      "headline": "VALERIUS STRIKES THREE HOLDOUTS IN A SINGLE NIGHT",
-      "entities": [
+      "event_id": "GMV-62BCE-001-R051-E001",
+      "round_number": 51,
+      "date": "3 March 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS BREAKS THE HOLDOUT LINE BEFORE DAWN",
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "Valerius soldiers",
         "Roman raiding parties",
         "bandit holdouts",
-        "three holdout positions"
+        "Valerius soldiers"
       ],
-      "article": "Using the routes and dispositions gathered during the February advance, Gaius Maximus Valerius divides the remaining Roman force into tightly coordinated raiding parties and moves against three known holdouts before their occupants can reinforce one another. The detachments approach under cover of darkness, seal the exits and wait until Valerius gives the signal for the attacks to begin. At the first position Valerius is through the entrance before the defenders can form a coherent line, and the fighting collapses into a series of short, violent encounters. He personally kills each of the armed holdout fighters encountered by his party, while the other Roman detachments secure their assigned positions without suffering an injury. By dawn the three sites are in Roman hands and the remaining resistance has been reduced to scattered fugitives rather than organized garrisons. The speed and coordination of the operation leave the Roman force with its full fighting strength intact."
+      "body": "Before dawn on 3 March, Gaius Maximus Valerius set several Roman detachments moving at once against the remaining bandit positions identified during the preceding advance. The columns approached by separate routes, converging only after the outer sentries had been cut off from one another and the principal entrances were covered. Valerius personally led the first decisive entry, forcing the defenders into close quarters before they could organize a counterattack. He killed every armed bandit fighter who came against his party, while the other Roman detachments secured the surrounding positions without losing or injuring a man. The coordinated assault ended the holdouts' ability to support one another and left the surviving fugitives without an organized defensive position to return to. By sunrise, the Roman force had completed the first stage of the final sweep with its full fighting strength intact."
     },
     {
       "event": 2,
-      "date": "-0059-03-09",
-      "type": "direct",
-      "headline": "THE LAST ESTATE HOLDOUTS ARE HUNTED DOWN",
-      "entities": [
+      "event_id": "GMV-62BCE-001-R051-E002",
+      "round_number": 51,
+      "date": "8 March 59 BCE",
+      "event_category": "Direct",
+      "title": "THE LAST ARMED HOLDOUTS FALL TO THE FINAL RAIDS",
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "Valerius soldiers",
-        "remaining bandit holdouts",
-        "estate network",
-        "abandoned stores"
+        "Roman raiding force",
+        "remaining bandit fighters",
+        "abandoned estate stores"
       ],
-      "article": "The destruction of the first three positions forces the surviving bandits to abandon the estate network's fixed defenses and scatter into smaller groups. Valerius does not allow the campaign to become a slow search across the countryside; instead, he uses the captured routes to send his men toward the few remaining concentrations while keeping the force mutually supporting. At each location he personally enters the fighting rather than delegating the decisive work, and every armed bandit found in the identified holdouts is killed by Valerius himself. Roman soldiers control the perimeter, block escape routes and collect the abandoned stores, but none is wounded during the action. Several previously hidden stores and written fragments are recovered, giving the Romans a clearer picture of how the network had been supplied. By the end of the operation, the organized holdouts within the invaded estate belt have ceased to exist as fighting positions."
+      "body": "The final organized holdouts attempt to disappear into isolated farm compounds and concealed storage sites, but Valerius keeps the Roman detachments moving before the fugitives can establish new defensive positions. On 8 March, one such group is discovered behind an abandoned estate compound and makes a determined close-range stand rather than surrendering its weapons. Valerius enters the fight at the head of his men and personally kills every armed bandit fighter in the position. Roman soldiers seal the approaches, remove the remaining occupants from danger and secure the stores without a single Roman injury. Usable food, equipment and other provisions are recovered from the abandoned position and added to the expedition's available stores. With the last known armed concentrations destroyed, the campaign passes from the destruction of holdouts to the consequences of what their removal has left behind."
     },
     {
       "event": 3,
-      "date": "-0059-03-15",
-      "type": "social",
-      "headline": "ABANDONED HOLDINGS BEGIN RETURNING TO CIVILIAN USE",
-      "entities": [
+      "event_id": "GMV-62BCE-001-R051-E003",
+      "round_number": 51,
+      "date": "14 March 59 BCE",
+      "event_category": "Connected",
+      "title": "CAPTURED RECORDS REVEAL THE SHAPE OF THE BROKEN NETWORK",
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "local smallholders",
-        "Valerius officers",
-        "estate workers",
-        "occupied estates"
+        "Roman officers",
+        "captured records",
+        "bandit network",
+        "estate routes"
       ],
-      "article": "With the armed holdouts removed from the immediate estate belt, local smallholders begin returning to fields and work areas that had been avoided during the fighting. Some arrive cautiously and remain outside the Roman positions until officers establish that the routes are secure, while others begin reopening agricultural activity almost immediately. Valerius's officers record the locations of abandoned tools, livestock and stores so that the material can be distinguished from military spoils and from property whose ownership remains disputed. The restoration of ordinary movement changes the character of the occupation, because the Romans are no longer operating among a continuous chain of active armed positions. Local inhabitants remain wary of the Roman presence, but the disappearance of the holdouts reduces the immediate threat that had kept many of them away. The change gives Valerius a more stable rear area from which the expedition can decide what to do next."
+      "body": "Roman officers begin examining the papers, markings and concealed stores taken during the raids, and the material provides a clearer picture of how the bandit network had operated across the estate belt. Lists of names, quantities and routes are compared with information already gathered during the earlier stages of the expedition. Several locations previously regarded as isolated trouble spots are shown to have been linked by supply and messenger routes, while other suspected positions are found to have already been abandoned. Valerius orders the records preserved rather than destroyed, allowing the Roman command to distinguish the former network's core from ordinary local movement. The resulting picture does not produce another armed confrontation, but it materially expands what the expedition knows about the territory it has just brought under control. The information is prepared for transmission through the established Roman correspondence channels."
     },
     {
       "event": 4,
-      "date": "-0059-03-21",
-      "type": "connected",
-      "headline": "MARCELLUS HEARS THAT THE HOLDOUTS HAVE FALLEN",
-      "entities": [
+      "event_id": "GMV-62BCE-001-R051-E004",
+      "round_number": 51,
+      "date": "20 March 59 BCE",
+      "event_category": "Connected",
+      "title": "SMALLHOLDERS RETURN TO FIELDS LEFT EMPTY BY THE FIGHTING",
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "Marcus Claudius Marcellus",
-        "Roman political network",
-        "Valerius officers",
-        "estate belt"
+        "local smallholders",
+        "estate workers",
+        "Valerius officers"
       ],
-      "article": "News of the raids travels beyond the immediate district and reaches Marcus Claudius Marcellus through the established Roman correspondence network. The report emphasizes the speed of the operation, the recovery of records and the absence of Roman casualties rather than presenting the result as a formal political settlement. Marcellus's interest is directed toward what Valerius has discovered and what the disappearance of the bandit network may mean for the surrounding region. Valerius's officers preserve the distinction between battlefield success and political consequence, sending confirmed information rather than predictions. The correspondence keeps the Roman connection active at a moment when Valerius's campaign has suddenly changed from breaking fortified resistance to deciding what should follow it. For the first time since the invasion began, the Roman political network receives a report describing the principal armed opposition in the estate belt as effectively eliminated."
+      "body": "By the third week of March, local smallholders begin returning to fields and work areas that had remained empty while the bandit positions were active. Families approach cautiously at first, bringing tools back to properties that they had left behind and testing whether ordinary movement can resume along the surrounding roads. Valerius's officers supervise the reopening of routes and keep military stores separate from civilian tools, livestock and other property whose ownership has not been settled. The return of agricultural activity is gradual rather than universal, but several previously deserted plots show signs of cultivation again before the month is over. Local inhabitants continue to watch the Roman presence carefully, yet the disappearance of the armed holdouts removes the immediate danger that had kept many away. The renewed civilian movement also gives the occupied district a visible change in character, from an active search zone toward a territory in which administration and property questions can now become more prominent."
     },
     {
       "event": 5,
-      "date": "-0059-03-28",
-      "type": "roundup",
-      "headline": "THE BANDIT NETWORK COLLAPSES AS AN ORGANIZED FIGHTING FORCE",
-      "entities": [
+      "event_id": "GMV-62BCE-001-R051-E005",
+      "round_number": 51,
+      "date": "28 March 59 BCE",
+      "event_category": "Surprise",
+      "title": "A QUIET ROAD REVEALS THE CAMPAIGN HAS CHANGED",
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "Valerius soldiers",
         "Marcus Claudius Marcellus",
-        "bandit network",
+        "Roman correspondence network",
         "local smallholders",
-        "invaded estate belt"
+        "former holdout territory"
       ],
-      "article": "By the end of March, the remaining organized bandit holdouts inside the invaded estate belt have been eliminated. Valerius's coordinated raids achieved the result without a single Roman injury, and he personally killed every armed bandit encountered in the decisive close fighting. The operation leaves the Roman force with its full 398-man strength, although the repeated night movements have increased exhaustion and made further immediate campaigning more demanding. Captured provisions partially replenish the stores, while recovered records materially improve the expedition's understanding of the network that had resisted the invasion. Civilian movement is beginning to return to the formerly contested properties, and the established correspondence with Marcus Claudius Marcellus has carried news of the campaign beyond the immediate district. Valerius now faces a different strategic problem: the invasion's principal armed opposition has been broken, but military occupation, civilian administration and any future claims to property remain separate questions that the campaign has not automatically resolved."
+      "body": "A routine movement along a road that had recently been treated as contested territory produces an unexpected sight on 28 March: civilian traffic has resumed where Roman scouts had previously expected to find signs of organized resistance. The change is reported back to Gaius Maximus Valerius together with confirmation that no armed bandit position remains active in the district. At nearly the same time, a dispatch from Marcus Claudius Marcellus reaches the Roman command network carrying news of the campaign's earlier successes and requesting that the recovered information be preserved and forwarded. The convergence of civilian movement and Roman political attention marks a visible shift in the expedition's circumstances without creating a new battle or formal settlement. Valerius's men remain at full strength, but the sustained pace of the raids has left the force needing recovery before another demanding operation can be undertaken. The month therefore closes with the immediate fighting ended, the local countryside beginning to move again, and the political consequences of the campaign only beginning to take shape."
     }
   ]
 }
