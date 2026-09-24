@@ -929,3 +929,23 @@ Validation is designed to be fast and dependency-free. It uses local repository 
 ### Failure behavior
 
 If a canonical pointer, chronology, metric scale, ledger, conservation equation, event/news relationship, or other hard invariant fails, the process must stop rather than guessing, reconstructing, or silently repairing the campaign. The correct response is to identify the missing/conflicting record and resolve that conflict before simulation continues.
+
+
+## Mandatory historical schema migration
+
+The committed GMV chronology is treated as one canonical data series, even where older records were authored under earlier schemas. Before continuing the campaign, historical round/news records must be normalized to the current schema.
+
+The migration contract is:
+
+1. Preserve the original record verbatim under `legacy_record`.
+2. Normalize every round to `gmv-round-v2`.
+3. Normalize every news record to `gmv-news-v2`.
+4. Normalize event identity, dates, headlines, articles, visibility, confidence, and state-change structure.
+5. Never invent an absolute `before` or `after` value when the legacy record did not contain enough information; use explicit nulls and mark the field `legacy-migration`.
+6. Preserve the original metric schema in migration metadata.
+7. Do not silently alter historical outcomes while changing representation.
+8. Run the migration before treating the chronology as a uniform replayable dataset.
+9. Run the mandatory validator after migration.
+10. A migration is incomplete if any historical record remains on an undocumented schema.
+
+The repository implementation is `projects/chronicle-memory/tools/migrate-gmv-history.js`, with `gmv-round-v2.schema.json` defining the normalized round contract. The migration workflow is intentionally one-way for historical representation: source records remain recoverable through `legacy_record`, while future rounds are authored directly in the canonical schema.
