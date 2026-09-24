@@ -1,8 +1,8 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 43,
-  "date": "-0060-07-31",
-  "treasury": 1880,
+  "round": 44,
+  "date": "-0060-08-31",
+  "treasury": 1905,
   "wealth_accounts": {
     "public": 2693,
     "private": 497,
@@ -14,7 +14,7 @@
     "population": 249,
     "currency": -1110,
     "soldiers": 411,
-    "taxation": 0,
+    "taxation": 3,
     "economy": 100,
     "agriculture": 79,
     "infrastructure": 100,
@@ -27,7 +27,7 @@
     "legitimacy": 100,
     "exhaustion": 55,
     "technology": 85,
-    "intelligence": 968,
+    "intelligence": 969,
     "relations": 100,
     "land_area_sq_miles": 4.25
   },
@@ -35,7 +35,7 @@
     "land_area_sq_miles": 4.25,
     "acres": 2720,
     "roman_iugera_approx": 4367,
-    "change_this_round_sq_miles": 0.25,
+    "change_this_round_sq_miles": 0,
     "scope": "personal estates and holdings"
   },
   "relationships": {
@@ -49,7 +49,7 @@
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "July 60 BCE: Valerius spent the month training personally with the officers he had decorated, appointed them to guard his person and estates, and granted them honorary standing within his household lineage and dynastic circle. Their personal military connection strengthened and intelligence rose to 968; all other core metrics remained unchanged.",
+    "campaign_development": "August 60 BCE: Valerius introduced a permanent three-percent income-based estate tax, collected proportionally from recorded personal income. The low rate produced modest recurring revenue without changing land holdings or core economic capacity; treasury rose to 1905 and intelligence to 969.",
     "land_area_history": "4.25 square miles unchanged."
   },
   "special_event_policy": {
@@ -62,9 +62,9 @@
     "magnitude_11": {
       "chance_percent": 6.42,
       "checks": [
-        41.2841,
-        68.5172,
-        93.0046
+        12.4831,
+        57.2204,
+        91.6732
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
