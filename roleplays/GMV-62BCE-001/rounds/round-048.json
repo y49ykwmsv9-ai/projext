@@ -271,8 +271,8 @@
     },
     "commit_check": {
       "required": true,
-      "verified_after_commit": false,
-      "verification_basis": "Pending post-persistence re-read."
+      "verified_after_commit": true,
+      "verification_basis": "Round 48 round, news, state, scenario pointer, and resolved property-ledger state were persisted and re-read successfully after the persistence sequence."
     }
   }
 }
