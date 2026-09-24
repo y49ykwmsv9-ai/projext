@@ -61,13 +61,10 @@
           "event_type": {
             "type": "string",
             "enum": [
-              "Agriculture",
-              "Patronage",
-              "Relations",
-              "Recruitment / Security",
-              "Preparation",
-              "Intelligence",
-              "Local Roundup"
+              "DIRECT",
+              "CONNECTED",
+              "SURPRISE",
+              "SPECIAL"
             ]
           },
           "headline": {
