@@ -1,192 +1,633 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 33,
   "period": {
     "start": "-0060-09-01",
     "end": "-0060-09-30",
     "display": "1 September 60 BCE – 30 September 60 BCE"
   },
-  "player_action": "Gaius Maximus Valerius personally leads the expedition farther into the country used by the regional band. He keeps the main body concentrated around his own position, continues to use the ravine fortress and forward camp as linked bases, and presses the search for the network sustaining the band. He gives his officers freedom to report what they discover without telling them what result he expects, intending to let the country and the movement of men reveal what comes next.",
-  "metric_schema": "fixed-v1+land-area-v1",
-  "land_area_measurement": {
-    "metric": "land_area_sq_miles",
-    "value": 4,
-    "delta": 0,
-    "unit": "square miles",
-    "acres": 2560,
-    "roman_iugera_approx": 4110,
-    "scope": "Gaius Maximus Valerius personal estates and holdings",
-    "status": "measured baseline; no acquisition this round",
-    "basis": "historical Roman land-measure and estate precedent applied to the cumulative holdings established by prior simulation events"
+  "action": {
+    "action_id": "GMV-62BCE-001-R033-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius personally leads the expedition farther into the country used by the regional band. He keeps the main body concentrated around his own position, continues to use the ravine fortress and forward camp as linked bases, and presses the search for the network sustaining the band. He gives his officers freedom to report what they discover without telling them what result he expects, intending to let the country and the movement of men reveal what comes next.",
+    "components": []
   },
-  "special_event_selection": {
-    "standard_opportunity_probability": 14,
-    "standard_special_event_roll_percent": 58.1274,
-    "standard_special_event_selected": false,
-    "magnitude_11_chance_percent": 10.84,
-    "magnitude_11_checks": [
-      42.1187,
-      77.5402,
-      18.9321
-    ],
-    "magnitude_11_successes": 0,
-    "magnitude_11_candidates_accepted": 0,
-    "magnitude_11_events": 0
-  },
+  "historical_context": null,
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R033-E001",
       "date": "-0060-09-03",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS LEADS THE EXPEDITION FARTHER INTO THE INTERIOR",
       "article": "September opens with Valerius himself at the head of the main expedition as it moves beyond the forward camp. The column advances in ordered sections, with the commander remaining close enough to receive reports from the scouts rather than directing the march entirely from the rear. The ravine fortress remains occupied by its garrison, while the newer camp continues to hold stores and serve as a place to which men can return. The road ahead is less familiar than the country already crossed, and the scouts are required to examine crossings, heights and tracks before the main body closes on them. Valerius makes no public declaration of the expedition's next objective beyond the immediate order to continue the march and observe carefully.",
-      "ledger": {
-        "currency": -15,
-        "supply": -2,
-        "intelligence": 6,
-        "exhaustion": 3
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 6,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R033-E002",
       "date": "-0060-09-07",
-      "type": "CONNECTED",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "connected",
       "headline": "TRAVELERS BRING NEW REPORTS FROM THE DISTRICTS AHEAD",
       "article": "Several travelers encountered beyond the forward camp provide differing accounts of movement farther inland. One speaks of armed men avoiding the principal roads, while another describes carts traveling at unusual hours and refusing to stop at familiar market points. A third account concerns abandoned provisions found near a lesser track, though the witness cannot say who left them there. Valerius's officers record the statements separately rather than treating them as a single confirmed report. The expedition's scouts are sent toward the places named by the travelers, while the main column continues its advance without committing itself to any one explanation.",
-      "ledger": {
-        "currency": -10,
-        "intelligence": 7,
-        "relations": 1,
-        "exhaustion": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 7,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R033-E003",
       "date": "-0060-09-11",
-      "type": "SURPRISE",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "surprise",
       "headline": "A NIGHT ALARM INTERRUPTS THE FORWARD CAMP",
       "article": "A sudden alarm breaks the quiet of the forward camp during the night. Guards report movement beyond the outer watch, and men rise to their positions before the disturbance can be clearly identified. The alarm lasts long enough to put the camp on a war footing, but no confirmed attack reaches the defenses. By first light, the surrounding ground is searched and the men discover signs of recent passage without finding a force large enough to explain the alarm. Valerius orders the watch arrangements reviewed and the search reports preserved with the other intelligence gathered during the expedition.",
-      "ledger": {
-        "currency": -10,
-        "supply": -1,
-        "morale": 1,
-        "intelligence": 5,
-        "exhaustion": 3
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "SURPRISE"
       }
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R033-E004",
       "date": "-0060-09-15",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "ANOTHER HIDDEN STORE IS LOCATED BEYOND THE FORWARD ROUTE",
       "article": "Scouts following a lesser track locate a concealed store farther from the principal road than the stores identified in August. The place contains provisions and equipment arranged for later movement, though the expedition does not find the men who placed them there. The discovery gives Valerius another fixed point from which to compare reports about the regional band's movements. His officers mark the approaches, water access and nearby settlements before the store is secured. The expedition now possesses a growing collection of physical locations that can be compared rather than relying only upon statements from travelers.",
-      "ledger": {
-        "currency": -15,
-        "supply": 1,
-        "intelligence": 9,
-        "technology": 1,
-        "exhaustion": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 9,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R033-E005",
       "date": "-0060-09-19",
-      "type": "CONNECTED",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "connected",
       "headline": "THE EXPEDITION DIVIDES ITS SCOUTING ROADS",
       "article": "With several possible approaches now under observation, Valerius sends separate scouting parties along different roads while retaining the main body under his direct command. The parties are instructed to return with descriptions of crossings, settlements, abandoned works and signs of recent movement rather than seeking a fight. The arrangement places more ground under observation without breaking the expedition into isolated bodies. Reports begin to return at different times, producing a less uniform but more detailed picture of the country ahead. Valerius keeps the main force where it can respond to the reports without prematurely committing the expedition to a single route.",
-      "ledger": {
-        "currency": -15,
-        "supply": -2,
-        "intelligence": 6,
-        "exhaustion": 3,
-        "stability": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 6,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R033-E006",
       "date": "-0060-09-23",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "A DIFFICULT CROSSING IS PREPARED FOR THE MARCH AHEAD",
       "article": "The expedition reaches a difficult crossing that cannot be passed quickly with the full column. Engineers and laborers are set to work preparing a controlled passage for men, animals and carts while the surrounding heights are watched. The work is temporary and serves the expedition rather than establishing a new permanent settlement. Valerius remains at the crossing while the work proceeds, receiving reports from the scouting parties before deciding how the main force will continue. By the end of the operation, the column has a usable route forward and another surveyed point on its map.",
-      "ledger": {
-        "currency": -15,
-        "supply": -2,
-        "infrastructure": 1,
-        "technology": 1,
-        "intelligence": 5,
-        "exhaustion": 4
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R033-E007",
       "date": "-0060-09-27",
-      "type": "WORLD",
-      "entities": [
-        "Marcus Tullius Cicero",
-        "Gaius Julius Caesar",
-        "Gnaeus Pompeius Magnus",
-        "Marcus Licinius Crassus",
-        "Marcus Porcius Cato"
-      ],
+      "type": "world",
       "headline": "ROME'S POLITICAL ALIGNMENTS CONTINUE TO SHIFT",
       "article": "Reports reaching the expedition describe continued political maneuvering in Rome after Caesar's successful bid for the consulship of the following year. Caesar's growing cooperation with Pompey and Crassus is being discussed alongside the continuing resistance of figures such as Cato, while Cicero remains attentive to the changing balance among Rome's leading men. The reports concern affairs far from Valerius's present march, but officers preserve them because decisions in Rome may affect commands, land questions and the wider political environment in which military service is rewarded. No new office or formal political authority is granted to Valerius by these developments. The expedition continues under the position and authority already established for him.",
-      "ledger": {
-        "intelligence": 4,
-        "relations": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R033-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R033-E008",
       "date": "-0060-09-30",
-      "type": "WORLD",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "world",
       "headline": "LOCAL ROUNDUP: THE EXPEDITION MOVES WITHOUT A DECISIVE ENCOUNTER",
       "article": "September closes with Valerius still personally leading the expedition farther inside the country used by the regional band. The main body remains concentrated, while the ravine fortress and forward camp continue to anchor the route behind it. Travelers, scouts and physical discoveries have added several new pieces to the picture, including another concealed store and a difficult crossing now made usable by the column. A night alarm briefly unsettled the forward camp, but no confirmed attack followed it. The expedition has not yet reached a decisive confrontation, and the country ahead remains only partly understood.",
-      "ledger": {}
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
+      }
     }
   ],
-  "running_total": {
-    "population": 0,
-    "currency": -95,
-    "soldiers": 0,
-    "taxation": 0,
-    "economy": 0,
-    "agriculture": 0,
-    "infrastructure": 1,
-    "trade": 0,
-    "readiness": 0,
-    "morale": 1,
-    "supply": -6,
-    "organization": 0,
-    "stability": 1,
-    "legitimacy": 0,
-    "exhaustion": 17,
-    "technology": 2,
-    "intelligence": 42,
-    "relations": 3,
-    "land_area_sq_miles": 0
+  "round_ledger": {
+    "population": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "currency": {
+      "before": null,
+      "delta": -95,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "taxation": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": -6,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 1,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "exhaustion": {
+      "before": null,
+      "delta": 17,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 42,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 3,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "land_area_sq_miles": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
   },
-  "commercial_accounting": {
+  "financials": {
     "gross_receipts": 500,
     "operating_security_and_maintenance_costs": 350,
     "acquisition_and_transition_costs": 0,
@@ -198,13 +639,223 @@
     "private_account_start": 423,
     "private_account_end": 438
   },
-  "treasury_interest_placement": {
-    "principal": 0,
-    "status": "settled",
-    "note": "No new treasury placement initiated; prior placement settled in Round 22."
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "fixed-v1+land-area-v1",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-033.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
   },
-  "continuity": {
-    "campaign_development": "In September 60 BCE, Valerius personally led the expedition farther into the interior while keeping the ravine fortress and forward camp as linked bases. Reports from travelers, a night alarm, and the discovery of another concealed store added new but incomplete information about the regional band's network. The expedition prepared a difficult crossing and continued without a decisive encounter.",
-    "land_area_history": "The measured land-area field begins at 4.00 square miles in Round 33. This is an accounting of holdings already accumulated through prior simulation events, not a new acquisition. Future rounds carry the value forward and change it only when a concrete event actually changes the holdings."
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 33,
+    "period": {
+      "start": "-0060-09-01",
+      "end": "-0060-09-30",
+      "display": "1 September 60 BCE – 30 September 60 BCE"
+    },
+    "player_action": "Gaius Maximus Valerius personally leads the expedition farther into the country used by the regional band. He keeps the main body concentrated around his own position, continues to use the ravine fortress and forward camp as linked bases, and presses the search for the network sustaining the band. He gives his officers freedom to report what they discover without telling them what result he expects, intending to let the country and the movement of men reveal what comes next.",
+    "metric_schema": "fixed-v1+land-area-v1",
+    "land_area_measurement": {
+      "metric": "land_area_sq_miles",
+      "value": 4,
+      "delta": 0,
+      "unit": "square miles",
+      "acres": 2560,
+      "roman_iugera_approx": 4110,
+      "scope": "Gaius Maximus Valerius personal estates and holdings",
+      "status": "measured baseline; no acquisition this round",
+      "basis": "historical Roman land-measure and estate precedent applied to the cumulative holdings established by prior simulation events"
+    },
+    "special_event_selection": {
+      "standard_opportunity_probability": 14,
+      "standard_special_event_roll_percent": 58.1274,
+      "standard_special_event_selected": false,
+      "magnitude_11_chance_percent": 10.84,
+      "magnitude_11_checks": [
+        42.1187,
+        77.5402,
+        18.9321
+      ],
+      "magnitude_11_successes": 0,
+      "magnitude_11_candidates_accepted": 0,
+      "magnitude_11_events": 0
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-09-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS LEADS THE EXPEDITION FARTHER INTO THE INTERIOR",
+        "article": "September opens with Valerius himself at the head of the main expedition as it moves beyond the forward camp. The column advances in ordered sections, with the commander remaining close enough to receive reports from the scouts rather than directing the march entirely from the rear. The ravine fortress remains occupied by its garrison, while the newer camp continues to hold stores and serve as a place to which men can return. The road ahead is less familiar than the country already crossed, and the scouts are required to examine crossings, heights and tracks before the main body closes on them. Valerius makes no public declaration of the expedition's next objective beyond the immediate order to continue the march and observe carefully.",
+        "ledger": {
+          "currency": -15,
+          "supply": -2,
+          "intelligence": 6,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0060-09-07",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "TRAVELERS BRING NEW REPORTS FROM THE DISTRICTS AHEAD",
+        "article": "Several travelers encountered beyond the forward camp provide differing accounts of movement farther inland. One speaks of armed men avoiding the principal roads, while another describes carts traveling at unusual hours and refusing to stop at familiar market points. A third account concerns abandoned provisions found near a lesser track, though the witness cannot say who left them there. Valerius's officers record the statements separately rather than treating them as a single confirmed report. The expedition's scouts are sent toward the places named by the travelers, while the main column continues its advance without committing itself to any one explanation.",
+        "ledger": {
+          "currency": -10,
+          "intelligence": 7,
+          "relations": 1,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0060-09-11",
+        "type": "SURPRISE",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A NIGHT ALARM INTERRUPTS THE FORWARD CAMP",
+        "article": "A sudden alarm breaks the quiet of the forward camp during the night. Guards report movement beyond the outer watch, and men rise to their positions before the disturbance can be clearly identified. The alarm lasts long enough to put the camp on a war footing, but no confirmed attack reaches the defenses. By first light, the surrounding ground is searched and the men discover signs of recent passage without finding a force large enough to explain the alarm. Valerius orders the watch arrangements reviewed and the search reports preserved with the other intelligence gathered during the expedition.",
+        "ledger": {
+          "currency": -10,
+          "supply": -1,
+          "morale": 1,
+          "intelligence": 5,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0060-09-15",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "ANOTHER HIDDEN STORE IS LOCATED BEYOND THE FORWARD ROUTE",
+        "article": "Scouts following a lesser track locate a concealed store farther from the principal road than the stores identified in August. The place contains provisions and equipment arranged for later movement, though the expedition does not find the men who placed them there. The discovery gives Valerius another fixed point from which to compare reports about the regional band's movements. His officers mark the approaches, water access and nearby settlements before the store is secured. The expedition now possesses a growing collection of physical locations that can be compared rather than relying only upon statements from travelers.",
+        "ledger": {
+          "currency": -15,
+          "supply": 1,
+          "intelligence": 9,
+          "technology": 1,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0060-09-19",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE EXPEDITION DIVIDES ITS SCOUTING ROADS",
+        "article": "With several possible approaches now under observation, Valerius sends separate scouting parties along different roads while retaining the main body under his direct command. The parties are instructed to return with descriptions of crossings, settlements, abandoned works and signs of recent movement rather than seeking a fight. The arrangement places more ground under observation without breaking the expedition into isolated bodies. Reports begin to return at different times, producing a less uniform but more detailed picture of the country ahead. Valerius keeps the main force where it can respond to the reports without prematurely committing the expedition to a single route.",
+        "ledger": {
+          "currency": -15,
+          "supply": -2,
+          "intelligence": 6,
+          "exhaustion": 3,
+          "stability": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0060-09-23",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A DIFFICULT CROSSING IS PREPARED FOR THE MARCH AHEAD",
+        "article": "The expedition reaches a difficult crossing that cannot be passed quickly with the full column. Engineers and laborers are set to work preparing a controlled passage for men, animals and carts while the surrounding heights are watched. The work is temporary and serves the expedition rather than establishing a new permanent settlement. Valerius remains at the crossing while the work proceeds, receiving reports from the scouting parties before deciding how the main force will continue. By the end of the operation, the column has a usable route forward and another surveyed point on its map.",
+        "ledger": {
+          "currency": -15,
+          "supply": -2,
+          "infrastructure": 1,
+          "technology": 1,
+          "intelligence": 5,
+          "exhaustion": 4
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0060-09-27",
+        "type": "WORLD",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Gnaeus Pompeius Magnus",
+          "Marcus Licinius Crassus",
+          "Marcus Porcius Cato"
+        ],
+        "headline": "ROME'S POLITICAL ALIGNMENTS CONTINUE TO SHIFT",
+        "article": "Reports reaching the expedition describe continued political maneuvering in Rome after Caesar's successful bid for the consulship of the following year. Caesar's growing cooperation with Pompey and Crassus is being discussed alongside the continuing resistance of figures such as Cato, while Cicero remains attentive to the changing balance among Rome's leading men. The reports concern affairs far from Valerius's present march, but officers preserve them because decisions in Rome may affect commands, land questions and the wider political environment in which military service is rewarded. No new office or formal political authority is granted to Valerius by these developments. The expedition continues under the position and authority already established for him.",
+        "ledger": {
+          "intelligence": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0060-09-30",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "LOCAL ROUNDUP: THE EXPEDITION MOVES WITHOUT A DECISIVE ENCOUNTER",
+        "article": "September closes with Valerius still personally leading the expedition farther inside the country used by the regional band. The main body remains concentrated, while the ravine fortress and forward camp continue to anchor the route behind it. Travelers, scouts and physical discoveries have added several new pieces to the picture, including another concealed store and a difficult crossing now made usable by the column. A night alarm briefly unsettled the forward camp, but no confirmed attack followed it. The expedition has not yet reached a decisive confrontation, and the country ahead remains only partly understood.",
+        "ledger": {}
+      }
+    ],
+    "running_total": {
+      "population": 0,
+      "currency": -95,
+      "soldiers": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 1,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 1,
+      "supply": -6,
+      "organization": 0,
+      "stability": 1,
+      "legitimacy": 0,
+      "exhaustion": 17,
+      "technology": 2,
+      "intelligence": 42,
+      "relations": 3,
+      "land_area_sq_miles": 0
+    },
+    "commercial_accounting": {
+      "gross_receipts": 500,
+      "operating_security_and_maintenance_costs": 350,
+      "acquisition_and_transition_costs": 0,
+      "net_public_profit": 150,
+      "private_transfer_rate": 0.1,
+      "private_transfer": 15,
+      "public_account_start": 2009,
+      "public_account_end": 2144,
+      "private_account_start": 423,
+      "private_account_end": 438
+    },
+    "treasury_interest_placement": {
+      "principal": 0,
+      "status": "settled",
+      "note": "No new treasury placement initiated; prior placement settled in Round 22."
+    },
+    "continuity": {
+      "campaign_development": "In September 60 BCE, Valerius personally led the expedition farther into the interior while keeping the ravine fortress and forward camp as linked bases. Reports from travelers, a night alarm, and the discovery of another concealed store added new but incomplete information about the regional band's network. The expedition prepared a difficult crossing and continued without a decisive encounter.",
+      "land_area_history": "The measured land-area field begins at 4.00 square miles in Round 33. This is an accounting of holdings already accumulated through prior simulation events, not a new acquisition. Future rounds carry the value forward and change it only when a concrete event actually changes the holdings."
+    }
   }
 }
