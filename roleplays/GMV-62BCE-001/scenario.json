@@ -33,5 +33,12 @@
   "continuity": {
     "campaign_development": "April 60 BCE: Valerius continued deeper into the bandit-controlled interior and actively exploited captured watching-post intelligence. He bypassed known ambush corridors, recovered another hidden store, used a deliberately abandoned trail to misdirect a search party, and disrupted a communications crossing without a pitched battle. Intelligence rose to 957, supply to 50, exhaustion rose to 55, relations fell to 97, while stability and legitimacy remained 100. Land area remained 4.00 square miles.",
     "land_area_history": "4.00 square miles unchanged."
+  },
+  "end_of_round_checks": {
+    "required": true,
+    "special_event_resolution": "required every round",
+    "magnitude_11_check": "required every round",
+    "commit_check": "required every round",
+    "canonical_round_40": "verified"
   }
 }
