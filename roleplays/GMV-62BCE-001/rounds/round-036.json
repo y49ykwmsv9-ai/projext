@@ -1,0 +1,168 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 36,
+  "period": {
+    "start": "-0060-12-01",
+    "end": "-0060-12-31",
+    "display": "1 December 60 BCE – 31 December 60 BCE"
+  },
+  "metric_schema": "fixed-v1+land-area-v1",
+  "player_action": "Gaius Maximus Valerius continues the interior expedition through the winter, using the captured network records to guide movement without allowing the main column to become fixed in one place. He intends to secure the newly discovered routes, keep the ravine fortress supplied, and identify the settlements and crossings connecting the network before deciding where to strike next.",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-12-03",
+      "type": "DIRECT",
+      "headline": "THE COLUMN SECURES THE HIDDEN STORE",
+      "article": "The expedition remains around the newly discovered store while its officers determine what can safely be carried forward. Grain and animal feed are divided between immediate use and guarded reserve, while tools and other useful materials are inventoried. Scouts examine the ground around the store for signs that its owners are nearby. Valerius orders the position kept quiet while the column prepares for its next movement. The discovery gives the expedition a temporary increase in provisions at a time when its supply line remains under pressure.",
+      "ledger": {
+        "currency": -15,
+        "supply": 5,
+        "intelligence": 8,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-12-07",
+      "type": "CONNECTED",
+      "headline": "MESSENGERS RETURN FROM THE RAVINE ROAD",
+      "article": "Messengers from the rear bring a fuller account of the assault on the ravine fortress. The outer road remains usable, although repairs continue at several damaged points. The garrison reports that the attackers withdrew through country matching several routes found in the captured records. Valerius's officers add the report to the growing network map and compare it with the newly recovered storehouse. The connection strengthens the case that the same organization is operating across both the interior and the Roman rear.",
+      "ledger": {
+        "currency": -10,
+        "supply": -1,
+        "intelligence": 13,
+        "technology": 1,
+        "exhaustion": 2,
+        "relations": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-12-11",
+      "type": "DIRECT",
+      "headline": "THE COLUMN CHANGES ITS MARCHING ORDER",
+      "article": "The Roman column adopts a more deliberate marching order as it moves beyond the storehouse. Scouts take greater distance ahead of the main body, cavalry patrol exposed flanks, and the baggage is kept within a tighter protected center. Officers are required to report unusual tracks, abandoned fires and signs of recent passage before the column commits to unfamiliar ground. The changes slow portions of the march but reduce the number of unexamined approaches around the main body. Valerius remains with the forward elements as the new arrangement is tested.",
+      "ledger": {
+        "currency": -20,
+        "supply": -2,
+        "readiness": 3,
+        "organization": 2,
+        "intelligence": 9,
+        "exhaustion": 4
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-12-15",
+      "type": "SURPRISE",
+      "special_event": true,
+      "magnitude": 6,
+      "change_index": 3.814697265625,
+      "headline": "THE FORD OF THREE FIRES",
+      "article": "A scouting party discovers three abandoned fires beside a river crossing used by the expedition's maps. The fires are still warm enough to show that the site was recently occupied, and tracks lead away from the water toward two different paths. Valerius brings the main body to a halt before the ford and sends scouts to both approaches. One party finds signs of men watching from the wooded bank, while another discovers that the opposite path leads toward a previously unrecorded settlement. The Romans cross only after the banks and approaches have been examined, and the column secures the ford before nightfall. The encounter produces no pitched battle, but the discovery gives the expedition another route into the network's territory and prevents an uncertain crossing from becoming a vulnerable passage.",
+      "ledger": {
+        "currency": -30,
+        "supply": -2,
+        "readiness": -2,
+        "morale": 2,
+        "intelligence": 15,
+        "exhaustion": 5,
+        "technology": 1
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-12-19",
+      "type": "CONNECTED",
+      "headline": "THE UNRECORDED SETTLEMENT IS FOUND",
+      "article": "The path discovered beyond the river leads to a small settlement absent from the expedition's existing route records. Its inhabitants have already moved many goods away from the roadside, leaving only limited stores behind. Valerius's officers question travelers and compare their answers with the captured dispatches without treating every resident as an enemy. Several names and place references correspond to locations already appearing in the network records. The settlement becomes another point on the expedition's expanding map.",
+      "ledger": {
+        "currency": -10,
+        "population": 0,
+        "intelligence": 18,
+        "relations": 2,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-12-23",
+      "type": "DIRECT",
+      "headline": "WINTER SUPPLY IS REORGANIZED FOR THE INTERIOR",
+      "article": "With the expedition farther from its established bases, Valerius orders the remaining supplies reorganized for the winter movement. The newly recovered provisions are incorporated into the marching stores, while vulnerable materials are concentrated at guarded positions rather than carried unnecessarily. Officers calculate the distance between water sources and known routes before selecting the next camp. The arrangement does not restore the expedition's entire reserve, but it gives the column a more manageable distribution for the country ahead. The soldiers begin the final week of the year under a tighter supply routine.",
+      "ledger": {
+        "currency": -15,
+        "supply": 4,
+        "organization": 1,
+        "stability": 1,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-12-27",
+      "type": "WORLD",
+      "headline": "NEWS FROM ROME SPEAKS OF THE CONSULSHIP",
+      "article": "Letters reaching the expedition report that Caesar's expected consulship remains the central subject of political discussion in Rome. Pompey's interests continue to attract attention, while Crassus remains an important figure in the calculations of men following the affairs of the capital. Cicero continues to participate in political debate as the year approaches its close. The reports are discussed among the officers without changing the expedition's immediate orders.",
+      "ledger": {
+        "intelligence": 6,
+        "relations": 1
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0060-12-31",
+      "type": "WORLD",
+      "headline": "LOCAL ROUNDUP: THE NETWORK REACHES FARTHER THAN THE PASS",
+      "article": "December closes with the Roman expedition established beyond the hard pass and the evidence against the regional network continuing to accumulate. The hidden storehouse, the assault on the ravine fortress, the river crossing and the newly identified settlement now form separate points in a growing picture of the country. Valerius's column remains in motion despite the strain on its supplies and men. The rear road is still open, and the fortress remains a Roman position. The campaign enters the new year with the interior routes still unresolved.",
+      "ledger": {}
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": -130,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 0,
+    "infrastructure": 0,
+    "trade": 0,
+    "readiness": 1,
+    "morale": 2,
+    "supply": 4,
+    "organization": 4,
+    "stability": 2,
+    "legitimacy": 0,
+    "exhaustion": 24,
+    "technology": 2,
+    "intelligence": 69,
+    "relations": 4,
+    "land_area_sq_miles": 0
+  },
+  "land_area_measurement": {
+    "metric": "land_area_sq_miles",
+    "value": 4,
+    "delta": 0,
+    "unit": "square miles",
+    "acres": 2560,
+    "roman_iugera_approx": 4110
+  },
+  "special_event_selection": {
+    "standard_opportunity_percent": 14,
+    "standard_special_selected": true,
+    "standard_magnitude": 6,
+    "standard_change_index": 3.814697265625,
+    "magnitude_11": {
+      "chance_percent": 5.91,
+      "checks": [
+        71.44,
+        22.16,
+        94.08
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    }
+  }
+}
