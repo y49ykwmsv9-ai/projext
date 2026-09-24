@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 48,
-  "date": "-0060-12-31",
+  "round": 49,
+  "date": "-0059-01-31",
   "treasury": 1650,
   "wealth_accounts": {
     "public": 2693,
@@ -21,14 +21,14 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 66,
+    "supply": 64,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 57,
+    "exhaustion": 64,
     "technology": 85,
-    "intelligence": 994,
-    "relations": 99,
+    "intelligence": 1001,
+    "relations": 97,
     "land_area_sq_miles": 4.25,
     "temporary_unavailable": 0
   },
@@ -50,7 +50,7 @@
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "December 60 BCE: Valerius continued deeper into bandit-controlled country using captured watching-post records, but the older intelligence had to be tested against an adapting network. A false route and unreliable local information imposed delay and strain, while a concealed packet of newer records exposed changes in communications and dispersed supply. The expedition recovered usable provisions and entered the next phase with a substantially richer operational intelligence picture, while avoiding a pitched battle.",
+    "campaign_development": "January 59 BCE: Valerius ordered the majority of his men into the bandit-controlled estates. Several outer properties were abandoned before the Roman advance reached them, but one estate resisted and produced a hard fight. Recovered estate records exposed further relationships among properties, men and dispersed stores, while a night attack showed that the remaining bandit fighters could still contest occupied ground. The expedition ended the month holding several positions inside the estates with a stronger intelligence picture, but increased exhaustion, reduced supplies and more strained local relations.",
     "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "special_event_policy": {
@@ -61,11 +61,11 @@
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
-      "chance_percent": 6.42,
+      "chance_percent": 4.7283,
       "checks": [
-        97.2629,
-        57.1284,
-        48.2126
+        77.4595,
+        45.6908,
+        82.2397
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -74,7 +74,7 @@
   },
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
-    "canonical_round_48": "verified",
+    "canonical_round_49": "verified",
     "commit_check": "verified after canonical files persisted and re-read",
     "financial_continuity_audit": {
       "status": "passed_with_historical_uncertainty_preserved",
@@ -162,8 +162,8 @@
   },
   "next_round_gate": {
     "status": "OPEN",
-    "reason": "Rounds 1-48 historical schema/commit audit passed. Financial continuity reconciled with explicit historical uncertainty preserved; no unsupported tax, investment-return, or account-routing amounts were invented. Round 49 is unlocked.",
-    "unlocked_after_round": 48,
+    "reason": "Round 49 historical schema, special-event/magnitude-11 resolution, and persistence checks passed. Round 50 is unlocked.",
+    "unlocked_after_round": 49,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   }
 }
