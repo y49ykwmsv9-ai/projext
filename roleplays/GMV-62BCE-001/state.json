@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 51,
-  "date": "-0059-03-31",
+  "round": 52,
+  "date": "-0059-04-30",
   "treasury": 1650,
   "wealth_accounts": {
     "public": 2693,
@@ -19,16 +19,16 @@
     "agriculture": 79,
     "infrastructure": 100,
     "trade": 100,
-    "readiness": 97,
+    "readiness": 98,
     "morale": 99,
-    "supply": 59,
+    "supply": 58,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 72,
+    "exhaustion": 70,
     "technology": 85,
-    "intelligence": 1016,
-    "relations": 99,
+    "intelligence": 1024,
+    "relations": 105,
     "land_area_sq_miles": 4.25,
     "temporary_unavailable": 0
   },
@@ -40,17 +40,17 @@
     "scope": "personal estates and holdings"
   },
   "relationships": {
-    "nearby-landowners": 26,
+    "nearby-landowners": 27,
     "poor-agricultural-workers": 7,
-    "smallholders": 3,
+    "smallholders": 5,
     "military-connections": 20,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus_celer": 0,
-    "marcus-claudius-marcellus": 8,
+    "marcus-claudius-marcellus": 10,
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "March 59 BCE: Valerius coordinated rapid raids against every remaining organized bandit holdout and personally killed every armed bandit fighter encountered in the decisive fighting. No Roman soldier was injured. Captured provisions partially replenished supplies, recovered records expanded intelligence, local smallholders began returning to fields and work areas, and Marcus Claudius Marcellus remained connected through the established Roman correspondence network. The campaign has moved from active suppression of holdouts toward occupation, civilian administration and political consequences. Personal holdings remain 4.25 sq mi; military occupation and captured property did not automatically become private ownership.",
+    "campaign_development": "April 59 BCE: Following the destruction of the organized bandit holdouts, Valerius consolidated the occupied estate belt, reopened civilian roads, processed recovered records, and maintained correspondence with Marcus Claudius Marcellus. A newly surfaced local property claim demonstrated that restoring security did not resolve every ownership dispute. The expedition remains at 398 soldiers with no Roman combat injuries added; supply is 58, exhaustion 70, readiness 98, intelligence 1024, and relations 105. Personal holdings remain 4.25 sq mi; the disputed tract was not acquired.",
     "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "special_event_policy": {
@@ -63,9 +63,9 @@
     "magnitude_11": {
       "chance_percent": 4.7283,
       "checks": [
-        71.3821,
-        38.2245,
-        91.6072
+        83.6142,
+        41.2087,
+        72.9051
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -85,7 +85,9 @@
     },
     "canonical_round_50": "verified",
     "special_event_resolution": "verified",
-    "canonical_round_51": "verified"
+    "canonical_round_51": "verified",
+    "canonical_round_52": "verified",
+    "magnitude_11_check": "verified"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -165,8 +167,8 @@
   },
   "next_round_gate": {
     "status": "OPEN",
-    "reason": "Round 51 has been rewritten, persisted, and verified; Round 52 is unlocked.",
-    "unlocked_after_round": 51,
+    "reason": "Round 52 has been resolved and persisted.",
+    "unlocked_after_round": 52,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   },
   "character_registry": {
