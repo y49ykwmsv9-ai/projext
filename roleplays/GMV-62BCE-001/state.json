@@ -74,7 +74,7 @@
   },
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
-    "canonical_round_47": "pending post-commit verification",
-    "commit_check": "pending post-commit verification"
+    "canonical_round_47": "verified",
+    "commit_check": "verified after canonical files persisted and re-read"
   }
 }
