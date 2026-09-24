@@ -400,6 +400,54 @@ Military readiness: +4%
 The exact values above are illustrative only. In a real session they must come from the scenario state and calculation ledger.
 
 
+## Established special-event magnitude system
+
+GMV special events use the established magnitude framework. Magnitude is a **separate event-significance system** and must not replace or alter the fixed simulation metrics.
+
+### Magnitude scale
+
+- **Magnitude 1–10**: the event's resolved significance/intensity, where 1 is minor and 10 is exceptional.
+- Magnitude is assigned **after simulation resolution**, based on the event's actual scope, consequences, actors, resources at stake, and persistence.
+- Magnitude does not guarantee success, positive outcomes, casualties, territorial gains, or any other particular result.
+- A high-magnitude event can produce gains, losses, mixed consequences, or no persistent metric change if the resolved event warrants that result.
+- Magnitude must never be used as a substitute for exact quantities or the fixed 0–100 / -100 to +100 condition metrics.
+
+### Standard special-event selection
+
+When the established special-event system is active, the resolver records:
+
+- standard opportunity/chance;
+- whether the opportunity was selected;
+- resolved magnitude;
+- change index / magnitude-resolution value where used by the existing engine;
+- magnitude-11 eligibility/checks when the established system invokes that extension;
+- raw successes;
+- accepted candidates;
+- magnitude-11 events.
+
+**Magnitude 11 is an exceptional extension check, not part of the normal 1–10 scale.** It must never be silently presented as an ordinary magnitude result.
+
+### Special-event display
+
+If a special event is selected, the player-facing round output must identify it using the established special-event presentation and include its resolved magnitude. Its narrative must describe the actual resolved event, while its numerical consequences remain in the AI Ledger/state record.
+
+If no special event is selected, the output must explicitly preserve `special_event: null` in the structured record. Do not fabricate a special event merely to populate the presentation.
+
+### Magnitude integrity
+
+Magnitude is not a player-favoring reward roll. It is a significance/intensity resolution layer subject to the same simulation constraints as every other event:
+
+- resources;
+- geography;
+- logistics;
+- information;
+- actor capabilities;
+- prior state;
+- causal dependencies;
+- alternate-history conditions.
+
+The magnitude system must remain consistent across rounds. Do not invent a new event-intensity scale, rename magnitude into another metric, or switch to a different numerical range mid-campaign.
+
 ## Mandatory plain-text roleplay output format
 
 The canonical gameplay response format is not the raw JSON schema. The JSON records are the persistence layer; the player-facing response must preserve the established GMV plain-text presentation.
