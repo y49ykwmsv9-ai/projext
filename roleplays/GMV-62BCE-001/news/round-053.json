@@ -1,0 +1,187 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 53,
+  "period": "1 May 59 BCE – 31 May 59 BCE",
+  "articles": [
+    {
+      "event": 1,
+      "event_id": "GMV-62BCE-001-R053-E001",
+      "round_number": 53,
+      "date": "3 May 59 BCE",
+      "event_category": "Direct",
+      "title": "SURROUNDING LANDHOLDERS PLACE THE FORMER BANDIT LANDS IN VALERIUS'S HANDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "surrounding landholders",
+        "former bandit-held estates",
+        "local smallholders"
+      ],
+      "body": "On 3 May, the surrounding landholders gather to deliver a decision that changes the status of the territory Valerius's expedition seized during the campaign. Acting together, they formally recognize Gaius Maximus Valerius as the owner of the former bandit-held lands rather than attempting to divide the properties among themselves. The landholders explain that the destruction and neglect left behind by the bandit occupation have made the estates too costly and time-consuming for them to restore with the labor and resources presently available to them. They point instead to the return of their own livelihoods as the reason they are willing to place the abandoned territory in Valerius's hands. Several of those present make clear that their support is not merely a transaction, describing the Roman campaign as the reason their fields, roads and households can once again function without armed predation. The agreement gives Valerius a broad new landed responsibility, although the total acreage of the transferred territory still awaits a formal survey.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 4,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 2,
+      "event_id": "GMV-62BCE-001-R053-E002",
+      "round_number": 53,
+      "date": "7 May 59 BCE",
+      "event_category": "Connected",
+      "title": "THE NEW OWNERSHIP IS RECORDED WHILE THE BOUNDARIES REMAIN TO BE MEASURED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius officers",
+        "surrounding landholders",
+        "Roman records",
+        "former bandit estates"
+      ],
+      "body": "Four days later, Valerius's officers begin turning the landholders' agreement into a written property record. Witnesses from the surrounding estates identify the former bandit properties by their roads, fields, buildings and established local names, while officers compare those descriptions with the records recovered during the March raids. The resulting register distinguishes land whose ownership has now been granted to Valerius from parcels whose exact boundaries remain uncertain after months of disorder. No attempt is made to invent an acreage figure merely to close the record, and the transferred lands are instead marked for a later survey. The process also preserves the names of the local witnesses who supported the grant, giving the new ownership arrangement a civilian record rather than leaving it solely as a military claim. Valerius's intelligence officers consequently gain a clearer map of the territory at the same moment that his personal property portfolio becomes substantially broader in legal scope.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 1,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 3,
+      "event_id": "GMV-62BCE-001-R053-E003",
+      "round_number": 53,
+      "date": "12 May 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS BEGINS THE FIRST WORK OF RESTORING THE ABANDONED ESTATES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate workers",
+        "Roman patrols",
+        "former bandit estates",
+        "local smallholders"
+      ],
+      "body": "The first practical consequence of the grant appears in mid-May as Valerius directs workers and guards toward the most damaged properties rather than treating the newly acquired land as immediately productive. Broken gates are cleared, usable tools are gathered, irrigation channels and access tracks are inspected, and stores left behind during the fighting are separated from material that can no longer be salvaged. Roman patrols continue to protect the work parties, but the activity increasingly resembles estate restoration rather than military occupation. Local smallholders begin offering labor and information about which fields can be brought back into use first, drawing on knowledge that survived the period of bandit control. The work consumes some of the expedition's remaining supplies because men and animals must be fed while the properties are being made workable. By the middle of the month, several abandoned areas have begun the transition from seized territory into functioning estates under Valerius's ownership.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 4,
+      "event_id": "GMV-62BCE-001-R053-E004",
+      "round_number": 53,
+      "date": "17 May 59 BCE",
+      "event_category": "Connected",
+      "title": "OLD ESTATE RECORDS HELP IDENTIFY WHAT THE BANDITS LEFT BEHIND",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman officers",
+        "captured records",
+        "former bandit estates",
+        "estate routes"
+      ],
+      "body": "As restoration crews move between the newly granted properties, Roman officers use the captured records from the campaign to identify buildings and storage sites that had been overlooked during the fighting. Several references in the register correspond with abandoned work areas and secondary tracks that local witnesses had described only by older estate names. The comparison reveals where livestock, tools and agricultural stores were removed during the bandits' withdrawal and where useful equipment may still be recoverable. Valerius orders the information incorporated into the property register so that restoration does not erase the history of how the estates were recovered. The work also identifies several parcels whose boundaries will need to be settled against neighboring holdings before the final survey can be completed. What began as a military record of a defeated network is therefore becoming an administrative record for Valerius's new territory.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 5,
+      "event_id": "GMV-62BCE-001-R053-E005",
+      "round_number": 53,
+      "date": "22 May 59 BCE",
+      "event_category": "Surprise",
+      "title": "LANDHOLDERS RETURN WITH MORE WORKERS THAN VALERIUS EXPECTED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "surrounding landholders",
+        "local agricultural workers",
+        "former bandit estates"
+      ],
+      "body": "An unexpected show of support develops on 22 May when several surrounding landholders send additional workers to assist with the restoration of the properties now assigned to Valerius. The men arrive with carts, animals and agricultural tools rather than weapons, explaining that they want the newly acquired estates made productive because the security of their own holdings now depends upon the wider district remaining stable. Some of the same households that had approached the Roman lines cautiously during the invasion now speak openly about returning to ordinary trade and cultivation. Their decision reduces the immediate burden on Valerius's own stores, even as the number of people moving through the former bandit lands creates a need for tighter organization and supervision. The cooperation is striking because the landholders are not simply surrendering unwanted territory; they are actively helping Valerius turn it into workable land. Their actions give visible substance to the loyalty expressed when the grant was made and strengthen the social foundation of the new estate arrangement.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": -2,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 6,
+      "event_id": "GMV-62BCE-001-R053-E006",
+      "round_number": 53,
+      "date": "26 May 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS'S NEW LAND BECOMES A LOCAL SYMBOL OF THE CAMPAIGN'S AFTERMATH",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "surrounding landholders",
+        "local smallholders",
+        "former bandit estates",
+        "Marcus Claudius Marcellus"
+      ],
+      "body": "By the final week of May, news of the land grant has spread beyond the immediate estate belt and become one of the clearest signs that the campaign has entered a new phase. Local households that had spent months protecting what remained of their livelihoods now see Valerius directing labor toward fields and buildings rather than simply extracting military advantage from the territory he seized. Several landholders publicly reaffirm their support and describe the restoration of their own estates as inseparable from the security created by his campaign. Marcus Claudius Marcellus receives word through the established correspondence channel that the military occupation is being followed by a substantial civilian property settlement, though no Roman political office has yet formally endorsed the arrangement. Valerius's men remain in the district, but their role increasingly includes protecting workers, roads and stores associated with reconstruction. The change gives Valerius stronger local relationships while placing greater responsibility on him to make the newly acquired lands productive and orderly.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 1,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 3,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 7,
+      "event_id": "GMV-62BCE-001-R053-E007",
+      "round_number": 53,
+      "date": "31 May 59 BCE",
+      "event_category": "Connected",
+      "title": "THE FIRST FIELDS OF THE NEW ESTATES ARE PREPARED FOR A RETURN TO PRODUCTION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate workers",
+        "local smallholders",
+        "former bandit estates"
+      ],
+      "body": "May closes with the first visible fields on the former bandit properties prepared for renewed agricultural use. Work crews have cleared several abandoned plots, reopened portions of access routes and begun separating viable stores and tools from the wreckage left by the previous occupation. The restoration remains incomplete, and the full boundaries of Valerius's new holdings have still not been measured, but the properties are no longer being treated simply as conquered ground. Local workers move through the estates with increasing confidence, while nearby landholders continue to provide labor and practical assistance. The change is modest in physical scale but significant in character: land that had recently been associated with armed resistance is beginning to support ordinary production again. Valerius ends the month with ownership of the former bandit lands established, a loyal local constituency forming around the restoration, and a major surveying and rebuilding task still ahead.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0
+      }
+    }
+  ]
+}
