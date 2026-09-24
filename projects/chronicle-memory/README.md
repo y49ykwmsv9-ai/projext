@@ -399,6 +399,138 @@ Military readiness: +4%
 
 The exact values above are illustrative only. In a real session they must come from the scenario state and calculation ledger.
 
+
+## Mandatory plain-text roleplay output format
+
+The canonical gameplay response format is not the raw JSON schema. The JSON records are the persistence layer; the player-facing response must preserve the established GMV plain-text presentation.
+
+Every round response must use this structure:
+
+```text
+# Round N
+Character: Gaius Maximus Valerius
+Date: <start date> – <end date>
+
+## <event date> — <EVENT TYPE> — <HEADLINE>
+**Involved Parties / Entities:** <named actors, groups, institutions, places, or assets>
+
+<5-7 sentence period-authentic news/article account describing what happened, who was involved, where it happened, and the consequences. Do not expose internal simulation reasoning as prose.>
+
+**AI Ledger**
+```text
+<only the metrics actually changed by this event>
+<Metric>: <before> → <after> (<delta> <unit>)
+<Metric>: <before> → <after> (<delta> <unit>)
+```
+
+---
+
+## <next event date> — <EVENT TYPE> — <HEADLINE>
+**Involved Parties / Entities:** ...
+
+<article>
+
+**AI Ledger**
+```text
+...
+```
+
+---
+
+## <final event date> — LOCAL ROUNDUP — <HEADLINE>
+**Involved Parties / Entities:** ...
+
+<article>
+
+**AI Ledger**
+```text
+...
+```
+
+---
+
+### Round N Running Total
+```text
+Population: <delta>
+Currency: <delta>
+Soldiers: <delta>
+Taxation: <delta>
+Economy: <delta>
+Agriculture: <delta>
+Infrastructure: <delta>
+Trade: <delta>
+Readiness: <delta>
+Morale: <delta>
+Supply: <delta>
+Organization: <delta>
+Stability: <delta>
+Legitimacy: <delta>
+Exhaustion: <delta>
+Technology: <delta>
+Intelligence: <delta>
+Relations: <delta>
+Land Area: <delta>
+```
+
+**End of Round N: <end date>**
+```
+
+### Event-type vocabulary
+
+The player-facing event type must be a previously established category, not an internal JSON implementation label. The established GMV categories are:
+
+- **Agriculture**
+- **Patronage**
+- **Relations**
+- **Recruitment / Security**
+- **Preparation**
+- **Intelligence**
+- **Local Roundup**
+
+Do not substitute implementation labels such as `direct`, `logistics`, `inference`, `surprise`, `political`, or `roundup` for the player-facing event type.
+
+### Involved parties / entities
+
+Every event header must identify the relevant parties/entities immediately below the header. These may include the player character, named historical figures, allied or hostile actors, factions, local households, workers, recruits, neighboring landowners, farms, estates, travelers, merchants, robbers/bandits, institutions, or relevant locations/assets. Only identify entities that are actually involved in the resolved event; do not add decorative names.
+
+### Event ledger rules
+
+- The article is the narrative view of the resolved event.
+- The **AI Ledger** is the compact numerical audit view.
+- An event ledger lists **only metrics changed by that event**; unchanged metrics do not receive fake zero entries.
+- Every changed metric uses the fixed vocabulary and records before → after, delta, and unit.
+- The event's structured record must additionally retain `reason`, `source_event_id`, and `provenance`.
+- Do not expose internal causal calculations as if they were news.
+- Do not omit the ledger merely because the change is small.
+- Do not invent a special event simply to fill the format. If no special event resolves, report that no standard special event occurred in the structured record rather than fabricating one.
+
+### Always-referenced round statistics
+
+The round-end display must keep the same statistical vocabulary across rounds. The standard running total references:
+
+**Population, Currency/Treasury, Soldiers, Taxation, Economy, Agriculture, Infrastructure, Trade, Readiness, Morale, Supply, Organization, Stability, Legitimacy, Exhaustion, Technology, Intelligence, Relations, and Land Area.**
+
+The round-end state also references the established accounting statistics whenever applicable:
+
+- public account / public wealth;
+- private account / private wealth;
+- private transfer rate;
+- last-round net public commercial profit;
+- last-round private transfer;
+- gross receipts;
+- operating security/maintenance costs;
+- investment principal and realized returns when an investment program is active.
+
+These accounting values are not substitutes for the fixed simulation metrics. They are additional persistent/derived financial statistics and must retain explicit units and provenance.
+
+### Sample canonical display schema
+
+A machine-readable sample of this player-facing contract is stored at:
+
+`projects/chronicle-memory/data/schema/gmv-round-output.sample.json`
+
+It is a display contract/example, not a replacement for the canonical `gmv-round-v2` persistence schema.
+
 ## Memory layers
 
 - **Canonical history:** sourced facts and observations from shared repository data.
