@@ -1,0 +1,134 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 25,
+  "period": {
+    "start": "-0060-01-01",
+    "end": "-0060-01-31",
+    "display": "1 January 60 BCE – 31 January 60 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-01-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS OPENS THE YEAR WITH A WINTER REVIEW OF THE ESTATE NETWORK",
+      "article": "Valerius begins January by inspecting the principal estate, the newly incorporated waterways and the road leading toward the Roman highway. The work is less a search for new territory than an examination of whether the expanded holdings can operate together through the winter. Storehouses are checked against expected consumption, while field crews report the condition of cultivated ground and water access. Administrators are required to bring their records together so that production, transport and maintenance can be measured across the whole estate. The review leaves Valerius with a clearer account of what can be moved, stored and produced before the spring season.",
+      "ledger": {
+        "currency": -20,
+        "intelligence": 3,
+        "organization": 2,
+        "stability": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-01-07",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "WINTER MAINTENANCE SECURES THE NEW WATER ROUTES",
+      "article": "Crews spend the first week of January maintaining crossings, channels and approaches along the waterways brought into the estate during December. The cold weather makes routine transport more difficult, but the newly organized boundaries allow the work to be directed from a single set of instructions. Agricultural managers also mark ground that must remain undisturbed until the next cultivation cycle. Repairs are kept deliberately practical, concentrating on crossings, drainage and access rather than on unnecessary construction. The result is a quieter but more dependable winter connection between the fields, storage areas and transport routes.",
+      "ledger": {
+        "currency": -25,
+        "infrastructure": 1,
+        "agriculture": 1,
+        "supply": 1,
+        "organization": 1,
+        "stability": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-01-12",
+      "type": "CONNECTED",
+      "special_event": true,
+      "magnitude": 1,
+      "change_index": 1,
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "AN UNEXPECTED WINTER GRAIN CONTRACT BRINGS NEW TRAFFIC TO THE ESTATE ROAD",
+      "article": "An unexpected opportunity reaches the estate when merchants moving grain through the district seek a dependable winter route toward the Roman highway. The newly secured road and waterways give the carriers a practical alternative to less reliable local approaches, and Valerius's administrators agree to handle the traffic under ordinary commercial terms. Wagons begin arriving in small numbers, bringing grain receipts and information about prices and shortages beyond the estate's immediate neighborhood. The arrangement does not transform the estate's fortunes overnight, but it gives the new road an immediate commercial purpose during a season when traffic is normally more difficult. Merchants also begin treating the estate route as a known point of passage rather than an unfinished private improvement.",
+      "ledger": {
+        "currency": 80,
+        "trade": 2,
+        "economy": 1,
+        "supply": 1,
+        "relations": 2,
+        "intelligence": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-01-18",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "PRODUCTION RECORDS ARE TIGHTENED AS WINTER WORK CONTINUES",
+      "article": "Valerius orders the estate registers to distinguish output, stored reserves and maintenance requirements more precisely as the first full production cycle continues. Agricultural supervisors record which fields are being worked and which are being left to recover, while workshop managers report the materials consumed by regular orders. The same accounting is extended to timber, water and transport supplies so that current production can be compared with future availability. Workers are also given clearer schedules for moving goods between the principal estate, the lake port and the newer holding. The measures add little outward spectacle, but they give the expanding estate a more reliable administrative structure for the year ahead.",
+      "ledger": {
+        "currency": -20,
+        "agriculture": 1,
+        "supply": 1,
+        "organization": 2,
+        "stability": 1,
+        "technology": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-01-23",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "NEW WORKERS JOIN THE WINTER PRODUCTION CYCLE",
+      "article": "Additional workers settle into the estate network as demand for cultivation, transport and workshop labor increases. The newcomers are distributed between agricultural ground, storage work, road service and skilled production rather than being concentrated in a single place. Valerius's administrators provide food and shelter under defined service arrangements, continuing the employment practices established during the previous year's expansion. The increase in hands allows several tasks to proceed at once without forcing the estate to strip one operation to support another. Local households also gain a clearer sense that the enlarged estate is becoming a permanent source of work rather than a temporary construction project.",
+      "ledger": {
+        "currency": -45,
+        "population": 10,
+        "economy": 2,
+        "agriculture": 2,
+        "organization": 2,
+        "supply": 1,
+        "relations": 2,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-01-27",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Julius Caesar",
+        "Marcus Tullius Cicero",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "headline": "ROME FOLLOWS CAESAR'S RETURN AND THE GROWING CONTESTS OF THE YEAR AHEAD",
+      "article": "Reports from Rome describe a political season in which several powerful men are positioning themselves for the contests of 60 BCE. Caesar's return from his provincial command is attracting particular attention as he seeks a place in the coming political struggle, while Cicero continues to comment publicly on the direction of the Republic. Pompey's standing and interests remain central to Roman calculations, especially where military reputation, wealth and public authority overlap. None of these developments creates a new office or command for Valerius, whose affairs remain primarily commercial and local. Nevertheless, the changing political atmosphere gives his administrators reason to watch Roman news more closely as the estate becomes increasingly connected to the capital.",
+      "ledger": {
+        "intelligence": 4,
+        "relations": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-01-31",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL ROUNDUP: THE EXPANDED ESTATE ENTERS ITS FIRST FULL YEAR OF OPERATION",
+      "article": "January closes with the enlarged estate operating as a connected network of fields, waterways, workshops, storage sites and roads. Winter traffic has already demonstrated the value of the new highway approach, while additional workers have been absorbed into the regular production cycle. The estate's administrators continue to record material use against future replenishment, keeping the earlier sustainability rules in force as production expands. No major military action occurs within the estate during the month, and attention remains fixed on production, transport and maintenance. The first month of 60 BCE therefore ends with the expansion no longer merely a construction program, but an operating system with regular work and trade moving through it.",
+      "ledger": {}
+    }
+  ]
+}
