@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 39,
-  "latest_date": "-0060-03-31",
+  "latest_round": 40,
+  "latest_date": "-0060-04-30",
   "metric_schema": "fixed-v1+land-area-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -31,7 +31,7 @@
     }
   },
   "continuity": {
-    "campaign_development": "March 60 BCE: Valerius entered the bandit-controlled interior using intelligence recovered from captured watching posts. The information was used to bypass a watched road, locate a hidden supply point, avoid a searched camp, and capture another watching position without a pitched battle. Intelligence rose to 939, supply recovered to 49, exhaustion rose to 52, relations fell to 98, and technology rose to 85.",
+    "campaign_development": "April 60 BCE: Valerius continued deeper into the bandit-controlled interior and actively exploited captured watching-post intelligence. He bypassed known ambush corridors, recovered another hidden store, used a deliberately abandoned trail to misdirect a search party, and disrupted a communications crossing without a pitched battle. Intelligence rose to 957, supply to 50, exhaustion rose to 55, relations fell to 97, while stability and legitimacy remained 100. Land area remained 4.00 square miles.",
     "land_area_history": "4.00 square miles unchanged."
   }
 }
