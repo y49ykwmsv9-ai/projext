@@ -11,7 +11,8 @@
     "special_event",
     "running_total",
     "round_end_state",
-    "end_of_round"
+    "end_of_round",
+    "end_of_round_checks"
   ],
   "properties": {
     "round": {
@@ -504,6 +505,85 @@
     },
     "end_of_round": {
       "type": "string"
+    },
+    "end_of_round_checks": {
+      "type": "object",
+      "required": [
+        "special_event_resolution",
+        "commit_check"
+      ],
+      "properties": {
+        "special_event_resolution": {
+          "type": "object",
+          "required": [
+            "selected",
+            "opportunity_chance",
+            "magnitude",
+            "magnitude_11_checks",
+            "magnitude_11_events"
+          ],
+          "properties": {
+            "selected": {
+              "type": "boolean"
+            },
+            "opportunity_chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "magnitude": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 10
+            },
+            "magnitude_11_eligibility": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "magnitude_11_checks": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "raw_successes": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "accepted_candidates": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "magnitude_11_events": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "commit_check": {
+          "type": "object",
+          "required": [
+            "required",
+            "verified_after_commit"
+          ],
+          "properties": {
+            "required": {
+              "type": "boolean"
+            },
+            "verified_after_commit": {
+              "type": "boolean"
+            },
+            "verification_basis": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   }
 }
