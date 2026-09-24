@@ -181,8 +181,8 @@
     },
     "commit_check": {
       "required": true,
-      "verified_after_commit": false,
-      "verification_basis": "Pending post-persistence verification."
+      "verified_after_commit": true,
+      "verification_basis": "Post-persistence verification of Round 42 canonical round, news, state, and scenario records."
     }
   }
 }
