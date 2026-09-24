@@ -38,7 +38,7 @@
     "required": true,
     "special_event_resolution": "verified",
     "magnitude_11_check": "verified",
-    "commit_check": "pending post-commit verification",
-    "canonical_round_45": "pending verification"
+    "commit_check": "verified after canonical files persisted and re-read",
+    "canonical_round_45": "verified"
   }
 }
