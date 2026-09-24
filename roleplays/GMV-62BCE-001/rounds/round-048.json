@@ -1,0 +1,278 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 48,
+  "period": {
+    "start": "-0060-12-01",
+    "end": "-0060-12-31",
+    "display": "1 December 60 BCE – 31 December 60 BCE"
+  },
+  "action": {
+    "action_id": "GMV-62BCE-001-R048-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius continues deeper into the bandit-controlled country and uses the captured information posts and records to his advantage, testing old intelligence against current observation, concealing his movements, disrupting the network's routes and supply system, and avoiding an unnecessary pitched battle while pressing farther into the country.",
+    "components": [
+      "continued_expedition",
+      "captured_record_exploitation",
+      "counterintelligence",
+      "route_denial",
+      "network_disruption",
+      "supply_interdiction",
+      "avoid_unnecessary_pitched_battle"
+    ]
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R048-E001",
+      "date": "-0060-12-03",
+      "type": "direct",
+      "headline": "THE CAPTURED RECORDS REVEAL A SECOND LAYER OF WATCHERS — AND VALERIUS CHANGES THE MARCH",
+      "article": "December begins with Valerius ordering the records taken from the earlier watching posts to be compared against the observations gathered during the spring and the movement patterns seen since. The comparison reveals that several of the routes once believed to be ordinary observation lines were only the outer layer of a deeper warning system, with messages apparently passed through less conspicuous tracks before reaching the main bandit positions. Valerius therefore abandons a route that would have been attractive precisely because the older records marked it as lightly watched. The decision costs the expedition time, but it prevents the column from following information that has become stale enough to be dangerous. The officers use the common drills established in October and November to change the march without breaking formation or allowing the column to become scattered. By the end of the first week, the captured documents have ceased to be a static record of the enemy and have become evidence that must itself be tested against changing behavior.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius trusted officers",
+        "bandit network"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 983,
+          "delta": 3,
+          "after": 986,
+          "unit": "points",
+          "reason": "Cross-comparison of captured records with later field observations reveals a deeper communications layer.",
+          "source_event_id": "GMV-62BCE-001-R048-E001",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R048-E002",
+      "date": "-0060-12-08",
+      "type": "connected",
+      "headline": "A FALSE TRAIL IS LEFT WHERE THE BANDITS EXPECT THE ROMANS TO PASS",
+      "article": "Valerius decides that the safest use of the captured information is no longer simply to avoid known routes but to exploit the habits attached to them. A small movement is made deliberately visible along a track that the records identify as one commonly checked after suspicious activity, while the main body turns away before nightfall and takes a harder secondary route. Scouts remain close enough to verify that the deception has not exposed the main column, but far enough away that they do not become trapped by their own feint. The maneuver works imperfectly: signs of the false movement are discovered, but the response to them comes late enough for the main force to gain distance. The additional march over rough ground increases strain, and the men arrive at the next position tired rather than triumphant. Valerius nevertheless keeps the column moving because the value of the separation is measured in avoiding contact, not in producing a dramatic confrontation.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius scouts",
+        "Valerius soldiers",
+        "bandit watchers"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": 55,
+          "delta": 2,
+          "after": 57,
+          "unit": "points",
+          "reason": "The concealed secondary movement and rough-ground detour impose additional physical strain.",
+          "source_event_id": "GMV-62BCE-001-R048-E002",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R048-E003",
+      "date": "-0060-12-13",
+      "type": "surprise",
+      "headline": "A GUIDE'S INFORMATION FAILS — AND THE COLUMN FINDS THE ROAD IT WAS TOLD DID NOT EXIST",
+      "article": "The expedition suffers its sharpest setback of the month when information supplied by a local guide proves unreliable at the moment it matters. The guide had described one valley route as blocked and another as safe, but scouts discover that the supposedly blocked route remains passable while the recommended road shows recent signs of organized movement. Valerius does not accuse the guide publicly of deliberate betrayal because the evidence cannot establish whether the information was false, outdated, or obtained from someone else who wanted the Romans diverted. Instead, he orders the column to stop, verify the approaches, and abandon the convenient road rather than gambling the entire force on a single untested report. The delay consumes provisions and damages the expedition's confidence in local guidance, while several households that had been cautiously cooperative become less willing to speak openly as Roman questions become more probing. The incident leaves Valerius with a harder lesson: captured enemy records and local testimony are useful only when independently corroborated.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius trusted officers",
+        "local guide",
+        "local households"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": 65,
+          "delta": -2,
+          "after": 63,
+          "unit": "points",
+          "reason": "The halted movement, verification, and subsequent detour consume additional provisions.",
+          "source_event_id": "GMV-62BCE-001-R048-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 100,
+          "delta": -1,
+          "after": 99,
+          "unit": "points",
+          "reason": "Increased Roman scrutiny after unreliable local information makes nearby households more cautious.",
+          "source_event_id": "GMV-62BCE-001-R048-E003",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R048-E004",
+      "date": "-0060-12-18",
+      "type": "direct",
+      "headline": "THE OLD WATCHING POST IS EMPTY — BUT ITS RECORDS HAVE BEEN HIDDEN UNDER THE FLOOR",
+      "article": "A scouting party reaches an observation position identified in the older captured records and finds the structure apparently abandoned. The absence initially looks like another sign that the bandit network has withdrawn, but one of the scouts notices disturbed earth and a repaired section of flooring that does not match the rest of the building. Beneath it they find a concealed packet of records containing recent route marks, names of intermediaries, and indications that supplies are being shifted between districts rather than stored at the places listed in the older documents. Valerius orders the material secured and copied before anything is removed, preserving the distinction between what is directly observed and what the records merely claim. The discovery is more valuable than a pile of abandoned supplies because it shows that the network has adapted to the Roman campaign while retaining enough of its old structure to leave traces behind. The expedition now possesses evidence from two generations of the network's records, allowing its officers to distinguish older habits from newer countermeasures.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius scouts",
+        "bandit network"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 986,
+          "delta": 5,
+          "after": 991,
+          "unit": "points",
+          "reason": "Recent concealed records provide new evidence about adapted routes, intermediaries, and distributed supply movement.",
+          "source_event_id": "GMV-62BCE-001-R048-E004",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R048-E005",
+      "date": "-0060-12-24",
+      "type": "connected",
+      "headline": "THE EXPEDITION REACHES THE NETWORK'S NEW SUPPLY CORRIDOR — AND TAKES WHAT CAN BE CARRIED",
+      "article": "The newly recovered records lead scouts toward a supply corridor rather than a single fixed store, and the expedition follows the signs cautiously through several abandoned and recently disturbed sites. The Romans find provisions dispersed across more than one location, suggesting that the bandits have learned not to depend upon a single cache that can be captured intact. Valerius orders only usable material that can be carried without crippling the column's mobility to be taken, while the remainder is left rather than turning the expedition into a slow-moving baggage train. The recovery partially offsets the provisions consumed earlier in the month, but it does not erase the accumulated strain of the march. More importantly, the distribution pattern gives Valerius a clearer picture of how the network is surviving after repeated interference with its watching posts. The bandits have not been broken; they have adapted, and the Roman response is now becoming a contest of adaptation rather than a simple hunt for fixed targets.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius scouts",
+        "bandit network"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": 63,
+          "delta": 3,
+          "after": 66,
+          "unit": "points",
+          "reason": "Usable provisions recovered from dispersed supply locations identified through newly captured records.",
+          "source_event_id": "GMV-62BCE-001-R048-E005",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 991,
+          "delta": 2,
+          "after": 993,
+          "unit": "points",
+          "reason": "The distribution of supplies reveals how the network has adapted its logistics.",
+          "source_event_id": "GMV-62BCE-001-R048-E005",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R048-E006",
+      "date": "-0060-12-31",
+      "type": "roundup",
+      "headline": "LOCAL NEWS: VALERIUS HAS GONE DEEPER — AND THE BANDITS ARE LEARNING THAT THEIR OWN RECORDS CAN BE USED AGAINST THEM",
+      "article": "December closes with Valerius still operating inside bandit-controlled country, farther from the predictable routes that once governed the expedition's movement. The month's work has exposed a deeper warning system, defeated an attempted route deception only after costly verification, and recovered a hidden packet of recent records from a supposedly abandoned watching post. A dispersed supply corridor has also been identified and partially exploited, giving the expedition provisions while revealing how the bandits have changed their methods since the earlier posts were captured. The costs are real: rough-ground movement and verification have increased exhaustion, and local relations have cooled slightly as households become more cautious under sustained Roman scrutiny. Yet the expedition enters the next phase with a richer intelligence picture than it possessed at the beginning of the month and with its training reforms repeatedly proving useful in maintaining order during uncertain movement. Valerius has not destroyed the network, and no decisive battle has settled the campaign, but the records that were once evidence of the enemy's strength are increasingly becoming tools with which he can understand and disrupt its changing structure.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius trusted officers",
+        "bandit network"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 993,
+          "delta": 1,
+          "after": 994,
+          "unit": "points",
+          "reason": "Month-end synthesis of field observations and captured records improves the expedition's operational intelligence picture.",
+          "source_event_id": "GMV-62BCE-001-R048-E006",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ],
+  "round_ledger": {
+    "intelligence": {
+      "before": 983,
+      "delta": 11,
+      "after": 994,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 65,
+      "delta": 1,
+      "after": 66,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 55,
+      "delta": 2,
+      "after": 57,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "delta": -1,
+      "after": 99,
+      "unit": "points"
+    }
+  },
+  "financials": {
+    "gross_receipts": 0,
+    "operating_security_maintenance": 0,
+    "investment_principal": 0,
+    "realized_investment_returns": 0,
+    "public_account": 2693,
+    "private_account": 539,
+    "private_transfer_rate": 0.1,
+    "last_round_net_public_commercial_profit": 120,
+    "last_round_private_transfer": 0
+  },
+  "special_event": null,
+  "land_area": {
+    "land_area_sq_miles": 4.25,
+    "change_this_round_sq_miles": 0
+  },
+  "state_transition": {
+    "before_state_ref": "roleplays/GMV-62BCE-001/state.json#round-47",
+    "after_state_ref": "roleplays/GMV-62BCE-001/state.json#round-48"
+  },
+  "migration": {
+    "status": "native-v2",
+    "source_schema": "gmv-round-v2",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-048.json",
+    "note": "Rebuilt as canonical Round 48; prior attempted Round 48 is noncanonical and is not used as source state."
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 0.12,
+      "draw": 13.5312,
+      "magnitude": null,
+      "magnitude_11_eligibility": 6.42,
+      "magnitude_11_check_draw": 65.4217,
+      "magnitude_11_checks": [
+        97.2629,
+        57.1284,
+        48.2126
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "magnitude_11_events": 0
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false,
+      "verification_basis": "Pending post-persistence re-read."
+    }
+  }
+}
