@@ -1,38 +1,33 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 33,
-  "date": "-0060-09-30",
+  "round": 34,
+  "date": "-0060-10-31",
   "treasury": 1970,
   "wealth_accounts": {
-    "public": 2144,
-    "private": 438,
+    "public": 2252,
+    "private": 450,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 150,
-    "last_round_private_transfer": 15
-  },
-  "treasury_interest_placement": {
-    "principal": 0,
-    "status": "settled",
-    "prior_settlement": "Round 22; 1,000 principal, 450 qualifying growth, 6% annualized rate, 15 interest realized"
+    "last_round_net_public_profit": 120,
+    "last_round_private_transfer": 12
   },
   "metrics": {
     "population": 249,
-    "currency": -285,
-    "soldiers": 440,
+    "currency": -460,
+    "soldiers": 428,
     "taxation": 0,
     "economy": 100,
     "agriculture": 78,
     "infrastructure": 100,
     "trade": 100,
-    "readiness": 100,
+    "readiness": 98,
     "morale": 100,
-    "supply": 77,
+    "supply": 65,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 161,
-    "technology": 58,
-    "intelligence": 496,
+    "exhaustion": 194,
+    "technology": 62,
+    "intelligence": 567,
     "relations": 100,
     "land_area_sq_miles": 4
   },
@@ -41,8 +36,7 @@
     "acres": 2560,
     "roman_iugera_approx": 4110,
     "change_this_round_sq_miles": 0,
-    "scope": "personal estates and holdings",
-    "measurement_basis": "historical Roman land-measure and estate precedent applied to the cumulative holdings established by prior simulation events"
+    "scope": "personal estates and holdings"
   },
   "relationships": {
     "nearby-landowners": 24,
@@ -50,11 +44,11 @@
     "smallholders": 2,
     "military-connections": 16,
     "roman-political-elite": 3,
-    "quintus-caecilius-metellus-celer": 0,
+    "quintus-caecilius-metellus_celer": 0,
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius personally leads the expedition farther into the country used by the regional band. He keeps the main body concentrated around his own position, continues to use the ravine fortress and forward camp as linked bases, and presses the search for the network sustaining the band. He gives his officers freedom to report what they discover without telling them what result he expects, intending to let the country and the movement of men reveal what comes next.",
+  "previous_action": "Gaius Maximus Valerius leads the march into the hard pass. He gives the column clear instructions to maintain formation, observe the heights, bends, side paths and concealed ground, and report any prepared killing ground before the main body commits. If an ambush is discovered, the order is not to retreat or reveal that it has been detected. Instead, the main body continues behaving as though the danger has not been noticed while Valerius sends the 300 cavalry behind the suspected ambushing force to form a closing net.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -65,24 +59,15 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "Valerius now personally leads the main expedition deeper into the regional band's country. The ravine fortress and forward camp remain linked bases, while scouting and traveler reports continue to reveal fragments of the band's wider network. A second concealed store has been located, and a difficult crossing has been prepared for the march ahead.",
-    "land_area_history": "Round 33 establishes 4.00 square miles as the measured starting footprint of Valerius's personal estates and holdings. The measurement reflects land already accumulated through prior simulation events and adds no new property. The value remains fixed unless a later event explicitly acquires, loses, transfers, or otherwise changes land."
+    "campaign_development": "In October 60 BCE, Valerius personally led the expedition into the hard pass. Scouts identified a prepared ambush, and the main column continued into the pass while the 300 cavalry moved around the rear. The ambush was broken, the pass secured, and additional routes and concealed positions were documented. The expedition continues beyond the pass.",
+    "land_area_history": "The personal holdings measurement remains 4.00 square miles. Round 34 involved no land acquisition, loss, transfer, or other change to the holdings."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
-    "magnitude_11_change_index": 9.313225746,
-    "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 0,
-    "this_round_magnitude_11_events": 0,
-    "current_round_opportunity_probability": 14,
-    "consecutive_rounds_without_standard_special_event": 4,
-    "last_selected_magnitude": 7,
-    "magnitude_11_chance_percent": 10.84,
-    "magnitude_11_checks": [
-      42.1187,
-      77.5402,
-      18.9321
-    ]
+    "this_round_standard_special": true,
+    "this_round_magnitude": 8,
+    "this_round_magnitude_11_events": 1,
+    "current_round_opportunity_probability": 18
   }
 }
