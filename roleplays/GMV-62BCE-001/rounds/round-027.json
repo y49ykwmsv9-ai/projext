@@ -1,183 +1,681 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 27,
   "period": {
     "start": "-0060-03-01",
     "end": "-0060-03-31",
     "display": "1 March 60 BCE – 31 March 60 BCE"
   },
-  "player_action": "Gaius Maximus Valerius organizes all the armed men under his command, trains them personally, and spends a full day with them to demonstrate leadership and virtue.",
-  "metric_schema": "fixed-v1",
-  "special_event_selection": {
-    "standard_opportunity_probability": 12,
-    "standard_special_event_roll_percent": 64.2817,
-    "standard_special_event_selected": false,
-    "magnitude_11_chance_percent": 8.42,
-    "magnitude_11_checks": [
-      55.1832,
-      12.7714,
-      80.4491
-    ],
-    "magnitude_11_successes": 0,
-    "magnitude_11_candidates_accepted": 0,
-    "magnitude_11_events": 0
+  "action": {
+    "action_id": "GMV-62BCE-001-R027-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius organizes all the armed men under his command, trains them personally, and spends a full day with them to demonstrate leadership and virtue.",
+    "components": []
   },
+  "historical_context": null,
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R027-E001",
       "date": "-0060-03-03",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS BRINGS EVERY ARMED MAN UNDER ONE TRAINING ORDER",
       "article": "Valerius opens March by gathering the armed men serving across his estates, the lake port, the roads and the Roman household into a single training order. Men accustomed to different duties are placed into common ranks so that signals, watches and movement are understood in the same manner from one holding to another. Officers and experienced men are required to demonstrate the drills before younger soldiers repeat them, while Valerius observes the execution himself. The arrangement does not create a new force so much as give the men already under his authority a common standard. By the close of the first exercises, the distinctions between garrison, road guard and field troops are clearer, but all are expected to answer to the same discipline.",
-      "ledger": {
-        "currency": -30,
-        "exhaustion": 1,
-        "intelligence": 3,
-        "technology": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -30,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E001",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R027-E002",
       "date": "-0060-03-08",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "THE CENTURION RETURNS TO THE TRAINING GROUND BESIDE HIS MEN",
       "article": "Valerius spends the day on the training ground rather than directing the exercises from a sheltered position. He takes his place among the ranks for marching, shield work and formation changes, repeating the movements until the men can perform them without waiting for individual orders. Veteran cavalrymen are brought into the exercises so that infantry and horsemen learn how to keep their distance, exchange signals and move without disorder. The younger soldiers are given responsibility for correcting small mistakes under the eye of their seniors. By evening the work has left the whole force tired, but the day's example has made the standard of service a personal matter for the commander as well as for the men.",
-      "ledger": {
-        "currency": -35,
-        "exhaustion": 2,
-        "intelligence": 3,
-        "technology": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -35,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E002",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R027-E003",
       "date": "-0060-03-13",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS ORDERS COMMON STANDARDS FOR WATCH, CAMP AND MARCH",
       "article": "The following week is devoted to the practical details that determine whether a large household force can move and stand together. Guards at the port, estate gates and road stations receive common instructions for reliefs, signals and reporting. Marching parties rehearse the order in which baggage, infantry and cavalry are to move, while camp duties are assigned so that food, water and equipment are accounted for before nightfall. Valerius insists that the same expectations apply to men guarding his wealth and men accompanying him into the field. The work is less dramatic than a battle, but it leaves fewer duties dependent upon improvisation when the force is divided among distant holdings.",
-      "ledger": {
-        "currency": -25,
-        "organization": 0,
-        "stability": 2,
-        "intelligence": 3,
-        "technology": 1,
-        "supply": 1,
-        "exhaustion": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E003",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R027-E004",
       "date": "-0060-03-17",
-      "type": "CONNECTED",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "connected",
       "headline": "A DAY OF SERVICE BECOMES THE MEASURE OF VALERIUS'S COMMAND",
       "article": "Valerius deliberately spends a full day among the armed men, eating the same ordinary field provisions and remaining with the training parties through the day's work. He speaks with veterans about earlier campaigns, listens to younger soldiers describe the difficulties of service and personally takes part in the less comfortable duties expected of the rank and file. His example is presented as a matter of conduct rather than ceremony: a commander should know the burdens he asks others to bear. Men who had previously served in separate detachments leave the day's exercises speaking more freely with one another. The episode strengthens the personal character of the command without changing the legal status of the men or granting Valerius an office he does not possess.",
-      "ledger": {
-        "currency": -20,
-        "morale": 0,
-        "stability": 3,
-        "legitimacy": 2,
-        "relations": 2,
-        "intelligence": 2,
-        "exhaustion": 2
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E004",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R027-E005",
       "date": "-0060-03-22",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "FIELD EXERCISES TEST THE FORCE AFTER THE WINTER MONTHS",
       "article": "The assembled force conducts a longer field exercise across the roads linking the principal estate with its outer holdings. Infantry companies practice moving in ordered bodies while cavalry scouts work ahead and return with reports before the main column changes direction. Supply handlers rehearse the movement of food and equipment without allowing the fighting men to become separated from what they require. Valerius personally changes the route during the exercise, forcing officers to communicate the alteration rather than waiting for a messenger to solve every problem. The result is a demanding day's work that exposes small weaknesses in coordination and gives the commanders an opportunity to correct them before a real emergency.",
-      "ledger": {
-        "currency": -40,
-        "supply": -1,
-        "technology": 2,
-        "intelligence": 5,
-        "exhaustion": 3,
-        "stability": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -40,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E005",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "DIRECT"
       }
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R027-E006",
       "date": "-0060-03-26",
-      "type": "CONNECTED",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "connected",
       "headline": "MERCHANTS NOTICE THE DISCIPLINE OF THE ROAD GUARDS",
       "article": "Merchants using the estate roads encounter the reorganized guards during their regular journeys and begin to notice the uniformity of watches and escorts. Carriers report that instructions at different road stations are now delivered in much the same fashion, reducing the need to negotiate anew at every stop. The change matters to traders because predictable protection is easier to plan around than protection that depends upon the personality of a single guard captain. Valerius's commercial agents pass the reports back to the estate while the men continue their training without being withdrawn from their ordinary duties. The armed force is therefore becoming more closely tied to the operation of the road and port network that supports it.",
-      "ledger": {
-        "currency": 70,
-        "trade": 0,
-        "economy": 0,
-        "intelligence": 3,
-        "relations": 2,
-        "exhaustion": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 70,
+          "after": null,
+          "unit": "currency_units",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E006",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "CONNECTED"
       }
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R027-E007",
       "date": "-0060-03-29",
-      "type": "WORLD",
-      "entities": [
-        "Marcus Tullius Cicero",
-        "Gaius Julius Caesar",
-        "Gnaeus Pompeius Magnus"
-      ],
+      "type": "world",
       "headline": "ROME'S POLITICAL CALCULATIONS CONTINUE INTO THE SPRING",
       "article": "Reports arriving from Rome describe continued maneuvering among the leading men of the Republic as the spring political season approaches. Caesar's ambitions and prospective alliances remain the subject of discussion, while Cicero continues to watch the balance among competing interests. Pompey and the men associated with his settlement of eastern affairs remain important to calculations in the capital. These developments reach Valerius through merchants and correspondents rather than through any formal political appointment. His household records the reports alongside ordinary commercial information, keeping the political news distinct from the military training taking place on his estates.",
-      "ledger": {
-        "intelligence": 4,
-        "relations": 1
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "points",
+          "reason": "Migrated legacy event ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R027-E007",
+          "provenance": "legacy-migration"
+        }
+      ],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
       }
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R027-E008",
       "date": "-0060-03-31",
-      "type": "WORLD",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "world",
       "headline": "LOCAL ROUNDUP: THE SPRING TRAINING IS COMPLETE",
       "article": "March closes after a month in which the armed men serving Valerius's holdings have been brought through a common course of training and field practice. The work has taken place across the estate roads, port approaches and open ground near the principal holding, with Valerius repeatedly appearing among the men rather than leaving the entire burden to subordinate officers. Merchants have noticed the more consistent road watches, while the soldiers have returned to their ordinary duties carrying the same signals and expectations into their separate stations. The force remains distributed across the estate network, but its training now follows a common pattern. For the local community, the month's most visible feature has been the commander's decision to spend his own time under the same discipline he requires from those who serve him.",
-      "ledger": {}
+      "actors": [],
+      "location": null,
+      "visibility": null,
+      "confidence": null,
+      "state_changes": [],
+      "migration": {
+        "source_event_id": null,
+        "source_type": "WORLD"
+      }
     }
   ],
-  "running_total": {
-    "population": 0,
-    "currency": -105,
-    "soldiers": 0,
-    "taxation": 0,
-    "economy": 0,
-    "agriculture": 0,
-    "infrastructure": 0,
-    "trade": 0,
-    "readiness": 0,
-    "morale": 0,
-    "supply": 0,
-    "organization": 0,
-    "stability": 8,
-    "legitimacy": 2,
-    "exhaustion": 14,
-    "technology": 5,
-    "intelligence": 23,
-    "relations": 5
+  "round_ledger": {
+    "population": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "currency": {
+      "before": null,
+      "delta": -105,
+      "after": null,
+      "unit": "currency_units",
+      "provenance": "legacy-migration"
+    },
+    "soldiers": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "people",
+      "provenance": "legacy-migration"
+    },
+    "taxation": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "economy": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "agriculture": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "infrastructure": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "trade": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "readiness": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "morale": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "supply": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "organization": {
+      "before": null,
+      "delta": 0,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "stability": {
+      "before": null,
+      "delta": 8,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "legitimacy": {
+      "before": null,
+      "delta": 2,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "exhaustion": {
+      "before": null,
+      "delta": 14,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "technology": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "intelligence": {
+      "before": null,
+      "delta": 23,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    },
+    "relations": {
+      "before": null,
+      "delta": 5,
+      "after": null,
+      "unit": "points",
+      "provenance": "legacy-migration"
+    }
   },
-  "commercial_accounting": {
+  "financials": {
     "gross_receipts": 430,
     "operating_security_and_maintenance_costs": 280,
     "acquisition_and_transition_costs": 0,
@@ -190,9 +688,211 @@
     "private_account_end": 335,
     "public_account_change": 135
   },
-  "treasury_interest_placement": {
-    "principal": 0,
-    "status": "settled",
-    "note": "No new treasury placement initiated; prior placement settled in Round 22."
+  "special_event": null,
+  "land_area": null,
+  "state_transition": null,
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "fixed-v1",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-027.json",
+    "note": "Original record preserved verbatim in legacy_record; null before/after values are explicit missing source data, not invented values."
+  },
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 27,
+    "period": {
+      "start": "-0060-03-01",
+      "end": "-0060-03-31",
+      "display": "1 March 60 BCE – 31 March 60 BCE"
+    },
+    "player_action": "Gaius Maximus Valerius organizes all the armed men under his command, trains them personally, and spends a full day with them to demonstrate leadership and virtue.",
+    "metric_schema": "fixed-v1",
+    "special_event_selection": {
+      "standard_opportunity_probability": 12,
+      "standard_special_event_roll_percent": 64.2817,
+      "standard_special_event_selected": false,
+      "magnitude_11_chance_percent": 8.42,
+      "magnitude_11_checks": [
+        55.1832,
+        12.7714,
+        80.4491
+      ],
+      "magnitude_11_successes": 0,
+      "magnitude_11_candidates_accepted": 0,
+      "magnitude_11_events": 0
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-03-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS BRINGS EVERY ARMED MAN UNDER ONE TRAINING ORDER",
+        "article": "Valerius opens March by gathering the armed men serving across his estates, the lake port, the roads and the Roman household into a single training order. Men accustomed to different duties are placed into common ranks so that signals, watches and movement are understood in the same manner from one holding to another. Officers and experienced men are required to demonstrate the drills before younger soldiers repeat them, while Valerius observes the execution himself. The arrangement does not create a new force so much as give the men already under his authority a common standard. By the close of the first exercises, the distinctions between garrison, road guard and field troops are clearer, but all are expected to answer to the same discipline.",
+        "ledger": {
+          "currency": -30,
+          "exhaustion": 1,
+          "intelligence": 3,
+          "technology": 1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0060-03-08",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE CENTURION RETURNS TO THE TRAINING GROUND BESIDE HIS MEN",
+        "article": "Valerius spends the day on the training ground rather than directing the exercises from a sheltered position. He takes his place among the ranks for marching, shield work and formation changes, repeating the movements until the men can perform them without waiting for individual orders. Veteran cavalrymen are brought into the exercises so that infantry and horsemen learn how to keep their distance, exchange signals and move without disorder. The younger soldiers are given responsibility for correcting small mistakes under the eye of their seniors. By evening the work has left the whole force tired, but the day's example has made the standard of service a personal matter for the commander as well as for the men.",
+        "ledger": {
+          "currency": -35,
+          "exhaustion": 2,
+          "intelligence": 3,
+          "technology": 1
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0060-03-13",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS ORDERS COMMON STANDARDS FOR WATCH, CAMP AND MARCH",
+        "article": "The following week is devoted to the practical details that determine whether a large household force can move and stand together. Guards at the port, estate gates and road stations receive common instructions for reliefs, signals and reporting. Marching parties rehearse the order in which baggage, infantry and cavalry are to move, while camp duties are assigned so that food, water and equipment are accounted for before nightfall. Valerius insists that the same expectations apply to men guarding his wealth and men accompanying him into the field. The work is less dramatic than a battle, but it leaves fewer duties dependent upon improvisation when the force is divided among distant holdings.",
+        "ledger": {
+          "currency": -25,
+          "organization": 0,
+          "stability": 2,
+          "intelligence": 3,
+          "technology": 1,
+          "supply": 1,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0060-03-17",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A DAY OF SERVICE BECOMES THE MEASURE OF VALERIUS'S COMMAND",
+        "article": "Valerius deliberately spends a full day among the armed men, eating the same ordinary field provisions and remaining with the training parties through the day's work. He speaks with veterans about earlier campaigns, listens to younger soldiers describe the difficulties of service and personally takes part in the less comfortable duties expected of the rank and file. His example is presented as a matter of conduct rather than ceremony: a commander should know the burdens he asks others to bear. Men who had previously served in separate detachments leave the day's exercises speaking more freely with one another. The episode strengthens the personal character of the command without changing the legal status of the men or granting Valerius an office he does not possess.",
+        "ledger": {
+          "currency": -20,
+          "morale": 0,
+          "stability": 3,
+          "legitimacy": 2,
+          "relations": 2,
+          "intelligence": 2,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0060-03-22",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "FIELD EXERCISES TEST THE FORCE AFTER THE WINTER MONTHS",
+        "article": "The assembled force conducts a longer field exercise across the roads linking the principal estate with its outer holdings. Infantry companies practice moving in ordered bodies while cavalry scouts work ahead and return with reports before the main column changes direction. Supply handlers rehearse the movement of food and equipment without allowing the fighting men to become separated from what they require. Valerius personally changes the route during the exercise, forcing officers to communicate the alteration rather than waiting for a messenger to solve every problem. The result is a demanding day's work that exposes small weaknesses in coordination and gives the commanders an opportunity to correct them before a real emergency.",
+        "ledger": {
+          "currency": -40,
+          "supply": -1,
+          "technology": 2,
+          "intelligence": 5,
+          "exhaustion": 3,
+          "stability": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0060-03-26",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "MERCHANTS NOTICE THE DISCIPLINE OF THE ROAD GUARDS",
+        "article": "Merchants using the estate roads encounter the reorganized guards during their regular journeys and begin to notice the uniformity of watches and escorts. Carriers report that instructions at different road stations are now delivered in much the same fashion, reducing the need to negotiate anew at every stop. The change matters to traders because predictable protection is easier to plan around than protection that depends upon the personality of a single guard captain. Valerius's commercial agents pass the reports back to the estate while the men continue their training without being withdrawn from their ordinary duties. The armed force is therefore becoming more closely tied to the operation of the road and port network that supports it.",
+        "ledger": {
+          "currency": 70,
+          "trade": 0,
+          "economy": 0,
+          "intelligence": 3,
+          "relations": 2,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0060-03-29",
+        "type": "WORLD",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Gnaeus Pompeius Magnus"
+        ],
+        "headline": "ROME'S POLITICAL CALCULATIONS CONTINUE INTO THE SPRING",
+        "article": "Reports arriving from Rome describe continued maneuvering among the leading men of the Republic as the spring political season approaches. Caesar's ambitions and prospective alliances remain the subject of discussion, while Cicero continues to watch the balance among competing interests. Pompey and the men associated with his settlement of eastern affairs remain important to calculations in the capital. These developments reach Valerius through merchants and correspondents rather than through any formal political appointment. His household records the reports alongside ordinary commercial information, keeping the political news distinct from the military training taking place on his estates.",
+        "ledger": {
+          "intelligence": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0060-03-31",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "LOCAL ROUNDUP: THE SPRING TRAINING IS COMPLETE",
+        "article": "March closes after a month in which the armed men serving Valerius's holdings have been brought through a common course of training and field practice. The work has taken place across the estate roads, port approaches and open ground near the principal holding, with Valerius repeatedly appearing among the men rather than leaving the entire burden to subordinate officers. Merchants have noticed the more consistent road watches, while the soldiers have returned to their ordinary duties carrying the same signals and expectations into their separate stations. The force remains distributed across the estate network, but its training now follows a common pattern. For the local community, the month's most visible feature has been the commander's decision to spend his own time under the same discipline he requires from those who serve him.",
+        "ledger": {}
+      }
+    ],
+    "running_total": {
+      "population": 0,
+      "currency": -105,
+      "soldiers": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 8,
+      "legitimacy": 2,
+      "exhaustion": 14,
+      "technology": 5,
+      "intelligence": 23,
+      "relations": 5
+    },
+    "commercial_accounting": {
+      "gross_receipts": 430,
+      "operating_security_and_maintenance_costs": 280,
+      "acquisition_and_transition_costs": 0,
+      "net_public_profit": 150,
+      "private_transfer_rate": 0.1,
+      "private_transfer": 15,
+      "public_account_start": 1082,
+      "public_account_end": 1217,
+      "private_account_start": 320,
+      "private_account_end": 335,
+      "public_account_change": 135
+    },
+    "treasury_interest_placement": {
+      "principal": 0,
+      "status": "settled",
+      "note": "No new treasury placement initiated; prior placement settled in Round 22."
+    }
   }
 }
