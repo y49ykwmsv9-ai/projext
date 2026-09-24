@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 47,
-  "date": "-0060-11-30",
+  "round": 48,
+  "date": "-0060-12-31",
   "treasury": 1650,
   "wealth_accounts": {
     "public": 2693,
@@ -21,14 +21,14 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 65,
+    "supply": 66,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 55,
+    "exhaustion": 57,
     "technology": 85,
-    "intelligence": 983,
-    "relations": 100,
+    "intelligence": 994,
+    "relations": 99,
     "land_area_sq_miles": 4.25,
     "temporary_unavailable": 0
   },
@@ -50,7 +50,7 @@
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "November 60 BCE: Valerius ordered every soldier, including himself and his officers, to perform the same exercises, with officers required to meet or exceed the standard of the men under their command. The shared training exposed command weaknesses, a real security alarm interrupted an exercise, and one officer became temporarily unavailable from training strain before recovering by month's end. Intelligence rose from 977 to 983; end-of-round temporary unavailable returned to 0, with no treasury or supply change.",
+    "campaign_development": "December 60 BCE: Valerius continued deeper into bandit-controlled country using captured watching-post records, but the older intelligence had to be tested against an adapting network. A false route and unreliable local information imposed delay and strain, while a concealed packet of newer records exposed changes in communications and dispersed supply. The expedition recovered usable provisions and entered the next phase with a substantially richer operational intelligence picture, while avoiding a pitched battle.",
     "land_area_history": "Round 33 establishes 4.00 square miles as the measured pre-existing footprint: 3.00 sq mi principal estate + 1.00 sq mi lake-port holding, reconstructed from established holding descriptors. Round 42 adds a confirmed 0.25 sq mi of new estate acquisitions. Current total remains 4.25 sq mi."
   },
   "special_event_policy": {
@@ -63,9 +63,9 @@
     "magnitude_11": {
       "chance_percent": 6.42,
       "checks": [
-        18.4417,
-        54.9032,
-        88.1176
+        97.2629,
+        57.1284,
+        48.2126
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -74,8 +74,8 @@
   },
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
-    "canonical_round_47": "verified",
-    "commit_check": "verified after canonical files persisted and re-read"
+    "canonical_round_48": "pending post-commit verification",
+    "commit_check": "pending"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -154,7 +154,7 @@
     }
   },
   "next_round_gate": {
-    "status": "OPEN",
-    "reason": "Historical property ledger spatial allocation is resolved: the pre-Round-33 4.00 sq mi baseline is allocated to the established principal estate (3.00 sq mi) and lake-port holding (1.00 sq mi), with the reconstruction explicitly marked and Round 42's 0.25 sq mi addition preserved. Remaining unresolved fields are transaction metadata only and do not block the next round."
+    "status": "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT",
+    "reason": "Round 48 is authored but cannot be declared canonical or open Round 49 until the rebuilt round, news, state, scenario pointer, and full historical commit/schema gate are re-read and verified after persistence."
   }
 }
