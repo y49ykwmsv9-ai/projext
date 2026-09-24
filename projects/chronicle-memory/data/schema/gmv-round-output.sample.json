@@ -136,9 +136,86 @@
       }
     },
     "special_event": {
-      "type": [
-        "object",
-        "null"
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "selected",
+            "magnitude"
+          ],
+          "properties": {
+            "selected": {
+              "type": "boolean"
+            },
+            "opportunity_chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "magnitude": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10
+            },
+            "change_index": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "magnitude_11_eligibility": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "magnitude_11_checks": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "raw_successes": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "accepted_candidates": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "magnitude_11_events": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "event_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "headline": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "involved_parties_entities": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "narrative": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
       ]
     },
     "running_total": {
