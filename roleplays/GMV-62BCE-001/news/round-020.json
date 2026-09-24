@@ -1,0 +1,173 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 20,
+  "period": {
+    "start": "-0061-08-01",
+    "end": "-0061-08-31",
+    "display": "1 August 61 BCE – 31 August 61 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0061-08-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS SETS OUT FOR ROME",
+      "article": "Valerius leaves the estate for Rome accompanied by a small personal guard and household representatives. The journey is undertaken to place his growing affairs closer to the Republic's political and commercial center. The men remaining at the estate continue the routines established during the summer. Merchants and travelers recognize the disciplined household moving along the road. Valerius intends to keep the estate under continuous management despite his absence.",
+      "ledger": {
+        "currency": -25,
+        "morale": 1,
+        "stability": 1,
+        "intelligence": 2,
+        "relations": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0061-08-07",
+      "type": "SURPRISE",
+      "special_event": true,
+      "magnitude": 6,
+      "change_index": 3.814697265625,
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THREE HUNDRED EXPERIENCED HORSEMEN OFFER THEIR SERVICE TO VALERIUS",
+      "article": "Several days into the journey, Valerius encounters roughly three hundred experienced cavalrymen seeking dependable employment. They offer fixed estate contracts on fair terms, asking for regular service rather than extraordinary privilege or public office. Valerius accepts the proposal and enters them formally into the estate's military establishment. He declares that these riders will constitute the heavy cavalry fighting force, remaining with the combat arm when battle is joined. The arrangement deliberately separates them from the existing mounted reconnaissance element, so scouts can continue observing roads and reporting movement without automatically being committed as fighting troops. The three hundred riders therefore begin service as a distinct contracted body that will train alongside the rest of the army while specializing in combat.",
+      "ledger": {
+        "currency": -360,
+        "soldiers": 300,
+        "morale": 6,
+        "readiness": 4,
+        "supply": -4,
+        "intelligence": 2,
+        "relations": 5,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0061-08-10",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE NEW CAVALRY ARE ENTERED AS A PERMANENT FIGHTING ARM",
+      "article": "Valerius formalizes the distinction between the new heavy cavalry and the mounted men previously used for reconnaissance. The three hundred riders train with the infantry and practice controlled charges, close movement, withdrawal under pressure and coordinated attacks. The reconnaissance riders retain their road and crossing duties. This gives Valerius a clearer choice between sending cavalry to gather information and committing cavalry to combat. The new contracts also establish predictable obligations between the riders and the estate.",
+      "ledger": {
+        "currency": -70,
+        "morale": 2,
+        "readiness": 3,
+        "technology": 2,
+        "intelligence": 1,
+        "stability": 1,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0061-08-14",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "A PERMANENT VALERIUS HOUSE AND OFFICE IS ESTABLISHED IN ROME",
+      "article": "Valerius uses accumulated estate profits to secure a permanent residence and working office in an elevated, secluded part of Rome. The property has enclosed grounds, defensible entrances and enough room for a small household guard without presenting itself as a public military headquarters. Correspondence, contracts, commercial matters and visitors can now be handled in Rome without every matter passing through the distant estate. The house is maintained as a private extension of the estate rather than proclaimed as a political institution. Its permanent address nevertheless places Valerius's affairs close to the center of Roman commerce and public life.",
+      "ledger": {
+        "currency": -420,
+        "infrastructure": 3,
+        "economy": 2,
+        "trade": 3,
+        "stability": 2,
+        "legitimacy": 1,
+        "relations": 3,
+        "intelligence": 3,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0061-08-18",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS APPOINTS HIS SISTER TO MANAGE THE ROMAN HOUSEHOLD'S OUTSIDE AFFAIRS",
+      "article": "With the Roman property secured, Valerius appoints his younger sister to administer the household and its dealings beyond the estate. She receives correspondence, deals with merchants and representatives, arranges meetings and maintains communication with the country holdings. The appointment is a household responsibility, not a Roman public office, and she represents the estate where Valerius's personal presence is unnecessary. Trusted staff are placed under her direction. The arrangement lets Valerius travel or remain at his main estate without leaving the Roman side of his affairs unattended.",
+      "ledger": {
+        "currency": -35,
+        "organization": 2,
+        "stability": 2,
+        "intelligence": 3,
+        "relations": 3,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0061-08-22",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "TEN TRUSTED GUARDS TAKE UP PERMANENT DUTY IN ROME",
+      "article": "Ten of Valerius's most trusted guards are assigned to the new Roman household. They protect the residence, secure important correspondence and accompany household visitors when necessary. They remain part of Valerius's personal security establishment rather than becoming a public military force. The detachment is kept close to the property rather than displayed throughout the city. Their presence gives the administrator a secure base while preserving the distinction between a private guard and a Roman command.",
+      "ledger": {
+        "currency": -25,
+        "readiness": 1,
+        "morale": 1,
+        "stability": 2,
+        "relations": 1,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0061-08-26",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "A PERMANENT LINE OF COMMUNICATION BEGINS BETWEEN ROME AND THE ESTATE",
+      "article": "Messengers and written accounts begin moving on a regular schedule between the Roman residence, the lake port and the main estate. Commercial receipts, military reports and household instructions can now move through a known chain rather than relying on occasional travelers. Merchants gain a Roman address for contracts and payments, while the estate receives faster notice of developments affecting its business and security. The administrator establishes records for incoming and outgoing correspondence. Valerius now has a durable connection to Rome even when he is campaigning or absent from the city.",
+      "ledger": {
+        "currency": -20,
+        "trade": 2,
+        "economy": 2,
+        "infrastructure": 2,
+        "intelligence": 4,
+        "relations": 3,
+        "stability": 2
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0061-08-29",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "ROME'S POLITICAL ARGUMENTS CONTINUE AS VALERIUS ESTABLISHES A PERMANENT PRESENCE",
+      "article": "Reports circulating in Rome continue to describe disagreements among leading men over the settlement of Pompey's eastern affairs and the direction of Roman public policy. Marcus Tullius Cicero remains prominent in the city's political life, while Marcus Porcius Cato and Gaius Julius Caesar are among the figures discussed in different circles. Pompey's interests continue to shape conversation even while he is absent from Rome. Valerius's household now hears these reports directly through visitors and correspondents rather than solely through travelers reaching the countryside. No public office or decree concerning Valerius accompanies the news.",
+      "ledger": {
+        "intelligence": 3,
+        "relations": 2
+      }
+    },
+    {
+      "event": 9,
+      "date": "-0061-08-31",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL NEWS: VALERIUS NOW HAS A FORCE AND A HOUSEHOLD ON BOTH SIDES OF THE ROAD TO ROME",
+      "article": "August closes with a major expansion of Valerius's household and military establishment. Three hundred newly contracted heavy cavalrymen have entered the estate's fighting force, while the earlier mounted scouts retain a separate reconnaissance purpose. In Rome, a permanent residence and office now handles outside affairs under the direction of Valerius's sister and the protection of ten trusted guards. Regular communications connect the Roman house, the lake port and the main estate. Valerius remains a private Roman landholder and soldier, but the reach of his household is now plainly broader than it was at the beginning of the month.",
+      "ledger": {}
+    }
+  ]
+}

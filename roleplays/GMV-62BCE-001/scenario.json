@@ -13,8 +13,8 @@
     "year": -62,
     "display": "62 BCE"
   },
-  "latest_round": 19,
-  "latest_date": "-0061-07-31",
+  "latest_round": 20,
+  "latest_date": "-0061-08-31",
   "calendar": "Roman Republican calendar; exact historical dates are used where known, while generated simulation dates are explicitly labeled.",
   "metric_schema": "fixed-v1",
   "news_style": "period-authentic-local-newspaper",
@@ -43,20 +43,6 @@
     "influence_rule": "Influence increases exponentially with magnitude rather than linearly.",
     "influence_factor": "1.25^(magnitude-1)",
     "long_run_target": "Approximately one special event every 8-12 rounds on average, with substantial variance.",
-    "isolation": "Independent state, rounds, events, relationships, and news.",
-    "magnitude_probability_formula": "P(m | special event) = [1 / 1.25^(m-1)] / sum[n=1..10][1 / 1.25^(n-1)]",
-    "magnitude_probability_distribution": {
-      "1": 0.22406,
-      "2": 0.17925,
-      "3": 0.1434,
-      "4": 0.11472,
-      "5": 0.09177,
-      "6": 0.07342,
-      "7": 0.05874,
-      "8": 0.04699,
-      "9": 0.03759,
-      "10": 0.03007
-    }
-  },
-  "isolation": "Independent state, rounds, events, relationships, and news."
+    "magnitude_probability_formula": "P(m | special event) = [1 / 1.25^(m-1)] / sum[n=1..10][1 / 1.25^(n-1)]"
+  }
 }

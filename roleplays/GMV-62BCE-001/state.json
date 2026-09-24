@@ -1,21 +1,21 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 19,
-  "date": "-0061-07-31",
-  "treasury": 1745,
+  "round": 20,
+  "date": "-0061-08-31",
+  "treasury": 790,
   "wealth_accounts": {
-    "public": 1436,
-    "private": 149,
+    "public": 641,
+    "private": 166,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 150,
-    "last_round_private_transfer": 15
+    "last_round_net_public_profit": 170,
+    "last_round_private_transfer": 17
   },
   "treasury_interest_placement": {
     "principal": 1000,
     "source_account": "public",
     "destination": "currency_treasury",
-    "start_treasury": 720,
-    "qualifying_growth": 190,
+    "start_treasury": 1745,
+    "qualifying_growth": 170,
     "term": "3 months",
     "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
     "current_annualized_rate": 0.045,
@@ -24,34 +24,34 @@
   },
   "metrics": {
     "population": 119,
-    "currency": 1745,
-    "soldiers": 83,
+    "currency": 790,
+    "soldiers": 383,
     "taxation": 0,
-    "economy": 96,
+    "economy": 100,
     "agriculture": 61,
-    "infrastructure": 95,
-    "trade": 99,
+    "infrastructure": 100,
+    "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 100,
+    "supply": 96,
     "organization": 100,
     "stability": 100,
-    "legitimacy": 81,
-    "exhaustion": 39,
-    "technology": 38,
-    "intelligence": 146,
+    "legitimacy": 84,
+    "exhaustion": 48,
+    "technology": 40,
+    "intelligence": 166,
     "relations": 100
   },
   "relationships": {
-    "nearby-landowners": 22,
+    "nearby-landowners": 24,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
-    "military-connections": 7,
+    "military-connections": 12,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius organizes his men, recruits experienced veterans, drills shield-wall and pike formations, and trains heavy cavalry to serve as controlled scouts rather than exposed charging targets.",
+  "previous_action": "Gaius Maximus Valerius travels toward Rome, accepts 300 experienced cavalrymen on fair fixed estate contracts, establishes them as a dedicated heavy cavalry fighting force distinct from reconnaissance riders, establishes a permanent secluded and defended estate and office in Rome, keeps ten trusted guards there, and appoints his younger sister to administer outside affairs and maintain permanent communication with Rome.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -61,15 +61,13 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "During July, Valerius reorganized his estate force, recruited experienced veterans, introduced shield-wall and pike drills, and trained heavy cavalry as controlled scouts. The enlarged force now operates with a stronger emphasis on formation discipline, reconnaissance and coordinated movement. The lake port and surrounding roads remain active, while veteran recruitment has increased the estate's military connections."
+    "campaign_development": "During August, Valerius established a permanent Roman household, added three hundred contracted heavy cavalrymen to the estate's fighting force, separated combat cavalry from reconnaissance riders, appointed his younger sister to administer Roman outside affairs, and placed ten trusted guards with the Roman household. A regular communications line now connects Rome, the lake port and the main estate."
   },
   "special_event_policy": {
     "magnitude_scale": "1-10",
-    "rarity_rule": "Higher magnitude events are increasingly rare; magnitude is selected only when justified by unusually consequential circumstances.",
-    "influence_rule": "Event influence increases exponentially with magnitude.",
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 0,
+    "this_round_special_events": 1,
     "current_round_opportunity_probability": 0.12,
-    "last_selected_magnitude": 4
+    "last_selected_magnitude": 6
   }
 }
