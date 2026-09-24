@@ -527,3 +527,82 @@ Every special-event opportunity and magnitude-11 resolution must persist the act
 When an older round gives only an aggregate—such as the Round 33 cumulative land baseline—or combines purchase and restoration costs, preserve exactly what the source establishes and mark the component facts unresolved. Do not infer individual acquisition prices, dates, or areas from the aggregate. The unresolved record remains in the ledger until the chronology provides a defensible source.
 
 The current GMV state therefore includes a persistent property-ledger audit status. Until that historical reconstruction and repository-wide schema audit passes, the next-round gate remains blocked.
+
+
+## Exact Monetary, Tax, and Investment Continuity Contract
+
+The existing GMV metrics must be understood and calculated with exact mathematical financial logic. This section introduces **no new player-facing metrics or new top-line ledgers**.
+
+### Exact arithmetic
+- Every applicable financial flow is calculated exactly before narrative generation.
+- Start from the prior canonical state, identify all active established mechanisms, determine the elapsed accrual period, apply only established rates/fixed amounts/contractual terms or mathematically defensible rules, calculate gross receipts, established costs, net realized returns, taxes and transfers, then route the result to the correct existing metric.
+- Do not invent convenient deltas, round amounts for narrative convenience, or allow established income-producing mechanisms to silently stagnate.
+- The exact inputs, ownership, period, rate or fixed amount, formula, destination, and provenance may be persisted internally in GitHub so future rounds can reproduce the calculation.
+- The exact internal arithmetic is the logical basis for subsequent rounds; it is not required to appear in player-facing historical/news prose.
+
+### Existing monetary metrics remain distinct
+- **Treasury** = liquid public/estate money.
+- **Currency** = Valerius's personal liquid money.
+- **Public Wealth** = broader public/estate asset position.
+- **Private Wealth** = broader private asset position.
+- Transfers between these concepts require an explicit modeled transaction or established rule.
+- The same economic value must never be counted twice merely because it appears in a cash metric and a broader wealth metric.
+
+### Investment-type separation
+Existing investments must remain separated according to ownership, purpose, funding source, and destination using the campaign's established records. This is interpretation of existing data, not a new player-facing measure.
+
+Where supported, distinguish:
+- public/estate investments funded from Treasury/public assets;
+- private investments funded from Currency/private assets;
+- commercial investments using the already established gross-receipt, operating/security/maintenance-cost, principal, return, net-profit, and private-transfer logic;
+- established debt obligations/receivables, including the grain, shipping, and lake-port obligations already present in the chronology;
+- property purchases and restoration/repair expenditures, which are not automatically income-producing investments.
+
+If the historical record does not establish ownership, rate, amount, destination, or terms, retain the uncertainty rather than inventing it.
+
+### Passive income is persistent
+An established income-producing investment or recurring financial mechanism continues to operate in subsequent rounds unless the historical state records liquidation, interruption, default, loss, or another causal termination.
+
+For every applicable round, evaluate established:
+- return rate or fixed return;
+- accrual period;
+- operating/security/maintenance/collection costs;
+- realized versus unrealized return where supported;
+- principal preservation or liquidation;
+- taxes and established private-transfer effects;
+- ownership and correct destination account;
+- delayed defaults, interruptions, losses, or windfalls supported by the chronology.
+
+If a known rate or mathematically derivable return exists, calculate the exact amount for the elapsed period. If a fixed amount or established commercial account defines the return, use that instead of inventing a percentage. If no defensible amount/rate exists, preserve the unresolved condition and do not manufacture passive income.
+
+### Recurring estate tax
+The established **3% income-based estate tax** is a recurring financial mechanism, not a one-time narrative fact.
+
+When qualifying taxable income exists:
+1. identify the established taxable-income basis;
+2. calculate exactly 3% of that amount;
+3. credit the public/estate receipt to Treasury when appropriate;
+4. reduce the corresponding taxable/private income where appropriate;
+5. keep tax revenue distinct from investment principal, private receipts, and broader wealth.
+
+Do not charge tax merely because time passed if there is no taxable income under the established rule. Do not create a new tax base, rate, or metric.
+
+### Private transfer mechanism
+The established private transfer rate remains separate from taxation. When qualifying private commercial profit triggers that mechanism, calculate the exact transfer from the private side to the public/estate side and record it as a transfer rather than gross public income.
+
+### Financial conservation
+Before a round becomes canonical:
+- every financial increase/decrease has a source;
+- every transfer has source and destination;
+- investment principal is not mistaken for income;
+- realized returns are not counted again as principal;
+- taxes are not counted as private income;
+- private transfers are not counted twice;
+- property purchase consideration is not silently mixed with restoration/repair expenditure;
+- Treasury, Currency, Public Wealth, and Private Wealth reconcile exactly to the prior state plus resolved flows.
+
+### Player-facing separation
+Exact financial calculations are **internal simulation memory and GitHub canonical logic**. Player-facing news should report the actual historical/newsworthy consequence, not bookkeeping formulas or intermediate calculations, unless the financial information itself becomes public and historically relevant. AI Ledgers continue to show only the established metrics actually changed by the event; the underlying exact calculations remain in canonical persistence.
+
+### Round gate
+Before generating the next canonical round, the resolver must evaluate all established recurring financial mechanisms across the full elapsed period, using the complete canonical history. This financial continuity check is part of the existing full-history/schema/commit gate. No new round may silently ignore established passive income, tax flows, investment returns, debt payments, or private-transfer effects.
