@@ -134,7 +134,7 @@ function validateMetricSchema(scenario, state, round) {
   if (scenario.metric_schema !== "fixed-v1+land-area-v1") {
     fail("METRIC_SCHEMA", "Campaign must use fixed-v1+land-area-v1.");
   }
-  if (round.metric_schema !== scenario.metric_schema) {
+  if (round.schema_version !== "gmv-round-v2" && round.metric_schema !== scenario.metric_schema) {
     fail("METRIC_SCHEMA_MISMATCH", "Round metric_schema must match scenario metric_schema.");
   }
 
@@ -154,7 +154,7 @@ function validateMetricSchema(scenario, state, round) {
     }
   }
 
-  const ledgerTotals = round.running_total || {};
+  const ledgerTotals = round.schema_version === "gmv-round-v2" ? Object.fromEntries(Object.entries(round.round_ledger || {}).map(([k,v]) => [k, v.delta])) : (round.running_total || {});
   for (const [metric, delta] of Object.entries(ledgerTotals)) {
     if (typeof delta !== "number" || !Number.isFinite(delta)) {
       fail("DELTA_NUMERIC", `running_total.${metric} must be numeric.`);
@@ -334,6 +334,7 @@ function main() {
   if (!round) fail("ROUND_FILE_MISSING", `Canonical round file not found: ${roundFile}`);
   if (!news) fail("NEWS_FILE_MISSING", `Canonical news file not found: ${newsFile}`);
 
+  validateNormalizedRound(round).forEach((m) => fail("NORMALIZED_SCHEMA", m));
   validateIdentity(scenario, state, round, news, expectedRound);
   validateMetricSchema(scenario, state, round);
   validateRoundEvents(round, news);
