@@ -1,45 +1,38 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 22,
-  "date": "-0061-10-31",
+  "round": 23,
+  "date": "-0061-11-30",
   "treasury": 2210,
   "wealth_accounts": {
-    "public": 436,
-    "private": 216,
+    "public": 446,
+    "private": 236,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 280,
-    "last_round_private_transfer": 28
+    "last_round_net_public_profit": 200,
+    "last_round_private_transfer": 20
   },
   "treasury_interest_placement": {
-    "principal": 1000,
-    "source_account": "public",
-    "destination": "currency_treasury",
-    "start_treasury": 1745,
-    "qualifying_growth": 450,
-    "term": "3 months",
-    "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
-    "current_annualized_rate": 0.06,
-    "interest_realized": 15,
-    "settlement": "completed after the three-month observation period"
+    "principal": 0,
+    "status": "settled",
+    "prior_settlement": "Round 22; 1,000 principal, 450 qualifying growth, 6% annualized rate, 15 interest realized"
   },
   "metrics": {
-    "population": 194,
-    "currency": 410,
+    "population": 229,
+    "currency": 420,
     "soldiers": 458,
     "taxation": 0,
     "economy": 100,
-    "agriculture": 62,
+    "agriculture": 67,
     "infrastructure": 100,
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 97,
+    "supply": 98,
     "organization": 100,
     "stability": 100,
-    "legitimacy": 91,
-    "exhaustion": 48,
+    "legitimacy": 100,
+    "exhaustion": 49,
     "technology": 40,
-    "intelligence": 197,
+    "intelligence": 215,
     "relations": 100
   },
   "relationships": {
@@ -51,7 +44,7 @@
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8
   },
-  "previous_action": "Gaius Maximus Valerius organizes his funds as efficiently as possible before the final inspection of the three-month treasury placement, protects operating reserves, and continues recruiting men on demonstrated merit by offering shelter, food and personal responsibility in return for defined service.",
+  "previous_action": "Gaius Maximus Valerius sends envoys to Roman officials offering to take over estates that are imposing substantial maintenance costs upon the state, proposes to purchase such properties at a very low price in exchange for removing the state's continuing burden, and pledges to restore them to productive use while grounding the transaction in a formal purchase from Rome.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -62,13 +55,13 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "During October, Valerius completed the three-month treasury inspection, realized fifteen currency of interest at a six percent annualized rate, reorganized liquid reserves, and admitted seventy-five men through merit-based recruitment under defined shelter-and-service terms. The seventy-five recruits are counted once in the military establishment."
+    "campaign_development": "In November, Valerius sent envoys to Roman officials offering to purchase burdened public estates at low prices in exchange for assuming their maintenance obligations. One neglected estate was transferred after public review, and Valerius immediately began repairs and productive reorganization."
   },
   "special_event_policy": {
     "magnitude_scale": "1-10",
     "influence_factor": "1.25^(magnitude-1)",
     "this_round_special_events": 0,
-    "current_round_opportunity_probability": 12,
+    "current_round_opportunity_probability": 14,
     "last_selected_magnitude": 6
   }
 }
