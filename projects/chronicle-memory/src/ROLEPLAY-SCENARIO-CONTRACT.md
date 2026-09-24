@@ -151,3 +151,41 @@ Rules:
 - Historical precedent informs the baseline measurement, but the engine must not use historical precedent to manufacture a new acquisition.
 - Future land changes must be attributable to a specific event and included in that event's ledger/state mutation.
 - The metric applies specifically to the player's personal estates and holdings, not all territory visited, occupied, patrolled, influenced, or militarily controlled by the player's expedition.
+
+## Monthly Estate Audit and End-of-Month Verification
+
+Every active roleplay that contains player-owned estates, holdings, properties, or estate-linked operations must perform a formal end-of-month audit at the close of every simulation month. This audit is a persistent contract requirement and is separate from the roleplay's narrative events.
+
+The audit must run even when no estate-related event occurred during the month. It must review each estate or holding individually and then reconcile the estate-level results against the scenario's committed state.
+
+For each estate, the monthly audit must check, where applicable:
+- recorded ownership and land-area continuity;
+- population and labor records;
+- agricultural production and sustainability;
+- stored supplies, inventories, and physical reserves;
+- income, expenses, receipts, maintenance, and other estate-linked financial activity;
+- infrastructure condition and construction activity;
+- trade and commercial activity;
+- security incidents, losses, damage, theft, or disruption;
+- technology or operational improvements;
+- events attributed to the estate during the month;
+- whether each event's ledger effects were actually reflected in the estate and scenario state;
+- whether any resource movement, transfer, acquisition, loss, or disposal is accounted for exactly once;
+- whether the estate's records reconcile with the campaign's fixed metric schema and wealth-accounting rules.
+
+The audit must identify discrepancies, duplicate accounting, missing effects, impossible state transitions, unsupported land changes, and other continuity errors before the month's committed state is treated as authoritative. Corrections must preserve the fixed metric schema and must be traceable to the underlying event or accounting record. The audit must never silently manufacture an event to explain a discrepancy.
+
+The audit is an accounting and verification layer, not a public news event. It must not be inserted into the roleplay's narrative as an event unless a separate, meaningful in-world development results from the audit itself. Its results should be persisted as structured verification data associated with the completed month so later rounds can rely on the verified estate state.
+
+At minimum, the completed monthly audit must record:
+- audit period and completion date;
+- estates/holdings reviewed;
+- event records reviewed for each estate;
+- reconciliation status for each estate;
+- discrepancies found;
+- corrections applied, if any;
+- final verified estate totals and their reconciliation to scenario state;
+- audit status indicating whether the month's estate records passed verification.
+
+A new simulation month may proceed from the prior month's committed state only after the end-of-month estate audit has been completed and persisted. This requirement applies to all future rounds and is independent of the player's narrative instructions.
+
