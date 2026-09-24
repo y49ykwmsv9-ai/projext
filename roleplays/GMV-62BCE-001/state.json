@@ -74,8 +74,8 @@
   },
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
-    "canonical_round_48": "pending post-commit verification",
-    "commit_check": "pending"
+    "canonical_round_48": "verified",
+    "commit_check": "verified after canonical files persisted and re-read"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -155,6 +155,6 @@
   },
   "next_round_gate": {
     "status": "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT",
-    "reason": "Round 48 is authored but cannot be declared canonical or open Round 49 until the rebuilt round, news, state, scenario pointer, and full historical commit/schema gate are re-read and verified after persistence."
+    "reason": "Round 48 is canonical and its files are verified. Round 49 remains blocked until the full historical schema/commit audit passes across every prior canonical round and news record."
   }
 }
