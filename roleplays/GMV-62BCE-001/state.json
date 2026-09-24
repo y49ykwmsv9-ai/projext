@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 27,
-  "date": "-0060-03-31",
-  "treasury": 2105,
+  "round": 28,
+  "date": "-0060-04-30",
+  "treasury": 1970,
   "wealth_accounts": {
-    "public": 1217,
-    "private": 335,
+    "public": 1370,
+    "private": 352,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 150,
-    "last_round_private_transfer": 15
+    "last_round_net_public_profit": 170,
+    "last_round_private_transfer": 17
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,7 +17,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": 390,
+    "currency": 255,
     "soldiers": 458,
     "taxation": 0,
     "economy": 100,
@@ -30,22 +30,22 @@
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 71,
+    "exhaustion": 78,
     "technology": 46,
-    "intelligence": 286,
+    "intelligence": 303,
     "relations": 100
   },
   "relationships": {
     "nearby-landowners": 24,
     "poor-agricultural-workers": 5,
     "smallholders": 2,
-    "military-connections": 12,
+    "military-connections": 16,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
     "marcus-claudius-marcellus": 8,
     "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius organizes all the armed men under his command, trains them personally, and spends a full day with them to demonstrate leadership and virtue.",
+  "previous_action": "Gaius Maximus Valerius pledges a formal oath and has it entered into the legal records associated with his household and dynasty, tying his honor to his reputation as a lasting commitment. Before his men, he promises to lead every march and expedition, eat the same rations whether good or bad, and lead every battle no matter how hard it may be, provided that doing so does not place the household as a whole at unreasonable risk.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -56,7 +56,7 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In March 60 BCE, Valerius brought all armed men serving across his estates, roads, lake port and Roman household under a common training order. He personally drilled with them and spent a full day sharing their duties, while field exercises tested the coordination of infantry, cavalry, guards and supply handlers. The result was a more unified pattern of service across a force that remained distributed among several holdings."
+    "campaign_development": "In April 60 BCE, Valerius formalized a personal oath of command, preserving it among the household's legal records and publicly swearing before his armed men that he would share their marches and rations and lead them in battle when required, while retaining the responsibility to protect the household from reckless exposure. The pledge became part of the household's recorded reputation as well as a visible standard for his conduct in the field."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
@@ -67,11 +67,11 @@
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
     "last_selected_magnitude": 1,
-    "magnitude_11_chance_percent": 8.42,
+    "magnitude_11_chance_percent": 13.26,
     "magnitude_11_checks": [
-      55.1832,
-      12.7714,
-      80.4491
+      48.3371,
+      21.4405,
+      67.1822
     ]
   }
 }
