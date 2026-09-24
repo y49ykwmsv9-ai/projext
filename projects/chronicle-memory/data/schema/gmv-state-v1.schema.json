@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "GMV Persistent State v1",
+  "title": "GMV Persistent State v1.1",
   "type": "object",
   "required": [
     "scenario_id",
@@ -39,7 +39,7 @@
       ],
       "properties": {
         "schema_version": {
-          "const": "property-ledger-v1"
+          "const": "property-ledger-v1.1"
         },
         "status": {
           "type": "string"
@@ -137,6 +137,9 @@
                   "string",
                   "null"
                 ]
+              },
+              "area_status": {
+                "type": "string"
               }
             }
           }
@@ -144,6 +147,55 @@
         "derived_total_land_area_sq_miles": {
           "type": "number",
           "minimum": 0
+        },
+        "spatial_reconstruction": {
+          "type": "object",
+          "required": [
+            "baseline_round",
+            "baseline_area_sq_miles",
+            "baseline_acres",
+            "allocation",
+            "method",
+            "status"
+          ],
+          "properties": {
+            "baseline_round": {
+              "const": 33
+            },
+            "baseline_area_sq_miles": {
+              "const": 4
+            },
+            "baseline_acres": {
+              "const": 2560
+            },
+            "allocation": {
+              "type": "object",
+              "required": [
+                "principal_estate_sq_miles",
+                "lake_port_sq_miles"
+              ],
+              "properties": {
+                "principal_estate_sq_miles": {
+                  "const": 3
+                },
+                "lake_port_sq_miles": {
+                  "const": 1
+                }
+              }
+            },
+            "method": {
+              "const": "descriptor-based historical reconstruction"
+            },
+            "rationale": {
+              "type": "string"
+            },
+            "status": {
+              "const": "resolved_for_simulation_use"
+            },
+            "caveat": {
+              "type": "string"
+            }
+          }
         }
       }
     },
