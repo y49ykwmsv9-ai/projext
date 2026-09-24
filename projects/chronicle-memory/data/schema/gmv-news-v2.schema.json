@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GMV News v2",
+  "type": "object",
+  "required": ["schema_version","campaign_id","round","period","events","migration","legacy_record"],
+  "properties": {
+    "schema_version": {"const":"gmv-news-v2"},
+    "campaign_id": {"const":"GMV-62BCE-001"},
+    "round": {"type":"integer","minimum":1},
+    "period": {
+      "type":"object",
+      "required":["start","end"],
+      "properties":{"start":{"type":"string"},"end":{"type":"string"},"display":{"type":"string"}}
+    },
+    "events": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "required":["event_id","source_event_id","date","type","headline"],
+        "properties":{
+          "event_id":{"type":"string"},
+          "source_event_id":{"type":"string"},
+          "date":{"type":"string"},
+          "type":{"type":"string"},
+          "special_event":{"type":"boolean"},
+          "magnitude":{"type":["integer","null"]},
+          "headline":{"type":"string"},
+          "visibility":{},
+          "confidence":{}
+        }
+      }
+    },
+    "migration":{"type":"object"},
+    "legacy_record":{"type":"object"}
+  }
+}
