@@ -65,6 +65,28 @@ Chronicle AI is a standalone text-driven strategy prototype with natural-languag
 
 It is intentionally separate from Worldforge. It can be deployed from its own directory without changing the root application.
 
+## GMV roleplay persistence
+
+The canonical GMV campaign is stored at `roleplays/GMV-62BCE-001/`.
+
+### Mandatory round-output checklist
+
+**Before generating or displaying any GMV round, the README and the current canonical GMV state must be read first. This is mandatory and is part of the round procedure.**
+
+For every round:
+
+1. Read this README.
+2. Read `roleplays/GMV-62BCE-001/state.json`.
+3. Read the current round's canonical source files and recover the exact unresolved player directive; never invent or alter queued actions.
+4. Resolve the round using the fixed GMV metric schema and the established special-event system.
+5. Run the required standard special-event resolution and the independent Magnitude-11 check before writing player-facing events.
+6. Keep engine checks and hidden causal logic out of the public news prose.
+7. Persist the round JSON, news JSON, state, and scenario pointer.
+8. Re-read the persisted files and verify the post-commit checks before treating the round as canonical.
+9. Only then output the player-facing round.
+
+The GMV special-event system uses a standard 1–10 magnitude scale plus the separately randomized Magnitude-11 extension. Every round records its special-event resolution and three independent Magnitude-11 checks.
+
 ## Project rules
 
 - Every game gets a unique project ID.
@@ -87,7 +109,7 @@ npm run build
 npm run start
 ```
 
-For a standalone static game, open its `index.html` or serve that project directory with a static HTTP server.
+For a standalone static game, open `index.html` directly in a browser or serve that project directory with a static HTTP server.
 
 The GitHub Actions workflow builds the root Next.js application on pushes and pull requests to `main`.
 
