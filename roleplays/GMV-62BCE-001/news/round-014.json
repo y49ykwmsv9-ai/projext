@@ -1,5 +1,6 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 14,
   "period": {
     "start": "-0061-02-01",
@@ -7,157 +8,635 @@
   },
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R014-E001",
       "date": "-0061-02-03",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "THE NEW HOLDING IS SURVEYED FOR FORMAL INCORPORATION",
+      "article": "With the winter fighting concluded, Valerius turns from conquest to administration and orders the newly secured ground measured and recorded. Surveyors mark the roads, cultivated plots, timber stands, water sources and the fortified store-yard that now serves as the principal strongpoint. The work is deliberate, because the difference between a temporary military possession and an estate holding rests upon records, boundaries and recognized obligations. Existing paths are connected to the road system leading toward the lake port, while the most exposed approaches remain under guard. By the close of the first week, the new territory has begun to appear not as an isolated camp but as a defined part of Valerius's wider property.",
       "entities": [
         "Gaius Maximus Valerius",
         "Main Estate",
         "Winter Pass Holding"
       ],
-      "article": "With the winter fighting concluded, Valerius turns from conquest to administration and orders the newly secured ground measured and recorded. Surveyors mark the roads, cultivated plots, timber stands, water sources and the fortified store-yard that now serves as the principal strongpoint. The work is deliberate, because the difference between a temporary military possession and an estate holding rests upon records, boundaries and recognized obligations. Existing paths are connected to the road system leading toward the lake port, while the most exposed approaches remain under guard. By the close of the first week, the new territory has begun to appear not as an isolated camp but as a defined part of Valerius's wider property.",
-      "ledger": {
-        "currency": -70,
-        "infrastructure": 1,
-        "organization": 2,
-        "intelligence": 2,
-        "stability": 1,
-        "exhaustion": -1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -70,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R014-E002",
       "date": "-0061-02-07",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "VALERIUS DECLARES THE CAPTURED LANDS PART OF HIS ESTATE",
+      "article": "Valerius formally places the newly secured territory under the administration of his estate, with the captured store-yard and its approaches entered among the estate's holdings. Written records identify the boundaries and the duties of those responsible for maintaining roads, stores, fields and defensive works. The arrangement is presented as an orderly extension of existing administration rather than an abandonment of Roman law or private obligation. Guards remain at the strongest points, but civilian stewards now have authority over stores and agricultural work. The declaration gives the territory a permanent administrative identity and makes clear that its value will be measured in productive land, secure movement and reliable revenue as well as military advantage.",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Administration",
         "Winter Pass Holding"
       ],
-      "article": "Valerius formally places the newly secured territory under the administration of his estate, with the captured store-yard and its approaches entered among the estate's holdings. Written records identify the boundaries and the duties of those responsible for maintaining roads, stores, fields and defensive works. The arrangement is presented as an orderly extension of existing administration rather than an abandonment of Roman law or private obligation. Guards remain at the strongest points, but civilian stewards now have authority over stores and agricultural work. The declaration gives the territory a permanent administrative identity and makes clear that its value will be measured in productive land, secure movement and reliable revenue as well as military advantage.",
-      "ledger": {
-        "currency": -40,
-        "legitimacy": 3,
-        "stability": 2,
-        "organization": 2,
-        "relations": 2
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -40,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R014-E003",
       "date": "-0061-02-11",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "FARMS, WOODS AND WATER SOURCES ENTER THE ESTATE REGISTERS",
+      "article": "Estate officials begin recording the productive resources of the newly incorporated land. Fields capable of immediate cultivation are separated from damaged ground, while woodland and water sources are entered for future use. Local households are counted for administrative purposes and agreements are made concerning labor, rents, protection and access to common resources. The process is watched carefully by neighboring landholders, who have an interest in knowing where the new estate boundaries now lie. The first records suggest that the territory can contribute to the estate's agricultural base without requiring the abandonment of its existing lands.",
       "entities": [
         "Estate Stewards",
         "Local Households",
         "Gaius Maximus Valerius"
       ],
-      "article": "Estate officials begin recording the productive resources of the newly incorporated land. Fields capable of immediate cultivation are separated from damaged ground, while woodland and water sources are entered for future use. Local households are counted for administrative purposes and agreements are made concerning labor, rents, protection and access to common resources. The process is watched carefully by neighboring landholders, who have an interest in knowing where the new estate boundaries now lie. The first records suggest that the territory can contribute to the estate's agricultural base without requiring the abandonment of its existing lands.",
-      "ledger": {
-        "currency": -30,
-        "population": 6,
-        "agriculture": 3,
-        "economy": 2,
-        "stability": 1,
-        "relations": 2
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -30,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "population",
+          "before": null,
+          "delta": 6,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R014-E004",
       "date": "-0061-02-16",
-      "type": "DIRECT",
+      "type": "direct",
       "headline": "THE WINTER PASS IS LINKED TO THE ROAD AND LAKE PORT",
+      "article": "Work crews begin repairing the routes between the captured holding, the established estate road and the lake port. Timber from the new territory is used where practical, while pack routes are cleared and guarded crossings restored. The fortified store-yard becomes a receiving point for grain, tools and other goods moving toward the port, giving the newly incorporated land a direct economic connection to Valerius's existing commercial network. The military value of the position remains important, but administrators are already treating the road as a permanent artery rather than a temporary campaign route. Merchants now have a clearer path between the interior holding and the water.",
       "entities": [
         "Winter Pass Holding",
         "Estate Road",
         "Lake Port",
         "Gaius Maximus Valerius"
       ],
-      "article": "Work crews begin repairing the routes between the captured holding, the established estate road and the lake port. Timber from the new territory is used where practical, while pack routes are cleared and guarded crossings restored. The fortified store-yard becomes a receiving point for grain, tools and other goods moving toward the port, giving the newly incorporated land a direct economic connection to Valerius's existing commercial network. The military value of the position remains important, but administrators are already treating the road as a permanent artery rather than a temporary campaign route. Merchants now have a clearer path between the interior holding and the water.",
-      "ledger": {
-        "currency": -80,
-        "infrastructure": 2,
-        "trade": 2,
-        "economy": 1,
-        "supply": 2,
-        "readiness": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -80,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R014-E005",
       "date": "-0061-02-20",
-      "type": "CONNECTED",
+      "type": "connected",
       "headline": "LOCAL ADMINISTRATION TAKES ROOT IN THE NEW TERRITORY",
+      "article": "Stewards appointed by Valerius begin regular rounds through the incorporated territory, recording stores, settling routine disputes and organizing the work needed before the spring agricultural season. The presence of armed men remains visible, but administration is increasingly conducted through records, agreements and predictable obligations. Some local families accept the new arrangement readily, while others remain cautious after the upheaval of the previous month. Valerius's decision to preserve useful local labor and property rather than strip the territory has helped the transition proceed without a general flight from the land. The estate now possesses the beginnings of a permanent administrative structure beyond its original boundaries.",
       "entities": [
         "Estate Stewards",
         "Local Households",
         "Gaius Maximus Valerius"
       ],
-      "article": "Stewards appointed by Valerius begin regular rounds through the incorporated territory, recording stores, settling routine disputes and organizing the work needed before the spring agricultural season. The presence of armed men remains visible, but administration is increasingly conducted through records, agreements and predictable obligations. Some local families accept the new arrangement readily, while others remain cautious after the upheaval of the previous month. Valerius's decision to preserve useful local labor and property rather than strip the territory has helped the transition proceed without a general flight from the land. The estate now possesses the beginnings of a permanent administrative structure beyond its original boundaries.",
-      "ledger": {
-        "currency": -35,
-        "stability": 2,
-        "legitimacy": 2,
-        "relations": 2,
-        "organization": 2,
-        "morale": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -35,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R014-E006",
       "date": "-0061-02-23",
-      "type": "WORLD",
+      "type": "world",
       "headline": "ROME'S POLITICAL NEWS CONTINUES TO TRAVEL WITH MERCHANTS AND LETTERS",
+      "article": "Reports reaching the region continue to carry news of Rome's arguments over military settlements, wealth and the authority exercised by men returning from successful commands. Marcus Porcius Cato remains a prominent voice in those disputes, while the reputation of Gnaeus Pompeius Magnus continues to shape conversation far beyond the capital. Such matters are repeated unevenly by merchants, veterans and private correspondents, and distant reports are often several weeks old before they are heard locally. For Valerius, the significance is practical: an expanding estate and commercial network now places more of his affairs in contact with men who pay close attention to Roman law and property. His formal incorporation of the new holding therefore attracts notice beyond the immediate district without granting him any new public office.",
       "entities": [
         "Marcus Porcius Cato",
         "Gaius Pompeius Magnus",
         "Roman Republic"
       ],
-      "article": "Reports reaching the region continue to carry news of Rome's arguments over military settlements, wealth and the authority exercised by men returning from successful commands. Marcus Porcius Cato remains a prominent voice in those disputes, while the reputation of Gnaeus Pompeius Magnus continues to shape conversation far beyond the capital. Such matters are repeated unevenly by merchants, veterans and private correspondents, and distant reports are often several weeks old before they are heard locally. For Valerius, the significance is practical: an expanding estate and commercial network now places more of his affairs in contact with men who pay close attention to Roman law and property. His formal incorporation of the new holding therefore attracts notice beyond the immediate district without granting him any new public office.",
-      "ledger": {
-        "intelligence": 2,
-        "relations": 1,
-        "legitimacy": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R014-E007",
       "date": "-0061-02-28",
-      "type": "WORLD",
+      "type": "world",
       "headline": "LOCAL NEWS: THE NEW TERRITORY IS NOW COUNTED AS PART OF VALERIUS'S ESTATE",
+      "article": "February closes with the former winter strongpoint and its surrounding lands operating under the same estate administration as Valerius's older holdings. The boundaries have been marked, productive resources entered into the registers and routes toward the lake port placed under regular supervision. The transition has required money, labor and careful organization, but the new territory has begun contributing land, people, timber, stores and access to a strategically useful route. The estate is consequently larger and more interconnected than it was at the beginning of the month. Valerius remains in the field, while stewards and guards carry the new administrative arrangement forward in his absence.",
       "entities": [
         "Gaius Maximus Valerius",
         "Main Estate",
         "Winter Pass Holding",
         "Lake Port"
       ],
-      "article": "February closes with the former winter strongpoint and its surrounding lands operating under the same estate administration as Valerius's older holdings. The boundaries have been marked, productive resources entered into the registers and routes toward the lake port placed under regular supervision. The transition has required money, labor and careful organization, but the new territory has begun contributing land, people, timber, stores and access to a strategically useful route. The estate is consequently larger and more interconnected than it was at the beginning of the month. Valerius remains in the field, while stewards and guards carry the new administrative arrangement forward in his absence.",
-      "ledger": {
-        "currency": 0
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R014-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
     }
   ],
-  "running_total": {
-    "currency": -255,
-    "population": 6,
-    "soldiers": 0,
-    "taxation": 0,
-    "economy": 3,
-    "agriculture": 3,
-    "infrastructure": 3,
-    "trade": 4,
-    "readiness": 1,
-    "morale": 1,
-    "supply": 2,
-    "organization": 8,
-    "stability": 6,
-    "legitimacy": 6,
-    "exhaustion": -2,
-    "technology": 0,
-    "intelligence": 4,
-    "relations": 9
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 14,
+    "period": {
+      "start": "-0061-02-01",
+      "end": "-0061-02-28"
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0061-02-03",
+        "type": "DIRECT",
+        "headline": "THE NEW HOLDING IS SURVEYED FOR FORMAL INCORPORATION",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Main Estate",
+          "Winter Pass Holding"
+        ],
+        "article": "With the winter fighting concluded, Valerius turns from conquest to administration and orders the newly secured ground measured and recorded. Surveyors mark the roads, cultivated plots, timber stands, water sources and the fortified store-yard that now serves as the principal strongpoint. The work is deliberate, because the difference between a temporary military possession and an estate holding rests upon records, boundaries and recognized obligations. Existing paths are connected to the road system leading toward the lake port, while the most exposed approaches remain under guard. By the close of the first week, the new territory has begun to appear not as an isolated camp but as a defined part of Valerius's wider property.",
+        "ledger": {
+          "currency": -70,
+          "infrastructure": 1,
+          "organization": 2,
+          "intelligence": 2,
+          "stability": 1,
+          "exhaustion": -1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0061-02-07",
+        "type": "DIRECT",
+        "headline": "VALERIUS DECLARES THE CAPTURED LANDS PART OF HIS ESTATE",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Administration",
+          "Winter Pass Holding"
+        ],
+        "article": "Valerius formally places the newly secured territory under the administration of his estate, with the captured store-yard and its approaches entered among the estate's holdings. Written records identify the boundaries and the duties of those responsible for maintaining roads, stores, fields and defensive works. The arrangement is presented as an orderly extension of existing administration rather than an abandonment of Roman law or private obligation. Guards remain at the strongest points, but civilian stewards now have authority over stores and agricultural work. The declaration gives the territory a permanent administrative identity and makes clear that its value will be measured in productive land, secure movement and reliable revenue as well as military advantage.",
+        "ledger": {
+          "currency": -40,
+          "legitimacy": 3,
+          "stability": 2,
+          "organization": 2,
+          "relations": 2
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0061-02-11",
+        "type": "CONNECTED",
+        "headline": "FARMS, WOODS AND WATER SOURCES ENTER THE ESTATE REGISTERS",
+        "entities": [
+          "Estate Stewards",
+          "Local Households",
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Estate officials begin recording the productive resources of the newly incorporated land. Fields capable of immediate cultivation are separated from damaged ground, while woodland and water sources are entered for future use. Local households are counted for administrative purposes and agreements are made concerning labor, rents, protection and access to common resources. The process is watched carefully by neighboring landholders, who have an interest in knowing where the new estate boundaries now lie. The first records suggest that the territory can contribute to the estate's agricultural base without requiring the abandonment of its existing lands.",
+        "ledger": {
+          "currency": -30,
+          "population": 6,
+          "agriculture": 3,
+          "economy": 2,
+          "stability": 1,
+          "relations": 2
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0061-02-16",
+        "type": "DIRECT",
+        "headline": "THE WINTER PASS IS LINKED TO THE ROAD AND LAKE PORT",
+        "entities": [
+          "Winter Pass Holding",
+          "Estate Road",
+          "Lake Port",
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Work crews begin repairing the routes between the captured holding, the established estate road and the lake port. Timber from the new territory is used where practical, while pack routes are cleared and guarded crossings restored. The fortified store-yard becomes a receiving point for grain, tools and other goods moving toward the port, giving the newly incorporated land a direct economic connection to Valerius's existing commercial network. The military value of the position remains important, but administrators are already treating the road as a permanent artery rather than a temporary campaign route. Merchants now have a clearer path between the interior holding and the water.",
+        "ledger": {
+          "currency": -80,
+          "infrastructure": 2,
+          "trade": 2,
+          "economy": 1,
+          "supply": 2,
+          "readiness": 1
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0061-02-20",
+        "type": "CONNECTED",
+        "headline": "LOCAL ADMINISTRATION TAKES ROOT IN THE NEW TERRITORY",
+        "entities": [
+          "Estate Stewards",
+          "Local Households",
+          "Gaius Maximus Valerius"
+        ],
+        "article": "Stewards appointed by Valerius begin regular rounds through the incorporated territory, recording stores, settling routine disputes and organizing the work needed before the spring agricultural season. The presence of armed men remains visible, but administration is increasingly conducted through records, agreements and predictable obligations. Some local families accept the new arrangement readily, while others remain cautious after the upheaval of the previous month. Valerius's decision to preserve useful local labor and property rather than strip the territory has helped the transition proceed without a general flight from the land. The estate now possesses the beginnings of a permanent administrative structure beyond its original boundaries.",
+        "ledger": {
+          "currency": -35,
+          "stability": 2,
+          "legitimacy": 2,
+          "relations": 2,
+          "organization": 2,
+          "morale": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0061-02-23",
+        "type": "WORLD",
+        "headline": "ROME'S POLITICAL NEWS CONTINUES TO TRAVEL WITH MERCHANTS AND LETTERS",
+        "entities": [
+          "Marcus Porcius Cato",
+          "Gaius Pompeius Magnus",
+          "Roman Republic"
+        ],
+        "article": "Reports reaching the region continue to carry news of Rome's arguments over military settlements, wealth and the authority exercised by men returning from successful commands. Marcus Porcius Cato remains a prominent voice in those disputes, while the reputation of Gnaeus Pompeius Magnus continues to shape conversation far beyond the capital. Such matters are repeated unevenly by merchants, veterans and private correspondents, and distant reports are often several weeks old before they are heard locally. For Valerius, the significance is practical: an expanding estate and commercial network now places more of his affairs in contact with men who pay close attention to Roman law and property. His formal incorporation of the new holding therefore attracts notice beyond the immediate district without granting him any new public office.",
+        "ledger": {
+          "intelligence": 2,
+          "relations": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0061-02-28",
+        "type": "WORLD",
+        "headline": "LOCAL NEWS: THE NEW TERRITORY IS NOW COUNTED AS PART OF VALERIUS'S ESTATE",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Main Estate",
+          "Winter Pass Holding",
+          "Lake Port"
+        ],
+        "article": "February closes with the former winter strongpoint and its surrounding lands operating under the same estate administration as Valerius's older holdings. The boundaries have been marked, productive resources entered into the registers and routes toward the lake port placed under regular supervision. The transition has required money, labor and careful organization, but the new territory has begun contributing land, people, timber, stores and access to a strategically useful route. The estate is consequently larger and more interconnected than it was at the beginning of the month. Valerius remains in the field, while stewards and guards carry the new administrative arrangement forward in his absence.",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": -255,
+      "population": 6,
+      "soldiers": 0,
+      "taxation": 0,
+      "economy": 3,
+      "agriculture": 3,
+      "infrastructure": 3,
+      "trade": 4,
+      "readiness": 1,
+      "morale": 1,
+      "supply": 2,
+      "organization": 8,
+      "stability": 6,
+      "legitimacy": 6,
+      "exhaustion": -2,
+      "technology": 0,
+      "intelligence": 4,
+      "relations": 9
+    }
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
   }
 }

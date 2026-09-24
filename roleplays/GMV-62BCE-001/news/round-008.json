@@ -1,155 +1,571 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 8,
   "period": {
     "start": "-0062-08-01",
     "end": "-0062-08-31"
   },
-  "player_action": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
   "events": [
     {
-      "event_number": 1,
+      "event_id": "GMV-62BCE-001-R008-E001",
       "date": "2 August 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Gaius Maximus Valerius",
-        "Lake Holding",
-        "Trade"
-      ],
+      "type": "direct",
       "headline": "VALERIUS ORDERS THE LAKE-SIDE LAND MADE INTO A WORKING LANDING",
       "article": "Work has begun upon the lake-side ground recently brought under the estate of Gaius Maximus Valerius. Timber has been brought forward, ground has been cleared, and the approaches from the converging roads are being improved so that carts and men may reach the water without passing through the older parts of the estate. The undertaking is larger than the rough landing places previously used by cultivators and local carriers. Valerius has directed that the first works serve both merchants and the movement of his own stores. Men familiar with the district say the position is unusually useful because roads from several directions meet near the water. What had been an undeveloped tract is therefore beginning to acquire the appearance of a permanent commercial station.",
-      "ledger": {
-        "currency": -400,
-        "infrastructure": 3,
-        "trade": 2,
-        "economy": 1,
-        "organization": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -400,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 2,
+      "event_id": "GMV-62BCE-001-R008-E002",
       "date": "6 August 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Port Works",
-        "Resident Craftsmen",
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "ESTATE CRAFTSMEN TURN THE NEW HOLDING TOWARD COMMERCE",
       "article": "The builders, masons, smiths, lumber workers and blacksmiths already resident upon Valerius's estate have been given new work at the lake. Timber frames and stone foundations are being prepared together, while smiths have begun producing fittings suitable for carts, tools and the handling of cargo. The arrangement by which these skilled men live upon the estate in return for their labor has allowed the work to proceed without Valerius first having to establish a separate town around the site. Additional laborers have also appeared in the district as news of the construction has spread. The growing workforce has made the holding more than a military resting place. It is becoming a place where goods can be prepared, stored and moved onward.",
-      "ledger": {
-        "currency": -250,
-        "population": 4,
-        "infrastructure": 2,
-        "economy": 2,
-        "technology": 1,
-        "relations": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -250,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "population",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 3,
+      "event_id": "GMV-62BCE-001-R008-E003",
       "date": "11 August 62 BCE",
-      "type": "CONNECTED",
-      "tags": [
-        "Merchants",
-        "Roman Trade",
-        "Lake Port"
-      ],
+      "type": "connected",
       "headline": "MERCHANTS BEGIN TO ASK WHAT VALERIUS INTENDS TO BUILD",
       "article": "Men engaged in the movement of agricultural goods have begun making inquiries about the new works beside the lake. Some have come from outside the immediate district, following roads and commercial connections that have carried word of Valerius's acquisition far beyond the estate itself. Their questions concern the depth of the landing, the condition of the road, the security of stored goods and whether boats will be permitted to load there regularly. No great market has yet appeared, and the works remain plainly unfinished. Nevertheless, the inquiries show that the position is being considered as a commercial opportunity rather than merely as private estate ground. Several local landholders have likewise taken greater interest in Valerius's plans.",
-      "ledger": {
-        "relations": 2,
-        "trade": 2,
-        "intelligence": 1,
-        "legitimacy": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 4,
+      "event_id": "GMV-62BCE-001-R008-E004",
       "date": "16 August 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Boats",
-        "Military Mobility",
-        "Forward Holding"
-      ],
+      "type": "direct",
       "headline": "THE FIRST BOATS ARE PUT TO WORK BESIDE THE NEW HOLDING",
       "article": "Small boats have begun operating from the newly prepared landing, carrying men, tools and provisions along the accessible water rather than sending every load by road. The craft are modest and suited to local transport, not vessels for war on a large scale. Their immediate value has nevertheless been noticed by the men attached to Valerius's expedition, who can now move certain supplies without relying upon a single road. The forward holding remains the principal military position, while the lake landing gives it another route of approach and departure. Valerius has ordered the boats and landing to remain under estate control. The change has already made the new holding more useful to men moving between its roads and waterways.",
-      "ledger": {
-        "currency": -150,
-        "readiness": 2,
-        "supply": 2,
-        "trade": 2,
-        "infrastructure": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -150,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 5,
+      "event_id": "GMV-62BCE-001-R008-E005",
       "date": "21 August 62 BCE",
-      "type": "CONNECTED",
-      "tags": [
-        "Trade Revenue",
-        "Merchants",
-        "Valerius Estate"
-      ],
+      "type": "connected",
       "headline": "THE NEW LANDING BEGINS TO BRING IN REVENUE",
       "article": "The first regular cargoes to use the improved landing have begun to produce payments for storage, handling and passage over the estate's approaches. The sums are still small beside the fortunes of the wealthiest Roman landowners, but they mark the first direct return from the lake works. Agricultural produce and ordinary trade goods have been among the earliest traffic, with merchants preferring the new route when it saves a longer journey overland. Valerius's household has begun keeping closer account of the goods entering and leaving the holding. The income has also given the estate a new reason to maintain the roads and landing in good condition. What began as a strategic possibility is therefore becoming a modest source of continuing revenue.",
-      "ledger": {
-        "currency": 350,
-        "trade": 3,
-        "economy": 1,
-        "stability": 1,
-        "organization": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 350,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 6,
+      "event_id": "GMV-62BCE-001-R008-E006",
       "date": "26 August 62 BCE",
-      "type": "CONNECTED",
-      "tags": [
-        "Marcus Claudius Marcellus",
-        "Roman Political Elite",
-        "Valerius Estate"
-      ],
+      "type": "connected",
       "headline": "NEWS OF THE LAKE WORKS REACHES MEN WITH ROMAN CONNECTIONS",
       "article": "Reports of the new landing have reached Roman circles already familiar with Valerius's security work. Marcus Claudius Marcellus is among the political names associated with the wider network through which such reports travel, though no public office or formal commission has followed from the news. The interest is understandable: a private landowner who has secured a strategically placed holding, organized armed men and now controls a useful landing presents a different sort of presence in the countryside from an ordinary estate owner. Valerius's position remains private and local in law, but his activities are becoming harder for connected landowners to overlook. Men who previously asked about his expedition are now asking about the revenues and traffic of his new works. The growing attention brings opportunities as well as obligations, since greater visibility gives rivals more reason to observe him.",
-      "ledger": {
-        "relations": 3,
-        "intelligence": 1,
-        "legitimacy": 1,
-        "morale": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 7,
+      "event_id": "GMV-62BCE-001-R008-E007",
       "date": "31 August 62 BCE",
-      "type": "WORLD",
-      "tags": [
-        "Marcus Tullius Cicero",
-        "Gaius Julius Caesar",
-        "Roman World"
-      ],
+      "type": "world",
       "headline": "LOCAL NEWS: A SMALL ESTATE HAS ACQUIRED A REPUTATION FAR BEYOND ITS SIZE",
       "article": "The wider Roman world continues to carry news by merchants, letters, soldiers and the households of men connected to public affairs. Marcus Tullius Cicero remains a frequent subject of political discussion, while Gaius Julius Caesar's position among Rome's ambitious men continues to draw attention. Against that larger background, the new works of Gaius Maximus Valerius have become a local curiosity with consequences beyond the district. The estate now possesses a functioning lake landing, improved approaches and boats capable of carrying modest loads, while its forward holding remains available to the expedition. The undertaking is still small by the standards of the great Roman estates and ports, but its position at the meeting of roads and waterways has made it unusually visible. Merchants have begun to treat the place as a useful stop, soldiers as a more flexible route of movement, and neighboring landowners as a development worth watching.",
-      "ledger": {
-        "currency": 0
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R008-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
     }
   ],
-  "running_total": {
-    "currency": -1200,
-    "population": 8,
-    "economy": 5,
-    "infrastructure": 8,
-    "trade": 10,
-    "readiness": 4,
-    "morale": 1,
-    "supply": 4,
-    "organization": 2,
-    "stability": 1,
-    "legitimacy": 2,
-    "technology": 1,
-    "intelligence": 2,
-    "relations": 6
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 8,
+    "period": {
+      "start": "-0062-08-01",
+      "end": "-0062-08-31"
+    },
+    "player_action": "To produce money and influence and make his military operations more mobile, Gaius Maximus Valerius begins constructing the trade ports previously identified as strategically difficult to ignore. The project turns the newly acquired lake-side land, road convergence, and waterways into an operating commercial and logistical position.",
+    "events": [
+      {
+        "event_number": 1,
+        "date": "2 August 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Gaius Maximus Valerius",
+          "Lake Holding",
+          "Trade"
+        ],
+        "headline": "VALERIUS ORDERS THE LAKE-SIDE LAND MADE INTO A WORKING LANDING",
+        "article": "Work has begun upon the lake-side ground recently brought under the estate of Gaius Maximus Valerius. Timber has been brought forward, ground has been cleared, and the approaches from the converging roads are being improved so that carts and men may reach the water without passing through the older parts of the estate. The undertaking is larger than the rough landing places previously used by cultivators and local carriers. Valerius has directed that the first works serve both merchants and the movement of his own stores. Men familiar with the district say the position is unusually useful because roads from several directions meet near the water. What had been an undeveloped tract is therefore beginning to acquire the appearance of a permanent commercial station.",
+        "ledger": {
+          "currency": -400,
+          "infrastructure": 3,
+          "trade": 2,
+          "economy": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event_number": 2,
+        "date": "6 August 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Port Works",
+          "Resident Craftsmen",
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "ESTATE CRAFTSMEN TURN THE NEW HOLDING TOWARD COMMERCE",
+        "article": "The builders, masons, smiths, lumber workers and blacksmiths already resident upon Valerius's estate have been given new work at the lake. Timber frames and stone foundations are being prepared together, while smiths have begun producing fittings suitable for carts, tools and the handling of cargo. The arrangement by which these skilled men live upon the estate in return for their labor has allowed the work to proceed without Valerius first having to establish a separate town around the site. Additional laborers have also appeared in the district as news of the construction has spread. The growing workforce has made the holding more than a military resting place. It is becoming a place where goods can be prepared, stored and moved onward.",
+        "ledger": {
+          "currency": -250,
+          "population": 4,
+          "infrastructure": 2,
+          "economy": 2,
+          "technology": 1,
+          "relations": 1
+        }
+      },
+      {
+        "event_number": 3,
+        "date": "11 August 62 BCE",
+        "type": "CONNECTED",
+        "tags": [
+          "Merchants",
+          "Roman Trade",
+          "Lake Port"
+        ],
+        "headline": "MERCHANTS BEGIN TO ASK WHAT VALERIUS INTENDS TO BUILD",
+        "article": "Men engaged in the movement of agricultural goods have begun making inquiries about the new works beside the lake. Some have come from outside the immediate district, following roads and commercial connections that have carried word of Valerius's acquisition far beyond the estate itself. Their questions concern the depth of the landing, the condition of the road, the security of stored goods and whether boats will be permitted to load there regularly. No great market has yet appeared, and the works remain plainly unfinished. Nevertheless, the inquiries show that the position is being considered as a commercial opportunity rather than merely as private estate ground. Several local landholders have likewise taken greater interest in Valerius's plans.",
+        "ledger": {
+          "relations": 2,
+          "trade": 2,
+          "intelligence": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_number": 4,
+        "date": "16 August 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Boats",
+          "Military Mobility",
+          "Forward Holding"
+        ],
+        "headline": "THE FIRST BOATS ARE PUT TO WORK BESIDE THE NEW HOLDING",
+        "article": "Small boats have begun operating from the newly prepared landing, carrying men, tools and provisions along the accessible water rather than sending every load by road. The craft are modest and suited to local transport, not vessels for war on a large scale. Their immediate value has nevertheless been noticed by the men attached to Valerius's expedition, who can now move certain supplies without relying upon a single road. The forward holding remains the principal military position, while the lake landing gives it another route of approach and departure. Valerius has ordered the boats and landing to remain under estate control. The change has already made the new holding more useful to men moving between its roads and waterways.",
+        "ledger": {
+          "currency": -150,
+          "readiness": 2,
+          "supply": 2,
+          "trade": 2,
+          "infrastructure": 1
+        }
+      },
+      {
+        "event_number": 5,
+        "date": "21 August 62 BCE",
+        "type": "CONNECTED",
+        "tags": [
+          "Trade Revenue",
+          "Merchants",
+          "Valerius Estate"
+        ],
+        "headline": "THE NEW LANDING BEGINS TO BRING IN REVENUE",
+        "article": "The first regular cargoes to use the improved landing have begun to produce payments for storage, handling and passage over the estate's approaches. The sums are still small beside the fortunes of the wealthiest Roman landowners, but they mark the first direct return from the lake works. Agricultural produce and ordinary trade goods have been among the earliest traffic, with merchants preferring the new route when it saves a longer journey overland. Valerius's household has begun keeping closer account of the goods entering and leaving the holding. The income has also given the estate a new reason to maintain the roads and landing in good condition. What began as a strategic possibility is therefore becoming a modest source of continuing revenue.",
+        "ledger": {
+          "currency": 350,
+          "trade": 3,
+          "economy": 1,
+          "stability": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event_number": 6,
+        "date": "26 August 62 BCE",
+        "type": "CONNECTED",
+        "tags": [
+          "Marcus Claudius Marcellus",
+          "Roman Political Elite",
+          "Valerius Estate"
+        ],
+        "headline": "NEWS OF THE LAKE WORKS REACHES MEN WITH ROMAN CONNECTIONS",
+        "article": "Reports of the new landing have reached Roman circles already familiar with Valerius's security work. Marcus Claudius Marcellus is among the political names associated with the wider network through which such reports travel, though no public office or formal commission has followed from the news. The interest is understandable: a private landowner who has secured a strategically placed holding, organized armed men and now controls a useful landing presents a different sort of presence in the countryside from an ordinary estate owner. Valerius's position remains private and local in law, but his activities are becoming harder for connected landowners to overlook. Men who previously asked about his expedition are now asking about the revenues and traffic of his new works. The growing attention brings opportunities as well as obligations, since greater visibility gives rivals more reason to observe him.",
+        "ledger": {
+          "relations": 3,
+          "intelligence": 1,
+          "legitimacy": 1,
+          "morale": 1
+        }
+      },
+      {
+        "event_number": 7,
+        "date": "31 August 62 BCE",
+        "type": "WORLD",
+        "tags": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Roman World"
+        ],
+        "headline": "LOCAL NEWS: A SMALL ESTATE HAS ACQUIRED A REPUTATION FAR BEYOND ITS SIZE",
+        "article": "The wider Roman world continues to carry news by merchants, letters, soldiers and the households of men connected to public affairs. Marcus Tullius Cicero remains a frequent subject of political discussion, while Gaius Julius Caesar's position among Rome's ambitious men continues to draw attention. Against that larger background, the new works of Gaius Maximus Valerius have become a local curiosity with consequences beyond the district. The estate now possesses a functioning lake landing, improved approaches and boats capable of carrying modest loads, while its forward holding remains available to the expedition. The undertaking is still small by the standards of the great Roman estates and ports, but its position at the meeting of roads and waterways has made it unusually visible. Merchants have begun to treat the place as a useful stop, soldiers as a more flexible route of movement, and neighboring landowners as a development worth watching.",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": -1200,
+      "population": 8,
+      "economy": 5,
+      "infrastructure": 8,
+      "trade": 10,
+      "readiness": 4,
+      "morale": 1,
+      "supply": 4,
+      "organization": 2,
+      "stability": 1,
+      "legitimacy": 2,
+      "technology": 1,
+      "intelligence": 2,
+      "relations": 6
+    }
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
   }
 }

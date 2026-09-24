@@ -1,43 +1,105 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 1,
-  "date": "-0062-01-29",
-  "publication_context": "Local Roman newspaper-style reporting: observable events, named people and places, contemporary concerns, and plausible uncertainty. Never expose simulation mechanics, hidden causality, metric changes, or engine reasoning.",
-  "articles": [
+  "period": {
+    "start": null,
+    "end": "-0062-01-29",
+    "display": null
+  },
+  "events": [
     {
+      "event_id": "projext-R001-E001",
       "date": "-0062-01-29",
+      "type": "connected",
       "headline": "Young Centurion Extends Aid Among Agricultural Households",
-      "place": "Local District",
-      "sentences": 5
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
+      "event_id": "projext-R001-E002",
       "date": "-0062-01-29",
+      "type": "connected",
       "headline": "Valerius Estate Increases Work Upon Its Lands",
-      "place": "Valerius Estate District",
-      "sentences": 5
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
+      "event_id": "projext-R001-E003",
       "date": "-0062-01-29",
+      "type": "connected",
       "headline": "Several Neighboring Proprietors Visit the Valerius Estate",
-      "place": "Local Countryside",
-      "sentences": 5
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
+      "event_id": "projext-R001-E004",
       "date": "-0062-01-29",
+      "type": "connected",
       "headline": "Local Agricultural Matters Draw Greater Attention",
-      "place": "Local District",
-      "sentences": 5
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
+      "event_id": "projext-R001-E005",
       "date": "-0062-01-29",
+      "type": "connected",
       "headline": "News From Rome Reaches the Countryside",
-      "place": "Italy",
-      "sentences": 5
+      "article": null,
+      "entities": [],
+      "state_changes": []
     }
   ],
-  "final_round_article": {
-    "role": "local-round-summary",
-    "headline": "News From the District: Aid, Agriculture and the Affairs of Neighboring Estates",
-    "rule": "The final article closes the round as a local reader's newspaper summary of notable happenings. It reports what a contemporary reader could plausibly know, without game logic or retrospective analysis."
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 1,
+    "date": "-0062-01-29",
+    "publication_context": "Local Roman newspaper-style reporting: observable events, named people and places, contemporary concerns, and plausible uncertainty. Never expose simulation mechanics, hidden causality, metric changes, or engine reasoning.",
+    "articles": [
+      {
+        "date": "-0062-01-29",
+        "headline": "Young Centurion Extends Aid Among Agricultural Households",
+        "place": "Local District",
+        "sentences": 5
+      },
+      {
+        "date": "-0062-01-29",
+        "headline": "Valerius Estate Increases Work Upon Its Lands",
+        "place": "Valerius Estate District",
+        "sentences": 5
+      },
+      {
+        "date": "-0062-01-29",
+        "headline": "Several Neighboring Proprietors Visit the Valerius Estate",
+        "place": "Local Countryside",
+        "sentences": 5
+      },
+      {
+        "date": "-0062-01-29",
+        "headline": "Local Agricultural Matters Draw Greater Attention",
+        "place": "Local District",
+        "sentences": 5
+      },
+      {
+        "date": "-0062-01-29",
+        "headline": "News From Rome Reaches the Countryside",
+        "place": "Italy",
+        "sentences": 5
+      }
+    ],
+    "final_round_article": {
+      "role": "local-round-summary",
+      "headline": "News From the District: Aid, Agriculture and the Affairs of Neighboring Estates",
+      "rule": "The final article closes the round as a local reader's newspaper summary of notable happenings. It reports what a contemporary reader could plausibly know, without game logic or retrospective analysis."
+    }
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
   }
 }

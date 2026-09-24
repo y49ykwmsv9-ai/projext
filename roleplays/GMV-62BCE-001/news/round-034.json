@@ -1,5 +1,6 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 34,
   "period": {
     "start": "-0060-10-01",
@@ -7,40 +8,118 @@
   },
   "events": [
     {
-      "event": 1,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E001",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 2,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E002",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 3,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E003",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 4,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E004",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 5,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E005",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 6,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E006",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 7,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E007",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 8,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E008",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 9,
-      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      "event_id": "GMV-62BCE-001-R034-E009",
+      "type": "connected",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 34,
+    "period": {
+      "start": "-0060-10-01",
+      "end": "-0060-10-31"
+    },
+    "events": [
+      {
+        "event": 1,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 2,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 3,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 4,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 5,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 6,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 7,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 8,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      },
+      {
+        "event": 9,
+        "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

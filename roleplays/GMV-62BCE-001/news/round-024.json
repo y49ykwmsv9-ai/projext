@@ -1,137 +1,689 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 24,
   "period": {
     "start": "-0061-12-01",
     "end": "-0061-12-31",
     "display": "1 December 61 BCE – 31 December 61 BCE"
   },
-  "metric_schema": "fixed-v1",
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R024-E001",
       "date": "-0061-12-03",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS RETURNS TO THE PRINCIPAL ESTATE AND BEGINS A FULL SURVEY",
       "article": "Valerius returns to his principal estate in the opening days of December and immediately begins a personal inspection of the enlarged holding. He travels the fields, approaches the watercourses and follows the existing roads rather than leaving the work entirely to estate administrators. Particular attention is given to the points where water, agricultural land and transport routes meet. Surveyors accompany him and record boundaries, storage sites, workshops and the condition of the approaches. The inspection is intended to establish a single working plan for the estate rather than a collection of disconnected improvements.",
-      "ledger": {
-        "currency": -25,
-        "intelligence": 4,
-        "organization": 2,
-        "stability": 2,
-        "legitimacy": 1
-      }
-    },
-    {
-      "event": 2,
-      "date": "-0061-12-07",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R024-E002",
+      "date": "-0061-12-07",
+      "type": "direct",
       "headline": "NEW WATERWAYS ARE BROUGHT WITHIN THE ESTATE BOUNDARY",
       "article": "After the survey, Valerius arranges the acquisition of adjoining tracts that control access to several useful waterways. The additional land gives the principal estate more reliable access to water for fields, livestock, transport and storage, while also reducing the number of separate holdings that must be coordinated along the routes. Boundary markers are established and the newly incorporated ground is entered into the estate registers. Work crews begin clearing approaches and securing crossings without diverting water beyond what the land can sustainably provide. The enlarged boundary gives the estate a more coherent geographic shape and a stronger connection between its productive areas.",
-      "ledger": {
-        "currency": -70,
-        "population": 10,
-        "agriculture": 3,
-        "supply": 1,
-        "organization": 3,
-        "stability": 2,
-        "legitimacy": 2,
-        "relations": 3,
-        "intelligence": 3
-      }
-    },
-    {
-      "event": 3,
-      "date": "-0061-12-11",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -70,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "population",
+          "before": null,
+          "delta": 10,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R024-E003",
+      "date": "-0061-12-11",
+      "type": "direct",
       "headline": "A DIRECT ROUTE TO THE ROMAN HIGHWAY IS SECURED",
       "article": "The estate survey identifies the shortest practical route from the principal holding toward the nearest Roman highway, and Valerius orders the intervening parcels secured. The new corridor is prepared as a maintained estate road rather than a speculative grand construction. Drainage, crossings and road surfaces are repaired where necessary, with the work organized around the traffic the estate can actually sustain. The connection shortens the overland movement of agricultural goods and manufactured supplies between the estate and the Roman road network. Merchants and carriers are informed that the route is intended to become a regular commercial approach once the works are complete.",
-      "ledger": {
-        "currency": -55,
-        "infrastructure": 2,
-        "trade": 2,
-        "economy": 2,
-        "supply": 1,
-        "organization": 2,
-        "intelligence": 3,
-        "relations": 3
-      }
-    },
-    {
-      "event": 4,
-      "date": "-0061-12-16",
-      "type": "CONNECTED",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -55,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R024-E004",
+      "date": "-0061-12-16",
+      "type": "connected",
       "headline": "THE ENLARGED ESTATE IS DIVIDED INTO PRODUCTIVE WORK ZONES",
       "article": "With the new boundaries established, Valerius's administrators divide the holding according to the actual capacities recorded during the survey. Fields are assigned to regular cultivation, water-accessible ground to livestock and irrigation where appropriate, and suitable buildings to storage and workshops. Timber and other materials are placed under the same replenishment discipline established earlier in the year, with production schedules tied to sustainable supply. The newly acquired route and waterways are treated as infrastructure supporting production rather than as ends in themselves. Workers are assigned to each division so that the estate can begin operating as a coordinated productive system.",
-      "ledger": {
-        "currency": -30,
-        "agriculture": 2,
-        "economy": 2,
-        "supply": 1,
-        "organization": 3,
-        "stability": 2,
-        "exhaustion": 1
-      }
-    },
-    {
-      "event": 5,
-      "date": "-0061-12-21",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
-      "headline": "FULL PRODUCTION BEGINS ACROSS THE ESTATE NETWORK",
-      "article": "Valerius orders production to begin in full across his established estates and the newly incorporated holding. Agricultural crews begin the winter cycle, workshops take regular orders, storage houses are inventoried and transport schedules are tied to the new highway connection. The lake port, principal estate and recently acquired property are now treated as parts of one commercial network rather than separate ventures. Administrators are instructed to record output, maintenance and reserves so that expansion does not outrun the resources needed to sustain it. The first shipments begin moving under the new schedule before the month is out.",
-      "ledger": {
-        "currency": 300,
-        "economy": 4,
-        "agriculture": 2,
-        "trade": 3,
-        "supply": 2,
-        "organization": 2,
-        "stability": 2,
-        "relations": 2,
-        "intelligence": 3,
-        "exhaustion": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -30,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R024-E005",
+      "date": "-0061-12-21",
+      "type": "direct",
+      "headline": "FULL PRODUCTION BEGINS ACROSS THE ESTATE NETWORK",
+      "article": "Valerius orders production to begin in full across his established estates and the newly incorporated holding. Agricultural crews begin the winter cycle, workshops take regular orders, storage houses are inventoried and transport schedules are tied to the new highway connection. The lake port, principal estate and recently acquired property are now treated as parts of one commercial network rather than separate ventures. Administrators are instructed to record output, maintenance and reserves so that expansion does not outrun the resources needed to sustain it. The first shipments begin moving under the new schedule before the month is out.",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 300,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R024-E006",
       "date": "-0061-12-27",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "ROME HEARS OF EXPANDING PRIVATE ESTATES AND INCREASING COMMERCIAL ACTIVITY",
+      "article": "Reports reaching the estate from Rome continue to describe intense discussion of wealth, public obligations and the conduct of ambitious men seeking to enlarge their holdings. Cicero remains a prominent voice in the city's public disputes, while Caesar's activities continue to attract attention among Roman political circles. Valerius's expansion is reported separately as a local matter involving land, transport and production rather than a new political office. The growing connection between his estates and the Roman road network nevertheless makes his commercial activity easier to notice. No new public command or political appointment is attached to the development.",
       "entities": [
         "Marcus Tullius Cicero",
         "Gaius Julius Caesar"
       ],
-      "headline": "ROME HEARS OF EXPANDING PRIVATE ESTATES AND INCREASING COMMERCIAL ACTIVITY",
-      "article": "Reports reaching the estate from Rome continue to describe intense discussion of wealth, public obligations and the conduct of ambitious men seeking to enlarge their holdings. Cicero remains a prominent voice in the city's public disputes, while Caesar's activities continue to attract attention among Roman political circles. Valerius's expansion is reported separately as a local matter involving land, transport and production rather than a new political office. The growing connection between his estates and the Roman road network nevertheless makes his commercial activity easier to notice. No new public command or political appointment is attached to the development.",
-      "ledger": {
-        "intelligence": 4,
-        "relations": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R024-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R024-E007",
       "date": "-0061-12-31",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "LOCAL ROUNDUP: WATER, ROAD AND FIELD NOW FORM ONE ESTATE SYSTEM",
+      "article": "December closes with the principal estate larger, more connected and under a unified production plan. Additional waterways have been incorporated, a direct route toward the Roman highway has been secured and the first full production schedules are underway. Workers are already moving between fields, workshops, storage areas and transport points according to the new arrangement. The enlarged estate remains subject to the sustainability rules established earlier in the year, with water, timber and land use recorded against future replenishment. For the local community, the most visible change is the appearance of a single organized estate network where previously the routes and productive holdings had been divided.",
       "entities": [
         "Gaius Maximus Valerius"
       ],
-      "headline": "LOCAL ROUNDUP: WATER, ROAD AND FIELD NOW FORM ONE ESTATE SYSTEM",
-      "article": "December closes with the principal estate larger, more connected and under a unified production plan. Additional waterways have been incorporated, a direct route toward the Roman highway has been secured and the first full production schedules are underway. Workers are already moving between fields, workshops, storage areas and transport points according to the new arrangement. The enlarged estate remains subject to the sustainability rules established earlier in the year, with water, timber and land use recorded against future replenishment. For the local community, the most visible change is the appearance of a single organized estate network where previously the routes and productive holdings had been divided.",
-      "ledger": {}
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 24,
+    "period": {
+      "start": "-0061-12-01",
+      "end": "-0061-12-31",
+      "display": "1 December 61 BCE – 31 December 61 BCE"
+    },
+    "metric_schema": "fixed-v1",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0061-12-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS RETURNS TO THE PRINCIPAL ESTATE AND BEGINS A FULL SURVEY",
+        "article": "Valerius returns to his principal estate in the opening days of December and immediately begins a personal inspection of the enlarged holding. He travels the fields, approaches the watercourses and follows the existing roads rather than leaving the work entirely to estate administrators. Particular attention is given to the points where water, agricultural land and transport routes meet. Surveyors accompany him and record boundaries, storage sites, workshops and the condition of the approaches. The inspection is intended to establish a single working plan for the estate rather than a collection of disconnected improvements.",
+        "ledger": {
+          "currency": -25,
+          "intelligence": 4,
+          "organization": 2,
+          "stability": 2,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0061-12-07",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "NEW WATERWAYS ARE BROUGHT WITHIN THE ESTATE BOUNDARY",
+        "article": "After the survey, Valerius arranges the acquisition of adjoining tracts that control access to several useful waterways. The additional land gives the principal estate more reliable access to water for fields, livestock, transport and storage, while also reducing the number of separate holdings that must be coordinated along the routes. Boundary markers are established and the newly incorporated ground is entered into the estate registers. Work crews begin clearing approaches and securing crossings without diverting water beyond what the land can sustainably provide. The enlarged boundary gives the estate a more coherent geographic shape and a stronger connection between its productive areas.",
+        "ledger": {
+          "currency": -70,
+          "population": 10,
+          "agriculture": 3,
+          "supply": 1,
+          "organization": 3,
+          "stability": 2,
+          "legitimacy": 2,
+          "relations": 3,
+          "intelligence": 3
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0061-12-11",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A DIRECT ROUTE TO THE ROMAN HIGHWAY IS SECURED",
+        "article": "The estate survey identifies the shortest practical route from the principal holding toward the nearest Roman highway, and Valerius orders the intervening parcels secured. The new corridor is prepared as a maintained estate road rather than a speculative grand construction. Drainage, crossings and road surfaces are repaired where necessary, with the work organized around the traffic the estate can actually sustain. The connection shortens the overland movement of agricultural goods and manufactured supplies between the estate and the Roman road network. Merchants and carriers are informed that the route is intended to become a regular commercial approach once the works are complete.",
+        "ledger": {
+          "currency": -55,
+          "infrastructure": 2,
+          "trade": 2,
+          "economy": 2,
+          "supply": 1,
+          "organization": 2,
+          "intelligence": 3,
+          "relations": 3
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0061-12-16",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE ENLARGED ESTATE IS DIVIDED INTO PRODUCTIVE WORK ZONES",
+        "article": "With the new boundaries established, Valerius's administrators divide the holding according to the actual capacities recorded during the survey. Fields are assigned to regular cultivation, water-accessible ground to livestock and irrigation where appropriate, and suitable buildings to storage and workshops. Timber and other materials are placed under the same replenishment discipline established earlier in the year, with production schedules tied to sustainable supply. The newly acquired route and waterways are treated as infrastructure supporting production rather than as ends in themselves. Workers are assigned to each division so that the estate can begin operating as a coordinated productive system.",
+        "ledger": {
+          "currency": -30,
+          "agriculture": 2,
+          "economy": 2,
+          "supply": 1,
+          "organization": 3,
+          "stability": 2,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0061-12-21",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "FULL PRODUCTION BEGINS ACROSS THE ESTATE NETWORK",
+        "article": "Valerius orders production to begin in full across his established estates and the newly incorporated holding. Agricultural crews begin the winter cycle, workshops take regular orders, storage houses are inventoried and transport schedules are tied to the new highway connection. The lake port, principal estate and recently acquired property are now treated as parts of one commercial network rather than separate ventures. Administrators are instructed to record output, maintenance and reserves so that expansion does not outrun the resources needed to sustain it. The first shipments begin moving under the new schedule before the month is out.",
+        "ledger": {
+          "currency": 300,
+          "economy": 4,
+          "agriculture": 2,
+          "trade": 3,
+          "supply": 2,
+          "organization": 2,
+          "stability": 2,
+          "relations": 2,
+          "intelligence": 3,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0061-12-27",
+        "type": "WORLD",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar"
+        ],
+        "headline": "ROME HEARS OF EXPANDING PRIVATE ESTATES AND INCREASING COMMERCIAL ACTIVITY",
+        "article": "Reports reaching the estate from Rome continue to describe intense discussion of wealth, public obligations and the conduct of ambitious men seeking to enlarge their holdings. Cicero remains a prominent voice in the city's public disputes, while Caesar's activities continue to attract attention among Roman political circles. Valerius's expansion is reported separately as a local matter involving land, transport and production rather than a new political office. The growing connection between his estates and the Roman road network nevertheless makes his commercial activity easier to notice. No new public command or political appointment is attached to the development.",
+        "ledger": {
+          "intelligence": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0061-12-31",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "LOCAL ROUNDUP: WATER, ROAD AND FIELD NOW FORM ONE ESTATE SYSTEM",
+        "article": "December closes with the principal estate larger, more connected and under a unified production plan. Additional waterways have been incorporated, a direct route toward the Roman highway has been secured and the first full production schedules are underway. Workers are already moving between fields, workshops, storage areas and transport points according to the new arrangement. The enlarged estate remains subject to the sustainability rules established earlier in the year, with water, timber and land use recorded against future replenishment. For the local community, the most visible change is the appearance of a single organized estate network where previously the routes and productive holdings had been divided.",
+        "ledger": {}
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

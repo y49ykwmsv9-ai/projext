@@ -1,146 +1,667 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 32,
   "period": {
     "start": "-0060-08-01",
     "end": "-0060-08-31",
     "display": "1 August 60 BCE – 31 August 60 BCE"
   },
-  "metric_schema": "fixed-v1",
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R032-E001",
       "date": "-0060-08-03",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "THE MAIN COLUMN LEAVES THE RAVINE FORTRESS",
       "article": "At the beginning of August, Valerius leaves the newly fortified ravine with the main body of his expedition. A dependable detachment remains behind to guard the post and its stores, while the larger force moves into country that has so far been used by the regional band with considerable freedom. The departure is conducted in stages rather than as a single hurried march, with scouts moving ahead and smaller parties checking the roads on either side. Valerius carries forward the training system established in July, requiring the column to maintain its formations and observation practices even when no enemy is visible. The fortress remains connected to the estate road, giving the expedition a known line back to its stores and wounded.",
-      "ledger": {
-        "currency": -15,
-        "supply": -2,
-        "readiness": 0,
-        "intelligence": 5,
-        "exhaustion": 2,
-        "organization": 0
-      }
-    },
-    {
-      "event": 2,
-      "date": "-0060-08-07",
-      "type": "CONNECTED",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R032-E002",
+      "date": "-0060-08-07",
+      "type": "connected",
       "headline": "THREE ROUTES ARE TESTED BEFORE THE ARMY COMMITS TO THE INTERIOR",
       "article": "Scouts return with reports on three roads leading farther into the districts troubled by the band. One route follows cultivated ground and offers provisions but little concealment, another crosses rougher country with several narrow approaches, and the third follows a watercourse toward settlements that have recently reduced their traffic. Valerius refuses to select a road solely because it appears shortest. Small parties are sent along each approach to compare the condition of bridges, crossings, wells and surrounding heights. By the end of the week, the command has a clearer picture of the interior and has avoided committing the entire force to a route that might have been chosen for them by an unseen enemy.",
-      "ledger": {
-        "currency": -15,
-        "intelligence": 8,
-        "supply": -1,
-        "exhaustion": 3
-      }
-    },
-    {
-      "event": 3,
-      "date": "-0060-11",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 8,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R032-E003",
+      "date": "-0060-11",
+      "type": "direct",
       "headline": "THE EXPEDITION ENTERS THE BAND'S DEEPER COUNTRY",
       "article": "On 11 August, the main column crosses beyond the district where the May fighting occurred and enters country more closely associated with the regional band's movements. Abandoned carts, shuttered roadside stores and fields worked by smaller crews give the soldiers evidence that the campaign has reached an area where ordinary travel has become uncertain. Valerius orders the men not to strip settlements for convenience, and provisions are obtained through recorded purchases wherever supplies can be found. Scouts continue ahead in pairs and small groups, using the lessons of the previous month to examine high ground before the column approaches it. The advance is slower than a forced march, but the army reaches the interior without allowing its formation to become scattered.",
-      "ledger": {
-        "currency": -20,
-        "supply": -2,
-        "intelligence": 6,
-        "legitimacy": 1,
-        "exhaustion": 4,
-        "relations": 1
-      }
-    },
-    {
-      "event": 4,
-      "date": "-0060-08-15",
-      "type": "CONNECTED",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 6,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R032-E004",
+      "date": "-0060-08-15",
+      "type": "connected",
       "headline": "MESSENGERS REVEAL A NETWORK OF HIDDEN STORES",
       "article": "Information gathered from travelers and local intermediaries points toward a chain of concealed stores used by the regional band rather than a single permanent camp. Grain, fodder and equipment are believed to be moved between several small holdings and wooded positions before larger groups assemble. Valerius's officers begin mapping the reports against the roads and watercourses already surveyed. The information changes the immediate objective of the expedition: destroying one group in isolation would not necessarily remove the network supporting it. Patrols are therefore directed toward the connecting routes and likely storage points while the main body remains concentrated enough to answer a larger threat.",
-      "ledger": {
-        "currency": -10,
-        "supply": 1,
-        "intelligence": 9,
-        "technology": 1,
-        "exhaustion": 2
-      }
-    },
-    {
-      "event": 5,
-      "date": "-0060-08-19",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 9,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R032-E005",
+      "date": "-0060-08-19",
+      "type": "direct",
       "headline": "VALERIUS ESTABLISHES A FORWARD CAMP BEYOND THE OLD BATTLEFIELD",
       "article": "A defensible rise near a water source is selected for a temporary forward camp beyond the ground of the May engagement. The position gives the expedition room to rest men, reorganize supplies and receive reports from the scouting parties moving around it. Valerius personally inspects the approaches before the camp is laid out, applying the same terrain-reading principles he had demanded from his scouts during July. Guards are placed where the surrounding ground can be watched without unnecessarily exposing them, and the camp's stores are arranged so that a sudden departure remains possible. The new position gives the expedition a second anchor from which it can investigate the band's interior routes.",
-      "ledger": {
-        "currency": -20,
-        "supply": -1,
-        "infrastructure": 1,
-        "intelligence": 5,
-        "organization": 0,
-        "exhaustion": 2,
-        "technology": 1
-      }
-    },
-    {
-      "event": 6,
-      "date": "-0060-08-23",
-      "type": "CONNECTED",
       "entities": [
         "Gaius Maximus Valerius"
       ],
-      "headline": "A HIDDEN SUPPLY ROAD IS FOUND AND BLOCKED",
-      "article": "A scouting party discovers a lesser road leading from cultivated holdings toward one of the suspected storage areas. Fresh wheel marks and animal tracks indicate that the road is still being used despite its poor condition. Rather than sending the entire force down the track, Valerius places a small observation party nearby and closes the route with a controlled position that can be withdrawn quickly. Later movement confirms that men connected with the regional band have been using the road to move provisions. The discovery gives the expedition its first direct indication that the reports of a distributed supply network correspond to activity on the ground.",
-      "ledger": {
-        "currency": -10,
-        "intelligence": 8,
-        "supply": 1,
-        "morale": 1,
-        "stability": 1,
-        "exhaustion": 3,
-        "relations": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R032-E006",
+      "date": "-0060-08-23",
+      "type": "connected",
+      "headline": "A HIDDEN SUPPLY ROAD IS FOUND AND BLOCKED",
+      "article": "A scouting party discovers a lesser road leading from cultivated holdings toward one of the suspected storage areas. Fresh wheel marks and animal tracks indicate that the road is still being used despite its poor condition. Rather than sending the entire force down the track, Valerius places a small observation party nearby and closes the route with a controlled position that can be withdrawn quickly. Later movement confirms that men connected with the regional band have been using the road to move provisions. The discovery gives the expedition its first direct indication that the reports of a distributed supply network correspond to activity on the ground.",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 8,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R032-E007",
       "date": "-0060-08-27",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "ROME REMAINS ABSORBED IN THE STRUGGLE OF ITS LEADING MEN",
+      "article": "Reports reaching the forward camp continue to describe intense political activity in Rome. Caesar's efforts to secure a political settlement remain a subject of discussion, while Cicero and other senators continue to argue over the direction of public affairs and Pompey's position remains important to men assessing the balance of power. None of these developments produces a new office or formal command for Valerius. The reports do, however, remind the expedition that its fortunes are connected to a Republic whose leading men are increasingly occupied with questions extending well beyond the districts now being patrolled. Valerius's officers preserve the reports alongside their military maps and local intelligence.",
       "entities": [
         "Marcus Tullius Cicero",
         "Gaius Julius Caesar",
         "Gnaeus Pompeius Magnus"
       ],
-      "headline": "ROME REMAINS ABSORBED IN THE STRUGGLE OF ITS LEADING MEN",
-      "article": "Reports reaching the forward camp continue to describe intense political activity in Rome. Caesar's efforts to secure a political settlement remain a subject of discussion, while Cicero and other senators continue to argue over the direction of public affairs and Pompey's position remains important to men assessing the balance of power. None of these developments produces a new office or formal command for Valerius. The reports do, however, remind the expedition that its fortunes are connected to a Republic whose leading men are increasingly occupied with questions extending well beyond the districts now being patrolled. Valerius's officers preserve the reports alongside their military maps and local intelligence.",
-      "ledger": {
-        "intelligence": 4,
-        "relations": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R032-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R032-E008",
       "date": "-0060-08-31",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "LOCAL ROUNDUP: THE EXPEDITION PASSES INTO A NEW PHASE",
+      "article": "August closes with Valerius's main force established beyond the ravine where the expedition suffered its first major setback. The fortified post remains behind him as a secure base, while a new forward camp now supports operations deeper in the troubled country. Scouts have identified several routes and found evidence of a hidden supply road connecting the regional band's wider network. The expedition has therefore moved beyond simply answering attacks and begun searching for the infrastructure that allows those attacks to continue. The regional band has not yet been brought to a final confrontation, but Valerius's force is now operating closer to the sources of its strength.",
       "entities": [
         "Gaius Maximus Valerius"
       ],
-      "headline": "LOCAL ROUNDUP: THE EXPEDITION PASSES INTO A NEW PHASE",
-      "article": "August closes with Valerius's main force established beyond the ravine where the expedition suffered its first major setback. The fortified post remains behind him as a secure base, while a new forward camp now supports operations deeper in the troubled country. Scouts have identified several routes and found evidence of a hidden supply road connecting the regional band's wider network. The expedition has therefore moved beyond simply answering attacks and begun searching for the infrastructure that allows those attacks to continue. The regional band has not yet been brought to a final confrontation, but Valerius's force is now operating closer to the sources of its strength.",
-      "ledger": {}
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 32,
+    "period": {
+      "start": "-0060-08-01",
+      "end": "-0060-08-31",
+      "display": "1 August 60 BCE – 31 August 60 BCE"
+    },
+    "metric_schema": "fixed-v1",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-08-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE MAIN COLUMN LEAVES THE RAVINE FORTRESS",
+        "article": "At the beginning of August, Valerius leaves the newly fortified ravine with the main body of his expedition. A dependable detachment remains behind to guard the post and its stores, while the larger force moves into country that has so far been used by the regional band with considerable freedom. The departure is conducted in stages rather than as a single hurried march, with scouts moving ahead and smaller parties checking the roads on either side. Valerius carries forward the training system established in July, requiring the column to maintain its formations and observation practices even when no enemy is visible. The fortress remains connected to the estate road, giving the expedition a known line back to its stores and wounded.",
+        "ledger": {
+          "currency": -15,
+          "supply": -2,
+          "readiness": 0,
+          "intelligence": 5,
+          "exhaustion": 2,
+          "organization": 0
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0060-08-07",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THREE ROUTES ARE TESTED BEFORE THE ARMY COMMITS TO THE INTERIOR",
+        "article": "Scouts return with reports on three roads leading farther into the districts troubled by the band. One route follows cultivated ground and offers provisions but little concealment, another crosses rougher country with several narrow approaches, and the third follows a watercourse toward settlements that have recently reduced their traffic. Valerius refuses to select a road solely because it appears shortest. Small parties are sent along each approach to compare the condition of bridges, crossings, wells and surrounding heights. By the end of the week, the command has a clearer picture of the interior and has avoided committing the entire force to a route that might have been chosen for them by an unseen enemy.",
+        "ledger": {
+          "currency": -15,
+          "intelligence": 8,
+          "supply": -1,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0060-11",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE EXPEDITION ENTERS THE BAND'S DEEPER COUNTRY",
+        "article": "On 11 August, the main column crosses beyond the district where the May fighting occurred and enters country more closely associated with the regional band's movements. Abandoned carts, shuttered roadside stores and fields worked by smaller crews give the soldiers evidence that the campaign has reached an area where ordinary travel has become uncertain. Valerius orders the men not to strip settlements for convenience, and provisions are obtained through recorded purchases wherever supplies can be found. Scouts continue ahead in pairs and small groups, using the lessons of the previous month to examine high ground before the column approaches it. The advance is slower than a forced march, but the army reaches the interior without allowing its formation to become scattered.",
+        "ledger": {
+          "currency": -20,
+          "supply": -2,
+          "intelligence": 6,
+          "legitimacy": 1,
+          "exhaustion": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0060-08-15",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "MESSENGERS REVEAL A NETWORK OF HIDDEN STORES",
+        "article": "Information gathered from travelers and local intermediaries points toward a chain of concealed stores used by the regional band rather than a single permanent camp. Grain, fodder and equipment are believed to be moved between several small holdings and wooded positions before larger groups assemble. Valerius's officers begin mapping the reports against the roads and watercourses already surveyed. The information changes the immediate objective of the expedition: destroying one group in isolation would not necessarily remove the network supporting it. Patrols are therefore directed toward the connecting routes and likely storage points while the main body remains concentrated enough to answer a larger threat.",
+        "ledger": {
+          "currency": -10,
+          "supply": 1,
+          "intelligence": 9,
+          "technology": 1,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0060-08-19",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS ESTABLISHES A FORWARD CAMP BEYOND THE OLD BATTLEFIELD",
+        "article": "A defensible rise near a water source is selected for a temporary forward camp beyond the ground of the May engagement. The position gives the expedition room to rest men, reorganize supplies and receive reports from the scouting parties moving around it. Valerius personally inspects the approaches before the camp is laid out, applying the same terrain-reading principles he had demanded from his scouts during July. Guards are placed where the surrounding ground can be watched without unnecessarily exposing them, and the camp's stores are arranged so that a sudden departure remains possible. The new position gives the expedition a second anchor from which it can investigate the band's interior routes.",
+        "ledger": {
+          "currency": -20,
+          "supply": -1,
+          "infrastructure": 1,
+          "intelligence": 5,
+          "organization": 0,
+          "exhaustion": 2,
+          "technology": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0060-08-23",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "A HIDDEN SUPPLY ROAD IS FOUND AND BLOCKED",
+        "article": "A scouting party discovers a lesser road leading from cultivated holdings toward one of the suspected storage areas. Fresh wheel marks and animal tracks indicate that the road is still being used despite its poor condition. Rather than sending the entire force down the track, Valerius places a small observation party nearby and closes the route with a controlled position that can be withdrawn quickly. Later movement confirms that men connected with the regional band have been using the road to move provisions. The discovery gives the expedition its first direct indication that the reports of a distributed supply network correspond to activity on the ground.",
+        "ledger": {
+          "currency": -10,
+          "intelligence": 8,
+          "supply": 1,
+          "morale": 1,
+          "stability": 1,
+          "exhaustion": 3,
+          "relations": 1
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0060-08-27",
+        "type": "WORLD",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Gnaeus Pompeius Magnus"
+        ],
+        "headline": "ROME REMAINS ABSORBED IN THE STRUGGLE OF ITS LEADING MEN",
+        "article": "Reports reaching the forward camp continue to describe intense political activity in Rome. Caesar's efforts to secure a political settlement remain a subject of discussion, while Cicero and other senators continue to argue over the direction of public affairs and Pompey's position remains important to men assessing the balance of power. None of these developments produces a new office or formal command for Valerius. The reports do, however, remind the expedition that its fortunes are connected to a Republic whose leading men are increasingly occupied with questions extending well beyond the districts now being patrolled. Valerius's officers preserve the reports alongside their military maps and local intelligence.",
+        "ledger": {
+          "intelligence": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0060-08-31",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "LOCAL ROUNDUP: THE EXPEDITION PASSES INTO A NEW PHASE",
+        "article": "August closes with Valerius's main force established beyond the ravine where the expedition suffered its first major setback. The fortified post remains behind him as a secure base, while a new forward camp now supports operations deeper in the troubled country. Scouts have identified several routes and found evidence of a hidden supply road connecting the regional band's wider network. The expedition has therefore moved beyond simply answering attacks and begun searching for the infrastructure that allows those attacks to continue. The regional band has not yet been brought to a final confrontation, but Valerius's force is now operating closer to the sources of its strength.",
+        "ledger": {}
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

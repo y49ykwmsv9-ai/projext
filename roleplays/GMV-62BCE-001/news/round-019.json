@@ -1,159 +1,551 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 19,
   "period": {
     "start": "-0061-07-01",
     "end": "-0061-07-31",
     "display": "1 July 61 BCE – 31 July 61 BCE"
   },
-  "metric_schema": "fixed-v1",
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R019-E001",
       "date": "-0061-07-03",
-      "type": "DIRECT",
+      "type": "direct",
+      "headline": "VETERANS JOIN VALERIUS'S MEN AS THE ESTATE FORCE IS REORGANIZED",
+      "article": "Valerius begins July by reorganizing the men already under his command and seeking experienced veterans among the surrounding settlements. Several former soldiers, accustomed to campaigning and field discipline, accept service with the estate force after terms are settled with their households. Their arrival gives the younger men instructors who have known the demands of prolonged marches, camp duty and close combat. Valerius assigns the veterans among the existing groups rather than keeping them apart, allowing their experience to be passed directly into the ranks. The enlarged force is placed under a stricter daily routine as the new men and older soldiers learn to operate as one body.",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Experienced Veterans",
         "Main Estate"
       ],
-      "headline": "VETERANS JOIN VALERIUS'S MEN AS THE ESTATE FORCE IS REORGANIZED",
-      "article": "Valerius begins July by reorganizing the men already under his command and seeking experienced veterans among the surrounding settlements. Several former soldiers, accustomed to campaigning and field discipline, accept service with the estate force after terms are settled with their households. Their arrival gives the younger men instructors who have known the demands of prolonged marches, camp duty and close combat. Valerius assigns the veterans among the existing groups rather than keeping them apart, allowing their experience to be passed directly into the ranks. The enlarged force is placed under a stricter daily routine as the new men and older soldiers learn to operate as one body.",
-      "ledger": {
-        "currency": -120,
-        "soldiers": 12,
-        "morale": 2,
-        "relations": 2,
-        "intelligence": 2,
-        "exhaustion": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -120,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": 12,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R019-E002",
       "date": "-0061-07-08",
-      "type": "DIRECT",
+      "type": "direct",
+      "headline": "THE MEN LEARN TO HOLD A SHIELD WALL UNDER PRESSURE",
+      "article": "The first major exercise of the new program places the soldiers in a close shield formation and repeatedly tests their ability to keep the line intact. Veterans demonstrate how shields overlap, how gaps are closed and how men in the rear ranks support those at the front without breaking formation. The younger soldiers are made to advance, halt and turn while maintaining the wall rather than pursuing individual opponents. Valerius orders the exercise repeated until the movement becomes familiar across the whole formation. The drill places greater emphasis on collective discipline than on individual speed.",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Veterans"
       ],
-      "headline": "THE MEN LEARN TO HOLD A SHIELD WALL UNDER PRESSURE",
-      "article": "The first major exercise of the new program places the soldiers in a close shield formation and repeatedly tests their ability to keep the line intact. Veterans demonstrate how shields overlap, how gaps are closed and how men in the rear ranks support those at the front without breaking formation. The younger soldiers are made to advance, halt and turn while maintaining the wall rather than pursuing individual opponents. Valerius orders the exercise repeated until the movement becomes familiar across the whole formation. The drill places greater emphasis on collective discipline than on individual speed.",
-      "ledger": {
-        "currency": -25,
-        "morale": 2,
-        "supply": 1,
-        "technology": 1,
-        "intelligence": 2,
-        "exhaustion": 2,
-        "stability": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R019-E003",
       "date": "-0061-07-13",
-      "type": "DIRECT",
+      "type": "direct",
+      "headline": "PIKE FORMATIONS ARE TESTED BESIDE THE ESTATE ROAD",
+      "article": "A second series of exercises introduces long spears into a deeper formation intended to keep an approaching enemy at distance. The arrangement is unfamiliar to many of the estate soldiers, and the first attempts require repeated correction before the ranks can move without losing alignment. Veteran instructors help establish the intervals between men and teach the front ranks to keep their weapons presented while the rear ranks maintain pressure on the formation. Valerius combines the pike drill with the shield exercises rather than treating either method as a complete replacement for the other. By the end of the training, the men have begun practicing several distinct formations according to the ground and the expected threat.",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Pike Formation"
       ],
-      "headline": "PIKE FORMATIONS ARE TESTED BESIDE THE ESTATE ROAD",
-      "article": "A second series of exercises introduces long spears into a deeper formation intended to keep an approaching enemy at distance. The arrangement is unfamiliar to many of the estate soldiers, and the first attempts require repeated correction before the ranks can move without losing alignment. Veteran instructors help establish the intervals between men and teach the front ranks to keep their weapons presented while the rear ranks maintain pressure on the formation. Valerius combines the pike drill with the shield exercises rather than treating either method as a complete replacement for the other. By the end of the training, the men have begun practicing several distinct formations according to the ground and the expected threat.",
-      "ledger": {
-        "currency": -30,
-        "morale": 1,
-        "supply": 1,
-        "technology": 2,
-        "intelligence": 2,
-        "exhaustion": 2
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -30,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R019-E004",
       "date": "-0061-07-18",
-      "type": "DIRECT",
+      "type": "direct",
+      "headline": "HEAVY CAVALRY ARE TRAINED TO SCOUT WITHOUT WASTING THEIR STRENGTH",
+      "article": "Valerius turns the heavy cavalry toward a different task from the traditional mounted charge. Riders practice moving ahead of the main body, observing roads and crossings, then withdrawing before an enemy can draw them into a reckless pursuit. The horses remain under tighter control, with scouts using broken ground, distance and concealment to avoid presenting themselves as isolated targets. Reports are carried back to the main force before the cavalry returns to the column, making reconnaissance part of the formation's ordinary movement. The exercise gives the mounted men a clearer purpose in protecting the force without requiring them to seek combat whenever they encounter movement on the road.",
       "entities": [
         "Estate Soldiers",
         "Heavy Cavalry",
         "Mounted Scouts",
         "Commercial Road"
       ],
-      "headline": "HEAVY CAVALRY ARE TRAINED TO SCOUT WITHOUT WASTING THEIR STRENGTH",
-      "article": "Valerius turns the heavy cavalry toward a different task from the traditional mounted charge. Riders practice moving ahead of the main body, observing roads and crossings, then withdrawing before an enemy can draw them into a reckless pursuit. The horses remain under tighter control, with scouts using broken ground, distance and concealment to avoid presenting themselves as isolated targets. Reports are carried back to the main force before the cavalry returns to the column, making reconnaissance part of the formation's ordinary movement. The exercise gives the mounted men a clearer purpose in protecting the force without requiring them to seek combat whenever they encounter movement on the road.",
-      "ledger": {
-        "currency": -35,
-        "morale": 1,
-        "supply": -1,
-        "technology": 1,
-        "intelligence": 4,
-        "exhaustion": 2
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -35,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R019-E005",
       "date": "-0061-07-22",
-      "type": "DIRECT",
+      "type": "direct",
+      "headline": "INFANTRY AND CAVALRY PRACTICE A COMBINED FIELD MANEUVER",
+      "article": "By the fourth week, Valerius brings the infantry and mounted scouts together for a larger exercise across the estate roads and adjoining fields. The cavalry moves ahead to observe the route while the infantry advances in ordered formations, changing from shield wall to deeper ranks as the ground permits. Signals are used to bring information from the riders back to the main body without sending the whole force forward blindly. The veterans are placed throughout the exercise to correct hesitation and keep the younger soldiers from breaking formation when the pace changes. The combined drill gives the estate force a more deliberate method of moving through uncertain country.",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
         "Heavy Cavalry",
         "Main Estate"
       ],
-      "headline": "INFANTRY AND CAVALRY PRACTICE A COMBINED FIELD MANEUVER",
-      "article": "By the fourth week, Valerius brings the infantry and mounted scouts together for a larger exercise across the estate roads and adjoining fields. The cavalry moves ahead to observe the route while the infantry advances in ordered formations, changing from shield wall to deeper ranks as the ground permits. Signals are used to bring information from the riders back to the main body without sending the whole force forward blindly. The veterans are placed throughout the exercise to correct hesitation and keep the younger soldiers from breaking formation when the pace changes. The combined drill gives the estate force a more deliberate method of moving through uncertain country.",
-      "ledger": {
-        "currency": -35,
-        "morale": 2,
-        "supply": 0,
-        "intelligence": 3,
-        "stability": 1,
-        "relations": 1,
-        "exhaustion": 2
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -35,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R019-E006",
       "date": "-0061-07-26",
-      "type": "CONNECTED",
+      "type": "connected",
+      "headline": "VETERAN RECRUITMENT DRAWS NEW ATTENTION TO THE ESTATE FORCE",
+      "article": "News of the enlarged force and the presence of experienced veterans travels along the roads connecting the estate to the lake port. Nearby landowners begin sending representatives to learn more about the men now serving with Valerius, while merchants take notice of the more regular military presence along the commercial route. The estate does not proclaim a new public command, but the concentration of trained men becomes increasingly visible to those who depend upon the roads and port. Some households offer supplies or introductions to former soldiers who may be willing to serve. The growing reputation of the force therefore begins to produce practical connections beyond the training ground.",
       "entities": [
         "Experienced Veterans",
         "Nearby Landowners",
         "Lake Port",
         "Merchants"
       ],
-      "headline": "VETERAN RECRUITMENT DRAWS NEW ATTENTION TO THE ESTATE FORCE",
-      "article": "News of the enlarged force and the presence of experienced veterans travels along the roads connecting the estate to the lake port. Nearby landowners begin sending representatives to learn more about the men now serving with Valerius, while merchants take notice of the more regular military presence along the commercial route. The estate does not proclaim a new public command, but the concentration of trained men becomes increasingly visible to those who depend upon the roads and port. Some households offer supplies or introductions to former soldiers who may be willing to serve. The growing reputation of the force therefore begins to produce practical connections beyond the training ground.",
-      "ledger": {
-        "currency": 80,
-        "trade": 1,
-        "economy": 1,
-        "stability": 1,
-        "relations": 2
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 80,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R019-E007",
       "date": "-0061-07-29",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "REPORTS FROM ROME CONTINUE TO CIRCULATE AMONG COUNTRY HOUSEHOLDS",
+      "article": "Travelers arriving from the direction of Rome bring further accounts of political discussion surrounding the settlement of affairs after Pompey's eastern commands. Marcus Porcius Cato is mentioned in reports concerning opposition to measures associated with Pompey's interests, while Marcus Tullius Cicero remains a prominent name in accounts of the Republic's continuing political disputes. The reports are incomplete and have passed through several commercial and private households before reaching Valerius's estate. No decree or appointment concerning Valerius accompanies the news. The countryside therefore receives the Roman arguments as information rather than as a direct alteration of the estate's affairs.",
       "entities": [
         "Roman Republic",
         "Marcus Tullius Cicero",
         "Gnaeus Pompeius Magnus",
         "Marcus Porcius Cato"
       ],
-      "headline": "REPORTS FROM ROME CONTINUE TO CIRCULATE AMONG COUNTRY HOUSEHOLDS",
-      "article": "Travelers arriving from the direction of Rome bring further accounts of political discussion surrounding the settlement of affairs after Pompey's eastern commands. Marcus Porcius Cato is mentioned in reports concerning opposition to measures associated with Pompey's interests, while Marcus Tullius Cicero remains a prominent name in accounts of the Republic's continuing political disputes. The reports are incomplete and have passed through several commercial and private households before reaching Valerius's estate. No decree or appointment concerning Valerius accompanies the news. The countryside therefore receives the Roman arguments as information rather than as a direct alteration of the estate's affairs.",
-      "ledger": {
-        "intelligence": 2,
-        "relations": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R019-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R019-E008",
       "date": "-0061-07-31",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "LOCAL NEWS: A NEW MILITARY ROUTINE TAKES SHAPE AT THE ESTATE",
+      "article": "July closes with the estate force larger and more deliberately organized than it was at the beginning of the month. Experienced veterans now train alongside the existing soldiers, while shield-wall and pike exercises have become regular parts of the daily routine. The heavy cavalry has also begun practicing reconnaissance in a manner intended to preserve the riders for useful information rather than expose them to unnecessary charges. The roads around the estate have consequently seen more disciplined movement, with mounted scouts ranging ahead and infantry keeping closer order behind them. Valerius ends the month with a force that is being trained not merely to fight, but to move, observe and respond as a coordinated body.",
       "entities": [
         "Gaius Maximus Valerius",
         "Estate Soldiers",
@@ -161,9 +553,181 @@
         "Heavy Cavalry",
         "Main Estate"
       ],
-      "headline": "LOCAL NEWS: A NEW MILITARY ROUTINE TAKES SHAPE AT THE ESTATE",
-      "article": "July closes with the estate force larger and more deliberately organized than it was at the beginning of the month. Experienced veterans now train alongside the existing soldiers, while shield-wall and pike exercises have become regular parts of the daily routine. The heavy cavalry has also begun practicing reconnaissance in a manner intended to preserve the riders for useful information rather than expose them to unnecessary charges. The roads around the estate have consequently seen more disciplined movement, with mounted scouts ranging ahead and infantry keeping closer order behind them. Valerius ends the month with a force that is being trained not merely to fight, but to move, observe and respond as a coordinated body.",
-      "ledger": {}
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 19,
+    "period": {
+      "start": "-0061-07-01",
+      "end": "-0061-07-31",
+      "display": "1 July 61 BCE – 31 July 61 BCE"
+    },
+    "metric_schema": "fixed-v1",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0061-07-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Soldiers",
+          "Experienced Veterans",
+          "Main Estate"
+        ],
+        "headline": "VETERANS JOIN VALERIUS'S MEN AS THE ESTATE FORCE IS REORGANIZED",
+        "article": "Valerius begins July by reorganizing the men already under his command and seeking experienced veterans among the surrounding settlements. Several former soldiers, accustomed to campaigning and field discipline, accept service with the estate force after terms are settled with their households. Their arrival gives the younger men instructors who have known the demands of prolonged marches, camp duty and close combat. Valerius assigns the veterans among the existing groups rather than keeping them apart, allowing their experience to be passed directly into the ranks. The enlarged force is placed under a stricter daily routine as the new men and older soldiers learn to operate as one body.",
+        "ledger": {
+          "currency": -120,
+          "soldiers": 12,
+          "morale": 2,
+          "relations": 2,
+          "intelligence": 2,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0061-07-08",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Soldiers",
+          "Veterans"
+        ],
+        "headline": "THE MEN LEARN TO HOLD A SHIELD WALL UNDER PRESSURE",
+        "article": "The first major exercise of the new program places the soldiers in a close shield formation and repeatedly tests their ability to keep the line intact. Veterans demonstrate how shields overlap, how gaps are closed and how men in the rear ranks support those at the front without breaking formation. The younger soldiers are made to advance, halt and turn while maintaining the wall rather than pursuing individual opponents. Valerius orders the exercise repeated until the movement becomes familiar across the whole formation. The drill places greater emphasis on collective discipline than on individual speed.",
+        "ledger": {
+          "currency": -25,
+          "morale": 2,
+          "supply": 1,
+          "technology": 1,
+          "intelligence": 2,
+          "exhaustion": 2,
+          "stability": 1
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0061-07-13",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Soldiers",
+          "Pike Formation"
+        ],
+        "headline": "PIKE FORMATIONS ARE TESTED BESIDE THE ESTATE ROAD",
+        "article": "A second series of exercises introduces long spears into a deeper formation intended to keep an approaching enemy at distance. The arrangement is unfamiliar to many of the estate soldiers, and the first attempts require repeated correction before the ranks can move without losing alignment. Veteran instructors help establish the intervals between men and teach the front ranks to keep their weapons presented while the rear ranks maintain pressure on the formation. Valerius combines the pike drill with the shield exercises rather than treating either method as a complete replacement for the other. By the end of the training, the men have begun practicing several distinct formations according to the ground and the expected threat.",
+        "ledger": {
+          "currency": -30,
+          "morale": 1,
+          "supply": 1,
+          "technology": 2,
+          "intelligence": 2,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0061-07-18",
+        "type": "DIRECT",
+        "entities": [
+          "Estate Soldiers",
+          "Heavy Cavalry",
+          "Mounted Scouts",
+          "Commercial Road"
+        ],
+        "headline": "HEAVY CAVALRY ARE TRAINED TO SCOUT WITHOUT WASTING THEIR STRENGTH",
+        "article": "Valerius turns the heavy cavalry toward a different task from the traditional mounted charge. Riders practice moving ahead of the main body, observing roads and crossings, then withdrawing before an enemy can draw them into a reckless pursuit. The horses remain under tighter control, with scouts using broken ground, distance and concealment to avoid presenting themselves as isolated targets. Reports are carried back to the main force before the cavalry returns to the column, making reconnaissance part of the formation's ordinary movement. The exercise gives the mounted men a clearer purpose in protecting the force without requiring them to seek combat whenever they encounter movement on the road.",
+        "ledger": {
+          "currency": -35,
+          "morale": 1,
+          "supply": -1,
+          "technology": 1,
+          "intelligence": 4,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0061-07-22",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Soldiers",
+          "Heavy Cavalry",
+          "Main Estate"
+        ],
+        "headline": "INFANTRY AND CAVALRY PRACTICE A COMBINED FIELD MANEUVER",
+        "article": "By the fourth week, Valerius brings the infantry and mounted scouts together for a larger exercise across the estate roads and adjoining fields. The cavalry moves ahead to observe the route while the infantry advances in ordered formations, changing from shield wall to deeper ranks as the ground permits. Signals are used to bring information from the riders back to the main body without sending the whole force forward blindly. The veterans are placed throughout the exercise to correct hesitation and keep the younger soldiers from breaking formation when the pace changes. The combined drill gives the estate force a more deliberate method of moving through uncertain country.",
+        "ledger": {
+          "currency": -35,
+          "morale": 2,
+          "supply": 0,
+          "intelligence": 3,
+          "stability": 1,
+          "relations": 1,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0061-07-26",
+        "type": "CONNECTED",
+        "entities": [
+          "Experienced Veterans",
+          "Nearby Landowners",
+          "Lake Port",
+          "Merchants"
+        ],
+        "headline": "VETERAN RECRUITMENT DRAWS NEW ATTENTION TO THE ESTATE FORCE",
+        "article": "News of the enlarged force and the presence of experienced veterans travels along the roads connecting the estate to the lake port. Nearby landowners begin sending representatives to learn more about the men now serving with Valerius, while merchants take notice of the more regular military presence along the commercial route. The estate does not proclaim a new public command, but the concentration of trained men becomes increasingly visible to those who depend upon the roads and port. Some households offer supplies or introductions to former soldiers who may be willing to serve. The growing reputation of the force therefore begins to produce practical connections beyond the training ground.",
+        "ledger": {
+          "currency": 80,
+          "trade": 1,
+          "economy": 1,
+          "stability": 1,
+          "relations": 2
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0061-07-29",
+        "type": "WORLD",
+        "entities": [
+          "Roman Republic",
+          "Marcus Tullius Cicero",
+          "Gnaeus Pompeius Magnus",
+          "Marcus Porcius Cato"
+        ],
+        "headline": "REPORTS FROM ROME CONTINUE TO CIRCULATE AMONG COUNTRY HOUSEHOLDS",
+        "article": "Travelers arriving from the direction of Rome bring further accounts of political discussion surrounding the settlement of affairs after Pompey's eastern commands. Marcus Porcius Cato is mentioned in reports concerning opposition to measures associated with Pompey's interests, while Marcus Tullius Cicero remains a prominent name in accounts of the Republic's continuing political disputes. The reports are incomplete and have passed through several commercial and private households before reaching Valerius's estate. No decree or appointment concerning Valerius accompanies the news. The countryside therefore receives the Roman arguments as information rather than as a direct alteration of the estate's affairs.",
+        "ledger": {
+          "intelligence": 2,
+          "relations": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0061-07-31",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Soldiers",
+          "Experienced Veterans",
+          "Heavy Cavalry",
+          "Main Estate"
+        ],
+        "headline": "LOCAL NEWS: A NEW MILITARY ROUTINE TAKES SHAPE AT THE ESTATE",
+        "article": "July closes with the estate force larger and more deliberately organized than it was at the beginning of the month. Experienced veterans now train alongside the existing soldiers, while shield-wall and pike exercises have become regular parts of the daily routine. The heavy cavalry has also begun practicing reconnaissance in a manner intended to preserve the riders for useful information rather than expose them to unnecessary charges. The roads around the estate have consequently seen more disciplined movement, with mounted scouts ranging ahead and infantry keeping closer order behind them. Valerius ends the month with a force that is being trained not merely to fight, but to move, observe and respond as a coordinated body.",
+        "ledger": {}
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

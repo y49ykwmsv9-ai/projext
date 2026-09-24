@@ -1,165 +1,580 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 9,
   "period": {
     "start": "-0062-09-01",
     "end": "-0062-09-30"
   },
-  "player_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
   "events": [
     {
-      "event_number": 1,
+      "event_id": "GMV-62BCE-001-R009-E001",
       "date": "2 September 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Gaius Maximus Valerius",
-        "Main Estate",
-        "Lake Port"
-      ],
+      "type": "direct",
       "headline": "VALERIUS BEGINS A FORMAL ROAD FROM HIS ESTATE TO THE LAKE PORT",
       "article": "Work has begun upon a proper road linking the main estate of Gaius Maximus Valerius with the lake landing and forward holding established earlier in the year. The old approach, useful enough for footmen and occasional carts, is being replaced with a more deliberate road of prepared ground, stone and drainage where the country permits. The purpose is plainly practical: goods, provisions and men can move between the principal estate and the lake without depending upon rough tracks. Valerius has placed some of his armed men near the works to guard the laborers, tools and stores, while ordinary travelers are permitted to continue along the route where construction allows. The road is being treated as an estate work rather than a public Roman road, though its usefulness to neighboring traffic is already apparent. For the first time, the main estate and the lake station are beginning to function as parts of one connected holding.",
-      "ledger": {
-        "currency": -250,
-        "infrastructure": 3,
-        "trade": 1,
-        "organization": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -250,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 2,
+      "event_id": "GMV-62BCE-001-R009-E002",
       "date": "6 September 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Road Works",
-        "Estate Forces",
-        "Roman Travelers"
-      ],
+      "type": "direct",
       "headline": "ARMED MEN GUARD THE ROAD WORKS AS CARTS CONTINUE TO PASS",
       "article": "The road works have continued under the protection of Valerius's men, whose presence has drawn less alarm than might have been expected from an estate force that has recently seen fighting. Watches have been kept near the labor gangs and at places where unfinished sections leave tools and materials exposed. Travelers have been directed around the works rather than turned away, and no ordinary passage toll has been announced. Farmers, teamsters and merchants have therefore continued to use portions of the route while the new surface is laid. The men guarding the works have been instructed to prevent theft and disorder without treating peaceful travelers as enemies. This distinction has become increasingly important as the road approaches the more active commercial ground beside the lake.",
-      "ledger": {
-        "legitimacy": 2,
-        "relations": 2,
-        "stability": 1,
-        "intelligence": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 3,
+      "event_id": "GMV-62BCE-001-R009-E003",
       "date": "10 September 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Road Watchtowers",
-        "Main Estate",
-        "Port Road"
-      ],
+      "type": "direct",
       "headline": "WATCHTOWERS ARE RAISED ALONG THE ROAD TO THE PORT",
       "article": "Valerius has begun raising watchtowers not only around the lake landing but at intervals along the road connecting the port with his principal estate. The towers occupy points from which stretches of the road can be observed, allowing guards to see approaching travelers and send warnings toward the next post. Their purpose is chiefly security for the road, its laborers and the movement of goods between the two parts of the estate. The towers also give the road a more permanent character than the rough track that existed before the recent works. Men stationed there can signal toward the forward holding and the port when unusual movement is observed. The construction has made clear that Valerius regards the road itself as part of the estate's strategic position, rather than merely an approach to the water.",
-      "ledger": {
-        "currency": -150,
-        "infrastructure": 2,
-        "readiness": 1,
-        "intelligence": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -150,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 4,
+      "event_id": "GMV-62BCE-001-R009-E004",
       "date": "14 September 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Lake Port",
-        "Gatehouse",
-        "Port Fortifications"
-      ],
+      "type": "direct",
       "headline": "THE PORT ITSELF RECEIVES A FORTIFIED GATEHOUSE",
       "article": "At the lake station, the defensive works are now being concentrated upon the port rather than the road leading to it. A gatehouse is being built at the narrow approach through which the landing is reached, giving the guards a fixed position from which to observe those entering the defended area. The road from the main estate continues beyond this point toward the port, but the gatehouse marks the beginning of the fortified station itself. Merchants and laborers have been told that the works are intended to protect stores, boats and people using the landing rather than to obstruct legitimate traffic. The position also gives the defenders a means of closing the port quickly should danger appear. The combination of water, road and controlled entrance is making the landing considerably more secure than it was when Valerius first claimed the ground.",
-      "ledger": {
-        "currency": -180,
-        "infrastructure": 2,
-        "organization": 1,
-        "stability": 1,
-        "supply": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -180,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 5,
+      "event_id": "GMV-62BCE-001-R009-E005",
       "date": "19 September 62 BCE",
-      "type": "DIRECT",
-      "tags": [
-        "Port Citadel",
-        "Cliffs",
-        "Lake Port"
-      ],
+      "type": "direct",
       "headline": "A RAISED CITADEL TAKES SHAPE ABOVE THE LANDING",
       "article": "On the cliffs overlooking the lake, builders are strengthening the high ground above the port as a raised fortified position. The work makes use of the natural height rather than attempting to enclose the entire shore with walls. From the upper ground, sentries can observe the landing, the water approaches and the road below, giving the port a commanding position over its immediate surroundings. Protected stores and positions for a small body of men are being prepared as the work advances. Valerius's men have begun referring to the upper work as the citadel, although it remains a private fortification of modest scale rather than a Roman fortress of the sort found in major military centers. Its value lies in overlooking the actual port and giving the small station a defensible upper position.",
-      "ledger": {
-        "currency": -220,
-        "infrastructure": 2,
-        "readiness": 1,
-        "organization": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -220,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 6,
+      "event_id": "GMV-62BCE-001-R009-E006",
       "date": "23 September 62 BCE",
-      "type": "CONNECTED",
-      "tags": [
-        "Merchants",
-        "Nearby Landowners",
-        "Port Road"
-      ],
+      "type": "connected",
       "headline": "MERCHANTS NOTICE THE NEW ROAD WHILE NEIGHBORS WATCH THE PORT DEFENSES",
       "article": "The improving road between the main estate and the lake has begun to attract more attention from merchants moving agricultural produce and other goods toward the landing. The smoother route makes the port easier to reach, while the towers along the road offer reassurance that carts and stores will not be left entirely exposed. Nearby landowners have paid equal attention to the separate works at the port itself, particularly the gatehouse and the fortified height above the water. Some regard the defenses as useful protection for a growing commercial station, while others are plainly interested in the extent to which Valerius's private estate is acquiring strategic importance. No public authority has been claimed over the road or surrounding countryside. For the moment, the works remain those of an increasingly ambitious private holding whose commercial usefulness is becoming difficult to ignore.",
-      "ledger": {
-        "relations": 2,
-        "trade": 1,
-        "economy": 1,
-        "legitimacy": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 7,
+      "event_id": "GMV-62BCE-001-R009-E007",
       "date": "27 September 62 BCE",
-      "type": "CONNECTED",
-      "tags": [
-        "Marcus Claudius Marcellus",
-        "Roman Political Elite",
-        "Valerius Estate"
-      ],
+      "type": "connected",
       "headline": "REPORTS OF VALERIUS'S ROAD AND PORT REACH ROMAN POLITICAL CIRCLES",
       "article": "Reports concerning Valerius's estate have again traveled beyond the immediate countryside, now describing not simply a lake landing but a connected system of road, watch posts and defended commercial ground. Marcus Claudius Marcellus remains among the political connections through which such reports may circulate, though no public office or state commission has followed from the interest. The account reaching Roman ears emphasizes the practical nature of the works: the main estate supplies the road, the road reaches the forward holding and port, and the port itself is guarded separately by a gatehouse and fortified height. Such an arrangement is of obvious interest to men accustomed to judging the value of roads, waterways and defensible ground. Valerius's reputation is therefore spreading as a landowner who is combining military experience with private improvements rather than as a holder of public command. The distinction is still significant in a Republic where private strength and public authority are not the same thing.",
-      "ledger": {
-        "relations": 1,
-        "intelligence": 1,
-        "legitimacy": 1
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event_number": 8,
+      "event_id": "GMV-62BCE-001-R009-E008",
       "date": "30 September 62 BCE",
-      "type": "WORLD",
-      "tags": [
-        "Marcus Tullius Cicero",
-        "Gaius Julius Caesar",
-        "Roman Republic"
-      ],
+      "type": "world",
       "headline": "LOCAL NEWS: THE ESTATE ROAD AND LAKE PORT BECOME A RECOGNIZED LANDMARK",
       "article": "News from Rome continues to travel alongside the more immediate reports of roads, trade and military affairs in the countryside. Marcus Tullius Cicero remains a frequent subject of political discussion, while Gaius Julius Caesar continues to draw attention among Romans following the struggles and ambitions surrounding the Republic's leading men. Closer to the lake, Valerius's own works have become the more immediate subject of conversation: a formal road now links his main estate with the trade port and forward base, watchtowers mark the route, and the port itself is guarded by a gatehouse and a raised position upon the cliffs. The whole remains small beside the possessions of Rome's wealthiest men, but its arrangement gives the estate an unusual combination of agriculture, commerce, water transport and private defense. Travelers now have a clearly recognizable route and landmark where only months ago there were rough approaches and newly acquired ground. The works have changed the character of the estate without yet changing its legal status as a private holding.",
-      "ledger": {
-        "currency": 0
-      }
+      "entities": [],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R009-E008",
+          "provenance": "legacy-migration"
+        }
+      ]
     }
   ],
-  "running_total": {
-    "currency": -1000,
-    "economy": 2,
-    "infrastructure": 9,
-    "trade": 3,
-    "readiness": 3,
-    "supply": 1,
-    "organization": 3,
-    "stability": 2,
-    "legitimacy": 3,
-    "intelligence": 3,
-    "relations": 5
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 9,
+    "period": {
+      "start": "-0062-09-01",
+      "end": "-0062-09-30"
+    },
+    "player_action": "Recognizing the growing strategic importance of the port, Gaius Maximus Valerius begins constructing a formal paved road connecting his main estate to the lake trade port and forward base. He uses his men to secure the road works so laborers and travelers can work and pass safely. He also strengthens the port itself with a gatehouse, watchtowers and a raised citadel upon the cliffs overlooking the landing, while placing additional watchtowers along the road connecting the main estate to the port.",
+    "events": [
+      {
+        "event_number": 1,
+        "date": "2 September 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Gaius Maximus Valerius",
+          "Main Estate",
+          "Lake Port"
+        ],
+        "headline": "VALERIUS BEGINS A FORMAL ROAD FROM HIS ESTATE TO THE LAKE PORT",
+        "article": "Work has begun upon a proper road linking the main estate of Gaius Maximus Valerius with the lake landing and forward holding established earlier in the year. The old approach, useful enough for footmen and occasional carts, is being replaced with a more deliberate road of prepared ground, stone and drainage where the country permits. The purpose is plainly practical: goods, provisions and men can move between the principal estate and the lake without depending upon rough tracks. Valerius has placed some of his armed men near the works to guard the laborers, tools and stores, while ordinary travelers are permitted to continue along the route where construction allows. The road is being treated as an estate work rather than a public Roman road, though its usefulness to neighboring traffic is already apparent. For the first time, the main estate and the lake station are beginning to function as parts of one connected holding.",
+        "ledger": {
+          "currency": -250,
+          "infrastructure": 3,
+          "trade": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event_number": 2,
+        "date": "6 September 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Road Works",
+          "Estate Forces",
+          "Roman Travelers"
+        ],
+        "headline": "ARMED MEN GUARD THE ROAD WORKS AS CARTS CONTINUE TO PASS",
+        "article": "The road works have continued under the protection of Valerius's men, whose presence has drawn less alarm than might have been expected from an estate force that has recently seen fighting. Watches have been kept near the labor gangs and at places where unfinished sections leave tools and materials exposed. Travelers have been directed around the works rather than turned away, and no ordinary passage toll has been announced. Farmers, teamsters and merchants have therefore continued to use portions of the route while the new surface is laid. The men guarding the works have been instructed to prevent theft and disorder without treating peaceful travelers as enemies. This distinction has become increasingly important as the road approaches the more active commercial ground beside the lake.",
+        "ledger": {
+          "legitimacy": 2,
+          "relations": 2,
+          "stability": 1,
+          "intelligence": 1
+        }
+      },
+      {
+        "event_number": 3,
+        "date": "10 September 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Road Watchtowers",
+          "Main Estate",
+          "Port Road"
+        ],
+        "headline": "WATCHTOWERS ARE RAISED ALONG THE ROAD TO THE PORT",
+        "article": "Valerius has begun raising watchtowers not only around the lake landing but at intervals along the road connecting the port with his principal estate. The towers occupy points from which stretches of the road can be observed, allowing guards to see approaching travelers and send warnings toward the next post. Their purpose is chiefly security for the road, its laborers and the movement of goods between the two parts of the estate. The towers also give the road a more permanent character than the rough track that existed before the recent works. Men stationed there can signal toward the forward holding and the port when unusual movement is observed. The construction has made clear that Valerius regards the road itself as part of the estate's strategic position, rather than merely an approach to the water.",
+        "ledger": {
+          "currency": -150,
+          "infrastructure": 2,
+          "readiness": 1,
+          "intelligence": 1
+        }
+      },
+      {
+        "event_number": 4,
+        "date": "14 September 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Lake Port",
+          "Gatehouse",
+          "Port Fortifications"
+        ],
+        "headline": "THE PORT ITSELF RECEIVES A FORTIFIED GATEHOUSE",
+        "article": "At the lake station, the defensive works are now being concentrated upon the port rather than the road leading to it. A gatehouse is being built at the narrow approach through which the landing is reached, giving the guards a fixed position from which to observe those entering the defended area. The road from the main estate continues beyond this point toward the port, but the gatehouse marks the beginning of the fortified station itself. Merchants and laborers have been told that the works are intended to protect stores, boats and people using the landing rather than to obstruct legitimate traffic. The position also gives the defenders a means of closing the port quickly should danger appear. The combination of water, road and controlled entrance is making the landing considerably more secure than it was when Valerius first claimed the ground.",
+        "ledger": {
+          "currency": -180,
+          "infrastructure": 2,
+          "organization": 1,
+          "stability": 1,
+          "supply": 1
+        }
+      },
+      {
+        "event_number": 5,
+        "date": "19 September 62 BCE",
+        "type": "DIRECT",
+        "tags": [
+          "Port Citadel",
+          "Cliffs",
+          "Lake Port"
+        ],
+        "headline": "A RAISED CITADEL TAKES SHAPE ABOVE THE LANDING",
+        "article": "On the cliffs overlooking the lake, builders are strengthening the high ground above the port as a raised fortified position. The work makes use of the natural height rather than attempting to enclose the entire shore with walls. From the upper ground, sentries can observe the landing, the water approaches and the road below, giving the port a commanding position over its immediate surroundings. Protected stores and positions for a small body of men are being prepared as the work advances. Valerius's men have begun referring to the upper work as the citadel, although it remains a private fortification of modest scale rather than a Roman fortress of the sort found in major military centers. Its value lies in overlooking the actual port and giving the small station a defensible upper position.",
+        "ledger": {
+          "currency": -220,
+          "infrastructure": 2,
+          "readiness": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event_number": 6,
+        "date": "23 September 62 BCE",
+        "type": "CONNECTED",
+        "tags": [
+          "Merchants",
+          "Nearby Landowners",
+          "Port Road"
+        ],
+        "headline": "MERCHANTS NOTICE THE NEW ROAD WHILE NEIGHBORS WATCH THE PORT DEFENSES",
+        "article": "The improving road between the main estate and the lake has begun to attract more attention from merchants moving agricultural produce and other goods toward the landing. The smoother route makes the port easier to reach, while the towers along the road offer reassurance that carts and stores will not be left entirely exposed. Nearby landowners have paid equal attention to the separate works at the port itself, particularly the gatehouse and the fortified height above the water. Some regard the defenses as useful protection for a growing commercial station, while others are plainly interested in the extent to which Valerius's private estate is acquiring strategic importance. No public authority has been claimed over the road or surrounding countryside. For the moment, the works remain those of an increasingly ambitious private holding whose commercial usefulness is becoming difficult to ignore.",
+        "ledger": {
+          "relations": 2,
+          "trade": 1,
+          "economy": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_number": 7,
+        "date": "27 September 62 BCE",
+        "type": "CONNECTED",
+        "tags": [
+          "Marcus Claudius Marcellus",
+          "Roman Political Elite",
+          "Valerius Estate"
+        ],
+        "headline": "REPORTS OF VALERIUS'S ROAD AND PORT REACH ROMAN POLITICAL CIRCLES",
+        "article": "Reports concerning Valerius's estate have again traveled beyond the immediate countryside, now describing not simply a lake landing but a connected system of road, watch posts and defended commercial ground. Marcus Claudius Marcellus remains among the political connections through which such reports may circulate, though no public office or state commission has followed from the interest. The account reaching Roman ears emphasizes the practical nature of the works: the main estate supplies the road, the road reaches the forward holding and port, and the port itself is guarded separately by a gatehouse and fortified height. Such an arrangement is of obvious interest to men accustomed to judging the value of roads, waterways and defensible ground. Valerius's reputation is therefore spreading as a landowner who is combining military experience with private improvements rather than as a holder of public command. The distinction is still significant in a Republic where private strength and public authority are not the same thing.",
+        "ledger": {
+          "relations": 1,
+          "intelligence": 1,
+          "legitimacy": 1
+        }
+      },
+      {
+        "event_number": 8,
+        "date": "30 September 62 BCE",
+        "type": "WORLD",
+        "tags": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Roman Republic"
+        ],
+        "headline": "LOCAL NEWS: THE ESTATE ROAD AND LAKE PORT BECOME A RECOGNIZED LANDMARK",
+        "article": "News from Rome continues to travel alongside the more immediate reports of roads, trade and military affairs in the countryside. Marcus Tullius Cicero remains a frequent subject of political discussion, while Gaius Julius Caesar continues to draw attention among Romans following the struggles and ambitions surrounding the Republic's leading men. Closer to the lake, Valerius's own works have become the more immediate subject of conversation: a formal road now links his main estate with the trade port and forward base, watchtowers mark the route, and the port itself is guarded by a gatehouse and a raised position upon the cliffs. The whole remains small beside the possessions of Rome's wealthiest men, but its arrangement gives the estate an unusual combination of agriculture, commerce, water transport and private defense. Travelers now have a clearly recognizable route and landmark where only months ago there were rough approaches and newly acquired ground. The works have changed the character of the estate without yet changing its legal status as a private holding.",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": -1000,
+      "economy": 2,
+      "infrastructure": 9,
+      "trade": 3,
+      "readiness": 3,
+      "supply": 1,
+      "organization": 3,
+      "stability": 2,
+      "legitimacy": 3,
+      "intelligence": 3,
+      "relations": 5
+    }
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
   }
 }

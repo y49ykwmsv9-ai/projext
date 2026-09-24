@@ -1,5 +1,6 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 38,
   "period": {
     "start": "-0060-02-01",
@@ -8,68 +9,156 @@
   },
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R038-E001",
       "date": "-0060-02-03",
-      "type": "DIRECT",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "VALERIUS CONFIRMS THE SOURCE OF THE OBSERVATION"
+      "type": "direct",
+      "headline": "VALERIUS CONFIRMS THE SOURCE OF THE OBSERVATION",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R038-E002",
       "date": "-0060-02-06",
-      "type": "DIRECT",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "THE NEXT MARCH BEGINS AFTER THE SOURCE IS CONFIRMED"
+      "type": "direct",
+      "headline": "THE NEXT MARCH BEGINS AFTER THE SOURCE IS CONFIRMED",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R038-E003",
       "date": "-0060-02-10",
-      "type": "DIRECT",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "VALERIUS AND ONE RETAINER FOLLOW THE WATCHERS' TRAIL"
+      "type": "direct",
+      "headline": "VALERIUS AND ONE RETAINER FOLLOW THE WATCHERS' TRAIL",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R038-E004",
       "date": "-0060-02-13",
-      "type": "SURPRISE",
-      "special_event": true,
-      "magnitude": 7,
-      "headline": "THE WATCHERS' CAMP IS SILENCED BEFORE THE MAIN COLUMN ARRIVES"
+      "type": "surprise",
+      "headline": "THE WATCHERS' CAMP IS SILENCED BEFORE THE MAIN COLUMN ARRIVES",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R038-E005",
       "date": "-0060-02-17",
-      "type": "CONNECTED",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "CAPTURED RECORDS REVEAL THE NETWORK'S INNER ROUTES"
+      "type": "connected",
+      "headline": "CAPTURED RECORDS REVEAL THE NETWORK'S INNER ROUTES",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R038-E006",
       "date": "-0060-02-21",
-      "type": "DIRECT",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "THE MAIN COLUMN ADVANCES BEYOND THE SILENCED CAMP"
+      "type": "direct",
+      "headline": "THE MAIN COLUMN ADVANCES BEYOND THE SILENCED CAMP",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R038-E007",
       "date": "-0060-02-25",
-      "type": "WORLD",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "NEWS FROM ROME REACHES THE INTERIOR EXPEDITION"
+      "type": "world",
+      "headline": "NEWS FROM ROME REACHES THE INTERIOR EXPEDITION",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R038-E008",
       "date": "-0060-02-29",
-      "type": "WORLD",
-      "special_event": false,
-      "magnitude": null,
-      "headline": "LOCAL ROUNDUP: THE FIRST WATCHING POST HAS FALLEN"
+      "type": "world",
+      "headline": "LOCAL ROUNDUP: THE FIRST WATCHING POST HAS FALLEN",
+      "article": null,
+      "entities": [],
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 38,
+    "period": {
+      "start": "-0060-02-01",
+      "end": "-0060-02-29",
+      "display": "1 February 60 BCE – 29 February 60 BCE"
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-02-03",
+        "type": "DIRECT",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "VALERIUS CONFIRMS THE SOURCE OF THE OBSERVATION"
+      },
+      {
+        "event": 2,
+        "date": "-0060-02-06",
+        "type": "DIRECT",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "THE NEXT MARCH BEGINS AFTER THE SOURCE IS CONFIRMED"
+      },
+      {
+        "event": 3,
+        "date": "-0060-02-10",
+        "type": "DIRECT",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "VALERIUS AND ONE RETAINER FOLLOW THE WATCHERS' TRAIL"
+      },
+      {
+        "event": 4,
+        "date": "-0060-02-13",
+        "type": "SURPRISE",
+        "special_event": true,
+        "magnitude": 7,
+        "headline": "THE WATCHERS' CAMP IS SILENCED BEFORE THE MAIN COLUMN ARRIVES"
+      },
+      {
+        "event": 5,
+        "date": "-0060-02-17",
+        "type": "CONNECTED",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "CAPTURED RECORDS REVEAL THE NETWORK'S INNER ROUTES"
+      },
+      {
+        "event": 6,
+        "date": "-0060-02-21",
+        "type": "DIRECT",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "THE MAIN COLUMN ADVANCES BEYOND THE SILENCED CAMP"
+      },
+      {
+        "event": 7,
+        "date": "-0060-02-25",
+        "type": "WORLD",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "NEWS FROM ROME REACHES THE INTERIOR EXPEDITION"
+      },
+      {
+        "event": 8,
+        "date": "-0060-02-29",
+        "type": "WORLD",
+        "special_event": false,
+        "magnitude": null,
+        "headline": "LOCAL ROUNDUP: THE FIRST WATCHING POST HAS FALLEN"
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

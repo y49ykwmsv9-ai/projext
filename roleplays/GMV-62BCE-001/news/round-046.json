@@ -133,5 +133,147 @@
         }
       ]
     }
-  ]
+  ],
+  "legacy_record": {
+    "schema_version": "gmv-news-v2",
+    "campaign_id": "GMV-62BCE-001",
+    "round": 46,
+    "period": {
+      "start": "-0060-10-01",
+      "end": "-0060-10-31",
+      "display": "1 October 60 BCE – 31 October 60 BCE"
+    },
+    "events": [
+      {
+        "event_id": "GMV-62BCE-001-R046-E001",
+        "date": "-0060-10-03",
+        "type": "direct",
+        "headline": "VALERIUS PUTS THE WHOLE FORCE THROUGH A MONTH OF COMMON DRILL",
+        "article": "October opens with Valerius abandoning the usual separation between officers and ordinary men for a sustained period of shared training. He drills alongside his soldiers while his trusted officers rotate through command, signaling, formation control, and correction duties under his direct observation. The exercises are not ceremonial: men are repeatedly made to reform after disorder, respond to altered orders, and continue moving when a planned sequence breaks down. Valerius insists that a formation that looks orderly in calm conditions is not yet reliable enough for a battlefield. By the third day, the camp's routine has become dominated by repeated practice rather than ordinary peacetime idleness. The month is therefore established from its beginning as a deliberate attempt to make the force function as a coordinated body rather than merely a collection of individually capable soldiers.",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Valerius soldiers",
+          "Valerius trusted officers"
+        ],
+        "state_changes": []
+      },
+      {
+        "event_id": "GMV-62BCE-001-R046-E002",
+        "date": "-0060-10-09",
+        "type": "connected",
+        "headline": "PANIC IS MADE PART OF THE DRILL — MEN LEARN TO MOVE AFTER THE FIRST ORDER FAILS",
+        "article": "The training becomes more demanding when Valerius orders exercises in which the first command is deliberately disrupted by a sudden change in direction, false alarm, simulated loss of a messenger, or unexpected pressure on a flank. Officers are required to restore formation without waiting for perfect information, while the men practice recognizing local commands and maintaining cohesion when the larger plan becomes unclear. Valerius repeatedly places himself among the ranks rather than observing only from a safe position, forcing himself to work through the same noise, fatigue, and confusion he expects his soldiers to endure. Several rehearsals break down before the officers restore order, and those failures are treated as useful evidence rather than concealed. The force consequently develops a common set of responses for surprise and temporary command confusion. The training produces no miraculous immunity to panic, but it gives the men practiced procedures for recovering from it.",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Valerius trusted officers",
+          "Valerius soldiers"
+        ],
+        "state_changes": [
+          {
+            "actor_id": "gaius_maximus_valerius",
+            "metric": "intelligence",
+            "before": 972,
+            "delta": 2,
+            "after": 974,
+            "unit": "points",
+            "reason": "Repeated surprise and command-disruption drills improve Valerius's practical understanding of his force's response patterns.",
+            "source_event_id": "GMV-62BCE-001-R046-E002",
+            "provenance": "simulation"
+          }
+        ]
+      },
+      {
+        "event_id": "GMV-62BCE-001-R046-E003",
+        "date": "-0060-10-15",
+        "type": "direct",
+        "headline": "VALERIUS AWARDS MEDALS TO OFFICERS AND MEN WHO PROVE THEIR WORTH UNDER PRESSURE",
+        "article": "Midmonth brings a formal recognition of the men and officers who have distinguished themselves during the exercises. Valerius awards medals on demonstrated performance rather than family standing, praising both trusted officers who restored order and ordinary soldiers who maintained discipline, carried messages, protected wounded comrades, or held their assigned place when the exercise became confused. The ceremony is deliberately held before the entire force so that the distinction is understood as a military honor rather than a private favor. Some recipients are experienced men whose value has been repeatedly demonstrated, while others have earned notice by performing beyond what their usual station might suggest. Valerius makes clear that future honors will likewise depend upon conduct. The result is a stronger connection between training performance, battlefield responsibility, and recognition within the force.",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Valerius trusted officers",
+          "Valerius soldiers"
+        ],
+        "state_changes": []
+      },
+      {
+        "event_id": "GMV-62BCE-001-R046-E004",
+        "date": "-0060-10-20",
+        "type": "direct",
+        "headline": "WOUNDED, RUNNERS, AND PURSUERS GET NEW ORDERS BEFORE THE NEXT FIGHT",
+        "article": "The second half of the month turns toward what happens after a formation is struck rather than only how it attacks. Valerius establishes drills for identifying wounded men, moving them out of immediate danger, reporting their condition, recovering equipment without abandoning living comrades, and preventing a pursuit from becoming an uncontrolled chase. Officers rehearse the distinction between an ordered pursuit, a withdrawal, and a broken formation so that exhaustion does not turn success into disorder. Men are also taught how to reform after a chase and how to recognize when a comrade or unit has become separated. Valerius participates personally in the exercises and repeatedly makes the officers demonstrate the procedures under time pressure. The new protocols do not change the force's strength by themselves, but they give its commanders a defined response to casualties, separation, and the dangerous moments immediately following contact.",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Valerius trusted officers",
+          "Valerius soldiers"
+        ],
+        "state_changes": []
+      },
+      {
+        "event_id": "GMV-62BCE-001-R046-E005",
+        "date": "-0060-10-26",
+        "type": "connected",
+        "headline": "THE FORCE IS RE-EQUIPPED TO ONE STANDARD — THE BEST GEAR MONEY CAN SECURE",
+        "article": "Before the month's final week, Valerius authorizes a major procurement effort to reduce the unevenness of equipment among his men. Serviceable but inferior pieces are replaced where better equipment can be obtained, and officers inspect shields, weapons, protective gear, marching equipment, and other battlefield necessities so that the force no longer depends on a patchwork of privately acquired standards. The finest equipment available within the purchasing limit is assigned where it provides the greatest military value, with the aim of making replacement, inspection, and maintenance easier as well as improving individual protection and reliability. The expenditure comes from Valerius's public military resources rather than from an unexplained windfall, and the household records the procurement as a real cost of maintaining the force. The result is not an instant transformation into an invulnerable army, but a more consistent baseline of equipment and a clearer standard for future supply. Valerius's men finish the month carrying gear whose quality is deliberately tied to what his available denarii can actually obtain.",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Valerius soldiers",
+          "Valerius trusted officers"
+        ],
+        "state_changes": [
+          {
+            "actor_id": "gaius_maximus_valerius",
+            "metric": "treasury",
+            "before": 1905,
+            "delta": -255,
+            "after": 1650,
+            "unit": "currency units",
+            "reason": "Premium standardized military equipment and associated procurement costs are paid from the estate/public military account.",
+            "source_event_id": "GMV-62BCE-001-R046-E005",
+            "provenance": "simulation"
+          },
+          {
+            "actor_id": "gaius_maximus_valerius",
+            "metric": "supply",
+            "before": 50,
+            "delta": 15,
+            "after": 65,
+            "unit": "points",
+            "reason": "Standardized replacement equipment and stocked military gear materially improve the force's available supply condition.",
+            "source_event_id": "GMV-62BCE-001-R046-E005",
+            "provenance": "simulation"
+          }
+        ]
+      },
+      {
+        "event_id": "GMV-62BCE-001-R046-E006",
+        "date": "-0060-10-31",
+        "type": "connected",
+        "headline": "THE MONTH ENDS WITH VALERIUS STILL IN THE RANKS — AND HIS OFFICERS TEST THE SYSTEM WITHOUT HIM GIVING THE ANSWER",
+        "article": "On the final day of October, the training culminates in a long exercise combining surprise, broken communications, movement, simulated casualties, recovery, and controlled pursuit. Valerius takes his own place in the exercise and allows his officers to make decisions rather than solving every disruption himself, stepping in only where his role in the chain of command requires it. The men are forced to recover from several deliberately introduced failures, and the final reform is completed without turning the exercise into a rout. Valerius then orders the procedures, equipment standards, and lessons from the month's training written into the force's standing practice. The month has not created a new army overnight, and no battlefield test has yet proved how the reforms will perform against a real enemy. It has, however, left the force with common drills, recognized performers, standardized equipment, and practiced responses to some of the moments most likely to break cohesion in actual fighting.",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Valerius trusted officers",
+          "Valerius soldiers"
+        ],
+        "state_changes": [
+          {
+            "actor_id": "gaius_maximus_valerius",
+            "metric": "intelligence",
+            "before": 974,
+            "delta": 3,
+            "after": 977,
+            "unit": "points",
+            "reason": "The month-long training cycle reveals practical strengths and weaknesses in command, recovery, surprise response, and coordination.",
+            "source_event_id": "GMV-62BCE-001-R046-E006",
+            "provenance": "simulation"
+          }
+        ]
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "gmv-news-v2",
+    "preserved": true
+  }
 }

@@ -1,5 +1,6 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 36,
   "period": {
     "start": "-0060-12-01",
@@ -8,60 +9,148 @@
   },
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R036-E001",
       "date": "-0060-12-03",
+      "type": "direct",
       "headline": "THE COLUMN SECURES THE HIDDEN STORE",
-      "type": "DIRECT",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 2,
+      "event_id": "GMV-62BCE-001-R036-E002",
       "date": "-0060-12-07",
+      "type": "connected",
       "headline": "MESSENGERS RETURN FROM THE RAVINE ROAD",
-      "type": "CONNECTED",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 3,
+      "event_id": "GMV-62BCE-001-R036-E003",
       "date": "-0060-12-11",
+      "type": "direct",
       "headline": "THE COLUMN CHANGES ITS MARCHING ORDER",
-      "type": "DIRECT",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 4,
+      "event_id": "GMV-62BCE-001-R036-E004",
       "date": "-0060-12-15",
+      "type": "surprise",
       "headline": "THE FORD OF THREE FIRES",
-      "type": "SURPRISE",
-      "special_event": true
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 5,
+      "event_id": "GMV-62BCE-001-R036-E005",
       "date": "-0060-12-19",
+      "type": "connected",
       "headline": "THE UNRECORDED SETTLEMENT IS FOUND",
-      "type": "CONNECTED",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 6,
+      "event_id": "GMV-62BCE-001-R036-E006",
       "date": "-0060-12-23",
+      "type": "direct",
       "headline": "WINTER SUPPLY IS REORGANIZED FOR THE INTERIOR",
-      "type": "DIRECT",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R036-E007",
       "date": "-0060-12-27",
+      "type": "world",
       "headline": "NEWS FROM ROME SPEAKS OF THE CONSULSHIP",
-      "type": "WORLD",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R036-E008",
       "date": "-0060-12-31",
+      "type": "world",
       "headline": "LOCAL ROUNDUP: THE NETWORK REACHES FARTHER THAN THE PASS",
-      "type": "WORLD",
-      "special_event": false
+      "article": null,
+      "entities": [],
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 36,
+    "period": {
+      "start": "-0060-12-01",
+      "end": "-0060-12-31",
+      "display": "1 December 60 BCE – 31 December 60 BCE"
+    },
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-12-03",
+        "headline": "THE COLUMN SECURES THE HIDDEN STORE",
+        "type": "DIRECT",
+        "special_event": false
+      },
+      {
+        "event": 2,
+        "date": "-0060-12-07",
+        "headline": "MESSENGERS RETURN FROM THE RAVINE ROAD",
+        "type": "CONNECTED",
+        "special_event": false
+      },
+      {
+        "event": 3,
+        "date": "-0060-12-11",
+        "headline": "THE COLUMN CHANGES ITS MARCHING ORDER",
+        "type": "DIRECT",
+        "special_event": false
+      },
+      {
+        "event": 4,
+        "date": "-0060-12-15",
+        "headline": "THE FORD OF THREE FIRES",
+        "type": "SURPRISE",
+        "special_event": true
+      },
+      {
+        "event": 5,
+        "date": "-0060-12-19",
+        "headline": "THE UNRECORDED SETTLEMENT IS FOUND",
+        "type": "CONNECTED",
+        "special_event": false
+      },
+      {
+        "event": 6,
+        "date": "-0060-12-23",
+        "headline": "WINTER SUPPLY IS REORGANIZED FOR THE INTERIOR",
+        "type": "DIRECT",
+        "special_event": false
+      },
+      {
+        "event": 7,
+        "date": "-0060-12-27",
+        "headline": "NEWS FROM ROME SPEAKS OF THE CONSULSHIP",
+        "type": "WORLD",
+        "special_event": false
+      },
+      {
+        "event": 8,
+        "date": "-0060-12-31",
+        "headline": "LOCAL ROUNDUP: THE NETWORK REACHES FARTHER THAN THE PASS",
+        "type": "WORLD",
+        "special_event": false
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

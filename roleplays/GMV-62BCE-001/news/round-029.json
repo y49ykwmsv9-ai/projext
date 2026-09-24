@@ -1,160 +1,747 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 29,
   "period": {
     "start": "-0060-05-01",
     "end": "-0060-05-31",
     "display": "1 May 60 BCE – 31 May 60 BCE"
   },
-  "metric_schema": "fixed-v1",
   "events": [
     {
-      "event": 1,
+      "event_id": "GMV-62BCE-001-R029-E001",
       "date": "-0060-05-03",
-      "type": "DIRECT",
-      "entities": [
-        "Gaius Maximus Valerius"
-      ],
+      "type": "direct",
       "headline": "VALERIUS CALLS THE SECOND EXPEDITION TO THE FIELD",
       "article": "At the beginning of May, Gaius Maximus Valerius orders the armed strength of his estates assembled for a second expedition into the country beyond his established roads. The force is drawn principally from the men already under his command, with the household retaining enough strength to guard the estates, stores and principal routes. Pack animals, grain, tools and replacement equipment are brought together before the column leaves. Valerius makes the march himself, placing his own person at the head of the expedition rather than directing the movement from the safety of the estate. The destination is understood to be difficult country where an organized regional band has already made several Roman detachments pay heavily for attempting to pursue it.",
-      "ledger": {
-        "currency": -25,
-        "organization": 2,
-        "supply": -1,
-        "intelligence": 3,
-        "exhaustion": 2
-      }
-    },
-    {
-      "event": 2,
-      "date": "-0060-05-07",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R029-E002",
+      "date": "-0060-05-07",
+      "type": "direct",
       "headline": "THE COLUMN TAKES THE HARD ROAD TOWARD THE TROUBLED DISTRICTS",
       "article": "The expedition leaves the settled roads and follows a more difficult route toward the districts most troubled by the band. Valerius personally examines crossings, slopes and places where wagons can be brought through without exposing the column unnecessarily. Scouts move ahead while the main body keeps enough order to answer quickly if the march is challenged. Local residents provide fragmentary accounts of the enemy's movements, but none agrees on the band's exact strength or present camp. The uncertainty makes the country itself as important to the expedition as the men who are being pursued.",
-      "ledger": {
-        "currency": -20,
-        "infrastructure": 1,
-        "intelligence": 4,
-        "supply": -1,
-        "relations": 1,
-        "exhaustion": 1
-      }
-    },
-    {
-      "event": 3,
-      "date": "-0060-05-11",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -20,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R029-E003",
+      "date": "-0060-05-11",
+      "type": "direct",
       "headline": "THE MAIN BODY IS FORMED FOR A LONG MARCH",
       "article": "By the middle of the month the greater part of Valerius's fighting force is operating as a single marching body. Officers establish marching intervals, baggage arrangements and signals so that the column can contract or extend without losing contact between its parts. The men carry provisions for difficult country rather than relying entirely upon local purchases, and the cavalry remains available for scouting and rapid movement rather than being committed recklessly ahead. Valerius moves among the columns during halts and inspections, keeping the expedition's command concentrated around a single chain of orders. The preparations reflect the expectation that the coming encounter will demand more discipline than the earlier bandit fighting on which Valerius built his reputation.",
-      "ledger": {
-        "currency": -15,
-        "morale": 2,
-        "organization": 2,
-        "supply": -2,
-        "intelligence": 2,
-        "exhaustion": 1
-      }
-    },
-    {
-      "event": 4,
-      "date": "-0060-05-16",
-      "type": "CONNECTED",
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -15,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R029-E004",
+      "date": "-0060-05-16",
+      "type": "connected",
       "headline": "REPORTS CONFIRM THE BAND HAS TROUBLED SEVERAL DISTRICTS",
       "article": "Further reports reach the expedition from farmers, traders and men who have served in neighboring detachments. The same band is blamed for attacks in several districts, and accounts agree that it has twice driven back organized Roman centuries sent to bring it under control. The defeats are not described as the collapse of a legionary army, for no legion has been committed to the pursuit, but they have embarrassed local authorities and made the band's reputation considerably larger than its numbers alone might suggest. Witnesses describe men who know the tracks, ravines and wooded approaches of the country and who choose their ground carefully. Valerius orders the reports preserved and compared before the column advances farther.",
-      "ledger": {
-        "currency": -10,
-        "legitimacy": 1,
-        "intelligence": 7,
-        "relations": 2
-      }
-    },
-    {
-      "event": 5,
-      "date": "-0060-05-21",
-      "type": "CONNECTED",
-      "special_event": true,
-      "magnitude": 7,
-      "change_index": 4.768371582,
       "entities": [
         "Gaius Maximus Valerius"
       ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 7,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R029-E005",
+      "date": "-0060-05-21",
+      "type": "connected",
       "headline": "THE RAVINE OF BROKEN SPEARS: VALERIUS'S COLUMN IS STRUCK BY THE REGIONAL BAND",
       "article": "The first serious contact comes in a narrow ravine after several days of difficult marching. The country closes around the road so abruptly that the leading files have little room to turn, while steep ground on either side gives unseen men positions from which they can watch the column without exposing themselves. The first missiles fall before the rear of the expedition understands that the engagement has begun. Horses rear, shields rise, and the order to close ranks passes rapidly from the front toward the baggage train as the Roman column tries to prevent the attack from becoming a division of the force.",
-      "article_continued": "Valerius rides forward into the threatened center and orders the advance files to hold rather than chase the men appearing among the rocks. At the same time he sends the cavalry around a less obstructed slope to discover whether the ravine has been blocked farther ahead. The band does not stand in a single mass. Small bodies strike from different points, withdraw, and appear again where the Roman line is least able to answer, showing the same familiarity with the ground that local witnesses had described. Several Roman centuries are forced to turn inward, and the pressure is greatest around the baggage where the road narrows.",
-      "article_continued_2": "The fighting becomes close enough for the noise of shields and spear shafts to drown the shouted orders. Eighteen of Valerius's men are killed or left unable to continue, while several more are carried from the line wounded. The losses are serious, but the column does not break. Valerius refuses to commit the heavy cavalry into the narrowest part of the ravine and instead uses them to threaten the band's flanks whenever the ground permits. This slows the repeated attacks and gives the infantry enough room to reform after each rush.",
-      "article_continued_3": "For a time it appears that the expedition may have to abandon the road entirely. Then a group of scouts returns with news that the ground beyond the ravine opens into a broader shelf. Valerius orders the front to fight its way toward that space while the rear guards the baggage and the wounded. The movement is costly and slow, but the Roman formation advances far enough to deny the attackers the complete enclosure they had sought. Once the main body reaches the open ground, the band's attacks lose some of their force and become scattered strikes rather than one continuous pressure.",
-      "article_continued_4": "The regional band does not remain to be drawn into a conventional battle on the open shelf. Its men disappear into the surrounding country in small groups, carrying away what they can and leaving the Roman column in possession of the road but not of its enemy. Valerius does not order a reckless pursuit into ground that has already proved favorable to the band. Instead, the wounded are gathered, the dead are counted, the baggage is restored to order and the surviving centuries are brought back into a defensible formation.",
-      "article_continued_5": "By nightfall the expedition has survived its first major test, but the encounter has changed the character of the campaign. The enemy has demonstrated that the reputation carried from district to district was not merely the product of frightened rumor. Valerius's men have also learned that numbers alone will not force the band into the sort of engagement in which Roman discipline is easiest to apply. The expedition remains in the country, now with a clearer understanding of the enemy's methods and a sharper awareness that the hardest fighting may still lie ahead.",
-      "ledger": {
-        "currency": -60,
-        "soldiers": -18,
-        "readiness": -2,
-        "morale": 5,
-        "supply": -6,
-        "organization": 3,
-        "stability": 2,
-        "legitimacy": 2,
-        "exhaustion": 10,
-        "technology": 1,
-        "intelligence": 12,
-        "relations": 4
-      }
-    },
-    {
-      "event": 6,
-      "date": "-0060-05-24",
-      "type": "DIRECT",
       "entities": [
         "Gaius Maximus Valerius"
       ],
-      "headline": "VALERIUS REFORMS THE COLUMN AFTER THE RAVINE FIGHTING",
-      "article": "Three days after the ravine fighting, Valerius orders the expedition reorganized before any further pursuit is attempted. The wounded are placed under guard and moved with the baggage, while replacement loads are distributed so that no single section of the column carries a disproportionate burden. Officers are required to keep the infantry in mutually supporting groups rather than allowing the pursuit of the band to pull individual centuries apart. The cavalry resumes its scouting role, watching the roads and open ground without entering the wooded country blindly. The expedition is still moving forward, but the immediate purpose is to preserve the force long enough to meet the enemy on ground of Valerius's choosing.",
-      "ledger": {
-        "currency": -25,
-        "readiness": 2,
-        "supply": 2,
-        "organization": 2,
-        "stability": 2,
-        "morale": 1,
-        "intelligence": 3,
-        "exhaustion": 3
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -60,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": null,
+          "delta": -18,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": -2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 5,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": -6,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 10,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 12,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 7,
+      "event_id": "GMV-62BCE-001-R029-E006",
+      "date": "-0060-05-24",
+      "type": "direct",
+      "headline": "VALERIUS REFORMS THE COLUMN AFTER THE RAVINE FIGHTING",
+      "article": "Three days after the ravine fighting, Valerius orders the expedition reorganized before any further pursuit is attempted. The wounded are placed under guard and moved with the baggage, while replacement loads are distributed so that no single section of the column carries a disproportionate burden. Officers are required to keep the infantry in mutually supporting groups rather than allowing the pursuit of the band to pull individual centuries apart. The cavalry resumes its scouting role, watching the roads and open ground without entering the wooded country blindly. The expedition is still moving forward, but the immediate purpose is to preserve the force long enough to meet the enemy on ground of Valerius's choosing.",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -25,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R029-E007",
       "date": "-0060-05-28",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "ROME'S POLITICAL NEWS REACHES THE MARCHING COLUMN",
+      "article": "Reports carried along the Roman roads bring the expedition news from the capital. Caesar's political maneuvering continues to draw attention, while Cicero remains involved in the arguments surrounding Roman public life and Pompey's position continues to matter in calculations among the political elite. None of these developments gives Valerius a new office or changes the authority under which his expedition is operating. The news is nevertheless circulated among the officers because events in Rome can affect the fortunes of men whose estates and military connections extend beyond their immediate districts. For the soldiers in the field, the reports are a reminder that the Republic's wider affairs continue while their own column is deep in difficult country.",
       "entities": [
         "Marcus Tullius Cicero",
         "Gaius Julius Caesar",
         "Gnaeus Pompeius Magnus"
       ],
-      "headline": "ROME'S POLITICAL NEWS REACHES THE MARCHING COLUMN",
-      "article": "Reports carried along the Roman roads bring the expedition news from the capital. Caesar's political maneuvering continues to draw attention, while Cicero remains involved in the arguments surrounding Roman public life and Pompey's position continues to matter in calculations among the political elite. None of these developments gives Valerius a new office or changes the authority under which his expedition is operating. The news is nevertheless circulated among the officers because events in Rome can affect the fortunes of men whose estates and military connections extend beyond their immediate districts. For the soldiers in the field, the reports are a reminder that the Republic's wider affairs continue while their own column is deep in difficult country.",
-      "ledger": {
-        "intelligence": 4,
-        "relations": 1
-      }
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 4,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R029-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
     },
     {
-      "event": 8,
+      "event_id": "GMV-62BCE-001-R029-E008",
       "date": "-0060-05-31",
-      "type": "WORLD",
+      "type": "world",
+      "headline": "LOCAL ROUNDUP: THE SECOND EXPEDITION REMAINS IN THE TROUBLED COUNTRY",
+      "article": "May closes with Valerius and the bulk of his force still in the country troubled by the regional band. The first serious encounter has cost eighteen men and consumed a substantial portion of the expedition's field stores, but the main body remains together and the road through the ravine has not been abandoned. Reports from neighboring districts continue to describe the band as an unusually persistent regional danger. Valerius's officers are now preparing for another movement after the column has recovered from the fighting. The expedition therefore ends the month not with the enemy destroyed, but with both sides having learned something about the other.",
       "entities": [
         "Gaius Maximus Valerius"
       ],
-      "headline": "LOCAL ROUNDUP: THE SECOND EXPEDITION REMAINS IN THE TROUBLED COUNTRY",
-      "article": "May closes with Valerius and the bulk of his force still in the country troubled by the regional band. The first serious encounter has cost eighteen men and consumed a substantial portion of the expedition's field stores, but the main body remains together and the road through the ravine has not been abandoned. Reports from neighboring districts continue to describe the band as an unusually persistent regional danger. Valerius's officers are now preparing for another movement after the column has recovered from the fighting. The expedition therefore ends the month not with the enemy destroyed, but with both sides having learned something about the other.",
-      "ledger": {}
+      "state_changes": []
     }
-  ]
+  ],
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 29,
+    "period": {
+      "start": "-0060-05-01",
+      "end": "-0060-05-31",
+      "display": "1 May 60 BCE – 31 May 60 BCE"
+    },
+    "metric_schema": "fixed-v1",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0060-05-03",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS CALLS THE SECOND EXPEDITION TO THE FIELD",
+        "article": "At the beginning of May, Gaius Maximus Valerius orders the armed strength of his estates assembled for a second expedition into the country beyond his established roads. The force is drawn principally from the men already under his command, with the household retaining enough strength to guard the estates, stores and principal routes. Pack animals, grain, tools and replacement equipment are brought together before the column leaves. Valerius makes the march himself, placing his own person at the head of the expedition rather than directing the movement from the safety of the estate. The destination is understood to be difficult country where an organized regional band has already made several Roman detachments pay heavily for attempting to pursue it.",
+        "ledger": {
+          "currency": -25,
+          "organization": 2,
+          "supply": -1,
+          "intelligence": 3,
+          "exhaustion": 2
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0060-05-07",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE COLUMN TAKES THE HARD ROAD TOWARD THE TROUBLED DISTRICTS",
+        "article": "The expedition leaves the settled roads and follows a more difficult route toward the districts most troubled by the band. Valerius personally examines crossings, slopes and places where wagons can be brought through without exposing the column unnecessarily. Scouts move ahead while the main body keeps enough order to answer quickly if the march is challenged. Local residents provide fragmentary accounts of the enemy's movements, but none agrees on the band's exact strength or present camp. The uncertainty makes the country itself as important to the expedition as the men who are being pursued.",
+        "ledger": {
+          "currency": -20,
+          "infrastructure": 1,
+          "intelligence": 4,
+          "supply": -1,
+          "relations": 1,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0060-05-11",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE MAIN BODY IS FORMED FOR A LONG MARCH",
+        "article": "By the middle of the month the greater part of Valerius's fighting force is operating as a single marching body. Officers establish marching intervals, baggage arrangements and signals so that the column can contract or extend without losing contact between its parts. The men carry provisions for difficult country rather than relying entirely upon local purchases, and the cavalry remains available for scouting and rapid movement rather than being committed recklessly ahead. Valerius moves among the columns during halts and inspections, keeping the expedition's command concentrated around a single chain of orders. The preparations reflect the expectation that the coming encounter will demand more discipline than the earlier bandit fighting on which Valerius built his reputation.",
+        "ledger": {
+          "currency": -15,
+          "morale": 2,
+          "organization": 2,
+          "supply": -2,
+          "intelligence": 2,
+          "exhaustion": 1
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0060-05-16",
+        "type": "CONNECTED",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "REPORTS CONFIRM THE BAND HAS TROUBLED SEVERAL DISTRICTS",
+        "article": "Further reports reach the expedition from farmers, traders and men who have served in neighboring detachments. The same band is blamed for attacks in several districts, and accounts agree that it has twice driven back organized Roman centuries sent to bring it under control. The defeats are not described as the collapse of a legionary army, for no legion has been committed to the pursuit, but they have embarrassed local authorities and made the band's reputation considerably larger than its numbers alone might suggest. Witnesses describe men who know the tracks, ravines and wooded approaches of the country and who choose their ground carefully. Valerius orders the reports preserved and compared before the column advances farther.",
+        "ledger": {
+          "currency": -10,
+          "legitimacy": 1,
+          "intelligence": 7,
+          "relations": 2
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0060-05-21",
+        "type": "CONNECTED",
+        "special_event": true,
+        "magnitude": 7,
+        "change_index": 4.768371582,
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "THE RAVINE OF BROKEN SPEARS: VALERIUS'S COLUMN IS STRUCK BY THE REGIONAL BAND",
+        "article": "The first serious contact comes in a narrow ravine after several days of difficult marching. The country closes around the road so abruptly that the leading files have little room to turn, while steep ground on either side gives unseen men positions from which they can watch the column without exposing themselves. The first missiles fall before the rear of the expedition understands that the engagement has begun. Horses rear, shields rise, and the order to close ranks passes rapidly from the front toward the baggage train as the Roman column tries to prevent the attack from becoming a division of the force.",
+        "article_continued": "Valerius rides forward into the threatened center and orders the advance files to hold rather than chase the men appearing among the rocks. At the same time he sends the cavalry around a less obstructed slope to discover whether the ravine has been blocked farther ahead. The band does not stand in a single mass. Small bodies strike from different points, withdraw, and appear again where the Roman line is least able to answer, showing the same familiarity with the ground that local witnesses had described. Several Roman centuries are forced to turn inward, and the pressure is greatest around the baggage where the road narrows.",
+        "article_continued_2": "The fighting becomes close enough for the noise of shields and spear shafts to drown the shouted orders. Eighteen of Valerius's men are killed or left unable to continue, while several more are carried from the line wounded. The losses are serious, but the column does not break. Valerius refuses to commit the heavy cavalry into the narrowest part of the ravine and instead uses them to threaten the band's flanks whenever the ground permits. This slows the repeated attacks and gives the infantry enough room to reform after each rush.",
+        "article_continued_3": "For a time it appears that the expedition may have to abandon the road entirely. Then a group of scouts returns with news that the ground beyond the ravine opens into a broader shelf. Valerius orders the front to fight its way toward that space while the rear guards the baggage and the wounded. The movement is costly and slow, but the Roman formation advances far enough to deny the attackers the complete enclosure they had sought. Once the main body reaches the open ground, the band's attacks lose some of their force and become scattered strikes rather than one continuous pressure.",
+        "article_continued_4": "The regional band does not remain to be drawn into a conventional battle on the open shelf. Its men disappear into the surrounding country in small groups, carrying away what they can and leaving the Roman column in possession of the road but not of its enemy. Valerius does not order a reckless pursuit into ground that has already proved favorable to the band. Instead, the wounded are gathered, the dead are counted, the baggage is restored to order and the surviving centuries are brought back into a defensible formation.",
+        "article_continued_5": "By nightfall the expedition has survived its first major test, but the encounter has changed the character of the campaign. The enemy has demonstrated that the reputation carried from district to district was not merely the product of frightened rumor. Valerius's men have also learned that numbers alone will not force the band into the sort of engagement in which Roman discipline is easiest to apply. The expedition remains in the country, now with a clearer understanding of the enemy's methods and a sharper awareness that the hardest fighting may still lie ahead.",
+        "ledger": {
+          "currency": -60,
+          "soldiers": -18,
+          "readiness": -2,
+          "morale": 5,
+          "supply": -6,
+          "organization": 3,
+          "stability": 2,
+          "legitimacy": 2,
+          "exhaustion": 10,
+          "technology": 1,
+          "intelligence": 12,
+          "relations": 4
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0060-05-24",
+        "type": "DIRECT",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "VALERIUS REFORMS THE COLUMN AFTER THE RAVINE FIGHTING",
+        "article": "Three days after the ravine fighting, Valerius orders the expedition reorganized before any further pursuit is attempted. The wounded are placed under guard and moved with the baggage, while replacement loads are distributed so that no single section of the column carries a disproportionate burden. Officers are required to keep the infantry in mutually supporting groups rather than allowing the pursuit of the band to pull individual centuries apart. The cavalry resumes its scouting role, watching the roads and open ground without entering the wooded country blindly. The expedition is still moving forward, but the immediate purpose is to preserve the force long enough to meet the enemy on ground of Valerius's choosing.",
+        "ledger": {
+          "currency": -25,
+          "readiness": 2,
+          "supply": 2,
+          "organization": 2,
+          "stability": 2,
+          "morale": 1,
+          "intelligence": 3,
+          "exhaustion": 3
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0060-05-28",
+        "type": "WORLD",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Gnaeus Pompeius Magnus"
+        ],
+        "headline": "ROME'S POLITICAL NEWS REACHES THE MARCHING COLUMN",
+        "article": "Reports carried along the Roman roads bring the expedition news from the capital. Caesar's political maneuvering continues to draw attention, while Cicero remains involved in the arguments surrounding Roman public life and Pompey's position continues to matter in calculations among the political elite. None of these developments gives Valerius a new office or changes the authority under which his expedition is operating. The news is nevertheless circulated among the officers because events in Rome can affect the fortunes of men whose estates and military connections extend beyond their immediate districts. For the soldiers in the field, the reports are a reminder that the Republic's wider affairs continue while their own column is deep in difficult country.",
+        "ledger": {
+          "intelligence": 4,
+          "relations": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0060-05-31",
+        "type": "WORLD",
+        "entities": [
+          "Gaius Maximus Valerius"
+        ],
+        "headline": "LOCAL ROUNDUP: THE SECOND EXPEDITION REMAINS IN THE TROUBLED COUNTRY",
+        "article": "May closes with Valerius and the bulk of his force still in the country troubled by the regional band. The first serious encounter has cost eighteen men and consumed a substantial portion of the expedition's field stores, but the main body remains together and the road through the ravine has not been abandoned. Reports from neighboring districts continue to describe the band as an unusually persistent regional danger. Valerius's officers are now preparing for another movement after the column has recovered from the fighting. The expedition therefore ends the month not with the enemy destroyed, but with both sides having learned something about the other.",
+        "ledger": {}
+      }
+    ]
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

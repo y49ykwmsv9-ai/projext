@@ -1,18 +1,649 @@
 {
-  "scenario_id": "GMV-62BCE-001",
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
   "round": 11,
-  "period": {"start": "-0062-11-01", "end": "-0062-11-30"},
-  "player_action": "Gaius Maximus Valerius organizes regular patrols of the formal road connecting his main estate to the lake port and forward base. He sends dispatches across the Roman world seeking skilled shipwrights and sailors to maintain a private commercial fleet lawfully under Roman authority. He begins collecting profit from the road and port, stores wealth securely in separate locations, and establishes separate public and private wealth accounts. A fixed share of public commercial profit is transferred to the private account so personal wealth grows gradually without compounding beyond the scale of the underlying business.",
+  "period": {
+    "start": "-0062-11-01",
+    "end": "-0062-11-30"
+  },
   "events": [
-    {"event":1,"date":"-0062-11-02","type":"DIRECT","headline":"VALERIUS ESTABLISHES REGULAR PATROLS ALONG THE ESTATE ROAD","entities":["Gaius Maximus Valerius","Estate Road","Lake Port","Forward Holding"],"article":"At the beginning of November, Gaius Maximus Valerius ordered the road joining his principal estate to the lake landing and forward holding to be patrolled at regular intervals. Armed men were assigned to watch the road rather than gather in one permanent body, with particular attention given to the watchtowers already raised along its course. Carts carrying grain, timber, tools and other merchandise now pass under a more regular system of protection. The arrangement is intended to protect travelers and the estate's commerce while also giving Valerius timely notice of disturbances. The road remains a private work and the men remain attached to Valerius rather than to any newly claimed public office.","ledger":{"currency":-70,"readiness":1,"organization":2,"stability":1,"intelligence":1}},
-    {"event":2,"date":"-0062-11-05","type":"DIRECT","headline":"DISPATCHES SEEK SHIPWRIGHTS AND SAILORS THROUGHOUT THE ROMAN WORLD","entities":["Gaius Maximus Valerius","Shipwrights","Sailors","Roman Commercial Network"],"article":"Letters and messengers have been sent through the commercial connections of the lake station in search of experienced shipwrights, boat-builders and sailors. The request is not for a fleet of warships, but for men capable of constructing, repairing and operating merchant craft suited to the inland waterway. Valerius's agents are said to have asked merchants and maritime contacts farther afield for recommendations of reliable craftsmen. The undertaking has attracted attention because the estate is attempting to maintain its own commercial shipping rather than depend entirely upon hired transport. Any men who answer the call are expected to work for a private commercial concern while remaining subject to Roman law.","ledger":{"currency":-80,"trade":2,"technology":1,"intelligence":2,"relations":2}},
-    {"event":3,"date":"-0062-11-09","type":"CONNECTED","headline":"THE LAKE PORT BEGINS TO RETURN MONEY TO ITS OWNERS","entities":["Lake Port","Merchants","Gaius Maximus Valerius"],"article":"The lake landing has now begun to produce a more regular return from the movement and handling of goods. Merchants using the road and landing pay for storage, loading, transport assistance and other ordinary services connected with the station. The sums are still modest beside the fortunes of Rome's great commercial houses, but they are no longer merely promises of future profit. Grain, timber, tools and agricultural produce form much of the traffic presently observed. The improved road and guarded landing have made the estate a more dependable stopping place than it was only a few months ago.","ledger":{"currency":140,"trade":3,"economy":2,"stability":1}},
-    {"event":4,"date":"-0062-11-13","type":"DIRECT","headline":"VALERIUS DIVIDES HIS COMMERCIAL RECEIPTS BETWEEN ESTATE AND PORT","entities":["Main Estate","Lake Port","Estate Accounts"],"article":"Valerius has ordered that the proceeds of the new commerce not be kept in a single storehouse. Coin and valuable goods are instead divided between secure storage at the principal estate and protected stores within the defended port. Written tallies are kept of what enters and leaves each holding, while guards are instructed to prevent unauthorized removal. The measure is intended to reduce the danger that theft, fire or sudden disorder at one place might destroy the whole of the estate's working capital. The port therefore holds its own reserve for daily trade and maintenance, while the main estate retains another reserve for the wider household and its obligations.","ledger":{"currency":-60,"infrastructure":1,"supply":1,"organization":1}},
-    {"event":5,"date":"-0062-11-18","type":"DIRECT","headline":"A SEPARATE PRIVATE ACCOUNT IS SET APART FROM THE BUSINESS PURSE","entities":["Gaius Maximus Valerius","Private Reserve","Commercial Accounts"],"article":"A second distinction has been made within Valerius's accounts. Money belonging to his personal household is now recorded separately from the funds committed to the road, port, boats, stores and other commercial works. The arrangement is intended to make clear which coin belongs to the business and which belongs to Valerius himself. Ten parts in every hundred of realized net commercial profit are to pass into the private reserve, while the remaining ninety parts stay available to maintain and enlarge the enterprise. No interest is claimed upon the private reserve merely because it exists, and no hidden multiplication of coin is permitted by the new accounting practice.","ledger":{"currency":-10,"legitimacy":1,"stability":1,"organization":1}},
-    {"event":6,"date":"-0062-11-22","type":"CONNECTED","headline":"MERCHANTS DISCUSS A SMALL PRIVATE FLEET FOR THE LAKE TRADE","entities":["Merchants","Lake Port","Shipwrights","Sailors"],"article":"Merchants visiting the lake station have begun discussing the usefulness of maintaining several small cargo craft under Valerius's private concern. Such vessels would permit goods to be moved on the water without waiting upon outside boatmen for every journey. The proposal remains commercial rather than naval, and the craft under discussion are appropriate to the lake and its existing traffic. Shipwrights are still being sought, so the undertaking cannot yet be described as a fully established fleet. Nevertheless, the search for skilled sailors and builders has made the intention plain to those doing business at the port.","ledger":{"currency":-50,"trade":2,"technology":1,"economy":1,"relations":2}},
-    {"event":7,"date":"-0062-11-26","type":"WORLD","headline":"CICERO AND CAESAR REMAIN SUBJECTS OF COUNTRY REPORTS AS ROME'S POLITICS MOVE ON","entities":["Marcus Tullius Cicero","Gaius Julius Caesar","Roman Republic"],"article":"Reports carried from Rome continue to place Marcus Tullius Cicero and Gaius Julius Caesar among the names most frequently discussed in political conversation. The affairs of the Republic remain of interest even in country districts where merchants and landholders receive news by letter and traveler. The continuing political prominence of such men gives Roman commercial households reason to watch developments far beyond their own estates. Valerius's growing traffic at the lake is therefore being considered alongside a wider Roman world in which private wealth, military reputation and political connection often travel together. No public office or extraordinary authority has been granted to Valerius by these reports.","ledger":{"relations":1,"intelligence":1}},
-    {"event":8,"date":"-0062-11-30","type":"WORLD","headline":"LOCAL NEWS: THE LAKE ROAD NOW CARRIES COMMERCE, PATROLS AND NEWS FROM AFAR","entities":["Gaius Maximus Valerius","Estate Road","Lake Port","Marcus Tullius Cicero","Gaius Julius Caesar"],"article":"The month closes with the road between Valerius's principal estate and the lake station seeing more regular movement than at any earlier point in the year. Patrols now watch the route, the port is returning money from ordinary commerce, and dispatches have gone outward in search of shipwrights and sailors. The estate's accounts have also been divided so that the port and principal holding each retain their own stores, while Valerius keeps a separate personal reserve. The arrangement leaves the commercial enterprise responsible for its own maintenance rather than drawing without limit upon the private purse. In the wider country, news from Rome continues to circulate, with Cicero and Caesar among the prominent names carried by travelers and letters. The undertaking remains a private estate business operating under Roman law, though its growing usefulness has made it increasingly difficult for merchants and neighboring landholders to ignore.","ledger":{"currency":0}}
+    {
+      "event_id": "GMV-62BCE-001-R011-E001",
+      "date": "-0062-11-02",
+      "type": "direct",
+      "headline": "VALERIUS ESTABLISHES REGULAR PATROLS ALONG THE ESTATE ROAD",
+      "article": "At the beginning of November, Gaius Maximus Valerius ordered the road joining his principal estate to the lake landing and forward holding to be patrolled at regular intervals. Armed men were assigned to watch the road rather than gather in one permanent body, with particular attention given to the watchtowers already raised along its course. Carts carrying grain, timber, tools and other merchandise now pass under a more regular system of protection. The arrangement is intended to protect travelers and the estate's commerce while also giving Valerius timely notice of disturbances. The road remains a private work and the men remain attached to Valerius rather than to any newly claimed public office.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Road",
+        "Lake Port",
+        "Forward Holding"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -70,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E001",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E001",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E002",
+      "date": "-0062-11-05",
+      "type": "direct",
+      "headline": "DISPATCHES SEEK SHIPWRIGHTS AND SAILORS THROUGHOUT THE ROMAN WORLD",
+      "article": "Letters and messengers have been sent through the commercial connections of the lake station in search of experienced shipwrights, boat-builders and sailors. The request is not for a fleet of warships, but for men capable of constructing, repairing and operating merchant craft suited to the inland waterway. Valerius's agents are said to have asked merchants and maritime contacts farther afield for recommendations of reliable craftsmen. The undertaking has attracted attention because the estate is attempting to maintain its own commercial shipping rather than depend entirely upon hired transport. Any men who answer the call are expected to work for a private commercial concern while remaining subject to Roman law.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Shipwrights",
+        "Sailors",
+        "Roman Commercial Network"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -80,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E002",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E002",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E003",
+      "date": "-0062-11-09",
+      "type": "connected",
+      "headline": "THE LAKE PORT BEGINS TO RETURN MONEY TO ITS OWNERS",
+      "article": "The lake landing has now begun to produce a more regular return from the movement and handling of goods. Merchants using the road and landing pay for storage, loading, transport assistance and other ordinary services connected with the station. The sums are still modest beside the fortunes of Rome's great commercial houses, but they are no longer merely promises of future profit. Grain, timber, tools and agricultural produce form much of the traffic presently observed. The improved road and guarded landing have made the estate a more dependable stopping place than it was only a few months ago.",
+      "entities": [
+        "Lake Port",
+        "Merchants",
+        "Gaius Maximus Valerius"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 140,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 3,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E003",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E003",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E004",
+      "date": "-0062-11-13",
+      "type": "direct",
+      "headline": "VALERIUS DIVIDES HIS COMMERCIAL RECEIPTS BETWEEN ESTATE AND PORT",
+      "article": "Valerius has ordered that the proceeds of the new commerce not be kept in a single storehouse. Coin and valuable goods are instead divided between secure storage at the principal estate and protected stores within the defended port. Written tallies are kept of what enters and leaves each holding, while guards are instructed to prevent unauthorized removal. The measure is intended to reduce the danger that theft, fire or sudden disorder at one place might destroy the whole of the estate's working capital. The port therefore holds its own reserve for daily trade and maintenance, while the main estate retains another reserve for the wider household and its obligations.",
+      "entities": [
+        "Main Estate",
+        "Lake Port",
+        "Estate Accounts"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -60,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "infrastructure",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E004",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E004",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E005",
+      "date": "-0062-11-18",
+      "type": "direct",
+      "headline": "A SEPARATE PRIVATE ACCOUNT IS SET APART FROM THE BUSINESS PURSE",
+      "article": "A second distinction has been made within Valerius's accounts. Money belonging to his personal household is now recorded separately from the funds committed to the road, port, boats, stores and other commercial works. The arrangement is intended to make clear which coin belongs to the business and which belongs to Valerius himself. Ten parts in every hundred of realized net commercial profit are to pass into the private reserve, while the remaining ninety parts stay available to maintain and enlarge the enterprise. No interest is claimed upon the private reserve merely because it exists, and no hidden multiplication of coin is permitted by the new accounting practice.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Private Reserve",
+        "Commercial Accounts"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -10,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "legitimacy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E005",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "organization",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E005",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E006",
+      "date": "-0062-11-22",
+      "type": "connected",
+      "headline": "MERCHANTS DISCUSS A SMALL PRIVATE FLEET FOR THE LAKE TRADE",
+      "article": "Merchants visiting the lake station have begun discussing the usefulness of maintaining several small cargo craft under Valerius's private concern. Such vessels would permit goods to be moved on the water without waiting upon outside boatmen for every journey. The proposal remains commercial rather than naval, and the craft under discussion are appropriate to the lake and its existing traffic. Shipwrights are still being sought, so the undertaking cannot yet be described as a fully established fleet. Nevertheless, the search for skilled sailors and builders has made the intention plain to those doing business at the port.",
+      "entities": [
+        "Merchants",
+        "Lake Port",
+        "Shipwrights",
+        "Sailors"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": -50,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "trade",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "technology",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "economy",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E006",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 2,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E006",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E007",
+      "date": "-0062-11-26",
+      "type": "world",
+      "headline": "CICERO AND CAESAR REMAIN SUBJECTS OF COUNTRY REPORTS AS ROME'S POLITICS MOVE ON",
+      "article": "Reports carried from Rome continue to place Marcus Tullius Cicero and Gaius Julius Caesar among the names most frequently discussed in political conversation. The affairs of the Republic remain of interest even in country districts where merchants and landholders receive news by letter and traveler. The continuing political prominence of such men gives Roman commercial households reason to watch developments far beyond their own estates. Valerius's growing traffic at the lake is therefore being considered alongside a wider Roman world in which private wealth, military reputation and political connection often travel together. No public office or extraordinary authority has been granted to Valerius by these reports.",
+      "entities": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Roman Republic"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E007",
+          "provenance": "legacy-migration"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": null,
+          "delta": 1,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E007",
+          "provenance": "legacy-migration"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R011-E008",
+      "date": "-0062-11-30",
+      "type": "world",
+      "headline": "LOCAL NEWS: THE LAKE ROAD NOW CARRIES COMMERCE, PATROLS AND NEWS FROM AFAR",
+      "article": "The month closes with the road between Valerius's principal estate and the lake station seeing more regular movement than at any earlier point in the year. Patrols now watch the route, the port is returning money from ordinary commerce, and dispatches have gone outward in search of shipwrights and sailors. The estate's accounts have also been divided so that the port and principal holding each retain their own stores, while Valerius keeps a separate personal reserve. The arrangement leaves the commercial enterprise responsible for its own maintenance rather than drawing without limit upon the private purse. In the wider country, news from Rome continues to circulate, with Cicero and Caesar among the prominent names carried by travelers and letters. The undertaking remains a private estate business operating under Roman law, though its growing usefulness has made it increasingly difficult for merchants and neighboring landholders to ignore.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Estate Road",
+        "Lake Port",
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": null,
+          "delta": 0,
+          "after": null,
+          "unit": "legacy_metric_units",
+          "reason": "Migrated legacy news ledger; source did not retain absolute before/after values.",
+          "source_event_id": "GMV-62BCE-001-R011-E008",
+          "provenance": "legacy-migration"
+        }
+      ]
+    }
   ],
-  "running_total":{"currency":-130,"trade":12,"economy":6,"infrastructure":2,"readiness":1,"organization":6,"stability":3,"intelligence":4,"relations":7,"legitimacy":2,"technology":2,"supply":2,"morale":0,"agriculture":0,"soldiers":0,"taxation":0,"exhaustion":0},
-  "commercial_accounting":{"gross_receipts":500,"operating_security_and_maintenance_costs":300,"net_public_profit":200,"private_transfer_rate":0.10,"private_transfer":20,"public_account_end":1280,"private_account_end":20}
+  "legacy_record": {
+    "scenario_id": "GMV-62BCE-001",
+    "round": 11,
+    "period": {
+      "start": "-0062-11-01",
+      "end": "-0062-11-30"
+    },
+    "player_action": "Gaius Maximus Valerius organizes regular patrols of the formal road connecting his main estate to the lake port and forward base. He sends dispatches across the Roman world seeking skilled shipwrights and sailors to maintain a private commercial fleet lawfully under Roman authority. He begins collecting profit from the road and port, stores wealth securely in separate locations, and establishes separate public and private wealth accounts. A fixed share of public commercial profit is transferred to the private account so personal wealth grows gradually without compounding beyond the scale of the underlying business.",
+    "events": [
+      {
+        "event": 1,
+        "date": "-0062-11-02",
+        "type": "DIRECT",
+        "headline": "VALERIUS ESTABLISHES REGULAR PATROLS ALONG THE ESTATE ROAD",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Road",
+          "Lake Port",
+          "Forward Holding"
+        ],
+        "article": "At the beginning of November, Gaius Maximus Valerius ordered the road joining his principal estate to the lake landing and forward holding to be patrolled at regular intervals. Armed men were assigned to watch the road rather than gather in one permanent body, with particular attention given to the watchtowers already raised along its course. Carts carrying grain, timber, tools and other merchandise now pass under a more regular system of protection. The arrangement is intended to protect travelers and the estate's commerce while also giving Valerius timely notice of disturbances. The road remains a private work and the men remain attached to Valerius rather than to any newly claimed public office.",
+        "ledger": {
+          "currency": -70,
+          "readiness": 1,
+          "organization": 2,
+          "stability": 1,
+          "intelligence": 1
+        }
+      },
+      {
+        "event": 2,
+        "date": "-0062-11-05",
+        "type": "DIRECT",
+        "headline": "DISPATCHES SEEK SHIPWRIGHTS AND SAILORS THROUGHOUT THE ROMAN WORLD",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Shipwrights",
+          "Sailors",
+          "Roman Commercial Network"
+        ],
+        "article": "Letters and messengers have been sent through the commercial connections of the lake station in search of experienced shipwrights, boat-builders and sailors. The request is not for a fleet of warships, but for men capable of constructing, repairing and operating merchant craft suited to the inland waterway. Valerius's agents are said to have asked merchants and maritime contacts farther afield for recommendations of reliable craftsmen. The undertaking has attracted attention because the estate is attempting to maintain its own commercial shipping rather than depend entirely upon hired transport. Any men who answer the call are expected to work for a private commercial concern while remaining subject to Roman law.",
+        "ledger": {
+          "currency": -80,
+          "trade": 2,
+          "technology": 1,
+          "intelligence": 2,
+          "relations": 2
+        }
+      },
+      {
+        "event": 3,
+        "date": "-0062-11-09",
+        "type": "CONNECTED",
+        "headline": "THE LAKE PORT BEGINS TO RETURN MONEY TO ITS OWNERS",
+        "entities": [
+          "Lake Port",
+          "Merchants",
+          "Gaius Maximus Valerius"
+        ],
+        "article": "The lake landing has now begun to produce a more regular return from the movement and handling of goods. Merchants using the road and landing pay for storage, loading, transport assistance and other ordinary services connected with the station. The sums are still modest beside the fortunes of Rome's great commercial houses, but they are no longer merely promises of future profit. Grain, timber, tools and agricultural produce form much of the traffic presently observed. The improved road and guarded landing have made the estate a more dependable stopping place than it was only a few months ago.",
+        "ledger": {
+          "currency": 140,
+          "trade": 3,
+          "economy": 2,
+          "stability": 1
+        }
+      },
+      {
+        "event": 4,
+        "date": "-0062-11-13",
+        "type": "DIRECT",
+        "headline": "VALERIUS DIVIDES HIS COMMERCIAL RECEIPTS BETWEEN ESTATE AND PORT",
+        "entities": [
+          "Main Estate",
+          "Lake Port",
+          "Estate Accounts"
+        ],
+        "article": "Valerius has ordered that the proceeds of the new commerce not be kept in a single storehouse. Coin and valuable goods are instead divided between secure storage at the principal estate and protected stores within the defended port. Written tallies are kept of what enters and leaves each holding, while guards are instructed to prevent unauthorized removal. The measure is intended to reduce the danger that theft, fire or sudden disorder at one place might destroy the whole of the estate's working capital. The port therefore holds its own reserve for daily trade and maintenance, while the main estate retains another reserve for the wider household and its obligations.",
+        "ledger": {
+          "currency": -60,
+          "infrastructure": 1,
+          "supply": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event": 5,
+        "date": "-0062-11-18",
+        "type": "DIRECT",
+        "headline": "A SEPARATE PRIVATE ACCOUNT IS SET APART FROM THE BUSINESS PURSE",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Private Reserve",
+          "Commercial Accounts"
+        ],
+        "article": "A second distinction has been made within Valerius's accounts. Money belonging to his personal household is now recorded separately from the funds committed to the road, port, boats, stores and other commercial works. The arrangement is intended to make clear which coin belongs to the business and which belongs to Valerius himself. Ten parts in every hundred of realized net commercial profit are to pass into the private reserve, while the remaining ninety parts stay available to maintain and enlarge the enterprise. No interest is claimed upon the private reserve merely because it exists, and no hidden multiplication of coin is permitted by the new accounting practice.",
+        "ledger": {
+          "currency": -10,
+          "legitimacy": 1,
+          "stability": 1,
+          "organization": 1
+        }
+      },
+      {
+        "event": 6,
+        "date": "-0062-11-22",
+        "type": "CONNECTED",
+        "headline": "MERCHANTS DISCUSS A SMALL PRIVATE FLEET FOR THE LAKE TRADE",
+        "entities": [
+          "Merchants",
+          "Lake Port",
+          "Shipwrights",
+          "Sailors"
+        ],
+        "article": "Merchants visiting the lake station have begun discussing the usefulness of maintaining several small cargo craft under Valerius's private concern. Such vessels would permit goods to be moved on the water without waiting upon outside boatmen for every journey. The proposal remains commercial rather than naval, and the craft under discussion are appropriate to the lake and its existing traffic. Shipwrights are still being sought, so the undertaking cannot yet be described as a fully established fleet. Nevertheless, the search for skilled sailors and builders has made the intention plain to those doing business at the port.",
+        "ledger": {
+          "currency": -50,
+          "trade": 2,
+          "technology": 1,
+          "economy": 1,
+          "relations": 2
+        }
+      },
+      {
+        "event": 7,
+        "date": "-0062-11-26",
+        "type": "WORLD",
+        "headline": "CICERO AND CAESAR REMAIN SUBJECTS OF COUNTRY REPORTS AS ROME'S POLITICS MOVE ON",
+        "entities": [
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar",
+          "Roman Republic"
+        ],
+        "article": "Reports carried from Rome continue to place Marcus Tullius Cicero and Gaius Julius Caesar among the names most frequently discussed in political conversation. The affairs of the Republic remain of interest even in country districts where merchants and landholders receive news by letter and traveler. The continuing political prominence of such men gives Roman commercial households reason to watch developments far beyond their own estates. Valerius's growing traffic at the lake is therefore being considered alongside a wider Roman world in which private wealth, military reputation and political connection often travel together. No public office or extraordinary authority has been granted to Valerius by these reports.",
+        "ledger": {
+          "relations": 1,
+          "intelligence": 1
+        }
+      },
+      {
+        "event": 8,
+        "date": "-0062-11-30",
+        "type": "WORLD",
+        "headline": "LOCAL NEWS: THE LAKE ROAD NOW CARRIES COMMERCE, PATROLS AND NEWS FROM AFAR",
+        "entities": [
+          "Gaius Maximus Valerius",
+          "Estate Road",
+          "Lake Port",
+          "Marcus Tullius Cicero",
+          "Gaius Julius Caesar"
+        ],
+        "article": "The month closes with the road between Valerius's principal estate and the lake station seeing more regular movement than at any earlier point in the year. Patrols now watch the route, the port is returning money from ordinary commerce, and dispatches have gone outward in search of shipwrights and sailors. The estate's accounts have also been divided so that the port and principal holding each retain their own stores, while Valerius keeps a separate personal reserve. The arrangement leaves the commercial enterprise responsible for its own maintenance rather than drawing without limit upon the private purse. In the wider country, news from Rome continues to circulate, with Cicero and Caesar among the prominent names carried by travelers and letters. The undertaking remains a private estate business operating under Roman law, though its growing usefulness has made it increasingly difficult for merchants and neighboring landholders to ignore.",
+        "ledger": {
+          "currency": 0
+        }
+      }
+    ],
+    "running_total": {
+      "currency": -130,
+      "trade": 12,
+      "economy": 6,
+      "infrastructure": 2,
+      "readiness": 1,
+      "organization": 6,
+      "stability": 3,
+      "intelligence": 4,
+      "relations": 7,
+      "legitimacy": 2,
+      "technology": 2,
+      "supply": 2,
+      "morale": 0,
+      "agriculture": 0,
+      "soldiers": 0,
+      "taxation": 0,
+      "exhaustion": 0
+    },
+    "commercial_accounting": {
+      "gross_receipts": 500,
+      "operating_security_and_maintenance_costs": 300,
+      "net_public_profit": 200,
+      "private_transfer_rate": 0.1,
+      "private_transfer": 20,
+      "public_account_end": 1280,
+      "private_account_end": 20
+    }
+  },
+  "migration": {
+    "status": "legacy-normalized",
+    "source_schema": "legacy-news",
+    "preserved": true
+  }
 }

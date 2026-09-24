@@ -14,9 +14,8 @@
       "type": "direct",
       "headline": "THE CAPTURED RECORDS ARE TURNED INTO A MARCHING MAP",
       "article": "Valerius's officers have spent the first days of March comparing the records recovered from the captured watching post with the roads and tracks ahead of the column. The documents do not provide a complete picture of the country, but they identify enough recurring routes and observation points to make several earlier uncertainties less severe. Scouts are consequently being sent along paths selected from the captured information rather than searching the countryside without direction. The main body remains behind the forward scouts while Valerius keeps the column moving toward the interior. The value of the captured records is already becoming visible in the way the expedition chooses where not to travel as much as where it does.",
-      "source_event_id": "GMV-62BCE-001-R039-E001",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E002",
@@ -24,9 +23,8 @@
       "type": "direct",
       "headline": "VALERIUS BYPASSES A WATCHED ROAD",
       "article": "A road identified in the captured records as a regularly watched approach is deliberately avoided by the expedition. Valerius instead sends the column through a less direct track that the records indicate is connected to the same interior route farther ahead. The detour costs additional provisions and forces the men to negotiate rougher ground, but it keeps the main body away from a position where its movement could have been observed in advance. No large band is encountered during the maneuver. The decision marks the first clear use of the captured post's information to alter the expedition's route rather than merely explain what has already happened.",
-      "source_event_id": "GMV-62BCE-001-R039-E002",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E003",
@@ -34,9 +32,8 @@
       "type": "direct",
       "headline": "THE COLUMN ENTERS COUNTRY UNDER BANDIT CONTROL",
       "article": "By the middle of the month the expedition has crossed into country where the authority of the local bandit groups is more visible than that of established estate holders. Villagers and isolated cultivators are cautious when Roman soldiers approach, and several settlements provide only limited information until the men are convinced that Valerius intends to keep discipline. The captured records have warned the expedition which roads are commonly watched, but they do not reveal every local allegiance. Valerius therefore advances without assuming that every inhabitant is hostile or every stranger is trustworthy. The change in atmosphere is nevertheless unmistakable as the expedition moves beyond the country where its earlier intelligence was gathered.",
-      "source_event_id": "GMV-62BCE-001-R039-E003",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E004",
@@ -44,9 +41,8 @@
       "type": "logistics",
       "headline": "A HIDDEN SUPPLY POINT IS FOUND BEFORE THE BANDITS RETURN",
       "article": "Information from the captured post leads Valerius's men to a secluded storage point away from the principal road. The stores appear to have been assembled for use by men moving through the district rather than for a permanent settlement, and their discovery gives the expedition provisions it would otherwise have had to carry from the rear. The position is secured without a pitched battle, and the usable stores are placed under guard before the column resumes its movement. The discovery does not solve the expedition's supply problem, but it reduces the immediate pressure created by the earlier detour. More importantly, it confirms that at least part of the information recovered from the watching post corresponds to physical arrangements still present in the countryside.",
-      "source_event_id": "GMV-62BCE-001-R039-E004",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E005",
@@ -54,9 +50,8 @@
       "type": "inference",
       "headline": "SCOUTS TRACE THE NETWORK BEHIND THE WATCHERS",
       "article": "The expedition's scouts have begun comparing the movements observed in the field with the routes described in the captured records. Several paths appear to connect isolated watching positions with larger roads farther inside the country, suggesting that the men encountered in January were part of a network rather than a single independent band. The conclusion remains an assessment rather than a complete identification of the network's leadership. Valerius nevertheless now has a clearer basis for deciding which movements deserve attention and which are likely to be secondary. The intelligence advantage is therefore becoming cumulative as field observation is added to the written information recovered earlier.",
-      "source_event_id": "GMV-62BCE-001-R039-E005",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E006",
@@ -64,9 +59,8 @@
       "type": "surprise",
       "headline": "A BANDIT PATROL SEARCHES THE WRONG CAMP",
       "article": "A small bandit patrol reaches a position where it appears to expect the Roman column to have stopped. Valerius had already moved the main body away from the site after information from the captured post indicated that the position was exposed to observation. The patrol finds signs of recent activity but no Roman force waiting there, and it withdraws before the expedition can be drawn into an unnecessary engagement. The episode demonstrates that the captured information is affecting the enemy's ability to locate the column as well as Valerius's ability to locate them. The advantage is limited, however, because the patrol's withdrawal warns the Romans that their movements are being actively searched.",
-      "source_event_id": "GMV-62BCE-001-R039-E006",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E007",
@@ -74,9 +68,8 @@
       "type": "direct",
       "headline": "AN INTERIOR WATCHING POST FALLS WITHOUT A PITCHED BATTLE",
       "article": "Valerius directs a small force toward another watching position whose existence was indicated by the captured records and later corroborated by scouts. The position is reached before its occupants can assemble a larger force, and the defenders withdraw into the surrounding country rather than fight for the post. Roman soldiers secure the site, examine its stores, and recover additional fragments of information concerning roads farther ahead. The success gives Valerius another physical position from which to observe the interior without committing the main column to a large engagement. It also strengthens the working assumption that the expedition is dismantling a chain of observation posts rather than merely chasing isolated bands.",
-      "source_event_id": "GMV-62BCE-001-R039-E007",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     },
     {
       "event_id": "GMV-62BCE-001-R039-E008",
@@ -84,13 +77,109 @@
       "type": "roundup",
       "headline": "LOCAL NEWS: VALERIUS HAS BEGUN USING THE BANDITS' OWN NETWORK AGAINST THEM",
       "article": "March closes with Valerius's expedition operating farther inside the bandit-controlled country and relying heavily upon information taken from the watching posts it has already captured. The column has avoided at least one watched road, located a hidden supply point, and reached another observation post before its defenders could assemble a larger force. The movements have not been costless, as the detours and repeated maneuvering have increased the exhaustion of the men. Local distrust also remains a problem, particularly where communities have lived under the influence of armed groups for some time. Yet the expedition now possesses a growing picture of the interior network, and Valerius has demonstrated that captured intelligence can be converted into movement, supply, and positional advantages rather than simply stored as information.",
-      "source_event_id": "GMV-62BCE-001-R039-E008",
-      "visibility": "player-accessible",
-      "confidence": "simulation"
+      "entities": [],
+      "state_changes": []
     }
   ],
+  "legacy_record": {
+    "schema_version": "gmv-news-v2",
+    "campaign_id": "GMV-62BCE-001",
+    "round": 39,
+    "period": {
+      "start": "-0060-03-01",
+      "end": "-0060-03-31",
+      "display": "1 March 60 BCE – 31 March 60 BCE"
+    },
+    "events": [
+      {
+        "event_id": "GMV-62BCE-001-R039-E001",
+        "date": "-0060-03-03",
+        "type": "direct",
+        "headline": "THE CAPTURED RECORDS ARE TURNED INTO A MARCHING MAP",
+        "article": "Valerius's officers have spent the first days of March comparing the records recovered from the captured watching post with the roads and tracks ahead of the column. The documents do not provide a complete picture of the country, but they identify enough recurring routes and observation points to make several earlier uncertainties less severe. Scouts are consequently being sent along paths selected from the captured information rather than searching the countryside without direction. The main body remains behind the forward scouts while Valerius keeps the column moving toward the interior. The value of the captured records is already becoming visible in the way the expedition chooses where not to travel as much as where it does.",
+        "source_event_id": "GMV-62BCE-001-R039-E001",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E002",
+        "date": "-0060-03-06",
+        "type": "direct",
+        "headline": "VALERIUS BYPASSES A WATCHED ROAD",
+        "article": "A road identified in the captured records as a regularly watched approach is deliberately avoided by the expedition. Valerius instead sends the column through a less direct track that the records indicate is connected to the same interior route farther ahead. The detour costs additional provisions and forces the men to negotiate rougher ground, but it keeps the main body away from a position where its movement could have been observed in advance. No large band is encountered during the maneuver. The decision marks the first clear use of the captured post's information to alter the expedition's route rather than merely explain what has already happened.",
+        "source_event_id": "GMV-62BCE-001-R039-E002",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E003",
+        "date": "-0060-03-10",
+        "type": "direct",
+        "headline": "THE COLUMN ENTERS COUNTRY UNDER BANDIT CONTROL",
+        "article": "By the middle of the month the expedition has crossed into country where the authority of the local bandit groups is more visible than that of established estate holders. Villagers and isolated cultivators are cautious when Roman soldiers approach, and several settlements provide only limited information until the men are convinced that Valerius intends to keep discipline. The captured records have warned the expedition which roads are commonly watched, but they do not reveal every local allegiance. Valerius therefore advances without assuming that every inhabitant is hostile or every stranger is trustworthy. The change in atmosphere is nevertheless unmistakable as the expedition moves beyond the country where its earlier intelligence was gathered.",
+        "source_event_id": "GMV-62BCE-001-R039-E003",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E004",
+        "date": "-0060-03-14",
+        "type": "logistics",
+        "headline": "A HIDDEN SUPPLY POINT IS FOUND BEFORE THE BANDITS RETURN",
+        "article": "Information from the captured post leads Valerius's men to a secluded storage point away from the principal road. The stores appear to have been assembled for use by men moving through the district rather than for a permanent settlement, and their discovery gives the expedition provisions it would otherwise have had to carry from the rear. The position is secured without a pitched battle, and the usable stores are placed under guard before the column resumes its movement. The discovery does not solve the expedition's supply problem, but it reduces the immediate pressure created by the earlier detour. More importantly, it confirms that at least part of the information recovered from the watching post corresponds to physical arrangements still present in the countryside.",
+        "source_event_id": "GMV-62BCE-001-R039-E004",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E005",
+        "date": "-0060-03-18",
+        "type": "inference",
+        "headline": "SCOUTS TRACE THE NETWORK BEHIND THE WATCHERS",
+        "article": "The expedition's scouts have begun comparing the movements observed in the field with the routes described in the captured records. Several paths appear to connect isolated watching positions with larger roads farther inside the country, suggesting that the men encountered in January were part of a network rather than a single independent band. The conclusion remains an assessment rather than a complete identification of the network's leadership. Valerius nevertheless now has a clearer basis for deciding which movements deserve attention and which are likely to be secondary. The intelligence advantage is therefore becoming cumulative as field observation is added to the written information recovered earlier.",
+        "source_event_id": "GMV-62BCE-001-R039-E005",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E006",
+        "date": "-0060-03-22",
+        "type": "surprise",
+        "headline": "A BANDIT PATROL SEARCHES THE WRONG CAMP",
+        "article": "A small bandit patrol reaches a position where it appears to expect the Roman column to have stopped. Valerius had already moved the main body away from the site after information from the captured post indicated that the position was exposed to observation. The patrol finds signs of recent activity but no Roman force waiting there, and it withdraws before the expedition can be drawn into an unnecessary engagement. The episode demonstrates that the captured information is affecting the enemy's ability to locate the column as well as Valerius's ability to locate them. The advantage is limited, however, because the patrol's withdrawal warns the Romans that their movements are being actively searched.",
+        "source_event_id": "GMV-62BCE-001-R039-E006",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E007",
+        "date": "-0060-03-27",
+        "type": "direct",
+        "headline": "AN INTERIOR WATCHING POST FALLS WITHOUT A PITCHED BATTLE",
+        "article": "Valerius directs a small force toward another watching position whose existence was indicated by the captured records and later corroborated by scouts. The position is reached before its occupants can assemble a larger force, and the defenders withdraw into the surrounding country rather than fight for the post. Roman soldiers secure the site, examine its stores, and recover additional fragments of information concerning roads farther ahead. The success gives Valerius another physical position from which to observe the interior without committing the main column to a large engagement. It also strengthens the working assumption that the expedition is dismantling a chain of observation posts rather than merely chasing isolated bands.",
+        "source_event_id": "GMV-62BCE-001-R039-E007",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R039-E008",
+        "date": "-0060-03-31",
+        "type": "roundup",
+        "headline": "LOCAL NEWS: VALERIUS HAS BEGUN USING THE BANDITS' OWN NETWORK AGAINST THEM",
+        "article": "March closes with Valerius's expedition operating farther inside the bandit-controlled country and relying heavily upon information taken from the watching posts it has already captured. The column has avoided at least one watched road, located a hidden supply point, and reached another observation post before its defenders could assemble a larger force. The movements have not been costless, as the detours and repeated maneuvering have increased the exhaustion of the men. Local distrust also remains a problem, particularly where communities have lived under the influence of armed groups for some time. Yet the expedition now possesses a growing picture of the interior network, and Valerius has demonstrated that captured intelligence can be converted into movement, supply, and positional advantages rather than simply stored as information.",
+        "source_event_id": "GMV-62BCE-001-R039-E008",
+        "visibility": "player-accessible",
+        "confidence": "simulation"
+      }
+    ],
+    "migration": {
+      "status": "native-v2",
+      "source_file": "roleplays/GMV-62BCE-001/news/round-039.json"
+    }
+  },
   "migration": {
-    "status": "native-v2",
-    "source_file": "roleplays/GMV-62BCE-001/news/round-039.json"
+    "status": "legacy-normalized",
+    "source_schema": "gmv-news-v2",
+    "preserved": true
   }
 }
