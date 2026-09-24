@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 40,
-  "date": "-0060-04-30",
+  "round": 41,
+  "date": "-0060-05-31",
   "treasury": 1970,
   "wealth_accounts": {
     "public": 2693,
@@ -27,8 +27,8 @@
     "legitimacy": 100,
     "exhaustion": 55,
     "technology": 85,
-    "intelligence": 957,
-    "relations": 97,
+    "intelligence": 963,
+    "relations": 98,
     "land_area_sq_miles": 4
   },
   "holdings": {
@@ -49,22 +49,22 @@
     "merchant-connections": 16
   },
   "continuity": {
-    "campaign_development": "April 60 BCE: Valerius continued deeper into the bandit-controlled interior and actively exploited captured watching-post intelligence. He bypassed known ambush corridors, recovered another hidden store, used a deliberately abandoned trail to misdirect a search party, and disrupted a communications crossing without a pitched battle. Intelligence rose to 957, supply to 50, exhaustion to 55, relations fell to 97, while stability and legitimacy remained capped at 100. Land holdings remained 4.00 square miles.",
+    "campaign_development": "May 60 BCE: Valerius reviewed his senior commanders and publicly rewarded demonstrated military skill, including officers without prominent noble families. The awards broadened internal recognition of competence and produced new local reporting about one decorated commander's reputation. Intelligence rose to 963 and relations to 98; other core metrics remained unchanged.",
     "land_area_history": "4.00 square miles unchanged."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
-    "this_round_standard_special": true,
-    "this_round_magnitude": 7,
+    "this_round_standard_special": false,
+    "this_round_magnitude": null,
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
       "chance_percent": 6.42,
       "checks": [
-        48.2271,
-        12.4473,
-        81.3304
+        17.3842,
+        64.7711,
+        92.1154
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
