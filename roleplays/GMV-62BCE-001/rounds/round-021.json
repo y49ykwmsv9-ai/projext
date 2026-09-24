@@ -1,0 +1,181 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 21,
+  "period": {
+    "start": "-0061-09-01",
+    "end": "-0061-09-30",
+    "display": "1 September 61 BCE – 30 September 61 BCE"
+  },
+  "player_action": "Gaius Maximus Valerius continues to organize his estates' finances and invests in diversified strategic debt obligations tied to productive commerce, while refusing to profit from distressed sellers or predatory acquisitions associated in Roman discussion with the methods attributed to Crassus.",
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0061-09-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS ORDERS A FULL ACCOUNTING OF HIS ESTATES",
+      "article": "September opens with Valerius ordering the accounts of his principal estate, lake port, Roman household and military establishment brought together for review. Receipts, wages, maintenance charges, transport costs and reserves are entered separately so that productive income is not mistaken for immediately spendable cash. The Roman office receives copies of the estate books, while the country administrators retain their own working records. Valerius also requires that obligations due to the estate be recorded by maturity rather than treated as money already in hand. The exercise leaves the household with a clearer view of what can be invested without weakening ordinary operations.",
+      "ledger": {
+        "currency": -10,
+        "intelligence": 2,
+        "legitimacy": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0061-09-06",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "PUBLIC RESERVES AND PRIVATE MONEY ARE KEPT DISTINCT",
+      "article": "Valerius orders the household to maintain a strict separation between estate capital and his personal reserve. Money required for wages, grain, repairs, security and ordinary commerce is assigned before investment funds are released. His private account remains outside the estate's working capital and receives only the established share of realized public profit. The Roman office begins keeping a schedule of obligations and expected receipts so that an investment cannot quietly consume money intended for the estates. The arrangement gives Valerius a clearer limit on what may be placed at risk.",
+      "ledger": {
+        "currency": -15,
+        "intelligence": 2,
+        "legitimacy": 1,
+        "exhaustion": -1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0061-09-10",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS ENTERS THE ROMAN DEBT MARKET WITH STRATEGIC PURCHASES",
+      "article": "Valerius places three hundred currency into a diversified group of private debt obligations rather than concentrating the estate's money in a single borrower. The purchases are tied to productive activity, including grain movements, shipping and established commercial traffic connected with roads and the lake port. Each obligation is entered with a fixed principal, a stated return and a recorded maturity. No purchase is made solely because an owner is desperate for immediate cash. The estate therefore gains claims on several productive enterprises while retaining enough liquid capital for wages, supplies and maintenance.",
+      "ledger": {
+        "currency": -300,
+        "agriculture": 1,
+        "supply": 1,
+        "intelligence": 3
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0061-09-14",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "DISTRESSED PROPERTY IS LEFT OFF THE VALERIUS LEDGER",
+      "article": "Several opportunities reach the Roman office involving owners willing to sell obligations or property quickly in order to meet immediate debts. Valerius declines to use the pressure of another man's difficulty to force the price downward. His agents are instructed to purchase only at terms the seller can reasonably accept without coercion, even when waiting reduces the estate's immediate advantage. The policy costs the household opportunities that might have produced faster gains. It also establishes a clear boundary between investment and acquisition through distress.",
+      "ledger": {
+        "currency": -10,
+        "legitimacy": 1,
+        "intelligence": 2
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0061-09-18",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "FIRST RETURNS ARRIVE FROM THE NEW DEBT PORTFOLIO",
+      "article": "The first payments arrive from several of the obligations purchased earlier in the month. Grain and shipping ventures meet their scheduled payments, while the larger principal sums remain outstanding until their agreed maturities. The receipts are entered as realized commercial income rather than being immediately counted as new principal. Part of the return remains available to the public account, while the established private transfer is calculated only from realized net public profit. The early payments strengthen confidence in the estate's ability to earn from diversified claims without depending upon a single venture.",
+      "ledger": {
+        "currency": 55,
+        "intelligence": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0061-09-22",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "MATURITY CALENDARS ARE ADDED TO THE ROMAN OFFICE BOOKS",
+      "article": "Valerius orders every debt obligation to carry a visible maturity date, expected payment and responsible correspondent in the household records. The Roman office now keeps a calendar separating short-term receipts from longer claims so that several obligations cannot mature together and suddenly drain liquid reserves. Estate administrators are required to report missed payments promptly rather than concealing them inside general accounts. The system gives Valerius an early warning when a commercial venture weakens. It also makes the investment portfolio easier to manage alongside the estate's existing treasury placement.",
+      "ledger": {
+        "currency": -10,
+        "intelligence": 3,
+        "exhaustion": -1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0061-09-27",
+      "type": "WORLD",
+      "entities": [
+        "Marcus Licinius Crassus",
+        "Marcus Tullius Cicero",
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "ROMAN FINANCIAL CIRCLES DEBATE THE MAKING OF GREAT FORTUNES",
+      "article": "Talk in Rome continues to turn toward the enormous fortunes held by leading men and the methods by which such fortunes are assembled. Marcus Licinius Crassus is repeatedly cited in discussions of aggressive property acquisition and the profits available when calamity leaves owners under severe pressure. The old stories surrounding his purchases remain familiar in the city's financial conversation, although the circumstances and particulars are disputed in different tellings. Valerius's representatives make clear that his household will not follow that practice, preferring ordinary contracts and willing sellers even when this limits the immediate return. Reports from political circles, including those associated with Marcus Tullius Cicero, continue to reach the Roman household as the financial discussion spreads.",
+      "ledger": {
+        "intelligence": 3
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0061-09-30",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL NEWS: THE ESTATE CLOSES SEPTEMBER WITH ITS CAPITAL MORE DELIBERATELY DEPLOYED",
+      "article": "September closes with Valerius's estates operating under a more deliberate financial system than at the beginning of the month. The Roman office now records public reserves, private money, commercial receipts and debt obligations separately. Three hundred currency has been committed to diversified productive debt claims, while liquid funds remain available for the ordinary business of the estates. The first scheduled returns have already begun to arrive from grain and shipping obligations. Valerius's household continues to avoid purchases made solely from another man's distress, even when such purchases might offer a cheaper entry. The estate therefore enters October with its capital spread across productive activity while retaining a defined reserve for daily operations.",
+      "ledger": {}
+    }
+  ],
+  "running_total": {
+    "population": 0,
+    "currency": -290,
+    "soldiers": 0,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 1,
+    "infrastructure": 0,
+    "trade": 0,
+    "readiness": 0,
+    "morale": 0,
+    "supply": 1,
+    "organization": 0,
+    "stability": 0,
+    "legitimacy": 3,
+    "exhaustion": -2,
+    "technology": 0,
+    "intelligence": 16,
+    "relations": 0
+  },
+  "commercial_accounting": {
+    "gross_receipts": 620,
+    "operating_security_and_maintenance_costs": 400,
+    "net_public_profit": 220,
+    "private_transfer_rate": 0.1,
+    "private_transfer": 22,
+    "investment_principal_purchased": 300,
+    "public_account_change": -115,
+    "public_account_end": 526,
+    "private_account_end": 188
+  },
+  "treasury_interest_placement": {
+    "principal": 1000,
+    "source_account": "public",
+    "destination": "currency_treasury",
+    "start_treasury": 1745,
+    "qualifying_growth": 170,
+    "term": "3 months",
+    "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
+    "current_annualized_rate": 0.045,
+    "interest_realized": 0,
+    "settlement": "after the three-month observation period"
+  },
+  "investment_portfolio": {
+    "principal_committed": 300,
+    "market": "Roman private debt obligations",
+    "strategy": "diversified productive claims tied to grain, shipping and established commercial traffic",
+    "distress_acquisition_policy": "do not purchase obligations or property merely because an owner is under severe financial pressure",
+    "realized_returns_this_round": 55,
+    "outstanding_principal": 300
+  }
+}
