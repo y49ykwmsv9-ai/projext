@@ -1,0 +1,86 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 41,
+  "period": {
+    "start": "-0060-05-01",
+    "end": "-0060-05-31",
+    "display": "1 May 60 BCE – 31 May 60 BCE"
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R041-E001",
+      "date": "-0060-05-03",
+      "type": "direct",
+      "headline": "VALERIUS CALLS HIS COMMANDERS TOGETHER FOR A MONTH OF REVIEW",
+      "article": "The first days of May are spent away from the roads and watching posts as Valerius gathers his senior commanders around the expedition's command table. Reports from the preceding months are examined in detail, with particular attention given to decisions made under uncertainty, the handling of scouts, preservation of supplies, and the ability of subordinate officers to act without waiting for constant instruction. Valerius makes clear that family standing will not determine who is trusted with greater responsibility. Commanders are questioned about their own decisions rather than merely the reputation of their houses, and several officers are required to explain why particular risks were accepted or rejected. The discussions expose differences in temperament among the senior men, but they also give Valerius a clearer picture of which officers have repeatedly performed well when circumstances changed unexpectedly. By the end of the first review, the expedition's command structure has become more explicitly tied to demonstrated ability.",
+      "source_event_id": "GMV-62BCE-001-R041-E001",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R041-E002",
+      "date": "-0060-05-07",
+      "type": "connected",
+      "headline": "SCOUT OFFICERS ARE PRAISED FOR WORK DONE FAR FROM THE COMMAND TENT",
+      "article": "Several of the officers whose names emerge during the review are not the most prominent men in the expedition, but commanders and senior scouts whose recent decisions repeatedly protected the column from unnecessary exposure. Their reports show that they had recognized watched routes, interpreted incomplete information, and brought warnings back without exaggerating what they had actually discovered. Valerius gives particular attention to the distinction between courage and useful judgment, noting that an officer who correctly refuses a bad opportunity may have served the expedition more than one who takes a conspicuous but unnecessary risk. The recognition is therefore extended beyond the men who normally receive attention at headquarters. Senior officers begin to understand that field performance can now bring direct notice from Valerius himself. The change does not erase the influence of rank or family, but it establishes another path by which an officer's standing can be strengthened.",
+      "source_event_id": "GMV-62BCE-001-R041-E002",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R041-E003",
+      "date": "-0060-05-12",
+      "type": "direct",
+      "headline": "VALERIUS AWARDS MEDALS FOR TALENT RATHER THAN FAMILY NAME",
+      "article": "On 12 May, Valerius formally distributes military decorations to officers whose performance has distinguished them during the expedition. The recipients include men of established families, but several awards go instead to commanders whose claims rest almost entirely upon their conduct in the field. One officer is recognized for repeatedly preserving his men while completing difficult reconnaissance tasks; another for maintaining order during movements in which communications were uncertain; another for identifying opportunities that senior officers had initially overlooked. Valerius makes the principle explicit before the assembled commanders: ancestry may open a man's path to command, but it will not by itself earn him distinction from this expedition. The ceremony is deliberately public, ensuring that the recipients' soldiers and fellow officers understand why the medals were granted. The awards give the expedition a new standard by which competence can become a source of authority.",
+      "source_event_id": "GMV-62BCE-001-R041-E003",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R041-E004",
+      "date": "-0060-05-17",
+      "type": "connected",
+      "headline": "JUNIOR OFFICERS BEGIN COMPETING ON THE FIELD INSTEAD OF AT DINNER TABLES",
+      "article": "News of the decorations spreads quickly through the expedition's camps and detachments. Younger officers begin discussing which assignments might allow them to demonstrate their abilities, while veteran soldiers take greater interest in the conduct of commanders who previously might have been known chiefly through family connections. Some aristocratic officers accept the change without difficulty, while others privately regard the emphasis on demonstrated ability as a challenge to established expectations. Valerius does not abolish hierarchy or Roman custom, and no formal restructuring of the officer corps follows immediately. Instead, the practical effect is that successful reconnaissance, disciplined logistics, sound battlefield judgment, and the ability to maintain cohesion under pressure have become more visible routes to advancement. The command tent consequently becomes a place where performance is increasingly discussed alongside ancestry, wealth, and political connections. For an expedition operating far from Rome, that distinction begins to matter.",
+      "source_event_id": "GMV-62BCE-001-R041-E004",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R041-E005",
+      "date": "-0060-05-22",
+      "type": "surprise",
+      "headline": "A COMMANDER'S UNEXPECTED REPUTATION REACHES BEYOND THE ROMAN CAMP",
+      "article": "One of the newly decorated commanders, previously little known outside military circles, becomes the subject of conversation among local communities that have observed the expedition's movements. His reputation has grown not from his family but from the disciplined conduct of men under his authority and from several earlier decisions that reduced unnecessary disruption along the expedition's routes. Local informants begin referring to him by name when discussing which Roman officers appear predictable, restrained, or competent. The information reaches Valerius through intermediaries and is notable precisely because the officer had not possessed an established political reputation in the region. The commander is warned that recognition can bring advantages as well as unwanted attention, particularly when local groups begin distinguishing individual Roman officers from the expedition as a whole. What began as a medal ceremony has therefore produced a small but unexpected change in how the Romans are perceived beyond their own camp.",
+      "source_event_id": "GMV-62BCE-001-R041-E005",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R041-E006",
+      "date": "-0060-05-27",
+      "type": "direct",
+      "headline": "VALERIUS CREATES A CLEARER PATH FROM FIELD PERFORMANCE TO COMMAND",
+      "article": "Before the month ends, Valerius holds a final council with his principal commanders and establishes a practical expectation for future appointments. Officers who demonstrate judgment, initiative, discipline, and the ability to preserve their men will be considered for greater responsibility regardless of whether their family possesses extensive political influence. The policy remains informal rather than a sweeping institutional reform, and Valerius retains the authority to select commanders according to the circumstances of the expedition. Nevertheless, the principle has now been demonstrated publicly and repeatedly enough that officers can reasonably expect their conduct to be remembered when future assignments are made. The most experienced commanders begin identifying promising subordinates who might otherwise have remained overlooked. The expedition's command culture consequently shifts another step toward rewarding demonstrated military talent.",
+      "source_event_id": "GMV-62BCE-001-R041-E006",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R041-E007",
+      "date": "-0060-05-31",
+      "type": "connected",
+      "headline": "LOCAL NEWS: THE MEDALS HAVE CHANGED WHO THE EXPEDITION WATCHES",
+      "article": "By the end of May, the most important consequence of Valerius's ceremonies is not the medals themselves but the attention they have directed toward the expedition's lesser-known officers. Commanders now know that decisions made on distant roads can reach the commander's table, while junior officers have greater reason to distinguish themselves through competence rather than reputation alone. The established families remain influential and no immediate struggle for command emerges, but the expedition has acquired a clearer internal memory of who has performed well under pressure. Valerius's senior commanders consequently enter the next month with a more detailed understanding of the men beneath them and of the abilities available within the expedition. The change is subtle rather than revolutionary, but it gives Valerius a stronger pool from which to choose when the campaign next demands difficult decisions. The month closes with the command structure intact, its hierarchy unchanged, but its standards more closely tied to demonstrated skill.",
+      "source_event_id": "GMV-62BCE-001-R041-E007",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    }
+  ],
+  "migration": {
+    "status": "native-v2",
+    "source_file": "roleplays/GMV-62BCE-001/news/round-041.json"
+  }
+}
