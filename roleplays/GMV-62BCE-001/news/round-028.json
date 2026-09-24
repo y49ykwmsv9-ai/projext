@@ -1,0 +1,131 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 28,
+  "period": {
+    "start": "-0060-04-01",
+    "end": "-0060-04-30",
+    "display": "1 April 60 BCE – 30 April 60 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-04-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS PREPARES A FORMAL OATH OF SERVICE AND HONOR",
+      "article": "Valerius begins April by ordering the terms of a personal oath to be written before witnesses from his household and among the men who serve his estates. The document binds his public reputation to the conduct he has promised before his followers, declaring that his word as commander is to be judged by the manner in which he shares their service. The language is placed alongside the family's existing legal and property records so that future generations of the household will find the pledge preserved with its other formal instruments. It does not create a new Roman office or alter the authority granted to him by the state. Instead, it establishes a family commitment by which Valerius deliberately makes his honor a matter to be remembered, examined and inherited.",
+      "ledger": {
+        "currency": -20,
+        "legitimacy": 3,
+        "intelligence": 3,
+        "organization": 1,
+        "stability": 2,
+        "relations": 2
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-04-07",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE OATH IS ENTERED AMONG THE HOUSEHOLD'S FORMAL RECORDS",
+      "article": "The completed oath is copied into the household's formal records and witnessed by trusted members of the estate administration. Its central promise is that Valerius will not demand from his armed men a hardship that he is unwilling to share when his presence can reasonably be maintained without endangering the household as a whole. The record distinguishes personal courage from reckless exposure, leaving responsibility for the safety of the estates and dependents explicitly within the commander's duty. Household officials are instructed to preserve the text with the family's other important legal papers. The unusual care given to the document makes clear that Valerius intends the pledge to survive the circumstances in which it was first made.",
+      "ledger": {
+        "currency": -15,
+        "legitimacy": 3,
+        "stability": 2,
+        "intelligence": 2,
+        "organization": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-04-12",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS SWEARS BEFORE HIS MEN TO SHARE THEIR MARCHES AND RATIONS",
+      "article": "Before the assembled armed men, Valerius publicly repeats the oath in language that leaves little room for ambiguity. He promises that, when an expedition is undertaken, he will lead its marches rather than sending others to bear dangers he avoids himself, and that he will eat the same provisions issued to the men whether the ration is plentiful or poor. He declares that in battle he will remain with the force and lead it through the danger, provided that doing so does not place the household and those dependent upon it at unreasonable risk. The men hear the promise directly from their commander rather than through an intermediary or written proclamation. The ceremony ends without celebration, but the soldiers remain gathered for some time afterward discussing the terms of the pledge among themselves.",
+      "ledger": {
+        "currency": -25,
+        "morale": 5,
+        "legitimacy": 3,
+        "relations": 4,
+        "stability": 2,
+        "intelligence": 2,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-16",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "COMMANDERS ARE GIVEN THE SAME RULE OF SHARED HARDSHIP",
+      "article": "In the days following the oath, Valerius instructs his subordinate commanders that the pledge is not to become an excuse for disorder or unnecessary risk. Officers are expected to maintain the household's defenses, protect the estates and preserve the means by which the men are fed and equipped. At the same time, Valerius makes clear that he will not use his position to reserve better food, shelter or easier marches for himself when the force is operating under ordinary field conditions. The instruction gives the oath a practical character: leadership requires both personal participation and responsibility for the people who remain behind. The commanders record the instructions as part of the estate's standing military arrangements.",
+      "ledger": {
+        "currency": -20,
+        "organization": 2,
+        "stability": 3,
+        "legitimacy": 2,
+        "supply": 1,
+        "intelligence": 3,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-04-21",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "THE MEN TEST THE PROMISE DURING A SPRING MARCH",
+      "article": "A spring march carries several detachments over the roads between the principal estate and its outer holdings, providing the first ordinary test of the promise made before the ranks. Valerius travels with the column and takes the same field provisions issued to the soldiers while officers monitor the condition of the men and animals. The march is conducted as training rather than as a campaign, and no battle is sought or encountered. By keeping himself within the same routine of movement, meals and rest, Valerius turns the oath from a ceremony into a visible habit of command. The column returns with its equipment intact and the household's defensive duties still fully maintained.",
+      "ledger": {
+        "currency": -30,
+        "morale": 2,
+        "readiness": 0,
+        "supply": -1,
+        "intelligence": 3,
+        "relations": 2,
+        "exhaustion": 2
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-04-26",
+      "type": "WORLD",
+      "entities": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "headline": "ROMAN REPORTS SPEAK OF HONOR, COMMAND AND THE BURDEN OF PUBLIC REPUTATION",
+      "article": "Reports from Rome continue to carry discussion of the conduct expected from men who seek influence in the Republic. Caesar's political prospects and alliances remain closely watched, while Cicero continues to engage with questions of public duty and the direction of Roman affairs. Pompey's position remains part of the wider calculations of men discussing power and obligation in the capital. News of Valerius's personal oath has not become a matter of national politics, but the same Roman concern with reputation and public conduct gives the pledge a familiar language to those hearing of it through merchants and household correspondents. No office or political advancement follows from the reports.",
+      "ledger": {
+        "intelligence": 4,
+        "relations": 1
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-04-30",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL ROUNDUP: VALERIUS MAKES HIS HONOR PART OF THE HOUSEHOLD RECORD",
+      "article": "April closes with the new oath preserved among the formal records of the Valerius household and repeated publicly before the armed men who serve the estates. The promise joins personal conduct to the reputation of the family without removing the commander's responsibility to protect the household and those who depend upon it. Soldiers have heard Valerius pledge to share their marches and rations and to lead them in battle when circumstances require it. Estate officials have simultaneously been reminded that courage must not become recklessness at the expense of the wider household. The local significance of the pledge therefore lies not only in what Valerius promised to his men, but in the decision to preserve that promise as part of the family's continuing record.",
+      "ledger": {}
+    }
+  ]
+}
