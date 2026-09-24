@@ -75,7 +75,7 @@
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
     "canonical_round_49": "verified",
-    "commit_check": "pending",
+    "commit_check": "verified",
     "financial_continuity_audit": {
       "status": "passed_with_historical_uncertainty_preserved",
       "candidate_estate_tax_on_recorded_profit": 135,
@@ -86,7 +86,7 @@
     "canonical_round_50": "verified",
     "special_event_resolution": "verified",
     "canonical_round_51": "verified",
-    "canonical_round_52": "pending",
+    "canonical_round_52": "verified",
     "magnitude_11_check": "verified"
   },
   "property_ledger": {
