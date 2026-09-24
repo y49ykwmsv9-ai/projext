@@ -1,0 +1,96 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 40,
+  "period": {
+    "start": "-0060-04-01",
+    "end": "-0060-04-30",
+    "display": "1 April 60 BCE – 30 April 60 BCE"
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R040-E001",
+      "date": "-0060-04-03",
+      "type": "direct",
+      "headline": "VALERIUS USES THE CAPTURED ROUTES TO DISAPPEAR FROM THE BANDIT WATCHERS",
+      "article": "The first days of April are spent turning the captured records into a more deliberate movement plan. Valerius's scouts identify which tracks are normally watched and which connecting paths allow the column to move without repeatedly crossing the same observation points. Rather than simply marching along the safest road, the expedition alternates between known secondary routes and short concealed movements that make its direction harder to infer. The men are warned that the information is not complete and that the bandits may already have changed their habits after the loss of the earlier posts. Even so, the records give Valerius something the expedition did not possess a month earlier: a working picture of how the country is watched and supplied.",
+      "source_event_id": "GMV-62BCE-001-R040-E001",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E002",
+      "date": "-0060-04-07",
+      "type": "logistics",
+      "headline": "A SECONDARY TRACK KEEPS THE COLUMN OUT OF A KNOWN AMBUSH CORRIDOR",
+      "article": "A route described in the captured records as a favored approach for intercepting travelers is abandoned before the Roman column reaches it. Valerius instead orders a longer crossing through broken ground, accepting slower progress in exchange for denying the local bands the predictable route they have used against other travelers. The detour consumes provisions and adds strain to the marching column, but no hostile force appears along the chosen track. The decision is significant because it uses intelligence defensively rather than merely to locate an enemy position. The bandits are forced to search for a Roman column whose direction is no longer obvious from the roads it has taken.",
+      "source_event_id": "GMV-62BCE-001-R040-E002",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E003",
+      "date": "-0060-04-11",
+      "type": "inference",
+      "headline": "SCOUTS IDENTIFY THE COMMUNICATIONS PATTERN BEHIND THE POSTS",
+      "article": "Repeated field observations are compared with the route markings taken from the captured watching posts. The scouts find that certain elevated positions and crossroads recur at intervals that make them useful for passing warnings from one district to another. This does not identify the leadership of the network, but it gives Valerius a practical understanding of where information is likely to travel first. A Roman patrol can therefore avoid revealing itself at one post while watching the route by which news of its movement would normally be carried onward. The expedition is beginning to contest the network's information flow rather than merely its physical positions.",
+      "source_event_id": "GMV-62BCE-001-R040-E003",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E004",
+      "date": "-0060-04-15",
+      "type": "logistics",
+      "headline": "A HIDDEN STORE IS TAKEN BEFORE ITS OWNERS CAN RETURN",
+      "article": "The captured records point toward another supply location beyond the principal road, and scouts confirm signs that the site is still being used. Valerius approaches cautiously and secures the store before the men responsible for maintaining it return in force. The usable provisions are inventoried and added to the expedition's reserve, while nonessential material is left rather than burdening the column with everything found. The discovery gives the expedition a temporary logistical advantage deep inside hostile country. It also confirms that the written information remains useful even after the network has begun changing its behavior.",
+      "source_event_id": "GMV-62BCE-001-R040-E004",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E005",
+      "date": "-0060-04-19",
+      "type": "surprise",
+      "headline": "A BANDIT SEARCH PARTY FOLLOWS A TRAIL VALERIUS HAS ALREADY ABANDONED",
+      "article": "A bandit search party reaches a track that Roman scouts deliberately used and then abandoned several days earlier. The searchers find traces strong enough to suggest that the Roman column passed through the area, but the main body is already elsewhere and the visible trail no longer corresponds to its present direction. Valerius had chosen the route because the captured records indicated that local watchers tended to follow the first obvious signs of movement before checking the connecting tracks. The deception is therefore not based on perfect knowledge but on exploiting a known habit at a known point in the network. The search party loses time while the Roman column continues deeper into the country, although its appearance confirms that the bandits are actively attempting to locate the expedition.",
+      "source_event_id": "GMV-62BCE-001-R040-E005",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E006",
+      "date": "-0060-04-23",
+      "type": "direct",
+      "headline": "VALERIUS CUTS A LINK BETWEEN TWO WATCHING POSITIONS",
+      "article": "Using the route information recovered in February and March, Valerius sends a small detachment to occupy a crossing that links two known observation areas. The objective is not to destroy either post outright but to make the movement of messengers between them more difficult while the main column continues beyond their immediate reach. The detachment establishes control of the crossing long enough to inspect the traffic moving through it and then rejoins the expedition. No pitched battle occurs, and the main force remains intact. The maneuver nevertheless places another interruption into the network that has been tracking Roman movements since the winter.",
+      "source_event_id": "GMV-62BCE-001-R040-E006",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E007",
+      "date": "-0060-04-27",
+      "type": "political",
+      "headline": "LOCAL HOUSEHOLDS BEGIN TESTING WHETHER ROMAN DISCIPLINE WILL HOLD",
+      "article": "Several households in the interior begin approaching Roman soldiers cautiously with limited information about roads, water, and movement through the district. Their willingness to speak is conditional and does not amount to an alliance, particularly because the bandit groups remain capable of returning after the Roman column passes. Valerius's officers maintain discipline and avoid treating every local as an enemy, which gives some communities a reason to provide practical information without openly declaring themselves for Rome. The result is modest but important: the expedition is no longer relying exclusively upon captured documents and military scouts. Local observation is beginning to supplement the intelligence taken from the network itself.",
+      "source_event_id": "GMV-62BCE-001-R040-E007",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R040-E008",
+      "date": "-0060-04-30",
+      "type": "roundup",
+      "headline": "LOCAL NEWS: THE BANDITS ARE BEING FORCED TO SEARCH FOR VALERIUS ON HIS TERMS",
+      "article": "April closes with Valerius operating farther inside the bandit-controlled country while repeatedly using captured information to decide where the expedition will and will not move. Known ambush corridors have been bypassed, another supply point has been recovered, and a search party has followed a deliberately abandoned trail instead of the Roman column's true direction. The network's communications routes are also being studied and intermittently disrupted, making it harder for individual watching positions to respond with perfect speed to Roman movements. The costs remain visible in provisions consumed and additional exhaustion imposed by concealed marches and detours. Local distrust has not disappeared, and the bandits remain capable of adapting once they understand what Valerius is doing. Nevertheless, the expedition now has an operational intelligence picture that is being used actively in the field rather than retained as a passive collection of notes.",
+      "source_event_id": "GMV-62BCE-001-R040-E008",
+      "visibility": "player-accessible",
+      "confidence": "simulation"
+    }
+  ],
+  "migration": {
+    "status": "native-v2",
+    "source_file": "roleplays/GMV-62BCE-001/news/round-040.json"
+  }
+}
