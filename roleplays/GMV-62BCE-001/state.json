@@ -12,7 +12,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": -460,
+    "currency": -505,
     "soldiers": 428,
     "taxation": 0,
     "economy": 100,
@@ -21,13 +21,13 @@
     "trade": 100,
     "readiness": 98,
     "morale": 100,
-    "supply": 65,
+    "supply": 48,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 194,
-    "technology": 62,
-    "intelligence": 567,
+    "exhaustion": 200,
+    "technology": 65,
+    "intelligence": 612,
     "relations": 100,
     "land_area_sq_miles": 4
   },
@@ -59,7 +59,7 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In October 60 BCE, Valerius personally led the expedition into the hard pass. Scouts identified a prepared ambush, and the main column continued into the pass while the 300 cavalry moved around the rear. The ambush was broken, the pass secured, and additional routes and concealed positions were documented. The expedition continues beyond the pass.",
+    "campaign_development": "In October 60 BCE, Valerius personally led the expedition into the hard pass. Scouts identified a prepared ambush, and the main column continued into the pass while the 300 cavalry moved around the rear. The ambush was broken, the pass secured, and a captured bundle of dispatches revealed evidence of a wider network linking roads, stores, watchers and armed groups across the country. The expedition continues beyond the pass with its rear communications now treated as part of the campaign problem.",
     "land_area_history": "The personal holdings measurement remains 4.00 square miles. Round 34 involved no land acquisition, loss, transfer, or other change to the holdings."
   },
   "special_event_policy": {
@@ -68,6 +68,17 @@
     "this_round_standard_special": true,
     "this_round_magnitude": 8,
     "this_round_magnitude_11_events": 1,
-    "current_round_opportunity_probability": 18
+    "current_round_opportunity_probability": 18,
+    "magnitude_11": {
+      "chance_percent": 7.36,
+      "checks": [
+        64.1882,
+        4.9271,
+        81.5524
+      ],
+      "raw_successes": 1,
+      "accepted_candidates": 1,
+      "events": 1
+    }
   }
 }

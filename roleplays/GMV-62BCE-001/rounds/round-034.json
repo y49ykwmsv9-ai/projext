@@ -1,27 +1,224 @@
 {
-  "scenario_id":"GMV-62BCE-001",
-  "round":34,
-  "period":{"start":"-0060-10-01","end":"-0060-10-31","display":"1 October 60 BCE – 31 October 60 BCE"},
-  "metric_schema":"fixed-v1+land-area-v1",
-  "player_action":"Gaius Maximus Valerius leads the march into the hard pass. He gives the column clear instructions to maintain formation, observe the heights, bends, side paths and concealed ground, and report any prepared killing ground before the main body commits. If an ambush is discovered, the order is not to retreat or reveal that it has been detected. Instead, the main body continues behaving as though the danger has not been noticed while Valerius sends the 300 cavalry behind the suspected ambushing force to form a closing net.",
-  "land_area_measurement":{"metric":"land_area_sq_miles","value":4,"delta":0,"unit":"square miles","acres":2560,"roman_iugera_approx":4110,"scope":"Gaius Maximus Valerius personal estates and holdings"},
-  "events":[
-    {"event":1,"date":"-0060-10-03","type":"DIRECT","headline":"VALERIUS ENTERS THE HARD PASS WITH THE MAIN COLUMN","entities":["Gaius Maximus Valerius"],"article":"Valerius leads the expedition into the difficult pass at the head of the main column. Before the march begins, officers receive explicit instructions concerning the heights, bends, side tracks and concealed ground along the route. Scouts are ordered to watch for prepared positions and report signs of movement without breaking the pace of the main body. The 300 cavalry remain mobile and ready to move away from the column if the terrain demands it. The infantry enters the pass in compact formation, with Valerius personally observing the ground ahead.","ledger":{"currency":-15,"supply":-2,"intelligence":7,"exhaustion":3}},
-    {"event":2,"date":"-0060-10-07","type":"DIRECT","headline":"SCOUTS REPORT SIGNS OF PREPARED GROUND ABOVE THE ROAD","entities":["Gaius Maximus Valerius"],"article":"The scouts returning from the forward slopes report shifted stones, disappearing paths and recent foot traffic converging toward ground overlooking the narrowest part of the pass. The reports are brought directly to Valerius. The commander keeps the march moving and quietly changes the placement of the cavalry while the infantry continues toward the constricted ground. No signal tells anyone watching the pass that their preparations have been detected.","ledger":{"currency":-10,"supply":-1,"readiness":1,"intelligence":10,"exhaustion":3}},
-    {"event":3,"date":"-0060-10-11","type":"DIRECT","special_event":true,"magnitude":8,"change_index":5.9604644775,"headline":"THE PASS OF HIDDEN SPEARS","entities":["Gaius Maximus Valerius"],"article":"The hard pass narrows until the column has little room to maneuver. Men on the heights remain concealed, confirming that an organized force has prepared an ambush. Valerius does not halt or retreat. The march continues at the expected pace while quiet messengers carry his instructions toward the cavalry. The 300 horsemen move wide around the rear approaches.
-
-The ambushing force commits when the leading part of the column enters the narrow ground. Stones and missiles come down from the slopes, followed by armed men attempting to close the passage. The infantry absorbs the first shock and holds formation while the cavalry reaches the rear approaches. Valerius keeps the center moving forward while the cavalry closes the routes behind the attackers.
-
-Fighting spreads across the pass as the ambushing force attempts to break toward the rear. Cavalry blocks the principal escape route while the infantry secures the road itself. The attackers retain the advantage of height and familiar ground, and several Roman soldiers fall before the position can be brought under control. Valerius directs the effort toward opening the pass rather than pursuing scattered men into the slopes.
-
-By afternoon the organized ambush has been broken. Some attackers escape into difficult ground, while others abandon weapons and provisions. The Romans secure the narrowest portion of the pass and recover the positions from which the attack was launched. The cavalry searches the rear approaches before returning to the column.
-
-The action leaves the expedition with control of the passage and a clearer indication of the preparation available to the regional band. Valerius orders captured weapons, equipment and positions recorded before the column moves farther. The pass becomes another point in the growing chain of roads, stores, camps and ambush positions through which the band has operated.","ledger":{"currency":-75,"soldiers":-12,"readiness":-3,"morale":4,"supply":-7,"organization":4,"stability":2,"legitimacy":2,"exhaustion":12,"technology":2,"intelligence":20,"relations":3}},
-    {"event":4,"date":"-0060-10-15","type":"CONNECTED","headline":"THE REAR APPROACHES ARE SEARCHED AFTER THE PASS BATTLE","entities":["Gaius Maximus Valerius"],"article":"After the fighting, cavalry and infantry detachments search the approaches from which the ambushing force entered the pass. Several concealed positions are found, including places from which men could watch the road without being seen. The expedition also finds discarded provisions and tools along an escape route. Valerius orders the material gathered and the positions marked before the column continues.","ledger":{"currency":-15,"supply":1,"intelligence":11,"technology":1,"exhaustion":4,"relations":1}},
-    {"event":5,"date":"-0060-10-20","type":"DIRECT","headline":"THE COLUMN PUSHES BEYOND THE AMBUSH GROUND","entities":["Gaius Maximus Valerius"],"article":"The expedition resumes its march beyond the hardest section of the pass. Valerius keeps the cavalry distributed across the rear and flanks. Infantry officers maintain the same observation discipline that preceded the battle, particularly around bends and elevated ground. The column reaches open ground where animals and carts can be reorganized. The surviving officers now have direct experience of the enemy's preferred terrain and methods.","ledger":{"currency":-15,"supply":-2,"morale":1,"intelligence":7,"exhaustion":4}},
-    {"event":6,"date":"-0060-10-24","type":"CONNECTED","headline":"A SECOND ROUTE THROUGH THE HILLS IS MAPPED","entities":["Gaius Maximus Valerius"],"article":"Cavalry scouts identify a secondary route away from the principal pass and return with a detailed account of its approaches. The route is narrower in places but avoids the most confined section of the road. Valerius has it recorded alongside the main road. Engineers examine a difficult section and identify work required if carts later use the route. The expedition now possesses another possible connection between the interior and the secured approaches.","ledger":{"currency":-10,"supply":-1,"infrastructure":1,"intelligence":8,"technology":1,"exhaustion":3}},
-    {"event":7,"date":"-0060-10-28","type":"WORLD","headline":"NEWS FROM ROME REACHES THE EXPEDITION","entities":["Marcus Tullius Cicero","Gaius Julius Caesar","Gnaeus Pompeius Magnus"],"article":"Reports from Rome continue to describe the political arrangements surrounding Caesar's forthcoming consulship and the developing alignment of interests around Caesar, Pompey and Crassus. Cicero's correspondence and political activity remain subjects of discussion among men receiving news from Italy. The reports are circulated among the officers without altering the march. No new office or formal political authority is attached to Valerius by the Roman developments. His expedition remains a local military undertaking under the position he already holds.","ledger":{"intelligence":4,"relations":1}},
-    {"event":8,"date":"-0060-10-31","type":"WORLD","headline":"LOCAL ROUNDUP: THE HARD PASS IS NOW IN ROMAN HANDS","entities":["Gaius Maximus Valerius"],"article":"October closes with Valerius's expedition beyond the hard pass and the principal passage secured after a prepared ambush. The Roman column suffered losses, but the cavalry maneuver prevented the attacking force from turning the entire column into a trapped body and allowed the pass to be taken. Several concealed positions and escape routes have since been examined, while another route through the hills has been mapped. The ravine fortress and forward camp remain behind the expedition as established bases. The country ahead remains uncertain.","ledger":{}}
+  "scenario_id": "GMV-62BCE-001",
+  "round": 34,
+  "period": {
+    "start": "-0060-10-01",
+    "end": "-0060-10-31",
+    "display": "1 October 60 BCE – 31 October 60 BCE"
+  },
+  "metric_schema": "fixed-v1+land-area-v1",
+  "player_action": "Gaius Maximus Valerius leads the march into the hard pass. He gives the column clear instructions to maintain formation, observe the heights, bends, side paths and concealed ground, and report any prepared killing ground before the main body commits. If an ambush is discovered, the order is not to retreat or reveal that it has been detected. Instead, the main body continues behaving as though the danger has not been noticed while Valerius sends the 300 cavalry behind the suspected ambushing force to form a closing net.",
+  "land_area_measurement": {
+    "metric": "land_area_sq_miles",
+    "value": 4,
+    "delta": 0,
+    "unit": "square miles",
+    "acres": 2560,
+    "roman_iugera_approx": 4110,
+    "scope": "Gaius Maximus Valerius personal estates and holdings"
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-10-03",
+      "type": "DIRECT",
+      "headline": "VALERIUS ENTERS THE HARD PASS WITH THE MAIN COLUMN",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "Valerius leads the expedition into the difficult pass at the head of the main column. Before the march begins, officers receive explicit instructions concerning the heights, bends, side tracks and concealed ground along the route. Scouts are ordered to watch for prepared positions and report signs of movement without breaking the pace of the main body. The 300 cavalry remain mobile and ready to move away from the column if the terrain demands it. The infantry enters the pass in compact formation, with Valerius personally observing the ground ahead.",
+      "ledger": {
+        "currency": -15,
+        "supply": -2,
+        "intelligence": 7,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-10-07",
+      "type": "DIRECT",
+      "headline": "SCOUTS REPORT SIGNS OF PREPARED GROUND ABOVE THE ROAD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "The scouts returning from the forward slopes report shifted stones, disappearing paths and recent foot traffic converging toward ground overlooking the narrowest part of the pass. The reports are brought directly to Valerius. The commander keeps the march moving and quietly changes the placement of the cavalry while the infantry continues toward the constricted ground. No signal tells anyone watching the pass that their preparations have been detected.",
+      "ledger": {
+        "currency": -10,
+        "supply": -1,
+        "readiness": 1,
+        "intelligence": 10,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-10-11",
+      "type": "DIRECT",
+      "special_event": true,
+      "magnitude": 8,
+      "change_index": 5.9604644775,
+      "headline": "THE PASS OF HIDDEN SPEARS",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "The hard pass narrows until the column has little room to maneuver. Men on the heights remain concealed, confirming that an organized force has prepared an ambush. Valerius does not halt or retreat. The march continues at the expected pace while quiet messengers carry his instructions toward the cavalry. The 300 horsemen move wide around the rear approaches.\n\nThe ambushing force commits when the leading part of the column enters the narrow ground. Stones and missiles come down from the slopes, followed by armed men attempting to close the passage. The infantry absorbs the first shock and holds formation while the cavalry reaches the rear approaches. Valerius keeps the center moving forward while the cavalry closes the routes behind the attackers.\n\nFighting spreads across the pass as the ambushing force attempts to break toward the rear. Cavalry blocks the principal escape route while the infantry secures the road itself. The attackers retain the advantage of height and familiar ground, and several Roman soldiers fall before the position can be brought under control. Valerius directs the effort toward opening the pass rather than pursuing scattered men into the slopes.\n\nBy afternoon the organized ambush has been broken. Some attackers escape into difficult ground, while others abandon weapons and provisions. The Romans secure the narrowest portion of the pass and recover the positions from which the attack was launched. The cavalry searches the rear approaches before returning to the column.\n\nThe action leaves the expedition with control of the passage and a clearer indication of the preparation available to the regional band. Valerius orders captured weapons, equipment and positions recorded before the column moves farther. The pass becomes another point in the growing chain of roads, stores, camps and ambush positions through which the band has operated.",
+      "ledger": {
+        "currency": -75,
+        "soldiers": -12,
+        "readiness": -3,
+        "morale": 4,
+        "supply": -7,
+        "organization": 4,
+        "stability": 2,
+        "legitimacy": 2,
+        "exhaustion": 12,
+        "technology": 2,
+        "intelligence": 20,
+        "relations": 3
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-10-15",
+      "type": "CONNECTED",
+      "special_event": true,
+      "magnitude": 11,
+      "change_index": 9.313225746,
+      "headline": "CAPTURED DISPATCHES REVEAL A HIDDEN WAR NETWORK",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "The search of the ground behind the ambush produces more than abandoned weapons and provisions. Among the material recovered from a concealed position is a bundle of wax tablets and marked scraps recording movements between several settlements, hill tracks and hidden stores. The documents do not describe a single band moving from one robbery to another. They point instead to a wider network of local groups exchanging food, warnings, guides and information across the country through which the Roman expedition has been advancing.\n\nOne set of marks identifies the hard pass as only one point in a chain of protected approaches. Other entries indicate watchers posted farther along the roads and describe stores kept away from the settlements. The names and signs are not enough to establish every participant, but the pattern is extensive enough to alter the understanding of the enemy facing the expedition. What had appeared to be a succession of local threats now presents evidence of coordination over a much wider area.\n\nThe most consequential entries concern the Roman rear. They refer to the ravine fortress, the road connecting it to the estate country, and the movement of Roman supplies. The wording suggests that the defenders of the pass were not acting without knowledge of the expedition's established bases. The documents also contain references to gatherings expected after the Roman column passed farther into the hills, raising the possibility that the expedition's rear could be tested while its main body remained deep in the interior.\n\nValerius orders the recovered material copied and compared with the route reports already gathered by his scouts. Officers begin matching the marks on the tablets against roads, crossings and concealed positions discovered during the preceding months. Several places already considered minor routes acquire new importance. The expedition's intelligence picture changes from a collection of isolated observations into a connected map of movement, supply and warning.\n\nThe discovery forces a change in the character of the campaign. The column can no longer treat the territory beyond the pass as merely the next stage of a pursuit. Its rear communications, the fortress at the ravine and the roads carrying supplies are now part of the same problem. Valerius orders additional precautions around the existing line while preserving the main expeditionary movement, and messengers are sent with copies of the most urgent information.\n\nThe documents also contain evidence of substantial stores farther inland, including grain and animal holdings apparently accumulated for periods when ordinary roads could not be used. Their existence suggests that the network has prepared for sustained disruption rather than isolated attacks. The material is not proof that every settlement named in the records is hostile, and some entries remain difficult to interpret, but enough can be matched to known places and routes to make the broader warning impossible to dismiss.\n\nBy the end of the search, the expedition has gained its first coherent picture of the organization supporting the regional band. The hard pass was not the end of the danger but an entrance into a larger system of roads, stores, watchers and armed groups. Valerius keeps the recovered tablets under guard and orders their contents circulated only among the officers who require them. The discovery leaves the Roman column with a more formidable task ahead, but also with information capable of changing how that task is approached.",
+      "ledger": {
+        "currency": -45,
+        "supply": -5,
+        "infrastructure": 1,
+        "stability": 3,
+        "legitimacy": 2,
+        "exhaustion": 6,
+        "technology": 3,
+        "intelligence": 45,
+        "relations": 4
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-10-17",
+      "type": "CONNECTED",
+      "headline": "THE REAR APPROACHES ARE SEARCHED AFTER THE PASS BATTLE",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "After the fighting, cavalry and infantry detachments search the approaches from which the ambushing force entered the pass. Several concealed positions are found, including places from which men could watch the road without being seen. The expedition also finds discarded provisions and tools along an escape route. Valerius orders the material gathered and the positions marked before the column continues.",
+      "ledger": {
+        "currency": -15,
+        "supply": 1,
+        "intelligence": 11,
+        "technology": 1,
+        "exhaustion": 4,
+        "relations": 1
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-10-20",
+      "type": "DIRECT",
+      "headline": "THE COLUMN PUSHES BEYOND THE AMBUSH GROUND",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "The expedition resumes its march beyond the hardest section of the pass. Valerius keeps the cavalry distributed across the rear and flanks. Infantry officers maintain the same observation discipline that preceded the battle, particularly around bends and elevated ground. The column reaches open ground where animals and carts can be reorganized. The surviving officers now have direct experience of the enemy's preferred terrain and methods.",
+      "ledger": {
+        "currency": -15,
+        "supply": -2,
+        "morale": 1,
+        "intelligence": 7,
+        "exhaustion": 4
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-10-24",
+      "type": "CONNECTED",
+      "headline": "A SECOND ROUTE THROUGH THE HILLS IS MAPPED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "Cavalry scouts identify a secondary route away from the principal pass and return with a detailed account of its approaches. The route is narrower in places but avoids the most confined section of the road. Valerius has it recorded alongside the main road. Engineers examine a difficult section and identify work required if carts later use the route. The expedition now possesses another possible connection between the interior and the secured approaches.",
+      "ledger": {
+        "currency": -10,
+        "supply": -1,
+        "infrastructure": 1,
+        "intelligence": 8,
+        "technology": 1,
+        "exhaustion": 3
+      }
+    },
+    {
+      "event": 8,
+      "date": "-0060-10-28",
+      "type": "WORLD",
+      "headline": "NEWS FROM ROME REACHES THE EXPEDITION",
+      "entities": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "article": "Reports from Rome continue to describe the political arrangements surrounding Caesar's forthcoming consulship and the developing alignment of interests around Caesar, Pompey and Crassus. Cicero's correspondence and political activity remain subjects of discussion among men receiving news from Italy. The reports are circulated among the officers without altering the march. No new office or formal political authority is attached to Valerius by the Roman developments. His expedition remains a local military undertaking under the position he already holds.",
+      "ledger": {
+        "intelligence": 4,
+        "relations": 1
+      }
+    },
+    {
+      "event": 9,
+      "date": "-0060-10-31",
+      "type": "WORLD",
+      "headline": "LOCAL ROUNDUP: THE HARD PASS IS NOW IN ROMAN HANDS",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "article": "October closes with Valerius's expedition beyond the hard pass and the principal passage secured after a prepared ambush. The Roman column suffered losses, but the cavalry maneuver prevented the attacking force from turning the entire column into a trapped body and allowed the pass to be taken. The discovery of captured dispatches has also revealed evidence of a wider network linking roads, stores, watchers and armed groups across the country. Several concealed positions and escape routes have since been examined, while another route through the hills has been mapped. The ravine fortress and forward camp remain behind the expedition as established bases, but the campaign now proceeds with evidence that the danger extends well beyond the pass itself.",
+      "ledger": {}
+    }
   ],
-  "running_total":{"population":0,"currency":-175,"soldiers":-12,"taxation":0,"economy":0,"agriculture":0,"infrastructure":2,"trade":0,"readiness":-2,"morale":5,"supply":-12,"organization":4,"stability":2,"legitimacy":2,"exhaustion":33,"technology":4,"intelligence":71,"relations":5,"land_area_sq_miles":0}
+  "running_total": {
+    "population": 0,
+    "currency": -220,
+    "soldiers": -12,
+    "taxation": 0,
+    "economy": 0,
+    "agriculture": 0,
+    "infrastructure": 3,
+    "trade": 0,
+    "readiness": -2,
+    "morale": 5,
+    "supply": -17,
+    "organization": 4,
+    "stability": 5,
+    "legitimacy": 4,
+    "exhaustion": 39,
+    "technology": 7,
+    "intelligence": 116,
+    "relations": 9,
+    "land_area_sq_miles": 0
+  },
+  "special_event_selection": {
+    "standard_opportunity_percent": 18,
+    "standard_special_selected": true,
+    "standard_magnitude": 8,
+    "standard_change_index": 5.9604644775,
+    "magnitude_11": {
+      "chance_percent": 7.36,
+      "checks": [
+        64.1882,
+        4.9271,
+        81.5524
+      ],
+      "raw_successes": 1,
+      "accepted_candidates": 1,
+      "events": 1
+    }
+  }
 }
