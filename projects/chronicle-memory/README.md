@@ -854,3 +854,78 @@ Round 2 is the first record using the permanent standardized vocabulary. The leg
 - Permanent military losses: 0 soldiers
 
 From this point forward, all rounds must use the standardized metrics above and the same scales. If a new domain is genuinely required, it must be added to the schema first rather than introducing a one-off metric inside a round.
+
+
+## Mandatory guideline validation gate
+
+The README is the governing gameplay contract. It is no longer sufficient for a simulator continuation to rely on the assistant remembering these rules. The repository now contains a machine-readable guideline registry and a dependency-free validator:
+
+- `projects/chronicle-memory/validation/guidelines.json`
+- `projects/chronicle-memory/validation/validate-gmv.js`
+- `.github/workflows/chronicle-memory-validation.yml`
+
+### Required process for every GMV continuation
+
+Before a new round is treated as canonical:
+
+1. Resolve the explicit campaign ID `GMV-62BCE-001`.
+2. Read the canonical scenario pointer and current state.
+3. Confirm the requested continuation starts from the canonical latest round.
+4. Resolve the next round's date from the player's explicit time command; do not advance time merely because an ordinary action was issued.
+5. Interpret the player instruction into actor, action, target, location, timing, prerequisites, resources, uncertainty, immediate effects, delayed effects, reactions, unintended consequences, and causal links.
+6. Resolve the simulation state before writing narrative.
+7. Resolve autonomous actors subject to their resources, geography, institutions, information, logistics, and prior history.
+8. Keep hidden information separated by actor; distinguish fact, estimate, inference, rumor, and simulation value.
+9. Apply only the fixed metric vocabulary and fixed scales. Legacy indexes cannot appear in new rounds.
+10. Record persistent state changes with `before`, `delta`, `after`, `unit`, `reason`, `source_event_id`, and `provenance`.
+11. Reconcile exact quantities, especially population, treasury, food, manpower, troop buckets, casualties, and land area.
+12. Resolve battles numerically before any article is written.
+13. Generate the news cycle only from the resolved event/state records. Do not add decorative events whose underlying state does not exist.
+14. Ensure every news event maps to a real simulation event and every reported actor is a real scenario actor.
+15. Preserve alternate-history divergence. Historical dates are context, never automatic commands to reproduce real-world outcomes.
+16. Run the validator. A failed hard check means the round is **not canonical** and must not be presented as the next authoritative state.
+17. Commit the validated round records, then update the canonical pointer only after the round passes validation.
+18. Re-run validation after the final commit/update.
+
+### Mechanical checks now enforced
+
+The validator checks, at minimum:
+
+- canonical scenario ID and round/date synchronization;
+- canonical round/news file existence and parity;
+- sequential round numbering and gaps;
+- fixed metric schema and 0–100 condition scales;
+- -100 to +100 relations;
+- rejection of legacy metric indexes;
+- event IDs, dates, types, headlines, and substantive article length;
+- news/event one-to-one coverage;
+- special-event magnitude bounds;
+- event-ledger arithmetic against running totals;
+- financial reconciliation;
+- land-area metric/holdings synchronization;
+- military conservation when explicit troop buckets exist;
+- supported information/event types;
+- basic guards against scripted-history language;
+- canonical-pointer protection against continuing from a non-current round.
+
+### Two-layer validation
+
+Some README requirements are structural and can be mechanically rejected. Others require simulation reasoning and are therefore represented as mandatory process checks rather than pretending a static JSON linter can prove them.
+
+**Hard repository checks:** identity, chronology, state/news parity, metric scales, legacy-metric rejection, event ledgers, financial/land consistency, military conservation, and canonical-pointer integrity.
+
+**Simulation-contract checks:** natural-language interpretation, causal interactions, autonomous actor reasoning, information boundaries, historical-vs-simulation provenance, alternate-history divergence, world pressure, difficulty/fairness, survival/failure, and consequence quality.
+
+The second group must be completed by the simulation resolver before narrative generation. It must not be silently skipped merely because the JSON files are syntactically valid.
+
+### Candidate-round rule
+
+Existing historical/legacy round records may be preserved for auditability. **New rounds must conform to the standardized event state-change format.** A continuation is not considered complete until every persistent metric mutation can be traced through a state-change ledger with before/delta/after values and provenance.
+
+### Performance rule
+
+Validation is designed to be fast and dependency-free. It uses local repository records and indexed campaign files rather than searching unrelated projects or re-reading the entire historical corpus for every event. Historical lookup remains a reference layer; current scenario state remains authoritative once established.
+
+### Failure behavior
+
+If a canonical pointer, chronology, metric scale, ledger, conservation equation, event/news relationship, or other hard invariant fails, the process must stop rather than guessing, reconstructing, or silently repairing the campaign. The correct response is to identify the missing/conflicting record and resolve that conflict before simulation continues.
