@@ -1,0 +1,334 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 51,
+  "period": {
+    "start": "-0059-03-01",
+    "end": "-0059-03-31",
+    "display": "1 March 59 BCE – 31 March 59 BCE"
+  },
+  "action": {
+    "action_id": "GMV-62BCE-001-R051-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Valerius uses his exceptional fieldcraft to coordinate a sequence of rapid raids against the remaining bandit holdouts. He personally leads the decisive entries and, in the close fighting that follows, personally kills every identified bandit fighter encountered by his raiding parties; no Roman soldier is injured.",
+    "components": [
+      "coordinated_raids",
+      "rapid_concentration",
+      "personal_combat",
+      "bandit_holdout_elimination",
+      "zero_roman_injuries"
+    ]
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R051-E001",
+      "date": "-0059-03-04",
+      "type": "direct",
+      "headline": "VALERIUS STRIKES THREE HOLDOUTS IN A SINGLE NIGHT",
+      "article": "Using the routes and dispositions gathered during the February advance, Gaius Maximus Valerius divides the remaining Roman force into tightly coordinated raiding parties and moves against three known holdouts before their occupants can reinforce one another. The detachments approach under cover of darkness, seal the exits and wait until Valerius gives the signal for the attacks to begin. At the first position Valerius is through the entrance before the defenders can form a coherent line, and the fighting collapses into a series of short, violent encounters. He personally kills each of the armed holdout fighters encountered by his party, while the other Roman detachments secure their assigned positions without suffering an injury. By dawn the three sites are in Roman hands and the remaining resistance has been reduced to scattered fugitives rather than organized garrisons. The speed and coordination of the operation leave the Roman force with its full fighting strength intact.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Roman raiding parties",
+        "bandit holdouts",
+        "three holdout positions"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": 398,
+          "delta": 0,
+          "after": 398,
+          "unit": "men",
+          "reason": "No Roman soldier is injured or lost during the coordinated raids.",
+          "source_event_id": "GMV-62BCE-001-R051-E001",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": 97,
+          "delta": 1,
+          "after": 98,
+          "unit": "points",
+          "reason": "The successful coordinated operation improves confidence and tactical preparedness.",
+          "source_event_id": "GMV-62BCE-001-R051-E001",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1008,
+          "delta": 3,
+          "after": 1011,
+          "unit": "points",
+          "reason": "The operation confirms the locations and organization of the principal remaining holdouts.",
+          "source_event_id": "GMV-62BCE-001-R051-E001",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R051-E002",
+      "date": "-0059-03-09",
+      "type": "direct",
+      "headline": "THE LAST ESTATE HOLDOUTS ARE HUNTED DOWN",
+      "article": "The destruction of the first three positions forces the surviving bandits to abandon the estate network's fixed defenses and scatter into smaller groups. Valerius does not allow the campaign to become a slow search across the countryside; instead, he uses the captured routes to send his men toward the few remaining concentrations while keeping the force mutually supporting. At each location he personally enters the fighting rather than delegating the decisive work, and every armed bandit found in the identified holdouts is killed by Valerius himself. Roman soldiers control the perimeter, block escape routes and collect the abandoned stores, but none is wounded during the action. Several previously hidden stores and written fragments are recovered, giving the Romans a clearer picture of how the network had been supplied. By the end of the operation, the organized holdouts within the invaded estate belt have ceased to exist as fighting positions.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "remaining bandit holdouts",
+        "estate network",
+        "abandoned stores"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1011,
+          "delta": 4,
+          "after": 1015,
+          "unit": "points",
+          "reason": "Recovered stores and records clarify the remaining network and its supply arrangements.",
+          "source_event_id": "GMV-62BCE-001-R051-E002",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": 57,
+          "delta": 2,
+          "after": 59,
+          "unit": "points",
+          "reason": "Captured usable provisions offset part of the expedition's recent consumption.",
+          "source_event_id": "GMV-62BCE-001-R051-E002",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": 70,
+          "delta": 2,
+          "after": 72,
+          "unit": "points",
+          "reason": "Repeated rapid raids and night movement impose additional physical strain.",
+          "source_event_id": "GMV-62BCE-001-R051-E002",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R051-E003",
+      "date": "-0059-03-15",
+      "type": "social",
+      "headline": "ABANDONED HOLDINGS BEGIN RETURNING TO CIVILIAN USE",
+      "article": "With the armed holdouts removed from the immediate estate belt, local smallholders begin returning to fields and work areas that had been avoided during the fighting. Some arrive cautiously and remain outside the Roman positions until officers establish that the routes are secure, while others begin reopening agricultural activity almost immediately. Valerius's officers record the locations of abandoned tools, livestock and stores so that the material can be distinguished from military spoils and from property whose ownership remains disputed. The restoration of ordinary movement changes the character of the occupation, because the Romans are no longer operating among a continuous chain of active armed positions. Local inhabitants remain wary of the Roman presence, but the disappearance of the holdouts reduces the immediate threat that had kept many of them away. The change gives Valerius a more stable rear area from which the expedition can decide what to do next.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "local smallholders",
+        "Valerius officers",
+        "estate workers",
+        "occupied estates"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 96,
+          "delta": 2,
+          "after": 98,
+          "unit": "points",
+          "reason": "The removal of active armed holdouts allows civilian movement to resume and reduces immediate local insecurity.",
+          "source_event_id": "GMV-62BCE-001-R051-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "stability",
+          "before": 100,
+          "delta": 0,
+          "after": 100,
+          "unit": "points",
+          "reason": "The campaign does not change the fixed stability ceiling; local stabilization is represented through relations and operational control.",
+          "source_event_id": "GMV-62BCE-001-R051-E003",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R051-E004",
+      "date": "-0059-03-21",
+      "type": "connected",
+      "headline": "MARCELLUS HEARS THAT THE HOLDOUTS HAVE FALLEN",
+      "article": "News of the raids travels beyond the immediate district and reaches Marcus Claudius Marcellus through the established Roman correspondence network. The report emphasizes the speed of the operation, the recovery of records and the absence of Roman casualties rather than presenting the result as a formal political settlement. Marcellus's interest is directed toward what Valerius has discovered and what the disappearance of the bandit network may mean for the surrounding region. Valerius's officers preserve the distinction between battlefield success and political consequence, sending confirmed information rather than predictions. The correspondence keeps the Roman connection active at a moment when Valerius's campaign has suddenly changed from breaking fortified resistance to deciding what should follow it. For the first time since the invasion began, the Roman political network receives a report describing the principal armed opposition in the estate belt as effectively eliminated.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Roman political network",
+        "Valerius officers",
+        "estate belt"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 98,
+          "delta": 1,
+          "after": 99,
+          "unit": "points",
+          "reason": "Successful reporting strengthens the established Roman political connection.",
+          "source_event_id": "GMV-62BCE-001-R051-E004",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1015,
+          "delta": 1,
+          "after": 1016,
+          "unit": "points",
+          "reason": "Political correspondence provides another channel for situational awareness.",
+          "source_event_id": "GMV-62BCE-001-R051-E004",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R051-E005",
+      "date": "-0059-03-28",
+      "type": "roundup",
+      "headline": "THE BANDIT NETWORK COLLAPSES AS AN ORGANIZED FIGHTING FORCE",
+      "article": "By the end of March, the remaining organized bandit holdouts inside the invaded estate belt have been eliminated. Valerius's coordinated raids achieved the result without a single Roman injury, and he personally killed every armed bandit encountered in the decisive close fighting. The operation leaves the Roman force with its full 398-man strength, although the repeated night movements have increased exhaustion and made further immediate campaigning more demanding. Captured provisions partially replenish the stores, while recovered records materially improve the expedition's understanding of the network that had resisted the invasion. Civilian movement is beginning to return to the formerly contested properties, and the established correspondence with Marcus Claudius Marcellus has carried news of the campaign beyond the immediate district. Valerius now faces a different strategic problem: the invasion's principal armed opposition has been broken, but military occupation, civilian administration and any future claims to property remain separate questions that the campaign has not automatically resolved.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Marcus Claudius Marcellus",
+        "bandit network",
+        "local smallholders",
+        "invaded estate belt"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": 98,
+          "delta": 1,
+          "after": 99,
+          "unit": "points",
+          "reason": "The successful raids and complete absence of Roman casualties strengthen confidence in the force.",
+          "source_event_id": "GMV-62BCE-001-R051-E005",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": 98,
+          "delta": -1,
+          "after": 97,
+          "unit": "points",
+          "reason": "Despite tactical success, sustained night operations leave the force needing recovery.",
+          "source_event_id": "GMV-62BCE-001-R051-E005",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ],
+  "round_ledger": {
+    "soldiers": {
+      "before": 398,
+      "delta": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "supply": {
+      "before": 57,
+      "delta": 2,
+      "after": 59,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 70,
+      "delta": 2,
+      "after": 72,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 98,
+      "delta": 1,
+      "after": 99,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 97,
+      "delta": 0,
+      "after": 97,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1008,
+      "delta": 8,
+      "after": 1016,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 96,
+      "delta": 3,
+      "after": 99,
+      "unit": "points"
+    }
+  },
+  "financials": {
+    "gross_receipts": 0,
+    "operating_security_maintenance": 0,
+    "investment_principal": 0,
+    "realized_investment_returns": 0,
+    "public_account": 2693,
+    "private_account": 539,
+    "private_transfer_rate": 0.1,
+    "last_round_net_public_commercial_profit": 120,
+    "last_round_private_transfer": 0
+  },
+  "special_event": null,
+  "land_area": {
+    "land_area_sq_miles": 4.25,
+    "change_this_round_sq_miles": 0
+  },
+  "state_transition": {
+    "before_state_ref": "roleplays/GMV-62BCE-001/state.json#round-50",
+    "after_state_ref": "roleplays/GMV-62BCE-001/state.json#round-51"
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 12,
+      "magnitude": null,
+      "magnitude_11_eligibility": 4.7283,
+      "magnitude_11_checks": [
+        71.3821,
+        38.2245,
+        91.6072
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "magnitude_11_events": 0,
+      "current_round_opportunity_probability": 12,
+      "magnitude_11": {
+        "chance_percent": 4.7283,
+        "checks": [
+          71.3821,
+          38.2245,
+          91.6072
+        ],
+        "raw_successes": 0,
+        "accepted_candidates": 0,
+        "events": 0
+      }
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false,
+      "verification_basis": "Pending persistence and re-read of canonical Round 51 files."
+    }
+  }
+}
