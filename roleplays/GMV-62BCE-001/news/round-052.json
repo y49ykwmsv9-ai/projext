@@ -134,17 +134,43 @@
       "event": 6,
       "event_id": "GMV-62BCE-001-R052-E006",
       "round_number": 52,
+      "date": "27 April 59 BCE",
+      "event_category": "Special",
+      "title": "CELER'S SEALED DISPATCH WIDENS THE CAMPAIGN'S POLITICAL HORIZON",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Roman political network",
+        "captured register"
+      ],
+      "body": "A sealed dispatch from Quintus Caecilius Metellus Celer reaches Valerius on 27 April, arriving through a courier who has traveled separately from the ordinary correspondence channel. Celer has received word that Valerius's officers recovered records capable of explaining movements and connections beyond the immediate estate belt, and he asks that the material be preserved in its original form before any broader circulation takes place. The request is more personal and deliberate than the routine acknowledgments Valerius has received, placing the expedition's intelligence work into a wider Roman political conversation. Valerius orders the register secured and instructs his officers to distinguish original documents from later summaries so that the source material remains available for inspection. The courier also carries an invitation for Valerius to provide a fuller account when circumstances permit, without specifying a political reward or promising a change in command. The arrival of the dispatch gives Valerius a new channel of access to the Roman political elite just as the military phase of the campaign is giving way to administration and intelligence.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": -1,
+        "intelligence": 3,
+        "relations": 3,
+        "land_area_sq_miles": 0
+      }
+    },
+    {
+      "event": 7,
+      "event_id": "GMV-62BCE-001-R052-E007",
+      "round_number": 52,
       "date": "30 April 59 BCE",
       "event_category": "Connected",
       "title": "THE DISTRICT ENTERS AN UNEASY PEACE",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "Marcus Claudius Marcellus",
+        "Quintus Caecilius Metellus Celer",
         "local smallholders",
         "Roman patrols",
         "occupied estate belt"
       ],
-      "body": "By the final day of April, the occupied estate belt has entered an uneasy but visible period of calm. Smallholders are working portions of their fields again, Roman patrols continue to circulate along the main roads, and no organized bandit force has reappeared. Reports reaching Valerius increasingly concern harvests, property disputes, transport and local grievances rather than armed attacks. Marcus Claudius Marcellus remains connected to the expedition through the correspondence channel, while the officers continue preparing the confirmed intelligence gathered during the campaign for wider Roman use. Valerius's men are recovering from the March operations without surrendering control of the district, leaving the expedition better positioned for a deliberate next move. The month closes without a new battle, but the character of the campaign has clearly changed from destruction of resistance to the management of its consequences.",
+      "body": "By the final day of April, the occupied estate belt has entered an uneasy but visible period of calm. Smallholders are working portions of their fields again, Roman patrols continue to circulate along the main roads, and no organized bandit force has reappeared. Reports reaching Valerius increasingly concern harvests, property disputes, transport and local grievances rather than armed attacks. Marcus Claudius Marcellus remains connected to the expedition through the correspondence channel, while the newly arrived dispatch from Quintus Caecilius Metellus Celer gives the recovered register an additional political audience. Valerius's men are recovering from the March operations without surrendering control of the district, leaving the expedition better positioned for a deliberate next move. The month closes with the immediate fighting ended, civilian life returning, and the consequences of the campaign beginning to extend into Roman political circles.",
       "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
@@ -152,7 +178,7 @@
         "morale": 0,
         "readiness": 0,
         "intelligence": 0,
-        "relations": 1,
+        "relations": 0,
         "land_area_sq_miles": 0
       }
     }
