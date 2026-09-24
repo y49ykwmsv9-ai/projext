@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GMV Round v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "campaign_id",
+    "round",
+    "period",
+    "action",
+    "events",
+    "round_ledger",
+    "migration"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "gmv-round-v2"
+    },
+    "campaign_id": {
+      "const": "GMV-62BCE-001"
+    },
+    "round": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "period": {
+      "type": "object",
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        },
+        "display": {
+          "type": "string"
+        }
+      }
+    },
+    "action": {
+      "type": "object",
+      "required": [
+        "action_id",
+        "actor",
+        "action_text"
+      ],
+      "properties": {
+        "action_id": {
+          "type": "string"
+        },
+        "actor": {
+          "type": "string"
+        },
+        "action_text": {
+          "type": "string"
+        },
+        "components": {
+          "type": "array"
+        }
+      }
+    },
+    "events": {
+      "type": "array"
+    },
+    "round_ledger": {
+      "type": "object"
+    },
+    "migration": {
+      "type": "object",
+      "required": [
+        "status",
+        "source_schema"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "native-v2",
+            "legacy-normalized"
+          ]
+        },
+        "source_schema": {}
+      }
+    }
+  }
+}
