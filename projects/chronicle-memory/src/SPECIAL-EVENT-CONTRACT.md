@@ -117,11 +117,38 @@ For Magnitude 11 events, also persist the round-level `magnitude_11_chance_perce
 
 ## 8. Narrative requirements
 
-Special events receive substantially more detailed reporting than ordinary events. Major battles require standalone multi-paragraph accounts, followed by separate aftermath where appropriate.
+Special events are not ordinary events with larger numbers. They are centerpiece historical developments and must be written as substantial, cinematic historical reporting.
 
-Magnitude 11 events should receive the most detailed treatment in the system and should normally be multi-paragraph, consequential, and narratively distinctive.
+### Standard Magnitudes 1-10
 
-Public news must never mention probability rolls, dry-spell compensation, magnitude-selection mechanics, Change Index calculations, hidden causal scoring, or engine reasoning.
+A standard special event must normally be **multi-paragraph**, with a target of approximately **5-8 substantial paragraphs**. The article should read like an extended contemporary account of the event, not a short simulation summary.
+
+The narrative should develop the event across time and consequence:
+1. **Opening situation:** establish place, season, actors and circumstances.
+2. **Development:** show how the situation unfolds through concrete actions and observable developments.
+3. **Escalation or turning point:** identify the moment that makes the event exceptional.
+4. **Human and material detail:** describe movement, uncertainty, physical conditions, decisions, losses, gains or reactions appropriate to the event.
+5. **Resolution:** explain how the immediate event ends.
+6. **Aftermath:** show what people, merchants, soldiers, households, officials or neighboring communities actually observe afterward.
+7. **Historical significance within the simulation:** explain the event's immediate meaning through period-appropriate reporting rather than through engine terminology.
+
+The prose should be cinematic in **scene construction, pacing and sensory detail**, while remaining historically grounded. It should feel like an extended article, dispatch or chronicle rather than a screenplay. Avoid artificial camera directions, modern narration, game terminology, probability language or unexplained omniscience.
+
+### Magnitude 11
+
+Magnitude 11 is the exceptional narrative tier and should normally receive an **essay-length, multi-paragraph account**, substantially longer than a normal special event. A target of approximately **8-12 substantial paragraphs** is appropriate, and genuinely extraordinary events may require more.
+
+A Magnitude 11 article should have a clear narrative arc and multiple layers of consequence. It should establish the wider situation, introduce the immediate actors and setting, develop the event through several stages, depict its decisive turning point in detail, and then devote significant space to the immediate and wider aftermath. Where appropriate, it should include different perspectives through witnesses, messengers, merchants, soldiers, household officials or other plausible observers, without granting any character information they could not reasonably possess.
+
+Magnitude 11 events must feel rare because of what happens in the world, not merely because the article announces their rarity. Their extraordinary status must be demonstrated through the scale, novelty, consequence or historical circumstances of the event itself.
+
+### Battles and military catastrophes
+
+Major battles, sieges, massacres, disasters and similarly consequential military events receive additional treatment regardless of magnitude. They should normally contain multiple narrative phases, including preparation, first contact, escalation, decisive action and aftermath. Casualties, captured positions, supplies, equipment and surviving forces must remain consistent with the AI Ledger and later state.
+
+### Public-news boundary
+
+Public news must never mention probability rolls, dry-spell compensation, magnitude-selection mechanics, Change Index calculations, hidden causal scoring, plausibility gates, engine reasoning or internal simulation rules. The reader should experience the event as history happening in the world, not as a system explaining itself.
 
 ## 9. Continuity
 
