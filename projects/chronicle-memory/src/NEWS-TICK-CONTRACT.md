@@ -176,3 +176,47 @@ Initialize a 1444 world from the Historix / CLIOPATRA / CLIOPATRIA reference lay
 Historical events may occur because initialized conditions make them plausible, but the engine must not force them merely because a real historical date matches.
 
 Record both historical baseline evidence and simulation-generated events/state changes. The test succeeds only if news articles, named actors, historical offices, relationships, and numerical consequences agree.
+
+
+## Persistent World Memory and Longitudinal References
+
+The roleplay must feel like a persistent lived timeline rather than a sequence of disconnected monthly episodes. Every future news tick must deliberately carry forward relevant memory from prior rounds when the facts remain active.
+
+### Required continuity references
+
+For each monthly or longer time advance, event generation must inspect prior committed rounds and scenario state for relevant:
+- people and persistent relationships;
+- settlements, estates, forts, roads, rivers, passes, camps, ports, markets, and other named places;
+- previous battles, raids, discoveries, construction, negotiations, investigations, and unresolved incidents;
+- institutions, factions, households, military units, merchants, local communities, and other persistent actors;
+- previously discovered intelligence, routes, documents, stores, resources, debts, obligations, threats, and opportunities;
+- consequences that remain active even when they are not the immediate subject of an event.
+
+Where a prior person, place, institution, or unresolved development is relevant to the new event, the article should identify it by name and connect the present development to its known history. References should be natural to the period's reporting rather than artificial reminders inserted solely for continuity.
+
+### Persistence requirement
+
+A later round must be capable of referring to an event several rounds or months earlier when that event still matters. Recent events should not automatically displace older developments from world memory. Long-running developments should accumulate stages, consequences, relationships, and locations across multiple rounds.
+
+Examples of valid continuity include:
+- a new movement using a road first discovered several rounds earlier;
+- an estate audit discovering a consequence of construction or trade recorded in a previous month;
+- a later military event referring to an earlier battle, fortress, surviving garrison, captured document, or established patrol route;
+- a relationship with a historical or fictional actor affecting later negotiations or information flow;
+- a settlement previously encountered becoming relevant again because of trade, intelligence, migration, military movement, or political change;
+- a historical figure previously mentioned appearing again when their real-world role and the campaign's geography make continued relevance plausible.
+
+### Historical-person continuity in prose
+
+When a previously established historical figure is relevant, later articles should preserve the person's established identity, office, location, faction, and relationship history. Do not repeatedly introduce the same figure as though the reader has never heard of them. Conversely, do not force historical figures into unrelated events merely to satisfy a continuity quota.
+
+### Place continuity in prose
+
+Previously established places should retain their names and known functions. If the campaign has established a winter position, ravine fortress, road, storehouse, pass, settlement, river crossing, estate, or other location, later articles should use those established names or clearly identify the same place rather than silently replacing it with generic labels such as "the camp" or "the area."
+
+### Event-memory linkage
+
+Each generated event must retain machine-readable references to materially relevant prior events, places, people, and institutions where applicable. These references are part of persistent simulation memory and are not required to be exposed in the public article as technical identifiers.
+
+Before committing each round, perform a continuity check confirming that the new events have incorporated relevant prior-world context and that no established person, place, relationship, institution, or unresolved development has been accidentally reset or forgotten.
+
