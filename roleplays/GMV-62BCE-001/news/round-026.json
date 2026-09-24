@@ -1,0 +1,113 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 26,
+  "period": {
+    "start": "-0060-02-01",
+    "end": "-0060-02-28",
+    "display": "1 February 60 BCE – 28 February 60 BCE"
+  },
+  "metric_schema": "fixed-v1",
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-02-03",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS ORDERS HIS MERCHANT CONTACTS DRAWN INTO A SINGLE NETWORK",
+      "article": "Valerius begins February by calling together the men responsible for commerce through the lake port, estate roads and the newly secured highway approach. Rather than treating each merchant as a separate customer, his household begins keeping records of routes, cargoes, seasonal demand and reliable trading partners. Messengers carry word between the port and the principal estate so that merchants arriving at one point can be directed toward the others. The arrangement gives Valerius a clearer picture of which traders can be trusted with regular consignments and which routes are becoming commercially important. By the end of the first week, the estate's commercial activity is being discussed as a connected network rather than a series of isolated transactions.",
+      "ledger": {
+        "currency": -25,
+        "intelligence": 3,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 2,
+      "date": "-0060-02-08",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "NEW MERCHANT AGREEMENTS EXTEND THE ESTATE'S COMMERCIAL REACH",
+      "article": "Several merchants accept regular arrangements for moving grain, timber, manufactured goods and other ordinary cargo through Valerius's routes. The agreements do not create a monopoly over the road or port; instead, they establish predictable terms for carriers who are willing to use the maintained network. Some traders agree to combine journeys, allowing wagons and boats to meet at the lake port before continuing toward the Roman road. Receipts from the first transactions are returned to the estate while merchants begin carrying news of the dependable route to their own associates. What had been a local improvement now starts acquiring the reputation of a useful commercial corridor beyond the immediate estate community.",
+      "ledger": {
+        "currency": 55,
+        "intelligence": 3,
+        "exhaustion": 1
+      }
+    },
+    {
+      "event": 3,
+      "date": "-0060-02-13",
+      "type": "DIRECT",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "VALERIUS ASKS HIS HOUSEHOLD TO SPEAK OF THE ROADS AND TRADE IN ORDINARY COMPANY",
+      "article": "Valerius gives a deliberate instruction to members of his household and to people living on his estates: when speaking outside their duties, they are to mention the estate's roads, waterways, port and growing trade when the subject naturally arises. The instruction is framed not as a compulsory public proclamation but as a request that the people around the estate become familiar with what the network offers. Household members carry the subject into markets, gatherings and private conversations, where descriptions of reliable roads and regular merchants can travel farther than an official notice. The effect is subtle, because each person speaks from what they have personally seen rather than repeating a single formal announcement. Within days, travelers begin arriving with questions about routes, cargo handling and the merchants already using them.",
+      "ledger": {
+        "currency": -15,
+        "intelligence": 3,
+        "exhaustion": 0
+      }
+    },
+    {
+      "event": 4,
+      "date": "-0060-02-18",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "WORD OF THE ESTATE ROUTES REACHES MERCHANTS BEYOND THE LOCAL DISTRICT",
+      "article": "The conversations begun among household members and estate residents begin to produce a visible response as traders from outside the immediate district make inquiries about the road and lake connection. A pair of carriers arrives with goods intended for onward movement and asks local agents about storage and security along the route. Other merchants inquire about the timing of winter traffic and the condition of the crossings. Valerius's administrators use the opportunity to introduce the newcomers to established traders rather than keeping commerce within a closed circle. The growing chain of personal recommendations gives the network something more valuable than a single advertisement: a reputation built through repeated reports from people who have actually used it.",
+      "ledger": {
+        "currency": 130,
+        "intelligence": 2,
+        "exhaustion": 0
+      }
+    },
+    {
+      "event": 5,
+      "date": "-0060-02-23",
+      "type": "CONNECTED",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "MERCHANTS BEGIN TREATING THE LAKE PORT AND HIGHWAY ROAD AS ONE COMMERCIAL ROUTE",
+      "article": "By the fourth week of February, merchants increasingly describe the lake port, estate roads and Roman highway approach as parts of the same journey. Valerius's agents arrange storage and transfer points so that goods do not have to remain idle while changing from water transport to carts. The new traffic produces additional receipts and gives the estate more information about prices, demand and shortages in neighboring markets. Traders also begin bringing one another through the network, strengthening connections that cannot be created by a single contract alone. The estate's commercial reputation is therefore becoming dependent on the experiences of many independent merchants, rather than solely on Valerius's own household.",
+      "ledger": {
+        "currency": 70,
+        "intelligence": 4,
+        "exhaustion": 0
+      }
+    },
+    {
+      "event": 6,
+      "date": "-0060-02-26",
+      "type": "WORLD",
+      "entities": [
+        "Marcus Tullius Cicero",
+        "Gaius Julius Caesar",
+        "Gnaeus Pompeius Magnus"
+      ],
+      "headline": "ROME ENTERS A YEAR OF INTENSE POLITICAL AND COMMERCIAL CALCULATION",
+      "article": "Reports from Rome describe a city increasingly attentive to the ambitions and alliances surrounding the coming political contests. Caesar's political prospects remain a subject of widespread discussion, while Cicero continues to write and speak about the Republic's direction. Pompey's position and the interests of his supporters remain part of the calculations of men watching events from the capital. For Valerius, the reports arrive primarily through the same expanding network of merchants and messengers that now links his estates more closely to Rome. No new office or political command follows from the news, but the widening flow of information makes Roman developments easier for his household to monitor.",
+      "ledger": {
+        "intelligence": 4
+      }
+    },
+    {
+      "event": 7,
+      "date": "-0060-02-28",
+      "type": "WORLD",
+      "entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "headline": "LOCAL ROUNDUP: THE VALERIUS NETWORK IS NOW KNOWN BY MORE THAN ITS OWN WORKERS",
+      "article": "February closes with merchants, carriers and travelers increasingly familiar with the roads and waterways maintained by Valerius's estates. Household conversations have carried the name of the network beyond the places where its workers directly conduct business, while new commercial agreements have brought additional traders into regular contact with the estate. The lake port and highway approach are now discussed together as parts of a route rather than as separate improvements. The estate remains committed to maintaining its land, water and transport resources without exhausting the sources that sustain them. For the local community, the most noticeable change is that Valerius's commercial network is becoming something people encounter in conversation and trade even when they have no direct employment within the estate.",
+      "ledger": {}
+    }
+  ]
+}
