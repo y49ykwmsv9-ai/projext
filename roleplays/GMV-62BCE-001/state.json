@@ -76,5 +76,85 @@
   "end_of_round_checks": {
     "canonical_round_47": "verified",
     "commit_check": "verified after canonical files persisted and re-read"
+  },
+  "property_ledger": {
+    "schema_version": "property-ledger-v1",
+    "status": "historical_reconstruction_required",
+    "unit": "square miles",
+    "rule": "active land area is derived from active ledger records; unknown historical facts remain null and are never invented",
+    "records": [
+      {
+        "holding_id": "aggregate_pre_round_33_holdings",
+        "name": "Pre-Round-33 cumulative personal estates and holdings",
+        "asset_type": "aggregate_historical_holdings",
+        "area_sq_miles": 4,
+        "acquisition_date": null,
+        "acquisition_round": null,
+        "acquisition_value": null,
+        "currency_account": null,
+        "seller_counterparty": null,
+        "acquisition_source_event_id": "GMV-62BCE-001-R033",
+        "current_status": "active_aggregate_pending_component_reconstruction",
+        "provenance": "Round 33 explicitly establishes 4.00 sq mi as a measured cumulative baseline from prior simulation events; component acquisition records and exact prices/dates are not preserved there.",
+        "confidence": "confirmed aggregate; unresolved components"
+      },
+      {
+        "holding_id": "principal_estate",
+        "name": "Principal estate",
+        "asset_type": "estate",
+        "area_sq_miles": null,
+        "acquisition_date": null,
+        "acquisition_round": null,
+        "acquisition_value": null,
+        "currency_account": null,
+        "seller_counterparty": null,
+        "acquisition_source_event_id": "GMV-62BCE-001-R021-E001",
+        "current_status": "active_component_reconstruction_required",
+        "provenance": "Round 21 explicitly names the principal estate but does not preserve a standalone acquisition date, area, or price.",
+        "confidence": "asset identity confirmed; acquisition metadata unresolved"
+      },
+      {
+        "holding_id": "lake_port",
+        "name": "Lake port holding",
+        "asset_type": "port_holding",
+        "area_sq_miles": null,
+        "acquisition_date": null,
+        "acquisition_round": null,
+        "acquisition_value": null,
+        "currency_account": null,
+        "seller_counterparty": null,
+        "acquisition_source_event_id": "GMV-62BCE-001-R021-E001",
+        "current_status": "active_component_reconstruction_required",
+        "provenance": "Round 21 explicitly names the lake port in estate accounting but does not preserve a standalone acquisition date, area, or price.",
+        "confidence": "asset identity confirmed; acquisition metadata unresolved"
+      },
+      {
+        "holding_id": "round_42_restoration_acquisitions",
+        "name": "June 60 BCE restoration-oriented estate acquisitions",
+        "asset_type": "estate_acquisitions",
+        "area_sq_miles": 0.25,
+        "acquisition_date": null,
+        "acquisition_round": 42,
+        "acquisition_value": null,
+        "currency_account": "treasury",
+        "seller_counterparty": "voluntary sellers; exact counterparties not preserved",
+        "acquisition_source_event_id": "GMV-62BCE-001-R042-E007",
+        "current_status": "active_aggregate_pending_transaction_breakdown",
+        "provenance": "Round 42 records 0.25 sq mi of completed acquisitions and a combined Treasury decrease of 90 currency units for restoration purchases and repair expenditure; the source does not separate purchase price from restoration cost or give individual transaction values/dates.",
+        "confidence": "area confirmed; purchase-price/date breakdown unresolved"
+      }
+    ],
+    "derived_total_land_area_sq_miles": 4.25,
+    "unresolved_historical_items": [
+      "component breakdown of the pre-Round-33 4.00 sq mi aggregate",
+      "principal estate acquisition date/price/area",
+      "lake port acquisition date/price/area",
+      "individual Round-42 purchase prices and transaction dates",
+      "separation of Round-42 acquisition consideration from restoration/repair expenditure"
+    ]
+  },
+  "next_round_gate": {
+    "status": "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT",
+    "reason": "Do not generate or canonicalize a next round until all prior rounds and the persistent property/private-asset ledger satisfy the current schema and repository commit verification."
   }
 }
