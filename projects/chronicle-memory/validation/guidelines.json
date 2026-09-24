@@ -34,7 +34,15 @@
     "historical_event_memory": true,
     "persistent_investment_effects": true,
     "delayed_consequences": true,
-    "multi_round_context": true
+    "multi_round_context": true,
+    "persistent_property_ledger": true,
+    "property_acquisition_metadata": true,
+    "land_area_derived_from_property_ledger": true,
+    "private_asset_ledger": true,
+    "historical_schema_audit_before_next_round": true,
+    "committed_content_re_read": true,
+    "random_draw_persistence": true,
+    "next_round_hard_lock": true
   },
   "hard_fail": [
     "round_and_date",
@@ -52,6 +60,13 @@
     "full_history_causal_event_logic",
     "historical_event_memory",
     "persistent_investment_effects",
-    "multi_round_context"
+    "multi_round_context",
+    "persistent_property_ledger",
+    "property_acquisition_metadata",
+    "land_area_derived_from_property_ledger",
+    "historical_schema_audit_before_next_round",
+    "committed_content_re_read",
+    "random_draw_persistence",
+    "next_round_hard_lock"
   ]
 }
