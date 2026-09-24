@@ -299,7 +299,7 @@ function validateGitCommitState(round, scenario) {
   const { execSync } = require("child_process");
   try {
     const tracked = execSync(
-      \`git ls-files --error-unmatch "roleplays/GMV-62BCE-001/rounds/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/news/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/state.json" "roleplays/GMV-62BCE-001/scenario.json"\`,
+      `git ls-files --error-unmatch "roleplays/GMV-62BCE-001/rounds/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/news/round-\${String(round.round).padStart(3, "0")}.json" "roleplays/GMV-62BCE-001/state.json" "roleplays/GMV-62BCE-001/scenario.json"`,
       { cwd: ROOT, encoding: "utf8" }
     ).trim().split(/\r?\n/).filter(Boolean);
     if (tracked.length !== 4) fail("COMMIT_TRACKING", "Canonical round/state/scenario files are not all tracked by git.");
@@ -308,7 +308,7 @@ function validateGitCommitState(round, scenario) {
     const head = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
     if (!head) fail("COMMIT_HEAD", "Unable to resolve the validating commit.");
   } catch (e) {
-    fail("COMMIT_CHECK_RUNTIME", \`Unable to verify committed canonical state: \${e.message}\`);
+    fail("COMMIT_CHECK_RUNTIME", `Unable to verify committed canonical state: \${e.message}`);
   }
 }
 
