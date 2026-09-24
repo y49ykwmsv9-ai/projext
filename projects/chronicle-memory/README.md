@@ -1128,3 +1128,24 @@ The migration contract is:
 10. A migration is incomplete if any historical record remains on an undocumented schema.
 
 The repository implementation is `projects/chronicle-memory/tools/migrate-gmv-history.js`, with `gmv-round-v2.schema.json` defining the normalized round contract. The migration workflow is intentionally one-way for historical representation: source records remain recoverable through `legacy_record`, while future rounds are authored directly in the canonical schema.
+
+
+
+### 12. Special-event resolution and round completion checks
+
+Every canonical round must finish with two machine-checkable end-of-round gates before the round is considered complete:
+
+1. **Special-event / magnitude check**
+   - Resolve the standard special-event opportunity for the round.
+   - If a special event is selected, record its resolved magnitude on the standard 1–10 scale.
+   - If no special event is selected, record `selected: false` and `magnitude: null`; do not fabricate a SPECIAL event.
+   - Record the magnitude-11 eligibility/check data every round. A magnitude-11 event is only accepted when the documented extension check succeeds.
+   - The magnitude-11 check is separate from the player-facing event category **SURPRISE**. SURPRISE does not imply a special event or a magnitude.
+
+2. **Commit check**
+   - The canonical round record, news record, state, and scenario pointer must be committed to GitHub before the round is declared complete.
+   - The validator must run against the committed checkout and require a clean working tree. A round that exists only in chat or in an uncommitted working tree is not canonical.
+   - The end-of-round record must explicitly state that the post-commit check passed.
+   - The canonical pointer must never advance to a round whose required records are missing or whose validation gate fails.
+
+These checks are part of the round lifecycle, not optional documentation. Future round generation must perform the simulation, resolve the special-event/magnitude-11 gate, persist the round records, commit them, and then perform the commit validation before presenting the round as canonical.
