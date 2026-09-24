@@ -89,6 +89,14 @@ The engine must resolve the underlying military state before writing the article
 
 The numerical resolution is authoritative. Narrative may not invent casualties, victories, troop movements, captures, or territorial changes that were not resolved in state.
 
+### Mandatory shared command-training standard
+
+When Valerius orders shared military training, participation is mandatory for the entire force. Officers and Valerius himself must perform the same exercises imposed on the ordinary soldiers under their command, using the same physical and equipment standards unless a specific resolved condition makes that impossible. Command rank is not an exemption from marching, formation work, weapons practice, surprise-response drills, casualty-recovery exercises, controlled pursuit, or other training assigned to the ranks. Where command responsibilities permit, officers are required to meet or exceed the physical and procedural standard of the men they command; Valerius is subject to the same requirement and personally participates.
+
+This is a persistent campaign rule rather than a one-round narrative detail. The resolver should model the actual consequences of shared training, including improved understanding of command burdens, exposed weaknesses, fatigue, injury, recovery, morale, discipline, and continuity of command when those outcomes are supported by state. Officers may suffer the same training risks as soldiers, and those risks must be recorded rather than ignored merely because the affected person is an officer. At the same time, the rule does not make injury or success automatic: training outcomes remain simulation results.
+
+The purpose is to ensure that leadership is physically and operationally grounded in the same conditions imposed on the ranks. An officer who orders a demanding exercise cannot be treated as having completed it merely by observing it. Valerius cannot satisfy this rule by supervising from outside the formation; he must personally participate whenever the exercise is one his men are required to perform.
+
 ### Valerius personal combat profile
 
 Valerius's established combat characteristics are persistent simulation inputs, not merely narrative flavor. He has served as a centurion for a long period, has repeatedly participated in combat, has maintained continuous martial training, and is established as being in exceptional, beyond-peak physical condition. When Valerius personally participates in an armed engagement, the resolver must account for these attributes before determining his actions and outcomes.
