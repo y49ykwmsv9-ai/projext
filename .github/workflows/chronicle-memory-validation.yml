@@ -1,0 +1,23 @@
+name: Chronicle Memory validation
+
+on:
+  push:
+    paths:
+      - "projects/chronicle-memory/**"
+      - "roleplays/GMV-62BCE-001/**"
+      - ".github/workflows/chronicle-memory-validation.yml"
+  pull_request:
+    paths:
+      - "projects/chronicle-memory/**"
+      - "roleplays/GMV-62BCE-001/**"
+      - ".github/workflows/chronicle-memory-validation.yml"
+
+jobs:
+  validate-gmv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Chronicle Memory / GMV
+        run: node projects/chronicle-memory/validation/validate-gmv.js
