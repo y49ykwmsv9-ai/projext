@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 25,
-  "date": "-0060-01-31",
+  "round": 26,
+  "date": "-0060-02-28",
   "treasury": 2210,
   "wealth_accounts": {
-    "public": 812,
-    "private": 290,
+    "public": 1082,
+    "private": 320,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 220,
-    "last_round_private_transfer": 22
+    "last_round_net_public_profit": 300,
+    "last_round_private_transfer": 30
   },
   "treasury_interest_placement": {
     "principal": 0,
@@ -17,7 +17,7 @@
   },
   "metrics": {
     "population": 249,
-    "currency": 390,
+    "currency": 495,
     "soldiers": 458,
     "taxation": 0,
     "economy": 100,
@@ -30,9 +30,9 @@
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 55,
+    "exhaustion": 57,
     "technology": 41,
-    "intelligence": 244,
+    "intelligence": 263,
     "relations": 100
   },
   "relationships": {
@@ -42,9 +42,10 @@
     "military-connections": 12,
     "roman-political-elite": 3,
     "quintus-caecilius-metellus-celer": 0,
-    "marcus-claudius-marcellus": 8
+    "marcus-claudius-marcellus": 8,
+    "merchant-connections": 16
   },
-  "previous_action": "Gaius Maximus Valerius continues consolidating the enlarged estate network, oversees its first full winter production cycle, maintains the new waterways and highway route, and directs labor toward sustained agricultural and commercial output.",
+  "previous_action": "Gaius Maximus Valerius expands his merchant connections and instructs his household and people living on his estates to mention his trade and road networks in ordinary conversation outside their work, seeking to make the network familiar beyond the estate itself.",
   "continuity": {
     "historical_actors": [
       "Marcus Tullius Cicero",
@@ -55,22 +56,22 @@
       "Marcus Claudius Marcellus",
       "Quintus Caecilius Metellus Celer"
     ],
-    "campaign_development": "In January 60 BCE, Valerius consolidated the enlarged estate network through winter maintenance, production accounting and expanded labor. A new winter grain contract brought additional commercial traffic to the estate road, while reports from Rome emphasized the changing political environment surrounding Caesar, Cicero and Pompey."
+    "campaign_development": "In February 60 BCE, Valerius deliberately expanded his merchant connections and encouraged his household and estate residents to speak naturally of the roads, waterways, lake port and trade network outside their work. Independent merchants began treating the estate routes as one commercial corridor, while Roman political reports continued to arrive through the widening flow of merchants and messengers."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
     "magnitude_11_change_index": 9.313225746,
     "influence_factor": "1.25^(magnitude-1)",
-    "this_round_special_events": 1,
+    "this_round_special_events": 0,
     "this_round_magnitude_11_events": 0,
     "current_round_opportunity_probability": 12,
     "last_selected_magnitude": 1,
-    "magnitude_11_chance_percent": 4.1008,
+    "magnitude_11_chance_percent": 16.4797,
     "magnitude_11_checks": [
-      89.218,
-      17.9923,
-      28.8334
+      57.0298,
+      99.6406,
+      17.1723
     ]
   }
 }
