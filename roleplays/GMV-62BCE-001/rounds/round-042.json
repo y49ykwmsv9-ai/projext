@@ -1,5 +1,188 @@
 {
   "schema_version": "gmv-round-v2",
   "campaign_id": "GMV-62BCE-001",
-  "round": 42
+  "round": 42,
+  "period": {
+    "start": "-0060-06-01",
+    "end": "-0060-06-30",
+    "display": "1 June 60 BCE – 30 June 60 BCE"
+  },
+  "action": {
+    "action_id": "GMV-62BCE-001-R042-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius continues purchasing estates as civic restoration projects, favoring properties that can be repaired and returned to productive use rather than pursuing distressed owners through predatory acquisitions.",
+    "components": [
+      "estate_restoration",
+      "land_acquisition",
+      "productive_rehabilitation",
+      "non_predatory_acquisition"
+    ]
+  },
+  "historical_context": null,
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R042-E001",
+      "date": "-0060-06-03",
+      "type": "direct",
+      "headline": "VALERIUS BEGINS ANOTHER ROUND OF RESTORATION PURCHASES",
+      "article": "The first week of June brings a new series of negotiations over neglected agricultural properties near Valerius's existing holdings. His agents inspect estates whose owners are willing to sell without being forced from their holdings, paying particular attention to damaged walls, neglected drainage, unused storage, and fields that have fallen below their former production. The inspections distinguish land that can realistically be restored from properties whose purchase would amount chiefly to the accumulation of acreage. Several owners accept negotiations on terms that reflect the condition of their estates without treating temporary hardship as an opportunity for coercion. Valerius's representatives make clear that the purpose of the purchases is to return underused land to productive use rather than simply to enlarge his holdings. Work crews and agricultural households are consequently brought into the discussions before the first purchases are finalized.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R042-E002",
+      "date": "-0060-06-08",
+      "type": "connected",
+      "headline": "NEGLECTED FIELDS ARE MARKED FOR REPAIR BEFORE THEY ARE BROUGHT BACK INTO USE",
+      "article": "Across the newly acquired properties, overseers begin marking the work that must be completed before cultivation can return to its former level. Boundary walls are surveyed, drainage channels are cleared, storage buildings are inspected, and damaged agricultural equipment is catalogued for repair or replacement. Nearby agricultural workers find employment in the restoration, while smallholders are consulted where repairs affect paths, water access, or movement between neighboring properties. The work is deliberately staged so that repairs can be completed before the land is pressed for maximum output. Suppliers receive payment for materials and labor, allowing part of the expenditure to circulate through the surrounding communities. The estates remain private holdings, but their immediate purpose is increasingly visible in the physical work of restoring productive capacity.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R042-E003",
+      "date": "-0060-06-14",
+      "type": "direct",
+      "headline": "VALERIUS REFUSES A DISTRESSED SALE THAT WOULD HAVE BROUGHT CHEAP LAND",
+      "article": "On 14 June, an estate holder facing serious financial difficulty offers Valerius a property at a price substantially below what comparable land might command. The opportunity is attractive because the estate contains productive sections and would fit neatly beside his existing holdings. Valerius's agents nevertheless report that the owner's financial position leaves little room for meaningful negotiation, and that an aggressive purchase would turn temporary hardship into a permanent transfer of the property. Valerius refuses to proceed on those terms and leaves the offer unresolved unless a later agreement can recognize the condition of the estate without exploiting the owner's weakness. The decision costs him an inexpensive opportunity for expansion at a moment when additional land would otherwise be useful. Word of the refusal nevertheless reaches other estate holders who have been watching how his acquisitions are conducted.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R042-E004",
+      "date": "-0060-06-19",
+      "type": "connected",
+      "headline": "RESTORATION WORK BEGINS TO PRODUCE ORDINARY AGRICULTURAL RETURNS",
+      "article": "By the third week of June, the first repaired fields begin returning to ordinary agricultural use rather than remaining idle behind damaged walls and neglected drainage. Estate workers restore cultivation where conditions permit, while repaired storage and transport arrangements make it possible to move produce with less waste. Local suppliers receive payment for timber, stone, tools, repairs, and labor, adding immediate commercial activity around the restoration work. The expenditures are kept distinct from the operating returns of the productive estates so that the cost of rehabilitation is not mistaken for agricultural profit. Nearby landowners begin taking notice of the visible repairs and the continued employment of local workers. The restoration program therefore starts producing the first modest returns while still requiring substantial investment.",
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "treasury",
+          "before": 1970,
+          "delta": -90,
+          "after": 1880,
+          "unit": "currency units",
+          "reason": "Restoration purchases and repair expenditure during June.",
+          "source_event_id": "GMV-62BCE-001-R042-E004",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "agriculture",
+          "before": 78,
+          "delta": 1,
+          "after": 79,
+          "unit": "points",
+          "reason": "Early productive return from restored agricultural properties.",
+          "source_event_id": "GMV-62BCE-001-R042-E004",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R042-E005",
+      "date": "-0060-06-23",
+      "type": "surprise",
+      "headline": "A NEIGHBORING OWNER OFFERS AN ESTATE WITHOUT BEING PRESSED TO SELL",
+      "article": "A neighboring landowner approaches Valerius's representatives on 23 June with an offer to sell an estate that had not previously been placed on the market. The owner cites the visible restoration work on nearby properties and proposes negotiations without waiting for financial distress or a forced sale to make the transaction possible. An inspection finds both productive sections and deferred maintenance, making the property potentially compatible with Valerius's restoration program. The two sides discuss price, condition, labor arrangements, and the repairs that would be required before the land could reach full productivity. No transfer is completed during the month, and the estate therefore remains outside Valerius's holdings for the time being. The unexpected offer nevertheless gives him another possible avenue for expansion based on voluntary sale rather than pressure.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R042-E006",
+      "date": "-0060-06-27",
+      "type": "direct",
+      "headline": "VALERIUS ORDERS THE NEW ESTATES TO BE MANAGED AS WORKING COMMUNITIES",
+      "article": "Before the end of June, Valerius issues instructions for the management of the estates already brought under his control. Overseers are directed to prioritize cultivation, water management, storage, repairs, and dependable employment rather than extracting the greatest possible short-term return from the properties. Existing workers are to be retained where practical, and local households are to be given predictable arrangements for access and seasonal work. The instructions do not turn the private estates into public property, but they establish a civic and productive purpose for their restoration within the surrounding communities. Estate managers are expected to account for repairs and operating costs separately so that future decisions can distinguish investment from ordinary income. The policy gives the expanding holdings a consistent management principle as Valerius considers further purchases.",
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R042-E007",
+      "date": "-0060-06-30",
+      "type": "connected",
+      "headline": "LOCAL NEWS: RESTORATION, NOT FORCED SALES, BECOMES THE PATTERN OF VALERIUS'S EXPANSION",
+      "article": "By the final day of June, local observers have begun to associate Valerius's acquisitions with the visible restoration of neglected property rather than a campaign of forced dispossession. Owners who are willing to sell can negotiate, while at least one attractive distressed property remains outside his holdings because its owner's circumstances made an aggressive purchase inappropriate. Restoration crews are already active on properties that have changed hands, and the first repaired fields have returned to productive use. The neighboring estate offered voluntarily remains under negotiation, leaving its eventual fate uncertain. Agricultural workers and nearby suppliers have benefited from the continuing repair work, while landowners have gained a clearer understanding of the terms on which Valerius is prepared to expand. The month closes with cautious growth in holdings, lower treasury reserves from restoration spending, and a reputation increasingly tied to rehabilitation rather than predatory acquisition.",
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 98,
+          "delta": 2,
+          "after": 100,
+          "unit": "points",
+          "reason": "Voluntary transactions and sustained restoration activity improved relations with nearby landholders and workers.",
+          "source_event_id": "GMV-62BCE-001-R042-E007",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "land_area_sq_miles",
+          "before": 4,
+          "delta": 0.25,
+          "after": 4.25,
+          "unit": "square miles",
+          "reason": "Completed restoration-oriented estate purchases during June.",
+          "source_event_id": "GMV-62BCE-001-R042-E007",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ],
+  "round_ledger": {
+    "treasury": {
+      "before": 1970,
+      "delta": -90,
+      "after": 1880,
+      "unit": "currency units"
+    },
+    "agriculture": {
+      "before": 78,
+      "delta": 1,
+      "after": 79,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 98,
+      "delta": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 4,
+      "delta": 0.25,
+      "after": 4.25,
+      "unit": "square miles"
+    }
+  },
+  "special_event": null,
+  "land_area": {
+    "land_area_sq_miles": 4.25,
+    "change_this_round_sq_miles": 0.25
+  },
+  "state_transition": {
+    "before_state_ref": "roleplays/GMV-62BCE-001/state.json#round-41",
+    "after_state_ref": "roleplays/GMV-62BCE-001/state.json#round-42"
+  },
+  "migration": {
+    "status": "native-v2",
+    "source_schema": "gmv-round-v2",
+    "source_file": "roleplays/GMV-62BCE-001/rounds/round-042.json",
+    "note": "Authored directly in canonical schema; no historical outcome rewritten."
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 0.12,
+      "magnitude": null,
+      "magnitude_11_eligibility": 6.42,
+      "magnitude_11_checks": [
+        28.4417,
+        71.2063,
+        94.1182
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "magnitude_11_events": 0
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false,
+      "verification_basis": "Pending post-persistence verification."
+    }
+  }
 }
