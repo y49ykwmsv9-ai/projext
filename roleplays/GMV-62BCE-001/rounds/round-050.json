@@ -1,0 +1,371 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 50,
+  "period": {
+    "start": "-0059-02-01",
+    "end": "-0059-02-28",
+    "display": "1 February 59 BCE – 28 February 59 BCE"
+  },
+  "action": {
+    "action_id": "GMV-62BCE-001-R050-A001",
+    "actor": "Gaius Maximus Valerius",
+    "action_text": "Gaius Maximus Valerius continues the planned invasion of the bandit-controlled estates, pushing the main body beyond the outer properties, consolidating occupied ground, and pressing toward the inner estate network exposed by the records recovered in Round 49.",
+    "components": [
+      "planned_invasion_continuation",
+      "inner_estate_advance",
+      "occupied_ground_consolidation",
+      "bandit_network_pressure"
+    ]
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R050-E001",
+      "date": "-0059-02-02",
+      "type": "direct",
+      "headline": "VALERIUS DRIVES THE INVASION BEYOND THE OUTER ESTATES",
+      "article": "With the outer properties secured well enough to support further movement, Gaius Maximus Valerius orders the main body deeper into the estate network. The advance follows the routes identified from the recovered records rather than spreading the entire force indiscriminately across every property. Trusted officers keep separate detachments in contact while Valerius remains with the principal column, allowing the occupied ground behind him to remain guarded as the invasion moves forward. Several buildings and work areas are found recently vacated, but the speed of the withdrawals varies from property to property and does not reveal a single coordinated retreat. The Romans therefore continue taking ground without claiming that the bandit network has been destroyed. By the end of the first days, Valerius has carried the operation from the outer belt into the inner estate system and has made the campaign's original objective materially closer.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius trusted officers",
+        "bandit-controlled estates",
+        "inner estate network"
+      ],
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R050-E002",
+      "date": "-0059-02-06",
+      "type": "connected",
+      "headline": "LOCAL SMALLHOLDERS BEGIN APPROACHING THE ROMAN LINES",
+      "article": "As the Roman presence becomes established across more of the district, several local smallholders approach the occupied positions with information about abandoned fields, concealed tracks and property boundaries that do not appear clearly in the captured estate records. Their cooperation is cautious rather than enthusiastic, and some refuse to identify particular households whose loyalties they fear may shift again if the Romans withdraw. Valerius's officers record the reports and distinguish direct observations from hearsay before passing the useful material forward. The contacts give the expedition a more detailed picture of the human geography surrounding the estates, including which routes remain usable and which properties have become difficult to supply. The approach of the smallholders also shows that the Roman occupation is beginning to affect civilians who were not themselves part of the bandit fighting. Valerius therefore gains useful local access while inheriting a larger responsibility for how his men behave around the population.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "local smallholders",
+        "Valerius officers",
+        "occupied estates",
+        "nearby fields",
+        "estate routes"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1001,
+          "delta": 2,
+          "after": 1003,
+          "unit": "points",
+          "reason": "Local observers provide new geographic and human-network information.",
+          "source_event_id": "GMV-62BCE-001-R050-E002",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R050-E003",
+      "date": "-0059-02-10",
+      "type": "direct",
+      "headline": "A FORTIFIED STOREHOUSE TURNS THE ADVANCE INTO ANOTHER COSTLY FIGHT",
+      "article": "The next major obstacle is a fortified storehouse positioned beside one of the routes leading farther into the estates. Its defenders do not attempt the withdrawals seen elsewhere, and the Roman detachment sent forward is forced to fight for the approach before the position can be secured. Valerius reinforces the attack from the main body, but the resistance lasts long enough to disrupt the day's planned movement and consume a significant portion of the expedition's available stores. The defenders eventually abandon the position after losing the ability to hold its approaches, leaving behind provisions and records that appear to have been intended for continued operations. Roman losses are limited compared with the size of the expedition, but they are real, and several men who began the campaign with Valerius are no longer available for further fighting. The capture gives Valerius another useful node inside the network, while making clear that the deeper estates are not going to fall simply because the outer positions have been occupied.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "Valerius officers",
+        "bandit defenders",
+        "fortified storehouse"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": 411,
+          "delta": -9,
+          "after": 402,
+          "unit": "men",
+          "reason": "Losses sustained during the fighting for the fortified storehouse.",
+          "source_event_id": "GMV-62BCE-001-R050-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": 64,
+          "delta": -3,
+          "after": 61,
+          "unit": "points",
+          "reason": "The extended fight and movement consume campaign provisions.",
+          "source_event_id": "GMV-62BCE-001-R050-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": 64,
+          "delta": 4,
+          "after": 68,
+          "unit": "points",
+          "reason": "The prolonged advance and fighting impose additional strain.",
+          "source_event_id": "GMV-62BCE-001-R050-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "morale",
+          "before": 100,
+          "delta": -2,
+          "after": 98,
+          "unit": "points",
+          "reason": "The expedition suffers further losses in close fighting.",
+          "source_event_id": "GMV-62BCE-001-R050-E003",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1003,
+          "delta": 2,
+          "after": 1005,
+          "unit": "points",
+          "reason": "The captured position provides records and a clearer view of the network's logistical arrangements.",
+          "source_event_id": "GMV-62BCE-001-R050-E003",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R050-E004",
+      "date": "-0059-02-16",
+      "type": "connected",
+      "headline": "A MESSAGE FROM MARCELLUS REACHES VALERIUS'S CAMP",
+      "article": "A courier reaches the Roman camp carrying a message from Marcus Claudius Marcellus, one of Valerius's established Roman connections. The message does not offer troops or a promise of intervention; instead, it asks for a reliable account of the expedition's progress and the information being recovered from the estates. Valerius's officers prepare a concise report separating confirmed observations from estimates about the remaining bandit network. The exchange gives Valerius an opportunity to place the invasion within a wider Roman political relationship without pretending that a single letter changes his authority or resources. Marcellus's continued attention also gives the expedition a channel through which later developments can become politically significant beyond the immediate district. For Valerius, the practical value of the contact is therefore information and access rather than an immediate military reinforcement.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Valerius officers",
+        "Roman political network",
+        "bandit estates"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1005,
+          "delta": 2,
+          "after": 1007,
+          "unit": "points",
+          "reason": "The established Roman correspondence provides an additional channel for verified reporting and political awareness.",
+          "source_event_id": "GMV-62BCE-001-R050-E004",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 97,
+          "delta": 1,
+          "after": 98,
+          "unit": "points",
+          "reason": "The maintained exchange strengthens an existing Roman political connection.",
+          "source_event_id": "GMV-62BCE-001-R050-E004",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R050-E005",
+      "date": "-0059-02-22",
+      "type": "surprise",
+      "headline": "A NIGHT STRIKE HITS THE INVASION'S SUPPLY LINE",
+      "article": "The remaining bandit fighters strike at a supply movement after dark, choosing a section of the route where the occupied estates narrow the available approaches. The attackers manage to disrupt the column before Roman guards can bring the entire movement into formation, and part of the provisions intended for the forward positions is lost or scattered. Valerius's men drive the attackers away before the strike can become a larger engagement, but the incident forces the officers to strengthen escorts and reconsider how much of the route can safely be treated as secured. The action is small compared with the earlier estate fighting, yet it demonstrates that the network retains enough mobility to threaten the campaign without holding every property openly. The immediate result is not a reversal of the invasion, but a heavier logistical burden on the Roman force moving deeper into hostile ground.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius soldiers",
+        "bandit fighters",
+        "Roman supply movement",
+        "occupied estates"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "soldiers",
+          "before": 402,
+          "delta": -4,
+          "after": 398,
+          "unit": "men",
+          "reason": "Losses sustained while the supply movement is reorganized under attack.",
+          "source_event_id": "GMV-62BCE-001-R050-E005",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "supply",
+          "before": 61,
+          "delta": -4,
+          "after": 57,
+          "unit": "points",
+          "reason": "Provisions are lost or scattered during the night strike.",
+          "source_event_id": "GMV-62BCE-001-R050-E005",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "exhaustion",
+          "before": 68,
+          "delta": 2,
+          "after": 70,
+          "unit": "points",
+          "reason": "The night action and subsequent security movements add further strain.",
+          "source_event_id": "GMV-62BCE-001-R050-E005",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "readiness",
+          "before": 100,
+          "delta": -3,
+          "after": 97,
+          "unit": "points",
+          "reason": "The disrupted supply movement forces a temporary redistribution of troops to security duties.",
+          "source_event_id": "GMV-62BCE-001-R050-E005",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R050-E006",
+      "date": "-0059-02-28",
+      "type": "roundup",
+      "headline": "THE INVASION REACHES THE INNER ESTATES — BUT THE NETWORK STILL HOLDS",
+      "article": "February closes with Valerius holding a deeper position inside the estate network than he possessed at the beginning of the month. The invasion has secured another important position, but it has also cost men, provisions and physical endurance, while a successful night strike has shown that the bandits can still operate around the Roman-held ground. Local smallholders are beginning to approach the Roman lines, giving the expedition information that cannot be obtained from captured records alone, while the message from Marcus Claudius Marcellus preserves a political channel beyond the immediate campaign. The recovered storehouse has added to Valerius's understanding of how the network distributed supplies, yet the absence of a decisive collapse means that the deeper objective remains contested. The Roman force is therefore stronger in position and information than it was when the invasion began, but it is also carrying a heavier logistical and security burden. No new land is added to Valerius's personal holdings merely because his forces occupy these estates; the campaign's military control and his private property remain separate state variables.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Valerius soldiers",
+        "bandit network",
+        "inner estates",
+        "local smallholders"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 1007,
+          "delta": 1,
+          "after": 1008,
+          "unit": "points",
+          "reason": "The month's combined field reports, captured records and local contacts improve the expedition's information picture.",
+          "source_event_id": "GMV-62BCE-001-R050-E006",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "relations",
+          "before": 98,
+          "delta": -2,
+          "after": 96,
+          "unit": "points",
+          "reason": "The continued occupation and fighting make nearby civilian and local actors more cautious despite some cooperation.",
+          "source_event_id": "GMV-62BCE-001-R050-E006",
+          "provenance": "simulation"
+        }
+      ]
+    }
+  ],
+  "round_ledger": {
+    "soldiers": {
+      "before": 411,
+      "delta": -13,
+      "after": 398,
+      "unit": "men"
+    },
+    "supply": {
+      "before": 64,
+      "delta": -7,
+      "after": 57,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 64,
+      "delta": 6,
+      "after": 70,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "delta": -2,
+      "after": 98,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "delta": -3,
+      "after": 97,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1001,
+      "delta": 7,
+      "after": 1008,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 97,
+      "delta": -1,
+      "after": 96,
+      "unit": "points"
+    }
+  },
+  "financials": {
+    "gross_receipts": 0,
+    "operating_security_maintenance": 0,
+    "investment_principal": 0,
+    "realized_investment_returns": 0,
+    "public_account": 2693,
+    "private_account": 539,
+    "private_transfer_rate": 0.1,
+    "last_round_net_public_commercial_profit": 120,
+    "last_round_private_transfer": 0
+  },
+  "special_event": null,
+  "land_area": {
+    "land_area_sq_miles": 4.25,
+    "change_this_round_sq_miles": 0
+  },
+  "state_transition": {
+    "before_state_ref": "roleplays/GMV-62BCE-001/state.json#round-49",
+    "after_state_ref": "roleplays/GMV-62BCE-001/state.json#round-50"
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "selected": false,
+      "opportunity_chance": 12,
+      "magnitude": null,
+      "magnitude_11_eligibility": 4.7283,
+      "magnitude_11_checks": [
+        77.4595,
+        45.6908,
+        82.2397
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "magnitude_11_events": 0,
+      "current_round_opportunity_probability": 12,
+      "magnitude_11": {
+        "chance_percent": 4.7283,
+        "checks": [
+          77.4595,
+          45.6908,
+          82.2397
+        ],
+        "raw_successes": 0,
+        "accepted_candidates": 0,
+        "events": 0
+      }
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false,
+      "verification_basis": "Pending persistence and re-read of canonical Round 50 files."
+    }
+  }
+}
