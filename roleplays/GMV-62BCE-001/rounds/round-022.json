@@ -54,7 +54,7 @@
       "ledger": {
         "currency": -25,
         "population": 75,
-        "soldiers": 75,
+        "soldiers": 0,
         "morale": 2,
         "relations": 2,
         "intelligence": 2
@@ -146,7 +146,7 @@
   "running_total": {
     "population": 75,
     "currency": -90,
-    "soldiers": 150,
+    "soldiers": 75,
     "taxation": 0,
     "economy": 0,
     "agriculture": 0,
@@ -198,6 +198,7 @@
       "transport",
       "construction"
     ],
-    "status": "accepted into household service under fixed terms"
+    "status": "accepted into household service under fixed terms",
+    "consistency_note": "The seventy-five recruits are counted once as soldiers, upon assignment in Event 4; Event 3 records their admission to the population but no military increase."
   }
 }
