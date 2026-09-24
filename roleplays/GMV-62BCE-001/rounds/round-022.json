@@ -184,7 +184,8 @@
     "rate_formula": "4% annualized base + 0.5 percentage points for each 100 currency of qualifying treasury growth, capped at 12%; internal transfers do not count as treasury growth.",
     "current_annualized_rate": 0.06,
     "interest_realized": 15,
-    "settlement": "completed after the three-month observation period"
+    "settlement": "completed after the three-month observation period",
+    "treasury_end": 2210
   },
   "recruitment": {
     "new_recruits": 75,
