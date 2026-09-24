@@ -17,7 +17,8 @@
     "special_event",
     "land_area",
     "state_transition",
-    "migration"
+    "migration",
+    "end_of_round_checks"
   ],
   "required_event_state_change_fields": [
     "actor_id",
@@ -50,5 +51,11 @@
   "exact_quantity_rule": "Exact quantities remain exact quantities with explicit units.",
   "chronology_rule": "Historical round records are immutable outcomes; migration changes representation, not events or outcomes.",
   "validation_rule": "A canonical round that violates this contract must not advance the canonical pointer.",
-  "migration_note": "Rounds already normalized to gmv-round-v2 are retained; legacy source material is preserved under migration/legacy_record fields rather than rewritten as new history."
+  "migration_note": "Rounds already normalized to gmv-round-v2 are retained; legacy source material is preserved under migration/legacy_record fields rather than rewritten as new history.",
+  "end_of_round_checks": {
+    "required": true,
+    "special_event_resolution": "required every round",
+    "magnitude_11_check": "required every round",
+    "commit_check": "required every round; canonical records must be committed and validator must pass"
+  }
 }
