@@ -58,7 +58,29 @@ let warnings = [];
 function fail(code, message) { errors.push({ code, message }); }
 function warn(code, message) { warnings.push({ code, message }); }
 
-function readJson(file) {
+// Historical migration compatibility: gmv-round-v2 stores the authoritative normalized view
+// and preserves the pre-migration record under legacy_record. The validator must validate the
+// normalized view while treating missing legacy before/after values as explicit provenance gaps.
+function validateNormalizedRound(round) {
+  if (round.schema_version !== "gmv-round-v2") return [];
+  const errors = [];
+  if (round.campaign_id !== "GMV-62BCE-001") errors.push("normalized round has incorrect campaign_id");
+  if (!Number.isInteger(round.round) || round.round < 1) errors.push("normalized round has invalid round number");
+  if (!round.period || typeof round.period !== "object" || !round.period.start || !round.period.end) errors.push("normalized round has incomplete period");
+  if (!round.action || !round.action.action_id || !round.action.actor || !round.action.action_text) errors.push("normalized round has incomplete action");
+  if (!Array.isArray(round.events)) errors.push("normalized round events must be an array");
+  for (const e of round.events || []) {
+    if (!e.event_id || !e.date || !e.headline) errors.push("normalized event missing event_id/date/headline");
+    for (const s of e.state_changes || []) {
+      if (s.before === null || s.after === null) {
+        if (s.provenance !== "legacy-migration") errors.push(`normalized event ${e.event_id} has missing before/after without legacy-migration provenance`);
+      }
+      if (typeof s.delta !== "number") errors.push(`normalized event ${e.event_id} has non-numeric delta`);
+    }
+  }
+  return errors;
+}
+\nfunction readJson(file) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); }
   catch (e) { fail("JSON_INVALID", `${file}: ${e.message}`); return null; }
 }
