@@ -1,0 +1,43 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 34,
+  "period": {
+    "start": "-0060-10-01",
+    "end": "-0060-10-31"
+  },
+  "metric_schema": "fixed-v1+land-area-v1",
+  "events": [
+    {
+      "event": 1,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 2,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 3,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 4,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 5,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 6,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 7,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    },
+    {
+      "event": 8,
+      "source": "roleplays/GMV-62BCE-001/rounds/round-034.json"
+    }
+  ]
+}
