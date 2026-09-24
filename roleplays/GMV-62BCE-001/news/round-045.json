@@ -1,0 +1,140 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 45,
+  "period": {
+    "start": "-0060-09-01",
+    "end": "-0060-09-30",
+    "display": "1 September 60 BCE – 30 September 60 BCE"
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R045-E001",
+      "date": "-0060-09-03",
+      "type": "direct",
+      "headline": "VALERIUS OFFERS THE MINT A DEAL: SILVER IN, ROMAN COIN OUT",
+      "article": "At the opening of September, Valerius places a new proposal before Roman minting officials: the silver drawn from his privately held deep-vein workings is to be delivered under Roman law, examined by the proper authorities, and converted into recognized Roman silver coin. He asks for no estate, office, privilege, or political favor in exchange. His requested compensation is instead the proportionate quantity of high-quality Roman coin corresponding to the silver the mint actually accepts and strikes. The proposal is unusual in Valerius's recent affairs because it seeks to turn a private subterranean resource directly into a recurring monetary return without transferring ownership of the mine itself. The Roman officials neither reject the proposal nor promise immediate payment, but order the matter placed before the men responsible for weighing and testing bullion. A new commercial channel is therefore opened, with Valerius carrying the production risk and Rome retaining control over its coinage.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Roman mint authorities",
+        "Valerius silver mines"
+      ],
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R045-E002",
+      "date": "-0060-09-07",
+      "type": "connected",
+      "headline": "A FRESH VEIN OPENS BELOW THE OLD WORKINGS, BUT THE MINE'S OVERSEER WARNS OF FLOODING",
+      "article": "While the Roman proposal is being examined, the mine itself produces an unexpected development beneath the older workings. Miners strike a promising continuation of the deep vein, and the discovery briefly raises hopes that Valerius can supply the mint more regularly than his first proposal assumed. The excitement is checked when water begins collecting in the lower gallery, forcing the overseers to restrict the men working at the new face. Rather than ordering the miners deeper at once, Valerius's officers begin clearing and securing the passage so that a richer seam does not become a dangerous interruption to the entire operation. The discovery therefore offers genuine future potential while imposing an immediate practical constraint on output. Roman officials are informed that the first shipment will proceed from already extracted and prepared silver rather than from the newly opened section.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius mine overseers",
+        "Valerius miners"
+      ],
+      "state_changes": []
+    },
+    {
+      "event_id": "GMV-62BCE-001-R045-E003",
+      "date": "-0060-09-13",
+      "type": "surprise",
+      "headline": "A WAGON TRAIN CARRYING VALERIUS'S SILVER IS DELAYED — THEN ARRIVES UNDER HEAVY GUARD",
+      "article": "The first prepared silver does not reach its Roman destination as quietly as expected. A report reaches Valerius that armed men have been seen watching the road used by the wagons, and the convoy is halted long enough for additional guards to be brought forward. No silver is lost, but the delay exposes how vulnerable a valuable shipment becomes once its contents are known. The convoy eventually reaches the Roman officials intact, with the guards reporting that the suspicious men withdrew rather than risk a confrontation. Valerius's representatives consequently insist that future deliveries be arranged with less predictable movement and stronger custody. The episode does not break the proposed arrangement, but it turns transportation security into a real cost and consideration of the new income stream.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius convoy guards",
+        "Valerius silver mines",
+        "Roman mint authorities"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 969,
+          "delta": 2,
+          "after": 971,
+          "unit": "points",
+          "reason": "The attempted observation of the first silver convoy exposes a new security risk and improves Valerius's information about moving high-value bullion.",
+          "source_event_id": "GMV-62BCE-001-R045-E003",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R045-E004",
+      "date": "-0060-09-18",
+      "type": "direct",
+      "headline": "THE ROMAN ASSAYERS FIX THE SILVER'S PAYABLE VALUE",
+      "article": "At the mint, the silver is weighed, examined, and tested before the officials recognize any value for payment. The Roman examiners do not accept the mine's gross extraction figure as equivalent to fine silver, and several pieces are separated for closer testing before the final account is written. The accepted material is nevertheless sufficient for the trial to continue, and the officials record the amount on which the coin payment will be based. Valerius's representatives are permitted to witness the accounting, giving both sides a measure against which the finished coin can later be checked. The process is slower than a simple sale of bullion, but it protects the central condition of Valerius's proposal: payment follows the metal actually recognized by the mint, not an estimate made at the mine. The trial therefore survives its first serious test of quality and measurement.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Roman assayers",
+        "Roman mint authorities"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "intelligence",
+          "before": 971,
+          "delta": 1,
+          "after": 972,
+          "unit": "points",
+          "reason": "The first formal assay establishes a reliable benchmark for comparing mine output with mint-accepted silver.",
+          "source_event_id": "GMV-62BCE-001-R045-E004",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R045-E005",
+      "date": "-0060-09-24",
+      "type": "connected",
+      "headline": "THE FIRST SILVER COINS ARE STRUCK — AND THE PAYMENT IS SETTLED IN COIN",
+      "article": "The accepted silver finally emerges from the Roman minting process as struck silver coinage, and Valerius's representatives receive the payment specified in his proposal. The transaction is not treated as a grant or favor: the account is tied to the silver officially accepted for the trial, and the resulting payment is made in coin rather than land, political capital, or another asset. The first payment is modest, reflecting the limited size of the trial rather than the full potential suggested by the newly exposed vein. The coins enter Valerius's private monetary position because the underlying silver came from his personal mines, while the public estate treasury remains untouched. For Valerius, the significance is immediate: he has demonstrated that a private mineral resource can be connected to an authorized Roman minting process and return to him as recognized money. The arrangement remains conditional on future assay and acceptance, but the first transaction has actually cleared.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Roman mint authorities",
+        "Roman assayers",
+        "Valerius silver mines"
+      ],
+      "state_changes": [
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "currency",
+          "before": -1110,
+          "delta": 42,
+          "after": -1068,
+          "unit": "net liquid currency position",
+          "reason": "The first accepted silver shipment is converted into Roman silver coin and received as private liquid currency.",
+          "source_event_id": "GMV-62BCE-001-R045-E005",
+          "provenance": "simulation"
+        },
+        {
+          "actor_id": "gaius_maximus_valerius",
+          "metric": "private_wealth",
+          "before": 497,
+          "delta": 42,
+          "after": 539,
+          "unit": "currency-equivalent private wealth",
+          "reason": "The minted coin payment increases Valerius's private wealth because the supplied silver was personally owned.",
+          "source_event_id": "GMV-62BCE-001-R045-E005",
+          "provenance": "simulation"
+        }
+      ]
+    },
+    {
+      "event_id": "GMV-62BCE-001-R045-E006",
+      "date": "-0060-09-30",
+      "type": "connected",
+      "headline": "VALERIUS CHOOSES STEADY EXTRACTION OVER STRIPPING THE NEW VEIN",
+      "article": "By the final days of September, the mine's new lower working has been secured enough for limited continuation, but Valerius refuses to turn the discovery into an uncontrolled rush. His overseers are ordered to keep the galleries safe, preserve the productive workings, and prepare future silver in quantities that can be transported and presented for Roman examination without exhausting the operation. The first transaction's weights, assay results, transport delays, and final payment are entered into the household records as a benchmark for future deliveries. This gives Valerius something more valuable than a single successful sale: a measurable process for judging whether the mine can reliably feed the mint over time. The Roman side has not granted an unconditional right to coin his silver, and each future consignment remains subject to official acceptance. Even so, September closes with a new private revenue channel established, a richer but more demanding mine operation ahead, and a clear reason to keep both the mine and the mint relationship under close management.",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Valerius mine overseers",
+        "Valerius stewards",
+        "Roman mint authorities"
+      ],
+      "state_changes": []
+    }
+  ]
+}
