@@ -1,18 +1,18 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 44,
-  "date": "-0060-08-31",
+  "round": 45,
+  "date": "-0060-09-30",
   "treasury": 1905,
   "wealth_accounts": {
     "public": 2693,
-    "private": 497,
+    "private": 539,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 120,
-    "last_round_private_transfer": 12
+    "last_round_private_transfer": 0
   },
   "metrics": {
     "population": 249,
-    "currency": -1110,
+    "currency": -1068,
     "soldiers": 411,
     "taxation": 3,
     "economy": 100,
@@ -27,7 +27,7 @@
     "legitimacy": 100,
     "exhaustion": 55,
     "technology": 85,
-    "intelligence": 969,
+    "intelligence": 972,
     "relations": 100,
     "land_area_sq_miles": 4.25
   },
@@ -49,7 +49,7 @@
     "merchant-connections": 17
   },
   "continuity": {
-    "campaign_development": "August 60 BCE: Valerius introduced a permanent three-percent income-based estate tax, collected proportionally from recorded personal income. The low rate produced modest recurring revenue without changing land holdings or core economic capacity; treasury rose to 1905 and intelligence to 969.",
+    "campaign_development": "September 60 BCE: Valerius connected silver from his privately held deep-vein mines to a conditional Roman minting arrangement. A new lower vein was discovered but required drainage and security work; the first guarded consignment passed Roman assay and was struck into silver coin, increasing the net liquid currency position by 42 and private wealth by 42. Estate treasury remained 1905 and land holdings remained 4.25 square miles.",
     "land_area_history": "4.25 square miles unchanged."
   },
   "special_event_policy": {
@@ -62,9 +62,9 @@
     "magnitude_11": {
       "chance_percent": 6.42,
       "checks": [
-        12.4831,
-        57.2204,
-        91.6732
+        24.3817,
+        61.7402,
+        94.2165
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
