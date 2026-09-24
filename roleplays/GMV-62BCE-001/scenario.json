@@ -1,1 +1,37 @@
-{"scenario_id":"GMV-62BCE-001","latest_round":35,"latest_date":"-0060-11-30","metric_schema":"fixed-v1+land-area-v1","land_area_metric":{"name":"land_area_sq_miles","unit":"square miles","scope":"personal estates and holdings","baseline_round":33,"baseline_value":4,"rule":"carry forward; future changes require concrete land events"},"continuity":{"historical_actors":["Marcus Tullius Cicero","Gaius Julius Caesar","Marcus Porcius Cato","Gnaeus Pompeius Magnus","Marcus Licinius Crassus","Marcus Claudius Marcellus","Quintus Caecilius Metellus Celer"],"campaign_development":"In November 60 BCE, the captured dispatches were confirmed by a coordinated night assault on the ravine fortress. The fortress held and its road was reopened, but the rear communications are now an active military concern. Farther ahead, Valerius recovered another hidden storehouse linked to the network records. The expedition continues into the interior.","land_area_history":"The personal holdings measurement remains 4.00 square miles. Round 35 involved no land acquisition, loss, transfer, or other change to the holdings."},"special_event_policy":{"magnitude_scale":"1-11","standard_magnitude_scale":"1-10","this_round_standard_special":false,"this_round_magnitude_11_events":1,"current_round_opportunity_probability":12,"magnitude_11":{"chance_percent":12.84,"checks":[31.2841,8.4417,77.5032],"raw_successes":1,"accepted_candidates":1,"events":1}}}
+{
+  "scenario_id": "GMV-62BCE-001",
+  "latest_round": 36,
+  "latest_date": "-0060-12-31",
+  "metric_schema": "fixed-v1+land-area-v1",
+  "land_area_metric": {
+    "name": "land_area_sq_miles",
+    "unit": "square miles",
+    "scope": "personal estates and holdings",
+    "baseline_round": 33,
+    "baseline_value": 4,
+    "rule": "carry forward unless concrete land event changes it"
+  },
+  "special_event_policy": {
+    "magnitude_scale": "1-11",
+    "standard_magnitude_scale": "1-10",
+    "this_round_standard_special": true,
+    "this_round_magnitude": 6,
+    "current_round_opportunity_probability": 14,
+    "magnitude_11_events": 0,
+    "magnitude_11": {
+      "chance_percent": 5.91,
+      "checks": [
+        71.44,
+        22.16,
+        94.08
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    }
+  },
+  "continuity": {
+    "campaign_development": "December 60 BCE: Valerius continued beyond the hard pass, secured a hidden store, reorganized the column, and crossed a river at the Ford of Three Fires after scouts found signs of recent watchers. A previously unrecorded settlement was identified beyond the ford. The ravine fortress remains in Roman hands and its road remains open.",
+    "land_area_history": "4.00 square miles unchanged."
+  }
+}
