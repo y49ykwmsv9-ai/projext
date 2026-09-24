@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 37,
-  "latest_date": "-0060-01-31",
+  "latest_round": 38,
+  "latest_date": "-0060-02-29",
   "metric_schema": "fixed-v1+land-area-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -15,15 +15,15 @@
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
     "this_round_standard_special": true,
-    "this_round_magnitude": 4,
+    "this_round_magnitude": 7,
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
-      "chance_percent": 9.27,
+      "chance_percent": 6.42,
       "checks": [
-        71.4421,
-        36.8814,
-        92.1137
+        48.2271,
+        12.4473,
+        81.3304
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,
@@ -31,7 +31,7 @@
     }
   },
   "continuity": {
-    "campaign_development": "January 60 BCE: Valerius halted the march to recover his exhausted soldiers. He spent a day speaking personally with the men while rotating patrols guarded the position. Earthworks, a small watchtower and a secure storehouse were constructed. By month end exhaustion reached 0 and supply reached 48 before the next march.",
+    "campaign_development": "February 60 BCE: Valerius confirmed that the January watchers belonged to the wider network, resumed the march, and personally pursued the observation party with one retainer. The watchers' camp was brought under Roman control without committing the main body to a pitched engagement. Records recovered from the position revealed additional routes and connections deeper into the interior. The main column continued onward with its strength preserved, supply at 45 and exhaustion at 49 by month end.",
     "land_area_history": "4.00 square miles unchanged."
   }
 }

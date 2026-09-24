@@ -1,18 +1,18 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 37,
-  "date": "-0060-01-31",
+  "round": 38,
+  "date": "-0060-02-29",
   "treasury": 1970,
   "wealth_accounts": {
-    "public": 2585,
-    "private": 485,
+    "public": 2693,
+    "private": 497,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 115,
+    "last_round_net_public_profit": 120,
     "last_round_private_transfer": 12
   },
   "metrics": {
     "population": 249,
-    "currency": -985,
+    "currency": -1110,
     "soldiers": 411,
     "taxation": 0,
     "economy": 100,
@@ -21,13 +21,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 48,
+    "supply": 45,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 0,
-    "technology": 79,
-    "intelligence": 804,
+    "exhaustion": 49,
+    "technology": 84,
+    "intelligence": 918,
     "relations": 100,
     "land_area_sq_miles": 4
   },
@@ -49,22 +49,22 @@
     "merchant-connections": 16
   },
   "continuity": {
-    "campaign_development": "January 60 BCE: Valerius halted the march to recover his exhausted soldiers. He spent a day speaking personally with the men while rotating patrols guarded the position. Earthworks, a small watchtower and a secure storehouse were constructed. By month end exhaustion reached 0 and supply reached 48 before the next march.",
+    "campaign_development": "February 60 BCE: Valerius confirmed that the January watchers belonged to the wider network, resumed the march, and personally pursued the observation party with one retainer. The watchers' camp was brought under Roman control without committing the main body to a pitched engagement. Records recovered from the position revealed additional routes and connections deeper into the interior. The main column continued onward with its strength preserved, supply at 45 and exhaustion at 49 by month end.",
     "land_area_history": "4.00 square miles unchanged."
   },
   "special_event_policy": {
     "magnitude_scale": "1-11",
     "standard_magnitude_scale": "1-10",
     "this_round_standard_special": true,
-    "this_round_magnitude": 4,
+    "this_round_magnitude": 7,
     "current_round_opportunity_probability": 12,
     "magnitude_11_events": 0,
     "magnitude_11": {
-      "chance_percent": 9.27,
+      "chance_percent": 6.42,
       "checks": [
-        71.4421,
-        36.8814,
-        92.1137
+        48.2271,
+        12.4473,
+        81.3304
       ],
       "raw_successes": 0,
       "accepted_candidates": 0,

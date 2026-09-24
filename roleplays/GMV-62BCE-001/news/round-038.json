@@ -1,0 +1,75 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 38,
+  "period": {
+    "start": "-0060-02-01",
+    "end": "-0060-02-29",
+    "display": "1 February 60 BCE – 29 February 60 BCE"
+  },
+  "events": [
+    {
+      "event": 1,
+      "date": "-0060-02-03",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "VALERIUS CONFIRMS THE SOURCE OF THE OBSERVATION"
+    },
+    {
+      "event": 2,
+      "date": "-0060-02-06",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "THE NEXT MARCH BEGINS AFTER THE SOURCE IS CONFIRMED"
+    },
+    {
+      "event": 3,
+      "date": "-0060-02-10",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "VALERIUS AND ONE RETAINER FOLLOW THE WATCHERS' TRAIL"
+    },
+    {
+      "event": 4,
+      "date": "-0060-02-13",
+      "type": "SURPRISE",
+      "special_event": true,
+      "magnitude": 7,
+      "headline": "THE WATCHERS' CAMP IS SILENCED BEFORE THE MAIN COLUMN ARRIVES"
+    },
+    {
+      "event": 5,
+      "date": "-0060-02-17",
+      "type": "CONNECTED",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "CAPTURED RECORDS REVEAL THE NETWORK'S INNER ROUTES"
+    },
+    {
+      "event": 6,
+      "date": "-0060-02-21",
+      "type": "DIRECT",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "THE MAIN COLUMN ADVANCES BEYOND THE SILENCED CAMP"
+    },
+    {
+      "event": 7,
+      "date": "-0060-02-25",
+      "type": "WORLD",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "NEWS FROM ROME REACHES THE INTERIOR EXPEDITION"
+    },
+    {
+      "event": 8,
+      "date": "-0060-02-29",
+      "type": "WORLD",
+      "special_event": false,
+      "magnitude": null,
+      "headline": "LOCAL ROUNDUP: THE FIRST WATCHING POST HAS FALLEN"
+    }
+  ]
+}
