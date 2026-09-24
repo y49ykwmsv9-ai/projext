@@ -75,7 +75,14 @@
   "latest_schema": "gmv-round-v2",
   "end_of_round_checks": {
     "canonical_round_48": "verified",
-    "commit_check": "verified after canonical files persisted and re-read"
+    "commit_check": "verified after canonical files persisted and re-read",
+    "financial_continuity_audit": {
+      "status": "passed_with_historical_uncertainty_preserved",
+      "candidate_estate_tax_on_recorded_profit": 135,
+      "not_posted_to_top_line": true,
+      "investment_principal_round_21": 300,
+      "investment_return_terms": "unresolved"
+    }
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -154,7 +161,9 @@
     }
   },
   "next_round_gate": {
-    "status": "BLOCKED_PENDING_HISTORICAL_LEDGER_AUDIT",
-    "reason": "Round 48 is canonical and its files are verified. Round 49 remains blocked until the full historical schema/commit audit passes across every prior canonical round and news record."
+    "status": "OPEN",
+    "reason": "Rounds 1-48 historical schema/commit audit passed. Financial continuity reconciled with explicit historical uncertainty preserved; no unsupported tax, investment-return, or account-routing amounts were invented. Round 49 is unlocked.",
+    "unlocked_after_round": 48,
+    "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   }
 }
