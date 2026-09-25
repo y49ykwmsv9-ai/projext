@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 73,
-  "latest_date": "-0057-01-31",
+  "latest_round": 74,
+  "latest_date": "-0057-02-28",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,7 +16,7 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 57.3814,
+    "current_round_roll": 83.6142,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -61,7 +61,27 @@
     "canonical_round_70": "verified",
     "canonical_round_71": "verified",
     "canonical_round_72": "verified",
-    "canonical_round_73": "verified"
+    "canonical_round_73": "verified",
+    "special_base_probability_percent": 12,
+    "special_roll": 83.6142,
+    "special_triggered": false,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      31.4821,
+      74.9112,
+      92.1045
+    ],
+    "magnitude_11_events": 0,
+    "continuity_checks": {
+      "fixed_metric_schema": "PASS",
+      "metric_bounds": "PASS",
+      "financial_realization_reconciled": "PASS",
+      "land_unchanged_and_ledger_consistent": "PASS",
+      "recurring_character_continuity": "PASS",
+      "event_variety": "PASS",
+      "current_total_ledger_complete": "PASS"
+    },
+    "canonical_round_74": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
