@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 80,
-  "latest_date": "-0057-05-05",
+  "latest_round": 81,
+  "latest_date": "-0057-05-12",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 67.1842,
+    "current_round_roll": 49.9799,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "21 April 57 BCE: The authenticated dossier is preserved, the old boundary marker is reconciled against the purchase records, additional local testimony strengthens the chronological record, spring labor expands on the purchased tract, Roman correspondents acknowledge the preserved dossier, and the week's ordinary agricultural accounts close with a modest realized public receipt.",
+    "campaign_development": "12 May 57 BCE: Spring administration continues; the preserved raid dossier receives another documentary cross-check, the merchant route advances, Roman correspondence keeps both the expedition and raid inquiry in circulation, and the household archive closes another week with the documentary threads kept distinct.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "end_of_round_checks": {
@@ -63,13 +63,13 @@
     "canonical_round_72": "verified",
     "canonical_round_73": "verified",
     "special_base_probability_percent": 12,
-    "special_roll": 30.2563,
+    "special_roll": 49.9799,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      14.453,
-      35.5449,
-      65.7505
+      20.9978,
+      7.3626,
+      50.9929
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -79,6 +79,7 @@
       "land_change_and_ledger_consistent": "PASS",
       "recurring_character_continuity": "PASS",
       "event_variety": "PASS",
+      "ultimate_event_contract": "PASS",
       "current_total_ledger_complete": "PASS"
     },
     "canonical_round_74": "verified",
