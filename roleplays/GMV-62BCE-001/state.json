@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 69,
-  "date": "-0058-09-30",
+  "round": 70,
+  "date": "-0058-10-31",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3264,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 25,
+    "supply": 23,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1476,
+    "intelligence": 1474,
     "relations": 100,
     "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "September 58 BCE: Valerius’s Roman library reaches his estates, open reading hours are established, the regional authority continues reviewing the raid evidence, and estate readers begin shaping a copying program around the texts they use most.",
+    "campaign_development": "October 58 BCE: Valerius’s estate libraries begin regular use, the raid investigation remains active through Roman correspondence, and the lake-port completes another autumn commercial cycle.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 sq mi to reach 7.6875. Round 67 adds no land."
   },
   "special_event_policy": {
@@ -66,15 +66,24 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 73.1842,
+    "special_roll": 64.2817,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      11.8246,
-      48.3175,
-      89.5512
+      17.6241,
+      46.8917,
+      81.4432
     ],
-    "magnitude_11_events": 0
+    "magnitude_11_events": 0,
+    "continuity_checks": {
+      "fixed_metric_schema": "PASS",
+      "metric_bounds": "PASS",
+      "financial_realization_reconciled": "PASS",
+      "land_unchanged_and_ledger_consistent": "PASS",
+      "recurring_character_continuity": "PASS",
+      "event_variety": "PASS",
+      "current_total_ledger_complete": "PASS"
+    }
   },
   "financial_realization": {
     "treasury": 1668,
@@ -83,7 +92,8 @@
     "gross_receipts_denarii": 280,
     "operating_costs_denarii": 190,
     "net_public_profit_denarii": 90,
-    "private_transfer_denarii": 9
+    "private_transfer_denarii": 9,
+    "currency_flow_denarii": 99
   },
   "next_round_gate": "OPEN"
 }
