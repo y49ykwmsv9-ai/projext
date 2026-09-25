@@ -34,7 +34,7 @@
         "morale": 0,
         "readiness": 0,
         "intelligence": 0,
-        "relations": 2,
+        "relations": 1,
         "land_area_sq_miles": 0
       }
     },
@@ -82,7 +82,7 @@
         "morale": 0,
         "readiness": 0,
         "intelligence": 1,
-        "relations": 2,
+        "relations": 0,
         "land_area_sq_miles": 0
       }
     },
@@ -107,7 +107,7 @@
         "morale": 0,
         "readiness": 0,
         "intelligence": 2,
-        "relations": 1,
+        "relations": 0,
         "land_area_sq_miles": 0
       }
     },
@@ -155,7 +155,7 @@
         "morale": 0,
         "readiness": -1,
         "intelligence": 3,
-        "relations": 3,
+        "relations": 0,
         "land_area_sq_miles": 0
       }
     },
@@ -190,42 +190,50 @@
     "soldiers": {
       "before": 398,
       "delta": 0,
-      "after": 398
+      "after": 398,
+      "unit": "men"
     },
     "supply": {
       "before": 59,
       "delta": -1,
-      "after": 58
+      "after": 58,
+      "unit": "points"
     },
     "exhaustion": {
       "before": 72,
       "delta": -3,
-      "after": 69
+      "after": 69,
+      "unit": "points"
     },
     "morale": {
       "before": 99,
       "delta": 0,
-      "after": 99
+      "after": 99,
+      "unit": "points"
     },
     "readiness": {
       "before": 97,
       "delta": 0,
-      "after": 97
+      "after": 97,
+      "unit": "points"
     },
     "intelligence": {
       "before": 1016,
       "delta": 11,
-      "after": 1027
+      "after": 1027,
+      "unit": "points"
     },
     "relations": {
       "before": 99,
-      "delta": 9,
-      "after": 108
+      "delta": 1,
+      "after": 100,
+      "unit": "points"
     },
     "land_area_sq_miles": {
       "before": 4.25,
       "delta": 0,
-      "after": 4.25
+      "after": 4.25,
+      "unit": "square miles"
     }
   },
   "land_area": {
@@ -260,6 +268,28 @@
     "commit_check": {
       "required": true,
       "verified_after_commit": false
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v1",
+      "capped_metrics": [
+        "taxation",
+        "economy",
+        "agriculture",
+        "infrastructure",
+        "trade",
+        "readiness",
+        "morale",
+        "supply",
+        "organization",
+        "stability",
+        "legitimacy",
+        "technology",
+        "exhaustion",
+        "relations"
+      ],
+      "note": "Bounded metrics are clamped at their established limits; positive effects at an already-maximal value produce no further numerical increase."
     }
-  }
+  },
+  "metric_schema_ref": "roleplay-fixed-metrics-v1"
 }
