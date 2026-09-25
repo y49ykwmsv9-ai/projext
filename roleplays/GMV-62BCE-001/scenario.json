@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 72,
-  "latest_date": "-0058-12-31",
+  "latest_round": 73,
+  "latest_date": "-0057-01-31",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 82.1473,
+    "current_round_roll": 57.3814,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "December 58 BCE: winter provisioning becomes routine, the raid inquiry remains active through Celer's correspondence, the lake-port completes a winter settlement, and the estate library continues local readings and copying.",
+    "campaign_development": "January 57 BCE: winter provisioning continues under tighter scheduling, the raid inquiry gains a more orderly documentary trail, merchants prepare the next lake-port cycle, and the estate library begins connecting local petitions and readers with Valerius's Roman correspondence.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 freshly surveys the newly seized final-refuge tract at 0.125 sq mi (80 acres), exclusive of the older 0.0625 sq mi fort-complex component, bringing total holdings to 7.6875 sq mi."
   },
   "end_of_round_checks": {
@@ -60,7 +60,8 @@
     "canonical_round_69": "verified",
     "canonical_round_70": "verified",
     "canonical_round_71": "verified",
-    "canonical_round_72": "verified"
+    "canonical_round_72": "verified",
+    "canonical_round_73": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
