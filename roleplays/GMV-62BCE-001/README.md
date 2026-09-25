@@ -2,12 +2,15 @@
 
 ## Event Output Format
 
-Every generated event MUST explicitly store and display its event classification. The classification hierarchy is:
+Every generated event MUST explicitly store and display its event classification. The initial classification set is:
 
 - `Direct`
 - `Connected`
 - `Surprise`
 - `Special`
+- `Ultimate`
+
+The final classification is determined after the mandatory post-generation Ultimate Reclassification Gate. Ultimate is therefore both a core classification and the terminal classification for any Surprise or Special event that independently meets the Ultimate threshold.
 
 The event category is a classification of how the event enters the simulation. It is **not** a subject-matter label such as military, political, or economic.
 
@@ -233,6 +236,8 @@ The canonical round is determined only by the synchronized values in `scenario.j
 ### Narrative Rules
 
 - News prose describes what happened.
+- Surprise and Special events use the same expanded player-facing prose/news treatment required for extraordinary event presentation. They are not shortened merely because their initial classification is Surprise or Special.
+- If a Surprise or Special event qualifies for Ultimate during post-generation review, its final classification becomes Ultimate and its narrative must be rewritten to satisfy the Ultimate narrative contract before output or commit.
 - Hidden simulation reasoning does not appear in the narrative.
 - Do not write internal logic as if it were an in-world news report.
 - Maintain recurring named characters where contextually appropriate.
@@ -245,6 +250,10 @@ The canonical round is determined only by the synchronized values in `scenario.j
 - A round may contain multiple event types.
 - Do not force every category to appear in every round.
 - Do not repeat one category simply to satisfy an artificial distribution.
+- After initial event generation, every Surprise and Special event MUST be inspected by the Ultimate Reclassification Gate before final output.
+- If that gate qualifies the event for Ultimate, the final category MUST be changed to Ultimate and the event MUST be rewritten at Ultimate narrative depth.
+- If the gate does not qualify the event, the original Surprise or Special category remains final.
+- This gate is one-way: Surprise or Special may become Ultimate; Ultimate is not downgraded merely because its causal origin resembles another category.
 
 ### Event Type Definitions
 
@@ -254,7 +263,7 @@ The canonical round is determined only by the synchronized values in `scenario.j
 
 - **Surprise:** An unexpected but causally plausible development emerging from the established simulation state. It should introduce something Valerius did not explicitly order or anticipate while remaining grounded in existing circumstances, characters, relationships, geography, resources, or unresolved threads. Surprise does not mean arbitrary randomness and must not create unsupported dramatic twists.
 
-- **Special:** A development generated when the independent Special-event roll for that round succeeds. Special is a core event category governed by the campaign's established Special-event probability. Its narrative should describe the resulting event as an in-world development rather than exposing the random-roll mechanism. A Special event may concern any supported subject and is not automatically more important than Direct, Connected, or Surprise.
+- **Special:** A development generated when the independent Special-event roll for that round succeeds. Special is a core event category governed by the campaign's established Special-event probability. Its narrative should describe the resulting event as an in-world development rather than exposing the random-roll mechanism. A Special event may concern any supported subject and is not automatically Ultimate merely because the roll succeeded. Every Special event must subsequently pass the Ultimate Reclassification Gate before its final category is committed.
 
 - **Ultimate:** An extraordinary development that warrants an unusually detailed, cinematic account. It is reserved for major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or comparable exceptional developments whose narrative significance exceeds that of an ordinary event. Ultimate may be substantially longer and more immersive, but every detail must remain grounded in established campaign facts. It is not a second random-event system, does not replace Special, does not need to occur every round, and must never be created merely to fill an event quota. When the player character personally experiences an Ultimate event, use direct second-person perspective ("you") so the event is experienced as the player's own actions and memories rather than as a report about Valerius.
 
@@ -269,7 +278,7 @@ The canonical round is determined only by the synchronized values in `scenario.j
 ## Ultimate Reclassification Gate
 
 
-The simulation uses a mandatory post-generation classification refinement gate. Event categories remain distinct, but an event originally generated as Surprise or Special may be reclassified as Ultimate when the event itself independently satisfies the Ultimate definition.
+The simulation uses a mandatory post-generation classification refinement gate. Event categories remain distinct at generation time, but the final classification is not locked until every originally Surprise and Special event has been inspected. An event originally generated as Surprise or Special may be reclassified as Ultimate when the event itself independently satisfies the Ultimate definition.
 
 ### Reclassification Rule
 - Generate the event using its correct causal mechanism first.
