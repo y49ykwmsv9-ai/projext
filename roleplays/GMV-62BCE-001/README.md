@@ -48,6 +48,17 @@ The event category must be explicitly printed in the event header and stored as 
 - `relations`: +1
 - `land_area_sq_miles`: 0
 
+**Financial Realization — within AI Ledger**
+- `gross_receipts_denarii`: 0
+- `operating_costs_denarii`: 0
+- `net_public_profit_denarii`: 0
+- `private_transfer_denarii`: 0
+- `treasury_change_denarii`: 0
+- `public_account_change_denarii`: 0
+- `private_account_change_denarii`: 0
+- `currency_flow_denarii`: 0
+- `internal_transfer`: false
+
 ### Machine-Readable Sample
 
 ```json
@@ -72,7 +83,18 @@ The event category must be explicitly printed in the event header and stored as 
     "readiness": 0,
     "intelligence": 2,
     "relations": 1,
-    "land_area_sq_miles": 0
+    "land_area_sq_miles": 0,
+    "financial_realization": {
+      "gross_receipts_denarii": 0,
+      "operating_costs_denarii": 0,
+      "net_public_profit_denarii": 0,
+      "private_transfer_denarii": 0,
+      "treasury_change_denarii": 0,
+      "public_account_change_denarii": 0,
+      "private_account_change_denarii": 0,
+      "currency_flow_denarii": 0,
+      "internal_transfer": false
+    }
   }
 }
 ```
@@ -98,11 +120,31 @@ The AI ledger is the explicit machine-readable record of the state changes produ
 
 An event may have zero change to a metric; that zero should remain explicit when the metric is part of the event ledger.
 
+### Financial Realization Is Part of the AI Ledger
+
+Financial realization is a required **sub-ledger inside `ai_ledger`**, not a separate event-level ledger. When an observable event produces a realized financial effect, the event's `ai_ledger.financial_realization` must record that effect.
+
+The financial realization object uses denarii and should contain the applicable fields:
+
+- `gross_receipts_denarii`
+- `operating_costs_denarii`
+- `net_public_profit_denarii`
+- `private_transfer_denarii`
+- `treasury_change_denarii`
+- `public_account_change_denarii`
+- `private_account_change_denarii`
+- `currency_flow_denarii`
+- `internal_transfer`
+
+Zero values may be used when a field does not apply, so the financial schema remains stable across events.
+
+The fixed metric `currency` remains part of the authoritative metric schema. When a financial effect changes that metric, the corresponding `currency` delta belongs in the main AI ledger and the exact-denarii movement is also represented by `currency_flow_denarii` inside `financial_realization`. These two fields serve different purposes and must reconcile; `currency_flow_denarii` is not a second income count.
+
 ## Financial Realization and Account Routing
 
 Economic activity does **not** need to be narrated as an accounting statement. An event may describe an observable development such as harvests, cargo movement, trade, rents, fees, contracts, workshop activity, or another productive/commercial development without explicitly stating the resulting income in the article body.
 
-When the observable event produces a realized financial effect, the simulation should record that effect intermittently in the machine-readable financial ledger. Financial realization is a consequence of the event, not a requirement that every economic event produce money and not a requirement that the article explain the accounting.
+When the observable event produces a realized financial effect, the simulation should record that effect in the event's `ai_ledger.financial_realization`. Financial realization is a consequence of the event, not a requirement that every economic event produce money and not a requirement that the article explain the accounting.
 
 Financial effects must use **denarii** and must be routed to the appropriate account according to the event:
 - `treasury`: state, military, public-command, or other explicitly public/state funds.
@@ -145,7 +187,7 @@ The campaign uses the following authoritative metric definitions. These definiti
 
 A bounded metric may not exceed its established maximum or fall below its minimum. If an event produces a positive effect while the metric is already at its maximum, the observable event may still occur, but the numerical ledger records only the amount that can actually be applied within the bound. Exact quantities such as men, people, denarii, and square miles are never silently treated as percentage/condition points.
 
-The machine-readable scenario record stores the same definitions under `metric_schema` / `metric_definitions`. Event and round ledgers must preserve the corresponding unit. 
+The machine-readable scenario record stores the same definitions under `metric_schema` / `metric_definitions`. Event and round ledgers must preserve the corresponding unit.
 
 
 ## Current Total Ledger Requirement
