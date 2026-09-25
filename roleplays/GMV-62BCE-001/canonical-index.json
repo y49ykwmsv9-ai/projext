@@ -2,9 +2,9 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 76,
-    "latest_date": "-0057-04-07",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-76.json",
+    "latest_round": 77,
+    "latest_date": "-0057-04-14",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-77.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -13,5 +13,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 76 round/state/scenario/news records synchronized."
+  "last_verified": "Round 77 round/state/scenario/news records synchronized."
 }
