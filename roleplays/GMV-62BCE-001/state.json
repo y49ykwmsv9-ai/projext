@@ -106,11 +106,12 @@
       "article_text_unchanged": true,
       "unsupported_historical_income_not_invented": true
     },
-    "canonical_round_57": "verified_pending_commit",
+    "canonical_round_57": "verified",
     "current_total_ledger": {
-      "status": "verified_pending_commit",
+      "status": "verified",
       "schema": "roleplay-fixed-metrics-v1",
-      "all_established_metrics_present": true
+      "all_established_metrics_present": true,
+      "matches_round_057": true
     }
   },
   "property_ledger": {
@@ -218,8 +219,8 @@
     }
   },
   "next_round_gate": {
-    "status": "PENDING_VERIFICATION",
-    "reason": "Round 57 data prepared; gate remains closed until round, news, state and current-total-ledger verification are completed.",
+    "status": "OPEN",
+    "reason": "Round 57 is resolved, persisted, and verified against the contract-required Current Total Ledger.",
     "unlocked_after_round": 57,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   },
