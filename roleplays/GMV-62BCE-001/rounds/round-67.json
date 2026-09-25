@@ -1,0 +1,518 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 67,
+  "date": "-0058-07-31",
+  "directive": "Valerius goes to official academies to receive classical education and studies every single book he was given, remembers every person who contributed, and orders the books sent to his estates and settlements for free access.",
+  "event_categories_represented": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R067-E001",
+      "round_number": 67,
+      "date": "4 July 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS BEGINS FORMAL STUDY UNDER ROME'S ESTABLISHED TEACHERS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman teachers",
+        "established schools and instructional circles"
+      ],
+      "body": "Valerius begins formal study with established Roman teachers and instructional circles, moving beyond informal philosophical debate into a more systematic education. His studies range across rhetoric, philosophy, history, language, civic thought, and the literary traditions that shape educated Roman life. He approaches the teachers as a student rather than attempting to use his reputation to dominate the instruction. The change is noticeable because his recent Roman activities had centered on discussion and collecting books, while he now commits himself to disciplined study under people who possess specialized knowledge. His days become increasingly structured around reading, instruction, discussion, and review.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 2,
+        "exhaustion": 0,
+        "intelligence": 7,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R067-E002",
+      "round_number": 67,
+      "date": "9 July 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS WORKS THROUGH THE BOOKS HE HAS RECEIVED INSTEAD OF LEAVING THEM UNREAD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's Roman library",
+        "Roman copyists and collectors"
+      ],
+      "body": "Valerius begins the demanding task he had set for himself when he acquired his Roman collection: actually reading the books rather than allowing them to become symbols of wealth. He works through the philosophical, historical, rhetorical, poetic, geographical, legal, and practical writings that have accumulated around him. Some texts require repeated reading because their arguments or language are unfamiliar, and Valerius keeps notes as he proceeds. He treats the collection as a working body of knowledge, comparing authors rather than accepting every argument simply because it has been preserved in a respected volume. The breadth of the collection makes the undertaking substantial, but by the middle of the month he has already established a systematic method for working through it.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 2,
+        "exhaustion": 0,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R067-E003",
+      "round_number": 67,
+      "date": "14 July 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS RECORDS THE CONTRIBUTORS BEHIND HIS LIBRARY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "booksellers",
+        "copyists",
+        "collectors",
+        "Roman teachers"
+      ],
+      "body": "As he works through the collection, Valerius begins recording the people through whom each group of books reached him. Where the information is available, his notes identify booksellers, copyists, private collectors, teachers, and intermediaries who contributed to the library. The effort turns what had initially been a large accumulation of texts into a documented intellectual network. Valerius also makes a point of remembering the individuals who recommended works or opened private collections to him. The records give the collection a human history as well as a literary one, preserving the names and contributions of the people who helped assemble it.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 1,
+        "exhaustion": 0,
+        "intelligence": 8,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R067-E004",
+      "round_number": 67,
+      "date": "19 July 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS FINISHES THE FIRST COMPLETE PASS THROUGH HIS ROMAN COLLECTION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's library",
+        "Roman scholarly circles"
+      ],
+      "body": "Valerius completes his first full pass through the books he received in Rome, returning to difficult passages and reviewing notes made during the earlier readings. The achievement does not mean that every text has been mastered; instead, he now possesses a working familiarity with the entire collection and can identify which works require deeper study. He organizes his notes around recurring questions concerning virtue, duty, power, education, history, and civic responsibility. The completion also strengthens his determination that the collection should not remain available only to himself. He begins considering how the books can be preserved and made useful to the people living on his estates and settlements.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 2,
+        "exhaustion": 0,
+        "intelligence": 10,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R067-E005",
+      "round_number": 67,
+      "date": "23 July 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS ORDERS THE BOOKS SENT TO HIS ESTATES AND SETTLEMENTS FOR FREE ACCESS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's estates",
+        "estate stewards",
+        "settlement residents",
+        "estate laborers"
+      ],
+      "body": "Valerius orders that the books he has acquired and read be transported to his estates and settlements rather than kept together as a private collection in Rome. The volumes are divided into organized groups and placed under the responsibility of his stewards, with inventories prepared so that books can be located and returned. Valerius gives explicit instructions that men serving on the estates and people living on his holdings are to be permitted to consult the books freely. The decision requires careful transport and preservation arrangements, especially for texts that have already passed through several hands. The first consignments begin moving away from Rome before the end of the month.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 1,
+        "exhaustion": 0,
+        "intelligence": 6,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R067-E006",
+      "round_number": 67,
+      "date": "27 July 58 BCE",
+      "event_category": "Surprise",
+      "title": "ROMAN TEACHERS LEARN THAT VALERIUS INTENDS HIS LIBRARY TO OUTLIVE HIS OWN USE OF IT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman teachers",
+        "Roman scholars",
+        "Valerius's estate libraries"
+      ],
+      "body": "Several Roman teachers learn that Valerius intends the books he has collected to become accessible on his estates rather than remaining a private display of his education. The decision prompts discussion among the teachers who have watched him move from philosophical debates into formal study and then through the entire collection. Some offer recommendations concerning preservation, copying, and the arrangement of texts so that people unfamiliar with a particular work can find useful material without guidance from a scholar. Valerius accepts the advice and continues arranging the books for practical use. The project therefore begins to look less like the construction of a personal library and more like the creation of several small centers of learning.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 1,
+        "exhaustion": 0,
+        "intelligence": 8,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R067-E007",
+      "round_number": 67,
+      "date": "31 July 58 BCE",
+      "event_category": "Connected",
+      "title": "CELER AND MARCELLUS RECEIVE WORD OF VALERIUS'S NEW EDUCATIONAL PROJECT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus",
+        "Valerius's estate libraries"
+      ],
+      "body": "Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus receive word of Valerius's formal education and of his decision to send the completed library to his estates for unrestricted access by the people living there. The report includes his practice of recording the contributors behind the books rather than treating the collection as an anonymous possession. Both men are already aware of Valerius's recent scholarly activities, but the scale of the educational project gives them another dimension of his current activities to consider. Valerius remains outside any formal political office, and the project is presented as a private undertaking rather than a political institution. The news nevertheless extends his growing Roman reputation into another sphere.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 1,
+        "exhaustion": 0,
+        "intelligence": 8,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "before": {
+      "soldiers": 394,
+      "population": 249,
+      "taxation": 3,
+      "economy": 100,
+      "agriculture": 90,
+      "infrastructure": 100,
+      "trade": 100,
+      "readiness": 100,
+      "morale": 100,
+      "supply": 35,
+      "organization": 100,
+      "stability": 100,
+      "legitimacy": 100,
+      "technology": 94,
+      "exhaustion": 100,
+      "intelligence": 1325,
+      "relations": 100,
+      "land_area_sq_miles": 7.6875,
+      "temporary_unavailable": 0
+    },
+    "change": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": -2,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 6,
+      "exhaustion": 0,
+      "intelligence": 56,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0
+    },
+    "after": {
+      "soldiers": 394,
+      "population": 249,
+      "taxation": 3,
+      "economy": 100,
+      "agriculture": 90,
+      "infrastructure": 100,
+      "trade": 100,
+      "readiness": 100,
+      "morale": 100,
+      "supply": 33,
+      "organization": 100,
+      "stability": 100,
+      "legitimacy": 100,
+      "technology": 100,
+      "exhaustion": 100,
+      "intelligence": 1381,
+      "relations": 100,
+      "land_area_sq_miles": 7.6875,
+      "temporary_unavailable": 0
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 394,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 90,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 33,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1381,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.6875,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "financial_realization": {
+    "treasury": 1668,
+    "public": 3174,
+    "private": 601,
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0
+  },
+  "end_of_round_checks": {
+    "special_base_probability_percent": 12,
+    "special_roll": 31.7442,
+    "special_triggered": false,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      18.3372,
+      63.4418,
+      91.0054
+    ],
+    "magnitude_11_events": 0
+  },
+  "next_round_gate": "OPEN"
+}
