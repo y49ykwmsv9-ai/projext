@@ -13,13 +13,13 @@
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
-    "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one Special event; a failed roll adds none. Each successful Magnitude-11 check also produces a Special event. Magnitude-11 is separate from the standard Special roll and never converts a result into Ultimate.",
+    "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one initially Special event; a failed roll adds none. Each successful Magnitude-11 check also produces one initially Special event. Magnitude-11 is separate from the standard Special roll. Initial Special or Surprise classification is not automatically Ultimate, but every such candidate is subject to the mandatory Ultimate Reclassification Gate before final classification.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
     "current_round_roll": 5.94160412514253,
     "current_round_selected": true,
     "current_round_event_id": "GMV-62BCE-001-R082-E006",
-    "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
+    "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed."
   },
   "continuity": {
     "campaign_development": "26 May 57 BCE: The newly authorized Roman expedition has extended its tested route beyond the second passage and remains active in unfamiliar country; estate administration, agricultural management, and Roman correspondence continue independently.",
@@ -87,7 +87,8 @@
       "literal_revenue_realization_check": "PASS",
       "local_random_checks": "PASS",
       "geographic_reference_consistency": "PASS",
-      "geographic_source_protection": "PASS"
+      "geographic_source_protection": "PASS",
+      "ultimate_reclassification_gate": "PASS"
     },
     "canonical_round_74": "verified",
     "canonical_round_75": "verified",
@@ -108,7 +109,7 @@
     "canonical_round_81": "verified",
     "canonical_round_82": "verified",
     "canonical_round_83": "verified",
-    "canonical_contract_note": "README updated: Surprise and Special events use identical prose/news requirements; category affects generation/classification only."
+    "canonical_contract_note": "README updated: every initially Surprise or Special event must pass the mandatory Ultimate Reclassification Gate before final output; qualifying events are reclassified and rewritten as Ultimate, while non-qualifying events retain their original category. Surprise and Special retain the expanded prose/news treatment even when they remain non-Ultimate."
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -299,7 +300,8 @@
     "purpose": "Preserve major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or similarly exceptional developments without overwriting ordinary events.",
     "clarification": "Ultimate may be retrospective when a major earlier development is formally reconstructed later. It uses the same required event fields and fixed AI ledger. It does not replace Direct, Connected, Surprise, or Special; it is not a probability system and does not bypass metric bounds or financial rules.",
     "usage_rule": "Generate Ultimate only when campaign context supports extraordinary circumstances. Do not force one every round.",
-    "narrative_rule": "Ultimate narratives may be substantially longer and more cinematic than ordinary news, emphasizing sequence, setting, hardship, decisions, consequences, and continuity while remaining grounded in established campaign facts."
+    "narrative_rule": "Ultimate narratives may be substantially longer and more cinematic than ordinary news, emphasizing sequence, setting, hardship, decisions, consequences, and continuity while remaining grounded in established campaign facts.",
+    "reclassification_rule": "Every event initially classified as Surprise or Special must be inspected after generation and before final output. If its actual circumstances independently satisfy the Ultimate definition, its final event_category becomes Ultimate and the narrative is rewritten to Ultimate depth. If not, its original category remains. This is a one-way post-generation gate and does not alter the underlying random result."
   },
   "event_category_hierarchy": {
     "core_categories": [
@@ -309,7 +311,7 @@
       "Special",
       "Ultimate"
     ],
-    "classification_note": "Event category describes how an event enters the simulation; Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
-    "prose_rule": "Direct, Connected, Surprise, and Special events share the same player-facing prose/news schema: Event ID, Date, Event Type, Title, Mentioned Entities, a 5–7+ sentence News/Event narrative, AI-facing ledger, and Financial realization when applicable. Surprise and Special do not receive shortened or different prose merely because of their category. Ultimate alone may use substantially longer narrative treatment when the campaign context supports it."
+    "classification_note": "Event category describes how an event enters the simulation at generation time; final classification is locked only after the mandatory Ultimate Reclassification Gate. Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
+    "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   }
 }
