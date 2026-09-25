@@ -2,7 +2,7 @@
   "scenario_id": "GMV-62BCE-001",
   "latest_round": 53,
   "latest_date": "-0059-05-31",
-  "metric_schema": "fixed-v1+land-area-v1",
+  "metric_schema": "roleplay-fixed-metrics-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
     "unit": "square miles",
@@ -75,5 +75,130 @@
   "event_variety_policy": {
     "schema_version": "gmv-event-variety-v1",
     "rule": "Do not make every event about the same subject. Prefer distinct news dimensions supported by current state: military operations, intelligence, logistics, political relationships, economic/property activity, social/local developments, personal developments, geography, and reactions. Variety must arise from simulation context and must not be fabricated solely to fill slots."
-  }
+  },
+  "metric_definitions": {
+    "soldiers": {
+      "unit": "men",
+      "min": 0,
+      "max": null,
+      "kind": "exact_quantity"
+    },
+    "population": {
+      "unit": "people",
+      "min": 0,
+      "max": null,
+      "kind": "exact_quantity"
+    },
+    "currency": {
+      "unit": "denarii",
+      "min": null,
+      "max": null,
+      "kind": "exact_quantity"
+    },
+    "taxation": {
+      "unit": "percent",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "economy": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "agriculture": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "infrastructure": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "trade": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "readiness": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "morale": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "supply": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "organization": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "stability": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "legitimacy": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "technology": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "exhaustion": {
+      "unit": "points",
+      "min": 0,
+      "max": 100,
+      "kind": "condition"
+    },
+    "intelligence": {
+      "unit": "points",
+      "min": null,
+      "max": null,
+      "kind": "points"
+    },
+    "relations": {
+      "unit": "points",
+      "min": -100,
+      "max": 100,
+      "kind": "relation"
+    },
+    "land_area_sq_miles": {
+      "unit": "square miles",
+      "min": 0,
+      "max": null,
+      "kind": "exact_quantity"
+    },
+    "temporary_unavailable": {
+      "unit": "men",
+      "min": 0,
+      "max": null,
+      "kind": "exact_quantity"
+    }
+  },
+  "relations_scale": "-100 to +100",
+  "condition_scale": "0 to 100",
+  "exact_quantity_rule": "Exact quantities retain their explicit units and are not converted into condition points."
 }
