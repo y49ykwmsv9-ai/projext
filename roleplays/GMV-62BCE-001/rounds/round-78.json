@@ -420,16 +420,14 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public": 3072,
-    "private": 621,
+    "public": 3088.2,
+    "private": 622.8,
     "gross_receipts_denarii": 36,
     "operating_costs_denarii": 18,
     "net_public_profit_denarii": 18,
     "private_transfer_denarii": 1.8,
-    "currency_flow_denarii": 18,
-    "public_account_change_denarii": 16.2,
-    "private_account_change_denarii": 1.8,
-    "background_interest_realized_denarii": 0
+    "background_interest_realized_denarii": 0,
+    "currency_flow_denarii": 18
   },
   "special_event_resolution": {
     "base_probability_percent": 12,
