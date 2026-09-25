@@ -1,0 +1,455 @@
+{
+  "schema_version": "gmv-round-v3",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 77,
+  "date": "-0057-04-14",
+  "directive": "Continuation of the established household protocols and respectful local conduct, with the simulation allowed to produce independent consequences from inspections, the raid dossier, political correspondence, spring agriculture, and ordinary estate administration.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R077-E001",
+      "round_number": 77,
+      "date": "8 April 57 BCE",
+      "event_category": "Direct",
+      "title": "THE HOUSEHOLD INSPECTIONS FIND AN OLD BOUNDARY MARKER REQUIRING RECORD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "household men",
+        "estate stewards",
+        "estate scribes"
+      ],
+      "body": "During the week's first inspection, the household men find an older boundary marker partly obscured near one of the estate's approaches. The marker is not treated as evidence of a new claim, and the stewards order the surrounding ground to be examined before any conclusion is drawn. Estate scribes compare its position with the household's retained property records and the material assembled during the earlier boundary dispute. The examination finds no immediate basis for altering the estate boundary, but the discovery is entered into the household's records so that the physical marker and the written record can be kept together. Valerius's instruction that inspections be conducted without unnecessary confrontation is followed throughout the examination. The matter therefore becomes a documented administrative question rather than a new dispute with neighboring residents.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 5,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R077-E002",
+      "round_number": 77,
+      "date": "9 April 57 BCE",
+      "event_category": "Surprise",
+      "title": "A SMALLHOLDER BRINGS AN OLD ACCOUNT OF THE RAID ROUTE TO THE ESTATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "local smallholder",
+        "estate scribes",
+        "Aulus Vettius"
+      ],
+      "body": "A nearby smallholder arrives with an older account concerning the route taken by men involved in the raid inquiry. The statement does not establish a new accusation by itself, but it supplies another dated recollection that can be compared with the material already assembled by Valerius's scribes. The household receives the account without threatening or pressuring the visitor, and the man's identity and circumstances are entered alongside the statement so that its provenance is not lost. The new testimony is placed beside the existing correspondence rather than being presented as a replacement for it. The appearance of an independently supplied account gives the dossier another point of comparison as the Roman inquiry continues. Valerius orders that the original wording be preserved rather than rewritten to fit an existing conclusion.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 7,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R077-E003",
+      "round_number": 77,
+      "date": "10 April 57 BCE",
+      "event_category": "Connected",
+      "title": "MARCELLUS REQUESTS AN AUTHENTICATED DUPLICATE OF THE DOSSIER'S KEY RECORDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "estate scribes",
+        "Roman correspondents"
+      ],
+      "body": "A response from Marcus Claudius Marcellus reaches Valerius concerning the documentary material already sent toward Rome. Marcellus asks that an authenticated duplicate of the principal records be retained and made available if the Roman side requires individual documents to be examined separately. The request does not reopen the chronology or accuse any person of wrongdoing; it concerns the preservation and verification of the evidence already submitted. Valerius's scribes therefore begin preparing a controlled duplicate set, keeping the original papers together while marking the copies against their corresponding entries. The request gives the estate another administrative task connected directly to the completed dossier. It also keeps Marcellus's correspondence active in the inquiry without converting a request for records into a substantive judgment.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R077-E004",
+      "round_number": 77,
+      "date": "11 April 57 BCE",
+      "event_category": "Direct",
+      "title": "SPRING WORK EXPANDS ON THE NEWLY PURCHASED TRACT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate workers",
+        "estate stewards",
+        "former smallholder owners"
+      ],
+      "body": "Work on the forty-acre tract purchased during the previous round expands as the estate's spring operations move forward. Estate workers clear portions of the ground, inspect existing use areas, and prepare the tract for incorporation into the ordinary agricultural cycle. The former smallholder owners remain in contact with the estate stewards over the practical handover of the land and its remaining boundaries. The work is conducted as an ordinary property transition rather than as an assertion of force, consistent with the agreement that settled the earlier dispute. Valerius's administrators keep the tract's records alongside the rest of the estate's property accounts. The additional work places a modest demand on the household's stores while increasing the productive condition of the newly incorporated land.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 1,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R077-E005",
+      "round_number": 77,
+      "date": "12 April 57 BCE",
+      "event_category": "Special",
+      "title": "A SEALED MESSAGE FROM METELLUS CELER ORDERS THE DOSSIER'S DUPLICATES TO BE PRESERVED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Roman courier",
+        "estate scribes"
+      ],
+      "body": "A Roman courier arrives carrying a sealed communication from Quintus Caecilius Metellus Celer concerning the dossier that Valerius has now transmitted. The message asks that the complete record and its authenticated duplicates be preserved intact at the estate until the Roman side has finished examining the material, so that no document is lost or altered while the inquiry remains active. The courier's arrival gives the household a direct confirmation that the documentary submission has reached a level of attention in Roman political correspondence beyond the ordinary exchange of letters. Valerius orders the scribes to preserve the sealed communication with the dossier's duplicate set and to maintain the chronological ordering already established. No accusation or finding is announced in the message, and the courier departs after confirming the instructions. The immediate consequence is a more formal preservation procedure for the evidence already gathered.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 11,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R077-E006",
+      "round_number": 77,
+      "date": "14 April 57 BCE",
+      "event_category": "Connected",
+      "title": "SPRING REPAIRS ARE COMPLETED AS THE ESTATE RECORDS THE WEEK'S ORDINARY EXPENSES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "estate workers",
+        "household scribes"
+      ],
+      "body": "Routine spring inspections lead the estate stewards to complete several minor repairs to working structures and storage areas before the season's activity becomes heavier. The work is limited to maintenance rather than expansion, and the repaired areas are entered into the household's ordinary estate records. Workers finish the tasks without requiring additional men from Valerius's existing force, while the stewards reconcile the materials used against the household's operating accounts. The expense is recorded as an ordinary public-account cost of maintaining the estate rather than as a military expenditure. By the close of the week, the repairs are complete and the household's administrative records have been brought up to date.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 18,
+          "net_public_profit_denarii": -18,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -18,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -18,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 394,
+      "change": 0,
+      "after": 394,
+      "unit": "men"
+    },
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 94,
+      "change": 1,
+      "after": 95,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 101,
+      "change": 0,
+      "after": 101,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 13,
+      "change": -1,
+      "after": 12,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1698,
+      "change": 32,
+      "after": 1730,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 103,
+      "change": 0,
+      "after": 103,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.75,
+      "change": 0,
+      "after": 7.75,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": 394,
+    "population": 249,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 95,
+    "infrastructure": 100,
+    "trade": 101,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 12,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 1730,
+    "relations": 103,
+    "land_area_sq_miles": 7.75,
+    "temporary_unavailable": 0
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public": 3036,
+    "private": 621,
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 18,
+    "net_public_profit_denarii": -18,
+    "private_transfer_denarii": 0,
+    "currency_flow_denarii": -18
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 8.4137,
+    "triggered": true,
+    "event_id": "GMV-62BCE-001-R077-E005",
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      52.8142,
+      81.4027,
+      34.1195
+    ],
+    "magnitude_11_events": 0
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "land_change_and_ledger_consistent": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "current_total_ledger_complete": "PASS"
+  },
+  "next_round_gate": "OPEN"
+}
