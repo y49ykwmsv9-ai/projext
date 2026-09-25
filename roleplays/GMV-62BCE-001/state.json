@@ -22,13 +22,13 @@
     "readiness": 97,
     "morale": 100,
     "supply": 56,
-    "organization": 109,
+    "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "exhaustion": 68,
     "technology": 85,
     "intelligence": 1031,
-    "relations": 116,
+    "relations": 100,
     "land_area_sq_miles": 4.25,
     "temporary_unavailable": 0
   },
@@ -93,8 +93,15 @@
       "organization_in_all_events": true,
       "organization_round_total": true,
       "organization_before": 100,
-      "organization_delta": 9,
-      "organization_after": 109
+      "organization_delta": 0,
+      "organization_after": 100,
+      "relations_capped_at_100": true
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v1",
+      "relations": 100,
+      "organization": 100
     }
   },
   "property_ledger": {
