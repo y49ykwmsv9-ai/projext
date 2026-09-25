@@ -1,0 +1,257 @@
+GMV-62BCE-001 — ROUND VALIDATION PASSES
+Canonical text-only reference for the simulation's pre-output and pre-commit validation pipeline.
+
+PURPOSE
+
+Every round passes through a fixed sequence of generation, refinement, reconciliation, and synchronization checks. A round is not final merely because events have been written. The round must pass every required gate before it is shown as final or committed as canonical.
+
+PASS 1 — CANONICAL STATE READ
+
+Checks:
+- Read the canonical README/contract.
+- Read the canonical scenario record.
+- Read the canonical state record.
+- Read the canonical latest round and news record.
+- Read relevant continuity records and established named-character context.
+- Confirm the synchronized canonical round number and date.
+- Confirm the next round is exactly one round after the canonical round.
+- Confirm the one-week cadence from Round 76 onward.
+- Confirm ongoing directives, unresolved threads, established locations, named characters, land, finances, metrics, and other persistent facts.
+- Do not infer the current round from filename ordering, search-result ordering, or legacy artifacts.
+
+Failure condition:
+- Any mismatch in the canonical pointer, date, continuity state, or source contract blocks round generation until reconciled.
+
+PASS 2 — LOCAL RANDOM RESOLUTION
+
+Checks:
+- Generate a fresh local Special-event random draw inside ChatGPT.
+- Compare the draw with the current Special-event probability.
+- Generate all required Magnitude-11 checks independently using fresh local random values.
+- Never reuse a random value from a previous round or draft.
+- Record every required draw, probability, and outcome.
+- If a random result creates an event, include that event in the normal event-generation pipeline.
+
+Failure condition:
+- Missing, reused, copied, or externally sourced required random values block finalization.
+
+PASS 3 — CAUSAL EVENT GENERATION
+
+Checks:
+- Generate events from the established simulation state and active causal threads.
+- Direct events must arise directly from Valerius's established actions, standing directives, ongoing activities, or immediate decisions.
+- Connected events must arise from established relationships, institutions, investigations, correspondence, economic activity, locations, or prior events without being the immediate latest action.
+- Surprise events must be unexpected but causally plausible and grounded in established circumstances.
+- Special events must arise from the independent successful Special-event roll.
+- Ultimate events may arise from extraordinary circumstances and are not a second random-event system.
+- Do not force event categories merely to satisfy quotas.
+- Do not manufacture unrelated events to fill the round.
+- Preserve independent activity by other people, groups, institutions, and places.
+- Keep event subject matter varied when the established state provides genuine causes for variety.
+
+PASS 4 — ULTIMATE RECLASSIFICATION GATE
+
+Checks:
+- Inspect every event initially classified as Surprise.
+- Inspect every event initially classified as Special.
+- Ask whether the event independently satisfies the Ultimate threshold: an extraordinary development warranting unusually detailed, cinematic treatment, such as a major expedition, crisis, discovery, confrontation, breakthrough, disaster, or comparable exceptional development.
+- If the event qualifies, change its final event_category to Ultimate.
+- Rewrite the event at Ultimate narrative depth before output or commit.
+- If the event does not qualify, preserve Surprise or Special.
+- Surprise does not become Ultimate merely because it is unexpected.
+- Special does not become Ultimate merely because its random roll succeeded.
+- Magnitude-11 does not automatically mean Ultimate; if it creates a Special event, that Special event still passes this gate independently.
+- Reclassification does not create an additional event, change the random result, or create a second probability system.
+- Final machine-readable classification, displayed header, category summary, and validation record must agree.
+
+Important directional rule:
+An event can originate as Surprise or Special and be elevated to Ultimate if its actual circumstances meet the Ultimate threshold. The categories are not interchangeable, and the gate is not bidirectional.
+
+PASS 5 — NARRATIVE CONTRACT CHECK
+
+Checks:
+- Every event explicitly displays and stores its final event category.
+- Every event contains event_id, round_number, date, event_category, title, mentioned_entities, body, and ai_ledger.
+- News prose describes observable in-world developments.
+- Hidden simulation reasoning is not presented as news.
+- Event prose is grounded in established campaign facts.
+- Ordinary events receive normal news/event treatment.
+- Surprise and Special events receive the expanded treatment required by the campaign contract.
+- Ultimate events receive unusually detailed, cinematic treatment.
+- When Valerius personally experiences an Ultimate event, use direct second-person perspective.
+- Major Ultimate events meet the established minimum narrative depth.
+- Do not inflate ordinary events merely to make the round appear dramatic.
+
+PASS 6 — SEMANTIC-STATE VALIDATION
+
+Checks:
+- Military references are checked against soldiers, manpower, availability, readiness, organization, morale, supply, exhaustion, or other applicable fixed metrics.
+- Agriculture references are checked against agriculture, supply, population, land use, or another applicable fixed metric.
+- Economic/trade references are checked against financial realization and/or applicable fixed-state metrics.
+- Estate/property/land references are checked against land, agriculture, population, financial, or administrative state when a measurable change is established.
+- Literal revenue, payment, cost, profit, transfer, or investment-return language requires a corresponding financial-realization entry and routing.
+- Exact quantities remain exact units: soldiers are men, population is people, land is square miles, financial amounts are denarii.
+- Bounded metrics cannot exceed their maximum or fall below their minimum.
+- A capped metric may receive an applied change of zero when the narrative event still occurs, provided the narrative does not falsely claim an unrecorded measurable increase.
+- If a semantic mismatch is found, automatically refine the event before output.
+
+Allowed repairs:
+1. Add the supported numerical state or financial effect.
+2. Rewrite the narrative to match the established state change.
+3. Remove an unsupported implication.
+4. Apply zero where a bounded metric is already capped, if the narrative remains accurate.
+
+Failure condition:
+- A round with unresolved semantic-state inconsistency cannot be final or committed.
+
+PASS 7 — FIXED METRIC SCHEMA AND BOUNDS
+
+Checks:
+- Use only the authoritative fixed metric schema.
+- soldiers: exact men, minimum 0.
+- population: exact people, minimum 0.
+- taxation: percent, 0–100.
+- economy: points, 0–100.
+- agriculture: points, 0–100.
+- infrastructure: points, 0–100.
+- trade: points, 0–100.
+- readiness: points, 0–100.
+- morale: points, 0–100.
+- supply: points, 0–100.
+- organization: points, 0–100.
+- stability: points, 0–100.
+- legitimacy: points, 0–100.
+- technology: points, 0–100.
+- exhaustion: points, 0–100.
+- intelligence: points, unbounded.
+- relations: points, -100 to 100.
+- land_area_sq_miles: exact square miles, minimum 0.
+- temporary_unavailable: exact men, minimum 0.
+- Do not silently introduce one-off metrics.
+- Do not represent exact quantities as percentages or condition points.
+
+PASS 8 — ROUND DELTA RECONCILIATION
+
+Checks:
+- For every changed metric, calculate Before / Change / After / Unit.
+- Applied changes must be actual changes, not attempted changes.
+- Sum all event-level metric changes into the round delta.
+- Verify every resulting value against the state transition.
+- Verify capped values use the actual applied delta.
+- Ensure no event-level change is omitted from the round total.
+- Ensure no round-level change exists without a supporting event or documented state transition.
+
+PASS 9 — FINANCIAL REALIZATION AND ACCOUNT ROUTING
+
+Checks:
+- Financial realization remains inside each event's ai_ledger.
+- Use denarii.
+- Distinguish gross receipts, operating costs, net public profit, private transfers, treasury changes, public-account changes, private-account changes, currency flow, and internal transfers.
+- Do not count the same denarius twice.
+- Transfers are routing events, not new income.
+- Do not invent ownership, rates, timing, investment returns, or account routing.
+- If the narrative only establishes preparation or expectation, do not record realized income.
+- Reconcile the round's financial effects against the canonical financial-continuity record.
+
+Failure condition:
+- Any unsupported realized financial amount or unreconciled account movement blocks finalization.
+
+PASS 10 — LAND AND PROPERTY CONSISTENCY
+
+Checks:
+- Verify current land area against the canonical land history.
+- Any new purchase, transfer, or loss must have a supported exact square-mile change.
+- Preserve established ownership and boundary facts.
+- Do not fabricate land acquisition, transfer, or ownership.
+- Reconcile agriculture and property narratives with the applicable land state.
+- Confirm current land total matches state.json after persistence.
+
+PASS 11 — RECURRING CHARACTER AND RELATIONSHIP CONTINUITY
+
+Checks:
+- Preserve established named characters when they are contextually involved.
+- Use established names rather than generic replacements when continuity requires them.
+- Preserve established relationships and their current values.
+- Do not invent a character's involvement merely to satisfy a continuity requirement.
+- Do not silently erase unresolved correspondence, investigations, directives, or relationship threads.
+
+PASS 12 — EVENT VARIETY AND CAUSAL DIVERSITY
+
+Checks:
+- Review the round as a whole for repetitive subject matter.
+- Confirm multiple event subjects are represented when the simulation state provides genuine causes for them.
+- Avoid making every event about the same expedition, person, political channel, or economic activity.
+- Do not create artificial events solely to obtain variety.
+- Variety is a validation of plausibility and coverage, not a quota system.
+
+PASS 13 — CURRENT TOTAL LEDGER COMPLETENESS
+
+Checks:
+- Include the complete current_total_ledger at the end of the round.
+- Every authoritative metric must appear.
+- Include metrics that changed and metrics that did not change.
+- Units and bounds/types must be correct.
+- Values must exactly match the persisted state.
+- Current totals are distinct from round deltas.
+
+Failure condition:
+- Missing metric, incorrect unit, incorrect bound/type, or mismatch with state.json blocks completion.
+
+PASS 14 — RANDOM/CLASSIFICATION CONSISTENCY
+
+Checks:
+- Confirm the Special event exists if and only if the Special roll succeeded.
+- Confirm no extra Special event was created because an interesting candidate existed.
+- Confirm Magnitude-11 was tracked separately.
+- If Magnitude-11 produced a Special under the campaign rule, confirm it still passed the Ultimate Reclassification Gate.
+- Confirm reclassification did not alter the underlying random draw or create a second event.
+- Confirm the final event category matches the post-generation classification gate.
+
+PASS 15 — FINAL END-OF-ROUND VALIDATION
+
+Checks:
+- Fixed metric schema passes.
+- Metric bounds pass.
+- Financial reconciliation passes.
+- Land consistency passes.
+- Recurring-character continuity passes.
+- Event variety passes.
+- Ultimate-event contract passes.
+- Surprise/Special Ultimate Reclassification Gate passes.
+- Semantic-state consistency passes.
+- Current-total completeness passes.
+- Randomness integrity passes.
+- Round date and numbering pass.
+- Canonical round-pointer synchronization is ready.
+
+A round that fails any mandatory check is not final.
+
+PASS 16 — CANONICAL POINTER SYNCHRONIZATION
+
+Checks:
+- Persist the finalized round record.
+- Persist the corresponding news record when required.
+- Persist the updated state.
+- Persist the updated scenario.
+- Synchronize scenario latest_round and latest_date.
+- Synchronize state round and date.
+- Update the canonical index/pointer.
+- Verify all synchronized values identify the same round and date.
+- Verify the persisted current totals match the state.
+
+PASS 17 — POST-COMMIT VERIFICATION
+
+Checks:
+- Re-read the committed round record.
+- Re-read the committed state.
+- Re-read the committed scenario.
+- Re-read the canonical pointer/index.
+- Confirm the expected latest round and date.
+- Confirm the final event classifications.
+- Confirm the current totals.
+- Confirm the round is the canonical latest round.
+- Confirm next_round_gate is open only after all required persistence and validation checks pass.
+
+FINAL RULE
+
+Generation is not completion. Completion requires successful passage through the entire validation chain, including the Ultimate Reclassification Gate, semantic-state gate, financial reconciliation, current-total verification, and canonical pointer synchronization.
