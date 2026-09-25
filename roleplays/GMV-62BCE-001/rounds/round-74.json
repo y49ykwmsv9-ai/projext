@@ -3,21 +3,21 @@
   "scenario_id": "GMV-62BCE-001",
   "round": 74,
   "date": "-0057-02-28",
-  "directive": "Continuation of Valerius’s established activities and the consequences of the developments already underway, with the winter administration moving toward the opening of the spring agricultural and commercial cycle.",
+  "directive": "Continuation of Valerius’s winter administration, the active raid inquiry, the estate's commercial preparations, and the growing local and Roman correspondence, with the first preparations for spring beginning.",
   "events": [
     {
       "event_id": "GMV-62BCE-001-R074-E001",
       "round_number": 74,
       "date": "4 February 57 BCE",
       "event_category": "Direct",
-      "title": "THE WINTER STORES ARE REBALANCED FOR THE FINAL COLD WEEKS",
+      "title": "WINTER PROVISIONS ARE CHECKED AS THE COLD CONTINUES",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate stewards",
         "granary keepers",
         "estate workers"
       ],
-      "body": "The estate stewards conduct a second winter accounting after comparing the January consumption figures with the stores held at the principal and outlying properties. The figures show that the reserve remains usable, but fodder and firewood require tighter distribution if the remaining cold weeks are to be covered without an emergency purchase. Valerius orders the stewards to consolidate the most vulnerable stores and to keep a written record of every transfer between the holdings. Granary keepers begin moving small quantities before shortages can develop at individual locations. The work does not create a new supply system, but it makes the existing one more deliberate and centralized. The revised schedule becomes the basis for the estate's preparations for the approach of spring.",
+      "body": "The stewards make another inspection of the grain, fodder, and preserved provisions remaining at the principal holding and the outlying estates. Nothing suggests an immediate shortage, but the stores are being drawn down steadily enough that careless distribution could create problems before winter ends. Valerius orders the keepers to maintain the established reserves and to report unusual demands before releasing additional quantities. Workers therefore begin shifting some supplies between the holdings where they are most needed. The arrangement remains the same system established during the preceding months rather than a new institution. For the estate, the immediate concern is simply to reach the opening of the agricultural season without allowing one holding to exhaust what another still possesses.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -34,7 +34,7 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 6,
+        "intelligence": 5,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -56,14 +56,13 @@
       "round_number": 74,
       "date": "9 February 57 BCE",
       "event_category": "Connected",
-      "title": "THE RAID DOSSIER RECEIVES ITS REQUESTED CLARIFICATIONS",
+      "title": "THE RAID INQUIRY CONTINUES THROUGH PRIVATE CORRESPONDENCE",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "Quintus Caecilius Metellus Celer",
-        "Aulus Vettius",
-        "regional authority"
+        "Aulus Vettius"
       ],
-      "body": "The clarification sent from Valerius's records reaches the correspondence associated with Quintus Caecilius Metellus Celer. The reply confirms receipt of the chronology and asks that copies of two supporting statements be retained with the original account rather than circulated separately. Valerius has his scribes compare the copies against the estate's existing notes before sending the requested material onward. Aulus Vettius remains involved as an intermediary in the documentary chain, while no new accusation is attached to his name. The exchange makes the inquiry more documentary in character and gives Valerius a clearer record of what has actually been submitted. The dossier consequently moves forward without requiring a new public confrontation.",
+      "body": "A further communication connected with Quintus Caecilius Metellus Celer reaches Valerius concerning the account of the earlier raid. The questions concern the order in which several statements were received and the circumstances surrounding the merchant testimony already discussed in January. Valerius has the relevant correspondence brought together and answers from the information already preserved at the estate. Aulus Vettius remains part of the chain through which some of the material has passed, but the new communication does not establish any additional accusation against him. The exchange keeps the inquiry active without turning it into a public confrontation. For Valerius, the immediate result is a clearer understanding of which parts of the account still require explanation.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -102,14 +101,14 @@
       "round_number": 74,
       "date": "14 February 57 BCE",
       "event_category": "Connected",
-      "title": "LAKE-PORT MERCHANTS RESERVE SPACE FOR THE FIRST SPRING CARGOES",
+      "title": "MERCHANTS PREPARE THE LAKE-PORT FOR THE FIRST SPRING MOVEMENT",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "lake-port merchants",
         "warehouse workers",
         "estate administrators"
       ],
-      "body": "The merchants who had been arranging the next lake-port cycle now begin reserving actual warehouse space for cargoes expected when transport conditions improve. Their agreements remain preliminary, but the reservations show that the commercial preparations have moved beyond simple discussion. Estate administrators compare the commitments with the storage capacity already recorded during the winter inspections. Warehouse workers clear several occupied sections and repair packing platforms that had been left unused during the coldest part of the season. No extraordinary profit is realized yet, and no new harbor construction is undertaken. The estate's existing commercial network is beginning to turn from winter preparation toward active spring traffic.",
+      "body": "The merchants who began arranging the next lake-port cycle in January now move from discussion toward practical preparation. Space is cleared in the existing warehouses, packing areas are inspected, and arrangements are made for weighing and receiving cargo when transport conditions improve. The work does not yet constitute a major new shipment, and no new harbor construction begins. Estate administrators compare the expected movement with the storage space already available. The merchants are therefore preparing to use the commercial facilities that already exist rather than expanding them. The lake-port is beginning to shift from winter inactivity toward the first traffic of the coming season.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -117,7 +116,7 @@
         "economy": 0,
         "agriculture": 0,
         "infrastructure": 0,
-        "trade": 0,
+        "trade": 1,
         "readiness": 0,
         "morale": 0,
         "supply": 0,
@@ -126,7 +125,7 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 6,
+        "intelligence": 5,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -148,14 +147,14 @@
       "round_number": 74,
       "date": "18 February 57 BCE",
       "event_category": "Surprise",
-      "title": "THE BOUNDARY PETITION BRINGS NEIGHBORING SMALLHOLDERS TOGETHER",
+      "title": "SEVERAL SMALLHOLDERS JOIN THE BOUNDARY PETITION",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "smallholders",
         "nearby settlement residents",
         "estate readers"
       ],
-      "body": "The boundary petition first raised during the January readings develops into a joint appearance by several neighboring smallholders. Rather than arriving as separate complainants, the farmers bring a common description of the disputed access route and identify the points at which their field records differ. Valerius receives the statements and orders that the relevant boundaries, paths, and older written descriptions be compared before any decision is made. The gathering remains orderly, and neither the petitioners nor the opposing interests receive a ruling during the meeting. The estate scribes begin assembling a single packet so that the dispute can be examined without relying on competing oral recollections alone. The episode gives the library's local reading circle an unexpectedly practical connection to the administration of neighboring land.",
+      "body": "The boundary complaint brought to Valerius during the January readings returns in a more substantial form when several neighboring smallholders appear together. They describe the disputed path and the points at which their recollections and older property descriptions differ. Valerius listens to the competing accounts and asks that the relevant descriptions and local testimony be assembled before any conclusion is reached. No judgment is issued during the gathering, and neither side is declared to have won the dispute. The petition nevertheless becomes more consequential because several households now have an interest in its resolution. What began as a request from one farmer has become a local matter requiring careful examination.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -173,7 +172,7 @@
         "technology": 0,
         "exhaustion": 0,
         "intelligence": 7,
-        "relations": 0,
+        "relations": 1,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
         "financial_realization": {
@@ -194,14 +193,14 @@
       "round_number": 74,
       "date": "22 February 57 BCE",
       "event_category": "Direct",
-      "title": "MARCELLUS'S QUESTIONS RETURN TO THE ESTATE IN A NEW LETTER",
+      "title": "MARCELLUS'S CORRESPONDENCE BRINGS NEW QUESTIONS TO THE LIBRARY",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "Marcus Claudius Marcellus",
         "estate scribes",
         "Roman correspondents"
       ],
-      "body": "A new letter associated with Marcus Claudius Marcellus returns to the estate with questions arising from the material sent during the January readings. The questions concern passages and arguments discussed by the local readers, and the letter asks Valerius to preserve the differences between the local explanations rather than reduce them to a single summary. Valerius's scribes copy the letter and prepare a response using the notes already gathered at the estate. The exchange remains intellectual and personal, without creating a formal political office or appointment. Several readers are invited to add their own observations before the reply is sealed. The correspondence continues to widen the circle around the estate library while preserving the local character of the discussions.",
+      "body": "A new communication associated with Marcus Claudius Marcellus reaches Valerius after the questions circulated from the winter readings. Marcellus asks about several passages discussed by the readers and is particularly interested in preserving the different interpretations rather than receiving a single polished answer. Valerius's scribes copy the questions and place them with the material already being discussed at the estate. Several local readers are invited to give their own responses before Valerius replies. The exchange remains scholarly and personal, with no formal appointment or political office arising from it. The library's correspondence nevertheless continues to reach beyond the immediate community.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -240,14 +239,14 @@
       "round_number": 74,
       "date": "25 February 57 BCE",
       "event_category": "Direct",
-      "title": "THE FIRST SPRING PREPARATIONS BEGIN ON THE MOST EXPOSED FIELDS",
+      "title": "THE FIRST FIELD WORK OF THE SEASON BEGINS",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate workers",
         "estate stewards",
-        "smallholders"
+        "nearby smallholders"
       ],
-      "body": "As the weather begins to permit limited work, estate workers start preparing the fields identified during the January assessment. The first crews concentrate on the sections that require the most clearing and repair before ordinary planting work can begin. Stewards record the work separately from the winter stores so that labor and material requirements for the coming agricultural cycle can be compared with the previous season. Nearby smallholders are also seen beginning their own preparations, giving the estate administrators a clearer sense of the timing of local field activity. No change in land ownership occurs, and the existing holdings remain unchanged. The first practical work of the agricultural year nevertheless marks the transition from winter preservation toward production.",
+      "body": "With conditions beginning to permit outdoor work, crews start clearing and preparing the fields identified during the earlier winter inspections. The first attention goes to areas where clearing and minor repairs must be completed before the ordinary planting work can begin. Stewards organize the labor around the existing holdings and keep track of the work still required before the agricultural season is fully underway. Nearby smallholders begin similar preparations on their own land. No new property changes hands, and the work does not expand Valerius's holdings. It marks instead the first visible transition from winter preservation toward the productive work of the coming season.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -264,7 +263,7 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 5,
+        "intelligence": 4,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -286,14 +285,14 @@
       "round_number": 74,
       "date": "28 February 57 BCE",
       "event_category": "Connected",
-      "title": "THE ESTATE'S WINTER ACCOUNTS ARE CLOSED AHEAD OF THE SPRING CYCLE",
+      "title": "WINTER ADMINISTRATION GIVES WAY TO THE SPRING AGENDA",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate stewards",
         "estate scribes",
         "estate workers"
       ],
-      "body": "At the end of February the stewards close the winter administrative accounts and place the storage, field, correspondence, and maintenance records together for Valerius's review. The combined packet shows that the estate has passed through the winter without a major disruption, although the stores have required increasingly careful allocation. The agricultural notes now sit beside the commercial commitments and the unresolved local petition, giving the next season a more complicated administrative agenda than the previous one. Valerius instructs the scribes to preserve the full packet rather than discard intermediate working notes. The decision keeps the documentary trail intact for the estate's own administration and for the correspondence already developing with Roman contacts. February therefore ends with several separate threads still active and ready to produce consequences as the spring cycle advances.",
+      "body": "By the end of February the separate matters occupying the estate during winter have begun to converge into the preparations for spring. The remaining provisions, the unresolved boundary petition, the continuing raid correspondence, the lake-port arrangements, and the first field work all require attention as the weather improves. Valerius instructs his stewards and scribes to keep the relevant papers together so that decisions made in one matter can be compared with information arising in another. The estate therefore enters March with several unfinished affairs rather than a single dominant undertaking. None of them has yet produced a decisive change in Valerius's position. Their continued development, however, gives the opening weeks of spring several active threads from which further events can arise.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -366,8 +365,8 @@
       "legitimacy": 0,
       "technology": 0,
       "exhaustion": 0,
-      "intelligence": 46,
-      "relations": 0,
+      "intelligence": 43,
+      "relations": 1,
       "land_area_sq_miles": 0,
       "temporary_unavailable": 0
     },
@@ -387,8 +386,8 @@
       "legitimacy": 100,
       "technology": 100,
       "exhaustion": 100,
-      "intelligence": 1650,
-      "relations": 102,
+      "intelligence": 1647,
+      "relations": 103,
       "land_area_sq_miles": 7.6875,
       "temporary_unavailable": 0
     }
@@ -470,12 +469,12 @@
       "bound": "0–100"
     },
     "intelligence": {
-      "value": 1650,
+      "value": 1647,
       "unit": "points",
       "bound": "unbounded"
     },
     "relations": {
-      "value": 102,
+      "value": 103,
       "unit": "points",
       "bound": "-100–100"
     },
@@ -486,7 +485,7 @@
     },
     "temporary_unavailable": {
       "value": 0,
-      "unit": "points",
+      "unit": "men",
       "bound": "min 0"
     }
   },
