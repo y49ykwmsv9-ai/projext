@@ -466,7 +466,7 @@
     },
     "commit_check": {
       "required": true,
-      "verified_after_commit": false
+      "verified_after_commit": true
     },
     "metric_schema_ref": "roleplay-fixed-metrics-v1"
   },
