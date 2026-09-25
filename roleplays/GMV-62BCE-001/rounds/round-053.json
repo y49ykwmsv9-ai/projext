@@ -45,7 +45,7 @@
         "morale": 0,
         "readiness": 0,
         "intelligence": 0,
-        "relations": 4,
+        "relations": 0,
         "land_area_sq_miles": 0,
         "organization": 0
       }
@@ -71,9 +71,9 @@
         "morale": 0,
         "readiness": 0,
         "intelligence": 1,
-        "relations": 1,
+        "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 1
+        "organization": 0
       }
     },
     {
@@ -99,7 +99,7 @@
         "intelligence": 0,
         "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 1
+        "organization": 0
       }
     },
     {
@@ -125,7 +125,7 @@
         "intelligence": 2,
         "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 2
+        "organization": 0
       }
     },
     {
@@ -150,7 +150,7 @@
         "intelligence": 0,
         "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 2
+        "organization": 0
       }
     },
     {
@@ -174,9 +174,9 @@
         "morale": 1,
         "readiness": 0,
         "intelligence": 0,
-        "relations": 3,
+        "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 2
+        "organization": 0
       }
     },
     {
@@ -201,7 +201,7 @@
         "intelligence": 1,
         "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 1
+        "organization": 0
       }
     }
   ],
@@ -209,47 +209,56 @@
     "soldiers": {
       "before": 398,
       "delta": 0,
-      "after": 398
+      "after": 398,
+      "unit": "men"
     },
     "supply": {
       "before": 58,
       "delta": -2,
-      "after": 56
+      "after": 56,
+      "unit": "points"
     },
     "exhaustion": {
       "before": 69,
       "delta": -1,
-      "after": 68
+      "after": 68,
+      "unit": "points"
     },
     "morale": {
       "before": 99,
       "delta": 1,
-      "after": 100
+      "after": 100,
+      "unit": "points"
     },
     "readiness": {
       "before": 97,
       "delta": 0,
-      "after": 97
+      "after": 97,
+      "unit": "points"
     },
     "intelligence": {
       "before": 1027,
       "delta": 4,
-      "after": 1031
+      "after": 1031,
+      "unit": "points"
     },
     "relations": {
-      "before": 108,
-      "delta": 8,
-      "after": 116
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
     },
     "land_area_sq_miles": {
       "before": 4.25,
       "delta": 0,
-      "after": 4.25
+      "after": 4.25,
+      "unit": "square miles"
     },
     "organization": {
       "before": 100,
-      "delta": 9,
-      "after": 109
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
     }
   },
   "land_area": {
@@ -293,6 +302,28 @@
       "organization_before": 100,
       "organization_delta": 9,
       "organization_after": 109
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v1",
+      "capped_metrics": [
+        "taxation",
+        "economy",
+        "agriculture",
+        "infrastructure",
+        "trade",
+        "readiness",
+        "morale",
+        "supply",
+        "organization",
+        "stability",
+        "legitimacy",
+        "technology",
+        "exhaustion",
+        "relations"
+      ],
+      "note": "Bounded metrics are clamped at their established limits; positive effects at an already-maximal value produce no further numerical increase."
     }
-  }
+  },
+  "metric_schema_ref": "roleplay-fixed-metrics-v1"
 }
