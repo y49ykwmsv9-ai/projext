@@ -11,16 +11,15 @@
     {
       "event_id": "GMV-62BCE-001-R060-E001",
       "round_number": 60,
-      "date": "4 December 59 BCE",
+      "date": "3 December 59 BCE",
       "event_category": "Direct",
-      "title": "VALERIUS'S RECORD IS ASSEMBLED INTO A SINGLE PETITION FOR FORMAL RECOGNITION",
+      "title": "A ROMAN OFFICE AGREES TO RECEIVE VALERIUS'S PETITION FOR FORMAL REVIEW",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "Quintus Caecilius Metellus Celer",
-        "Marcus Claudius Marcellus",
-        "Roman political petition"
+        "Roman magistrate's office"
       ],
-      "body": "Gaius Maximus Valerius has assembled the scattered records of his recent career into a single petition for formal recognition of his expanded standing and estate administration. Military reports, supply records, boundary surveys, collection schedules, and production registers are arranged chronologically so that each claim can be checked against an underlying record. Rather than relying on gifts or a public distribution of money, the petition places the weight of its case on Valerius's documented conduct as a commander, administrator, and landholder. Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus receive copies of the compiled material and agree to place it before additional political contacts. The size of the dossier itself becomes part of the story, because it gives Valerius's supporters something concrete to present rather than merely a favorable personal account. The submission therefore enters the Roman political world as a record requiring examination, not as a claim that recognition has already been granted.",
+      "body": "The political effort surrounding Gaius Maximus Valerius changes character in early December when an office in Rome agrees to receive the petition for formal review rather than leaving it solely within the circle of private recommendations. Quintus Caecilius Metellus Celer uses his established political connection to arrange the submission, while the supporting material is delivered as a record of service rather than a request for popular favor. The receiving officials require the petition to be accompanied by evidence of command, administration, property boundaries, and public obligations. Valerius's representatives therefore have to produce documents that can stand independently of Celer's personal endorsement. The acceptance does not grant Valerius an honor, office, or legal privilege, but it moves his effort from informal political discussion into an identifiable administrative process. For the first time, there is now a formal place in which the claims surrounding his career can be examined.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -37,19 +36,18 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 3,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
         "financial_realization": {
           "gross_receipts_denarii": 0,
-          "operating_costs_denarii": 15,
-          "net_public_profit_denarii": -15,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
           "private_transfer_denarii": 0,
           "treasury_change_denarii": 0,
-          "public_account_change_denarii": -15,
+          "public_account_change_denarii": 0,
           "private_account_change_denarii": 0,
-          "currency_flow_denarii": -15,
+          "currency_flow_denarii": 0,
           "internal_transfer": false
         }
       }
@@ -57,16 +55,16 @@
     {
       "event_id": "GMV-62BCE-001-R060-E002",
       "round_number": 60,
-      "date": "9 December 59 BCE",
+      "date": "8 December 59 BCE",
       "event_category": "Connected",
-      "title": "FORMER OFFICERS AND ESTATE ADMINISTRATORS PROVIDE WRITTEN TESTIMONY ON VALERIUS'S SERVICE",
+      "title": "MARCELLUS TURNS VALERIUS'S ADMINISTRATIVE SUCCESS INTO A PRACTICAL POLITICAL ARGUMENT",
       "mentioned_entities": [
+        "Marcus Claudius Marcellus",
         "Gaius Maximus Valerius",
-        "former officers",
-        "estate administrators",
-        "Roman political petition"
+        "estate collection system",
+        "lake-port holding"
       ],
-      "body": "Written testimony begins arriving from men who served alongside Valerius or worked under his administrative arrangements. Former officers describe the practical handling of detachments, supplies, patrol responsibilities, and the discipline expected during difficult operations, while estate administrators describe the newer collection and production systems. Several statements are deliberately narrow, identifying particular duties and periods rather than praising Valerius in general terms. That limitation gives the testimony a more documentary character and allows the petition's supporters to attach individual statements to specific entries in the larger record. The testimony does not settle the question of formal recognition, but it gives outside readers additional material with which to test the petition. By the end of the week, the dossier contains a growing collection of independent accounts rather than a single self-authored narrative.",
+      "body": "Marcus Claudius Marcellus shifts attention away from Valerius's battlefield reputation and toward the practical results of his administration. He presents the fixed collection schedules, restored acreage, controlled security arrangements, and lake-port operations as examples of a commander who can turn authority into functioning institutions after a campaign ends. The argument attracts attention because the records show ordinary work continuing without requiring constant intervention from Valerius himself. Several political contacts ask how much of the system is dependent on Valerius personally and how much has become embedded in the estate's administration. That question produces a new line of scrutiny rather than another round of praise. Valerius's political case consequently begins to rest not only on what he accomplished, but on whether the systems he created can continue operating when he is elsewhere.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -83,7 +81,6 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 3,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -103,16 +100,15 @@
     {
       "event_id": "GMV-62BCE-001-R060-E003",
       "round_number": 60,
-      "date": "14 December 59 BCE",
-      "event_category": "Surprise",
-      "title": "MERCHANTS AND LANDHOLDERS BEGIN CITING VALERIUS'S RECORD WITHOUT BEING ASKED",
+      "date": "13 December 59 BCE",
+      "event_category": "Direct",
+      "title": "LAKE-PORT MERCHANTS OFFER A NEW WINTER CARGO AGREEMENT",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "local merchants",
-        "surrounding landholders",
+        "lake-port merchants",
         "lake-port holding"
       ],
-      "body": "Several merchants and neighboring landholders begin referring to Valerius's record in conversations concerning the newly organized estates and their commercial connections. Their comments are not presented as a coordinated political campaign, and no organized distribution of gifts accompanies them. Instead, the references focus on predictable collections, functioning roads, reliable estate administration, and the fact that the new holdings have been put back to work rather than left idle. A merchant connected with the lake-port trade reportedly points to the regularity of Valerius's arrangements as a reason that contracts can be discussed with greater confidence. Nearby landholders likewise describe the security arrangements as less disruptive than the conditions that preceded them. The unsolicited attention broadens the circle of people who know of Valerius's record, even though it produces no formal decision on his petition.",
+      "body": "A group of merchants operating through Valerius's lake-port holding proposes a winter cargo agreement covering several scheduled loads rather than isolated transactions. The merchants point to the reliability of the collection calendar and the restored estate roads as reasons they are willing to commit cargo movements further in advance. Valerius's stewards negotiate storage, loading, security, and delivery responsibilities without placing the estate's ordinary agricultural work on hold. The agreement produces a concrete commercial commitment and gives the lake-port holding a more predictable winter workload. After costs associated with storage and handling are accounted for, the first realized return is posted to the public estate account. The transaction is commercial rather than political, but its existence gives Marcellus another example of Valerius's administration producing practical results beyond military service.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -129,19 +125,18 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 4,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
         "financial_realization": {
-          "gross_receipts_denarii": 0,
-          "operating_costs_denarii": 0,
-          "net_public_profit_denarii": 0,
-          "private_transfer_denarii": 0,
+          "gross_receipts_denarii": 115,
+          "operating_costs_denarii": 35,
+          "net_public_profit_denarii": 80,
+          "private_transfer_denarii": 8,
           "treasury_change_denarii": 0,
-          "public_account_change_denarii": 0,
-          "private_account_change_denarii": 0,
-          "currency_flow_denarii": 0,
+          "public_account_change_denarii": 72,
+          "private_account_change_denarii": 8,
+          "currency_flow_denarii": 80,
           "internal_transfer": false
         }
       }
@@ -150,14 +145,14 @@
       "event_id": "GMV-62BCE-001-R060-E004",
       "round_number": 60,
       "date": "18 December 59 BCE",
-      "event_category": "Connected",
-      "title": "CELER REQUESTS A PRECISE ACCOUNT OF VALERIUS'S MILITARY SERVICE",
+      "event_category": "Surprise",
+      "title": "AN OLD CAMPAIGN VETERAN PRODUCES A COMMENDATION THAT VALERIUS HAD NEVER USED POLITICALLY",
       "mentioned_entities": [
-        "Quintus Caecilius Metellus Celer",
         "Gaius Maximus Valerius",
-        "military service records"
+        "Roman campaign veteran",
+        "military records"
       ],
-      "body": "Quintus Caecilius Metellus Celer sends word that the political review now requires a more exact account of Valerius's military service. The request asks for dates, command responsibilities, supply arrangements, and the disposition of the men under his authority, rather than another general statement of achievement. Valerius's administrators begin matching the request against older reports and the surviving campaign registers. The work forces several late-night reviews of records that had previously been maintained for practical use rather than political presentation. Celer's request is treated as a sign that the dossier is being examined seriously, but it also makes clear that favorable connections will not remove the need for documentation. The petition consequently moves into a more exacting stage in which individual claims must withstand detailed questions.",
+      "body": "An aging veteran who served in an earlier phase of Valerius's military career arrives with an old written commendation that had remained among his personal papers for years. The document describes a specific incident in which Valerius maintained control of his men and protected the unit's supplies during a difficult movement. The veteran had not been contacted by Valerius's political circle and appears to have brought the document forward after hearing that the petition was under formal consideration. Its value lies in its specificity: it describes a single episode and names the circumstances under which the commendation was issued rather than offering a broad endorsement. The document is added to the supporting material only after its origin and wording are examined. The unexpected testimony gives the political review a piece of evidence that was neither commissioned nor prepared for the current campaign.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -173,8 +168,7 @@
         "stability": 0,
         "legitimacy": 0,
         "technology": 0,
-        "exhaustion": 1,
-        "intelligence": 3,
+        "exhaustion": 0,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -195,15 +189,15 @@
       "event_id": "GMV-62BCE-001-R060-E005",
       "round_number": 60,
       "date": "22 December 59 BCE",
-      "event_category": "Direct",
-      "title": "MARCELLUS CARRIES VALERIUS'S ADMINISTRATIVE RECORD INTO A WIDER POLITICAL CIRCLE",
+      "event_category": "Connected",
+      "title": "FORMER OFFICERS ASK VALERIUS TO SETTLE A DISPUTE OVER THE USE OF HIS SECURITY PATROLS",
       "mentioned_entities": [
-        "Marcus Claudius Marcellus",
         "Gaius Maximus Valerius",
-        "Roman political contacts",
-        "estate registers"
+        "former officers",
+        "estate patrols",
+        "surrounding landholders"
       ],
-      "body": "Marcus Claudius Marcellus carries the administrative portion of Valerius's record into a wider circle of Roman political contacts. The material emphasizes the fixed collection calendar, the separation of estate operating funds from other obligations, the witnessed land surveys, and the restoration of productive acreage. Marcellus presents the records as evidence of a sustained pattern rather than as isolated successes from a single campaign. Several recipients ask to see the supporting registers before offering any opinion, and copies of the most relevant entries are therefore prepared for further circulation. The process remains deliberately documentary, with no announcement of a granted honor or office. By Christmas, Valerius's name is reaching more political readers through written records than through direct personal solicitation.",
+      "body": "A dispute over the winter use of several patrol routes brings Valerius's military organization back into local affairs. Former officers managing the patrols report that neighboring landholders want continued protection along a road but disagree over where the patrol responsibility should end. Valerius orders the existing patrol boundaries and responsibilities to be written down and presented to the affected landholders instead of expanding his men into neighboring properties. The resulting meetings produce a narrower arrangement that keeps patrols focused on roads and estate approaches while leaving ordinary local policing to the landholders themselves. The settlement avoids a larger deployment and allows most of Valerius's men to remain on their regular duties. The episode becomes another practical example of defined military responsibilities replacing indefinite occupation.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -219,8 +213,7 @@
         "stability": 0,
         "legitimacy": 0,
         "technology": 0,
-        "exhaustion": 0,
-        "intelligence": 3,
+        "exhaustion": 1,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -242,14 +235,13 @@
       "round_number": 60,
       "date": "27 December 59 BCE",
       "event_category": "Direct",
-      "title": "THE YEAR-END ESTATE REVIEW FINDS THE NEW RECORDS CONSISTENT WITH THE OLDER REGISTERS",
+      "title": "THE NEW ESTATE TRACT COMPLETES ITS FIRST WINTER WORK CYCLE",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
-        "estate administrators",
-        "estate registers",
-        "former bandit lands"
+        "estate workers",
+        "recently surveyed expansion tract"
       ],
-      "body": "At year's end, Valerius orders another review of the estate registers so that the political dossier will not rest on newly prepared figures alone. Administrators compare the latest production and collection records with older registers covering the principal estate, the lake-port holding, the former bandit lands, and the recently surveyed expansion. The review identifies no material discrepancy requiring a correction to the current working accounts. The finding does not transform the records into proof of perfection, but it allows the newer material to be presented alongside the older documentation without an obvious contradiction. The same review also confirms that the expanded acreage remains under active administration rather than merely appearing on a boundary map. Valerius therefore closes the year with a record that has survived another internal examination while the formal political review remains unfinished.",
+      "body": "The half-square-mile tract added to Valerius's measured holdings in the previous round completes its first full winter work cycle under estate administration. Crews finish drainage, repair field boundaries, secure stored grain, and establish labor assignments for the next agricultural season. The work is conducted alongside the older estates rather than treated as a separate frontier project. Several neighboring landholders send workers and carts according to the cooperative arrangements established during the restoration period, while Valerius's stewards record the labor and material obligations for later settlement. No new acreage is claimed in the process, and the existing survey remains the controlling boundary record. The tract is therefore moving from a newly recognized holding into an ordinary productive component of the estate system.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -266,7 +258,6 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 3,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -287,15 +278,15 @@
       "event_id": "GMV-62BCE-001-R060-E007",
       "round_number": 60,
       "date": "31 December 59 BCE",
-      "event_category": "Connected",
-      "title": "VALERIUS'S PETITION ENTERS THE NEW YEAR WITH SUPPORT BUILT AROUND HIS RECORDED SERVICE",
+      "event_category": "Direct",
+      "title": "VALERIUS RECEIVES NOTICE THAT HIS PETITION WILL FACE A SECOND STAGE OF REVIEW",
       "mentioned_entities": [
         "Gaius Maximus Valerius",
         "Quintus Caecilius Metellus Celer",
         "Marcus Claudius Marcellus",
         "Roman political petition"
       ],
-      "body": "The final days of December leave Valerius's petition still under review, but its supporting circle is now larger than it was at the beginning of the month. Celer and Marcellus continue examining the material while additional correspondents have begun asking for particular records rather than simply expressing general approval. The distinction matters to Valerius's political effort: his case is advancing through accumulated evidence of military service, administration, property management, and economic order rather than through a traditional campaign of plebeian patronage. No formal recognition is announced before the year's end, and the petition remains subject to whatever further scrutiny its recipients choose to apply. Valerius's administrators nevertheless finish the year with the records organized for rapid response to additional questions. The new year therefore opens with his political standing under active consideration, supported by a growing documentary record but without a final official determination.",
+      "body": "On the final day of the year, word reaches Valerius that the petition has been accepted for a second stage of examination rather than dismissed or set aside. The next review is expected to concentrate on the relationship between his military service, his present holdings, and the public responsibilities attached to the recognition he seeks. Celer has been asked to clarify several points concerning Valerius's service, while Marcellus is preparing additional material on the estate's administration and commercial activity. The development gives the political effort a defined procedural path instead of leaving it as a network of private recommendations. It still does not guarantee the requested recognition, and no final honor or office has been granted. Valerius nevertheless enters the new year with a concrete institutional review ahead of him, while his estates continue operating independently of the political process.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -312,7 +303,6 @@
         "legitimacy": 0,
         "technology": 0,
         "exhaustion": 0,
-        "intelligence": 2,
         "relations": 0,
         "land_area_sq_miles": 0,
         "temporary_unavailable": 0,
@@ -386,9 +376,9 @@
       "unit": "points"
     },
     "supply": {
-      "before": 47,
+      "before": 46,
       "change": -1,
-      "after": 46,
+      "after": 45,
       "unit": "points"
     },
     "organization": {
@@ -416,15 +406,15 @@
       "unit": "points"
     },
     "exhaustion": {
-      "before": 70,
+      "before": 71,
       "change": 1,
-      "after": 71,
+      "after": 72,
       "unit": "points"
     },
     "intelligence": {
-      "before": 1102,
-      "change": 18,
-      "after": 1120,
+      "before": 1120,
+      "change": 13,
+      "after": 1133,
       "unit": "points"
     },
     "relations": {
@@ -447,12 +437,13 @@
     }
   },
   "financial_summary": {
-    "operating_costs_denarii": 15,
-    "net_public_profit_denarii": -15,
-    "private_transfer_denarii": 0,
+    "gross_receipts_denarii": 115,
+    "operating_costs_denarii": 35,
+    "net_public_profit_denarii": 80,
+    "private_transfer_denarii": 8,
     "treasury_change_denarii": 0,
-    "public_account_change_denarii": -15,
-    "private_account_change_denarii": 0
+    "public_account_change_denarii": 72,
+    "private_account_change_denarii": 8
   },
   "current_total_ledger": {
     "soldiers": {
@@ -501,7 +492,7 @@
       "bound": "0-100"
     },
     "supply": {
-      "value": 46,
+      "value": 45,
       "unit": "points",
       "bound": "0-100"
     },
@@ -526,12 +517,12 @@
       "bound": "0-100"
     },
     "exhaustion": {
-      "value": 71,
+      "value": 72,
       "unit": "points",
       "bound": "0-100"
     },
     "intelligence": {
-      "value": 1120,
+      "value": 1133,
       "unit": "points",
       "bound": "unbounded"
     },
@@ -553,14 +544,14 @@
   },
   "end_of_round_checks": {
     "special_event_base_probability_percent": 12,
-    "special_event_roll": 58.1934,
+    "special_event_roll": 68.4172,
     "special_event_success": false,
     "special_event_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      71.2241,
-      34.1182,
-      89.5521
+      76.2014,
+      31.8842,
+      92.4471
     ],
     "magnitude_11_events": 0,
     "next_round_gate": "OPEN"
