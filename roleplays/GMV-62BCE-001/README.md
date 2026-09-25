@@ -138,8 +138,6 @@ The financial realization object uses denarii and should contain the applicable 
 
 Zero values may be used when a field does not apply, so the financial schema remains stable across events.
 
-The fixed metric `currency` remains part of the authoritative metric schema. When a financial effect changes that metric, the corresponding `currency` delta belongs in the main AI ledger and the exact-denarii movement is also represented by `currency_flow_denarii` inside `financial_realization`. These two fields serve different purposes and must reconcile; `currency_flow_denarii` is not a second income count.
-
 ## Financial Realization and Account Routing
 
 Economic activity does **not** need to be narrated as an accounting statement. An event may describe an observable development such as harvests, cargo movement, trade, rents, fees, contracts, workshop activity, or another productive/commercial development without explicitly stating the resulting income in the article body.
@@ -150,7 +148,7 @@ Financial effects must use **denarii** and must be routed to the appropriate acc
 - `treasury`: state, military, public-command, or other explicitly public/state funds.
 - `public_account`: estate or operating capital used for the productive/commercial administration of Valerius's holdings.
 - `private_account`: Valerius's private wealth when the event creates a realized private receipt or an established private transfer.
-- `currency`: the exact-denarii event/round financial-flow metric when a financial change must be represented in the fixed metric ledger; it is not a substitute for identifying the destination account when account routing is known.
+- Financial account fields are recorded only inside `ai_ledger.financial_realization`; there is no separate `currency` state metric.
 
 The same denarius must not be counted twice. A transfer from one account to another is a routing event, not new income. Gross receipts, operating costs, net public profit, private transfers, investment principal, and realized investment returns remain distinct fields where the historical record supports them.
 
@@ -176,7 +174,6 @@ The campaign uses the following authoritative metric definitions. These definiti
 |---|---|---|
 | `soldiers` | men | exact quantity; minimum 0 |
 | `population` | people | exact quantity; minimum 0 |
-| `currency` | denarii | exact quantity; no condition cap |
 | `taxation` | percent | 0–100 |
 | `economy`, `agriculture`, `infrastructure`, `trade` | points | 0–100 |
 | `readiness`, `morale`, `supply`, `organization`, `stability`, `legitimacy`, `technology`, `exhaustion` | points | 0–100 |
@@ -192,7 +189,7 @@ The machine-readable scenario record stores the same definitions under `metric_s
 
 ## Current Total Ledger Requirement
 
-At the end of every completed round, the round output and machine-readable round record MUST include a `current_total_ledger` containing the complete current value of **every metric in `roleplay-fixed-metrics-v1`**, with its authoritative unit and applicable bound/type.
+At the end of every completed round, the round output and machine-readable round record MUST include a `current_total_ledger` containing the complete current value of **every metric in `roleplay-fixed-metrics-v2`**, with its authoritative unit and applicable bound/type.
 
 The Current Total Ledger is distinct from the Round Delta Ledger:
 - **Round Delta Ledger:** Before / Change / After / Unit for metrics affected or carried through the round.
