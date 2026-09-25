@@ -12,23 +12,13 @@
     "rule": "carry forward unless concrete land event changes it"
   },
   "special_event_policy": {
-    "magnitude_scale": "1-11",
-    "standard_magnitude_scale": "1-10",
-    "this_round_standard_special": false,
-    "this_round_magnitude": null,
-    "current_round_opportunity_probability": 12,
-    "magnitude_11_events": 0,
-    "magnitude_11": {
-      "chance_percent": 4.7283,
-      "checks": [
-        54.2217,
-        12.3841,
-        88.4402
-      ],
-      "raw_successes": 0,
-      "accepted_candidates": 0,
-      "events": 0
-    }
+    "schema_version": "gmv-special-event-v2",
+    "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
+    "base_probability_percent": 12,
+    "current_round_base_probability_percent": 12,
+    "current_round_roll": null,
+    "current_round_selected": null,
+    "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
     "campaign_development": "July 59 BCE: Valerius completes the field survey of the former bandit-held lands granted in Round 53, measuring the aggregate at 2.8125 square miles (1,800 acres). The fortified store-yard and winter-pass complex is measured separately at 0.0625 square miles (40 acres) as a component of the pre-existing holdings, not a duplicate addition. The formal measured personal total becomes 7.0625 square miles (4,520 acres).",
@@ -36,7 +26,7 @@
   },
   "end_of_round_checks": {
     "required": true,
-    "special_event_resolution": "verified",
+    "special_event_resolution": "simple_core_category_roll_v2",
     "magnitude_11_check": "verified",
     "commit_check": "verified",
     "canonical_round_49": "verified",
