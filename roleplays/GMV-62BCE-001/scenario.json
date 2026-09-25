@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 79,
-  "latest_date": "-0057-04-28",
+  "latest_round": 78,
+  "latest_date": "-0057-04-21",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -42,7 +42,9 @@
       "required": true,
       "schema": "roleplay-fixed-metrics-v2",
       "status": "verified",
-      "matches_round_079": true
+      "matches_round_066": true,
+      "matches_round_067": true,
+      "matches_round_068": true
     },
     "canonical_round_57": "verified",
     "canonical_round_58": "verified_pending_commit",
