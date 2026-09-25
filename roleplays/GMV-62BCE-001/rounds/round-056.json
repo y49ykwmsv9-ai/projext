@@ -1,1 +1,278 @@
-{"round":56,"status":"draft"}
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 56,
+  "period": "1 August 59 BCE – 31 August 59 BCE",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise",
+    "Special"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R056-E001",
+      "round_number": 56,
+      "date": "3 August 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ORDERS THE NEWLY MEASURED ESTATES INTO A SINGLE WORKING REGISTER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "local smallholders",
+        "former bandit-held lands"
+      ],
+      "body": "With the July survey complete, Valerius orders the newly measured ground organized into practical estate divisions. The stewards separate fields, pasture, woodland, roads, water access and the former fortified ground within the 1,800-acre aggregate. Local smallholders identify productive parcels and areas still needing work. The 40-acre winter-pass fort remains a separately described component without changing the 7.0625-square-mile total. The new register gives the estate administration a working map for labor and production.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R056-E002",
+      "round_number": 56,
+      "date": "7 August 59 BCE",
+      "event_category": "Connected",
+      "title": "FIRST HARVEST ESTIMATES FROM THE RESTORED FIELDS BEGIN TO SHAPE THE ESTATE'S AUTUMN PLANS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "agricultural workers",
+        "smallholders"
+      ],
+      "body": "Workers assemble the first harvest estimates from fields restored after the bandit occupation. Several abandoned fields are producing again, while others remain below capacity because irrigation and buildings still need work. Smallholders compare the results with neighboring yields. Valerius orders productive capacity recorded separately from land area. The estimates begin shaping storage, labor and commercial plans for the coming season.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R056-E003",
+      "round_number": 56,
+      "date": "11 August 59 BCE",
+      "event_category": "Direct",
+      "title": "THE LAKE-PORT HANDLERS ESTABLISH A REGULAR SCHEDULE FOR RESTORED ESTATE CARGO",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "lake-port merchants",
+        "estate stewards",
+        "merchant connections"
+      ],
+      "body": "At the lake-port, merchants and estate handlers agree on a regular schedule for moving agricultural cargo. Grain, oil and provisions are grouped into predictable loads instead of being dispatched irregularly. Port workers now have a clearer sequence for receiving, storing and forwarding goods. Valerius's stewards match the schedule against the new harvest estimates. Trade remains at its established 100-point ceiling, while the observable commercial organization expands.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R056-E004",
+      "round_number": 56,
+      "date": "16 August 59 BCE",
+      "event_category": "Surprise",
+      "title": "A DISPUTE OVER AN OLD ROAD FORCES VALERIUS'S STEWARDS TO REOPEN A SETTLED BOUNDARY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "surrounding landholders",
+        "local smallholders"
+      ],
+      "body": "Several households claim that an old road across the newly measured lands has traditionally remained open to their carts and animals. The claim does not challenge Valerius's ownership but raises a practical access question. Older witnesses disagree about which branch was used before the bandit occupation. The stewards mark the disputed section for review without changing the completed acreage measurement. Local use continues while the records and testimony are compared.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": -1,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R056-E005",
+      "round_number": 56,
+      "date": "21 August 59 BCE",
+      "event_category": "Special",
+      "title": "A TRAVELING GUILD OF METALWORKERS OFFERS TO SETTLE NEAR VALERIUS'S ESTATES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "traveling metalworkers",
+        "estate stewards",
+        "lake-port merchants",
+        "Roman veterans"
+      ],
+      "body": "A traveling guild of metalworkers arrives through the lake-port route seeking a secure place to establish workshops. The craftsmen have heard that the restored estates now have functioning roads, agricultural demand and a market for tools and repairs. They propose settling a small workshop community rather than continuing their seasonal movement. The stewards find that their skills could support farm tools, wagon fittings and repairs to the fortified holding. Valerius accepts the proposal in principle and orders terms for settlement and workshop obligations to be drafted.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 2,
+        "readiness": 0,
+        "intelligence": 3,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "organization": 1
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R056-E006",
+      "round_number": 56,
+      "date": "26 August 59 BCE",
+      "event_category": "Connected",
+      "title": "MARCUS CLAUDIUS MARCELLUS RECEIVES WORD OF THE ESTATE'S EXPANDING COMMERCIAL ROLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "lake-port merchants",
+        "estate stewards"
+      ],
+      "body": "A detailed account of the summer's estate work reaches Marcus Claudius Marcellus through Valerius's established correspondence. The report covers the completed survey, administrative divisions, restored fields and regular lake-port cargo schedule. It also mentions the metalworkers and the possibility of permanent workshops. Marcellus acknowledges the increasing importance of the lake-port and the need to keep the new lands connected to productive roads and estates. No new office or title is granted, but the exchange keeps Valerius's development visible within his existing Roman network.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R056-E007",
+      "round_number": 56,
+      "date": "30 August 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS BEGINS FORMAL TERMS FOR THE NEW WORKSHOPS AND ROAD ACCESS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "traveling metalworkers",
+        "estate stewards",
+        "surrounding landholders"
+      ],
+      "body": "Valerius's stewards begin drafting formal terms for the metalworkers who have offered to settle near the estates. The agreement covers workshop space, timber access, transport routes, repairs and trading conditions. The disputed road is included because reliable access will be necessary for the workshops and neighboring households. Local landholders are invited to witness the access provisions. The arrangements remain provisional, but the estate now has a concrete plan for adding a permanent skilled-work community.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 1
+      }
+    }
+  ],
+  "round_ledger": {
+    "soldiers": {
+      "before": 398,
+      "delta": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "supply": {
+      "before": 52,
+      "delta": -3,
+      "after": 49,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 71,
+      "delta": 3,
+      "after": 74,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "delta": 4,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 97,
+      "delta": 0,
+      "after": 97,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1054,
+      "delta": 13,
+      "after": 1067,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "delta": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "delta": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.0625,
+      "delta": 0,
+      "after": 7.0625,
+      "unit": "square miles"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "base_probability_percent": 12,
+      "random_roll": 8.6142,
+      "selected": true,
+      "event_id": "GMV-62BCE-001-R056-E005"
+    },
+    "magnitude_11": {
+      "chance_percent": 4.7283,
+      "checks": [
+        72.4106,
+        43.7721,
+        91.0634
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v1",
+      "relations": 100,
+      "organization": 100,
+      "morale": 100
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false
+    },
+    "metric_schema_ref": "roleplay-fixed-metrics-v1"
+  },
+  "special_event_policy_ref": "gmv-special-event-v2"
+}
