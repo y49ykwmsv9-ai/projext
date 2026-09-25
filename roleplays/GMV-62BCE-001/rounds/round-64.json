@@ -1,0 +1,570 @@
+{
+  "round_number": 64,
+  "date_start": "-0058-04-01",
+  "date_end": "-0058-04-30",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R064-E001",
+      "round_number": 64,
+      "date": "4 April 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS REFORMS HIS MEN INTO SWEEP COLUMNS FOR THE FINAL BANDIT HUNT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's men",
+        "estate patrol commanders",
+        "remaining bandit holdouts"
+      ],
+      "body": "Valerius orders his men to reorganize before the hunt resumes, dividing the force into mutually supporting columns rather than sending the whole body through the same ground. Patrol commanders are assigned separate routes through the ravines, abandoned yards, and rough country where the last bandit holdouts are believed to have hidden after the earlier campaign. Scouts move ahead of each column and mark crossings, tracks, and places where a small group could pass unseen. The main body remains close enough to reinforce any column that makes contact, while a smaller reserve guards the roads leading back toward the settled estates. The reorganization is completed without breaking the force into isolated parties. By nightfall, the men have a coordinated sweep plan and the remaining hideouts are being watched from several directions.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R064-E002",
+      "round_number": 64,
+      "date": "9 April 58 BCE",
+      "event_category": "Direct",
+      "title": "SCOUTS LOCATE THE LAST BANDIT HOLDOUT IN THE OLD RAVINE COMPLEX",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate scouts",
+        "remaining bandit holdouts",
+        "ravine and fortified store-yard complex"
+      ],
+      "body": "Valerius's scouts locate signs of occupation in the old ravine and fortified store-yard complex that had once served as a refuge for the bandits. Smoke from a concealed fire is seen at dawn, followed by fresh tracks leading toward a narrow approach that had not been used during the earlier sweep. The scouts count enough movement to establish that a surviving group is still operating there, but they remain out of bowshot and report the position rather than starting an uncontrolled engagement. The information allows the separate sweep columns to close the surrounding approaches before the holdouts realize that their refuge has been found. A second observation party confirms that the group has food, weapons, and pack animals inside the enclosure. Valerius now has a fixed target for the final operation rather than a general search across the countryside.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 7,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R064-E003",
+      "round_number": 64,
+      "date": "14 April 58 BCE",
+      "event_category": "Surprise",
+      "title": "THE HOLDOUTS ATTEMPT TO BREAK OUT BEFORE THE ENCLOSURE IS CLOSED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate patrols",
+        "remaining bandit holdouts",
+        "ravine complex"
+      ],
+      "body": "Before the final cordon is fully closed, the bandits attempt to escape through a narrow rear passage leading toward the winter road. The first men through the passage encounter a patrol that had been placed there after the scouts reported the hidden tracks, forcing the group back toward the enclosure. A second party tries the opposite side and is met by another organized column advancing from the ravine mouth. The attempt exposes the size and disposition of the holdout group, allowing Valerius's commanders to tighten the perimeter without chasing the fugitives into civilian country. Several pack animals are seized when the retreating bandits abandon them at the passage. By evening, every known exit from the old store-yard is under observation and the holdouts are contained.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 5,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R064-E004",
+      "round_number": 64,
+      "date": "19 April 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ORDERS THE FINAL ASSAULT ON THE BANDIT STORE-YARD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's men",
+        "remaining bandit holdouts",
+        "fortified store-yard"
+      ],
+      "body": "With the exits sealed, Valerius orders the organized force to advance on the fortified store-yard in a controlled assault. The first line takes the outer wall while supporting men prevent the defenders from reaching the ravine paths behind the enclosure. Resistance is concentrated around the gate and the stone store buildings, where the holdouts use the terrain to delay the advance. Valerius keeps the reserve committed to blocking escape routes rather than allowing the fight to spread across the surrounding countryside. After the gate is forced, the remaining defenders are driven from the store-yard and separated from their weapons. The fighting ends with the bandit refuge under Valerius's control, though several of his men are wounded in the assault.",
+      "ai_ledger": {
+        "soldiers": -4,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -2,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 3,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R064-E005",
+      "round_number": 64,
+      "date": "23 April 58 BCE",
+      "event_category": "Connected",
+      "title": "THE LAST BANDIT HOLDOUTS ARE REMOVED AS THE STORE-YARD FALLS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's men",
+        "captured bandits",
+        "remaining bandit holdouts"
+      ],
+      "body": "The final resistance collapses after the store-yard is secured and the remaining defenders are separated from the men who had tried to flee through the ravine. Fifteen bandits are taken into custody, while the remaining fighters are overcome during the last exchanges around the inner buildings. The prisoners identify the group as the surviving remnant of the bandit network that had previously used the surrounding country as a refuge. No organized bandit force remains in the captured complex, and the prisoners' weapons and supplies are collected rather than left for another group to recover. Estate patrols immediately begin checking the approaches for isolated stragglers. The long-running bandit presence around the holdings is therefore broken as an organized armed threat.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 1,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 6,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R064-E006",
+      "round_number": 64,
+      "date": "27 April 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S PATROLS FIND NO ORGANIZED BANDIT FORCE BEYOND THE FALLEN REFUGE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate patrols",
+        "captured bandits",
+        "nearby smallholders"
+      ],
+      "body": "After the store-yard falls, Valerius keeps the reorganized patrol system in the field instead of immediately recalling every man to the estate. Scouts inspect the ravine approaches, abandoned tracks, and former bandit routes while the reserve checks the roads used by nearby smallholders. The patrols recover scattered equipment and several abandoned caches but encounter no second organized group capable of reoccupying the refuge. Captured prisoners are questioned separately and their answers are compared with the routes already searched. The sweep reaches the outer approaches without finding a surviving command structure or another fortified camp. Local households are informed that the organized bandit force has been broken and that patrols will continue watching the roads while the area settles.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 1,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 5,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R064-E007",
+      "round_number": 64,
+      "date": "30 April 58 BCE",
+      "event_category": "Connected",
+      "title": "THE LAST BANDIT REFUGE IS CLEARED AND THE ROADS RETURN TO ESTATE CONTROL",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's men",
+        "nearby smallholders",
+        "former bandit lands"
+      ],
+      "body": "By the end of April, the old ravine refuge has been cleared of its remaining armed occupants and its approaches are once again under estate patrol control. The captured men are held for further questioning while the recovered weapons, pack animals, and stored supplies are inventoried at the estate. Smallholders using the surrounding roads begin moving more openly now that the armed bandit group has been removed from the area. Valerius orders the patrol columns to return gradually rather than abandoning the routes at once, leaving a smaller watch in the ravines and along the main approaches. The operation closes the final organized phase of the campaign against the surviving bandit holdouts. The land itself is not counted as a new acquisition because the refuge lies within holdings already recorded in the property ledger.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 4,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 398,
+      "change": -4,
+      "after": 394,
+      "unit": "men"
+    },
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 45,
+      "change": -7,
+      "after": 38,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 1,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 86,
+      "change": 8,
+      "after": 94,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1208,
+      "change": 33,
+      "after": 1241,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.5625,
+      "change": 0,
+      "after": 7.5625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "financial_summary": {
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "treasury_change_denarii": 0,
+    "public_account_change_denarii": 0,
+    "private_account_change_denarii": 0
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 394,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 38,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 94,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1241,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.5625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_base_probability_percent": 12,
+    "special_event_roll": 67.4821,
+    "special_event_success": false,
+    "special_event_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      58.1042,
+      81.3306,
+      27.4429
+    ],
+    "magnitude_11_events": 0,
+    "next_round_gate": "OPEN"
+  }
+}
