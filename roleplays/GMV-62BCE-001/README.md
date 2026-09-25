@@ -158,6 +158,30 @@ Past rounds are reconciled by preserving documented financial records and by add
 
 For the current reconciliation, Round 54's documented first regular commercial loads are recorded as a realized public-account profit of **110 denarii**, with the established **10% private transfer of 11 denarii**. The article itself is unchanged; the financial result is represented in the ledger because the event documents actual commercial loads. This is the model for future rounds: observable economic events may quietly produce intermittent account changes without turning the news article into an accounting report.
 
+## Mandatory Round Semantic-State Validation Gate
+
+Before any round is shown to the user or committed to GitHub, the round MUST pass a semantic-state validation pass. This check is performed after drafting the events and before the round is presented as final.
+
+### Topic-to-State Consistency Rule
+- If an event materially mentions **soldiers, troops, military manpower, detachments, recruitment, casualties, or military availability**, the event or round must contain a corresponding numerical state effect in the fixed ledger when the described development changes manpower, availability, readiness, organization, morale, supply, exhaustion, or another applicable military metric. A purely descriptive military reference that causes no state change must not be written as though it changed military conditions.
+- If an event materially mentions **agriculture, harvests, crops, fields, cultivation, irrigation, agricultural output, or estate agricultural production**, the event or round must contain a corresponding numerical state effect in the fixed ledger when the described development changes agriculture, supply, population, land use, or another applicable metric. If the relevant bounded metric is already at its maximum, the event may still occur, but the applied change must be 0 and another genuinely affected metric must be updated when the narrative establishes such an effect.
+- If an event materially mentions **economy, trade, mines, production, commercial output, rents, fees, estate revenue, investment, investment returns, contracts, or realized income**, the event or round must contain the corresponding financial realization and/or fixed-state effect when the narrative establishes an observable economic consequence. Exact denarii amounts, account routing, rates, ownership, and timing must never be invented merely to satisfy the check.
+- If an event materially mentions **estates, estate policy, property administration, land purchases, land transfers, or holdings**, the event or round must update the applicable land, agriculture, population, financial, or administrative metric when the narrative establishes a state change. A property-related narrative that establishes no measurable change must be rewritten so it does not falsely imply a state transition.
+- If an event mentions a **literal revenue receipt, payment, cost, profit, transfer, or investment return**, the financial-realization sub-ledger must contain the corresponding realized amount and routing, or the narrative must be rewritten to describe only preparation, expectation, or non-realized activity.
+- Exact quantities must remain exact quantities. Soldiers are men, population is people, land is square miles, and financial amounts are denarii; none may be represented as condition points or percentages.
+
+### Automatic Pre-Output Refinement
+The validation gate is mandatory. If a drafted event fails the semantic-state check, it MUST be automatically refined before the round is shown to the user. The refinement may:
+1. add the supported numerical state or financial effect;
+2. change the narrative so it accurately matches the already-established state change;
+3. remove an unsupported implication of output, revenue, manpower change, ownership, or investment return; or
+4. leave the narrative event intact with a zero applied change when the relevant bounded metric is already capped, provided the event does not falsely claim a measurable increase.
+
+A round that fails this gate MUST NOT be committed as final and MUST NOT be presented to the user as final. The round footer must include a semantic-state validation result and identify any refinement performed before output.
+
+### Round-Level Commit Gate
+The semantic-state check joins the existing end-of-round checks. A round may be committed only when all of the following pass: fixed metric schema, metric bounds, financial reconciliation, land consistency, recurring-character continuity, event variety, Ultimate-event contract, current-total-ledger completeness, semantic-state consistency, and canonical round-pointer synchronization.
+
 ## Continuity Requirements
 
 Recurring named characters are persistent simulation entities. When contextually involved, they must be referenced by their established names rather than replaced with generic labels.
