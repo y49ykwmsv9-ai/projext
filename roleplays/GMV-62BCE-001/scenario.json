@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 55,
-  "latest_date": "-0059-07-31",
+  "latest_round": 56,
+  "latest_date": "-0059-08-31",
   "metric_schema": "roleplay-fixed-metrics-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,12 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": null,
-    "current_round_selected": null,
+    "current_round_roll": 8.6142,
+    "current_round_selected": true,
+    "current_round_event_id": "GMV-62BCE-001-R056-E005",
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "July 59 BCE: Valerius completes the field survey of the former bandit-held lands granted in Round 53, measuring the aggregate at 2.8125 square miles (1,800 acres). The fortified store-yard and winter-pass complex is measured separately at 0.0625 square miles (40 acres) as a component of the pre-existing holdings, not a duplicate addition. The formal measured personal total becomes 7.0625 square miles (4,520 acres).",
+    "campaign_development": "August 59 BCE: Valerius turns the newly measured estates into working administrative divisions, organizes restored harvest estimates and regular lake-port cargo, handles a dispute over an old road, and receives an unexpected proposal from a traveling guild of metalworkers to establish workshops near the estates. Marcus Claudius Marcellus receives an account through established correspondence. No land area changes this round; measured personal holdings remain 7.0625 square miles (4,520 acres).",
     "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice."
   },
   "end_of_round_checks": {
@@ -35,7 +36,8 @@
     "canonical_round_52": "verified",
     "canonical_round_53": "verified",
     "canonical_round_54": "verified",
-    "canonical_round_55": "verified"
+    "canonical_round_55": "verified",
+    "canonical_round_56": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
