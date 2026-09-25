@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 64,
-  "latest_date": "-0058-04-30",
+  "latest_round": 65,
+  "latest_date": "-0058-05-31",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -9,7 +9,7 @@
     "scope": "personal estates and holdings",
     "baseline_round": 33,
     "baseline_value": 4,
-    "rule": "carry forward unless concrete land event changes it"
+    "rule": "carry forward unless concrete land event changes it; Round 65 adds 0.125 sq mi after a fresh survey of the newly seized final-refuge tract"
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
@@ -22,8 +22,8 @@
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "April 58 BCE: Valerius reorganizes his men into coordinated sweep columns, locates the last bandit holdout in the old ravine complex, and directs a controlled operation that breaks the remaining organized bandit force. Fifteen holdouts are captured, the remaining armed resistance is overcome, and follow-up patrols find no second organized refuge. The former bandit refuge is cleared without changing the measured personal land total.",
-    "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice. Round 59 surveys and incorporates an additional 0.50 sq mi (320 acres) after field measurements and witnessed boundary confirmation, bringing measured personal holdings to 7.5625 sq mi (4,840 acres)."
+    "campaign_development": "May 58 BCE: the newly seized final-refuge tract is freshly surveyed at 0.125 sq mi (80 acres), exclusive of the older fortified complex component already in the ledger, and incorporated into estate administration. Restoration begins, the raid investigation advances, lake-port trade continues, and Valerius makes his first personally consequential appearances before Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus in Rome.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 freshly surveys the newly seized final-refuge tract at 0.125 sq mi (80 acres), exclusive of the older 0.0625 sq mi fort-complex component, bringing total holdings to 7.6875 sq mi."
   },
   "end_of_round_checks": {
     "required": true,
@@ -41,7 +41,8 @@
     "current_total_ledger": {
       "required": true,
       "schema": "roleplay-fixed-metrics-v2",
-      "status": "verified"
+      "status": "verified",
+      "matches_round_065": true
     },
     "canonical_round_57": "verified",
     "canonical_round_58": "verified_pending_commit",
@@ -49,7 +50,8 @@
     "canonical_round_60": "verified",
     "canonical_round_62": "verified",
     "canonical_round_63": "verified",
-    "canonical_round_64": "verified"
+    "canonical_round_64": "verified",
+    "canonical_round_65": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
