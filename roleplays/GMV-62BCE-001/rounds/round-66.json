@@ -1,0 +1,564 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 66,
+  "date": "-0058-06-30",
+  "directive": "Valerius continues his outing in Rome and respectfully and virtuously participates in local philosophical and scholarly debates while acquiring a large collection of books through his reputation rather than recorded monetary purchases.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R066-E001",
+      "round_number": 66,
+      "date": "4 June 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ENTERS ROME'S PHILOSOPHICAL CIRCLES WITHOUT TURNING THE DEBATES INTO POLITICAL THEATER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Rome",
+        "Roman philosophical circles",
+        "Greek-speaking teachers"
+      ],
+      "body": "Valerius continues his stay in Rome by appearing in small philosophical gatherings where Roman and Greek-speaking teachers argue over virtue, duty, pleasure, discipline, and the obligations of a citizen. Rather than using his reputation to dominate the room, he takes the position of a participant and listens before answering. His questions are directed toward the arguments themselves, and several of the older participants notice that he is willing to concede a point when another speaker makes the stronger case. The discussions remain private and scholarly rather than becoming speeches about Valerius's military reputation. His conduct gives the gatherings a different kind of interest because a man known for recent campaigning is now spending his time defending careful argument and restraint. By the end of the meetings, several participants invite him to return for further discussions.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 1,
+        "exhaustion": 1,
+        "intelligence": 6,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R066-E002",
+      "round_number": 66,
+      "date": "8 June 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ACQUIRES A LARGE PRIVATE COLLECTION OF BOOKS THROUGH HIS REPUTATION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman booksellers",
+        "Greek-speaking copyists",
+        "private libraries"
+      ],
+      "body": "Valerius begins assembling an unusually large personal collection of books during his stay in Rome. Instead of bargaining over prices, he relies on the reputation already attached to his name and on introductions made through the circles he has entered, receiving volumes from booksellers, copyists, and private collections who are willing to place works in his hands as gifts, favors, or reputation-based exchanges. The collection includes philosophical works, histories, rhetorical material, poetry, and practical writings, with Greek texts appearing alongside Latin works. The acquisition is described by those around him as extensive enough to require several separate bundles to be gathered and carried. No purchase payment is entered against the estate or Valerius's private account because the books are obtained through the social and scholarly standing he has built rather than a recorded monetary transaction. Valerius insists that the books are to be read and studied rather than displayed merely as symbols of wealth.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 1,
+        "exhaustion": 0,
+        "intelligence": 10,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R066-E003",
+      "round_number": 66,
+      "date": "13 June 58 BCE",
+      "event_category": "Connected",
+      "title": "A SCHOLARLY DEBATE TURNS TO THE QUESTION OF WHETHER POWER CREATES DUTY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman scholars",
+        "philosophical teachers"
+      ],
+      "body": "A later gathering becomes more pointed when the discussion turns from abstract virtue to the obligations created by possessing military and social power. Valerius speaks about restraint, arguing that strength carries responsibilities toward people who cannot defend themselves and that reputation is worth little if it cannot survive scrutiny. Other speakers challenge him from several directions, forcing him to distinguish personal honor from public approval and practical authority from moral obligation. The exchange lasts well into the evening and draws listeners who had come expecting a routine philosophical conversation. Valerius does not attempt to convert the discussion into praise of his recent campaign, and the participants continue to dispute the argument after he has finished speaking. The debate becomes one of the more closely discussed scholarly conversations of his Roman stay.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 1,
+        "exhaustion": 1,
+        "intelligence": 8,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R066-E004",
+      "round_number": 66,
+      "date": "17 June 58 BCE",
+      "event_category": "Surprise",
+      "title": "VALERIUS IS INVITED INTO A CLOSED SCHOLARLY CIRCLE AFTER A NIGHT OF DEBATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman scholarly circle",
+        "Greek-speaking scholars",
+        "private library"
+      ],
+      "body": "An unexpected invitation follows one of the evening debates when a small scholarly circle asks Valerius to attend a private meeting normally limited to men already known within their circle. The invitation is not connected to his military command and is extended because several participants have become interested in the breadth of his questions and his willingness to argue without insulting opponents. Inside the gathering, he is shown a private library and is permitted to examine works that are not ordinarily brought into public discussions. Valerius spends the evening comparing passages, asking about competing interpretations, and taking notes for later study. The invitation gives him access to a different layer of Rome's intellectual life than the open debates he had attended earlier in the month. He leaves with additional recommendations for works to seek and an understanding that his reputation is beginning to carry weight outside military and political circles.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 1,
+        "exhaustion": 1,
+        "intelligence": 9,
+        "relations": 3,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R066-E005",
+      "round_number": 66,
+      "date": "21 June 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S BOOK COLLECTION EXPANDS THROUGH GIFTS, COPIES, AND INTRODUCTIONS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman copyists",
+        "booksellers",
+        "private collectors"
+      ],
+      "body": "The stream of books continues as word spreads that Valerius is building a serious working collection rather than collecting decorated volumes for display. Copyists offer him additional texts through introductions from people he met during the debates, while private collectors send works that they believe will interest him. Several booksellers waive ordinary arrangements after being told that Valerius is personally known to men whose names carry influence in Rome. The growing collection covers history, rhetoric, philosophy, law, poetry, geography, and practical subjects, making it broader than the philosophical material with which the project began. The books are kept together as a working library for later reading rather than distributed as gifts. Again, no denarii are recorded as spent on the acquisition itself; the observable exchange is social and scholarly rather than monetary.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 1,
+        "exhaustion": 0,
+        "intelligence": 10,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R066-E006",
+      "round_number": 66,
+      "date": "25 June 58 BCE",
+      "event_category": "Direct",
+      "title": "CELER AND MARCELLUS HEAR OF VALERIUS'S SCHOLARLY ACTIVITIES IN ROME",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus",
+        "Roman political correspondents"
+      ],
+      "body": "News of Valerius's activities reaches Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus while his Roman visit is still underway. The report is not about a political declaration but about the unusual contrast between his recent campaign and his willingness to spend long evenings in philosophical and scholarly argument. Celer's circle hears that Valerius has been acquiring books through personal introductions rather than displaying his wealth, while Marcellus's circle hears that he has participated seriously in disputes over law, virtue, and civic obligation. The accounts give both men another view of Valerius beyond the security campaign and property questions they discussed with him earlier in the month. Neither treats the reports as a formal political development, but the information becomes part of the growing picture of his character among his established correspondents. Valerius's Roman reputation consequently begins to include a visible intellectual dimension.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 7,
+        "relations": 3,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R066-E007",
+      "round_number": 66,
+      "date": "30 June 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS CLOSES THE MONTH WITH A PUBLIC-FACING SCHOLARLY DISCUSSION ON VIRTUE AND REPUTATION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman scholars",
+        "Roman audience"
+      ],
+      "body": "Before the month ends, Valerius takes part in another discussion in a setting where a wider audience can listen. The subject returns to virtue, reputation, and the difference between being praised by others and actually behaving according to a principle. Valerius speaks without invoking his military successes as proof of authority, and instead accepts questions from listeners who disagree with him. Several participants challenge his views on ambition, wealth, and the responsibilities of a man whose reputation has grown beyond his immediate community. The exchange ends without a single agreed conclusion, but Valerius's manner leaves the discussion remembered as a serious scholarly encounter rather than a political performance. His Roman outing therefore closes with his reputation broadened into intellectual circles as well as the political circles he had already entered.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 1,
+        "exhaustion": 1,
+        "intelligence": 8,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 394,
+      "change": 0,
+      "after": 394,
+      "unit": "men"
+    },
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 90,
+      "change": 0,
+      "after": 90,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 36,
+      "change": -1,
+      "after": 35,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 88,
+      "change": 6,
+      "after": 94,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 97,
+      "change": 3,
+      "after": 100,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1275,
+      "change": 50,
+      "after": 1325,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.6875,
+      "change": 0,
+      "after": 7.6875,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "financial_summary": {
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "treasury_change_denarii": 0,
+    "public_account_change_denarii": 0,
+    "private_account_change_denarii": 0
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 394,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 90,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 35,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 94,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1325,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.6875,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_base_probability_percent": 12,
+    "special_event_roll": 68.3124,
+    "special_event_success": false,
+    "special_event_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      14.2211,
+      52.8803,
+      83.4492
+    ],
+    "magnitude_11_events": 0,
+    "next_round_gate": "OPEN"
+  }
+}
