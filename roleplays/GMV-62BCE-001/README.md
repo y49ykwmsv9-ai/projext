@@ -204,14 +204,42 @@ The canonical round is determined only by the synchronized values in `scenario.j
 `round-014.json` and `round-052.json` are historical records and are never eligible to become the current campaign pointer. Round 52 is also a legacy-schema record and must be interpreted through its later migration/reconciliation history. Historical records remain available for continuity and audit, but they cannot override the synchronized canonical pointer.
 
 
-## Ultimate Events
+## Narrative Rules and Event Type Definitions
 
-`Ultimate` is a core event category alongside `Direct`, `Connected`, `Surprise`, and `Special`. It is reserved for extraordinary circumstances that warrant an unusually detailed, cinematic account in the event output. Its purpose is to preserve major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or similarly exceptional developments at their proper narrative scale without overwriting the ordinary event stream.
+### Narrative Rules
 
-- `Ultimate` is a classification of extraordinary narrative significance, not a replacement for the other event categories and not a second Special-event probability system.
-- An Ultimate event may be retrospective when an extraordinary earlier development is formally reconstructed or documented later.
-- Its narrative should be substantially more detailed and cinematic than ordinary events, emphasizing sequence, setting, hardship, decisions, consequences, and continuity.
-- It must remain grounded in established campaign facts; unsupported named people, locations, outcomes, or mechanics must not be invented merely for dramatic effect.
-- The fixed AI ledger remains mandatory, including metric bounds and financial rules.
-- Ultimate does not alter or replace the independent Special-event roll. A round may contain both, either one, or neither.
-- Ultimate events are not required every round and must never be forced merely to fill an event quota.
+- News prose describes what happened.
+- Hidden simulation reasoning does not appear in the narrative.
+- Do not write internal logic as if it were an in-world news report.
+- Maintain recurring named characters where contextually appropriate.
+- Keep events varied and causally connected to the established campaign.
+- Never manufacture an event merely to fill a quota.
+- Narrative detail must be supported by established campaign facts and current causal threads.
+- Event type describes how a development enters the simulation, not its subject matter.
+- Military, political, economic, social, agricultural, personal, geographic, diplomatic, and investigative developments may belong to any appropriate event type.
+- Choose the event category according to causality and narrative function rather than subject matter.
+- A round may contain multiple event types.
+- Do not force every category to appear in every round.
+- Do not repeat one category simply to satisfy an artificial distribution.
+
+### Event Type Definitions
+
+- **Direct:** A development caused directly by the player's established actions, standing directives, ongoing activities, or immediate decisions. It should show observable consequences or continuation of something Valerius has already initiated or ordered. It must not introduce an unrelated development merely to continue the round.
+
+- **Connected:** A development arising from an established thread, relationship, institution, investigation, economic activity, correspondence, location, or prior event without being the immediate result of the player's latest action. It should demonstrate continuing causal connections and allow established people, groups, places, or problems to develop independently.
+
+- **Surprise:** An unexpected but causally plausible development emerging from the established simulation state. It should introduce something Valerius did not explicitly order or anticipate while remaining grounded in existing circumstances, characters, relationships, geography, resources, or unresolved threads. Surprise does not mean arbitrary randomness and must not create unsupported dramatic twists.
+
+- **Special:** A development generated when the independent Special-event roll for that round succeeds. Special is a core event category governed by the campaign's established Special-event probability. Its narrative should describe the resulting event as an in-world development rather than exposing the random-roll mechanism. A Special event may concern any supported subject and is not automatically more important than Direct, Connected, or Surprise.
+
+- **Ultimate:** An extraordinary development that warrants an unusually detailed, cinematic account. It is reserved for major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or comparable exceptional developments whose narrative significance exceeds that of an ordinary event. Ultimate may be substantially longer and more immersive, but every detail must remain grounded in established campaign facts. It is not a second random-event system, does not replace Special, does not need to occur every round, and must never be created merely to fill an event quota. When the player character personally experiences an Ultimate event, use direct second-person perspective ("you") so the event is experienced as the player's own actions and memories rather than as a report about Valerius.
+
+### Event Type Selection Rule
+
+- Event categories must emerge from the established simulation state and current causal threads.
+- The category must be selected based on how the event entered the simulation, not how dramatic, important, or interesting the subject appears.
+- An event can be economically significant and still be Direct, politically significant and still be Connected, or geographically significant and still be Surprise.
+- Ultimate is determined by extraordinary narrative circumstances; Special is determined by the independent Special-event system. They are not interchangeable.
+- An Ultimate event may coexist with a Special event in the same round.
+- No event category should be used merely to satisfy a numerical quota or artificial distribution.
+
