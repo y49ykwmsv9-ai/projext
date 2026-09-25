@@ -128,12 +128,12 @@
         "soldiers": 0,
         "supply": 0,
         "exhaustion": 0,
-        "morale": 2,
+        "morale": 0,
         "readiness": 0,
         "intelligence": 3,
-        "relations": 2,
+        "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 1
+        "organization": 0
       }
     },
     {
@@ -183,7 +183,7 @@
         "intelligence": 1,
         "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 1
+        "organization": 0
       }
     }
   ],
@@ -208,7 +208,7 @@
     },
     "morale": {
       "before": 100,
-      "delta": 4,
+      "delta": 0,
       "after": 100,
       "unit": "points"
     },
@@ -226,13 +226,13 @@
     },
     "relations": {
       "before": 100,
-      "delta": 2,
+      "delta": 0,
       "after": 100,
       "unit": "points"
     },
     "organization": {
       "before": 100,
-      "delta": 2,
+      "delta": 0,
       "after": 100,
       "unit": "points"
     },
