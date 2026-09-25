@@ -10,18 +10,19 @@
   ],
   "events": [
     {
-      "id": "GMV-62BCE-001-R057-E001",
+      "event_id": "GMV-62BCE-001-R057-E001",
+      "round_number": 57,
       "date": "4 September 59 BCE",
-      "cat": "Direct",
+      "event_category": "Direct",
       "title": "VALERIUS SETS THE NEW ESTATES TO A REGULAR WORKING RHYTHM",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate stewards",
         "local smallholders",
         "former bandit-held lands"
       ],
       "body": "Valerius orders the newly measured estates divided into regular work districts so that planting, harvesting, repairs and transport can proceed without competing for the same labor at the same time. Stewards assign fields, pasture, woodland, water access and road maintenance to separate daily schedules. Smallholders who had been helping with the restoration are given clearer points of contact rather than being repeatedly summoned for overlapping tasks. The arrangement lets the estates move from emergency restoration toward ordinary productive administration. Valerius keeps the fortified holding under a separate security schedule so its guards do not consume labor needed on the agricultural ground.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
         "exhaustion": 0,
@@ -34,18 +35,19 @@
       }
     },
     {
-      "id": "GMV-62BCE-001-R057-E002",
+      "event_id": "GMV-62BCE-001-R057-E002",
+      "round_number": 57,
       "date": "9 September 59 BCE",
-      "cat": "Connected",
+      "event_category": "Connected",
       "title": "VALERIUS SENDS MOST OF HIS MEN BACK TO REGULAR DUTIES AS PATROLS REMAIN IN THE NEW TERRITORIES",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "Roman men under Valerius",
         "estate patrols",
         "personal guard"
       ],
       "body": "With the new lands no longer requiring a constant concentration of troops, Valerius orders most of his men back to their regular duties. A smaller patrol presence remains on the newly incorporated estates, while Valerius's personal guard continues to accompany him and maintain a visible presence around the most sensitive holdings. The change leaves the roads and fields visibly watched without making the entire estate operation feel like a military camp. Workers and landowners begin seeing the patrols as a standing safeguard rather than an emergency occupation force. The redistribution also frees men for the duties they had been unable to resume during the earlier campaign work.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 1,
         "exhaustion": -1,
@@ -58,18 +60,19 @@
       }
     },
     {
-      "id": "GMV-62BCE-001-R057-E003",
+      "event_id": "GMV-62BCE-001-R057-E003",
+      "round_number": 57,
       "date": "14 September 59 BCE",
-      "cat": "Direct",
+      "event_category": "Direct",
       "title": "NEIGHBORING LANDOWNERS RETURN TO THEIR OWN FIELDS AS THE NEW PATROLS TAKE OVER ROUTINE SECURITY",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "surrounding landholders",
         "estate patrols",
         "local smallholders"
       ],
       "body": "Several surrounding landowners begin reducing the men they had kept near their properties after the campaign, relying instead on the patrols stationed through Valerius's new territory. Carts, livestock and workers can again move between holdings without each household maintaining its own constant watch. The arrangement is especially noticeable around the roads linking the new estates to neighboring fields and the lake-port route. Landowners continue to report suspicious activity when it appears, but their daily labor is no longer interrupted by the same level of private security duty. The practical effect is a quieter countryside in which more hands can return to cultivation and repairs.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
         "exhaustion": 0,
@@ -81,18 +84,19 @@
       }
     },
     {
-      "id": "GMV-62BCE-001-R057-E004",
+      "event_id": "GMV-62BCE-001-R057-E004",
+      "round_number": 57,
       "date": "18 September 59 BCE",
-      "cat": "Surprise",
+      "event_category": "Surprise",
       "title": "FIELDS LEFT HALF-WORKED DURING THE CAMPAIGN BEGIN TO RECEIVE FULL LABOR CREWS AGAIN",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "agricultural workers",
         "smallholders",
         "estate stewards"
       ],
       "body": "The return of laborers to their ordinary duties produces a visible change in several fields that had remained only partly worked during the campaign. Crews clear neglected drainage channels, finish boundary repairs and bring livestock back onto pasture that had been used cautiously during the unsettled months. Smallholders working beside Valerius's estate hands report that fewer workers are being pulled away for guard duty. The first completed work does not transform the entire estate at once, but several previously delayed parcels are brought back into the normal agricultural cycle. Valerius's stewards record the improvement as part of the next production assessment.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
         "exhaustion": 0,
@@ -105,18 +109,19 @@
       }
     },
     {
-      "id": "GMV-62BCE-001-R057-E005",
+      "event_id": "GMV-62BCE-001-R057-E005",
+      "round_number": 57,
       "date": "22 September 59 BCE",
-      "cat": "Connected",
+      "event_category": "Connected",
       "title": "THE ESTATE ADMINISTRATION REARRANGES LABOR TO REDUCE THE BURDEN ON NEIGHBORING HOLDINGS",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate stewards",
         "surrounding landholders",
         "agricultural workers"
       ],
       "body": "Valerius's stewards begin coordinating labor between the new estates and the surrounding holdings so that restoration work does not continually draw workers away from their own farms. Work parties are scheduled around the agricultural calendar, with estate crews taking responsibility for the heaviest repairs on roads, storage areas and damaged field edges. Neighboring landowners are asked to provide assistance only where local knowledge is actually needed. The change reduces the repeated interruptions that had placed pressure on households during the restoration period. Agricultural output begins to benefit as more labor remains available for ordinary cultivation instead of emergency work.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
         "exhaustion": -1,
@@ -129,18 +134,19 @@
       }
     },
     {
-      "id": "GMV-62BCE-001-R057-E006",
+      "event_id": "GMV-62BCE-001-R057-E006",
+      "round_number": 57,
       "date": "26 September 59 BCE",
-      "cat": "Direct",
+      "event_category": "Direct",
       "title": "PATROLS AND ESTATE STEWARDS SECURE THE ROADS WITHOUT HALTING THE FLOW OF WORK",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate patrols",
         "estate stewards",
         "lake-port merchants"
       ],
       "body": "The remaining patrols settle into a regular circuit covering the principal roads, storage areas and approaches to the new estates. Rather than stopping ordinary traffic, the patrols check the same routes at predictable intervals while stewards handle access and work schedules during daylight. Merchants using the lake-port road report fewer delays from ad hoc security arrangements. The personal guard remains close to Valerius and the principal administrative centers, giving the new territory a visible layer of protection without expanding the military footprint. The combined arrangement allows commercial and agricultural activity to continue while the countryside adjusts to the new security system.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
         "exhaustion": 0,
@@ -153,18 +159,19 @@
       }
     },
     {
-      "id": "GMV-62BCE-001-R057-E007",
+      "event_id": "GMV-62BCE-001-R057-E007",
+      "round_number": 57,
       "date": "30 September 59 BCE",
-      "cat": "Direct",
+      "event_category": "Direct",
       "title": "VALERIUS'S SEPTEMBER REVIEW SHOWS THE NEW ESTATES MOVING FROM RESTORATION TOWARD NORMAL PRODUCTION",
-      "entities": [
+      "mentioned_entities": [
         "Gaius Maximus Valerius",
         "estate stewards",
         "local smallholders",
         "surrounding landholders"
       ],
       "body": "At the end of the month, Valerius reviews the estate registers with his stewards and compares the restored parcels with the work still outstanding. More fields are now being worked under ordinary schedules, while patrols and the personal guard continue to cover the areas that remain sensitive. Surrounding landowners are spending more of their own time on cultivation and less on maintaining private watches around their holdings. The new administrative rhythm also gives Valerius a clearer picture of which parcels can contribute to the next production cycle and which still require repairs. The estates are not finished, but the character of the territory has begun to shift from campaign recovery toward sustained production.",
-      "ledger": {
+      "ai_ledger": {
         "soldiers": 0,
         "supply": 0,
         "exhaustion": 0,
