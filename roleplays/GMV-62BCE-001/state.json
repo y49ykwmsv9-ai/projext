@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1993,
+    "intelligence": 2004,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,31 +49,31 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "19 May 57 BCE: the newly begun Roman-authorized expedition has established a general central Apennine/Umbrian geographic frame and tested a second passage beyond the first difficult pass; estate administration, agricultural work, and Roman correspondence continue independently.",
+    "campaign_development": "19 May 57 BCE: the newly begun Roman-authorized expedition has tested a second passage beyond the first difficult pass and remains active in unfamiliar country; estate administration, agricultural work, and Roman correspondence continue independently.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
-    "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
+    "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one Special event; a failed roll adds none. Each successful Magnitude-11 check also produces a Special event. Magnitude-11 is separate from the standard Special roll and never converts a result into Ultimate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 15.669955687895476,
-    "current_round_selected": false,
-    "current_round_event_id": null,
+    "current_round_roll": 5.94160412514253,
+    "current_round_selected": true,
+    "current_round_event_id": "GMV-62BCE-001-R082-E006",
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 15.669955687895476,
-    "special_triggered": false,
+    "special_roll": 5.94160412514253,
+    "special_triggered": true,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.9634883092388469,
-      69.63796291878242,
-      94.41793643307217
+      95.30295367984192,
+      76.47669776080119,
+      14.783383202273349
     ],
-    "magnitude_11_events": 1,
+    "magnitude_11_events": 0,
     "continuity_checks": {
       "fixed_metric_schema": "PASS",
       "metric_bounds": "PASS",
