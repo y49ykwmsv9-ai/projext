@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 57,
-  "latest_date": "-0059-09-30",
+  "latest_round": 58,
+  "latest_date": "-0059-10-31",
   "metric_schema": "roleplay-fixed-metrics-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 71.5816,
+    "current_round_roll": 64.3187,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "September 59 BCE: Valerius shifts the newly measured estates from intensive restoration toward regular administration, sends most of his men back to their normal duties while retaining patrols and his personal guard in the new territories, and reorganizes labor so surrounding landowners can return more fully to their own holdings. Agricultural work expands as security becomes routine rather than an emergency burden. Measured personal holdings remain 7.0625 square miles (4,520 acres).",
+    "campaign_development": "October 59 BCE: Valerius establishes three fixed collection centers with published schedules for estate income and taxes, records the first regular receipts, and separates estate operating funds from tax payments. Predictable collection days reduce unnecessary travel and help landowners keep labor in the fields. Measured personal holdings remain 7.0625 square miles (4,520 acres).",
     "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice."
   },
   "end_of_round_checks": {
@@ -41,9 +41,10 @@
     "current_total_ledger": {
       "required": true,
       "schema": "roleplay-fixed-metrics-v1",
-      "status": "verified"
+      "status": "verified_pending_commit"
     },
-    "canonical_round_57": "verified"
+    "canonical_round_57": "verified",
+    "canonical_round_58": "verified_pending_commit"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
