@@ -2,7 +2,7 @@
   "scenario_id": "GMV-62BCE-001",
   "latest_round": 58,
   "latest_date": "-0059-10-31",
-  "metric_schema": "roleplay-fixed-metrics-v1",
+  "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
     "unit": "square miles",
@@ -87,12 +87,6 @@
     "population": {
       "unit": "people",
       "min": 0,
-      "max": null,
-      "kind": "exact_quantity"
-    },
-    "currency": {
-      "unit": "denarii",
-      "min": null,
       "max": null,
       "kind": "exact_quantity"
     },
@@ -201,16 +195,16 @@
   },
   "relations_scale": "-100 to +100",
   "condition_scale": "0 to 100",
-  "exact_quantity_rule": "Exact quantities retain their explicit units and are not converted into condition points.",
+  "exact_quantity_rule": "Exact quantities retain their explicit units and are not converted into condition points. Financial effects are represented through ai_ledger.financial_realization and account balances, not a currency metric.",
   "financial_policy": {
-    "schema_version": "gmv-financial-realization-v2",
+    "schema_version": "gmv-financial-realization-v3",
     "rule": "Economic activity need not explicitly mention income. Realized financial effects are intermittent consequences recorded in the ledger when the event provides a concrete basis.",
     "unit": "denarii",
     "account_routing": {
       "treasury": "state, military, public-command, or explicitly public/state funds",
       "public_account": "estate and productive/commercial operating capital",
       "private_account": "Valerius private wealth and established private transfers",
-      "currency": "fixed metric ledger for exact-denarii financial flow; route separately when destination is known"
+      "financial_realization": "event-level financial effects recorded inside ai_ledger.financial_realization"
     },
     "double_counting_rule": "Transfers between accounts are not new income; gross receipts, costs, net public profit, private transfers, principal, and realized returns remain distinct.",
     "historical_reconciliation": "Documented past financial blocks remain canonical. Missing historical income is not fabricated. Legacy currency_units are interpreted as denarii while source uncertainty is preserved.",
