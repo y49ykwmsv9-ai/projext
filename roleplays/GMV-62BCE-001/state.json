@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 60,
-  "date": "-0059-12-31",
+  "round": 61,
+  "date": "-0058-01-31",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3077,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 45,
+    "supply": 48,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 72,
-    "technology": 85,
-    "intelligence": 1133,
+    "exhaustion": 79,
+    "technology": 88,
+    "intelligence": 1154,
     "relations": 100,
     "land_area_sq_miles": 7.5625,
     "temporary_unavailable": 0
@@ -51,7 +51,7 @@
     "marcus-claudius_marcellus": 11
   },
   "continuity": {
-    "campaign_development": "December 59 BCE: formal recognition moves into a second-stage institutional review while Valerius's military, commercial, and estate systems continue producing independent developments.",
+    "campaign_development": "January 58 BCE: Valerius expands silver extraction, secure transport routes, and higher-quality foundry production; an unidentified rogue raid strikes the personal estate, witnessed by civilians and a regional authority with consular authority.",
     "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice. Round 59 surveys and incorporates an additional 0.50 sq mi (320 acres) after field measurements and witnessed boundary confirmation, bringing measured personal holdings to 7.5625 sq mi (4,840 acres)."
   },
   "special_event_policy": {
@@ -59,7 +59,7 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 68.4172,
+    "current_round_roll": 83.6417,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -113,7 +113,8 @@
     },
     "canonical_round_58": "verified",
     "canonical_round_59": "verified",
-    "canonical_round_60": "verified"
+    "canonical_round_60": "verified",
+    "canonical_round_61": "verified"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -237,7 +238,7 @@
   },
   "next_round_gate": {
     "status": "OPEN",
-    "reason": "Round 60 rebuilt and persisted with complete Current Total Ledger."
+    "reason": "Round 61 persisted with complete Current Total Ledger and verified end-of-round checks."
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
