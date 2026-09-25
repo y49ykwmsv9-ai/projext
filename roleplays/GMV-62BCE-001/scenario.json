@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 54,
-  "latest_date": "-0059-06-30",
+  "latest_round": 55,
+  "latest_date": "-0059-07-31",
   "metric_schema": "roleplay-fixed-metrics-v1",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -31,8 +31,8 @@
     }
   },
   "continuity": {
-    "campaign_development": "June 59 BCE: Valerius formalizes administration of the former bandit lands, advances the boundary survey without inventing an acreage figure, reopens organized trade through the lake-port holding, and begins moving restored agricultural output into regular commercial channels. The measured personal land total remains 4.25 square miles because the newly owned former bandit lands remain unsurveyed in aggregate.",
-    "land_area_history": "Round 33 establishes 4.00 square miles of measured pre-existing holdings; Round 42 adds 0.25 sq mi of confirmed acquisitions. Round 53 establishes ownership of all former bandit-held lands seized during the campaign, but their aggregate area remains unmeasured pending survey, so measured land_area_sq_miles remains 4.25 sq mi. Round 54 advances formal surveying but does not add a measured acreage figure."
+    "campaign_development": "July 59 BCE: Valerius completes the field survey of the former bandit-held lands granted in Round 53, measuring the aggregate at 2.8125 square miles (1,800 acres). The fortified store-yard and winter-pass complex is measured separately at 0.0625 square miles (40 acres) as a component of the pre-existing holdings, not a duplicate addition. The formal measured personal total becomes 7.0625 square miles (4,520 acres).",
+    "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice."
   },
   "end_of_round_checks": {
     "required": true,
@@ -44,7 +44,8 @@
     "canonical_round_51": "verified",
     "canonical_round_52": "verified",
     "canonical_round_53": "verified",
-    "canonical_round_54": "verified"
+    "canonical_round_54": "verified",
+    "canonical_round_55": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
