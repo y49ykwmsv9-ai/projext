@@ -90,6 +90,22 @@ For every round:
 
 The GMV special-event system uses a standard 1–10 magnitude scale plus the separately randomized Magnitude-11 extension. Every round records its special-event resolution and three independent Magnitude-11 checks.
 
+### Mandatory in-app random resolution rule
+
+Every GMV round MUST perform fresh probabilistic checks locally inside the ChatGPT app before player-facing events are drafted or the round is committed. The Special-event draw uses the current campaign Special probability (12% unless the canonical campaign state changes it); success creates exactly one Special event and failure creates none. The independently randomized Magnitude-11 system uses the current canonical probability (currently 4.7283%) and three fresh independent checks per round. Special and Magnitude-11 are separate systems. Random values from earlier rounds, drafts, or prior scenario attempts must never be reused. Random resolution occurs before semantic-state validation so any resulting event is included in the same validation pass. The committed round must preserve the fresh draws, probability, and outcomes in its resolution record.
+
+### Mandatory semantic-state validation gate
+
+Before a GMV round is committed, every event must be checked against the fixed numerical state schema. When an event materially establishes a change involving soldiers, manpower, casualties, detachments, military availability, agriculture, cultivation, production, economy, trade, rents, fees, revenue, costs, property, land, or other tracked quantities, the corresponding numerical state or financial realization must reflect the actual consequence. If a bounded metric is already at its maximum, the narrative may still describe the underlying activity, but the applied numerical change must be 0 rather than a phantom capped increase. Exact quantities must retain their exact units: soldiers and temporary unavailable strength are men, population is people, land is square miles, and financial amounts are denarii. Literal realized revenue, payment, profit, cost, or return requires a corresponding financial realization entry with supported routing; preparation or expectation is not treated as realization. A round cannot be final until semantic-state consistency, military consistency, agriculture consistency, economic/financial consistency, literal-revenue realization, metric bounds, land consistency, and current-total reconciliation all pass.
+
+### Historical geographic-reference and source-protection rule
+
+When an expedition, exploration, or other event enters unexplored or incompletely charted country, the simulation should ground the general region or area with attested historical place names from the available CLIOPATRA/CLIOPATRIA and HISTORIX reference data when those records are accessible. Those reference datasets are read-only: GMV simulation generation must never modify, merge, overwrite, normalize, or otherwise edit their source files. When a source establishes only a regional anchor rather than an exact campaign position, the narrative must preserve that uncertainty and use the historical place names only as geographic reference points. The simulation must never invent an exact destination merely to make an unexplored area sound precise. Geographic references should distinguish direct campaign observation from historical or documentary anchors and may include nearby roads, settlements, passes, rivers, regions, or political territories when supported.
+
+### Ultimate detail requirement
+
+For a major expedition, exploration, adventure, or comparable personally experienced Ultimate event, the player-facing narrative should contain at least 20 distinct paragraph-length narrative beats while remaining readable and free of unnecessary blank spacing. For a major military engagement, the Ultimate narrative should contain at least 15 distinct paragraph-length narrative beats. Extraordinary detail must remain grounded in established campaign facts and may not be used to invent unsupported destinations, forces, casualties, payments, or outcomes.
+
 ## Project rules
 
 - Every game gets a unique project ID.
