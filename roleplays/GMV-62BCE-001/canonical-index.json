@@ -2,10 +2,10 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 79,
-    "latest_date": "-0057-04-28",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-79.json",
-    "news_file": "roleplays/GMV-62BCE-001/news/round-79.json",
+    "latest_round": 80,
+    "latest_date": "-0057-05-05",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-80.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-80.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 79 persisted and synchronized across round, news, state, scenario, and canonical pointer."
+  "last_verified": "Round 80 persisted and synchronized across round, news, state, scenario, and canonical pointer; Ultimate-event contract is documented."
 }
