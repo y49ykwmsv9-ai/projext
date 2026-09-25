@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 83,
-  "date": "-0057-05-26",
+  "round": 84,
+  "date": "-0057-06-02",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
     "private": 624,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 6,
-    "last_round_private_transfer": 0.6
+    "last_round_net_public_profit": 0,
+    "last_round_private_transfer": 0
   },
   "metrics": {
     "soldiers": 394,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 2,
+    "supply": 0,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2081,
+    "intelligence": 2189,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "26 May 57 BCE: the newly authorized Roman expedition has advanced beyond the secondary passage and verified a substantial engineered route through unfamiliar country; estate administration, local access arrangements, agricultural work, commercial activity, and Roman correspondence continue independently.",
+    "campaign_development": "2 June 57 BCE: the newly authorized Roman expedition continues investigating a substantial engineered route whose administrative status remains unexplained; Valerius has privately dispatched his suspicion to Quintus Caecilius Metellus Celer that mass deserters, fugitives, or an isolated marooned community are among the serious possibilities, while estate administration and local access arrangements continue independently.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
@@ -57,21 +57,21 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one Special event; a failed roll adds none. Each successful Magnitude-11 check also produces a Special event. Magnitude-11 is separate from the standard Special roll and never converts a result into Ultimate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 94.96649612163877,
-    "current_round_selected": false,
-    "current_round_event_id": null,
+    "current_round_roll": 5.212598041316385,
+    "current_round_selected": true,
+    "current_round_event_id": "GMV-62BCE-001-R084-E004",
     "magnitude_11_policy": "tracked separately only when required; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before final classification."
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 94.96649612163877,
-    "special_triggered": false,
+    "special_roll": 5.212598041316385,
+    "special_triggered": true,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      6.653541747636815,
-      23.630093175282052,
-      43.59960553825226
+      1.9918576355551276,
+      13.911160428505397,
+      51.34562584884289
     ],
     "magnitude_11_events": 1,
     "continuity_checks": {
@@ -101,24 +101,24 @@
       "post_commit_verification": "PASS"
     },
     "financial_reconciliation": {
-      "round_83_gross_receipts_denarii": 24,
-      "round_83_operating_costs_denarii": 18,
-      "round_83_net_public_profit_denarii": 6,
-      "round_83_private_transfer_denarii": 0.6,
-      "basis_event_id": "GMV-62BCE-001-R083-E005",
-      "inference_basis": "Closest established analogous spring commercial precedent from Round 79, calibrated to current 7.75 sq mi estate scale and 'modest' narrative strength; no unsupported financial mechanism was introduced."
+      "round_84_gross_receipts_denarii": 0,
+      "round_84_operating_costs_denarii": 0,
+      "round_84_net_public_profit_denarii": 0,
+      "round_84_private_transfer_denarii": 0,
+      "basis_event_id": null,
+      "inference_basis": "No event this round established a realized financial receipt, cost, payment, purchase, rent, fee, or investment return."
     }
   },
   "financial_realization": {
     "treasury": 1668,
     "public": 3099,
     "private": 624,
-    "gross_receipts_denarii": 24,
-    "operating_costs_denarii": 18,
-    "net_public_profit_denarii": 6,
-    "private_transfer_denarii": 0.6,
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
     "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": 6
+    "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {}
