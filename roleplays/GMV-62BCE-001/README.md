@@ -110,3 +110,24 @@ Recurring named characters are persistent simulation entities. When contextually
 Events must remain varied across supported dimensions when the simulation state provides genuine causes for that variety. Variety must not be fabricated solely to fill an event quota.
 
 Event prose should report observable developments rather than exposing internal simulation reasoning as if it were a news event.
+
+## Fixed Metric Definitions, Units, and Bounds
+
+The campaign uses the following authoritative metric definitions. These definitions do not change between rounds unless an explicit schema migration is committed.
+
+| Metric | Unit | Bounds / Type |
+|---|---|---|
+| `soldiers` | men | exact quantity; minimum 0 |
+| `population` | people | exact quantity; minimum 0 |
+| `currency` | denarii | exact quantity; no condition cap |
+| `taxation` | percent | 0–100 |
+| `economy`, `agriculture`, `infrastructure`, `trade` | points | 0–100 |
+| `readiness`, `morale`, `supply`, `organization`, `stability`, `legitimacy`, `technology`, `exhaustion` | points | 0–100 |
+| `intelligence` | points | unbounded campaign information score |
+| `relations` | points | -100 to +100 |
+| `land_area_sq_miles` | square miles | exact quantity; minimum 0 |
+| `temporary_unavailable` | men | exact quantity; minimum 0 |
+
+A bounded metric may not exceed its established maximum or fall below its minimum. If an event produces a positive effect while the metric is already at its maximum, the observable event may still occur, but the numerical ledger records only the amount that can actually be applied within the bound. Exact quantities such as men, people, denarii, and square miles are never silently treated as percentage/condition points.
+
+The machine-readable scenario record stores the same definitions under `metric_schema` / `metric_definitions`. Event and round ledgers must preserve the corresponding unit. 
