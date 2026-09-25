@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 83 committed and synchronized. Standard Special roll and all Magnitude-11 checks failed; no Special event was generated. Ultimate was not forced."
+  "last_verified": "Round 83 rebuilt and synchronized from verified Round 82 state using fresh local random resolution. Standard Special roll failed; one Magnitude-11 check succeeded and generated exactly one initially Special event. That Special remained Special after the Ultimate Reclassification Gate; the independent Surprise event in R083-E003 qualified for Ultimate and was reclassified before finalization."
 }
