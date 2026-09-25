@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one initially Special event; a failed roll adds none. Each successful Magnitude-11 check also produces one initially Special event. Magnitude-11 is separate from the standard Special roll. Initial Special or Surprise classification is not automatically Ultimate, but every such candidate is subject to the mandatory Ultimate Reclassification Gate before final classification.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 5.94160412514253,
-    "current_round_selected": true,
-    "current_round_event_id": "GMV-62BCE-001-R082-E006",
+    "current_round_roll": 94.96649612163877,
+    "current_round_selected": false,
+    "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed."
   },
   "continuity": {
-    "campaign_development": "26 May 57 BCE: The newly authorized Roman expedition has extended its tested route beyond the second passage and remains active in unfamiliar country; estate administration, agricultural management, and Roman correspondence continue independently.",
+    "campaign_development": "26 May 57 BCE: The newly authorized Roman expedition has advanced beyond the secondary passage and verified a substantial engineered route in unfamiliar country; estate administration, local access arrangements, agricultural management, modest realized commercial activity, and Roman correspondence continue independently.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "end_of_round_checks": {
@@ -61,22 +61,24 @@
     "canonical_round_72": "verified",
     "canonical_round_73": "verified",
     "special_base_probability_percent": 12,
-    "special_roll": 60.68500096799235,
+    "special_roll": 94.96649612163877,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      56.359282575061386,
-      98.98743786780807,
-      14.824136473971494
+      6.653541747636815,
+      23.630093175282052,
+      43.59960553825226
     ],
-    "magnitude_11_events": 0,
+    "magnitude_11_events": 1,
     "continuity_checks": {
       "fixed_metric_schema": "PASS",
       "metric_bounds": "PASS",
       "financial_realization_reconciled": "PASS",
+      "plausible_financial_quantification": "PASS",
       "land_change_and_ledger_consistent": "PASS",
       "recurring_character_continuity": "PASS",
       "event_variety": "PASS",
+      "event_variety_and_causal_diversity": "PASS",
       "ultimate_event_contract": "PASS",
       "current_total_ledger_complete": "PASS",
       "exact_quantity_unit_consistency": "PASS",
@@ -88,7 +90,8 @@
       "local_random_checks": "PASS",
       "geographic_reference_consistency": "PASS",
       "geographic_source_protection": "PASS",
-      "ultimate_reclassification_gate": "PASS"
+      "ultimate_reclassification_gate": "PASS",
+      "surprise_special_expanded_prose": "PASS"
     },
     "canonical_round_74": "verified",
     "canonical_round_75": "verified",
@@ -99,17 +102,26 @@
       "separate_from_event_effects": true
     },
     "financial_reconciliation": {
-      "round_78_gross_receipts": 36,
-      "round_78_operating_costs": 18,
-      "round_78_net_public_profit": 18,
-      "round_78_private_transfer": 1.8,
-      "round_78_background_interest_realized": 0,
-      "unsupported_interest_not_fabricated": true
+      "round_83_gross_receipts_denarii": 24,
+      "round_83_operating_costs_denarii": 18,
+      "round_83_net_public_profit_denarii": 6,
+      "round_83_private_transfer_denarii": 0.6,
+      "basis_event_id": "GMV-62BCE-001-R083-E005",
+      "inference_basis": "Closest established analogous spring commercial precedent from Round 79, calibrated to current 7.75 sq mi estate scale and 'modest' narrative strength; no unsupported financial mechanism was introduced."
     },
     "canonical_round_81": "verified",
     "canonical_round_82": "verified",
     "canonical_round_83": "verified",
-    "canonical_contract_note": "README updated: every initially Surprise or Special event must pass the mandatory Ultimate Reclassification Gate before final output; qualifying events are reclassified and rewritten as Ultimate, while non-qualifying events retain their original category. Surprise and Special retain the expanded prose/news treatment even when they remain non-Ultimate."
+    "canonical_contract_note": "README updated: every initially Surprise or Special event must pass the mandatory Ultimate Reclassification Gate before final output; qualifying events are reclassified and rewritten as Ultimate, while non-qualifying events retain their original category. Surprise and Special retain the expanded prose/news treatment even when they remain non-Ultimate.",
+    "magnitude_11_event_ids": [
+      "GMV-62BCE-001-R083-E004"
+    ],
+    "ultimate_reclassification": {
+      "event_id": "GMV-62BCE-001-R083-E003",
+      "initial_category": "Surprise",
+      "final_category": "Ultimate",
+      "gate_result": "qualified"
+    }
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -313,5 +325,6 @@
     ],
     "classification_note": "Event category describes how an event enters the simulation at generation time; final classification is locked only after the mandatory Ultimate Reclassification Gate. Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
-  }
+  },
+  "next_round_gate": "PENDING"
 }
