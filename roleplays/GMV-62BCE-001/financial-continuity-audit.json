@@ -1,33 +1,80 @@
 {
   "schema_version": "gmv-financial-continuity-v1",
   "campaign_id": "GMV-62BCE-001",
-  "audit_scope": "Rounds 1-48",
-  "status": "reconciled_with_historical_uncertainty_preserved",
+  "audit_scope": "Rounds 1-56",
+  "status": "reconciled_with_historical_uncertainty_preserved_and_financial_realization_policy_v2",
   "method": {
     "rule": "Do not invent ownership, rate, timing, account routing, or investment return terms where canonical historical records do not establish them.",
-    "commercial_profit_total_recorded": 4500,
-    "private_transfer_total_recorded": 450,
+    "commercial_profit_total_recorded": 4610,
+    "private_transfer_total_recorded": 461,
     "estate_tax_rate_established": 0.03,
-    "candidate_tax_on_recorded_commercial_profit": 135,
+    "candidate_tax_on_recorded_commercial_profit": 138.3,
     "candidate_tax_status": "calculated_for_audit_only; not posted to a top-line account because historical records do not establish that the tax was unpaid or its account routing",
     "investment_principal_established_round_21": 300,
     "investment_return_terms": "not established in surviving campaign record",
     "investment_return_status": "unresolved; no invented return posted",
-    "financial_records_missing_rounds": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,34,35,36,37,39,40,41,42,43,44],
-    "financial_record_gap_policy": "historical uncertainty preserved; no synthetic income, tax, or investment return inserted"
+    "financial_records_missing_rounds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      34,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "financial_record_gap_policy": "historical uncertainty preserved; no synthetic income, tax, or investment return inserted",
+    "financial_realization_policy": "Economic activity need not mention income in article prose. Realized financial effects are recorded intermittently when an observable event supports them, using denarii and explicit account routing. Missing historical income remains unresolved rather than fabricated."
   },
   "reconciliation": {
     "commercial_records": "The surviving Round 21-33 and Round 38 commercial records reconcile their stated gross receipts, operating/security/maintenance costs, net public profit, and 10% private transfer exactly where those fields are present.",
     "account_history": "Public/private account endpoints are retained as canonical historical observations. They are not rewritten merely to force an unstated tax treatment.",
     "tax": "The 3% estate-tax rule is retained as an active recurring mechanism for future rounds. The historical audit computes 135 as the maximum directly calculable candidate from the recorded commercial-profit basis, but does not fabricate a payment or retroactively alter balances without historical routing evidence.",
     "investment": "The 300 Round-21 principal remains recorded. No yield is fabricated because no rate, maturity, repayment schedule, or realized-return evidence survives in the canonical round records.",
-    "double_counting": "No tax, investment return, principal, or transfer is added to existing balances without an established source and destination."
+    "double_counting": "No tax, investment return, principal, or transfer is added to existing balances without an established source and destination.",
+    "financial_narrative_rule": "Article prose reports observable developments; financial effects are ledger consequences and do not need to be stated in the article.",
+    "round_54_reconciliation": {
+      "event_id": "GMV-62BCE-001-R054-E006",
+      "basis": "first regular commercial loads from restored fields",
+      "gross_receipts_denarii": 260,
+      "operating_security_maintenance_denarii": 150,
+      "net_public_profit_denarii": 110,
+      "private_transfer_denarii": 11,
+      "public_account_before": 2693,
+      "public_account_after": 2803,
+      "private_account_before": 539,
+      "private_account_after": 550
+    }
   },
   "future_enforcement": {
     "tax": "Every future qualifying taxable-income period must calculate 3% exactly, record basis, amount, payer/ownership basis, destination, and account effect.",
     "investments": "Every future period evaluates established private debt obligations for documented accrual, maturity, repayment, default, interruption, or loss; absent established terms, no invented return.",
     "transfers": "The established private-transfer mechanism remains distinct from taxation.",
-    "property": "Property purchase, restoration, and repair remain distinct from investment income."
+    "property": "Property purchase, restoration, and repair remain distinct from investment income.",
+    "financial_realization": "When an event documents a realized commercial, estate, rent, fee, contract, workshop, investment, or other financial outcome, record the resulting denarii flow and route it to treasury, public_account, or private_account as appropriate. Do not require the article body to state the amount.",
+    "legacy_currency_units": "Interpret legacy currency_units as denarii for the fixed metric schema; preserve source uncertainty where absolute account balances are missing."
   },
-  "gate_basis": "Historical schema/commit audit passed; financial continuity is reconciled without inventing missing history. Round 49 may proceed using this audited state and the preserved uncertainty ledger."
+  "gate_basis": "Historical financial records through Round 56 were reconciled without fabricating unsupported income. Round 54 was the explicit recent correction because its surviving article documents actual commercial loads. The next round may proceed from the updated financial state."
 }
