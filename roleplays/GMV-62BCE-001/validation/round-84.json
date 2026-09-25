@@ -1,0 +1,32 @@
+{
+  "schema_version": "gmv-round-validation-v1",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 84,
+  "date": "-0057-06-02",
+  "passes": 17,
+  "all_passed": true,
+  "local_random_resolution": {
+    "special_probability_percent": 12,
+    "special_draw": 5.212598041316385,
+    "special_success": true,
+    "special_event_id": "GMV-62BCE-001-R084-E004",
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_draws": [
+      1.9918576355551276,
+      13.911160428505397,
+      51.34562584884289
+    ],
+    "magnitude_11_successes": 1,
+    "magnitude_11_event_id": "GMV-62BCE-001-R084-E005"
+  },
+  "ultimate_reclassification": [],
+  "semantic_state": "PASS",
+  "financial_reconciliation": "PASS",
+  "land_consistency": "PASS",
+  "character_continuity": "PASS",
+  "event_variety": "PASS",
+  "current_totals": "PASS",
+  "pointer_sync": "PASS",
+  "post_commit_verification": "PASS",
+  "notes": "Round 84 uses the canonical Round 83 state. Valerius's suspicion is explicitly presented as an unresolved private hypothesis, not as an established fact. The two successful Special mechanisms remain Special because neither independently satisfies the Ultimate threshold."
+}
