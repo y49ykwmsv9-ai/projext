@@ -1,0 +1,612 @@
+{
+  "round_number": 65,
+  "date": "-0058-05-31",
+  "event_categories_represented": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R065-E001",
+      "round_number": 65,
+      "date": "3 May 58 BCE",
+      "event_category": "Direct",
+      "title": "THE NEWLY SEIZED TRACT IS SURVEYED FOR THE FIRST TIME",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate surveyors",
+        "newly seized lands",
+        "former bandit refuge"
+      ],
+      "body": "Surveyors working under Valerius's authority begin a fresh boundary measurement of the ground taken in the final operation. They mark the outer limits against the older estate boundaries, separating the newly seized ground from the previously recorded holdings rather than folding the two measurements together. The field party records the roads, watercourses, cultivated patches, abandoned clearings, and the approaches surrounding the former refuge. The completed measurement establishes 0.125 square miles, or 80 acres, of newly incorporated land, exclusive of the older fortified complex already represented in the historical property ledger. Witnesses from nearby holdings are present when the boundary marks are checked. The survey gives Valerius the first precise area record for this newly seized tract and provides the basis for its formal addition to the estate.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 1,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 5,
+        "relations": 1,
+        "land_area_sq_miles": 0.125,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E002",
+      "round_number": 65,
+      "date": "8 May 58 BCE",
+      "event_category": "Connected",
+      "title": "THE NEWLY SURVEYED EIGHTY ACRES ARE PLACED UNDER ESTATE ADMINISTRATION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "newly surveyed tract",
+        "nearby smallholders"
+      ],
+      "body": "Following the boundary inspection, Valerius's stewards enter the newly measured eighty acres into the estate's working records. The ground is divided according to what can be restored immediately and what requires clearing before cultivation can begin. Fallen fencing and abandoned structures are removed from the portions selected for early use, while the remaining margins are left under watch until they can be brought into regular administration. Nearby smallholders are asked to identify old paths and water access points so the new boundaries do not disrupt established movement. The newly seized land is thereby converted from captured ground into an administered estate holding. Its first productive work begins before the end of the month.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 2,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 1,
+        "legitimacy": 1,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 3,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E003",
+      "round_number": 65,
+      "date": "12 May 58 BCE",
+      "event_category": "Direct",
+      "title": "THE RAID INVESTIGATION ADVANCES THROUGH A SECOND ROUND OF TESTIMONY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Aulus Vettius",
+        "captured raiders",
+        "regional authority"
+      ],
+      "body": "The investigation into the raid continues as testimony from the captured men is compared with the payment record and wax seal already sent to the regional authority. Several statements are taken separately so that the witnesses cannot simply repeat one another's account. The testimony adds names, meeting places, and descriptions of the route by which instructions reached the raiders, while the investigators continue to distinguish confirmed facts from claims made by prisoners seeking favorable treatment. Aulus Vettius remains the identified private intermediary connected to the commission of the attack, but the inquiry does not yet establish a wider political sponsor. Valerius's earlier evidence remains in official custody as the separate accounts are assembled. The investigation therefore moves from identifying the immediate contractor toward determining the full chain behind the raid.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E004",
+      "round_number": 65,
+      "date": "17 May 58 BCE",
+      "event_category": "Connected",
+      "title": "THE LAKE PORT COMPLETES ANOTHER COMMERCIAL CYCLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "lake-port merchants",
+        "estate port holding",
+        "lake-port laborers"
+      ],
+      "body": "A new cycle of cargo passes through Valerius's lake-port holding as merchants bring in supplies and move estate and regional produce outward. Port laborers handle the loading, storage, and transfer of the cargo while the stewards keep the traffic moving through the established facilities rather than expanding the port's physical footprint. Several merchants return after earlier dealings, giving the port another regular commercial cycle instead of a one-time movement of goods. The activity also draws additional demand for storage and transport around the landing. By the end of the cycle, the port has again demonstrated that its commercial role extends beyond the immediate estate.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 2,
+        "relations": 1,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 300,
+          "operating_costs_denarii": 203,
+          "net_public_profit_denarii": 97,
+          "private_transfer_denarii": 10,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 97,
+          "private_account_change_denarii": 10,
+          "currency_flow_denarii": 107,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E005",
+      "round_number": 65,
+      "date": "20 May 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS TRAVELS TO ROME TO MEET HIS ESTABLISHED CORRESPONDENTS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Rome",
+        "Roman political correspondents",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus"
+      ],
+      "body": "For the first time, Valerius personally appears in Rome before men with whom he had previously dealt primarily through correspondence. His arrival turns those relationships from written exchanges into direct political contact, and the meetings are arranged without presenting him as a holder of public office. Valerius discusses the recent security campaign, the evidence concerning the raid, and the administration of his expanding estate interests. The appearance also gives his correspondents an opportunity to judge his manner, priorities, and account of events directly rather than through letters carried by intermediaries. His visit is noticed among the small circle of Roman political contacts already familiar with his name. It marks the first time he has appeared before influential political figures in Rome in a personally consequential capacity.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 4,
+        "relations": 5,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E006",
+      "round_number": 65,
+      "date": "23 May 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS MEETS QUINTUS CAECILIUS METELLUS CELER IN PERSON",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer"
+      ],
+      "body": "Valerius meets Quintus Caecilius Metellus Celer face to face after the relationship between them has been maintained through earlier correspondence and political channels. The discussion includes the raid evidence, the continuing inquiry, and the consequences of the campaign that has now secured the approaches around Valerius's holdings. Celer hears Valerius's account directly and questions him about the sequence of events rather than relying solely on reports from other men. The meeting remains a private political conversation rather than a formal appointment or public declaration. Their established correspondence is consequently given a more direct personal foundation. Valerius leaves with the relationship intact and with a clearer channel for future communication.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 5,
+        "relations": 5,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E007",
+      "round_number": 65,
+      "date": "26 May 58 BCE",
+      "event_category": "Direct",
+      "title": "MARCUS CLAUDIUS MARCELLUS HEARS VALERIUS'S ACCOUNT OF THE PROPERTY AND RAID DISPUTES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus"
+      ],
+      "body": "Valerius's second major Roman meeting is with Marcus Claudius Marcellus, whose earlier interest in the property disputes gives the conversation a different emphasis from the meeting with Celer. Marcellus questions him about the estate boundaries, the newly seized tract, and the evidence connecting the raid to Aulus Vettius. Valerius explains the distinction between land already measured in his holdings and the newly surveyed eighty acres, making clear that the latest addition is a fresh survey rather than a revision of older acreage. Marcellus compares the account with the disputes he had previously examined and asks about the witnesses who confirmed the new boundary. The conversation does not produce a formal ruling, but it places Valerius personally before another established political contact. The exchange strengthens the directness of a relationship that had previously depended heavily on correspondence.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 4,
+        "relations": 4,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R065-E008",
+      "round_number": 65,
+      "date": "31 May 58 BCE",
+      "event_category": "Surprise",
+      "title": "VALERIUS'S FIRST PERSONAL APPEARANCE CREATES A NEW DIRECT POLITICAL CHANNEL",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus",
+        "Roman political correspondents"
+      ],
+      "body": "Valerius's meetings in Rome produce an unexpected change in the character of his political correspondence. Men who had previously known him largely through letters now have a firsthand account of the campaign, the investigation, and the administration of his lands. No public office is offered and no formal political alliance is announced, but subsequent conversations begin to pass more directly through the men he has now met in person. The effect is especially noticeable because his appearance comes immediately after the recovery and presentation of evidence from the raid investigation. His estate, security activity, and political correspondence therefore begin to intersect in a more visible way than before. Valerius returns from Rome with his existing relationships intact and a new expectation that future matters can be discussed with him directly.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 2,
+        "relations": 4,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 394,
+      "change": 0,
+      "after": 394,
+      "unit": "men"
+    },
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 88,
+      "change": 2,
+      "after": 90,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 38,
+      "change": -2,
+      "after": 36,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 2,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 94,
+      "change": 3,
+      "after": 97,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1241,
+      "change": 34,
+      "after": 1275,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.5625,
+      "change": 0.125,
+      "after": 7.6875,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "financial_summary": {
+    "gross_receipts_denarii": 300,
+    "operating_costs_denarii": 203,
+    "net_public_profit_denarii": 97,
+    "private_transfer_denarii": 10,
+    "treasury_change_denarii": 0,
+    "public_account_change_denarii": 97,
+    "private_account_change_denarii": 10
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 394,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 90,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 36,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 97,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1275,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.6875,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_base_probability_percent": 12,
+    "special_event_roll": 43.8176,
+    "special_event_success": false,
+    "special_event_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      34.2071,
+      61.8834,
+      92.1047
+    ],
+    "magnitude_11_events": 0,
+    "next_round_gate": "OPEN"
+  }
+}
