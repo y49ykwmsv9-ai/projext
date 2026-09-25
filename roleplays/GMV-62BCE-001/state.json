@@ -1,42 +1,42 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 64,
-  "date": "-0058-04-30",
+  "round": 65,
+  "date": "-0058-05-31",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3077,
-    "private": 591,
+    "public": 3174,
+    "private": 601,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 80,
-    "last_round_private_transfer": 8
+    "last_round_net_public_profit": 97,
+    "last_round_private_transfer": 10
   },
   "metrics": {
     "population": 249,
     "soldiers": 394,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 88,
+    "agriculture": 90,
     "infrastructure": 100,
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 38,
+    "supply": 36,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 94,
+    "exhaustion": 97,
     "technology": 88,
-    "intelligence": 1241,
+    "intelligence": 1275,
     "relations": 100,
-    "land_area_sq_miles": 7.5625,
+    "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
   },
   "holdings": {
-    "land_area_sq_miles": 7.5625,
-    "acres": 4840,
-    "roman_iugera_approx": 7247.5,
-    "change_this_round_sq_miles": 0.5,
-    "scope": "personal estates and holdings; former bandit lands measured and incorporated; additional 0.50 sq mi tract surveyed and placed under estate administration in Round 59"
+    "land_area_sq_miles": 7.6875,
+    "acres": 4920,
+    "roman_iugera_approx": 7387.5,
+    "change_this_round_sq_miles": 0.125,
+    "scope": "personal estates and holdings; newly seized final-refuge tract surveyed at 0.125 sq mi (80 acres) and incorporated in Round 65"
   },
   "relationships": {
     "nearby-landowners": 35,
@@ -51,15 +51,15 @@
     "marcus-claudius_marcellus": 11
   },
   "continuity": {
-    "campaign_development": "April 58 BCE: Valerius reorganizes his men into coordinated sweep columns, locates the last bandit holdout in the old ravine complex, and directs a controlled operation that breaks the remaining organized bandit force. Fifteen holdouts are captured, the remaining armed resistance is overcome, and follow-up patrols find no second organized refuge. The former bandit refuge is cleared without changing the measured personal land total.",
-    "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice. Round 59 surveys and incorporates an additional 0.50 sq mi (320 acres) after field measurements and witnessed boundary confirmation, bringing measured personal holdings to 7.5625 sq mi (4,840 acres)."
+    "campaign_development": "May 58 BCE: the newly seized tract surrounding the cleared final refuge is surveyed for the first time, measured at 0.125 sq mi (80 acres) exclusive of the older fortified complex already represented in the property ledger, and placed under estate administration. Restoration begins while the raid investigation continues; Valerius travels to Rome and personally meets Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate and brings holdings to 7.0625; Round 59 adds 0.50 to reach 7.5625; Round 65 newly surveys the final-refuge tract at 0.125 sq mi (80 acres), exclusive of the older 0.0625 sq mi fort-complex component, bringing holdings to 7.6875 sq mi (4,920 acres)."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 67.4821,
+    "current_round_roll": 43.8176,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -109,7 +109,7 @@
       "status": "verified",
       "schema": "roleplay-fixed-metrics-v2",
       "all_established_metrics_present": true,
-      "matches_round_064": true
+      "matches_round_065": true
     },
     "canonical_round_58": "verified",
     "canonical_round_59": "verified",
@@ -117,7 +117,8 @@
     "canonical_round_61": "verified",
     "canonical_round_62": "verified",
     "canonical_round_63": "verified",
-    "canonical_round_64": "verified"
+    "canonical_round_64": "verified",
+    "canonical_round_65": "verified"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -216,9 +217,25 @@
         "current_status": "active_owned_and_under_production",
         "provenance": "Round 59 field survey identifies a contiguous 0.50 sq mi tract omitted from earlier measurements; surviving boundary marks and witnesses place it within Valerius's estate administration. No acquisition price is recorded.",
         "confidence": "ownership/area established by Round 59 survey and witnesses"
+      },
+      {
+        "holding_id": "round_65_final_refuge_tract",
+        "name": "Newly seized final-refuge tract",
+        "asset_type": "estate_land",
+        "area_sq_miles": 0.125,
+        "area_status": "confirmed_round_65_measurement",
+        "acquisition_date": "-0058-04",
+        "acquisition_round": 64,
+        "acquisition_value": null,
+        "currency_account": null,
+        "seller_counterparty": "former bandit holding; no private seller recorded",
+        "acquisition_source_event_id": "GMV-62BCE-001-R064-E005",
+        "current_status": "active_owned_and_under_estate_administration",
+        "provenance": "Round 64 cleared the final organized bandit refuge. Round 65 fresh survey measures the newly seized tract at 0.125 sq mi (80 acres), exclusive of the older fortified complex component already represented in the property ledger.",
+        "confidence": "area confirmed by Round 65 survey; ownership established through Round 64 seizure"
       }
     ],
-    "derived_total_land_area_sq_miles": 7.5625,
+    "derived_total_land_area_sq_miles": 7.6875,
     "unresolved_historical_items": [
       "exact historical acquisition date/price for the principal estate",
       "exact historical acquisition date/price for the lake-port holding",
@@ -241,7 +258,7 @@
   },
   "next_round_gate": {
     "status": "OPEN",
-    "reason": "Round 61 persisted with complete Current Total Ledger and verified end-of-round checks."
+    "reason": "Round 65 persisted with complete Current Total Ledger and verified end-of-round checks."
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
