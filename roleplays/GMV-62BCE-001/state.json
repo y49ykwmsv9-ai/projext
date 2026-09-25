@@ -1,32 +1,32 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 79,
-  "date": "-0057-04-28",
+  "round": 78,
+  "date": "-0057-04-21",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3093.6,
-    "private": 623.4,
+    "public": 3088.2,
+    "private": 622.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 6,
-    "last_round_private_transfer": 0.6
+    "last_round_net_public_profit": 18,
+    "last_round_private_transfer": 1.8
   },
   "metrics": {
     "soldiers": 394,
     "population": 250,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 98,
+    "agriculture": 96,
     "infrastructure": 100,
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 10,
+    "supply": 11,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1791,
+    "intelligence": 1759,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "28 April 57 BCE: Household inspections continue under Valerius's respectful protocols; Marcellus requests clarification on a dated dossier entry; neighboring workers receive an administrative accommodation concerning a shared watering route; the purchased tract completes its first spring work cycle; lake-port merchants confirm a delivery window; and the week's ordinary accounts close with a realized public operating profit and established private transfer.",
+    "campaign_development": "21 April 57 BCE: The authenticated dossier is preserved, the old boundary marker is reconciled against the purchase records, additional local testimony strengthens the chronological record, spring labor expands on the purchased tract, Roman correspondents acknowledge the preserved dossier, and the week's ordinary agricultural accounts close with a modest realized public receipt.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
@@ -87,14 +87,14 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3093.6,
-    "private": 623.4,
-    "gross_receipts_denarii": 24,
+    "public": 3088.2,
+    "private": 622.8,
+    "gross_receipts_denarii": 36,
     "operating_costs_denarii": 18,
-    "net_public_profit_denarii": 6,
-    "private_transfer_denarii": 0.6,
+    "net_public_profit_denarii": 18,
+    "private_transfer_denarii": 1.8,
     "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": 6
+    "currency_flow_denarii": 18
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
