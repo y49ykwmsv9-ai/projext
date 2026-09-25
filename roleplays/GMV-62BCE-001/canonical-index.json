@@ -2,9 +2,9 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 78,
-    "latest_date": "-0057-04-21",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-78.json",
+    "latest_round": 79,
+    "latest_date": "-0057-04-28",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-79.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -13,5 +13,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 78 reconciled and synchronized: inherited bounded metrics normalized to contract bounds, 10% private transfer applied, ordinary operating cost restored from the documented weekly estate expense precedent, and unsupported investment interest not fabricated."
+  "last_verified": "Round 79 state/scenario/news synchronized; round record creation remains pending GitHub contents API capability."
 }
