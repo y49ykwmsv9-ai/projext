@@ -1,13 +1,13 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 76,
-  "date": "-0057-04-07",
+  "round": 77,
+  "date": "-0057-04-14",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3054,
+    "public": 3036,
     "private": 621,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 0,
+    "last_round_net_public_profit": -18,
     "last_round_private_transfer": 0
   },
   "metrics": {
@@ -15,18 +15,18 @@
     "population": 249,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 94,
+    "agriculture": 95,
     "infrastructure": 100,
     "trade": 101,
     "readiness": 100,
     "morale": 100,
-    "supply": 13,
+    "supply": 12,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1698,
+    "intelligence": 1730,
     "relations": 103,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -35,7 +35,7 @@
     "land_area_sq_miles": 7.75,
     "acres": 4960,
     "roman_iugera_approx": 7447.5,
-    "change_this_round_sq_miles": 0.0625,
+    "change_this_round_sq_miles": 0,
     "scope": "personal estates and holdings; Round 65 newly seized final-refuge tract remains incorporated"
   },
   "relationships": {
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "7 April 57 BCE: Valerius renews the household's established inspection and conduct protocols, instructing his men to uphold them while treating local residents respectfully. He sends the final completely detailed, chronologically labeled, and confirmed dossier concerning the raid inquiry through the established Roman correspondence, and receipt is acknowledged.",
+    "campaign_development": "14 April 57 BCE: The established household inspection and conduct protocols continue to generate ordinary administrative findings and respectful local interactions. A new smallholder account is added to the raid dossier, Marcus Claudius Marcellus requests authenticated duplicate records, Quintus Caecilius Metellus Celer sends a sealed preservation instruction, spring work advances on the newly purchased tract, and routine repairs are completed.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
@@ -58,21 +58,21 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 71.2896,
-    "current_round_selected": false,
-    "current_round_event_id": null,
+    "current_round_roll": 8.4137,
+    "current_round_selected": true,
+    "current_round_event_id": "GMV-62BCE-001-R077-E005",
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 71.2896,
-    "special_triggered": false,
+    "special_roll": 8.4137,
+    "special_triggered": true,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      73.8808,
-      10.1285,
-      89.9898
+      52.8142,
+      81.4027,
+      34.1195
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -87,13 +87,13 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3054,
+    "public": 3036,
     "private": 621,
     "gross_receipts_denarii": 0,
-    "operating_costs_denarii": 0,
-    "net_public_profit_denarii": 0,
+    "operating_costs_denarii": 18,
+    "net_public_profit_denarii": -18,
     "private_transfer_denarii": 0,
-    "currency_flow_denarii": 0
+    "currency_flow_denarii": -18
   },
   "next_round_gate": "OPEN"
 }
