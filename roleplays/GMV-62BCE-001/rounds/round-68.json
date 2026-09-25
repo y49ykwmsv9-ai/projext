@@ -1,0 +1,522 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round": 68,
+  "date": "-0058-08-31",
+  "directive": "Valerius returns to the Roman political centers to appear before anyone who requests him, whether pleb or consul, treating them with respect and generosity and gifting each copies of his own scholarly texts to demonstrate virtue.",
+  "event_categories_represented": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R068-E001",
+      "round_number": 68,
+      "date": "4 August 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS RETURNS TO ROME'S POLITICAL CENTERS AND OPENS HIS DOORS TO ANY PETITIONER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman political centers",
+        "Roman citizens",
+        "plebeians",
+        "Roman political correspondents"
+      ],
+      "body": "Valerius returns to Rome's political centers and makes it known that he will appear before anyone who requests him, without first asking whether the visitor is a plebeian, veteran, client, senator, or consul. The decision is presented as a practical expression of the principles of courtesy, duty, and virtue that have occupied his recent studies rather than as a declaration of political ambition. Visitors are instructed to expect the same respectful reception regardless of rank. Valerius's return therefore creates a broader stream of conversations than his earlier meetings with established political correspondents, bringing him into contact with people whose concerns range well beyond the military and property matters that shaped his earlier reputation.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 7,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R068-E002",
+      "round_number": 68,
+      "date": "9 August 58 BCE",
+      "event_category": "Connected",
+      "title": "PLEBEIAN VISITORS ARE RECEIVED WITH THE SAME COURTESY AS ELITE CORRESPONDENTS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman plebeians",
+        "veterans",
+        "smallholders",
+        "Roman political correspondents"
+      ],
+      "body": "A succession of visitors arrives seeking Valerius's attention, including ordinary Romans bringing questions alongside people accustomed to speaking within elite households. Valerius listens without rushing the meetings and provides assistance where he reasonably can, refusing to make generosity dependent upon a visitor's ability to advance his reputation. Veterans speak with him about service and settlement, while ordinary citizens bring smaller concerns concerning property, work, and local affairs. Several visitors receive copies of his writings, particularly those dealing with virtue, duty, discipline, and the obligations accompanying influence. The unusual mixture of visitors becomes increasingly visible among Valerius's Roman acquaintances.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 8,
+        "relations": 3,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R068-E003",
+      "round_number": 68,
+      "date": "14 August 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS GIVES HIS OWN SCHOLARLY TEXTS TO THOSE WHO COME BEFORE HIM",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman scholars",
+        "political correspondents",
+        "Roman citizens"
+      ],
+      "body": "Valerius begins deliberately giving copies of his own scholarly texts to the people who come before him. The works address virtue, discipline, duty, reputation, education, and the responsibilities attached to influence, and the gifts are offered without a request for political agreement in return. Recipients include people from different social positions, allowing the same arguments to circulate beyond the scholarly circles in which they were first discussed. Valerius emphasizes that accepting a book does not require accepting its conclusions; the purpose is to place the arguments in the hands of people who can examine them themselves. His writings consequently begin traveling through Roman political and social networks independently of their author.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 9,
+        "relations": 4,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R068-E004",
+      "round_number": 68,
+      "date": "18 August 58 BCE",
+      "event_category": "Surprise",
+      "title": "A CONSULAR REQUEST BRINGS VALERIUS BEFORE A HIGH POLITICAL CIRCLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman consul",
+        "consular representatives",
+        "Roman political centers"
+      ],
+      "body": "A request arrives from a consular circle asking Valerius to appear for a conversation, and he accepts without changing the manner in which he has been receiving less prominent visitors. The meeting takes place after Valerius has already spent part of the day hearing ordinary petitioners, making the contrast visible to those around him. He speaks respectfully about virtue, responsibility, reputation, and the obligations of influence, then presents the consular representative with a copy of his own scholarly work. No office or formal alliance is requested or created. The encounter nevertheless places Valerius's writings and his reputation for treating visitors generously into another level of Roman political circulation.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 6,
+        "relations": 5,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R068-E005",
+      "round_number": 68,
+      "date": "23 August 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S WRITINGS CIRCULATE THROUGH POLITICAL AND SCHOLARLY CIRCLES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman scholars",
+        "copyists",
+        "political correspondents",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus"
+      ],
+      "body": "The distribution of Valerius's writings expands as additional copies pass among people he has encountered in Rome. Scholars receive them alongside political correspondents, and several recipients discuss passages concerning the relationship between virtue and reputation. Valerius repeatedly emphasizes that reputation should follow conduct rather than replace it, connecting the texts to the principles he has been demonstrating in his treatment of visitors. Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus hear more directly about the growing circulation because both already know Valerius and his recent scholarly activities. The writings begin acquiring a life beyond the meetings in which they were originally discussed.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 7,
+        "relations": 4,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R068-E006",
+      "round_number": 68,
+      "date": "27 August 58 BCE",
+      "event_category": "Direct",
+      "title": "CELER AND MARCELLUS HEAR VALERIUS EXPLAIN THE PRINCIPLE BEHIND HIS GENEROSITY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus"
+      ],
+      "body": "Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus each have further contact with Valerius during his renewed appearance in Rome's political centers. Their conversations include his formal education, his books, and his decision to give his own writings freely to people regardless of rank. Valerius explains that he is attempting to practice toward powerful and powerless people the same standards of courtesy and generosity he has been studying in the schools and scholarly circles. Neither meeting produces a formal office or political alliance. Both established Roman connections nevertheless gain a clearer picture of the intellectual and civic identity Valerius is constructing around his existing reputation.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 8,
+        "relations": 4,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R068-E007",
+      "round_number": 68,
+      "date": "31 August 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS CLOSES THE MONTH BY GIVING HIS WORK WITHOUT CONDITIONS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman citizens",
+        "Roman political circles",
+        "Roman scholars"
+      ],
+      "body": "Valerius continues receiving visitors through the final days of the month, maintaining the same practice whether the person before him is an ordinary citizen or a representative of Rome's highest political circles. Copies of his scholarly writings continue to be given freely, with each recipient invited to judge the arguments rather than accept them because of Valerius's reputation. The books increasingly become associated with the broader pattern of conduct surrounding their author: courtesy toward petitioners, generosity toward acquaintances, and an effort to place learning into wider circulation. By month's end, Valerius's Roman activities have connected his military and estate reputation to a deliberate public practice of scholarship, courtesy, and generosity.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 1,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 8,
+        "relations": 4,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "before": {
+      "soldiers": 394,
+      "population": 249,
+      "taxation": 3,
+      "economy": 100,
+      "agriculture": 90,
+      "infrastructure": 100,
+      "trade": 100,
+      "readiness": 100,
+      "morale": 100,
+      "supply": 33,
+      "organization": 100,
+      "stability": 100,
+      "legitimacy": 100,
+      "technology": 100,
+      "exhaustion": 100,
+      "intelligence": 1381,
+      "relations": 100,
+      "land_area_sq_miles": 7.6875,
+      "temporary_unavailable": 0
+    },
+    "change": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": -7,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 53,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0
+    },
+    "after": {
+      "soldiers": 394,
+      "population": 249,
+      "taxation": 3,
+      "economy": 100,
+      "agriculture": 90,
+      "infrastructure": 100,
+      "trade": 100,
+      "readiness": 100,
+      "morale": 100,
+      "supply": 26,
+      "organization": 100,
+      "stability": 100,
+      "legitimacy": 100,
+      "technology": 100,
+      "exhaustion": 100,
+      "intelligence": 1434,
+      "relations": 100,
+      "land_area_sq_miles": 7.6875,
+      "temporary_unavailable": 0
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 394,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 90,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 26,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1434,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.6875,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "financial_realization": {
+    "treasury": 1668,
+    "public": 3174,
+    "private": 601,
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0
+  },
+  "end_of_round_checks": {
+    "special_base_probability_percent": 12,
+    "special_roll": 57.4061,
+    "special_triggered": false,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      22.6147,
+      71.3902,
+      94.0271
+    ],
+    "magnitude_11_events": 0
+  },
+  "next_round_gate": "OPEN"
+}
