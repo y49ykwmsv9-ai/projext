@@ -196,3 +196,9 @@ The Current Total Ledger is distinct from the Round Delta Ledger:
 - **Current Total Ledger:** the complete post-round snapshot of every established metric, including metrics with zero change in the round.
 
 A round is not complete and `next_round_gate` must not open until the Current Total Ledger is present, every established metric is represented, units are correct, bounds are reconciled, and every value matches `state.json` after the round is persisted.
+
+## Canonical Round Pointer and Legacy Artifact Guard
+
+The canonical round is determined only by the synchronized values in `scenario.json.latest_round`, `scenario.json.latest_date`, `state.json.round`, `state.json.date`, and the matching `rounds/round-{latest_round}.json` record. Do not infer the current round from search-result ordering, filename ordering, or a legacy record's internal round number.
+
+`round-014.json` and `round-052.json` are historical records and are never eligible to become the current campaign pointer. Round 52 is also a legacy-schema record and must be interpreted through its later migration/reconciliation history. Historical records remain available for continuity and audit, but they cannot override the synchronized canonical pointer.
