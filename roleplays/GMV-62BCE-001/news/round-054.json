@@ -1,0 +1,191 @@
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 54,
+  "period": "1 June 59 BCE – 30 June 59 BCE",
+  "articles": [
+    {
+      "event": 1,
+      "event_id": "GMV-62BCE-001-R054-E001",
+      "round_number": 54,
+      "date": "4 June 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ESTABLISHES A FORMAL ESTATE REGISTER FOR THE NEW HOLDINGS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "surrounding landholders",
+        "former bandit estates"
+      ],
+      "body": "At the beginning of June, Gaius Maximus Valerius orders the provisional property records created in May to be reorganized into a formal estate register. Each known holding is entered under its local name, with fields, buildings, roads, storage sites and recognized neighboring claims recorded separately so that ownership is no longer dependent on the memories of individual witnesses. The register also distinguishes the land already measured from the former bandit properties whose aggregate acreage remains unresolved. Valerius directs his stewards to preserve the testimony of the surrounding landholders alongside the Roman records, giving the new estate administration both local and campaign documentation. The work creates a clearer administrative chain between the principal estate, the lake-port holding and the newly granted properties. By the end of the first week, the lands are being managed as a connected portfolio rather than as a collection of recently seized parcels.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 2,
+      "event_id": "GMV-62BCE-001-R054-E002",
+      "round_number": 54,
+      "date": "9 June 59 BCE",
+      "event_category": "Connected",
+      "title": "BOUNDARY MARKERS BEGIN TO TURN VALERIUS'S LAND GRANT INTO A MEASURABLE ESTATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman surveyors",
+        "local landholders",
+        "former bandit estates"
+      ],
+      "body": "Surveyors begin following the roads, field edges and old property lines identified during the May reconstruction, placing temporary markers where the surviving evidence is sufficiently clear. Local landholders accompany the teams through several disputed stretches, pointing out irrigation channels, ancient paths and field boundaries that survived the period of bandit control. The survey confirms several relationships between the former bandit properties and neighboring estates, but not enough of the aggregate tract has been measured to replace the unresolved acreage in Valerius's official land total. Rather than forcing uncertain measurements into the property ledger, the surveyors record the incomplete sections for a second pass. The process nevertheless gives the new ownership a much more concrete geographical framework. Valerius's administration now has a growing physical record of what must be protected, restored and eventually brought fully into production.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 3,
+      "event_id": "GMV-62BCE-001-R054-E003",
+      "round_number": 54,
+      "date": "14 June 59 BCE",
+      "event_category": "Direct",
+      "title": "THE LAKE-PORT HOLDING REOPENS ITS FIRST ORGANIZED TRADE MOVEMENT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "lake port holding",
+        "local merchants",
+        "estate stewards"
+      ],
+      "body": "Mid-month brings the first organized commercial movement through Valerius's lake-port holding since the campaign disrupted the district's normal traffic. Stewards clear the approach to the port, establish a simple receiving area for agricultural goods and begin recording the merchants and loads passing through it. Local traders bring grain, oil and other ordinary provisions toward the port, while estate representatives begin discussing how produce from the restored lands can be moved without relying on scattered private arrangements. The activity does not immediately increase the campaign's capped trade metric, but it materially expands the number of commercial relationships operating around Valerius's property. The port is once again functioning as a practical connection between the estates and the wider market rather than merely as an inherited holding. The reopening also gives Valerius a new administrative problem: protecting the trade route while keeping military demands from consuming the commerce he is trying to rebuild.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 4,
+      "event_id": "GMV-62BCE-001-R054-E004",
+      "round_number": 54,
+      "date": "19 June 59 BCE",
+      "event_category": "Surprise",
+      "title": "MERCHANTS ARRIVE WITH A TRADE ROUTE VALERIUS HAD NOT YET PLANNED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "lake-port merchants",
+        "local traders",
+        "surrounding landholders"
+      ],
+      "body": "An unexpected development reaches the lake port when a group of merchants arrives using a secondary route that had been largely ignored during the campaign. They report that several commercial households farther from the Roman-held roads are willing to resume regular exchange if the route can be kept secure and the port's receiving arrangements remain predictable. Their arrival brings new names into the commercial register and gives Valerius information about markets beyond the immediate estate district that was not available in May. The merchants are especially interested in agricultural output from the restored properties, creating an early connection between the work of rebuilding the estates and a potential outlet for their produce. Valerius's stewards begin recording the proposed route and the households attached to it rather than treating the visit as a single transaction. The surprise arrival therefore widens the practical scope of the trade program even though the established trade metric is already at its maximum.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 5,
+      "event_id": "GMV-62BCE-001-R054-E005",
+      "round_number": 54,
+      "date": "23 June 59 BCE",
+      "event_category": "Connected",
+      "title": "CELER RECEIVES A FORMAL ACCOUNT OF VALERIUS'S ESTATES AND COMMERCIAL PLANS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Roman political correspondence",
+        "lake-port holding"
+      ],
+      "body": "A formal account of the property register and the reopening of the lake-port trade reaches Quintus Caecilius Metellus Celer through Valerius's established political correspondence. The report describes the ownership settlement, the continuing survey, the restoration of the former bandit estates and the appearance of merchants willing to use the district's roads again. Celer's response is cautious and focused on the fact that Valerius is turning a military settlement into a documented landed and commercial administration rather than leaving the territory in an uncertain post-campaign condition. The correspondence does not confer a new legal title or Roman office, but it places the developing estate arrangement more clearly within the political awareness of Valerius's established Roman contacts. Valerius's clerks preserve the exchange alongside the property records, treating the letter as part of the growing documentary history of the holdings. The episode adds a political dimension to what had previously been chiefly a local administrative project.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 6,
+      "event_id": "GMV-62BCE-001-R054-E006",
+      "round_number": 54,
+      "date": "27 June 59 BCE",
+      "event_category": "Direct",
+      "title": "RESTORED FIELDS BEGIN SUPPLYING THE FIRST REGULAR COMMERCIAL LOADS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate workers",
+        "local smallholders",
+        "lake-port merchants"
+      ],
+      "body": "By the final week of June, several of the fields Valerius began restoring in May produce enough usable agricultural goods to form the first regular loads intended for commercial exchange. Estate workers sort the output before it leaves the properties, while local smallholders help identify which stores can be sold without compromising the food needed for continued restoration. The first consignments are modest, but their movement marks a transition from emergency reclamation toward an estate economy capable of generating a recurring surplus. The lake-port merchants who arrived earlier in the month take an interest in the loads and begin discussing repeat arrangements with Valerius's stewards. The work also places additional demands on transport animals, storage and guards, so the Roman force remains tied to protecting routes rather than being entirely free for other operations. The agricultural recovery therefore begins feeding directly into the commercial network Valerius has been trying to formalize.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 7,
+      "event_id": "GMV-62BCE-001-R054-E007",
+      "round_number": 54,
+      "date": "30 June 59 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S ESTATE AND TRADE RECORDS ARE CONSOLIDATED INTO A SINGLE ADMINISTRATIVE SYSTEM",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "lake-port merchants",
+        "Roman officers",
+        "Marcus Claudius Marcellus"
+      ],
+      "body": "June closes with Valerius's clerks consolidating the property, survey and commercial records into a single working archive. The archive links the measured 4.25 square miles of established personal holdings with the separately recorded former bandit lands whose ownership is confirmed but whose exact area remains pending survey. Merchant names, routes and initial cargo records are added beside the estate accounts, creating a documentary connection between land production and trade that did not exist at the beginning of the campaign. Marcus Claudius Marcellus receives notice that the district's military records are increasingly being used alongside civilian property and commercial records, giving him a clearer picture of how Valerius's position is developing. The archive does not by itself change the formal land-area figure, but it sharply reduces the uncertainty surrounding what is owned, what is being restored and what remains to be measured. Valerius ends the month with his estates more formally administered, the first commercial network around them expanding, and the unresolved survey still standing as the next major step in formalizing the full landholding.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    }
+  ]
+}
