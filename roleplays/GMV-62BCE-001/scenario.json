@@ -121,7 +121,8 @@
       "initial_category": "Surprise",
       "final_category": "Ultimate",
       "gate_result": "qualified"
-    }
+    },
+    "post_commit_verification": "PASS"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -326,5 +327,5 @@
     "classification_note": "Event category describes how an event enters the simulation at generation time; final classification is locked only after the mandatory Ultimate Reclassification Gate. Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   },
-  "next_round_gate": "PENDING"
+  "next_round_gate": "OPEN"
 }
