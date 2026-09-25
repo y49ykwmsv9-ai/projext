@@ -1,0 +1,474 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round_number": 58,
+  "period": "1 October 59 BCE – 31 October 59 BCE",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R058-E001",
+      "round_number": 58,
+      "date": "4 October 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ESTABLISHES THREE FIXED COLLECTION CENTERS FOR THE ESTATES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "surrounding landholders",
+        "lake-port merchants"
+      ],
+      "body": "Valerius orders the collection of estate income and taxes reorganized around three fixed receiving points rather than scattered collections at individual holdings. The lake-port office will receive commercial and agricultural proceeds moving by water, the central estate office will handle rents and ordinary estate payments, and the fortified store-yard will serve the more remote holdings and nearby landowners. Each center receives a written schedule identifying the days on which collections are due and the amounts expected from each class of holding. Stewards announce the schedule in advance so tenants, merchants, and landowners can prepare payments without repeated visits or uncertainty. The new arrangement turns collection into a predictable administrative routine while reducing unnecessary financial movement through the countryside.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": -1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R058-E002",
+      "round_number": 58,
+      "date": "9 October 59 BCE",
+      "event_category": "Connected",
+      "title": "THE FIRST SCHEDULED ESTATE RECEIPTS ARRIVE AT THE NEW COLLECTION CENTERS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "smallholders",
+        "lake-port merchants"
+      ],
+      "body": "The first scheduled collection cycle brings agricultural payments, rents, and commercial receipts into the designated centers according to the new timetable. Stewards check each delivery against the written schedules before consolidating the proceeds for estate operations. The lake-port collection is handled alongside ordinary cargo traffic, while the central office receives payments from nearby holdings without requiring their owners to travel farther than necessary. A total of 420 denarii in gross estate receipts is recorded, with 90 denarii assigned to operating and collection costs. After the established 10 percent private transfer, 297 denarii remain in the public estate account and 33 denarii are transferred to Valerius's private account.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      },
+      "financials": {
+        "gross_receipts_denarii": 420,
+        "operating_costs_denarii": 90,
+        "net_public_profit_denarii": 330,
+        "private_transfer_denarii": 33,
+        "public_account_delta_denarii": 297,
+        "private_account_delta_denarii": 33,
+        "currency_flow_denarii": 420
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R058-E003",
+      "round_number": 58,
+      "date": "14 October 59 BCE",
+      "event_category": "Direct",
+      "title": "TAX PAYMENTS ARE COLLECTED ON THE SAME CALENDAR WITHOUT DISRUPTING ESTATE WORK",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "surrounding landholders",
+        "Roman tax collectors"
+      ],
+      "body": "Tax payments begin arriving on the same calendar used for estate collections, allowing the two obligations to be settled during a single predictable visit. Stewards separate tax receipts from estate operating funds as soon as each payment is recorded. The first cycle produces 18 denarii in collected taxes, transferred to the public treasury rather than mixed with Valerius's estate capital. Landowners report that knowing the exact collection days makes it easier to plan labor, sales, and transport around their obligations. The regularity reduces repeated collections and unexpected demands on households returning to ordinary agricultural work.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": -1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      },
+      "financials": {
+        "tax_collected_denarii": 18,
+        "treasury_delta_denarii": 18,
+        "currency_flow_denarii": 18
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R058-E004",
+      "round_number": 58,
+      "date": "19 October 59 BCE",
+      "event_category": "Surprise",
+      "title": "LANDOWNERS BEGIN ARRIVING WITH PAYMENTS BEFORE THE OFFICIAL DEADLINE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "surrounding landholders",
+        "estate stewards",
+        "smallholders"
+      ],
+      "body": "Several landowners begin bringing their scheduled payments to the receiving centers early, preferring to settle their obligations before the busiest days of the agricultural calendar. The unexpected change gives the stewards a larger advance picture of the month's receipts than anticipated. Valerius's administration accepts the early payments against the existing schedule and records the agreed due dates. Smallholders nearby begin using the same arrangement when their payments are ready, reducing congestion on formal collection days. The early compliance gives the new system flexibility without changing the established amounts or tax rate.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R058-E005",
+      "round_number": 58,
+      "date": "23 October 59 BCE",
+      "event_category": "Connected",
+      "title": "MARCUS CLAUDIUS MARCELLUS RECEIVES NOTICE OF VALERIUS'S NEW COLLECTION SYSTEM",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Roman correspondence",
+        "estate stewards"
+      ],
+      "body": "A formal report of the new collection arrangement is sent through Valerius's established correspondence to Marcus Claudius Marcellus. The report describes the three receiving centers, fixed collection calendar, and separation between estate receipts and taxes. It emphasizes that the system reduces unnecessary movement through the countryside while keeping accounts regular enough to be checked. Marcellus's office acknowledges receipt and adds the arrangement to its record of Valerius's developing administrative affairs. No new title or authority is granted, but the correspondence keeps the increasingly organized estates visible within the Roman network.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R058-E006",
+      "round_number": 58,
+      "date": "27 October 59 BCE",
+      "event_category": "Direct",
+      "title": "FIXED COLLECTION DAYS ALLOW MOST ESTATE WORKERS TO AVOID FINANCIAL ERRANDS DURING FIELD WORK",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "agricultural workers",
+        "smallholders"
+      ],
+      "body": "As the month passes, the practical effect of the fixed schedule becomes apparent in the fields. Workers who previously had to leave agricultural duties to carry payments or arrange collections can now coordinate those errands with predetermined receiving days. Stewards also spend less time traveling between individual holdings because payments are brought to the same small number of centers. Several landowners use the saved time to finish seasonal field work that had been competing with administrative obligations. The collection system therefore begins functioning as a way of keeping productive labor on the land as well as an accounting reform.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": -1,
+        "morale": 0,
+        "readiness": 1,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R058-E007",
+      "round_number": 58,
+      "date": "31 October 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS'S MONTHLY REVIEW CONFIRMS THE COLLECTION SYSTEM IS READY FOR REPEATED CYCLES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "surrounding landholders",
+        "lake-port merchants"
+      ],
+      "body": "At the end of October, Valerius reviews the first complete collection cycle against the schedules issued at the beginning of the month. The three receiving centers have produced a consistent record of what was due, what arrived early, and what was transferred onward. Estate income is now separated from tax receipts before either enters its final account, while the same calendar can be reused for the next cycle. The arrangement gives Valerius a clearer view of expected cash flow without requiring every landowner to maintain direct contact with the central estate administration. The first month closes with the collection system established as a repeatable routine rather than a temporary response to the estates' recent expansion.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    }
+  ],
+  "round_ledger": {
+    "population": {
+      "before": 249,
+      "delta": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "currency": {
+      "before": -947,
+      "delta": 438,
+      "after": -509,
+      "unit": "denarii"
+    },
+    "soldiers": {
+      "before": 398,
+      "delta": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "taxation": {
+      "before": 3,
+      "delta": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 84,
+      "delta": 1,
+      "after": 85,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 98,
+      "delta": 1,
+      "after": 99,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 50,
+      "delta": -1,
+      "after": 49,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 85,
+      "delta": 0,
+      "after": 85,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 72,
+      "delta": -3,
+      "after": 69,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1075,
+      "delta": 14,
+      "after": 1089,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.0625,
+      "delta": 0,
+      "after": 7.0625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "delta": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "currency": {
+      "value": -509,
+      "unit": "denarii",
+      "bound": "unbounded exact quantity"
+    },
+    "soldiers": {
+      "value": 398,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0–100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "agriculture": {
+      "value": 85,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "readiness": {
+      "value": 99,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "supply": {
+      "value": 49,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "technology": {
+      "value": 85,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "exhaustion": {
+      "value": 69,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "intelligence": {
+      "value": 1089,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.0625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "financials": {
+    "gross_receipts_denarii": 420,
+    "operating_costs_denarii": 90,
+    "net_public_profit_denarii": 330,
+    "private_transfer_denarii": 33,
+    "tax_collected_denarii": 18,
+    "public_account_before": 2803,
+    "public_account_after": 3100,
+    "private_account_before": 550,
+    "private_account_after": 583,
+    "treasury_before": 1650,
+    "treasury_after": 1668,
+    "currency_flow_denarii": 438
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "base_probability_percent": 12,
+      "random_roll": 64.3187,
+      "selected": false,
+      "event_id": null
+    },
+    "magnitude_11": {
+      "chance_percent": 4.7283,
+      "checks": [
+        76.1184,
+        28.4417,
+        93.0072
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v1"
+    },
+    "current_total_ledger": {
+      "status": "verified",
+      "all_established_metrics_present": true,
+      "matches_state_json": true
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false
+    },
+    "metric_schema_ref": "roleplay-fixed-metrics-v1"
+  },
+  "special_event_policy_ref": "gmv-special-event-v2"
+}
