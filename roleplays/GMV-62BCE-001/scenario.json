@@ -83,7 +83,20 @@
     },
     "canonical_round_74": "verified",
     "canonical_round_75": "verified",
-    "canonical_round_76": "verified"
+    "canonical_round_76": "verified",
+    "metric_reconciliation": {
+      "inherited_trade_101_to_100": true,
+      "inherited_relations_105_to_100": true,
+      "separate_from_event_effects": true
+    },
+    "financial_reconciliation": {
+      "round_78_gross_receipts": 36,
+      "round_78_operating_costs": 18,
+      "round_78_net_public_profit": 18,
+      "round_78_private_transfer": 1.8,
+      "round_78_background_interest_realized": 0,
+      "unsupported_interest_not_fabricated": true
+    }
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
