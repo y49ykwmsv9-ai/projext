@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 59,
-  "latest_date": "-0059-11-30",
+  "latest_round": 60,
+  "latest_date": "-0059-12-31",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 37.1842,
+    "current_round_roll": 58.1934,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "November 59 BCE: Valerius surveys an additional 0.50 square miles (320 acres), establishes its boundaries through field measurements and witnesses, begins returning it to full production, and files for formal recognition of the expanded estate through established Roman connections. Recognition remains pending.",
+    "campaign_development": "December 59 BCE: Valerius advances his formal-recognition petition through a documentary record of military service, estate administration, land surveys, collection systems, and economic management. Celer and Marcellus circulate the record; further scrutiny is requested. Recognition remains pending.",
     "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice. Round 59 surveys and incorporates an additional 0.50 sq mi (320 acres) after field measurements and witnessed boundary confirmation, bringing measured personal holdings to 7.5625 sq mi (4,840 acres)."
   },
   "end_of_round_checks": {
@@ -41,11 +41,12 @@
     "current_total_ledger": {
       "required": true,
       "schema": "roleplay-fixed-metrics-v2",
-      "status": "verified_pending_commit"
+      "status": "verified"
     },
     "canonical_round_57": "verified",
     "canonical_round_58": "verified_pending_commit",
-    "canonical_round_59": "verified"
+    "canonical_round_59": "verified",
+    "canonical_round_60": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
