@@ -1,0 +1,573 @@
+{
+  "round_number": 62,
+  "date_start": "-0058-02-01",
+  "date_end": "-0058-02-28",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R062-E001",
+      "round_number": 62,
+      "date": "4 February 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS SENDS HIS SCOUTS BACK ALONG THE RAIDERS' ESCAPE ROUTES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate scouts",
+        "unidentified raiders",
+        "regional authority with consular authority"
+      ],
+      "body": "Valerius orders his scouts to retrace the raiders' movements from the estate rather than sending the main force blindly after them. They work outward from the places where the attackers were last seen, comparing tracks, abandoned equipment, hoof marks, and reports from nearby households. They remain far enough away that the investigation does not become a premature engagement. Several tracks converge on the same winter road, showing that the attackers did not disperse at random. The regional authority's preserved witness statements are compared with the field observations, separating what civilians actually saw from speculation about the fugitives. By the end of the search, the scouts have a coherent route to follow and a clearer picture of the raiders' direction.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R062-E002",
+      "round_number": 62,
+      "date": "8 February 58 BCE",
+      "event_category": "Direct",
+      "title": "SCOUTS RECOVER A MARKED PAYMENT RECORD FROM THE RAIDERS' TRAIL",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate scouts",
+        "unidentified raiders",
+        "payment record"
+      ],
+      "body": "The scouts find a discarded bundle near a secondary track where the fleeing raiders had stopped to reorganize. Inside is a small payment record and a stamped piece of wax associated with the men who supplied the raid. The document does not name a Roman political faction, public office, or military command; instead it records a private payment and instructions concerning the estate. The wording refers to Valerius's newly surveyed lands and orders the attackers to create fear around the property without provoking a confrontation with a larger regional force. The discovery provides the first documentary evidence that the assault was commissioned rather than entirely spontaneous. The scouts preserve the record and continue following the route.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 6,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R062-E003",
+      "round_number": 62,
+      "date": "12 February 58 BCE",
+      "event_category": "Surprise",
+      "title": "A PRIVATE LAND BROKER IS IDENTIFIED AS THE MAN WHO COMMISSIONED THE RAID",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Aulus Vettius",
+        "estate scouts",
+        "unidentified raiders",
+        "former land claimants"
+      ],
+      "body": "Comparison of the payment mark with records held by local merchants identifies the contracting intermediary as Aulus Vettius, a private land broker who has represented several former claimants to property around the restored estates. Vettius is not identified as an officer of a Roman political faction or as an agent of a public command. The recovered instructions connect his payment directly to the men who attacked Valerius's estate and indicate that the purpose was to frighten Valerius and disrupt his control of the recently measured lands. The discovery changes the investigation from a search for an unknown sponsor into a specific inquiry involving a private intermediary and the interests he represented. Valerius's scouts continue tracking the raiders rather than immediately confronting Vettius. The evidence is sealed for the regional authority, which now has a named individual to question.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R062-E004",
+      "round_number": 62,
+      "date": "16 February 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ORDERS THE FLEEING RAIDERS HERDED AWAY FROM CIVILIAN ROADS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate scouts",
+        "estate patrols",
+        "fleeing raiders",
+        "nearby civilians"
+      ],
+      "body": "Valerius orders the scouts to keep the fleeing groups under observation and direct them away from villages, farmsteads, and the main civilian road. Patrol commanders are positioned farther ahead so that the raiders encounter organized resistance only after being steered into open ground. The scouts do not close for a fight; instead, they repeatedly alter the pressure behind the fugitives, forcing their route toward the patrol positions. Civilians along the roads are warned to remain clear while the pursuit passes beyond their settlements. The maneuver keeps the pursuit moving without turning nearby households into the battlefield. By nightfall, the largest group has been driven toward a prepared patrol line.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R062-E005",
+      "round_number": 62,
+      "date": "20 February 58 BCE",
+      "event_category": "Connected",
+      "title": "THE FIRST FLEEING GROUP IS DRIVEN INTO VALERIUS'S ORGANIZED PATROLS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate patrols",
+        "organized forces",
+        "captured raiders"
+      ],
+      "body": "The first major group of fleeing attackers reaches the ground selected by Valerius's patrol commanders and finds the route ahead closed. The men attempt to break toward a smaller track, but scouts cut off the turn and push them back toward the waiting patrols. Organized forces surround the group and take the surviving raiders into custody. The capture occurs away from civilian settlements that had been placed off the pursuit route, preventing the chase from spilling into inhabited areas. Patrol officers recover weapons, travel gear, and additional scraps of correspondence from the prisoners. The captured men are separated for questioning so their statements can be compared rather than treated as one account.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R062-E006",
+      "round_number": 62,
+      "date": "25 February 58 BCE",
+      "event_category": "Connected",
+      "title": "CAPTURED RAIDERS DESCRIBE HOW AULUS VETTIUS ARRANGED THE ATTACK",
+      "mentioned_entities": [
+        "Aulus Vettius",
+        "captured raiders",
+        "Gaius Maximus Valerius",
+        "regional authority with consular authority"
+      ],
+      "body": "Separate questioning of the captured raiders produces a substantially consistent account of how the operation was arranged. The men describe receiving payment through Aulus Vettius and being told that the attack was intended to unsettle Valerius's hold over the recently restored properties rather than challenge a Roman military command. Several prisoners independently identify the same meeting place and route by which payment reached the raiding party. Their statements also explain why the attackers had been given instructions concerning civilian roads: the contract called for intimidation without drawing the attention of the region's senior authority. The evidence is passed to the regional authority, who can compare the prisoners' accounts with the payment record and January testimony. The investigation now has both a named intermediary and a coherent account of the operation's purpose.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 7,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R062-E007",
+      "round_number": 62,
+      "date": "28 February 58 BCE",
+      "event_category": "Direct",
+      "title": "THE REMAINING KNOWN RAIDERS ARE CUT OFF BEFORE REACHING THE CIVILIAN ROAD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate scouts",
+        "estate patrols",
+        "remaining raiders",
+        "nearby civilians"
+      ],
+      "body": "The final known group of fleeing raiders is located several miles from the estate after attempting to abandon the main escape route. Valerius's scouts maintain their distance and use the surrounding roads to keep the men moving toward organized patrols rather than allowing them to scatter toward inhabited ground. When the group reaches the prepared position, patrols close the remaining exits and take the men into custody. No fighting reaches the civilian road, and households warned during the pursuit remain outside the immediate operation. Captured equipment is added to the material recovered from the earlier group, giving the regional investigation a larger body of physical evidence. With the known fleeing groups accounted for, Valerius's forces preserve the tracks and records for further examination.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 398,
+      "change": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 48,
+      "change": -2,
+      "after": 46,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 79,
+      "change": 6,
+      "after": 85,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1154,
+      "change": 36,
+      "after": 1190,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.5625,
+      "change": 0,
+      "after": 7.5625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "financial_summary": {
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "treasury_change_denarii": 0,
+    "public_account_change_denarii": 0,
+    "private_account_change_denarii": 0
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 398,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 46,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 85,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1190,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.5625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_base_probability_percent": 12,
+    "special_event_roll": 91.136,
+    "special_event_success": false,
+    "special_event_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      18.0395,
+      8.967,
+      56.0987
+    ],
+    "magnitude_11_events": 0,
+    "next_round_gate": "OPEN"
+  }
+}
