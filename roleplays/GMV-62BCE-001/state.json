@@ -12,7 +12,6 @@
   },
   "metrics": {
     "population": 249,
-    "currency": -509,
     "soldiers": 398,
     "taxation": 3,
     "economy": 100,
@@ -63,7 +62,7 @@
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
-  "latest_schema": "gmv-round-v2",
+  "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "canonical_round_49": "verified",
     "commit_check": "verified",
@@ -90,7 +89,7 @@
     },
     "metric_bounds_reconciliation": {
       "status": "verified",
-      "schema": "roleplay-fixed-metrics-v1",
+      "schema": "roleplay-fixed-metrics-v2",
       "relations": 100,
       "organization": 100
     },
@@ -257,14 +256,14 @@
     "rule": "Do not make every event about the same subject. Prefer distinct news dimensions supported by current state: military operations, intelligence, logistics, political relationships, economic/property activity, social/local developments, personal developments, geography, and reactions. Variety must arise from simulation context and must not be fabricated solely to fill slots."
   },
   "financial_policy": {
-    "schema_version": "gmv-financial-realization-v2",
+    "schema_version": "gmv-financial-realization-v3",
     "rule": "Economic activity need not explicitly mention income. Realized financial effects are intermittent consequences recorded in the ledger when the event provides a concrete basis.",
     "unit": "denarii",
     "account_routing": {
       "treasury": "state, military, public-command, or explicitly public/state funds",
       "public_account": "estate and productive/commercial operating capital",
       "private_account": "Valerius private wealth and established private transfers",
-      "currency": "fixed metric ledger for exact-denarii financial flow; route separately when destination is known"
+      "financial_realization": "event-level financial effects recorded inside ai_ledger.financial_realization"
     },
     "double_counting_rule": "Transfers between accounts are not new income; gross receipts, costs, net public profit, private transfers, principal, and realized returns remain distinct.",
     "historical_reconciliation": "Documented past financial blocks remain canonical. Missing historical income is not fabricated. Legacy currency_units are interpreted as denarii while source uncertainty is preserved.",
