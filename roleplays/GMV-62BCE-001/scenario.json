@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 80,
-  "latest_date": "-0057-05-05",
+  "latest_round": 81,
+  "latest_date": "-0057-05-12",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 71.4421,
+    "current_round_roll": 97.94349801082213,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "5 May 57 BCE: Spring estate administration continues while the extraordinary Roman-authorized expedition has been formally reconstructed as an Ultimate event and its account is preserved for future correspondence.",
+    "campaign_development": "12 May 57 BCE: The newly authorized Roman expedition has crossed its first difficult pass and remains active in unfamiliar country while estate administration, agricultural management, and Roman correspondence continue independently.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "end_of_round_checks": {
@@ -42,9 +42,7 @@
       "required": true,
       "schema": "roleplay-fixed-metrics-v2",
       "status": "verified",
-      "matches_round_066": true,
-      "matches_round_067": true,
-      "matches_round_068": true
+      "matches_round_081": true
     },
     "canonical_round_57": "verified",
     "canonical_round_58": "verified_pending_commit",
@@ -63,13 +61,13 @@
     "canonical_round_72": "verified",
     "canonical_round_73": "verified",
     "special_base_probability_percent": 12,
-    "special_roll": 71.4421,
+    "special_roll": 97.94349801082213,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      18.231,
-      44.115,
-      82.904
+      18.795253981693005,
+      59.987217162702,
+      5.700937864881639
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -80,7 +78,9 @@
       "recurring_character_continuity": "PASS",
       "event_variety": "PASS",
       "ultimate_event_contract": "PASS",
-      "current_total_ledger_complete": "PASS"
+      "current_total_ledger_complete": "PASS",
+      "semantic_state_consistency": "PASS",
+      "local_random_checks": "PASS"
     },
     "canonical_round_74": "verified",
     "canonical_round_75": "verified",
@@ -97,7 +97,8 @@
       "round_78_private_transfer": 1.8,
       "round_78_background_interest_realized": 0,
       "unsupported_interest_not_fabricated": true
-    }
+    },
+    "canonical_round_81": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
