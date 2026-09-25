@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 75,
-  "latest_date": "-0057-03-31",
+  "latest_round": 76,
+  "latest_date": "-0057-04-07",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 32.4059,
+    "current_round_roll": 71.2896,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "March 57 BCE: Valerius continues political correspondence, purchases the disputed boundary tract rather than prolonging the local dispute, begins marking the newly acquired land for spring use, and continues the raid inquiry through documentary exchanges.",
+    "campaign_development": "7 April 57 BCE: Valerius renews the household's established inspection and conduct protocols, instructing his men to uphold them while treating local residents respectfully. He sends the final completely detailed, chronologically labeled, and confirmed dossier concerning the raid inquiry through the established Roman correspondence, and receipt is acknowledged.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "end_of_round_checks": {
@@ -63,13 +63,13 @@
     "canonical_round_72": "verified",
     "canonical_round_73": "verified",
     "special_base_probability_percent": 12,
-    "special_roll": 32.4059,
+    "special_roll": 71.2896,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      15.7757,
-      87.0693,
-      70.7704
+      73.8808,
+      10.1285,
+      89.9898
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -82,7 +82,8 @@
       "current_total_ledger_complete": "PASS"
     },
     "canonical_round_74": "verified",
-    "canonical_round_75": "verified"
+    "canonical_round_75": "verified",
+    "canonical_round_76": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
