@@ -1,0 +1,568 @@
+{
+  "round_number": 61,
+  "date_start": "-0058-01-01",
+  "date_end": "-0058-01-31",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R061-E001",
+      "round_number": 61,
+      "date": "4 January 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ORDERS THE SILVER MINES INTO A MORE DELIBERATE EXTRACTION AND REFINING SYSTEM",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius silver mines",
+        "estate refiners"
+      ],
+      "body": "Gaius Maximus Valerius orders the silver workings attached to his estates to be reorganized around more deliberate extraction and refining practices. Crews are instructed to separate ore more carefully, improve the handling of material before smelting, and keep the higher-grade output apart from ordinary loads. The change requires new work routines and closer supervision rather than simply sending more men underground. Estate supervisors begin recording which workings produce the best material and which stages of refining are responsible for losses. The first inspections suggest that better handling, rather than a dramatic expansion of the mines themselves, is the immediate source of improvement. Valerius also orders the refined material to remain under controlled estate custody until secure transport arrangements are completed.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 1,
+        "exhaustion": 1,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R061-E002",
+      "round_number": 61,
+      "date": "9 January 58 BCE",
+      "event_category": "Direct",
+      "title": "NEW ESTATE ROADS ARE CUT TOWARD THE MAIN HOLDING FOR SECURE SILVER TRANSPORT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate road crews",
+        "silver mines",
+        "principal estate"
+      ],
+      "body": "Road crews begin opening and improving several routes between the silver workings and the main estate. The work concentrates on the sections most vulnerable to winter damage and on approaches where loaded carts previously had to slow or spread out across rough ground. Valerius orders the routes built for controlled movement rather than spectacle, with passing points and guarded approaches at the more exposed sections. The new road work gives the estate a continuous protected line between extraction, refining, storage, and the main administrative holding. It also creates a more reliable route for ordinary estate traffic when the silver carts are not moving. Work continues under winter conditions, with materials and labor drawn from the estate's existing organization.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R061-E003",
+      "round_number": 61,
+      "date": "14 January 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS EXPANDS THE ESTATE FOUNDRIES TO PRODUCE HIGHER-QUALITY MILITARY SUPPLIES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate foundries",
+        "Valerius's men"
+      ],
+      "body": "The estate foundries begin a new production cycle under instructions from Valerius to improve the quality and consistency of equipment supplied to his men. Smiths and supervisors alter the preparation of metal, inspect finished pieces more closely, and reject work that fails to meet the new standards. The effort is not limited to weapons: fittings, tools, fasteners, and other field necessities are brought under the same inspection process. Several experienced workers are given responsibility for teaching the revised methods to younger smiths. The first completed batches take longer to produce, but the finished pieces are more uniform and easier for the quartermasters to sort and issue. Valerius orders the better material to be incorporated into regular supply rather than reserved only for his personal guard.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 2,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 2,
+        "exhaustion": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R061-E004",
+      "round_number": 61,
+      "date": "19 January 58 BCE",
+      "event_category": "Connected",
+      "title": "THE FIRST REFINED SILVER MOVES OVER THE NEW ROUTES UNDER ESTATE SECURITY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate silver transport",
+        "estate patrols",
+        "silver mines"
+      ],
+      "body": "The first refined silver produced under the new mine procedures is moved toward the principal estate using the newly improved routes. Valerius's existing patrol arrangements are placed along the exposed portions of the journey, while the carts travel in a controlled sequence rather than as scattered loads. The movement reaches its destination without the loss of cargo, and the estate's stores record the refined material separately from ordinary metal supplies. The successful transfer gives the new road system its first practical test under the exact conditions for which it was built. Estate officials subsequently adjust the timing of later movements to avoid the most difficult winter stretches. The mines, foundries, roads, and security system are therefore beginning to function as a single chain rather than as separate improvements.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R061-E005",
+      "round_number": 61,
+      "date": "24 January 58 BCE",
+      "event_category": "Connected",
+      "title": "FOUNDRY INSPECTIONS CHANGE WHAT VALERIUS'S MEN RECEIVE IN THE FIELD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate foundries",
+        "Valerius's men",
+        "quartermasters"
+      ],
+      "body": "Quartermasters begin issuing equipment from the revised foundry batches to units serving on regular duties. The inspection marks make it possible to distinguish the newly finished pieces from older stores, and several men report that replacement tools and fittings are arriving in more consistent condition than before. Valerius orders the improved supplies distributed across the force instead of allowing the highest-quality production to accumulate in a single reserve. The change is visible in the ordinary work of the units rather than in a ceremonial issue of equipment. Foundry supervisors meanwhile continue testing different metal treatments before committing the methods to every workshop. The estate's production system is consequently becoming more technically controlled at the same time that it is becoming more useful to the men in the field.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R061-E006",
+      "round_number": 61,
+      "date": "27 January 58 BCE",
+      "event_category": "Surprise",
+      "title": "A ROGUE RAID STRIKES THE PERSONAL ESTATE — AND VALERIUS MEETS THE ATTACKERS ALONE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "unidentified raiders",
+        "nearby civilians",
+        "regional authority with consular authority"
+      ],
+      "body": "A group of unidentified attackers reaches the personal estate before its identity or political affiliation can be established, and the first alarm spreads through nearby civilian areas as people attempt to get clear of the fighting. Valerius personally intercepts the attackers before the estate guard can fully assemble, confronting the raiders at close quarters while civilians watch from roads, yards, and adjoining properties. The fight is brief and violent, and the attackers are driven down before the organized force has fully understood what is happening. Among the people caught in the assault is the man who holds consular authority over the surrounding region, an office carrying regional authority but distinct from the Roman consulship; Valerius reaches him during the attack and brings him out alive. Numerous nearby civilians witness the encounter, while the surviving attackers withdraw without identifying any patron or political organization behind the raid. The episode leaves the estate with an unexplained attack, a living regional authority as a direct witness, and no established answer yet as to who ordered it.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 3,
+        "intelligence": 8,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R061-E007",
+      "round_number": 61,
+      "date": "31 January 58 BCE",
+      "event_category": "Connected",
+      "title": "THE REGION'S SENIOR AUTHORITY SURVIVES THE RAID AND DEMANDS AN ACCOUNT OF WHO SENT THE ATTACKERS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "regional authority with consular authority",
+        "unidentified raiders",
+        "nearby civilians"
+      ],
+      "body": "The regional authority with consular authority over the area survives the raid and begins collecting statements from the civilians and estate personnel who witnessed the attack. The official's account confirms that Valerius intervened before the estate's organized force could reach the immediate scene, while several civilian witnesses independently describe the same sequence of events. No witness can identify the attackers as members of a known political faction, and no surviving evidence yet names a sponsor. The authority therefore orders the surviving evidence, witness accounts, and recovered material to be preserved rather than assigning responsibility prematurely. Valerius's estate is asked to provide its patrol records and any information concerning unusual movements around the property before the attack. The investigation begins with an unresolved question: whether the raid was an isolated criminal action or part of a larger operation remains unknown.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 398,
+      "change": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 45,
+      "change": 3,
+      "after": 48,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 85,
+      "change": 3,
+      "after": 88,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 72,
+      "change": 7,
+      "after": 79,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1133,
+      "change": 21,
+      "after": 1154,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.5625,
+      "change": 0,
+      "after": 7.5625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "financial_summary": {
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "treasury_change_denarii": 0,
+    "public_account_change_denarii": 0,
+    "private_account_change_denarii": 0
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 398,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 48,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 79,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1154,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.5625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_base_probability_percent": 12,
+    "special_event_roll": 83.6417,
+    "special_event_success": false,
+    "special_event_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      64.2081,
+      18.7744,
+      91.5326
+    ],
+    "magnitude_11_events": 0,
+    "next_round_gate": "OPEN"
+  }
+}
