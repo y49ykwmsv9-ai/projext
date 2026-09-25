@@ -1,0 +1,444 @@
+{
+  "schema_version": "gmv-round-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round_number": 57,
+  "period": "1 September 59 BCE – 30 September 59 BCE",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "id": "GMV-62BCE-001-R057-E001",
+      "date": "4 September 59 BCE",
+      "cat": "Direct",
+      "title": "VALERIUS SETS THE NEW ESTATES TO A REGULAR WORKING RHYTHM",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "local smallholders",
+        "former bandit-held lands"
+      ],
+      "body": "Valerius orders the newly measured estates divided into regular work districts so that planting, harvesting, repairs and transport can proceed without competing for the same labor at the same time. Stewards assign fields, pasture, woodland, water access and road maintenance to separate daily schedules. Smallholders who had been helping with the restoration are given clearer points of contact rather than being repeatedly summoned for overlapping tasks. The arrangement lets the estates move from emergency restoration toward ordinary productive administration. Valerius keeps the fortified holding under a separate security schedule so its guards do not consume labor needed on the agricultural ground.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "id": "GMV-62BCE-001-R057-E002",
+      "date": "9 September 59 BCE",
+      "cat": "Connected",
+      "title": "VALERIUS SENDS MOST OF HIS MEN BACK TO REGULAR DUTIES AS PATROLS REMAIN IN THE NEW TERRITORIES",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "Roman men under Valerius",
+        "estate patrols",
+        "personal guard"
+      ],
+      "body": "With the new lands no longer requiring a constant concentration of troops, Valerius orders most of his men back to their regular duties. A smaller patrol presence remains on the newly incorporated estates, while Valerius's personal guard continues to accompany him and maintain a visible presence around the most sensitive holdings. The change leaves the roads and fields visibly watched without making the entire estate operation feel like a military camp. Workers and landowners begin seeing the patrols as a standing safeguard rather than an emergency occupation force. The redistribution also frees men for the duties they had been unable to resume during the earlier campaign work.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 1,
+        "exhaustion": -1,
+        "morale": 0,
+        "readiness": 1,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "id": "GMV-62BCE-001-R057-E003",
+      "date": "14 September 59 BCE",
+      "cat": "Direct",
+      "title": "NEIGHBORING LANDOWNERS RETURN TO THEIR OWN FIELDS AS THE NEW PATROLS TAKE OVER ROUTINE SECURITY",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "surrounding landholders",
+        "estate patrols",
+        "local smallholders"
+      ],
+      "body": "Several surrounding landowners begin reducing the men they had kept near their properties after the campaign, relying instead on the patrols stationed through Valerius's new territory. Carts, livestock and workers can again move between holdings without each household maintaining its own constant watch. The arrangement is especially noticeable around the roads linking the new estates to neighboring fields and the lake-port route. Landowners continue to report suspicious activity when it appears, but their daily labor is no longer interrupted by the same level of private security duty. The practical effect is a quieter countryside in which more hands can return to cultivation and repairs.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "id": "GMV-62BCE-001-R057-E004",
+      "date": "18 September 59 BCE",
+      "cat": "Surprise",
+      "title": "FIELDS LEFT HALF-WORKED DURING THE CAMPAIGN BEGIN TO RECEIVE FULL LABOR CREWS AGAIN",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "agricultural workers",
+        "smallholders",
+        "estate stewards"
+      ],
+      "body": "The return of laborers to their ordinary duties produces a visible change in several fields that had remained only partly worked during the campaign. Crews clear neglected drainage channels, finish boundary repairs and bring livestock back onto pasture that had been used cautiously during the unsettled months. Smallholders working beside Valerius's estate hands report that fewer workers are being pulled away for guard duty. The first completed work does not transform the entire estate at once, but several previously delayed parcels are brought back into the normal agricultural cycle. Valerius's stewards record the improvement as part of the next production assessment.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "id": "GMV-62BCE-001-R057-E005",
+      "date": "22 September 59 BCE",
+      "cat": "Connected",
+      "title": "THE ESTATE ADMINISTRATION REARRANGES LABOR TO REDUCE THE BURDEN ON NEIGHBORING HOLDINGS",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "surrounding landholders",
+        "agricultural workers"
+      ],
+      "body": "Valerius's stewards begin coordinating labor between the new estates and the surrounding holdings so that restoration work does not continually draw workers away from their own farms. Work parties are scheduled around the agricultural calendar, with estate crews taking responsibility for the heaviest repairs on roads, storage areas and damaged field edges. Neighboring landowners are asked to provide assistance only where local knowledge is actually needed. The change reduces the repeated interruptions that had placed pressure on households during the restoration period. Agricultural output begins to benefit as more labor remains available for ordinary cultivation instead of emergency work.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": -1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "id": "GMV-62BCE-001-R057-E006",
+      "date": "26 September 59 BCE",
+      "cat": "Direct",
+      "title": "PATROLS AND ESTATE STEWARDS SECURE THE ROADS WITHOUT HALTING THE FLOW OF WORK",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "estate patrols",
+        "estate stewards",
+        "lake-port merchants"
+      ],
+      "body": "The remaining patrols settle into a regular circuit covering the principal roads, storage areas and approaches to the new estates. Rather than stopping ordinary traffic, the patrols check the same routes at predictable intervals while stewards handle access and work schedules during daylight. Merchants using the lake-port road report fewer delays from ad hoc security arrangements. The personal guard remains close to Valerius and the principal administrative centers, giving the new territory a visible layer of protection without expanding the military footprint. The combined arrangement allows commercial and agricultural activity to continue while the countryside adjusts to the new security system.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "id": "GMV-62BCE-001-R057-E007",
+      "date": "30 September 59 BCE",
+      "cat": "Direct",
+      "title": "VALERIUS'S SEPTEMBER REVIEW SHOWS THE NEW ESTATES MOVING FROM RESTORATION TOWARD NORMAL PRODUCTION",
+      "entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "local smallholders",
+        "surrounding landholders"
+      ],
+      "body": "At the end of the month, Valerius reviews the estate registers with his stewards and compares the restored parcels with the work still outstanding. More fields are now being worked under ordinary schedules, while patrols and the personal guard continue to cover the areas that remain sensitive. Surrounding landowners are spending more of their own time on cultivation and less on maintaining private watches around their holdings. The new administrative rhythm also gives Valerius a clearer picture of which parcels can contribute to the next production cycle and which still require repairs. The estates are not finished, but the character of the territory has begun to shift from campaign recovery toward sustained production.",
+      "ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    }
+  ],
+  "round_ledger": {
+    "population": {
+      "before": 249,
+      "delta": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "currency": {
+      "before": -947,
+      "delta": 0,
+      "after": -947,
+      "unit": "denarii"
+    },
+    "soldiers": {
+      "before": 398,
+      "delta": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "taxation": {
+      "before": 3,
+      "delta": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 82,
+      "delta": 2,
+      "after": 84,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 97,
+      "delta": 1,
+      "after": 98,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 49,
+      "delta": 1,
+      "after": 50,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 85,
+      "delta": 0,
+      "after": 85,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 74,
+      "delta": -2,
+      "after": 72,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1067,
+      "delta": 8,
+      "after": 1075,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.0625,
+      "delta": 0,
+      "after": 7.0625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "delta": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "currency": {
+      "value": -947,
+      "unit": "denarii",
+      "bound": "unbounded exact quantity"
+    },
+    "soldiers": {
+      "value": 398,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0–100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "agriculture": {
+      "value": 84,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "readiness": {
+      "value": 98,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "supply": {
+      "value": 50,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "technology": {
+      "value": 85,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "exhaustion": {
+      "value": 72,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "intelligence": {
+      "value": 1075,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.0625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "base_probability_percent": 12,
+      "random_roll": 71.5816,
+      "selected": false,
+      "event_id": null
+    },
+    "magnitude_11": {
+      "chance_percent": 4.7283,
+      "checks": [
+        91.0811,
+        39.6353,
+        88.2684
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v1",
+      "relations": 100,
+      "organization": 100,
+      "morale": 100,
+      "infrastructure": 100,
+      "stability": 100,
+      "legitimacy": 100
+    },
+    "current_total_ledger": {
+      "status": "verified",
+      "all_established_metrics_present": true,
+      "matches_state_json": true
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false
+    },
+    "metric_schema_ref": "roleplay-fixed-metrics-v1"
+  },
+  "special_event_policy_ref": "gmv-special-event-v2"
+}
