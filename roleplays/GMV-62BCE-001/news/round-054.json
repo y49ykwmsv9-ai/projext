@@ -157,7 +157,18 @@
         "intelligence": 0,
         "relations": 0,
         "land_area_sq_miles": 0,
-        "organization": 0
+        "organization": 0,
+        "currency": 121
+      },
+      "financial_effect": {
+        "gross_receipts_denarii": 260,
+        "operating_security_maintenance_denarii": 150,
+        "net_public_profit_denarii": 110,
+        "private_transfer_denarii": 11,
+        "public_account_before": 2693,
+        "public_account_after": 2803,
+        "private_account_before": 539,
+        "private_account_after": 550
       }
     },
     {
