@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 70,
-  "date": "-0058-10-31",
+  "round": 71,
+  "date": "-0058-11-30",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3264,
     "private": 610,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 90,
-    "last_round_private_transfer": 9
+    "last_round_net_public_profit": 0,
+    "last_round_private_transfer": 0
   },
   "metrics": {
     "soldiers": 394,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 23,
+    "supply": 20,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1474,
+    "intelligence": 1516,
     "relations": 100,
     "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "October 58 BCE: Valerius’s estate libraries begin regular use, the raid investigation remains active through Roman correspondence, and the lake-port completes another autumn commercial cycle.",
+    "campaign_development": "November 58 BCE: Valerius’s winter provisioning, expanding estate-library circulation, continuing raid inquiry, Roman correspondence, and winter security preparations deepen the institutional life of his holdings.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 sq mi to reach 7.6875. Round 67 adds no land."
   },
   "special_event_policy": {
@@ -66,13 +66,13 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 64.2817,
+    "special_roll": 38.5921,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      17.6241,
-      46.8917,
-      81.4432
+      12.3846,
+      55.6721,
+      91.2384
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -89,11 +89,11 @@
     "treasury": 1668,
     "public": 3264,
     "private": 610,
-    "gross_receipts_denarii": 280,
-    "operating_costs_denarii": 190,
-    "net_public_profit_denarii": 90,
-    "private_transfer_denarii": 9,
-    "currency_flow_denarii": 99
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN"
 }
