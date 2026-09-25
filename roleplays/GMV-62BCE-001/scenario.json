@@ -41,9 +41,9 @@
     "current_total_ledger": {
       "required": true,
       "schema": "roleplay-fixed-metrics-v1",
-      "status": "verified_pending_commit"
+      "status": "verified"
     },
-    "canonical_round_57": "verified_pending_commit"
+    "canonical_round_57": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
