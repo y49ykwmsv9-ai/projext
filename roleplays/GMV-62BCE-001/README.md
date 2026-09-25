@@ -146,3 +146,14 @@ The campaign uses the following authoritative metric definitions. These definiti
 A bounded metric may not exceed its established maximum or fall below its minimum. If an event produces a positive effect while the metric is already at its maximum, the observable event may still occur, but the numerical ledger records only the amount that can actually be applied within the bound. Exact quantities such as men, people, denarii, and square miles are never silently treated as percentage/condition points.
 
 The machine-readable scenario record stores the same definitions under `metric_schema` / `metric_definitions`. Event and round ledgers must preserve the corresponding unit. 
+
+
+## Current Total Ledger Requirement
+
+At the end of every completed round, the round output and machine-readable round record MUST include a `current_total_ledger` containing the complete current value of **every metric in `roleplay-fixed-metrics-v1`**, with its authoritative unit and applicable bound/type.
+
+The Current Total Ledger is distinct from the Round Delta Ledger:
+- **Round Delta Ledger:** Before / Change / After / Unit for metrics affected or carried through the round.
+- **Current Total Ledger:** the complete post-round snapshot of every established metric, including metrics with zero change in the round.
+
+A round is not complete and `next_round_gate` must not open until the Current Total Ledger is present, every established metric is represented, units are correct, bounds are reconciled, and every value matches `state.json` after the round is persisted.
