@@ -86,7 +86,6 @@
       "ultimate_event_contract": "PASS",
       "ultimate_second_person_requirement": "PASS",
       "ultimate_minimum_detail_requirement": "PASS",
-      "surprise_special_expanded_prose": "PASS",
       "semantic_state_consistency": "PASS",
       "military_state_consistency": "PASS",
       "economic_financial_consistency": "PASS",
@@ -96,14 +95,16 @@
       "local_random_checks": "PASS",
       "geographic_reference_consistency": "PASS",
       "geographic_source_protection": "PASS",
-      "ultimate_reclassification_gate": "PASS"
+      "ultimate_reclassification_gate": "PASS",
+      "surprise_special_expanded_prose": "PASS"
     },
     "financial_reconciliation": {
       "round_83_gross_receipts_denarii": 24,
       "round_83_operating_costs_denarii": 18,
       "round_83_net_public_profit_denarii": 6,
       "round_83_private_transfer_denarii": 0.6,
-      "inference_basis": "Round 83 E005 uses the closest established analogous spring commercial precedent (Round 79: 24/18/6/0.6), calibrated to the unchanged 7.75 sq mi estate and the narrative descriptor 'modest'."
+      "basis_event_id": "GMV-62BCE-001-R083-E005",
+      "inference_basis": "Closest established analogous spring commercial precedent from Round 79, calibrated to current 7.75 sq mi estate scale and 'modest' narrative strength; no unsupported financial mechanism was introduced."
     }
   },
   "financial_realization": {
