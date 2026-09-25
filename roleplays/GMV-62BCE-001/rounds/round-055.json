@@ -255,7 +255,7 @@
     },
     "commit_check": {
       "required": true,
-      "verified_after_commit": false
+      "verified_after_commit": true
     },
     "ledger_schema_reconciliation": {
       "organization_in_all_events": true,
