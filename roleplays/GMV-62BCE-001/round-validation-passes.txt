@@ -141,20 +141,32 @@ Checks:
 - Ensure no event-level change is omitted from the round total.
 - Ensure no round-level change exists without a supporting event or documented state transition.
 
-PASS 9 — FINANCIAL REALIZATION AND ACCOUNT ROUTING
+PASS 9 — FINANCIAL REALIZATION, PLAUSIBLE QUANTIFICATION, AND ACCOUNT ROUTING
 
 Checks:
 - Financial realization remains inside each event's ai_ledger.
-- Use denarii.
-- Distinguish gross receipts, operating costs, net public profit, private transfers, treasury changes, public-account changes, private-account changes, currency flow, and internal transfers.
+- Use denarii for financial quantities.
+- Distinguish gross receipts, operating costs, net public profit, private transfers, treasury changes, public-account changes, private-account changes, currency flow, debts, payments, rents, fees, investment principal, realized investment returns, and internal transfers.
+- When an event explicitly establishes income, revenue, payment, rent, fee, sale, profit, cost, purchase, transfer, production value, or another financial consequence, the event MUST receive a plausible canonical numerical amount rather than remaining purely qualitative.
+- When an event describes a measurable financial activity without stating an exact amount, infer a plausible amount from the established campaign precedent, the canonical financial-continuity record, the scale of the relevant estate/business/activity, the user's existing statistics, and the strength/quantity adjectives used in the event narrative.
+- Adjectives and observable descriptors such as small, modest, limited, substantial, strong, considerable, large, exceptional, or extraordinary are evidence for choosing the scale of the inferred figure, but they MUST be interpreted against the established campaign baseline rather than converted through a universal arbitrary multiplier.
+- Use precedent from earlier canonical rounds whenever an analogous transaction, operating cost, commercial receipt, estate activity, rent, payment, or other financial event exists.
+- Scale inferred quantities proportionally to the established size and condition of the relevant operation where the state provides enough information to do so.
+- If exact precedent does not exist, use the closest supported canonical precedent and the current statistics to establish a conservative, plausible figure.
+- Record the inferred amount as a canonical realized figure and identify in the AI-facing ledger that the amount was inferred from precedent/state-scale/narrative-strength evidence rather than explicitly stated in the player-facing prose.
+- Do not invent an unsupported ownership structure, tax rate, contractual rate, maturity date, investment return, or account relationship merely to produce a number.
+- Do not invent precision that the evidence does not support. Use an appropriately rounded plausible amount when the underlying evidence is qualitative.
 - Do not count the same denarius twice.
-- Transfers are routing events, not new income.
-- Do not invent ownership, rates, timing, investment returns, or account routing.
-- If the narrative only establishes preparation or expectation, do not record realized income.
-- Reconcile the round's financial effects against the canonical financial-continuity record.
+- Transfers are routing events, not new income, unless the event explicitly establishes new external revenue entering the relevant account.
+- Distinguish realized income from expected income, proposed income, projected returns, or preparations. Expected or projected values are not posted as realized financial results unless the event establishes that realization occurred.
+- Preserve established precedent for known financial mechanisms. Do not overwrite an existing canonical amount merely because a new estimate could be different.
+- Reconcile the round's financial effects against the canonical financial-continuity record after the plausible amount has been established.
+- If a bounded financial destination or account cannot accept the inferred amount without contradicting canonical state, adjust the routing or rewrite the event rather than silently violating the state.
 
 Failure condition:
-- Any unsupported realized financial amount or unreconciled account movement blocks finalization.
+- Any event that materially establishes a realized financial consequence but has no plausible canonical amount blocks finalization.
+- Any inferred amount that cannot be justified from precedent, current statistics, observable scale, or narrative-strength evidence blocks finalization.
+- Any unreconciled account movement, duplicate posting, or unsupported financial mechanism blocks finalization.
 
 PASS 10 — LAND AND PROPERTY CONSISTENCY
 
