@@ -1,41 +1,41 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 74,
-  "date": "-0057-02-28",
+  "round": 75,
+  "date": "-0057-03-31",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3374,
+    "public": 3054,
     "private": 621,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 110,
-    "last_round_private_transfer": 11
+    "last_round_net_public_profit": -320,
+    "last_round_private_transfer": 0
   },
   "metrics": {
     "soldiers": 394,
     "population": 249,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 93,
+    "agriculture": 94,
     "infrastructure": 100,
     "trade": 101,
     "readiness": 100,
     "morale": 100,
-    "supply": 14,
+    "supply": 13,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1647,
+    "intelligence": 1698,
     "relations": 103,
-    "land_area_sq_miles": 7.6875,
+    "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
   },
   "holdings": {
-    "land_area_sq_miles": 7.6875,
-    "acres": 4920,
-    "roman_iugera_approx": 7387.5,
-    "change_this_round_sq_miles": 0,
+    "land_area_sq_miles": 7.75,
+    "acres": 4960,
+    "roman_iugera_approx": 7447.5,
+    "change_this_round_sq_miles": 0.0625,
     "scope": "personal estates and holdings; Round 65 newly seized final-refuge tract remains incorporated"
   },
   "relationships": {
@@ -50,15 +50,15 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "February 57 BCE: winter provisioning continues under tighter scheduling, the raid inquiry remains active, merchants prepare the lake-port for spring movement, the boundary petition gathers several smallholders, Roman correspondence continues, and the first field work begins.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 sq mi to reach 7.6875. Round 67 adds no land."
+    "campaign_development": "March 57 BCE: Valerius continues political correspondence, purchases the disputed boundary tract rather than prolonging the local dispute, begins marking the newly acquired land for spring use, and continues the raid inquiry through documentary exchanges.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 83.6142,
+    "current_round_roll": 32.4059,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -66,20 +66,20 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 83.6142,
+    "special_roll": 32.4059,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      31.4821,
-      74.9112,
-      92.1045
+      15.7757,
+      87.0693,
+      70.7704
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
       "fixed_metric_schema": "PASS",
       "metric_bounds": "PASS",
       "financial_realization_reconciled": "PASS",
-      "land_unchanged_and_ledger_consistent": "PASS",
+      "land_change_and_ledger_consistent": "PASS",
       "recurring_character_continuity": "PASS",
       "event_variety": "PASS",
       "current_total_ledger_complete": "PASS"
@@ -87,13 +87,13 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3374,
+    "public": 3054,
     "private": 621,
     "gross_receipts_denarii": 0,
-    "operating_costs_denarii": 0,
-    "net_public_profit_denarii": 0,
+    "operating_costs_denarii": 320,
+    "net_public_profit_denarii": -320,
     "private_transfer_denarii": 0,
-    "currency_flow_denarii": 0
+    "currency_flow_denarii": -320
   },
   "next_round_gate": "OPEN"
 }
