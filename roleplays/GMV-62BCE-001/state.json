@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 80,
-  "date": "-0057-05-05",
+  "round": 81,
+  "date": "-0057-05-12",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3093.6,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 9,
+    "supply": 8,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1848,
+    "intelligence": 1889,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "5 May 57 BCE: Spring administration continues while the household archive formally records the extraordinary Roman-authorized exploration expedition undertaken by Gaius Maximus Valerius, including its difficult terrain, adaptive decisions, local observations, hardships, successful return, and value to Roman authorities.",
+    "campaign_development": "12 May 57 BCE: Spring administration continues; the preserved raid dossier receives another documentary cross-check, the merchant route advances, Roman correspondence keeps both the expedition and raid inquiry in circulation, and the household archive closes another week with the documentary threads kept distinct.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
@@ -58,7 +58,7 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 67.1842,
+    "current_round_roll": 49.9799,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -66,13 +66,13 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 71.4421,
+    "special_roll": 49.9799,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      18.231,
-      44.115,
-      82.904
+      20.9978,
+      7.3626,
+      50.9929
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -98,23 +98,5 @@
     "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN",
-  "reconciliation_adjustments": {
-    "inherited_trade": {
-      "from": 101,
-      "to": 100,
-      "adjustment": -1
-    },
-    "inherited_relations": {
-      "from": 105,
-      "to": 100,
-      "adjustment": -5
-    },
-    "financial": {
-      "gross_receipts": 36,
-      "operating_costs": 18,
-      "net_public_profit": 18,
-      "private_transfer": 1.8,
-      "background_interest_realized": 0
-    }
-  }
+  "reconciliation_adjustments": {}
 }
