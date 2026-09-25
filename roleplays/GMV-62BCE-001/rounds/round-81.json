@@ -107,7 +107,7 @@
         "nearby smallholders",
         "estate stewards"
       ],
-      "body": "Word reaches the estate that the newly incorporated fields are drawing heavier water demand as spring work intensifies. The stewards compare the request with the watering arrangement already established for nearby smallholders. The additional work is accommodated without reopening the ownership question settled by the purchase. The report gives the estate a clearer picture of the practical demands created by the expanded acreage.",
+      "body": "Word reaches the estate that the newly incorporated fields are drawing heavier water demand as spring work intensifies. The stewards compare the request with the watering arrangement already established for nearby smallholders. The additional work is accommodated without reopening the ownership question settled by the purchase. The increased demand consumes part of the estate's available supply resources, and the report gives the estate a clearer picture of the practical demands created by the expanded acreage.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -118,7 +118,7 @@
         "trade": 0,
         "readiness": 0,
         "morale": 0,
-        "supply": 0,
+        "supply": -1,
         "organization": 0,
         "stability": 0,
         "legitimacy": 0,
@@ -199,7 +199,7 @@
         "estate stewards",
         "Roman expedition"
       ],
-      "body": "The estate administration closes another set of spring entries while the expedition remains away from the household's ordinary routine. Estate and expedition records are kept separate so that field observations cannot be confused with household accounts. The separation allows the expedition papers to accumulate independently while the estate continues its established agricultural administration. No new financial receipt is posted from the expedition during the week.",
+      "body": "The estate administration closes another set of spring entries while the expedition remains away from the household's ordinary routine. Estate and expedition records are kept separate so that field observations cannot be confused with household accounts. The separation allows the expedition papers to accumulate independently while the estate continues its established administration. No new harvest, sale, rent receipt, payment, or investment return is realized in these entries.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -245,7 +245,7 @@
         "expedition companions",
         "local inhabitants"
       ],
-      "body": "The road ahead rises gradually before narrowing into a rough passage between higher ground.\n\nYou can see from the movement of the animals that the ascent will demand more from the party than the easier country behind you.\n\nYou slow the column rather than allowing the front of the expedition to disappear beyond the next bend.\n\nThe men carrying the heavier loads are brought forward into a more manageable order, and the animals are spaced so that a stumble does not pull the rest of the line into confusion.\n\nThe passage is not impossible, but it is the first place where the country itself forces the expedition to move according to its own terms.\n\nYou climb on foot for part of the approach, examining the surface before allowing the animals to follow.\n\nLoose stones shift beneath your sandals, and each movement has to be chosen with more care than it would on an ordinary road.\n\nAbove the first rise, you find that the passage does not simply end; it bends around the slope and continues toward a lower saddle.\n\nThe sight changes the day's calculation, because the route remains passable but will take longer than the party's earlier estimate.\n\nYou order the march to continue at the slower pace.\n\nNo one mistakes the delay for failure, because the alternative would be to force the column forward until fatigue turns a manageable obstacle into an actual accident.\n\nThe expedition reaches the saddle later in the day and pauses long enough for the animals and men to recover.\n\nFrom there you can see the country on the far side of the pass, including several lower routes that were invisible from the approach.\n\nYou compare what you see with the reports gathered during the preceding days.\n\nOne local account now appears more plausible than another, but you keep both in the written record because the expedition has not yet tested the farther route itself.\n\nBefore the descent begins, you personally inspect the first section and identify a place where the party can stop if the ground worsens.\n\nThe column then moves down carefully, with the day's remaining light becoming an important limit on how far you are willing to continue.\n\nBy the time the expedition establishes its next temporary camp, the pass has become the first major geographic feature entered into the expedition record from direct observation.\n\nYou have gained no miraculous treasure and conquered no great city.\n\nWhat you have gained is more practical: a tested route, a measured difficulty, and a clearer understanding of how the country constrains movement.\n\nThe expedition's record now contains its first passage whose usefulness depends on having personally crossed it, and the road beyond remains open for the next stage of the journey.",
+      "body": "You begin the morning with the road already climbing ahead of you, the easier ground of the previous marches giving way to broken slopes and loose stone. The expedition's purpose is to continue the newly authorized Roman journey into unfamiliar country and produce a firsthand geographic record; no named final destination is established in the surviving campaign record. The campaign's military ledger records 394 soldiers overall, but it does not establish a separate numerical strength for this expedition detachment, so no invented detachment size is assigned. The route narrows until the column can no longer maintain the comfortable pace of the earlier days. You order the heavier loads redistributed so that the animals are not forced upward under unnecessary strain. You leave the head of the column and walk part of the ascent yourself, testing the ground before asking the rest of the expedition to follow. The surface shifts beneath your sandals as the slope steepens. There is no enemy waiting above you and no sudden disaster; the difficulty comes from the country itself. You stop repeatedly to examine the slope, the footing, and the line by which the animals can pass safely. Ahead, the apparent end of the route seems to leave the expedition facing a dead slope, but closer inspection reveals that the path bends toward a lower saddle. The discovery changes the day's movement. The pass is usable, but it will take longer than the route reports had suggested. You order the pace reduced rather than forcing the column forward merely to satisfy an expected distance. The men adjust their movement and the expedition climbs steadily, sacrificing speed for control. By midday you reach the saddle. From there the country opens unexpectedly, revealing several possible routes beyond the pass. You compare what you can see with the conflicting reports recorded two days earlier. One account now appears more plausible than the other, but you do not erase the weaker report simply because the landscape has given you a better impression of the route. You descend far enough to inspect the beginning of the next stage yourself. The ground beyond the saddle remains unfamiliar, and the expedition has not reached any final destination. With daylight becoming less useful for a safe continuation, you select a position for the night's camp rather than attempting to force another difficult stage. That evening, the scribes assemble the day's observations while the expedition settles around the camp. You review the route, the terrain, the water situation, and the conflicting testimony preserved from earlier travelers. The pass becomes the first substantial geographic obstacle personally crossed during this new expedition. There is no treasure, captured settlement, spectacular city, or convenient revelation waiting beyond it. What you have gained is more practical: a tested route, a firsthand description of the terrain, and a clearer understanding of how unreliable local route reports can be when conditions change. You make certain the record distinguishes what you personally observed from what travelers told the expedition. Measurements and direct observations are preserved separately from testimony. The distinction matters because the expedition's purpose is not merely to collect stories but to produce a record that can withstand later scrutiny. The country beyond the camp remains unknown. You have not completed the expedition, reached a final destination, or returned to Rome. You have only crossed its first major geographic obstacle and established the next point from which the journey can continue. The men settle for the night with the road behind them and unfamiliar country ahead. The pass has not ended the expedition; it has given it its first tested route. Tomorrow's movement will begin from this new camp, carrying forward the observations made today.",
       "ai_ledger": {
         "soldiers": 0,
         "population": 0,
@@ -383,8 +383,8 @@
     },
     "supply": {
       "before": 9,
-      "change": -2,
-      "after": 7,
+      "change": -3,
+      "after": 6,
       "unit": "points"
     },
     "organization": {
@@ -419,8 +419,8 @@
     },
     "intelligence": {
       "before": 1848,
-      "change": 62,
-      "after": 1910,
+      "change": 60,
+      "after": 1908,
       "unit": "points"
     },
     "relations": {
@@ -452,13 +452,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 7,
+    "supply": 6,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1910,
+    "intelligence": 1908,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -476,26 +476,37 @@
   },
   "special_event_resolution": {
     "base_probability_percent": 12,
-    "roll": 13.6942,
+    "roll": 97.94349801082213,
     "triggered": false,
     "event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      57.9471,
-      74.0368,
-      97.072
+      18.795253981693005,
+      59.987217162702,
+      5.700937864881639
     ],
-    "magnitude_11_events": 0
+    "magnitude_11_events": 0,
+    "random_generation": "locally generated in the ChatGPT app before output"
   },
   "validation_ledger": {
     "fixed_metric_schema": "PASS",
     "metric_bounds": "PASS",
+    "exact_quantity_unit_consistency": "PASS",
     "financial_realization_reconciled": "PASS",
     "land_change_and_ledger_consistent": "PASS",
     "recurring_character_continuity": "PASS",
     "event_variety": "PASS",
     "ultimate_event_contract": "PASS",
-    "current_total_ledger_complete": "PASS"
+    "ultimate_second_person_requirement": "PASS",
+    "ultimate_minimum_detail_requirement": "PASS",
+    "semantic_state_consistency": "PASS",
+    "military_state_consistency": "PASS",
+    "economic_financial_consistency": "PASS",
+    "agriculture_state_consistency": "PASS",
+    "literal_revenue_realization_check": "PASS",
+    "current_total_ledger_complete": "PASS",
+    "local_random_checks": "PASS",
+    "canonical_pointer_synchronization": "PENDING_SYNC"
   },
   "next_round_gate": "OPEN"
 }
