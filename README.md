@@ -88,7 +88,7 @@ For every round:
 11. Keep recurring-character continuity and event-variety checks as hard requirements alongside the metric and special-event checks.
 12. Only then output the player-facing round.
 
-The GMV event system uses a standard 1–10 magnitude scale plus the separately randomized Magnitude-11 extension. Every round records its Special-event resolution and three independent Magnitude-11 checks. Ultimate is an ordinary news/event category for extraordinary developments that fit its narrative definition; Ultimate is not produced by the Magnitude-11 roll and is not a second random system. A successful Magnitude-11 check instead produces a Special event.
+The GMV event system uses a standard 1–10 magnitude scale plus the separately randomized Magnitude-11 extension. Every round records its Special-event resolution and three independent Magnitude-11 checks. Ultimate is a core event category for extraordinary developments that fit its narrative definition; it is not a second random system and is not automatically produced by the Magnitude-11 roll. A successful Magnitude-11 check instead produces an initially Special event, which must pass the mandatory Ultimate Reclassification Gate before its final category is committed. Every event initially classified as Surprise or Special is inspected by that gate; if it independently meets the Ultimate threshold, it is renamed to Ultimate and rewritten at Ultimate narrative depth before output or commit.
 
 ### Mandatory in-app random resolution rule
 
@@ -96,7 +96,7 @@ Every GMV round MUST perform fresh probabilistic checks locally inside the ChatG
 
 ### Surprise and Special prose/news rule
 
-Surprise and Special events use the same player-facing prose and news requirements as every ordinary event. Their category changes how the event is generated or classified, not how it is written: each must include the standard Event ID, Date, Event Type, Title, Mentioned Entities, a **News/Event** narrative of at least 5–7 sentences unless the event separately qualifies for the longer Ultimate treatment, an AI-facing event ledger, and a Financial realization section when applicable. A Surprise event is not shorter, less descriptive, or more fragmentary because it is unexpected. A Special event is not a different prose format because it came from a random check. Hidden random resolution, category-selection mechanics, and engine reasoning must never replace or leak into the player-facing news narrative.
+Surprise and Special events use the same expanded player-facing prose and news treatment required for extraordinary event presentation. Their initial category changes how the event is generated or classified, not whether the event receives full narrative treatment. Each must include the standard Event ID, Date, Event Type, Title, Mentioned Entities, a complete **News/Event** narrative, an AI-facing event ledger, and a Financial realization section when applicable. A Surprise event is not shortened merely because it is unexpected, and a Special event is not shortened merely because it came from a random check. After generation, every Surprise and Special event must pass the Ultimate Reclassification Gate; qualifying events are renamed and rewritten as Ultimate before output or commit. Hidden random resolution, category-selection mechanics, and engine reasoning must never replace or leak into the player-facing news narrative.
 
 ### Mandatory semantic-state validation gate
 
