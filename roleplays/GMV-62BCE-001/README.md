@@ -79,23 +79,18 @@ The event category must be explicitly printed in the event header and stored as 
 
 ## Check Placement
 
-Special-event calculations and probability information do **not** belong in event headers.
+Special events are a **core event category**, alongside Direct, Connected, and Surprise events. Every round performs one simple independent random Special-event roll using the campaign's base Special-event probability. If the roll succeeds, a Special event is generated as part of that round's normal event set; if it fails, no Special event is generated. Special events are not a second-stage candidate-selection system and do not require raw-success/accepted-candidate filtering.
 
-The round header contains the round identification and the event categories represented in that round.
+The exact Special-event probability and random roll belong in the **round footer**, not in individual event headers. The round header contains the round identification and the event categories actually represented in that round.
 
-The round footer contains the complete verification record for:
-- regular special-event opportunity chance
-- exact special-event checks/rolls
-- raw successes
-- accepted candidates
-- special-event result
-- Magnitude-11 eligibility percentage
-- Magnitude-11 checks/rolls
-- raw Magnitude-11 successes
-- accepted Magnitude-11 candidates
-- final Magnitude-11 result
+The round footer must record:
+- base Special-event probability
+- Special-event random roll
+- whether the Special-event roll succeeded
+- the generated Special event, if any
+- any separate Magnitude-11 check required by the campaign contract
 
-The exact percentages and checks must therefore be kept in the **round footer**, not attached to individual event headers.
+The Special category must be considered during ordinary event generation every round, rather than treated as an exceptional post-processing layer.
 
 ## AI Ledger
 
