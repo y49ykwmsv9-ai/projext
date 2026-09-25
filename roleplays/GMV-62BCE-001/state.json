@@ -1,32 +1,32 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 79,
-  "date": "-0057-04-28",
+  "round": 80,
+  "date": "-0057-05-05",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3093.6,
     "private": 623.4,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 6,
-    "last_round_private_transfer": 0.6
+    "last_round_net_public_profit": 0,
+    "last_round_private_transfer": 0
   },
   "metrics": {
     "soldiers": 394,
     "population": 250,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 98,
+    "agriculture": 100,
     "infrastructure": 100,
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 10,
+    "supply": 9,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1791,
+    "intelligence": 1848,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "28 April 57 BCE: Household inspections continue under Valerius's respectful protocols; Marcellus requests clarification on a dated dossier entry; neighboring workers receive an administrative accommodation concerning a shared watering route; the purchased tract completes its first spring work cycle; lake-port merchants confirm a delivery window; and the week's ordinary accounts close with a realized public operating profit and established private transfer.",
+    "campaign_development": "5 May 57 BCE: Spring administration continues while the household archive formally records the extraordinary Roman-authorized exploration expedition undertaken by Gaius Maximus Valerius, including its difficult terrain, adaptive decisions, local observations, hardships, successful return, and value to Roman authorities.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "special_event_policy": {
@@ -66,13 +66,13 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 30.2563,
+    "special_roll": 71.4421,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      14.453,
-      35.5449,
-      65.7505
+      18.231,
+      44.115,
+      82.904
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -82,6 +82,7 @@
       "land_change_and_ledger_consistent": "PASS",
       "recurring_character_continuity": "PASS",
       "event_variety": "PASS",
+      "ultimate_event_contract": "PASS",
       "current_total_ledger_complete": "PASS"
     }
   },
@@ -89,12 +90,12 @@
     "treasury": 1668,
     "public": 3093.6,
     "private": 623.4,
-    "gross_receipts_denarii": 24,
-    "operating_costs_denarii": 18,
-    "net_public_profit_denarii": 6,
-    "private_transfer_denarii": 0.6,
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
     "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": 6
+    "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
