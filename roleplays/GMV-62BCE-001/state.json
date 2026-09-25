@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 66,
-  "date": "-0058-06-30",
+  "round": 67,
+  "date": "-0058-07-31",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3174,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 35,
+    "supply": 33,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "technology": 94,
+    "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1325,
+    "intelligence": 1381,
     "relations": 100,
     "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
@@ -50,15 +50,15 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "June 58 BCE: Valerius remains in Rome after his first personal meetings with Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus. He spends the month in philosophical and scholarly circles, acquires a large working library through reputation-based gifts, favors, introductions, and access, and broadens his reputation beyond military and political affairs.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds the freshly surveyed 0.125 sq mi final-refuge tract to reach 7.6875. Round 66 adds no land."
+    "campaign_development": "July 58 BCE: Valerius undertakes formal classical education in Rome, completes a first pass through the books acquired during his scholarly stay, records the people who contributed to his library, and orders the collection sent to his estates and settlements for free access.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 sq mi to reach 7.6875. Round 67 adds no land."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 68.3124,
+    "current_round_roll": 31.7442,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -67,11 +67,12 @@
   "end_of_round_checks": {
     "canonical_round_65": "verified",
     "canonical_round_66": "verified",
+    "canonical_round_67": "verified",
     "current_total_ledger": {
       "status": "verified",
       "schema": "roleplay-fixed-metrics-v2",
       "all_established_metrics_present": true,
-      "matches_round_066": true
+      "matches_round_067": true
     },
     "metric_bounds_reconciliation": {
       "status": "verified",
@@ -83,7 +84,7 @@
     "financial_realization_reconciliation": {
       "status": "verified",
       "schema": "gmv-financial-realization-v3",
-      "round_066_no_realized_financial_effect": true
+      "round_067_no_realized_financial_effect": true
     },
     "next_round_gate": "OPEN"
   }
