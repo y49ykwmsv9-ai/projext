@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 56,
-  "date": "-0059-08-31",
+  "round": 57,
+  "date": "-0059-09-30",
   "treasury": 1650,
   "wealth_accounts": {
     "public": 2803,
@@ -16,18 +16,18 @@
     "soldiers": 398,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 82,
+    "agriculture": 84,
     "infrastructure": 100,
     "trade": 100,
-    "readiness": 97,
+    "readiness": 98,
     "morale": 100,
-    "supply": 49,
+    "supply": 50,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 74,
+    "exhaustion": 72,
     "technology": 85,
-    "intelligence": 1067,
+    "intelligence": 1075,
     "relations": 100,
     "land_area_sq_miles": 7.0625,
     "temporary_unavailable": 0
@@ -36,7 +36,7 @@
     "land_area_sq_miles": 7.0625,
     "acres": 4520,
     "roman_iugera_approx": 7247.5,
-    "change_this_round_sq_miles": 2.8125,
+    "change_this_round_sq_miles": 0,
     "scope": "personal estates and holdings; former bandit lands now measured and incorporated"
   },
   "relationships": {
@@ -50,7 +50,7 @@
     "merchant-connections": 22
   },
   "continuity": {
-    "campaign_development": "August 59 BCE: Valerius turns the newly measured estates into working administrative divisions, organizes restored harvest estimates and regular lake-port cargo, handles a dispute over an old road, and receives an unexpected proposal from a traveling guild of metalworkers to establish workshops near the estates. Marcus Claudius Marcellus receives an account through established correspondence. No land area changes this round; measured personal holdings remain 7.0625 square miles (4,520 acres).",
+    "campaign_development": "September 59 BCE: Valerius shifts the newly measured estates from intensive restoration toward regular administration, sends most of his men back to their normal duties while retaining patrols and his personal guard in the new territories, and reorganizes labor so surrounding landowners can return more fully to their own holdings. Agricultural work expands as security becomes routine rather than an emergency burden. Measured personal holdings remain 7.0625 square miles (4,520 acres).",
     "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice."
   },
   "special_event_policy": {
@@ -58,9 +58,9 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 8.6142,
-    "current_round_selected": true,
-    "current_round_event_id": "GMV-62BCE-001-R056-E005",
+    "current_round_roll": 71.5816,
+    "current_round_selected": false,
+    "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "latest_schema": "gmv-round-v2",
@@ -105,6 +105,12 @@
       "round_54_private_transfer_denarii": 11,
       "article_text_unchanged": true,
       "unsupported_historical_income_not_invented": true
+    },
+    "canonical_round_57": "verified_pending_commit",
+    "current_total_ledger": {
+      "status": "verified_pending_commit",
+      "schema": "roleplay-fixed-metrics-v1",
+      "all_established_metrics_present": true
     }
   },
   "property_ledger": {
@@ -212,9 +218,9 @@
     }
   },
   "next_round_gate": {
-    "status": "OPEN",
-    "reason": "Round 56 remains resolved and persisted; financial-realization-v2 reconciliation is now committed.",
-    "unlocked_after_round": 56,
+    "status": "PENDING_VERIFICATION",
+    "reason": "Round 57 data prepared; gate remains closed until round, news, state and current-total-ledger verification are completed.",
+    "unlocked_after_round": 57,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   },
   "character_registry": {
