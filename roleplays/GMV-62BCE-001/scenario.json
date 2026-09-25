@@ -194,5 +194,22 @@
   },
   "relations_scale": "-100 to +100",
   "condition_scale": "0 to 100",
-  "exact_quantity_rule": "Exact quantities retain their explicit units and are not converted into condition points."
+  "exact_quantity_rule": "Exact quantities retain their explicit units and are not converted into condition points.",
+  "financial_policy": {
+    "schema_version": "gmv-financial-realization-v2",
+    "rule": "Economic activity need not explicitly mention income. Realized financial effects are intermittent consequences recorded in the ledger when the event provides a concrete basis.",
+    "unit": "denarii",
+    "account_routing": {
+      "treasury": "state, military, public-command, or explicitly public/state funds",
+      "public_account": "estate and productive/commercial operating capital",
+      "private_account": "Valerius private wealth and established private transfers",
+      "currency": "fixed metric ledger for exact-denarii financial flow; route separately when destination is known"
+    },
+    "double_counting_rule": "Transfers between accounts are not new income; gross receipts, costs, net public profit, private transfers, principal, and realized returns remain distinct.",
+    "historical_reconciliation": "Documented past financial blocks remain canonical. Missing historical income is not fabricated. Legacy currency_units are interpreted as denarii while source uncertainty is preserved.",
+    "last_reconciled_round": 54,
+    "last_reconciled_event_id": "GMV-62BCE-001-R054-E006",
+    "last_reconciled_public_profit_denarii": 110,
+    "last_reconciled_private_transfer_denarii": 11
+  }
 }
