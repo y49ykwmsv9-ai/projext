@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 73,
-  "date": "-0057-01-31",
+  "round": 74,
+  "date": "-0057-02-28",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3374,
@@ -15,18 +15,18 @@
     "population": 249,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 92,
+    "agriculture": 93,
     "infrastructure": 100,
     "trade": 101,
     "readiness": 100,
     "morale": 100,
-    "supply": 16,
+    "supply": 14,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1604,
+    "intelligence": 1650,
     "relations": 102,
     "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
@@ -41,16 +41,16 @@
   "relationships": {
     "nearby-landowners": 35,
     "poor-agricultural-workers": 7,
-    "smallholders": 8,
+    "smallholders": 9,
     "military-connections": 20,
     "roman-political-elite": 7,
     "quintus-caecilius-metellus_celer": 3,
-    "marcus-claudius_marcellus": 11,
-    "merchant-connections": 22,
+    "marcus-claudius_marcellus": 12,
+    "merchant-connections": 23,
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "January 57 BCE: winter provisioning continues under tighter scheduling, the raid inquiry gains a more orderly documentary trail, merchants prepare the next lake-port cycle, and the estate library begins connecting local petitions and readers with Valerius's Roman correspondence.",
+    "campaign_development": "February 57 BCE: winter stores are rebalanced, the raid inquiry becomes more documentary, lake-port preparations move toward spring traffic, the local boundary petition gathers multiple smallholders, and the estate library's correspondence with Roman contacts continues alongside the first field preparations.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 sq mi to reach 7.6875. Round 67 adds no land."
   },
   "special_event_policy": {
@@ -58,7 +58,7 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 57.3814,
+    "current_round_roll": 83.6142,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -66,13 +66,13 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 57.3814,
+    "special_roll": 83.6142,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      11.2047,
-      52.9183,
-      88.4471
+      31.4821,
+      74.9112,
+      92.1045
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
