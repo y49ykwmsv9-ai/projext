@@ -96,7 +96,9 @@
       "geographic_reference_consistency": "PASS",
       "geographic_source_protection": "PASS",
       "ultimate_reclassification_gate": "PASS",
-      "surprise_special_expanded_prose": "PASS"
+      "surprise_special_expanded_prose": "PASS",
+      "canonical_pointer_synchronization": "PASS",
+      "post_commit_verification": "PASS"
     },
     "financial_reconciliation": {
       "round_83_gross_receipts_denarii": 24,
@@ -118,6 +120,6 @@
     "background_interest_realized_denarii": 0,
     "currency_flow_denarii": 6
   },
-  "next_round_gate": "PENDING",
+  "next_round_gate": "OPEN",
   "reconciliation_adjustments": {}
 }
