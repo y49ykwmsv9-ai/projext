@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 72,
-  "date": "-0058-12-31",
+  "round": 73,
+  "date": "-0057-01-31",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3374,
@@ -15,19 +15,19 @@
     "population": 249,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 91,
+    "agriculture": 92,
     "infrastructure": 100,
-    "trade": 100,
+    "trade": 101,
     "readiness": 100,
     "morale": 100,
-    "supply": 18,
+    "supply": 16,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 1559,
-    "relations": 100,
+    "intelligence": 1604,
+    "relations": 102,
     "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
   },
@@ -50,7 +50,7 @@
     "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "December 58 BCE: winter provisioning becomes routine, the raid inquiry remains active through Celer's correspondence, the lake-port completes a winter settlement, and the estate library continues local readings and copying.",
+    "campaign_development": "January 57 BCE: winter provisioning continues under tighter scheduling, the raid inquiry gains a more orderly documentary trail, merchants prepare the next lake-port cycle, and the estate library begins connecting local petitions and readers with Valerius's Roman correspondence.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 sq mi to reach 7.6875. Round 67 adds no land."
   },
   "special_event_policy": {
@@ -58,7 +58,7 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 82.1473,
+    "current_round_roll": 57.3814,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -66,13 +66,13 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 82.1473,
+    "special_roll": 57.3814,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      8.4412,
-      47.2938,
-      96.1157
+      11.2047,
+      52.9183,
+      88.4471
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -89,11 +89,11 @@
     "treasury": 1668,
     "public": 3374,
     "private": 621,
-    "gross_receipts_denarii": 320,
-    "operating_costs_denarii": 210,
-    "net_public_profit_denarii": 110,
-    "private_transfer_denarii": 11,
-    "currency_flow_denarii": 121
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN"
 }
