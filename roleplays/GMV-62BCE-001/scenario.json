@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 67,
-  "latest_date": "-0058-07-31",
+  "latest_round": 68,
+  "latest_date": "-0058-08-31",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 31.7442,
+    "current_round_roll": 57.4061,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "July 58 BCE: Valerius undertakes formal classical education in Rome, completes a first pass through the books acquired during his scholarly stay, records the people who contributed to his library, and orders the collection sent to his estates and settlements for free access.",
+    "campaign_development": "August 58 BCE: Valerius returns to Rome's political centers, makes himself available to anyone who requests him regardless of rank, and distributes copies of his own scholarly writings as gifts while presenting courtesy and generosity as practices of virtue.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 freshly surveys the newly seized final-refuge tract at 0.125 sq mi (80 acres), exclusive of the older 0.0625 sq mi fort-complex component, bringing total holdings to 7.6875 sq mi."
   },
   "end_of_round_checks": {
@@ -43,7 +43,8 @@
       "schema": "roleplay-fixed-metrics-v2",
       "status": "verified",
       "matches_round_066": true,
-      "matches_round_067": true
+      "matches_round_067": true,
+      "matches_round_068": true
     },
     "canonical_round_57": "verified",
     "canonical_round_58": "verified_pending_commit",
@@ -54,7 +55,8 @@
     "canonical_round_64": "verified",
     "canonical_round_65": "verified",
     "canonical_round_66": "verified",
-    "canonical_round_67": "verified"
+    "canonical_round_67": "verified",
+    "canonical_round_68": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
