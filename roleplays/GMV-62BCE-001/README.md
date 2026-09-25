@@ -266,6 +266,34 @@ The canonical round is determined only by the synchronized values in `scenario.j
 - Ultimate is determined by extraordinary narrative circumstances; Special is determined by the independent Special-event system. They are not interchangeable.
 - An Ultimate event may coexist with a Special event in the same round.
 - No event category should be used merely to satisfy a numerical quota or artificial distribution.
+## Ultimate Reclassification Gate
+
+
+The simulation uses a mandatory post-generation classification refinement gate. Event categories remain distinct, but an event originally generated as Surprise or Special may be reclassified as Ultimate when the event itself independently satisfies the Ultimate definition.
+
+### Reclassification Rule
+- Generate the event using its correct causal mechanism first.
+- Preserve the original causal provenance internally: a Surprise remains a causally surprising development, and a Special remains a development produced by the independent Special roll.
+- Before final output, inspect every Surprise and Special event against the Ultimate criteria.
+- If the event independently qualifies as an extraordinary development warranting the Ultimate treatment, reclassify its final `event_category` to `Ultimate` and rewrite the event at Ultimate narrative depth before output or commit.
+- If it does not independently qualify, retain its original Surprise or Special classification.
+- A Special event does not become Ultimate merely because the Special roll succeeded.
+- A Surprise event does not become Ultimate merely because it is unexpected or dramatic.
+- Ultimate is therefore a higher narrative/classification threshold that can subsume an originally Surprise or Special event when the event's actual circumstances warrant it; the relationship is one-way and is not a category equivalence rule.
+- Reclassification does not create an additional random event, does not consume or alter the Special roll, and does not create a second Ultimate probability system.
+- If a Magnitude-11 success generates a Special event under the campaign's current random contract, that event must still pass this independent Ultimate reclassification gate before final classification.
+- If reclassified, all machine-readable event fields, displayed headers, AI ledger references, round category summaries, and validation records must use `Ultimate` as the final event category.
+- The event's causal origin may remain documented in the AI-facing ledger or validation metadata where the schema permits, but the final displayed event classification must reflect the post-generation gate.
+
+### Required Order
+1. Determine the event's initial category from causality/random mechanism.
+2. Draft the event using that category's causal rules.
+3. Apply the Ultimate Reclassification Gate to every Surprise and Special candidate.
+4. If the Ultimate threshold is met, reclassify and rewrite as Ultimate.
+5. Apply semantic-state validation and all remaining end-of-round checks.
+6. Commit only the fully validated final classification.
+
+
 ## Mandatory In-App Random Resolution Rule
 
 Every round MUST perform its probabilistic checks locally inside the ChatGPT app before the round is output or committed. ChatGPT MUST locally generate the random draw used for the Special-event probability and any required Magnitude-11 probability checks from the current game state and campaign logic. These are simulation draws performed for this campaign, not values copied from GitHub, search results, or a prewritten round.
