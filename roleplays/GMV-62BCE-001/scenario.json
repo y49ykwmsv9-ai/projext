@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 62,
-  "latest_date": "-0058-02-28",
+  "latest_round": 63,
+  "latest_date": "-0058-03-31",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 91.136,
+    "current_round_roll": 54.2718,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "continuity": {
-    "campaign_development": "February 58 BCE: scouts trace the January raid, identify Aulus Vettius as the private contracting intermediary, and use controlled pursuit to drive the remaining raiders away from civilian areas into organized patrols.",
+    "campaign_development": "March 58 BCE: Valerius sends the recovered wax seal, payment record, and raid testimony directly to the regional authority who survived the January attack, accompanying the evidence with a personal message wishing him a rapid recovery under the honors of Mars and Jupiter. The authority resumes hearings and keeps the seal in official custody while Celer and Marcellus independently preserve and compare the evidence.",
     "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice. Round 59 surveys and incorporates an additional 0.50 sq mi (320 acres) after field measurements and witnessed boundary confirmation, bringing measured personal holdings to 7.5625 sq mi (4,840 acres)."
   },
   "end_of_round_checks": {
@@ -47,7 +47,8 @@
     "canonical_round_58": "verified_pending_commit",
     "canonical_round_59": "verified",
     "canonical_round_60": "verified",
-    "canonical_round_62": "verified"
+    "canonical_round_62": "verified",
+    "canonical_round_63": "verified"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
