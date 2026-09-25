@@ -1,0 +1,531 @@
+{
+  "schema_version": "gmv-round-v3",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 82,
+  "date": "-0057-05-19",
+  "directive": "The new Roman-authorized expedition continues from the camp beyond the first difficult pass while established estate administration, correspondence, agricultural management, and documentary inquiry continue independently.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R082-E001",
+      "round_number": 82,
+      "date": "13 May 57 BCE",
+      "event_category": "Direct",
+      "title": "THE EXPEDITION'S SCRIBES FIX THE GENERAL REGION OF THE NEW COUNTRY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman expedition",
+        "expedition scribes",
+        "Narnia",
+        "Interamna Nahars",
+        "Spoletium",
+        "Fulginium",
+        "Iguvium"
+      ],
+      "body": "The field record begins the new week by assigning the country beyond the first difficult pass to a broad central Apennine and Umbrian geographic frame. The scribes compare the terrain, routes, and river directions observed by the expedition with known places used as reference anchors, including Narnia, Interamna Nahars, Spoletium, Fulginium, and Iguvium. The comparison is deliberately written as a regional identification rather than a claim that the column has reached any one of those towns. The expedition's current field record does not fix its temporary camp to a precise settlement. This distinction gives the Roman record a usable geographic context without turning an uncertain position into a false certainty. The new entry is copied into the field book beside the account of the difficult pass crossed during the previous week.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 12,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R082-E002",
+      "round_number": 82,
+      "date": "14 May 57 BCE",
+      "event_category": "Connected",
+      "title": "A LOWER TRACK APPEARS TO LEAD TOWARD THE OLDER UMBRIAN ROAD NETWORK",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman expedition",
+        "local guide",
+        "expedition scribes",
+        "Via Flaminia",
+        "Spoletium",
+        "Fulginium"
+      ],
+      "body": "A local guide identifies a lower track running away from the difficult ground and toward country that is easier to cross with animals. The track is compared with the expedition's earlier route accounts and with the known Roman road corridor through Umbria. The scribes note that its broader direction can be discussed in relation to the country around Spoletium and Fulginium without recording either place as a destination actually reached. The track is not presented as a newly discovered Roman road, only as a route not previously represented in the expedition's own field notes. The party spends part of the day examining its footing and points of water before deciding how much of the route can safely be tested. The investigation consumes part of the expedition's carried provisions and adds another verified route possibility to the record.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 10,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R082-E003",
+      "round_number": 82,
+      "date": "15 May 57 BCE",
+      "event_category": "Surprise",
+      "title": "A RELIABLE SPRING CHANGES THE EXPEDITION'S WATER CALCULATION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman expedition",
+        "expedition companions",
+        "local inhabitants"
+      ],
+      "body": "While testing the lower track, the expedition finds a dependable hillside spring that is easier to reach than the water source described in the earlier route account. The discovery changes the day's immediate water arrangements and allows the party to refill its carried vessels before continuing. Local inhabitants who know the ground confirm that the spring is used seasonally, although their statements are kept separate from what the expedition has personally observed. The scribes record the location in relation to the surrounding slopes and the route from which it was reached. The finding does not reveal a city or a final destination, but it gives the expedition a safer supply point for the next stage of movement. The water is therefore entered as a verified field observation rather than a rumor.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 2,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 7,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R082-E004",
+      "round_number": 82,
+      "date": "16 May 57 BCE",
+      "event_category": "Direct",
+      "title": "THE NEWLY PURCHASED FIELDS REMAIN IN FULL SPRING ROTATION AT THE ESTATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "estate workers",
+        "nearby smallholders"
+      ],
+      "body": "At the estate, the newly purchased tract remains in the full rhythm of spring cultivation while the expedition continues beyond the pass. Stewards coordinate watering and field labor with the older acreage and continue to keep the purchased ground separately identified in the property records. Grain and fodder are drawn from the household stores to sustain the longer working days, but no new land is acquired and the tract's ownership remains unchanged. The work maintains the estate's established productive use while placing another ordinary demand on its available provisions. The stewards also preserve the established access arrangements with nearby smallholders so that the new tract does not become the cause of another boundary dispute. The field books therefore record continued cultivation, continued provisioning, and no change to the estate boundary.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R082-E005",
+      "round_number": 82,
+      "date": "17 May 57 BCE",
+      "event_category": "Connected",
+      "title": "MARCELLUS ASKS FOR THE EXPEDITION'S METHOD OF DISTINGUISHING OBSERVATION FROM TESTIMONY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Aulus Vettius",
+        "Roman correspondents",
+        "expedition scribes"
+      ],
+      "body": "A further communication from Marcus Claudius Marcellus reaches the estate concerning the continuing documentary inquiry. Marcellus asks whether the expedition's geographic notes can be kept in the same strict distinction between firsthand observation and later testimony that has been used in the raid dossier associated with Aulus Vettius. The question does not order a route change or impose a destination on the expedition. Valerius's scribes recognize that the same documentary discipline is already being used in the field and prepare the relevant description for preservation with the correspondence. The exchange links the household investigation and the expedition without merging their separate evidence. The Roman archive therefore gains a clearer account of how the expedition is recording uncertain geography without overstating what has been personally observed.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R082-E006",
+      "round_number": 82,
+      "date": "18 May 57 BCE",
+      "event_category": "Ultimate",
+      "title": "THE EXPEDITION FINDS A SECONDARY PASSAGE INTO THE UPPER COUNTRY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman expedition",
+        "expedition companions",
+        "expedition scribes",
+        "Spoletium",
+        "Fulginium",
+        "Narnia"
+      ],
+      "body": "You wake before the camp has fully stirred, with the route papers from the previous days still beside the field records.\nThe difficult pass you crossed has not ended the expedition; it has changed the kind of country you are now trying to understand.\nBeyond the camp, the ground divides into several lines of travel, some rising toward broken slopes and others falling toward lower country.\nThe purpose of the journey remains unchanged: continue the newly authorized Roman expedition, examine unfamiliar country directly, and preserve information that can later be tested.\nThe military ledger still records 394 soldiers in the wider establishment, but no separate numerical strength for this expedition detachment is established in the surviving campaign record.\nYou therefore do not invent a count for the field party; instead, you judge the road by the loads, animals, men, and distance that can actually be managed before nightfall.\nA local guide points toward a narrow line between two rising shoulders of ground, and at first it looks like little more than a rough track.\nYou walk farther along it yourself before allowing the rest of the party to commit to the passage.\nThe surface is uneven, but the route is passable, and the country ahead falls away more gently than the slope behind the camp.\nThen the track bends, revealing a second passage hidden from the camp and from the approach to the first pass.\nYou stop and look back at the ground already crossed before studying the country beyond the bend.\nWhat seemed from a distance to be a closed wall of high ground is now revealed as a connected system of ridges and lower saddles.\nThe discovery does not place you inside any named city, nor does it reveal the final destination of the expedition.\nInstead, it gives the scribes something more useful: a route that can be described and compared with the known geography of central Umbria.\nThey compare the passage with the regional anchors around Narnia, Spoletium, and Fulginium, marking those names as reference points rather than claiming that the expedition has reached them.\nThe difference matters because the field record can now become more precise without pretending that uncertainty has disappeared.\nFrom the higher ground you can see a sequence of valleys and ridges leading toward easier country, and the party spends the day testing the passage rather than trusting a distant impression.\nYou send the animals through the safest sections first and follow behind them, steadying one load where the route narrows; the column passes without a loss.\nAt the stopping place, you compare the new observation with the earlier accounts and keep both records: testimony remains testimony, while what you have personally crossed is entered as direct evidence.\nBy evening the secondary passage has become the strongest geographic result of the expedition since the first difficult pass, giving the journey a new viable line of movement while leaving its ultimate destination unresolved.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 34,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R082-E007",
+      "round_number": 82,
+      "date": "19 May 57 BCE",
+      "event_category": "Direct",
+      "title": "THE NEW ROUTE REGISTER IS COPIED AND SEALED BEFORE THE NEXT MARCH",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman expedition",
+        "expedition scribes",
+        "Quintus Caecilius Metellus Celer"
+      ],
+      "body": "Before the expedition breaks camp again, the scribes prepare a clean copy of the new route register and seal it with the earlier pass account. The copy distinguishes direct observations from guide testimony and preserves the regional place-name anchors separately from the expedition's unresolved exact position. A notation associated with Quintus Caecilius Metellus Celer's correspondence is kept with the record because the Roman political connection remains part of the documentary chain surrounding the expedition. The field party therefore begins the next stage with a more precise regional frame and a second tested route, but without a fabricated final destination. The country beyond the new passage remains open for further examination.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 394,
+      "change": 0,
+      "after": 394,
+      "unit": "men"
+    },
+    "population": {
+      "before": 250,
+      "change": 0,
+      "after": 250,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 6,
+      "change": -1,
+      "after": 5,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1908,
+      "change": 85,
+      "after": 1993,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.75,
+      "change": 0,
+      "after": 7.75,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": 394,
+    "population": 250,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 5,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 1993,
+    "relations": 100,
+    "land_area_sq_miles": 7.75,
+    "temporary_unavailable": 0
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public": 3093.6,
+    "private": 623.4,
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "background_interest_realized_denarii": 0,
+    "currency_flow_denarii": 0
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "current_round_base_probability_percent": 12,
+    "roll": 15.669955687895476,
+    "triggered": false,
+    "event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      0.9634883092388469,
+      69.63796291878242,
+      94.41793643307217
+    ],
+    "magnitude_11_events": 1,
+    "magnitude_11_event_ids": [
+      "GMV-62BCE-001-R082-E006"
+    ],
+    "random_generation": "locally generated in the ChatGPT app before output"
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "exact_quantity_unit_consistency": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "land_change_and_ledger_consistent": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "ultimate_event_contract": "PASS",
+    "ultimate_second_person_requirement": "PASS",
+    "ultimate_minimum_detail_requirement": "PASS",
+    "semantic_state_consistency": "PASS",
+    "military_state_consistency": "PASS",
+    "economic_financial_consistency": "PASS",
+    "agriculture_state_consistency": "PASS",
+    "literal_revenue_realization_check": "PASS",
+    "current_total_ledger_complete": "PASS",
+    "local_random_checks": "PASS",
+    "geographic_reference_consistency": "PASS",
+    "geographic_source_protection": "PASS",
+    "canonical_pointer_synchronization": "PENDING_SYNC"
+  },
+  "next_round_gate": "OPEN"
+}
