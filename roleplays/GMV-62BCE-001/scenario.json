@@ -107,7 +107,8 @@
     },
     "canonical_round_81": "verified",
     "canonical_round_82": "verified",
-    "canonical_round_83": "verified"
+    "canonical_round_83": "verified",
+    "canonical_contract_note": "README updated: Surprise and Special events use identical prose/news requirements; category affects generation/classification only."
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -308,6 +309,7 @@
       "Special",
       "Ultimate"
     ],
-    "classification_note": "Event category describes how an event enters the simulation; Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic."
+    "classification_note": "Event category describes how an event enters the simulation; Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
+    "prose_rule": "Direct, Connected, Surprise, and Special events share the same player-facing prose/news schema: Event ID, Date, Event Type, Title, Mentioned Entities, a 5–7+ sentence News/Event narrative, AI-facing ledger, and Financial realization when applicable. Surprise and Special do not receive shortened or different prose merely because of their category. Ultimate alone may use substantially longer narrative treatment when the campaign context supports it."
   }
 }
