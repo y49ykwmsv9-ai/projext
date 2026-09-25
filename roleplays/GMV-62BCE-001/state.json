@@ -1,18 +1,18 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 65,
-  "date": "-0058-05-31",
+  "round": 66,
+  "date": "-0058-06-30",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3174,
     "private": 601,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 97,
-    "last_round_private_transfer": 10
+    "last_round_net_public_profit": 0,
+    "last_round_private_transfer": 0
   },
   "metrics": {
-    "population": 249,
     "soldiers": 394,
+    "population": 249,
     "taxation": 3,
     "economy": 100,
     "agriculture": 90,
@@ -20,13 +20,13 @@
     "trade": 100,
     "readiness": 100,
     "morale": 100,
-    "supply": 36,
+    "supply": 35,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 97,
-    "technology": 88,
-    "intelligence": 1275,
+    "technology": 94,
+    "exhaustion": 100,
+    "intelligence": 1325,
     "relations": 100,
     "land_area_sq_miles": 7.6875,
     "temporary_unavailable": 0
@@ -35,8 +35,8 @@
     "land_area_sq_miles": 7.6875,
     "acres": 4920,
     "roman_iugera_approx": 7387.5,
-    "change_this_round_sq_miles": 0.125,
-    "scope": "personal estates and holdings; newly seized final-refuge tract surveyed at 0.125 sq mi (80 acres) and incorporated in Round 65"
+    "change_this_round_sq_miles": 0,
+    "scope": "personal estates and holdings; Round 65 newly seized final-refuge tract remains incorporated"
   },
   "relationships": {
     "nearby-landowners": 35,
@@ -45,267 +45,46 @@
     "military-connections": 20,
     "roman-political-elite": 7,
     "quintus-caecilius-metellus_celer": 3,
-    "marcus-claudius-marcellus": 10,
+    "marcus-claudius_marcellus": 11,
     "merchant-connections": 22,
-    "quintus-caecilius_metellus_celer": 4,
-    "marcus-claudius_marcellus": 11
+    "quintus-caecilius_metellus_celer": 4
   },
   "continuity": {
-    "campaign_development": "May 58 BCE: the newly seized tract surrounding the cleared final refuge is surveyed for the first time, measured at 0.125 sq mi (80 acres) exclusive of the older fortified complex already represented in the property ledger, and placed under estate administration. Restoration begins while the raid investigation continues; Valerius travels to Rome and personally meets Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate and brings holdings to 7.0625; Round 59 adds 0.50 to reach 7.5625; Round 65 newly surveys the final-refuge tract at 0.125 sq mi (80 acres), exclusive of the older 0.0625 sq mi fort-complex component, bringing holdings to 7.6875 sq mi (4,920 acres)."
+    "campaign_development": "June 58 BCE: Valerius remains in Rome after his first personal meetings with Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus. He spends the month in philosophical and scholarly circles, acquires a large working library through reputation-based gifts, favors, introductions, and access, and broadens his reputation beyond military and political affairs.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds the freshly surveyed 0.125 sq mi final-refuge tract to reach 7.6875. Round 66 adds no land."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 43.8176,
+    "current_round_roll": 68.3124,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
-    "canonical_round_49": "verified",
-    "commit_check": "verified",
-    "financial_continuity_audit": {
-      "status": "passed_with_historical_uncertainty_preserved",
-      "candidate_estate_tax_on_recorded_profit": 135,
-      "not_posted_to_top_line": true,
-      "investment_principal_round_21": 300,
-      "investment_return_terms": "unresolved"
-    },
-    "canonical_round_50": "verified",
-    "special_event_resolution": "verified",
-    "canonical_round_51": "verified",
-    "canonical_round_52": "verified",
-    "magnitude_11_check": "verified",
-    "canonical_round_53": "verified",
-    "ledger_schema_reconciliation": {
-      "organization_in_all_events": true,
-      "organization_round_total": true,
-      "organization_before": 100,
-      "organization_delta": 0,
-      "organization_after": 100,
-      "relations_capped_at_100": true
-    },
-    "metric_bounds_reconciliation": {
-      "status": "verified",
-      "schema": "roleplay-fixed-metrics-v2",
-      "relations": 100,
-      "organization": 100
-    },
-    "canonical_round_54": "verified",
-    "canonical_round_55": "verified",
-    "canonical_round_56": "verified",
-    "financial_realization_reconciliation": {
-      "status": "verified",
-      "schema": "gmv-financial-realization-v3",
-      "historical_rounds_preserved": true,
-      "unsupported_historical_income_not_invented": true
-    },
-    "canonical_round_57": "verified",
+    "canonical_round_65": "verified",
+    "canonical_round_66": "verified",
     "current_total_ledger": {
       "status": "verified",
       "schema": "roleplay-fixed-metrics-v2",
       "all_established_metrics_present": true,
-      "matches_round_065": true
+      "matches_round_066": true
     },
-    "canonical_round_58": "verified",
-    "canonical_round_59": "verified",
-    "canonical_round_60": "verified",
-    "canonical_round_61": "verified",
-    "canonical_round_62": "verified",
-    "canonical_round_63": "verified",
-    "canonical_round_64": "verified",
-    "canonical_round_65": "verified"
-  },
-  "property_ledger": {
-    "schema_version": "property-ledger-v1.1",
-    "status": "historical_spatial_allocation_resolved",
-    "unit": "square miles",
-    "rule": "active land area is derived from active ledger records; historical aggregate measurements are preserved; reconstructed component allocations must be explicitly marked as reconstructed and must not be treated as new acquisitions.",
-    "records": [
-      {
-        "holding_id": "principal_estate",
-        "name": "Principal estate",
-        "asset_type": "estate",
-        "area_sq_miles": 3,
-        "area_status": "reconstructed_component_allocation",
-        "acquisition_date": null,
-        "acquisition_round": null,
-        "acquisition_value": null,
-        "currency_account": null,
-        "seller_counterparty": null,
-        "acquisition_source_event_id": "GMV-62BCE-001-R021-E001",
-        "current_status": "active_historically_established",
-        "provenance": "Round 21 explicitly identifies the principal estate as an existing holding. Round 33 subsequently measures the cumulative pre-existing personal estates and holdings at 4.00 sq mi. The component allocation is reconstructed here at 3.00 sq mi; this is not a new acquisition.",
-        "confidence": "high for ownership/identity; reconstructed for area"
-      },
-      {
-        "holding_id": "lake_port",
-        "name": "Lake port holding",
-        "asset_type": "port_holding",
-        "area_sq_miles": 1,
-        "area_status": "reconstructed_component_allocation",
-        "acquisition_date": null,
-        "acquisition_round": null,
-        "acquisition_value": null,
-        "currency_account": null,
-        "seller_counterparty": null,
-        "acquisition_source_event_id": "GMV-62BCE-001-R021-E001",
-        "current_status": "active_historically_established",
-        "provenance": "Round 21 explicitly identifies the lake port as an existing holding. Round 33 subsequently measures the cumulative pre-existing personal estates and holdings at 4.00 sq mi. The component allocation is reconstructed here at 1.00 sq mi; this is not a new acquisition.",
-        "confidence": "high for ownership/identity; reconstructed for area"
-      },
-      {
-        "holding_id": "round_42_restoration_acquisitions",
-        "name": "June 60 BCE restoration-oriented estate acquisitions",
-        "asset_type": "estate_acquisitions",
-        "area_sq_miles": 0.25,
-        "area_status": "confirmed_round_measurement",
-        "acquisition_date": null,
-        "acquisition_round": 42,
-        "acquisition_value": null,
-        "currency_account": "treasury",
-        "seller_counterparty": "voluntary sellers; exact counterparties not preserved",
-        "acquisition_source_event_id": "GMV-62BCE-001-R042-E007",
-        "current_status": "active_aggregate_pending_transaction_breakdown",
-        "provenance": "Round 42 records 0.25 sq mi of completed acquisitions; the source does not separate purchase price from restoration cost or give individual transaction values/dates.",
-        "confidence": "area confirmed; purchase-price/date breakdown unresolved"
-      },
-      {
-        "holding_id": "round_53_former_bandit_lands",
-        "name": "Former bandit-held lands granted by surrounding landholders",
-        "asset_type": "estate_land",
-        "area_sq_miles": 2.8125,
-        "area_status": "confirmed_round_55_measurement",
-        "acquisition_date": "-0059-05",
-        "acquisition_round": 53,
-        "acquisition_value": null,
-        "currency_account": null,
-        "seller_counterparty": "surrounding landholders acting unanimously",
-        "acquisition_source_event_id": "GMV-62BCE-001-R053-E001",
-        "current_status": "active_owned_and_measured",
-        "provenance": "Round 53 records unanimous transfer of ownership; landholders state they lack the resources and time to restore the former bandit lands. Exact aggregate area is not yet measured. Round 55 field survey measures the aggregate at 2.8125 sq mi (1,800 acres).",
-        "confidence": "ownership high; area confirmed by Round 55 survey"
-      },
-      {
-        "holding_id": "round_55_fort_complex_component",
-        "name": "Fortified store-yard and winter-pass complex",
-        "asset_type": "fort_component",
-        "area_sq_miles": 0.0625,
-        "area_status": "confirmed_component_measurement",
-        "acquisition_round": 14,
-        "acquisition_source_event_id": "GMV-62BCE-001-R014-E001",
-        "current_status": "active_component_within_preexisting_holdings",
-        "provenance": "Round 55 survey measures the complex at 0.0625 sq mi (40 acres). It is a component of the pre-existing measured holdings and is not added to the aggregate land total.",
-        "confidence": "area confirmed by Round 55 survey; component treatment confirmed"
-      },
-      {
-        "holding_id": "round_59_surveyed_expansion",
-        "name": "November 59 BCE surveyed expansion tract",
-        "asset_type": "estate_land",
-        "area_sq_miles": 0.5,
-        "area_status": "confirmed_round_59_measurement",
-        "acquisition_date": "-0059-11",
-        "acquisition_round": 59,
-        "acquisition_value": null,
-        "currency_account": "public",
-        "seller_counterparty": "no active claimant; boundary recognized by surrounding landholders",
-        "acquisition_source_event_id": "GMV-62BCE-001-R059-E001",
-        "current_status": "active_owned_and_under_production",
-        "provenance": "Round 59 field survey identifies a contiguous 0.50 sq mi tract omitted from earlier measurements; surviving boundary marks and witnesses place it within Valerius's estate administration. No acquisition price is recorded.",
-        "confidence": "ownership/area established by Round 59 survey and witnesses"
-      },
-      {
-        "holding_id": "round_65_final_refuge_tract",
-        "name": "Newly seized final-refuge tract",
-        "asset_type": "estate_land",
-        "area_sq_miles": 0.125,
-        "area_status": "confirmed_round_65_measurement",
-        "acquisition_date": "-0058-04",
-        "acquisition_round": 64,
-        "acquisition_value": null,
-        "currency_account": null,
-        "seller_counterparty": "former bandit holding; no private seller recorded",
-        "acquisition_source_event_id": "GMV-62BCE-001-R064-E005",
-        "current_status": "active_owned_and_under_estate_administration",
-        "provenance": "Round 64 cleared the final organized bandit refuge. Round 65 fresh survey measures the newly seized tract at 0.125 sq mi (80 acres), exclusive of the older fortified complex component already represented in the property ledger.",
-        "confidence": "area confirmed by Round 65 survey; ownership established through Round 64 seizure"
-      }
-    ],
-    "derived_total_land_area_sq_miles": 7.6875,
-    "unresolved_historical_items": [
-      "exact historical acquisition date/price for the principal estate",
-      "exact historical acquisition date/price for the lake-port holding",
-      "individual Round-42 purchase prices and transaction dates",
-      "separation of Round-42 acquisition consideration from restoration/repair expenditure"
-    ],
-    "spatial_reconstruction": {
-      "baseline_round": 33,
-      "baseline_area_sq_miles": 4,
-      "baseline_acres": 2560,
-      "allocation": {
-        "principal_estate_sq_miles": 3,
-        "lake_port_sq_miles": 1
-      },
-      "method": "descriptor-based historical reconstruction",
-      "rationale": "The principal estate is consistently described as the main landed/agricultural holding, while the lake port is described as a separate commercial/port holding.",
-      "status": "resolved_for_simulation_use",
-      "caveat": "The 3.00/1.00 component figures are reconstructed allocations, not newly discovered verbatim historical measurements."
-    }
-  },
-  "next_round_gate": {
-    "status": "OPEN",
-    "reason": "Round 65 persisted with complete Current Total Ledger and verified end-of-round checks."
-  },
-  "character_registry": {
-    "schema_version": "gmv-character-registry-v1",
-    "rule": "Recurring named characters are persistent simulation entities. Established characters must be considered during every round and reused by name when contextually involved. Generic labels may be used only for genuinely unidentified groups or when no named individual is supported by prior continuity.",
-    "characters": [
-      {
-        "id": "gaius_maximus_valerius",
-        "name": "Gaius Maximus Valerius",
-        "role": "player_character",
-        "status": "active",
-        "continuity": "canonical protagonist"
-      },
-      {
-        "id": "quintus_caecilius_metellus_celer",
-        "name": "Quintus Caecilius Metellus Celer",
-        "role": "Roman political connection",
-        "status": "established",
-        "continuity": "persisted relationship; may appear when contextually relevant"
-      },
-      {
-        "id": "marcus_claudius_marcellus",
-        "name": "Marcus Claudius Marcellus",
-        "role": "Roman connection",
-        "status": "established",
-        "continuity": "persisted relationship; may appear when contextually relevant"
-      }
-    ]
-  },
-  "event_variety_policy": {
-    "schema_version": "gmv-event-variety-v1",
-    "rule": "Do not make every event about the same subject. Prefer distinct news dimensions supported by current state: military operations, intelligence, logistics, political relationships, economic/property activity, social/local developments, personal developments, geography, and reactions. Variety must arise from simulation context and must not be fabricated solely to fill slots."
-  },
-  "financial_policy": {
-    "schema_version": "gmv-financial-realization-v3",
-    "rule": "Economic activity need not explicitly mention income. Realized financial effects are intermittent consequences recorded in the ledger when the event provides a concrete basis.",
-    "unit": "denarii",
-    "account_routing": {
-      "treasury": "state, military, public-command, or explicitly public/state funds",
-      "public_account": "estate and productive/commercial operating capital",
-      "private_account": "Valerius private wealth and established private transfers",
-      "financial_realization": "event-level financial effects recorded inside ai_ledger.financial_realization"
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v2",
+      "all_bounded_metrics_within_limits": true,
+      "relations": 100,
+      "exhaustion": 100
     },
-    "double_counting_rule": "Transfers between accounts are not new income; gross receipts, costs, net public profit, private transfers, principal, and realized returns remain distinct.",
-    "historical_reconciliation": "Documented past financial blocks remain canonical. Missing historical income is not fabricated. Legacy currency_units are interpreted as denarii while source uncertainty is preserved.",
-    "last_reconciled_round": 54,
-    "last_reconciled_event_id": "GMV-62BCE-001-R054-E006",
-    "last_reconciled_public_profit_denarii": 110,
-    "last_reconciled_private_transfer_denarii": 11
+    "financial_realization_reconciliation": {
+      "status": "verified",
+      "schema": "gmv-financial-realization-v3",
+      "round_066_no_realized_financial_effect": true
+    },
+    "next_round_gate": "OPEN"
   }
 }
