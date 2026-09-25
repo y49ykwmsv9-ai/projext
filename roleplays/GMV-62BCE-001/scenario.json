@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 79,
-  "latest_date": "-0057-04-28",
+  "latest_round": 80,
+  "latest_date": "-0057-05-05",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -280,5 +280,23 @@
       "round-052.json": "historical legacy-schema record; never a latest-round pointer"
     },
     "artifact_exclusion_rule": "Historical or legacy records may remain for audit but cannot override the synchronized canonical pointer."
+  },
+  "ultimate_event_policy": {
+    "schema_version": "gmv-ultimate-event-v1",
+    "definition": "Ultimate is a core event category reserved for extraordinary circumstances that warrant an unusually detailed, cinematic account because the event is materially exceptional within the campaign.",
+    "purpose": "Preserve major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or similarly exceptional developments without overwriting ordinary events.",
+    "clarification": "Ultimate may be retrospective when a major earlier development is formally reconstructed later. It uses the same required event fields and fixed AI ledger. It does not replace Direct, Connected, Surprise, or Special; it is not a probability system and does not bypass metric bounds or financial rules.",
+    "usage_rule": "Generate Ultimate only when campaign context supports extraordinary circumstances. Do not force one every round.",
+    "narrative_rule": "Ultimate narratives may be substantially longer and more cinematic than ordinary news, emphasizing sequence, setting, hardship, decisions, consequences, and continuity while remaining grounded in established campaign facts."
+  },
+  "event_category_hierarchy": {
+    "core_categories": [
+      "Direct",
+      "Connected",
+      "Surprise",
+      "Special",
+      "Ultimate"
+    ],
+    "classification_note": "Event category describes how an event enters the simulation; Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic."
   }
 }
