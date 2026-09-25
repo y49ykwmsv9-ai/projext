@@ -266,4 +266,38 @@ The canonical round is determined only by the synchronized values in `scenario.j
 - Ultimate is determined by extraordinary narrative circumstances; Special is determined by the independent Special-event system. They are not interchangeable.
 - An Ultimate event may coexist with a Special event in the same round.
 - No event category should be used merely to satisfy a numerical quota or artificial distribution.
+## Mandatory In-App Random Resolution Rule
 
+Every round MUST perform its probabilistic checks locally inside the ChatGPT app before the round is output or committed. ChatGPT MUST locally generate the random draw used for the Special-event probability and any required Magnitude-11 probability checks from the current game state and campaign logic. These are simulation draws performed for this campaign, not values copied from GitHub, search results, or a prewritten round.
+
+### Special-Event Random Check
+- Every round, ChatGPT MUST locally generate a fresh random value for the Special-event check.
+- The draw is compared with the current campaign Special-event probability from the scenario contract.
+- A successful draw creates exactly one Special event in that round's ordinary event set; a failed draw creates none.
+- The random draw MUST be generated before final event output and recorded in the round footer.
+- The Special-event result must not be retroactively selected merely because an interesting event was written.
+
+### Magnitude-11 Random Check
+- Every round, ChatGPT MUST locally generate the required Magnitude-11 random check(s) according to the campaign's current probability and game-state logic.
+- Magnitude-11 is tracked separately from Special-event selection and must never be substituted for the Special roll.
+- The generated checks and result must be recorded in the round footer whenever the campaign contract requires them.
+
+### Randomness Integrity
+- Existing random values in a prior round, scenario file, or draft MUST NOT be reused as the current round's random draw.
+- A draft round cannot be finalized by copying its old Special or Magnitude-11 values.
+- The random checks occur before the final semantic-state validation and commit gate so that any generated Special/Magnitude-11 event is included in the same state-validation process as all other events.
+- If the random result changes the event set, all ledgers, totals, financial effects, narrative, and current-total ledger MUST be recalculated before output.
+- A round MUST NOT be committed if the required local random checks were not executed in the ChatGPT app.
+- The round footer MUST identify that the random checks were locally generated in-app and provide the resulting draw(s), probability, and outcome.
+
+### Required Pre-Output Order
+1. Read the canonical README, scenario, state, current round, and relevant continuity records.
+2. Generate the new round's local Special and Magnitude-11 random checks in the ChatGPT app.
+3. Generate candidate events using the resulting state and causal logic.
+4. Apply the semantic-state validation gate.
+5. Recalculate all metric deltas, financial realization, and current totals.
+6. Run all end-of-round checks.
+7. Synchronize the canonical pointer.
+8. Only then output the completed round and commit it.
+
+The local in-app random checks are mandatory simulation operations and are part of the campaign contract.
