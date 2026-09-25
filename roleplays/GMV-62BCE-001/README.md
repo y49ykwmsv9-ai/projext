@@ -202,3 +202,16 @@ A round is not complete and `next_round_gate` must not open until the Current To
 The canonical round is determined only by the synchronized values in `scenario.json.latest_round`, `scenario.json.latest_date`, `state.json.round`, `state.json.date`, and the matching `rounds/round-{latest_round}.json` record. Do not infer the current round from search-result ordering, filename ordering, or a legacy record's internal round number.
 
 `round-014.json` and `round-052.json` are historical records and are never eligible to become the current campaign pointer. Round 52 is also a legacy-schema record and must be interpreted through its later migration/reconciliation history. Historical records remain available for continuity and audit, but they cannot override the synchronized canonical pointer.
+
+
+## Ultimate Events
+
+`Ultimate` is a core event category alongside `Direct`, `Connected`, `Surprise`, and `Special`. It is reserved for extraordinary circumstances that warrant an unusually detailed, cinematic account in the event output. Its purpose is to preserve major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or similarly exceptional developments at their proper narrative scale without overwriting the ordinary event stream.
+
+- `Ultimate` is a classification of extraordinary narrative significance, not a replacement for the other event categories and not a second Special-event probability system.
+- An Ultimate event may be retrospective when an extraordinary earlier development is formally reconstructed or documented later.
+- Its narrative should be substantially more detailed and cinematic than ordinary events, emphasizing sequence, setting, hardship, decisions, consequences, and continuity.
+- It must remain grounded in established campaign facts; unsupported named people, locations, outcomes, or mechanics must not be invented merely for dramatic effect.
+- The fixed AI ledger remains mandatory, including metric bounds and financial rules.
+- Ultimate does not alter or replace the independent Special-event roll. A round may contain both, either one, or neither.
+- Ultimate events are not required every round and must never be forced merely to fill an event quota.
