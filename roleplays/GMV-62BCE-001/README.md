@@ -98,6 +98,26 @@ The AI ledger is the explicit machine-readable record of the state changes produ
 
 An event may have zero change to a metric; that zero should remain explicit when the metric is part of the event ledger.
 
+## Financial Realization and Account Routing
+
+Economic activity does **not** need to be narrated as an accounting statement. An event may describe an observable development such as harvests, cargo movement, trade, rents, fees, contracts, workshop activity, or another productive/commercial development without explicitly stating the resulting income in the article body.
+
+When the observable event produces a realized financial effect, the simulation should record that effect intermittently in the machine-readable financial ledger. Financial realization is a consequence of the event, not a requirement that every economic event produce money and not a requirement that the article explain the accounting.
+
+Financial effects must use **denarii** and must be routed to the appropriate account according to the event:
+- `treasury`: state, military, public-command, or other explicitly public/state funds.
+- `public_account`: estate or operating capital used for the productive/commercial administration of Valerius's holdings.
+- `private_account`: Valerius's private wealth when the event creates a realized private receipt or an established private transfer.
+- `currency`: the exact-denarii event/round financial-flow metric when a financial change must be represented in the fixed metric ledger; it is not a substitute for identifying the destination account when account routing is known.
+
+The same denarius must not be counted twice. A transfer from one account to another is a routing event, not new income. Gross receipts, operating costs, net public profit, private transfers, investment principal, and realized investment returns remain distinct fields where the historical record supports them.
+
+### Historical Reconciliation Rule
+
+Past rounds are reconciled by preserving documented financial records and by adding financial effects only where the surviving event record provides a concrete basis. Older rounds with explicit financial blocks remain authoritative even when the article body does not mention income. Missing historical income is **not** fabricated merely because an estate or trade activity occurred. Legacy event ledgers using `currency_units` are normalized to the fixed `currency` unit of **denarii** for interpretation, while their historical uncertainty is preserved.
+
+For the current reconciliation, Round 54's documented first regular commercial loads are recorded as a realized public-account profit of **110 denarii**, with the established **10% private transfer of 11 denarii**. The article itself is unchanged; the financial result is represented in the ledger because the event documents actual commercial loads. This is the model for future rounds: observable economic events may quietly produce intermittent account changes without turning the news article into an accounting report.
+
 ## Continuity Requirements
 
 Recurring named characters are persistent simulation entities. When contextually involved, they must be referenced by their established names rather than replaced with generic labels.
