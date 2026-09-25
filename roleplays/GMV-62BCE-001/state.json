@@ -1,41 +1,41 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 58,
-  "date": "-0059-10-31",
+  "round": 59,
+  "date": "-0059-11-30",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3100,
+    "public": 3020,
     "private": 583,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 330,
-    "last_round_private_transfer": 33
+    "last_round_net_public_profit": -80,
+    "last_round_private_transfer": 0
   },
   "metrics": {
     "population": 249,
     "soldiers": 398,
     "taxation": 3,
     "economy": 100,
-    "agriculture": 85,
+    "agriculture": 88,
     "infrastructure": 100,
     "trade": 100,
-    "readiness": 99,
+    "readiness": 100,
     "morale": 100,
-    "supply": 49,
+    "supply": 47,
     "organization": 100,
     "stability": 100,
     "legitimacy": 100,
-    "exhaustion": 69,
+    "exhaustion": 70,
     "technology": 85,
-    "intelligence": 1089,
+    "intelligence": 1102,
     "relations": 100,
-    "land_area_sq_miles": 7.0625,
+    "land_area_sq_miles": 7.5625,
     "temporary_unavailable": 0
   },
   "holdings": {
-    "land_area_sq_miles": 7.0625,
-    "acres": 4520,
+    "land_area_sq_miles": 7.5625,
+    "acres": 4840,
     "roman_iugera_approx": 7247.5,
-    "change_this_round_sq_miles": 0,
+    "change_this_round_sq_miles": 0.5,
     "scope": "personal estates and holdings; former bandit lands now measured and incorporated"
   },
   "relationships": {
@@ -49,15 +49,15 @@
     "merchant-connections": 22
   },
   "continuity": {
-    "campaign_development": "October 59 BCE: Valerius establishes three fixed collection centers with published schedules for estate income and taxes, records the first regular receipts, and separates estate operating funds from tax payments. Predictable collection days reduce unnecessary travel and help landowners keep labor in the fields. Measured personal holdings remain 7.0625 square miles (4,520 acres).",
-    "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice."
+    "campaign_development": "November 59 BCE: Valerius surveys an additional 0.50 square miles (320 acres), establishes its boundaries through field measurements and witnesses, begins returning it to full production, and files for formal recognition of the expanded estate through established Roman connections. Recognition remains pending.",
+    "land_area_history": "Round 33 establishes 4.00 square miles; Round 42 adds 0.25 sq mi; Round 53 establishes ownership of the former bandit-held lands pending survey; Round 55 measures that aggregate at 2.8125 sq mi and updates the measured personal total to 7.0625 sq mi. The 0.0625 sq mi fort complex is a component measurement inside the pre-existing holdings and is not added twice. Round 59 surveys and incorporates an additional 0.50 sq mi (320 acres) after field measurements and witnessed boundary confirmation, bringing measured personal holdings to 7.5625 sq mi (4,840 acres)."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the base probability. Success adds one Special event to the ordinary round event set; failure adds none. There is no candidate-selection, raw-success, or accepted-candidate stage.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 64.3187,
+    "current_round_roll": 37.1842,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately only when required; it is not part of Special-event selection."
@@ -108,11 +108,12 @@
     "canonical_round_57": "verified",
     "current_total_ledger": {
       "status": "verified",
-      "schema": "roleplay-fixed-metrics-v1",
+      "schema": "roleplay-fixed-metrics-v2",
       "all_established_metrics_present": true,
-      "matches_round_058": true
+      "matches_round_059": true
     },
-    "canonical_round_58": "verified"
+    "canonical_round_58": "verified",
+    "canonical_round_59": "verified"
   },
   "property_ledger": {
     "schema_version": "property-ledger-v1.1",
@@ -195,9 +196,25 @@
         "current_status": "active_component_within_preexisting_holdings",
         "provenance": "Round 55 survey measures the complex at 0.0625 sq mi (40 acres). It is a component of the pre-existing measured holdings and is not added to the aggregate land total.",
         "confidence": "area confirmed by Round 55 survey; component treatment confirmed"
+      },
+      {
+        "holding_id": "round_59_surveyed_expansion",
+        "name": "November 59 BCE surveyed expansion tract",
+        "asset_type": "estate_land",
+        "area_sq_miles": 0.5,
+        "area_status": "confirmed_round_59_measurement",
+        "acquisition_date": "-0059-11",
+        "acquisition_round": 59,
+        "acquisition_value": null,
+        "currency_account": "public",
+        "seller_counterparty": "no active claimant; boundary recognized by surrounding landholders",
+        "acquisition_source_event_id": "GMV-62BCE-001-R059-E001",
+        "current_status": "active_owned_and_under_production",
+        "provenance": "Round 59 field survey identifies a contiguous 0.50 sq mi tract omitted from earlier measurements; surviving boundary marks and witnesses place it within Valerius's estate administration. No acquisition price is recorded.",
+        "confidence": "ownership/area established by Round 59 survey and witnesses"
       }
     ],
-    "derived_total_land_area_sq_miles": 7.0625,
+    "derived_total_land_area_sq_miles": 7.5625,
     "unresolved_historical_items": [
       "exact historical acquisition date/price for the principal estate",
       "exact historical acquisition date/price for the lake-port holding",
@@ -220,8 +237,8 @@
   },
   "next_round_gate": {
     "status": "OPEN",
-    "reason": "Round 58 is resolved, persisted, and verified against the contract-required Current Total Ledger.",
-    "unlocked_after_round": 58,
+    "reason": "Round 59 is resolved, persisted, and verified against the contract-required Current Total Ledger.",
+    "unlocked_after_round": 59,
     "audit_file": "roleplays/GMV-62BCE-001/financial-continuity-audit.json"
   },
   "character_registry": {
