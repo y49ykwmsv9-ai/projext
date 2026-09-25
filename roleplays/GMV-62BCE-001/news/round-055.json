@@ -1,1 +1,166 @@
-{"schema_version":"gmv-news-v2","campaign_id":"GMV-62BCE-001","round":55,"period":"1 July 59 BCE – 31 July 59 BCE","articles":[]}
+{
+  "schema_version": "gmv-news-v2",
+  "campaign_id": "GMV-62BCE-001",
+  "round": 55,
+  "period": "1 July 59 BCE – 31 July 59 BCE",
+  "articles": [
+    {
+      "event": 1,
+      "event_id": "GMV-62BCE-001-R055-E001",
+      "round_number": 55,
+      "date": "4 July 59 BCE",
+      "event_category": "Direct",
+      "title": "SURVEY TEAMS REOPEN THE CAMPAIGN'S OLD BANDIT PROPERTY RECORDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman surveyors",
+        "local landholders",
+        "former bandit-held lands"
+      ],
+      "body": "At the beginning of July, Gaius Maximus Valerius orders the survey teams to return to the property descriptions left behind from the campaign against the bandit bands. The teams gather the surviving boundary notes from the winter-pass operation, the captured store-yard and the later parcels that had been placed under Valerius's ownership. Local landholders are brought back as witnesses so that old field edges, roads, watercourses and abandoned markers can be compared against the written records. Where two descriptions appear to cover the same ground, the surveyors reconcile them rather than counting the same tract twice. The work turns the previously unresolved aggregate into a defined surveying project with a single chain of evidence. Valerius's clerks prepare the register for a final acreage entry once the field measurements are complete.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 2,
+      "event_id": "GMV-62BCE-001-R055-E002",
+      "round_number": 55,
+      "date": "9 July 59 BCE",
+      "event_category": "Connected",
+      "title": "THE FORMER BANDIT TRACTS ARE MEASURED AS ONE RECONCILED AGGREGATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman surveyors",
+        "surrounding landholders",
+        "former bandit-held lands"
+      ],
+      "body": "The second survey pass completes the measurement of the former bandit-held properties that had remained outside Valerius's measured land total since May. Surveyors reconcile the connected fields, roads, waterways and abandoned working areas into a single aggregate while removing duplicated boundaries created by overlapping wartime descriptions. The completed measurement records 2.8125 square miles, equal to 1,800 acres, and the figure is witnessed by local landholders and entered into the estate register. The survey also preserves the internal divisions of the tract so that individual fields and access routes can be identified later without changing the aggregate total. For the first time, the entire former bandit grant has both confirmed ownership and a measured area. The result gives Valerius a firm basis for treating the lands as a documented part of his estate rather than as an unresolved campaign remainder.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 2.8125,
+        "organization": 0
+      }
+    },
+    {
+      "event": 3,
+      "event_id": "GMV-62BCE-001-R055-E003",
+      "round_number": 55,
+      "date": "14 July 59 BCE",
+      "event_category": "Direct",
+      "title": "THE FORTIFIED STORE-YARD AND WINTER-PASS COMPLEX IS MEASURED FROM OUTER WORKS TO INNER POSITION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman veterans",
+        "Roman surveyors",
+        "fortified store-yard",
+        "winter-pass holding"
+      ],
+      "body": "The survey teams next turn to the fortified store-yard and winter-pass position that Valerius's men had struggled to take during the campaign. Veterans who remember the assault accompany the surveyors through the approaches, identifying the gate, inner defensive position, storage ground, road approach and surviving outer works. The complete occupied defensive footprint is measured at 0.0625 square miles, equal to 40 acres. The measurement is entered as a component of the already measured holdings rather than as a second acquisition, because the fort complex was incorporated into Valerius's estate in the earlier campaign. Its exact footprint now gives the estate register a precise spatial record of one of the most important fortified positions on the property. The surveyors preserve the fort's internal features separately so future repairs or development can be tied to the measured ground.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": -1,
+        "exhaustion": 1,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 4,
+      "event_id": "GMV-62BCE-001-R055-E004",
+      "round_number": 55,
+      "date": "19 July 59 BCE",
+      "event_category": "Surprise",
+      "title": "OLD BOUNDARY MARKS REVEAL A SECOND LINE OF DEFENSE AROUND THE FORT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman veterans",
+        "local landholders",
+        "winter-pass holding"
+      ],
+      "body": "An unexpected discovery appears when veterans and local landholders recognize a line of older boundary marks beyond the most obvious earthworks around the fortified position. The marks correspond to an outer protected yard and approach that had not been distinguished clearly in the surviving campaign descriptions. The additional features fall within the same 40-acre measured footprint and therefore do not increase the estate's acreage. Their discovery nevertheless changes the detail of the fort record, showing that the position controlled more of its approach than the surviving central plan suggested. Valerius's clerks add the newly identified defensive line to the property map and cross-reference it with the veteran testimony. The discovery makes the survey record substantially more useful for understanding the fort's original function and later repair needs.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 5,
+      "event_id": "GMV-62BCE-001-R055-E005",
+      "round_number": 55,
+      "date": "24 July 59 BCE",
+      "event_category": "Connected",
+      "title": "THE NEW MEASUREMENTS ARE WITNESSED AND SEALED INTO THE ESTATE REGISTER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "estate stewards",
+        "Roman surveyors"
+      ],
+      "body": "By late July, the completed measurements are assembled into a formal survey memorandum for the estate archive. The memorandum records 2.8125 square miles, or 1,800 acres, for the former bandit-held aggregate and separately records the 0.0625-square-mile, 40-acre fort complex as a component within the previously measured holdings. Quintus Caecilius Metellus Celer receives a copy through the established correspondence so that the Roman political record reflects the newly settled land figures. The witnesses sign the field measurements and the clerks seal the corresponding estate entries against later alteration. The documentation distinguishes newly measured land from reconstructed component areas, preventing the fort's 40 acres from being added twice. Valerius now possesses a coherent documentary record linking ownership, acreage and the major physical features of the campaign's former contested ground.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    },
+    {
+      "event": 6,
+      "event_id": "GMV-62BCE-001-R055-E006",
+      "round_number": 55,
+      "date": "29 July 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS'S MEASURED HOLDINGS ARE FORMALLY UPDATED TO 7.0625 SQUARE MILES",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "Roman surveyors",
+        "former bandit-held lands",
+        "winter-pass holding"
+      ],
+      "body": "On 29 July, Valerius's clerks make the final acreage entry required to close the survey. The previous measured total of 4.25 square miles is combined with the newly measured 2.8125-square-mile former bandit aggregate, producing a formal personal holding total of 7.0625 square miles, or 4,520 acres. The fort complex remains recorded at 0.0625 square miles, or 40 acres, but is explicitly identified as part of the pre-existing measured holdings and therefore adds no duplicate acreage. The revised register replaces the former unresolved acreage note with a measured figure and preserves the survey's internal component records for future reference. The land ledger now distinguishes clearly between acquired land, reconstructed components and the newly completed measurement. Valerius's estate administration closes July with the full former bandit grant brought into the same measurable property system as his earlier holdings.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "supply": 0,
+        "exhaustion": 0,
+        "morale": 0,
+        "readiness": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "organization": 0
+      }
+    }
+  ]
+}
