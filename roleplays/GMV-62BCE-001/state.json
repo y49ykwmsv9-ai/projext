@@ -4,11 +4,11 @@
   "date": "-0057-04-21",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3072,
-    "private": 621,
+    "public": 3088.2,
+    "private": 622.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 36,
-    "last_round_private_transfer": 0
+    "last_round_net_public_profit": 18,
+    "last_round_private_transfer": 1.8
   },
   "metrics": {
     "soldiers": 394,
@@ -17,7 +17,7 @@
     "economy": 100,
     "agriculture": 96,
     "infrastructure": 100,
-    "trade": 101,
+    "trade": 100,
     "readiness": 100,
     "morale": 100,
     "supply": 11,
@@ -27,7 +27,7 @@
     "technology": 100,
     "exhaustion": 100,
     "intelligence": 1759,
-    "relations": 105,
+    "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
   },
@@ -87,13 +87,33 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3072,
-    "private": 621,
+    "public": 3088.2,
+    "private": 622.8,
     "gross_receipts_denarii": 36,
-    "operating_costs_denarii": 0,
-    "net_public_profit_denarii": 36,
-    "private_transfer_denarii": 0,
-    "currency_flow_denarii": 36
+    "operating_costs_denarii": 18,
+    "net_public_profit_denarii": 18,
+    "private_transfer_denarii": 1.8,
+    "background_interest_realized_denarii": 0,
+    "currency_flow_denarii": 18
   },
-  "next_round_gate": "OPEN"
+  "next_round_gate": "OPEN",
+  "reconciliation_adjustments": {
+    "inherited_trade": {
+      "from": 101,
+      "to": 100,
+      "adjustment": -1
+    },
+    "inherited_relations": {
+      "from": 105,
+      "to": 100,
+      "adjustment": -5
+    },
+    "financial": {
+      "gross_receipts": 36,
+      "operating_costs": 18,
+      "net_public_profit": 18,
+      "private_transfer": 1.8,
+      "background_interest_realized": 0
+    }
+  }
 }
