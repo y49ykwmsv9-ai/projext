@@ -37,7 +37,12 @@
     "canonical_round_53": "verified",
     "canonical_round_54": "verified",
     "canonical_round_55": "verified",
-    "canonical_round_56": "verified"
+    "canonical_round_56": "verified",
+    "current_total_ledger": {
+      "required": true,
+      "schema": "roleplay-fixed-metrics-v1",
+      "rule": "Every completed round must persist a complete post-round snapshot of every established metric with unit and applicable bound/type, matching state.json."
+    }
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
