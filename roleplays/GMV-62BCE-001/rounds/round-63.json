@@ -1,0 +1,566 @@
+{
+  "round_number": 63,
+  "date_start": "-0058-03-01",
+  "date_end": "-0058-03-31",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R063-E001",
+      "round_number": 63,
+      "date": "5 March 58 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS SENDS THE REGIONAL AUTHORITY THE WAX SEAL RECOVERED FROM THE RAID",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "regional authority with consular authority",
+        "Aulus Vettius",
+        "captured raiders"
+      ],
+      "body": "Valerius orders the recovered payment record, its marked wax seal, and the accompanying testimony to be prepared for the regional authority who survived the January attack. The packet is assembled with the names of the captured raiders, the circumstances in which the seal was recovered, and the evidence connecting it to Aulus Vettius. Valerius deliberately sends the physical seal rather than merely repeating its contents, allowing the authority to examine the object against the testimony already collected. The dispatch also includes the accounts of the men who were captured during the February pursuit and the information gathered by the scouts. The packet leaves the estate under controlled escort, with copies retained in Valerius's own records. It is presented as evidence of what his men endured and what they discovered, not as a political accusation unsupported by the recovered material.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 5,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R063-E002",
+      "round_number": 63,
+      "date": "8 March 58 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S MESSAGE REACHES THE AUTHORITY WITH A FORMAL WISH FOR HIS RECOVERY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "regional authority with consular authority",
+        "estate messenger"
+      ],
+      "body": "The packet reaches the regional authority together with a personal message from Valerius. In it, Valerius writes that his men bled for the wax seal and sends the recovered evidence with the honors of Mars and Jupiter, expressing the hope that the man who was caught in the attack recovers hastily. The wording is neither a demand for judgment nor a declaration against a political faction; it places the evidence before the official while acknowledging the authority's ordeal during the raid. The messenger delivers the seal separately from the written message so that the recipient can inspect the evidence before drawing conclusions from Valerius's account. Those present at the delivery record the unusual combination of military respect, religious honor, and restrained presentation of the evidence. The message becomes part of the official's developing record of the attack.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R063-E003",
+      "round_number": 63,
+      "date": "13 March 58 BCE",
+      "event_category": "Surprise",
+      "title": "THE REGIONAL AUTHORITY ORDERS THE WAX SEAL COMPARED AGAINST LOCAL COMMERCIAL RECORDS",
+      "mentioned_entities": [
+        "regional authority with consular authority",
+        "Aulus Vettius",
+        "local merchants",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The regional authority responds to the packet by ordering the wax mark to be compared with seals and payment records held by merchants operating along the routes used by Aulus Vettius. The comparison produces additional correspondence between the mark and private transactions associated with the land broker. The inquiry does not establish that Vettius acted on behalf of a Roman office, but it gives the authority more material with which to question his activities. Valerius's decision to send the physical seal proves useful because the mark can be examined independently of the testimony supplied by the captured raiders. The authority's clerks begin assembling the separate pieces of evidence into a single file. The investigation therefore moves beyond statements from prisoners and toward documentary corroboration.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 6,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R063-E004",
+      "round_number": 63,
+      "date": "18 March 58 BCE",
+      "event_category": "Connected",
+      "title": "CELER RECEIVES WORD THAT VALERIUS HAS PLACED THE EVIDENCE DIRECTLY IN THE AUTHORITY'S HANDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "regional authority with consular authority"
+      ],
+      "body": "Quintus Caecilius Metellus Celer receives a report that Valerius has delivered the recovered seal and the raid testimony directly to the regional authority. Celer's response is to preserve the distinction between the evidence concerning the attack and the separate question of who might have wanted Valerius's estate disrupted. He asks that any future political correspondence be kept separate from the evidentiary packet so that the investigation cannot easily be dismissed as a factional dispute. The report also notes Valerius's message wishing the injured authority a rapid recovery and sending the packet under the honors of Mars and Jupiter. Celer keeps the matter within his political correspondence without claiming a conclusion that the evidence has not yet established. The development gives Valerius's allies a clearer record of how the investigation is proceeding.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R063-E005",
+      "round_number": 63,
+      "date": "23 March 58 BCE",
+      "event_category": "Direct",
+      "title": "THE AUTHORITY'S PHYSICIANS REPORT THAT HIS CONDITION HAS IMPROVED ENOUGH FOR A FORMAL HEARING",
+      "mentioned_entities": [
+        "regional authority with consular authority",
+        "Gaius Maximus Valerius",
+        "local physicians"
+      ],
+      "body": "The regional authority's physicians report sufficient improvement for the official to resume a limited schedule of hearings and receive witnesses in person. The first hearing concerns the January attack and the circumstances under which Valerius intervened before his organized force arrived. The authority retains the wax seal and the accompanying packet for examination during the proceedings. Valerius is not required to appear immediately, as the authority already has statements from civilians, estate personnel, scouts, and captured raiders. The recovery allows the investigation to continue under the direct supervision of the man who witnessed the attack himself. The official's first instructions are to preserve the evidence and continue questioning the private intermediary connected to the payment.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R063-E006",
+      "round_number": 63,
+      "date": "27 March 58 BCE",
+      "event_category": "Connected",
+      "title": "MARCELLUS BEGINS QUIETLY COMPARING THE RAID WITH VALERIUS'S EARLIER PROPERTY DISPUTES",
+      "mentioned_entities": [
+        "Marcus Claudius Marcellus",
+        "Gaius Maximus Valerius",
+        "Aulus Vettius",
+        "former land claimants"
+      ],
+      "body": "Marcus Claudius Marcellus begins comparing the new evidence with the earlier property disputes surrounding the former bandit lands and the later survey that expanded Valerius's measured holdings. The comparison focuses on names, transactions, boundary claims, and private intermediaries rather than assuming that every earlier dispute was connected to the raid. Several names appear in more than one set of records, but the overlap is not yet sufficient to establish a larger conspiracy. Marcellus preserves the distinction between documented connections and coincidental appearances in local records. His review gives Valerius's political circle a second independent record of the affair while the regional authority continues the formal inquiry. The resulting dossier is kept ready in case the authority requests additional property records.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R063-E007",
+      "round_number": 63,
+      "date": "31 March 58 BCE",
+      "event_category": "Connected",
+      "title": "THE REGIONAL AUTHORITY ACKNOWLEDGES VALERIUS'S MESSAGE AND KEEPS THE SEAL IN OFFICIAL CUSTODY",
+      "mentioned_entities": [
+        "regional authority with consular authority",
+        "Gaius Maximus Valerius",
+        "Aulus Vettius"
+      ],
+      "body": "At the end of March, the regional authority sends word that the packet has been received, the wax seal remains in official custody, and the evidence will remain attached to the investigation into the January raid. The reply specifically acknowledges Valerius's concern for the official's recovery and notes that the message accompanying the evidence was received with the packet. No final judgment is issued against Aulus Vettius, and the authority does not yet name a wider sponsor. The surviving raiders remain available for further questioning while the documentary evidence is compared with their statements. Valerius therefore receives confirmation that the information he sent has entered the official record rather than disappearing into private correspondence. The investigation continues into the following month with the seal, testimony, and commercial records now held together.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "population": {
+      "before": 249,
+      "change": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "soldiers": {
+      "before": 398,
+      "change": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 46,
+      "change": -1,
+      "after": 45,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 85,
+      "change": 1,
+      "after": 86,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 88,
+      "change": 0,
+      "after": 88,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1190,
+      "change": 18,
+      "after": 1208,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.5625,
+      "change": 0,
+      "after": 7.5625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "financial_summary": {
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 0,
+    "net_public_profit_denarii": 0,
+    "private_transfer_denarii": 0,
+    "treasury_change_denarii": 0,
+    "public_account_change_denarii": 0,
+    "private_account_change_denarii": 0
+  },
+  "current_total_ledger": {
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "soldiers": {
+      "value": 398,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0-100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "agriculture": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "supply": {
+      "value": 45,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "exhaustion": {
+      "value": 86,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "technology": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0-100"
+    },
+    "intelligence": {
+      "value": 1208,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.5625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "end_of_round_checks": {
+    "special_event_base_probability_percent": 12,
+    "special_event_roll": 54.2718,
+    "special_event_success": false,
+    "special_event_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      72.4401,
+      31.5804,
+      88.2147
+    ],
+    "magnitude_11_events": 0,
+    "next_round_gate": "OPEN"
+  }
+}
