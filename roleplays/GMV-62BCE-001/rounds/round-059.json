@@ -1,0 +1,596 @@
+{
+  "schema_version": "gmv-round-v3",
+  "campaign_id": "GMV-62BCE-001",
+  "round_number": 59,
+  "period": "1 November 59 BCE – 30 November 59 BCE",
+  "event_categories": [
+    "Direct",
+    "Connected",
+    "Surprise"
+  ],
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R059-E001",
+      "round_number": 59,
+      "date": "4 November 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ORDERS A NEW SURVEY OF THE OUTER ESTATE LANDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate surveyors",
+        "estate stewards",
+        "surrounding landholders"
+      ],
+      "body": "With the first collection cycle now operating on a fixed schedule, Valerius turns his attention to the portions of the surrounding estate country that have never been brought into a complete working survey. Surveyors are sent beyond the already measured fields to trace old boundary marks, abandoned plots, watercourses, roads, and the edges of the former bandit lands. The work identifies a contiguous tract of 0.50 square miles, or 320 acres, whose boundaries can be established from surviving markers and the testimony of neighboring landholders. No new land is counted merely from an old claim: the additional area is entered only after the field measurements and witnesses agree on its limits. Valerius orders the newly measured tract placed under the same estate administration as his existing holdings and directs that it be prepared for productive use.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 1,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 1,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0.5,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -40,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -40,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R059-E002",
+      "round_number": 59,
+      "date": "9 November 59 BCE",
+      "event_category": "Connected",
+      "title": "THE NEWLY SURVEYED TRACT IS DIVIDED INTO FIELDS AND RETURNED TO PRODUCTION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "agricultural workers",
+        "smallholders"
+      ],
+      "body": "Once the survey lines are accepted, estate stewards divide the newly measured tract according to its water access, soil quality, and existing paths rather than treating it as a single undifferentiated field. Crews clear neglected ground, reopen drainage channels, repair field boundaries, and begin preparing the most usable acreage for cultivation. Workers from the established estates are assigned without abandoning the older fields, allowing the new tract to enter production while the rest of the holdings continue their normal work. Several smallholders with experience in the surrounding country are brought in to advise on which plots can be brought under cultivation most quickly. By the end of the week, the tract has ceased to be an unmapped reserve and has become an active part of the estate's agricultural program.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 2,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": -1,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -40,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -40,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R059-E003",
+      "round_number": 59,
+      "date": "14 November 59 BCE",
+      "event_category": "Surprise",
+      "title": "OLD BOUNDARY WITNESSES CONFIRM THAT THE NEW TRACT WAS LEFT OUT OF EARLIER MEASUREMENTS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "surrounding landholders",
+        "former estate workers",
+        "estate surveyors"
+      ],
+      "body": "A group of older landholders and former estate workers arrives while the surveyors are marking the final boundary stones and points out a line that had been used before the years of disorder. Their testimony, compared with the surviving markers, places the newly measured tract on the estate side of the old boundary rather than in the neighboring holdings. The discovery does not enlarge the surveyed figure beyond the measured 0.50 square miles, but it removes a dispute that could otherwise have followed the new register for years. Several witnesses sign the field record and agree that the tract had been neglected rather than lawfully transferred to another owner. The clarification gives Valerius a stronger documentary basis for presenting the expanded estate as a continuous, historically grounded holding.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R059-E004",
+      "round_number": 59,
+      "date": "18 November 59 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS FILES FOR FORMAL RECOGNITION OF HIS EXPANDED ESTATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus",
+        "Roman political offices"
+      ],
+      "body": "Valerius formally submits his request for recognition of the expanded estate, assembling the new survey, witnessed boundary record, existing estate register, collection records, and documentation of the land's return to productive use. He sends the material through his established political connections to Quintus Caecilius Metellus Celer and Marcus Claudius Marcellus, asking that the petition be received and examined rather than treated as an informal private claim. The application emphasizes the unusually complete record Valerius has accumulated: measured boundaries, regular accounts, predictable tax collection, restored production, and a sustained record of service and administration. Neither politician is represented as having already granted the requested recognition; their role at this stage is to place the petition before the appropriate Roman authorities and ensure that the supporting record is visible to them. The filing marks the first formal attempt to convert the expanded estate's established practical administration into recognized political and legal standing.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 1,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R059-E005",
+      "round_number": 59,
+      "date": "22 November 59 BCE",
+      "event_category": "Connected",
+      "title": "CELER AND MARCELLUS RECEIVE THE RECOGNITION DOSSIER AND PASS IT INTO THEIR POLITICAL NETWORKS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus",
+        "Roman political correspondents"
+      ],
+      "body": "Quintus Caecilius Metellus Celer receives the recognition dossier and reviews the material concerning the estate's boundaries, production, accounts, and prior service. Marcus Claudius Marcellus likewise receives a copy through the established correspondence that has followed Valerius's administrative development in recent months. Their responses do not constitute a grant of legal title, but both men agree to circulate the petition among the political contacts who would need to see the record before any formal determination could be made. The completeness of the documentation gives the petition a substantially different character from an unsupported request for favor. Valerius's political connections therefore begin doing exactly what he asked of them: carrying a fully documented case into a wider circle of Roman decision-makers.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 3,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R059-E006",
+      "round_number": 59,
+      "date": "26 November 59 BCE",
+      "event_category": "Direct",
+      "title": "THE FIRST RESTORED FIELDS OF THE EXPANDED ESTATE SHOW A FULL WORKING CYCLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "agricultural workers",
+        "lake-port merchants"
+      ],
+      "body": "The first portion of the newly incorporated tract reaches the point where regular cultivation can proceed alongside the older estate fields. Stewards record which plots are ready, which still require clearing, and which have been planted or assigned for the next agricultural cycle. The lake-port office adds the new tract to its forward production register so future agricultural output can be coordinated with the estate's established transport arrangements. Workers who had been occupied almost entirely with restoration now begin shifting back toward ordinary productive duties as the new ground moves into a predictable rhythm. The expansion is therefore no longer only a matter of survey lines and political paperwork; part of the newly recognized estate area is visibly returning to sustained production.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R059-E007",
+      "round_number": 59,
+      "date": "30 November 59 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S NOVEMBER DOSSIER LEAVES THE ESTATE READY FOR FORMAL REVIEW",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Marcus Claudius Marcellus",
+        "estate surveyors",
+        "Roman political offices"
+      ],
+      "body": "At month's end, Valerius closes the new estate dossier with the measured 0.50-square-mile expansion, witnessed boundary record, production reports, and copies of the petition sent through Celer and Marcellus. The register distinguishes what has been physically measured and placed under administration from what remains subject to future political or legal determination. The estates now have a continuous documentary chain linking land survey, agricultural restoration, financial administration, and political correspondence. The dossier's strength lies less in a single favorable statement than in the accumulation of consistent records across months of work. The request for formal recognition remains pending, but the expanded holdings enter December with their boundaries measured, their first fields returning to production, and their petition moving through established Roman political channels.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 1,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_ledger": {
+    "population": {
+      "before": 249,
+      "delta": 0,
+      "after": 249,
+      "unit": "people"
+    },
+    "soldiers": {
+      "before": 398,
+      "delta": 0,
+      "after": 398,
+      "unit": "men"
+    },
+    "taxation": {
+      "before": 3,
+      "delta": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 85,
+      "delta": 3,
+      "after": 88,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 99,
+      "delta": 1,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 49,
+      "delta": -2,
+      "after": 47,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 85,
+      "delta": 0,
+      "after": 85,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 69,
+      "delta": 1,
+      "after": 70,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 1089,
+      "delta": 13,
+      "after": 1102,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "delta": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.0625,
+      "delta": 0.5,
+      "after": 7.5625,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "delta": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": {
+      "value": 398,
+      "unit": "men",
+      "bound": "min 0"
+    },
+    "population": {
+      "value": 249,
+      "unit": "people",
+      "bound": "min 0"
+    },
+    "taxation": {
+      "value": 3,
+      "unit": "percent",
+      "bound": "0–100"
+    },
+    "economy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "agriculture": {
+      "value": 88,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "infrastructure": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "trade": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "readiness": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "morale": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "supply": {
+      "value": 47,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "organization": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "stability": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "legitimacy": {
+      "value": 100,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "technology": {
+      "value": 85,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "exhaustion": {
+      "value": 70,
+      "unit": "points",
+      "bound": "0–100"
+    },
+    "intelligence": {
+      "value": 1102,
+      "unit": "points",
+      "bound": "unbounded"
+    },
+    "relations": {
+      "value": 100,
+      "unit": "points",
+      "bound": "-100 to +100"
+    },
+    "land_area_sq_miles": {
+      "value": 7.5625,
+      "unit": "square miles",
+      "bound": "min 0"
+    },
+    "temporary_unavailable": {
+      "value": 0,
+      "unit": "men",
+      "bound": "min 0"
+    }
+  },
+  "financials": {
+    "gross_receipts_denarii": 0,
+    "operating_costs_denarii": 80,
+    "net_public_profit_denarii": -80,
+    "private_transfer_denarii": 0,
+    "treasury_before": 1668,
+    "treasury_after": 1668,
+    "public_account_before": 3100,
+    "public_account_after": 3020,
+    "private_account_before": 583,
+    "private_account_after": 583,
+    "currency_flow_denarii": -80
+  },
+  "end_of_round_checks": {
+    "special_event_resolution": {
+      "base_probability_percent": 12,
+      "random_roll": 37.1842,
+      "selected": false,
+      "event_id": null
+    },
+    "magnitude_11": {
+      "chance_percent": 4.7283,
+      "checks": [
+        82.6142,
+        41.7721,
+        93.0634
+      ],
+      "raw_successes": 0,
+      "accepted_candidates": 0,
+      "events": 0
+    },
+    "metric_bounds_reconciliation": {
+      "status": "verified",
+      "schema": "roleplay-fixed-metrics-v2"
+    },
+    "current_total_ledger": {
+      "status": "verified",
+      "all_established_metrics_present": true,
+      "matches_state_json": true
+    },
+    "commit_check": {
+      "required": true,
+      "verified_after_commit": false
+    },
+    "metric_schema_ref": "roleplay-fixed-metrics-v2"
+  },
+  "special_event_policy_ref": "gmv-special-event-v2"
+}
