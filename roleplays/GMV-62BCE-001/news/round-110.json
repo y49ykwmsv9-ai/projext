@@ -1,0 +1,403 @@
+{
+  "0": {
+    "event_id": "GMV-62BCE-001-R110-E01",
+    "date": "1 December 57 BCE",
+    "event_category": "Connected",
+    "title": "THE FIRST COMBINED GRAIN-AND-SILVER CONSIGNMENT SETTLES UNDER THE NEW ARRANGEMENT",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "estate stewards",
+      "foreign caravan merchants",
+      "silver handlers"
+    ],
+    "news": "The estate completes a combined consignment in which grain and silver from Valerius's established private mining operations are processed and moved through the same commercial chain rather than being treated as wholly separate deliveries. The arrangement reduces duplicated handling and transport work, but the resulting transaction is priced by the merchants according to the quantities and quality actually presented rather than according to the terms of any earlier shipment. The completed sale realizes 49 denarii in gross receipts against 17 denarii in operating costs, producing 32 denarii of realized net public profit. Under the standing ten-percent routing rule, 3.2 denarii is transferred to Valerius's private account while 28.8 denarii remains public. The settlement is therefore recorded as a new realization of the continuing commercial relationship, with its own price and cost structure rather than a repetition of a prior payment.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 47,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 49,
+        "operating_costs_denarii": 17,
+        "net_public_profit_denarii": 32,
+        "private_transfer_denarii": 3.2,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 28.8,
+        "private_account_change_denarii": 3.2,
+        "currency_flow_denarii": 32,
+        "internal_transfer": true,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "1": {
+    "event_id": "GMV-62BCE-001-R110-E02",
+    "date": "2 December 57 BCE",
+    "event_category": "Connected",
+    "title": "THE SECOND SILVER WORKING REVEALS A SEPARATE VEIN WITHIN THE SURVEYED GROUND",
+    "mentioned_entities": [
+      "Lucius Atilius",
+      "Gnaeus Fabius",
+      "estate surveyors"
+    ],
+    "news": "A closer examination of the newly surveyed silver working identifies a distinct mineral-bearing seam within the preliminary boundary that had not been separately recorded during the first inspection. The surveyors mark the seam and compare its visible character with the material already being handled at Valerius's established mining site. The discovery does not establish the total depth or eventual yield of the vein, and no future production is entered as realized income. Lucius Atilius orders the finding recorded as a measured observation while Gnaeus Fabius keeps the working area limited until the deeper ground can be examined safely. The second silver operation consequently moves from a broad preliminary survey toward a more differentiated geological record.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 38,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "2": {
+    "event_id": "GMV-62BCE-001-R110-E03",
+    "date": "3 December 57 BCE",
+    "event_category": "Connected",
+    "title": "THE ESTATE'S COST-RECOVERY SCHEDULE IS TESTED BY ORDINARY COMMERCIAL TRAFFIC",
+    "mentioned_entities": [
+      "estate stewards",
+      "Roman carriers",
+      "Roman smallholders"
+    ],
+    "news": "The first broader week of lawful Roman use produces several ordinary movements through the estate facilities, allowing the stewards to compare actual handling and transport expenses with the published cost-recovery schedule. Fourteen denarii are collected in facility and transport fees during the accounting period, while fourteen denarii are spent on the corresponding operating costs. The balance is therefore exactly zero, with no profit available for private routing and no subsidy taken from the public account. The stewards preserve the same schedule for users rather than altering charges according to status or patronage. The result confirms the practical operation of the access policy without turning the facilities into a new source of profit.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 52,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 14,
+        "operating_costs_denarii": 14,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "3": {
+    "event_id": "GMV-62BCE-001-R110-E04",
+    "date": "4 December 57 BCE",
+    "event_category": "Connected",
+    "title": "A SMALLHOLDER DISPUTE OVER LOADING SPACE IS SETTLED UNDER THE NEW COMMON RULES",
+    "mentioned_entities": [
+      "estate stewards",
+      "Roman smallholders",
+      "merchant carriers"
+    ],
+    "news": "Two lawful users of an estate loading area dispute the order in which their carts should be handled after arriving close together. The stewards refuse to resolve the disagreement through personal patronage and instead apply the posted operating rules governing access, loading order, and safe movement through the facility. Both parties are given the same explanation of the rule, and the immediate dispute is settled without violence or exclusion from the road. No new commercial contract or preferential right is created by the decision. The episode gives the estate's newly opened facilities a concrete test of whether equal access can be administered through ordinary rules rather than individual negotiation.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 31,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "4": {
+    "event_id": "GMV-62BCE-001-R110-E05",
+    "date": "5 December 57 BCE",
+    "event_category": "Connected",
+    "title": "THE CIVIC PROCEDURE REQUIRES A FORMAL APPEARANCE FROM VALERIUS",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "local electoral officials",
+      "local electorate"
+    ],
+    "news": "Valerius makes the formal appearance required at the next stage of the local civic process in which he has registered his candidacy. The officials record his participation and the procedural matters attached to the candidacy, but no vote count, appointment, endorsement, or electoral result is established at this stage. Valerius answers the questions presented through the civic process and continues to distinguish his private estate authority from the public office for which he is standing. The candidacy therefore advances through another documented procedural step without producing an outcome that the record does not yet contain. The next stage remains dependent on the ordinary civic timetable rather than on any prediction of its result.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 44,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "5": {
+    "event_id": "GMV-62BCE-001-R110-E06",
+    "date": "6 December 57 BCE",
+    "event_category": "Connected",
+    "title": "WINTER PLANTING BEGINS ON THE SIX ACRES ACQUIRED EARLIER IN THE CAMPAIGN",
+    "mentioned_entities": [
+      "estate stewards",
+      "estate cultivators",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "The six-acre parcel acquired earlier in the campaign reaches the point at which its first winter planting can be undertaken as part of the estate's broader cultivation program. The stewards allocate seed, labor, and working space to the parcel without treating the new acreage as a reason to claim an increase above the already capped agriculture metric. The work establishes actual use of the land rather than merely recording the acquisition on paper. No new land is purchased and no immediate harvest revenue is realized in this round. The parcel consequently moves from acquisition and preparation into ordinary productive use while its future yield remains a matter for later settlement.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 27,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "6": {
+    "event_id": "GMV-62BCE-001-R110-E07",
+    "date": "7 December 57 BCE",
+    "event_category": "Connected",
+    "title": "TITUS VARENUS'S CIRCUIT FINDS A DAMAGED CART ROUTE WITHOUT DISRUPTING THE CORRIDOR",
+    "mentioned_entities": [
+      "Titus Varenus",
+      "personal guard",
+      "merchant carriers"
+    ],
+    "news": "Titus Varenus's patrol encounters a merchant cart whose wheel has broken on a rough section of the established corridor between the lake port and the estate water access. The incident is mechanical rather than hostile, and the patrol secures the immediate passage while the carrier removes the damaged cart from the active route. No guard member is injured, no merchant is detained, and the standing 50-infantry and 50-cavalry force remains fully available. The carrier is able to continue after making the necessary repair without any change to the estate's security arrangement. The patrol therefore records a practical transport incident rather than a military confrontation, preserving the distinction between security work and ordinary road use.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 19,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "7": {
+    "event_id": "GMV-62BCE-001-R110-E08",
+    "date": "7 December 57 BCE",
+    "event_category": "Connected",
+    "title": "SERVILIUS AND CASSIUS FIND THAT THE OLD ROADWORK EXTENDS BEYOND THE MARKED STONE",
+    "mentioned_entities": [
+      "Publius Servilius",
+      "Numerius Cassius",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "Publius Servilius and Numerius Cassius follow the physical traces surrounding the marked stone farther than their previous site record had taken them and identify a second stretch of deliberately shaped ground beyond the immediate marker. The alignment is sufficiently regular to justify adding it to the investigation record, but the surviving evidence still does not establish who commissioned the work or when it was constructed. The men mark the additional section without disturbing the stone or altering the road used by current traffic. The discovery broadens the geographic extent of the unresolved investigation and gives the next examination a more substantial physical record to compare. No final historical attribution is made, and the finding remains an open question within the established road investigation.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 36,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  }
+}
