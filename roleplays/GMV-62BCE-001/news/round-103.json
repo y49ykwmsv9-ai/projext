@@ -1,0 +1,356 @@
+[
+  {
+    "event_id": "GMV-62BCE-001-R103-E01",
+    "date": "13 October 57 BCE",
+    "event_category": "Connected",
+    "title": "THE NEW ROAD BECOMES THE PREFERRED APPROACH TO THE WATER",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "estate stewards",
+      "smallholders",
+      "water carriers"
+    ],
+    "news": "Local carts and water carriers increasingly choose the newly completed road because it offers a predictable approach to the shared water access. The route is now functioning as ordinary local infrastructure, with carts, animals, and estate wagons moving through it during the week. The stewards begin keeping a simple traffic record so they can distinguish ordinary local use from commercial traffic connected to the surplus contract. No toll is imposed, and the road remains open to the households whose petition helped bring it into existence. Its value is therefore appearing through actual use rather than an artificial increase to the already-capped infrastructure metric.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 18,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  {
+    "event_id": "GMV-62BCE-001-R103-E02",
+    "date": "14 October 57 BCE",
+    "event_category": "Connected",
+    "title": "THE SECOND CONTRACTED DELIVERY IS SETTLED ON THE SHARED ROAD",
+    "mentioned_entities": [
+      "estate stewards",
+      "foreign caravan merchants",
+      "grain merchants",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "A second measured surplus consignment is assembled under the continuing agreement and carried along the shared-water road to the merchants' collection point. The merchants settle 31 denarii against the delivered goods, while harvesting, packing, handling, and road transport associated with the consignment cost 12 denarii. The resulting realized net profit is 19 denarii. The stewards record the payment as the second completed settlement under the agreement, and the established ten-percent rule routes 1.9 denarii of that realized net profit to Valerius's private account while 17.1 denarii remain in the public account. The regular payment is now becoming part of the establishment's ordinary commercial rhythm.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 22,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 31,
+        "operating_costs_denarii": 12,
+        "net_public_profit_denarii": 19,
+        "private_transfer_denarii": 1.9,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 17.1,
+        "private_account_change_denarii": 1.9,
+        "currency_flow_denarii": 19,
+        "internal_transfer": true,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  {
+    "event_id": "GMV-62BCE-001-R103-E03",
+    "date": "15 October 57 BCE",
+    "event_category": "Special",
+    "title": "AN UNEXPECTED CARAVAN ARRIVES TO INSPECT THE NEW ROUTE",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "foreign caravan merchants",
+      "new caravan representatives",
+      "estate stewards"
+    ],
+    "news": "Word of the new water-access road and the reliability of the first deliveries reaches a larger traveling merchant group sooner than the estate expected. A caravan representative arrives with several wagons to inspect the route and determine whether it can support regular commercial movement beyond the existing contract. The visitors examine the water approach, loading arrangements, and road condition before asking whether future commercial consignments could be accommodated alongside the existing agreement. No new contract is signed and no future revenue is booked. The encounter nevertheless expands the commercial significance of the road beyond the first merchant relationship.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 27,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Special",
+        "final_category": "Special",
+        "ultimate_reclassification": "not_reclassified"
+      }
+    }
+  },
+  {
+    "event_id": "GMV-62BCE-001-R103-E04",
+    "date": "16 October 57 BCE",
+    "event_category": "Connected",
+    "title": "CELER'S REPLY ARRIVES AFTER VALERIUS'S FULLER ACCOUNT",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "Quintus Caecilius Metellus Celer",
+      "political courier"
+    ],
+    "news": "The courier carrying Valerius's fuller account returns with a response from Quintus Caecilius Metellus Celer. Celer acknowledges the explanation and asks further questions concerning how Valerius's establishment is administered, particularly the relationship between private holdings, the guard, and the commercial traffic now using the new route. The communication contains no appointment, command, payment, or binding political commitment. It does establish that the correspondence has moved beyond simple inquiry into an exchange of increasingly specific information.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 16,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  {
+    "event_id": "GMV-62BCE-001-R103-E05",
+    "date": "17 October 57 BCE",
+    "event_category": "Connected",
+    "title": "SERVILIUS AND CASSIUS MARK THE NEW ROAD AGAINST THE OLDER ROADWORK",
+    "mentioned_entities": [
+      "Publius Servilius",
+      "Numerius Cassius",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "Publius Servilius and Numerius Cassius use the increased movement of carts to compare the new road's alignment with the older prepared ground exposed during their previous inspection. They identify where the newer surface clearly diverges from the older construction and mark the junction for later examination. The work strengthens their geographic reconstruction but still does not establish the original builder, date, authority, or purpose of the older road. The two investigators preserve the distinction between direct observation and historical inference.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 14,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  {
+    "event_id": "GMV-62BCE-001-R103-E06",
+    "date": "18 October 57 BCE",
+    "event_category": "Connected",
+    "title": "THE GUARD BEGINS TREATING THE ROAD AS A ROUTINE SECURITY CORRIDOR",
+    "mentioned_entities": [
+      "Titus Varenus",
+      "Lucius Atilius",
+      "Gnaeus Fabius",
+      "Marcus Lartius"
+    ],
+    "news": "Titus Varenus, Lucius Atilius, Gnaeus Fabius, and Marcus Lartius establish a routine observation pattern along the shared-water road without turning ordinary commerce into a military checkpoint. Small groups rotate through the approach so that water carriers, estate wagons, and merchant carts can be observed without disrupting their movement. The arrangement preserves the established 100-man guard structure, with 50 infantry and 50 cavalry. No confrontation occurs and no new detachment is created.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 9,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  {
+    "event_id": "GMV-62BCE-001-R103-E07",
+    "date": "19 October 57 BCE",
+    "event_category": "Connected",
+    "title": "ANOTHER RECOVERING VETERAN RETURNS TO ORDINARY DUTY",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "estate and expedition physicians",
+      "personal guard"
+    ],
+    "news": "A second man from the remaining temporarily unavailable group is examined after continued recovery and is cleared for ordinary duty. The physicians continue to distinguish useful service from full combat restoration, assigning him to routine support rather than the most demanding guard work. His return reduces temporary unavailability from three men to two while the total force remains 414. The remaining two men stay under medical observation.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 7,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": -1,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  }
+]
