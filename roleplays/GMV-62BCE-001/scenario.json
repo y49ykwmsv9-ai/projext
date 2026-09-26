@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 86,
-  "latest_date": "-0057-06-16",
+  "latest_round": 87,
+  "latest_date": "-0057-06-23",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,24 +16,24 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one initially Special event; a failed roll adds none. Each successful Magnitude-11 check also produces one initially Special event. Magnitude-11 is separate from the standard Special roll. Initial Special or Surprise classification is not automatically Ultimate, but every such candidate is subject to the mandatory Ultimate Reclassification Gate before final classification.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 55.35618744884038,
+    "current_round_roll": 0.849516013929911,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed."
   },
   "continuity": {
-    "campaign_development": "16 June 57 BCE: Valerius continues the engineered-route investigation with the loose-phalanx doctrine now established as a field practice; a damaged crossing and an uncertain line of markers have been recorded, while the private dispatch to Quintus Caecilius Metellus Celer remains unanswered.",
+    "campaign_development": "23 June 57 BCE: Twenty local Roman veterans have completed Valerius's proving exercise and entered his personal guard without enlistment pay. Titus Varenus and nineteen named veterans now contribute local-terrain knowledge through the expedition's established loose-phalanx and outward-watch doctrine.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
   },
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 55.35618744884038,
+    "special_roll": 0.849516013929911,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      45.62053479601257,
-      69.97149106404379,
-      13.992953600836355
+      0.7649904056080706,
+      0.48823820802735474,
+      0.11026721134441297
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -63,16 +63,16 @@
       "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PASS",
-      "post_commit_verification": "PASS"
+      "canonical_pointer_synchronization": "PENDING",
+      "post_commit_verification": "PENDING"
     },
     "financial_reconciliation": {
-      "round_86_gross_receipts_denarii": 0,
-      "round_86_operating_costs_denarii": 0,
-      "round_86_net_public_profit_denarii": 0,
-      "round_86_private_transfer_denarii": 0,
+      "round_87_gross_receipts_denarii": 0,
+      "round_87_operating_costs_denarii": 0,
+      "round_87_net_public_profit_denarii": 0,
+      "round_87_private_transfer_denarii": 0,
       "basis_event_id": null,
-      "inference_basis": "No event this round established a realized financial consequence."
+      "inference_basis": "The veterans volunteered without enlistment pay; no realized financial transfer was established."
     }
   },
   "character_registry": {
@@ -99,6 +99,146 @@
         "role": "Roman connection",
         "status": "established",
         "continuity": "persisted relationship; may appear when contextually relevant"
+      },
+      {
+        "id": "gmv_veteran_1",
+        "name": "Titus Varenus",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_2",
+        "name": "Lucius Atilius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_3",
+        "name": "Gnaeus Fabius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_4",
+        "name": "Marcus Lartius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_5",
+        "name": "Publius Servilius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_6",
+        "name": "Quintus Vibius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_7",
+        "name": "Sextus Tullius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_8",
+        "name": "Aulus Decimus",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_9",
+        "name": "Numerius Cassius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_10",
+        "name": "Spurius Calpurnius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_11",
+        "name": "Gaius Valerius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_12",
+        "name": "Lucius Marcius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_13",
+        "name": "Marcus Petronius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_14",
+        "name": "Publius Octavius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_15",
+        "name": "Quintus Rufrius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_16",
+        "name": "Titus Manlius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_17",
+        "name": "Gnaeus Licinius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_18",
+        "name": "Sextus Cornelius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_19",
+        "name": "Aulus Furius",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
+      },
+      {
+        "id": "gmv_veteran_20",
+        "name": "Lucius Vettienus",
+        "role": "local Roman veteran; personal guard",
+        "status": "active",
+        "continuity": "admitted after Round 87 proving exercise"
       }
     ]
   },
