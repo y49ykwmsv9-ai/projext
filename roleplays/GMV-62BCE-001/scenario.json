@@ -29,7 +29,7 @@
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "17 August 57 BCE: Valerius continues down the road after the Round 93 reconnaissance phase. The personal guard has been reorganized into distributed specialist sectors based on parity and coordination, and a roadside clash has proven the arrangement under actual combat; two men were killed and five wounded and temporarily unavailable, while the expedition retained the road and continued its march.",
+    "campaign_development": "17 August 57 BCE: Valerius continues down the road after the Round 93 reconnaissance phase. The personal guard has been reorganized into distributed specialist sectors based on parity and coordination, and a roadside clash has proven the arrangement under actual combat; five men were wounded and temporarily unavailable, none was lost permanently, the expedition retained the road, and the march continued.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi.",
     "personal_guard": "Round 89 establishes 100 total personal guards: 50 infantry and 50 cavalry; 10 infantry and 10 cavalry are from the Round 87-88 local veterans, while 40 infantry and 40 cavalry are from Valerius's established veterans.",
     "valerius_equipment": {
@@ -44,7 +44,7 @@
   },
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 0.01620173998852903,
+    "special_roll": 0.5968867193740457,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
@@ -102,6 +102,12 @@
         "initial_category": "Surprise",
         "final_category": "Surprise",
         "ultimate_reclassification": "not_qualified"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R094-E05",
+        "initial_category": "Connected",
+        "final_category": "Ultimate",
+        "ultimate_reclassification": "qualified"
       },
       {
         "event_id": "GMV-62BCE-001-R094-E06",
