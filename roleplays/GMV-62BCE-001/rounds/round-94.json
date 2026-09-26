@@ -1,0 +1,568 @@
+{
+  "schema_version": "gmv-round-v3",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 94,
+  "date": "-0057-08-17",
+  "directive": "Valerius continues down the road. He keeps combat possible within the simulation while ordering his most trusted men to establish unity through parity and coordination: each commands a specialized section where he excels rather than being blindly concentrated against an enemy.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R094-E01",
+      "round_number": 94,
+      "date": "11 August 57 BCE",
+      "event_category": "Direct",
+      "title": "THE ROAD TIGHTENS INTO BROKEN GROUND",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Vexillum Valerianum",
+        "expedition",
+        "road"
+      ],
+      "body": "On 11 August, Valerius keeps the column on the road as its surface becomes rougher and the surrounding ground begins to break the clean visibility enjoyed on the previous marches. The road remains usable, but several bends and shallow rises make it possible for movement ahead to disappear from the main column for short periods. Valerius therefore keeps the hundred-man guard distributed instead of drawing it inward around the command group. The Vexillum Valerianum stays with the command element while mounted veterans maintain observation beyond the next rise and infantry veterans protect the spaces through which the main body must pass. No enemy is yet seen, but the changing ground gives the march a more serious character than the open stretches behind them. The expedition continues without stopping, treating the road itself as something to be watched rather than trusted blindly.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 18,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R094-E02",
+      "round_number": 94,
+      "date": "12 August 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS DIVIDES THE GUARD WITHOUT DIVIDING ITS UNITY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "personal guard"
+      ],
+      "body": "On 12 August, Valerius formally refines the guard's marching arrangement so that his most trusted men command specific sections according to their individual strengths rather than being gathered into one dense protective knot. Titus Varenus takes responsibility for a close infantry sector where disciplined shield work and short-range control are most valuable, while Lucius Atilius commands the opposite infantry sector and keeps its movement independent but synchronized. Gnaeus Fabius oversees the central infantry interval, preserving a passage through the formation so that men can move between sectors instead of becoming trapped in one mass. Other veterans take corresponding mounted, skirmishing, observation, and reserve sectors, with each specialist paired with men capable of supporting the same task from the neighboring sector. Signals and visual references from the Vexillum Valerianum allow the sectors to act with parity: none is abandoned to fight alone, but none waits passively for the others to collapse inward. Valerius makes the principle explicit that unity will come from coordination, mutual support, and equal responsibility rather than from clumping his best men together.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 22,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R094-E03",
+      "round_number": 94,
+      "date": "13 August 57 BCE",
+      "event_category": "Connected",
+      "title": "LOCAL TRACKS REVEAL WHO HAS BEEN USING THE ROAD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "nearby travelers",
+        "local tracks",
+        "expedition"
+      ],
+      "body": "On 13 August, several travelers encountered along the road provide a different kind of warning when they describe seeing armed men farther ahead moving away from the settled fields. Their account is not treated as proof of an organized enemy force, but the direction and timing are recorded alongside the scouts' own observations. The road shows signs of recent traffic that are difficult to distinguish immediately from ordinary travelers, and Valerius orders the mounted screen to examine the approaches without breaking contact with the main body. The expedition learns that the road is being used by more people than its earlier agricultural contacts had suggested, including men who do not appear to be traveling for trade or farming. The information does not yet establish an enemy's strength or intention. By evening, however, the guard is prepared for the possibility that the next encounter will be hostile rather than merely another local contact.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 14,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R094-E04",
+      "round_number": 94,
+      "date": "14 August 57 BCE",
+      "event_category": "Surprise",
+      "title": "ARMED MEN APPEAR AHEAD OF THE COLUMN",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "Lucius Atilius",
+        "armed raiders",
+        "road"
+      ],
+      "body": "On 14 August, the forward screen reports armed men occupying a bend ahead where the road narrows between rising ground and rougher terrain. Valerius does not send Titus Varenus, Lucius Atilius, or the other trusted veterans charging blindly into the position; instead, he orders the guard's established sectors to hold their parity and reveal the hostile force's strength before committing the main body. The cavalry widens its observation while the infantry sectors maintain enough distance from one another to prevent a single attack from striking the entire guard at once. The armed group begins moving toward the column and looses a small number of missiles, making clear that the encounter is no longer merely suspicious movement on the road. Valerius keeps the command group behind the first defensive sectors and orders the road ahead denied without allowing the enemy to dictate the formation. The opposing men now have to deal with several mutually supporting Roman positions instead of one concentrated target. The road becomes a battlefield by circumstance, but Valerius has ensured that his most trusted men enter it as commanders of a coordinated system rather than as a single spearpoint.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 30,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R094-E05",
+      "round_number": 94,
+      "date": "15 August 57 BCE",
+      "event_category": "Connected",
+      "title": "THE GUARD HOLDS ITS SECTORS AND THE ROAD BECOMES A BATTLEFIELD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "personal guard",
+        "Titus Varenus",
+        "Lucius Atilius",
+        "armed raiders"
+      ],
+      "body": "On 15 August, the armed group commits to the attack and the guard answers without collapsing its sectors into one mass. Titus Varenus holds the left infantry sector and absorbs the first pressure while Lucius Atilius controls the opposite side, preventing the attackers from turning the road's narrow ground into a single crushing melee. Gnaeus Fabius keeps the central interval open and directs men toward whichever sector requires reinforcement, while the mounted elements sweep wider around the flanks to prevent the attackers from slipping past the column or surrounding the infantry. Valerius advances far enough to participate personally once the line has stabilized, but he does not abandon the command structure that keeps the rest of the guard coordinated. The fighting is close and violent, with several of the attackers breaking through individual points before being forced back by neighboring sectors that respond without waiting for a general collapse. Two men of the expedition are killed and five are wounded during the clash, while the attackers lose their cohesion and begin withdrawing along the rough ground beside the road. The guard does not pursue blindly into terrain it has not reconnoitered, and the surviving attackers escape beyond immediate contact. The road remains in Roman hands, but the encounter proves that the distributed command system can function under actual pressure rather than merely during exercises.",
+      "ai_ledger": {
+        "soldiers": -2,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": -2,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 5,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R094-E06",
+      "round_number": 94,
+      "date": "16 August 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE ROAD IS SECURED WITHOUT A BLIND PURSUIT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "captured raiders",
+        "local travelers",
+        "expedition"
+      ],
+      "body": "On 16 August, the expedition secures the immediate road section and tends the wounded before moving the column forward again. The five wounded are withdrawn from active duty and placed temporarily unavailable, while the rest of the guard remains distributed so that the column does not become defenseless simply because the fighting has ended. Several of the attackers who failed to escape are taken alive, and their equipment and statements are recorded without assuming that every member of the group belonged to a larger organization. Valerius orders no uncontrolled pursuit, and the cavalry instead watches the exits from the road while the infantry sectors maintain the ground already secured. Local travelers who had earlier warned the column are questioned again, allowing the expedition to compare their observations with what has now actually occurred. The result is a more reliable picture of the immediate danger, but not a complete explanation of who organized the attackers or how far their activity extends. The column therefore leaves the battlefield behind without pretending that the road has suddenly become completely safe.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 50,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R094-E07",
+      "round_number": 94,
+      "date": "17 August 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS CONTINUES THE MARCH WITH THE GUARD STILL DISTRIBUTED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Vexillum Valerianum",
+        "personal guard",
+        "expedition"
+      ],
+      "body": "On 17 August, Valerius orders the march to continue down the road with the guard still divided into its specialized sectors and the wounded kept safely within the column rather than exposed to another engagement. The Vexillum Valerianum remains with the command group, while the mounted screen moves ahead in staggered observation and the infantry sectors preserve deliberate intervals through which support can pass. Titus Varenus, Lucius Atilius, and Gnaeus Fabius retain their respective responsibilities, and the other veterans continue commanding the specific tasks for which their individual equipment and methods make them most useful. The recent fight has not caused Valerius to abandon the road, but it has changed the way the expedition treats every bend, rise, and side path beyond the immediate secured ground. No new land is claimed and no financial transaction is realized from the encounter. The expedition ends the week moving forward again, more informed about the dangers on the road and with its most trusted men proving their value through coordination rather than concentration.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 18,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 414,
+      "change": -2,
+      "after": 412,
+      "unit": "men"
+    },
+    "population": {
+      "before": 250,
+      "change": 0,
+      "after": 250,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 3104,
+      "change": 150,
+      "after": 3254,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.75,
+      "change": 0,
+      "after": 7.75,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 5,
+      "after": 5,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": 412,
+    "population": 250,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 3254,
+    "relations": 100,
+    "land_area_sq_miles": 7.75,
+    "temporary_unavailable": 5
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3099,
+    "private_account": 624,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 0,
+      "operating_costs_denarii": 0,
+      "net_public_profit_denarii": 0,
+      "private_transfer_denarii": 0,
+      "treasury_change_denarii": 0,
+      "public_account_change_denarii": 0,
+      "currency_flow_denarii": 0,
+      "internal_transfer": false
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 0.5968867193740457,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      0.9231425633730959,
+      0.6174776582663603,
+      0.8522033867125927
+    ],
+    "magnitude_11_events": 0,
+    "ultimate_reclassification_events": [
+      {
+        "event_id": "GMV-62BCE-001-R094-E04",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R094-E06",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      }
+    ],
+    "random_generation": "local resolution"
+  },
+  "validation_ledger": {
+    "canonical_state_read": "PASS",
+    "local_random_resolution": "PASS",
+    "causal_event_generation": "PASS",
+    "ultimate_reclassification_gate": "PASS",
+    "narrative_contract": "PASS",
+    "semantic_state_consistency": "PASS",
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "round_delta_reconciliation": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "land_and_property_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety_and_causal_diversity": "PASS",
+    "current_total_ledger_complete": "PASS",
+    "random_classification_consistency": "PASS",
+    "exact_quantity_unit_consistency": "PASS",
+    "military_state_consistency": "PASS",
+    "economic_financial_consistency": "PASS",
+    "agriculture_state_consistency": "PASS",
+    "literal_revenue_realization_check": "PASS",
+    "geographic_reference_consistency": "PASS",
+    "geographic_source_protection": "PASS",
+    "ultimate_event_contract": "PASS",
+    "surprise_special_expanded_prose": "PASS",
+    "final_end_of_round_validation": "PASS",
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS",
+    "plausible_financial_quantification": "PASS"
+  },
+  "next_round_gate": "OPEN",
+  "personal_guard": {
+    "status": "active",
+    "count": 100,
+    "infantry_count": 50,
+    "cavalry_count": 50,
+    "command_structure": "distributed specialist sectors with parity and mutual support"
+  },
+  "valerius_equipment": {
+    "armor_style": "traditional Roman",
+    "material_source": "Valerius personal mines and estate stores",
+    "craftsmen": "finest smiths of the estate and foundries",
+    "shield": "new personal shield; exceptionally intricate and structurally tough; deliberately more intricate than Valerius's weapons as a symbol of devotion to protection and defense",
+    "gladius": "personal high-quality Roman gladius; reputation linked to Valerius's established combat record",
+    "pilum": "double-reinforced personal pilum; carries Valerius's oath to march at the head of every battle and personally participate",
+    "shield_piercing_record": "individual truthful record for every confirmed shield personally pierced; no unverified encounter is added",
+    "kill_record": "open truthful combat ledger; future confirmed individual kills may be recorded, but no unsupported kill count is asserted",
+    "status": "field-ready"
+  }
+}
