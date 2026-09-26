@@ -94,7 +94,16 @@
     "recurring_financial_agreement_settlement": "PASS",
     "canonical_pointer_synchronization": "PENDING",
     "post_commit_verification": "PENDING",
-    "generated_special_event": null
+    "generated_special_event": null,
+    "final_event_classifications": {
+      "Direct": 1,
+      "Connected": 5,
+      "Surprise": 2,
+      "Special": 0,
+      "Ultimate": 0
+    },
+    "surprise_special_gate": "PASS",
+    "ai_event_ledger_present": true
   },
   "financial_realization": {
     "gross_receipts_denarii": 48,
@@ -1371,5 +1380,12 @@
     "post_commit_verification": "PASS"
   },
   "public_account": 3230.4,
-  "private_account": 605.6
+  "private_account": 605.6,
+  "last_round_classification_summary": {
+    "Direct": 1,
+    "Connected": 5,
+    "Surprise": 2,
+    "Special": 0,
+    "Ultimate": 0
+  }
 }
