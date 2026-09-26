@@ -85,6 +85,8 @@ For every round:
 8. Re-read the persisted files and verify the post-commit checks before treating the round as canonical.
 9. Run a continuity/regression pass across prior rounds for recurring named characters, relationships, unresolved directives, event variety, and established campaign threads. Recurring characters must be reused by name when the prior record supports their involvement; do not repeatedly collapse distinct actors into generic labels such as “an officer” or “a local.” New recurring characters may be introduced when appropriate, but they must be persisted in the campaign character registry and reused consistently thereafter.
 10. Ensure event variety: a round should not become six differently worded versions of the same development. Events may cover distinct military, political, economic, social, logistical, diplomatic, intelligence, personal, geographic, and local developments when supported by the state and context. Do not manufacture events merely to satisfy variety; instead vary the *kind of news* that naturally emerges from the active situation.
+
+**Minimum event-count rule:** Every GMV round must contain at least 7 distinct events. This is the only additional event-count requirement; all existing causal-generation, event-category, variety, continuity, random-resolution, financial, metric, and validation rules remain unchanged. The 7-event minimum does not permit unrelated filler: each event must still arise from an existing or newly emerging plausible causal thread supported by the established simulation state.
 11. Keep recurring-character continuity and event-variety checks as hard requirements alongside the metric and special-event checks.
 12. Only then output the player-facing round.
 
