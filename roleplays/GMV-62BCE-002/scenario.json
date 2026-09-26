@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "latest_round": 115,
-  "latest_date": "-0057-01-11",
+  "latest_round": 116,
+  "latest_date": "-0057-01-18",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,49 +16,48 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 78.66631569684472,
+    "current_round_roll": 88.13050351205625,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      99.21838508785838,
-      27.67916650309473,
-      61.74732550989729
+      81.95044532409204,
+      54.54732106817812,
+      27.343090024977723
     ],
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "Valerius remains a registered civic candidate; a new procedural notice was received in Rome without a vote or result.",
-    "commercial_thread": "Round 115 recurring settlement realized 46 gross / 18 costs / 28 net; 2.8 private / 25.2 public.",
+    "campaign_development": "Valerius's required in-person civic appearance was completed; no vote or electoral result has occurred.",
+    "commercial_thread": "Round 116 recurring settlement realized 49 gross / 20 costs / 29 net; 2.9 private / 26.1 public.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
-    "election_thread": "Candidacy remains active with procedural documentation; no electoral result.",
+    "election_thread": "Candidacy remains active after a completed procedural appearance; no electoral result.",
     "refuge_policy": "Second displaced household remains integrated; population 257.",
     "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
-    "silver_development_thread": "Second silver working produced its first payable lot; eventual yield remains unresolved.",
-    "family_thread": "Valerius returned to his Roman estate and spent a sustained private visit with his sister; no new named family character was introduced.",
-    "urban_estate_thread": "Open-access facility policy remains in force; one false facility charge was rejected before payment.",
+    "silver_development_thread": "Second silver working completed its first commercial sale at 16 gross / 6 costs / 10 net; eventual yield remains unresolved.",
+    "family_thread": "A family property document exposed an unresolved documentary inconsistency; no land transfer or new debt was realized.",
+    "urban_estate_thread": "Open-access facility policy remains in force; prior false facility charge remains rejected.",
     "merchant_access_thread": "An unexpected multi-house merchant delegation sought ordinary access during winter disruption and was handled under the existing indiscriminate cost-recovery policy.",
-    "library_thread": "Estate library correspondence continues in background."
+    "library_thread": "Estate libraries preserved a newly copied technical text concerning measurement, materials, and labor organization."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 49.14656803138085,
+    "roll": 88.13050351205625,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      14.974019229093216,
-      19.89098025600281,
-      40.26260004816302
+      81.95044532409204,
+      54.54732106817812,
+      27.343090024977723
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
-    "random_generation": "local resolution",
+    "random_generation": "fresh local resolution",
     "ten_percent_profit_transfer_rule": "PASS",
     "recurring_financial_agreement_settlement": "PASS",
-    "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS",
-    "generated_special_event": null
+    "canonical_pointer_synchronization": "READY",
+    "post_commit_verification": "PENDING"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
