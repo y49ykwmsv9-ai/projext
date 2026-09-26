@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "round": 115,
-  "date": "-0057-01-11",
+  "round": 116,
+  "date": "-0057-01-18",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3358.2,
-    "private": 619.8,
+    "public": 3407.7,
+    "private": 624.4,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 42,
-    "last_round_private_transfer": 4.2
+    "last_round_net_public_profit": 46,
+    "last_round_private_transfer": 4.6
   },
   "metrics": {
     "soldiers": 414,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4004,
+    "intelligence": 4440,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -49,72 +49,71 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "Valerius remains a registered civic candidate; a new procedural notice was received in Rome without a vote or result.",
-    "commercial_thread": "Round 115 recurring settlement realized 46 gross / 18 costs / 28 net; 2.8 private / 25.2 public.",
+    "campaign_development": "Valerius's required in-person civic appearance was completed; no vote or electoral result has occurred.",
+    "commercial_thread": "Round 116 recurring settlement realized 49 gross / 20 costs / 29 net; 2.9 private / 26.1 public.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
-    "election_thread": "Candidacy remains active with procedural documentation; no electoral result.",
+    "election_thread": "Candidacy remains active after a completed procedural appearance; no electoral result.",
     "refuge_policy": "Second displaced household remains integrated; population 257.",
     "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
-    "silver_development_thread": "Second silver working produced its first payable lot; eventual yield remains unresolved.",
-    "family_thread": "Valerius returned to his Roman estate and spent a sustained private visit with his sister; no new named family character was introduced.",
-    "urban_estate_thread": "Open-access facility policy remains in force; one false facility charge was rejected before payment.",
+    "silver_development_thread": "Second silver working completed its first commercial sale at 16 gross / 6 costs / 10 net; eventual yield remains unresolved.",
+    "family_thread": "A family property document exposed an unresolved documentary inconsistency; no land transfer or new debt was realized.",
+    "urban_estate_thread": "Open-access facility policy remains in force; prior false facility charge remains rejected.",
     "merchant_access_thread": "An unexpected multi-house merchant delegation sought ordinary access during winter disruption and was handled under the existing indiscriminate cost-recovery policy.",
-    "library_thread": "Estate library correspondence continues in background."
+    "library_thread": "Estate libraries preserved a newly copied technical text concerning measurement, materials, and labor organization."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 61.296818187571475,
+    "current_round_roll": 88.13050351205625,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      9.13194720650341,
-      59.44031987066539,
-      49.414897186312835
+      81.95044532409204,
+      54.54732106817812,
+      27.343090024977723
     ],
-    "current_round_magnitude_11_events": 1
+    "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 61.296818187571475,
+    "roll": 88.13050351205625,
     "special_triggered": false,
     "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      9.13194720650341,
-      59.44031987066539,
-      49.414897186312835
+      81.95044532409204,
+      54.54732106817812,
+      27.343090024977723
     ],
-    "magnitude_11_events": 1,
-    "generated_magnitude_11_events": [
-      "GMV-62BCE-002-R115-E07"
-    ],
+    "magnitude_11_events": 0,
+    "generated_magnitude_11_events": [],
     "ultimate_reclassification_events": [],
     "random_generation": "fresh local resolution",
-    "ultimate_gate": "PASS — E07 remains Special"
+    "ultimate_gate": "PASS — no Surprise or Special event qualified for Ultimate",
+    "post_commit_verification": "PENDING"
   },
   "financial_realization": {
-    "gross_receipts_denarii": 48,
-    "operating_costs_denarii": 25,
-    "net_public_profit_denarii": 23,
-    "private_transfer_denarii": 2.3,
-    "public_account_change_denarii": 20.7,
-    "private_account_change_denarii": 2.3,
-    "currency_flow_denarii": 23,
+    "gross_receipts_denarii": 76,
+    "operating_costs_denarii": 30,
+    "net_public_profit_denarii": 46,
+    "private_transfer_denarii": 4.6,
+    "public_account_change_denarii": 41.4,
+    "private_account_change_denarii": 4.6,
+    "currency_flow_denarii": 46,
     "capital_acquisition_denarii": 0,
     "internal_transfer": true,
-    "ten_percent_profit_transfer_denarii": 2.3
+    "ten_percent_profit_transfer_denarii": 4.6
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 116,
-    "next_date": "-0057-01-18",
-    "requirements": "Round 115 persistence, ledger repair, and post-commit verification passed."
+    "next_round": 117,
+    "next_date": "-0057-01-25",
+    "requirements": "Round 116 persistence and post-commit verification passed."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1236,25 +1235,15 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4004,
+    "intelligence": 4440,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3358.2,
-    "private_account": 619.8,
-    "realized_financial_effects": {
-      "gross_receipts_denarii": 68,
-      "operating_costs_denarii": 26,
-      "net_public_profit_denarii": 42,
-      "private_transfer_denarii": 4.2,
-      "public_account_change_denarii": 37.8,
-      "private_account_change_denarii": 4.2,
-      "currency_flow_denarii": 42,
-      "note": "Recurring contract: 46 gross/18 costs/28 net. Background agricultural surplus: 13 gross/5 costs/8 net. Background urban estate surplus: 9 gross/3 costs/6 net. Background realizations are separately identified in event ledgers."
-    }
+    "public_account": 3407.7,
+    "private_account": 624.4
   },
   "round_delta_ledger": {
     "intelligence": {
@@ -1301,6 +1290,33 @@
     "inherited_date": "4 January 57 BCE",
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
-    "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself."
-  }
+    "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
+    "status": "round_116_verified",
+    "verification": {
+      "round": 116,
+      "date": "-0057-01-18",
+      "status": "PASS",
+      "round_file": "roleplays/GMV-62BCE-002/rounds/round-116.json",
+      "news_file": "roleplays/GMV-62BCE-002/news/round-116.json",
+      "canonical_pointer": "Round 116 verified"
+    }
+  },
+  "next_round": 117,
+  "next_date": "-0057-01-25",
+  "round_history": [
+    {
+      "round": 116,
+      "date": "-0057-01-18",
+      "directive": "No new player directive; continue simulation from the verified Round 115 state.",
+      "event_count": 7,
+      "classification_summary": {
+        "Direct": 0,
+        "Connected": 6,
+        "Surprise": 1,
+        "Special": 0,
+        "Ultimate": 0
+      }
+    }
+  ],
+  "ai_event_ledger_present": true
 }
