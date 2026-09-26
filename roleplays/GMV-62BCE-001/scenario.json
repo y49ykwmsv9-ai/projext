@@ -1382,5 +1382,9 @@
     "shield_piercing_record": "individual truthful record for every confirmed shield personally pierced; no unverified encounter is added",
     "kill_record": "open truthful combat ledger; future confirmed individual kills may be recorded, but no unsupported kill count is asserted",
     "status": "field-ready"
+  },
+  "event_minimum_policy": {
+    "schema_version": "gmv-event-minimum-v1",
+    "rule": "Every GMV round must contain at least 7 distinct events. This is the only additional event-count requirement. All existing causal-generation, event-category, variety, continuity, random-resolution, financial, metric, and validation rules remain unchanged. The minimum does not permit unrelated filler; each event must arise from an existing or newly emerging plausible causal thread supported by the established simulation state."
   }
 }
