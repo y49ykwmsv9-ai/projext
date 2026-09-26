@@ -2,10 +2,10 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 85,
-    "latest_date": "-0057-06-09",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-85.json",
-    "news_file": "roleplays/GMV-62BCE-001/news/round-85.json",
+    "latest_round": 86,
+    "latest_date": "-0057-06-16",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-86.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-86.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 85 synchronized and verified; formation directive persisted; fresh random resolution recorded; current totals match state; next-round gate open."
+  "last_verified": "Round 86 synchronized; fresh local random resolution recorded; all pre-commit validation gates passed; post-commit verification pending."
 }
