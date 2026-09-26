@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 104,
-  "latest_date": "-0057-10-26",
+  "latest_round": 105,
+  "latest_date": "-0057-11-02",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,40 +16,40 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 60.387636506218236,
+    "current_round_roll": 60.20901874024152,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      97.97088662119275,
-      83.38629947127495,
-      31.51601741658425
+      20.215047406042952,
+      0.16817925447600857,
+      3.4204783595477517
     ],
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "26 October 57 BCE: Valerius has established an unbroken patrol corridor from the lake port to the shared-water access road and extended the estate’s protection to people accepted as refugees; a small household has been received, the third recurring surplus settlement has realized 29 gross / 11 costs / 18 net with 1.8 privately transferred and 16.2 retained publicly, the merchant inspection thread continued without a new contract, Servilius and Cassius extended the older-road investigation, and Celer raised further administrative questions.",
+    "campaign_development": "2 November 57 BCE: the patrol corridor has become routine; the sanctuary household is settling under protection; the fourth recurring surplus settlement realized 27 gross / 10 costs / 17 net with 1.7 privately transferred and 15.3 retained publicly; smallholders have renewed their shared-road request; Servilius and Cassius found a secondary alignment beside older roadwork; Celer continues his administrative inquiry; and one recovering veteran returned to ordinary duty.",
     "land_area_history": "Round 99 reaches 7.9375 sq mi; Round 101 adds 8 acres (0.0125 sq mi), reaching 7.95 sq mi.",
-    "road_investigation": "Servilius and Cassius have extended their examination of older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
+    "road_investigation": "Servilius and Cassius found a secondary alignment beside older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
     "estate_consolidation": "Automatic adjoining-property acquisition remains active; no new purchase was required this round.",
     "capped_stat_surplus": "Round 99 agricultural output exceeded the 100-point agriculture cap. The event realized 18 denarii net public profit before the canonical 10% realized-profit transfer; 1.8 denarii routed to Valerius's private account, leaving 16.2 denarii retained publicly.",
-    "political_correspondence": "Celer has raised further questions concerning commercial protection, sanctuary, and the administration of Valerius’s private guard; no office, command, payment, or binding commitment exists.",
-    "commercial_thread": "The long-term surplus-delivery agreement remains active; the third contracted consignment settled this round for 29 gross / 11 costs / 18 net. No future receipts are booked.",
+    "political_correspondence": "Celer continues asking how sanctuary decisions are made and how Valerius’s private guard remains under his authority; no office, command, payment, or binding commitment exists.",
+    "commercial_thread": "The long-term surplus-delivery agreement remains active; the fourth contracted consignment settled this round for 27 gross / 10 costs / 17 net. No future receipts are booked.",
     "local_infrastructure_thread": "Smallholders have submitted a written shared-road petition; no construction or expenditure has occurred.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; patrol duties rotate within the existing force and create no new formation.",
-    "road_thread": "The shared-water road remains in routine local use and is now covered by an unbroken patrol corridor from the lake port through the water-access approach.",
-    "medical_recovery": "Two men remain temporarily unavailable; no further recovery was recorded this round.",
-    "refuge_policy": "Valerius has established a standing principle that people accepted as refugees on his estates receive protection under the same shield protecting his household and men, subject to available shelter and estate capacity."
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; patrol duties rotate within the existing force and one recovering veteran has returned to lighter ordinary duty.",
+    "road_thread": "The shared-water road remains in routine local use and is covered by an unbroken patrol corridor from the lake port through the water-access approach.",
+    "medical_recovery": "One man remains temporarily unavailable after one recovering veteran returned to ordinary duty.",
+    "refuge_policy": "The accepted refugee household is settling as ordinary protected residents; protection does not alter property boundaries or grant unrestricted access to armed quarters."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 60.387636506218236,
+    "roll": 60.20901874024152,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      97.97088662119275,
-      83.38629947127495,
-      31.51601741658425
+      20.215047406042952,
+      0.16817925447600857,
+      3.4204783595477517
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
