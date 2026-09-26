@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 110,
-  "latest_date": "-0057-12-07",
+  "latest_round": 111,
+  "latest_date": "-0057-12-14",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -1351,5 +1351,49 @@
     "Special": 0,
     "Ultimate": 0
   },
-  "ai_event_ledger_present": true
+  "ai_event_ledger_present": true,
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 257,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 2512,
+    "relations": 100,
+    "land_area_sq_miles": 7.959375,
+    "temporary_unavailable": 0
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3252.9,
+    "private_account": 608.1,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 41,
+      "operating_costs_denarii": 16,
+      "net_public_profit_denarii": 25,
+      "private_transfer_denarii": 2.5,
+      "public_account_change_denarii": 22.5,
+      "private_account_change_denarii": 2.5,
+      "currency_flow_denarii": 25,
+      "capital_acquisition_denarii": 0,
+      "internal_transfer": true,
+      "ten_percent_profit_transfer_denarii": 2.5
+    }
+  },
+  "campaign_intelligence_allocation": {
+    "round": 111,
+    "allocated": 3000,
+    "remaining_intelligence": 2512,
+    "purpose": "political campaign"
+  }
 }
