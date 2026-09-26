@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 113,
-  "latest_date": "-0057-12-28",
+  "latest_round": 114,
+  "latest_date": "-0057-01-04",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -1368,15 +1368,15 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3204,
+    "intelligence": 3554,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3297.9,
-    "private_account": 613.1
+    "public_account": 3320.4,
+    "private_account": 615.6
   },
   "campaign_intelligence_allocation": {
     "round": 111,
