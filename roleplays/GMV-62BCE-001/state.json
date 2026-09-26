@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 112,
-  "date": "-0057-12-21",
+  "round": 113,
+  "date": "-0057-12-28",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3230.4,
@@ -119,9 +119,9 @@
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 113,
-    "next_date": "-0057-12-28",
-    "requirements": "Round 112 persistence and post-commit verification passed; Round 113 generation permitted."
+    "next_round": 114,
+    "next_date": "-0057-01-04",
+    "requirements": "Round 113 persistence and post-commit verification passed; Round 114 generation permitted."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1188,8 +1188,8 @@
       }
     ]
   },
-  "latest_round": 112,
-  "latest_date": "-0057-12-21",
+  "latest_round": 113,
+  "latest_date": "-0057-12-28",
   "soldiers": 414,
   "population": 257,
   "taxation": 3,
@@ -1205,7 +1205,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 2864,
+  "intelligence": 3204,
   "relations": 100,
   "land_area_sq_miles": 7.959375,
   "temporary_unavailable": 0,
@@ -1243,7 +1243,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2864,
+    "intelligence": 3204,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -1286,13 +1286,13 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
-    "canonical_pointer_synchronization": "READY",
-    "post_commit_verification": "PASS",
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING",
     "ai_ledger_embedded_in_each_event": "PASS",
     "event_format_contract": "PASS"
   },
-  "public_account": 3276.3,
-  "private_account": 610.7,
+  "public_account": 3297.9,
+  "private_account": 613.1,
   "last_round_classification_summary": {
     "Direct": 1,
     "Connected": 5,
