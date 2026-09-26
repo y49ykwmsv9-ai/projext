@@ -65,6 +65,11 @@ Chronicle AI is a standalone text-driven strategy prototype with natural-languag
 
 It is intentionally separate from Worldforge. It can be deployed from its own directory without changing the root application.
 
+
+### Recurring commercial settlement rule
+
+Once a GMV round canonically establishes a recurring financial agreement, every subsequent round must account for that agreement's scheduled settlement. The settlement must be described naturally inside a relevant event or roundup and must never appear as artificial filler. A payment is realized only when the established agreement and current causal state support delivery and settlement. Realized gross receipts, operating costs, net profit, the canonical 10% private transfer, and public retention must be recorded exactly. A concrete in-world disruption may suspend a settlement, but the disruption and its financial consequence must be reported in that round. The current campaign's active recurring agreement is the long-term surplus-delivery contract established in Round 102 and carried by the shared-water road.
+
 ## GMV roleplay persistence
 
 The canonical GMV campaign is stored at `roleplays/GMV-62BCE-001/`.
