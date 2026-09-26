@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "latest_round": 118,
-  "latest_date": "-0057-02-01",
+  "latest_round": 119,
+  "latest_date": "-0057-02-08",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,54 +16,53 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 98.95883762192945,
+    "current_round_roll": 21.593666370314224,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      43.67268661185817,
-      47.81035522925008,
-      58.68198162249823
+      9.133296685160818,
+      91.37031811541961,
+      17.750986247823086
     ],
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "The election opened on 26 January 57 BCE; Valerius remains an active candidate and an administrative ballot-record dispute was contained without a published result.",
+    "campaign_development": "The election remains active; Valerius has signed a binding conditional oath that, should he win, private estate authority will remain separate from magistracical authority. No electoral result has been recorded.",
     "commercial_thread": "Round 118 recurring settlement realized 54 gross / 23 costs / 31 net; 3.1 private / 27.9 public.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
-    "election_thread": "The election is now in its active voting period; no numerical tally, appointment, endorsement, or final result has been recorded.",
+    "election_thread": "The election remains in its active voting period; the separation oath is formally documented, but no numerical tally, appointment, endorsement, or final result has been recorded.",
     "refuge_policy": "The second displaced household is now formally registered as a regular tenant on existing estate land; population remains 257.",
     "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
-    "silver_development_thread": "Second silver working completed another commercial sale at 22 gross / 8 costs / 14 net; deeper reserve remains unresolved.",
+    "silver_development_thread": "Second silver working completed another sale at 21 gross / 8 costs / 13 net; deeper reserve remains unresolved.",
     "family_thread": "The documentary conflict was resolved as an old draft copied without its final cancellation mark; no land transfer, payment, or new encumbrance occurred.",
     "urban_estate_thread": "Open-access facility policy remains in force; ordinary merchant use has now produced a concrete cost-recovery transaction.",
-    "merchant_access_thread": "Expanded merchant access now includes the new capitalization network; a lake-port merchant house completed an unexpected bulk artisan order.",
+    "merchant_access_thread": "Merchant access remains open under existing lawful rules; the new Merchant Affairs Office now coordinates merchant, lake-port, artisan, and estate commercial channels.",
     "library_thread": "The technical measurement method tested in Round 117 became a formal working standard for selected estate commercial lots.",
     "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
-    "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net.",
-    "six_acre_parcel_thread": "Six-acre parcel suffered winter waterlogging and received a 5-denarii drainage repair; no acreage changed and future yield remains unresolved."
+    "trade_capitalization_thread": "Round 119 further consolidated the trade system: the Merchant Affairs Office is established under Valerius's sister; an unexpected lake-port bargain realized 33 denarii net; the recurring agreement realized 30 denarii net.",
+    "six_acre_parcel_thread": "Six-acre parcel suffered winter waterlogging and received a 5-denarii drainage repair; no acreage changed and future yield remains unresolved.",
+    "estate_expansion_thread": "Round 119 added 15.000000 square miles / 9,600 acres of contiguous prime productive land bordering the principal estate. The all-in acquisition price was 380 denarii including estate improvements and labor-contract obligations; 420 denarii of private reserves were liquidated, leaving 40 denarii liquid privately. Total holding: 22.959375 square miles / 14,694 acres."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 98.95883762192945,
+    "roll": 21.593666370314224,
     "special_triggered": false,
+    "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      43.67268661185817,
-      47.81035522925008,
-      58.68198162249823
+      9.133296685160818,
+      91.37031811541961,
+      17.750986247823086
     ],
     "magnitude_11_events": 0,
+    "generated_magnitude_11_events": [],
     "ultimate_reclassification_events": [
-      "GMV-62BCE-002-R118-E01: preserved as Surprise",
-      "GMV-62BCE-002-R118-E05: preserved as Surprise"
+      "E01 qualified as Ultimate from current circumstances after five consecutive no-Ultimate rounds."
     ],
-    "random_generation": "local resolution",
-    "ten_percent_profit_transfer_rule": "PASS",
-    "recurring_financial_agreement_settlement": "PASS",
-    "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "random_generation": "fresh local resolution",
+    "ultimate_gate": "PASS — E01 committed as Ultimate; no random Special/Magnitude-11 event."
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -415,13 +414,15 @@
     "artifact_exclusion_rule": "Historical or legacy records may remain for audit but cannot override the synchronized canonical pointer."
   },
   "ultimate_event_policy": {
-    "schema_version": "gmv-ultimate-event-v1",
-    "definition": "Ultimate is a core event category reserved for extraordinary circumstances that warrant an unusually detailed, cinematic account because the event is materially exceptional within the campaign.",
-    "purpose": "Preserve major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or similarly exceptional developments without overwriting ordinary events.",
-    "clarification": "Ultimate may be retrospective when a major earlier development is formally reconstructed later. It uses the same required event fields and fixed AI ledger. It does not replace Direct, Connected, Surprise, or Special; it is not a probability system and does not bypass metric bounds or financial rules.",
-    "usage_rule": "Generate Ultimate only when campaign context supports extraordinary circumstances. Do not force one every round.",
-    "narrative_rule": "Ultimate narratives may be substantially longer and more cinematic than ordinary news, emphasizing sequence, setting, hardship, decisions, consequences, and continuity while remaining grounded in established campaign facts.",
-    "reclassification_rule": "Every event initially classified as Surprise or Special must be inspected after generation and before final output. If its actual circumstances independently satisfy the Ultimate definition, its final event_category becomes Ultimate and the narrative is rewritten to Ultimate depth. If not, its original category remains. This is a one-way post-generation gate and does not alter the underlying random result."
+    "schema_version": "gmv-ultimate-event-v2",
+    "definition": "Ultimate is a core event category reserved for extraordinary circumstances that warrant unusually detailed, cinematic treatment because the event is materially exceptional within the campaign.",
+    "purpose": "Preserve major expeditions, crises, discoveries, confrontations, breakthroughs, disasters, or similarly exceptional developments.",
+    "usage_rule": "Generate Ultimate when current campaign circumstances independently meet the definition.",
+    "five_round_contingency_enabled": true,
+    "five_round_contingency_rule": "If five consecutive completed rounds contain no Ultimate event, the next round must surface at least one genuine current-circumstance Ultimate rather than unrelated filler. The qualifying development must be grounded in established campaign state and independently satisfy the Ultimate definition.",
+    "fallback_status": "R119 satisfied the contingency through the extraordinary contiguous 15-square-mile land consolidation; consecutive-no-Ultimate streak reset to 0.",
+    "narrative_rule": "Ultimate narratives receive unusually detailed cinematic treatment; personally experienced Ultimate events use direct second-person perspective.",
+    "reclassification_rule": "Every Surprise and Special is inspected by the Ultimate gate. The contingency is separate from random Special and Magnitude-11 resolution and does not bypass event integrity."
   },
   "event_category_hierarchy": {
     "core_categories": [
@@ -435,10 +436,10 @@
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   },
   "next_round_gate": {
-    "status": "OPEN_AFTER_COMMIT",
-    "next_round": 119,
-    "next_date": "-0057-02-08",
-    "requirements": "Round 118 persistence, mathematical reconciliation, and post-commit verification passed."
+    "status": "PENDING_COMMIT",
+    "next_round": 120,
+    "next_date": "-0057-02-15",
+    "requirements": "Open after Round 119 persistence and post-commit verification."
   },
   "personal_guard": {
     "status": "active",
@@ -1366,11 +1367,10 @@
     "rule": "Every GMV round must contain at least 7 distinct events. This is the only additional event-count requirement. All existing causal-generation, event-category, variety, continuity, random-resolution, financial, metric, and validation rules remain unchanged. The minimum does not permit unrelated filler; each event must arise from an existing or newly emerging plausible causal thread supported by the established simulation state."
   },
   "last_round_classification_summary": {
-    "Direct": 2,
-    "Connected": 4,
-    "Surprise": 2,
-    "Special": 0,
-    "Ultimate": 0
+    "Ultimate": 1,
+    "Direct": 3,
+    "Surprise": 1,
+    "Connected": 3
   },
   "ai_event_ledger_present": true,
   "current_total_ledger": {
@@ -1389,15 +1389,15 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4998,
+    "intelligence": 5600,
     "relations": 100,
-    "land_area_sq_miles": 7.959375,
+    "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3535.4,
-    "private_account": 639.7
+    "public_account": 3608.3,
+    "private_account": 687.8
   },
   "campaign_intelligence_allocation": {
     "round": 111,
@@ -1414,14 +1414,14 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_118_verified",
+    "status": "round_119_pending_commit",
     "verification": {
-      "round": 118,
-      "date": "-0057-02-01",
-      "status": "PASS",
-      "round_file": "roleplays/GMV-62BCE-002/rounds/round-118.json",
-      "news_file": "roleplays/GMV-62BCE-002/news/round-118.json",
-      "canonical_pointer": "Round 118 verified"
+      "round": 119,
+      "date": "-0057-02-08",
+      "status": "PENDING",
+      "round_file": "roleplays/GMV-62BCE-002/rounds/round-119.json",
+      "news_file": "roleplays/GMV-62BCE-002/news/round-119.json",
+      "canonical_pointer": "Pending"
     }
   },
   "simulation_contract": {
@@ -1445,8 +1445,8 @@
     "ultimate_reclassification_gate": true,
     "recurring_character_continuity": true
   },
-  "next_round": 119,
-  "next_date": "-0057-02-08",
+  "next_round": 120,
+  "next_date": "-0057-02-15",
   "round_history": [
     {
       "round": 116,
@@ -1486,15 +1486,69 @@
         "Special": 0,
         "Ultimate": 0
       }
+    },
+    {
+      "round": 119,
+      "date": "-0057-02-08",
+      "directive": "Valerius liquidates a strategic amount of his reserves and purchases roughly 15 sq miles of the most productive land bordering his main estate, with estate improvements and labor prices included; he continues training his men; consolidates trade practices through a Merchant Affairs Office led by his sister; continues his political campaign and signs a binding conditional oath separating estate and future magistracical authority.",
+      "event_count": 8,
+      "classification_summary": {
+        "Ultimate": 1,
+        "Direct": 3,
+        "Surprise": 1,
+        "Connected": 3
+      }
     }
   ],
   "wealth_accounts": {
-    "public": 3535.4,
-    "private": 639.7,
+    "public": 3608.3,
+    "private": 687.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 104,
-    "last_round_private_transfer": 10.9
+    "last_round_net_public_profit": 81,
+    "last_round_private_transfer": 8.1
   },
   "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
-  "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net."
+  "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net.",
+  "rounds_since_last_ultimate": 0,
+  "last_ultimate_round": 119,
+  "ultimate_event_created_this_round": true,
+  "merchant_affairs_office": {
+    "status": "active",
+    "established_round": 119,
+    "director": "Valerius's sister",
+    "administrative_center": "principal estate",
+    "connections": [
+      "established merchant network",
+      "lake port",
+      "estate artisans",
+      "principal estate stewards"
+    ],
+    "mandate": "coordinate surplus sales, needed-input purchases, merchant correspondence, transport arrangements, artisan/commercial records, and realized settlement verification; never pre-book speculative revenue"
+  },
+  "family_administration": {
+    "sister": {
+      "status": "active",
+      "role": "Director of Merchant Affairs Office",
+      "authority": "commercial administration and merchant coordination for Valerius's private estate interests",
+      "continuity_note": "Established Round 119; no new name invented."
+    }
+  },
+  "holdings": {
+    "land_area_sq_miles": 22.959375,
+    "acres": 14694,
+    "roman_iugera_approx": 21655.91,
+    "change_this_round_sq_miles": 15,
+    "scope": "personal estates and holdings; Round 107 adds a six-acre adjoining strip for 9 denarii",
+    "acquisition_this_round": {
+      "land_area_sq_miles": 15,
+      "acres": 9600,
+      "bordering_main_estate": true,
+      "prime_productive_land": true,
+      "all_in_purchase_price_denarii": 380,
+      "land_price_denarii": 192,
+      "estate_improvement_price_denarii": 108,
+      "labor_contract_price_denarii": 60,
+      "survey_and_transfer_price_denarii": 20
+    }
+  }
 }
