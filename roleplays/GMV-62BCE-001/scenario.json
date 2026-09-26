@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 109,
-  "latest_date": "-0057-11-30",
+  "latest_round": 110,
+  "latest_date": "-0057-12-07",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,19 +16,19 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 49.14656803138085,
+    "current_round_roll": 78.66631569684472,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      14.974019229093216,
-      19.89098025600281,
-      40.26260004816302
+      99.21838508785838,
+      27.67916650309473,
+      61.74732550989729
     ],
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "30 November 57 BCE: Valerius's estate roads and merchant facilities are now open to all law-abiding Roman citizens under uniform cost-recovery fees."
+    "campaign_development": "7 December 57 BCE: the estate's open-access policy is functioning under exact cost recovery while the silver-and-grain commercial arrangement begins producing independently priced combined consignments."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
@@ -418,7 +418,7 @@
     "classification_note": "Event category describes how an event enters the simulation at generation time; final classification is locked only after the mandatory Ultimate Reclassification Gate. Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   },
-  "next_round_gate": "OPEN",
+  "next_round_gate": "PENDING_COMMIT",
   "personal_guard": {
     "status": "active",
     "count": 100,
