@@ -1,0 +1,50 @@
+{
+  "schema_version": "gmv-round-validation-v1",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 87,
+  "date": "-0057-06-23",
+  "passes": 29,
+  "all_passed": true,
+  "local_random_resolution": {
+    "base_probability_percent": 12,
+    "current_round_base_probability_percent": 12,
+    "roll": 0.849516013929911,
+    "triggered": false,
+    "event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      0.7649904056080706,
+      0.48823820802735474,
+      0.11026721134441297
+    ],
+    "magnitude_11_events": 0,
+    "magnitude_11_event_ids": [],
+    "magnitude_11_initial_categories": [],
+    "random_generation": "locally generated in the ChatGPT app before player-facing events",
+    "ultimate_reclassification_events": [
+      {
+        "event_id": "GMV-62BCE-001-R087-E005",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      }
+    ]
+  },
+  "ultimate_reclassification": [
+    {
+      "event_id": "GMV-62BCE-001-R087-E005",
+      "initial_category": "Surprise",
+      "final_category": "Surprise",
+      "ultimate_reclassification": "not_qualified"
+    }
+  ],
+  "semantic_state": "PASS",
+  "financial_reconciliation": "PASS",
+  "land_consistency": "PASS",
+  "character_continuity": "PASS",
+  "event_variety": "PASS",
+  "current_totals": "PASS",
+  "pointer_sync": "PASS",
+  "post_commit_verification": "PENDING",
+  "notes": "Twenty local Roman veterans were candidates until their proving exercise was completed. Their admission produced +20 soldiers only after successful proof of worth. They volunteered without enlistment pay, so no financial realization was recorded."
+}
