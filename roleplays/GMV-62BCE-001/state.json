@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2799,
+    "intelligence": 2834,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -88,7 +88,9 @@
         "ultimate_reclassification": "not_qualified"
       }
     ],
-    "random_generation": "local resolution"
+    "random_generation": "local resolution",
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "financial_realization": {
     "treasury": 1668,
@@ -102,7 +104,15 @@
     "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN",
-  "reconciliation_adjustments": {},
+  "reconciliation_adjustments": {
+    "canonical_state_repair": {
+      "repaired_round": 91,
+      "repaired_date": "-0057-07-27",
+      "repaired_intelligence": "2559 -> 2834",
+      "basis": "Round 91 current_total_ledger and canonical round/news pointer",
+      "note": "Removed stale Round 89 scalar/latest-round mirrors without changing the canonical Round 91 event record."
+    }
+  },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
     "rule": "Recurring named characters are persistent simulation entities.",
@@ -1159,8 +1169,8 @@
       }
     ]
   },
-  "latest_round": 89,
-  "latest_date": "-0057-07-07",
+  "latest_round": 91,
+  "latest_date": "-0057-07-27",
   "soldiers": 414,
   "population": 250,
   "taxation": 3,
@@ -1176,7 +1186,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 2559,
+  "intelligence": 2834,
   "relations": 100,
   "land_area_sq_miles": 7.75,
   "temporary_unavailable": 0,
