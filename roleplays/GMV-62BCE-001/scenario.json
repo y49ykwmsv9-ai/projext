@@ -71,8 +71,8 @@
       "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PENDING",
-      "post_commit_verification": "PENDING"
+      "canonical_pointer_synchronization": "PASS",
+      "post_commit_verification": "PASS"
     },
     "financial_reconciliation": {
       "round_87_gross_receipts_denarii": 0,
@@ -81,7 +81,9 @@
       "round_87_private_transfer_denarii": 0,
       "basis_event_id": null,
       "inference_basis": "The veterans volunteered without enlistment pay; no realized financial transfer was established."
-    }
+    },
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
