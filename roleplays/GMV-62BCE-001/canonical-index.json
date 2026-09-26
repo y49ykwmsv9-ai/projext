@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 92 written; awaiting final re-read and canonical gate closure."
+  "last_verified": "Round 92 committed, synchronized, re-read, and post-commit verified. Canonical latest round is 92 dated -0057-08-03; current totals match persisted state."
 }
