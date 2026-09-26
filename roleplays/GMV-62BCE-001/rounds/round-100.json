@@ -1,0 +1,582 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round_number": 100,
+  "date": "-0057-09-28",
+  "player_directive": "Continuation of all established directives and causal threads after Round 99; independent developments may emerge.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R100-E01",
+      "round_number": 100,
+      "date": "22 September 57 BCE",
+      "event_category": "Connected",
+      "title": "TWO OF THE WOUNDED RETURN TO ORDINARY DUTY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "personal guard",
+        "estate and expedition physicians"
+      ],
+      "body": "Two of the men who had remained temporarily unavailable since the earlier fighting recover sufficiently to resume ordinary movement and non-strenuous duties. The physicians and attendants record the improvement rather than declaring the men fully restored to every form of combat duty. Their return reduces the temporarily unavailable strength from eight men to six while the overall force remains at 414 soldiers. The recovered men are kept within the established command structure and are not immediately assigned to the most demanding patrol work. Their recovery gives the expedition a small but concrete restoration of available manpower as the week opens.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 4,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": -2,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R100-E02",
+      "round_number": 100,
+      "date": "23 September 57 BCE",
+      "event_category": "Connected",
+      "title": "A ROMAN POLITICAL COURIER OPENS A NEW LINE OF CONTACT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "Roman political contacts"
+      ],
+      "body": "A courier connected with Quintus Caecilius Metellus Celer reaches Valerius's wider circle carrying word that his conduct and expanding private establishment have continued to attract attention in Roman political circles. The message does not contain a binding appointment or payment, but it establishes that a fresh line of correspondence is forming around Valerius rather than merely continuing the expedition's military affairs. The courier's account includes questions about Valerius's current movements, the condition of his men, and the organization of his growing holdings. Valerius's existing relationship with Celer gives the contact a recognizable political anchor without turning the courier's arrival into a formal political decision. A new correspondence thread is therefore opened and remains unresolved for the next round.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 15,
+        "relations": 2,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R100-E03",
+      "round_number": 100,
+      "date": "24 September 57 BCE",
+      "event_category": "Connected",
+      "title": "THE GRAIN MERCHANTS RETURN WITH A LARGER COMMERCIAL PROPOSAL",
+      "mentioned_entities": [
+        "estate stewards",
+        "grain merchants",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The merchants who purchased part of the previous surplus return after examining the quality of the grain and the reliability of the estate's delivery arrangements. Rather than merely repeating the previous sale, they propose a larger future purchase arrangement tied to the next available surplus, while the stewards insist that no future receipt be counted until an actual delivery and payment occur. The discussion gives the estate a new commercial thread extending beyond the single harvest sale already realized. The merchants also provide information about demand in nearby markets, giving the stewards a clearer picture of where future surplus could be sold. No new revenue is posted from the proposal itself because the transaction has not yet been completed.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 11,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R100-E04",
+      "round_number": 100,
+      "date": "25 September 57 BCE",
+      "event_category": "Special",
+      "title": "A STONE FRAGMENT BEARS A MARK THAT CHANGES THE ROAD INVESTIGATION",
+      "mentioned_entities": [
+        "Publius Servilius",
+        "Numerius Cassius",
+        "Gaius Maximus Valerius",
+        "engineered road features"
+      ],
+      "body": "During another examination of the damaged crossing and the worked-stone debris beside the secondary approach, Publius Servilius and Numerius Cassius uncover a small stone fragment bearing a partially preserved worked mark that is unlike the ordinary unmarked fragments catalogued earlier. The fragment is not large enough to identify a builder, date, or political authority, but its placement within the previously documented construction debris makes it immediately relevant to the investigation. Servilius orders the piece protected rather than cleaned aggressively, while Cassius records its exact relationship to the surrounding stones and the weathered marker line. The discovery does not solve the mystery, but it materially changes the evidence available to the investigators and gives them a new physical object around which the next stage of the inquiry can develop. The fragment is placed under controlled custody with the existing road-investigation notes.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 31,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Special",
+        "final_category": "Special",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R100-E05",
+      "round_number": 100,
+      "date": "26 September 57 BCE",
+      "event_category": "Connected",
+      "title": "THE LOCAL SMALLHOLDERS BEGIN DISCUSSING A SHARED ACCESS ROAD",
+      "mentioned_entities": [
+        "smallholders",
+        "estate stewards",
+        "Gaius Maximus Valerius",
+        "nearby landowners"
+      ],
+      "body": "Several smallholders whose fields lie near the newly consolidated estate begin discussing whether a shared access road could reduce the repeated boundary crossings and cart detours that have complicated movement through the area. The proposal is still informal, and no construction is authorized or paid for during the week. The stewards record the locations mentioned by the smallholders and compare them with the estate's new boundary survey, producing a practical list of places where a common route might eventually benefit several holdings at once. The discussion creates a local infrastructure thread independent of the land-purchase program itself. For now, however, the infrastructure condition remains unchanged because no completed work has occurred.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 13,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R100-E06",
+      "round_number": 100,
+      "date": "27 September 57 BCE",
+      "event_category": "Special",
+      "title": "AN UNEXPECTED CARAVAN ARRIVES SEEKING ESTATE SURPLUS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "grain merchants",
+        "foreign caravan merchants"
+      ],
+      "body": "An unexpectedly large commercial caravan reaches the market area connected to Valerius's estate and begins seeking grain and other agricultural surplus after hearing of the recent sale. The caravan's arrival is more substantial than the ordinary merchant traffic the stewards have been dealing with, and its representatives offer terms that could broaden the estate's commercial reach beyond the nearby market. The stewards negotiate cautiously, insisting that quantities, delivery arrangements, and payment be established before anything is entered as realized revenue. A completed sale of part of the available surplus follows, producing 42 denarii in gross receipts against 22 denarii in harvesting, transport, storage, and market costs. The resulting 20-denarius net public profit is realized immediately; under the standing 10% rule, 2 denarii are routed to Valerius's private account and 18 denarii remain in the public account. The caravan's arrival opens a new longer-distance commercial relationship without changing the estate's capped trade condition.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 8,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 42,
+          "operating_costs_denarii": 22,
+          "net_public_profit_denarii": 20,
+          "private_transfer_denarii": 2,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 18,
+          "private_account_change_denarii": 2,
+          "currency_flow_denarii": 20,
+          "internal_transfer": true,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Special",
+        "final_category": "Special",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R100-E07",
+      "round_number": 100,
+      "date": "28 September 57 BCE",
+      "event_category": "Connected",
+      "title": "THE PERSONAL GUARD TURNS RECENT EXPERIENCE INTO A NEW FIELD DRILL",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "Marcus Lartius",
+        "personal guard",
+        "Vexillum Valerianum"
+      ],
+      "body": "Titus Varenus, Lucius Atilius, Gnaeus Fabius, and Marcus Lartius organize a field drill for the personal guard based on the lessons of the recent road security work and the earlier requirement that patrols and foraging parties never operate singly. The exercise concentrates on mutual support between the infantry and cavalry sectors rather than simply repeating the full-day veteran training Valerius conducted previously. The Vexillum Valerianum remains with the command element while the guard practices shifting between distributed positions without breaking visual contact. No new enemy is encountered and no casualty occurs, but the drill gives the guard a new standing training pattern that can be reused as the expedition moves. The personal guard remains at 100 men and retains its established 50-infantry, 50-cavalry composition.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 7,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 414,
+      "change": 0,
+      "after": 414,
+      "unit": "men"
+    },
+    "population": {
+      "before": 250,
+      "change": 0,
+      "after": 250,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 3440,
+      "change": 89,
+      "after": 3529,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 2,
+      "after": 102,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.9375,
+      "change": 0,
+      "after": 7.9375,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 8,
+      "change": -2,
+      "after": 6,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 250,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 3529,
+    "relations": 100,
+    "land_area_sq_miles": 7.9375,
+    "temporary_unavailable": 6
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3073.2,
+    "private_account": 607.8,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 42,
+      "operating_costs_denarii": 22,
+      "net_public_profit_denarii": 20,
+      "private_transfer_denarii": 2,
+      "treasury_change_denarii": 0,
+      "public_account_change_denarii": 18,
+      "private_account_change_denarii": 2,
+      "currency_flow_denarii": 20,
+      "internal_transfer": true,
+      "ten_percent_profit_transfer_denarii": 2
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 58.39013105797475,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      59.490621014113486,
+      3.4875775916056617,
+      8.611945120814879
+    ],
+    "magnitude_11_events": 2,
+    "random_generation": "local resolution"
+  },
+  "validation_ledger": {
+    "canonical_state_read": "PASS",
+    "local_random_resolution": "PASS",
+    "causal_event_generation": "PASS",
+    "ultimate_reclassification_gate": "PASS",
+    "narrative_contract": "PASS",
+    "semantic_state_consistency": "PASS",
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "round_delta_reconciliation": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_and_property_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety_and_causal_diversity": "PASS",
+    "current_total_ledger_complete": "PASS",
+    "random_classification_consistency": "PASS",
+    "exact_quantity_unit_consistency": "PASS",
+    "military_state_consistency": "PASS",
+    "economic_financial_consistency": "PASS",
+    "agriculture_state_consistency": "PASS",
+    "literal_revenue_realization_check": "PASS",
+    "ten_percent_profit_transfer_rule": "PASS",
+    "financial_account_routing": "PASS",
+    "geographic_reference_consistency": "PASS",
+    "geographic_source_protection": "PASS",
+    "ultimate_event_contract": "PASS",
+    "surprise_special_expanded_prose": "PASS",
+    "final_end_of_round_validation": "PASS",
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
+  },
+  "continuity": {
+    "campaign_development": "28 September 57 BCE: the estate network remains at 7.9375 sq mi, two wounded men have returned to ordinary duty, a new political correspondence thread has opened through a courier connected with Quintus Caecilius Metellus Celer, the road investigation has gained a marked stone fragment, local smallholders are discussing a shared access road, and a substantial caravan has opened a longer-distance commercial thread. The personal guard remains 100 men.",
+    "land_area_history": "Unchanged from Round 99 at 7.9375 sq mi.",
+    "road_investigation": "The damaged crossing, weathered marker line, secondary approach, worked-stone fragments, and newly recovered marked stone fragment remain under investigation; builder, date, political authority, and original purpose remain unresolved.",
+    "political_correspondence": "New courier contact associated with Quintus Caecilius Metellus Celer has opened a correspondence thread; no appointment or payment has been established.",
+    "commercial_thread": "A larger merchant proposal and the successful 42-denarius caravan sale create a new longer-distance commercial relationship; future receipts remain unrealized until concrete sales occur.",
+    "local_infrastructure_thread": "Nearby smallholders have begun discussing a shared access road; no construction or expenditure has yet occurred.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; the guard now has a reusable distributed-position drill based on recent experience.",
+    "estate_consolidation": "The Round 98 automatic adjoining-property directive remains active, but Round 100 produces no new land transfer."
+  },
+  "next_round_gate": "OPEN"
+}
