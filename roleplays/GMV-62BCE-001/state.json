@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 85,
-  "date": "-0057-06-09",
+  "round": 86,
+  "date": "-0057-06-16",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2253,
+    "intelligence": 2319,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "9 June 57 BCE: Valerius continues investigating the unexplained engineered route while using disciplined loose phalanxes with an outward-facing perimeter; fresh signs of passage remain unidentified and the private dispatch to Quintus Caecilius Metellus Celer awaits reply.",
+    "campaign_development": "16 June 57 BCE: Valerius continues the engineered-route investigation with the loose-phalanx doctrine now established as a field practice; a damaged crossing and an uncertain line of markers have been recorded, while the private dispatch to Quintus Caecilius Metellus Celer remains unanswered.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi."
   },
   "special_event_policy": {
@@ -57,27 +57,27 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 55.0745882477344,
+    "current_round_roll": 55.35618744884038,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      98.5977617586054,
-      16.5821901676029,
-      85.9397469619254
+      45.62053479601257,
+      69.97149106404379,
+      13.992953600836355
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 55.0745882477344,
+    "special_roll": 55.35618744884038,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      98.5977617586054,
-      16.5821901676029,
-      85.9397469619254
+      45.62053479601257,
+      69.97149106404379,
+      13.992953600836355
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -108,13 +108,13 @@
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
       "canonical_pointer_synchronization": "PASS",
-      "post_commit_verification": "PASS"
+      "post_commit_verification": "PENDING"
     },
     "financial_reconciliation": {
-      "round_85_gross_receipts_denarii": 0,
-      "round_85_operating_costs_denarii": 0,
-      "round_85_net_public_profit_denarii": 0,
-      "round_85_private_transfer_denarii": 0,
+      "round_86_gross_receipts_denarii": 0,
+      "round_86_operating_costs_denarii": 0,
+      "round_86_net_public_profit_denarii": 0,
+      "round_86_private_transfer_denarii": 0,
       "basis_event_id": null,
       "inference_basis": "No event this round established a realized financial consequence."
     }
