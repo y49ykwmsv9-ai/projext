@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 102,
-  "date": "-0057-10-12",
+  "round": 103,
+  "date": "-0057-10-19",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3076.5,
-    "private": 611.5,
+    "public": 3093.6,
+    "private": 613.4,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 22,
-    "last_round_private_transfer": 2.2
+    "last_round_net_public_profit": 19,
+    "last_round_private_transfer": 1.9
   },
   "metrics": {
     "soldiers": 414,
@@ -26,10 +26,10 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3731,
+    "intelligence": 3844,
     "relations": 100,
     "land_area_sq_miles": 7.95,
-    "temporary_unavailable": 3
+    "temporary_unavailable": 2
   },
   "holdings": {
     "land_area_sq_miles": 7.95,
@@ -49,66 +49,64 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "12 October 57 BCE: the petitioned shared-water road has been completed and opened; local carts and water carriers now use it; the caravan merchants have entered a long-term surplus-delivery agreement; the first contracted delivery has realized 22 denarii net profit with the canonical 10% private transfer; Celer has received a substantive reply; the new traffic has exposed another section of older roadwork; and one more wounded veteran has returned to field service.",
+    "campaign_development": "19 October 57 BCE: the shared-water road is functioning as a normal local route; the second contracted surplus delivery has settled for 31 gross / 12 costs / 19 net, with 1.9 privately transferred and 17.1 retained publicly; an unexpected merchant caravan has inspected the route without signing a new contract; Celer has replied with further questions; Servilius and Cassius continue the older-road investigation; the guard has incorporated the route into routine observation; and one more wounded veteran has returned to ordinary duty.",
     "land_area_history": "Round 99 reaches 7.9375 sq mi; Round 101 adds 8 acres (0.0125 sq mi), reaching 7.95 sq mi.",
-    "road_investigation": "Increased traffic exposed a short section of older prepared ground near the damaged crossing. Builder, date, authority, and original purpose remain unresolved.",
+    "road_investigation": "Servilius and Cassius have marked the junction between the new road and older prepared ground; builder, date, authority, and original purpose remain unresolved.",
     "estate_consolidation": "Automatic adjoining-property acquisition remains active; no new purchase was required this round.",
     "capped_stat_surplus": "Round 99 agricultural output exceeded the 100-point agriculture cap. The event realized 18 denarii net public profit before the canonical 10% realized-profit transfer; 1.8 denarii routed to Valerius's private account, leaving 16.2 denarii retained publicly.",
-    "political_correspondence": "Valerius has sent a fuller reply to Quintus Caecilius Metellus Celer; no office, command, payment, or binding commitment exists.",
-    "commercial_thread": "Foreign caravan merchants have signed a continuing surplus-delivery agreement. The first contracted consignment has been delivered and paid; future consignments remain unrealized until completed.",
+    "political_correspondence": "Celer has replied to Valerius's fuller account and requested further administrative information; no office, command, payment, or binding commitment exists.",
+    "commercial_thread": "The long-term surplus-delivery agreement remains active. The second contracted consignment has been delivered and settled this round; a separate merchant caravan has inspected the route but made no new binding commitment.",
     "local_infrastructure_thread": "Smallholders have submitted a written shared-road petition; no construction or expenditure has occurred.",
     "personal_guard": "100 total: 50 infantry and 50 cavalry; no change in composition this round.",
-    "road_thread": "The shared-water road is physically complete and in legitimate local use; merchant traffic has begun and the route supports the new long-term delivery contract.",
-    "medical_recovery": "Temporary unavailable strength has fallen from four to three after one more veteran returned to ordinary field service."
+    "road_thread": "The shared-water road is established in routine local use and supports recurring commercial deliveries as well as ordinary water and estate traffic.",
+    "medical_recovery": "Temporary unavailable strength has fallen from three to two after another veteran returned to ordinary duty."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 88.10711638320366,
-    "current_round_selected": false,
-    "current_round_event_id": null,
+    "current_round_roll": 2.6667678048776566,
+    "current_round_selected": true,
+    "current_round_event_id": "GMV-62BCE-001-R103-E03",
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      56.37388171352061,
-      91.57180158730571,
-      40.70591480962739
+      22.34532454799316,
+      25.77837901052369,
+      63.24768400336487
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 88.10711638320366,
-    "special_triggered": false,
+    "roll": 2.6667678048776566,
+    "special_triggered": true,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      56.37388171352061,
-      91.57180158730571,
-      40.70591480962739
+      22.34532454799316,
+      25.77837901052369,
+      63.24768400336487
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
     "random_generation": "local resolution",
     "ten_percent_profit_transfer_rule": "PASS",
+    "recurring_financial_agreement_settlement": "PASS",
     "canonical_pointer_synchronization": "PASS",
     "post_commit_verification": "PASS"
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3076.5,
-    "private": 611.5,
-    "gross_receipts_denarii": 36,
-    "operating_costs_denarii": 32,
-    "net_public_profit_denarii": 22,
-    "private_transfer_denarii": 2.2,
-    "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": 4,
-    "capital_acquisition_denarii": 18,
-    "ten_percent_profit_transfer_denarii": 2.2,
-    "public_account_change_denarii": 1.8,
-    "private_account_change_denarii": 2.2
+    "public": 3093.6,
+    "private": 613.4,
+    "gross_receipts_denarii": 31,
+    "operating_costs_denarii": 12,
+    "net_public_profit_denarii": 19,
+    "private_transfer_denarii": 1.9,
+    "public_account_change_denarii": 17.1,
+    "private_account_change_denarii": 1.9,
+    "recurring_agreement_id": "gmv_surplus_delivery_contract_01"
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
