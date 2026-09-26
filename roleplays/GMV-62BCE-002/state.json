@@ -4,11 +4,11 @@
   "date": "-0057-02-01",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3535.9,
-    "private": 639.2,
+    "public": 3535.4,
+    "private": 639.7,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 104,
-    "last_round_private_transfer": 10.4
+    "last_round_private_transfer": 10.9
   },
   "metrics": {
     "soldiers": 414,
@@ -106,13 +106,11 @@
     "gross_receipts_denarii": 179,
     "operating_costs_denarii": 75,
     "net_public_profit_denarii": 104,
-    "private_transfer_denarii": 10.4,
-    "public_account_change_denarii": 93.6,
-    "private_account_change_denarii": 10.4,
+    "private_transfer_denarii": 10.9,
+    "public_account_change_denarii": 93.1,
+    "private_account_change_denarii": 10.9,
     "currency_flow_denarii": 104,
-    "capital_acquisition_denarii": 0,
-    "internal_transfer": true,
-    "ten_percent_profit_transfer_denarii": 10.4
+    "note": "Positive realized event profits: 41, 31, 23, and 14 denarii; 10% event-level routing produces 4.1, 3.1, 2.3, and 1.4 denarii privately (10.9 total). A separate 5-denarii repair expense reduces public account only. Net round public effect is 104 - 10.9 = 93.1 denarii."
   },
   "next_round_gate": {
     "status": "PENDING_COMMIT",
@@ -1247,8 +1245,8 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3535.9,
-    "private_account": 639.2
+    "public_account": 3535.4,
+    "private_account": 639.7
   },
   "round_delta_ledger": {
     "intelligence": {
@@ -1278,11 +1276,11 @@
     "canonical_pointer_synchronization": "PASS",
     "post_commit_verification": "PASS"
   },
-  "public_account": 3535.9,
-  "private_account": 639.2,
+  "public_account": 3535.4,
+  "private_account": 639.7,
   "last_round_classification_summary": {
     "Direct": 2,
-    "Connected": 5,
+    "Connected": 4,
     "Surprise": 2,
     "Special": 0,
     "Ultimate": 0
@@ -1342,7 +1340,7 @@
       "event_count": 8,
       "classification_summary": {
         "Direct": 2,
-        "Connected": 5,
+        "Connected": 4,
         "Surprise": 2,
         "Special": 0,
         "Ultimate": 0
