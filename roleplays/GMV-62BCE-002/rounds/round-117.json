@@ -414,8 +414,8 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_numbering": "PASS",
-    "canonical_pointer_synchronization": "READY",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "round_delta_ledger": {
     "intelligence": {
