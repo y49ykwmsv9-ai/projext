@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 111,
-  "latest_date": "-0057-12-14",
+  "latest_round": 112,
+  "latest_date": "-0057-12-21",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -1368,26 +1368,26 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2512,
+    "intelligence": 2864,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3252.9,
-    "private_account": 608.1,
+    "public_account": 3276.3,
+    "private_account": 610.7,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 41,
-      "operating_costs_denarii": 16,
-      "net_public_profit_denarii": 25,
-      "private_transfer_denarii": 2.5,
-      "public_account_change_denarii": 22.5,
-      "private_account_change_denarii": 2.5,
-      "currency_flow_denarii": 25,
+      "gross_receipts_denarii": 44,
+      "operating_costs_denarii": 18,
+      "net_public_profit_denarii": 26,
+      "private_transfer_denarii": 2.6,
+      "public_account_change_denarii": 23.4,
+      "private_account_change_denarii": 2.6,
+      "currency_flow_denarii": 26,
       "capital_acquisition_denarii": 0,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 2.5
+      "ten_percent_profit_transfer_denarii": 2.6
     }
   },
   "campaign_intelligence_allocation": {
