@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 110,
-  "date": "-0057-12-07",
+  "round": 111,
+  "date": "-0057-12-14",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3230.4,
@@ -118,10 +118,10 @@
     "ten_percent_profit_transfer_denarii": 2.3
   },
   "next_round_gate": {
-    "status": "PENDING_COMMIT",
-    "next_round": 111,
-    "next_date": "-0057-12-14",
-    "requirements": "Round 110 must pass persistence and post-commit verification before Round 111 generation."
+    "status": "OPEN_AFTER_COMMIT",
+    "next_round": 112,
+    "next_date": "-0057-12-21",
+    "requirements": "Round 111 persistence and post-commit verification passed; Round 112 generation permitted."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1188,8 +1188,8 @@
       }
     ]
   },
-  "latest_round": 110,
-  "latest_date": "-0057-12-07",
+  "latest_round": 111,
+  "latest_date": "-0057-12-14",
   "soldiers": 414,
   "population": 257,
   "taxation": 3,
@@ -1205,7 +1205,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 5249,
+  "intelligence": 2512,
   "relations": 100,
   "land_area_sq_miles": 7.959375,
   "temporary_unavailable": 0,
@@ -1243,123 +1243,33 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4712,
+    "intelligence": 2512,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3230.4,
-    "private_account": 605.6,
+    "public_account": 3252.9,
+    "private_account": 608.1,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 63,
-      "operating_costs_denarii": 31,
-      "net_public_profit_denarii": 32,
-      "private_transfer_denarii": 3.2,
-      "public_account_change_denarii": 28.8,
-      "private_account_change_denarii": 3.2,
-      "currency_flow_denarii": 32,
+      "gross_receipts_denarii": 41,
+      "operating_costs_denarii": 16,
+      "net_public_profit_denarii": 25,
+      "private_transfer_denarii": 2.5,
+      "public_account_change_denarii": 22.5,
+      "private_account_change_denarii": 2.5,
+      "currency_flow_denarii": 25,
       "capital_acquisition_denarii": 0,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 3.2
+      "ten_percent_profit_transfer_denarii": 2.5
     }
   },
   "round_delta_ledger": {
-    "soldiers": {
-      "before": 414,
-      "change": 0,
-      "after": 414
-    },
-    "population": {
-      "before": 257,
-      "change": 0,
-      "after": 257
-    },
-    "taxation": {
-      "before": 3,
-      "change": 0,
-      "after": 3
-    },
-    "economy": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "agriculture": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "infrastructure": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "trade": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "readiness": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "morale": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "supply": {
-      "before": 0,
-      "change": 0,
-      "after": 0
-    },
-    "organization": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "stability": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "legitimacy": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "technology": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "exhaustion": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
     "intelligence": {
-      "before": 4437,
-      "change": 275,
-      "after": 4712
-    },
-    "relations": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "land_area_sq_miles": {
-      "before": 7.959375,
-      "change": 0,
-      "after": 7.959375
-    },
-    "temporary_unavailable": {
-      "before": 0,
-      "change": 0,
-      "after": 0
+      "before": 5249,
+      "change": -2737,
+      "after": 2512
     }
   },
   "validation_ledger": {
@@ -1377,10 +1287,12 @@
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
     "canonical_pointer_synchronization": "READY",
-    "post_commit_verification": "PASS"
+    "post_commit_verification": "PASS",
+    "ai_ledger_embedded_in_each_event": "PASS",
+    "event_format_contract": "PASS"
   },
-  "public_account": 3230.4,
-  "private_account": 605.6,
+  "public_account": 3252.9,
+  "private_account": 608.1,
   "last_round_classification_summary": {
     "Direct": 1,
     "Connected": 5,
