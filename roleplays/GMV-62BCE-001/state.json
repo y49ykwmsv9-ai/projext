@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 89,
-  "date": "-0057-07-07",
+  "round": 90,
+  "date": "-0057-07-14",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2435,
+    "intelligence": 2689,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -71,7 +71,7 @@
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 0.42012723204261393,
+    "special_roll": 0.9079569598371307,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
@@ -1235,5 +1235,14 @@
     "final_end_of_round_validation": "PASS",
     "canonical_pointer_synchronization": "PASS",
     "post_commit_verification": "PASS"
+  },
+  "valerius_equipment": {
+    "armor_style": "traditional Roman",
+    "material_source": "Valerius personal mines and estate stores",
+    "craftsmen": "finest smiths of the estate and foundries",
+    "gladius": "personal high-quality Roman gladius",
+    "pilum": "double-reinforced personal pilum",
+    "shield_piercing_record": "individual truthful record for every confirmed shield personally pierced; no unverified encounter is added",
+    "status": "field-ready"
   }
 }
