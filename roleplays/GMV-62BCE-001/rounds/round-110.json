@@ -58,7 +58,7 @@
     {
       "event_id": "GMV-62BCE-001-R110-E02",
       "date": "2 December 57 BCE",
-      "event_category": "Connected",
+      "event_category": "Surprise",
       "title": "THE SECOND SILVER WORKING REVEALS A SEPARATE VEIN WITHIN THE SURVEYED GROUND",
       "mentioned_entities": [
         "Lucius Atilius",
@@ -99,16 +99,16 @@
           "capital_acquisition_denarii": 0
         },
         "classification_audit": {
-          "initial_category": "Connected",
-          "final_category": "Connected",
-          "ultimate_reclassification": "not_applicable"
+          "initial_category": "Surprise",
+          "final_category": "Surprise",
+          "ultimate_reclassification": "not_ultimate"
         }
       }
     },
     {
       "event_id": "GMV-62BCE-001-R110-E03",
       "date": "3 December 57 BCE",
-      "event_category": "Connected",
+      "event_category": "Direct",
       "title": "THE ESTATE'S COST-RECOVERY SCHEDULE IS TESTED BY ORDINARY COMMERCIAL TRAFFIC",
       "mentioned_entities": [
         "estate stewards",
@@ -149,8 +149,8 @@
           "capital_acquisition_denarii": 0
         },
         "classification_audit": {
-          "initial_category": "Connected",
-          "final_category": "Connected",
+          "initial_category": "Direct",
+          "final_category": "Direct",
           "ultimate_reclassification": "not_applicable"
         }
       }
@@ -358,7 +358,7 @@
     {
       "event_id": "GMV-62BCE-001-R110-E08",
       "date": "7 December 57 BCE",
-      "event_category": "Connected",
+      "event_category": "Surprise",
       "title": "SERVILIUS AND CASSIUS FIND THAT THE OLD ROADWORK EXTENDS BEYOND THE MARKED STONE",
       "mentioned_entities": [
         "Publius Servilius",
@@ -399,11 +399,86 @@
           "capital_acquisition_denarii": 0
         },
         "classification_audit": {
-          "initial_category": "Connected",
-          "final_category": "Connected",
-          "ultimate_reclassification": "not_applicable"
+          "initial_category": "Surprise",
+          "final_category": "Surprise",
+          "ultimate_reclassification": "not_ultimate"
         }
       }
+    }
+  ],
+  "ai_event_ledger": [
+    {
+      "event_id": "GMV-62BCE-001-R110-E01",
+      "final_category": "Connected",
+      "magnitude": "standard",
+      "intelligence_delta": 47,
+      "financial_realization": "49 gross / 17 costs / 32 net / 3.2 private / 28.8 public"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E02",
+      "final_category": "Surprise",
+      "magnitude": "standard",
+      "intelligence_delta": 38,
+      "financial_realization": "none",
+      "ultimate_gate": "PASS — not Ultimate"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E03",
+      "final_category": "Direct",
+      "magnitude": "standard",
+      "intelligence_delta": 52,
+      "financial_realization": "14 gross fees / 14 operating costs / 0 net"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E04",
+      "final_category": "Connected",
+      "magnitude": "standard",
+      "intelligence_delta": 31,
+      "financial_realization": "none"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E05",
+      "final_category": "Connected",
+      "magnitude": "standard",
+      "intelligence_delta": 44,
+      "financial_realization": "none"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E06",
+      "final_category": "Connected",
+      "magnitude": "standard",
+      "intelligence_delta": 27,
+      "financial_realization": "none"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E07",
+      "final_category": "Connected",
+      "magnitude": "standard",
+      "intelligence_delta": 19,
+      "financial_realization": "none"
+    },
+    {
+      "event_id": "GMV-62BCE-001-R110-E08",
+      "final_category": "Surprise",
+      "magnitude": "standard",
+      "intelligence_delta": 36,
+      "financial_realization": "none",
+      "ultimate_gate": "PASS — not Ultimate"
+    },
+    {
+      "category_summary": {
+        "Direct": 1,
+        "Connected": 5,
+        "Surprise": 2,
+        "Special": 0,
+        "Ultimate": 0
+      }
+    },
+    {
+      "random_resolution": "Special roll 78.66631569684472 — no Special; Magnitude-11 checks 99.21838508785838 / 27.67916650309473 / 61.74732550989729 — all fail"
+    },
+    {
+      "validation_note": "Final categories determined by causal origin; Surprise events independently passed the Ultimate Reclassification Gate and remained Surprise."
     }
   ],
   "current_total_ledger": {
@@ -572,8 +647,8 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
-    "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING"
   },
   "continuity": {
     "campaign_development": "7 December 57 BCE: the estate's open-access policy is functioning under exact cost recovery while the silver-and-grain commercial arrangement begins producing independently priced combined consignments.",
