@@ -531,10 +531,11 @@
     "ultimate_event_contract": "PASS",
     "surprise_special_expanded_prose": "PASS",
     "final_end_of_round_validation": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS",
+    "plausible_financial_quantification": "PASS"
   },
-  "next_round_gate": "PENDING",
+  "next_round_gate": "OPEN",
   "personal_guard": {
     "status": "active",
     "count": 100,
