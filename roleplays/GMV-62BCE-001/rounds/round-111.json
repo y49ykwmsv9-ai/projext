@@ -1,0 +1,547 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round_number": 111,
+  "date": "14 December 57 BCE",
+  "player_directive": "Allocate 3,000 Intelligence to Valerius's political campaign and continue to the next round.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R111-E01",
+      "date": "8 December 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS COMMITS THREE THOUSAND INTELLIGENCE POINTS TO HIS CIVIC CAMPAIGN",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "campaign staff",
+        "local electoral officials"
+      ],
+      "body": "Valerius orders 3,000 points of accumulated intelligence capacity to be committed specifically to the campaign surrounding his registered civic candidacy. The campaign staff divide the assignment between procedural research, identification of lawful civic constituencies and their concerns, correspondence preparation, scheduling, and verification of the local electoral timetable. The allocation does not itself create votes, endorsements, an office, or a financial receipt, and no electoral outcome is recorded from the expenditure. It instead converts a substantial portion of Valerius's accumulated intelligence reserve into an active campaign resource for the coming civic process. The commitment is entered as a direct expenditure of intelligence rather than as a transfer of denarii.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": -3000,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E02",
+      "date": "9 December 57 BCE",
+      "event_category": "Connected",
+      "title": "CAMPAIGN CORRESPONDENCE EXPANDS INTO A BROADER PROCEDURAL RECORD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "campaign staff",
+        "local civic officials"
+      ],
+      "body": "The first returns from the campaign's new intelligence work produce a more complete working record of the civic procedures surrounding the candidacy. Staff separate matters that require formal appearance from matters that can be handled by written communication and identify several deadlines that had previously been treated only as approximate. Valerius is briefed on the distinction and orders the record kept in procedural form rather than turning unverified reports into claims of political support. No votes or endorsements are recorded. The campaign therefore gains a more organized picture of the process without any electoral result being inferred.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 48,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E03",
+      "date": "10 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE NEXT SURPLUS SETTLEMENT MOVES THROUGH THE SHARED-WATER ROAD",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers"
+      ],
+      "body": "A new settlement under the standing surplus-delivery agreement is completed after merchants receive the latest estate consignment through the shared-water road. Current quantities and handling conditions produce 41 denarii in gross receipts against 16 denarii in operating costs, leaving 25 denarii of realized net public profit. The standing ten-percent rule routes 2.5 denarii of that realized profit to Valerius's private account while 22.5 denarii remains public. The figures are independently determined from this settlement and do not reproduce the quantities or margins of earlier deliveries. The contract therefore remains active as a recurring relationship while its individual settlements continue to vary with current conditions.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 37,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 41,
+        "operating_costs_denarii": 16,
+        "net_public_profit_denarii": 25,
+        "private_transfer_denarii": 2.5,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 22.5,
+        "private_account_change_denarii": 2.5,
+        "currency_flow_denarii": 25
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E04",
+      "date": "11 December 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE OLD ROAD INVESTIGATION REVEALS A SECOND ALIGNMENT BESIDE THE EARLIER WORK",
+      "mentioned_entities": [
+        "Publius Servilius",
+        "Numerius Cassius",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "A closer comparison of the newly recorded roadwork reveals that the shaped ground does not simply continue along the line first identified by Servilius and Cassius. A second alignment branches away at a shallow angle before disappearing beneath later disturbance, suggesting that the surviving works may represent more than one phase of construction. The men preserve the branching point in their notes and leave the ground untouched. The evidence still does not establish the builder, date, authority, or original purpose, but it materially changes the physical record available for future examination. Valerius receives the report as an unresolved historical investigation rather than as a completed attribution.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 42,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E05",
+      "date": "12 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND SILVER WORKING IS PREPARED FOR A DEEPER EXAMINATION",
+      "mentioned_entities": [
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "estate surveyors"
+      ],
+      "body": "Workers at the second silver site clear and reinforce the portion of the working around the separate seam identified in the previous round. The preparation is limited to making the ground safe and measurable; no unsupported estimate of the vein's eventual yield is entered into the accounts. Survey marks are extended so that later observations can distinguish the newly identified seam from the material already associated with the older working. No silver sale is realized from the preparation itself. The mining thread therefore advances physically while its future production remains uncertain.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 31,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E06",
+      "date": "13 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE OPEN ESTATE FACILITIES HANDLE ANOTHER MIX OF LAWFUL ROMAN TRAFFIC",
+      "mentioned_entities": [
+        "estate stewards",
+        "Roman citizens",
+        "merchant carriers"
+      ],
+      "body": "The estate's roads and merchant facilities continue operating under the rule that lawful Roman citizens are admitted without preferential patronage. Several users pass through the facilities for unrelated commercial and agricultural purposes, and the stewards apply the same operating rules to each without creating a privileged category. The activity produces no new profit beyond the cost-recovery framework already established. No exclusion, seizure, or special commercial right emerges from the day's traffic. The policy therefore continues as an operating institution rather than as a one-time declaration.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 36,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E07",
+      "date": "14 December 57 BCE",
+      "event_category": "Connected",
+      "title": "TITUS VARENUS REASSIGNS THE PATROL CIRCUIT AROUND WINTER TRAFFIC",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "personal guard",
+        "merchant carriers"
+      ],
+      "body": "With winter traffic increasing along the shared-water road, Titus Varenus adjusts the timing of his patrol circuit so that the busiest sections are observed during the periods when carts and carriers are most likely to converge. The change is administrative rather than a mobilization, and the full guard remains available. No hostile force is encountered and no merchant is detained. The revised circuit gives the existing security arrangement a more deliberate schedule without changing the size or readiness of the personal guard. The road remains open to lawful traffic.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 29,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R111-E08",
+      "date": "14 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE CAMPAIGN'S FIRST CIVIC MEETINGS ARE RECORDED WITHOUT AN ELECTORAL RESULT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman citizens",
+        "campaign staff"
+      ],
+      "body": "Valerius's campaign staff arrange several lawful meetings with Roman citizens whose concerns fall within the ordinary civic process. The discussions are recorded as questions and requests rather than converted into claims about voting intentions. Valerius answers questions about the responsibilities associated with the office for which he is standing and keeps the campaign's private estate activities distinct from the public candidacy. No vote is held in these meetings and no participant is recorded as having committed to a candidate. The campaign intelligence allocation therefore begins producing direct civic contact while the actual electoral decision remains unresolved.",
+      "round_number": 111,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 40,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    }
+  ],
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 257,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 2512,
+    "relations": 100,
+    "land_area_sq_miles": 7.959375,
+    "temporary_unavailable": 0
+  },
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 414,
+      "change": 0,
+      "after": 414
+    },
+    "population": {
+      "before": 257,
+      "change": 0,
+      "after": 257
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "intelligence": {
+      "before": 5249,
+      "change": -2737,
+      "after": 2512
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "land_area_sq_miles": {
+      "before": 7.959375,
+      "change": 0,
+      "after": 7.959375
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0
+    }
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3252.9,
+    "private_account": 608.1,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 41,
+      "operating_costs_denarii": 16,
+      "net_public_profit_denarii": 25,
+      "private_transfer_denarii": 2.5,
+      "public_account_change_denarii": 22.5,
+      "private_account_change_denarii": 2.5,
+      "currency_flow_denarii": 25,
+      "capital_acquisition_denarii": 0,
+      "internal_transfer": true,
+      "ten_percent_profit_transfer_denarii": 2.5
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 32.06378844263057,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      99.98229553043363,
+      89.97857063518056,
+      55.16228164667435
+    ],
+    "magnitude_11_events": 0,
+    "generated_magnitude_11_events": [],
+    "ultimate_reclassification_events": [],
+    "random_generation": "local resolution"
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "financial_reconciliation": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "single_thread_event_integrity": "PASS",
+    "ultimate_event_contract": "PASS",
+    "surprise_special_gate": "PASS",
+    "semantic_state_consistency": "PASS",
+    "current_total_completeness": "PASS",
+    "randomness_integrity": "PASS",
+    "round_date_and_numbering": "PASS",
+    "ai_ledger_embedded_in_each_event": "PASS",
+    "event_format_contract": "PASS",
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING"
+  },
+  "continuity": {
+    "campaign_development": "3,000 Intelligence has been committed to the civic campaign; procedural research and civic meetings are underway without an electoral result.",
+    "commercial_thread": "The latest recurring settlement realized 41 gross / 16 costs / 25 net; 2.5 privately transferred and 22.5 retained publicly.",
+    "road_thread": "The shared-water road remains open to lawful Roman traffic under the estate access policy.",
+    "road_investigation": "A second alignment has been identified beside the earlier surviving roadwork; builder, date, authority, and purpose remain unresolved.",
+    "political_correspondence": "Campaign intelligence work has produced a more detailed procedural record; no vote or result exists.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; all remain available.",
+    "silver_development_thread": "The separate silver seam is being prepared for deeper examination; no production revenue has been realized.",
+    "local_infrastructure_thread": "Estate public roads and merchant facilities remain open to all law-abiding Roman citizens under exact operating-cost recovery."
+  },
+  "next_round_gate": {
+    "status": "OPEN_AFTER_COMMIT",
+    "next_round": 112,
+    "next_date": "21 December 57 BCE",
+    "requirements": "Round 111 persistence and post-commit verification required before Round 112 generation."
+  }
+}
