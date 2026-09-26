@@ -3,7 +3,7 @@
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
     "latest_round": 91,
-    "latest_date": "-0057-07-20",
+    "latest_date": "-0057-07-27",
     "round_file": "roleplays/GMV-62BCE-001/rounds/round-91.json",
     "news_file": "roleplays/GMV-62BCE-001/news/round-91.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 91 committed, synchronized, re-read, and verified."
+  "last_verified": "Round 91 committed, synchronized, re-read, and date-reconciled."
 }
