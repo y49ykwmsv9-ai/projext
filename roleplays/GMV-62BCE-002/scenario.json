@@ -62,7 +62,9 @@
       "E01 qualified as Ultimate from current circumstances after five consecutive no-Ultimate rounds."
     ],
     "random_generation": "fresh local resolution",
-    "ultimate_gate": "PASS — E01 committed as Ultimate; no random Special/Magnitude-11 event."
+    "ultimate_gate": "PASS — E01 committed as Ultimate; no random Special/Magnitude-11 event.",
+    "post_commit_verification": "PASS",
+    "canonical_pointer_synchronization": "PASS"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -436,10 +438,10 @@
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   },
   "next_round_gate": {
-    "status": "PENDING_COMMIT",
+    "status": "OPEN_AFTER_COMMIT",
     "next_round": 120,
     "next_date": "-0057-02-15",
-    "requirements": "Open after Round 119 persistence and post-commit verification."
+    "requirements": "Round 119 persistence, mathematical reconciliation, and post-commit verification passed."
   },
   "personal_guard": {
     "status": "active",
@@ -1427,14 +1429,14 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_119_pending_commit",
+    "status": "round_119_verified",
     "verification": {
       "round": 119,
       "date": "-0057-02-08",
-      "status": "PENDING",
+      "status": "PASS",
       "round_file": "roleplays/GMV-62BCE-002/rounds/round-119.json",
       "news_file": "roleplays/GMV-62BCE-002/news/round-119.json",
-      "canonical_pointer": "Pending"
+      "canonical_pointer": "Round 119 verified"
     }
   },
   "simulation_contract": {
