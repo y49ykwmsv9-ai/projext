@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "round": 116,
-  "date": "-0057-01-18",
+  "round": 117,
+  "date": "-0057-01-25",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3407.7,
-    "private": 624.4,
+    "public": 3442.3,
+    "private": 628.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 46,
-    "last_round_private_transfer": 4.6
+    "last_round_net_public_profit": 39,
+    "last_round_private_transfer": 4.4
   },
   "metrics": {
     "soldiers": 414,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4457,
+    "intelligence": 4423,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -49,71 +49,72 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "Valerius's required in-person civic appearance was completed; no vote or electoral result has occurred.",
-    "commercial_thread": "Round 116 recurring settlement realized 49 gross / 20 costs / 29 net; 2.9 private / 26.1 public.",
+    "campaign_development": "Valerius remains a registered civic candidate; the next procedural filing was accepted without a vote or result.",
+    "commercial_thread": "Round 117 recurring settlement realized 47 gross / 21 costs / 26 net; 2.6 private / 23.4 public.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
     "election_thread": "Candidacy remains active after a completed procedural appearance; no electoral result.",
-    "refuge_policy": "Second displaced household remains integrated; population 257.",
+    "refuge_policy": "The second displaced household remains integrated and entered its first formal tenancy on existing estate land; population remains 257.",
     "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
     "silver_development_thread": "Second silver working completed its first commercial sale at 16 gross / 6 costs / 10 net; eventual yield remains unresolved.",
-    "family_thread": "A family property document exposed an unresolved documentary inconsistency; no land transfer or new debt was realized.",
-    "urban_estate_thread": "Open-access facility policy remains in force; prior false facility charge remains rejected.",
-    "merchant_access_thread": "An unexpected multi-house merchant delegation sought ordinary access during winter disruption and was handled under the existing indiscriminate cost-recovery policy.",
-    "library_thread": "Estate libraries preserved a newly copied technical text concerning measurement, materials, and labor organization."
+    "family_thread": "The documentary conflict was resolved as an old draft copied without its final cancellation mark; no land transfer, payment, or new encumbrance occurred.",
+    "urban_estate_thread": "Open-access facility policy remains in force; ordinary merchant use has now produced a concrete cost-recovery transaction.",
+    "merchant_access_thread": "Merchant houses from the prior delegation made actual ordinary winter use of the estate facilities; 14 gross / 5 costs / 9 net was realized under the existing access policy.",
+    "library_thread": "The technical manuscript was subjected to a practical measurement trial and retained as a documented working reference."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 88.13050351205625,
+    "current_round_roll": 67.61460762997596,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      81.95044532409204,
-      54.54732106817812,
-      27.343090024977723
+      28.608870654186546,
+      99.08346224403897,
+      70.89501666729811
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 88.13050351205625,
+    "roll": 67.61460762997596,
     "special_triggered": false,
     "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      81.95044532409204,
-      54.54732106817812,
-      27.343090024977723
+      28.608870654186546,
+      99.08346224403897,
+      70.89501666729811
     ],
     "magnitude_11_events": 0,
     "generated_magnitude_11_events": [],
-    "ultimate_reclassification_events": [],
+    "ultimate_reclassification_events": [
+      "GMV-62BCE-002-R117-E01: preserved as Surprise"
+    ],
     "random_generation": "fresh local resolution",
-    "ultimate_gate": "PASS — no Surprise or Special event qualified for Ultimate",
-    "post_commit_verification": "PASS"
+    "ultimate_gate": "PASS — E01 remains Surprise"
   },
   "financial_realization": {
-    "gross_receipts_denarii": 76,
-    "operating_costs_denarii": 30,
-    "net_public_profit_denarii": 46,
-    "private_transfer_denarii": 4.6,
-    "public_account_change_denarii": 41.4,
-    "private_account_change_denarii": 4.6,
-    "currency_flow_denarii": 46,
+    "gross_receipts_denarii": 75,
+    "operating_costs_denarii": 36,
+    "net_public_profit_denarii": 39,
+    "private_transfer_denarii": 4.4,
+    "public_account_change_denarii": 34.6,
+    "private_account_change_denarii": 4.4,
+    "currency_flow_denarii": 39,
     "capital_acquisition_denarii": 0,
     "internal_transfer": true,
-    "ten_percent_profit_transfer_denarii": 4.6
+    "ten_percent_profit_transfer_denarii": 4.4
   },
   "next_round_gate": {
-    "status": "OPEN_AFTER_COMMIT",
-    "next_round": 117,
-    "next_date": "-0057-01-25",
-    "requirements": "Round 116 persistence, intelligence reconciliation, and post-commit verification passed."
+    "status": "PENDING_COMMIT",
+    "next_round": 118,
+    "next_date": "-0057-02-01",
+    "requirements": "Open after Round 117 persistence and post-commit verification."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1235,7 +1236,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4457,
+    "intelligence": 4423,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -1291,18 +1292,18 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_116_verified",
+    "status": "round_117_pending_commit",
     "verification": {
-      "round": 116,
-      "date": "-0057-01-18",
-      "status": "PASS",
-      "round_file": "roleplays/GMV-62BCE-002/rounds/round-116.json",
-      "news_file": "roleplays/GMV-62BCE-002/news/round-116.json",
-      "canonical_pointer": "Round 116 verified"
+      "round": 117,
+      "date": "-0057-01-25",
+      "status": "PENDING",
+      "round_file": "roleplays/GMV-62BCE-002/rounds/round-117.json",
+      "news_file": "roleplays/GMV-62BCE-002/news/round-117.json",
+      "canonical_pointer": "Pending"
     }
   },
-  "next_round": 117,
-  "next_date": "-0057-01-25",
+  "next_round": 118,
+  "next_date": "-0057-02-01",
   "round_history": [
     {
       "round": 116,
@@ -1316,7 +1317,21 @@
         "Special": 0,
         "Ultimate": 0
       }
+    },
+    {
+      "round": 117,
+      "date": "-0057-01-25",
+      "directive": "No new player directive; continue simulation from the verified Round 116 state.",
+      "event_count": 7,
+      "classification_summary": {
+        "Direct": 0,
+        "Connected": 6,
+        "Surprise": 1,
+        "Special": 0,
+        "Ultimate": 0
+      }
     }
   ],
-  "ai_event_ledger_present": true
+  "ai_event_ledger_present": true,
+  "silver_development_thread": "Second silver working completed its first commercial sale at 16 gross / 6 costs / 10 net; eventual yield remains unresolved."
 }
