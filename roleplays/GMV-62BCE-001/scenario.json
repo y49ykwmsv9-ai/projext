@@ -27,7 +27,9 @@
     ],
     "current_round_magnitude_11_events": 1
   },
-  "continuity": "23 November 57 BCE: Valerius has expanded his silver interests through acquisition of incompletely mapped veins and ordered a second, more public working site; no new silver revenue is realized yet.",
+  "continuity": {
+    "campaign_development": "23 November 57 BCE: Valerius has expanded his silver interests through acquisition of incompletely mapped veins and ordered a second, more public working site; no new silver revenue is realized yet."
+  },
   "end_of_round_checks": {
     "base_probability_percent": 12,
     "roll": 84.03355188039015,
