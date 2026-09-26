@@ -1397,7 +1397,20 @@
   "financial_ledger": {
     "treasury": 1668,
     "public_account": 3608.3,
-    "private_account": 687.8
+    "private_account": 687.8,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 131,
+      "operating_costs_denarii": 50,
+      "net_public_profit_denarii": 81,
+      "private_transfer_denarii": 8.1,
+      "public_account_change_denarii": 72.9,
+      "private_account_change_denarii": 48.1,
+      "currency_flow_denarii": 121,
+      "capital_liquidation_denarii": 420,
+      "capital_acquisition_denarii": 380,
+      "capital_conversion_net_denarii": 40,
+      "note": "Operating profit: 33 lake-port bargain + 30 recurring surplus settlement + 13 silver sale + 5 independent urban rent = 81 denarii. Private routing on those realized profits = 8.1 denarii. Separate private reserve conversion: 420 liquidated, 380 spent on the land/estate/labor package, 40 remains liquid."
+    }
   },
   "campaign_intelligence_allocation": {
     "round": 111,
