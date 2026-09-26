@@ -2,10 +2,10 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 84,
-    "latest_date": "-0057-06-02",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-84.json",
-    "news_file": "roleplays/GMV-62BCE-001/news/round-84.json",
+    "latest_round": 85,
+    "latest_date": "-0057-06-09",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-85.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-85.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 84 fully committed, synchronized, re-read, and verified. Final categories: Direct, Connected, Ultimate, Special (standard Special roll), Special (one successful Magnitude-11 check), Connected, Direct. Current totals and financial accounts match state.json. Next-round gate is open."
+  "last_verified": "Round 85 synchronized and verified; formation directive persisted; fresh random resolution recorded; current totals match state; next-round gate open."
 }
