@@ -1357,8 +1357,8 @@
   "last_round_classification_summary": {
     "Direct": 1,
     "Connected": 5,
-    "Surprise": 2,
-    "Special": 0,
+    "Surprise": 1,
+    "Special": 1,
     "Ultimate": 0
   },
   "ai_event_ledger_present": true,
@@ -1385,8 +1385,8 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3320.4,
-    "private_account": 615.6
+    "public_account": 3407.7,
+    "private_account": 624.4
   },
   "campaign_intelligence_allocation": {
     "round": 111,
@@ -1396,21 +1396,21 @@
   },
   "chapter": {
     "chapter_number": 2,
+    "chapter_id": "GMV-62BCE-002",
     "title": "THE SECOND CHAPTER",
-    "inherited_from_scenario": "GMV-62BCE-001",
-    "inherited_round": 114,
+    "inherited_from": "GMV-62BCE-001 Round 114",
     "inherited_date": "4 January 57 BCE",
-    "starting_round": 115,
-    "starting_date": "11 January 57 BCE",
-    "status": "round_115_verified",
-    "canonical_inheritance": "All characters, relationships, holdings, equipment, military organization, unresolved threads, contracts, metrics, finances, and campaign history inherit from the verified end state of GMV-62BCE-001 Round 114 unless a later chapter event changes them.",
+    "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
+    "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
+    "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
+    "status": "round_116_verified",
     "verification": {
-      "round": 115,
-      "date": "-0057-01-11",
+      "round": 116,
+      "date": "-0057-01-18",
       "status": "PASS",
-      "round_file": "roleplays/GMV-62BCE-002/rounds/round-115.json",
-      "news_file": "roleplays/GMV-62BCE-002/news/round-115.json",
-      "canonical_pointer": "Round 115 verified"
+      "round_file": "roleplays/GMV-62BCE-002/rounds/round-116.json",
+      "news_file": "roleplays/GMV-62BCE-002/news/round-116.json",
+      "canonical_pointer": "Round 116 verified"
     }
   },
   "simulation_contract": {
@@ -1438,17 +1438,24 @@
   "next_date": "-0057-01-25",
   "round_history": [
     {
-      "round": 115,
-      "date": "-0057-01-11",
-      "directive": "Valerius returns to his estate in Rome and visits his sister.",
-      "event_count": 8,
+      "round": 116,
+      "date": "-0057-01-18",
+      "directive": "No new player directive; continue simulation from the verified Round 115 state.",
+      "event_count": 7,
       "classification_summary": {
-        "Direct": 1,
-        "Connected": 5,
+        "Direct": 0,
+        "Connected": 6,
         "Surprise": 1,
-        "Special": 1,
+        "Special": 0,
         "Ultimate": 0
       }
     }
-  ]
+  ],
+  "wealth_accounts": {
+    "public": 3407.7,
+    "private": 624.4,
+    "private_transfer_rate": 0.1,
+    "last_round_net_public_profit": 46,
+    "last_round_private_transfer": 4.6
+  }
 }
