@@ -1,0 +1,340 @@
+{
+  "schema_version": "gmv-news-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 117,
+  "date": "25 January 57 BCE",
+  "headline": "ROME'S WINTER AFFAIRS PRODUCE SEVERAL MATERIAL DEVELOPMENTS",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R117-E01",
+      "date": "19 January 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE FAMILY PAPERS FINALLY REVEAL WHY THE PROPERTY RECORDS CONFLICT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's sister",
+        "Roman household stewards"
+      ],
+      "body": "The documentary inconsistency uncovered the previous week takes an unexpected turn when Valerius's sister and the household stewards locate a second copy of the older property instrument in a family archive. The duplicate carries a different notation on its margin, showing that the apparently conflicting obligation was not a second claim at all but an earlier draft that had been copied into the later household summary without its final cancellation mark. The original and the duplicate are compared against the account books, and the documentary chain finally reconciles without requiring payment, surrender of property, or a transfer of land. Valerius orders the corrected record to be preserved with both versions attached so that the same ambiguity cannot return through another copied summary. His sister remains involved through the reconciliation, giving the family a direct resolution to a matter that had lingered through generations of paperwork rather than through a fresh legal dispute. No new property is acquired, lost, or encumbered during the process. The significance lies in the resolution itself: an apparently open obligation is shown to have been a documentary error, and the household can now treat the matter as closed.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 63
+        },
+        "background_sources": [
+          {
+            "source": "estate library cataloguing and scholarly correspondence",
+            "changes": {
+              "intelligence": 8
+            },
+            "basis": "independent background archival activity; not caused by the family-document reconciliation"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 71,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected but causally plausible resolution emerging from the established family-document thread; the discovery materially closes a previously unresolved obligation."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R117-E02",
+      "date": "20 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE CANDIDACY MOVES INTO ITS NEXT DOCUMENTARY STAGE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman civic officials"
+      ],
+      "body": "The civic appearance completed in the previous round is followed by a further procedural filing being entered into the Roman record. The household provides the copies requested from Valerius's existing candidacy papers, and the officials acknowledge receipt without issuing a vote, tally, or electoral result. Valerius remains a registered candidate while the next stage of the process is left to the established civic timetable. The documentation is sealed, copied for household records, and placed with the earlier appearance record so that the procedural chain remains continuous. No political outcome is inferred from the filing, and no new office is assigned. The material development is therefore procedural rather than electoral: another formal step has been completed while the candidacy itself remains unresolved.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 55
+        },
+        "background_sources": [
+          {
+            "source": "political correspondence maintained by Valerius's household",
+            "changes": {
+              "intelligence": 11
+            },
+            "basis": "independent background civic intelligence; not caused by the procedural filing"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 66,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established civic candidacy and its documentary process."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R117-E03",
+      "date": "21 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE RECURRING SURPLUS CONTRACT SETTLES ON A FRESH WINTER MIX",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers"
+      ],
+      "body": "The standing surplus-delivery agreement reaches its next settlement after the carriers assess a winter consignment whose mixture differs from the previous shipment. The transaction realizes 47 denarii in gross receipts against 21 denarii in handling, preparation, and transport costs, leaving 26 denarii of net public profit. The established routing rule transfers 2.6 denarii internally to Valerius's private account and leaves 23.4 denarii in the public account. The merchants settle only what was actually delivered and accepted during this round, with no future payment booked merely because the recurring agreement remains active. The result preserves the commercial relationship while showing again that its financial outcome is being determined by the current condition of supply, preparation, demand, and transport rather than by a fixed recurring template.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 41,
+          "public_account": 23.4,
+          "private_account": 2.6
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 41,
+          "public_account": 23.4,
+          "private_account": 2.6
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 47,
+          "operating_costs_denarii": 21,
+          "net_public_profit_denarii": 26,
+          "private_transfer_denarii": 2.6,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 23.4,
+          "private_account_change_denarii": 2.6,
+          "currency_flow_denarii": 26
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established recurring commercial agreement, independently resolved from current winter conditions."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R117-E04",
+      "date": "22 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE MERCHANT DELEGATION PUTS THE ESTATE'S ACCESS POLICY INTO ACTUAL WINTER USE",
+      "mentioned_entities": [
+        "Roman merchant representatives",
+        "estate stewards",
+        "merchant carriers"
+      ],
+      "body": "Several of the merchant houses that approached Valerius's estate during the previous round now make actual use of the ordinary facilities offered under the standing access policy while their normal winter route remains disrupted. The carriers use the road and associated storage space under the same cost-recovery terms available to other lawful users, and the stewards record the completed usage rather than creating a new preferential arrangement. The activity produces 14 denarii in realized receipts against 5 denarii in direct handling and facility costs, leaving 9 denarii of net public profit. Of that realized profit, 0.9 denarii is transferred internally to Valerius's private account and 8.1 denarii remains public. The significance is that the unusual delegation from Round 115 has now produced a concrete, ordinary-use relationship rather than merely a request for access, while the governing policy remains unchanged. No exclusive contract, subsidy, political favor, or automatic future revenue is created by the transaction.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 52,
+          "public_account": 8.1,
+          "private_account": 0.9
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard road-watch reports",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "independent background security intelligence; not caused by merchant facility usage"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 57,
+          "public_account": 8.1,
+          "private_account": 0.9
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 14,
+          "operating_costs_denarii": 5,
+          "net_public_profit_denarii": 9,
+          "private_transfer_denarii": 0.9,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 8.1,
+          "private_account_change_denarii": 0.9,
+          "currency_flow_denarii": 9
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established merchant-access thread following the prior delegation."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R117-E05",
+      "date": "23 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE LIBRARY'S TECHNICAL TEXT IS PUT TO A PRACTICAL MEASUREMENT TEST",
+      "mentioned_entities": [
+        "Lucius Marcius",
+        "Marcus Petronius",
+        "estate librarians",
+        "estate craftsmen"
+      ],
+      "body": "Lucius Marcius and Marcus Petronius move beyond preserving the newly acquired technical manuscript and have its measurement instructions tested by craftsmen working from the estate's existing tools. The trial focuses on repeatable measurements of materials and dimensions rather than introducing an entirely new technology, and the results show that the text can be used as a practical reference without altering the estate's established production methods. The librarians record the test procedure beside the manuscript's provenance so that later craftsmen can reproduce the measurements instead of relying on memory. The work does not increase the capped technology statistic, but it creates a stronger body of usable technical knowledge within the estate. A separate urban estate rent settlement is realized during the same period: 8 denarii gross, 3 denarii in collection and maintenance costs, and 5 denarii of net public profit, of which 0.5 denarii is routed privately and 4.5 denarii remains public. That financial settlement is an independent background source and is not caused by the manuscript experiment. The combined development is therefore a genuine scholarly-and-administrative advance with its financial background kept distinct from the technical work itself.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 76
+        },
+        "background_sources": [
+          {
+            "source": "urban estate rent settlement",
+            "changes": {
+              "public_account": 4.5,
+              "private_account": 0.5
+            },
+            "financial_realization": {
+              "gross_receipts_denarii": 8,
+              "operating_costs_denarii": 3,
+              "net_public_profit_denarii": 5,
+              "private_transfer_denarii": 0.5,
+              "public_account_change_denarii": 4.5
+            },
+            "basis": "independent background estate income; not caused by the technical measurement trial"
+          },
+          {
+            "source": "urban estate household correspondence",
+            "changes": {
+              "intelligence": 6
+            },
+            "basis": "independent background administrative intelligence; not caused by the technical measurement trial"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 82,
+          "public_account": 4.5,
+          "private_account": 0.5
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 8,
+          "operating_costs_denarii": 3,
+          "net_public_profit_denarii": 5,
+          "private_transfer_denarii": 0.5,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 4.5,
+          "private_account_change_denarii": 0.5,
+          "currency_flow_denarii": 5
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Established library thread reaching a material practical-use threshold through a documented measurement trial."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R117-E06",
+      "date": "24 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND DISPLACED HOUSEHOLD BEGINS ITS FIRST FORMAL ESTATE TENANCY",
+      "mentioned_entities": [
+        "displaced household",
+        "estate agricultural stewards",
+        "estate workers"
+      ],
+      "body": "The second displaced household that Valerius previously accepted into the estate's protection reaches a new stage of integration when its adult members enter a formal tenancy on an existing cultivated plot. The arrangement does not enlarge Valerius's landholding: the family is assigned use of land already within the estate, with the steward's terms recorded alongside the existing agricultural accounts. Their first settlement realizes 6 denarii in receipts against 2 denarii in preparation and administrative costs, leaving 4 denarii of net public profit. The established ten-percent rule routes 0.4 denarii of that net profit to Valerius's private account and retains 3.6 denarii publicly. The significance is social and economic rather than territorial: a household that arrived as displaced persons has begun contributing through a stable productive arrangement while remaining integrated within the estate. Population remains 257, and no new land is acquired or transferred.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 48,
+          "public_account": 3.6,
+          "private_account": 0.4
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard household reports",
+            "changes": {
+              "intelligence": 4
+            },
+            "basis": "independent background household/security intelligence; not caused by the tenancy settlement"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 52,
+          "public_account": 3.6,
+          "private_account": 0.4
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 6,
+          "operating_costs_denarii": 2,
+          "net_public_profit_denarii": 4,
+          "private_transfer_denarii": 0.4,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 3.6,
+          "private_account_change_denarii": 0.4,
+          "currency_flow_denarii": 4
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Material development of the established refuge-integration thread: a previously displaced household reaches a first productive tenancy without changing land or population totals."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R117-E07",
+      "date": "25 January 57 BCE",
+      "event_category": "Connected",
+      "title": "WINTER INSPECTION CATCHES A DANGEROUS FAILURE ABOVE THE ESTATE GRAIN STORE",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "Gnaeus Fabius",
+        "estate stewards",
+        "estate agricultural workers"
+      ],
+      "body": "During a winter inspection, Titus Varenus and Gnaeus Fabius find a serious weakness in the timbering above one of the estate's grain-storage rooms. The defect has not yet damaged the stored grain, but the weakened section is judged unsafe enough that the room is cleared and temporarily closed while the damaged supports are replaced. Five denarii from the public account are spent on the immediate repair and associated labor, preventing the problem from becoming a larger loss. The repair does not alter the estate's infrastructure statistic, which remains at its established cap, and no stored population or agricultural reserves are lost. The work is completed before structural failure occurs, allowing the room to return to use after the supports are secured. The significance is preventive rather than dramatic: a potentially costly winter failure is discovered and resolved before it becomes an actual loss.",
+      "round_number": 117,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 50,
+          "public_account": -5
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 50,
+          "public_account": -5,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 5,
+          "net_public_profit_denarii": -5,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -5,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -5
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development from the estate's security and agricultural infrastructure, with a concrete repair preventing an otherwise unsupported loss."
+      }
+    }
+  ],
+  "round_summary": "Round 117 resolves one long-standing family documentary issue while allowing the civic process, recurring commerce, merchant access, scholarship, displaced-household integration, and estate maintenance to produce independent material developments. Several established threads remain deliberately in the background because they generated no sufficiently significant new development this week."
+}
