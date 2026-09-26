@@ -79,8 +79,9 @@
       "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PENDING",
-      "post_commit_verification": "PENDING"
+      "canonical_pointer_synchronization": "PASS",
+      "post_commit_verification": "PASS",
+      "plausible_financial_quantification": "PASS"
     },
     "financial_reconciliation": {
       "round_87_gross_receipts_denarii": 0,
@@ -436,7 +437,7 @@
     "classification_note": "Event category describes how an event enters the simulation at generation time; final classification is locked only after the mandatory Ultimate Reclassification Gate. Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   },
-  "next_round_gate": "PENDING",
+  "next_round_gate": "OPEN",
   "personal_guard": {
     "status": "active",
     "count": 100,
