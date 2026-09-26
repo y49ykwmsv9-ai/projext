@@ -96,7 +96,8 @@
       "GMV-62BCE-002-R117-E01: preserved as Surprise"
     ],
     "random_generation": "fresh local resolution",
-    "ultimate_gate": "PASS — E01 remains Surprise"
+    "ultimate_gate": "PASS — E01 remains Surprise",
+    "post_commit_verification": "PASS"
   },
   "financial_realization": {
     "gross_receipts_denarii": 75,
@@ -111,10 +112,10 @@
     "ten_percent_profit_transfer_denarii": 4.4
   },
   "next_round_gate": {
-    "status": "PENDING_COMMIT",
+    "status": "OPEN_AFTER_COMMIT",
     "next_round": 118,
     "next_date": "-0057-02-01",
-    "requirements": "Open after Round 117 persistence and post-commit verification."
+    "requirements": "Round 117 persistence, mathematical reconciliation, and post-commit verification passed."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1277,10 +1278,10 @@
   "public_account": 3320.4,
   "private_account": 615.6,
   "last_round_classification_summary": {
-    "Direct": 1,
-    "Connected": 5,
+    "Direct": 0,
+    "Connected": 6,
     "Surprise": 1,
-    "Special": 1,
+    "Special": 0,
     "Ultimate": 0
   },
   "chapter": {
@@ -1292,14 +1293,14 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_117_pending_commit",
+    "status": "round_117_verified",
     "verification": {
       "round": 117,
       "date": "-0057-01-25",
-      "status": "PENDING",
+      "status": "PASS",
       "round_file": "roleplays/GMV-62BCE-002/rounds/round-117.json",
       "news_file": "roleplays/GMV-62BCE-002/news/round-117.json",
-      "canonical_pointer": "Pending"
+      "canonical_pointer": "Round 117 verified"
     }
   },
   "next_round": 118,
