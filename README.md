@@ -74,6 +74,24 @@ Once a GMV round canonically establishes a recurring financial agreement, every 
 
 The canonical GMV campaign is stored at `roleplays/GMV-62BCE-001/`.
 
+### GMV execution boundary: generation happens here, storage happens in GitHub
+
+**Canonical rule:** GitHub is the GMV campaign's persistent source-of-truth and storage layer, but **player-facing round generation and simulation resolution MUST occur locally in the ChatGPT app conversation ("here"), not inside GitHub, GitHub Actions, repository scripts, or other repository-side execution.** When a request is made to generate the next GMV round from GitHub, treat this README as an execution redirect: **return to the ChatGPT app for generation**, read the necessary canonical resources from GitHub, generate and resolve the round locally here, display it here, and then write the resulting canonical records back to GitHub for storage. Do not pre-generate rounds, simulate rounds, resolve event outcomes, or mechanically expand round templates inside the repository.
+
+**GitHub-backed memory is mandatory.** The ChatGPT app must use the canonical GitHub files as the authoritative campaign memory for each round. The normal flow is: **read GitHub → construct current state locally → generate dynamic premises locally → resolve locally → validate locally → display here → persist to GitHub → re-read GitHub to verify.** GitHub files are read/write persistence resources for the campaign; they are not a substitute execution environment for the round simulation.
+
+### Dynamic local event-generation rule
+
+**Every event must be dynamically generated and locally resolved from the current canonical data.** There are no mechanically recurring event layouts, fixed recurring prices, fixed recurring quantities, fixed recurring wording, or copy-and-rephrase event templates.
+
+A recurring contract, active thread, character relationship, patrol route, candidacy, expedition, construction project, investigation, or other persistent state is **a source of possible causal developments, not a prewritten event**. Each round must load the current GitHub state and use it to determine what actors, conditions, incentives, resources, constraints, unresolved questions, and recent changes can plausibly produce news. The event premise is generated locally from that current state, and the event is then resolved locally using the actual conditions of that round.
+
+For recurring financial agreements in particular, **"recurring" means the relationship and its scheduled assessment persist; it does not mean the same transaction repeats mechanically.** Each settlement must be independently determined from current quantities, prices, demand, supply, processing conditions, transport/logistics costs, merchant behavior, disruptions, and other established causal data. Gross receipts, operating costs, net profit, private/public routing, and even whether a settlement occurs at all must therefore be newly resolved when the current state supports that outcome. The canonical financial rule remains **10% of realized net public profit routed to Valerius's private account and 90% retained publicly**; that routing rule is fixed, while the underlying realized transaction is dynamic.
+
+This same principle applies to every event category and subject domain. A patrol does not automatically produce another patrol report; an election process does not automatically produce another election event; a road investigation does not automatically produce another investigation entry; a household relationship does not automatically produce another household event; and a recurring delivery agreement does not automatically produce an identically structured delivery story. Separate events should emerge because the current simulation state produces separate causal developments.
+
+If several consequences belong to one causal chain, keep them together in one event rather than splitting a single development across multiple entries. If the current state produces no supported development from an active thread during a round, do not manufacture one merely because that thread exists.
+
 ### Mandatory round-output checklist
 
 **Before generating or displaying any GMV round, the README and the current canonical GMV state must be read first. This is mandatory and is part of the round procedure. The importance of this contract is operational, not cosmetic: each refinement made to one simulation area must remain subordinate to every previously established rule, continuity constraint, character, metric, event-system rule, financial rule, and presentation requirement. A new improvement must never cause previously established requirements to be forgotten, overwritten, or silently dropped. The contract is therefore a regression-prevention layer and the round cannot be considered valid if a refinement improves one dimension while breaking another.**
