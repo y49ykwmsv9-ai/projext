@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 84,
-  "date": "-0057-06-02",
+  "round": 85,
+  "date": "-0057-06-09",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2189,
+    "intelligence": 2253,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,64 +49,74 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "2 June 57 BCE: the newly authorized Roman expedition continues investigating a substantial engineered route whose administrative status remains unexplained; Valerius has privately dispatched his suspicion to Quintus Caecilius Metellus Celer that mass deserters, fugitives, or an isolated marooned community are among the serious possibilities, while estate administration and local access arrangements continue independently.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 measures the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125 to reach 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
+    "campaign_development": "9 June 57 BCE: Valerius continues investigating the unexplained engineered route while using disciplined loose phalanxes with an outward-facing perimeter; fresh signs of passage remain unidentified and the private dispatch to Quintus Caecilius Metellus Celer awaits reply.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
-    "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one Special event; a failed roll adds none. Each successful Magnitude-11 check also produces a Special event. Magnitude-11 is separate from the standard Special roll and never converts a result into Ultimate.",
+    "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 5.212598041316385,
-    "current_round_selected": true,
-    "current_round_event_id": "GMV-62BCE-001-R084-E004",
-    "magnitude_11_policy": "tracked separately only when required; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before final classification."
+    "current_round_roll": 55.0745882477344,
+    "current_round_selected": false,
+    "current_round_event_id": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "current_round_magnitude_11_checks": [
+      98.5977617586054,
+      16.5821901676029,
+      85.9397469619254
+    ],
+    "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 5.212598041316385,
-    "special_triggered": true,
+    "special_roll": 55.0745882477344,
+    "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      1.9918576355551276,
-      13.911160428505397,
-      51.34562584884289
+      98.5977617586054,
+      16.5821901676029,
+      85.9397469619254
     ],
-    "magnitude_11_events": 1,
+    "magnitude_11_events": 0,
     "continuity_checks": {
+      "canonical_state_read": "PASS",
+      "local_random_resolution": "PASS",
+      "causal_event_generation": "PASS",
+      "ultimate_reclassification_gate": "PASS",
+      "narrative_contract": "PASS",
+      "semantic_state_consistency": "PASS",
       "fixed_metric_schema": "PASS",
       "metric_bounds": "PASS",
-      "exact_quantity_unit_consistency": "PASS",
+      "round_delta_reconciliation": "PASS",
       "financial_realization_reconciled": "PASS",
-      "land_change_and_ledger_consistent": "PASS",
+      "plausible_financial_quantification": "PASS",
+      "land_and_property_consistency": "PASS",
       "recurring_character_continuity": "PASS",
-      "event_variety": "PASS",
       "event_variety_and_causal_diversity": "PASS",
-      "ultimate_event_contract": "PASS",
-      "ultimate_second_person_requirement": "PASS",
-      "ultimate_minimum_detail_requirement": "PASS",
-      "semantic_state_consistency": "PASS",
+      "current_total_ledger_complete": "PASS",
+      "random_classification_consistency": "PASS",
+      "exact_quantity_unit_consistency": "PASS",
       "military_state_consistency": "PASS",
       "economic_financial_consistency": "PASS",
       "agriculture_state_consistency": "PASS",
       "literal_revenue_realization_check": "PASS",
-      "current_total_ledger_complete": "PASS",
-      "local_random_checks": "PASS",
       "geographic_reference_consistency": "PASS",
       "geographic_source_protection": "PASS",
-      "ultimate_reclassification_gate": "PASS",
+      "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
+      "final_end_of_round_validation": "PASS",
       "canonical_pointer_synchronization": "PASS",
       "post_commit_verification": "PASS"
     },
     "financial_reconciliation": {
-      "round_84_gross_receipts_denarii": 0,
-      "round_84_operating_costs_denarii": 0,
-      "round_84_net_public_profit_denarii": 0,
-      "round_84_private_transfer_denarii": 0,
+      "round_85_gross_receipts_denarii": 0,
+      "round_85_operating_costs_denarii": 0,
+      "round_85_net_public_profit_denarii": 0,
+      "round_85_private_transfer_denarii": 0,
       "basis_event_id": null,
-      "inference_basis": "No event this round established a realized financial receipt, cost, payment, purchase, rent, fee, or investment return."
+      "inference_basis": "No event this round established a realized financial consequence."
     }
   },
   "financial_realization": {
