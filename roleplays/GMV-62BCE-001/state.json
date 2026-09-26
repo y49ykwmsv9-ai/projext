@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 93,
-  "date": "-0057-08-10",
+  "round": 94,
+  "date": "-0057-08-17",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -11,7 +11,7 @@
     "last_round_private_transfer": 0
   },
   "metrics": {
-    "soldiers": 414,
+    "soldiers": 412,
     "population": 250,
     "taxation": 3,
     "economy": 100,
@@ -26,10 +26,10 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3104,
+    "intelligence": 3254,
     "relations": 100,
     "land_area_sq_miles": 7.75,
-    "temporary_unavailable": 0
+    "temporary_unavailable": 5
   },
   "holdings": {
     "land_area_sq_miles": 7.75,
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "10 August 57 BCE: Valerius has moved the expedition beyond the completed road investigation, expanded reconnaissance into the surrounding country, integrated the hundred-man personal guard as a moving screen, and established a new marching phase without fixing an unsupported destination.",
+    "campaign_development": "17 August 57 BCE: Valerius continues down the road after the Round 93 reconnaissance phase. The personal guard has been reorganized into distributed specialist sectors based on parity and coordination, and a roadside clash has proven the arrangement under actual combat; two men were killed and five wounded and temporarily unavailable, while the expedition retained the road and continued its march.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi.",
     "road_investigation": "Present field phase finalized: deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and a further short exposed worked-stone fragment are documented; builder, date, political authority, and original purpose remain unproven."
   },
@@ -58,32 +58,38 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 0.13404364559080462,
+    "current_round_roll": 0.5968867193740457,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      0.15439291316118886,
-      0.40364932711662216,
-      0.691147909932617
+      0.9231425633730959,
+      0.6174776582663603,
+      0.8522033867125927
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 0.13404364559080462,
+    "roll": 0.5968867193740457,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.15439291316118886,
-      0.40364932711662216,
-      0.691147909932617
+      0.9231425633730959,
+      0.6174776582663603,
+      0.8522033867125927
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [
       {
-        "event_id": "GMV-62BCE-001-R093-E06",
+        "event_id": "GMV-62BCE-001-R094-E04",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R094-E06",
         "initial_category": "Surprise",
         "final_category": "Surprise",
         "ultimate_reclassification": "not_qualified"
@@ -1193,8 +1199,8 @@
       }
     ]
   },
-  "latest_round": 93,
-  "latest_date": "-0057-08-10",
+  "latest_round": 94,
+  "latest_date": "-0057-08-17",
   "soldiers": 414,
   "population": 250,
   "taxation": 3,
@@ -1210,7 +1216,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 3104,
+  "intelligence": 3254,
   "relations": 100,
   "land_area_sq_miles": 7.75,
   "temporary_unavailable": 0,
