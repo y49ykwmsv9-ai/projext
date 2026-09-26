@@ -1,0 +1,355 @@
+{
+  "schema_version": "gmv-news-v3",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 92,
+  "date": "-0057-08-03",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R092-E01",
+      "round_number": 92,
+      "date": "28 July 57 BCE",
+      "event_category": "Direct",
+      "title": "THE COLUMN ENTERS THE NEXT PHASE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Vexillum Valerianum",
+        "personal guard",
+        "Titus Varenus",
+        "Lucius Atilius"
+      ],
+      "body": "On 28 July, Valerius gives the order for the expedition to leave the completed circuit of the investigated road and begin the next phase of its journey. The 414 men move under the command arrangements established around the Vexillum Valerianum, with the personal guard maintaining the close protective formation developed over the preceding rounds. The standard travels with the command group rather than being left behind with the camp, giving the column a fixed visual point around which the guard and supporting men can orient themselves. Titus Varenus takes part in the forward protective rotation while Lucius Atilius and the other veterans preserve the outward-facing discipline that has become characteristic of the force. The move is deliberate rather than hurried, because Valerius has ordered the investigation to be finished without abandoning any evidence already gathered. By the end of the day's movement, the expedition has physically passed beyond the portion of the route whose immediate examination had occupied the previous phase.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 20,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R092-E02",
+      "round_number": 92,
+      "date": "29 July 57 BCE",
+      "event_category": "Connected",
+      "title": "THE FINAL ROAD CIRCUIT IS MEASURED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "road investigation",
+        "damaged crossing",
+        "secondary approach",
+        "roadbed"
+      ],
+      "body": "On 29 July, the remaining investigators make their final circuit of the road features already identified, checking the surviving roadbed, the damaged crossing, and the weathered stone or marker line beside the secondary approach against the measurements and observations already recorded. The work is conducted as a verification pass rather than a new search, and each observation is separated from the conclusions that might later be drawn from it. The broken crossing is recorded as physical evidence of deliberate construction and later damage, while the secondary marker line is retained as an observed feature whose original meaning remains uncertain. No inscription, foundation, or dated object appears that can securely identify the builder or the authority responsible for the route. The result gives Valerius a coherent physical record without giving him a false attribution. The expedition therefore closes the field portion of the investigation with the evidence preserved rather than embellished.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 22,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R092-E03",
+      "round_number": 92,
+      "date": "30 July 57 BCE",
+      "event_category": "Connected",
+      "title": "LOCAL KNOWLEDGE CLARIFIES THE ROUTE'S LATER USE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "nearby smallholders",
+        "road investigation",
+        "secondary approach",
+        "damaged crossing"
+      ],
+      "body": "On 30 July, several of the nearby smallholders whose local knowledge has already been part of the expedition's contacts provide practical information about how the route and its approaches have been used in living memory. Their accounts help distinguish paths that remained useful from features whose original purpose is no longer remembered, particularly around the secondary approach and the damaged crossing. None of the testimony identifies an ancient builder, date, or political authority, and Valerius's men record that limitation alongside the useful portions of the testimony. The accounts nevertheless help prevent modern usage from being mistaken for evidence of the road's original construction. The information is added to the investigation record as contextual evidence rather than as proof. The smallholders depart with the relationship intact, while the expedition gains a clearer boundary between remembered use and historical attribution.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 16,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R092-E04",
+      "round_number": 92,
+      "date": "31 July 57 BCE",
+      "event_category": "Direct",
+      "title": "THE GUARD CONVERTS THE INVESTIGATION INTO A MARCHING RECORD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "personal guard",
+        "Vexillum Valerianum",
+        "expedition dossier"
+      ],
+      "body": "On 31 July, Valerius orders the completed measurements, sketches, route notes, and local testimony to be organized into a single marching dossier that can travel with the expedition. The personal guard is given responsibility for protecting the physical record while the column moves, with the command standard serving as the visible reference point for the command group and its documents. The arrangement is practical rather than ceremonial: the investigation is no longer treated as an isolated camp project but as a completed body of evidence carried forward with the expedition. The veterans learn where the record is kept and which observations are direct measurements rather than later interpretation. This gives the force a common reference when the expedition eventually revisits the route or compares it with other roads. No new territorial claim, construction project, or financial transaction follows from the record.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 12,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R092-E05",
+      "round_number": 92,
+      "date": "1 August 57 BCE",
+      "event_category": "Connected",
+      "title": "MERCHANT CONTACTS SEPARATE COMMERCE FROM ANTIQUITY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "merchant connections",
+        "secondary approach",
+        "road investigation"
+      ],
+      "body": "On 1 August, information from Valerius's established merchant connections provides one further distinction useful to the dossier: the secondary approach has remained practical for movement of people or goods, but present usefulness cannot establish when or why the underlying works were first constructed. The merchants' knowledge therefore supports the route's continued accessibility rather than an ancient date or political attribution. Valerius's record keeps those two propositions separate, preventing a functioning path from being treated as proof of its original purpose. No new contract, sale, fee, or receipt is established during the exchange, so the expedition records information without creating a financial event. The commercial perspective gives the investigators a useful independent context for the geography already observed. By the end of the exchange, the dossier contains a clearer distinction between physical evidence, remembered use, and historical inference.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 18,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R092-E06",
+      "round_number": 92,
+      "date": "2 August 57 BCE",
+      "event_category": "Special",
+      "title": "A STORM EXPOSES A SMALL ADDITIONAL FRAGMENT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "road investigation",
+        "secondary approach",
+        "worked stone",
+        "foundation material"
+      ],
+      "body": "On 2 August, a sudden summer storm changes the ground conditions along a portion of the route the expedition has already examined, washing loose soil from the edge of the secondary approach and exposing a short additional fragment of worked stone and foundation material. The discovery is unexpected, but it occurs within the same established geographic area and does not require the expedition to invent a new destination or explanation for the road. The exposed material strengthens the observation that deliberate construction continued farther along that approach than was visible during the earlier survey, while revealing no inscription or dated feature that can identify its builder. Valerius orders the fragment measured, sketched, and compared with the previously recorded roadbed rather than allowing the excitement of the discovery to become an unsupported conclusion. The investigators append the observation to the dossier and mark the precise relationship between the newly exposed stones and the already known route. The find is important enough to preserve, but it does not independently establish an ancient date, purpose, or political authority, so it remains a Special discovery rather than an Ultimate event.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 34,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Special",
+        "final_category": "Special",
+        "ultimate_reclassification": "not_qualified"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R092-E07",
+      "round_number": 92,
+      "date": "3 August 57 BCE",
+      "event_category": "Direct",
+      "title": "THE INVESTIGATION IS SEALED AS THE EXPEDITION MOVES ON",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Vexillum Valerianum",
+        "personal guard",
+        "expedition dossier",
+        "road investigation"
+      ],
+      "body": "On 3 August, Valerius formally closes the present investigation phase and orders the completed dossier, including the storm-exposed fragment as a final addendum, to be preserved with the expedition's records. The final record states what the men can establish with confidence: surviving sections contain deliberate engineered features, a damaged crossing, a weathered marker or stone line beside a secondary approach, and now a further short exposed fragment of worked construction. It also preserves the unresolved questions rather than forcing an answer, leaving the builder, date, political authority, and original purpose unproven. Valerius then orders the column onward into the next phase of the expedition, with the Vexillum Valerianum moving at the command position and the personal guard maintaining its established protective role. The investigation therefore ends as a completed field inquiry, not because every mystery has been solved, but because the evidence presently available has been systematically recorded and its limits made explicit. The men leave the investigated route behind carrying the record of what was found, what was learned, and what remains unknown.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 18,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_footer": {
+    "base_probability_percent": 12,
+    "roll": 0.01620173998852903,
+    "special_triggered": true,
+    "generated_special_event": "GMV-62BCE-001-R092-E06",
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      0.14145831011892007,
+      0.7522367775497976,
+      0.5951328471530332
+    ],
+    "magnitude_11_events": 0,
+    "ultimate_reclassification_events": [
+      {
+        "event_id": "GMV-62BCE-001-R092-E06",
+        "initial_category": "Special",
+        "final_category": "Special",
+        "ultimate_reclassification": "not_qualified"
+      }
+    ],
+    "random_generation": "local resolution"
+  }
+}
