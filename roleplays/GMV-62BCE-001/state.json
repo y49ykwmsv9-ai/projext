@@ -90,8 +90,8 @@
       }
     ],
     "random_generation": "local resolution",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "financial_realization": {
     "treasury": 1668,
@@ -104,7 +104,7 @@
     "background_interest_realized_denarii": 0,
     "currency_flow_denarii": 0
   },
-  "next_round_gate": "PENDING",
+  "next_round_gate": "OPEN",
   "reconciliation_adjustments": {},
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -1207,8 +1207,8 @@
     "literal_revenue_realization_check": "PASS",
     "ultimate_event_contract": "PASS",
     "final_end_of_round_validation": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING",
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS",
     "geographic_reference_consistency": "PASS",
     "geographic_source_protection": "PASS",
     "surprise_special_expanded_prose": "PASS"
