@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 99,
-  "latest_date": "-0057-09-21",
+  "latest_round": 100,
+  "latest_date": "-0057-09-28",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,17 +16,17 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one initially Special event; a failed roll adds none. Each successful Magnitude-11 check also produces one initially Special event. Magnitude-11 is separate from the standard Special roll. Initial Special or Surprise classification is not automatically Ultimate, but every such candidate is subject to the mandatory Ultimate Reclassification Gate before final classification.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 42.18864488172531,
+    "current_round_roll": 58.39013105797475,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed.",
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      53.49345954581921,
-      14.479406547074857,
-      74.71624522244912
+      59.490621014113486,
+      3.4875775916056617,
+      8.611945120814879
     ],
-    "current_round_magnitude_11_events": 0
+    "current_round_magnitude_11_events": 2
   },
   "continuity": {
     "campaign_development": "21 September 57 BCE: Valerius has formally incorporated an eighty-acre adjoining tract, the largest single acquisition in the holdings record. The owner offered it freely, but Valerius personally paid twenty denarii; holdings now total 7.9375 square miles. The consolidation program remains active, the guard remains at 100 men, eight remain temporarily unavailable, and the road investigation remains unresolved.",
@@ -40,7 +40,10 @@
       "pilum": "double-reinforced personal pilum",
       "shield_piercing_record": "truthful record for every confirmed shield personally pierced"
     },
-    "road_investigation": "Deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and exposed worked-stone fragments remain documented; builder, date, political authority, and original purpose remain unproven."
+    "road_investigation": "The damaged crossing, weathered marker line, secondary approach, worked-stone fragments, and newly recovered marked stone fragment remain under investigation; builder, date, political authority, and original purpose remain unresolved.",
+    "political_correspondence": "New courier contact associated with Quintus Caecilius Metellus Celer has opened a correspondence thread; no appointment or payment has been established.",
+    "commercial_thread": "A larger merchant proposal and a completed 42-denarii caravan sale create a new longer-distance commercial relationship; future receipts remain unrealized until concrete sales occur.",
+    "local_infrastructure_thread": "Nearby smallholders have begun discussing a shared access road; no construction or expenditure has yet occurred."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
@@ -390,10 +393,10 @@
     },
     "double_counting_rule": "Transfers between accounts are not new income; gross receipts, costs, net public profit, private transfers, principal, and realized returns remain distinct.",
     "historical_reconciliation": "Documented past financial blocks remain canonical. Missing historical income is not fabricated. Legacy currency_units are interpreted as denarii while source uncertainty is preserved.",
-    "last_reconciled_round": 99,
-    "last_reconciled_event_id": "GMV-62BCE-001-R099-E004",
-    "last_reconciled_public_profit_denarii": 18,
-    "last_reconciled_private_transfer_denarii": 1.8,
+    "last_reconciled_round": 100,
+    "last_reconciled_event_id": "GMV-62BCE-001-R100-E06",
+    "last_reconciled_public_profit_denarii": 20,
+    "last_reconciled_private_transfer_denarii": 2,
     "ten_percent_realized_profit_transfer": {
       "rule": "10% of realized net public profit is routed to Valerius's private account; the remaining 90% remains in the public account. This is an account-routing rule, not new external income.",
       "rate": 0.1,
