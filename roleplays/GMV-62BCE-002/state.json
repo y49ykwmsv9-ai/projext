@@ -111,10 +111,10 @@
     "ten_percent_profit_transfer_denarii": 2.3
   },
   "next_round_gate": {
-    "status": "PENDING_POST_COMMIT",
+    "status": "OPEN_AFTER_COMMIT",
     "next_round": 116,
     "next_date": "-0057-01-18",
-    "requirements": "Round 115 persistence and post-commit verification."
+    "requirements": "Round 115 persistence, ledger repair, and post-commit verification passed."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1281,8 +1281,8 @@
     "ai_ledger_embedded_in_each_event": "PASS",
     "background_source_attribution": "PASS",
     "event_format_contract": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "public_account": 3320.4,
   "private_account": 615.6,
