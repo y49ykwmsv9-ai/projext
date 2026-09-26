@@ -1,0 +1,355 @@
+{
+  "0": {
+    "event_id": "GMV-62BCE-001-R109-E01",
+    "date": "24 November 57 BCE",
+    "event_category": "Direct",
+    "title": "VALERIUS OPENS HIS ESTATE ROADS AND MERCHANT FACILITIES TO LAW-ABIDING ROMAN CITIZENS",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "estate stewards",
+      "Roman citizens",
+      "merchant carriers"
+    ],
+    "news": "Valerius issues a standing estate order declaring the public roads and merchant facilities under his estate administration open to all law-abiding Roman citizens without distinction of family, wealth, patronage, or prior connection to his household. The order applies to ordinary lawful movement, loading, storage, handling, and transport through the facilities, subject to the same rules of conduct for everyone using them. The stewards are instructed to publish a single operating-cost schedule rather than negotiate preferential charges from one user to another. During the first accounting period, the facilities collect 11 denarii in transport and facility fees and spend the same 11 denarii on the corresponding road, handling, maintenance, and administrative operating costs. The resulting balance is therefore zero net profit, and no portion of the fees is routed to Valerius's private account. The policy establishes broad public access while preserving the estate's ability to keep the facilities functioning through exact cost recovery.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 61,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 11,
+        "operating_costs_denarii": 11,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Direct",
+        "final_category": "Direct",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "1": {
+    "event_id": "GMV-62BCE-001-R109-E02",
+    "date": "25 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE NEW SILVER SITE RECEIVES ITS FIRST PRELIMINARY SURVEY BOUNDARY",
+    "mentioned_entities": [
+      "Lucius Atilius",
+      "Gnaeus Fabius",
+      "estate surveyors",
+      "estate builders"
+    ],
+    "news": "Surveyors working under Lucius Atilius and Gnaeus Fabius establish a preliminary working boundary around the newly purchased silver-bearing ground. Several exposed mineral traces are recorded inside the boundary, but the surveyors distinguish those visible indications from the deeper veins whose extent remains unknown. Estate builders consequently begin laying out the safest approach and handling area without claiming that the full reserve has been measured. No silver sale is recorded from the new site, and the earlier acquisition remains a capital holding rather than a source of realized revenue. The second working therefore advances from purchase toward measurable development while the deeper mapping remains unfinished.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 43,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "2": {
+    "event_id": "GMV-62BCE-001-R109-E03",
+    "date": "26 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE EIGHTH SURPLUS DELIVERY SETTLES ON THE SHARED-WATER ROAD",
+    "mentioned_entities": [
+      "estate stewards",
+      "foreign caravan merchants",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "The eighth scheduled surplus delivery under the standing agreement reaches settlement. The completed consignment produces 37 denarii in gross receipts against 14 denarii in operating costs, leaving 23 denarii of realized net public profit. The standing ten-percent rule transfers 2.3 denarii to Valerius's private account while 20.7 denarii remains public. The transaction is recorded only when the delivery and settlement are completed, and no future receipts are booked. The merchants continue to use the established shared-water road under the standing commercial arrangement.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 19,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 37,
+        "operating_costs_denarii": 14,
+        "net_public_profit_denarii": 23,
+        "private_transfer_denarii": 2.3,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 20.7,
+        "private_account_change_denarii": 2.3,
+        "currency_flow_denarii": 23,
+        "internal_transfer": true,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "3": {
+    "event_id": "GMV-62BCE-001-R109-E04",
+    "date": "27 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE MERCHANT DELEGATION RETURNS WITH DOCUMENTED ROMAN CITIZENSHIP",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "merchant delegation",
+      "local civic representatives"
+    ],
+    "news": "The delegation that approached Valerius in the previous round returns with documentation identifying the Roman citizens among the merchants it represents and clarifying the routes they intend to use. The estate stewards apply the newly issued access rule to those documented citizens without creating a separate privilege for the delegation. They are admitted to the covered roads and facilities under the same published operating-cost schedule as other lawful Roman citizens. No political alliance, permanent commercial contract, or special exemption is created by the encounter. The delegation's request therefore becomes an ordinary use of the newly opened infrastructure rather than a negotiated patronage arrangement.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 37,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "4": {
+    "event_id": "GMV-62BCE-001-R109-E05",
+    "date": "28 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE MARKED-STONE INVESTIGATION REACHES A MORE PRECISE SITE RECORD",
+    "mentioned_entities": [
+      "Publius Servilius",
+      "Numerius Cassius",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "Publius Servilius and Numerius Cassius complete a more precise site record of the weathered stone beside the older road alignment. They document its orientation, immediate road relationship, and remaining visible marks while leaving the questions of date, builder, authority, and original purpose unresolved. The record is kept with the earlier road investigation rather than being treated as proof of an attribution. Ordinary traffic continues along the route while the stone remains undisturbed. The investigation consequently gains a stronger factual record without yet producing a final historical identification.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 31,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "5": {
+    "event_id": "GMV-62BCE-001-R109-E06",
+    "date": "29 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE CIVIC CANDIDACY ENTERS ITS NEXT PROCEDURAL STAGE",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "local electoral officials",
+      "local electorate"
+    ],
+    "news": "Local electoral officials notify Valerius of the next procedural stage associated with his registered candidacy. The notice concerns the ordinary civic process and does not constitute a vote, appointment, endorsement, or result. Valerius confirms his participation through the established channel and continues to keep his private estate authority separate from the civic office for which he is standing. No numerical vote count is established in this round. The candidacy therefore advances procedurally while its eventual outcome remains unresolved.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 28,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "6": {
+    "event_id": "GMV-62BCE-001-R109-E07",
+    "date": "30 November 57 BCE",
+    "event_category": "Connected",
+    "title": "TITUS VARENUS MAINTAINS THE OPEN ROAD PATROL",
+    "mentioned_entities": [
+      "Titus Varenus",
+      "personal guard",
+      "Roman merchants",
+      "smallholders"
+    ],
+    "news": "Titus Varenus conducts another circuit of the lake-port, shared-water-road, and estate-water-access corridor as the estate's access policy takes effect. The patrol encounters ordinary movement by merchants and smallholders and records no violence or disruption requiring a change in the established protection arrangement. The 50 infantry and 50 cavalry remain available throughout the circuit. The patrol therefore maintains the existing security system while the newly opened infrastructure begins operating under the same lawful-use rules.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 24,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  }
+}
