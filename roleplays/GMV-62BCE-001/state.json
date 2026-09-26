@@ -11,7 +11,7 @@
     "last_round_private_transfer": 0
   },
   "metrics": {
-    "soldiers": 412,
+    "soldiers": 414,
     "population": 250,
     "taxation": 3,
     "economy": 100,
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "17 August 57 BCE: Valerius continues down the road after the Round 93 reconnaissance phase. The personal guard has been reorganized into distributed specialist sectors based on parity and coordination, and a roadside clash has proven the arrangement under actual combat; two men were killed and five wounded and temporarily unavailable, while the expedition retained the road and continued its march.",
+    "campaign_development": "17 August 57 BCE: Valerius continues down the road after the Round 93 reconnaissance phase. The personal guard has been reorganized into distributed specialist sectors based on parity and coordination, and a roadside clash has proven the arrangement under actual combat; five men were wounded and temporarily unavailable, none was lost permanently, the expedition retained the road, and the march continued.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi.",
     "road_investigation": "Present field phase finalized: deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and a further short exposed worked-stone fragment are documented; builder, date, political authority, and original purpose remain unproven."
   },
@@ -87,6 +87,12 @@
         "initial_category": "Surprise",
         "final_category": "Surprise",
         "ultimate_reclassification": "not_qualified"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R094-E05",
+        "initial_category": "Connected",
+        "final_category": "Ultimate",
+        "ultimate_reclassification": "qualified"
       },
       {
         "event_id": "GMV-62BCE-001-R094-E06",
@@ -142,7 +148,15 @@
     "currency_flow_denarii": 0
   },
   "next_round_gate": "OPEN",
-  "reconciliation_adjustments": {},
+  "reconciliation_adjustments": {
+    "round_94_correction": {
+      "prior_invalid_permanent_deaths": 2,
+      "corrected_permanent_deaths": 0,
+      "restored_soldiers": 2,
+      "wounded_temporary_unavailable": 5,
+      "reason": "Round 94 battle corrected: no member of Valerius's force is permanently lost; five wounded remain temporarily unavailable."
+    }
+  },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
     "rule": "Recurring named characters are persistent simulation entities.",
@@ -1219,7 +1233,7 @@
   "intelligence": 3254,
   "relations": 100,
   "land_area_sq_miles": 7.75,
-  "temporary_unavailable": 0,
+  "temporary_unavailable": 5,
   "continuity_checks": {
     "canonical_state_read": "PASS",
     "local_random_resolution": "PASS",
