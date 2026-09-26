@@ -1,0 +1,65 @@
+[
+  {
+    "event_id":"GMV-62BCE-001-R099-E01",
+    "date":"15 September 57 BCE",
+    "event_category":"Direct",
+    "title":"THE LARGEST SINGLE TRACT YET IS OFFERED AS A GIFT",
+    "mentioned_entities":["Gaius Maximus Valerius","estate stewards","neighboring landholder","principal estate"],
+    "news":"On 15 September, the estate stewards bring Valerius an offer that is unexpectedly generous even by the standards of the consolidation program he has just ordered. A neighboring landholder offers to transfer an eighty-acre tract directly adjoining one of Valerius's principal estates without demanding a purchase price, explaining that he would rather see the land placed into a coherent estate than sell it piecemeal to strangers. The tract is substantially larger than the forty-acre parcel acquired in the previous round and is therefore the largest single piece of land Valerius has acquired in the campaign. Valerius refuses to accept the land as a wholly free gift, insisting that the owner receive at least twenty denarii from Valerius's own private purse as a matter of proper dealing. The owner accepts the twenty denarii, and the transfer is formally recorded as an eighty-acre acquisition with no public purchase expenditure. The tract immediately touches the existing estate network, so the acquisition increases total recorded holdings from 7.8125 to 7.9375 square miles and becomes the new largest single acquisition in the holdings record.",
+    "ai_ledger":{"land_area_sq_miles":0.125,"intelligence":4,"financial_realization":{"gross_receipts_denarii":0,"operating_costs_denarii":0,"net_public_profit_denarii":0,"private_transfer_denarii":-20,"treasury_change_denarii":0,"public_account_change_denarii":0,"private_account_change_denarii":-20,"currency_flow_denarii":-20,"internal_transfer":false,"capital_acquisition_denarii":0}}
+  },
+  {
+    "event_id":"GMV-62BCE-001-R099-E02",
+    "date":"16 September 57 BCE",
+    "event_category":"Connected",
+    "title":"THE EIGHTY ACRES CLOSE ANOTHER BREAK IN THE ESTATE NETWORK",
+    "mentioned_entities":["estate stewards","surveyors","Gaius Maximus Valerius","new eighty-acre tract"],
+    "news":"On 16 September, the estate surveyors walk the full boundary of the newly transferred eighty acres and the principal estate it touches. The new tract closes a second significant break in the network and gives the stewards a continuous working boundary across a stretch that previously had to be administered in separate pieces. Boundary stones are checked, access routes are recorded, and the older forty-acre acquisition from Round 98 is measured against the new tract rather than treated as an isolated parcel. The result is a more coherent estate map and a clearer priority list for the remaining narrow gaps. No separate infrastructure increase is claimed merely because the land is now contiguous; the measurable change is the land area itself and the improved administrative continuity.",
+    "ai_ledger":{"land_area_sq_miles":0,"intelligence":9,"financial_realization":{"gross_receipts_denarii":0,"operating_costs_denarii":0,"net_public_profit_denarii":0,"private_transfer_denarii":0,"treasury_change_denarii":0,"public_account_change_denarii":0,"private_account_change_denarii":0,"currency_flow_denarii":0,"internal_transfer":false,"capital_acquisition_denarii":0}}
+  },
+  {
+    "event_id":"GMV-62BCE-001-R099-E03",
+    "date":"17 September 57 BCE",
+    "event_category":"Connected",
+    "title":"VALERIUS'S PAYMENT BECOMES A LOCAL EXAMPLE OF HIS TERMS",
+    "mentioned_entities":["Gaius Maximus Valerius","neighboring landholder","nearby landowners","smallholders"],
+    "news":"On 17 September, news of the unusual transfer spreads among nearby landowners who had already begun testing the new estate-consolidation policy. The fact that Valerius accepted a favorable gift but still insisted on paying the owner twenty denarii becomes a practical example of the terms under which his stewards are expected to conduct future dealings. Several smallholders now approach the estate staff with clearer expectations about boundary sales and voluntary transfers, while the stewards continue to distinguish genuine offers from speculative asking prices. No additional parcel changes hands during these conversations, so there is no second land increase or additional financial realization. The principal effect is informational: the estate's acquisition policy becomes better understood locally, and the staff gains several new descriptions of parcels that might eventually close the remaining gaps.",
+    "ai_ledger":{"land_area_sq_miles":0,"intelligence":12,"financial_realization":{"gross_receipts_denarii":0,"operating_costs_denarii":0,"net_public_profit_denarii":0,"private_transfer_denarii":0,"treasury_change_denarii":0,"public_account_change_denarii":0,"private_account_change_denarii":0,"currency_flow_denarii":0,"internal_transfer":false,"capital_acquisition_denarii":0}}
+  },
+  {
+    "event_id":"GMV-62BCE-001-R099-E04",
+    "date":"18 September 57 BCE",
+    "event_category":"Connected",
+    "title":"THE CONSOLIDATED FIELDS TURN A CAPPED AGRICULTURAL GAIN INTO CASH",
+    "mentioned_entities":["estate stewards","new eighty-acre tract","principal estate","grain merchants"],
+    "news":"On 18 September, the stewards begin incorporating the new eighty acres into the productive cycle of the adjoining estate rather than leaving it idle while the legal transfer settles. The combined fields produce a surplus beyond what the campaign's agriculture condition scale can record: agriculture remains at its fixed maximum of 100 points, but the additional productive output is real and is therefore realized financially rather than discarded as a phantom metric increase. The stewards sell part of the surplus to grain merchants for 28 denarii and spend 10 denarii on harvesting, cartage, storage, and market handling. The resulting 18-denarius net profit is recorded in the public estate account. The underlying agricultural improvement exceeds the condition scale, while the excess is represented by a concrete sale and net cash realization instead of pushing the agriculture metric above 100.",
+    "ai_ledger":{"land_area_sq_miles":0,"intelligence":0,"financial_realization":{"gross_receipts_denarii":28,"operating_costs_denarii":10,"net_public_profit_denarii":18,"private_transfer_denarii":0,"treasury_change_denarii":0,"public_account_change_denarii":18,"private_account_change_denarii":0,"currency_flow_denarii":18,"internal_transfer":false,"capital_acquisition_denarii":0},"capped_positive_effect":{"metric":"agriculture","would_be_change":1,"applied_metric_change":0,"excess_realized_denarii":18}}
+  },
+  {
+    "event_id":"GMV-62BCE-001-R099-E05",
+    "date":"19 September 57 BCE",
+    "event_category":"Connected",
+    "title":"THE NEW LAND IS PUT UNDER THE SAME STEWARDING HAND",
+    "mentioned_entities":["estate stewards","new eighty-acre tract","principal estate"],
+    "news":"On 19 September, the stewards complete the first administrative integration of the eighty-acre tract. Cultivation records, labor assignments, storage accounting, and boundary notes are folded into the records of the principal estate rather than maintained as a separate ledger. The larger tract also gives the stewards more room to arrange work around the existing fields, reducing the need to treat the intervening boundaries as separate operating units. No new condition-point increase is recorded because the relevant estate and agricultural conditions are already at their maximums. The concrete result is a larger, physically connected holding with a single administrative chain and a documented basis for future consolidation decisions.",
+    "ai_ledger":{"land_area_sq_miles":0,"intelligence":5,"financial_realization":{"gross_receipts_denarii":0,"operating_costs_denarii":0,"net_public_profit_denarii":0,"private_transfer_denarii":0,"treasury_change_denarii":0,"public_account_change_denarii":0,"private_account_change_denarii":0,"currency_flow_denarii":0,"internal_transfer":false,"capital_acquisition_denarii":0}}
+  },
+  {
+    "event_id":"GMV-62BCE-001-R099-E06",
+    "date":"20 September 57 BCE",
+    "event_category":"Connected",
+    "title":"THE GUARD PRESERVES THE ROAD DISCIPLINE AFTER THE EXPANSION",
+    "mentioned_entities":["Titus Varenus","Lucius Atilius","Gnaeus Fabius","Gaius Maximus Valerius","personal guard","Vexillum Valerianum"],
+    "news":"On 20 September, Titus Varenus, Lucius Atilius, and Gnaeus Fabius continue the hundred-man guard's established road discipline while the estate news is carried back through Valerius's wider household. The distributed sectors remain intact, with fifty infantry and fifty cavalry preserving mutual support and no patrol or foraging party traveling alone. The Vexillum Valerianum remains with the command element as the visual reference for the guard rather than being treated as an ordinary legionary standard. The recent acquisition does not cause Valerius to weaken the expedition's security arrangement in order to celebrate the expansion of his holdings. The military posture therefore continues unchanged while the estate network develops behind it.",
+    "ai_ledger":{"land_area_sq_miles":0,"intelligence":0,"financial_realization":{"gross_receipts_denarii":0,"operating_costs_denarii":0,"net_public_profit_denarii":0,"private_transfer_denarii":0,"treasury_change_denarii":0,"public_account_change_denarii":0,"private_account_change_denarii":0,"currency_flow_denarii":0,"internal_transfer":false,"capital_acquisition_denarii":0}}
+  },
+  {
+    "event_id":"GMV-62BCE-001-R099-E07",
+    "date":"21 September 57 BCE",
+    "event_category":"Connected",
+    "title":"SERVILIUS AND CASSIUS KEEP THE OLD ROAD UNDER INVESTIGATION",
+    "mentioned_entities":["Publius Servilius","Numerius Cassius","Gaius Maximus Valerius","engineered road features"],
+    "news":"On 21 September, Publius Servilius and Numerius Cassius continue their examination of the engineered road features discovered during the expedition. The newly consolidated estate does not resolve the question of who built the road, but the pair use the accumulating field notes to compare the damaged crossing, weathered marker line, secondary approach, and worked-stone fragments without forcing them into an unsupported conclusion. Their latest observations strengthen the record of how the features relate spatially while leaving builder, date, political authority, and original purpose unresolved. Servilius preserves the distinction between what the expedition has directly observed and what remains only a historical possibility, while Cassius continues watching for additional physical evidence. The investigation therefore advances through evidence rather than through an invented answer.",
+    "ai_ledger":{"land_area_sq_miles":0,"intelligence":24,"financial_realization":{"gross_receipts_denarii":0,"operating_costs_denarii":0,"net_public_profit_denarii":0,"private_transfer_denarii":0,"treasury_change_denarii":0,"public_account_change_denarii":0,"private_account_change_denarii":0,"currency_flow_denarii":0,"internal_transfer":false,"capital_acquisition_denarii":0}}
+  }
+]
