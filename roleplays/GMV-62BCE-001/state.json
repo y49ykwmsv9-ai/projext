@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 111,
-  "date": "-0057-12-14",
+  "round": 112,
+  "date": "-0057-12-21",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3230.4,
@@ -119,9 +119,9 @@
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 112,
-    "next_date": "-0057-12-21",
-    "requirements": "Round 111 persistence and post-commit verification passed; Round 112 generation permitted."
+    "next_round": 113,
+    "next_date": "-0057-12-28",
+    "requirements": "Round 112 persistence and post-commit verification passed; Round 113 generation permitted."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1188,8 +1188,8 @@
       }
     ]
   },
-  "latest_round": 111,
-  "latest_date": "-0057-12-14",
+  "latest_round": 112,
+  "latest_date": "-0057-12-21",
   "soldiers": 414,
   "population": 257,
   "taxation": 3,
@@ -1205,7 +1205,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 2512,
+  "intelligence": 2864,
   "relations": 100,
   "land_area_sq_miles": 7.959375,
   "temporary_unavailable": 0,
@@ -1243,26 +1243,26 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2512,
+    "intelligence": 2864,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3252.9,
-    "private_account": 608.1,
+    "public_account": 3276.3,
+    "private_account": 610.7,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 41,
-      "operating_costs_denarii": 16,
-      "net_public_profit_denarii": 25,
-      "private_transfer_denarii": 2.5,
-      "public_account_change_denarii": 22.5,
-      "private_account_change_denarii": 2.5,
-      "currency_flow_denarii": 25,
+      "gross_receipts_denarii": 44,
+      "operating_costs_denarii": 18,
+      "net_public_profit_denarii": 26,
+      "private_transfer_denarii": 2.6,
+      "public_account_change_denarii": 23.4,
+      "private_account_change_denarii": 2.6,
+      "currency_flow_denarii": 26,
       "capital_acquisition_denarii": 0,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 2.5
+      "ten_percent_profit_transfer_denarii": 2.6
     }
   },
   "round_delta_ledger": {
@@ -1291,8 +1291,8 @@
     "ai_ledger_embedded_in_each_event": "PASS",
     "event_format_contract": "PASS"
   },
-  "public_account": 3252.9,
-  "private_account": 608.1,
+  "public_account": 3276.3,
+  "private_account": 610.7,
   "last_round_classification_summary": {
     "Direct": 1,
     "Connected": 5,
