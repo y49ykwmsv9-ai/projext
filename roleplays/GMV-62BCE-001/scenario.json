@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 90,
-  "latest_date": "-0057-07-14",
+  "latest_round": 91,
+  "latest_date": "-0057-07-20",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,13 +16,13 @@
     "rule": "Special is a core event category. Every round performs one independent random Special-event roll using the current base probability. A successful roll adds exactly one initially Special event; a failed roll adds none. Each successful Magnitude-11 check also produces one initially Special event. Magnitude-11 is separate from the standard Special roll. Initial Special or Surprise classification is not automatically Ultimate, but every such candidate is subject to the mandatory Ultimate Reclassification Gate before final classification.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 0.849516013929911,
+    "current_round_roll": 0.9654280457430063,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed."
   },
   "continuity": {
-    "campaign_development": "7 July 57 BCE: Valerius's personal guard has expanded to 100 veterans, divided evenly between 50 infantry and 50 cavalry; 20 are the newly admitted local veterans and 80 are drawn from Valerius's established veterans. Each member retains an individual weapon and fighting method while operating under one coordinated guard doctrine.",
+    "campaign_development": "20 July 57 BCE: Valerius implemented the Vexillum Valerianum as his personal command standard, incorporating it into marching, camp, command, rally, and personal-guard procedures.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi.",
     "personal_guard": "Round 89 establishes 100 total personal guards: 50 infantry and 50 cavalry; 10 infantry and 10 cavalry are from the Round 87-88 local veterans, while 40 infantry and 40 cavalry are from Valerius's established veterans.",
     "valerius_equipment": {
@@ -36,13 +36,13 @@
   },
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 0.42012723204261393,
+    "special_roll": 0.9654280457430063,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.7296936814447504,
-      0.7195422484511944,
-      0.2357728742664832
+      0.895301328102821,
+      0.23232596976733266,
+      0.7058526635534764
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -56,7 +56,6 @@
       "metric_bounds": "PASS",
       "round_delta_reconciliation": "PASS",
       "financial_realization_reconciled": "PASS",
-      "plausible_financial_quantification": "PASS",
       "land_and_property_consistency": "PASS",
       "recurring_character_continuity": "PASS",
       "event_variety_and_causal_diversity": "PASS",
@@ -72,8 +71,8 @@
       "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PASS",
-      "post_commit_verification": "PASS"
+      "canonical_pointer_synchronization": "PENDING",
+      "post_commit_verification": "PENDING"
     },
     "financial_reconciliation": {
       "round_87_gross_receipts_denarii": 0,
@@ -1337,5 +1336,16 @@
         "coordination": "integrated with the full personal guard and expedition"
       }
     ]
+  },
+  "valerius_equipment": {
+    "armor_style": "traditional Roman",
+    "material_source": "Valerius personal mines and estate stores",
+    "craftsmen": "finest smiths of the estate and foundries",
+    "shield": "new personal shield; exceptionally intricate and structurally tough; deliberately more intricate than Valerius's weapons as a symbol of devotion to protection and defense",
+    "gladius": "personal high-quality Roman gladius; reputation linked to Valerius's established combat record",
+    "pilum": "double-reinforced personal pilum; carries Valerius's oath to march at the head of every battle and personally participate",
+    "shield_piercing_record": "individual truthful record for every confirmed shield personally pierced; no unverified encounter is added",
+    "kill_record": "open truthful combat ledger; future confirmed individual kills may be recorded, but no unsupported kill count is asserted",
+    "status": "field-ready"
   }
 }
