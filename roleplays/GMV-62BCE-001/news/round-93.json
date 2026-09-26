@@ -1,0 +1,353 @@
+{
+  "schema_version": "gmv-news-v3",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 93,
+  "date": "-0057-08-10",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R093-E01",
+      "round_number": 93,
+      "date": "4 August 57 BCE",
+      "event_category": "Direct",
+      "title": "THE EXPEDITION LEAVES THE ROAD DOSSIER BEHIND",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Vexillum Valerianum",
+        "personal guard",
+        "expedition"
+      ],
+      "body": "On 4 August, Valerius leads the expedition away from the immediate vicinity of the completed road investigation and orders the column to treat the sealed dossier as a record to be carried forward rather than a reason to remain in place. The Vexillum Valerianum moves with the command group, while the personal guard forms the close protective element around the forward portion of the column. The veterans who were inducted earlier now work inside an expedition whose purpose has widened from examining one engineered route to learning the country beyond it. Titus Varenus takes the forward rotation with the infantry while mounted guards watch the wider ground for movement and changes in the route. No new territory is claimed and no new settlement is assigned as the destination, because Valerius orders the men to advance according to what the country itself reveals. By evening the expedition has established a new marching rhythm, carrying its completed investigation with it while beginning a separate phase of reconnaissance.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 22,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R093-E02",
+      "round_number": 93,
+      "date": "5 August 57 BCE",
+      "event_category": "Connected",
+      "title": "THE VETERANS READ THE NEW TERRAIN",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "terrain reconnaissance"
+      ],
+      "body": "On 5 August, Titus Varenus and Lucius Atilius lead a close reconnaissance ahead of the main column, comparing slopes, watercourses, visible tracks, and natural approaches before the rest of the men commit to a route. Gnaeus Fabius follows the survey and helps distinguish ground that can carry a formed body of infantry from ground better suited to scattered movement. Their value is not simply that they know familiar landmarks, but that they can recognize when a remembered route assumption no longer fits the terrain immediately in front of them. Valerius receives their observations at the command position beneath the Vexillum Valerianum and orders the usable information entered into the expedition record. The survey identifies several practical directions without proving that any of them corresponds to an ancient engineered road. The expedition therefore gains a clearer understanding of the country while preserving the distinction between observed geography and historical interpretation.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 16,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R093-E03",
+      "round_number": 93,
+      "date": "6 August 57 BCE",
+      "event_category": "Connected",
+      "title": "THE COLUMN MEETS FARMERS AT THE EDGE OF CULTIVATED LAND",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "nearby smallholders",
+        "expedition",
+        "cultivated land"
+      ],
+      "body": "On 6 August, the column reaches the edge of cultivated ground and encounters several smallholders whose fields lie near the expedition's route of movement. The meeting is orderly, and the men exchange practical information about local paths, seasonal ground conditions, and which approaches are routinely used by people moving between their holdings. Valerius does not treat their knowledge as proof of the origin of any older construction, but he recognizes its value in preventing the expedition from confusing present-day use with ancient purpose. The smallholders remain outside the military formation while the personal guard maintains its normal discipline, making the encounter a local contact rather than a military occupation. No sale, fee, rent, gift, or other realized financial transaction is established in the meeting. The information nonetheless adds another layer to the expedition's understanding of the living landscape surrounding its new route.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 14,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R093-E04",
+      "round_number": 93,
+      "date": "7 August 57 BCE",
+      "event_category": "Direct",
+      "title": "THE HUNDRED-MAN GUARD BECOMES THE EXPEDITION'S MOVING SCREEN",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "personal guard",
+        "Titus Varenus",
+        "Gaius Valerius",
+        "Vexillum Valerianum"
+      ],
+      "body": "On 7 August, Valerius orders the hundred-man personal guard to become the expedition's moving screen rather than remaining concentrated around the command position. The fifty infantry and fifty cavalry divide their functions without breaking the unity established when the guard was formed, with infantry controlling close approaches and cavalry extending the watch beyond the immediate marching files. Titus Varenus and the infantry veterans demonstrate how individually distinctive weapons and fighting methods can still operate inside one coordinated protective system, while Gaius Valerius and the mounted veterans rotate through the outer observation positions. The Vexillum Valerianum remains the visual center of the command group, allowing the guard to contract toward it or extend outward without losing the location of Valerius. The exercise is conducted as a marching operation rather than a battle, and no casualties or detachments result. By the end of the day's movement, the guard has become not merely Valerius's personal protection but a mobile layer of security for the expedition itself.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 18,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R093-E05",
+      "round_number": 93,
+      "date": "8 August 57 BCE",
+      "event_category": "Connected",
+      "title": "A NEW PASSAGE IS MARKED WITHOUT BEING MISTAKEN FOR AN ANCIENT ROAD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "route reconnaissance",
+        "secondary passage",
+        "expedition"
+      ],
+      "body": "On 8 August, the scouts identify a narrow passage between two pieces of difficult ground that offers a more practical line for the column's continued movement. The passage is marked in the expedition's records as a usable route discovered during the present reconnaissance, but Valerius specifically refuses to describe it as an ancient road without evidence. The distinction matters because the completed investigation has already shown how easily modern movement, surviving construction, and historical attribution can be confused. A short survey follows the passage far enough to establish its immediate character and its relationship to the surrounding terrain, while the main body waits under the guard's protection. No new landholding is claimed and no construction is undertaken. The day's intelligence comes from learning how the country can actually be traversed, not from assigning an unsupported history to the ground.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 12,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R093-E06",
+      "round_number": 93,
+      "date": "9 August 57 BCE",
+      "event_category": "Surprise",
+      "title": "A NIGHT FIRE REVEALS PEOPLE AHEAD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "Lucius Atilius",
+        "night watch",
+        "charcoal burners"
+      ],
+      "body": "On the night of 9 August, the outer watch notices a controlled fire burning ahead of the column beyond a rise that had not been visible from the previous day's camp. The sight briefly changes the character of the watch, and Titus Varenus brings the nearest guards into a tighter observation position while Lucius Atilius keeps the infantry from moving forward blindly in the darkness. Valerius is informed and orders the men to observe rather than rush toward the light, keeping the Vexillum Valerianum at the command position and the mounted guard spread across the safer approaches. With first light, the expedition determines that the fire belongs to charcoal burners working away from the column's path, not an organized armed force. The encounter produces no clash and no military loss, but it gives the expedition a useful reminder that human activity can appear suddenly in country that initially seems empty. The charcoal burners provide a small amount of local orientation before the column resumes its movement, and the event is recorded as a Surprise observation rather than inflated into a confrontation.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 28,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R093-E07",
+      "round_number": 93,
+      "date": "10 August 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS SETS THE NEXT MARCHING OBJECTIVE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Vexillum Valerianum",
+        "personal guard",
+        "expedition"
+      ],
+      "body": "On 10 August, after reviewing the week's reconnaissance, Valerius sets the next marching objective at the level the evidence can support: the expedition will continue along the newly understood passage and investigate the country beyond it without assigning an exact destination that has not yet been established. The completed road dossier remains sealed among the expedition records, while the newer terrain observations are kept as a separate continuation record so that the two investigations do not become confused. The personal guard resumes its moving-screen arrangement, with the infantry close to the command group and the cavalry extending observation ahead and to the flanks. Valerius personally remains at the head of the column beneath the Vexillum Valerianum, consistent with the oath embodied in his double-reinforced pilum. The men therefore end the round not at a predetermined historical site, but at the threshold of a genuinely new phase whose direction will be determined by what the expedition encounters next. The country ahead remains incompletely known, and the expedition moves into it carrying both the discipline and the evidence accumulated so far.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 20,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false
+        }
+      }
+    }
+  ],
+  "round_footer": {
+    "base_probability_percent": 12,
+    "roll": 0.13404364559080462,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      0.15439291316118886,
+      0.40364932711662216,
+      0.691147909932617
+    ],
+    "magnitude_11_events": 0,
+    "ultimate_reclassification_events": [
+      {
+        "event_id": "GMV-62BCE-001-R093-E06",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      }
+    ],
+    "random_generation": "local resolution"
+  }
+}
