@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 92,
-  "date": "-0057-08-03",
+  "round": 93,
+  "date": "-0057-08-10",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2974,
+    "intelligence": 3104,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "3 August 57 BCE: Valerius completed the present field investigation, sealed the road dossier with a final storm-exposed fragment addendum, and ordered the expedition onward into its next phase.",
+    "campaign_development": "10 August 57 BCE: Valerius has moved the expedition beyond the completed road investigation, expanded reconnaissance into the surrounding country, integrated the hundred-man personal guard as a moving screen, and established a new marching phase without fixing an unsupported destination.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi.",
     "road_investigation": "Present field phase finalized: deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and a further short exposed worked-stone fragment are documented; builder, date, political authority, and original purpose remain unproven."
   },
@@ -58,40 +58,71 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 0.01620173998852903,
-    "current_round_selected": true,
-    "current_round_event_id": "GMV-62BCE-001-R092-E06",
+    "current_round_roll": 0.13404364559080462,
+    "current_round_selected": false,
+    "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      0.14145831011892007,
-      0.7522367775497976,
-      0.5951328471530332
+      0.15439291316118886,
+      0.40364932711662216,
+      0.691147909932617
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 0.01620173998852903,
-    "special_triggered": true,
+    "roll": 0.13404364559080462,
+    "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.14145831011892007,
-      0.7522367775497976,
-      0.5951328471530332
+      0.15439291316118886,
+      0.40364932711662216,
+      0.691147909932617
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [
       {
-        "event_id": "GMV-62BCE-001-R092-E06",
-        "initial_category": "Special",
-        "final_category": "Special",
+        "event_id": "GMV-62BCE-001-R093-E06",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
         "ultimate_reclassification": "not_qualified"
       }
     ],
     "random_generation": "local resolution",
     "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "post_commit_verification": "PASS",
+    "generated_special_event": null,
+    "continuity_checks": {
+      "canonical_state_read": "PASS",
+      "local_random_resolution": "PASS",
+      "causal_event_generation": "PASS",
+      "ultimate_reclassification_gate": "PASS",
+      "narrative_contract": "PASS",
+      "semantic_state_consistency": "PASS",
+      "fixed_metric_schema": "PASS",
+      "metric_bounds": "PASS",
+      "round_delta_reconciliation": "PASS",
+      "financial_realization_reconciled": "PASS",
+      "land_and_property_consistency": "PASS",
+      "recurring_character_continuity": "PASS",
+      "event_variety_and_causal_diversity": "PASS",
+      "current_total_ledger_complete": "PASS",
+      "random_classification_consistency": "PASS",
+      "exact_quantity_unit_consistency": "PASS",
+      "military_state_consistency": "PASS",
+      "economic_financial_consistency": "PASS",
+      "agriculture_state_consistency": "PASS",
+      "literal_revenue_realization_check": "PASS",
+      "geographic_reference_consistency": "PASS",
+      "geographic_source_protection": "PASS",
+      "ultimate_event_contract": "PASS",
+      "surprise_special_expanded_prose": "PASS",
+      "final_end_of_round_validation": "PASS",
+      "canonical_pointer_synchronization": "PASS",
+      "post_commit_verification": "PASS",
+      "plausible_financial_quantification": "PASS"
+    }
   },
   "financial_realization": {
     "treasury": 1668,
@@ -1162,8 +1193,8 @@
       }
     ]
   },
-  "latest_round": 92,
-  "latest_date": "-0057-08-03",
+  "latest_round": 93,
+  "latest_date": "-0057-08-10",
   "soldiers": 414,
   "population": 250,
   "taxation": 3,
@@ -1179,7 +1210,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 2974,
+  "intelligence": 3104,
   "relations": 100,
   "land_area_sq_miles": 7.75,
   "temporary_unavailable": 0,
