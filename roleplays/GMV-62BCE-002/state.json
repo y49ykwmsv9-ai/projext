@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "round": 114,
-  "date": "-0057-01-04",
+  "round": 115,
+  "date": "-0057-01-11",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3320.4,
-    "private": 615.6,
+    "public": 3358.2,
+    "private": 619.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 25,
-    "last_round_private_transfer": 2.5
+    "last_round_net_public_profit": 42,
+    "last_round_private_transfer": 4.2
   },
   "metrics": {
     "soldiers": 414,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 5249,
+    "intelligence": 4004,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -49,61 +49,54 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "7 December 57 BCE: the estate's open-access policy is functioning under exact cost recovery while the silver-and-grain commercial arrangement begins producing independently priced combined consignments.",
-    "commercial_thread": "The latest combined grain-and-silver consignment realized 49 gross / 17 costs / 32 net; 3.2 privately transferred and 28.8 retained publicly.",
-    "road_thread": "The shared-water road remains open and toll-free; ordinary traffic continues under the broader estate facility access policy.",
-    "road_investigation": "Servilius and Cassius have extended the marked-stone investigation to a second surviving stretch of deliberately shaped roadwork; builder, date, authority, and purpose remain unresolved.",
-    "political_correspondence": "Valerius completed another formal procedural appearance in his registered civic candidacy; no vote or result exists.",
-    "refuge_policy": "The second displaced household remains integrated into ordinary estate work; population remains 257.",
-    "election_thread": "Valerius remains a registered candidate; no votes or electoral result have occurred.",
-    "local_infrastructure_thread": "The shared-water road remains open and toll-free.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; all remain available.",
-    "silver_development_thread": "A separate mineral-bearing seam has been identified within the surveyed second working; depth and eventual yield remain unresolved."
+    "campaign_development": "Valerius remains a registered civic candidate; a new procedural notice was received in Rome without a vote or result.",
+    "commercial_thread": "Round 115 recurring settlement realized 46 gross / 18 costs / 28 net; 2.8 private / 25.2 public.",
+    "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
+    "road_investigation": "Completed and classified; remains background canon.",
+    "election_thread": "Candidacy remains active with procedural documentation; no electoral result.",
+    "refuge_policy": "Second displaced household remains integrated; population 257.",
+    "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
+    "silver_development_thread": "Second silver working produced its first payable lot; eventual yield remains unresolved.",
+    "family_thread": "Valerius returned to his Roman estate and spent a sustained private visit with his sister; no new named family character was introduced.",
+    "urban_estate_thread": "Open-access facility policy remains in force; one false facility charge was rejected before payment.",
+    "merchant_access_thread": "An unexpected multi-house merchant delegation sought ordinary access during winter disruption and was handled under the existing indiscriminate cost-recovery policy.",
+    "library_thread": "Estate library correspondence continues in background."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 78.66631569684472,
+    "current_round_roll": 61.296818187571475,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      99.21838508785838,
-      27.67916650309473,
-      61.74732550989729
+      9.13194720650341,
+      59.44031987066539,
+      49.414897186312835
     ],
-    "current_round_magnitude_11_events": 0
+    "current_round_magnitude_11_events": 1
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 78.66631569684472,
+    "roll": 61.296818187571475,
     "special_triggered": false,
+    "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      99.21838508785838,
-      27.67916650309473,
-      61.74732550989729
+      9.13194720650341,
+      59.44031987066539,
+      49.414897186312835
     ],
-    "magnitude_11_events": 0,
+    "magnitude_11_events": 1,
+    "generated_magnitude_11_events": [
+      "GMV-62BCE-002-R115-E07"
+    ],
     "ultimate_reclassification_events": [],
-    "random_generation": "local resolution",
-    "ten_percent_profit_transfer_rule": "PASS",
-    "recurring_financial_agreement_settlement": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING",
-    "generated_special_event": null,
-    "final_event_classifications": {
-      "Direct": 1,
-      "Connected": 5,
-      "Surprise": 2,
-      "Special": 0,
-      "Ultimate": 0
-    },
-    "surprise_special_gate": "PASS",
-    "ai_event_ledger_present": true
+    "random_generation": "fresh local resolution",
+    "ultimate_gate": "PASS — E07 remains Special"
   },
   "financial_realization": {
     "gross_receipts_denarii": 48,
@@ -118,10 +111,10 @@
     "ten_percent_profit_transfer_denarii": 2.3
   },
   "next_round_gate": {
-    "status": "OPEN_AFTER_CHAPTER_COMMIT",
-    "next_round": 115,
-    "next_date": "-0057-01-11",
-    "requirements": "Chapter II setup committed and verified from inherited Round 114 state before Round 115 generation."
+    "status": "PENDING_POST_COMMIT",
+    "next_round": 116,
+    "next_date": "-0057-01-18",
+    "requirements": "Round 115 persistence and post-commit verification."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1243,15 +1236,25 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3554,
+    "intelligence": 4004,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3320.4,
-    "private_account": 615.6
+    "public_account": 3358.2,
+    "private_account": 619.8,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 68,
+      "operating_costs_denarii": 26,
+      "net_public_profit_denarii": 42,
+      "private_transfer_denarii": 4.2,
+      "public_account_change_denarii": 37.8,
+      "private_account_change_denarii": 4.2,
+      "currency_flow_denarii": 42,
+      "note": "Recurring contract: 46 gross/18 costs/28 net. Background agricultural surplus: 13 gross/5 costs/8 net. Background urban estate surplus: 9 gross/3 costs/6 net. Background realizations are separately identified in event ledgers."
+    }
   },
   "round_delta_ledger": {
     "intelligence": {
@@ -1264,6 +1267,7 @@
     "fixed_metric_schema": "PASS",
     "metric_bounds": "PASS",
     "financial_reconciliation": "PASS",
+    "plausible_financial_quantification": "PASS",
     "land_consistency": "PASS",
     "recurring_character_continuity": "PASS",
     "event_variety": "PASS",
@@ -1274,18 +1278,19 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING",
     "ai_ledger_embedded_in_each_event": "PASS",
-    "event_format_contract": "PASS"
+    "background_source_attribution": "PASS",
+    "event_format_contract": "PASS",
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING"
   },
   "public_account": 3320.4,
   "private_account": 615.6,
   "last_round_classification_summary": {
     "Direct": 1,
     "Connected": 5,
-    "Surprise": 2,
-    "Special": 0,
+    "Surprise": 1,
+    "Special": 1,
     "Ultimate": 0
   },
   "chapter": {
