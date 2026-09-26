@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "latest_round": 119,
-  "latest_date": "-0057-02-08",
+  "latest_round": 120,
+  "latest_date": "-0057-02-15",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -439,9 +439,9 @@
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 120,
-    "next_date": "-0057-02-15",
-    "requirements": "Round 119 persistence, mathematical reconciliation, and post-commit verification passed."
+    "next_round": 121,
+    "next_date": "-0057-02-22",
+    "requirements": "Round 120 persistence, mathematical reconciliation, and post-commit verification passed."
   },
   "personal_guard": {
     "status": "active",
@@ -1369,10 +1369,11 @@
     "rule": "Every GMV round must contain at least 7 distinct events. This is the only additional event-count requirement. All existing causal-generation, event-category, variety, continuity, random-resolution, financial, metric, and validation rules remain unchanged. The minimum does not permit unrelated filler; each event must arise from an existing or newly emerging plausible causal thread supported by the established simulation state."
   },
   "last_round_classification_summary": {
-    "Ultimate": 1,
-    "Direct": 3,
-    "Surprise": 1,
-    "Connected": 3
+    "Direct": 2,
+    "Connected": 4,
+    "Surprise": 2,
+    "Special": 0,
+    "Ultimate": 0
   },
   "ai_event_ledger_present": true,
   "current_total_ledger": {
@@ -1391,27 +1392,25 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 5600,
+    "intelligence": 6122,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3608.3,
-    "private_account": 687.8,
+    "public_account": 3691.1,
+    "private_account": 697,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 131,
-      "operating_costs_denarii": 50,
-      "net_public_profit_denarii": 81,
-      "private_transfer_denarii": 8.1,
-      "public_account_change_denarii": 72.9,
-      "private_account_change_denarii": 48.1,
-      "currency_flow_denarii": 121,
-      "capital_liquidation_denarii": 420,
-      "capital_acquisition_denarii": 380,
-      "capital_conversion_net_denarii": 40,
-      "note": "Operating profit: 33 lake-port bargain + 30 recurring surplus settlement + 13 silver sale + 5 independent urban rent = 81 denarii. Private routing on those realized profits = 8.1 denarii. Separate private reserve conversion: 420 liquidated, 380 spent on the land/estate/labor package, 40 remains liquid."
+      "gross_receipts_denarii": 152,
+      "operating_costs_denarii": 60,
+      "net_public_profit_denarii": 92,
+      "private_transfer_denarii": 9.2,
+      "public_account_change_denarii": 82.8,
+      "private_account_change_denarii": 9.2,
+      "treasury_change_denarii": 0,
+      "currency_flow_denarii": 92,
+      "note": "37 + 34 + 16 + 5 realized net profit; 10% routed privately and 90% retained publicly."
     }
   },
   "campaign_intelligence_allocation": {
@@ -1513,6 +1512,19 @@
         "Surprise": 1,
         "Connected": 3
       }
+    },
+    {
+      "round": 120,
+      "date": "-0057-02-15",
+      "directive": "Valerius continues the established land, military, commercial, political, and estate-separation directives from Round 119.",
+      "event_count": 8,
+      "classification_summary": {
+        "Direct": 2,
+        "Connected": 4,
+        "Surprise": 2,
+        "Special": 0,
+        "Ultimate": 0
+      }
     }
   ],
   "wealth_accounts": {
@@ -1523,10 +1535,10 @@
     "last_round_private_transfer": 8.1
   },
   "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
-  "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net.",
-  "rounds_since_last_ultimate": 0,
+  "trade_capitalization_thread": "Round 120 completed the first Merchant Affairs Office capitalization cycle at 61 gross / 24 costs / 37 net and established an immediate-response procedure for lake-port disruptions.",
+  "rounds_since_last_ultimate": 1,
   "last_ultimate_round": 119,
-  "ultimate_event_created_this_round": true,
+  "ultimate_event_created_this_round": false,
   "merchant_affairs_office": {
     "status": "active",
     "established_round": 119,
@@ -1538,7 +1550,9 @@
       "estate artisans",
       "principal estate stewards"
     ],
-    "mandate": "coordinate surplus sales, needed-input purchases, merchant correspondence, transport arrangements, artisan/commercial records, and realized settlement verification; never pre-book speculative revenue"
+    "mandate": "coordinate surplus sales, needed-input purchases, merchant correspondence, transport arrangements, artisan/commercial records, and realized settlement verification; never pre-book speculative revenue",
+    "last_completed_capitalization_round": 120,
+    "last_disruption_response_round": 120
   },
   "family_administration": {
     "sister": {
@@ -1552,7 +1566,7 @@
     "land_area_sq_miles": 22.959375,
     "acres": 14694,
     "roman_iugera_approx": 21655.91,
-    "change_this_round_sq_miles": 15,
+    "change_this_round_sq_miles": 0,
     "scope": "personal estates and holdings; Round 107 adds a six-acre adjoining strip for 9 denarii",
     "acquisition_this_round": {
       "land_area_sq_miles": 15,
@@ -1565,5 +1579,7 @@
       "labor_contract_price_denarii": 60,
       "survey_and_transfer_price_denarii": 20
     }
-  }
+  },
+  "round": 120,
+  "date": "-0057-02-15"
 }
