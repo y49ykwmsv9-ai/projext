@@ -4,11 +4,11 @@
   "date": "-0057-09-21",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3057,
-    "private": 604,
+    "public": 3055.2,
+    "private": 605.8,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 18,
-    "last_round_private_transfer": -20
+    "last_round_private_transfer": 1.8
   },
   "metrics": {
     "soldiers": 414,
@@ -53,7 +53,7 @@
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625; Round 59 adds 0.50; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75; Round 98 adds 0.0625 to reach 7.8125; Round 99 adds 0.125 sq mi (80 acres) to reach 7.9375. The Round 99 tract is the largest single recorded acquisition.",
     "road_investigation": "Deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and exposed worked-stone fragments remain documented; builder, date, political authority, and original purpose remain unproven.",
     "estate_consolidation": "Round 98 established automatic acquisition of adjoining property. Round 99 realizes an 80-acre adjoining tract offered free by its owner; Valerius personally pays 20 denarii rather than accept the land without compensation.",
-    "capped_stat_surplus": "A positive agricultural effect beyond the fixed 100-point scale produced 28 denarii gross sale proceeds, 10 denarii operating costs, and 18 denarii net public profit while agriculture remained at 100."
+    "capped_stat_surplus": "Round 99 agricultural output exceeded the 100-point agriculture cap. The event realized 18 denarii net public profit before the canonical 10% realized-profit transfer; 1.8 denarii routed to Valerius's private account, leaving 16.2 denarii retained publicly."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
@@ -90,15 +90,16 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3057,
-    "private": 604,
+    "public": 3055.2,
+    "private": 605.8,
     "gross_receipts_denarii": 28,
     "operating_costs_denarii": 10,
     "net_public_profit_denarii": 18,
-    "private_transfer_denarii": -20,
+    "private_transfer_denarii": -18.2,
     "background_interest_realized_denarii": 0,
     "currency_flow_denarii": -2,
-    "capital_acquisition_denarii": 0
+    "capital_acquisition_denarii": 0,
+    "ten_percent_profit_transfer_denarii": 1.8
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
