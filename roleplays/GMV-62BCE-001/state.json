@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 90,
-  "date": "-0057-07-14",
+  "round": 91,
+  "date": "-0057-07-20",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2689,
+    "intelligence": 2799,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "30 June 57 BCE: Valerius personally inducted the twenty local Roman veterans into his permanent personal guard, recorded each name beside his established men, issued individualized field gear, and integrated their distinct fighting methods into the expedition's unified guard doctrine.",
+    "campaign_development": "20 July 57 BCE: Valerius implemented the Vexillum Valerianum as his personal command standard, incorporating it into marching, camp, command, rally, and personal-guard procedures.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi."
   },
   "special_event_policy": {
@@ -57,67 +57,38 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 0.849516013929911,
+    "current_round_roll": 0.9654280457430063,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      0.7649904056080706,
-      0.48823820802735474,
-      0.11026721134441297
+      0.895301328102821,
+      0.23232596976733266,
+      0.7058526635534764
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
-    "special_base_probability_percent": 12,
-    "special_roll": 0.9079569598371307,
+    "base_probability_percent": 12,
+    "roll": 0.9654280457430063,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.7296936814447504,
-      0.7195422484511944,
-      0.2357728742664832
+      0.895301328102821,
+      0.23232596976733266,
+      0.7058526635534764
     ],
     "magnitude_11_events": 0,
-    "continuity_checks": {
-      "canonical_state_read": "PASS",
-      "local_random_resolution": "PASS",
-      "causal_event_generation": "PASS",
-      "ultimate_reclassification_gate": "PASS",
-      "narrative_contract": "PASS",
-      "semantic_state_consistency": "PASS",
-      "fixed_metric_schema": "PASS",
-      "metric_bounds": "PASS",
-      "round_delta_reconciliation": "PASS",
-      "financial_realization_reconciled": "PASS",
-      "plausible_financial_quantification": "PASS",
-      "land_and_property_consistency": "PASS",
-      "recurring_character_continuity": "PASS",
-      "event_variety_and_causal_diversity": "PASS",
-      "current_total_ledger_complete": "PASS",
-      "random_classification_consistency": "PASS",
-      "exact_quantity_unit_consistency": "PASS",
-      "military_state_consistency": "PASS",
-      "economic_financial_consistency": "PASS",
-      "agriculture_state_consistency": "PASS",
-      "literal_revenue_realization_check": "PASS",
-      "geographic_reference_consistency": "PASS",
-      "geographic_source_protection": "PASS",
-      "ultimate_event_contract": "PASS",
-      "surprise_special_expanded_prose": "PASS",
-      "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PASS",
-      "post_commit_verification": "PASS"
-    },
-    "financial_reconciliation": {
-      "round_87_gross_receipts_denarii": 0,
-      "round_87_operating_costs_denarii": 0,
-      "round_87_net_public_profit_denarii": 0,
-      "round_87_private_transfer_denarii": 0,
-      "basis_event_id": null,
-      "inference_basis": "The veterans volunteered without enlistment pay; no realized financial transfer was established."
-    }
+    "ultimate_reclassification_events": [
+      {
+        "event_id": "GMV-62BCE-001-R091-E06",
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
+      }
+    ],
+    "random_generation": "local resolution"
   },
   "financial_realization": {
     "treasury": 1668,
@@ -1240,9 +1211,11 @@
     "armor_style": "traditional Roman",
     "material_source": "Valerius personal mines and estate stores",
     "craftsmen": "finest smiths of the estate and foundries",
-    "gladius": "personal high-quality Roman gladius",
-    "pilum": "double-reinforced personal pilum",
+    "shield": "new personal shield; exceptionally intricate and structurally tough; deliberately more intricate than Valerius's weapons as a symbol of devotion to protection and defense",
+    "gladius": "personal high-quality Roman gladius; reputation linked to Valerius's established combat record",
+    "pilum": "double-reinforced personal pilum; carries Valerius's oath to march at the head of every battle and personally participate",
     "shield_piercing_record": "individual truthful record for every confirmed shield personally pierced; no unverified encounter is added",
+    "kill_record": "open truthful combat ledger; future confirmed individual kills may be recorded, but no unsupported kill count is asserted",
     "status": "field-ready"
   }
 }
