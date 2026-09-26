@@ -2,10 +2,10 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 90,
-    "latest_date": "-0057-07-14",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-90.json",
-    "news_file": "roleplays/GMV-62BCE-001/news/round-90.json",
+    "latest_round": 91,
+    "latest_date": "-0057-07-20",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-91.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-91.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 89 fully committed, synchronized, re-read, and verified; personal guard now 100 men (50 infantry, 50 cavalry), with 20 newly admitted local veterans and 80 established veterans; fixed metrics reconciled; fresh local random resolution recorded; mandatory validation gates PASS."
+  "last_verified": "Round 91 committed, synchronized, re-read, and verified."
 }
