@@ -1,6 +1,6 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 88,
+  "round": 89,
   "date": "-0057-06-30",
   "treasury": 1668,
   "wealth_accounts": {
@@ -107,8 +107,8 @@
       "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PENDING",
-      "post_commit_verification": "PENDING"
+      "canonical_pointer_synchronization": "PASS",
+      "post_commit_verification": "PASS"
     },
     "financial_reconciliation": {
       "round_87_gross_receipts_denarii": 0,
@@ -1234,6 +1234,6 @@
     "ultimate_event_contract": "PASS",
     "final_end_of_round_validation": "PASS",
     "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PENDING"
+    "post_commit_verification": "PASS"
   }
 }
