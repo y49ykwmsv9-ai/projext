@@ -1,0 +1,625 @@
+{
+  "schema_version": "gmv-round-v3",
+  "scenario_id": "GMV-62BCE-001",
+  "round": 98,
+  "date": "-0057-09-14",
+  "directive": "Valerius orders his estate stewards to automatically invest in purchasing property connected to his principal estates to make his holdings more connected instead of scattered assets.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R098-E01",
+      "round_number": 98,
+      "date": "8 September 57 BCE",
+      "event_category": "Direct",
+      "title": "THE STEWARDS BEGIN DRAWING THE ESTATES TOGETHER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "principal estates",
+        "nearby property"
+      ],
+      "body": "On 8 September, Valerius gives his estate stewards a standing instruction to use available capital to purchase property adjoining his principal estates whenever a suitable holding can be acquired on acceptable terms. The purpose is stated plainly: his holdings are no longer to remain a collection of scattered pieces when adjacent land can turn them into more coherent estates. The stewards begin with the parcels nearest the established boundaries rather than seeking distant acquisitions. That same day they complete the first purchase, securing a forty-acre tract directly adjoining one of Valerius's principal holdings. The deed and boundary description are recorded by the estate staff, and the tract becomes part of Valerius's personal holdings rather than a temporary lease or speculative claim. The purchase costs 60 denarii from the public estate account, with no transfer from the private account and no new revenue claimed from the transaction itself. The acquisition brings total recorded holdings from 7.75 to 7.8125 square miles and begins the consolidation program exactly where Valerius intended: at the edges of land he already controls.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0.0625,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -60,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -60,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 60
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Direct",
+        "final_category": "Direct",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R098-E02",
+      "round_number": 98,
+      "date": "9 September 57 BCE",
+      "event_category": "Connected",
+      "title": "NEIGHBORS BEGIN TO TEST THE NEW ESTATE POLICY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "nearby landowners",
+        "smallholders"
+      ],
+      "body": "On 9 September, word of the first adjoining purchase reaches neighboring landowners and smallholders whose parcels touch or approach Valerius's existing boundaries. Some owners are interested in selling narrow pieces that are difficult to manage independently, while others prefer to retain their land after seeing that Valerius is buying specifically for consolidation rather than indiscriminate expansion. The stewards begin taking names, boundary descriptions, and asking prices without promising a purchase to everyone who approaches them. This produces a clearer picture of where future acquisitions could actually connect existing holdings rather than merely enlarge them on paper. The first conversations also give the estate staff a better understanding of which parcels are agricultural, which are access strips, and which would be useful only if acquired together with a neighboring tract. No additional purchase is completed during the day's negotiations, so no further financial effect is realized.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 6,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R098-E03",
+      "round_number": 98,
+      "date": "10 September 57 BCE",
+      "event_category": "Connected",
+      "title": "THE FIRST CONSOLIDATION SURVEY MARKS THE GAPS",
+      "mentioned_entities": [
+        "estate stewards",
+        "surveyors",
+        "Gaius Maximus Valerius",
+        "principal estates"
+      ],
+      "body": "On 10 September, the estate staff surveys the boundaries around the newly acquired forty acres and the principal holding it now touches. The survey confirms that the purchase closes one previously open break along the estate's edge, while two other narrow gaps remain between separate pieces of Valerius's wider holdings. The stewards mark those gaps as separate acquisition targets instead of treating the surrounding countryside as one undifferentiated opportunity. Access between the connected parcels is also recorded so that future purchases can be judged by whether they create genuine continuity of land, movement, and management. The work does not change the measured area beyond the tract already purchased, and no infrastructure increase is claimed from a survey alone. What changes is the estate's internal map: the holdings can now be managed as a more intelligible network rather than merely as a total acreage figure.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 8,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R098-E04",
+      "round_number": 98,
+      "date": "11 September 57 BCE",
+      "event_category": "Connected",
+      "title": "TWO OF THE WOUNDED RETURN TO THE COLUMN",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "physicians",
+        "personal guard",
+        "wounded veterans"
+      ],
+      "body": "On 11 September, the physicians report that two of the men removed from active duty after the road fighting have recovered sufficiently to return to ordinary movement with the expedition. They are not immediately pushed back into the most exposed positions; their return is treated as a recovery milestone, with the remaining wounded still under supervision. The men rejoin their comrades without ceremony beyond the practical acknowledgement that they are fit to travel and resume ordinary duties when required. Valerius's insistence that wounded men be protected rather than hurried back into danger remains in force. The change reduces the temporarily unavailable strength from ten men to eight while the full force remains at 414 soldiers.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": -2,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R098-E05",
+      "round_number": 98,
+      "date": "12 September 57 BCE",
+      "event_category": "Connected",
+      "title": "SERVILIUS AND CASSIUS FOLLOW THE ROAD'S OLDER TRACE",
+      "mentioned_entities": [
+        "Publius Servilius",
+        "Numerius Cassius",
+        "Gaius Maximus Valerius",
+        "engineered road features"
+      ],
+      "body": "On 12 September, Publius Servilius and Numerius Cassius continue the road investigation while the main column remains under its established security arrangements. They compare the exposed worked-stone fragment and the weathered marker line with the damaged crossing and the secondary approach already documented. The pieces continue to suggest deliberate engineering, but the investigation still cannot establish who built the route, when it was laid, or which political authority originally maintained it. Servilius records the relationship between the features rather than forcing them into a single explanation, while Cassius watches the surrounding ground for signs that the road's users may have altered it after its original construction. Their work adds a more coherent field record without resolving the central historical question.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 18,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R098-E06",
+      "round_number": 98,
+      "date": "13 September 57 BCE",
+      "event_category": "Connected",
+      "title": "THE GUARD KEEPS THE ROAD ORDER IN FORCE",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "Gaius Maximus Valerius",
+        "personal guard",
+        "Vexillum Valerianum"
+      ],
+      "body": "On 13 September, the hundred-man personal guard continues operating under the distributed arrangement established before the recent clash. Titus Varenus, Lucius Atilius, and Gnaeus Fabius retain their specialist responsibilities, while the cavalry screen keeps observation beyond the immediate road bends and the infantry sectors preserve mutual support. The rule that no patrol or foraging party travels alone remains active, and movement along the road is conducted in organized groups. The Vexillum Valerianum remains with the command element as the visual reference for the distributed sectors. No new engagement occurs, but the arrangement that was tested in combat remains operational rather than being discarded once the immediate danger has passed.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R098-E07",
+      "round_number": 98,
+      "date": "14 September 57 BCE",
+      "event_category": "Connected",
+      "title": "THE NEW TRACT IS ASSESSED FOR AGRICULTURAL CONTINUITY",
+      "mentioned_entities": [
+        "estate stewards",
+        "Gaius Maximus Valerius",
+        "newly acquired tract",
+        "principal estate"
+      ],
+      "body": "On 14 September, the estate stewards assess the newly acquired forty-acre tract as part of the surrounding estate rather than as an isolated purchase. The tract is found suitable for continued agricultural use and, more importantly for Valerius's stated purpose, can be managed through the neighboring principal estate without creating a separate administrative pocket. The stewards therefore begin treating its cultivation, access, and records as part of the same estate system. Because agriculture is already recorded at the fixed maximum of 100 points, the underlying activity produces no phantom numerical increase; the acquisition improves physical continuity without falsely raising a capped condition metric. The tract's immediate value is structural: it reduces fragmentation and gives the stewards a model for evaluating future purchases by connectedness rather than acreage alone.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 0,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  ],
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 414,
+      "change": 0,
+      "after": 414,
+      "unit": "men"
+    },
+    "population": {
+      "before": 250,
+      "change": 0,
+      "after": 250,
+      "unit": "people"
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3,
+      "unit": "percent"
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "points"
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "intelligence": {
+      "before": 3354,
+      "change": 32,
+      "after": 3386,
+      "unit": "points"
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100,
+      "unit": "points"
+    },
+    "land_area_sq_miles": {
+      "before": 7.75,
+      "change": 0.0625,
+      "after": 7.8125,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 10,
+      "change": -2,
+      "after": 8,
+      "unit": "men"
+    }
+  },
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 250,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 3386,
+    "relations": 100,
+    "land_area_sq_miles": 7.8125,
+    "temporary_unavailable": 8
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3039,
+    "private_account": 624,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 0,
+      "operating_costs_denarii": 0,
+      "net_public_profit_denarii": 0,
+      "private_transfer_denarii": 0,
+      "treasury_change_denarii": 0,
+      "public_account_change_denarii": -60,
+      "private_account_change_denarii": 0,
+      "currency_flow_denarii": -60,
+      "internal_transfer": false,
+      "capital_acquisition_denarii": 60
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 97.83621500926007,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      28.617724913339515,
+      40.02124327018359,
+      13.425686971371341
+    ],
+    "magnitude_11_events": 0,
+    "ultimate_reclassification_events": [
+      {
+        "event_id": "GMV-62BCE-001-R098-E01",
+        "initial_category": "Direct",
+        "final_category": "Direct",
+        "ultimate_reclassification": "not_applicable"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R098-E02",
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R098-E03",
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R098-E04",
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R098-E05",
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R098-E06",
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      },
+      {
+        "event_id": "GMV-62BCE-001-R098-E07",
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    ],
+    "random_generation": "local resolution"
+  },
+  "validation_ledger": {
+    "canonical_state_read": "PASS",
+    "local_random_resolution": "PASS",
+    "causal_event_generation": "PASS",
+    "ultimate_reclassification_gate": "PASS",
+    "narrative_contract": "PASS",
+    "semantic_state_consistency": "PASS",
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "round_delta_reconciliation": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "land_and_property_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety_and_causal_diversity": "PASS",
+    "current_total_ledger_complete": "PASS",
+    "random_classification_consistency": "PASS",
+    "exact_quantity_unit_consistency": "PASS",
+    "military_state_consistency": "PASS",
+    "economic_financial_consistency": "PASS",
+    "agriculture_state_consistency": "PASS",
+    "literal_revenue_realization_check": "PASS",
+    "geographic_reference_consistency": "PASS",
+    "geographic_source_protection": "PASS",
+    "ultimate_event_contract": "PASS",
+    "surprise_special_expanded_prose": "PASS",
+    "final_end_of_round_validation": "PASS",
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS",
+    "plausible_financial_quantification": "PASS"
+  },
+  "continuity": {
+    "campaign_development": "14 September 57 BCE: Valerius has ordered an automatic estate-acquisition program focused on adjoining property. The first forty-acre adjoining tract has been purchased and incorporated, while the expedition continues along the road after the recent clash; the distributed personal guard remains active and eight men remain temporarily unavailable after two wounded men return to ordinary movement.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625; Round 59 adds 0.50; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75; Round 98 adds 0.0625 sq mi (40 acres) through a documented adjoining-property purchase, bringing holdings to 7.8125 sq mi.",
+    "road_investigation": "Deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and exposed worked-stone fragments remain documented; builder, date, political authority, and original purpose remain unproven.",
+    "personal_guard": "100 total personal guards: 50 infantry and 50 cavalry; distributed specialist sectors with parity and mutual support remain active.",
+    "estate_consolidation": "Round 98 establishes a standing directive for automatic purchase of property adjoining principal estates when suitable terms are available. The first realized acquisition is a 40-acre adjoining tract purchased for 60 denarii from the public estate account."
+  },
+  "next_round_gate": "OPEN"
+}
