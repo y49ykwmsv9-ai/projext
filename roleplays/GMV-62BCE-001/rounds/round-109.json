@@ -524,8 +524,8 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
-    "canonical_pointer_synchronization": "READY",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "continuity": {
     "campaign_development": "30 November 57 BCE: Valerius's estate roads and merchant facilities are now open to all law-abiding Roman citizens under uniform cost-recovery fees.",
@@ -541,6 +541,6 @@
     "status": "OPEN_AFTER_COMMIT",
     "next_round": 110,
     "next_date": "-0057-12-07",
-    "requirements": "All round persistence and post-commit verification must pass before Round 110 generation."
+    "requirements": "All round persistence and post-commit verification have passed; Round 110 generation is permitted."
   }
 }
