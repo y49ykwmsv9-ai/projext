@@ -2,10 +2,10 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 87,
-    "latest_date": "-0057-06-23",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-87.json",
-    "news_file": "roleplays/GMV-62BCE-001/news/round-87.json",
+    "latest_round": 89,
+    "latest_date": "-0057-07-07",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-89.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-89.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 87 fully committed, synchronized, re-read, and verified; twenty veterans admitted after proving worth; fresh local random resolution recorded; all mandatory validation gates PASS; next-round gate OPEN."
+  "last_verified": "Round 89 committed and synchronized; 100-man personal guard established as 50 infantry and 50 cavalry, with 20 newly admitted local veterans and 80 established veterans; pre-commit validation PASS; post-commit verification pending."
 }
