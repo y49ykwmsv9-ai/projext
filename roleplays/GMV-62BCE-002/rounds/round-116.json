@@ -336,7 +336,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4440,
+    "intelligence": 4457,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -395,14 +395,14 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_numbering": "PASS",
-    "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "canonical_pointer_synchronization": "READY",
+    "post_commit_verification": "PENDING"
   },
   "round_delta_ledger": {
     "intelligence": {
       "before": 4004,
-      "change": 436,
-      "after": 4440,
+      "change": 453,
+      "after": 4457,
       "unit": "points"
     },
     "public_account": {
