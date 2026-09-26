@@ -1343,5 +1343,13 @@
   "event_minimum_policy": {
     "schema_version": "gmv-event-minimum-v1",
     "rule": "Every GMV round must contain at least 7 distinct events. This is the only additional event-count requirement. All existing causal-generation, event-category, variety, continuity, random-resolution, financial, metric, and validation rules remain unchanged. The minimum does not permit unrelated filler; each event must arise from an existing or newly emerging plausible causal thread supported by the established simulation state."
-  }
+  },
+  "last_round_classification_summary": {
+    "Direct": 1,
+    "Connected": 5,
+    "Surprise": 2,
+    "Special": 0,
+    "Ultimate": 0
+  },
+  "ai_event_ledger_present": true
 }
