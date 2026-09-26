@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 108,
-  "latest_date": "-0057-11-23",
+  "latest_round": 109,
+  "latest_date": "-0057-11-30",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,29 +16,29 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 23.03189767693218,
+    "current_round_roll": 49.14656803138085,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      87.66878791409684,
-      4.81683525468145,
-      18.8303343856129
+      14.974019229093216,
+      19.89098025600281,
+      40.26260004816302
     ],
-    "current_round_magnitude_11_events": 1
+    "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "23 November 57 BCE: Valerius has expanded his silver interests through acquisition of incompletely mapped veins and ordered a second, more public working site; no new silver revenue is realized yet."
+    "campaign_development": "30 November 57 BCE: Valerius's estate roads and merchant facilities are now open to all law-abiding Roman citizens under uniform cost-recovery fees."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 84.03355188039015,
+    "roll": 49.14656803138085,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      25.18917333884132,
-      65.20520276035003,
-      40.98923105569844
+      14.974019229093216,
+      19.89098025600281,
+      40.26260004816302
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
