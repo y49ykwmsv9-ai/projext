@@ -1,0 +1,356 @@
+{
+  "schema_version": "gmv-news-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 115,
+  "date": "11 January 57 BCE",
+  "headline": "VALERIUS RETURNS TO ROME",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R115-E01",
+      "date": "5 January 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS RETURNS TO ROME AND SPENDS THE EVENING WITH HIS SISTER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's sister"
+      ],
+      "body": "Valerius returns to his Roman estate after the winter journey and goes first to see his sister. The meeting is private and unceremonious: they speak at length about the family, the long period of travel and campaigning, and the condition of the household after his extended absences. His sister gives him the first sustained account he has received in person of the ordinary life of the family household while he was away, including the small burdens that never reached his military or political correspondence. Valerius remains with her rather than treating the visit as a brief formal courtesy, restoring a family relationship that had largely been maintained through distance and intermediaries. No political appointment, military order, or public announcement is made during the visit. Its significance is personal: Valerius is physically back in Rome and has re-established direct contact with his immediate family.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 52
+        },
+        "background_sources": [
+          {
+            "source": "estate library correspondence and cataloguing",
+            "changes": {
+              "intelligence": 15
+            },
+            "basis": "independent background scholarly activity; not caused by the family visit"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 67,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's explicit return and family visit."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E02",
+      "date": "6 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE CIVIC PROCEDURE ADVANCES WHILE VALERIUS IS BACK IN ROME",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman civic officials"
+      ],
+      "body": "A procedural notice reaches Valerius's Roman household concerning the next stage of the civic process in which his candidacy remains registered. The notice records a required appearance and associated documentation rather than a vote, and the household staff preserve the original wording with the existing campaign papers. Valerius receives no electoral result from the notice, and no outcome is inferred from its delivery. His return to Rome means the next procedural step can now be handled in person rather than through distant correspondence. The document is entered into the campaign archive alongside the earlier procedural records.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 46
+        },
+        "background_sources": [
+          {
+            "source": "political correspondence already maintained by Valerius's household",
+            "changes": {
+              "intelligence": 10
+            },
+            "basis": "background civic intelligence; not caused by the procedural notice"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 56,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of an established campaign, commercial, mining, administrative, or household thread."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E03",
+      "date": "7 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE WINTER SURPLUS CONTRACT SETTLES ON A TIGHTER MARGIN",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers"
+      ],
+      "body": "The standing surplus-delivery agreement reaches another independently negotiated settlement after the merchants inspect the estate's available winter surplus. This consignment produces 46 denarii received against 18 denarii in operating, handling, and transport costs, producing 28 denarii of realized net public profit. Under the standing account-routing rule, 2.8 denarii is transferred internally to Valerius's private account while 25.2 denarii remains public. The settlement is recorded as a new transaction rather than a repetition of the previous delivery, and no future revenue is booked merely because the agreement remains active.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 42,
+          "public_account": 25.2,
+          "private_account": 2.8
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 42,
+          "public_account": 25.2,
+          "private_account": 2.8
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 46,
+          "operating_costs_denarii": 18,
+          "net_public_profit_denarii": 28,
+          "private_transfer_denarii": 2.8,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 25.2,
+          "private_account_change_denarii": 2.8,
+          "currency_flow_denarii": 28
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of an established campaign, commercial, mining, administrative, or household thread."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E04",
+      "date": "8 January 57 BCE",
+      "event_category": "Surprise",
+      "title": "ROME'S MERCHANTS REPORT AN UNEXPECTED WINTER PRICE SHIFT",
+      "mentioned_entities": [
+        "Quintus Vibius",
+        "Marcus Lartius",
+        "Roman merchants"
+      ],
+      "body": "Quintus Vibius and Marcus Lartius receive several independent merchant reports in Rome describing an abrupt winter change in the relative prices being offered for transported grain and refined silver. The reports do not agree on the exact magnitude, but they converge on buyers suddenly distinguishing between readily available grain and small quantities of high-quality metal rather than treating the two as a single commercial package. Vibius checks the testimony against separate merchants while Lartius records the routes and market places from which the information originated. The result is not an immediate change to Valerius's contracts, but it materially alters the information available to his household about future consignments. Because the shift was not anticipated by the established commercial thread, it is recorded as a Surprise.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 61
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard road-watch reports",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "routine background security intelligence; not caused by the merchant reports"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 66,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected but causally plausible development emerging from established circumstances and materially changing available information."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E05",
+      "date": "9 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND SILVER WORKING PRODUCES ITS FIRST PAYABLE LOT",
+      "mentioned_entities": [
+        "estate miners",
+        "estate stewards"
+      ],
+      "body": "The separately mapped silver working reaches a meaningful operational threshold when its first extracted material is sorted, weighed, and accepted as a payable lot rather than being treated solely as survey material. The quantity is modest, but the assay and sorting process establish that the second working can produce saleable silver without waiting for the entire vein to be developed. The estate therefore records the first realized output from the newly opened working while keeping eventual yield unresolved. No expansion is assumed from the result alone, and no speculative future production is booked. The development matters because the working has crossed from mapped mineral potential into demonstrated production.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 39
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 39,
+          "public_account": 7.2,
+          "private_account": 0.8
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 7.2,
+          "private_account_change_denarii": 0.8,
+          "currency_flow_denarii": 8
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of an established campaign, commercial, mining, administrative, or household thread."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E06",
+      "date": "10 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE ROMAN ESTATE ACCOUNTS BLOCK A FALSE FACILITY CLAIM",
+      "mentioned_entities": [
+        "estate stewards",
+        "Roman merchants",
+        "estate accounting staff"
+      ],
+      "body": "While Valerius is back in Rome, the urban estate accounts undergo reconciliation and produce a material finding: a merchant intermediary presents a claim for a facility charge that does not match the documented operating-cost schedule governing the estate's open-access policy. The stewards compare the claim with recorded use and refuse the excess charge while preserving the supporting documents. No loss is recorded because the incorrect charge is stopped before payment. The finding reinforces the distinction between the estate's public-access rule and discretionary toll-taking, which remains prohibited under Valerius's standing directive. The merchant is informed of the documented basis for the refusal, and the account closes without retaliation or preferential treatment.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 58
+        },
+        "background_sources": [
+          {
+            "source": "urban estate household correspondence",
+            "changes": {
+              "intelligence": 7
+            },
+            "basis": "independent background administrative intelligence; not caused by the false facility claim"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 65,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of an established campaign, commercial, mining, administrative, or household thread."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E07",
+      "date": "11 January 57 BCE",
+      "event_category": "Special",
+      "title": "AN UNEXPECTED DELEGATION ARRIVES AT VALERIUS'S ROMAN ESTATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman merchant representatives",
+        "estate stewards"
+      ],
+      "body": "An unexpected delegation of Roman merchants arrives at Valerius's Roman estate carrying documents from several separate commercial houses. They are not seeking a private favor or exemption; instead, they ask whether the open roads and merchant facilities can be used during a period of winter disruption affecting their normal route, with every ordinary operating fee paid on the same cost-recovery basis applied to other lawful Roman citizens. The request is unusual because the merchants have come collectively and brought documentation demonstrating that they understand the estate's indiscriminate access policy. Valerius hears them personally after returning from his family visit and orders the stewards to apply the existing rules rather than invent a special arrangement. The delegation is admitted to ordinary consideration, but no exclusive contract, subsidy, political favor, or future revenue is created merely by its arrival. The episode becomes significant because several independent merchant houses have begun treating the estate's access policy as a dependable commercial institution rather than simply a private convenience. The fresh Magnitude-11 success generated the Special classification, but the Ultimate Reclassification Gate leaves it Special because it is unusual and consequential without reaching the extraordinary threshold for Ultimate.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 73
+        },
+        "background_sources": [
+          {
+            "source": "ongoing estate commercial correspondence unrelated to the delegation",
+            "changes": {
+              "public_account": 5.4,
+              "private_account": 0.6
+            },
+            "basis": "background intelligence; not caused by the delegation"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 81,
+          "public_account": 5.4,
+          "private_account": 0.6
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 5.4,
+          "private_account_change_denarii": 0.6,
+          "currency_flow_denarii": 6
+        }
+      },
+      "classification_audit": {
+        "final_category": "Special",
+        "causal_basis": "Generated by the fresh successful Magnitude-11 check; Ultimate gate preserved Special status."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R115-E08",
+      "date": "11 January 57 BCE",
+      "event_category": "Connected",
+      "title": "VALERIUS'S RETURN BRINGS HIS ROMAN HOUSEHOLD BACK INTO DIRECT COORDINATION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "Lucius Marcius",
+        "Marcus Petronius"
+      ],
+      "body": "With Valerius physically present in Rome again, several household functions that had been handled through intermediaries are brought together in a single direct review. Titus Varenus reports the guard situation, Lucius Marcius provides the latest library and correspondence inventory, and Marcus Petronius presents the urban estate's accounts accumulated during Valerius's absence. The review does not create a new policy or reorganize the guard, but it closes several information gaps that had previously required separate reports to be compared across time. Valerius confirms that existing arrangements remain in force and that no established contract or civic process is to be altered merely because he has returned. The practical result is a restored direct command-and-information link between Valerius and the Roman household.",
+      "round_number": 115,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 34
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 34,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of an established campaign, commercial, mining, administrative, or household thread."
+      }
+    }
+  ],
+  "round_summary": "Valerius returned to his Roman estate and visited his sister while independent civic, commercial, mining, administrative, and merchant developments produced a varied round. Background activity changed intelligence and account balances without being falsely attributed to unrelated news events."
+}
