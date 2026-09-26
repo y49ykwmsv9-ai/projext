@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 87,
-  "date": "-0057-06-23",
+  "round": 88,
+  "date": "-0057-06-30",
   "treasury": 1668,
   "wealth_accounts": {
     "public": 3099,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 2349,
+    "intelligence": 2435,
     "relations": 100,
     "land_area_sq_miles": 7.75,
     "temporary_unavailable": 0
@@ -49,7 +49,7 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "23 June 57 BCE: Twenty local Roman veterans have completed Valerius's proving exercise and entered his personal guard without enlistment pay. Titus Varenus and nineteen named veterans now contribute local-terrain knowledge through the expedition's established loose-phalanx and outward-watch doctrine.",
+    "campaign_development": "30 June 57 BCE: Valerius personally inducted the twenty local Roman veterans into his permanent personal guard, recorded each name beside his established men, issued individualized field gear, and integrated their distinct fighting methods into the expedition's unified guard doctrine.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi."
   },
   "special_event_policy": {
@@ -275,6 +275,153 @@
         "role": "local Roman veteran; personal guard",
         "status": "active",
         "continuity": "admitted after Round 87 proving exercise"
+      }
+    ]
+  },
+  "personal_guard": {
+    "status": "active",
+    "count": 20,
+    "inducted_round": 88,
+    "members": [
+      {
+        "name": "Titus Varenus",
+        "weapon": "short sword and buckler",
+        "status": "active",
+        "fighting_style": "short sword and buckler",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Lucius Atilius",
+        "weapon": "heavy spear",
+        "status": "active",
+        "fighting_style": "heavy spear",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Gnaeus Fabius",
+        "weapon": "long thrusting spear",
+        "status": "active",
+        "fighting_style": "long thrusting spear",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Marcus Lartius",
+        "weapon": "curved sword",
+        "status": "active",
+        "fighting_style": "curved sword",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Publius Servilius",
+        "weapon": "javelins",
+        "status": "active",
+        "fighting_style": "javelins",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Quintus Vibius",
+        "weapon": "spear and oval shield",
+        "status": "active",
+        "fighting_style": "spear and oval shield",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Sextus Tullius",
+        "weapon": "short sword",
+        "status": "active",
+        "fighting_style": "short sword",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Aulus Decimus",
+        "weapon": "light spear",
+        "status": "active",
+        "fighting_style": "light spear",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Numerius Cassius",
+        "weapon": "sling",
+        "status": "active",
+        "fighting_style": "sling",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Spurius Calpurnius",
+        "weapon": "heavy spear",
+        "status": "active",
+        "fighting_style": "heavy spear",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Gaius Valerius",
+        "weapon": "sword and shield",
+        "status": "active",
+        "fighting_style": "sword and shield",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Lucius Marcius",
+        "weapon": "javelins and sword",
+        "status": "active",
+        "fighting_style": "javelins and sword",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Marcus Petronius",
+        "weapon": "long spear",
+        "status": "active",
+        "fighting_style": "long spear",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Publius Octavius",
+        "weapon": "sword and small shield",
+        "status": "active",
+        "fighting_style": "sword and small shield",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Quintus Rufrius",
+        "weapon": "spear",
+        "status": "active",
+        "fighting_style": "spear",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Titus Manlius",
+        "weapon": "javelins",
+        "status": "active",
+        "fighting_style": "javelins",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Gnaeus Licinius",
+        "weapon": "heavy sword",
+        "status": "active",
+        "fighting_style": "heavy sword",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Sextus Cornelius",
+        "weapon": "spear and shield",
+        "status": "active",
+        "fighting_style": "spear and shield",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Aulus Furius",
+        "weapon": "short sword",
+        "status": "active",
+        "fighting_style": "short sword",
+        "coordination": "integrated with guard and expedition"
+      },
+      {
+        "name": "Lucius Vettienus",
+        "weapon": "spear",
+        "status": "active",
+        "fighting_style": "spear",
+        "coordination": "integrated with guard and expedition"
       }
     ]
   }
