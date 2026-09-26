@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 102,
-  "latest_date": "-0057-10-12",
+  "latest_round": 103,
+  "latest_date": "-0057-10-19",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -375,6 +375,27 @@
       "rule": "10% of realized net public profit is routed to Valerius's private account; the remaining 90% remains in the public account. This is an account-routing rule, not new external income.",
       "rate": 0.1,
       "last_round_transfer_denarii": 1.8
+    },
+    "recurring_agreements": {
+      "schema_version": "gmv-recurring-financial-agreement-v1",
+      "rule": "Once a recurring commercial agreement is canonically established, every subsequent round must account for its scheduled background settlement. The settlement must be described naturally within a relevant event or roundup rather than presented as artificial filler. A payment is realized only when the established agreement and current causal state support it; gross receipts, operating costs, net realized profit, the canonical 10% private transfer, and public retention must be recorded exactly. A round may omit or suspend the settlement only if a concrete in-world disruption prevents delivery or payment, which must itself be reported.",
+      "active_agreements": [
+        {
+          "id": "gmv_surplus_delivery_contract_01",
+          "parties": [
+            "Gaius Maximus Valerius",
+            "estate stewards",
+            "foreign caravan merchants"
+          ],
+          "established_round": 102,
+          "route": "shared-water road",
+          "subject": "regular estate surplus deliveries",
+          "cadence": "recurring; assessed in every subsequent round",
+          "status": "active",
+          "first_realized_delivery_round": 102,
+          "settlement_rule": "Each round records the realized settlement naturally within the round's relevant commercial/logistical reporting; future receipts are not pre-booked."
+        }
+      ]
     }
   },
   "canonical_pointer_policy": {
