@@ -1,14 +1,14 @@
-[
-  {
+{
+  "0": {
     "event_id": "GMV-62BCE-001-R107-E01",
     "date": "10 November 57 BCE",
     "event_category": "Direct",
-    "title": "VALERIUS PRESENTS HIMSELF TO THE LOCAL ELECTORAL OFFICIALS",
+    "title": "VALERIUS FORMALLY REGISTERS HIS CIVIC CANDIDACY",
     "mentioned_entities": [
       "Gaius Maximus Valerius",
       "local electoral officials"
     ],
-    "news": "Valerius follows his public declaration with the practical step of presenting himself for registration in the lowest-level civic election. He does not claim that the declaration itself gives him an office, authority, or privilege; instead, he submits his name through the ordinary local procedure available to candidates. The officials record the candidacy and identify the remaining procedural requirements before the vote can occur. Valerius accepts those requirements without attempting to substitute his military reputation or estate resources for the civic process. The announcement therefore becomes a formal candidacy rather than merely a statement of intention. No votes are cast in this round, and no electoral result is implied.",
+    "news": "Valerius completes the formal registration of his candidacy for the lowest-level civic election he announced at the close of the previous round. The registration is treated as a civic procedure rather than an assumption of office, and the officials record his candidacy without granting him powers that belong to the eventual officeholder. The remaining procedural steps are explained to him, including the period in which the local electorate may question candidates before voting. Valerius accepts the process on those terms and does not claim an electoral result that has not occurred. His declaration has therefore become an established candidacy, while the election itself remains unresolved.",
     "ai_ledger": {
       "soldiers": 0,
       "population": 0,
@@ -25,57 +25,7 @@
       "legitimacy": 0,
       "technology": 0,
       "exhaustion": 0,
-      "intelligence": 32,
-      "relations": 0,
-      "land_area_sq_miles": 0,
-      "temporary_unavailable": 0,
-      "financial_realization": {
-        "gross_receipts_denarii": 0,
-        "operating_costs_denarii": 0,
-        "net_public_profit_denarii": 0,
-        "private_transfer_denarii": 0,
-        "treasury_change_denarii": 0,
-        "public_account_change_denarii": 0,
-        "private_account_change_denarii": 0,
-        "currency_flow_denarii": 0,
-        "internal_transfer": false,
-        "capital_acquisition_denarii": 0
-      },
-      "classification_audit": {
-        "initial_category": "Direct",
-        "final_category": "Direct",
-        "ultimate_reclassification": "not_applicable"
-      }
-    }
-  },
-  {
-    "event_id": "GMV-62BCE-001-R107-E02",
-    "date": "11 November 57 BCE",
-    "event_category": "Connected",
-    "title": "THE FIRST QUESTIONS OF THE CAMPAIGN ARRIVE AT THE ESTATE",
-    "mentioned_entities": [
-      "Gaius Maximus Valerius",
-      "nearby landowners",
-      "local electorate"
-    ],
-    "news": "The first direct questions from prospective local voters reach the estate after Valerius’s registration becomes known. Several ask what responsibilities he intends to assume if elected, while others ask whether his private guard and estate operations would influence his conduct in civic affairs. Valerius does not promise an office or invent powers attached to one; instead, he begins collecting the questions so that his eventual public answers can be given openly. The exchange broadens the campaign from a declaration by Valerius into an actual civic conversation. His military reputation remains part of the public discussion, but the questions increasingly concern local administration and conduct. No support total, faction, or electoral advantage is established.",
-    "ai_ledger": {
-      "soldiers": 0,
-      "population": 0,
-      "taxation": 0,
-      "economy": 0,
-      "agriculture": 0,
-      "infrastructure": 0,
-      "trade": 0,
-      "readiness": 0,
-      "morale": 0,
-      "supply": 0,
-      "organization": 0,
-      "stability": 0,
-      "legitimacy": 0,
-      "technology": 0,
-      "exhaustion": 0,
-      "intelligence": 29,
+      "intelligence": 34,
       "relations": 0,
       "land_area_sq_miles": 0,
       "temporary_unavailable": 0,
@@ -98,17 +48,217 @@
       }
     }
   },
-  {
+  "1": {
+    "event_id": "GMV-62BCE-001-R107-E02",
+    "date": "11 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE SIXTH SURPLUS DELIVERY SETTLES",
+    "mentioned_entities": [
+      "estate stewards",
+      "foreign caravan merchants",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "The next scheduled delivery under Valerius's recurring surplus agreement reaches settlement during the week. The completed consignment produces 33 denarii in gross receipts against 12 denarii in operating costs, leaving 21 denarii of realized net public profit. Under the standing account-routing rule, 2.1 denarii is transferred to Valerius's private account and 18.9 denarii remains in the public account. The settlement concerns only the delivery actually completed and creates no booked future receipt. The shared-water road remains the established route for the merchants, and the transaction continues the existing agreement rather than creating a new contract.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 16,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 33,
+        "operating_costs_denarii": 12,
+        "net_public_profit_denarii": 21,
+        "private_transfer_denarii": 2.1,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 18.9,
+        "private_account_change_denarii": 2.1,
+        "currency_flow_denarii": 21,
+        "internal_transfer": true,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "2": {
     "event_id": "GMV-62BCE-001-R107-E03",
     "date": "12 November 57 BCE",
     "event_category": "Connected",
-    "title": "A DISPUTE ON THE PROTECTED ROAD IS SETTLED WITHOUT VIOLENCE",
+    "title": "A SEPARATE LOCAL SURPLUS SALE CLEARS ANOTHER STORE",
+    "mentioned_entities": [
+      "estate stewards",
+      "local buyers",
+      "Gaius Maximus Valerius"
+    ],
+    "news": "A separate local sale of estate agricultural surplus is completed outside the recurring caravan agreement. The transaction brings 17 denarii in gross receipts and incurs 7 denarii in operating costs, producing 10 denarii of realized net public profit. The established ten-percent routing sends 1 denarius to Valerius's private account while 9 denarii remains public. Because the sale is a distinct local transaction, it does not alter the terms or cadence of the recurring merchant agreement. The completed sale also leaves the estate's fixed agriculture metric unchanged because agriculture is already at its canonical cap.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 13,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 17,
+        "operating_costs_denarii": 7,
+        "net_public_profit_denarii": 10,
+        "private_transfer_denarii": 1,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 9,
+        "private_account_change_denarii": 1,
+        "currency_flow_denarii": 10,
+        "internal_transfer": true,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "3": {
+    "event_id": "GMV-62BCE-001-R107-E04",
+    "date": "13 November 57 BCE",
+    "event_category": "Connected",
+    "title": "VALERIUS ACQUIRES SIX ADDITIONAL ACRES ADJOINING THE ESTATE",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "nearby landowner",
+      "estate stewards"
+    ],
+    "news": "Valerius completes the purchase of a six-acre strip adjoining his existing holdings. The acquisition costs 9 denarii from the public estate account and adds 0.009375 square miles to the canonical land total. Estate stewards mark the new boundary and begin recording it as part of the holding rather than treating the purchase as an unrecorded intention. No immediate increase is applied to the capped agriculture metric merely because the land has changed ownership. The acquisition is therefore realized as property and boundary expansion, with future use left to subsequent decisions and events.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 0,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 11,
+      "relations": 0,
+      "land_area_sq_miles": 0.009375,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": -9,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": -9,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 9
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "4": {
+    "event_id": "GMV-62BCE-001-R107-E05",
+    "date": "14 November 57 BCE",
+    "event_category": "Connected",
+    "title": "A SECOND DISPLACED HOUSEHOLD IS ADMITTED UNDER VALERIUS'S PROTECTION",
+    "mentioned_entities": [
+      "Gaius Maximus Valerius",
+      "displaced household",
+      "estate stewards"
+    ],
+    "news": "A second displaced household reaches the estate seeking the same protection that was extended to the earlier refugee family. Valerius accepts the household under his established protective policy, and the stewards record three additional residents within the estate community. The newcomers are given ordinary living arrangements and are not treated as a separate military or political body. Their admission raises the recorded population from 254 to 257 people. The guard establishment remains unchanged, with protection continuing through the existing 100-man personal guard rather than through a new recruitment levy.",
+    "ai_ledger": {
+      "soldiers": 0,
+      "population": 3,
+      "taxation": 0,
+      "economy": 0,
+      "agriculture": 0,
+      "infrastructure": 0,
+      "trade": 0,
+      "readiness": 0,
+      "morale": 0,
+      "supply": 0,
+      "organization": 0,
+      "stability": 0,
+      "legitimacy": 0,
+      "technology": 0,
+      "exhaustion": 0,
+      "intelligence": 19,
+      "relations": 0,
+      "land_area_sq_miles": 0,
+      "temporary_unavailable": 0,
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0,
+        "internal_transfer": false,
+        "capital_acquisition_denarii": 0
+      },
+      "classification_audit": {
+        "initial_category": "Connected",
+        "final_category": "Connected",
+        "ultimate_reclassification": "not_applicable"
+      }
+    }
+  },
+  "5": {
+    "event_id": "GMV-62BCE-001-R107-E06",
+    "date": "15 November 57 BCE",
+    "event_category": "Connected",
+    "title": "THE FULL PERSONAL GUARD COMPLETES A READINESS EXERCISE",
     "mentioned_entities": [
       "Titus Varenus",
-      "smallholders",
-      "foreign caravan merchants"
+      "personal guard",
+      "Gaius Maximus Valerius"
     ],
-    "news": "A disagreement develops when a merchant wagon and two local carts reach a narrow section of the shared-water road at the same time. Titus Varenus sends patrolmen to separate the traffic and establish an orderly passage rather than allowing the dispute to become a contest of strength. The local travelers are permitted to continue without a toll, while the merchants are allowed to proceed once the carts have cleared the constricted ground. No weapon is drawn and no arrest is made. The incident nevertheless gives the patrols a practical test of Valerius’s instruction that protection should not become arbitrary control of the road. Both groups leave with the route still open to them.",
+    "news": "Titus Varenus oversees a full readiness exercise involving the established 100-man personal guard, with its 50 infantry and 50 cavalry personnel accounted for. The exercise tests assembly, movement, communication, and return to ordinary guard stations without removing any men from permanent availability. The formation completes the drill without injury or disciplinary disruption. Readiness and the other capped military metrics remain unchanged because they are already at their canonical maximums. The exercise nevertheless confirms that the existing guard establishment remains operationally coherent.",
     "ai_ledger": {
       "soldiers": 0,
       "population": 0,
@@ -148,67 +298,17 @@
       }
     }
   },
-  {
-    "event_id": "GMV-62BCE-001-R107-E04",
-    "date": "13 November 57 BCE",
-    "event_category": "Connected",
-    "title": "THE SIXTH SURPLUS CONSIGNMENT IS SETTLED",
-    "mentioned_entities": [
-      "estate stewards",
-      "foreign caravan merchants",
-      "Gaius Maximus Valerius"
-    ],
-    "news": "The next completed delivery under the recurring surplus agreement reaches settlement during the week. Gross receipts amount to 32 denarii and operating costs to 12 denarii, producing 20 denarii of realized net public profit. The standing ten-percent routing rule transfers 2 denarii to Valerius’s private account while 18 denarii remains in the public account. The settlement is tied to the delivery actually completed and does not create a claim on future receipts. The merchants continue to use the protected road as the commercial route established by the earlier agreement. The transaction therefore strengthens an already active commercial thread without being treated as a new contract.",
-    "ai_ledger": {
-      "soldiers": 0,
-      "population": 0,
-      "taxation": 0,
-      "economy": 0,
-      "agriculture": 0,
-      "infrastructure": 0,
-      "trade": 0,
-      "readiness": 0,
-      "morale": 0,
-      "supply": 0,
-      "organization": 0,
-      "stability": 0,
-      "legitimacy": 0,
-      "technology": 0,
-      "exhaustion": 0,
-      "intelligence": 26,
-      "relations": 0,
-      "land_area_sq_miles": 0,
-      "temporary_unavailable": 0,
-      "financial_realization": {
-        "gross_receipts_denarii": 32,
-        "operating_costs_denarii": 12,
-        "net_public_profit_denarii": 20,
-        "private_transfer_denarii": 2,
-        "treasury_change_denarii": 0,
-        "public_account_change_denarii": 18,
-        "private_account_change_denarii": 2,
-        "currency_flow_denarii": 20,
-        "internal_transfer": true,
-        "capital_acquisition_denarii": 0
-      },
-      "classification_audit": {
-        "initial_category": "Connected",
-        "final_category": "Connected",
-        "ultimate_reclassification": "not_applicable"
-      }
-    }
-  },
-  {
-    "event_id": "GMV-62BCE-001-R107-E05",
-    "date": "14 November 57 BCE",
-    "event_category": "Connected",
-    "title": "SERVILIUS FINDS A STONE MARK BESIDE THE OLDER ROADWORK",
+  "6": {
+    "event_id": "GMV-62BCE-001-R107-E07",
+    "date": "16 November 57 BCE",
+    "event_category": "Surprise",
+    "title": "A WEATHERED STONE MARKER CHANGES THE ROAD INVESTIGATION",
     "mentioned_entities": [
       "Publius Servilius",
       "Numerius Cassius",
       "Gaius Maximus Valerius"
     ],
-    "news": "During the continuing survey, Publius Servilius discovers a weathered worked stone lying beside the secondary alignment. Its surface bears a partially preserved mark that appears deliberate, but the surviving portion is too incomplete to establish a name, date, or authority. Numerius Cassius records its position and leaves it in place rather than moving an object whose context may be important to the investigation. Servilius sends the observation to Valerius as evidence rather than as a conclusion. The discovery narrows the question from whether the alignment was maintained to whether surviving physical markers can identify the people or administration responsible for it. The original builder and purpose remain unresolved.",
+    "news": "The continuing examination of the older secondary road alignment produces an unexpected physical clue when Publius Servilius and Numerius Cassius uncover a weathered stone marker partly buried beside the maintained route. The surviving mark is deliberate but incomplete, and the men cannot yet establish a builder, date, authority, or original purpose from the fragment alone. Cassius records the stone's position and condition while Servilius preserves the surrounding context instead of moving it or treating an uncertain reading as a conclusion. The finding gives Valerius a new object of investigation and expands the road inquiry beyond the alignment itself into the possibility that surviving markers may identify the administration or community responsible for the work. No final attribution is made in this round, and the investigation remains open.",
     "ai_ledger": {
       "soldiers": 0,
       "population": 0,
@@ -225,7 +325,7 @@
       "legitimacy": 0,
       "technology": 0,
       "exhaustion": 0,
-      "intelligence": 31,
+      "intelligence": 93,
       "relations": 0,
       "land_area_sq_miles": 0,
       "temporary_unavailable": 0,
@@ -242,109 +342,10 @@
         "capital_acquisition_denarii": 0
       },
       "classification_audit": {
-        "initial_category": "Connected",
-        "final_category": "Connected",
-        "ultimate_reclassification": "not_applicable"
-      }
-    }
-  },
-  {
-    "event_id": "GMV-62BCE-001-R107-E06",
-    "date": "15 November 57 BCE",
-    "event_category": "Connected",
-    "title": "THE REFUGEE HOUSEHOLD BEGINS TO BECOME PART OF ESTATE LIFE",
-    "mentioned_entities": [
-      "refugee household",
-      "estate stewards",
-      "Gaius Maximus Valerius"
-    ],
-    "news": "The refugee household admitted beneath Valerius’s shield completes its first period of settlement within the estate community. The stewards assign ordinary living responsibilities and make clear that protection does not exempt the household from the same internal rules governing other residents. The family begins contributing labor to routine estate activity rather than remaining solely dependent upon the protection that brought them there. Valerius’s principle consequently develops from an emergency act of refuge into a continuing social arrangement. No change is made to property boundaries, the guard establishment, or the authority of the stewards. The household remains protected while its place within the estate becomes increasingly ordinary.",
-    "ai_ledger": {
-      "soldiers": 0,
-      "population": 0,
-      "taxation": 0,
-      "economy": 0,
-      "agriculture": 0,
-      "infrastructure": 0,
-      "trade": 0,
-      "readiness": 0,
-      "morale": 0,
-      "supply": 0,
-      "organization": 0,
-      "stability": 0,
-      "legitimacy": 0,
-      "technology": 0,
-      "exhaustion": 0,
-      "intelligence": 20,
-      "relations": 0,
-      "land_area_sq_miles": 0,
-      "temporary_unavailable": 0,
-      "financial_realization": {
-        "gross_receipts_denarii": 0,
-        "operating_costs_denarii": 0,
-        "net_public_profit_denarii": 0,
-        "private_transfer_denarii": 0,
-        "treasury_change_denarii": 0,
-        "public_account_change_denarii": 0,
-        "private_account_change_denarii": 0,
-        "currency_flow_denarii": 0,
-        "internal_transfer": false,
-        "capital_acquisition_denarii": 0
-      },
-      "classification_audit": {
-        "initial_category": "Connected",
-        "final_category": "Connected",
-        "ultimate_reclassification": "not_applicable"
-      }
-    }
-  },
-  {
-    "event_id": "GMV-62BCE-001-R107-E07",
-    "date": "16 November 57 BCE",
-    "event_category": "Connected",
-    "title": "CELER ACKNOWLEDGES VALERIUS’S POLITICAL ENTRY WITHOUT OFFERING A COMMITMENT",
-    "mentioned_entities": [
-      "Quintus Caecilius Metellus Celer",
-      "Gaius Maximus Valerius"
-    ],
-    "news": "A further message arrives from Quintus Caecilius Metellus Celer acknowledging that Valerius has entered the local electoral process. Celer does not offer an office, payment, endorsement, or formal political alliance, and Valerius does not request one. Instead, the correspondence returns to the question of how Valerius intends to separate civic responsibility from the private authority of his estate and guard. Valerius answers that the candidacy is being pursued through the ordinary civic process and that his private forces remain distinct from whatever responsibilities the office may eventually entail. The exchange leaves the relationship open and observant rather than committed. Celer’s interest therefore continues, but no political bargain is established.",
-    "ai_ledger": {
-      "soldiers": 0,
-      "population": 0,
-      "taxation": 0,
-      "economy": 0,
-      "agriculture": 0,
-      "infrastructure": 0,
-      "trade": 0,
-      "readiness": 0,
-      "morale": 0,
-      "supply": 0,
-      "organization": 0,
-      "stability": 0,
-      "legitimacy": 0,
-      "technology": 0,
-      "exhaustion": 0,
-      "intelligence": 18,
-      "relations": 0,
-      "land_area_sq_miles": 0,
-      "temporary_unavailable": 0,
-      "financial_realization": {
-        "gross_receipts_denarii": 0,
-        "operating_costs_denarii": 0,
-        "net_public_profit_denarii": 0,
-        "private_transfer_denarii": 0,
-        "treasury_change_denarii": 0,
-        "public_account_change_denarii": 0,
-        "private_account_change_denarii": 0,
-        "currency_flow_denarii": 0,
-        "internal_transfer": false,
-        "capital_acquisition_denarii": 0
-      },
-      "classification_audit": {
-        "initial_category": "Connected",
-        "final_category": "Connected",
-        "ultimate_reclassification": "not_applicable"
+        "initial_category": "Surprise",
+        "final_category": "Surprise",
+        "ultimate_reclassification": "not_qualified"
       }
     }
   }
-]
+}
