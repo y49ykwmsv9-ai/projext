@@ -1241,18 +1241,19 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3160.2,
-    "private_account": 620.8,
+    "public_account": 3180.9,
+    "private_account": 600.1,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 32,
-      "operating_costs_denarii": 12,
-      "net_public_profit_denarii": 20,
-      "private_transfer_denarii": 2,
-      "public_account_change_denarii": 18,
-      "private_account_change_denarii": 2,
-      "currency_flow_denarii": 20,
+      "gross_receipts_denarii": 35,
+      "operating_costs_denarii": 13,
+      "net_public_profit_denarii": 22,
+      "private_transfer_denarii": 2.2,
+      "public_account_change_denarii": 19.8,
+      "private_account_change_denarii": -21.8,
+      "currency_flow_denarii": -2,
+      "capital_acquisition_denarii": 24,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 2
+      "ten_percent_profit_transfer_denarii": 2.2
     }
   },
   "round_delta_ledger": {
@@ -1367,6 +1368,8 @@
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
     "canonical_pointer_synchronization": "READY",
-    "post_commit_verification": "PENDING"
-  }
+    "post_commit_verification": "PASS"
+  },
+  "public_account": 3180.9,
+  "private_account": 600.1
 }
