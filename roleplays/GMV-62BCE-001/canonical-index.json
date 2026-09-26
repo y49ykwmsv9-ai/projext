@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 91 committed, synchronized, re-read, and date-reconciled."
+  "last_verified": "Round 91 repaired after stale state mirrors were detected; canonical pointer, state, scenario, round record, and news record synchronized and re-read."
 }
