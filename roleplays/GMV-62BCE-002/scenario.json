@@ -62,8 +62,8 @@
     "random_generation": "local resolution",
     "ten_percent_profit_transfer_rule": "PASS",
     "recurring_financial_agreement_settlement": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -1409,14 +1409,14 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_118_pending_commit",
+    "status": "round_118_verified",
     "verification": {
       "round": 118,
       "date": "-0057-02-01",
-      "status": "PENDING",
+      "status": "PASS",
       "round_file": "roleplays/GMV-62BCE-002/rounds/round-118.json",
       "news_file": "roleplays/GMV-62BCE-002/news/round-118.json",
-      "canonical_pointer": "Pending"
+      "canonical_pointer": "Round 118 verified"
     }
   },
   "simulation_contract": {
