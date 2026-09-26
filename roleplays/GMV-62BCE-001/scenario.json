@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 87,
-  "latest_date": "-0057-06-23",
+  "latest_round": 89,
+  "latest_date": "-0057-07-07",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -22,18 +22,19 @@
     "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed."
   },
   "continuity": {
-    "campaign_development": "23 June 57 BCE: Twenty local Roman veterans have completed Valerius's proving exercise and entered his personal guard without enlistment pay. Titus Varenus and nineteen named veterans now contribute local-terrain knowledge through the expedition's established loose-phalanx and outward-watch doctrine.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi."
+    "campaign_development": "7 July 57 BCE: Valerius's personal guard has expanded to 100 veterans, divided evenly between 50 infantry and 50 cavalry; 20 are the newly admitted local veterans and 80 are drawn from Valerius's established veterans. Each member retains an individual weapon and fighting method while operating under one coordinated guard doctrine.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi.",
+    "personal_guard": "Round 89 establishes 100 total personal guards: 50 infantry and 50 cavalry; 10 infantry and 10 cavalry are from the Round 87-88 local veterans, while 40 infantry and 40 cavalry are from Valerius's established veterans."
   },
   "end_of_round_checks": {
     "special_base_probability_percent": 12,
-    "special_roll": 0.849516013929911,
+    "special_roll": 0.42012723204261393,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.7649904056080706,
-      0.48823820802735474,
-      0.11026721134441297
+      0.7296936814447504,
+      0.7195422484511944,
+      0.2357728742664832
     ],
     "magnitude_11_events": 0,
     "continuity_checks": {
@@ -63,7 +64,7 @@
       "ultimate_event_contract": "PASS",
       "surprise_special_expanded_prose": "PASS",
       "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PENDING",
+      "canonical_pointer_synchronization": "PASS",
       "post_commit_verification": "PENDING"
     },
     "financial_reconciliation": {
@@ -418,5 +419,915 @@
     "classification_note": "Event category describes how an event enters the simulation at generation time; final classification is locked only after the mandatory Ultimate Reclassification Gate. Ultimate identifies extraordinary circumstances requiring exceptional narrative treatment, while Special remains independently probabilistic.",
     "prose_rule": "Direct, Connected, Surprise, and Special events use the established player-facing prose/news schema. Surprise and Special receive the expanded prose/news treatment required by the campaign and are not shortened merely because of their initial category. Every initially Surprise or Special event is then inspected by the Ultimate Reclassification Gate; qualifying events are renamed to Ultimate and rewritten at Ultimate narrative depth before output. Ultimate is the final classification only when the event independently meets the Ultimate threshold."
   },
-  "next_round_gate": "OPEN"
+  "next_round_gate": "OPEN",
+  "personal_guard": {
+    "status": "active",
+    "count": 100,
+    "inducted_round": 88,
+    "expanded_round": 89,
+    "infantry_count": 50,
+    "cavalry_count": 50,
+    "members": [
+      {
+        "name": "Titus Varenus",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "short sword and buckler",
+        "fighting_style": "close guard fighting",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Atilius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "heavy spear",
+        "fighting_style": "reach control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Fabius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "long thrusting spear",
+        "fighting_style": "line control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Lartius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "curved sword",
+        "fighting_style": "angled close fighting",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Servilius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "javelins",
+        "fighting_style": "ranged support",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Vibius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "spear and oval shield",
+        "fighting_style": "shielded line work",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Tullius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "short sword",
+        "fighting_style": "compact fighting",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Decimus",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "light spear",
+        "fighting_style": "rapid repositioning",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Cassius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "sling",
+        "fighting_style": "ranged screening",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Spurius Calpurnius",
+        "origin": "Round 87 veteran",
+        "branch": "infantry",
+        "weapon": "heavy spear",
+        "fighting_style": "anchor defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Valerius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "sword and shield",
+        "fighting_style": "mounted escort",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Marcius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "javelins and sword",
+        "fighting_style": "mounted transition",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Petronius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "long spear",
+        "fighting_style": "mounted reach",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Octavius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "sword and small shield",
+        "fighting_style": "mounted close defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Rufrius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "spear",
+        "fighting_style": "mounted perimeter work",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Manlius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "javelins",
+        "fighting_style": "mounted screening",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Licinius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "heavy sword",
+        "fighting_style": "mounted close strength",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Cornelius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "spear and shield",
+        "fighting_style": "mounted line holding",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Furius",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "short sword",
+        "fighting_style": "mounted quick response",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Vettienus",
+        "origin": "Round 87 veteran",
+        "branch": "cavalry",
+        "weapon": "spear",
+        "fighting_style": "mounted watch duty",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Aemilius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "short sword and broad shield",
+        "fighting_style": "close-order shield work",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Aemilius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "heavy spear and round shield",
+        "fighting_style": "measured spear holding",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Cassianus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "long spear",
+        "fighting_style": "extended-reach guarding",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Flavius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "curved sword and buckler",
+        "fighting_style": "quick lateral movement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Fuscus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "javelins and sword",
+        "fighting_style": "controlled skirmish spacing",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Gallus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "short sword and oval shield",
+        "fighting_style": "compact defensive movement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Horatius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "light spear",
+        "fighting_style": "rapid repositioning",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Iulius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sling and sidearm",
+        "fighting_style": "deliberate ranged support",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Livius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "heavy sword",
+        "fighting_style": "firm center holding",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Marius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "spear and shield",
+        "fighting_style": "steady advance",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Naevius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "short sword",
+        "fighting_style": "tight-gap fighting",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Oppius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "javelins",
+        "fighting_style": "disciplined throwing support",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Papius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "long spear",
+        "fighting_style": "reach control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Rufus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sword and small shield",
+        "fighting_style": "mobile close defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Sabinus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "spear",
+        "fighting_style": "watch-line control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Tertius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "curved sword",
+        "fighting_style": "angled close engagement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Umbrius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "light spear and buckler",
+        "fighting_style": "fast flank coverage",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Varius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sling",
+        "fighting_style": "distance harassment",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Vibius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sword and shield",
+        "fighting_style": "adaptive line fighting",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Volcatius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "heavy spear",
+        "fighting_style": "anchor-point defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Albinus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "short sword and buckler",
+        "fighting_style": "compact counter-movement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Balbus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "spear and shield",
+        "fighting_style": "measured pressure",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Celer",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "javelins and sword",
+        "fighting_style": "rapid transition",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Denter",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "long spear",
+        "fighting_style": "straight-line control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Egnatius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "curved sword and shield",
+        "fighting_style": "hooking guard movement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Firmius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "heavy sword",
+        "fighting_style": "deliberate close strength",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Geminus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "light spear",
+        "fighting_style": "interval coverage",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Herennius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sling and buckler",
+        "fighting_style": "screening support",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Junius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sword and oval shield",
+        "fighting_style": "balanced guard work",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Karsius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "spear",
+        "fighting_style": "quiet perimeter control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Laelius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "javelins",
+        "fighting_style": "measured ranged pressure",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Maximus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "short sword",
+        "fighting_style": "rapid close response",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Nerius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "heavy spear",
+        "fighting_style": "stationary reach defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Ovidius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "sword and buckler",
+        "fighting_style": "fluid close defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Pictor",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "light spear",
+        "fighting_style": "scouting-line support",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Quinctius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "long spear and shield",
+        "fighting_style": "ordered line retention",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Rutilius",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "curved sword",
+        "fighting_style": "fast turning movement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Serranus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "javelins and shield",
+        "fighting_style": "mobile screening",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Varro",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "heavy sword",
+        "fighting_style": "center protection",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Zosimus",
+        "origin": "Valerius's established veterans",
+        "branch": "infantry",
+        "weapon": "spear and shield",
+        "fighting_style": "patient defensive control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Aquilius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "light lance and round shield",
+        "fighting_style": "controlled mounted reach",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Caesius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword and small shield",
+        "fighting_style": "fast mounted interception",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Domitius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "long spear",
+        "fighting_style": "straight mounted thrusting",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Furius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins and sword",
+        "fighting_style": "mobile mounted harassment",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Horatius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "spear and shield",
+        "fighting_style": "mounted flank protection",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Junius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "curved sword",
+        "fighting_style": "close mounted turning",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Licinius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "light spear",
+        "fighting_style": "rapid mounted repositioning",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Marcius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins",
+        "fighting_style": "mounted ranged pressure",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Octavius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword and shield",
+        "fighting_style": "measured mounted advance",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Papirius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "heavy spear",
+        "fighting_style": "mounted anchor duty",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Quintilius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "lance",
+        "fighting_style": "controlled charge formation",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Rufrius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword and buckler",
+        "fighting_style": "tight mounted defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Sabinus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "spear",
+        "fighting_style": "mounted perimeter watch",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Tertius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins and sword",
+        "fighting_style": "quick mounted transition",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Umbrius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "light lance",
+        "fighting_style": "wide flank coverage",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Varius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "curved sword and shield",
+        "fighting_style": "turning pursuit",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Varenus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "spear and round shield",
+        "fighting_style": "mounted line holding",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Albus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins",
+        "fighting_style": "screening from the saddle",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Balbus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "heavy sword",
+        "fighting_style": "close mounted protection",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Celer",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "long spear",
+        "fighting_style": "rapid mounted reach",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Denter",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "lance and shield",
+        "fighting_style": "disciplined forward pressure",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Egnatius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword",
+        "fighting_style": "mobile mounted guard",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Firmius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "heavy spear",
+        "fighting_style": "deliberate mounted defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Geminus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins",
+        "fighting_style": "fast mounted screening",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Herennius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "spear and shield",
+        "fighting_style": "mounted interval control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Junius Secundus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "curved sword",
+        "fighting_style": "compact mounted maneuver",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Laelius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "light lance",
+        "fighting_style": "flank-link movement",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Maximus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword and buckler",
+        "fighting_style": "close escort riding",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Nerius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "spear",
+        "fighting_style": "mounted watch-line control",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Ovidius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins and sword",
+        "fighting_style": "adaptive mounted response",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Marcus Pictor",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "long spear",
+        "fighting_style": "extended mounted reach",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Publius Quinctius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword and shield",
+        "fighting_style": "balanced mounted guard",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Quintus Rutilius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "light spear",
+        "fighting_style": "rapid mounted coverage",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gaius Serranus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "curved sword and shield",
+        "fighting_style": "turning defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Lucius Varro",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "heavy lance",
+        "fighting_style": "firm mounted center",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Sextus Volcatius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "spear",
+        "fighting_style": "steady mounted advance",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Aulus Aemilius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "javelins",
+        "fighting_style": "mounted distance support",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Numerius Cassianus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "sword and shield",
+        "fighting_style": "close escort defense",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Titus Flavius",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "long spear",
+        "fighting_style": "mounted line retention",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      },
+      {
+        "name": "Gnaeus Gallus",
+        "origin": "Valerius's established veterans",
+        "branch": "cavalry",
+        "weapon": "curved sword",
+        "fighting_style": "agile mounted response",
+        "status": "active",
+        "coordination": "integrated with the full personal guard and expedition"
+      }
+    ]
+  }
 }
