@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 104,
-  "date": "-0057-10-26",
+  "round": 105,
+  "date": "-0057-11-02",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3109.8,
-    "private": 615.2,
+    "public": 3125.1,
+    "private": 616.9,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 18,
-    "last_round_private_transfer": 1.8
+    "last_round_net_public_profit": 17,
+    "last_round_private_transfer": 1.7
   },
   "metrics": {
     "soldiers": 414,
@@ -26,10 +26,10 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3962,
+    "intelligence": 4070,
     "relations": 100,
     "land_area_sq_miles": 7.95,
-    "temporary_unavailable": 2
+    "temporary_unavailable": 1
   },
   "holdings": {
     "land_area_sq_miles": 7.95,
@@ -49,64 +49,64 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "26 October 57 BCE: Valerius has established an unbroken patrol corridor from the lake port to the shared-water access road and extended the estate’s protection to people accepted as refugees; a small household has been received, the third recurring surplus settlement has realized 29 gross / 11 costs / 18 net with 1.8 privately transferred and 16.2 retained publicly, the merchant inspection thread continued without a new contract, Servilius and Cassius extended the older-road investigation, and Celer raised further administrative questions.",
+    "campaign_development": "2 November 57 BCE: the patrol corridor has become routine; the sanctuary household is settling under protection; the fourth recurring surplus settlement realized 27 gross / 10 costs / 17 net with 1.7 privately transferred and 15.3 retained publicly; smallholders have renewed their shared-road request; Servilius and Cassius found a secondary alignment beside older roadwork; Celer continues his administrative inquiry; and one recovering veteran returned to ordinary duty.",
     "land_area_history": "Round 99 reaches 7.9375 sq mi; Round 101 adds 8 acres (0.0125 sq mi), reaching 7.95 sq mi.",
-    "road_investigation": "Servilius and Cassius have extended their examination of older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
+    "road_investigation": "Servilius and Cassius found a secondary alignment beside older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
     "estate_consolidation": "Automatic adjoining-property acquisition remains active; no new purchase was required this round.",
     "capped_stat_surplus": "Round 99 agricultural output exceeded the 100-point agriculture cap. The event realized 18 denarii net public profit before the canonical 10% realized-profit transfer; 1.8 denarii routed to Valerius's private account, leaving 16.2 denarii retained publicly.",
-    "political_correspondence": "Celer has raised further questions concerning commercial protection, sanctuary, and the administration of Valerius’s private guard; no office, command, payment, or binding commitment exists.",
-    "commercial_thread": "The long-term surplus-delivery agreement remains active; the third contracted consignment settled this round for 29 gross / 11 costs / 18 net. No future receipts are booked.",
+    "political_correspondence": "Celer continues asking how sanctuary decisions are made and how Valerius’s private guard remains under his authority; no office, command, payment, or binding commitment exists.",
+    "commercial_thread": "The long-term surplus-delivery agreement remains active; the fourth contracted consignment settled this round for 27 gross / 10 costs / 17 net. No future receipts are booked.",
     "local_infrastructure_thread": "Smallholders have submitted a written shared-road petition; no construction or expenditure has occurred.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; patrol duties rotate within the existing force and create no new formation.",
-    "road_thread": "The shared-water road remains in routine local use and is now covered by an unbroken patrol corridor from the lake port through the water-access approach.",
-    "medical_recovery": "Two men remain temporarily unavailable; no further recovery was recorded this round.",
-    "refuge_policy": "Valerius has established a standing principle that people accepted as refugees on his estates receive protection under the same shield protecting his household and men, subject to available shelter and estate capacity."
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; patrol duties rotate within the existing force and one recovering veteran has returned to lighter ordinary duty.",
+    "road_thread": "The shared-water road remains in routine local use and is covered by an unbroken patrol corridor from the lake port through the water-access approach.",
+    "medical_recovery": "One man remains temporarily unavailable after one recovering veteran returned to ordinary duty.",
+    "refuge_policy": "The accepted refugee household is settling as ordinary protected residents; protection does not alter property boundaries or grant unrestricted access to armed quarters."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 60.387636506218236,
+    "current_round_roll": 60.20901874024152,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      97.97088662119275,
-      83.38629947127495,
-      31.51601741658425
+      20.215047406042952,
+      0.16817925447600857,
+      3.4204783595477517
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 60.387636506218236,
+    "roll": 60.20901874024152,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      97.97088662119275,
-      83.38629947127495,
-      31.51601741658425
+      20.215047406042952,
+      0.16817925447600857,
+      3.4204783595477517
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
     "random_generation": "local resolution",
     "ten_percent_profit_transfer_rule": "PASS",
     "recurring_financial_agreement_settlement": "PASS",
-    "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING"
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3109.8,
-    "private": 615.2,
-    "gross_receipts_denarii": 29,
-    "operating_costs_denarii": 11,
-    "net_public_profit_denarii": 18,
-    "private_transfer_denarii": 1.8,
-    "public_account_change_denarii": 16.2,
-    "private_account_change_denarii": 1.8,
+    "public": 3125.1,
+    "private": 616.9,
+    "gross_receipts_denarii": 27,
+    "operating_costs_denarii": 10,
+    "net_public_profit_denarii": 17,
+    "private_transfer_denarii": 1.7,
+    "public_account_change_denarii": 15.3,
+    "private_account_change_denarii": 1.7,
     "recurring_agreement_id": "gmv_surplus_delivery_contract_01"
   },
   "next_round_gate": "OPEN",
@@ -1175,8 +1175,8 @@
       }
     ]
   },
-  "latest_round": 104,
-  "latest_date": "-0057-10-26",
+  "latest_round": 105,
+  "latest_date": "-0057-11-02",
   "soldiers": 414,
   "population": 254,
   "taxation": 3,
@@ -1253,25 +1253,25 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3962,
+    "intelligence": 4070,
     "relations": 100,
     "land_area_sq_miles": 7.95,
-    "temporary_unavailable": 2
+    "temporary_unavailable": 1
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3109.8,
-    "private_account": 615.2,
+    "public_account": 3125.1,
+    "private_account": 616.9,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 29,
-      "operating_costs_denarii": 11,
-      "net_public_profit_denarii": 18,
-      "private_transfer_denarii": 1.8,
-      "public_account_change_denarii": 16.2,
-      "private_account_change_denarii": 1.8,
-      "currency_flow_denarii": 18,
+      "gross_receipts_denarii": 27,
+      "operating_costs_denarii": 10,
+      "net_public_profit_denarii": 17,
+      "private_transfer_denarii": 1.7,
+      "public_account_change_denarii": 15.3,
+      "private_account_change_denarii": 1.7,
+      "currency_flow_denarii": 17,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 1.8
+      "ten_percent_profit_transfer_denarii": 1.7
     }
   },
   "round_delta_ledger": {
@@ -1281,94 +1281,19 @@
       "after": 414
     },
     "population": {
-      "before": 250,
-      "change": 4,
+      "before": 254,
+      "change": 0,
       "after": 254
     },
-    "taxation": {
-      "before": 3,
-      "change": 0,
-      "after": 3
-    },
-    "economy": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "agriculture": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "infrastructure": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "trade": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "readiness": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "morale": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "supply": {
-      "before": 0,
-      "change": 0,
-      "after": 0
-    },
-    "organization": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "stability": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "legitimacy": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "technology": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "exhaustion": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
     "intelligence": {
-      "before": 3844,
-      "change": 118,
-      "after": 3962
-    },
-    "relations": {
-      "before": 100,
-      "change": 0,
-      "after": 100
-    },
-    "land_area_sq_miles": {
-      "before": 7.95,
-      "change": 0,
-      "after": 7.95
+      "before": 3962,
+      "change": 108,
+      "after": 4070
     },
     "temporary_unavailable": {
       "before": 2,
-      "change": 0,
-      "after": 2
+      "change": -1,
+      "after": 1
     }
   }
 }
