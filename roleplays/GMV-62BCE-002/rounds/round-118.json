@@ -410,17 +410,17 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3535.9,
-    "private_account": 639.2,
+    "public_account": 3535.4,
+    "private_account": 639.7,
     "realized_financial_effects": {
       "gross_receipts_denarii": 179,
       "operating_costs_denarii": 75,
       "net_public_profit_denarii": 104,
-      "private_transfer_denarii": 10.4,
-      "public_account_change_denarii": 93.6,
-      "private_account_change_denarii": 10.4,
+      "private_transfer_denarii": 10.9,
+      "public_account_change_denarii": 93.1,
+      "private_account_change_denarii": 10.9,
       "currency_flow_denarii": 104,
-      "note": "Capitalization cycle: 68 gross/27 costs/41 net. Recurring surplus-delivery settlement: 54 gross/23 costs/31 net. Lake-port artisan bulk order: 35 gross/12 costs/23 net. Second silver working sale: 22 gross/8 costs/14 net. Six-acre drainage repair: 5 denarii expense. The 10% private routing applies only to realized positive net public profit."
+      "note": "Positive realized event profits: 41, 31, 23, and 14 denarii; 10% event-level routing produces 4.1, 3.1, 2.3, and 1.4 denarii privately (10.9 total). A separate 5-denarii repair expense reduces public account only. Net round public effect is 104 - 10.9 = 93.1 denarii."
     }
   },
   "special_event_resolution": {
@@ -445,7 +445,7 @@
   },
   "classification_summary": {
     "Direct": 2,
-    "Connected": 5,
+    "Connected": 4,
     "Surprise": 2,
     "Special": 0,
     "Ultimate": 0
@@ -477,14 +477,14 @@
     },
     "public_account": {
       "before": 3442.3,
-      "change": 93.6,
-      "after": 3535.9,
+      "change": 93.1,
+      "after": 3535.4,
       "unit": "denarii"
     },
     "private_account": {
       "before": 628.8,
-      "change": 10.4,
-      "after": 639.2,
+      "change": 10.9,
+      "after": 639.7,
       "unit": "denarii"
     },
     "treasury": {
