@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "latest_round": 114,
-  "latest_date": "-0057-01-04",
+  "latest_round": 115,
+  "latest_date": "-0057-01-11",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -28,7 +28,18 @@
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "7 December 57 BCE: the estate's open-access policy is functioning under exact cost recovery while the silver-and-grain commercial arrangement begins producing independently priced combined consignments."
+    "campaign_development": "Valerius remains a registered civic candidate; a new procedural notice was received in Rome without a vote or result.",
+    "commercial_thread": "Round 115 recurring settlement realized 46 gross / 18 costs / 28 net; 2.8 private / 25.2 public.",
+    "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
+    "road_investigation": "Completed and classified; remains background canon.",
+    "election_thread": "Candidacy remains active with procedural documentation; no electoral result.",
+    "refuge_policy": "Second displaced household remains integrated; population 257.",
+    "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
+    "silver_development_thread": "Second silver working produced its first payable lot; eventual yield remains unresolved.",
+    "family_thread": "Valerius returned to his Roman estate and spent a sustained private visit with his sister; no new named family character was introduced.",
+    "urban_estate_thread": "Open-access facility policy remains in force; one false facility charge was rejected before payment.",
+    "merchant_access_thread": "An unexpected multi-house merchant delegation sought ordinary access during winter disruption and was handled under the existing indiscriminate cost-recovery policy.",
+    "library_thread": "Estate library correspondence continues in background."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
@@ -1392,7 +1403,7 @@
     "inherited_date": "4 January 57 BCE",
     "starting_round": 115,
     "starting_date": "11 January 57 BCE",
-    "status": "ready_for_round_115",
+    "status": "round_115_committed",
     "canonical_inheritance": "All characters, relationships, holdings, equipment, military organization, unresolved threads, contracts, metrics, finances, and campaign history inherit from the verified end state of GMV-62BCE-001 Round 114 unless a later chapter event changes them."
   },
   "simulation_contract": {
@@ -1415,5 +1426,22 @@
     "magnitude_11_probability_percent": 4.7283,
     "ultimate_reclassification_gate": true,
     "recurring_character_continuity": true
-  }
+  },
+  "next_round": 116,
+  "next_date": "-0057-01-18",
+  "round_history": [
+    {
+      "round": 115,
+      "date": "-0057-01-11",
+      "directive": "Valerius returns to his estate in Rome and visits his sister.",
+      "event_count": 8,
+      "classification_summary": {
+        "Direct": 1,
+        "Connected": 5,
+        "Surprise": 1,
+        "Special": 1,
+        "Ultimate": 0
+      }
+    }
+  ]
 }
