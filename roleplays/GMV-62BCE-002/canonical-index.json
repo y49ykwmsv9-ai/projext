@@ -1,0 +1,20 @@
+{
+  "schema_version": "gmv-canonical-index-v2",
+  "campaign_id": "GMV-62BCE-002",
+  "chapter_number": 2,
+  "inherited_campaign_id": "GMV-62BCE-001",
+  "inherited_round": 114,
+  "inherited_date": "-0057-01-04",
+  "canonical_pointer": {
+    "latest_round": 114,
+    "latest_date": "-0057-01-04",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-114.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-114.json",
+    "state_file": "roleplays/GMV-62BCE-002/state.json",
+    "scenario_file": "roleplays/GMV-62BCE-002/scenario.json"
+  },
+  "chapter_status": "ready_for_round_115",
+  "next_round": 115,
+  "next_date": "-0057-01-11",
+  "rule": "Chapter II inherits all prior canon but new rounds are written under GMV-62BCE-002. Only the synchronized Chapter II pointer determines the current chapter round once Round 115 is committed."
+}
