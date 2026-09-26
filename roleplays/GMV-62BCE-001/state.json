@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 100,
-  "date": "-0057-09-28",
+  "round": 101,
+  "date": "-0057-10-05",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3073.2,
-    "private": 607.8,
+    "public": 3074.7,
+    "private": 609.3,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 20,
-    "last_round_private_transfer": 2
+    "last_round_net_public_profit": 15,
+    "last_round_private_transfer": 1.5
   },
   "metrics": {
     "soldiers": 414,
@@ -26,17 +26,17 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3529,
+    "intelligence": 3624,
     "relations": 100,
-    "land_area_sq_miles": 7.9375,
-    "temporary_unavailable": 6
+    "land_area_sq_miles": 7.95,
+    "temporary_unavailable": 4
   },
   "holdings": {
-    "land_area_sq_miles": 7.9375,
-    "acres": 5080,
+    "land_area_sq_miles": 7.95,
+    "acres": 5088,
     "roman_iugera_approx": 7507.5,
-    "change_this_round_sq_miles": 0.125,
-    "scope": "personal estates and holdings; Round 99 adds an 80-acre adjoining tract, the largest single recorded acquisition"
+    "change_this_round_sq_miles": 0.0125,
+    "scope": "personal estates and holdings; Round 101 adds an eight-acre adjoining strip for 12 denarii"
   },
   "relationships": {
     "nearby-landowners": 35,
@@ -49,44 +49,44 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "28 September 57 BCE: two wounded men have returned to ordinary duty, a new political correspondence thread has opened through a courier connected with Quintus Caecilius Metellus Celer, the road investigation has gained a marked stone fragment, local smallholders are discussing a shared access road, and a substantial caravan has opened a longer-distance commercial thread. Holdings remain 7.9375 sq mi; the personal guard remains 100 men; six remain temporarily unavailable.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625; Round 59 adds 0.50; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75; Round 98 adds 0.0625 to reach 7.8125; Round 99 adds 0.125 sq mi (80 acres) to reach 7.9375. The Round 99 tract is the largest single recorded acquisition.",
-    "road_investigation": "The damaged crossing, weathered marker line, secondary approach, worked-stone fragments, and newly recovered marked stone fragment remain under investigation; builder, date, political authority, and original purpose remain unresolved.",
-    "estate_consolidation": "The Round 98 automatic adjoining-property directive remains active; Round 100 produces no new land transfer.",
+    "campaign_development": "5 October 57 BCE: two more wounded men have returned to light field duties; Celer's correspondence has developed into a second-letter thread; the shared local road proposal has become a written petition; the marked stone has been compared with older roadwork; the caravan merchants have proposed a repeat delivery; the estate stewards have acquired an adjoining eight-acre strip; and the strip's productive excess has produced a concrete 15-denarius realized profit while agriculture remains capped at 100.",
+    "land_area_history": "Round 99 reaches 7.9375 sq mi; Round 101 adds 8 acres (0.0125 sq mi), reaching 7.95 sq mi.",
+    "road_investigation": "Marked stone fragment remains under controlled custody; its comparison with older roadwork strengthens its physical association but does not identify builder, date, political authority, or original purpose.",
+    "estate_consolidation": "Automatic adjoining-property acquisition remains active and has now realized an eight-acre strip purchase for 12 denarii.",
     "capped_stat_surplus": "Round 99 agricultural output exceeded the 100-point agriculture cap. The event realized 18 denarii net public profit before the canonical 10% realized-profit transfer; 1.8 denarii routed to Valerius's private account, leaving 16.2 denarii retained publicly.",
-    "political_correspondence": "New courier contact associated with Quintus Caecilius Metellus Celer has opened a correspondence thread; no appointment or payment has been established.",
-    "commercial_thread": "A larger merchant proposal and the successful 42-denarius caravan sale create a new longer-distance commercial relationship; future receipts remain unrealized until concrete sales occur.",
-    "local_infrastructure_thread": "Nearby smallholders have begun discussing a shared access road; no construction or expenditure has yet occurred.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; the guard now has a reusable distributed-position drill based on recent experience."
+    "political_correspondence": "Celer's courier has delivered a second communication requesting a clearer account of Valerius's establishment; no office, payment, or binding commitment exists.",
+    "commercial_thread": "The prior caravan sale has developed into a proposed repeat delivery; no future revenue is counted until delivery and payment occur.",
+    "local_infrastructure_thread": "Smallholders have submitted a written shared-road petition; no construction or expenditure has occurred.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; no change in composition this round."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 58.39013105797475,
+    "current_round_roll": 78.50616030891409,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      59.490621014113486,
-      3.4875775916056617,
-      8.611945120814879
+      42.576899139796474,
+      61.993125763948306,
+      26.76162444885062
     ],
-    "current_round_magnitude_11_events": 2
+    "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 58.39013105797475,
+    "roll": 78.50616030891409,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      59.490621014113486,
-      3.4875775916056617,
-      8.611945120814879
+      42.576899139796474,
+      61.993125763948306,
+      26.76162444885062
     ],
-    "magnitude_11_events": 2,
+    "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
     "random_generation": "local resolution",
     "ten_percent_profit_transfer_rule": "PASS",
@@ -95,18 +95,18 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3073.2,
-    "private": 607.8,
-    "gross_receipts_denarii": 42,
-    "operating_costs_denarii": 22,
-    "net_public_profit_denarii": 20,
-    "private_transfer_denarii": 2,
+    "public": 3074.7,
+    "private": 609.3,
+    "gross_receipts_denarii": 24,
+    "operating_costs_denarii": 21,
+    "net_public_profit_denarii": 15,
+    "private_transfer_denarii": 1.5,
     "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": 20,
-    "capital_acquisition_denarii": 0,
-    "ten_percent_profit_transfer_denarii": 2,
-    "public_account_change_denarii": 18,
-    "private_account_change_denarii": 2
+    "currency_flow_denarii": 3,
+    "capital_acquisition_denarii": 12,
+    "ten_percent_profit_transfer_denarii": 1.5,
+    "public_account_change_denarii": 1.5,
+    "private_account_change_denarii": 1.5
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
