@@ -1,0 +1,549 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round_number": 112,
+  "date": "21 December 57 BCE",
+  "player_directive": "Valerius declares the new silver mines completely open and mapped to their fullest extents in all veins; his most trusted veterans complete the road investigation and reveal its true source, with every road segment classified and treated according to its class.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R112-E01",
+      "date": "15 December 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS OPENS THE NEW SILVER WORKINGS AND ORDERS THEIR COMPLETE SURVEY RECORD SEALED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "estate surveyors"
+      ],
+      "body": "Valerius formally declares the newly acquired silver workings open for full lawful operation and orders every identified vein within the surveyed workings to be mapped to the fullest extent that the present workings permit. Surveyors extend the marked boundaries, record the separate seams, and distinguish observed mineral-bearing passages from ground that remains physically inaccessible or unverified. The declaration ends the earlier restricted preparatory phase: the workings may now be developed rather than merely examined. The resulting map is treated as an operational record, with each vein and working face assigned its own notation so that future extraction can be measured against the actual ground rather than against an estimate. No unsupported future silver revenue is booked merely because the mines have been opened.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 46,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E02",
+      "date": "16 December 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE VETERANS IDENTIFY THE TRUE ORIGIN OF THE OLD ROAD SYSTEM",
+      "mentioned_entities": [
+        "Publius Servilius",
+        "Numerius Cassius",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "After completing the remaining comparisons between the marked stone, the surviving roadbeds, construction dimensions, and the veterans' own knowledge of Roman military engineering practice, Publius Servilius and Numerius Cassius finally identify the source of the road system. The oldest surviving alignment was not originally laid as a private estate road or as an ordinary merchant track: its principal spine was constructed as a Roman military logistics route, with later civilian traffic and estate connections attached to it as the surrounding country developed. The veterans recognize the standardized construction sequence, drainage treatment, road width, and staging logic and are able to match those features to the military road practice they had encountered in service. They classify the surviving network accordingly: the primary military/logistics spine is treated as a public strategic route, later civilian branches as public commercial roads, and estate spurs as private access works. The classification closes the investigation's central question while preserving uncertainty over the exact original commander and construction date. Valerius orders the record preserved in its classes so that maintenance, access, and future historical interpretation follow the actual character of each segment rather than treating the entire network as one undifferentiated road.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 112,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E03",
+      "date": "17 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE WINTER SURPLUS DELIVERY SETTLES AT A DIFFERENT COMMERCIAL MARGIN",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers"
+      ],
+      "body": "The standing surplus-delivery agreement reaches another settlement through the shared-water road. This consignment produces 44 denarii in gross receipts against 18 denarii in current operating and transport costs, leaving 26 denarii of realized net public profit. The established ten-percent rule routes 2.6 denarii of that realized profit to Valerius's private account while 23.4 denarii remains public. The quantity and margin differ from the previous settlement because the current consignment, merchant demand, and winter transport conditions are independently assessed. The recurring agreement therefore continues without becoming a mechanically repeated transaction.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 39,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 44,
+        "operating_costs_denarii": 18,
+        "net_public_profit_denarii": 26,
+        "private_transfer_denarii": 2.6,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 23.4,
+        "private_account_change_denarii": 2.6,
+        "currency_flow_denarii": 26
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E04",
+      "date": "18 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE NEW SILVER MAP CHANGES THE ORDER OF WORK AT THE SECOND MINE",
+      "mentioned_entities": [
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "estate miners"
+      ],
+      "body": "With the workings formally opened, the newly completed survey is used to distinguish the most accessible vein from deeper and less certain branches. Miners begin with the mapped sections that can be worked without extending the workings beyond the surveyed boundaries, while the deeper branches are marked for staged examination. The operation therefore moves from survey into controlled extraction planning without pretending that every mapped passage has already produced silver. The first day's work yields no separately realized silver sale, and no speculative reserve value is entered as current income. The mine is now an active productive enterprise whose future receipts will depend on actual extraction and sale.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 34,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E05",
+      "date": "19 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE CAMPAIGN USES ITS NEW PROCEDURAL RECORD TO PREPARE FOR THE NEXT CIVIC STAGE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "campaign staff",
+        "local civic officials"
+      ],
+      "body": "The campaign staff use the procedural record assembled from the recent intelligence allocation to prepare Valerius for the next formal stage of his candidacy. Documents are arranged according to the requirements already identified, correspondence is checked against the recorded timetable, and unresolved procedural questions are separated from matters that have already been settled. No vote, endorsement, or electoral result is generated by the preparation. Valerius continues the candidacy through the established civic process without treating campaign research as evidence of public support. The intelligence expenditure therefore produces organization and preparedness rather than an invented electoral outcome.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 43,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E06",
+      "date": "20 December 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE ROAD CLASSIFICATION FORCES A CHANGE IN HOW THE ESTATE TREATS ITS OLDEST CORRIDOR",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "estate stewards",
+        "Publius Servilius",
+        "Numerius Cassius"
+      ],
+      "body": "The completed veteran classification reveals that the oldest corridor cannot be administered solely as an estate facility because its surviving structure belongs to the larger military and public road system. The stewards therefore separate maintenance and access records for the strategic spine from those of the estate's private spurs. Titus Varenus's patrol schedule is adjusted so the public strategic corridor is observed as a through-route rather than as a controlled estate lane, while private access branches retain their existing estate management. The change does not close the road or create a new toll. Instead, it places each section under the treatment appropriate to the class established by the investigation.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 31,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E07",
+      "date": "21 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE WINTER GUARD CIRCUIT CONTINUES WITHOUT A HOSTILE INCIDENT",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "personal guard",
+        "merchant carriers"
+      ],
+      "body": "Titus Varenus completes another circuit across the road network after the new classification is entered into the estate records. The guard observes merchant and agricultural traffic moving through the public corridor and the estate spurs without a confrontation. The force remains fully available, with the established fifty infantry and fifty cavalry maintaining readiness. No detention, casualty, or mobilization occurs. The patrol instead provides the first ordinary security report after the road system has been formally separated into its different classes.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 22,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R112-E08",
+      "date": "21 December 57 BCE",
+      "event_category": "Connected",
+      "title": "THE NEWLY CULTIVATED ACREAGE ENTERS ITS FIRST WINTER MAINTENANCE CYCLE",
+      "mentioned_entities": [
+        "estate stewards",
+        "estate cultivators",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The six-acre parcel acquired earlier in the campaign receives its first winter maintenance after planting, with cultivators checking drainage, protecting the planted ground, and recording the condition of the new field. The work does not produce an immediate harvest and does not raise the already capped agriculture metric. It does, however, establish that the acquired land is now integrated into the estate's ordinary agricultural cycle rather than remaining merely an unused acquisition. No additional acreage is purchased in the process. Future yield remains dependent on the condition of the crop and the later harvest.",
+      "round_number": 112,
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 25,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0
+      },
+      "financial_realization": {
+        "gross_receipts_denarii": 0,
+        "operating_costs_denarii": 0,
+        "net_public_profit_denarii": 0,
+        "private_transfer_denarii": 0,
+        "treasury_change_denarii": 0,
+        "public_account_change_denarii": 0,
+        "private_account_change_denarii": 0,
+        "currency_flow_denarii": 0
+      }
+    }
+  ],
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 257,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 2864,
+    "relations": 100,
+    "land_area_sq_miles": 7.959375,
+    "temporary_unavailable": 0
+  },
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 414,
+      "change": 0,
+      "after": 414
+    },
+    "population": {
+      "before": 257,
+      "change": 0,
+      "after": 257
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "intelligence": {
+      "before": 2512,
+      "change": 352,
+      "after": 2864
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "land_area_sq_miles": {
+      "before": 7.959375,
+      "change": 0,
+      "after": 7.959375
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0
+    }
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3276.3,
+    "private_account": 610.7,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 44,
+      "operating_costs_denarii": 18,
+      "net_public_profit_denarii": 26,
+      "private_transfer_denarii": 2.6,
+      "public_account_change_denarii": 23.4,
+      "private_account_change_denarii": 2.6,
+      "currency_flow_denarii": 26,
+      "capital_acquisition_denarii": 0,
+      "internal_transfer": true,
+      "ten_percent_profit_transfer_denarii": 2.6
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 55.33941699193635,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      72.9570679298116,
+      74.1027887596992,
+      40.134435215796906
+    ],
+    "magnitude_11_events": 0,
+    "generated_magnitude_11_events": [],
+    "ultimate_reclassification_events": [],
+    "random_generation": "local resolution"
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "financial_reconciliation": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "single_thread_event_integrity": "PASS",
+    "ultimate_event_contract": "PASS",
+    "surprise_special_gate": "PASS",
+    "semantic_state_consistency": "PASS",
+    "current_total_completeness": "PASS",
+    "randomness_integrity": "PASS",
+    "round_date_and_numbering": "PASS",
+    "ai_ledger_embedded_in_each_event": "PASS",
+    "event_format_contract": "PASS",
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING"
+  },
+  "continuity": {
+    "campaign_development": "Valerius's 3,000-Intelligence campaign allocation is producing procedural preparation; no electoral result exists.",
+    "commercial_thread": "The latest recurring surplus settlement realized 44 gross / 18 costs / 26 net; 2.6 privately transferred and 23.4 retained publicly.",
+    "road_thread": "The shared-water road remains open; the completed investigation has now separated the network into public strategic, public commercial, and private estate-access classes.",
+    "road_investigation": "Servilius and Cassius completed the investigation and identified the principal old alignment as a Roman military logistics route, while later branches are classified according to their surviving function.",
+    "political_correspondence": "Campaign staff continue preparing for the next civic procedural stage without claiming support or a result.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; all remain available.",
+    "silver_development_thread": "The new silver workings are fully opened and mapped to the fullest extent presently established; extraction planning has begun without speculative revenue.",
+    "local_infrastructure_thread": "Estate roads and merchant facilities remain open to lawful Roman citizens, with road treatment now differentiated by the completed classification."
+  },
+  "next_round_gate": {
+    "status": "OPEN_AFTER_COMMIT",
+    "next_round": 113,
+    "next_date": "28 December 57 BCE",
+    "requirements": "Round 112 persistence and post-commit verification required before Round 113 generation."
+  }
+}
