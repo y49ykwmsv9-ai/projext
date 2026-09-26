@@ -1,0 +1,430 @@
+{
+  "schema_version": "gmv-news-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 120,
+  "date": "15 February 57 BCE",
+  "headline": "THE EXPANDED ESTATE AND NEW MERCHANT OFFICE PRODUCE THEIR FIRST MAJOR DEVELOPMENTS",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R120-E01",
+      "date": "9 February 57 BCE",
+      "event_category": "Direct",
+      "title": "THE NEW HOLDING IS PLACED UNDER A SINGLE ESTATE ADMINISTRATION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "principal estate",
+        "estate stewards",
+        "estate labor contractors",
+        "Valerius's sister"
+      ],
+      "body": "The enlarged holding receives its first unified administrative order when Valerius directs the stewards to treat the newly acquired 15 square miles as one contiguous private estate system with the principal estate at its center. The existing 9,600 acres are entered into a single working register alongside their inherited buildings, fields, storage sites, waterworks, cart approaches, and the seasonal labor obligations already included in the acquisition price. Separate field books are retained for accounting purposes, but the stewards now coordinate maintenance, crop planning, labor scheduling, and movement through one estate administration rather than through the former parcel divisions. Valerius's sister is given access to the commercial portion of these records through the Merchant Affairs Office so that production information can be matched to actual merchant demand without mixing civic and private authority. No additional land is purchased and no new labor population is assumed from the administrative consolidation. The practical change is that the estate now has one internal chain for managing the full 22.959375-square-mile holding, while ownership, labor agreements, and public legal responsibilities remain separately recorded.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 61,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "background_sources": [
+          {
+            "source": "estate title archives and prior boundary correspondence",
+            "changes": {
+              "intelligence": 8
+            },
+            "basis": "independent background legal and geographic intelligence; not caused by the administrative consolidation"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 69,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's continuing action or administration directive."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E02",
+      "date": "10 February 57 BCE",
+      "event_category": "Direct",
+      "title": "THE WINTER TRAINING CYCLE TESTS THE FULL 414-MAN FORCE AROUND THE EXPANDED HOLDING",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "personal guard",
+        "414-man force"
+      ],
+      "body": "Valerius continues training the full 414-man force, and Titus Varenus uses the enlarged estate perimeter as the setting for a more demanding winter exercise than the ordinary road-watch circuit. Infantry rehearse controlled movement and rally procedures while the cavalry practices rapid repositioning between separate points on the new boundary, with signals passed between the two arms under time pressure. The exercise is completed without a recorded casualty, detachment, or temporary loss of availability, and all 414 men remain present and available. Readiness, organization, morale, and the other bounded military measures are already at their established limits, so the training produces no artificial numerical increase. Its significance lies in making the established force practice coordinated movement over the materially larger estate perimeter rather than merely repeating a stationary drill. Valerius's standing expectation that his men remain disciplined while administrative and commercial responsibilities expand is therefore carried forward into the military routine.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 44,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard road-watch reports",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "independent background security intelligence; not caused by the training exercise"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 49,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's continuing action or administration directive."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E03",
+      "date": "11 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE MERCHANT AFFAIRS OFFICE COMPLETES ITS FIRST CONSOLIDATED CAPITALIZATION CYCLE",
+      "mentioned_entities": [
+        "Valerius's sister",
+        "Merchant Affairs Office",
+        "estate artisans",
+        "established merchant network",
+        "lake port",
+        "principal estate"
+      ],
+      "body": "Valerius's sister completes the first full transaction handled through the newly established Merchant Affairs Office, bringing estate surplus, artisan processing, merchant placement, and lake-port logistics into one documented commercial cycle. The office selects saleable estate material, matches part of it with needed commercial inputs, and sends the appropriate portion to established artisans whose work increases the value of the finished goods before the shipment is consigned through the existing merchant network. The completed cycle realizes 61 denarii in gross receipts against 24 denarii in operating and processing costs, leaving 37 denarii of realized net public profit. The canonical routing therefore sends 3.7 denarii to Valerius's private account and retains 33.3 denarii in the public account. The transaction is recorded as an actual completed capitalization cycle rather than as a forecast of what the larger estate may earn later. The office now has a concrete working record showing how surplus and necessary inputs can move through the same network without creating an exclusive merchant privilege or pre-booking future receipts.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 72,
+          "public_account": 33.3,
+          "private_account": 3.7
+        },
+        "background_sources": [
+          {
+            "source": "lake-port merchant correspondence",
+            "changes": {
+              "intelligence": 11
+            },
+            "basis": "independent background commercial intelligence; not caused by the completed capitalization cycle"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 83,
+          "public_account": 33.3,
+          "private_account": 3.7
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 61,
+          "operating_costs_denarii": 24,
+          "net_public_profit_denarii": 37,
+          "private_transfer_denarii": 3.7,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 33.3,
+          "private_account_change_denarii": 3.7,
+          "currency_flow_denarii": 37,
+          "internal_transfer": true
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Material development of an established campaign, commercial, estate, civic, or mining thread; not merely routine background status."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E04",
+      "date": "12 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE RECURRING SURPLUS CONTRACT SETTLES ON A NEW WINTER MIX",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers",
+        "Merchant Affairs Office"
+      ],
+      "body": "The long-standing surplus-delivery agreement reaches another completed settlement during the week, with the estate stewards assembling a materially different winter mix from the stock actually available after local consumption and handling needs are accounted for. The merchants accept the shipment through the shared-water road, and the realized transaction produces 56 denarii in gross receipts against 22 denarii in current preparation, handling, and transport costs. That leaves 34 denarii of realized net public profit, of which 3.4 denarii is routed to Valerius's private account under the standing ten-percent rule and 30.6 denarii remains public. The Merchant Affairs Office records the settlement alongside, rather than inside, the newer capitalization cycle so the two commercial channels retain distinct accounting histories. No future delivery, expected price, or uncompleted order is entered as present income. The contract therefore continues as an active recurring source of commercial development without becoming a fixed-price template.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 45,
+          "public_account": 30.6,
+          "private_account": 3.4
+        },
+        "background_sources": [
+          {
+            "source": "shared-water road security and traffic reports",
+            "changes": {
+              "intelligence": 4
+            },
+            "basis": "independent background route intelligence; not caused by the contract settlement"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 49,
+          "public_account": 30.6,
+          "private_account": 3.4
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 56,
+          "operating_costs_denarii": 22,
+          "net_public_profit_denarii": 34,
+          "private_transfer_denarii": 3.4,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 30.6,
+          "private_account_change_denarii": 3.4,
+          "currency_flow_denarii": 34,
+          "internal_transfer": true
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Material development of an established campaign, commercial, estate, civic, or mining thread; not merely routine background status."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E05",
+      "date": "13 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE ELECTION RECORDS FORMALLY ACKNOWLEDGE VALERIUS'S SEPARATION OATH",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "local electoral officials",
+        "campaign record keepers",
+        "Valerius's sister"
+      ],
+      "body": "The continuing election process reaches a documentary milestone when the officials maintaining the candidacy records formally acknowledge and preserve Valerius's conditional oath separating his private estate authority from any magistracical authority he would possess if elected. A certified copy is attached to the existing campaign file, while the original remains with the record-keeping process that already contains the candidacy documents. The filing makes the separation commitment part of the documented campaign record, but it does not itself award office, alter a ballot tally, create an endorsement, or establish the election's final result. Valerius continues campaigning under the same unresolved electoral process rather than treating the oath as evidence that the conditional term has already taken effect. The Merchant Affairs Office and the estate administration remain private institutions in the meantime, with no civic authority assigned to them. The development therefore changes the documentary status of the campaign without resolving the election itself.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 53,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "background_sources": [
+          {
+            "source": "political correspondence maintained by the campaign archive",
+            "changes": {
+              "intelligence": 9
+            },
+            "basis": "independent background civic intelligence; not caused by the documentary acknowledgement"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 62,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Material development of an established campaign, commercial, estate, civic, or mining thread; not merely routine background status."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E06",
+      "date": "14 February 57 BCE",
+      "event_category": "Surprise",
+      "title": "AN OLD PROPERTY CLAIM SURFACES AGAINST A DRAINAGE CORRIDOR ON THE NEW ESTATE",
+      "mentioned_entities": [
+        "estate stewards",
+        "former property steward",
+        "nearby landholders",
+        "Gaius Maximus Valerius",
+        "principal estate"
+      ],
+      "body": "A former steward from one of the properties absorbed into the new holding unexpectedly produces a duplicate property memorandum asserting that a narrow drainage corridor crossing the enlarged estate should remain subject to a separate maintenance entitlement. The document is old enough to have survived outside the final package of deeds, and its sudden appearance forces the estate stewards to compare seals, boundary descriptions, and the final transfer records rather than simply discard the claim. The review shows that the memorandum describes a maintenance arrangement associated with the former parcel division, not a surviving ownership right, and the claimant's requested permanent control is therefore rejected. The stewards nevertheless preserve any lawful drainage access that neighboring fields already depended upon, preventing the dispute from becoming an arbitrary closure of an established watercourse. No acreage is removed from the 22.959375-square-mile holding, no payment is made on the unsupported claim, and no new encumbrance is recorded. The incident is significant because the enlarged estate now contains old property relationships that can resurface even after the purchase has been completed, giving the new holding an active legal-history thread rather than a perfectly clean administrative slate.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 79,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "background_sources": [
+          {
+            "source": "family property papers retained with the estate archive",
+            "changes": {
+              "intelligence": 7
+            },
+            "basis": "independent background documentary intelligence; not caused by the resurfaced claim"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 86,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected but causally plausible development arising from established circumstances; consequential but not extraordinary enough for Ultimate."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E07",
+      "date": "15 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND SILVER WORKING COMPLETES ANOTHER SALE FROM ITS MAPPED OUTPUT",
+      "mentioned_entities": [
+        "estate miners",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "silver buyers",
+        "estate stewards"
+      ],
+      "body": "The second silver working produces another realized lot from the previously mapped working area, and Lucius Atilius and Gnaeus Fabius keep the extracted material tied to the measured section rather than extending the record into speculation about deeper reserves. The lot is weighed, assayed, accepted, and sold for 27 denarii in gross receipts against 11 denarii in extraction, sorting, assay, and handling costs. That produces 16 denarii of realized net public profit, sending 1.6 denarii to Valerius's private account and retaining 14.4 denarii publicly. The sale confirms another concrete output from the established working without changing the unresolved question of how much silver may remain below it. No deeper reserve is booked as present wealth, and no additional mine area is added to the holdings. The operation thus continues to develop through measured production rather than speculative valuation.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 49,
+          "public_account": 14.4,
+          "private_account": 1.6
+        },
+        "background_sources": [
+          {
+            "source": "urban estate rent settlement",
+            "changes": {
+              "public_account": 4.5,
+              "private_account": 0.5
+            },
+            "financial_realization": {
+              "gross_receipts_denarii": 8,
+              "operating_costs_denarii": 3,
+              "net_public_profit_denarii": 5,
+              "private_transfer_denarii": 0.5,
+              "treasury_change_denarii": 0,
+              "public_account_change_denarii": 4.5,
+              "private_account_change_denarii": 0.5,
+              "currency_flow_denarii": 5
+            },
+            "basis": "independent background estate income; not caused by the silver sale"
+          },
+          {
+            "source": "urban estate household correspondence",
+            "changes": {
+              "intelligence": 6
+            },
+            "basis": "independent background administrative intelligence; not caused by the silver sale"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 55,
+          "public_account": 18.9,
+          "private_account": 2.1
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 27,
+          "operating_costs_denarii": 11,
+          "net_public_profit_denarii": 16,
+          "private_transfer_denarii": 1.6,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 14.4,
+          "private_account_change_denarii": 1.6,
+          "currency_flow_denarii": 16,
+          "internal_transfer": true
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Material development of an established campaign, commercial, estate, civic, or mining thread; not merely routine background status."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R120-E08",
+      "date": "15 February 57 BCE",
+      "event_category": "Surprise",
+      "title": "A WINTER OBSTRUCTION AT THE LAKE PORT FORCES A SUDDEN COMMERCIAL REROUTING",
+      "mentioned_entities": [
+        "lake-port carriers",
+        "Merchant Affairs Office",
+        "Valerius's sister",
+        "established merchant network",
+        "estate artisans"
+      ],
+      "body": "A sudden winter obstruction at the lake port interrupts the normal loading rhythm used by carriers serving the estate, leaving one scheduled commercial movement unable to use its accustomed loading point on the expected day. Valerius's sister responds through the Merchant Affairs Office by separating the cargo into what can safely remain at the port and what can be redirected through an established overland approach connected to the principal estate. The rerouting avoids a full stoppage of the network and allows the merchants and artisans to preserve the goods already prepared for movement without assuming that the original route has permanently failed. The event does not create a new permanent road right, a new contract, or speculative revenue; it changes only the immediate logistics of the current movement. The obstruction is important because the new office is tested by a real disruption only days after its creation, forcing commercial records, carriers, artisans, and the lake-port connection to operate as one system under pressure. The lake port remains an active component of the trade network after the interruption, but the office now has a documented contingency procedure for short winter disruptions.",
+      "round_number": 120,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 63,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "background_sources": [
+          {
+            "source": "estate artisan inventory and production reporting",
+            "changes": {
+              "intelligence": 6
+            },
+            "basis": "independent background production intelligence; not caused by the lake-port obstruction"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 69,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected but causally plausible development arising from established circumstances; consequential but not extraordinary enough for Ultimate."
+      }
+    }
+  ],
+  "round_summary": "Round 120 records the first material administrative and commercial consequences of the 15-square-mile expansion, continued military training, and the new Merchant Affairs Office. The recurring contract and silver working generate independently realized income, while the campaign record advances without an electoral result. An unexpected property-document claim and a winter lake-port obstruction create additional complications without changing the ownership total, military strength, or fixed bounded metrics."
+}
