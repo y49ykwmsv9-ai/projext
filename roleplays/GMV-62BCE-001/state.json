@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 107,
-  "date": "-0057-11-16",
+  "round": 108,
+  "date": "-0057-11-23",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3161.1,
-    "private": 621.9,
+    "public": 3180.9,
+    "private": 600.1,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 31,
-    "last_round_private_transfer": 3.1
+    "last_round_net_public_profit": 22,
+    "last_round_private_transfer": 2.2
   },
   "metrics": {
     "soldiers": 414,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4437,
+    "intelligence": 4712,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -49,33 +49,32 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "16 November 57 BCE: Valerius is a formally registered candidate in the lowest-level civic election; no vote or result has occurred.",
-    "commercial_thread": "The sixth recurring surplus-delivery settlement realized 33 gross / 12 costs / 21 net; 2.1 privately transferred and 18.9 retained publicly.",
-    "road_thread": "The protected shared-water road remains open and toll-free; the 100-man guard continues ordinary protection.",
-    "road_investigation": "Servilius and Cassius found a weathered marked stone beside the secondary alignment; builder, date, authority, and purpose remain unresolved.",
-    "political_correspondence": "Celer acknowledges the candidacy without offering office, payment, endorsement, or alliance.",
-    "medical_recovery": "All previously unavailable men remain fully returned to duty; temporary unavailable strength is 0.",
-    "refuge_policy": "A second displaced household has been admitted beneath Valerius’s established protective policy; population is now 257.",
-    "election_thread": "Valerius's candidacy is formally registered; no votes or electoral result have occurred.",
+    "campaign_development": "23 November 57 BCE: Valerius has expanded his silver interests through acquisition of incompletely mapped veins and ordered a second, more public working site; no new silver revenue is realized yet.",
+    "commercial_thread": "The seventh recurring surplus-delivery settlement realized 35 gross / 13 costs / 22 net; 2.2 privately transferred and 19.8 retained publicly.",
+    "road_thread": "The protected shared-water road remains open and toll-free under the established 100-man guard.",
+    "road_investigation": "Servilius and Cassius continue preserving and comparing the marked stone without establishing its builder, date, authority, or purpose.",
+    "political_correspondence": "Valerius's candidacy remains active; another formal electorate question was answered without implying an electoral result.",
+    "refuge_policy": "The second displaced household has begun ordinary estate work; population remains 257.",
+    "election_thread": "Valerius remains a registered candidate; no votes or electoral result have occurred.",
     "local_infrastructure_thread": "The shared-water road remains open and toll-free.",
     "personal_guard": "100 total: 50 infantry and 50 cavalry; all remain available.",
-    "land_holdings": "Six adjoining acres were acquired for 9 denarii, increasing holdings to 7.959375 square miles / 5,094 acres."
+    "silver_development_thread": "Valerius purchased additional incompletely mapped silver veins for 24 private denarii and ordered a second public-facing working site. Survey and construction are underway; no future production receipt is booked."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 32.192307281764556,
+    "current_round_roll": 23.03189767693218,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      27.787973236289886,
-      21.166477154574757,
-      52.72396529613502
+      87.66878791409684,
+      4.81683525468145,
+      18.8303343856129
     ],
-    "current_round_magnitude_11_events": 0
+    "current_round_magnitude_11_events": 1
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
@@ -98,22 +97,22 @@
     "generated_special_event": null
   },
   "financial_realization": {
-    "gross_receipts_denarii": 50,
-    "operating_costs_denarii": 19,
-    "net_public_profit_denarii": 31,
-    "private_transfer_denarii": 3.1,
-    "public_account_change_denarii": 18.9,
-    "private_account_change_denarii": 3.1,
-    "currency_flow_denarii": 31,
-    "capital_acquisition_denarii": 9,
+    "gross_receipts_denarii": 35,
+    "operating_costs_denarii": 13,
+    "net_public_profit_denarii": 22,
+    "private_transfer_denarii": 2.2,
+    "public_account_change_denarii": 19.8,
+    "private_account_change_denarii": -21.8,
+    "currency_flow_denarii": -2,
+    "capital_acquisition_denarii": 24,
     "internal_transfer": true,
-    "ten_percent_profit_transfer_denarii": 3.1
+    "ten_percent_profit_transfer_denarii": 2.2
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 108,
-    "next_date": "-0057-11-23",
-    "requirements": "All round persistence and post-commit verification must pass before Round 108 generation."
+    "next_round": 109,
+    "next_date": "-0057-11-30",
+    "requirements": "All round persistence and post-commit verification must pass before Round 109 generation."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1180,8 +1179,8 @@
       }
     ]
   },
-  "latest_round": 107,
-  "latest_date": "-0057-11-16",
+  "latest_round": 108,
+  "latest_date": "-0057-11-23",
   "soldiers": 414,
   "population": 257,
   "taxation": 3,
@@ -1197,7 +1196,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 4437,
+  "intelligence": 4712,
   "relations": 100,
   "land_area_sq_miles": 7.959375,
   "temporary_unavailable": 0,
@@ -1235,7 +1234,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4437,
+    "intelligence": 4712,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
@@ -1263,8 +1262,8 @@
       "after": 414
     },
     "population": {
-      "before": 254,
-      "change": 3,
+      "before": 257,
+      "change": 0,
       "after": 257
     },
     "taxation": {
@@ -1333,9 +1332,9 @@
       "after": 100
     },
     "intelligence": {
-      "before": 4227,
-      "change": 210,
-      "after": 4437
+      "before": 4437,
+      "change": 275,
+      "after": 4712
     },
     "relations": {
       "before": 100,
@@ -1343,8 +1342,8 @@
       "after": 100
     },
     "land_area_sq_miles": {
-      "before": 7.95,
-      "change": 0.009374999999999467,
+      "before": 7.959375,
+      "change": 0,
       "after": 7.959375
     },
     "temporary_unavailable": {
