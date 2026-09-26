@@ -1,0 +1,429 @@
+{
+  "schema_version": "gmv-news-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 119,
+  "date": "8 February 57 BCE",
+  "headline": "VALERIUS CONSOLIDATES HIS LAND, COMMERCIAL ADMINISTRATION, AND CIVIC SEPARATION AS THE ELECTION CONTINUES",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R119-E01",
+      "date": "8 February 57 BCE",
+      "event_category": "Ultimate",
+      "title": "THE FIFTEEN-SQUARE-MILE PURCHASE BECOMES AN EXTRAORDINARY CONSOLIDATION OF VALERIUS'S ESTATE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "nearby landowners",
+        "estate stewards",
+        "principal estate",
+        "estate labor contractors",
+        "lake-port route"
+      ],
+      "body": "You make the decision at the beginning of the week to turn a substantial portion of your privately held commercial reserves into land while winter weakness in the surrounding market has made adjoining property unusually obtainable. You authorize the liquidation of 420 denarii of private reserve holdings, treating the conversion as a movement of your own capital rather than as public revenue. The money is immediately placed at the disposal of the stewards for a single strategic purpose: to acquire a contiguous body of the most productive available land already touching the borders of your principal estate.\n\nThe opportunity is larger than an ordinary purchase. Negotiations bring together several adjoining parcels whose owners are prepared to sell at prices low enough to make consolidation possible without breaking the estate's existing financial position. The resulting package amounts to exactly 15.000000 square miles, or 9,600 acres, and every parcel directly borders land that you already own. There are no detached fragments and no isolated purchases that would leave inconvenient gaps between your holdings.\n\nThe price is negotiated as a complete estate package rather than as raw acreage alone. The 9,600 acres of prime productive land are valued at 192 denarii, the existing estate buildings and working improvements at 108 denarii, the contracted labor and seasonal wage obligations included through the agreed working period at 60 denarii, and surveys, deeds, boundary confirmation, and transfer costs at 20 denarii. The complete acquisition price is therefore 380 denarii, all obligations included.\n\nThe liquidation is carried out privately and immediately. Four hundred and twenty denarii of your reserve position is converted into liquid purchasing funds; 380 denarii is paid for the land package and its included obligations, leaving 40 denarii as additional liquid private balance. No public operating money is touched, no treasury money is borrowed, and no future commercial receipt is counted to justify the purchase.\n\nThe first boundary survey is straightforward in one respect and remarkable in another. The lines of the parcels fit together far more cleanly than the individual deeds had suggested, producing one continuous belt of productive ground around the already-established estate rather than an awkward collection of separate properties. The stewards mark the external boundary once, then work inward to identify the individual fields and estate improvements that now sit inside it.\n\nYou walk the principal boundary with the stewards while the final deeds are compared against the older estate records. What had previously been a narrow holding now has a broad agricultural shoulder on every side where neighboring parcels have been consolidated into your ownership. The change is visible from the estate itself: fields that were previously outside your boundary now run outward from the same landscape that has long supplied your household and commercial operations.\n\nThe purchased land is not empty ground awaiting invention. Existing cultivated fields, storage buildings, presses, wells, barns, work yards, and other estate improvements are already functioning across the acquired plots. Their condition varies, but enough of the productive infrastructure is intact that the purchase transfers an operating landscape rather than merely a future promise of farmland.\n\nThe labor provision is handled with equal care. The package includes the prices and existing contractual obligations for seasonal labor associated with the acquired estates, allowing the stewards to continue the agreed work without treating the workers themselves as property transferred with the land. The wage obligations are part of the negotiated package, while the people remain workers under their respective arrangements.\n\nAs the stewards compare the newly acquired properties against the principal estate's records, an unexpected physical relationship becomes clear. Several drainage lines, field channels, storage approaches, and cart tracks align across the former property boundaries as though the neighboring estates had long depended upon one another for their most efficient operation. The legal boundaries had been separate; the productive system beneath them was not.\n\nThe discovery changes the character of the purchase. Instead of possessing 15 square miles that merely happen to touch the principal estate, you now hold a contiguous agricultural system whose existing water and movement patterns can be managed as one interconnected domain. The stewards begin marking the places where the old divisions had forced separate maintenance decisions even though the same channels and paths served fields on both sides.\n\nThe most important water connections are found where low ground naturally carries winter runoff toward existing drainage works. The newly purchased parcels contain no miraculous new reservoir, but they do contain several functioning channels and collection points that make the land substantially more coherent than the title records alone suggested. The stewards therefore preserve the existing works while redrawing the administrative map around the actual flow of water.\n\nThe cart network proves equally consequential. Existing tracks leave the acquired estates in several directions, and one well-maintained branch leads toward the same commercial approach already used by the principal estate for movement toward the lake-port route. Once the boundary consolidation is complete, merchants will no longer have to treat the former parcel lines as separate destinations when collecting material.\n\nThe old storage buildings add a second layer of opportunity. Several granaries and work spaces are serviceable enough to be incorporated into the estate's wider inventory system, while the more damaged structures are marked for later inspection rather than immediately presented as fully productive assets. No future capacity is booked simply because the buildings now belong to you.\n\nThe estate artisans are brought to the new boundary only after the legal transfer is complete. They inspect the presses, timber work, metal fittings, carts, and storage arrangements with the same measurement discipline already adopted in the principal estate. Their initial report is that the acquisition contains enough usable equipment and work space to integrate gradually into the established production network rather than requiring a wholesale reconstruction.\n\nThe commercial consequences are not immediate riches but a new scale of coordination. Surplus can now be sorted across a much larger continuous holding, inputs can be assigned to the estates that need them most, and merchant carriers can be directed toward whichever collection point is most efficient. The lake port remains the outward commercial artery, while the principal estate becomes even more clearly the administrative center from which the enlarged holding can be coordinated.\n\nYou also order that the legal distinction between private estate authority and any future civic authority remain untouched. The land is yours as private property; the acquisition does not give you magistrate powers, public roads become private merely because they cross the boundary, and existing lawful access arrangements remain governed by their established rules. The stewards therefore record ownership, use, and civic responsibility separately rather than allowing the scale of the purchase to blur them.\n\nBy the end of the week the deeds are sealed, the new boundary is marked, and the estate records no longer describe the surrounding productive land as a collection of neighboring holdings. It is now a single contiguous agricultural domain of 22.959375 square miles, or 14,694 acres, including the original estate and the newly purchased land. The acquisition itself produces no artificial increase to the capped agriculture or infrastructure statistics, because those measures were already at their limits; the concrete state change is ownership of the additional land and the commercial, logistical, and administrative opportunities it creates.\n\nThe 40-denarius remainder from the reserve liquidation stays liquid in your private account, while the 380-denarius purchase is recorded as capital acquisition. No public funds have been diverted, and no speculative return has been entered. The financial record therefore preserves exactly what happened: reserve capital was converted, a larger private land asset was acquired, and the difference remained liquid.\n\nWhen you stand again at the edge of the principal estate, the boundary stakes no longer point toward scattered neighboring farms. They define one continuous holding whose fields, estate buildings, labor arrangements, water channels, storage spaces, and roads can now be administered together. The purchase began as a calculated liquidation of reserves for cheap land; it ends as a fundamental enlargement of the physical and commercial base from which Valerius's estate can operate.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 116,
+          "private_account": 40,
+          "land_area_sq_miles": 15
+        },
+        "background_sources": [
+          {
+            "source": "estate title archives and prior boundary correspondence",
+            "changes": {
+              "intelligence": 14
+            },
+            "basis": "independent background legal and geographic intelligence; not caused by the acquisition itself"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 130,
+          "public_account": 0,
+          "private_account": 40,
+          "land_area_sq_miles": 15
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 40,
+          "currency_flow_denarii": 40,
+          "internal_transfer": true,
+          "private_reserve_liquidation_denarii": 420,
+          "capital_acquisition_denarii": 380,
+          "capital_conversion_net_private_denarii": 40,
+          "basis": "Internal private-capital conversion: 420 denarii of reserve holdings liquidated to cash; 380 denarii used for the all-in land/estate/labor package; 40 denarii remains liquid privately. This is not operating revenue and is not subject to the 10% public-profit routing."
+        }
+      },
+      "classification_audit": {
+        "final_category": "Ultimate",
+        "causal_basis": "R114-R118 each contained no Ultimate. The five-round contingency is reached in R119, and this actual circumstance independently qualifies: a 15-square-mile/9,600-acre contiguous acquisition with estate improvements and labor obligations materially transforms the private holding and its commercial base."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E02",
+      "date": "8 February 57 BCE",
+      "event_category": "Direct",
+      "title": "THE 414-MAN FORCE CONTINUES ITS WINTER TRAINING CYCLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "personal guard",
+        "414-man force"
+      ],
+      "body": "Training continues across the established 414-man force under the supervision of Titus Varenus, with infantry and cavalry rehearsing assembly, movement, controlled advance, withdrawal, and communication between the two arms. The exercise remains a continuation of Valerius's established military practice rather than a recruitment or mobilization. The full personal guard is accounted for, including its 50 infantry and 50 cavalry, and no injury or temporary loss of availability is recorded. Readiness, organization, morale, and the other bounded military measures remain at their established maximums, so the training produces no artificial numerical increase. Its significance is that the enlarged estate and expanding commercial responsibilities are developing alongside a force that continues to practice discipline rather than allowing routine administrative growth to displace military preparedness.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 44
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard road-watch reports",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "independent background security intelligence; not caused by the training cycle"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 49,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Direct continuation of Valerius's explicit instruction to continue training his men."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E03",
+      "date": "8 February 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS ESTABLISHES A MERCHANT AFFAIRS OFFICE AND PLACES HIS SISTER IN CHARGE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's sister",
+        "Merchant Affairs Office",
+        "estate stewards",
+        "established merchant network"
+      ],
+      "body": "Valerius formally establishes a Merchant Affairs Office to consolidate the commercial practices that had previously been handled through separate estate stewards, merchant contacts, lake-port carriers, and artisan workshops. He assigns his sister to direct the office, giving her responsibility for coordinating merchant correspondence, matching surplus to buyers, identifying needed inputs, comparing transport arrangements, keeping commercial records together, and presenting completed transactions for Valerius's review. The office does not replace the existing merchant network; it becomes the central administrative point through which that network is coordinated. Her first instructions emphasize the same distinction Valerius has already imposed elsewhere: future revenue is never recorded until a transaction is actually completed, and private estate authority remains separate from any civic authority. The establishment materially changes the estate's administration because merchant affairs now have a named office, a continuous chain of records, and one family representative responsible for reconciling the different commercial channels. The office begins with the principal estate as its administrative center, while the lake port and established artisan network remain active field connections.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 78
+        },
+        "background_sources": [
+          {
+            "source": "lake-port merchant correspondence",
+            "changes": {
+              "intelligence": 10
+            },
+            "basis": "independent background commercial intelligence; not caused by the office's establishment"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 88,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's explicit decision to establish a Merchant Affairs Office and assign his sister to manage it."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E04",
+      "date": "8 February 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS SIGNS A BINDING CONDITIONAL OATH SEPARATING ESTATE AND MAGISTRACIAL AUTHORITY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's sister",
+        "local electoral officials",
+        "campaign record keepers"
+      ],
+      "body": "During the continuing election process, Valerius signs a binding conditional oath stating that, should he win the office for which he is standing, his private estate administration will remain legally and operationally separate from the authority entrusted to him as a magistrate. The document distinguishes estate land, private accounts, merchant administration, and personal guard arrangements from any public authority that would arise from the office, and it is deposited with the campaign's existing procedural records. The oath does not itself confer office, change a vote count, create an endorsement, or establish an electoral result. Its immediate effect is documentary: the candidacy now carries a formally recorded commitment that private estate powers are not to be treated as civic powers if the conditional term ever comes into force. Valerius continues campaigning through the existing lawful process while the election remains unresolved.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 69
+        },
+        "background_sources": [
+          {
+            "source": "political correspondence maintained by the campaign archive",
+            "changes": {
+              "intelligence": 8
+            },
+            "basis": "independent background civic intelligence; not caused by the oath signing"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 77,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's explicit decision to sign the conditional separation oath during his ongoing candidacy."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E05",
+      "date": "8 February 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE LAKE PORT PRODUCES AN UNEXPECTED BARGAIN FOR NEEDED INPUTS",
+      "mentioned_entities": [
+        "lake-port merchants",
+        "Valerius's merchant network",
+        "estate artisans",
+        "Merchant Affairs Office"
+      ],
+      "body": "A merchant house at the lake port unexpectedly offers a mixed consignment that solves several of the estate's immediate input needs at a lower delivered price than the stewards had anticipated. The merchants are willing to accept a corresponding batch of estate surplus and artisan-finished goods in the same commercial negotiation, allowing the exchange to be completed through the network already being coordinated for the new Merchant Affairs Office. The completed transaction realizes 52 denarii in gross receipts against 19 denarii in processing, input acquisition, packing, and port transport costs, producing 33 denarii of realized net public profit. Under the established routing rule, 3.3 denarii is transferred internally to Valerius's private account while 29.7 denarii remains public. The significance is not merely the profit: the lake-port network has unexpectedly demonstrated that surplus and required inputs can be matched in the same completed commercial operation, reducing the need to treat every purchase and sale as an isolated transaction. No future order value is booked, and no permanent new contract is assumed from the completed bargain.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 84,
+          "public_account": 29.7,
+          "private_account": 3.3
+        },
+        "background_sources": [
+          {
+            "source": "independent lake-port traffic reports",
+            "changes": {
+              "intelligence": 7
+            },
+            "basis": "background commercial intelligence; not caused by the completed bargain"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 91,
+          "public_account": 29.7,
+          "private_account": 3.3
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 52,
+          "operating_costs_denarii": 19,
+          "net_public_profit_denarii": 33,
+          "private_transfer_denarii": 3.3,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 29.7,
+          "private_account_change_denarii": 3.3,
+          "currency_flow_denarii": 33,
+          "internal_transfer": true
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected material market opportunity emerging from the established lake-port merchant network and the broadened capitalization practice; not extraordinary enough for Ultimate."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E06",
+      "date": "8 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE RECURRING SURPLUS CONTRACT SETTLES THROUGH THE ENLARGED COMMERCIAL SYSTEM",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers",
+        "shared-water road",
+        "Merchant Affairs Office"
+      ],
+      "body": "The standing surplus-delivery agreement reaches another completed settlement as the current estate surplus is assembled and moved along the established shared-water road. The merchants accept a consignment that realizes 51 denarii in gross receipts against 21 denarii in harvesting, preparation, handling, and transport costs, leaving 30 denarii of realized net public profit. The established ten-percent routing transfers 3 denarii to Valerius's private account and retains 27 denarii publicly. The settlement remains a distinct recurring transaction rather than a mechanical repetition of prior deliveries, and the new Merchant Affairs Office records it alongside the broader commercial activity without altering the contract's existing identity. No future receipt is booked merely because the agreement remains active.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 44,
+          "public_account": 27,
+          "private_account": 3
+        },
+        "background_sources": [
+          {
+            "source": "shared-water road security and traffic reports",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "independent background route intelligence; not caused by the contract settlement"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 49,
+          "public_account": 27,
+          "private_account": 3
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 51,
+          "operating_costs_denarii": 21,
+          "net_public_profit_denarii": 30,
+          "private_transfer_denarii": 3,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 27,
+          "private_account_change_denarii": 3,
+          "currency_flow_denarii": 30,
+          "internal_transfer": true
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established recurring commercial agreement under current winter supply and transport conditions."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E07",
+      "date": "8 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND SILVER WORKING COMPLETES ANOTHER SALE WHILE URBAN RENT ALSO SETTLES",
+      "mentioned_entities": [
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "silver buyers",
+        "estate stewards",
+        "urban estate tenants",
+        "Marcus Petronius"
+      ],
+      "body": "The second silver working produces another measured commercial lot from the mapped portion of the mine, and Lucius Atilius and Gnaeus Fabius have the material weighed and assayed before it is accepted by the buyers. The completed sale realizes 21 denarii in gross receipts against 8 denarii in extraction, sorting, assay, and handling costs, leaving 13 denarii of realized net public profit. The established ten-percent rule transfers 1.3 denarii to Valerius's private account while 11.7 denarii remains public. During the same accounting period, an independent urban estate rent settlement realizes 7 denarii in gross receipts against 2 denarii in collection and maintenance costs, producing 5 denarii of net profit; 0.5 denarii is routed privately and 4.5 denarii remains public. The rent is explicitly a background source and is not treated as income caused by the silver sale. The combined accounting therefore records two separate realized financial developments while keeping the mine's actual production distinct from ordinary urban estate revenue.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 56,
+          "public_account": 11.7,
+          "private_account": 1.3
+        },
+        "background_sources": [
+          {
+            "source": "urban estate rent settlement",
+            "changes": {
+              "public_account": 4.5,
+              "private_account": 0.5
+            },
+            "financial_realization": {
+              "gross_receipts_denarii": 7,
+              "operating_costs_denarii": 2,
+              "net_public_profit_denarii": 5,
+              "private_transfer_denarii": 0.5,
+              "treasury_change_denarii": 0,
+              "public_account_change_denarii": 4.5,
+              "private_account_change_denarii": 0,
+              "currency_flow_denarii": 0
+            },
+            "basis": "independent background estate income; not caused by the silver sale"
+          },
+          {
+            "source": "urban estate household correspondence",
+            "changes": {
+              "intelligence": 6
+            },
+            "basis": "independent background administrative intelligence; not caused by the silver sale"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 62,
+          "public_account": 16.2,
+          "private_account": 1.8
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 28,
+          "operating_costs_denarii": 10,
+          "net_public_profit_denarii": 18,
+          "private_transfer_denarii": 1.8,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 16.2,
+          "private_account_change_denarii": 1.8,
+          "currency_flow_denarii": 18,
+          "internal_transfer": true
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material developments of the established second-silver-working thread and independent urban-estate revenue stream."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R119-E08",
+      "date": "8 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE NEW MEASUREMENT STANDARD CATCHES A MATERIAL WEIGHT DISCREPANCY",
+      "mentioned_entities": [
+        "Lucius Marcius",
+        "Marcus Petronius",
+        "estate artisans",
+        "merchant carriers",
+        "Merchant Affairs Office"
+      ],
+      "body": "A commercial lot presented for acceptance is subjected to the measurement procedure formalized in the estate records during the previous round, and the documented measurements reveal that the delivered quantity does not match the merchant's stated weight. The discrepancy is material enough that the estate refuses to settle the lot as presented and sends it back for remeasurement rather than treating the claimed quantity as authoritative. The Merchant Affairs Office records the incident with the measurement standard attached, allowing the same problem to be evaluated consistently if the consignment returns. No purchase or sale is realized from the disputed lot, so no revenue, profit, or loss is booked. The significance lies in the new commercial discipline: Valerius's expanding network now has a documented method for deciding what quantity has actually been delivered, reducing the opportunity for later disputes without turning an unresolved transaction into artificial income.",
+      "round_number": 119,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 51
+        },
+        "background_sources": [
+          {
+            "source": "estate inventory and artisan reporting",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "independent background production intelligence; not caused by the disputed measurement"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 56,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Material practical consequence of the established technical-measurement and commercial-recordkeeping threads."
+      }
+    }
+  ],
+  "round_summary": "Round 119 brings an extraordinary contiguous land consolidation, continued military training, a new Merchant Affairs Office under Valerius's sister, a binding conditional separation oath, an unexpected lake-port trade bargain, another recurring-contract settlement, silver realization, and a material commercial measurement dispute."
+}
