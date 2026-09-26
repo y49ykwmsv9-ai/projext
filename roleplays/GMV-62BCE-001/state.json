@@ -1,11 +1,11 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 105,
-  "date": "-0057-11-02",
+  "round": 106,
+  "date": "-0057-11-09",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3125.1,
-    "private": 616.9,
+    "public": 3142.2,
+    "private": 618.8,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 17,
     "last_round_private_transfer": 1.7
@@ -49,45 +49,43 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "2 November 57 BCE: the patrol corridor has become routine; the sanctuary household is settling under protection; the fourth recurring surplus settlement realized 27 gross / 10 costs / 17 net with 1.7 privately transferred and 15.3 retained publicly; smallholders have renewed their shared-road request; Servilius and Cassius found a secondary alignment beside older roadwork; Celer continues his administrative inquiry; and one recovering veteran returned to ordinary duty.",
-    "land_area_history": "Round 99 reaches 7.9375 sq mi; Round 101 adds 8 acres (0.0125 sq mi), reaching 7.95 sq mi.",
-    "road_investigation": "Servilius and Cassius found a secondary alignment beside older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
-    "estate_consolidation": "Automatic adjoining-property acquisition remains active; no new purchase was required this round.",
-    "capped_stat_surplus": "Round 99 agricultural output exceeded the 100-point agriculture cap. The event realized 18 denarii net public profit before the canonical 10% realized-profit transfer; 1.8 denarii routed to Valerius's private account, leaving 16.2 denarii retained publicly.",
-    "political_correspondence": "Celer continues asking how sanctuary decisions are made and how Valerius’s private guard remains under his authority; no office, command, payment, or binding commitment exists.",
-    "commercial_thread": "The long-term surplus-delivery agreement remains active; the fourth contracted consignment settled this round for 27 gross / 10 costs / 17 net. No future receipts are booked.",
-    "local_infrastructure_thread": "Smallholders have submitted a written shared-road petition; no construction or expenditure has occurred.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; patrol duties rotate within the existing force and one recovering veteran has returned to lighter ordinary duty.",
-    "road_thread": "The shared-water road remains in routine local use and is covered by an unbroken patrol corridor from the lake port through the water-access approach.",
-    "medical_recovery": "One man remains temporarily unavailable after one recovering veteran returned to ordinary duty.",
-    "refuge_policy": "The accepted refugee household is settling as ordinary protected residents; protection does not alter property boundaries or grant unrestricted access to armed quarters."
+    "campaign_development": "9 November 57 BCE: Valerius answered the outstanding messages, the final recovering man returned to duty, Valerius declared for the lowest-level next civic election, the fifth recurring surplus settlement realized 30 gross / 11 costs / 19 net with 1.9 privately transferred and 17.1 retained publicly, ordinary local traffic expanded on the protected road, the older-road survey continued, and the candidacy entered local political discussion.",
+    "commercial_thread": "The long-term surplus-delivery agreement remains active; the fifth contracted consignment settled this round for 30 gross / 11 costs / 19 net. No future receipts are booked.",
+    "road_thread": "The shared-water road remains in routine local and merchant use and is covered by an unbroken patrol corridor from the lake port through the water-access approach.",
+    "road_investigation": "Servilius and Cassius continue tracing the secondary alignment beside older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
+    "political_correspondence": "Valerius answered Celer’s questions: sanctuary admission remains under Valerius and his appointed stewards, while the guard remains under his direct authority and Varenus’s orders. No office, payment, command, or binding political commitment exists.",
+    "medical_recovery": "All previously unavailable men have now returned to duty; temporary unavailable strength is 0.",
+    "refuge_policy": "The accepted refugee household remains under the estate shield as protected residents; protection does not alter property boundaries or grant unrestricted access to armed quarters.",
+    "election_thread": "Valerius has publicly declared his candidacy in the lowest-level civic election currently next on the local electoral calendar. No election result, endorsement, office, or political alliance is yet established.",
+    "local_infrastructure_thread": "The shared-water road remains toll-free for ordinary local traffic as well as merchant traffic; no new construction expenditure occurred this round.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; all personnel are now available for ordinary duty."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 60.20901874024152,
+    "current_round_roll": 66.06585094789827,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      20.215047406042952,
-      0.16817925447600857,
-      3.4204783595477517
+      19.45075900713067,
+      28.26129700775747,
+      11.631366324889935
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 60.20901874024152,
+    "roll": 66.06585094789827,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      20.215047406042952,
-      0.16817925447600857,
-      3.4204783595477517
+      19.45075900713067,
+      28.26129700775747,
+      11.631366324889935
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
@@ -95,19 +93,19 @@
     "ten_percent_profit_transfer_rule": "PASS",
     "recurring_financial_agreement_settlement": "PASS",
     "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "post_commit_verification": "PASS",
+    "generated_special_event": null
   },
   "financial_realization": {
-    "treasury": 1668,
-    "public": 3125.1,
-    "private": 616.9,
-    "gross_receipts_denarii": 27,
-    "operating_costs_denarii": 10,
-    "net_public_profit_denarii": 17,
-    "private_transfer_denarii": 1.7,
-    "public_account_change_denarii": 15.3,
-    "private_account_change_denarii": 1.7,
-    "recurring_agreement_id": "gmv_surplus_delivery_contract_01"
+    "gross_receipts_denarii": 30,
+    "operating_costs_denarii": 11,
+    "net_public_profit_denarii": 19,
+    "private_transfer_denarii": 1.9,
+    "public_account_change_denarii": 17.1,
+    "private_account_change_denarii": 1.9,
+    "currency_flow_denarii": 19,
+    "internal_transfer": true,
+    "ten_percent_profit_transfer_denarii": 1.9
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
@@ -1175,8 +1173,8 @@
       }
     ]
   },
-  "latest_round": 105,
-  "latest_date": "-0057-11-02",
+  "latest_round": 106,
+  "latest_date": "-0057-11-09",
   "soldiers": 414,
   "population": 254,
   "taxation": 3,
@@ -1192,39 +1190,16 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 3962,
+  "intelligence": 4227,
   "relations": 100,
   "land_area_sq_miles": 7.95,
-  "temporary_unavailable": 2,
+  "temporary_unavailable": 0,
   "continuity_checks": {
     "canonical_state_read": "PASS",
-    "local_random_resolution": "PASS",
-    "causal_event_generation": "PASS",
-    "ultimate_reclassification_gate": "PASS",
-    "narrative_contract": "PASS",
-    "semantic_state_consistency": "PASS",
-    "fixed_metric_schema": "PASS",
-    "metric_bounds": "PASS",
-    "round_delta_reconciliation": "PASS",
-    "financial_realization_reconciled": "PASS",
-    "plausible_financial_quantification": "PASS",
-    "land_and_property_consistency": "PASS",
     "recurring_character_continuity": "PASS",
     "event_variety_and_causal_diversity": "PASS",
-    "current_total_ledger_complete": "PASS",
-    "random_classification_consistency": "PASS",
-    "exact_quantity_unit_consistency": "PASS",
-    "military_state_consistency": "PASS",
-    "economic_financial_consistency": "PASS",
-    "agriculture_state_consistency": "PASS",
-    "literal_revenue_realization_check": "PASS",
-    "ultimate_event_contract": "PASS",
-    "final_end_of_round_validation": "PASS",
     "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS",
-    "geographic_reference_consistency": "PASS",
-    "geographic_source_protection": "PASS",
-    "surprise_special_expanded_prose": "PASS"
+    "post_commit_verification": "PASS"
   },
   "valerius_equipment": {
     "armor_style": "traditional Roman",
@@ -1253,25 +1228,25 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4070,
+    "intelligence": 4227,
     "relations": 100,
     "land_area_sq_miles": 7.95,
-    "temporary_unavailable": 1
+    "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3125.1,
-    "private_account": 616.9,
+    "public_account": 3142.2,
+    "private_account": 618.8,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 27,
-      "operating_costs_denarii": 10,
-      "net_public_profit_denarii": 17,
-      "private_transfer_denarii": 1.7,
-      "public_account_change_denarii": 15.3,
-      "private_account_change_denarii": 1.7,
-      "currency_flow_denarii": 17,
+      "gross_receipts_denarii": 30,
+      "operating_costs_denarii": 11,
+      "net_public_profit_denarii": 19,
+      "private_transfer_denarii": 1.9,
+      "public_account_change_denarii": 17.1,
+      "private_account_change_denarii": 1.9,
+      "currency_flow_denarii": 19,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 1.7
+      "ten_percent_profit_transfer_denarii": 1.9
     }
   },
   "round_delta_ledger": {
@@ -1285,15 +1260,111 @@
       "change": 0,
       "after": 254
     },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
     "intelligence": {
-      "before": 3962,
-      "change": 108,
-      "after": 4070
+      "before": 4227,
+      "change": 157,
+      "after": 4227
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "land_area_sq_miles": {
+      "before": 7.95,
+      "change": 0,
+      "after": 7.95
     },
     "temporary_unavailable": {
-      "before": 2,
+      "before": 0,
       "change": -1,
-      "after": 1
+      "after": 0
     }
+  },
+  "validation_ledger": {
+    "canonical_state_read": "PASS",
+    "local_random_resolution": "PASS",
+    "causal_event_generation": "PASS",
+    "ultimate_reclassification_gate": "PASS",
+    "narrative_contract": "PASS",
+    "semantic_state_consistency": "PASS",
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "round_delta_reconciliation": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_and_property_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety_and_causal_diversity": "PASS",
+    "current_total_ledger_completeness": "PASS",
+    "random_classification_consistency": "PASS",
+    "final_end_of_round_validation": "PASS",
+    "ten_percent_profit_transfer_rule": "PASS",
+    "recurring_financial_agreement_settlement": "PASS"
   }
 }
