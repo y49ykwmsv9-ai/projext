@@ -524,8 +524,8 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING",
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS",
     "ai_ledger_embedded_in_each_event": "PASS",
     "event_format_contract": "PASS"
   },
