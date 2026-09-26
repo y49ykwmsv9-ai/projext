@@ -2,10 +2,10 @@
   "schema_version": "gmv-canonical-index-v1",
   "campaign_id": "GMV-62BCE-001",
   "canonical_pointer": {
-    "latest_round": 91,
-    "latest_date": "-0057-07-27",
-    "round_file": "roleplays/GMV-62BCE-001/rounds/round-91.json",
-    "news_file": "roleplays/GMV-62BCE-001/news/round-91.json",
+    "latest_round": 92,
+    "latest_date": "-0057-08-03",
+    "round_file": "roleplays/GMV-62BCE-001/rounds/round-92.json",
+    "news_file": "roleplays/GMV-62BCE-001/news/round-92.json",
     "state_file": "roleplays/GMV-62BCE-001/state.json",
     "scenario_file": "roleplays/GMV-62BCE-001/scenario.json"
   },
@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 91 repaired after stale state mirrors were detected; canonical pointer, state, scenario, round record, and news record synchronized and re-read."
+  "last_verified": "Round 92 written; awaiting final re-read and canonical gate closure."
 }
