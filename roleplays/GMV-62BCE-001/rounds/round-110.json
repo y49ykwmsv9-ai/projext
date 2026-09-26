@@ -572,8 +572,8 @@
     "current_total_completeness": "PASS",
     "randomness_integrity": "PASS",
     "round_date_and_numbering": "PASS",
-    "canonical_pointer_synchronization": "PENDING",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "continuity": {
     "campaign_development": "7 December 57 BCE: the estate's open-access policy is functioning under exact cost recovery while the silver-and-grain commercial arrangement begins producing independently priced combined consignments.",
@@ -587,9 +587,9 @@
     "local_infrastructure_thread": "Estate public roads and merchant facilities remain open to all law-abiding Roman citizens under exact operating-cost recovery."
   },
   "next_round_gate": {
-    "status": "PENDING_COMMIT",
+    "status": "OPEN_AFTER_COMMIT",
     "next_round": 111,
     "next_date": "-0057-12-14",
-    "requirements": "Round 110 must pass persistence and post-commit verification before Round 111 generation."
+    "requirements": "All round persistence and post-commit verification have passed; Round 111 generation is permitted."
   }
 }
