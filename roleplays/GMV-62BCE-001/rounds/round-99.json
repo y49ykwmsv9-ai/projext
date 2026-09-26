@@ -197,13 +197,14 @@
           "gross_receipts_denarii": 28,
           "operating_costs_denarii": 10,
           "net_public_profit_denarii": 18,
-          "private_transfer_denarii": 0,
+          "private_transfer_denarii": 1.8,
           "treasury_change_denarii": 0,
-          "public_account_change_denarii": 18,
-          "private_account_change_denarii": 0,
+          "public_account_change_denarii": 16.2,
+          "private_account_change_denarii": 1.8,
           "currency_flow_denarii": 18,
-          "internal_transfer": false,
-          "capital_acquisition_denarii": 0
+          "internal_transfer": true,
+          "capital_acquisition_denarii": 0,
+          "ten_percent_private_transfer_denarii": 1.8
         },
         "capped_positive_effect": {
           "metric": "agriculture",
@@ -515,16 +516,16 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3057,
-    "private_account": 604,
+    "public_account": 3055.2,
+    "private_account": 605.8,
     "realized_financial_effects": {
       "gross_receipts_denarii": 28,
       "operating_costs_denarii": 10,
       "net_public_profit_denarii": 18,
-      "private_transfer_denarii": -20,
+      "private_transfer_denarii": -18.2,
       "treasury_change_denarii": 0,
-      "public_account_change_denarii": 18,
-      "private_account_change_denarii": -20,
+      "public_account_change_denarii": 16.2,
+      "private_account_change_denarii": -18.2,
       "currency_flow_denarii": -2,
       "internal_transfer": false,
       "capital_acquisition_denarii": 0
@@ -572,7 +573,9 @@
     "surprise_special_expanded_prose": "PASS",
     "final_end_of_round_validation": "PASS",
     "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "post_commit_verification": "PASS",
+    "ten_percent_profit_transfer_rule": "PASS",
+    "financial_account_routing": "PASS"
   },
   "continuity": {
     "campaign_development": "21 September 57 BCE: Valerius has formally incorporated the new eighty-acre adjoining tract, the largest single acquisition in the holdings record. The owner offered the tract freely, but Valerius personally paid twenty denarii; holdings rise to 7.9375 square miles. The consolidation program remains active, the guard remains at 100 men, eight remain temporarily unavailable, and the road investigation remains unresolved.",
@@ -580,7 +583,7 @@
     "road_investigation": "Deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and exposed worked-stone fragments remain documented; builder, date, political authority, and original purpose remain unproven.",
     "personal_guard": "100 total personal guards: 50 infantry and 50 cavalry; distributed specialist sectors with parity and mutual support remain active.",
     "estate_consolidation": "Round 98 established the standing directive for automatic purchase of adjoining property. Round 99 realizes an 80-acre adjoining tract offered free by its owner; Valerius personally pays 20 denarii rather than accept the land without compensation.",
-    "capped_stat_surplus": "A positive agricultural effect beyond the fixed 100-point scale is realized as concrete surplus income: 28 denarii gross sale proceeds minus 10 denarii operating costs, yielding 18 denarii net public profit while agriculture remains at 100."
+    "capped_stat_surplus": "A positive agricultural effect beyond the fixed 100-point scale produced 28 denarii gross sale proceeds, 10 denarii operating costs, and 18 denarii net public profit before the canonical 10% realized-profit transfer. The 10% transfer routed 1.8 denarii to Valerius's private account; the public account therefore retained 16.2 denarii of the realized profit."
   },
   "next_round_gate": "OPEN"
 }
