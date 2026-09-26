@@ -1362,7 +1362,7 @@
   },
   "last_round_classification_summary": {
     "Direct": 2,
-    "Connected": 5,
+    "Connected": 4,
     "Surprise": 2,
     "Special": 0,
     "Ultimate": 0
@@ -1391,8 +1391,8 @@
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3535.9,
-    "private_account": 639.2
+    "public_account": 3535.4,
+    "private_account": 639.7
   },
   "campaign_intelligence_allocation": {
     "round": 111,
@@ -1476,7 +1476,7 @@
       "event_count": 8,
       "classification_summary": {
         "Direct": 2,
-        "Connected": 5,
+        "Connected": 4,
         "Surprise": 2,
         "Special": 0,
         "Ultimate": 0
@@ -1484,11 +1484,11 @@
     }
   ],
   "wealth_accounts": {
-    "public": 3535.9,
-    "private": 639.2,
+    "public": 3535.4,
+    "private": 639.7,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 104,
-    "last_round_private_transfer": 10.4
+    "last_round_private_transfer": 10.9
   },
   "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
   "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net."
