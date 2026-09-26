@@ -1,0 +1,522 @@
+{
+  "schema_version": "gmv-round-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 118,
+  "date": "1 February 57 BCE",
+  "player_directive": "The election begins; Valerius formally grants the new tenants regular tenant status; expand trade so surplus and needed items are commercially converted into capital through the established merchant network, lake port, principal estate, and skilled artisan network.",
+  "generation_model": "local dynamic resolution; broad background simulation with significant-development news filter",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R118-E01",
+      "date": "26 January 57 BCE",
+      "event_category": "Surprise",
+      "title": "THE ELECTION OPENS AS AN UNEXPECTED BALLOT-RECORD DISPUTE APPEARS ON THE FIRST DAY",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman civic officials",
+        "Roman voters"
+      ],
+      "body": "The civic election formally opens, moving Valerius's candidacy from preparation and procedural filing into the active voting period. Voting begins under the established civic procedure, and Valerius's campaign participates through the lawful channels already prepared for it rather than treating the opening as evidence of electoral support. During the first day's proceedings, officials discover that a small group of ballot records has been entered under an inconsistent administrative notation, prompting a formal objection before those records are incorporated into the working count. The officials separate the disputed records for review and correct the notation without publishing a tally or declaring an electoral result. Valerius's representatives accept the procedural ruling and preserve the documentation with the existing campaign archive. No numerical result, endorsement, or prediction emerges from the incident. The material development is that the election has begun, while its first administrative complication has been contained within the civic process rather than becoming an electoral outcome.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 80
+        },
+        "background_sources": [
+          {
+            "source": "political correspondence maintained by Valerius's household",
+            "changes": {
+              "intelligence": 8
+            },
+            "basis": "independent background civic intelligence; not caused by the ballot-record dispute"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 88,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected but causally plausible development emerging from the opening of the established election process; preserved as Surprise after the Ultimate Reclassification Gate."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E02",
+      "date": "27 January 57 BCE",
+      "event_category": "Direct",
+      "title": "VALERIUS FORMALLY GRANTS THE NEW HOUSEHOLD REGULAR TENANT STATUS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "second displaced household",
+        "estate agricultural stewards"
+      ],
+      "body": "Valerius formally converts the second displaced household's existing productive arrangement into regular tenant status within the estate's ordinary records. The stewards enter the household on the same tenant register used for other regular occupants, giving them clearly defined rights to use their assigned plot and the corresponding duties concerning cultivation, maintenance, and lawful use. The grant does not create a special exemption or a temporary charitable category; the household is now treated as a normal tenant household under the estate's established rules. Their earlier protection and assistance remain part of their history, but the new status marks a material change from protected displacement to ordinary participation in the estate's productive community. No additional land is transferred to them, and the estate's total landholding remains unchanged. No speculative rent is booked merely because regular tenant status has been granted; future settlements will be recorded only when payment is actually realized. The formal registration closes the household's transitional status and gives the arrangement a durable place in the estate administration.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 58
+        },
+        "background_sources": [
+          {
+            "source": "estate household correspondence and tenancy records",
+            "changes": {
+              "intelligence": 7
+            },
+            "basis": "independent background administrative intelligence; not caused by the formal tenant registration"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 65,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's explicit order to grant the new tenants regular tenant status."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E03",
+      "date": "28 January 57 BCE",
+      "event_category": "Direct",
+      "title": "THE PRINCIPAL ESTATE LAUNCHES THE NEW CAPITALIZATION NETWORK",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "established merchant network",
+        "lake port merchants",
+        "estate artisans",
+        "principal estate"
+      ],
+      "body": "Valerius's new trade order is put into practical operation through the principal estate, with the estate stewards assembling saleable surplus and identifying goods and inputs that can be improved or moved through the established merchant network. Skilled artisans attached to the estate and its foundries process part of the available material into more valuable finished goods, while merchants consolidate the completed lots for movement through the lake port and coordinate the acquisition of items needed for the next production cycle. The first completed capitalization cycle realizes 68 denarii in gross receipts against 27 denarii in processing, input, handling, packing, cartage, and lake-port costs, leaving 41 denarii of net public profit. The established routing rule transfers 4.1 denarii internally to Valerius's private account and retains 36.9 denarii publicly. The cost figure includes 9 denarii of needed-input purchases, 8 denarii of artisan processing, and 10 denarii of packing, cartage, and port handling, so the purchase of necessary materials is accounted for without being mistaken for revenue. The trade system is therefore no longer limited to the recurring surplus contract: saleable surplus, artisan-added value, and necessary commercial inputs are now being coordinated through the wider merchant and lake-port network. No future revenue is booked, and the trade metric remains at its capped 100 because the material expansion occurs in actual commercial throughput and realized capital rather than in a phantom increase to a bounded statistic.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 88,
+          "public_account": 36.9,
+          "private_account": 4.1
+        },
+        "background_sources": [
+          {
+            "source": "independent estate commercial correspondence and merchant intelligence",
+            "changes": {
+              "intelligence": 12
+            },
+            "basis": "background commercial intelligence; not caused by the first capitalization cycle"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 100,
+          "public_account": 36.9,
+          "private_account": 4.1
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 68,
+          "operating_costs_denarii": 27,
+          "net_public_profit_denarii": 41,
+          "private_transfer_denarii": 4.1,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 36.9,
+          "private_account_change_denarii": 4.1,
+          "currency_flow_denarii": 41
+        },
+        "cost_basis": "27 denarii = 9 denarii needed-input purchases + 8 denarii artisan processing + 10 denarii packing, cartage, and lake-port handling."
+      },
+      "classification_audit": {
+        "final_category": "Direct",
+        "causal_basis": "Directly caused by Valerius's new standing trade-capitalization directive and its implementation through the established estate, artisan, merchant, and lake-port network."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E04",
+      "date": "29 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE RECURRING SURPLUS CONTRACT SETTLES AT A STRONGER WINTER MARGIN",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers"
+      ],
+      "body": "The standing surplus-delivery agreement reaches another completed settlement as the merchants accept the current winter consignment through the shared-water road. The shipment realizes 54 denarii in gross receipts against 23 denarii in current harvesting, preparation, handling, and transport costs, leaving 31 denarii of realized net public profit. Under the canonical routing rule, 3.1 denarii is transferred internally to Valerius's private account and 27.9 denarii remains public. The consignment is valued from the quantities and conditions actually delivered during the week rather than copied from earlier settlements. The new capitalization mandate does not replace the contract's existing terms; instead, the recurring agreement continues as one distinct commercial channel within the wider estate trading system. No future delivery or receipt is booked beyond this realized settlement.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 45,
+          "public_account": 27.9,
+          "private_account": 3.1
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 45,
+          "public_account": 27.9,
+          "private_account": 3.1
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 54,
+          "operating_costs_denarii": 23,
+          "net_public_profit_denarii": 31,
+          "private_transfer_denarii": 3.1,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 27.9,
+          "private_account_change_denarii": 3.1,
+          "currency_flow_denarii": 31
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established recurring commercial agreement, independently resolved from current winter conditions."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E05",
+      "date": "30 January 57 BCE",
+      "event_category": "Surprise",
+      "title": "A LAKE-PORT MERCHANT HOUSE PLACES AN UNEXPECTED BULK ARTISAN ORDER",
+      "mentioned_entities": [
+        "lake port merchants",
+        "estate artisans",
+        "established merchant network",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "A merchant house operating through the lake port unexpectedly returns with a substantially larger order after examining the first finished goods being routed through the expanded commercial network. Rather than asking only for raw surplus, the merchants request a mixed batch of finished estate-made goods whose value depends on the skill of the artisans who prepared them, offering a price that makes the additional processing commercially worthwhile. The estate accepts the order without creating an exclusive privilege and sends the required material through the same established merchant services that have handled previous consignments. The completed sale realizes 35 denarii in gross receipts while artisan labor, preparation, packing, and transport cost 12 denarii, producing 23 denarii of net public profit. The established ten-percent routing sends 2.3 denarii to Valerius's private account and leaves 20.7 denarii publicly. The order is notable because it originates from outside the estate's established recurring contract and demonstrates that the lake-port merchant network can generate new demand for artisan-added goods rather than merely moving existing surplus. No future order value is booked, and no new permanent contract is assumed merely from the completed sale.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 74,
+          "public_account": 20.7,
+          "private_account": 2.3
+        },
+        "background_sources": [
+          {
+            "source": "independent lake-port traffic reports",
+            "changes": {
+              "intelligence": 6
+            },
+            "basis": "background commercial intelligence; not caused by the merchant's bulk order"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 80,
+          "public_account": 20.7,
+          "private_account": 2.3
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 35,
+          "operating_costs_denarii": 12,
+          "net_public_profit_denarii": 23,
+          "private_transfer_denarii": 2.3,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 20.7,
+          "private_account_change_denarii": 2.3,
+          "currency_flow_denarii": 23
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected commercial demand emerging from established merchant and artisan circumstances; reviewed and preserved as Surprise because it is consequential but not extraordinary enough for Ultimate."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E06",
+      "date": "31 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND SILVER WORKING PRODUCES ANOTHER REALIZED COMMERCIAL LOT",
+      "mentioned_entities": [
+        "estate miners",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "silver buyers",
+        "estate stewards"
+      ],
+      "body": "The second silver working reaches another meaningful production threshold when a newly extracted lot from its confirmed working area is weighed, assayed, and accepted for sale. Lucius Atilius and Gnaeus Fabius keep the recorded material tied to the mapped working so that the productive result does not become a speculative statement about deeper reserves. The completed sale realizes 22 denarii in gross receipts against 8 denarii in extraction, sorting, assay, and handling costs, leaving 14 denarii of net public profit. The established ten-percent routing transfers 1.4 denarii privately and retains 12.6 denarii in the public account. The sale is a realized outcome from the mine rather than a valuation of unextracted silver, and no future yield is entered as current income. The mining operation therefore continues to move from measured working into repeatable commercial production while the extent of the remaining underground reserve stays unresolved.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 62,
+          "public_account": 12.6,
+          "private_account": 1.4
+        },
+        "background_sources": [
+          {
+            "source": "mine safety and production correspondence",
+            "changes": {
+              "intelligence": 7
+            },
+            "basis": "independent background mining intelligence; not caused by this realized silver sale"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 69,
+          "public_account": 12.6,
+          "private_account": 1.4
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 22,
+          "operating_costs_denarii": 8,
+          "net_public_profit_denarii": 14,
+          "private_transfer_denarii": 1.4,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 12.6,
+          "private_account_change_denarii": 1.4,
+          "currency_flow_denarii": 14
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established second-silver-working thread."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E07",
+      "date": "1 February 57 BCE",
+      "event_category": "Connected",
+      "title": "WINTER WATERLOGGING THREATENS PART OF THE SIX-ACRE FIELD",
+      "mentioned_entities": [
+        "estate agricultural stewards",
+        "estate workers",
+        "second displaced household",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "Heavy winter water leaves part of the six-acre parcel acquired earlier in the campaign standing too wet for the estate's established planting plan, and the condition is judged serious enough to require intervention rather than routine inspection. The agricultural stewards open an existing drainage line and clear the blocked section with estate labor, restoring the affected ground before standing water can damage the planted area. Five denarii in public funds are spent on the immediate labor, clearing, and materials needed for the repair, with no additional land purchased or transferred. Agriculture and infrastructure remain at their capped values, so the physical repair produces no phantom increase to either bounded metric. The second displaced household, now regular tenants, participates in the ordinary estate work associated with protecting its assigned productive land rather than receiving a separate exceptional payment. The repair prevents a larger loss but produces no realized agricultural revenue in itself. The parcel therefore remains part of the estate's productive cycle while its later yield continues to depend on the actual growing season.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 54,
+          "public_account": -5
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard field-watch reports",
+            "changes": {
+              "intelligence": 5
+            },
+            "basis": "independent background land and security intelligence; not caused by the drainage repair"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 59,
+          "public_account": -5,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 5,
+          "net_public_profit_denarii": -5,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -5,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -5
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established six-acre agricultural thread, with a concrete repair preventing unsupported crop-loss assumptions."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R118-E08",
+      "date": "1 February 57 BCE",
+      "event_category": "Connected",
+      "title": "THE ESTATE'S NEW MEASUREMENT PRACTICE BECOMES THE STANDARD FOR COMMERCIAL HANDLING",
+      "mentioned_entities": [
+        "Lucius Marcius",
+        "Marcus Petronius",
+        "estate librarians",
+        "estate artisans",
+        "merchant carriers"
+      ],
+      "body": "The measurement method tested against the technical manuscript in Round 117 is adopted as a standard internal reference for weighing, sizing, and recording selected commercial lots handled by the estate. Lucius Marcius and Marcus Petronius attach the tested instructions to the estate's commercial records, while the artisans and carriers use the documented measurements when preparing containers and recording quantities for merchants. The adoption does not create a new technology statistic because the estate's technology measure is already capped, and it does not by itself realize income. Its significance is administrative and commercial: future consignments can now be compared using a common documented measurement procedure instead of relying entirely on individual workshop practice. The standard is added to the working records alongside the manuscript's provenance so that it can be reproduced consistently. No speculative savings or future profit is booked from the standard itself, but the estate's commercial accounting now has a more formal technical basis.",
+      "round_number": 118,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 60
+        },
+        "background_sources": [
+          {
+            "source": "estate library correspondence",
+            "changes": {
+              "intelligence": 9
+            },
+            "basis": "independent background scholarly intelligence; not caused by the adoption of the measurement standard"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 69,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Established library thread reaching a material practical-administrative adoption threshold."
+      }
+    }
+  ],
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 257,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 4998,
+    "relations": 100,
+    "land_area_sq_miles": 7.959375,
+    "temporary_unavailable": 0
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3535.9,
+    "private_account": 639.2,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 179,
+      "operating_costs_denarii": 75,
+      "net_public_profit_denarii": 104,
+      "private_transfer_denarii": 10.4,
+      "public_account_change_denarii": 93.6,
+      "private_account_change_denarii": 10.4,
+      "currency_flow_denarii": 104,
+      "note": "Capitalization cycle: 68 gross/27 costs/41 net. Recurring surplus-delivery settlement: 54 gross/23 costs/31 net. Lake-port artisan bulk order: 35 gross/12 costs/23 net. Second silver working sale: 22 gross/8 costs/14 net. Six-acre drainage repair: 5 denarii expense. The 10% private routing applies only to realized positive net public profit."
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 98.95883762192945,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      43.67268661185817,
+      47.81035522925008,
+      58.68198162249823
+    ],
+    "magnitude_11_events": 0,
+    "generated_magnitude_11_events": [],
+    "ultimate_reclassification_events": [
+      "GMV-62BCE-002-R118-E01: reviewed and preserved as Surprise",
+      "GMV-62BCE-002-R118-E05: reviewed and preserved as Surprise"
+    ],
+    "random_generation": "fresh local resolution",
+    "ultimate_gate": "PASS — E01 and E05 remain Surprise; no Special or Magnitude-11 event generated."
+  },
+  "classification_summary": {
+    "Direct": 2,
+    "Connected": 5,
+    "Surprise": 2,
+    "Special": 0,
+    "Ultimate": 0
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "financial_reconciliation": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "single_thread_event_integrity": "PASS",
+    "ultimate_event_contract": "PASS",
+    "surprise_special_gate": "PASS",
+    "semantic_state_consistency": "PASS",
+    "current_total_completeness": "PASS",
+    "randomness_integrity": "PASS",
+    "round_date_numbering": "PASS",
+    "canonical_pointer_synchronization": "READY",
+    "post_commit_verification": "PENDING"
+  },
+  "round_delta_ledger": {
+    "intelligence": {
+      "before": 4423,
+      "change": 575,
+      "after": 4998,
+      "unit": "points"
+    },
+    "public_account": {
+      "before": 3442.3,
+      "change": 93.6,
+      "after": 3535.9,
+      "unit": "denarii"
+    },
+    "private_account": {
+      "before": 628.8,
+      "change": 10.4,
+      "after": 639.2,
+      "unit": "denarii"
+    },
+    "treasury": {
+      "before": 1668,
+      "change": 0,
+      "after": 1668,
+      "unit": "denarii"
+    },
+    "soldiers": {
+      "before": 414,
+      "change": 0,
+      "after": 414,
+      "unit": "men"
+    },
+    "population": {
+      "before": 257,
+      "change": 0,
+      "after": 257,
+      "unit": "people"
+    },
+    "land_area_sq_miles": {
+      "before": 7.959375,
+      "change": 0,
+      "after": 7.959375,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "background_simulation_note": "Broad simulation was allowed to progress, but only eight material developments are surfaced as events. The family-document matter, road investigation, routine guard circuit, and other quieter threads remain active or canonically resolved in the background and are not repeated as routine news."
+}
