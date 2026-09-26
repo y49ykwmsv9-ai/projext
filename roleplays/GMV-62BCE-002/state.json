@@ -110,10 +110,10 @@
     "ten_percent_profit_transfer_denarii": 4.6
   },
   "next_round_gate": {
-    "status": "PENDING_REVERIFY",
+    "status": "OPEN_AFTER_COMMIT",
     "next_round": 117,
     "next_date": "-0057-01-25",
-    "requirements": "Round 116 persistence and post-commit verification passed."
+    "requirements": "Round 116 persistence, intelligence reconciliation, and post-commit verification passed."
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
