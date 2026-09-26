@@ -1,10 +1,10 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 94,
-  "date": "-0057-08-17",
+  "round": 98,
+  "date": "-0057-09-14",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3099,
+    "public": 3039,
     "private": 624,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 0,
@@ -26,17 +26,17 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3254,
+    "intelligence": 3386,
     "relations": 100,
-    "land_area_sq_miles": 7.75,
-    "temporary_unavailable": 5
+    "land_area_sq_miles": 7.8125,
+    "temporary_unavailable": 8
   },
   "holdings": {
-    "land_area_sq_miles": 7.75,
-    "acres": 4960,
-    "roman_iugera_approx": 7447.5,
-    "change_this_round_sq_miles": 0,
-    "scope": "personal estates and holdings; Round 65 newly seized final-refuge tract remains incorporated"
+    "land_area_sq_miles": 7.8125,
+    "acres": 5000,
+    "roman_iugera_approx": 7507.5,
+    "change_this_round_sq_miles": 0.0625,
+    "scope": "personal estates and holdings; Round 98 adds a documented 40-acre adjoining tract to the principal estate network"
   },
   "relationships": {
     "nearby-landowners": 35,
@@ -49,103 +49,55 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "17 August 57 BCE: Valerius continues down the road after the Round 93 reconnaissance phase. The personal guard has been reorganized into distributed specialist sectors based on parity and coordination, and a roadside clash has proven the arrangement under actual combat; five men were wounded and temporarily unavailable, none was lost permanently, the expedition retained the road, and the march continued.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 59 adds 0.50 to reach 7.5625; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75 sq mi.",
-    "road_investigation": "Present field phase finalized: deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and a further short exposed worked-stone fragment are documented; builder, date, political authority, and original purpose remain unproven."
+    "campaign_development": "14 September 57 BCE: Valerius has ordered an automatic estate-acquisition program focused on adjoining property. The first forty-acre adjoining tract has been purchased and incorporated, while the expedition continues along the road after the recent clash; the distributed personal guard remains active and eight men remain temporarily unavailable after two wounded men return to ordinary movement.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625; Round 59 adds 0.50; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75; Round 98 adds 0.0625 sq mi (40 acres), bringing holdings to 7.8125 sq mi.",
+    "road_investigation": "Deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and exposed worked-stone fragments remain documented; builder, date, political authority, and original purpose remain unproven.",
+    "estate_consolidation": "Round 98 establishes a standing directive for automatic purchase of property adjoining principal estates when suitable terms are available. The first realized acquisition is a 40-acre adjoining tract purchased for 60 denarii from the public estate account."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 0.5968867193740457,
+    "current_round_roll": 97.83621500926007,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      0.9231425633730959,
-      0.6174776582663603,
-      0.8522033867125927
+      28.617724913339515,
+      40.02124327018359,
+      13.425686971371341
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 0.5968867193740457,
+    "roll": 97.83621500926007,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      0.9231425633730959,
-      0.6174776582663603,
-      0.8522033867125927
+      28.617724913339515,
+      40.02124327018359,
+      13.425686971371341
     ],
     "magnitude_11_events": 0,
-    "ultimate_reclassification_events": [
-      {
-        "event_id": "GMV-62BCE-001-R094-E04",
-        "initial_category": "Surprise",
-        "final_category": "Surprise",
-        "ultimate_reclassification": "not_qualified"
-      },
-      {
-        "event_id": "GMV-62BCE-001-R094-E05",
-        "initial_category": "Connected",
-        "final_category": "Ultimate",
-        "ultimate_reclassification": "qualified"
-      },
-      {
-        "event_id": "GMV-62BCE-001-R094-E06",
-        "initial_category": "Surprise",
-        "final_category": "Surprise",
-        "ultimate_reclassification": "not_qualified"
-      }
-    ],
+    "ultimate_reclassification_events": [],
     "random_generation": "local resolution",
     "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS",
-    "generated_special_event": null,
-    "continuity_checks": {
-      "canonical_state_read": "PASS",
-      "local_random_resolution": "PASS",
-      "causal_event_generation": "PASS",
-      "ultimate_reclassification_gate": "PASS",
-      "narrative_contract": "PASS",
-      "semantic_state_consistency": "PASS",
-      "fixed_metric_schema": "PASS",
-      "metric_bounds": "PASS",
-      "round_delta_reconciliation": "PASS",
-      "financial_realization_reconciled": "PASS",
-      "land_and_property_consistency": "PASS",
-      "recurring_character_continuity": "PASS",
-      "event_variety_and_causal_diversity": "PASS",
-      "current_total_ledger_complete": "PASS",
-      "random_classification_consistency": "PASS",
-      "exact_quantity_unit_consistency": "PASS",
-      "military_state_consistency": "PASS",
-      "economic_financial_consistency": "PASS",
-      "agriculture_state_consistency": "PASS",
-      "literal_revenue_realization_check": "PASS",
-      "geographic_reference_consistency": "PASS",
-      "geographic_source_protection": "PASS",
-      "ultimate_event_contract": "PASS",
-      "surprise_special_expanded_prose": "PASS",
-      "final_end_of_round_validation": "PASS",
-      "canonical_pointer_synchronization": "PASS",
-      "post_commit_verification": "PASS",
-      "plausible_financial_quantification": "PASS"
-    }
+    "post_commit_verification": "PASS"
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3099,
+    "public": 3039,
     "private": 624,
     "gross_receipts_denarii": 0,
     "operating_costs_denarii": 0,
     "net_public_profit_denarii": 0,
     "private_transfer_denarii": 0,
     "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": 0
+    "currency_flow_denarii": -60,
+    "capital_acquisition_denarii": 60
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
