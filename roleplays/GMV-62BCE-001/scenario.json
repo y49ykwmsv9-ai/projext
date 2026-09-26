@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
   "latest_round": 91,
-  "latest_date": "-0057-07-20",
+  "latest_date": "-0057-07-27",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -22,7 +22,7 @@
     "magnitude_11_policy": "tracked separately from Special-event selection; a successful Magnitude-11 check generates an initially Special event, which must independently pass the Ultimate Reclassification Gate before its final category is committed."
   },
   "continuity": {
-    "campaign_development": "20 July 57 BCE: Valerius implemented the Vexillum Valerianum as his personal command standard, incorporating it into marching, camp, command, rally, and personal-guard procedures.",
+    "campaign_development": "27 July 57 BCE: Valerius implemented the Vexillum Valerianum as his personal command standard, incorporating it into marching, camp, command, rally, and personal-guard procedures.",
     "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625 after measuring the earlier former-bandit aggregate; Round 59 adds 0.50 to reach 7.5625; Round 65 surveys the newly seized final-refuge tract at 0.125 sq mi, bringing holdings to 7.6875; Round 75 adds 0.0625 sq mi (40 acres) through a documented purchase of the disputed tract, bringing total holdings to 7.75 sq mi.",
     "personal_guard": "Round 89 establishes 100 total personal guards: 50 infantry and 50 cavalry; 10 infantry and 10 cavalry are from the Round 87-88 local veterans, while 40 infantry and 40 cavalry are from Valerius's established veterans.",
     "valerius_equipment": {
