@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "latest_round": 107,
-  "latest_date": "-0057-11-16",
+  "latest_round": 108,
+  "latest_date": "-0057-11-23",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,30 +16,18 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 32.192307281764556,
+    "current_round_roll": 23.03189767693218,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      27.787973236289886,
-      21.166477154574757,
-      52.72396529613502
+      87.66878791409684,
+      4.81683525468145,
+      18.8303343856129
     ],
-    "current_round_magnitude_11_events": 0
+    "current_round_magnitude_11_events": 1
   },
-  "continuity": {
-    "campaign_development": "16 November 57 BCE: Valerius is a formally registered candidate in the lowest-level civic election; no vote or result has occurred.",
-    "commercial_thread": "The sixth recurring surplus-delivery settlement realized 33 gross / 12 costs / 21 net; 2.1 privately transferred and 18.9 retained publicly.",
-    "road_thread": "The protected shared-water road remains open and toll-free; the 100-man guard continues ordinary protection.",
-    "road_investigation": "Servilius and Cassius found a weathered marked stone beside the secondary alignment; builder, date, authority, and purpose remain unresolved.",
-    "political_correspondence": "Celer acknowledges the candidacy without offering office, payment, endorsement, or alliance.",
-    "medical_recovery": "All previously unavailable men remain fully returned to duty; temporary unavailable strength is 0.",
-    "refuge_policy": "A second displaced household has been admitted beneath Valerius’s established protective policy; population is now 257.",
-    "election_thread": "Valerius's candidacy is formally registered; no votes or electoral result have occurred.",
-    "local_infrastructure_thread": "The shared-water road remains open and toll-free.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; all remain available.",
-    "land_holdings": "Six adjoining acres were acquired for 9 denarii, increasing holdings to 7.959375 square miles / 5,094 acres."
-  },
+  "continuity": "23 November 57 BCE: Valerius has expanded his silver interests through acquisition of incompletely mapped veins and ordered a second, more public working site; no new silver revenue is realized yet.",
   "end_of_round_checks": {
     "base_probability_percent": 12,
     "roll": 84.03355188039015,
