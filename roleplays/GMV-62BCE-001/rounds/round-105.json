@@ -1,0 +1,542 @@
+{
+  "scenario_id": "GMV-62BCE-001",
+  "round_number": 105,
+  "date": "-0057-11-02",
+  "player_directive": "Continuation of Valerius’s established patrol, sanctuary, commercial, road-investigation, and correspondence policies after Round 104.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-001-R105-E01",
+      "date": "27 October 57 BCE",
+      "event_category": "Military",
+      "title": "THE LAKE-PORT PATROLS COMPLETE THEIR FIRST FULL ROTATION",
+      "mentioned_entities": [
+        "Titus Varenus",
+        "Lucius Atilius",
+        "Gnaeus Fabius",
+        "Marcus Lartius",
+        "personal guard"
+      ],
+      "body": "The first complete rotation of the new patrol system passes without a break between the lake port and the water-access road. Titus Varenus keeps the existing fifty infantry and fifty cavalry moving through staggered watches rather than concentrating them into a single visible camp. The arrangement allows carts, pedestrians, and merchants to continue using the road while giving the guard a continuous picture of movement along it. Varenus records the places where the mounted patrols must travel farther to maintain contact with the next observation point. No battle, arrest, or new military formation results from the patrols; their immediate achievement is continuity of protection.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 21,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        },
+        "classification_audit": {
+          "initial_category": "Military",
+          "final_category": "Military",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R105-E02",
+      "date": "28 October 57 BCE",
+      "event_category": "Social",
+      "title": "THE REFUGEE HOUSEHOLD BEGINS TO SETTLE UNDER THE ESTATE SHIELD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "estate stewards",
+        "refugee household",
+        "smallholders"
+      ],
+      "body": "The household admitted under Valerius’s protection begins adapting to ordinary estate life rather than remaining isolated inside the guarded quarters. The stewards assign them temporary living space and arrange access to food and water through the same provisions used for other non-military residents. Nearby smallholders learn that the new sanctuary rule applies to accepted refugees but does not transfer estate land into their possession or alter existing property boundaries. The household’s presence therefore becomes a practical test of the distinction between protection, residence, and ownership. No change is made to land holdings or military strength.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 9,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        },
+        "classification_audit": {
+          "initial_category": "Social",
+          "final_category": "Social",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R105-E03",
+      "date": "29 October 57 BCE",
+      "event_category": "Economic",
+      "title": "THE FOURTH SURPLUS CONSIGNMENT SETTLES ON THE SHARED-WATER ROUTE",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "Gaius Maximus Valerius",
+        "Titus Varenus"
+      ],
+      "body": "The established surplus-delivery agreement produces another completed delivery through the now-routinely guarded corridor. The merchants pay 27 denarii for the consignment, while harvesting, packing, handling, and transport require 10 denarii, leaving 17 denarii of realized net public profit. Under the standing account-routing rule, 1.7 denarii is transferred to Valerius’s private account and 15.3 denarii remains in the public account. The delivery is observed by the patrols but proceeds as ordinary commerce, reinforcing the separation between security and toll collection. No future payment is booked merely because the agreement remains active.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 17,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 27,
+          "operating_costs_denarii": 10,
+          "net_public_profit_denarii": 17,
+          "private_transfer_denarii": 1.7,
+          "public_account_change_denarii": 15.3,
+          "private_account_change_denarii": 1.7,
+          "currency_flow_denarii": 17,
+          "internal_transfer": true
+        },
+        "classification_audit": {
+          "initial_category": "Economic",
+          "final_category": "Economic",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R105-E04",
+      "date": "30 October 57 BCE",
+      "event_category": "Local",
+      "title": "SMALLHOLDERS ASK THAT THE PATROLLED ROAD SERVE MORE THAN CARAVANS",
+      "mentioned_entities": [
+        "smallholders",
+        "estate stewards",
+        "Titus Varenus",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "A written petition from nearby smallholders reaches the estate, building on the earlier request concerning the shared road. Their concern is not that caravans receive protection, but that ordinary farmers and local carriers should be able to depend on the same maintained route when moving produce toward the water access. The petition asks for the road to remain usable without tolls while patrols continue to protect it. The stewards record the request and forward it for Valerius’s consideration rather than promising construction or expenditure. No infrastructure work occurs in this round, and the existing infrastructure metric therefore remains unchanged.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 12,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        },
+        "classification_audit": {
+          "initial_category": "Local",
+          "final_category": "Local",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R105-E05",
+      "date": "31 October 57 BCE",
+      "event_category": "Geographic/Investigative",
+      "title": "SERVILIUS AND CASSIUS FIND A SECONDARY ALIGNMENT BESIDE THE OLDER ROADWORK",
+      "mentioned_entities": [
+        "Publius Servilius",
+        "Numerius Cassius",
+        "personal guard"
+      ],
+      "body": "Publius Servilius and Numerius Cassius follow another section of the older prepared roadwork while the patrol corridor remains active around them. They identify a secondary alignment running beside part of the older surface, with signs that the two routes were not constructed as one continuous modern work. Rather than declaring a builder or date, Cassius records the physical relationship between the alignments and marks where the older construction disappears from view. Servilius sends the measurements back toward the estate so they can be compared with the sections already recorded. The investigation therefore produces a more coherent geographic record without yet resolving who created the original road.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 24,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        },
+        "classification_audit": {
+          "initial_category": "Geographic/Investigative",
+          "final_category": "Geographic/Investigative",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R105-E06",
+      "date": "1 November 57 BCE",
+      "event_category": "Political/Diplomatic",
+      "title": "CELER RESPONDS TO THE DISTINCTION BETWEEN SANCTUARY AND PRIVATE FORCE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Caecilius Metellus Celer",
+        "political courier"
+      ],
+      "body": "Another letter from Quintus Caecilius Metellus Celer arrives after the questions raised in the previous round. Celer acknowledges the distinction Valerius has drawn between protecting travelers and admitting people as refugees, but asks for a clearer account of who has authority to decide when a person is accepted beneath the estate’s shield. He also continues to ask how Titus Varenus and the other guards are kept within Valerius’s instructions rather than acting as an independent armed authority. No office, payment, command, or formal political agreement accompanies the letter. The correspondence has consequently become a sustained administrative inquiry rather than a single request for information.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 15,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": 0,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        },
+        "classification_audit": {
+          "initial_category": "Political/Diplomatic",
+          "final_category": "Political/Diplomatic",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-001-R105-E07",
+      "date": "2 November 57 BCE",
+      "event_category": "Personal/Military",
+      "title": "ONE RECOVERING VETERAN RETURNS TO ORDINARY DUTY",
+      "mentioned_entities": [
+        "personal guard",
+        "recovering veteran",
+        "Titus Varenus"
+      ],
+      "body": "One of the two men who remained temporarily unavailable completes his recovery enough to return to ordinary estate duty. Titus Varenus does not immediately place him on the longest mounted patrols, instead assigning him to a lighter watch while his strength is observed over the following days. His return reduces the temporarily unavailable count from two men to one without increasing the total force above the established 414 soldiers. The veteran’s return is treated as a normal restoration of the existing establishment rather than a recruitment event. The patrol system therefore continues with the same authorized force while gaining one more available man.",
+      "ai_ledger": {
+        "soldiers": 0,
+        "population": 0,
+        "taxation": 0,
+        "economy": 0,
+        "agriculture": 0,
+        "infrastructure": 0,
+        "trade": 0,
+        "readiness": 0,
+        "morale": 0,
+        "supply": 0,
+        "organization": 0,
+        "stability": 0,
+        "legitimacy": 0,
+        "technology": 0,
+        "exhaustion": 0,
+        "intelligence": 8,
+        "relations": 0,
+        "land_area_sq_miles": 0,
+        "temporary_unavailable": -1,
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0,
+          "internal_transfer": false,
+          "capital_acquisition_denarii": 0
+        },
+        "classification_audit": {
+          "initial_category": "Personal/Military",
+          "final_category": "Personal/Military",
+          "ultimate_reclassification": "not_applicable"
+        }
+      }
+    }
+  ],
+  "current_total_ledger": {
+    "soldiers": 414,
+    "population": 254,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 4070,
+    "relations": 100,
+    "land_area_sq_miles": 7.95,
+    "temporary_unavailable": 1
+  },
+  "round_delta_ledger": {
+    "soldiers": {
+      "before": 414,
+      "change": 0,
+      "after": 414
+    },
+    "population": {
+      "before": 254,
+      "change": 0,
+      "after": 254
+    },
+    "taxation": {
+      "before": 3,
+      "change": 0,
+      "after": 3
+    },
+    "economy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "agriculture": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "infrastructure": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "trade": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "readiness": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "morale": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "supply": {
+      "before": 0,
+      "change": 0,
+      "after": 0
+    },
+    "organization": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "stability": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "legitimacy": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "technology": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "exhaustion": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "intelligence": {
+      "before": 3962,
+      "change": 108,
+      "after": 4070
+    },
+    "relations": {
+      "before": 100,
+      "change": 0,
+      "after": 100
+    },
+    "land_area_sq_miles": {
+      "before": 7.95,
+      "change": 0,
+      "after": 7.95
+    },
+    "temporary_unavailable": {
+      "before": 2,
+      "change": -1,
+      "after": 1
+    }
+  },
+  "financial_ledger": {
+    "treasury": 1668,
+    "public_account": 3125.1,
+    "private_account": 616.9,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 27,
+      "operating_costs_denarii": 10,
+      "net_public_profit_denarii": 17,
+      "private_transfer_denarii": 1.7,
+      "public_account_change_denarii": 15.3,
+      "private_account_change_denarii": 1.7,
+      "currency_flow_denarii": 17,
+      "internal_transfer": true,
+      "ten_percent_profit_transfer_denarii": 1.7
+    }
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 60.20901874024152,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      20.215047406042952,
+      0.16817925447600857,
+      3.4204783595477517
+    ],
+    "magnitude_11_events": 0,
+    "ultimate_reclassification_events": [],
+    "random_generation": "local resolution"
+  },
+  "validation_ledger": {
+    "canonical_state_read": "PASS",
+    "local_random_resolution": "PASS",
+    "causal_event_generation": "PASS",
+    "ultimate_reclassification_gate": "PASS",
+    "narrative_contract": "PASS",
+    "semantic_state_consistency": "PASS",
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "round_delta_reconciliation": "PASS",
+    "financial_realization_reconciled": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_and_property_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety_and_causal_diversity": "PASS",
+    "current_total_ledger_completeness": "PASS",
+    "random_classification_consistency": "PASS",
+    "final_end_of_round_validation": "PASS",
+    "ten_percent_profit_transfer_rule": "PASS",
+    "recurring_financial_agreement_settlement": "PASS"
+  },
+  "continuity": {
+    "campaign_development": "2 November 57 BCE: the patrol corridor has become routine; the sanctuary household is settling under protection; the fourth recurring surplus settlement realized 27 gross / 10 costs / 17 net with 1.7 privately transferred and 15.3 retained publicly; smallholders have renewed their shared-road request; Servilius and Cassius found a secondary alignment beside older roadwork; Celer continues his administrative inquiry; and one recovering veteran returned to ordinary duty.",
+    "commercial_thread": "The long-term surplus-delivery agreement remains active; the fourth contracted consignment settled this round for 27 gross / 10 costs / 17 net. No future receipts are booked.",
+    "road_thread": "The shared-water road remains in routine local use and is covered by an unbroken patrol corridor from the lake port through the water-access approach.",
+    "road_investigation": "Servilius and Cassius found a secondary alignment beside older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
+    "political_correspondence": "Celer continues asking how sanctuary decisions are made and how Valerius’s private guard remains under his authority; no office, command, payment, or binding commitment exists.",
+    "medical_recovery": "One man remains temporarily unavailable after one recovering veteran returned to ordinary duty.",
+    "refuge_policy": "The accepted refugee household is settling as ordinary protected residents; protection does not alter property boundaries or grant unrestricted access to armed quarters.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; patrol duties rotate within the existing force and one recovering veteran has returned to lighter ordinary duty."
+  },
+  "next_round_gate": "OPEN"
+}
