@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 98,
-  "date": "-0057-09-14",
+  "round": 99,
+  "date": "-0057-09-21",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3039,
-    "private": 624,
+    "public": 3057,
+    "private": 604,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 0,
-    "last_round_private_transfer": 0
+    "last_round_net_public_profit": 18,
+    "last_round_private_transfer": -20
   },
   "metrics": {
     "soldiers": 414,
@@ -26,17 +26,17 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 3386,
+    "intelligence": 3440,
     "relations": 100,
-    "land_area_sq_miles": 7.8125,
+    "land_area_sq_miles": 7.9375,
     "temporary_unavailable": 8
   },
   "holdings": {
-    "land_area_sq_miles": 7.8125,
-    "acres": 5000,
+    "land_area_sq_miles": 7.9375,
+    "acres": 5080,
     "roman_iugera_approx": 7507.5,
-    "change_this_round_sq_miles": 0.0625,
-    "scope": "personal estates and holdings; Round 98 adds a documented 40-acre adjoining tract to the principal estate network"
+    "change_this_round_sq_miles": 0.125,
+    "scope": "personal estates and holdings; Round 99 adds an 80-acre adjoining tract, the largest single recorded acquisition"
   },
   "relationships": {
     "nearby-landowners": 35,
@@ -49,37 +49,38 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "14 September 57 BCE: Valerius has ordered an automatic estate-acquisition program focused on adjoining property. The first forty-acre adjoining tract has been purchased and incorporated, while the expedition continues along the road after the recent clash; the distributed personal guard remains active and eight men remain temporarily unavailable after two wounded men return to ordinary movement.",
-    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625; Round 59 adds 0.50; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75; Round 98 adds 0.0625 sq mi (40 acres), bringing holdings to 7.8125 sq mi.",
+    "campaign_development": "21 September 57 BCE: Valerius has formally incorporated an eighty-acre adjoining tract, the largest single acquisition in the holdings record. The owner offered it freely, but Valerius personally paid twenty denarii; holdings now total 7.9375 square miles. The consolidation program remains active, the distributed personal guard remains active, eight men remain temporarily unavailable, and the road investigation remains unresolved.",
+    "land_area_history": "Round 33 establishes 4.00 sq mi; Round 42 adds 0.25; Round 55 establishes 7.0625; Round 59 adds 0.50; Round 65 adds 0.125; Round 75 adds 0.0625 to reach 7.75; Round 98 adds 0.0625 to reach 7.8125; Round 99 adds 0.125 sq mi (80 acres) to reach 7.9375. The Round 99 tract is the largest single recorded acquisition.",
     "road_investigation": "Deliberate engineered road features, damaged crossing, weathered marker/stone line beside a secondary approach, and exposed worked-stone fragments remain documented; builder, date, political authority, and original purpose remain unproven.",
-    "estate_consolidation": "Round 98 establishes a standing directive for automatic purchase of property adjoining principal estates when suitable terms are available. The first realized acquisition is a 40-acre adjoining tract purchased for 60 denarii from the public estate account."
+    "estate_consolidation": "Round 98 established automatic acquisition of adjoining property. Round 99 realizes an 80-acre adjoining tract offered free by its owner; Valerius personally pays 20 denarii rather than accept the land without compensation.",
+    "capped_stat_surplus": "A positive agricultural effect beyond the fixed 100-point scale produced 28 denarii gross sale proceeds, 10 denarii operating costs, and 18 denarii net public profit while agriculture remained at 100."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 97.83621500926007,
+    "current_round_roll": 42.18864488172531,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      28.617724913339515,
-      40.02124327018359,
-      13.425686971371341
+      53.49345954581921,
+      14.479406547074857,
+      74.71624522244912
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 97.83621500926007,
+    "roll": 42.18864488172531,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      28.617724913339515,
-      40.02124327018359,
-      13.425686971371341
+      53.49345954581921,
+      14.479406547074857,
+      74.71624522244912
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
@@ -89,15 +90,15 @@
   },
   "financial_realization": {
     "treasury": 1668,
-    "public": 3039,
-    "private": 624,
-    "gross_receipts_denarii": 0,
-    "operating_costs_denarii": 0,
-    "net_public_profit_denarii": 0,
-    "private_transfer_denarii": 0,
+    "public": 3057,
+    "private": 604,
+    "gross_receipts_denarii": 28,
+    "operating_costs_denarii": 10,
+    "net_public_profit_denarii": 18,
+    "private_transfer_denarii": -20,
     "background_interest_realized_denarii": 0,
-    "currency_flow_denarii": -60,
-    "capital_acquisition_denarii": 60
+    "currency_flow_denarii": -2,
+    "capital_acquisition_denarii": 0
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
