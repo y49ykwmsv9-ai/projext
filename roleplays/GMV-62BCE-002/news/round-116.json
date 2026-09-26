@@ -1,0 +1,323 @@
+{
+  "schema_version": "gmv-news-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 116,
+  "date": "18 January 57 BCE",
+  "headline": "ROME'S WINTER RECORDS MOVE FORWARD",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R116-E01",
+      "date": "12 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE CIVIC RECORDS REQUIRE VALERIUS'S FIRST IN-PERSON APPEARANCE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Roman civic officials"
+      ],
+      "body": "The procedural notice preserved by Valerius's household becomes an in-person matter when the required civic appearance is entered into the Roman record. Valerius presents the documentation already assembled for the candidacy and answers the procedural questions put to him without turning the appearance into a public declaration of victory or defeat. The officials record the appearance and retain the submitted papers, while Valerius's household keeps copies of the documents and the date of submission. No vote takes place in this event, and no electoral result is produced or inferred. The material development is that the candidacy has now advanced from written notice to a completed personal procedural step, leaving the remaining civic process unresolved.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 58
+        },
+        "background_sources": [
+          {
+            "source": "political correspondence maintained by Valerius's household",
+            "changes": {
+              "intelligence": 9
+            },
+            "basis": "independent background civic intelligence; not caused by the in-person appearance"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 67,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the established civic candidacy and its procedural documentation."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R116-E02",
+      "date": "13 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE WINTER SURPLUS DELIVERY CLEARS ROME WITH A DIFFERENT COMMERCIAL MIX",
+      "mentioned_entities": [
+        "estate stewards",
+        "foreign caravan merchants",
+        "merchant carriers"
+      ],
+      "body": "The standing surplus-delivery agreement reaches another independently negotiated settlement as the winter carriers take a different mixture of estate goods than the previous consignment. The realized transaction brings in 49 denarii against 20 denarii in handling, preparation, and transport costs, leaving 29 denarii of net public profit. Under the established account-routing rule, 2.9 denarii is transferred internally to Valerius's private account and 26.1 denarii remains public. The merchants settle the current consignment only; the existence of the recurring agreement creates no automatic booking of future revenue. The settlement is significant because the commercial mix and cost burden differ from the preceding winter transaction, demonstrating that the agreement is being resolved against current conditions rather than repeated mechanically.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 44,
+          "public_account": 26.1,
+          "private_account": 2.9
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 44,
+          "public_account": 26.1,
+          "private_account": 2.9
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 49,
+          "operating_costs_denarii": 20,
+          "net_public_profit_denarii": 29,
+          "private_transfer_denarii": 2.9,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 26.1,
+          "private_account_change_denarii": 2.9,
+          "currency_flow_denarii": 29
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable material development of the active recurring commercial agreement; transaction independently resolved from current winter supply and transport conditions."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R116-E03",
+      "date": "14 January 57 BCE",
+      "event_category": "Surprise",
+      "title": "A FAMILY DOCUMENT REOPENS A MATTER VALERIUS'S HOUSE HAD CONSIDERED CLOSED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's sister",
+        "Roman household stewards"
+      ],
+      "body": "A document kept among the family papers produces an unexpected complication when Valerius's sister identifies an older property obligation that had been treated within the household as settled. The paper does not establish a new claim by itself, but its wording differs from the later summary under which the household had been operating, forcing the stewards to compare the original record with the subsequent account books. Valerius and his sister review the papers together rather than allowing the matter to be settled by assumption, and the household suspends any attempt to dispose of the disputed property until the documentary chain is reconciled. No land changes hands during the review, and no new debt is booked merely because the older wording has been found. The surprise lies in the discovery that an apparently closed family matter still contains an unresolved documentary inconsistency, giving the household a concrete issue to investigate rather than a routine family report.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 78
+        },
+        "background_sources": [
+          {
+            "source": "estate library cataloguing and scholarly correspondence",
+            "changes": {
+              "intelligence": 12
+            },
+            "basis": "independent background scholarly activity; not caused by the family document discovery"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 90,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Surprise",
+        "causal_basis": "Unexpected but causally plausible development emerging from the established family and estate-document thread; materially changes what the household knows."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R116-E04",
+      "date": "15 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE SECOND SILVER WORKING SECURES ITS FIRST COMMERCIAL SALE",
+      "mentioned_entities": [
+        "estate miners",
+        "estate stewards",
+        "silver buyers"
+      ],
+      "body": "The payable material from the second silver working is taken beyond the estate's assay table and sold after buyers inspect the quality of the first confirmed lot. The realized sale produces 16 denarii against 6 denarii in extraction, sorting, and handling costs, leaving 10 denarii of net public profit. Valerius's private account receives 1 denarius through the established ten-percent routing rule, while 9 denarii remains public. The sale does not establish the eventual yield of the working, and the estate does not book additional revenue for material that has not yet been extracted or sold. The significance is operational rather than speculative: the second working has now demonstrated both producible material and a completed market transaction.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 62,
+          "public_account": 9,
+          "private_account": 1
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 62,
+          "public_account": 9,
+          "private_account": 1
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 16,
+          "operating_costs_denarii": 6,
+          "net_public_profit_denarii": 10,
+          "private_transfer_denarii": 1,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 9,
+          "private_account_change_denarii": 1,
+          "currency_flow_denarii": 10
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Established silver-working thread; realized sale independently quantified from the modest scale of the first payable lot and current operating conditions."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R116-E05",
+      "date": "16 January 57 BCE",
+      "event_category": "Connected",
+      "title": "VETERAN SERVICE PAPERS SETTLE A LONG-STANDING HOUSEHOLD QUESTION",
+      "mentioned_entities": [
+        "Titus Manlius",
+        "Publius Servilius",
+        "Sextus Tullius",
+        "Roman veteran households"
+      ],
+      "body": "Titus Manlius brings forward a veteran service record whose older wording had left a household uncertain about whether a surviving service obligation had already been discharged. Publius Servilius and Sextus Tullius compare the record against the veteran documentation preserved by Valerius's household, tracing the entries rather than relying on oral recollection. The comparison establishes that the obligation had in fact been discharged under the existing record, allowing the household to close the question without withholding property, imposing a new service demand, or creating an unsupported payment. Manlius's household receives a copy of the reconciled record, and the document is added to the same service archive used for earlier veteran cases. The development is significant because a potentially recurring source of uncertainty has been resolved through documentary continuity rather than through a new discretionary benefit.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 56
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard watch reports and veteran correspondence",
+            "changes": {
+              "intelligence": 8
+            },
+            "basis": "independent background security and veteran intelligence; not caused by the service-record reconciliation"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 64,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Foreseeable development of the established veteran-record and household documentation system."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R116-E06",
+      "date": "17 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE ESTATE LIBRARIES ACQUIRE A TECHNICAL TEXT WORTH PRESERVING",
+      "mentioned_entities": [
+        "Lucius Marcius",
+        "Marcus Petronius",
+        "estate librarians"
+      ],
+      "body": "Lucius Marcius and Marcus Petronius complete the examination of a newly copied technical text that has entered the estate library through the ongoing correspondence network. The work is not treated merely as another manuscript because its practical sections concern measurement, materials, and the organization of labor, giving the librarians reason to preserve a careful copy alongside the estate's existing technical records. The text is catalogued with its provenance and copied again for working use so that the reference copy can remain protected. No claim is made that the text transforms estate technology immediately; its immediate significance is that a potentially useful technical source has been securely added to the estate's documentary base. The acquisition therefore increases the household's usable information without silently converting scholarship into an unsupported change to the capped technology metric.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 68
+        },
+        "background_sources": [
+          {
+            "source": "urban estate household correspondence",
+            "changes": {
+              "intelligence": 7
+            },
+            "basis": "independent background administrative intelligence; not caused by the manuscript acquisition"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 75,
+          "public_account": 0,
+          "private_account": 0
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Established library thread producing a material archival acquisition and preservation decision."
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R116-E07",
+      "date": "18 January 57 BCE",
+      "event_category": "Connected",
+      "title": "THE WINTER ESTATE SURPLUS PRODUCES A SMALL SECONDARY SETTLEMENT",
+      "mentioned_entities": [
+        "estate agricultural stewards",
+        "local buyers",
+        "estate workers"
+      ],
+      "body": "A separate winter agricultural surplus is sold locally after the estate stewards determine that a portion of the current stores can be released without disturbing the household's established reserves. The sale realizes 11 denarii against 4 denarii in handling and preparation costs, producing 7 denarii of net public profit. The canonical ten-percent routing transfers 0.7 denarii internally to Valerius's private account and retains 6.3 denarii publicly. This is separate from the recurring caravan delivery: the goods are sold locally and do not represent another posting of the same transaction. The settlement is recorded only after the local buyers take possession and payment is received, so no projected agricultural revenue is added beyond the realized amount.",
+      "round_number": 116,
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 45,
+          "public_account": 6.3,
+          "private_account": 0.7
+        },
+        "background_sources": [
+          {
+            "source": "personal-guard household reports",
+            "changes": {
+              "intelligence": 6
+            },
+            "basis": "independent background household/security intelligence; not caused by the agricultural sale"
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 51,
+          "public_account": 6.3,
+          "private_account": 0.7
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 11,
+          "operating_costs_denarii": 4,
+          "net_public_profit_denarii": 7,
+          "private_transfer_denarii": 0.7,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 6.3,
+          "private_account_change_denarii": 0.7,
+          "currency_flow_denarii": 7
+        }
+      },
+      "classification_audit": {
+        "final_category": "Connected",
+        "causal_basis": "Established agricultural estate activity; realized local sale independently resolved from current winter surplus."
+      }
+    }
+  ],
+  "round_summary": "Round 116 produced seven distinct material developments across civic procedure, commerce, family records, mining, veteran administration, scholarship, and agriculture. Background activity continued without being promoted into routine-status news, while realized income was separately attributed and routed under the canonical financial rule."
+}
