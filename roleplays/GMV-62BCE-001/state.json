@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-001",
-  "round": 106,
-  "date": "-0057-11-09",
+  "round": 107,
+  "date": "-0057-11-16",
   "treasury": 1668,
   "wealth_accounts": {
-    "public": 3142.2,
-    "private": 618.8,
+    "public": 3160.2,
+    "private": 620.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 17,
-    "last_round_private_transfer": 1.7
+    "last_round_net_public_profit": 20,
+    "last_round_private_transfer": 2
   },
   "metrics": {
     "soldiers": 414,
@@ -49,43 +49,43 @@
     "merchant-connections": 23
   },
   "continuity": {
-    "campaign_development": "9 November 57 BCE: Valerius answered the outstanding messages, the final recovering man returned to duty, Valerius declared for the lowest-level next civic election, the fifth recurring surplus settlement realized 30 gross / 11 costs / 19 net with 1.9 privately transferred and 17.1 retained publicly, ordinary local traffic expanded on the protected road, the older-road survey continued, and the candidacy entered local political discussion.",
-    "commercial_thread": "The long-term surplus-delivery agreement remains active; the fifth contracted consignment settled this round for 30 gross / 11 costs / 19 net. No future receipts are booked.",
-    "road_thread": "The shared-water road remains in routine local and merchant use and is covered by an unbroken patrol corridor from the lake port through the water-access approach.",
-    "road_investigation": "Servilius and Cassius continue tracing the secondary alignment beside older prepared roadwork; builder, date, authority, and original purpose remain unresolved.",
-    "political_correspondence": "Valerius answered Celer’s questions: sanctuary admission remains under Valerius and his appointed stewards, while the guard remains under his direct authority and Varenus’s orders. No office, payment, command, or binding political commitment exists.",
-    "medical_recovery": "All previously unavailable men have now returned to duty; temporary unavailable strength is 0.",
-    "refuge_policy": "The accepted refugee household remains under the estate shield as protected residents; protection does not alter property boundaries or grant unrestricted access to armed quarters.",
-    "election_thread": "Valerius has publicly declared his candidacy in the lowest-level civic election currently next on the local electoral calendar. No election result, endorsement, office, or political alliance is yet established.",
-    "local_infrastructure_thread": "The shared-water road remains toll-free for ordinary local traffic as well as merchant traffic; no new construction expenditure occurred this round.",
-    "personal_guard": "100 total: 50 infantry and 50 cavalry; all personnel are now available for ordinary duty."
+    "campaign_development": "16 November 57 BCE: Valerius formally registers his candidacy for the lowest-level civic election, receives the first questions from prospective voters, and begins answering them without claiming the office before the vote.",
+    "commercial_thread": "The active surplus-delivery agreement produced its sixth realized settlement this round: 32 gross / 12 costs / 20 net; 2 privately transferred and 18 retained publicly. No future receipts are booked.",
+    "road_thread": "The protected shared-water road handled an actual traffic dispute without violence and continues to serve local and merchant traffic without tolls.",
+    "road_investigation": "Servilius and Cassius found a weathered marked stone beside the secondary alignment. Its mark is incomplete and does not yet identify the builder, date, authority, or purpose.",
+    "political_correspondence": "Celer acknowledges Valerius’s entry into the electoral process but offers no office, payment, endorsement, or alliance. Their correspondence remains exploratory.",
+    "medical_recovery": "All previously unavailable men remain fully returned to duty; temporary unavailable strength remains 0.",
+    "refuge_policy": "The protected refugee household is settling into ordinary estate life while remaining under Valerius’s established shield.",
+    "election_thread": "Valerius’s candidacy has been formally registered. Questions from prospective voters have begun, but no votes or electoral result have occurred.",
+    "local_infrastructure_thread": "The shared-water road remains open and toll-free; no new construction expenditure occurred.",
+    "personal_guard": "100 total: 50 infantry and 50 cavalry; all personnel remain available for ordinary duty."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 66.06585094789827,
+    "current_round_roll": 84.03355188039015,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      19.45075900713067,
-      28.26129700775747,
-      11.631366324889935
+      25.18917333884132,
+      65.20520276035003,
+      40.98923105569844
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v3",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 66.06585094789827,
+    "roll": 84.03355188039015,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      19.45075900713067,
-      28.26129700775747,
-      11.631366324889935
+      25.18917333884132,
+      65.20520276035003,
+      40.98923105569844
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [],
@@ -97,15 +97,15 @@
     "generated_special_event": null
   },
   "financial_realization": {
-    "gross_receipts_denarii": 30,
-    "operating_costs_denarii": 11,
-    "net_public_profit_denarii": 19,
-    "private_transfer_denarii": 1.9,
-    "public_account_change_denarii": 17.1,
-    "private_account_change_denarii": 1.9,
-    "currency_flow_denarii": 19,
+    "gross_receipts_denarii": 32,
+    "operating_costs_denarii": 12,
+    "net_public_profit_denarii": 20,
+    "private_transfer_denarii": 2,
+    "public_account_change_denarii": 18,
+    "private_account_change_denarii": 2,
+    "currency_flow_denarii": 20,
     "internal_transfer": true,
-    "ten_percent_profit_transfer_denarii": 1.9
+    "ten_percent_profit_transfer_denarii": 2
   },
   "next_round_gate": "OPEN",
   "reconciliation_adjustments": {
@@ -1173,8 +1173,8 @@
       }
     ]
   },
-  "latest_round": 106,
-  "latest_date": "-0057-11-09",
+  "latest_round": 107,
+  "latest_date": "-0057-11-16",
   "soldiers": 414,
   "population": 254,
   "taxation": 3,
@@ -1190,7 +1190,7 @@
   "legitimacy": 100,
   "technology": 100,
   "exhaustion": 100,
-  "intelligence": 4227,
+  "intelligence": 4377,
   "relations": 100,
   "land_area_sq_miles": 7.95,
   "temporary_unavailable": 0,
@@ -1228,25 +1228,25 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4227,
+    "intelligence": 4377,
     "relations": 100,
     "land_area_sq_miles": 7.95,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3142.2,
-    "private_account": 618.8,
+    "public_account": 3160.2,
+    "private_account": 620.8,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 30,
-      "operating_costs_denarii": 11,
-      "net_public_profit_denarii": 19,
-      "private_transfer_denarii": 1.9,
-      "public_account_change_denarii": 17.1,
-      "private_account_change_denarii": 1.9,
-      "currency_flow_denarii": 19,
+      "gross_receipts_denarii": 32,
+      "operating_costs_denarii": 12,
+      "net_public_profit_denarii": 20,
+      "private_transfer_denarii": 2,
+      "public_account_change_denarii": 18,
+      "private_account_change_denarii": 2,
+      "currency_flow_denarii": 20,
       "internal_transfer": true,
-      "ten_percent_profit_transfer_denarii": 1.9
+      "ten_percent_profit_transfer_denarii": 2
     }
   },
   "round_delta_ledger": {
@@ -1327,8 +1327,8 @@
     },
     "intelligence": {
       "before": 4227,
-      "change": 157,
-      "after": 4227
+      "change": 150,
+      "after": 4377
     },
     "relations": {
       "before": 100,
@@ -1342,7 +1342,7 @@
     },
     "temporary_unavailable": {
       "before": 0,
-      "change": -1,
+      "change": 0,
       "after": 0
     }
   },
