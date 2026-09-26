@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "latest_round": 117,
-  "latest_date": "-0057-01-25",
+  "latest_round": 118,
+  "latest_date": "-0057-02-01",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,50 +16,54 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 67.61460762997596,
+    "current_round_roll": 98.95883762192945,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      28.608870654186546,
-      99.08346224403897,
-      70.89501666729811
+      43.67268661185817,
+      47.81035522925008,
+      58.68198162249823
     ],
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
-    "campaign_development": "Valerius remains a registered civic candidate; the next procedural filing was accepted without a vote or result.",
-    "commercial_thread": "Round 117 recurring settlement realized 47 gross / 21 costs / 26 net; 2.6 private / 23.4 public.",
+    "campaign_development": "The election opened on 26 January 57 BCE; Valerius remains an active candidate and an administrative ballot-record dispute was contained without a published result.",
+    "commercial_thread": "Round 118 recurring settlement realized 54 gross / 23 costs / 31 net; 3.1 private / 27.9 public.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
-    "election_thread": "Candidacy remains active after a completed procedural appearance; no electoral result.",
-    "refuge_policy": "The second displaced household remains integrated and entered its first formal tenancy on existing estate land; population remains 257.",
+    "election_thread": "The election is now in its active voting period; no numerical tally, appointment, endorsement, or final result has been recorded.",
+    "refuge_policy": "The second displaced household is now formally registered as a regular tenant on existing estate land; population remains 257.",
     "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
-    "silver_development_thread": "Second silver working completed its first commercial sale at 16 gross / 6 costs / 10 net; eventual yield remains unresolved.",
+    "silver_development_thread": "Second silver working completed another commercial sale at 22 gross / 8 costs / 14 net; deeper reserve remains unresolved.",
     "family_thread": "The documentary conflict was resolved as an old draft copied without its final cancellation mark; no land transfer, payment, or new encumbrance occurred.",
     "urban_estate_thread": "Open-access facility policy remains in force; ordinary merchant use has now produced a concrete cost-recovery transaction.",
-    "merchant_access_thread": "Merchant houses from the prior delegation made actual ordinary winter use of the estate facilities; 14 gross / 5 costs / 9 net was realized under the existing access policy.",
-    "library_thread": "The technical manuscript was subjected to a practical measurement trial and retained as a documented working reference."
+    "merchant_access_thread": "Expanded merchant access now includes the new capitalization network; a lake-port merchant house completed an unexpected bulk artisan order.",
+    "library_thread": "The technical measurement method tested in Round 117 became a formal working standard for selected estate commercial lots.",
+    "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
+    "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net.",
+    "six_acre_parcel_thread": "Six-acre parcel suffered winter waterlogging and received a 5-denarii drainage repair; no acreage changed and future yield remains unresolved."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 67.61460762997596,
+    "roll": 98.95883762192945,
     "special_triggered": false,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      28.608870654186546,
-      99.08346224403897,
-      70.89501666729811
+      43.67268661185817,
+      47.81035522925008,
+      58.68198162249823
     ],
     "magnitude_11_events": 0,
     "ultimate_reclassification_events": [
-      "GMV-62BCE-002-R117-E01: preserved as Surprise"
+      "GMV-62BCE-002-R118-E01: preserved as Surprise",
+      "GMV-62BCE-002-R118-E05: preserved as Surprise"
     ],
     "random_generation": "local resolution",
     "ten_percent_profit_transfer_rule": "PASS",
     "recurring_financial_agreement_settlement": "PASS",
-    "canonical_pointer_synchronization": "PASS",
-    "post_commit_verification": "PASS"
+    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PENDING"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -1357,9 +1361,9 @@
     "rule": "Every GMV round must contain at least 7 distinct events. This is the only additional event-count requirement. All existing causal-generation, event-category, variety, continuity, random-resolution, financial, metric, and validation rules remain unchanged. The minimum does not permit unrelated filler; each event must arise from an existing or newly emerging plausible causal thread supported by the established simulation state."
   },
   "last_round_classification_summary": {
-    "Direct": 0,
-    "Connected": 6,
-    "Surprise": 1,
+    "Direct": 2,
+    "Connected": 5,
+    "Surprise": 2,
     "Special": 0,
     "Ultimate": 0
   },
@@ -1380,15 +1384,15 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 4423,
+    "intelligence": 4998,
     "relations": 100,
     "land_area_sq_miles": 7.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 1668,
-    "public_account": 3442.3,
-    "private_account": 628.8
+    "public_account": 3535.9,
+    "private_account": 639.2
   },
   "campaign_intelligence_allocation": {
     "round": 111,
@@ -1405,14 +1409,14 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_117_verified",
+    "status": "round_118_pending_commit",
     "verification": {
-      "round": 117,
-      "date": "-0057-01-25",
-      "status": "PASS",
-      "round_file": "roleplays/GMV-62BCE-002/rounds/round-117.json",
-      "news_file": "roleplays/GMV-62BCE-002/news/round-117.json",
-      "canonical_pointer": "Round 117 verified"
+      "round": 118,
+      "date": "-0057-02-01",
+      "status": "PENDING",
+      "round_file": "roleplays/GMV-62BCE-002/rounds/round-118.json",
+      "news_file": "roleplays/GMV-62BCE-002/news/round-118.json",
+      "canonical_pointer": "Pending"
     }
   },
   "simulation_contract": {
@@ -1436,8 +1440,8 @@
     "ultimate_reclassification_gate": true,
     "recurring_character_continuity": true
   },
-  "next_round": 118,
-  "next_date": "-0057-02-01",
+  "next_round": 119,
+  "next_date": "-0057-02-08",
   "round_history": [
     {
       "round": 116,
@@ -1464,13 +1468,28 @@
         "Special": 0,
         "Ultimate": 0
       }
+    },
+    {
+      "round": 118,
+      "date": "-0057-02-01",
+      "directive": "The election begins; Valerius formally grants the new tenants regular tenant status; expand trade so surplus and needed items are commercially converted into capital through the established merchant network, lake port, principal estate, and skilled artisan network.",
+      "event_count": 8,
+      "classification_summary": {
+        "Direct": 2,
+        "Connected": 5,
+        "Surprise": 2,
+        "Special": 0,
+        "Ultimate": 0
+      }
     }
   ],
   "wealth_accounts": {
-    "public": 3442.3,
-    "private": 628.8,
+    "public": 3535.9,
+    "private": 639.2,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 39,
-    "last_round_private_transfer": 4.4
-  }
+    "last_round_net_public_profit": 104,
+    "last_round_private_transfer": 10.4
+  },
+  "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
+  "trade_capitalization_thread": "Round 118 first capitalization cycle realized 68 gross / 27 costs / 41 net; lake-port artisan bulk order realized 35 gross / 12 costs / 23 net."
 }
