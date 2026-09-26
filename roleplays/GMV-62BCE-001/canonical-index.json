@@ -14,5 +14,5 @@
     "roleplays/GMV-62BCE-001/rounds/round-052.json"
   ],
   "rule": "Only the synchronized canonical pointer determines the current round.",
-  "last_verified": "Round 86 synchronized; fresh local random resolution recorded; all pre-commit validation gates passed; post-commit verification pending."
+  "last_verified": "Round 86 fully committed, synchronized, re-read, and verified; fresh local random resolution recorded; all mandatory validation gates PASS; next-round gate OPEN."
 }
