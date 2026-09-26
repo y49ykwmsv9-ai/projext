@@ -393,7 +393,12 @@
     "last_reconciled_round": 99,
     "last_reconciled_event_id": "GMV-62BCE-001-R099-E004",
     "last_reconciled_public_profit_denarii": 18,
-    "last_reconciled_private_transfer_denarii": -20
+    "last_reconciled_private_transfer_denarii": 1.8,
+    "ten_percent_realized_profit_transfer": {
+      "rule": "10% of realized net public profit is routed to Valerius's private account; the remaining 90% remains in the public account. This is an account-routing rule, not new external income.",
+      "rate": 0.1,
+      "last_round_transfer_denarii": 1.8
+    }
   },
   "canonical_pointer_policy": {
     "schema_version": "gmv-canonical-pointer-v1",
