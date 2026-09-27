@@ -1,0 +1,443 @@
+{
+  "schema_version": "gmv-round-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 134,
+  "date": "24 May 57 BCE",
+  "directive": "Continue all established political, mining, waterway, military, commercial, estate, scholarly, and tenancy directives from the verified Round 133 state.",
+  "inherited_state": {
+    "round": 133,
+    "date": "17 May 57 BCE",
+    "intelligence": 13220,
+    "public_account": 3901.1,
+    "private_account": 736.8,
+    "soldiers": 500,
+    "population": 257,
+    "land_area_sq_miles": 22.959375
+  },
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R134-E01",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "DIRECT",
+      "title": "THE CIVIC RECORD IS PRESENTED FOR FORMAL ACTION",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Marcus Claudius Marcellus",
+        "Roman civic officials"
+      ],
+      "body": "The documentary question carried forward from the preceding rounds reaches the desk of the responsible civic officials as a complete packet rather than as another isolated memorandum. Valerius appears through the established procedure and presents the clarification, the surviving memorandum, the later petition, and the documentary comparison prepared by Lucius Marcius. The officials examine the material together and distinguish the substantive policy already being administered from the narrower procedural question that has required documentary clarification. Valerius does not attempt to dictate the officials’ conclusion, and Marcus Claudius Marcellus remains part of the surrounding political correspondence without being assigned a private bargain or new office. The packet is accepted for formal consideration, giving the question a recognized procedural place instead of leaving it as an informal exchange of letters. No final decree is issued during the week, and no electoral or magistracy outcome is invented beyond the established fact that Valerius is participating in ordinary Roman political administration. The immediate development is therefore procedural but concrete: the matter has moved from clarification into formal civic action.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 100
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 100
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "DIRECT",
+          "causal_basis": "Direct continuation of Valerius's established political participation."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E02",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE DEEP PASSAGE IS PUT THROUGH A LONGER CONTROLLED WORKING CYCLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus",
+        "deep-mine crew"
+      ],
+      "body": "Titus Serranus keeps the deep passage under controlled labor for a further working cycle, using the reinforced route and shift system already established after the passage was secured. The crew advances the usable face, clears loose material, and records the amount of time and effort required to move tools and supplies through the deeper section. Serranus continues to separate physical access from geological certainty, so the work produces better information about the working without being represented as proof of a commercially valuable reserve. The older technical notation recovered by Lucius Marcius is used alongside the current measurements rather than replacing them, allowing the miners to compare like observations without rewriting earlier records. The crew's completed labor creates a realized operating cost of 9 denarii in the estate accounts, with no corresponding silver receipt because no saleable output has been established. The passage is consequently more thoroughly developed as a working environment, while its eventual mineral yield remains unresolved. The result is a genuine advance in the mining thread without speculative capitalization.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 115
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 115
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 9,
+          "net_public_profit_denarii": -9,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -9,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -9
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established mining thread; material continuation of the secured deep working."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E03",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE WATERWAY ACCEPTS ANOTHER CONTROLLED LOAD WITHOUT OPENING TO UNRESTRICTED TRAFFIC",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus",
+        "waterway crew"
+      ],
+      "body": "The maintained underground waterway is used for another controlled movement after the previous maintenance pass. The crew clears the prepared route, checks the restrictive transition identified in the earlier tests, and moves a single controlled load through the section that has already demonstrated workable passage. The movement is completed without converting the result into a general merchant opening, because the narrowest section still requires controlled handling and observation. Titus Serranus records the load movement beside the earlier successful tests so that the estate has a sequence of comparable observations rather than a single favorable incident. The work also identifies a small amount of additional maintenance required before another test can be attempted. Six denarii of completed maintenance and handling labor are recorded as an actual operating cost, while no transport receipt is realized from the test itself. The waterway therefore becomes better tested and better understood, but its unrestricted commercial status remains unresolved.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 92
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 92
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 6,
+          "net_public_profit_denarii": -6,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": -6,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": -6
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established waterway testing and maintenance thread."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E04",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE SPRING SURPLUS SETTLEMENT CHANGES WITH THE ACTUAL WEEK'S LOAD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Valerius's sister",
+        "Merchant Affairs Office",
+        "foreign caravan merchants"
+      ],
+      "body": "The Merchant Affairs Office completes the next assessment of the spring surplus and finds that the actual load available for delivery differs from the previous week's composition. The merchants accept the revised shipment after the office reconciles the quantity, handling requirements, and transport record with the material that was physically delivered. The completed transaction produces 52 denarii in gross receipts against 20 denarii in realized operating, handling, and transport costs, leaving 32 denarii of net public profit. Under the standing ten-percent routing rule, 3.2 denarii is transferred to Valerius's private account and 28.8 denarii remains in the public operating account. Valerius's sister records the settlement only after the merchants' acceptance and the completed delivery are matched, preserving the distinction between realized income and projected future trade. No future delivery is booked from the transaction, and the shared-water road remains toll-free under the established access policy. The settlement gives the commercial thread another concrete week of activity while leaving future prices and quantities unresolved.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 88
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 88
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 52,
+          "operating_costs_denarii": 20,
+          "net_public_profit_denarii": 32,
+          "private_transfer_denarii": 3.2,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 28.8,
+          "private_account_change_denarii": 3.2,
+          "currency_flow_denarii": 32
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established commercial and Merchant Affairs Office thread."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E05",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE PERSONAL GUARD COMPLETES A FULL COMMAND-AND-RESPONSE EXERCISE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus",
+        "Lucius Atilius",
+        "Gnaeus Fabius"
+      ],
+      "body": "Titus Varenus conducts another command exercise with the personal guard while Valerius's established military directive remains in force. The exercise moves the men through ordered changes of formation, perimeter response, mounted repositioning, and a controlled withdrawal before returning the force to its normal guard arrangement. Lucius Atilius and Gnaeus Fabius supervise portions of the infantry response while the mounted veterans practice keeping their movement coordinated with the foot line rather than operating as a separate body. No battle occurs and no casualties are recorded, so the force remains at 500 available soldiers. The exercise nevertheless gives the veterans another practical test of the command procedures already established during earlier proving and night exercises. No new recruitment, equipment purchase, or military payroll is created by the exercise. The week's military thread therefore advances through demonstrated practice rather than through a manufactured combat event.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 83
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 83
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established personal-guard training and readiness thread; no unsupported force change."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E06",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE MERCHANT AFFAIRS OFFICE COMPLETES A SMALL INPUT PURCHASE ALONGSIDE ITS SALES WORK",
+      "mentioned_entities": [
+        "Valerius's sister",
+        "Merchant Affairs Office",
+        "estate artisans",
+        "established merchant network"
+      ],
+      "body": "The Merchant Affairs Office uses the established commercial network to obtain a needed set of estate inputs alongside the week's surplus activity rather than treating trade as a one-way sale of agricultural goods. The office checks the requirement against actual estate use, coordinates with established merchants and artisans, and completes the transaction at the point where the goods and payment are both recorded. The purchase and related handling produce 11 denarii in gross commercial receipts from a separately completed service and sale arrangement against 5 denarii in realized operating costs, leaving 6 denarii of net public profit. Under the standing routing rule, 0.6 denarii moves to Valerius's private account and 5.4 denarii remains public. The office records the input acquisition separately from the realized commercial receipt so that the account does not confuse inventory expenditure with revenue. No future resale or return is booked, and no speculative appreciation is assigned to the acquired inputs. The result is a genuine extension of the capitalization directive into another realized commercial cycle.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 90
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 90
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 11,
+          "operating_costs_denarii": 5,
+          "net_public_profit_denarii": 6,
+          "private_transfer_denarii": 0.6,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 5.4,
+          "private_account_change_denarii": 0.6,
+          "currency_flow_denarii": 6
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Standing Round 118 trade-capitalization directive and active Merchant Affairs Office."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E07",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE REGISTERED TENANT HOUSEHOLD COMPLETES ANOTHER SPRING DELIVERY",
+      "mentioned_entities": [
+        "registered tenant household",
+        "principal estate stewards",
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The registered tenant household continues its spring work and completes another small delivery through the estate's ordinary productive system. The stewards record the actual labor and inspect the delivered produce before accepting it into the commercial stream, preserving the household's status as regular tenants rather than converting the arrangement into an undefined labor obligation. The completed delivery produces 16 denarii in gross receipts against 7 denarii in operating and handling costs, leaving 9 denarii of realized net public profit. The standing ten-percent routing rule sends 0.9 denarii to Valerius's private account and leaves 8.1 denarii public. The result is larger than the household's first spring settlement but remains a small-scale transaction consistent with its established position on the estate. Population remains 257, and no additional land transfer or exemption is created. The tenancy thread therefore develops through another measurable season of work rather than through an artificial change in status.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 76
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 76
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 16,
+          "operating_costs_denarii": 7,
+          "net_public_profit_denarii": 9,
+          "private_transfer_denarii": 0.9,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 8.1,
+          "private_account_change_denarii": 0.9,
+          "currency_flow_denarii": 9
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established tenancy and spring-production thread."
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R134-E08",
+      "round_number": 134,
+      "date": "24 May 57 BCE",
+      "event_category": "SURPRISE",
+      "title": "A CIVIC OFFICIAL REQUESTS THE ORIGINAL HOUSEHOLD COPY BEFORE THE RECORD CAN ADVANCE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Lucius Marcius",
+        "Roman civic officials"
+      ],
+      "body": "An unexpected request arrives from the civic office handling the procedural question: the officials want to inspect the original household copy of the older memorandum rather than relying only on the copy already attached to the formal packet. Lucius Marcius compares the requested document with the preserved correspondence before releasing it, finding that the household copy carries the same marginal notation that prompted the recent documentary comparison. The request does not reverse the procedural action already taken, but it changes the immediate administrative task by requiring the household archive to become part of the documentary verification itself. Valerius permits the document to be produced through the established civic channel rather than treating the request as a private demand. No accusation, payment, office, or political bargain follows from the request. The surviving original therefore becomes a more important piece of the active civic record, and the procedural question remains open for the authorities' next action.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 105
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 105
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "SURPRISE",
+          "causal_basis": "Unexpected but plausible development within the active civic-documentary thread."
+        }
+      }
+    }
+  ],
+  "current_total_ledger": {
+    "soldiers": 500,
+    "population": 257,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 13969,
+    "relations": 100,
+    "land_area_sq_miles": 22.959375,
+    "temporary_unavailable": 0
+  },
+  "financial_ledger": {
+    "treasury": 668,
+    "public_account": 3928.4,
+    "private_account": 741.5,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 79,
+      "operating_costs_denarii": 47,
+      "net_public_profit_denarii": 32,
+      "private_transfer_denarii": 4.7,
+      "public_account_change_denarii": 27.3,
+      "treasury_change_denarii": 0,
+      "currency_flow_denarii": 32
+    }
+  },
+  "classification_summary": {
+    "Direct": 1,
+    "Connected": 6,
+    "Surprise": 1,
+    "Special": 0,
+    "Ultimate": 0
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 73.3895623228682,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      60.621115516452726,
+      96.11527023265882,
+      61.274082858419774
+    ],
+    "magnitude_11_events": 0,
+    "generated_magnitude_11_events": [],
+    "magnitude_11_success_auto_ultimate": true,
+    "ultimate_reclassification_events": [],
+    "random_generation": "fresh local resolution",
+    "ultimate_gate": "PASS"
+  },
+  "round_delta_ledger": {
+    "intelligence": {
+      "before": 13220,
+      "change": 749,
+      "after": 13969,
+      "unit": "points"
+    },
+    "public_account": {
+      "before": 3901.1,
+      "change": 27.3,
+      "after": 3928.4,
+      "unit": "denarii"
+    },
+    "private_account": {
+      "before": 736.8,
+      "change": 4.7,
+      "after": 741.5,
+      "unit": "denarii"
+    },
+    "treasury": {
+      "before": 668,
+      "change": 0,
+      "after": 668,
+      "unit": "denarii"
+    },
+    "soldiers": {
+      "before": 500,
+      "change": 0,
+      "after": 500,
+      "unit": "men"
+    },
+    "population": {
+      "before": 257,
+      "change": 0,
+      "after": 257,
+      "unit": "people"
+    },
+    "land_area_sq_miles": {
+      "before": 22.959375,
+      "change": 0,
+      "after": 22.959375,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "financial_reconciliation": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "single_thread_event_integrity": "PASS",
+    "background_thread_advancement": "PASS",
+    "background_source_attachment": "PASS",
+    "current_total_completeness": "PASS",
+    "randomness_integrity": "PASS",
+    "ultimate_event_contract": "PASS",
+    "round_date_numbering": "PASS",
+    "labor_financial_correlation": "PASS"
+  },
+  "next_round_gate": {
+    "status": "OPEN_AFTER_COMMIT",
+    "next_round": 135,
+    "next_date": "31 May 57 BCE"
+  }
+}
