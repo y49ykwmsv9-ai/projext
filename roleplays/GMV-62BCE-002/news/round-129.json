@@ -22,9 +22,18 @@
         "event_caused": {
           "intelligence": 96
         },
-        "background_sources": [],
+        "background_sources": [
+          {
+            "source": "Estate library correspondence and cataloguing — independent scholarly activity",
+            "intelligence": 15
+          },
+          {
+            "source": "Political correspondence maintained by Valerius's household — independent civic intelligence",
+            "intelligence": 10
+          }
+        ],
         "event_total_effect": {
-          "intelligence": 96
+          "intelligence": 121
         }
       },
       "classification_audit": {
@@ -100,11 +109,26 @@
           "public_account": 17.1,
           "private_account": 1.9
         },
-        "background_sources": [],
+        "background_sources": [
+          {
+            "source": "Estate agricultural production and continuing surplus activity — independently realized background estate surplus",
+            "intelligence": 0,
+            "financial_realization": {
+              "gross_receipts_denarii": 13,
+              "operating_costs_denarii": 5,
+              "net_public_profit_denarii": 8,
+              "private_transfer_denarii": 0.8,
+              "treasury_change_denarii": 0,
+              "public_account_change_denarii": 7.2,
+              "private_account_change_denarii": 0.8,
+              "currency_flow_denarii": 8
+            }
+          }
+        ],
         "event_total_effect": {
           "intelligence": 78,
-          "public_account": 17.1,
-          "private_account": 1.9
+          "public_account": 24.3,
+          "private_account": 2.7
         }
       },
       "classification_audit": {
@@ -131,9 +155,14 @@
           "public_account": 24.3,
           "private_account": 2.7
         },
-        "background_sources": [],
+        "background_sources": [
+          {
+            "source": "Ongoing estate commercial correspondence — independent merchant intelligence",
+            "intelligence": 8
+          }
+        ],
         "event_total_effect": {
-          "intelligence": 67,
+          "intelligence": 75,
           "public_account": 24.3,
           "private_account": 2.7
         }
@@ -159,9 +188,14 @@
         "event_caused": {
           "intelligence": 61
         },
-        "background_sources": [],
+        "background_sources": [
+          {
+            "source": "Personal-guard road-watch reports — independent routine security intelligence",
+            "intelligence": 5
+          }
+        ],
         "event_total_effect": {
-          "intelligence": 61
+          "intelligence": 66
         }
       },
       "classification_audit": {
