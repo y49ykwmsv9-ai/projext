@@ -1,0 +1,325 @@
+{
+  "schema_version": "gmv-news-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 130,
+  "date": "26 April 57 BCE",
+  "headline": "ROUND 130 — THE POLITICAL RECORD THICKENS AS THE WATERWAY, MINE, AND HOUSEHOLD SYSTEMS CONTINUE",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R130-E01",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "DIRECT",
+      "title": "THE POLITICAL MEMORANDUM IS EXAMINED AND THE ADMINISTRATIVE RECORD MOVES FORWARD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The memorandum that complicated the political administration last week is formally examined alongside the existing record. Valerius participates in the review without treating the objection as either a victory or a reversal, and the supporting papers are compared point by point before the next administrative action is allowed to proceed. The review establishes that the objection concerns procedure rather than a newly created office or a change in the underlying political authority already established. The relevant officials therefore continue the process while preserving the memorandum as part of the permanent record. Valerius's separation between public responsibility and private estate authority remains intact throughout the proceedings. The matter is not closed, but it has moved from an unexpected interruption back into a documented administrative process.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 90
+        },
+        "background_sources": [
+          {
+            "source": "Political correspondence maintained by the household — independent civic intelligence",
+            "intelligence": 10
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 100
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "DIRECT",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E02",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE WATERWAY ENGINEERS COMPLETE A SECOND CONTROLLED LOAD TEST",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus"
+      ],
+      "body": "The waterway engineers conduct another controlled movement through the section that proved more difficult during the previous test. A smaller load is selected so that the engineers can isolate the effects of water level, clearance, and the transition between completed sections. The passage succeeds without the team claiming that the entire underground route has been solved. Titus Serranus records the measurements and identifies the transition point as the principal remaining engineering problem. The result gives the project a second successful operational reference rather than a single isolated demonstration. Existing research funds remain sufficient for the work, so no new treasury expenditure is realized this week.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 100
+        },
+        "background_sources": [
+          {
+            "source": "Estate library cataloguing beyond the visible correspondence index — independent scholarly activity",
+            "intelligence": 11
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 111
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E03",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE DEEP WORKINGS EXTEND THEIR SUPPLY ROUTE WITHOUT LOSING THE MINING STANDARD",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus"
+      ],
+      "body": "Crews working beneath the established deep-mine supply network extend the practical reach of the existing delivery arrangement into another active section. Tools and provisions reach the deeper workers on schedule, while extracted material is brought back through the same staged system that Titus Serranus designed and won the earlier competition for. The mining standard remains planted at the deepest secure working rather than being moved merely because the crews have advanced. The extension exposes another point where the underground route will require improved handling if extraction continues farther. The work therefore produces both operational progress and a new engineering requirement without assuming future production or revenue.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 85
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 85
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E04",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "A SILVER LOT IS WEIGHED, ACCEPTED, AND SETTLED",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "body": "A new payable silver lot is weighed and accepted after the latest extraction cycle. The quantity is sufficient for an ordinary commercial settlement but not large enough to justify any revised estimate of the deeper reserve. The Merchant Affairs Office records the transaction after the material is actually accepted rather than booking anticipated production. The lot produces 29 denarii in gross receipts against 11 denarii in operating and handling costs, leaving 18 denarii of realized net public profit. Under the standing ten-percent routing rule, 1.8 denarii moves privately and 16.2 denarii remains public. The transaction confirms continuing commercial output while keeping future mine income deliberately unrecognized until realized.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 70
+        },
+        "background_sources": [
+          {
+            "source": "Estate agricultural surplus cycle — independently realized background estate activity",
+            "intelligence": 14,
+            "financial_realization": {
+              "gross_receipts_denarii": 11,
+              "operating_costs_denarii": 4,
+              "net_public_profit_denarii": 7,
+              "private_transfer_denarii": 0.7,
+              "treasury_change_denarii": 0,
+              "public_account_change_denarii": 6.3,
+              "private_account_change_denarii": 0.7,
+              "currency_flow_denarii": 7
+            }
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 84,
+          "public_account": 22.5,
+          "private_account": 2.5
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 29,
+          "operating_costs_denarii": 11,
+          "net_public_profit_denarii": 18,
+          "private_transfer_denarii": 1.8,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 16.2,
+          "private_account_change_denarii": 1.8,
+          "currency_flow_denarii": 18
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E05",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE VETERANS COMPLETE ANOTHER STAGE OF PERSONAL-GUARD TRAINING",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus"
+      ],
+      "body": "The 500-man force continues the training system established after Valerius recruited the additional Roman veterans from Pompey's eastern campaigns. Titus Varenus oversees another stage of coordinated drill, concentrating on command communication, movement discipline, and the ability of the men to operate under their established officers without creating a separate military body. The veterans are increasingly integrated into the ordinary command structure rather than treated as a temporary addition. No deployment is ordered and no battle occurs. The training nevertheless produces a measurable improvement in accumulated readiness knowledge and command intelligence.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 75
+        },
+        "background_sources": [
+          {
+            "source": "Personal-guard road-watch reports — independent routine security intelligence",
+            "intelligence": 7
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 82
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E06",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "QUINTUS VIBIUS AND MARCUS LARTIUS CLOSE ANOTHER VERIFIED COMMERCIAL SHIPMENT",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Vibius",
+        "Marcus Lartius"
+      ],
+      "body": "Quintus Vibius and Marcus Lartius close another shipment through the established merchant network after the delivery records are checked against the estate's measured consignments. The transaction produces 38 denarii in gross receipts against 15 denarii in operating, handling, and transport costs, leaving 23 denarii of realized net public profit. The standing ten-percent routing sends 2.3 denarii to the private account and retains 20.7 denarii publicly. No future shipment is valued in advance and no new contract is assumed from the settlement. The Merchant Affairs Office continues to function through realized transactions rather than projections.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 65
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 65
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 38,
+          "operating_costs_denarii": 15,
+          "net_public_profit_denarii": 23,
+          "private_transfer_denarii": 2.3,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 20.7,
+          "private_account_change_denarii": 2.3,
+          "currency_flow_denarii": 23
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E07",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "SURPRISE",
+      "title": "A SECOND CIVIC PETITION FOR PROCEDURAL CLARIFICATION REACHES VALERIUS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "body": "A second petition reaches Valerius from a separate participant in the civic process, asking for clarification over how the disputed administrative sequence is to be recorded. The petition does not overturn the existing procedure and does not create a new authority for its author. Its significance lies in the fact that the question now has more than one independent source requesting clarification after the memorandum of the previous round. Valerius has the petition entered alongside the earlier papers rather than answering it through private estate channels. The additional documentation gives the political administration another matter to resolve before every procedural question can be considered settled. The episode remains a procedural complication, not a political reversal.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 55
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 55
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "SURPRISE",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R130-E08",
+      "round_number": 130,
+      "date": "26 April 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "LUCIUS MARCIUS EXPANDS THE LIBRARY'S CORRESPONDENCE INDEX",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Lucius Marcius"
+      ],
+      "body": "Lucius Marcius continues the estate library and correspondence work by expanding the index of political, commercial, and scholarly letters accumulated across the household's recent activity. The work brings older references into the same cataloguing system, making it easier to distinguish current correspondence from records that merely describe earlier transactions. No new public policy is created by the cataloguing itself, but the archive becomes more useful as an institutional source of information for Valerius and his household. Marcius keeps the work separate from the Merchant Affairs Office so scholarly records are not confused with commercial accounts. The library therefore continues to develop as an independent information institution.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 60
+        },
+        "background_sources": [
+          {
+            "source": "Estate library cataloguing beyond the visible correspondence index — independent scholarly activity",
+            "intelligence": 11
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 71
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    }
+  ]
+}
