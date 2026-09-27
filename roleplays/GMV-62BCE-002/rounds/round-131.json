@@ -464,8 +464,8 @@
     "randomness_integrity": "PASS",
     "ultimate_event_contract": "PASS",
     "round_date_numbering": "PASS",
-    "canonical_pointer_synchronization": "READY",
-    "post_commit_verification": "PENDING"
+    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PASS"
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
