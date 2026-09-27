@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "round": 130,
-  "date": "-0057-04-26",
+  "round": 131,
+  "date": "-0057-05-03",
   "treasury": 668,
   "wealth_accounts": {
-    "public": 3816.5,
-    "private": 727.4,
+    "public": 3839.9,
+    "private": 730,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 54,
-    "last_round_private_transfer": 5.4
+    "last_round_net_public_profit": 26,
+    "last_round_private_transfer": 2.6
   },
   "metrics": {
     "soldiers": 500,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 11124,
+    "intelligence": 11844,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
@@ -121,19 +121,19 @@
     "background_source_attachment": "PASS"
   },
   "financial_realization": {
-    "gross_receipts_denarii": 88,
-    "operating_costs_denarii": 34,
-    "net_public_profit_denarii": 54,
-    "private_transfer_denarii": 5.4,
-    "public_account_change_denarii": 48.6,
-    "private_account_change_denarii": 5.4,
+    "gross_receipts_denarii": 43,
+    "operating_costs_denarii": 17,
+    "net_public_profit_denarii": 26,
+    "private_transfer_denarii": 2.6,
+    "public_account_change_denarii": 23.4,
+    "private_account_change_denarii": 2.6,
     "treasury_change_denarii": 0,
-    "currency_flow_denarii": 54
+    "currency_flow_denarii": 26
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 131,
-    "next_date": "-0057-05-03"
+    "next_round": 132,
+    "next_date": "-0057-05-10"
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1493,10 +1493,10 @@
   "last_ultimate_round": 128,
   "ultimate_event_created_this_round": false,
   "canonical_pointer": {
-    "latest_round": 130,
-    "latest_date": "-0057-04-26",
-    "round_file": "roleplays/GMV-62BCE-002/rounds/round-130.json",
-    "news_file": "roleplays/GMV-62BCE-002/news/round-130.json",
+    "latest_round": 131,
+    "latest_date": "-0057-05-03",
+    "round_file": "roleplays/GMV-62BCE-002/rounds/round-131.json",
+    "news_file": "roleplays/GMV-62BCE-002/news/round-131.json",
     "state_file": "roleplays/GMV-62BCE-002/state.json",
     "scenario_file": "roleplays/GMV-62BCE-002/scenario.json"
   }
