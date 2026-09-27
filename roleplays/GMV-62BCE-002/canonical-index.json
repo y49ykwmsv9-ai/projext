@@ -1,1 +1,20 @@
-{"schema_version":"gmv-canonical-index-v2","campaign_id":"GMV-62BCE-002","chapter_number":2,"inherited_campaign_id":"GMV-62BCE-001","inherited_round":114,"inherited_date":"-0057-01-04","canonical_pointer":{"latest_round":128,"latest_date":"-0057-04-12","round_file":"roleplays/GMV-62BCE-002/rounds/round-128.json","news_file":"roleplays/GMV-62BCE-002/news/round-128.json","state_file":"roleplays/GMV-62BCE-002/state.json","scenario_file":"roleplays/GMV-62BCE-002/scenario.json"},"chapter_status":"round_128_verified","next_round":129,"next_date":"-0057-04-19","rule":"Only the synchronized Chapter II pointer determines the current chapter round."}
+{
+  "schema_version": "gmv-canonical-index-v2",
+  "campaign_id": "GMV-62BCE-002",
+  "chapter_number": 2,
+  "inherited_campaign_id": "GMV-62BCE-001",
+  "inherited_round": 114,
+  "inherited_date": "-0057-01-04",
+  "canonical_pointer": {
+    "latest_round": 128,
+    "latest_date": "-0057-04-12",
+    "round_file": "roleplays/GMV-62BCE-002/rounds/round-128.json",
+    "news_file": "roleplays/GMV-62BCE-002/news/round-128.json",
+    "state_file": "roleplays/GMV-62BCE-002/state.json",
+    "scenario_file": "roleplays/GMV-62BCE-002/scenario.json"
+  },
+  "chapter_status": "round_128_verified",
+  "next_round": 129,
+  "next_date": "-0057-04-19",
+  "rule": "Only the synchronized Chapter II pointer determines the current chapter round."
+}
