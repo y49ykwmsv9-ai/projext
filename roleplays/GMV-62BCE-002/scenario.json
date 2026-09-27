@@ -1,7 +1,7 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "latest_round": 131,
-  "latest_date": "-0057-05-03",
+  "latest_round": 132,
+  "latest_date": "-0057-05-10",
   "metric_schema": "roleplay-fixed-metrics-v2",
   "land_area_metric": {
     "name": "land_area_sq_miles",
@@ -16,57 +16,58 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 31.4817831385,
+    "current_round_roll": 86.0465596008094,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      17.524841218,
-      11.3282120284,
-      19.3486210083
+      17.9964366825856,
+      40.1169350821948,
+      54.4728241456671
     ],
     "current_round_magnitude_11_events": 0
   },
   "continuity": {
     "campaign_development": "Valerius has been elected and is participating in Roman political work; a substantive policy decision has entered ordinary civic administration.",
-    "commercial_thread": "Round 118 recurring settlement realized 54 gross / 23 costs / 31 net; 3.1 private / 27.9 public.",
+    "commercial_thread": "Round 132 recurring surplus settlement realized 51 gross / 20 costs / 31 net; 3.1 private / 27.9 public, with an independent spring agricultural surplus of 12 gross / 5 costs / 7 net.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
     "election_thread": "Election resolved in Round 127; subsequent rounds concern policy participation and administration.",
-    "refuge_policy": "The second displaced household is now formally registered as a regular tenant on existing estate land; population remains 257.",
-    "personal_guard": "414 soldiers remain available overall; personal guard remains 100 with 50 infantry and 50 cavalry.",
-    "silver_development_thread": "Second silver working completed another sale at 21 gross / 8 costs / 13 net; deeper reserve remains unresolved.",
+    "refuge_policy": "The second displaced household remains a regular tenant; Round 132 recorded its first visible spring agricultural work, with population unchanged at 257.",
+    "personal_guard": "500 soldiers remain available; Titus Varenus completed a night command exercise without casualties or changes to force strength.",
+    "silver_development_thread": "The newly secured deep passage remains physically confirmed, but future silver reserve and revenue remain unresolved and unvalued.",
     "family_thread": "The documentary conflict was resolved as an old draft copied without its final cancellation mark; no land transfer, payment, or new encumbrance occurred.",
     "urban_estate_thread": "Open-access facility policy remains in force; ordinary merchant use has now produced a concrete cost-recovery transaction.",
-    "merchant_access_thread": "Merchant access remains open under existing lawful rules; the new Merchant Affairs Office now coordinates merchant, lake-port, artisan, and estate commercial channels.",
+    "merchant_access_thread": "Merchant Affairs Office remains active; the Round 131 archival accounting discrepancy was resolved in Round 132 without financial loss.",
     "library_thread": "The technical measurement method tested in Round 117 became a formal working standard for selected estate commercial lots.",
     "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
     "trade_capitalization_thread": "Round 119 further consolidated the trade system: the Merchant Affairs Office is established under Valerius's sister; an unexpected lake-port bargain realized 33 denarii net; the recurring agreement realized 30 denarii net.",
-    "six_acre_parcel_thread": "Six-acre parcel suffered winter waterlogging and received a 5-denarii drainage repair; no acreage changed and future yield remains unresolved.",
+    "six_acre_parcel_thread": "The six-acre parcel's repaired drainage passed its first spring inspection; no acreage or speculative yield changed.",
     "estate_expansion_thread": "Round 119 added 15.000000 square miles / 9,600 acres of contiguous prime productive land bordering the principal estate. The all-in acquisition price was 380 denarii including estate improvements and labor-contract obligations; 420 denarii of private reserves were liquidated, leaving 40 denarii liquid privately. Total holding: 22.959375 square miles / 14,694 acres.",
-    "deep_mine_supply_thread": "Titus Serranus's winning supply method is implemented and the connected mine network remains active.",
-    "waterway_thread": "Underground waterway R&D continues after the successful controlled floating-load proof."
+    "deep_mine_supply_thread": "Titus Serranus's supply method remains implemented; the major passage opened in Round 131 is now secured for controlled continued work.",
+    "waterway_thread": "The underground waterway completed a second successful controlled floating-load movement through the previously restrictive section; unrestricted traffic remains uncertified.",
+    "political_thread": "Valerius's administrative review produced a formal clarification defining the remaining procedural question; the civic process continues without an invented office or decree."
   },
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 21.593666370314224,
+    "roll": 86.0465596008094,
     "special_triggered": false,
     "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      9.133296685160818,
-      91.37031811541961,
-      17.750986247823086
+      17.9964366825856,
+      40.1169350821948,
+      54.4728241456671
     ],
     "magnitude_11_events": 0,
     "generated_magnitude_11_events": [],
-    "ultimate_reclassification_events": [
-      "E01 qualified as Ultimate from current circumstances after five consecutive no-Ultimate rounds."
-    ],
+    "ultimate_reclassification_events": [],
     "random_generation": "fresh local resolution",
-    "ultimate_gate": "PASS — E01 committed as Ultimate; no random Special/Magnitude-11 event.",
+    "ultimate_gate": "PASS",
     "post_commit_verification": "PASS",
-    "canonical_pointer_synchronization": "PASS"
+    "canonical_pointer_synchronization": "PASS",
+    "background_thread_advancement": "PASS",
+    "background_source_attachment": "PASS"
   },
   "character_registry": {
     "schema_version": "gmv-character-registry-v1",
@@ -1629,6 +1630,19 @@
         "Special": 0,
         "Ultimate": 1
       }
+    },
+    {
+      "round": 132,
+      "date": "10 May 57 BCE",
+      "directive": "Continue all established political, mining, waterway, military, commercial, estate, scholarly, and tenancy directives from the verified Round 131 state.",
+      "event_count": 8,
+      "classification_summary": {
+        "Direct": 1,
+        "Connected": 6,
+        "Surprise": 1,
+        "Special": 0,
+        "Ultimate": 0
+      }
     }
   ],
   "wealth_accounts": {
@@ -1640,8 +1654,8 @@
   },
   "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
   "trade_capitalization_thread": "Round 120 completed the first Merchant Affairs Office capitalization cycle at 61 gross / 24 costs / 37 net and established an immediate-response procedure for lake-port disruptions.",
-  "rounds_since_last_ultimate": 1,
-  "last_ultimate_round": 119,
+  "rounds_since_last_ultimate": 2,
+  "last_ultimate_round": 131,
   "ultimate_event_created_this_round": false,
   "merchant_affairs_office": {
     "status": "active",
