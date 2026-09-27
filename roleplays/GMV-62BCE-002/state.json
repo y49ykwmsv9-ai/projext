@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "round": 133,
-  "date": "-0057-05-17",
+  "round": 134,
+  "date": "-0057-05-24",
   "treasury": 668,
   "wealth_accounts": {
-    "public": 3901.1,
-    "private": 736.8,
+    "public": 3928.4,
+    "private": 741.5,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 30,
-    "last_round_private_transfer": 3
+    "last_round_net_public_profit": 32,
+    "last_round_private_transfer": 4.7
   },
   "metrics": {
     "soldiers": 500,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 13220,
+    "intelligence": 13969,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
@@ -87,28 +87,28 @@
     "rule": "Special is a core event category; every round performs an independent Special roll. Successful Magnitude-11 checks independently generate Special events; Ultimate remains a separate post-generation classification gate.",
     "base_probability_percent": 12,
     "current_round_base_probability_percent": 12,
-    "current_round_roll": 88.44243928279695,
+    "current_round_roll": 73.3895623228682,
     "current_round_selected": false,
     "current_round_event_id": null,
     "magnitude_11_probability_percent": 4.7283,
     "current_round_magnitude_11_checks": [
-      88.29056898626303,
-      66.5556462064758,
-      62.88806723062413
+      60.621115516452726,
+      96.11527023265882,
+      61.274082858419774
     ],
     "current_round_magnitude_11_events": 0
   },
   "latest_schema": "gmv-round-v4",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 88.44243928279695,
+    "roll": 73.3895623228682,
     "special_triggered": false,
     "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      88.29056898626303,
-      66.5556462064758,
-      62.88806723062413
+      60.621115516452726,
+      96.11527023265882,
+      61.274082858419774
     ],
     "magnitude_11_events": 0,
     "generated_magnitude_11_events": [],
@@ -116,8 +116,8 @@
     "ultimate_reclassification_events": [],
     "random_generation": "fresh local resolution",
     "ultimate_gate": "PASS",
-    "post_commit_verification": "PASS",
-    "canonical_pointer_synchronization": "PASS",
+    "post_commit_verification": "PENDING",
+    "canonical_pointer_synchronization": "PENDING",
     "background_thread_advancement": "PASS",
     "background_source_attachment": "PASS"
   },
@@ -133,8 +133,8 @@
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 134,
-    "next_date": "-0057-05-24"
+    "next_round": 135,
+    "next_date": "31 May 57 BCE"
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1256,43 +1256,42 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 13220,
+    "intelligence": 13969,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
     "treasury": 668,
-    "public_account": 3901.1,
-    "private_account": 736.8,
+    "public_account": 3928.4,
+    "private_account": 741.5,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 72,
-      "operating_costs_denarii": 42,
-      "net_public_profit_denarii": 30,
-      "private_transfer_denarii": 3,
-      "public_account_change_denarii": 27,
-      "private_account_change_denarii": 3,
+      "gross_receipts_denarii": 79,
+      "operating_costs_denarii": 47,
+      "net_public_profit_denarii": 32,
+      "private_transfer_denarii": 4.7,
+      "public_account_change_denarii": 27.3,
       "treasury_change_denarii": 0,
-      "currency_flow_denarii": 30
+      "currency_flow_denarii": 32
     }
   },
   "round_delta_ledger": {
     "intelligence": {
-      "before": 12489,
-      "change": 731,
-      "after": 13220,
+      "before": 13220,
+      "change": 749,
+      "after": 13969,
       "unit": "points"
     },
     "public_account": {
-      "before": 3874.1,
-      "change": 27,
-      "after": 3901.1,
+      "before": 3901.1,
+      "change": 27.3,
+      "after": 3928.4,
       "unit": "denarii"
     },
     "private_account": {
-      "before": 733.8,
-      "change": 3,
-      "after": 736.8,
+      "before": 736.8,
+      "change": 4.7,
+      "after": 741.5,
       "unit": "denarii"
     },
     "treasury": {
@@ -1363,18 +1362,18 @@
     "generation_model": "simulate broadly -> allow background development -> detect material developments -> consolidate each causal chain into one event -> output significant news only",
     "background_activity_policy": "Established sources continue to change state silently; only significant developments become player-facing events.",
     "ai_ledger_policy": "Every event ledger distinguishes event-caused changes from background-source changes and names each background source specifically; background changes are not attributed to the event itself.",
-    "status": "round_119_verified",
+    "status": "round_134_verified",
     "verification": {
-      "round": 119,
-      "date": "-0057-02-08",
-      "status": "PASS",
-      "round_file": "roleplays/GMV-62BCE-002/rounds/round-119.json",
-      "news_file": "roleplays/GMV-62BCE-002/news/round-119.json",
-      "canonical_pointer": "Round 119 verified"
+      "round": 134,
+      "date": "-0057-05-24",
+      "status": "PENDING",
+      "round_file": "roleplays/GMV-62BCE-002/rounds/round-134.json",
+      "news_file": "roleplays/GMV-62BCE-002/news/round-134.json",
+      "canonical_pointer": "Round 134 pending post-commit verification"
     }
   },
-  "next_round": 134,
-  "next_date": "-0057-05-24",
+  "next_round": 135,
+  "next_date": "-0057-05-31",
   "round_history": [
     {
       "round": 116,
@@ -1478,6 +1477,19 @@
         "Special": 0,
         "Ultimate": 0
       }
+    },
+    {
+      "round": 134,
+      "date": "-0057-05-24",
+      "directive": "Continue all established political, mining, waterway, military, commercial, estate, scholarly, and tenancy directives from the verified Round 133 state.",
+      "event_count": 8,
+      "classification_summary": {
+        "Direct": 1,
+        "Connected": 6,
+        "Surprise": 1,
+        "Special": 0,
+        "Ultimate": 0
+      }
     }
   ],
   "ai_event_ledger_present": true,
@@ -1520,10 +1532,10 @@
   "last_ultimate_round": 131,
   "ultimate_event_created_this_round": false,
   "canonical_pointer": {
-    "latest_round": 133,
-    "latest_date": "-0057-05-17",
-    "round_file": "roleplays/GMV-62BCE-002/rounds/round-133.json",
-    "news_file": "roleplays/GMV-62BCE-002/news/round-133.json",
+    "latest_round": 134,
+    "latest_date": "-0057-05-24",
+    "round_file": "roleplays/GMV-62BCE-002/rounds/round-134.json",
+    "news_file": "roleplays/GMV-62BCE-002/news/round-134.json",
     "state_file": "roleplays/GMV-62BCE-002/state.json",
     "scenario_file": "roleplays/GMV-62BCE-002/scenario.json"
   },
