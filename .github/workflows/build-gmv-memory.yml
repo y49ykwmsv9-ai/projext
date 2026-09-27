@@ -31,7 +31,7 @@ jobs:
               for p in sorted(d.glob("round-*.json")):
                   try:
                       data = json.loads(p.read_text(encoding="utf-8"))
-                      rounds.append((data.get("round_number", 0), cid, chapter, data))
+                      rounds.append((data.get("round_number", data.get("round", 0)), cid, chapter, data))
                   except Exception:
                       pass
           rounds.sort(key=lambda x: x[0])
