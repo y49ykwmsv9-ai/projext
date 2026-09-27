@@ -4,8 +4,8 @@
   "date": "-0057-04-19",
   "treasury": 668,
   "wealth_accounts": {
-    "public": 3760.7,
-    "private": 721.4,
+    "public": 3767.9,
+    "private": 722,
     "private_transfer_rate": 0.1,
     "last_round_net_public_profit": 52,
     "last_round_private_transfer": 5.2
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 10444,
+    "intelligence": 10482,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
@@ -115,18 +115,20 @@
     "ultimate_reclassification_events": [],
     "random_generation": "fresh local resolution",
     "ultimate_gate": "PASS",
-    "post_commit_verification": "PASS",
-    "canonical_pointer_synchronization": "PASS"
+    "post_commit_verification": "PENDING",
+    "canonical_pointer_synchronization": "PASS",
+    "background_thread_advancement": "PASS",
+    "background_source_attachment": "PASS"
   },
   "financial_realization": {
-    "gross_receipts_denarii": 84,
-    "operating_costs_denarii": 32,
-    "net_public_profit_denarii": 52,
-    "private_transfer_denarii": 5.2,
-    "public_account_change_denarii": 46.8,
-    "private_account_change_denarii": 5.2,
+    "gross_receipts_denarii": 97,
+    "operating_costs_denarii": 37,
+    "net_public_profit_denarii": 60,
+    "private_transfer_denarii": 6,
+    "public_account_change_denarii": 54,
+    "private_account_change_denarii": 6,
     "treasury_change_denarii": 0,
-    "currency_flow_denarii": 52
+    "currency_flow_denarii": 60
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
@@ -1253,7 +1255,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 10444,
+    "intelligence": 10482,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
