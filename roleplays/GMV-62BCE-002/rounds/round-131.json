@@ -1,0 +1,475 @@
+{
+  "schema_version": "gmv-round-v4",
+  "scenario_id": "GMV-62BCE-002",
+  "chapter": 2,
+  "round_number": 131,
+  "date": "3 May 57 BCE",
+  "player_directive": "Continue established political, waterway, mining, military-training, commercial, household, and scholarly threads without forcing historical outcomes.",
+  "events": [
+    {
+      "event_id": "GMV-62BCE-002-R131-E01",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "DIRECT",
+      "title": "THE ADMINISTRATIVE QUESTION ENTERS ITS NEXT FORMAL STAGE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The civic administration receives the accumulated memorandum and second petition together, and the procedural question enters its next formal stage. Valerius appears through the established civic process and reviews the record without attempting to turn the dispute into a private matter. The officials handling the papers distinguish the original decision from the later requests for clarification, allowing the underlying administration to continue while the procedural language is examined. The matter remains unresolved in one narrow respect, but the record is now sufficiently organized for the next administrative action to be taken. Valerius's public responsibilities continue separately from his estate affairs. The week's development therefore advances the political thread without inventing a new office, decree, or historical outcome.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 82
+        },
+        "background_sources": [
+          {
+            "source": "Political correspondence maintained by the household — independent civic intelligence",
+            "intelligence": 9
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 91
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "DIRECT",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E02",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE DEEP-MINE SUPPLY SYSTEM REACHES A NEW UNDERGROUND CHAMBER",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus"
+      ],
+      "body": "The deeper crews following Titus Serranus's supply arrangement reach a previously inaccessible underground chamber while extending the established working route. The chamber is not treated as a proven reserve merely because it has been reached; the miners first secure its approach, inspect the surrounding rock, and establish a controlled route for tools and provisions. The discovery matters because the chamber connects two portions of the underground workings that had previously been treated as separate operational problems. The mining standard remains at the deepest secure working while the new junction is assessed. Serranus orders the crews to preserve measurements and samples before any assumption is made about the chamber's ultimate value. The discovery creates a new branch of the established mine system rather than an immediate financial windfall.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 105
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 105
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E03",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE WATERWAY TEAM MAPS THE TRANSITION THAT HAD LIMITED THE SECOND LOAD TEST",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus"
+      ],
+      "body": "Following the successful controlled load movement, the waterway engineers map the transition where water level and clearance had previously imposed the greatest restriction. The measurements identify a workable passage configuration under the tested conditions, although the engineers do not yet certify the entire route for unrestricted traffic. Titus Serranus compares the findings with the mine-side requirements because both projects now depend upon careful underground logistics. The work strengthens the technical record without requiring a new treasury allocation. The result is another incremental advance in a project whose difficult sections remain under active observation.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 78
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 78
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E04",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "A COMMERCIAL SILVER SETTLEMENT FOLLOWS THE NEW EXTRACTION CYCLE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius"
+      ],
+      "body": "The latest ordinary extraction cycle produces a payable silver lot that the Merchant Affairs Office can settle after weighing and acceptance. The transaction realizes 33 denarii in gross receipts against 13 denarii in operating and handling costs, leaving 20 denarii of net public profit. The standing ten-percent routing transfers 2 denarii to the private account while 18 denarii remains public. The office records the payment only after the lot is accepted and does not assign value to material still underground. The settlement provides another realized commercial result while leaving the newly reached underground chamber financially unvalued.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 68
+        },
+        "background_sources": [
+          {
+            "source": "Estate agricultural surplus cycle — independently realized background estate activity",
+            "intelligence": 12,
+            "financial_realization": {
+              "gross_receipts_denarii": 10,
+              "operating_costs_denarii": 4,
+              "net_public_profit_denarii": 6,
+              "private_transfer_denarii": 0.6,
+              "treasury_change_denarii": 0,
+              "public_account_change_denarii": 5.4,
+              "private_account_change_denarii": 0.6,
+              "currency_flow_denarii": 6
+            }
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 80,
+          "public_account": 23.4,
+          "private_account": 2.6
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 33,
+          "operating_costs_denarii": 13,
+          "net_public_profit_denarii": 20,
+          "private_transfer_denarii": 2,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 18,
+          "private_account_change_denarii": 2,
+          "currency_flow_denarii": 20
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E05",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "TITUS VARENUS BRINGS THE 500-MAN FORCE THROUGH A FULL COMMAND EXERCISE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Varenus"
+      ],
+      "body": "Titus Varenus conducts a larger command exercise with the full 500-man force, bringing the recently recruited veterans through the same command structure as the men already under Valerius's officers. The exercise tests movement, relay of orders, and coordinated response without being represented as a battle or deployment. The veterans demonstrate that they can operate within the established organization without requiring a separate command identity. No soldiers are added or removed and no casualties occur. The exercise nevertheless gives Varenus a more complete picture of the force's practical coordination. The personal guard remains the command structure for regular men rather than becoming a separate military formation.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 72
+        },
+        "background_sources": [
+          {
+            "source": "Personal-guard road-watch reports — independent routine security intelligence",
+            "intelligence": 6
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 78
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E06",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "SURPRISE",
+      "title": "A MERCHANT DISPUTE EXPOSES A DIFFERENCE BETWEEN TWO OLD ACCOUNTING RECORDS",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Quintus Vibius",
+        "Marcus Lartius",
+        "Lucius Marcius"
+      ],
+      "body": "Quintus Vibius and Marcus Lartius encounter a disagreement between two older merchant records while reconciling the latest shipment accounts. The discrepancy concerns the description of an earlier handling charge rather than the value of the newly settled shipment, and neither merchant can immediately establish which copy reflects the original notation. The matter is therefore preserved for comparison against the household archive instead of being treated as a new expense or loss. Lucius Marcius is asked to locate the corresponding correspondence, bringing the commercial and scholarly record systems into temporary contact. No money is moved on the strength of the disputed entry. The discovery is unexpected but grounded in the growing volume of records produced by the established commercial network.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 57
+        },
+        "background_sources": [],
+        "event_total_effect": {
+          "intelligence": 57
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "SURPRISE",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E07",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "CONNECTED",
+      "title": "THE LIBRARY ARCHIVE LOCATES THE OLDER COMMERCIAL CORRESPONDENCE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Lucius Marcius"
+      ],
+      "body": "Lucius Marcius searches the estate correspondence archive after the merchant accounting discrepancy is reported and locates an older exchange that bears directly on the disputed notation. The recovered correspondence does not by itself create new income or expense, but it gives the household a contemporary record against which the merchant copies can be compared. Marcius preserves the document with the existing catalog rather than removing it from the scholarly archive for commercial convenience. The episode demonstrates the practical value of the increasingly organized library records. The accounting question is therefore narrowed without being falsely declared settled before the remaining comparison is complete.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 61
+        },
+        "background_sources": [
+          {
+            "source": "Estate library cataloguing — independent scholarly activity",
+            "intelligence": 13
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 74
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "CONNECTED",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    },
+    {
+      "event_id": "GMV-62BCE-002-R131-E08",
+      "round_number": 131,
+      "date": "3 May 57 BCE",
+      "event_category": "ULTIMATE",
+      "title": "THE DEEPEST WORKING OPENS INTO A MAJOR NEW MINING PASSAGE",
+      "mentioned_entities": [
+        "Gaius Maximus Valerius",
+        "Titus Serranus"
+      ],
+      "body": "The discovery beneath the deep workings becomes far more significant than the first inspection suggested. As the crews secure the newly reached chamber and clear the connecting passage, the underground route opens into a substantial natural continuation of the mine system, allowing workers to establish a stable connection between workings that had previously required separate approaches. Lamps and tools move forward under the protection of the established supply line while the crews mark the walls, measure the passage, and secure the vulnerable sections before permitting wider movement. Titus Serranus is present as the first measurements are assembled, and the significance of the discovery becomes clear: the mine has not merely acquired another room, but a new underground passage through which future excavation can be organized. The mining standard remains planted behind the working crews, visible from the newly secured route, and becomes a physical marker of how far the operation has advanced. No future silver reserve is assigned a monetary value from the discovery, and no speculative revenue is booked. What has been realized is the passage itself, the improved knowledge of the underground structure, and a materially expanded field for future extraction and research. The discovery changes the physical understanding of the mine more substantially than any earlier single excavation advance, while the difficult work of securing and evaluating the passage remains ahead.",
+      "ai_ledger": {
+        "event_caused": {
+          "intelligence": 145
+        },
+        "background_sources": [
+          {
+            "source": "Deep-mine shift logs and supply-route reports — independent operational intelligence",
+            "intelligence": 12
+          }
+        ],
+        "event_total_effect": {
+          "intelligence": 157
+        },
+        "financial_realization": {
+          "gross_receipts_denarii": 0,
+          "operating_costs_denarii": 0,
+          "net_public_profit_denarii": 0,
+          "private_transfer_denarii": 0,
+          "treasury_change_denarii": 0,
+          "public_account_change_denarii": 0,
+          "private_account_change_denarii": 0,
+          "currency_flow_denarii": 0
+        },
+        "classification_audit": {
+          "final_category": "ULTIMATE",
+          "causal_basis": "Established campaign thread"
+        }
+      }
+    }
+  ],
+  "current_total_ledger": {
+    "soldiers": 500,
+    "population": 257,
+    "taxation": 3,
+    "economy": 100,
+    "agriculture": 100,
+    "infrastructure": 100,
+    "trade": 100,
+    "readiness": 100,
+    "morale": 100,
+    "supply": 0,
+    "organization": 100,
+    "stability": 100,
+    "legitimacy": 100,
+    "technology": 100,
+    "exhaustion": 100,
+    "intelligence": 11844,
+    "relations": 100,
+    "land_area_sq_miles": 22.959375,
+    "temporary_unavailable": 0
+  },
+  "financial_ledger": {
+    "treasury": 668,
+    "public_account": 3839.9,
+    "private_account": 730,
+    "realized_financial_effects": {
+      "gross_receipts_denarii": 43,
+      "operating_costs_denarii": 17,
+      "net_public_profit_denarii": 26,
+      "private_transfer_denarii": 2.6,
+      "public_account_change_denarii": 23.4,
+      "private_account_change_denarii": 2.6,
+      "treasury_change_denarii": 0,
+      "currency_flow_denarii": 26
+    }
+  },
+  "classification_summary": {
+    "Direct": 1,
+    "Connected": 6,
+    "Surprise": 1,
+    "Special": 0,
+    "Ultimate": 1
+  },
+  "special_event_resolution": {
+    "base_probability_percent": 12,
+    "roll": 44.04832928415878,
+    "special_triggered": false,
+    "generated_special_event": null,
+    "magnitude_11_probability_percent": 4.7283,
+    "magnitude_11_checks": [
+      69.16429716413322,
+      95.0987363738689,
+      2.541851221572211
+    ],
+    "magnitude_11_events": 1,
+    "generated_magnitude_11_events": [
+      "E08"
+    ],
+    "magnitude_11_success_auto_ultimate": true,
+    "ultimate_reclassification_events": [
+      "E08"
+    ],
+    "random_generation": "fresh local resolution",
+    "ultimate_gate": "PASS"
+  },
+  "round_delta_ledger": {
+    "intelligence": {
+      "before": 11124,
+      "change": 720,
+      "after": 11844,
+      "unit": "points"
+    },
+    "public_account": {
+      "before": 3816.5,
+      "change": 23.4,
+      "after": 3839.9,
+      "unit": "denarii"
+    },
+    "private_account": {
+      "before": 727.4,
+      "change": 2.6,
+      "after": 730,
+      "unit": "denarii"
+    },
+    "treasury": {
+      "before": 668,
+      "change": 0,
+      "after": 668,
+      "unit": "denarii"
+    },
+    "soldiers": {
+      "before": 500,
+      "change": 0,
+      "after": 500,
+      "unit": "men"
+    },
+    "population": {
+      "before": 257,
+      "change": 0,
+      "after": 257,
+      "unit": "people"
+    },
+    "land_area_sq_miles": {
+      "before": 22.959375,
+      "change": 0,
+      "after": 22.959375,
+      "unit": "square miles"
+    },
+    "temporary_unavailable": {
+      "before": 0,
+      "change": 0,
+      "after": 0,
+      "unit": "men"
+    }
+  },
+  "background_change_ledger": {
+    "total_intelligence": 52,
+    "background_financial": {
+      "gross": 10,
+      "costs": 4,
+      "net": 6,
+      "private": 0.6,
+      "public": 5.4
+    }
+  },
+  "validation_ledger": {
+    "fixed_metric_schema": "PASS",
+    "metric_bounds": "PASS",
+    "financial_reconciliation": "PASS",
+    "plausible_financial_quantification": "PASS",
+    "land_consistency": "PASS",
+    "recurring_character_continuity": "PASS",
+    "event_variety": "PASS",
+    "single_thread_event_integrity": "PASS",
+    "background_thread_advancement": "PASS",
+    "background_source_attachment": "PASS",
+    "current_total_completeness": "PASS",
+    "randomness_integrity": "PASS",
+    "ultimate_event_contract": "PASS",
+    "round_date_numbering": "PASS",
+    "canonical_pointer_synchronization": "READY",
+    "post_commit_verification": "PENDING"
+  },
+  "next_round_gate": {
+    "status": "OPEN_AFTER_COMMIT",
+    "next_round": 132,
+    "next_date": "-0057-05-10"
+  }
+}
