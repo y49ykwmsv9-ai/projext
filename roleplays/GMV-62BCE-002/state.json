@@ -116,8 +116,8 @@
     "ultimate_reclassification_events": [],
     "random_generation": "fresh local resolution",
     "ultimate_gate": "PASS",
-    "post_commit_verification": "PENDING",
-    "canonical_pointer_synchronization": "PENDING",
+    "post_commit_verification": "PASS",
+    "canonical_pointer_synchronization": "PASS",
     "background_thread_advancement": "PASS",
     "background_source_attachment": "PASS"
   },
@@ -1366,10 +1366,10 @@
     "verification": {
       "round": 134,
       "date": "-0057-05-24",
-      "status": "PENDING",
+      "status": "PASS",
       "round_file": "roleplays/GMV-62BCE-002/rounds/round-134.json",
       "news_file": "roleplays/GMV-62BCE-002/news/round-134.json",
-      "canonical_pointer": "Round 134 pending post-commit verification"
+      "canonical_pointer": "Round 134 verified"
     }
   },
   "next_round": 135,
