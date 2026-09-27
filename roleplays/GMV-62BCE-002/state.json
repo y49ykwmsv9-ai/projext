@@ -1,14 +1,14 @@
 {
   "scenario_id": "GMV-62BCE-002",
-  "round": 131,
-  "date": "-0057-05-03",
+  "round": 132,
+  "date": "-0057-05-10",
   "treasury": 668,
   "wealth_accounts": {
-    "public": 3839.9,
-    "private": 730,
+    "public": 3874.1,
+    "private": 733.8,
     "private_transfer_rate": 0.1,
-    "last_round_net_public_profit": 26,
-    "last_round_private_transfer": 2.6
+    "last_round_net_public_profit": 38,
+    "last_round_private_transfer": 3.8
   },
   "metrics": {
     "soldiers": 500,
@@ -26,7 +26,7 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 11844,
+    "intelligence": 12489,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
@@ -61,26 +61,26 @@
   },
   "continuity": {
     "campaign_development": "Valerius has been elected and is now participating in Roman political work; a substantive policy decision has entered ordinary civic administration.",
-    "commercial_thread": "Round 120 realized 61 gross / 24 costs / 37 net through the Merchant Affairs Office; the recurring agreement separately realized 56 gross / 22 costs / 34 net.",
+    "commercial_thread": "Round 132 recurring surplus settlement realized 51 gross / 20 costs / 31 net; 3.1 private / 27.9 public, with an independent spring agricultural surplus of 12 gross / 5 costs / 7 net.",
     "road_thread": "Shared-water road remains open and toll-free; no new road event surfaced this round.",
     "road_investigation": "Completed and classified; remains background canon.",
     "election_thread": "Election resolved in Round 127; subsequent rounds concern policy participation and administration.",
-    "refuge_policy": "The second displaced household is now formally registered as a regular tenant on existing estate land; population remains 257.",
-    "personal_guard": "500 soldiers available overall; the 100-man personal guard remains command cadre within the full force.",
-    "silver_development_thread": "Second silver working realized 27 gross / 11 costs / 16 net; deeper reserve remains unresolved.",
+    "refuge_policy": "The second displaced household remains a regular tenant; Round 132 recorded its first visible spring agricultural work, with population unchanged at 257.",
+    "personal_guard": "500 soldiers remain available; Titus Varenus completed a night command exercise without casualties or changes to force strength.",
+    "silver_development_thread": "The newly secured deep passage remains physically confirmed, but future silver reserve and revenue remain unresolved and unvalued.",
     "family_thread": "The documentary conflict was resolved as an old draft copied without its final cancellation mark; no land transfer, payment, or new encumbrance occurred.",
     "urban_estate_thread": "Independent urban estate rent realized 8 gross / 3 costs / 5 net this round.",
-    "merchant_access_thread": "Merchant Affairs Office remains under Valerius's sister and continues realized commercial settlements.",
+    "merchant_access_thread": "Merchant Affairs Office remains active; the Round 131 archival accounting discrepancy was resolved in Round 132 without financial loss.",
     "library_thread": "The technical measurement method tested in Round 117 became a formal working standard for selected estate commercial lots.",
     "trade_capitalization_directive": "Standing from Round 118: commercially convert saleable surplus and appropriate needed inputs into realized capital through the principal estate, established merchant services, lake port, and skilled artisan network; realized transactions only, with no speculative future receipts.",
     "trade_capitalization_thread": "Round 120 completed the first Merchant Affairs Office capitalization cycle at 61 gross / 24 costs / 37 net; the office remains responsible for coordinating future realized transactions only.",
-    "six_acre_parcel_thread": "Six-acre parcel suffered winter waterlogging and received a 5-denarii drainage repair; no acreage changed and future yield remains unresolved.",
+    "six_acre_parcel_thread": "The six-acre parcel's repaired drainage passed its first spring inspection; no acreage or speculative yield changed.",
     "estate_expansion_thread": "Round 119 added 15 square miles / 9,600 acres. Round 120 placed the full 22.959375-square-mile holding under unified administration.",
     "estate_property_watch": "An old drainage-corridor maintenance memorandum resurfaced in Round 120. The ownership claim was rejected; lawful drainage access was preserved; no acreage changed.",
-    "deep_mine_supply_thread": "Titus Serranus's winning deep-mine supply method is implemented and the connected mine network remains active.",
+    "deep_mine_supply_thread": "Titus Serranus's supply method remains implemented; the major passage opened in Round 131 is now secured for controlled continued work.",
     "mining_standard_thread": "The dedicated mining standard is planted at the deepest secure working; it remains separate from the military command vexillum.",
-    "waterway_thread": "Underground waterway R&D continues after a controlled floating-load proof-of-concept.",
-    "political_thread": "Valerius is participating directly in Roman policy debate and administration following election."
+    "waterway_thread": "The underground waterway completed a second successful controlled floating-load movement through the previously restrictive section; unrestricted traffic remains uncertified.",
+    "political_thread": "Valerius's administrative review produced a formal clarification defining the remaining procedural question; the civic process continues without an invented office or decree."
   },
   "special_event_policy": {
     "schema_version": "gmv-special-event-v2",
@@ -101,14 +101,14 @@
   "latest_schema": "gmv-round-v4",
   "end_of_round_checks": {
     "base_probability_percent": 12,
-    "roll": 31.4817831385,
+    "roll": 86.0465596008094,
     "special_triggered": false,
     "generated_special_event": null,
     "magnitude_11_probability_percent": 4.7283,
     "magnitude_11_checks": [
-      17.524841218,
-      11.3282120284,
-      19.3486210083
+      17.9964366825856,
+      40.1169350821948,
+      54.4728241456671
     ],
     "magnitude_11_events": 0,
     "generated_magnitude_11_events": [],
@@ -121,19 +121,19 @@
     "background_source_attachment": "PASS"
   },
   "financial_realization": {
-    "gross_receipts_denarii": 43,
-    "operating_costs_denarii": 17,
-    "net_public_profit_denarii": 26,
-    "private_transfer_denarii": 2.6,
-    "public_account_change_denarii": 23.4,
-    "private_account_change_denarii": 2.6,
+    "gross_receipts_denarii": 63,
+    "operating_costs_denarii": 25,
+    "net_public_profit_denarii": 38,
+    "private_transfer_denarii": 3.8,
+    "public_account_change_denarii": 34.2,
+    "private_account_change_denarii": 3.8,
     "treasury_change_denarii": 0,
-    "currency_flow_denarii": 26
+    "currency_flow_denarii": 38
   },
   "next_round_gate": {
     "status": "OPEN_AFTER_COMMIT",
-    "next_round": 132,
-    "next_date": "-0057-05-10"
+    "next_round": 133,
+    "next_date": "-0057-05-17"
   },
   "reconciliation_adjustments": {
     "round_94_correction": {
@@ -1255,25 +1255,24 @@
     "legitimacy": 100,
     "technology": 100,
     "exhaustion": 100,
-    "intelligence": 10482,
+    "intelligence": 12489,
     "relations": 100,
     "land_area_sq_miles": 22.959375,
     "temporary_unavailable": 0
   },
   "financial_ledger": {
-    "treasury": 1668,
-    "public_account": 3691.1,
-    "private_account": 697,
+    "treasury": 668,
+    "public_account": 3874.1,
+    "private_account": 733.8,
     "realized_financial_effects": {
-      "gross_receipts_denarii": 152,
-      "operating_costs_denarii": 60,
-      "net_public_profit_denarii": 92,
-      "private_transfer_denarii": 9.2,
-      "public_account_change_denarii": 82.8,
-      "private_account_change_denarii": 9.2,
+      "gross_receipts_denarii": 63,
+      "operating_costs_denarii": 25,
+      "net_public_profit_denarii": 38,
+      "private_transfer_denarii": 3.8,
+      "public_account_change_denarii": 34.2,
+      "private_account_change_denarii": 3.8,
       "treasury_change_denarii": 0,
-      "currency_flow_denarii": 92,
-      "note": "37 net from Merchant Affairs Office capitalization + 34 recurring surplus settlement + 16 silver + 5 independent urban rent; 10% private routing = 9.2 denarii."
+      "currency_flow_denarii": 38
     }
   },
   "round_delta_ledger": {
@@ -1348,7 +1347,7 @@
   "private_account": 697,
   "last_round_classification_summary": {
     "Direct": 1,
-    "Connected": 5,
+    "Connected": 6,
     "Surprise": 1,
     "Special": 0,
     "Ultimate": 0
@@ -1451,6 +1450,19 @@
         "Special": 0,
         "Ultimate": 0
       }
+    },
+    {
+      "round": 132,
+      "date": "-0057-05-10",
+      "directive": "Continue all established political, mining, waterway, military, commercial, estate, scholarly, and tenancy directives from the verified Round 131 state.",
+      "event_count": 8,
+      "classification_summary": {
+        "Direct": 1,
+        "Connected": 6,
+        "Surprise": 1,
+        "Special": 0,
+        "Ultimate": 0
+      }
     }
   ],
   "ai_event_ledger_present": true,
@@ -1489,14 +1501,14 @@
     "narrative_rule": "Ultimate narratives receive unusually detailed cinematic treatment; personally experienced Ultimate events use direct second-person perspective.",
     "reclassification_rule": "Every Surprise and Special is inspected by the Ultimate gate. The contingency is separate from random Special and Magnitude-11 resolution and does not bypass event integrity."
   },
-  "rounds_since_last_ultimate": 1,
-  "last_ultimate_round": 128,
+  "rounds_since_last_ultimate": 2,
+  "last_ultimate_round": 131,
   "ultimate_event_created_this_round": false,
   "canonical_pointer": {
-    "latest_round": 131,
-    "latest_date": "-0057-05-03",
-    "round_file": "roleplays/GMV-62BCE-002/rounds/round-131.json",
-    "news_file": "roleplays/GMV-62BCE-002/news/round-131.json",
+    "latest_round": 132,
+    "latest_date": "-0057-05-10",
+    "round_file": "roleplays/GMV-62BCE-002/rounds/round-132.json",
+    "news_file": "roleplays/GMV-62BCE-002/news/round-132.json",
     "state_file": "roleplays/GMV-62BCE-002/state.json",
     "scenario_file": "roleplays/GMV-62BCE-002/scenario.json"
   }
