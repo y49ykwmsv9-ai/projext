@@ -1,0 +1,126 @@
+name: Build GMV Campaign Memory Archive
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'roleplays/GMV-62BCE-001/rounds/**'
+      - 'roleplays/GMV-62BCE-002/rounds/**'
+      - '.github/workflows/build-gmv-memory.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build condensed canonical memory
+        run: |
+          python - <<'PY'
+          import json, pathlib, zipfile, datetime
+
+          root = pathlib.Path("roleplays")
+          campaigns = [
+              ("GMV-62BCE-001", "Chapter I"),
+              ("GMV-62BCE-002", "Chapter II"),
+          ]
+
+          rounds = []
+          for cid, chapter in campaigns:
+              d = root / cid / "rounds"
+              for p in sorted(d.glob("round-*.json")):
+                  try:
+                      data = json.loads(p.read_text(encoding="utf-8"))
+                      rounds.append((data.get("round_number", 0), cid, chapter, data))
+                  except Exception:
+                      pass
+          rounds.sort(key=lambda x: x[0])
+
+          lines = [
+              "# GAIUS MAXIMUS VALERIUS — CANONICAL CAMPAIGN MEMORY ARCHIVE",
+              "",
+              "This archive condenses every canonical round currently present in the repository into one memory-oriented document while retaining full event narrative, classification, named entities, AI ledger effects, background sources, financial realization, round totals, randomness, and validation information.",
+              "",
+              "Campaigns: GMV-62BCE-001 (Chapter I) and GMV-62BCE-002 (Chapter II).",
+              f"Canonical rounds included: {len(rounds)}.",
+              ""
+          ]
+
+          for rn, cid, chapter, r in rounds:
+              lines += ["", "=" * 90, f"ROUND {rn} — {r.get('date','')} — {chapter} — {cid}", "=" * 90]
+              if r.get("directive"):
+                  lines.append("Directive: " + r["directive"])
+              if r.get("inherited_state"):
+                  lines.append("Inherited state: " + json.dumps(r["inherited_state"], ensure_ascii=False, sort_keys=True))
+              lines.append("")
+
+              for i, e in enumerate(r.get("events", []), 1):
+                  lines += [
+                      f"EVENT {i:02d} — {e.get('title','')}",
+                      f"Event ID: {e.get('event_id','')}",
+                      f"Type: {e.get('event_category','')}",
+                      f"Date: {e.get('date', r.get('date',''))}",
+                      "Mentioned entities: " + ", ".join(e.get("mentioned_entities", [])),
+                      "",
+                      "FULL EVENT NARRATIVE",
+                      e.get("body",""),
+                      "",
+                      "AI-FACING EVENT LEDGER"
+                  ]
+                  ledger = e.get("ai_ledger", {})
+                  lines.append(json.dumps(ledger.get("event_caused", {}), ensure_ascii=False, sort_keys=True))
+                  if ledger.get("background_sources"):
+                      lines.append("BACKGROUND SOURCES")
+                      for b in ledger["background_sources"]:
+                          lines.append("- " + json.dumps(b, ensure_ascii=False, sort_keys=True))
+                  lines.append("Event total effect: " + json.dumps(ledger.get("event_total_effect", {}), ensure_ascii=False, sort_keys=True))
+                  lines.append("Financial realization: " + json.dumps(ledger.get("financial_realization", {}), ensure_ascii=False, sort_keys=True))
+                  lines.append("Classification audit: " + json.dumps(ledger.get("classification_audit", {}), ensure_ascii=False, sort_keys=True))
+                  lines.append("")
+
+              for key, label in [
+                  ("current_total_ledger","CURRENT TOTAL LEDGER"),
+                  ("financial_ledger","FINANCIAL LEDGER"),
+                  ("classification_summary","CLASSIFICATION SUMMARY"),
+                  ("special_event_resolution","SPECIAL / MAGNITUDE-11 RESOLUTION"),
+                  ("round_delta_ledger","ROUND DELTA LEDGER"),
+                  ("background_change_ledger","BACKGROUND CHANGE LEDGER"),
+                  ("validation_ledger","VALIDATION LEDGER"),
+                  ("next_round_gate","NEXT-ROUND GATE")
+              ]:
+                  if key in r:
+                      lines += [label, json.dumps(r[key], ensure_ascii=False, indent=2, sort_keys=True), ""]
+
+          text = "\n".join(lines)
+          out = pathlib.Path("GMV-CANONICAL-MEMORY.md")
+          out.write_text(text, encoding="utf-8")
+
+          manifest = {
+              "archive_type": "GMV canonical memory archive",
+              "generated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "rounds_included": len(rounds),
+              "campaigns": [x[0] for x in campaigns],
+              "latest_round": max((x[0] for x in rounds), default=None),
+              "latest_date": max(rounds, key=lambda x:x[0])[3].get("date") if rounds else None,
+              "source": "repository canonical round JSON files"
+          }
+          pathlib.Path("GMV-CANONICAL-MEMORY-MANIFEST.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+
+          zip_path = pathlib.Path("GMV-CANONICAL-MEMORY-ARCHIVE.zip")
+          with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+              z.write(out, out.name)
+              z.write("GMV-CANONICAL-MEMORY-MANIFEST.json", "GMV-CANONICAL-MEMORY-MANIFEST.json")
+              for cid, _ in campaigns:
+                  d = pathlib.Path("roleplays") / cid / "rounds"
+                  for p in sorted(d.glob("round-*.json")):
+                      z.write(p, f"source_rounds/{cid}/{p.name}")
+          print(f"Built {zip_path} ({zip_path.stat().st_size} bytes) with {len(rounds)} rounds")
+          PY
+      - name: Upload memory archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: GMV-CANONICAL-MEMORY-ARCHIVE
+          path: |
+            GMV-CANONICAL-MEMORY-ARCHIVE.zip
+            GMV-CANONICAL-MEMORY.md
+            GMV-CANONICAL-MEMORY-MANIFEST.json
