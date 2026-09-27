@@ -106,9 +106,14 @@ jobs:
           }
           pathlib.Path("GMV-CANONICAL-MEMORY-MANIFEST.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
-          missing = [n for n in range(1, max((x[0] for x in rounds), default=0)+1) if n not in {x[0] for x in rounds}]
-          manifest["missing_round_numbers"] = missing
-          manifest["note"] = "Missing source round files are listed rather than reconstructed."
+          chapter_ranges = {"GMV-62BCE-001": range(1, 115), "GMV-62BCE-002": range(115, 134)}
+          missing_by_campaign = {}
+          for cid, rng in chapter_ranges.items():
+              present = {x[0] for x in rounds if x[1] == cid}
+              missing_by_campaign[cid] = [n for n in rng if n not in present]
+          manifest["missing_round_numbers_by_campaign"] = missing_by_campaign
+          manifest["duplicate_round_metadata_files"] = ["roleplays/GMV-62BCE-001/rounds/round-098.json"]
+          manifest["note"] = "Missing source round files are listed rather than reconstructed; round-098.json is a metadata-only duplicate-format record while round-98.json contains the full Round 98 event record."
           pathlib.Path("GMV-CANONICAL-MEMORY-MANIFEST.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
           work = pathlib.Path("/tmp/gmv-memory-archive")
