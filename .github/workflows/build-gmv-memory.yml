@@ -126,7 +126,7 @@ jobs:
                   d = pathlib.Path("roleplays") / cid / "rounds"
                   for p in sorted(d.glob("round-*.json")):
                       z.write(p, f"source_rounds/{cid}/{p.name}")
-          print(f"Built {zip_path} ({zip_path.stat().st_size} bytes) with {len(rounds)} rounds; missing={missing}")
+          print(f"Built {zip_path} ({zip_path.stat().st_size} bytes) with {len(rounds)} rounds; missing_by_campaign={missing_by_campaign}")
           PY
       - name: Upload memory archive
         uses: actions/upload-artifact@v4
